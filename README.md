@@ -1,3 +1,2 @@
-[![FAIR checklist badge](https://fairsoftwarechecklist.net/badge.svg)](https://fairsoftwarechecklist.net/v0.2?f=11&a=20112&i=11111&r=131)
- 
- 
+# fair_scorecard
+A library to quantity FAIR standards with some additional principles
