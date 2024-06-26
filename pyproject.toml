@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "how-fair-is-it-v1"
+name = "fair_scorecard"
 version = "0.1.0"
 description = ""
-authors = ["Mari <74034683+mariamartz@users.noreply.github.com>"]
+authors = ["CUAHSI"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
@@ -10,8 +10,13 @@ python = "^3.10"
 pandas = "^2.2.2"
 numpy = "^1.26.4"
 requests = "^2.32.3"
+click = "^8.1.7"
 
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+package-mode = false 
