@@ -61,7 +61,7 @@ def f1_unique_identifier(data):
     
     """
     #check if the repository has a unique identifier based on the search words listed below.
-    search_words =['unique identifier','DOI','zenodo','badge']
+    search_words =['unique identifier','DOI','zenodo']
     found =[]
     for word in search_words:
         if word in data:
