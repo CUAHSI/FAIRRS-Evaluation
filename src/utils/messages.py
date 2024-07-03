@@ -18,7 +18,7 @@ def print_f1_principle(expected, standard):
     None
     """
     #print the FAIR principles based on the expected and standard 
-    if expected == standard:
+    if expected >0:
         click.echo(click.style(f'✔ F1. Software is assigned a globally unique and persistent identifier - DOI or SWHID was FOUND', fg='green'))
     else:
         click.echo(click.style(f'✘ F1. Software is NOT assigned a globally unique and persistent identifier- A DOI or SWHID was NOT FOUND', fg='red'))
@@ -73,7 +73,7 @@ def print_f1_2principle(expected, standard,duplicates):
 
 
     #print the FAIR principles based on the expected and standard 
-    if expected ==standard and duplicates <0:
+    if expected ==standard and duplicates ==0:
         click.echo(click.style(f'✔ F1.2. Different versions of the software are assigned distinct identifiers. Total versions found using semantic versioning {expected}/{standard}. No duplicates found ', fg='green'))
     elif standard ==0:
         click.echo(click.style(f'✘ F1.2. Different versions of the software are NOT assigned distinct identifiers. No VERSIONING FOUND', fg='red'))
