@@ -2,6 +2,13 @@ import requests
 
 def get_repository_metadata(repo_name,owner_name,installation_id):
 
+    """
+    
+    Fetches GitHub repository metadata using the repository and owner names, along with the installation 
+    ID of the GitHub Metadata Extractor for FAIRsoft GitHub App.
+    
+    """
+
     endpoint_url = 'https://observatory.openebench.bsc.es/github-metadata-api/metadata'
 
     payload = {

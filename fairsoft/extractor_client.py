@@ -2,6 +2,12 @@ import requests
 
 
 def get_installation_id(repo_name,owner_name):
+    """
+    
+    Retrieves installation ID of GitHub for Metadata Extractor App; this must be installed in user workspace
+    with read access to input repository.
+    
+    """
 
     # api endpoint to retrieve Metadata Extractor installation id
     endpoint_url = f'https://observatory.openebench.bsc.es/github-metadata-api/metadata-extractor-for-fairsoft/installation/id?owner={owner_name}&repo={repo_name}'

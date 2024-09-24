@@ -1,32 +1,41 @@
 import requests
 
 def get_jsonld_metadata(metadata):
+    """
+    
+    Returns JSON-LD file from metadata input for updating metadata in the GitHub repository.
+    
+    """
+
+    # remove the 'version' field -- not sure why but this field is not recognized
+    if 'version' in metadata:
+        del metadata['version']
 
     endpoint_url = 'https://observatory.openebench.bsc.es/api/tools/jsonld'
 
+    # define payload and content type headers
     payload = {
-        'tool_metadata': metadata
+        'data': metadata
     }
-
-    response = requests.post(endpoint_url,data=payload)
+    headers = {
+        'Content-Type': 'application/json'
+    }
 
     try:
         # get the response
-        response = requests.get(endpoint_url)
+        response = requests.post(endpoint_url,data=payload,headers=headers)
         response.raise_for_status()
 
         if response.status_code == 200:
             # extract the json response
             json_response = response.json()
 
-            if json_response['result'] is not None:
-                # retrieve the results and logs
-                results = json_response['result']
-                logs = json_response['logs']
-                return results,logs
+            if json_response is not None:
+                # retrieve the json-ld
+                return json_response
             
             else:
-                print('Error in obtaining FAIRsoft evaluation results.')
+                print('Error in obtaining JSON-LD.')
                 return None
 
     except requests.exceptions.HTTPError as http_err:

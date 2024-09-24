@@ -1,22 +1,37 @@
 import requests
 
 def get_fairsoft_results_and_logs(metadata):
+    """
+    
+    Retrieves FAIRsoft results and evaluation through metadata input into the Software Observatory API.
+    
+    """
+
+
+    # remove the 'version' field -- not sure why but this field is not recognized in payload,
+    # even though value is empty list
+    if 'version' in metadata:
+        del metadata['version']
 
     endpoint_url = 'https://observatory.openebench.bsc.es/api/fair/evaluate'
 
+    # define payload and content type headers
     payload = {
         'tool_metadata': metadata
     }
-
+    headers = {
+        'Content-Type': 'application/json'
+    }
+    
     try:
         # get the response
-        response = requests.post(endpoint_url,data=payload)
+        response = requests.post(endpoint_url,json=payload,headers=headers)
         response.raise_for_status()
 
         if response.status_code == 200:
             # extract the json response
             json_response = response.json()
-            print(json_response)
+
             if json_response['result'] is not None:
                 # retrieve the results and logs
                 results = json_response['result']

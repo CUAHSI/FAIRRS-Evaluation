@@ -3,6 +3,11 @@ import urllib.parse as urlparse
 
 
 def get_github_repo_and_owner(url):
+    """
+    
+    Parses github url input (string) into repository and owner name.
+    
+    """
 
     # get path from url
     path = urlparse.urlparse(url).path
