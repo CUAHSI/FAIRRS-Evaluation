@@ -1,6 +1,6 @@
 import requests
 
-def get_repository_metadata(repo_name,owner_name,installation_id):
+def get_repository_metadata(installation_id,owner_name,repo_name):
 
     """
     

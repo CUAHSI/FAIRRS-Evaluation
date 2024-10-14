@@ -1,13 +1,35 @@
+import os
 import requests
+import urllib.parse as urlparse
 
 
-def get_installation_id(repo_name,owner_name):
+def get_github_repo_and_owner(url):
+    """
+    
+    Parses github url input (string) into repository and owner name.
+    
+    """
+
+    # get path from url
+    path = urlparse.urlparse(url).path
+    # split the path into head (owner) and tail (repo)
+    owner_name, repo_name = os.path.split(path)
+    # remove leading slash from owner
+    owner_name = owner_name.lstrip("/")
+
+    return owner_name, repo_name
+
+
+def get_installation_id(url):
     """
     
     Retrieves installation ID of GitHub for Metadata Extractor App; this must be installed in user workspace
     with read access to input repository.
     
     """
+    
+    # parse repository and owner names for feeding into the GitHub Metadata Extractor API
+    owner_name, repo_name = get_github_repo_and_owner(url)
 
     # api endpoint to retrieve Metadata Extractor installation id
     endpoint_url = f'https://observatory.openebench.bsc.es/github-metadata-api/metadata-extractor-for-fairsoft/installation/id?owner={owner_name}&repo={repo_name}'
@@ -24,7 +46,7 @@ def get_installation_id(repo_name,owner_name):
             # 'data' field is null if the app is not installed with owner's repository
             if json_response['data'] is not None:
                 installation_id = json_response['data']['data']['id']
-                return installation_id
+                return installation_id,owner_name,repo_name
             
             else:
                 print('Need to install Metadata Extractor for FairSoft GitHub app.')

@@ -1,3 +1,4 @@
+import json
 import requests
 
 def get_jsonld_metadata(metadata):
@@ -23,7 +24,8 @@ def get_jsonld_metadata(metadata):
 
     try:
         # get the response
-        response = requests.post(endpoint_url,data=payload,headers=headers)
+        # need to send POST request with json encoded data
+        response = requests.post(endpoint_url,data=json.dumps(payload),headers=headers)
         response.raise_for_status()
 
         if response.status_code == 200:
@@ -45,4 +47,4 @@ def get_jsonld_metadata(metadata):
     except requests.exceptions.Timeout as timeout_err:
         print(f"Timeout error occurred: {timeout_err}")
     except requests.exceptions.RequestException as req_err:
-        print(f"An error occurred: {req_err}")      
+        print(f"An error occurred: {req_err}")
