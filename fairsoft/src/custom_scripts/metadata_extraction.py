@@ -266,6 +266,7 @@ def github_metadata(ghObject):
         'isLocked': ghObject["isLocked"],
         'isPrivate': ghObject["isPrivate"],
         'isTemplate': ghObject["isTemplate"],
+        # 'version': ghObject.releases.nodes.map((node) => node.tagName),
         'license': build_license(ghObject),
         'repository': remove_null([ 
             ghObject["url"]
@@ -304,7 +305,7 @@ def github_metadata(ghObject):
 
     return metadata
 
-def main(github_url):
+def get_repository_metadata(github_url):
 
     # get github access token
     token = get_access_token()
