@@ -12,6 +12,9 @@ def get_fairsoft_scores_and_evaluation(metadata):
     # even though value is empty list
     if 'version' in metadata:
         del metadata['version']
+        # add version control field (R.4.1) and set to True
+        metadata['version_control'] = True
+
 
     endpoint_url = 'https://observatory.openebench.bsc.es/api/fair/evaluate'
 
