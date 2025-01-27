@@ -1,0 +1,78 @@
+{
+    "@context": {
+        "schema": "https://schema.org/",
+        "bs": "https://bioschemas.org/terms/",
+        "codemeta": "https://w3id.org/codemeta/",
+        "rdf": "https://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "https://www.w3.org/2000/01/rdf-schema#",
+        "maSMP": "https://discovery.biothings.io/view/maSMP/"
+    },
+    "@type": "schema:SoftwareApplication",
+    "schema:name": "mosartwmpy",
+    "@id": "https://openebench.bsc.es/bioschemas/tools/observatory:mosartwmpy:0.6.2/",
+    "schema:description": "Python translation of MOSART-WM: a water routing and management model",
+    "schema:license": [
+        {
+            "@type": "schema:CreativeWork",
+            "schema:name": "Other",
+            "schema:url": "http://choosealicense.com/licenses/other/"
+        }
+    ],
+    "schema:author": [
+        {
+            "@type": "schema:Person",
+            "schema:name": "Travis Thurber"
+        },
+        {
+            "@type": "schema:Person",
+            "schema:name": "Emily Rexer"
+        },
+        {
+            "@type": "schema:Person",
+            "schema:name": "Chris Vernon"
+        },
+        {
+            "@type": "schema:Person",
+            "schema:name": "Ning Sun"
+        },
+        {
+            "@type": "schema:Person",
+            "schema:name": "Sean Turner"
+        },
+        {
+            "@type": "schema:Person",
+            "schema:name": "Jim Yoon"
+        },
+        {
+            "@type": "schema:Person",
+            "schema:name": "Daniel Broman"
+        },
+        {
+            "@type": "schema:Person",
+            "schema:name": "Nathalie Voisin"
+        }
+    ],
+    "schema:softwareVersion": "0.6.2",
+    "schema:codeRepository": [
+        "https://github.com/abnerbog/mosartwmpy"
+    ],
+    "schema:softwareHelp": [
+        {
+            "@id": "https://github.com/abnerbog/mosartwmpy/blob/main/CONTRIBUTING.md"
+        },
+        {
+            "@id": "https://github.com/abnerbog/mosartwmpy/blob/main/README.md"
+        },
+        {
+            "@id": "https://github.com/abnerbog/mosartwmpy/blob/main/requirements.txt"
+        },
+        {
+            "@id": "https://github.com/abnerbog/mosartwmpy/blob/main/docs/README.md"
+        },
+        {
+            "@id": "https://github.com/abnerbog/mosartwmpy/blob/main/docs/requirements.txt"
+        }
+    ],
+    "schema:dateModified": "2025-01-27T15:28:31Z",
+    "codemeta:readme": "https://github.com/abnerbog/mosartwmpy/blob/main/README.md"
+}
