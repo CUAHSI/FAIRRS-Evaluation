@@ -1,14 +1,14 @@
 from abc import ABC, abstractmethod
-from typing import Dict, List, Union
+from typing import Dict, Any
 # import defined type hints
-from evaluators.fair_types import FAIR4RSMetadataInput, FAIR4RSPrincipleEvaluation
+from evaluators.fair_models import FAIR4RSPrincipleEvaluation
 
 class BaseEvaluator(ABC):
     """
     Abstract base class for evaluating FAIR4RS principle.
     """
 
-    def __init__(self, metadata: FAIR4RSMetadataInput):
+    def __init__(self, metadata: Dict[str, Any]):
         """
         Initializes the evaluator with relevant fields from codemeta for given FAIR4RS principle.
         """
