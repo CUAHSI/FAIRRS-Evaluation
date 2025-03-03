@@ -1,43 +1,62 @@
 import pandas as pd
-from typing import Dict, List
+from typing import Dict, List, Any
+
+# Define crosswalk file path
+CROSSWALK_FILE = "crosswalks/fair4rs_to_codemeta.csv"
 
 class CrosswalkLoader:
     """
-    Loads the crosswalk CSV to map Codemeta fields to FAIR4RS indicators.
+    Loads a crosswalk CSV that maps FAIR4RS indicators to Codemeta fields.
+    Uses Pandas for efficient processing and metadata extraction.
     """
 
-    def __init__(self, csv_path: str):
+    def __init__(self):
         """
-        Initializes the loader by reading the crosswalk CSV.
+        Initializes the CrosswalkLoader and loads the FAIR4RS-to-Codemeta mapping.
+
+        :param crosswalk_file: Path to the crosswalk CSV file.
         """
-        self.crosswalk_df = pd.read_csv(csv_path)
+        self.crosswalk_mapping = self._load_crosswalk(CROSSWALK_FILE)
 
-    def get_fair4rs_mapping(self) -> Dict[str, List[str]]:
+    def _load_crosswalk(self, crosswalk_file: str) -> Dict[str, List[str]]:
         """
-        Returns a mapping of FAIR4RS indicators to Codemeta fields.
+        Loads the crosswalk CSV into a dictionary mapping FAIR4RS indicators to Codemeta fields.
+
+        :param crosswalk_file: Path to the crosswalk CSV.
+        :return: Dictionary {FAIR4RS Indicator → List of Codemeta Fields}
         """
-        mapping = {}
-        for _, row in self.crosswalk_df.iterrows():
-            fair_indicator = row["FAIR4RS_Indicator"]
-            codemeta_field = row["Codemeta_Field"]
+        try:
+            df = pd.read_csv(crosswalk_file).rename(columns=str.strip)
 
-            if fair_indicator not in mapping:
-                mapping[fair_indicator] = []
-            mapping[fair_indicator].append(codemeta_field)
+            # Ensure no NaN values exist
+            df = df.dropna(subset=["fair4rs_indicator", "codemeta_properties"])
 
-        return mapping
+            # Convert Codemeta properties from a single string into a list
+            df["codemeta_properties"] = df["codemeta_properties"].apply(lambda x: [field.strip() for field in x.split(" / ")])
 
-    def get_codemeta_mapping(self) -> Dict[str, List[str]]:
+            # Create dictionary mapping FAIR4RS indicators to lists of Codemeta fields
+            return df.set_index("fair4rs_indicator")["codemeta_properties"].to_dict()
+
+        except Exception as e:
+            print(f"Error loading crosswalk file: {e}")
+            return {}
+
+    def map_codemeta_to_fair4rs(self, codemeta_data: Dict[str, Any]) -> Dict[str, Dict[str, Any]]:
         """
-        Returns a mapping of Codemeta fields to FAIR4RS indicators.
+        Maps Codemeta metadata to all FAIR4RS indicators and returns a dictionary.
+
+        :param codemeta_data: Parsed Codemeta JSON as a dictionary.
+        :return: Dictionary where each FAIR4RS indicator maps to its relevant metadata.
         """
-        mapping = {}
-        for _, row in self.crosswalk_df.iterrows():
-            codemeta_field = row["Codemeta_Field"]
-            fair_indicator = row["FAIR4RS_Indicator"]
+        fair4rs_metadata_mapping = {}
 
-            if codemeta_field not in mapping:
-                mapping[codemeta_field] = []
-            mapping[codemeta_field].append(fair_indicator)
+        for indicator, fields in self.crosswalk_mapping.items():
+            # Extract only the fields that exist in Codemeta data
+            relevant_metadata = {field: codemeta_data.get(field) for field in fields if field in codemeta_data}
 
-        return mapping
+            # Store only if there's relevant metadata
+            if relevant_metadata:
+                fair4rs_metadata_mapping[indicator] = relevant_metadata
+
+        return fair4rs_metadata_mapping
+
