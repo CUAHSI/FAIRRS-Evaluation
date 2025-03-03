@@ -1,11 +1,12 @@
 # Import evaluators
 from evaluators.findability.F1_evaluator import F1_evaluator # FAIR evaluator
-# Import libraries for loading codemeta file and running codemeticulous validator
-from codemeticulous.cli import load_and_create_model
-from codemeticulous.convert import STANDARDS
 # Import type hints
 from typing import Dict, Any
 import sys
+# Import crosswalk loader to map Codemeta fields to FAIR4RS indicators
+from utils.crosswalk_loader import CrosswalkLoader
+# Import codemeticulous validator
+from utils.codemeta_validator import run_codemeticulous_validation
 
 
 class FAIR4RS_Evaluation_Manager:
@@ -13,43 +14,28 @@ class FAIR4RS_Evaluation_Manager:
     Manages and runs FAIR4RS evaluations.
     """
 
-    def __init__(self, codemeta_file: str, validate: bool = True):
+    def __init__(self, codemeta_file: str):
         """
-        Initializes the evaluation manager and loads/validates metadata before running evaluations.
+        Initializes the evaluation manager and loads/validates metadata and loads/maps crosswalk before running evaluations.
         """
 
-        self.validate = validate
-        self.codemeta_file = codemeta_file
+        # load metadata run codemeticulous validation to validate codemeta file
+        codemeta_metadata = run_codemeticulous_validation(codemeta_file)
 
-        # run codemeticulous validation and return metadata
-        self.codemeta_metadata = self.run_codemeticulous_validation()
+        # Load crosswalk mapping for FAIR4RS to codemeta
+        crosswalk_loader = CrosswalkLoader()
+        crosswalk_mapping = crosswalk_loader.map_codemeta_to_fair4rs(codemeta_metadata)
 
-        # Use validated metadata for evaluation
-        # Start with F1 for now
+        # Load evaluators with mapped metadata for input indicator
         self.evaluators = [
-            F1_evaluator(self.codemeta_metadata) 
+            F1_evaluator(crosswalk_mapping['F1']) 
         ]
-
-    def run_codemeticulous_validation(self):
-        """
-        Validates the Codemeta JSON file using `codemeticulous` directly in Python.
-        """
-
-        try:
-            model = STANDARDS['codemeta']["model"]  # Get Pydantic model for codemeta V3
-            codemeta_metadata = load_and_create_model(self.codemeta_file, model)  # Run validation
-            print(f"✅ {self.codemeta_file} is a valid codemeta file.")
-            # convert pydantic object to dict and return
-            return(codemeta_metadata.dict())
-        except ValueError as e:
-            # if invalid codemeta file show errors and break
-            print(f"❌ Codemeta validation failed:\n{e}")
-            sys.exit(1)
 
     def run_evaluation(self) -> Dict[str, Any]:
         """
         Runs all defined FAIR4RS evaluators and collects results.
         """
+
         results = {}
         for evaluator in self.evaluators:
             results.update(evaluator.evaluate())

@@ -2,50 +2,47 @@
 from evaluators.base_evaluator import BaseEvaluator
 # Import defined type hints for inputs and outputs
 from evaluators.fair_models import FAIR4RSPrincipleEvaluation
-# Import crosswalk loader to map Codemeta fields to FAIR4RS indicators
-from utils.crosswalk_loader import CrosswalkLoader  
+# Import evaluator utility functions
+from utils.evaluator_utils import check_for_operational_url
+# Import codemeta parser
+from utils.codemeta_parser import get_persistent_identifier_urls
 
-# Define crosswalk file path
-CROSSWALK_FILE = "crosswalks/codemeta2fair4rs.csv"
 
 class F1_evaluator(BaseEvaluator):
     """
     Evaluator for F1: Software is assigned a globally unique and persistent identifier.
     """
 
-    def __init__(self, metadata):
+    def __init__(self, mapped_metadata):
         """
-        Initializes the evaluator and extracts relevant metadata based on the crosswalk mapping.
+        Initializes the F1_evaluator and extracts relevant metadata based on the crosswalk mapping.
         """
 
-        self.metadata = metadata
-
-        # Load crosswalk mapping
-        crosswalk_loader = CrosswalkLoader(CROSSWALK_FILE)
-        crosswalk_mapping = crosswalk_loader.get_fair4rs_mapping()
-
-        # Extract relevant fields for F1
         self.indicator = "F1"
-        self.FAIR4RS_mapping = crosswalk_mapping.get(self.indicator, [])
+        self.mapped_metadata = mapped_metadata
 
     def evaluate(self) -> FAIR4RSPrincipleEvaluation:
         """
-        Evaluates F1 based on mapped metadata.
+        Evaluates F1.
         """
 
-        # Default evaluation result
-        not_evaluated_msg = "not_evaluated"
+        results = [] 
+        logs = []
 
-        # Extract only relevant metadata for this FAIR4RS indicator
-        relevant_metadata = {
-            key: value for key, value in self.metadata.items() if key in self.FAIR4RS_mapping
-        }
+        doi_urls = get_persistent_identifier_urls(self.mapped_metadata)
+
+        for doi_url in doi_urls:
+
+            result,log = check_for_operational_url(doi_url)
+
+            results.append(result)
+            logs.append(log)
 
         # Format evaluation result
         evaluation_result = {
-            f"{self.indicator}_evaluation": not_evaluated_msg,
-            f"{self.indicator}_evaluation_logs": not_evaluated_msg,
-            f"{self.indicator}_metadata": {key: value for key, value in self.metadata.items() if key in self.FAIR4RS_mapping}
+            f"{self.indicator}_evaluation": 'PASS' if True in results else 'FAIL',
+            f"{self.indicator}_evaluation_logs": logs,
+            f"{self.indicator}_metadata": self.mapped_metadata
         }
 
         return evaluation_result
