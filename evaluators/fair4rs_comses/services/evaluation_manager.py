@@ -8,8 +8,6 @@ import sys
 from utils.codemeta_loader import load_codemeta_file
 # Import crosswalk loader to map Codemeta fields to FAIR4RS indicators
 from utils.crosswalk_loader import CrosswalkLoader
-# Import codemeticulous validator
-from utils.codemeta_validator import run_codemeticulous_validation
 
 
 class FAIR4RS_Evaluation_Manager:
