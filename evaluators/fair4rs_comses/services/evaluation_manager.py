@@ -1,8 +1,11 @@
 # Import evaluators
-from evaluators.findability.F1_evaluator import F1_evaluator # FAIR evaluator
+from evaluators.findability.F1_evaluator import F1_evaluator 
+from evaluators.findability.F2_evaluator import F2_evaluator
 # Import type hints
 from typing import Dict, Any
 import sys
+# import codemeta loader
+from utils.codemeta_loader import load_codemeta_file
 # Import crosswalk loader to map Codemeta fields to FAIR4RS indicators
 from utils.crosswalk_loader import CrosswalkLoader
 # Import codemeticulous validator
@@ -19,8 +22,9 @@ class FAIR4RS_Evaluation_Manager:
         Initializes the evaluation manager and loads/validates metadata and loads/maps crosswalk before running evaluations.
         """
 
+
         # load metadata run codemeticulous validation to validate codemeta file
-        codemeta_metadata = run_codemeticulous_validation(codemeta_file)
+        codemeta_metadata = load_codemeta_file(codemeta_file)
 
         # Load crosswalk mapping for FAIR4RS to codemeta
         crosswalk_loader = CrosswalkLoader()
@@ -28,7 +32,8 @@ class FAIR4RS_Evaluation_Manager:
 
         # Load evaluators with mapped metadata for input indicator
         self.evaluators = [
-            F1_evaluator(crosswalk_mapping['F1']) 
+            F1_evaluator(crosswalk_mapping['F1']),
+            F2_evaluator(codemeta_file,codemeta_metadata)
         ]
 
     def run_evaluation(self) -> Dict[str, Any]:
