@@ -2,6 +2,7 @@
 
 The following table shows the crosswalk between [CodeMeta](https://codemeta.github.io/terms/) terms and the FAIR for Research Software metrics. The Metric IDs and Short Descriptions are based on documents available at [FAIRMetrics](https://github.com/FAIRMetrics/Metrics/tree/master/Distributions) repository.
 
+**Table 1. FAIR4RS metrics associated with Codemeta properties.**
 | Property            | FAIR Metric ID                                    | Short Description |
 |---------------------|--------------------------------------------------|------------------|
 | `address`           | <span style="color:#9932CC">FM-R1.2</span>       | Detailed provenance of who created the resource. |
@@ -70,6 +71,27 @@ The following table shows the crosswalk between [CodeMeta](https://codemeta.gith
 | `targetProduct`    | <span style="color:#FFD700">FM-I3</span>         | Semantic relationships within metadata and between local and third-party data. |
 | `url`             | <span style="color:#228B22">FM-A1.1</span>, <span style="color:#228B22">FM-A2</span>, <span style="color:#1E90FF">FM-F1A</span>, <span style="color:#4682B4">FM-F1B</span> | Open access, persistent metadata, unique identification, and identifier scheme policy. |
 | ~~`version`~~         | ~~<span style="color:#BA55D3">FM-R1.3</span>~~       | ~~Metadata meets domain-relevant community standards.~~ |
+
+---
+
+**Table 2. Grouped FAIR4RS metrics and their associated Codemeta properties.**
+| FAIR Metric ID     | Associated Properties | Short Description |
+|--------------------|----------------------|------|
+| **FM-F1A**        | `citation`, `identifier`, `isPartOf`, `sameAs`, `url` | *Identifier uniqueness*: Unique reference, identifier scheme policy, and semantic relationships within metadata.|
+| **FM-F1B**        | `citation`, `identifier`, `isPartOf`, `relatedLink`, `sameAs`, `url` | *Identifier persistence*: Unique reference, identifier scheme policy, and semantic relationships within metadata.|
+| **FM-F2**         | `description`, `fileSize` | Machine-readability of metadata; use of a formal language.| *Machine-readability of metadata*|
+| **FM-F3**         | `codeRepository`, `hasPart`, `identifier`, `publisher` | *Resource identifier in metadata*: Provenance tracking and repository indexing for metadata.|
+| **FM-F4**         | `applicationCategory`, `applicationSubCategory`, `isAccessibleForFree`, `keywords` | *Indexed in a searchable resource*: The degree to which the digital resource can be found using a web-based search engine. |
+| **FM-A1.1**       | `downloadUrl`, `installUrl`, `isAccessibleForFree`, `license`, `permissions`, `url` | *Access protocol*|
+| **FM-A1.2**       | `downloadUrl`, `hasPart`, `installUrl`, `isAccessibleForFree`, `isPartOf`, `license`, `permissions` | *Access authentication*|
+| **FM-A2**         | `identifier`, `url` | *Metadata longevity*: The existance of metadata even in the absence of data.|
+| **FM-I1**         ||*Use a knowledge representation language*|
+| **FM-I2**         ||*Use FAIR vocabulary*|
+| **FM-I3**         | `encoding`, `hasPart`, `isPartOf`, `programmingLanguage`, `relatedLink`, `sameAs`, `supportingData`, `targetProduct` | *Use qualified references*: Semantic relationships within metadata and between local and third-party data.|
+| **FM-R1.1**       | `citation`, `license`, `referencePublication` | *Accessible usage license*.|
+| **FM-R1.2**       | `address`, `affiliation`, `author`, `citation`, `contributor`, `copyrightHolder`, `copyrightYear`, `dateCreated`, `dateModified`, `datePublished`, `editor`, `email`, `funder`, `funding`, `maintainer`, `producer`, `provider`, `publisher` | *Detailed provenance* |
+| **FM-R1.3**       | `buildInstructions`, `dateCreated`, `dateModified`, `datePublished`, `developmentStatus`, `endDate`, `issueTracker`, `memoryRequirements`, `name`, `operatingSystem`, `processorRequirements`, `readme`, `releaseNotes`, `softwareHelp`, `softwareRequirements`, `softwareVersion`, `sponsor`, `startDate`, `storageRequirements` | *Meets domain-relevant community standards*|
+
 
 
 ## Our FAIRMetric Color Coding Guide: 
