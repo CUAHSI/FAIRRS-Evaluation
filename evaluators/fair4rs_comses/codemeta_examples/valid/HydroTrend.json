@@ -1,0 +1,90 @@
+{
+    "@context": [
+        "https://doi.org/10.5063/schema/codemeta-2.0",
+        "https://schema.org/"
+    ],
+    "@type": "SoftwareSourceCode",
+    "applicationCategory": ["Terrestrial", "Hydrology"],
+    "applicationSubCategory": "",
+    "author": [
+        {
+            "@type": "Person",
+            "affiliation": "Institute of Arctic and Alpine Research, University of Colorado Boulder",
+            "email": "kettner@colorado.edu",
+            "name": "Albert Kettner",
+            "address": "4001 Discovery Drive, Boulder, CO, USA, 80309",
+            "sameAs": ["https://csdms.colorado.edu/wiki/User:WikiSysop"]
+        }
+    ],
+    "buildInstructions": "https://csdms.colorado.edu/pub/users/huttone/build_notes/BUILD_NOTES-hydrotrend-3.0.html",
+    "citation": [
+        {
+            "@type": "CreativeWork",
+            "name": "HydroTrend version 3.0: A Climate-Driven Hydrological Transport Model",
+            "author": "Kettner, A.J., and Syvitski, J.P.M.",
+            "publicationYear": 2008,
+            "url": "https://doi.org/10.1016/j.cageo.2008.01.018"
+        }
+    ],
+    "codeRepository": "https://github.com/kettner/hydrotrend",
+    "contributor": [
+        {
+            "@type": "Person",
+            "affiliation": "University of Colorado Boulder",
+            "name": "James Syvitski"
+        }
+    ],
+    "copyrightHolder": [],
+    "copyrightYear": 2011,
+    "dateCreated": "2011-01-01",
+    "dateModified": "2020-01-01",
+    "datePublished": "2011-01-01",
+    "description": "HydroTrend v.3.0 is a climate-driven hydrological water balance and transport model that simulates water discharge and sediment load at a river outlet.",
+    "developmentStatus": "Active",
+    "downloadUrl": "https://csdms.colorado.edu/pub/models/doi-source-code/hydrotrend-10.1594.IEDA.100135-3.0.2.tar.gz",
+    "encodingFormat": [
+        "application/x-c",
+        "text/plain",
+        "application/octet-stream"
+    ],
+    "identifier": [
+        "https://csdms.colorado.edu/wiki/Model:HydroTrend",
+        "https://doi.org/10.1594/IEDA/100135"
+    ],
+    "installUrl": "https://csdms.colorado.edu/pub/models/doi-source-code/hydrotrend-10.1594.IEDA.100135-3.0.2.tar.gz",
+    "isAccessibleForFree": true,
+    "issueTracker": "https://github.com/kettner/hydrotrend/issues",
+    "keywords": ["basins", "Hydrological model", "Sediment Transport", "river", "hydrological", "transport"],
+    "license": "https://spdx.org/licenses/GPL-2.0.html",
+    "maintainer": [],
+    "memoryRequirements": "1Gb at the most",
+    "name": "HydroTrend",
+    "operatingSystem": ["Unix", "Linux", "Mac OS", "Windows"],
+    "programmingLanguage": "C",
+    "readme": "https://csdms.colorado.edu/wiki/Model_help:HydroTrend",
+    "referencePublication": "https://csdms.colorado.edu/wiki/HydroTrend-Publications",
+    "relatedLink": ["https://anaconda.org/conda-forge/hydrotrend", "https://github.com/mdpiper/hydrotrend-docker"],
+    "releaseNotes": "https://csdms.colorado.edu/wiki/HydroTrend-Releases",
+    "sameAs": ["https://csdms.colorado.edu/wiki/Model:HydroTrend"],
+    "softwareVersion": "3.0.2",
+    "storageRequirements": [
+        "Pre-processing software needed: No",
+        "Post-processing software needed: No",
+        "Visualization software needed: No"
+    ],
+    "supportingData": [
+        {
+            "@type": "DataFeed",
+            "about": "Calibration Datasets",
+            "description": "Long term sediment routine",
+            "url": "https://doi.org/10.1086/509246"
+        },
+        {
+            "@type": "DataFeed",
+            "about": "Available Calibration Datasets",
+            "description": "Short term sediment routine",
+            "url": "https://doi.org/10.1016/S0921-8181(03)00019-5"
+        }
+    ],
+    "url": "https://csdms.colorado.edu/wiki/Model:HydroTrend"
+}
