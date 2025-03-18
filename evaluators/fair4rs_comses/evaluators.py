@@ -3,8 +3,12 @@ from typing import Dict, Any
 from utils import evaluator_utils
 from utils import codemeta_parser
 from constants import SOFTWARE_REGISTRIES, APPROVED_LICENSES
+ 
 
 class Evaluator(ABC):
+    """
+    Abstract base class for FAIR4RS indicators.
+    """
 
     @abstractmethod
     def evalF1(self, citation=None, identifier=None, sameAs=None, isPartOf=None, url=None) -> bool:
@@ -80,6 +84,9 @@ class Evaluator(ABC):
 
 
 class MyEvaluator(Evaluator):
+    """
+    Class for implementing evaluation functions.
+    """
 
     def __init__(self,codemeta_file):
 
