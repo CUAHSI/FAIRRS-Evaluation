@@ -1,0 +1,12 @@
+name: fair4rs-evaluation-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - requests
+      - pandas
+      - pydantic
+      - git+https://github.com/sgfost/codemeticulous.git
