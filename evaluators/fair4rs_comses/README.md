@@ -17,8 +17,8 @@ conda activate fair4rs-evaluation-env
 ```
 fair4rs_comses/
 │── main.py               # Main script to run the evaluation
-│── constants.py          # Defines constants used across modules
-│── evaluators.py         # Evaluation logic for Codemeta compliance
+│── constants.py          # Defines constants (e.g., acceptable licenses)
+│── evaluators.py         # Abstract base class and implementing evaluation functions
 │── environment.yml       # Conda environment dependencies
 │── README.md             # Documentation
 │── crosswalks/           # FAIR4RS-to-Codemeta mappings
@@ -26,9 +26,9 @@ fair4rs_comses/
     │── valid/                # Valid Codemeta files (via codemeticulous)
     │── invalid/              # Invalid Codemeta files (via codemeticulous)
 └── utils/
-    │── codemeta_loader.py    # Loads and parses Codemeta JSON
-    │── codemeta_parser.py    # Extracts relevant metadata
-    │── crosswalk_loader.py   # Loads crosswalk CSV mappings
+    │── codemeta_loader.py    # Loads Codemeta JSON
+    │── codemeta_parser.py    # Parses Codemeta JSON
+    │── crosswalk_loader.py   # Loads/maps FAIR4RS to Codemeta crosswalk
     │── evaluator_utils.py    # Helper functions for evaluation
 ```
 
