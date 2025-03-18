@@ -1,3 +1,4 @@
+import argparse
 import json
 import os
 from evaluators import MyEvaluator
@@ -9,22 +10,21 @@ def main(codemeta_file):
     evaluator = MyEvaluator(codemeta_file)
     codemeta_json = evaluator.validate_codemeta_file()
     
-    # load evaluator methods crosswalk
+    # load evaluator methods crosswalk (calling crosswalk for now, may change)
     crosswalk = CrosswalkLoader(codemeta_json)
     eval_methods = crosswalk.map_evaluators_to_codemeta()
 
     # initialize dictionary of results  
     results = {}
 
-    # Get only method names that contain 'eval'
+    # get the evaluator method names from MyEvaluator class
     eval_method_names = [
     name for name in dir(evaluator)
     if "eval" in name and callable(getattr(evaluator, name))
 ]
 
-    # run evalutions for each evaluator
+    # run evalutions for each evaluator in MyEvaluator
     for method_name in eval_method_names:
-        # extract evaluation method from evaluator class
         method = getattr(evaluator, method_name, None)
         # run evaluation and store/print result
         try:
@@ -32,7 +32,7 @@ def main(codemeta_file):
         # some evaluation methods need codemeta properties in crosswalk
         except KeyError:
             result = "Need codemeta property in crosswalk."
-
+        # store and print result (logs are printed in evaluator methods)
         results[method_name] = result
         print(f"{method_name} result: {result}")
 
@@ -41,13 +41,9 @@ def main(codemeta_file):
 
 if __name__ == "__main__":
 
-    # Input codemeta file (JSON) under schema/examples
-    codemeta_filename = 'HydroTrend_codemeta.json'
+    parser = argparse.ArgumentParser(description="Evaluate a Codemeta JSON file using FAIR4RS criteria.")
+    parser.add_argument("codemeta_file", type=str, help="Path to the Codemeta JSON file.")
+    args = parser.parse_args()
+    
+    main(args.codemeta_file)
 
-    # Get the directory where main.py is located
-    main_script_dir = os.path.dirname(os.path.abspath(__file__))
-
-    # Construct the path to the example JSON file (may change location of schema folder later)
-    codemeta_filepath = os.path.normpath(os.path.join(main_script_dir, "..", "..", "schemas", "examples", codemeta_filename))
-
-    res = main(codemeta_filepath)
