@@ -15,7 +15,7 @@ class Evaluator(ABC):
         raise NotImplementedError
     
     @abstractmethod
-    def evalF1_1(self) -> bool:
+    def evalF1_1(self, isPartOf=None, identifier=None) -> bool:
         raise NotImplementedError   
 
     @abstractmethod
@@ -36,7 +36,7 @@ class Evaluator(ABC):
         raise NotImplementedError
     
     @abstractmethod
-    def evalA1(self) -> bool:
+    def evalA1(self, codeRepository=None, downloadUrl=None) -> bool:
         raise NotImplementedError
     
     @abstractmethod
@@ -52,7 +52,7 @@ class Evaluator(ABC):
         raise NotImplementedError
 
     @abstractmethod
-    def evalI1(self) -> bool:
+    def evalI1(self, input=None, output=None, runtimePlatform=None) -> bool:
         raise NotImplementedError
     
     @abstractmethod
@@ -60,7 +60,7 @@ class Evaluator(ABC):
         raise NotImplementedError
 
     @abstractmethod
-    def evalR1(self) -> bool:
+    def evalR1(self, description=None, applicationCategory=None, applicationSubCategory=None, keywords=None) -> bool:
         raise NotImplementedError
     
     @abstractmethod
@@ -68,18 +68,18 @@ class Evaluator(ABC):
         raise NotImplementedError   
 
     @abstractmethod
-    def evalR1_2(self) -> bool:
-        raise NotImplementedError
-
-    @abstractmethod
-    def evalR2(self, address=None, affiliation=None, author=None, citation=None, contributor=None,
+    def evalR1_2(self, address=None, affiliation=None, author=None, citation=None, contributor=None,
                 copyrightHolder=None, copyrightYear=None, dateCreated=None, dateModified=None,
                 datePublished=None, editor=None, email=None, funder=None, funding=None, maintainer=None, 
                 producer=None, provider=None, publisher=None) -> bool:
         raise NotImplementedError
 
     @abstractmethod
-    def evalR3(self) -> bool:
+    def evalR2(self, softwareRequirement=None, softwareSuggestions=None) -> bool:
+        raise NotImplementedError
+
+    @abstractmethod
+    def evalR3(self, referencePublication=None) -> bool:
         raise NotImplementedError
 
 
@@ -113,7 +113,7 @@ class MyEvaluator(Evaluator):
 
         return result
     
-    def evalF1_1(self) -> bool:
+    def evalF1_1(self, isPartOf=None, identifier=None) -> bool:
 
         # XX -- challenging to implement
 
@@ -152,7 +152,7 @@ class MyEvaluator(Evaluator):
 
         return False
 
-    def evalA1(self) -> bool:
+    def evalA1(self, codeRepository=None, downloadUrl=None) -> bool:
         return False
     
     def evalA1_1(self, downloadUrl=None, installUrl=None, isAccessibleForFree=None, license=None, permissions=None, url=None) -> bool:
@@ -188,7 +188,7 @@ class MyEvaluator(Evaluator):
 
         return result
 
-    def evalI1(self) -> bool:
+    def evalI1(self, input=None, output=None, runtimePlatform=None) -> bool:
 
         # XX -- challenging to implement.
         # unsure what the domain relevant community standards are.
@@ -206,7 +206,7 @@ class MyEvaluator(Evaluator):
 
         return False
 
-    def evalR1(self) -> bool:
+    def evalR1(self, description=None, applicationCategory=None, applicationSubCategory=None, keywords=None) -> bool:
         return False
 
     def evalR1_1(self, citation=None, license=None, referencePublication=None) -> bool:
@@ -233,7 +233,7 @@ class MyEvaluator(Evaluator):
 
         return False
 
-    def evalR2(self) -> bool:
+    def evalR2(self, softwareRequirement=None, softwareSuggestions=None) -> bool:
 
         # XX -- challenging to implement.
         # unsure how to define "qualified" reference to other software.
@@ -242,5 +242,5 @@ class MyEvaluator(Evaluator):
 
         return False
 
-    def evalR3(self) -> bool:
+    def evalR3(self, referencePublication=None) -> bool:
         return False
