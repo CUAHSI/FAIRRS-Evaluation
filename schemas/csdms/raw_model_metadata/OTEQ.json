@@ -1,0 +1,795 @@
+{
+  "subject": "OTEQ#3002##",
+  "data": [
+    {
+      "property": "Citations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "138"
+        }
+      ]
+    },
+    {
+      "property": "City",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Boulder"
+        }
+      ]
+    },
+    {
+      "property": "CodeReviewed",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "Code_CMT_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_IRF_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_openmi_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_optimized",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single Processor"
+        }
+      ]
+    },
+    {
+      "property": "Country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "United States"
+        }
+      ]
+    },
+    {
+      "property": "Describe_available_calibration_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "see user documentation; also see applications at \nhttp://water.usgs.gov/software/OTEQ/apps/"
+        }
+      ]
+    },
+    {
+      "property": "Describe_available_test_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "see user documentation; also see applications at \nhttp://water.usgs.gov/software/OTEQ/apps/"
+        }
+      ]
+    },
+    {
+      "property": "Describe_input_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "see user documentation"
+        }
+      ]
+    },
+    {
+      "property": "Describe_key_physical_parameters",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Partial differential equations describing mass transport (Advection-Dispersion-Reaction equations) and algebraic equations describing chemical equilibria are coupled using the Sequential Iteration Approach"
+        }
+      ]
+    },
+    {
+      "property": "Describe_numerical_limitations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "see numerical aspects described in Section 4 of the documentation"
+        }
+      ]
+    },
+    {
+      "property": "Describe_output_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Solute concentrations as a function of space and time"
+        }
+      ]
+    },
+    {
+      "property": "Describe_post-processing_software",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "All I/O is done with flat ASCII files; Output files are first processed by a utility (posteq) -- resultant files can then be plotted with the user's own software."
+        }
+      ]
+    },
+    {
+      "property": "Describe_pre-processing_software",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "All I/O is done with flat ASCII files; The 'MINTEQ Input file' is created using the Proteq utility; remaining input files may be created using a text editor"
+        }
+      ]
+    },
+    {
+      "property": "Describe_processes",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Physical transport: Advection, Dispersion, Inflow, Transient Storage, and Settling.\n\nChemistry: Precipitation/Dissolution, Sorption/Desorption, Oxidation/Reduction, aqueous complexation, and acid-base reactions"
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCode",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Only maintenance"
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCodeYearChecked",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2020"
+        }
+      ]
+    },
+    {
+      "property": "Development_still_active",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:runkel@usgs.gov"
+        }
+      ]
+    },
+    {
+      "property": "Extended_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "One-Dimensional Transport with Equilibrium Chemistry (OTEQ):\nA Reactive Transport Model for Streams and Rivers\n\nOTEQ is a mathematical simulation model used to characterize the fate and transport of waterborne solutes in streams and rivers. The model is formed by coupling a solute transport model with a chemical equilibrium submodel. The solute transport model is based on OTIS, a model that considers the physical processes of advection, dispersion, lateral inflow, and transient storage. The equilibrium submodel is based on MINTEQ, a model that considers the speciation and complexation of aqueous species, acid-base reactions, precipitation/dissolution, and sorption.\n\nWithin OTEQ, reactions in the water column may result in the formation of solid phases (precipitates and sorbed species) that are subject to downstream transport and settling processes. Solid phases on the streambed may also interact with the water column through dissolution and sorption/desorption reactions. Consideration of both mobile (waterborne) and immobile (streambed) solid phases requires a unique set of governing differential equations and solution techniques that are developed herein. The partial differential equations describing physical transport and the algebraic equations describing chemical equilibria are coupled using the sequential iteration approach. The model's ability to simulate pH, precipitation/dissolution, and pH-dependent sorption provides a means of evaluating the complex interactions between instream chemistry and hydrologic transport at the field scale.\n\nOTEQ is generally applicable to solutes which undergo reactions that are sufficiently fast relative to hydrologic processes (\"Local Equilibrium\"). Although the definition of \"sufficiently fast\" is highly solute and application dependent, many reactions involving inorganic solutes quickly reach a state of chemical equilibrium. Given a state of chemical equilibrium, inorganic solutes may be modeled using OTEQ's equilibrium approach. This equilibrium approach is facilitated through the use of an existing database that describes chemical equilibria for a wide range of inorganic solutes. In addition, solute reactions not included in the existing database may be added by defining the appropriate mass-action equations and the associated equilibrium constants. As such, OTEQ provides a general framework for the modeling of solutes under the assumption of chemical equilibrium. Despite this generality, most OTEQ applications to date have focused on the transport of metals in streams and small rivers. The OTEQ documentation is therefore focused on metal transport. Potential model users should note, however, that additional applications are possible."
+        }
+      ]
+    },
+    {
+      "property": "First_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Rob"
+        }
+      ]
+    },
+    {
+      "property": "H-index",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "2"
+        }
+      ]
+    },
+    {
+      "property": "Input_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        }
+      ]
+    },
+    {
+      "property": "Institute",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "USGS"
+        }
+      ]
+    },
+    {
+      "property": "Last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Runkel"
+        }
+      ]
+    },
+    {
+      "property": "M-quotient",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "0.07"
+        }
+      ]
+    },
+    {
+      "property": "Manual_model_available",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "ModelDomain",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Terrestrial"
+        },
+        {
+          "type": 2,
+          "item": "Hydrology"
+        }
+      ]
+    },
+    {
+      "property": "Model_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "As code"
+        }
+      ]
+    },
+    {
+      "property": "Model_keywords",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "biogeochemistry"
+        },
+        {
+          "type": 2,
+          "item": "water quality"
+        }
+      ]
+    },
+    {
+      "property": "Model_manual",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Media:TM6ChB6.pdf"
+        }
+      ]
+    },
+    {
+      "property": "Model_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single"
+        }
+      ]
+    },
+    {
+      "property": "Model_website",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "http://water.usgs.gov/software/OTEQ/"
+        }
+      ]
+    },
+    {
+      "property": "Modelautophrases",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "oteq"
+        },
+        {
+          "type": 2,
+          "item": "chemistry"
+        },
+        {
+          "type": 2,
+          "item": "equilibrium"
+        },
+        {
+          "type": 2,
+          "item": "transport"
+        },
+        {
+          "type": 2,
+          "item": "reactive transport model"
+        },
+        {
+          "type": 2,
+          "item": "solute transport model"
+        },
+        {
+          "type": 2,
+          "item": "transport model"
+        },
+        {
+          "type": 2,
+          "item": "model"
+        },
+        {
+          "type": 2,
+          "item": "chemical equilibrium"
+        },
+        {
+          "type": 2,
+          "item": "reactive transport"
+        },
+        {
+          "type": 2,
+          "item": "chemical"
+        },
+        {
+          "type": 2,
+          "item": "solutes"
+        },
+        {
+          "type": 2,
+          "item": "one-dimensional transport"
+        },
+        {
+          "type": 2,
+          "item": "solute transport"
+        },
+        {
+          "type": 2,
+          "item": "reactions"
+        },
+        {
+          "type": 2,
+          "item": "oteq equilibrium approach"
+        },
+        {
+          "type": 2,
+          "item": "biogeochemistry"
+        },
+        {
+          "type": 2,
+          "item": "water quality"
+        }
+      ]
+    },
+    {
+      "property": "Nr-of-pubs",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2"
+        }
+      ]
+    },
+    {
+      "property": "One-line_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "One-Dimensional Transport with Equilibrium Chemistry (OTEQ):\nA Reactive Transport Model for Streams and Rivers"
+        }
+      ]
+    },
+    {
+      "property": "Output_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        }
+      ]
+    },
+    {
+      "property": "Post_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "t"
+        }
+      ]
+    },
+    {
+      "property": "Postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "80303"
+        }
+      ]
+    },
+    {
+      "property": "Pre_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "t"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Other"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "http://water.usgs.gov/software/help/notice/"
+        }
+      ]
+    },
+    {
+      "property": "Programming_language",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Fortran77"
+        }
+      ]
+    },
+    {
+      "property": "Source_code_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Through web repository"
+        }
+      ]
+    },
+    {
+      "property": "Source_web_address",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "http://water.usgs.gov/software/OTEQ/"
+        }
+      ]
+    },
+    {
+      "property": "Spatial_dimensions",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1D"
+        }
+      ]
+    },
+    {
+      "property": "Spatialscale",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Reach-Scale"
+        },
+        {
+          "type": 2,
+          "item": "Watershed-Scale"
+        }
+      ]
+    },
+    {
+      "property": "Start_year_development",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1991"
+        }
+      ]
+    },
+    {
+      "property": "State",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Colorado"
+        }
+      ]
+    },
+    {
+      "property": "Supported_platforms",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Unix"
+        },
+        {
+          "type": 2,
+          "item": "Linux"
+        }
+      ]
+    },
+    {
+      "property": "Type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Model developer"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_needed",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "_ASK",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "OTEQ#3002##_QUERYb65fb4d7cc4675bb49e290967024480f"
+        },
+        {
+          "type": 9,
+          "item": "OTEQ#3002##_QUERY5be50a92b3be0e4cda89437e893d743f"
+        },
+        {
+          "type": 9,
+          "item": "OTEQ#3002##_QUERY7645ac8e1a785f34a9e5e2e57b35513c"
+        }
+      ]
+    },
+    {
+      "property": "_CDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2010/5/12/18/1/22/0"
+        }
+      ]
+    },
+    {
+      "property": "_INST",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Pages_using_duplicate_arguments_in_template_calls#14##"
+        },
+        {
+          "type": 9,
+          "item": "Models#14##"
+        }
+      ]
+    },
+    {
+      "property": "_LEDT",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "WikiSysop#2##"
+        }
+      ]
+    },
+    {
+      "property": "_MDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2020/9/17/2/15/11/0"
+        }
+      ]
+    },
+    {
+      "property": "_SKEY",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "OTEQ"
+        }
+      ]
+    }
+  ],
+  "sobj": [
+    {
+      "subject": "OTEQ#3002##_QUERYb65fb4d7cc4675bb49e290967024480f",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "0"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[:Model:OTEQ]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "OTEQ# QUERYb65fb4d7cc4675bb49e290967024480f"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "OTEQ#3002##_QUERY5be50a92b3be0e4cda89437e893d743f",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[User:+]] [[First name member::Rob]] [[Last name member::Runkel]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "OTEQ# QUERY5be50a92b3be0e4cda89437e893d743f"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "OTEQ#3002##_QUERY7645ac8e1a785f34a9e5e2e57b35513c",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "ul"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[Model:+]] [[First name::Rob]] [[Last name::Runkel]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "OTEQ# QUERY7645ac8e1a785f34a9e5e2e57b35513c"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+  "version": 2
+}

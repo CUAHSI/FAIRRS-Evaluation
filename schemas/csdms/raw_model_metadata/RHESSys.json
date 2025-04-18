@@ -1,0 +1,1029 @@
+{
+  "subject": "RHESSys#3002##",
+  "data": [
+    {
+      "property": "Additional_city",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Santa Barbara"
+        }
+      ]
+    },
+    {
+      "property": "Additional_comments_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "To run RHESSys successfully, the user will need to invest quite a bit of time gathering both spatial and observed data, which may require additional work to format the data correctly. A sample dataset can be downloaded with tutorials to familiarize users with the data and formats required in order to run RHESSys."
+        }
+      ]
+    },
+    {
+      "property": "Additional_country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "United States"
+        }
+      ]
+    },
+    {
+      "property": "Additional_email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:jchoate@bren.ucsb.edu"
+        }
+      ]
+    },
+    {
+      "property": "Additional_first_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Janet"
+        }
+      ]
+    },
+    {
+      "property": "Additional_institute",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "University of California, Santa Barbara"
+        }
+      ]
+    },
+    {
+      "property": "Additional_last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Choate"
+        }
+      ]
+    },
+    {
+      "property": "Additional_postal_address1",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Bren Hall 4516"
+        }
+      ]
+    },
+    {
+      "property": "Additional_postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "93106"
+        }
+      ]
+    },
+    {
+      "property": "Additional_state",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "California"
+        }
+      ]
+    },
+    {
+      "property": "Additional_type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Model developer"
+        }
+      ]
+    },
+    {
+      "property": "Citations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "7281"
+        }
+      ]
+    },
+    {
+      "property": "City",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Santa Barbara"
+        }
+      ]
+    },
+    {
+      "property": "CodeReviewed",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "Code_CMT_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_IRF_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_openmi_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_optimized",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single Processor"
+        }
+      ]
+    },
+    {
+      "property": "Country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "United States"
+        }
+      ]
+    },
+    {
+      "property": "Current_future_collaborators",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "--"
+        }
+      ]
+    },
+    {
+      "property": "Describe_available_test_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "See uploaded data file (Data.tar); or visit: http://fiesta.bren.ucsb.edu/~rhessys/setup/downloads/source.shtml"
+        }
+      ]
+    },
+    {
+      "property": "Describe_input_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "'''Input Data needed''': required and optional (based on project needs and data availability):\nSpatial data (GIS maps) - to be brought into GRASS GIS\n''Basic requirements'':\n* DEM (Digital Elevation Model)\n\n''Optional'':\n* Stream network, stream gage locations\n* Meteorological station locations\n* Vegetation and soil type, LAI\n* Road network, landcover/landuse (eg. residential, agricultural, open space, etc...)\n* Snow redistribution\n\nTimeseries data - natural and human induced inputs as text files:\n''Basic requirements'':\n* Daily Precipitation (Meters)\n* Daily Maximum Temperature (°C)\n* Daily Minimum Temperature (°C)\n\n''Optional'':\n* Day length (seconds)\n* Duration of rainfall (hours)\n* Zone and seasonal scaling of LAI (unitless)\n* Incoming longwave radiation (KJ/(meters2)/day)\n* Incoming direct shortwave radiation (KJ/(meters2)/day)\n* Incoming diffuse shortwave radiation (KJ/(meters2)/day)\n* Nitrogen deposition as NO3 (kg/(meters2)/day)\n* Nitrogen deposition as NH4 (kg/(meters2)/day)\n* Incoming direct PAR radiation (KJ/(meters2)/day)\n* Incoming diffuse PAR radiation (KJ/(meters2)/day)\n* Relative humidity (Range (0-1))\n* Mean daytime temperature (°C)\n* Night time temperature at sundown (°C)\n* Soil temperature (°C)\n* Vapour pressure deficit (Pa)\n* Wind speed (meters/sec)\n* Carbon dioxide (CO2) (parts per million/year)"
+        }
+      ]
+    },
+    {
+      "property": "Describe_key_physical_parameters",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "---"
+        }
+      ]
+    },
+    {
+      "property": "Describe_length_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "--"
+        }
+      ]
+    },
+    {
+      "property": "Describe_numerical_limitations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "--"
+        }
+      ]
+    },
+    {
+      "property": "Describe_output_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "--"
+        }
+      ]
+    },
+    {
+      "property": "Describe_post-processing_software",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "'''Converting RHESSys Output to Spatial Output Using rh'''\nrh is a command line program developed to convert RHESSys model output to spatial output. The spatial output can be formatted for viewing in either GRASS or ArcView.\n\n''Requirements''\nrh must be run from inside the GRASS GIS system. To run rh the user must first output the patch map layer into either an ascii text file for GRASS or an ascii text file for Arc/INFO or ArcView."
+        }
+      ]
+    },
+    {
+      "property": "Describe_pre-processing_software",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Associated with the RHESSys simulation are a number of interface programs which organize input data into the format required by the RHESSys simulation model. These include a standard GIS-based terrain partitioning program, r.watershed, and other basic GIS routines as part of the GRASS GIS system and two RHESSys specific programs:\n# GRASS2WORLD (derives landscape representation from GIS images)\n# CREATE_FLOWPATHS (establishes connectivity between spatial units)"
+        }
+      ]
+    },
+    {
+      "property": "Describe_processes",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "The original process models include the following:\n* The MTN-Clim model (Running et al, 1987) uses topography and user supplied base station information to derive spatially variable climate variables such as radiation and to extrapolate input climate variables over topographically varying terrain.\n* An ecophysiological model is adapted from BIOME-BGC (Running and Coughlan, 1988; Running and Hunt, 1993) to estimate carbon, water and potentially nitrogen fluxes from different canopy cover types.\n* Distributed hydrologic models – The original RHESSys utilized a single approach, TOPMODEL, to model soil moisture redistribution and runoff production. We now include two approaches:\n** TOPMODEL (Beven and Kirkby, 1979) is a quasi distributed model. TOPMODEL distributes hillslope soil moisture based on a distribution of a topograhically defined wetness index.\n** An explicit routing model is adapted from DHSVM (Wigmosta et al., 1994) which models saturated subsurface throughflow and overland flow via explicit connectivity. An important modification from the grid-based routing in DHSVM is the ability to route w ater between arbitrarily shaped surface elements. This allows greater flexibility in defining surface patches and varying shape and density of surface tesselation."
+        }
+      ]
+    },
+    {
+      "property": "Describe_time_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "--"
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCode",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Active"
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCodeYearChecked",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2020"
+        }
+      ]
+    },
+    {
+      "property": "Development_still_active",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:ctague@bren.ucsb.edu"
+        }
+      ]
+    },
+    {
+      "property": "Extended_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "RHESSys is a GIS-based, hydro-ecological modelling framework designed to simulate carbon, water, and nutrient fluxes. By combining a set of physically-based process models and a methodology for partitioning and parameterizing the landscape, RHESSys is capable of modelling the spatial distribution and spatio-temporal interactions between different processes at the watershed scale."
+        }
+      ]
+    },
+    {
+      "property": "Fax",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "805-893-7612"
+        }
+      ]
+    },
+    {
+      "property": "First_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "christina"
+        }
+      ]
+    },
+    {
+      "property": "H-index",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "45"
+        }
+      ]
+    },
+    {
+      "property": "Input_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        },
+        {
+          "type": 2,
+          "item": "Binary"
+        }
+      ]
+    },
+    {
+      "property": "Institute",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "University of California, Santa Barbara"
+        }
+      ]
+    },
+    {
+      "property": "Last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Tague"
+        }
+      ]
+    },
+    {
+      "property": "M-quotient",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "1.29"
+        }
+      ]
+    },
+    {
+      "property": "Manual_model_available",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Memory_requirements",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "--"
+        }
+      ]
+    },
+    {
+      "property": "ModelDomain",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Terrestrial"
+        },
+        {
+          "type": 2,
+          "item": "Hydrology"
+        }
+      ]
+    },
+    {
+      "property": "Model_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "As code"
+        }
+      ]
+    },
+    {
+      "property": "Model_forum",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "RHESSys source code and various user support programs are freely available for download. Limited documentation is also available on the website. We do not have the resources, however, to freely provide technical support for new users. Workshops are periodically available. If you would like additional training, technical support or information on hosting a RHESSys workshop, etc., we may be able to provide this on a contractual basis - Please contact Christina Tague (ctague@bren.ucsb.edu) or Janet Choate (jchoate@bren.ucsb.edu) for more information."
+        }
+      ]
+    },
+    {
+      "property": "Model_keywords",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "biogeochemistry"
+        },
+        {
+          "type": 2,
+          "item": "water quality"
+        },
+        {
+          "type": 2,
+          "item": "C-cycle"
+        },
+        {
+          "type": 2,
+          "item": "Carbon"
+        },
+        {
+          "type": 2,
+          "item": "Nutrient cycle"
+        }
+      ]
+    },
+    {
+      "property": "Model_manual",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Media:Tutorials RHESSys.tar"
+        }
+      ]
+    },
+    {
+      "property": "Model_test_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Media:Data.tar"
+        }
+      ]
+    },
+    {
+      "property": "Model_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Modular"
+        }
+      ]
+    },
+    {
+      "property": "Model_website",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "http://fiesta.bren.ucsb.edu/~rhessys/index.html"
+        }
+      ]
+    },
+    {
+      "property": "Modelautophrases",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "system"
+        },
+        {
+          "type": 2,
+          "item": "simulation"
+        },
+        {
+          "type": 2,
+          "item": "regional"
+        },
+        {
+          "type": 2,
+          "item": "hydro-ecological modelling framework"
+        },
+        {
+          "type": 2,
+          "item": "modelling framework designed"
+        },
+        {
+          "type": 2,
+          "item": "simulate carbon"
+        },
+        {
+          "type": 2,
+          "item": "nutrient fluxes"
+        },
+        {
+          "type": 2,
+          "item": "framework designed"
+        },
+        {
+          "type": 2,
+          "item": "designed to simulate"
+        },
+        {
+          "type": 2,
+          "item": "hydro-ecological modelling"
+        },
+        {
+          "type": 2,
+          "item": "modelling framework"
+        },
+        {
+          "type": 2,
+          "item": "rhessys is capable"
+        },
+        {
+          "type": 2,
+          "item": "rhessys"
+        },
+        {
+          "type": 2,
+          "item": "water"
+        },
+        {
+          "type": 2,
+          "item": "physically-based process models"
+        },
+        {
+          "type": 2,
+          "item": "gis-based"
+        },
+        {
+          "type": 2,
+          "item": "hydro-ecological"
+        },
+        {
+          "type": 2,
+          "item": "carbon"
+        },
+        {
+          "type": 2,
+          "item": "biogeochemistry"
+        },
+        {
+          "type": 2,
+          "item": "water quality"
+        },
+        {
+          "type": 2,
+          "item": "c-cycle"
+        },
+        {
+          "type": 2,
+          "item": "nutrient cycle"
+        }
+      ]
+    },
+    {
+      "property": "Nr-of-pubs",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "148"
+        }
+      ]
+    },
+    {
+      "property": "One-line_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Regional Hydro-Ecologic Simulation System"
+        }
+      ]
+    },
+    {
+      "property": "Output_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        },
+        {
+          "type": 2,
+          "item": "Binary"
+        }
+      ]
+    },
+    {
+      "property": "Phone",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "805-893-8579"
+        }
+      ]
+    },
+    {
+      "property": "Post_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "t"
+        }
+      ]
+    },
+    {
+      "property": "Postal_address1",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Bren Hall 4516"
+        }
+      ]
+    },
+    {
+      "property": "Postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "93106"
+        }
+      ]
+    },
+    {
+      "property": "Pre_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "t"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Other"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "NOT SURE"
+        }
+      ]
+    },
+    {
+      "property": "Programming_language",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "C"
+        }
+      ]
+    },
+    {
+      "property": "Run_time_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "--"
+        }
+      ]
+    },
+    {
+      "property": "Source_code_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Through web repository"
+        }
+      ]
+    },
+    {
+      "property": "Source_web_address",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "http://fiesta.bren.ucsb.edu/~rhessys/setup/downloads/downloads.html"
+        }
+      ]
+    },
+    {
+      "property": "Spatial_dimensions",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2D"
+        }
+      ]
+    },
+    {
+      "property": "Spatialscale",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Watershed-Scale"
+        }
+      ]
+    },
+    {
+      "property": "Start_year_development",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1991"
+        }
+      ]
+    },
+    {
+      "property": "State",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "California"
+        }
+      ]
+    },
+    {
+      "property": "Supported_platforms",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Unix"
+        },
+        {
+          "type": 2,
+          "item": "Linux"
+        },
+        {
+          "type": 2,
+          "item": "Mac OS"
+        }
+      ]
+    },
+    {
+      "property": "Type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Model developer"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ESRI"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_needed",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "t"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "GRASS"
+        }
+      ]
+    },
+    {
+      "property": "_ASK",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "RHESSys#3002##_QUERY0f8eca9f0b675aedcaa51b7bbb02b305"
+        },
+        {
+          "type": 9,
+          "item": "RHESSys#3002##_QUERY32a8d99d128e5b69f831aedcd1b06e1d"
+        },
+        {
+          "type": 9,
+          "item": "RHESSys#3002##_QUERYba01ba196b3c26d5722f3adcb6d5d118"
+        }
+      ]
+    },
+    {
+      "property": "_CDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2009/11/19/15/22/56/0"
+        }
+      ]
+    },
+    {
+      "property": "_INST",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Models#14##"
+        },
+        {
+          "type": 9,
+          "item": "Pages_using_duplicate_arguments_in_template_calls#14##"
+        }
+      ]
+    },
+    {
+      "property": "_LEDT",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "WikiSysop#2##"
+        }
+      ]
+    },
+    {
+      "property": "_MDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2020/9/17/2/18/55/0"
+        }
+      ]
+    },
+    {
+      "property": "_SKEY",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "RHESSys"
+        }
+      ]
+    }
+  ],
+  "sobj": [
+    {
+      "subject": "RHESSys#3002##_QUERY0f8eca9f0b675aedcaa51b7bbb02b305",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "0"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[:Model:RHESSys]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "RHESSys# QUERY0f8eca9f0b675aedcaa51b7bbb02b305"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "RHESSys#3002##_QUERY32a8d99d128e5b69f831aedcd1b06e1d",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[User:+]] [[First name member::christina]] [[Last name member::Tague]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "RHESSys# QUERY32a8d99d128e5b69f831aedcd1b06e1d"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "RHESSys#3002##_QUERYba01ba196b3c26d5722f3adcb6d5d118",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "ul"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[Model:+]] [[First name::christina]] [[Last name::Tague]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "RHESSys# QUERYba01ba196b3c26d5722f3adcb6d5d118"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+  "version": 2
+}

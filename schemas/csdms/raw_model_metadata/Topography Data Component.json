@@ -1,0 +1,922 @@
+{
+  "subject": "Topography_Data_Component#3002##",
+  "data": [
+    {
+      "property": "Citations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "0"
+        }
+      ]
+    },
+    {
+      "property": "City",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Boulder"
+        }
+      ]
+    },
+    {
+      "property": "CodeReviewed",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "Code_CMT_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_IRF_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Code_PyMT_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Code_optimized",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single Processor"
+        }
+      ]
+    },
+    {
+      "property": "Country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "United States"
+        }
+      ]
+    },
+    {
+      "property": "DOI-filelink",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://doi.org/10.5281/zenodo.4608652"
+        }
+      ]
+    },
+    {
+      "property": "DOI_assigned_to_model_version",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "v0.8.5"
+        }
+      ]
+    },
+    {
+      "property": "DOI_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "10.5281/zenodo.4608652"
+        }
+      ]
+    },
+    {
+      "property": "DataComponent",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Describe_input_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "See documentation: https://bmi-topography.readthedocs.io"
+        }
+      ]
+    },
+    {
+      "property": "Describe_output_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "See documentation: https://bmi-topography.readthedocs.io"
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCode",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Active"
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCodeYearChecked",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2021"
+        }
+      ]
+    },
+    {
+      "property": "Development_still_active",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:mark.piper@colorado.edu"
+        }
+      ]
+    },
+    {
+      "property": "End_year_development",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "2024"
+        }
+      ]
+    },
+    {
+      "property": "Extended_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Topography is a Python library to fetch and cache NASA Shuttle Radar Topography Mission (SRTM) and JAXA Advanced Land Observing Satellite (ALOS) land elevation data using the OpenTopography REST API.\n\nThe Topography library provides access to the following global raster datasets:\n\n* SRTM GL3 (90m)\n* SRTM GL1 (30m)\n* SRTM GL1 (30m, Ellipsoidal)\n* ALOS World 3D (30m)\n* ALOS World 3D (30m, Ellipsoidal)\n* Global Bathymetry SRTM15+ V2.1\n* NASADEM Global DEM\n* Copernicus Global DSM 30m\n* Copernicus Global DSM 90m\n\nThe library includes an API and CLI that accept the dataset type, a latitude-longitude bounding box, and the output file format. Data are downloaded from OpenTopography and cached locally. The cache is checked before downloading new data. Data from a cached file can optionally be loaded into an xarray DataArray using the experimental open_rasterio method."
+        }
+      ]
+    },
+    {
+      "property": "First_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Mark"
+        }
+      ]
+    },
+    {
+      "property": "Input_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        }
+      ]
+    },
+    {
+      "property": "Institute",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "CSDMS"
+        }
+      ]
+    },
+    {
+      "property": "Last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Piper"
+        }
+      ]
+    },
+    {
+      "property": "M-quotient",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "0"
+        }
+      ]
+    },
+    {
+      "property": "Manual_model_available",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No"
+        }
+      ]
+    },
+    {
+      "property": "Memory_requirements",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Data are downloaded directly to a file, so memory use is minimal. Optionally, the data can be loaded into a Python session, in which case, memory use scales with the size of the data."
+        }
+      ]
+    },
+    {
+      "property": "ModelDomain",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Terrestrial"
+        },
+        {
+          "type": 2,
+          "item": "Hydrology"
+        },
+        {
+          "type": 2,
+          "item": "Coastal"
+        },
+        {
+          "type": 2,
+          "item": "Geodynamic"
+        },
+        {
+          "type": 2,
+          "item": "Climate"
+        },
+        {
+          "type": 2,
+          "item": "Ecosystems"
+        },
+        {
+          "type": 2,
+          "item": "Cryosphere"
+        },
+        {
+          "type": 2,
+          "item": "Human dimensions"
+        },
+        {
+          "type": 2,
+          "item": "Marine"
+        }
+      ]
+    },
+    {
+      "property": "Model_also_known_as",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Topography, bmi-topography"
+        }
+      ]
+    },
+    {
+      "property": "Model_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "As code"
+        }
+      ]
+    },
+    {
+      "property": "Model_forum",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://github.com/csdms/bmi-topography/issues"
+        }
+      ]
+    },
+    {
+      "property": "Model_keywords",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "topography"
+        },
+        {
+          "type": 2,
+          "item": "srtm"
+        },
+        {
+          "type": 2,
+          "item": "elevation"
+        },
+        {
+          "type": 2,
+          "item": "data"
+        },
+        {
+          "type": 2,
+          "item": "DEM"
+        },
+        {
+          "type": 2,
+          "item": "alos"
+        },
+        {
+          "type": 2,
+          "item": "NASADEM"
+        },
+        {
+          "type": 2,
+          "item": "Copernicus"
+        }
+      ]
+    },
+    {
+      "property": "Model_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Tool"
+        }
+      ]
+    },
+    {
+      "property": "Model_website",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://bmi-topography.readthedocs.io"
+        }
+      ]
+    },
+    {
+      "property": "Modelautophrases",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "srtm"
+        },
+        {
+          "type": 2,
+          "item": "mission"
+        },
+        {
+          "type": 2,
+          "item": "nasa shuttle radar"
+        },
+        {
+          "type": 2,
+          "item": "radar topography mission"
+        },
+        {
+          "type": 2,
+          "item": "shuttle radar topography"
+        },
+        {
+          "type": 2,
+          "item": "cache nasa shuttle"
+        },
+        {
+          "type": 2,
+          "item": "opentopography rest api"
+        },
+        {
+          "type": 2,
+          "item": "nasa shuttle"
+        },
+        {
+          "type": 2,
+          "item": "shuttle radar"
+        },
+        {
+          "type": 2,
+          "item": "topography"
+        },
+        {
+          "type": 2,
+          "item": "elevation"
+        },
+        {
+          "type": 2,
+          "item": "data"
+        },
+        {
+          "type": 2,
+          "item": "dem"
+        },
+        {
+          "type": 2,
+          "item": "topography data component"
+        },
+        {
+          "type": 2,
+          "item": "alos"
+        },
+        {
+          "type": 2,
+          "item": "satellite"
+        },
+        {
+          "type": 2,
+          "item": "land observing satellite"
+        },
+        {
+          "type": 2,
+          "item": "jaxa advanced land"
+        },
+        {
+          "type": 2,
+          "item": "advanced land observing"
+        },
+        {
+          "type": 2,
+          "item": "copernicus global dsm"
+        },
+        {
+          "type": 2,
+          "item": "observing satellite"
+        },
+        {
+          "type": 2,
+          "item": "jaxa advanced"
+        },
+        {
+          "type": 2,
+          "item": "alos world"
+        },
+        {
+          "type": 2,
+          "item": "advanced land"
+        },
+        {
+          "type": 2,
+          "item": "nasadem"
+        },
+        {
+          "type": 2,
+          "item": "copernicus"
+        }
+      ]
+    },
+    {
+      "property": "Nr-of-pubs",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "One-line_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "A CSDMS data component used to fetch and cache NASA Shuttle Radar Topography Mission (SRTM) and JAXA Advanced Land Observing Satellite (ALOS) land elevation data using the OpenTopography REST API."
+        }
+      ]
+    },
+    {
+      "property": "Output_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Binary"
+        }
+      ]
+    },
+    {
+      "property": "Post_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "80309"
+        }
+      ]
+    },
+    {
+      "property": "Pre_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "BSD or MIT X11"
+        }
+      ]
+    },
+    {
+      "property": "Programming_language",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Python"
+        }
+      ]
+    },
+    {
+      "property": "Source_code_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Through web repository"
+        }
+      ]
+    },
+    {
+      "property": "Source_web_address",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://github.com/csdms/bmi-topography"
+        }
+      ]
+    },
+    {
+      "property": "Spatial_dimensions",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2D"
+        }
+      ]
+    },
+    {
+      "property": "Spatialscale",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Global"
+        },
+        {
+          "type": 2,
+          "item": "Continental"
+        },
+        {
+          "type": 2,
+          "item": "Regional-Scale"
+        },
+        {
+          "type": 2,
+          "item": "Landscape-Scale"
+        },
+        {
+          "type": 2,
+          "item": "Watershed-Scale"
+        }
+      ]
+    },
+    {
+      "property": "Start_year_development",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2021"
+        }
+      ]
+    },
+    {
+      "property": "State",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Colorado"
+        }
+      ]
+    },
+    {
+      "property": "Supported_platforms",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Unix"
+        },
+        {
+          "type": 2,
+          "item": "Linux"
+        },
+        {
+          "type": 2,
+          "item": "Mac OS"
+        },
+        {
+          "type": 2,
+          "item": "Windows"
+        }
+      ]
+    },
+    {
+      "property": "Type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Model developer"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_needed",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "_ASK",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Topography_Data_Component#3002##_QUERY0614e4a5f068ed6c32ef265b9f37987f"
+        },
+        {
+          "type": 9,
+          "item": "Topography_Data_Component#3002##_QUERY1b9d80a28750c78cec8fd94f7f33be3a"
+        },
+        {
+          "type": 9,
+          "item": "Topography_Data_Component#3002##_QUERY28cb7ed0329ea39cd9f2aebaa8c64231"
+        }
+      ]
+    },
+    {
+      "property": "_CDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2021/3/16/18/36/45/0"
+        }
+      ]
+    },
+    {
+      "property": "_ERRC",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Topography_Data_Component#3002##_ERR832e19663f926fa58b1c2c38ccac6efd"
+        }
+      ]
+    },
+    {
+      "property": "_INST",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Models#14##"
+        },
+        {
+          "type": 9,
+          "item": "Pages_using_duplicate_arguments_in_template_calls#14##"
+        }
+      ]
+    },
+    {
+      "property": "_LEDT",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Mpiper#2##"
+        }
+      ]
+    },
+    {
+      "property": "_MDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2024/9/20/21/51/44/0"
+        }
+      ]
+    },
+    {
+      "property": "_SKEY",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Topography Data Component"
+        }
+      ]
+    }
+  ],
+  "sobj": [
+    {
+      "subject": "Topography_Data_Component#3002##_QUERY0614e4a5f068ed6c32ef265b9f37987f",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "0"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[:Model:Topography Data Component]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "Topography Data Component# QUERY0614e4a5f068ed6c32ef265b9f37987f"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Topography_Data_Component#3002##_QUERY1b9d80a28750c78cec8fd94f7f33be3a",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[User:+]] [[First name member::Mark]] [[Last name member::Piper]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "Topography Data Component# QUERY1b9d80a28750c78cec8fd94f7f33be3a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Topography_Data_Component#3002##_QUERY28cb7ed0329ea39cd9f2aebaa8c64231",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "ul"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[Model:+]] [[First name::Mark]] [[Last name::Piper]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "Topography Data Component# QUERY28cb7ed0329ea39cd9f2aebaa8c64231"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Topography_Data_Component#3002##_ERR832e19663f926fa58b1c2c38ccac6efd",
+      "data": [
+        {
+          "property": "_ERRP",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "H-index#102##"
+            }
+          ]
+        },
+        {
+          "property": "_ERRT",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[2,\"smw_nofloat\",\"--\"]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "Topography Data Component# ERR832e19663f926fa58b1c2c38ccac6efd"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+  "version": 2
+}

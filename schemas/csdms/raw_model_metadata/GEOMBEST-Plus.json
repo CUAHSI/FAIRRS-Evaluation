@@ -1,0 +1,1000 @@
+{
+  "subject": "GEOMBEST-Plus#3002##",
+  "data": [
+    {
+      "property": "Additional_city",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Chapel Hill"
+        },
+        {
+          "type": 2,
+          "item": "Bremen"
+        },
+        {
+          "type": 2,
+          "item": "Boston"
+        },
+        {
+          "type": 2,
+          "item": "Baton Rouge"
+        }
+      ]
+    },
+    {
+      "property": "Additional_country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "United States"
+        },
+        {
+          "type": 2,
+          "item": "Germany"
+        }
+      ]
+    },
+    {
+      "property": "Additional_email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:laura.moore@unc.edu"
+        },
+        {
+          "type": 5,
+          "item": "mailto:orencioduran@me.com"
+        },
+        {
+          "type": 5,
+          "item": "mailto:sergio@bu.edu"
+        },
+        {
+          "type": 5,
+          "item": "mailto:gmariotti@lsu.edu"
+        }
+      ]
+    },
+    {
+      "property": "Additional_first_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Laura"
+        },
+        {
+          "type": 2,
+          "item": "Orencio"
+        },
+        {
+          "type": 2,
+          "item": "Sergio"
+        },
+        {
+          "type": 2,
+          "item": "Giulio"
+        }
+      ]
+    },
+    {
+      "property": "Additional_institute",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "University of North Carolina - Chapel Hill"
+        },
+        {
+          "type": 2,
+          "item": "MARUM Center for Marine Environmental Sciences"
+        },
+        {
+          "type": 2,
+          "item": "Boston University"
+        },
+        {
+          "type": 2,
+          "item": "Louisiana State University"
+        }
+      ]
+    },
+    {
+      "property": "Additional_last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Moore"
+        },
+        {
+          "type": 2,
+          "item": "Duran"
+        },
+        {
+          "type": 2,
+          "item": "Fagherazzi"
+        },
+        {
+          "type": 2,
+          "item": "Mariotti"
+        }
+      ]
+    },
+    {
+      "property": "Additional_state",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "North Carolina"
+        },
+        {
+          "type": 2,
+          "item": "Massachusetts"
+        },
+        {
+          "type": 2,
+          "item": "Louisiana"
+        }
+      ]
+    },
+    {
+      "property": "Additional_type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Model developer"
+        }
+      ]
+    },
+    {
+      "property": "Citations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "0"
+        }
+      ]
+    },
+    {
+      "property": "City",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Gloucester Point"
+        }
+      ]
+    },
+    {
+      "property": "CodeReviewed",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "Code_CMT_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_IRF_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_openmi_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "United States"
+        }
+      ]
+    },
+    {
+      "property": "DOI-filelink",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://csdms.colorado.edu/pub/models/doi-source-code/geombest-plus-1.0.zip"
+        }
+      ]
+    },
+    {
+      "property": "DOI_assigned_to_model_version",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1.0"
+        }
+      ]
+    },
+    {
+      "property": "DOI_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "10.5281/zenodo.16687"
+        }
+      ]
+    },
+    {
+      "property": "Describe_available_test_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Sample input files used to create plots shown in manual."
+        }
+      ]
+    },
+    {
+      "property": "Describe_input_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Description:\n''Note: See also the GEOMBEST+ Users Guide'', section 6<br>\n\nA minimum of four excel files are required to run a GEOMBEST-Plus simulation: an “erosionresponse” file, an “accretionresponse” file, a “run#” file, and a “tract#” file. If the simulation involves a single coastal tract then the files must be titled “erosionresponse”, “accretionreponse”, “run1” file and “tract1.” Quasi-3D simulations require additional files with sequential numbers. For example a simulation involving 3 tracts within a littoral cell also requires a “run2” and “run3” file as well as a “tract2” and “tract3” file. These files must conform to the strict format outlined in the following sections.  If you are running multiple simulations of the same tract, you can use the multiple input and output files to keep track of your simulations.  Caution: Note that the run# and tract# files will have the same name (tract1, run1, etc., see below) for all simulations and so attention to organization is critical.  We suggest noting the changes made in each simulation in a readme file and then moving this file, as well as the input and output folders for each simulation, to a unique folder having an identifying name.  Our convention, for example, has been to name each run with using the date and run number on that date as the identifier, e.g., the first simulation run on February 20, 2010 would be titled 02_20_10_01and would be placed in a folder having this name.\n\n'''6.1: “erosionresponse” file'''<br>\n'''6.2: “accretionresponse” file'''<br>\n'''6.3: “run#” file'''<br>\n'''6.4: “tract#” file'''"
+        }
+      ]
+    },
+    {
+      "property": "Describe_length_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Constraints:\n* Cell length - 10 - 100 meters\n* Cell height - 0.01 - 0.5 meters"
+        }
+      ]
+    },
+    {
+      "property": "Describe_output_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Output parameters:\n* Marsh boundary - gives the position of the backbarrier marsh edge through time\n* Shorelines - gives the position of the barrier shoreline through time\n* step number - saves the surface morphology and stratigraphy for the model at each time step"
+        }
+      ]
+    },
+    {
+      "property": "Describe_processes",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Processes represented:\n''Note: See also the GEOMBEST+ Users Guide'', section 4<br>\n\n'''4.1 Equilibrium profile'''<br>\n'''4.2: Sea Level Change'''<br>\n'''4.3: Initial Morphology/Stratigraphy'''<br>\n'''4.4: Depth-Dependant Shoreface Response Rate'''<br>\n'''4.5: Backbarrier Deposition'''<br>\n'''4.6: Bay and Marsh Infilling'''<br>"
+        }
+      ]
+    },
+    {
+      "property": "Describe_time_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Constraints:\n* Time step - 1 - 50 years\n* Duration - Hundreds to thousands of years"
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCode",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Active"
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCodeYearChecked",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2020"
+        }
+      ]
+    },
+    {
+      "property": "Development_still_active",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:dcwalters@vims.edu"
+        }
+      ]
+    },
+    {
+      "property": "End_year_development",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "2015"
+        }
+      ]
+    },
+    {
+      "property": "Extended_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "“GEOMBEST-Plus” (Geomorphic Model of Barrier, Estuarine, and Shoreface Translations) is a new morphological-behaviour model that simulates the evolution of coastal morphology and stratigraphy, resulting from changes in sea level, and sediment volume within the shoreface, barrier and estuary. GEOMBEST-Plus differs from other large-scale behaviour models (e.g. Bruun, 1962; Dean and Maumeyer, 1983; Cowell et al., 1995; Niedoroda et al., 1995, Stive & de Vriend, 1995 and Storms et al., 2002) by relaxing the assumption that the initial substrate (i.e stratigraphy) is comprised of an unlimited supply of unconsolidated material (typically sand). The substrate is instead defined by distinct stratigraphic units characterized by their erodibility and sediment composition. Additionally, GEOMBEST-Plus differs from its predecessor (GEOMBEST) by adding in a dynamic stratigraphic unit for a backbarrier marsh. Accordingly, the effects of geological framework on morphological evolution and shoreline translation can be simulated."
+        }
+      ]
+    },
+    {
+      "property": "First_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "David"
+        }
+      ]
+    },
+    {
+      "property": "Input_format_model_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "excel"
+        }
+      ]
+    },
+    {
+      "property": "Institute",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Virginia Institute of Marine Science"
+        }
+      ]
+    },
+    {
+      "property": "Last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Walters"
+        }
+      ]
+    },
+    {
+      "property": "M-quotient",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "0"
+        }
+      ]
+    },
+    {
+      "property": "Manual_model_available",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Memory_requirements",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "350 KB"
+        }
+      ]
+    },
+    {
+      "property": "ModelDomain",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Coastal"
+        }
+      ]
+    },
+    {
+      "property": "Model_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "As code"
+        }
+      ]
+    },
+    {
+      "property": "Model_keywords",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "overwash"
+        },
+        {
+          "type": 2,
+          "item": "sea level rise"
+        },
+        {
+          "type": 2,
+          "item": "barrier island"
+        },
+        {
+          "type": 2,
+          "item": "marsh"
+        }
+      ]
+    },
+    {
+      "property": "Model_manual",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Media:Geombest+ Users Guide.doc"
+        }
+      ]
+    },
+    {
+      "property": "Model_test_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Media:Accretionresponse.xlsx"
+        },
+        {
+          "type": 2,
+          "item": "Media:Erosionresponse.xlsx"
+        },
+        {
+          "type": 2,
+          "item": "Media:Tract1.xlsx"
+        },
+        {
+          "type": 2,
+          "item": "Media:Run1.xlsx"
+        }
+      ]
+    },
+    {
+      "property": "Model_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single"
+        }
+      ]
+    },
+    {
+      "property": "Modelautophrases",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "cross-shore"
+        },
+        {
+          "type": 2,
+          "item": "rise"
+        },
+        {
+          "type": 2,
+          "item": "geomorphic model"
+        },
+        {
+          "type": 2,
+          "item": "sea level"
+        },
+        {
+          "type": 2,
+          "item": "coastal morphology"
+        },
+        {
+          "type": 2,
+          "item": "shoreface translations"
+        },
+        {
+          "type": 2,
+          "item": "geombest-plus differs"
+        },
+        {
+          "type": 2,
+          "item": "barrier and estuary"
+        },
+        {
+          "type": 2,
+          "item": "morphological-behaviour model"
+        },
+        {
+          "type": 2,
+          "item": "dean and maumeyer"
+        },
+        {
+          "type": 2,
+          "item": "large-scale behaviour models"
+        },
+        {
+          "type": 2,
+          "item": "barrier"
+        },
+        {
+          "type": 2,
+          "item": "shoreface"
+        },
+        {
+          "type": 2,
+          "item": "sediment volume"
+        },
+        {
+          "type": 2,
+          "item": "estuarine"
+        },
+        {
+          "type": 2,
+          "item": "geombest-plus"
+        },
+        {
+          "type": 2,
+          "item": "geomorphic"
+        },
+        {
+          "type": 2,
+          "item": "overwash"
+        },
+        {
+          "type": 2,
+          "item": "sea level rise"
+        },
+        {
+          "type": 2,
+          "item": "barrier island"
+        },
+        {
+          "type": 2,
+          "item": "marsh"
+        }
+      ]
+    },
+    {
+      "property": "Nr-of-pubs",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "One-line_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2D cross-shore geomorphological model of barrier island and marsh response to sea level rise."
+        }
+      ]
+    },
+    {
+      "property": "Output_format_model_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "MAT-file"
+        }
+      ]
+    },
+    {
+      "property": "Post_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Postal_address1",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1375 Greate Road"
+        }
+      ]
+    },
+    {
+      "property": "Postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "23062"
+        }
+      ]
+    },
+    {
+      "property": "Pre_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "GPL v2"
+        }
+      ]
+    },
+    {
+      "property": "Programming_language",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Matlab"
+        }
+      ]
+    },
+    {
+      "property": "Run_time_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "5 years model time per second"
+        }
+      ]
+    },
+    {
+      "property": "Source_code_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Through CSDMS repository"
+        }
+      ]
+    },
+    {
+      "property": "Source_csdms_web_address",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://github.com/csdms-contrib/geombest-plus"
+        }
+      ]
+    },
+    {
+      "property": "Spatial_dimensions",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2D"
+        }
+      ]
+    },
+    {
+      "property": "Start_year_development",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2013"
+        }
+      ]
+    },
+    {
+      "property": "State",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Virginia"
+        }
+      ]
+    },
+    {
+      "property": "Supported_platforms",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Windows"
+        }
+      ]
+    },
+    {
+      "property": "Type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Model developer"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_needed",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "_ASK",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "GEOMBEST-Plus#3002##_QUERYc6f245b9eb175c9a2479000e59dd082c"
+        },
+        {
+          "type": 9,
+          "item": "GEOMBEST-Plus#3002##_QUERY66f73d87595506301481cb597e048373"
+        },
+        {
+          "type": 9,
+          "item": "GEOMBEST-Plus#3002##_QUERY609fd519327e50835a55193723ef0506"
+        }
+      ]
+    },
+    {
+      "property": "_CDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2015/4/8/16/45/48/0"
+        }
+      ]
+    },
+    {
+      "property": "_ERRC",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "GEOMBEST-Plus#3002##_ERR832e19663f926fa58b1c2c38ccac6efd"
+        }
+      ]
+    },
+    {
+      "property": "_INST",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Pages_using_duplicate_arguments_in_template_calls#14##"
+        },
+        {
+          "type": 9,
+          "item": "Models#14##"
+        }
+      ]
+    },
+    {
+      "property": "_LEDT",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "WikiSysop#2##"
+        }
+      ]
+    },
+    {
+      "property": "_MDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2020/9/17/2/14/8/0"
+        }
+      ]
+    },
+    {
+      "property": "_SKEY",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "GEOMBEST-Plus"
+        }
+      ]
+    }
+  ],
+  "sobj": [
+    {
+      "subject": "GEOMBEST-Plus#3002##_QUERYc6f245b9eb175c9a2479000e59dd082c",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "0"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[:Model:GEOMBEST-Plus]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "GEOMBEST-Plus# QUERYc6f245b9eb175c9a2479000e59dd082c"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "GEOMBEST-Plus#3002##_QUERY66f73d87595506301481cb597e048373",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[User:+]] [[First name member::David]] [[Last name member::Walters]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "GEOMBEST-Plus# QUERY66f73d87595506301481cb597e048373"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "GEOMBEST-Plus#3002##_QUERY609fd519327e50835a55193723ef0506",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "ul"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[Model:+]] [[First name::David]] [[Last name::Walters]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "GEOMBEST-Plus# QUERY609fd519327e50835a55193723ef0506"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "GEOMBEST-Plus#3002##_ERR832e19663f926fa58b1c2c38ccac6efd",
+      "data": [
+        {
+          "property": "_ERRP",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "H-index#102##"
+            }
+          ]
+        },
+        {
+          "property": "_ERRT",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[2,\"smw_nofloat\",\"--\"]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "GEOMBEST-Plus# ERR832e19663f926fa58b1c2c38ccac6efd"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+  "version": 2
+}

@@ -1,0 +1,723 @@
+{
+  "subject": "HSPF#3002##",
+  "data": [
+    {
+      "property": "Citations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "13033"
+        }
+      ]
+    },
+    {
+      "property": "City",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Athens"
+        }
+      ]
+    },
+    {
+      "property": "CodeReviewed",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "Code_CMT_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_IRF_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_openmi_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_optimized",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single Processor"
+        }
+      ]
+    },
+    {
+      "property": "Country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "United States"
+        }
+      ]
+    },
+    {
+      "property": "Current_future_collaborators",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "http://www.epa.gov/ceampubl/swater/hspf/"
+        }
+      ]
+    },
+    {
+      "property": "Date_note_status_model",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2024/8/30"
+        }
+      ]
+    },
+    {
+      "property": "Describe_available_calibration_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "SPF and the earlier models from which it was developed have been extensively applied in a wide variety of hydrologic and water quality studies (3,4), including pesticide runoff model testing (5), aquatic fate and transport model testing (6,7), and analyses of agricultural best management practices (8,9). An application of HSPF in a screening methodology for pesticide review is described by Donigian et al. (10).  In addition, HSPF has been validated with both field data and model experiments, and has been reviewed by independent experts (11-20).\n\nThe Stream Transport and Agricultural Runoff for Exposure Assessment Methodology (STREAM) applies the HSPF program to various test watersheds for five major crops in four agricultural regions in the United States, defines a \"representative\" watershed based on regional conditions and an extrapolation of the calibration for the test watershed, and performs a sensitivity analysis on key pesticide parameters to generate cumulative frequency distributions of pesticide loads and concentrations in each regions. The resulting methodology requires the user to evaluate only the crops and regions of interest, the pesticide application rate, and three pesticide parameters -- the partition coefficient, the soil/sediment decay rate, and the solution decay rate.\n\nThe EPA Chesapeake Bay Program has been using the HSPF model as the framework for modeling total watershed contributions of flow, sediment, and nutrients (and associated constituents such as water temperature, DO, BOD, etc.) to the tidal region of the Chesapeake Bay (21,22). The watershed modeling represents pollutant contributions from an area of more than 68,000 sq. mi., and provides the input to drive a fully dynamic three-dimensional, hydrodynamic/water quality model of the Bay. The watershed drainage area is divided into land segments and stream channel segments.  The land areas modeled include forest, agricultural cropland (conventional and conservation tillage systems), pasture, urban (pervious and impervious areas), and uncontrolled animal waste contributions. The stream channel simulation includes flow routing and oxygen and nutrient biochemical modeling (through phytoplankton) in order to account for instream processes affecting nutrient delivery to the Bay.\n\nCurrently, buildup/washoff type algorithms are being used for urban impervious areas, potency factors for all pervious areas, and constant (or seasonally variable) concentrations for all subsurface contributions and animal waste components. Enhancements are underway to utilize the detailed process (i.e. Agrichemical modules) simulation for cropland areas to better represent the impacts of agricultural BMPs and to include nitrogen cycling in forested systems to evaluate the impacts of atmospheric deposition of nitrogen on Chesapeake Bay. The watershed modeling is being used to evaluate nutrient management alternatives for attaining a 40% reduction in nutrient loads delivered to the Bay, as defined in a joint agreement among the governors of the member states."
+        }
+      ]
+    },
+    {
+      "property": "Describe_input_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Data needs for HSPF can be extensive.  HSPF is a continuous simulation\nprogram and requires continuous data to drive the simulations.  At a minimum,\ncontinuous rainfall records are required to drive the runoff model and\nadditional records of evapotranspiration, temperature, and solar intensity\nare desirable.  A large number of model parameters can be specified although\ndefault values are provided where reasonable values are available.  HSPF is\na general-purpose program and special attention has been paid to cases where\ninput parameters are omitted.  In addition, option flags allow bypassing of\nwhole sections of the program where data are not available."
+        }
+      ]
+    },
+    {
+      "property": "Describe_output_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "HSPF produces a time history of the runoff flow rate, sediment load, and\nnutrient and pesticide concentrations, along with a time history of water\nquantity and quality at any point in a watershed.  Simulation results can be\nprocessed through a frequency and duration analysis routine that produces\noutput compatible with conventional toxicological measures (e.g., 96-hour\nLC50)."
+        }
+      ]
+    },
+    {
+      "property": "Describe_processes",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "HSPF assumes that the \"Stanford Watershed Model\" hydrologic model is\nappropriate for the area being modeled.  Further, the instream model assumes\nthe receiving water body is well-mixed with width and depth and is thus\nlimited to well-mixed rivers and reservoirs.  Application of this methodology\ngenerally requires a team effort because of its comprehensive nature."
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCode",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "As is, no updates are provided"
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCodeYearChecked",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2024"
+        }
+      ]
+    },
+    {
+      "property": "Development_still_active",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No"
+        }
+      ]
+    },
+    {
+      "property": "Email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:test@test.com"
+        }
+      ]
+    },
+    {
+      "property": "End_year_development",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "2024"
+        }
+      ]
+    },
+    {
+      "property": "Extended_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Hydrological Simulation Program - FORTRAN (HSPF) is a comprehensive package\nfor simulation of watershed hydrology and water quality for both conventional\nand toxic organic pollutants (1,2).  This model can simulate the hydrologic,\nand associated water quality, processes on pervious and impervious land\nsurfaces and in streams and well-mixed impoundments.  HSPF incorporates the\nwatershed-scale ARM and NPS models into a basin-scale analysis framework that\nincludes fate and transport in one-dimensional stream channels.  It is the\nonly comprehensive model of watershed hydrology and water quality that allows\nthe integrated simulation of land and soil contaminant runoff processes with\nin-stream hydraulic and sediment-chemical interactions.\n\nThe result of this simulation is a time history of the runoff flow rate,\nsediment load, and nutrient and pesticide concentrations, along with a time\nhistory of water quantity and quality at any point in a watershed.  HSPF\nsimulates three sediment types (sand, silt, and clay) in addition to a single\norganic chemical and transformation products of that chemical.  The transfer\nand reaction processes included are hydrolysis, oxidation, photolysis,\nbiodegradation, volatilization, and sorption.  Sorption is modeled as a\nfirst-order kinetic process in which the user must specify a desorption rate\nand an equilibrium partition coefficient for each of the three solids types.\n\nResuspension and settling of silts and clays (cohesive solids) are defined in\nterms of shear stress at the sediment water interface.  The capacity of the\nsystem to transport sand at a particular flow is calculated and resuspension\nor settling is defined by the difference between the sand in suspension and\nthe transport capacity.  Calibration of the model requires data for each of\nthe three solids types.  Benthic exchange is modeled as sorption/desorption\nand deposition/scour with surficial benthic sediments.  Underlying sediment\nand pore water are not modeled."
+        }
+      ]
+    },
+    {
+      "property": "Fax",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "706-355-8302"
+        }
+      ]
+    },
+    {
+      "property": "First_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Bob"
+        }
+      ]
+    },
+    {
+      "property": "H-index",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "53"
+        }
+      ]
+    },
+    {
+      "property": "Input_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        }
+      ]
+    },
+    {
+      "property": "Institute",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "EPA"
+        }
+      ]
+    },
+    {
+      "property": "Last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Bicknell"
+        }
+      ]
+    },
+    {
+      "property": "M-quotient",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "1.18"
+        }
+      ]
+    },
+    {
+      "property": "Manual_model_available",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Memory_requirements",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "This model system is designed for the IBM PC family of microcomputer or compatible systems running under version 3.30 or higher of the Microsoft or PC Disk Operating Systems (PC or MS DOS--refer to DEVELOPMENT SYSTEM section).  Properly configured, this model system and its support files and programs can be executed under PC DOS or MS DOS 3.30 and later versions, DOS 4.0x, DOS 5.0x, or DOS 6.x."
+        }
+      ]
+    },
+    {
+      "property": "ModelDomain",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Terrestrial"
+        },
+        {
+          "type": 2,
+          "item": "Hydrology"
+        }
+      ]
+    },
+    {
+      "property": "Model_keywords",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "biogeochemistry"
+        },
+        {
+          "type": 2,
+          "item": "water quality"
+        }
+      ]
+    },
+    {
+      "property": "Model_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Modular"
+        }
+      ]
+    },
+    {
+      "property": "Model_website",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "http://water.epa.gov/scitech/datait/models/basins/bsnsdocs.cfm#hspf The HSPF User's Manual is available as a WordPerfect (version 5.1) document in (binary, non-ASCII) files HSPF_V11.001, HSPF_V11.002, HSPF_V11.003,\nHSPF_V11.004, HSPF_V11.005, HSPF_V11.006, and HSPF_V11.007 in the DOCUMENT\nsub-directory.  Refer to file READ.ME in the README sub-directory for further\ninformation on the storage format and printing requirements of the user's\nmanual files."
+        }
+      ]
+    },
+    {
+      "property": "Note_on_status_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "EPA has information about HSPF, but no longer has active support for HSPF as a standalone model. See also: https://www.epa.gov/ceam/hydrological-simulation-program-fortran-hspf"
+        }
+      ]
+    },
+    {
+      "property": "Nr-of-pubs",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "454"
+        }
+      ]
+    },
+    {
+      "property": "One-line_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "a comprehensive package for simulation of watershed hydrology and water quality for both conventional and toxic organic pollutants"
+        }
+      ]
+    },
+    {
+      "property": "Output_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        }
+      ]
+    },
+    {
+      "property": "Phone",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "706-355-8403"
+        }
+      ]
+    },
+    {
+      "property": "Post_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Postal_address1",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Center for Exposure Assessment Modeling (CEAM)"
+        }
+      ]
+    },
+    {
+      "property": "Postal_address2",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "960 College Station Road"
+        }
+      ]
+    },
+    {
+      "property": "Postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "30605-2700"
+        }
+      ]
+    },
+    {
+      "property": "Pre_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Other"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "--"
+        }
+      ]
+    },
+    {
+      "property": "Programming_language",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Fortran77"
+        }
+      ]
+    },
+    {
+      "property": "Run_time_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "--"
+        }
+      ]
+    },
+    {
+      "property": "Spatial_dimensions",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2D"
+        }
+      ]
+    },
+    {
+      "property": "Spatialscale",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Landscape-Scale"
+        },
+        {
+          "type": 2,
+          "item": "Watershed-Scale"
+        }
+      ]
+    },
+    {
+      "property": "Start_year_development",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1997"
+        }
+      ]
+    },
+    {
+      "property": "State",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Georgia"
+        }
+      ]
+    },
+    {
+      "property": "Supported_platforms",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Windows"
+        }
+      ]
+    },
+    {
+      "property": "Type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Technical contact"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_needed",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "_ASK",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "HSPF#3002##_QUERYff4ce488de8f8de227230e27646e2e13"
+        },
+        {
+          "type": 9,
+          "item": "HSPF#3002##_QUERY6d64a6fbd4d48572afea4b7e04df5053"
+        },
+        {
+          "type": 9,
+          "item": "HSPF#3002##_QUERY5fe1830a2750a98d692cd5b22c4f6439"
+        }
+      ]
+    },
+    {
+      "property": "_CDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2009/12/7/17/38/47/0"
+        }
+      ]
+    },
+    {
+      "property": "_INST",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Models#14##"
+        },
+        {
+          "type": 9,
+          "item": "Pages_using_duplicate_arguments_in_template_calls#14##"
+        }
+      ]
+    },
+    {
+      "property": "_LEDT",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "WikiSysop#2##"
+        }
+      ]
+    },
+    {
+      "property": "_MDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2024/8/30/14/19/26/0"
+        }
+      ]
+    },
+    {
+      "property": "_SKEY",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "HSPF"
+        }
+      ]
+    }
+  ],
+  "sobj": [
+    {
+      "subject": "HSPF#3002##_QUERYff4ce488de8f8de227230e27646e2e13",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "0"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[:Model:HSPF]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "HSPF# QUERYff4ce488de8f8de227230e27646e2e13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "HSPF#3002##_QUERY6d64a6fbd4d48572afea4b7e04df5053",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[User:+]] [[First name member::Bob]] [[Last name member::Bicknell]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "HSPF# QUERY6d64a6fbd4d48572afea4b7e04df5053"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "HSPF#3002##_QUERY5fe1830a2750a98d692cd5b22c4f6439",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "ul"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[Model:+]] [[First name::Bob]] [[Last name::Bicknell]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "HSPF# QUERY5fe1830a2750a98d692cd5b22c4f6439"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+  "version": 2
+}

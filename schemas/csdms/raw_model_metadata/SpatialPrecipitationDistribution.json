@@ -1,0 +1,888 @@
+{
+  "subject": "SpatialPrecipitationDistribution#3002##",
+  "data": [
+    {
+      "property": "Citations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "0"
+        }
+      ]
+    },
+    {
+      "property": "City",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Boulder"
+        }
+      ]
+    },
+    {
+      "property": "CodeReviewed",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "Code_optimized",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single Processor"
+        }
+      ]
+    },
+    {
+      "property": "Country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "United States"
+        }
+      ]
+    },
+    {
+      "property": "Describe_input_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "grid : ModelGrid<br>\nA Landlab model grid of any type.\n\nnumber_of_years : int<br>\nThe number of years over which to generate storms.\n\norographic_scenario : {None, 'Singer', func}<br>\nWhether to use no orographic rule, or to adopt S&M's 2017 calibration for Walnut Gulch. Alternatively, provide a function here that turns the provided \nelevation of the storm center into a length-11 curve weighting to select which orographic scenario to apply."
+        }
+      ]
+    },
+    {
+      "property": "Describe_output_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "\"rainfall__flux\": \n{\n\"dtype\": float,\n\"intent\": \"out\",\n\"optional\": False,\n\"units\": \"mm/hr\",\n\"mapping\": \"node\",\n\"doc\": \"Depth of water delivered per unit time in each storm\",\n}\n\n\"rainfall__total_depth_per_year\": \n{\n\"dtype\": float,\n\"intent\": \"out\",\n\"optional\": False,\n\"units\": \"mm/yr\",\n\"mapping\": \"node\",\n\"doc\": \"Depth of water delivered in total in each model year\",\n}\n\n\"topographic__elevation\": \n{\n\"dtype\": float,\n\"intent\": \"in\",\n\"optional\": True,\n\"units\": \"m\",\n\"mapping\": \"node\",\n\"doc\": \"Land surface topographic elevation\",\n}"
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCode",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Only maintenance"
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCodeYearChecked",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2020"
+        }
+      ]
+    },
+    {
+      "property": "Development_still_active",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No"
+        }
+      ]
+    },
+    {
+      "property": "Email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:daniel.hobley@colorado.edu"
+        }
+      ]
+    },
+    {
+      "property": "End_year_development",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "2020"
+        }
+      ]
+    },
+    {
+      "property": "Extended_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "A component to generate a sequence of spatially resolved storms over a grid, following a lightly modified version (see below) of the stochastic methods of Singer & Michaelides, Env Res Lett 12, 104011, 2017, & Singer et al., Geosci. Model Dev., accepted, 10.5194/gmd-2018-86. \n\nThe method is heavily stochastic, and at the present time is intimately calibrated against the conditions at Walnut Gulch, described in those papers. In particular, assumptions around intensity-duration calibration and orographic rainfall are \"burned in\" for now, and are not accessible to the user. The various probability distributions supplied to the various run methods default to WG values, but are easily modified.  This calibration reflects a US desert southwest \"monsoonal\" climate, and the component distinguishes (optionally) between two seasons, \"monsoonal\" and \"winter\". The intensity-duration relationship is shared between the seasons, and so may prove useful in a variety of storm-dominated contexts.\n\nThe default is to disable the orographic rainfall functionality of the component. However, if orographic_scenario == 'Singer', the component requires a 'topographic__elevation' field to already exist on the grid at the time of instantiation.\n\nThe component has two ways of simulating a \"year\". This choice is controlled by the 'limit' parameter of the yield methods. If limit == 'total_rainfall', the component will continue to run until the total rainfall for the season and/or year exceeds a stochastically generated value. This method is directly comparable to the Singer & Michaelides method, but will almost always result in years which are not one calendar year long, unless the input distributions are very carefully recalibrated for each use case. If limit == 'total_time', the component will terminate a season and/or year once the elapsed time exceeds one year. In this case, the total rainfall will not correspond to the stochastically generated total. You can access the actual total for the last season using the property `(median_)total_rainfall_last_season`.\n\nNote that this component cannot simulate the occurrence of more than one storm at the same time. Storms that should be synchronous will instead occur sequentially, with no interstorm time. This limitation means that if enough storms occur in a year that numstorms*mean_storm_duration exceeds one year, the number of simulated storms will saturate. This limitation may be relaxed in the future.\n\nThe component offers the option to modify the maximum number of storms simulated per year. If you find simulations encountering this limit too often, you may need to raise this limit. Conversely, it could be lowered to reduce memory usage over small grids. However, in increasing the value, beware - the component maintains two limit*nnodes arrays, which will chew through memory if the limit gets too high. The default will happily simulate grids up to around 50 km * 50 km using the default probability distributions."
+        }
+      ]
+    },
+    {
+      "property": "First_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Daniel"
+        }
+      ]
+    },
+    {
+      "property": "Input_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        }
+      ]
+    },
+    {
+      "property": "Last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Hobley"
+        }
+      ]
+    },
+    {
+      "property": "M-quotient",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "0"
+        }
+      ]
+    },
+    {
+      "property": "Manual_model_available",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No"
+        }
+      ]
+    },
+    {
+      "property": "ModelDomain",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Terrestrial"
+        },
+        {
+          "type": 2,
+          "item": "Hydrology"
+        },
+        {
+          "type": 2,
+          "item": "Climate"
+        }
+      ]
+    },
+    {
+      "property": "ModelFramework",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "LandLab"
+        }
+      ]
+    },
+    {
+      "property": "Model_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "As code"
+        }
+      ]
+    },
+    {
+      "property": "Model_forum",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://github.com/landlab/landlab/issues"
+        }
+      ]
+    },
+    {
+      "property": "Model_keywords",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "precipitation"
+        },
+        {
+          "type": 2,
+          "item": "stochastic precipitation"
+        }
+      ]
+    },
+    {
+      "property": "Model_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Tool"
+        }
+      ]
+    },
+    {
+      "property": "Model_website",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://landlab.github.io"
+        }
+      ]
+    },
+    {
+      "property": "Modelautophrases",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "generate"
+        },
+        {
+          "type": 2,
+          "item": "events"
+        },
+        {
+          "type": 2,
+          "item": "env res lett"
+        },
+        {
+          "type": 2,
+          "item": "env res"
+        },
+        {
+          "type": 2,
+          "item": "res lett"
+        },
+        {
+          "type": 2,
+          "item": "lightly modified version"
+        },
+        {
+          "type": 2,
+          "item": "spatially resolved storms"
+        },
+        {
+          "type": 2,
+          "item": "component"
+        },
+        {
+          "type": 2,
+          "item": "year"
+        },
+        {
+          "type": 2,
+          "item": "generate a sequence"
+        },
+        {
+          "type": 2,
+          "item": "sequence of spatially"
+        },
+        {
+          "type": 2,
+          "item": "spatially resolved"
+        },
+        {
+          "type": 2,
+          "item": "total"
+        },
+        {
+          "type": 2,
+          "item": "limit"
+        },
+        {
+          "type": 2,
+          "item": "geosci"
+        },
+        {
+          "type": 2,
+          "item": "env"
+        },
+        {
+          "type": 2,
+          "item": "lett"
+        },
+        {
+          "type": 2,
+          "item": "precipitation"
+        },
+        {
+          "type": 2,
+          "item": "stochastic precipitation"
+        },
+        {
+          "type": 2,
+          "item": "spatialprecipitationdistribution"
+        }
+      ]
+    },
+    {
+      "property": "Nr-of-pubs",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "--"
+        }
+      ]
+    },
+    {
+      "property": "One-line_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Generate random sequence of spatially-resolved precipitation events"
+        }
+      ]
+    },
+    {
+      "property": "Output_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        }
+      ]
+    },
+    {
+      "property": "Post_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "80309"
+        }
+      ]
+    },
+    {
+      "property": "Pre_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "BSD or MIT X11"
+        }
+      ]
+    },
+    {
+      "property": "Programming_language",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Python"
+        }
+      ]
+    },
+    {
+      "property": "Source_code_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Through web repository"
+        }
+      ]
+    },
+    {
+      "property": "Source_web_address",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://github.com/landlab/landlab/tree/master/landlab"
+        }
+      ]
+    },
+    {
+      "property": "Spatial_dimensions",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2D"
+        }
+      ]
+    },
+    {
+      "property": "Spatialscale",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Landscape-Scale"
+        },
+        {
+          "type": 2,
+          "item": "Watershed-Scale"
+        }
+      ]
+    },
+    {
+      "property": "Start_year_development",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2017"
+        }
+      ]
+    },
+    {
+      "property": "State",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Colorado"
+        }
+      ]
+    },
+    {
+      "property": "Supported_platforms",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Unix"
+        },
+        {
+          "type": 2,
+          "item": "Linux"
+        },
+        {
+          "type": 2,
+          "item": "Mac OS"
+        },
+        {
+          "type": 2,
+          "item": "Windows"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_needed",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "_ASK",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "SpatialPrecipitationDistribution#3002##_QUERY27bc4fb0eb36f340d180148edc59270b"
+        },
+        {
+          "type": 9,
+          "item": "SpatialPrecipitationDistribution#3002##_QUERY17d901e959a1b07a5de4cd1214e03a99"
+        },
+        {
+          "type": 9,
+          "item": "SpatialPrecipitationDistribution#3002##_QUERY7231f45ac7d4912a6e53f305a43da708"
+        }
+      ]
+    },
+    {
+      "property": "_CDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2020/6/5/22/12/1/0"
+        }
+      ]
+    },
+    {
+      "property": "_ERRC",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "SpatialPrecipitationDistribution#3002##_ERRe276a1ffb0e020a1257eff82199d1d33"
+        },
+        {
+          "type": 9,
+          "item": "SpatialPrecipitationDistribution#3002##_ERRf1d465c2abf4947336e4674ceaa22c37"
+        },
+        {
+          "type": 9,
+          "item": "SpatialPrecipitationDistribution#3002##_ERR604147abdb14669b9c8f3104544da08b"
+        },
+        {
+          "type": 9,
+          "item": "SpatialPrecipitationDistribution#3002##_ERRde9fdd962ce63dcda24f603326a2771d"
+        },
+        {
+          "type": 9,
+          "item": "SpatialPrecipitationDistribution#3002##_ERR832e19663f926fa58b1c2c38ccac6efd"
+        }
+      ]
+    },
+    {
+      "property": "_INST",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Models#14##"
+        }
+      ]
+    },
+    {
+      "property": "_LEDT",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "WikiSysop#2##"
+        }
+      ]
+    },
+    {
+      "property": "_MDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2020/9/17/2/17/6/0"
+        }
+      ]
+    },
+    {
+      "property": "_SKEY",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "SpatialPrecipitationDistribution"
+        }
+      ]
+    }
+  ],
+  "sobj": [
+    {
+      "subject": "SpatialPrecipitationDistribution#3002##_QUERY27bc4fb0eb36f340d180148edc59270b",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "0"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[:Model:SpatialPrecipitationDistribution]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "SpatialPrecipitationDistribution# QUERY27bc4fb0eb36f340d180148edc59270b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "SpatialPrecipitationDistribution#3002##_QUERY17d901e959a1b07a5de4cd1214e03a99",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[User:+]] [[First name member::Daniel]] [[Last name member::Hobley]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "SpatialPrecipitationDistribution# QUERY17d901e959a1b07a5de4cd1214e03a99"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "SpatialPrecipitationDistribution#3002##_QUERY7231f45ac7d4912a6e53f305a43da708",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "ul"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[Model:+]] [[First name::Daniel]] [[Last name::Hobley]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "SpatialPrecipitationDistribution# QUERY7231f45ac7d4912a6e53f305a43da708"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "SpatialPrecipitationDistribution#3002##_ERRe276a1ffb0e020a1257eff82199d1d33",
+      "data": [
+        {
+          "property": "_ERRP",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "Code_openmi_compliant_or_not#102##"
+            }
+          ]
+        },
+        {
+          "property": "_ERRT",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[8,\"smw-constraint-error-allows-value-list\",\"Not yet\",\"Yes, No but planned, No but possible, No not possible\",\"Code openmi compliant or not\"]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "SpatialPrecipitationDistribution# ERRe276a1ffb0e020a1257eff82199d1d33"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "SpatialPrecipitationDistribution#3002##_ERRf1d465c2abf4947336e4674ceaa22c37",
+      "data": [
+        {
+          "property": "_ERRP",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "Code_IRF_or_not#102##"
+            }
+          ]
+        },
+        {
+          "property": "_ERRT",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[8,\"smw-constraint-error-allows-value-list\",\"Not yet\",\"Yes, No but planned, No but possible, No not possible\",\"Code IRF or not\"]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "SpatialPrecipitationDistribution# ERRf1d465c2abf4947336e4674ceaa22c37"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "SpatialPrecipitationDistribution#3002##_ERR604147abdb14669b9c8f3104544da08b",
+      "data": [
+        {
+          "property": "_ERRP",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "Code_CMT_compliant_or_not#102##"
+            }
+          ]
+        },
+        {
+          "property": "_ERRT",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[8,\"smw-constraint-error-allows-value-list\",\"Not yet\",\"Yes, In progress, No but possible, No not possible\",\"Code CMT compliant or not\"]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "SpatialPrecipitationDistribution# ERR604147abdb14669b9c8f3104544da08b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "SpatialPrecipitationDistribution#3002##_ERRde9fdd962ce63dcda24f603326a2771d",
+      "data": [
+        {
+          "property": "_ERRP",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "Code_PyMT_compliant_or_not#102##"
+            }
+          ]
+        },
+        {
+          "property": "_ERRT",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[8,\"smw-constraint-error-allows-value-list\",\"Not yet\",\"Yes, In progress, No but possible, No not possible\",\"Code PyMT compliant or not\"]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "SpatialPrecipitationDistribution# ERRde9fdd962ce63dcda24f603326a2771d"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "SpatialPrecipitationDistribution#3002##_ERR832e19663f926fa58b1c2c38ccac6efd",
+      "data": [
+        {
+          "property": "_ERRP",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "H-index#102##"
+            }
+          ]
+        },
+        {
+          "property": "_ERRT",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[2,\"smw_nofloat\",\"--\"]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "SpatialPrecipitationDistribution# ERR832e19663f926fa58b1c2c38ccac6efd"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+  "version": 2
+}

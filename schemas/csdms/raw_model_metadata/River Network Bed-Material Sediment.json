@@ -1,0 +1,753 @@
+{
+  "subject": "River_Network_Bed-Material_Sediment#3002##",
+  "data": [
+    {
+      "property": "Citations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "391"
+        }
+      ]
+    },
+    {
+      "property": "City",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Blacksburg"
+        }
+      ]
+    },
+    {
+      "property": "CodeReviewed",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "Code_CMT_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_IRF_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_openmi_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "United States"
+        }
+      ]
+    },
+    {
+      "property": "Describe_available_calibration_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "An application dataset for the Minnesota River Basin and Clear Creek/Tushar Mountains is included as part of the source file download."
+        }
+      ]
+    },
+    {
+      "property": "Describe_input_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Minimum requirements include a river network with link id, downstream link id, upstream drainage area, link length, and link slope. All of these are attributes are included as part of the National Hydrography Dataset Version 2 Plus (NHDV2Plus)."
+        }
+      ]
+    },
+    {
+      "property": "Describe_key_physical_parameters",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "See readme file with the source file download or related publications by J. A. Czuba."
+        }
+      ]
+    },
+    {
+      "property": "Describe_length_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "The river network is composed of links, defined as a segment of river channel between tributaries, but can be made smaller if desired. Generally each link has a length on the order of a few kilometers."
+        }
+      ]
+    },
+    {
+      "property": "Describe_numerical_limitations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "See related publications by J. A. Czuba."
+        }
+      ]
+    },
+    {
+      "property": "Describe_output_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "See results of related publications by J. A. Czuba."
+        }
+      ]
+    },
+    {
+      "property": "Describe_processes",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Bed-material sediment transport and storage on a river network."
+        }
+      ]
+    },
+    {
+      "property": "Describe_time_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Limited by computational resources."
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCode",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "As is, no updates are provided"
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCodeYearChecked",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2020"
+        }
+      ]
+    },
+    {
+      "property": "Development_still_active",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:jon.czuba@gmail.com"
+        }
+      ]
+    },
+    {
+      "property": "Extended_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Network-based modeling framework of Czuba and Foufoula-Georgiou as applied to bed-material sediment transport.\n\nThis code is capable of reproducing the results (with some work by the end user) described in the following publications:\n\nCzuba, J.A., and E. Foufoula-Georgiou (2014), A network-based framework for identifying potential synchronizations and amplifications of sediment delivery in river basins, Water Resources Research, 50(5), 3826–3851, doi:10.1002/2013WR014227.\n\nCzuba, J.A., and E. Foufoula-Georgiou (2015), Dynamic connectivity in a fluvial network for identifying hotspots of geomorphic change, Water Resources Research, 51(3), 1401-1421, doi:10.1002/2014WR016139.\n\nGran, K.B., and J.A. Czuba, (2017), Sediment pulse evolution and the role of network structure,\nGeomorphology, 277, 17-30, doi:10.1016/j.geomorph.2015.12.015.\n\nCzuba, J.A., E. Foufoula-Georgiou, K.B. Gran, P. Belmont, and P.R. Wilcock (2017), Interplay between spatially-explicit sediment sourcing, hierarchical river-network structure, and in-channel bed-material sediment transport and storage dynamics, Journal of Geophysical Research - Earth Surface, 122(5), 1090-1120, doi:10.1002/2016JF003965.\n\nAs of 20 March 2019, additional model codes were added to the repository in the folder \"Gravel_Bed_Dynamics\" that extend the model to gravel bed dynamics. The new methods for gravel bed dynamics are described in:\n\nCzuba, J.A. (2018), A Lagrangian framework for exploring complexities of mixed-size sediment transport in gravel-bedded river networks, Geomorphology, 321, 146-152, doi:10.1016/j.geomorph.2018.08.031. \n\nAnd an application to Clear Creek/Tushar Mountains in Utah is described in:\n\nMurphy, B.P., J.A. Czuba, and P. Belmont (2019), Post-wildfire sediment cascades: a modeling framework linking debris flow generation and network-scale sediment routing, Earth Surface Processes and Landforms, 44(11), 2126-2140, doi:10.1002/esp.4635.\n\nNote: the application code and data files for Murphy et al., 2019 are included in the repository as example files.\n\nAs of 24 September 2020, this code has largely been converted to Python and has been incorporated into Landlab version 2.2 as the NetworkSedimentTransporter. See:\n\nPfeiffer, A.M., K.R. Barnhart, J.A. Czuba, and E.W.H. Hutton (2020), NetworkSedimentTransporter: A Landlab component for bed material transport through river networks, Journal of Open Source Software, 5(53), 2341, doi:10.21105/joss.02341.\n\nThis initial release is the core code, but development is ongoing to make the data preprocessing, model interface, and exploration of model results more user friendly. All future developments will be in the Landlab/Python version of the code instead of this Matlab version."
+        }
+      ]
+    },
+    {
+      "property": "First_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Jonathan"
+        }
+      ]
+    },
+    {
+      "property": "H-index",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "5"
+        }
+      ]
+    },
+    {
+      "property": "Institute",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Virginia Tech"
+        }
+      ]
+    },
+    {
+      "property": "Last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Czuba"
+        }
+      ]
+    },
+    {
+      "property": "M-quotient",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "0.42"
+        }
+      ]
+    },
+    {
+      "property": "Manual_model_available",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No"
+        }
+      ]
+    },
+    {
+      "property": "ModelDomain",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Terrestrial"
+        },
+        {
+          "type": 2,
+          "item": "Hydrology"
+        }
+      ]
+    },
+    {
+      "property": "Model_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "As code"
+        },
+        {
+          "type": 2,
+          "item": "As teaching tool"
+        }
+      ]
+    },
+    {
+      "property": "Model_forum",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "A readme file is included along with the source file download."
+        }
+      ]
+    },
+    {
+      "property": "Model_keywords",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "River network"
+        },
+        {
+          "type": 2,
+          "item": "sediment transport"
+        }
+      ]
+    },
+    {
+      "property": "Model_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single"
+        }
+      ]
+    },
+    {
+      "property": "Modelautophrases",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "bed-material"
+        },
+        {
+          "type": 2,
+          "item": "networks"
+        },
+        {
+          "type": 2,
+          "item": "water resources research"
+        },
+        {
+          "type": 2,
+          "item": "resources research"
+        },
+        {
+          "type": 2,
+          "item": "water resources"
+        },
+        {
+          "type": 2,
+          "item": "doi"
+        },
+        {
+          "type": 2,
+          "item": "czuba"
+        },
+        {
+          "type": 2,
+          "item": "sediment"
+        },
+        {
+          "type": 2,
+          "item": "gravel bed dynamics"
+        },
+        {
+          "type": 2,
+          "item": "earth surface"
+        },
+        {
+          "type": 2,
+          "item": "research"
+        },
+        {
+          "type": 2,
+          "item": "earth surface processes"
+        },
+        {
+          "type": 2,
+          "item": "bed-material sediment transport"
+        },
+        {
+          "type": 2,
+          "item": "sediment transport"
+        },
+        {
+          "type": 2,
+          "item": "geophysical research"
+        },
+        {
+          "type": 2,
+          "item": "foufoula-georgiou"
+        },
+        {
+          "type": 2,
+          "item": "bed dynamics"
+        },
+        {
+          "type": 2,
+          "item": "river network"
+        },
+        {
+          "type": 2,
+          "item": "river network bed-material sediment"
+        }
+      ]
+    },
+    {
+      "property": "Nr-of-pubs",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "6"
+        }
+      ]
+    },
+    {
+      "property": "One-line_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Bed-material sediment transport and storage dynamics on river networks."
+        }
+      ]
+    },
+    {
+      "property": "Post_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "24061"
+        }
+      ]
+    },
+    {
+      "property": "Pre_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "GPL v3"
+        }
+      ]
+    },
+    {
+      "property": "Programming_language",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Matlab"
+        }
+      ]
+    },
+    {
+      "property": "Source_code_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Through CSDMS repository"
+        }
+      ]
+    },
+    {
+      "property": "Source_csdms_web_address",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://github.com/csdms-contrib/River-Network-Bed-Material-Sediment"
+        }
+      ]
+    },
+    {
+      "property": "Spatial_dimensions",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1D"
+        }
+      ]
+    },
+    {
+      "property": "Spatialscale",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Continental"
+        },
+        {
+          "type": 2,
+          "item": "Regional-Scale"
+        },
+        {
+          "type": 2,
+          "item": "Landscape-Scale"
+        },
+        {
+          "type": 2,
+          "item": "Watershed-Scale"
+        }
+      ]
+    },
+    {
+      "property": "Start_year_development",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2012"
+        }
+      ]
+    },
+    {
+      "property": "State",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Virginia"
+        }
+      ]
+    },
+    {
+      "property": "Supported_platforms",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Windows"
+        }
+      ]
+    },
+    {
+      "property": "Type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Model developer"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_needed",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "_ASK",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "River_Network_Bed-Material_Sediment#3002##_QUERYd648b79e479bcbc8899646c2c1bc33b3"
+        },
+        {
+          "type": 9,
+          "item": "River_Network_Bed-Material_Sediment#3002##_QUERYa13473214c0bd1bfc2659765a4603d20"
+        },
+        {
+          "type": 9,
+          "item": "River_Network_Bed-Material_Sediment#3002##_QUERY4ed359d3132abf296fd5b14323b26bfc"
+        }
+      ]
+    },
+    {
+      "property": "_CDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2016/11/29/17/31/33/0"
+        }
+      ]
+    },
+    {
+      "property": "_INST",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Pages_using_duplicate_arguments_in_template_calls#14##"
+        },
+        {
+          "type": 9,
+          "item": "Models#14##"
+        }
+      ]
+    },
+    {
+      "property": "_LEDT",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Jczuba#2##"
+        }
+      ]
+    },
+    {
+      "property": "_MDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2020/11/10/22/16/11/0"
+        }
+      ]
+    },
+    {
+      "property": "_SKEY",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "River Network Bed-Material Sediment"
+        }
+      ]
+    }
+  ],
+  "sobj": [
+    {
+      "subject": "River_Network_Bed-Material_Sediment#3002##_QUERYd648b79e479bcbc8899646c2c1bc33b3",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "0"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[:Model:River Network Bed-Material Sediment]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "River Network Bed-Material Sediment# QUERYd648b79e479bcbc8899646c2c1bc33b3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "River_Network_Bed-Material_Sediment#3002##_QUERYa13473214c0bd1bfc2659765a4603d20",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[User:+]] [[First name member::Jonathan]] [[Last name member::Czuba]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "River Network Bed-Material Sediment# QUERYa13473214c0bd1bfc2659765a4603d20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "River_Network_Bed-Material_Sediment#3002##_QUERY4ed359d3132abf296fd5b14323b26bfc",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "ul"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[Model:+]] [[First name::Jonathan]] [[Last name::Czuba]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "River Network Bed-Material Sediment# QUERY4ed359d3132abf296fd5b14323b26bfc"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+  "version": 2
+}

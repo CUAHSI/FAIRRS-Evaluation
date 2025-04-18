@@ -1,0 +1,867 @@
+{
+  "subject": "DeltaClassification#3002##",
+  "data": [
+    {
+      "property": "Additional_comments_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Requirements\nTo run these codes, you will need the following software:\n\n•\tPython 2.7 or earlier (not compatible with Python 3)\n\nThe following Python packages are also required:\n•\tmatplotlib\n•\tscipy\n•\tnumpy\n•\tcPickle\n•\tosgeo\n•\tfiona\n•\tshapely\n•\tutilities\n•\tsklearn\n•\tseaborn\n•\tclusterpy\n•\titertools\n•\tpandas\n•\tpysal\n•\tcollections\n\nWhat input is required?\n\nTo run this code, the following shape files are required:\n\n•\tnetwork shapefile, containing the river network extracted from satellite imagery\n•\tisland shapefile, containing the land masses or islands of the delta\n•\tpatch shapefile, containing the outline of channels\n\nWhat does the code do?\n\nThe file all.ipynb contains codes run the analysis. From start to finish, the Jupyter Notebook contains code blocks that:\n\n•\tloads in the shapefiles\n•\tcalculate the parameters for the network that both surround and drain the islands\n•\tcalculate the base metrics (e.g. perimeter, area, solidity, aspect ratio...)\n•\tcalculates maximum distance from the island center to the nearest water body\n•\testimates minimum, average and maximum widths of all network channels\n•\tevaluates the fractal dimension of each delta island\n•\tcreates shapefiles based on the metrics calculated earlier in the code\n•\tsaves all metrics to an output file\n•\tgenerates PCA and GeoSOM results from the island and channel metrics\n•\tplots the U-matrix and dendrogram based on the GeoSOM results"
+        }
+      ]
+    },
+    {
+      "property": "Citations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "5"
+        }
+      ]
+    },
+    {
+      "property": "City",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Boston"
+        }
+      ]
+    },
+    {
+      "property": "CodeReviewed",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "Code_CMT_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No not possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_IRF_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No not possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_PyMT_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_openmi_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No not possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_optimized",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single Processor"
+        }
+      ]
+    },
+    {
+      "property": "Country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "United States"
+        }
+      ]
+    },
+    {
+      "property": "Current_future_collaborators",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "no"
+        }
+      ]
+    },
+    {
+      "property": "DOI-filelink",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://zenodo.org/record/3926763#.Xvz5mpNKiu4"
+        }
+      ]
+    },
+    {
+      "property": "DOI_assigned_to_model_version",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "v1.0"
+        }
+      ]
+    },
+    {
+      "property": "DOI_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "10.5281/zenodo.3926763"
+        }
+      ]
+    },
+    {
+      "property": "Describe_available_calibration_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Proof of concept was applied for the Ganges-Brahmaputra delta system"
+        }
+      ]
+    },
+    {
+      "property": "Describe_available_test_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Test data was slightly updated from a published dataset by Passalacqua, P., Lanzoni, S., Paola, C., and Rinaldo, A.: Geomorphic signatures of deltaic processes and vegetation: The Ganges-\nBrahmaputra-Jamuna case study, Journal of Geophysical Research: Earth Surface, 118, 1838–1849, 2013."
+        }
+      ]
+    },
+    {
+      "property": "Describe_input_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Geometric parameters on delta shapes derived from satellite data. \nTo run this code, the following shape files are required:\n\n•\tnetwork shapefile, containing the river network extracted from satellite imagery\n•\tisland shapefile, containing the land masses or islands of the delta\n•\tpatch shapefile, containing the outline of channels"
+        }
+      ]
+    },
+    {
+      "property": "Describe_key_physical_parameters",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "The key methods used are: \n1) Feature normalization and principal component analysis\n2) Spatial clustering using GEOSOM algorithm\n3) Hierarchical agglomerative clustering to built nested clusters"
+        }
+      ]
+    },
+    {
+      "property": "Describe_length_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Methods has been applied to data set of 100's of individual delta islands derived from Landsat satellite data (30-60m resolution)."
+        }
+      ]
+    },
+    {
+      "property": "Describe_numerical_limitations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "n/a\nLimitations on the method do occur when delta systems consist of only a few islands, then the input dataset of geometric parameters becomes too small for the machine learning methods."
+        }
+      ]
+    },
+    {
+      "property": "Describe_output_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "classification of groups of similar zones within a deltasystem\ncode blocks that:\n\n•\tloads in the shapefiles\n•\tcalculate the parameters for the network that both surround and drain the islands\n•\tcalculate the base metrics (e.g. perimeter, area, solidity, aspect ratio...)\n•\tcalculates maximum distance from the island center to the nearest water body\n•\testimates minimum, average and maximum widths of all network channels\n•\tevaluates the fractal dimension of each delta island\n•\tcreates shapefiles based on the metrics calculated earlier in the code\n•\tsaves all metrics to an output file\n•\tgenerates PCA and GeoSOM results from the island and channel metrics\n•\tplots the U-matrix and dendrogram based on the GeoSOM results"
+        }
+      ]
+    },
+    {
+      "property": "Describe_processes",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Tool is used to regionalize a study area into zones with 'common physical characteristics' with the underlying aim of differentiating areas of influence of various physical processes. Regionalization attempts to aggregate spatial units or observations into clusters based on spatial continuity as well as attribute similarity. \nGeometry metrics are derived from satellite data analysis and include a.o. island area, island aspect ratio, island fractal dimension, and surrounding channel metric, channel width, channel sinousity, number of outflow channels, convexity."
+        }
+      ]
+    },
+    {
+      "property": "Describe_time_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Mapview at a given time"
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCode",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "As is, no updates are provided"
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCodeYearChecked",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2020"
+        }
+      ]
+    },
+    {
+      "property": "Development_still_active",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No"
+        }
+      ]
+    },
+    {
+      "property": "Email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:mperignon@gmail.com"
+        }
+      ]
+    },
+    {
+      "property": "End_year_development",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "2019"
+        },
+        {
+          "type": 1,
+          "item": "2020"
+        }
+      ]
+    },
+    {
+      "property": "Extended_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "This tool provides a method for extracting information on the nature and spatial extent of active geomorphic processes across deltas from the geometry of islands and the channels around them using machine learning. \nThe method consists of a two-step ensemble unsupervised machine learning algorithm that clusters islands into spatially continuous zones based on morphological metrics computed on remotely sensed imagery"
+        }
+      ]
+    },
+    {
+      "property": "First_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Mariela"
+        }
+      ]
+    },
+    {
+      "property": "H-index",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "Input_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        }
+      ]
+    },
+    {
+      "property": "Last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Perignon"
+        }
+      ]
+    },
+    {
+      "property": "M-quotient",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "0.17"
+        }
+      ]
+    },
+    {
+      "property": "Manual_model_available",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No"
+        }
+      ]
+    },
+    {
+      "property": "Memory_requirements",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "n/a"
+        }
+      ]
+    },
+    {
+      "property": "ModelDomain",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Coastal"
+        }
+      ]
+    },
+    {
+      "property": "Model_also_known_as",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "DeltaClassification"
+        }
+      ]
+    },
+    {
+      "property": "Model_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "As code"
+        }
+      ]
+    },
+    {
+      "property": "Model_keywords",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "machine learning"
+        },
+        {
+          "type": 2,
+          "item": "delta landforms"
+        }
+      ]
+    },
+    {
+      "property": "Model_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Tool"
+        }
+      ]
+    },
+    {
+      "property": "Modelautophrases",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "geometry"
+        },
+        {
+          "type": 2,
+          "item": "islands"
+        },
+        {
+          "type": 2,
+          "item": "active geomorphic processes"
+        },
+        {
+          "type": 2,
+          "item": "extracting information"
+        },
+        {
+          "type": 2,
+          "item": "nature and spatial"
+        },
+        {
+          "type": 2,
+          "item": "spatial extent"
+        },
+        {
+          "type": 2,
+          "item": "extent of active"
+        },
+        {
+          "type": 2,
+          "item": "active geomorphic"
+        },
+        {
+          "type": 2,
+          "item": "geomorphic processes"
+        },
+        {
+          "type": 2,
+          "item": "processes across deltas"
+        },
+        {
+          "type": 2,
+          "item": "unsupervised machine learning"
+        },
+        {
+          "type": 2,
+          "item": "machine learning algorithm"
+        },
+        {
+          "type": 2,
+          "item": "machine learning"
+        },
+        {
+          "type": 2,
+          "item": "ensemble unsupervised machine"
+        },
+        {
+          "type": 2,
+          "item": "remotely sensed imagery"
+        },
+        {
+          "type": 2,
+          "item": "two-step ensemble unsupervised"
+        },
+        {
+          "type": 2,
+          "item": "spatially continuous zones"
+        },
+        {
+          "type": 2,
+          "item": "delta landforms"
+        },
+        {
+          "type": 2,
+          "item": "deltaclassification"
+        }
+      ]
+    },
+    {
+      "property": "Nr-of-pubs",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2"
+        }
+      ]
+    },
+    {
+      "property": "One-line_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Geometry classification of delta islands"
+        }
+      ]
+    },
+    {
+      "property": "Output_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        }
+      ]
+    },
+    {
+      "property": "Output_format_model_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "maps"
+        }
+      ]
+    },
+    {
+      "property": "Post_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "02101"
+        }
+      ]
+    },
+    {
+      "property": "Pre_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Program_language_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Compatible with Python 2.7, not python 3"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "BSD or MIT X11"
+        }
+      ]
+    },
+    {
+      "property": "Programming_language",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Python"
+        }
+      ]
+    },
+    {
+      "property": "Run_time_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "n/a"
+        }
+      ]
+    },
+    {
+      "property": "Source_code_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Through CSDMS repository"
+        }
+      ]
+    },
+    {
+      "property": "Source_csdms_web_address",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://github.com/csdms-contrib/DeltaClassification"
+        }
+      ]
+    },
+    {
+      "property": "Spatial_dimensions",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2D"
+        }
+      ]
+    },
+    {
+      "property": "Spatialscale",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Landscape-Scale"
+        }
+      ]
+    },
+    {
+      "property": "Start_year_development",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2017"
+        }
+      ]
+    },
+    {
+      "property": "State",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Massachusetts"
+        }
+      ]
+    },
+    {
+      "property": "Supported_platforms",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Linux"
+        },
+        {
+          "type": 2,
+          "item": "Mac OS"
+        }
+      ]
+    },
+    {
+      "property": "Type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Model developer"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_needed",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "_ASK",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "DeltaClassification#3002##_QUERYae5167a63758eac2ad89988e303ba84b"
+        },
+        {
+          "type": 9,
+          "item": "DeltaClassification#3002##_QUERYbda2c1fbc3400b9e259693497b5aae58"
+        },
+        {
+          "type": 9,
+          "item": "DeltaClassification#3002##_QUERY2812b418a19df24329d024d2b7d10247"
+        }
+      ]
+    },
+    {
+      "property": "_CDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2020/4/10/15/14/25/0"
+        }
+      ]
+    },
+    {
+      "property": "_INST",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Pages_using_duplicate_arguments_in_template_calls#14##"
+        },
+        {
+          "type": 9,
+          "item": "Models#14##"
+        }
+      ]
+    },
+    {
+      "property": "_LEDT",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "WikiSysop#2##"
+        }
+      ]
+    },
+    {
+      "property": "_MDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2020/9/17/2/18/32/0"
+        }
+      ]
+    },
+    {
+      "property": "_SKEY",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "DeltaClassification"
+        }
+      ]
+    }
+  ],
+  "sobj": [
+    {
+      "subject": "DeltaClassification#3002##_QUERYae5167a63758eac2ad89988e303ba84b",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "0"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[:Model:DeltaClassification]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "DeltaClassification# QUERYae5167a63758eac2ad89988e303ba84b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "DeltaClassification#3002##_QUERYbda2c1fbc3400b9e259693497b5aae58",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[User:+]] [[First name member::Mariela]] [[Last name member::Perignon]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "DeltaClassification# QUERYbda2c1fbc3400b9e259693497b5aae58"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "DeltaClassification#3002##_QUERY2812b418a19df24329d024d2b7d10247",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "ul"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[Model:+]] [[First name::Mariela]] [[Last name::Perignon]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "DeltaClassification# QUERY2812b418a19df24329d024d2b7d10247"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+  "version": 2
+}

@@ -1,0 +1,782 @@
+{
+  "subject": "ChesROMS#3002##",
+  "data": [
+    {
+      "property": "Additional_comments_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "The documentation about ROMS can be found in WikiROMS: https://www.myroms.org/wiki\n\nThere is a very active ROMS user's forum: https://www.myroms.org/forum\n\nNOTICE: REGISTRATION IS NEEDED TO RECEIVE THE SOURCE CODE: https://www.myroms.org/index.php?page=login"
+        }
+      ]
+    },
+    {
+      "property": "Citations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "7954"
+        }
+      ]
+    },
+    {
+      "property": "City",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Cambridge"
+        }
+      ]
+    },
+    {
+      "property": "CodeReviewed",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "Code_CMT_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_IRF_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Code_openmi_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "United States"
+        }
+      ]
+    },
+    {
+      "property": "Current_future_collaborators",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes, we work with several modeling groups around the world."
+        }
+      ]
+    },
+    {
+      "property": "Describe_available_calibration_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "There are several idealized and realistic test cases. Some of the idealized test cases have quasi-analytical solutions."
+        }
+      ]
+    },
+    {
+      "property": "Describe_available_test_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "We have a website for test problems: http://marine.rutgers.edu/po/index.php?model=test-problems"
+        }
+      ]
+    },
+    {
+      "property": "Describe_ideal_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "We have test cases for both laboratory and field observations. In the past, we have used data from rotating tanks."
+        }
+      ]
+    },
+    {
+      "property": "Describe_input_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "There are hundreds of input parameters for the physical, ecosystem, and sediment models. In addition, there are input scripts for floats, stations, model coupling, and data assimilation."
+        }
+      ]
+    },
+    {
+      "property": "Describe_key_physical_parameters",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Navier-Stokes primitive equations. Bio-optical, biogeochemical, and ecosystem models equations. Cohesive and non cohesive sediment equations. Several vertical turbulece equations (KPP, GLS, MY-2.5). Air-Sea interaction coupling equations (COARE). Bottom boundary layer model equations."
+        }
+      ]
+    },
+    {
+      "property": "Describe_length_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Estuary, regional, and basin scales. There are couple of global applications."
+        }
+      ]
+    },
+    {
+      "property": "Describe_numerical_limitations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ROMS has a predictior-corrector algorithm that is efficient and accuarate. This class of model (terrain-following) exhibits stronger sensitivity to topography which results in pressure gradient errors. ROMS has several pressure gradient algorithms that minimize this problem."
+        }
+      ]
+    },
+    {
+      "property": "Describe_output_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "There are hundreds of output parameters and fields that are written to several NetCDF files."
+        }
+      ]
+    },
+    {
+      "property": "Describe_post-processing_software",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes, ROMS I/O is via NetCDF and follows CF-standard conventions. Therefore, any visualization software for NetCDF files can be used for pre- and post-processing."
+        }
+      ]
+    },
+    {
+      "property": "Describe_processes",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ROMS resolved fast (gravity waves) and slow (Rossby waves) dynamics. Hydrostatic approximation but there is a nonhydrostatic version of ROMS."
+        }
+      ]
+    },
+    {
+      "property": "Describe_time_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Hours, days, seasons. It also can be used for climate research (decades)."
+        }
+      ]
+    },
+    {
+      "property": "Development_still_active",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No"
+        }
+      ]
+    },
+    {
+      "property": "Email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:wenlong@umces.edu"
+        }
+      ]
+    },
+    {
+      "property": "Extended_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ChesROMS is a community ocean modeling system for the Chesapeake Bay region being developed by scientists in NOAA, University of Maryland, CRC (Chesapeake Research Consortium) and MD DNR (Maryland Department of Natural Resources) supported by the NOAA MERHAB program. The model is built based on the Rutgers Regional Ocean Modeling System (ROMS, http://www.myroms.org/) with significant adaptations for the Chesapeake Bay.\n\nThe model is developed to provide a community modeling system for nowcast and forecast of 3D hydrodynamic circulation, temperature and salinity, sediment transport, biogeochemical and ecosystem states with applications to ecosystem and human health in the bay. Model validation is based on bay wide satellite remote sensing, real-time in situ measurements and historical data provided by Chesapeake Bay Program.\n\nhttp://ches.communitymodeling.org/models/ChesROMS/index.php"
+        }
+      ]
+    },
+    {
+      "property": "First_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Wen"
+        }
+      ]
+    },
+    {
+      "property": "H-index",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "9"
+        }
+      ]
+    },
+    {
+      "property": "Input_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        }
+      ]
+    },
+    {
+      "property": "Input_format_model_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII (input scripts), NetCDF (input fields)."
+        }
+      ]
+    },
+    {
+      "property": "Last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Long"
+        }
+      ]
+    },
+    {
+      "property": "M-quotient",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "0.28"
+        }
+      ]
+    },
+    {
+      "property": "Manual_model_available",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "ModelDomain",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Marine"
+        }
+      ]
+    },
+    {
+      "property": "Model_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single"
+        }
+      ]
+    },
+    {
+      "property": "Model_website",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://www.myroms.org"
+        }
+      ]
+    },
+    {
+      "property": "Modelautophrases",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "chesroms"
+        },
+        {
+          "type": 2,
+          "item": "model"
+        },
+        {
+          "type": 2,
+          "item": "roms"
+        },
+        {
+          "type": 2,
+          "item": "bay"
+        },
+        {
+          "type": 2,
+          "item": "chesapeake research consortium"
+        },
+        {
+          "type": 2,
+          "item": "noaa merhab program"
+        },
+        {
+          "type": 2,
+          "item": "ocean modeling system"
+        },
+        {
+          "type": 2,
+          "item": "research consortium"
+        },
+        {
+          "type": 2,
+          "item": "natural resources"
+        },
+        {
+          "type": 2,
+          "item": "maryland department"
+        },
+        {
+          "type": 2,
+          "item": "noaa merhab"
+        },
+        {
+          "type": 2,
+          "item": "department of natural"
+        },
+        {
+          "type": 2,
+          "item": "chesapeake bay region"
+        },
+        {
+          "type": 2,
+          "item": "regional ocean modeling"
+        },
+        {
+          "type": 2,
+          "item": "rutgers regional ocean"
+        },
+        {
+          "type": 2,
+          "item": "chesapeake bay program"
+        },
+        {
+          "type": 2,
+          "item": "chesapeake research"
+        },
+        {
+          "type": 2,
+          "item": "university of maryland"
+        },
+        {
+          "type": 2,
+          "item": "chesapeake bay"
+        }
+      ]
+    },
+    {
+      "property": "Nr-of-pubs",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "13"
+        }
+      ]
+    },
+    {
+      "property": "One-line_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Chesapeake Bay ROMS Community Model (ChesROMS), special case of ROMS"
+        }
+      ]
+    },
+    {
+      "property": "Output_format_model_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "NetCDF, CF-convections."
+        }
+      ]
+    },
+    {
+      "property": "Post_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "t"
+        }
+      ]
+    },
+    {
+      "property": "Postal_address1",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2020 Horns Point Rd"
+        }
+      ]
+    },
+    {
+      "property": "Postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "21613"
+        }
+      ]
+    },
+    {
+      "property": "Pre_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Other"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "MIT/X License, see License_ROMS.txt."
+        }
+      ]
+    },
+    {
+      "property": "Programming_language",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Fortran90"
+        }
+      ]
+    },
+    {
+      "property": "Source_code_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Through web repository"
+        }
+      ]
+    },
+    {
+      "property": "Source_web_address",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "http://ches.communitymodeling.org/models/ChesROMS/"
+        }
+      ]
+    },
+    {
+      "property": "Start_year_development",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1998"
+        }
+      ]
+    },
+    {
+      "property": "State",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Maryland"
+        }
+      ]
+    },
+    {
+      "property": "Supported_platforms",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Unix"
+        },
+        {
+          "type": 2,
+          "item": "Linux"
+        },
+        {
+          "type": 2,
+          "item": "Windows"
+        }
+      ]
+    },
+    {
+      "property": "Supported_platforms_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "CygWin"
+        }
+      ]
+    },
+    {
+      "property": "Type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Technical contact"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_needed",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "t"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes, a plotting package is provided. It uses the NCAR's graphics Library. Any visualization package for NetCDF files can be used, like IDL, Matlab, and others."
+        }
+      ]
+    },
+    {
+      "property": "_ASK",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "ChesROMS#3002##_QUERY8631c1fb9b890e8bf547e6db080e1e4a"
+        },
+        {
+          "type": 9,
+          "item": "ChesROMS#3002##_QUERY07428bc61a6a39ffb7d878c472ec0a51"
+        },
+        {
+          "type": 9,
+          "item": "ChesROMS#3002##_QUERYf2b4fcd674bdaa366a26ec0b9563f9da"
+        }
+      ]
+    },
+    {
+      "property": "_CDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2011/7/27/22/10/0/0"
+        }
+      ]
+    },
+    {
+      "property": "_INST",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Models#14##"
+        },
+        {
+          "type": 9,
+          "item": "Pages_using_duplicate_arguments_in_template_calls#14##"
+        }
+      ]
+    },
+    {
+      "property": "_LEDT",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "WikiSysop#2##"
+        }
+      ]
+    },
+    {
+      "property": "_MDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2020/9/17/2/15/32/0"
+        }
+      ]
+    },
+    {
+      "property": "_SKEY",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ChesROMS"
+        }
+      ]
+    }
+  ],
+  "sobj": [
+    {
+      "subject": "ChesROMS#3002##_QUERY8631c1fb9b890e8bf547e6db080e1e4a",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "0"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[:Model:ChesROMS]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "ChesROMS# QUERY8631c1fb9b890e8bf547e6db080e1e4a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "ChesROMS#3002##_QUERY07428bc61a6a39ffb7d878c472ec0a51",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[User:+]] [[First name member::Wen]] [[Last name member::Long]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "ChesROMS# QUERY07428bc61a6a39ffb7d878c472ec0a51"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "ChesROMS#3002##_QUERYf2b4fcd674bdaa366a26ec0b9563f9da",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "ul"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[Model:+]] [[First name::Wen]] [[Last name::Long]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "ChesROMS# QUERYf2b4fcd674bdaa366a26ec0b9563f9da"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+  "version": 2
+}

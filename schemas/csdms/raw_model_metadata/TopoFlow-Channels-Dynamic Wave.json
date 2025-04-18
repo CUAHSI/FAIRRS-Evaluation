@@ -1,0 +1,896 @@
+{
+  "subject": "TopoFlow-Channels-Dynamic_Wave#3002##",
+  "data": [
+    {
+      "property": "Additional_comments_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "About this component:\n*This component was developed as part of the TopoFlow hydrologic model, which was originally written in IDL and had a point-and-click GUI. For more information on TopoFlow, please goto: https://csdms.colorado.edu/wiki/Model:TopoFlow.\n*When used from within the CSDMS Modeling Tool (CMT), this component has \"config\" button which launches a graphical user interface (GUI) for changing input parameters. The GUI is a tabbed dialog with a Help button at the bottom that displays HTML help in a browser window.\n*This component also has a configuration (CFG) file, with a name of the form: <case_prefix>_channels_diff_wave.cfg.  This file can be edited with a text editor.\n*The Numerical Python module (numpy) is used for fast, array-based processing.\n*This model has an OpenMI-style interface, similar to OpenMI 2.0.  Part of this interface is inherited from \"CSDMS_base.py\"."
+        }
+      ]
+    },
+    {
+      "property": "Citations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "12"
+        }
+      ]
+    },
+    {
+      "property": "City",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Boulder"
+        }
+      ]
+    },
+    {
+      "property": "CodeReviewed",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "Code_CMT_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Code_IRF_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Code_openmi_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but planned"
+        }
+      ]
+    },
+    {
+      "property": "Code_optimized",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single Processor"
+        }
+      ]
+    },
+    {
+      "property": "Country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "United States"
+        }
+      ]
+    },
+    {
+      "property": "Current_future_collaborators",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Collaborators include: Larry Hinzman (UAF), Bob Bolton, Anna Liljedahl (UAF), Stefan Pohl, Tom Over and others"
+        }
+      ]
+    },
+    {
+      "property": "Describe_available_calibration_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "This model/component is typically not calibrated to fit data, but is run with a best guess or measured value for each input parameter."
+        }
+      ]
+    },
+    {
+      "property": "Describe_available_test_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Available test data sets:\n\n* Treynor watershed, in the Nishnabotna River basin, Iowa, USA.\n* (Two large rainfall events.)\n* Small basin in Kentucky.\n* Inclined plane for testing.\n* Arctic watershed data from Larry Hinzman (UAF).\n* See /data/progs/topoflow/3.0/data on CSDMS cluster."
+        }
+      ]
+    },
+    {
+      "property": "Describe_ideal_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Several test datasets are stored on the CSDMS cluster at: /data/progs/topoflow/3.0/data."
+        }
+      ]
+    },
+    {
+      "property": "Describe_input_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "The input variables used for the Dynamic Wave method of routing flow in channels are defined as follows. These inputs must be provided as grids:\n*flow_codes \t= D8 flow codes (Jenson convention),         (NE,E,SE,S,SW,W,NW,N) → (1,2,4,8,16,32,64,128)\n*bed_slope \t= slope of the channel bed or hillslope (m / m)\n*Manning_n \t= Manning roughness parameter (s / m1/3)\n*bed_width \t= bed width for trapezoidal cross-section (m)\n*bank_angle \t= bank angle for trapezoid (deg) (from vertical)\n*sinuosity \t= channel sinuosity (unitless) (along-channel / straight length)\n*init_depth \t= initial water depth (m) (See Notes below) \n\nThese inputs can be provided as scalars or grids:\n\n*sinuosity = channel sinuosity (m/m) (along-channel / straight length)\n*init_depth = initial water depth (m) (See HTML help) \n\nGrids must be saved in binary files with no header. All variables should be stored as 4-byte, floating-point numbers (IEEE standard) except flow codes, which are unsigned, 1-byte integers.\n\nThe behavior of this component is controlled with a configuration (CFG) file, which may point to other files that contain input data. Here is a sample configuration (CFG) file for this component:\n\n Method code:            3\n Method name:            Dynamic_Wave\n Manning flag:           1\n Law of Wall flag:       0\n Time step:              Scalar         6.00000000              (sec)\n D8 flow code:           Grid           Treynor_flow.rtg        (none)\n D8 slope:               Grid           Treynor_slope.rtg       (m/m)\n Manning N:              Grid           Treynor_chan-n.rtg      (s/m^(1/3))\n Bed width:              Grid           Treynor_chan-w.rtg      (m)\n Bank angle:             Grid           Treynor_chan-a.rtg      (deg)\n Init. depth:            Scalar         0.00000000              (m)\n Sinuosity:              Scalar         1.00000000              (m/m)\n Save grid timestep:     Scalar         60.00000000             (sec)\n Save Q grids:           1              Case5_2D-Q.rts          (m^3/s)\n Save u grids:           0              Case5_2D-u.rts          (m/s)\n Save d grids:           0              Case5_2D-d.rts          (m)\n Save f grids:           0              Case5_2D-f.rts          (none)\n Save pixels timestep:   Scalar         60.00000000             (sec)\n Save Q pixels:          1              Case5_0D-Q.txt          (m^3/s)\n Save u pixels:          0              Case5_0D-u.txt          (m/s)\n Save d pixels:          0              Case5_0D-d.txt          (m)\n Save f pixels:          0              Case5_0D-f.txt          (none)"
+        }
+      ]
+    },
+    {
+      "property": "Describe_key_physical_parameters",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Main equations used by this component:\n ΔV(i,t) =   Δt * ( R(i,t) Δx Δy - Q(i,t) + Σ_k Q(k,t) ) \t  = change in water volume (m^3)   (mass cons.)\n d \t =   {( w^2 + 4 tan(θ) V / L)^1/2 - w } / (2 tan(θ))   \t  = mean water depth in channel segment (m)   (if θ > 0)\n d \t =   V / (w * L) \t                                  = mean water depth in channel segment (m)   (if θ = 0)\n Δv(i,t) =   Δt * (T_1 + T_2 + T_3 + T_4 + T_5) / ( d(i,t) * A_w )= change in mean velocity (m / s)   (mom. cons.)\n T_1 \t =   v(i,t) * Q(i,t) * (C - 1) \t        = efflux term in equation for Δv\n T_2 \t =   Σ_k (v(k,t) - v(i,t) * C) * Q(k,t) \t= influx term in equation for Δv\n T_3 \t =   -v(i,t) * C * R(i,t) * Δx * Δy \t= \"new mass\" momentum term in equation for Δv\n T_4 \t =   A_w * (g * d(i,t) * S(i,t)) \t= gravity term in equation for Δv\n T_5 \t =   -A_w * (f(i,t) * v(i,t)^2) \t= friction term in equation for Δv\n Q \t =   v * A_w \t= discharge of water (m^3 / s)\n f(i,t)  =   ( κ / LN ( a * d(i,t) / z_0) )^2 \t= friction factor (unitless)   (for law of the wall)\n f(i,t)  =   g * n^2 / Rh(i,t)^1/3 \t        = friction factor (unitless)   (for Manning's equation)\n C \t =   A_w / A_t \t= area ratio appearing in equation for Δv\n A_t \t =   w_t * L \t= top surface area of a channel segment (m2)   (L = length)\n w_t \t =   w + ( 2 * d * tan(θ) ) \t= top width of a wetted trapezoidal cross-section (m)\n R_h \t =   A_w / P_w \t= hydraulic radius (m)\n A_w \t =   d * (w + (d * tan(θ))) \t= wetted cross-sectional area of a trapezoid (m2)\n P_w \t =   w + (2 * d / cos(θ)) \t= wetted perimeter of a trapezoid (m)\n V_w \t =   d^2 * ( L * tan(θ) ) + d * (L * w) \t= wetted volume of a trapezoidal channel (m)\n\n(Source: TopoFlow HTML Help System)"
+        }
+      ]
+    },
+    {
+      "property": "Describe_length_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Recommended grid cell size is around 100 meters, but can be parameterized to run with a wide range of grid cell sizes. DEM grid dimensions are typically less than 1000 columns by 1000 rows."
+        }
+      ]
+    },
+    {
+      "property": "Describe_numerical_limitations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "This model/component needs more rigorous testing."
+        }
+      ]
+    },
+    {
+      "property": "Describe_output_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "This component computes the following variables, as grids:\n Q  = discharge (m^3/s)\n u  = flow velocity (m/s)\n d  = flow depth (m)\n f  = friction factor (none)\n Rh = hydraulic radius (m)\n S_free = free-surface slope (m/m)\nThe user can choose which, if any, of these to save. Each may be saved as a grid sequence, indexed by time, in a netCDF file, at a specified sampling rate. Each may also be saved for a set of \"monitored\" grid cells, each specified as a (row,column) pair in a file with the name: <case_prefix>_outlets.txt.  With this option, computed values are saved in a multi-column text file at a specified sampling rate. Each column in this file corresponds to a time series of values for a particular grid cell.  For both options the sampling rate must no smaller than the process timestep."
+        }
+      ]
+    },
+    {
+      "property": "Describe_post-processing_software",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "None, except visualization software. Grid sequences saved in netCDF files can be viewed as animations and saved as movies using VisIt."
+        }
+      ]
+    },
+    {
+      "property": "Describe_pre-processing_software",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Another program must be used to create the input grids. This includes a D8 flow grid derived from a DEM for the region to be modeled.  The earlier, IDL version of TopoFlow can be used to create some of these."
+        }
+      ]
+    },
+    {
+      "property": "Describe_processes",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "The dynamic wave method for flow routing in the channels of a D8-based river network."
+        }
+      ]
+    },
+    {
+      "property": "Describe_time_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "The basic stability condition is: dt < (dx / u_min), where dt is the timestep, dx is the grid cell size and u_min is the smallest velocity in the grid. This ensures that flow cannot cross a grid cell in less than one time step. Typical timesteps are on the order of seconds to minutes. Model can be run for a full year or longer, if necessary."
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCode",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Active"
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCodeYearChecked",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2020"
+        }
+      ]
+    },
+    {
+      "property": "Development_still_active",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:Scott.Peckham@colorado.edu"
+        }
+      ]
+    },
+    {
+      "property": "Extended_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "This process component is part of a spatially-distributed hydrologic model called TopoFlow, but it can now be used as a stand-alone model. The dynamic wave method is the most complete and complex method for modeling flow in open channels. This method retains all of the terms in the full, 1D momentum equation, including the gravity, friction and pressure gradient terms (as used by the diffusive wave method) as well as local and convective acceleration (or momentum flux) terms. This full equation is known as the St. Venant equation. In the current version of TopoFlow it is assumed that the flow directions are static and given by a D8 flow grid. In this case, integral vs. differential forms of the conservation equations for mass and momentum can be used."
+        }
+      ]
+    },
+    {
+      "property": "First_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Scott"
+        }
+      ]
+    },
+    {
+      "property": "H-index",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "Input_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        },
+        {
+          "type": 2,
+          "item": "Binary"
+        }
+      ]
+    },
+    {
+      "property": "Institute",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "CSDMS, INSTAAR, University of Colorado"
+        }
+      ]
+    },
+    {
+      "property": "Last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Peckham"
+        }
+      ]
+    },
+    {
+      "property": "M-quotient",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "0.06"
+        }
+      ]
+    },
+    {
+      "property": "Manual_model_available",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Memory_requirements",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Standard"
+        }
+      ]
+    },
+    {
+      "property": "ModelDomain",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Hydrology"
+        }
+      ]
+    },
+    {
+      "property": "Model_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "As code"
+        },
+        {
+          "type": 2,
+          "item": "As teaching tool"
+        }
+      ]
+    },
+    {
+      "property": "Model_keywords",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "basins"
+        }
+      ]
+    },
+    {
+      "property": "Model_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single"
+        }
+      ]
+    },
+    {
+      "property": "Model_website",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "This site."
+        }
+      ]
+    },
+    {
+      "property": "Modelautophrases",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "wave"
+        },
+        {
+          "type": 2,
+          "item": "dynamic"
+        },
+        {
+          "type": 2,
+          "item": "spatial"
+        },
+        {
+          "type": 2,
+          "item": "model"
+        },
+        {
+          "type": 2,
+          "item": "spatially-distributed hydrologic model"
+        },
+        {
+          "type": 2,
+          "item": "hydrologic model called"
+        },
+        {
+          "type": 2,
+          "item": "model called topoflow"
+        },
+        {
+          "type": 2,
+          "item": "hydrologic model"
+        },
+        {
+          "type": 2,
+          "item": "model called"
+        },
+        {
+          "type": 2,
+          "item": "stand-alone model"
+        },
+        {
+          "type": 2,
+          "item": "process component"
+        },
+        {
+          "type": 2,
+          "item": "component is part"
+        },
+        {
+          "type": 2,
+          "item": "spatially-distributed hydrologic"
+        },
+        {
+          "type": 2,
+          "item": "wave method"
+        },
+        {
+          "type": 2,
+          "item": "dynamic wave method"
+        },
+        {
+          "type": 2,
+          "item": "called topoflow"
+        },
+        {
+          "type": 2,
+          "item": "method"
+        },
+        {
+          "type": 2,
+          "item": "diffusive wave method"
+        },
+        {
+          "type": 2,
+          "item": "basins"
+        },
+        {
+          "type": 2,
+          "item": "topoflow-channels-dynamic wave"
+        }
+      ]
+    },
+    {
+      "property": "Nr-of-pubs",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "One-line_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Dynamic Wave process component for flow routing in a D8-based, spatial hydrologic model"
+        }
+      ]
+    },
+    {
+      "property": "Output_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        },
+        {
+          "type": 2,
+          "item": "Binary"
+        }
+      ]
+    },
+    {
+      "property": "Phone",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "303-492-6752"
+        }
+      ]
+    },
+    {
+      "property": "Post_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "t"
+        }
+      ]
+    },
+    {
+      "property": "Postal_address1",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1560 30th street"
+        }
+      ]
+    },
+    {
+      "property": "Postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "80305"
+        }
+      ]
+    },
+    {
+      "property": "Pre_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "t"
+        }
+      ]
+    },
+    {
+      "property": "Program_language_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "None (but uses NumPy package)"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Apache public license"
+        }
+      ]
+    },
+    {
+      "property": "Programming_language",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Python"
+        }
+      ]
+    },
+    {
+      "property": "Run_time_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Minutes to hours"
+        }
+      ]
+    },
+    {
+      "property": "Source_code_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Through web repository"
+        }
+      ]
+    },
+    {
+      "property": "Source_web_address",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://github.com/peckhams/topoflow"
+        }
+      ]
+    },
+    {
+      "property": "Spatial_dimensions",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2D"
+        }
+      ]
+    },
+    {
+      "property": "Spatialscale",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Landscape-Scale"
+        },
+        {
+          "type": 2,
+          "item": "Watershed-Scale"
+        }
+      ]
+    },
+    {
+      "property": "Start_year_development",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2001"
+        }
+      ]
+    },
+    {
+      "property": "State",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Colorado"
+        }
+      ]
+    },
+    {
+      "property": "Supported_platforms",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Unix"
+        },
+        {
+          "type": 2,
+          "item": "Linux"
+        },
+        {
+          "type": 2,
+          "item": "Mac OS"
+        },
+        {
+          "type": 2,
+          "item": "Windows"
+        }
+      ]
+    },
+    {
+      "property": "Type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Model developer"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_needed",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "t"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "VisIt"
+        }
+      ]
+    },
+    {
+      "property": "_ASK",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "TopoFlow-Channels-Dynamic_Wave#3002##_QUERY27f867f6762576141c6a154dd77a3021"
+        },
+        {
+          "type": 9,
+          "item": "TopoFlow-Channels-Dynamic_Wave#3002##_QUERYf827ab8b81c27b3081932110253db0a7"
+        },
+        {
+          "type": 9,
+          "item": "TopoFlow-Channels-Dynamic_Wave#3002##_QUERYdfb8ba22f24d8b31468ce7a2925ca174"
+        }
+      ]
+    },
+    {
+      "property": "_CDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2010/2/16/18/58/27/0"
+        }
+      ]
+    },
+    {
+      "property": "_INST",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Pages_using_duplicate_arguments_in_template_calls#14##"
+        },
+        {
+          "type": 9,
+          "item": "Models#14##"
+        }
+      ]
+    },
+    {
+      "property": "_LEDT",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "WikiSysop#2##"
+        }
+      ]
+    },
+    {
+      "property": "_MDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2020/9/17/2/17/46/0"
+        }
+      ]
+    },
+    {
+      "property": "_SKEY",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "TopoFlow-Channels-Dynamic Wave"
+        }
+      ]
+    }
+  ],
+  "sobj": [
+    {
+      "subject": "TopoFlow-Channels-Dynamic_Wave#3002##_QUERY27f867f6762576141c6a154dd77a3021",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "0"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[:Model:TopoFlow-Channels-Dynamic Wave]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "TopoFlow-Channels-Dynamic Wave# QUERY27f867f6762576141c6a154dd77a3021"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "TopoFlow-Channels-Dynamic_Wave#3002##_QUERYf827ab8b81c27b3081932110253db0a7",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[User:+]] [[First name member::Scott]] [[Last name member::Peckham]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "TopoFlow-Channels-Dynamic Wave# QUERYf827ab8b81c27b3081932110253db0a7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "TopoFlow-Channels-Dynamic_Wave#3002##_QUERYdfb8ba22f24d8b31468ce7a2925ca174",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "ul"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[Model:+]] [[First name::Scott]] [[Last name::Peckham]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "TopoFlow-Channels-Dynamic Wave# QUERYdfb8ba22f24d8b31468ce7a2925ca174"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+  "version": 2
+}

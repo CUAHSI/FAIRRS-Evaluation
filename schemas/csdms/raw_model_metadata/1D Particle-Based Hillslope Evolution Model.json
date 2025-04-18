@@ -1,0 +1,791 @@
+{
+  "subject": "1D_Particle-Based_Hillslope_Evolution_Model#3002##",
+  "data": [
+    {
+      "property": "Additional_comments_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Questions which arise about the module, the model it implements, and the associated theory, may be addressed by the preprint available at https://arxiv.org/abs/1801.02810."
+        }
+      ]
+    },
+    {
+      "property": "Citations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "City",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Berkeley"
+        }
+      ]
+    },
+    {
+      "property": "CodeReviewed",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "Code_CMT_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_IRF_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_openmi_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "United States"
+        }
+      ]
+    },
+    {
+      "property": "DOI-filelink",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://zenodo.org/account/settings/github/repository/csdms-contrib/1D-Particle-Based-Hillslope-Evolution-Model#"
+        }
+      ]
+    },
+    {
+      "property": "DOI_assigned_to_model_version",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "v1.0"
+        }
+      ]
+    },
+    {
+      "property": "DOI_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "10.5281/zenodo.1436771"
+        }
+      ]
+    },
+    {
+      "property": "Describe_input_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "The model takes as input (i) p, dynamics asymmetry parameter; (ii) L, the hillslope length; (iii) H, the hillslope height; (iv) N, the number of steps of the simulation; and (v) a choice of initial hillslope profile."
+        }
+      ]
+    },
+    {
+      "property": "Describe_key_physical_parameters",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "The key physical parameters are the hillslope length and height, as well as a parameter which specifies the underlying asymmetry in the particle dynamics. The process of determining these parameters is described in the simulation section of a corresponding paper (which can be accessed here: https://arxiv.org/abs/1801.02810)."
+        }
+      ]
+    },
+    {
+      "property": "Describe_length_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Although the hillslope length and height are specified, these are dimensionless numbers from the perspective of the module. Accordingly, the resolutions supported by the module are primarily constrained by the language in which it is implemented. However, the process of \"dimensionalizing\" the module's outputs may place practical constraints on resolution. The associated paper discusses this issue."
+        }
+      ]
+    },
+    {
+      "property": "Describe_output_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "The model can be customized to produce many different kinds of output but, typically, the output consists of (i) h, a final hillslope profile; (ii) h_diffs, a vector which summarizes how the profile changed over the duration of the simulation; and (iii) a vector expressing the fluxes of particles through a site along the hillslope.\n\nHowever, the same code can be used to produce a video of the hillslope evolution, a vector containing the absolute difference between the hillslope profile and a reference profile, and many other observables of interest."
+        }
+      ]
+    },
+    {
+      "property": "Describe_processes",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Overall, the module simulates a particle-based model of hillslope evolution in 1D.\n\nThe module contains several scripts and functions, the most important of which are the following.\n(1) zrp.m is the script wherein the parameters are set and from which the following functions are called.\n(2) init_x.m is the function which generates an initial profile for the hillslope.\n(3) make_moves.m is the function which samples the probabilistic dynamics.\n(4) calc_rates.m is the function which determines the rates at which the particles are moving.\n\nIn addition to these, there are the following.\n(5) perturb.m is the function which implements the hillslope perturbation and is called by the main script.\n(6) calc_flux.m and calc_fluxes.m are the functions which infer fluxes along the hillslope."
+        }
+      ]
+    },
+    {
+      "property": "Describe_time_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "The time scale over which the simulation occurs is specified in zrp.m as an input parameter. Since the module is computationally lightweight, millions of time steps can be simulated quickly. \n\nTranslating between discrete steps of the particle model and continuous, real-world time may be inferred during the dimensionalization process."
+        }
+      ]
+    },
+    {
+      "property": "Development_still_active",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:jacob_calvert@berkeley.edu"
+        }
+      ]
+    },
+    {
+      "property": "End_year_development",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "2018"
+        }
+      ]
+    },
+    {
+      "property": "Extended_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "This module implements a particle-based model of hillslope evolution, which has an associated continuum description (introduced here: https://arxiv.org/abs/1801.02810). The model takes as input a few simple parameters which determine the equilibrium hillslope shape and dynamics, and can be used to produce equilibrium profiles and study the response of the hillslope to perturbations. The model benefits from straightforward implementation, as well as the flexibility to incorporate sophisticated perturbations and to be accessorized by local or nonlocal fluxes."
+        }
+      ]
+    },
+    {
+      "property": "First_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Jacob"
+        }
+      ]
+    },
+    {
+      "property": "H-index",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "Institute",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "University of California, Berkeley"
+        }
+      ]
+    },
+    {
+      "property": "Last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Calvert"
+        }
+      ]
+    },
+    {
+      "property": "M-quotient",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "0.12"
+        }
+      ]
+    },
+    {
+      "property": "Manual_model_available",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No"
+        }
+      ]
+    },
+    {
+      "property": "ModelDomain",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Terrestrial"
+        },
+        {
+          "type": 2,
+          "item": "Coastal"
+        },
+        {
+          "type": 2,
+          "item": "Geodynamic"
+        }
+      ]
+    },
+    {
+      "property": "Model_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "As code"
+        }
+      ]
+    },
+    {
+      "property": "Model_keywords",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Hillslope Model"
+        },
+        {
+          "type": 2,
+          "item": "Particle-based"
+        },
+        {
+          "type": 2,
+          "item": "Landscape Evolution"
+        }
+      ]
+    },
+    {
+      "property": "Model_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single"
+        }
+      ]
+    },
+    {
+      "property": "Modelautophrases",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "probabilistic"
+        },
+        {
+          "type": 2,
+          "item": "particle-based"
+        },
+        {
+          "type": 2,
+          "item": "perturbations"
+        },
+        {
+          "type": 2,
+          "item": "hillslope"
+        },
+        {
+          "type": 2,
+          "item": "continuum description"
+        },
+        {
+          "type": 2,
+          "item": "module implements"
+        },
+        {
+          "type": 2,
+          "item": "implements a particle-based"
+        },
+        {
+          "type": 2,
+          "item": "hillslope evolution"
+        },
+        {
+          "type": 2,
+          "item": "particle-based model"
+        },
+        {
+          "type": 2,
+          "item": "equilibrium hillslope shape"
+        },
+        {
+          "type": 2,
+          "item": "produce equilibrium profiles"
+        },
+        {
+          "type": 2,
+          "item": "model"
+        },
+        {
+          "type": 2,
+          "item": "equilibrium hillslope"
+        },
+        {
+          "type": 2,
+          "item": "hillslope shape"
+        },
+        {
+          "type": 2,
+          "item": "evolution"
+        },
+        {
+          "type": 2,
+          "item": "description"
+        },
+        {
+          "type": 2,
+          "item": "introduced"
+        },
+        {
+          "type": 2,
+          "item": "shape and dynamics"
+        },
+        {
+          "type": 2,
+          "item": "hillslope model"
+        },
+        {
+          "type": 2,
+          "item": "landscape evolution"
+        },
+        {
+          "type": 2,
+          "item": "1d particle-based hillslope evolution model"
+        }
+      ]
+    },
+    {
+      "property": "Nr-of-pubs",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "One-line_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1D probabilistic, particle-based model of hillslope evolution for studying hillslope equilibration and response to perturbations."
+        }
+      ]
+    },
+    {
+      "property": "Post_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Postal_address1",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Department of Statistics"
+        }
+      ]
+    },
+    {
+      "property": "Postal_address2",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "451 Evans Hall"
+        }
+      ]
+    },
+    {
+      "property": "Postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "94709"
+        }
+      ]
+    },
+    {
+      "property": "Pre_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "GPL v2"
+        }
+      ]
+    },
+    {
+      "property": "Programming_language",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Matlab"
+        }
+      ]
+    },
+    {
+      "property": "Source_code_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Through CSDMS repository"
+        }
+      ]
+    },
+    {
+      "property": "Source_csdms_web_address",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://github.com/csdms-contrib/1D-Particle-Based-Hillslope-Evolution-Model"
+        }
+      ]
+    },
+    {
+      "property": "Spatial_dimensions",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1D"
+        }
+      ]
+    },
+    {
+      "property": "Spatialscale",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Landscape-Scale"
+        },
+        {
+          "type": 2,
+          "item": "Watershed-Scale"
+        },
+        {
+          "type": 2,
+          "item": "Reach-Scale"
+        }
+      ]
+    },
+    {
+      "property": "Start_year_development",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2016"
+        }
+      ]
+    },
+    {
+      "property": "State",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "California"
+        }
+      ]
+    },
+    {
+      "property": "Supported_platforms",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Unix"
+        },
+        {
+          "type": 2,
+          "item": "Linux"
+        },
+        {
+          "type": 2,
+          "item": "Mac OS"
+        },
+        {
+          "type": 2,
+          "item": "Windows"
+        }
+      ]
+    },
+    {
+      "property": "Type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Model developer"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_needed",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "_ASK",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "1D_Particle-Based_Hillslope_Evolution_Model#3002##_QUERYdd4a330b84fd5c0c23dd703ee8b0a4b3"
+        },
+        {
+          "type": 9,
+          "item": "1D_Particle-Based_Hillslope_Evolution_Model#3002##_QUERY2c02c53b7be07ef55ba03b3091bf403d"
+        },
+        {
+          "type": 9,
+          "item": "1D_Particle-Based_Hillslope_Evolution_Model#3002##_QUERYee178775ee763330de44d153e4ba33c0"
+        }
+      ]
+    },
+    {
+      "property": "_CDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2018/3/11/5/15/48/0"
+        }
+      ]
+    },
+    {
+      "property": "_INST",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Pages_using_duplicate_arguments_in_template_calls#14##"
+        },
+        {
+          "type": 9,
+          "item": "Models#14##"
+        }
+      ]
+    },
+    {
+      "property": "_LEDT",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "WikiSysop#2##"
+        }
+      ]
+    },
+    {
+      "property": "_MDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2020/9/17/2/18/33/0"
+        }
+      ]
+    },
+    {
+      "property": "_SKEY",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1D Particle-Based Hillslope Evolution Model"
+        }
+      ]
+    }
+  ],
+  "sobj": [
+    {
+      "subject": "1D_Particle-Based_Hillslope_Evolution_Model#3002##_QUERYdd4a330b84fd5c0c23dd703ee8b0a4b3",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "0"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[:Model:1D Particle-Based Hillslope Evolution Model]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "1D Particle-Based Hillslope Evolution Model# QUERYdd4a330b84fd5c0c23dd703ee8b0a4b3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "1D_Particle-Based_Hillslope_Evolution_Model#3002##_QUERY2c02c53b7be07ef55ba03b3091bf403d",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[User:+]] [[First name member::Jacob]] [[Last name member::Calvert]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "1D Particle-Based Hillslope Evolution Model# QUERY2c02c53b7be07ef55ba03b3091bf403d"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "1D_Particle-Based_Hillslope_Evolution_Model#3002##_QUERYee178775ee763330de44d153e4ba33c0",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "ul"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[Model:+]] [[First name::Jacob]] [[Last name::Calvert]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "1D Particle-Based Hillslope Evolution Model# QUERYee178775ee763330de44d153e4ba33c0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+  "version": 2
+}

@@ -1,0 +1,913 @@
+{
+  "subject": "Cliffs#3002##",
+  "data": [
+    {
+      "property": "Citations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "137"
+        }
+      ]
+    },
+    {
+      "property": "City",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Redmond"
+        }
+      ]
+    },
+    {
+      "property": "CodeReviewed",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "Code_CMT_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_IRF_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_openmi_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_optimized",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Multiple Processors"
+        }
+      ]
+    },
+    {
+      "property": "Country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "United States"
+        }
+      ]
+    },
+    {
+      "property": "Current_future_collaborators",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "no plans yet"
+        }
+      ]
+    },
+    {
+      "property": "Describe_available_calibration_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Cliffs is benchmarked as described in: E. Tolkova. Land-Water Boundary Treatment for a Tsunami Model With Dimensional Splitting\nPure and Applied Geophysics, Vol. 171, Issue 9 (2014), pp. 2289-2314\n\nExamples of modeling with Cliffs (complete set-ups included) are described in Cliffs User Manual at http://arxiv.org/abs/1410.0753"
+        }
+      ]
+    },
+    {
+      "property": "Describe_available_test_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "http://elena.tolkova.com/Cliffs_data/slpbeach.zip\nhttp://elena.tolkova.com/Cliffs_data/OkushiriTsunami.zip\n\nfor description of the test data sets, see http://arxiv.org/abs/1410.0753"
+        }
+      ]
+    },
+    {
+      "property": "Describe_input_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "integer - type of coordinates\t(1 - cartesian, otherwise-spherical)\nDEM file name\nnumber of grids enclosed in Master grid\nenclosed DEMs file names if any\nstill sea threshold\nminimal flow depth\nfriction coefficient\ntopo flag: 0-wall, otherwise - land inundation\ndepth to place vertical wall, if any\ntime step   \ntotal amount of steps \ninteger - apply initial deformation to bottom or sea surface\ninteger - flag to continue or stop after input stops (0 for interrupt)\nnumber of steps between screenshots\nnumber to subsample screenshots in x\nnumber to subsample screenshots in y\nnumber of timesteps between saving boundary feed to enclosed grids\nnumber of steps between maxwave updates\nnumber of virtual gages\nsteps between outputs in gage time histories\ni,j indexes of gage locations on the grid"
+        }
+      ]
+    },
+    {
+      "property": "Describe_key_physical_parameters",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Shallow-water equations"
+        }
+      ]
+    },
+    {
+      "property": "Describe_length_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Typical resolution for open-ocean propagation: 2-4 arc-min, near the coast: 30-1 arc-sec; for lab experiments: tens to few cm."
+        }
+      ]
+    },
+    {
+      "property": "Describe_numerical_limitations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Subject to CFL stability condition. Sharp depth changes can cause instability even with low Courant numbers. Pre-processing with depth_ssl is recommended (see Cliffs User Manual at http://arxiv.org/abs/1410.0753 )"
+        }
+      ]
+    },
+    {
+      "property": "Describe_output_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Netcdf binaries of velocities and elevation screenshots in Master grid\n�Netcdf binary of maximum water surface elevation in Master grid\n�Netcdf Time histories of the water surface elevation at virtual gages;\nNetcdf binaries of boundary input time-series for the enclosed grids, one �file for each boundary (east, west, north, south)"
+        }
+      ]
+    },
+    {
+      "property": "Describe_pre-processing_software",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "To improve stability of the computations, it is recommended to pre-process bathymetry map with depth_ssl (module included with the source code)."
+        }
+      ]
+    },
+    {
+      "property": "Describe_processes",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Tsunami propagation from a source earthquake to a coastal site, land inundation."
+        }
+      ]
+    },
+    {
+      "property": "Describe_time_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Time step is limited by Courant stability criteria (CFL < 1). Typical time step for open-ocean propagation: 15 s; near the coast: 0.5-5 s. Typical simulation time for geophysical tsunamis: few to 36 hours."
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCode",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Only maintenance"
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCodeYearChecked",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2020"
+        }
+      ]
+    },
+    {
+      "property": "Development_still_active",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:e.tolkova@gmail.com"
+        }
+      ]
+    },
+    {
+      "property": "Extended_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Cliffs features: \nShallow-Water approximation;\nUse of Cartesian or spherical (lon/lat) coordinates;\n1D and 2D configurations;\nStructured co-located grid with (optionally) varying spacing;\nRun-up on land;\nInitial conditions or boundary forcing;\nGrid nesting with one-way coupling;\nParallelized with OpenMP;\nNetCDF format of input/output data.\n\nCliffs utilizes VTCS-2 finite-difference scheme and dimensional splitting as in (Titov and Synolakis, 1998), and reflection and inundation computations as in (Tolkova, 2014). \n\nReferences: \nTitov, V.V., and C.E. Synolakis. Numerical modeling of tidal wave runup. J. Waterw. Port Coast. Ocean Eng., 124(4), 157–171 (1998)\nTolkova E. Land-Water Boundary Treatment for a Tsunami Model With Dimensional Splitting.\nPure and Applied Geophysics, 171(9), 2289-2314 (2014)"
+        }
+      ]
+    },
+    {
+      "property": "Fax",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "4255569099"
+        }
+      ]
+    },
+    {
+      "property": "First_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Elena"
+        }
+      ]
+    },
+    {
+      "property": "H-index",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "3"
+        }
+      ]
+    },
+    {
+      "property": "Input_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        },
+        {
+          "type": 2,
+          "item": "Binary"
+        }
+      ]
+    },
+    {
+      "property": "Input_format_model_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Input data in NetCDF format:\nbathymetric grids, and any of the following:\nboundary input time histories, and/or\ninitial displacement of sea floor or sea surface, and/or\neither or both components of the initial velocity of the water column."
+        }
+      ]
+    },
+    {
+      "property": "Institute",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "NorthWest Research Associates, Inc."
+        }
+      ]
+    },
+    {
+      "property": "Last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Tolkova"
+        }
+      ]
+    },
+    {
+      "property": "M-quotient",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "0.25"
+        }
+      ]
+    },
+    {
+      "property": "Manual_model_available",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Memory_requirements",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "100 MB - few GB in 2D, depending on grid size"
+        }
+      ]
+    },
+    {
+      "property": "ModelDomain",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Coastal"
+        },
+        {
+          "type": 2,
+          "item": "Marine"
+        }
+      ]
+    },
+    {
+      "property": "Model_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "As code"
+        }
+      ]
+    },
+    {
+      "property": "Model_keywords",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Tsunami"
+        },
+        {
+          "type": 2,
+          "item": "Inundation"
+        },
+        {
+          "type": 2,
+          "item": "Runup on land"
+        },
+        {
+          "type": 2,
+          "item": "Shallow-water model"
+        }
+      ]
+    },
+    {
+      "property": "Model_manual",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Media:Cliffs manual.pdf"
+        }
+      ]
+    },
+    {
+      "property": "Model_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single"
+        }
+      ]
+    },
+    {
+      "property": "Model_website",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "http://elena.tolkova.com/Cliffs.htm"
+        }
+      ]
+    },
+    {
+      "property": "Modelautophrases",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "numerical"
+        },
+        {
+          "type": 2,
+          "item": "approximation"
+        },
+        {
+          "type": 2,
+          "item": "shallow-water approximation"
+        },
+        {
+          "type": 2,
+          "item": "cliffs features"
+        },
+        {
+          "type": 2,
+          "item": "cartesian or spherical"
+        },
+        {
+          "type": 2,
+          "item": "dimensional splitting"
+        },
+        {
+          "type": 2,
+          "item": "features"
+        },
+        {
+          "type": 2,
+          "item": "shallow-water"
+        },
+        {
+          "type": 2,
+          "item": "titov"
+        },
+        {
+          "type": 2,
+          "item": "synolakis"
+        },
+        {
+          "type": 2,
+          "item": "tsunami"
+        },
+        {
+          "type": 2,
+          "item": "inundation"
+        },
+        {
+          "type": 2,
+          "item": "runup on land"
+        },
+        {
+          "type": 2,
+          "item": "shallow-water model"
+        },
+        {
+          "type": 2,
+          "item": "cliffs"
+        }
+      ]
+    },
+    {
+      "property": "Multiple_processors_implemented",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Shared memory"
+        }
+      ]
+    },
+    {
+      "property": "Nr-of-pubs",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "3"
+        }
+      ]
+    },
+    {
+      "property": "One-line_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Numerical model to compute tsunami propagation and runup on land in the shallow-water approximation"
+        }
+      ]
+    },
+    {
+      "property": "Output_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Binary"
+        }
+      ]
+    },
+    {
+      "property": "Output_format_model_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Text log file documenting the program execution."
+        }
+      ]
+    },
+    {
+      "property": "Phone",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "4258895991"
+        }
+      ]
+    },
+    {
+      "property": "Post_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Postal_address1",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "4118 148th Ave NE"
+        }
+      ]
+    },
+    {
+      "property": "Postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "98052"
+        }
+      ]
+    },
+    {
+      "property": "Pre_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "t"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "BSD or MIT X11"
+        }
+      ]
+    },
+    {
+      "property": "Programming_language",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Fortran90"
+        }
+      ]
+    },
+    {
+      "property": "Run_time_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1 sec - few hrs, depending on 1D or 2D, grid size, and length of simulation"
+        }
+      ]
+    },
+    {
+      "property": "Source_code_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Through web repository"
+        }
+      ]
+    },
+    {
+      "property": "Source_web_address",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://github.com/Delta-function/cliffs-src"
+        }
+      ]
+    },
+    {
+      "property": "Spatial_dimensions",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1D"
+        },
+        {
+          "type": 2,
+          "item": "2D"
+        }
+      ]
+    },
+    {
+      "property": "Spatialscale",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Continental"
+        },
+        {
+          "type": 2,
+          "item": "Global"
+        },
+        {
+          "type": 2,
+          "item": "Landscape-Scale"
+        },
+        {
+          "type": 2,
+          "item": "Patch-Scale"
+        },
+        {
+          "type": 2,
+          "item": "Reach-Scale"
+        },
+        {
+          "type": 2,
+          "item": "Regional-Scale"
+        },
+        {
+          "type": 2,
+          "item": "Watershed-Scale"
+        }
+      ]
+    },
+    {
+      "property": "Start_year_development",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2013"
+        }
+      ]
+    },
+    {
+      "property": "State",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Washington"
+        }
+      ]
+    },
+    {
+      "property": "Supported_platforms",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Unix"
+        },
+        {
+          "type": 2,
+          "item": "Linux"
+        },
+        {
+          "type": 2,
+          "item": "Mac OS"
+        }
+      ]
+    },
+    {
+      "property": "Type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Model developer"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_needed",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "t"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Whatever a user prefers to visualize netcdf data sets"
+        }
+      ]
+    },
+    {
+      "property": "_ASK",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Cliffs#3002##_QUERY8fb9fa14117eabc0032a28e9e3e0fb6e"
+        },
+        {
+          "type": 9,
+          "item": "Cliffs#3002##_QUERY5a43d4cfd310a9fd4bbb17e32fc3c70a"
+        },
+        {
+          "type": 9,
+          "item": "Cliffs#3002##_QUERY7cef17a8e6a7e9c16e3d31a7b0c387c2"
+        }
+      ]
+    },
+    {
+      "property": "_CDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2014/10/28/15/47/51/0"
+        }
+      ]
+    },
+    {
+      "property": "_INST",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Pages_using_duplicate_arguments_in_template_calls#14##"
+        },
+        {
+          "type": 9,
+          "item": "Models#14##"
+        }
+      ]
+    },
+    {
+      "property": "_LEDT",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "WikiSysop#2##"
+        }
+      ]
+    },
+    {
+      "property": "_MDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2020/9/17/2/15/49/0"
+        }
+      ]
+    },
+    {
+      "property": "_SKEY",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Cliffs"
+        }
+      ]
+    }
+  ],
+  "sobj": [
+    {
+      "subject": "Cliffs#3002##_QUERY8fb9fa14117eabc0032a28e9e3e0fb6e",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "0"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[:Model:Cliffs]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "Cliffs# QUERY8fb9fa14117eabc0032a28e9e3e0fb6e"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Cliffs#3002##_QUERY5a43d4cfd310a9fd4bbb17e32fc3c70a",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[User:+]] [[First name member::Elena]] [[Last name member::Tolkova]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "Cliffs# QUERY5a43d4cfd310a9fd4bbb17e32fc3c70a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Cliffs#3002##_QUERY7cef17a8e6a7e9c16e3d31a7b0c387c2",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "ul"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[Model:+]] [[First name::Elena]] [[Last name::Tolkova]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "Cliffs# QUERY7cef17a8e6a7e9c16e3d31a7b0c387c2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+  "version": 2
+}
