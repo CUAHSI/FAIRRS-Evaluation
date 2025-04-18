@@ -99,6 +99,20 @@ class MyEvaluator(Evaluator):
         return codemeta_json
 
     def evalF1(self, citation=None, identifier=None, sameAs=None, isPartOf=None, url=None) -> bool:
+        """
+        Description from Chue Hong et. al, RDA FAIR4RS WG. (2022). FAIR Principles for Research Software (FAIR4RS Principles) (1.0). 
+        Zenodo. https://doi.org/10.15497/RDA00068
+
+        A piece of software is given an identifier which is both globally unique (not used to identify any
+        other object, even on a different system) and persistent (long-lasting, including its resolution - 
+        the ability to use it to get to the identified source). The use of globally unique and persistent 
+        identifiers enables adherence to many of the other FAIR4RS Principles by removing ambiguity (for 
+        humans and machines) around what software (or part of it) is being referenced. Complexities around 
+        software granularity (the “level of detail being implemented”) and software versions (the “changes 
+        between implementations”) are addressed by F1.1 and F1.2. This principle also relates to enabling 
+        accessibility to software, specifically A1.
+
+        """
 
         # Get all function arguments dynamically
         all_args = {key: value for key, value in locals().items() if key != "self" and value is not None}
@@ -115,11 +129,40 @@ class MyEvaluator(Evaluator):
     
     def evalF1_1(self, isPartOf=None, identifier=None) -> bool:
 
+        """
+        Description from Chue Hong et. al, RDA FAIR4RS WG. (2022). FAIR Principles for Research Software (FAIR4RS Principles) (1.0). 
+        Zenodo. https://doi.org/10.15497/RDA00068
+
+        The use of identifiers for more than the software project (often synonymous with “software concept”
+        or “software product”) improves findability by enabling components to be assigned distinct identifiers
+        e.g, a software library, and a function in that library. The relationship between these components is
+        embodied in the associated metadata. Granularity levels for software are shown in Figure 1 in Appendix A. 
+        These principles do not prescribe which granularity levels should be assigned identifiers, as this is likely 
+        to be implementation-specific.
+
+        """
+
         # XX -- challenging to implement
+        # unsure which granularity levels (e.g., releases, commits) we should inspect for identifiers
 
         return False
 
     def evalF1_2(self, softwareVersion=None, version=None) -> bool:
+
+        """
+        Description from Chue Hong et. al, RDA FAIR4RS WG. (2022). FAIR Principles for Research Software (FAIR4RS Principles) (1.0). 
+        Zenodo. https://doi.org/10.15497/RDA00068
+
+        To make different versions of the same software (or component) findable, each version needs to be assigned a 
+        different identifier. The relationship between versions is embodied in the associated metadata. What is considered 
+        a “version” is defined by the owner of the software: in many cases this will be something that the owner wants to 
+        specifically identify and use and/or “release” or “publish” so that others can use and reference/cite. There are 
+        existing software engineering practices (e.g., version control, semantic versioning) around the management and versioning 
+        of software that may form part of the implementation of these relationships. Capturing the relationships between different 
+        versions of software will lead to greater understanding of the evolution of code, its authorship, ownership, description 
+        and purpose, amongst other things.
+        
+        """
 
         # Get all function arguments dynamically
         all_args = {key: value for key, value in locals().items() if key != "self" and value is not None}
@@ -130,11 +173,34 @@ class MyEvaluator(Evaluator):
 
     def evalF2(self, description=None, fileSize=None) -> bool:
 
+        """
+        Description from Chue Hong et. al, RDA FAIR4RS WG. (2022). FAIR Principles for Research Software (FAIR4RS Principles) (1.0). 
+        Zenodo. https://doi.org/10.15497/RDA00068
+
+        Software requires descriptive metadata to support indexing, search and discoverability. This metadata must itself be FAIR 
+        (F4), should follow community standards, and use controlled vocabularies. The FAIR4RS principles do not define which standards 
+        should be used, as this is better captured in guidance for implementing the principles coming out of each community. R1, R1.1, 
+        and R1.2 describe categories of metadata that enable reuse.
+        
+        """
+
         # Set to True as it passes Codemeta validation
 
         return True
 
     def evalF3(self, codeRepository=None, hasPart=None, identifier=None, publisher=None) -> bool:
+
+        """
+        Description from Chue Hong et. al, RDA FAIR4RS WG. (2022). FAIR Principles for Research Software (FAIR4RS Principles) (1.0). 
+        Zenodo. https://doi.org/10.15497/RDA00068
+
+        The association between the metadata (wherever it is stored; see F4) and the software should be made explicit by mentioning the 
+        software's globally unique and persistent identifier in its associated metadata. In conjunction with A1, this means the metadata 
+        describes how the software can be obtained. Metadata are not required to include references for all of the softwares dependencies 
+        in order for software to be findable. I2 and R2 describe how references to dependencies increase the likelihood that software is 
+        interoperable and reusable.
+
+        """
 
         # XX -- challenging to implement.
         # how does this differ from F1?
@@ -145,6 +211,16 @@ class MyEvaluator(Evaluator):
 
     def evalF4(self, applicationCategory=None, applicationSubCategory=None, isAccessibleForFree=None, keywords=None) -> bool:
 
+        """
+        Description from Chue Hong et. al, RDA FAIR4RS WG. (2022). FAIR Principles for Research Software (FAIR4RS Principles) (1.0). 
+        Zenodo. https://doi.org/10.15497/RDA00068
+
+        Making the metadata about the software FAIR, including making it readable and discoverable by both humans and machines, improves the 
+        findability of software by supporting searching and indexing by others. It allows the metadata to be published in or harvested by a 
+        registry or catalog or repository, or by a search engine. FAIR metadata also enables and encourages citation of research software.
+
+        """
+
         # XX -- challenging to implement.
         # how does this differ from F2?
 
@@ -153,9 +229,29 @@ class MyEvaluator(Evaluator):
         return False
 
     def evalA1(self, codeRepository=None, downloadUrl=None) -> bool:
+        """
+        Description from Chue Hong et. al, RDA FAIR4RS WG. (2022). FAIR Principles for Research Software (FAIR4RS Principles) (1.0). 
+        Zenodo. https://doi.org/10.15497/RDA00068
+
+        Different types of software have different methods for access. For instance, software that is only available in source code form may be 
+        downloaded from a repository before being compiled locally, whereas software hosted as a service on a remote server may be accessed 
+        without retrieving it. This principle states that obtaining the software should not require specialized or proprietary tools or communication 
+        methods. For much software, there are commonly used technical communications protocols used to access the software, such as HTTPS
+
+        """
+
         return False
     
     def evalA1_1(self, downloadUrl=None, installUrl=None, isAccessibleForFree=None, license=None, permissions=None, url=None) -> bool:
+        """
+        Description from Chue Hong et. al, RDA FAIR4RS WG. (2022). FAIR Principles for Research Software (FAIR4RS Principles) (1.0). 
+        Zenodo. https://doi.org/10.15497/RDA00068
+
+        It is the openness of the communications protocol (including the resolver for the identifier) that is important, not the implementation 
+        of the infrastructure that supports it. Here “open” means that there are no restrictions to implementing it and “free” means that there 
+        are no fees or licensing costs to implement it.
+        
+        """
 
         # Get all function arguments dynamically
         all_args = {key: value for key, value in locals().items() if key != "self" and value is not None}
@@ -168,15 +264,39 @@ class MyEvaluator(Evaluator):
         return result
 
     def evalA1_2(self, downloadUrl=None, hasPart=None, installUrl=None, isAccessibleForFree=None, isPartOf=None, license=None, permissions=None) -> bool:
+        """
+        Description from Chue Hong et. al, RDA FAIR4RS WG. (2022). FAIR Principles for Research Software (FAIR4RS Principles) (1.0). 
+        Zenodo. https://doi.org/10.15497/RDA00068
 
-        # XX -- challenging to implement.
-        # 
+        The FAIR Guiding Principles put specific emphasis on enhancing the ability of machines to use digital objects. In the context of software, 
+        there are often conditions of access, for instance, requiring a license server to be contacted, requirement for payment before use, or 
+        restrictions based on the privilege level of the user.
+        
+        """
+
+        # haven't implemeneted yet but will do the following:
+        # 1) check downloadUrl and installUrl to see if they resolve with 200-399 status code
+        # 2) check isAccessibleForFree to see if it is set to True
+        # 3) check permissions for specific regular expressions that indicate there are conditions to access
+        # 4) check license to see if software is among list of licenses that are openly accessible
+    
+        # unsure how to use hasPart and isPartOf
 
         print('evalA1_2 logs: Challenging to implement.')
 
         return False
 
     def evalA2(self, identifier=None, url=None) -> bool:
+        """
+        Description from Chue Hong et. al, RDA FAIR4RS WG. (2022). FAIR Principles for Research Software (FAIR4RS Principles) (1.0). 
+        Zenodo. https://doi.org/10.15497/RDA00068
+
+        Availability of software may change over time, because there is a cost to maintaining access or because the software has degraded and is no 
+        longer safely usable, or because dependencies are no longer available. The metadata describing the software is generally easier and cheaper 
+        to store and maintain than the software itself (e.g., in the software repository, or in a software registry or catalog) and there is value 
+        in understanding the details of the software even if it is no longer accessible.
+
+        """
 
         # Get all function arguments dynamically
         all_args = {key: value for key, value in locals().items() if key != "self" and value is not None}
@@ -190,6 +310,19 @@ class MyEvaluator(Evaluator):
 
     def evalI1(self, input=None, output=None, runtimePlatform=None) -> bool:
 
+        """
+        Description from Chue Hong et. al, RDA FAIR4RS WG. (2022). FAIR Principles for Research Software (FAIR4RS Principles) (1.0). 
+        Zenodo. https://doi.org/10.15497/RDA00068
+
+        Software interoperates through the exchange of data. This includes the use of data and metadata types, controlled vocabularies, and formats that 
+        are formally defined throughstandards to facilitate the exchange. Whereas F4 requires that metadata describing the software are FAIR, this principle 
+        ensures that the way that software interacts with other software is clearly described. A domain-relevant standard is an agreed standard that addresses 
+        the needs of a given community (or communities). Examples of community standards for data are curated by the FAIRSharing Registry at 
+        https://fairsharing.org/standards/. Where software interacts via APIs, these should be documented so that their capabilities can be inspected and 
+        understood by humans and machines, and they should be open APIs where possible.
+
+        """
+
         # XX -- challenging to implement.
         # unsure what the domain relevant community standards are.
 
@@ -198,6 +331,22 @@ class MyEvaluator(Evaluator):
         return False
 
     def evalI2(self, relatedLink=None, supportingData=None, isPartOf=None, referencePublication=None) -> bool:
+        """
+        Description from Chue Hong et. al, RDA FAIR4RS WG. (2022). FAIR Principles for Research Software (FAIR4RS Principles) (1.0). 
+        Zenodo. https://doi.org/10.15497/RDA00068
+
+        Some software includes references to external data objects required to execute the software (e.g., parameter files for certain applications). 
+        Ideally, the data would be FAIR as well, and references to external data would be fully qualified. Qualified references should be to digital 
+        objects (e.g., metadata, other software, data), as well as to non-digital objects that have a virtual presence in digital systems (e.g., 
+        samples, reagents, instruments, etc.) with which the software interacts. These qualified references should be described using identifiers 
+        and/or controlled vocabularies. “Qualified” means specifying the authoritative source for an identifier or vocabulary item, possibly including 
+        a resolvable reference to further information about the source. Ideally this is in a form that includes a resolver within the reference (e.g., 
+        in the form of a persistent identifier, or URL). This information can also improve the reusability of software by explicitly including 
+        references to articles and data sets that document its use. Examples of qualified references might include: software X is implemented using 
+        software A (a programming language); software X uses software B (a library/dependency); software X is tested within software C (a platform); 
+        software X extends software D.
+
+        """
 
         # XX -- challenging to implement.
         # unsure what identifiers and/or controlled vocabularies are
@@ -207,9 +356,29 @@ class MyEvaluator(Evaluator):
         return False
 
     def evalR1(self, description=None, applicationCategory=None, applicationSubCategory=None, keywords=None) -> bool:
+        """
+        Description from Chue Hong et. al, RDA FAIR4RS WG. (2022). FAIR Principles for Research Software (FAIR4RS Principles) (1.0). 
+        Zenodo. https://doi.org/10.15497/RDA00068
+
+        Relevant attributes can be determined by repositories, and by communities who create and reuse software. Plurality means that, where possible, 
+        multiple terms for the same, similar, or overlapping concepts should be provided to enable the broadest possible reuse.Metadata and documentation 
+        are distinct, potentially complementary, concepts. Metadata about software can be included in documentation, or in the code itself, or in a 
+        separate location. Metadata included in the documentation are generally not machine readable, or indexable. This does, however, support the 
+        reusability of software particularly from a human perspective.
+
+        """
         return False
 
     def evalR1_1(self, citation=None, license=None, referencePublication=None) -> bool:
+        """
+        Description from Chue Hong et. al, RDA FAIR4RS WG. (2022). FAIR Principles for Research Software (FAIR4RS Principles) (1.0). 
+        Zenodo. https://doi.org/10.15497/RDA00068
+
+        To support a wide range of reuse scenarios, the license should be as unrestrictive as possible and, to avoid license proliferation, choosing a 
+        widely used and recognized license is strongly recommended. This license must also be compatible with the requirements of the licenses of the 
+        software's dependencies so that the software can be legally combined.
+
+        """
 
         # Get all function arguments dynamically
         all_args = {key: value for key, value in locals().items() if key != "self" and value is not None}
@@ -225,6 +394,16 @@ class MyEvaluator(Evaluator):
                 copyrightHolder=None, copyrightYear=None, dateCreated=None, dateModified=None,
                 datePublished=None, editor=None, email=None, funder=None, funding=None, maintainer=None, 
                 producer=None, provider=None, publisher=None) -> bool:
+        """
+        Description from Chue Hong et. al, RDA FAIR4RS WG. (2022). FAIR Principles for Research Software (FAIR4RS Principles) (1.0). 
+        Zenodo. https://doi.org/10.15497/RDA00068
+
+        Software provenance is a type of metadata that describes why and how the software came to be, as well as who contributed what, when and where. 
+        Provenance is sometimes referred to as lineage or pedigree. This extends beyond capturing a log of changes to source code as it is developed. 
+        Good provenance metadata clarifies the origins and intent behind the development of the software, and establishes authenticity and trust. As a 
+        type of metadata this overlaps with the metadata called for in guiding principles F2 and F4.
+
+        """
         
         # XX -- challenging to implement. 
         # there are an overwhelming amount of aspects to provenance
@@ -234,6 +413,20 @@ class MyEvaluator(Evaluator):
         return False
 
     def evalR2(self, softwareRequirement=None, softwareSuggestions=None) -> bool:
+        """
+        Description from Chue Hong et. al, RDA FAIR4RS WG. (2022). FAIR Principles for Research Software (FAIR4RS Principles) (1.0). 
+        Zenodo. https://doi.org/10.15497/RDA00068
+
+        Software is rarely standalone and in most cases is built upon other software (e.g., dependencies), it should include appropriate references to 
+        other software (e.g., requirements, imports, libraries) which are necessary to compile and run the software. “Qualified” here means specifying 
+        the authoritative source for an identifier, possibly including a resolvable reference to further information about the source. To follow this 
+        principle, it is desirable but not required that the other software referenced implements the FAIR4RS Principles. In many programming languages, 
+        base methods or functions take a reference to a named entity, possibly in combination with a version number or qualifying domain and resolves 
+        this to a source. This principle goes beyond this in calling for qualified references to external dependencies, meaning that the reference 
+        itself resolves to the source via the qualifying authority. This guiding principle calls for qualified references in software to other software 
+        (in aid of reuse). Principle I2 calls for qualified references to anything other than software (in aid of interoperability).
+
+        """
 
         # XX -- challenging to implement.
         # unsure how to define "qualified" reference to other software.
@@ -243,4 +436,25 @@ class MyEvaluator(Evaluator):
         return False
 
     def evalR3(self, referencePublication=None) -> bool:
+        """
+        Description from Chue Hong et. al, RDA FAIR4RS WG. (2022). FAIR Principles for Research Software (FAIR4RS Principles) (1.0). 
+        Zenodo. https://doi.org/10.15497/RDA00068
+
+        Software, including its documentation and license, should meet domain-relevant community standards and coding practices (e.g., choice of programming 
+        language, standards for testing, usage of file formats, accessibility [in the sense of usable by as many people as possible]) that enable reuse. 
+        While the FAIR4RS Principles do not specify particular community standards, the intent is to ensure that practitioners are aware of what others are 
+        doing and using in the community, e.g., through initiatives like FAIRsharing (Sansone et al., 2019), whilst acknowledging that community standards 
+        are (and should be) under constant development.
+
+        Communities can encompass research domains, programming languages, and technical approaches. Examples of community standards might include: 
+        BioSchemas from ELIXIR for describing resources in the life sciences and schema.org for general description of resources; Common Workflow 
+        Language; and the package managers commonly used by a programming language such as Maven (Java), npm (Javascript), PyPI (Python) and CRAN 
+        (R). It is important to note that the FAIR Guiding Principles address research outputs, not research processes, so standards should also be 
+        limited to best practice about the software itself, not the process of designing, developing, or maintaining it, such as the R community 
+        standards for creating packages5 or the PEP 8 Style Guide for Python Code6.
+
+        """
+
+        # XX -- challenging to implement.
+        # unsure how to define best practices here for domain-relevant community standards. How do people currently assess this?
         return False
