@@ -11,11 +11,7 @@ class Evaluator(ABC):
     """
 
     @abstractmethod
-    def evalF1(self, citation=None, identifier=None, sameAs=None, isPartOf=None, url=None) -> bool:
-        raise NotImplementedError
-    
-    @abstractmethod
-    def evalF1_1(self, isPartOf=None, identifier=None) -> bool:
+    def evalF1_1(self, citation=None, identifier=None, sameAs=None, isPartOf=None, url=None) -> bool:
         raise NotImplementedError   
 
     @abstractmethod
@@ -33,10 +29,6 @@ class Evaluator(ABC):
 
     @abstractmethod
     def evalF4(self, applicationCategory=None, applicationSubCategory=None, isAccessibleForFree=None, keywords=None) -> bool:
-        raise NotImplementedError
-    
-    @abstractmethod
-    def evalA1(self, codeRepository=None, downloadUrl=None) -> bool:
         raise NotImplementedError
     
     @abstractmethod
@@ -59,10 +51,6 @@ class Evaluator(ABC):
     def evalI2(self, relatedLink=None, supportingData=None, isPartOf=None, referencePublication=None) -> bool:
         raise NotImplementedError
 
-    @abstractmethod
-    def evalR1(self, description=None, applicationCategory=None, applicationSubCategory=None, keywords=None) -> bool:
-        raise NotImplementedError
-    
     @abstractmethod
     def evalR1_1(self, citation=None, license=None, referencePublication=None) -> bool:
         raise NotImplementedError   
@@ -97,37 +85,8 @@ class MyEvaluator(Evaluator):
         codemeta_json = evaluator_utils.run_codemeticulous_validation(self.codemeta_file)
 
         return codemeta_json
-
-    def evalF1(self, citation=None, identifier=None, sameAs=None, isPartOf=None, url=None) -> bool:
-        """
-        Description from Chue Hong et. al, RDA FAIR4RS WG. (2022). FAIR Principles for Research Software (FAIR4RS Principles) (1.0). 
-        Zenodo. https://doi.org/10.15497/RDA00068
-
-        A piece of software is given an identifier which is both globally unique (not used to identify any
-        other object, even on a different system) and persistent (long-lasting, including its resolution - 
-        the ability to use it to get to the identified source). The use of globally unique and persistent 
-        identifiers enables adherence to many of the other FAIR4RS Principles by removing ambiguity (for 
-        humans and machines) around what software (or part of it) is being referenced. Complexities around 
-        software granularity (the “level of detail being implemented”) and software versions (the “changes 
-        between implementations”) are addressed by F1.1 and F1.2. This principle also relates to enabling 
-        accessibility to software, specifically A1.
-
-        """
-
-        # Get all function arguments dynamically
-        all_args = {key: value for key, value in locals().items() if key != "self" and value is not None}
-
-        # initialize result to False
-        result = False
-
-        # Extract URLs from all provided arguments
-        extracted_urls = {key: codemeta_parser.extract_urls_from_field(value,regex_filter='https://doi.org/') for key, value in all_args.items() if value}
-        if extracted_urls:
-            result = evaluator_utils.validate_and_log_urls(extracted_urls,'evalF1', 'is a globally unique and persistent identifier.')
-
-        return result
     
-    def evalF1_1(self, isPartOf=None, identifier=None) -> bool:
+    def evalF1_1(self, citation=None, identifier=None, sameAs=None, isPartOf=None, url=None) -> bool:
 
         """
         Description from Chue Hong et. al, RDA FAIR4RS WG. (2022). FAIR Principles for Research Software (FAIR4RS Principles) (1.0). 
@@ -142,10 +101,18 @@ class MyEvaluator(Evaluator):
 
         """
 
-        # XX -- challenging to implement
-        # unsure which granularity levels (e.g., releases, commits) we should inspect for identifiers
+        # Get all function arguments dynamically
+        all_args = {key: value for key, value in locals().items() if key != "self" and value is not None}
 
-        return False
+        # initialize result to False
+        result = False
+
+        # Extract URLs from all provided arguments
+        extracted_urls = {key: codemeta_parser.extract_urls_from_field(value,regex_filter='https://doi.org/') for key, value in all_args.items() if value}
+        if extracted_urls:
+            result = evaluator_utils.validate_and_log_urls(extracted_urls,'evalF1_1', 'is a globally unique and persistent identifier.')
+
+        return result
 
     def evalF1_2(self, softwareVersion=None, version=None) -> bool:
 
@@ -225,20 +192,6 @@ class MyEvaluator(Evaluator):
         # how does this differ from F2?
 
         print('evalF4 logs: Challenging to implement.')
-
-        return False
-
-    def evalA1(self, codeRepository=None, downloadUrl=None) -> bool:
-        """
-        Description from Chue Hong et. al, RDA FAIR4RS WG. (2022). FAIR Principles for Research Software (FAIR4RS Principles) (1.0). 
-        Zenodo. https://doi.org/10.15497/RDA00068
-
-        Different types of software have different methods for access. For instance, software that is only available in source code form may be 
-        downloaded from a repository before being compiled locally, whereas software hosted as a service on a remote server may be accessed 
-        without retrieving it. This principle states that obtaining the software should not require specialized or proprietary tools or communication 
-        methods. For much software, there are commonly used technical communications protocols used to access the software, such as HTTPS
-
-        """
 
         return False
     
@@ -355,20 +308,6 @@ class MyEvaluator(Evaluator):
 
         return False
 
-    def evalR1(self, description=None, applicationCategory=None, applicationSubCategory=None, keywords=None) -> bool:
-        """
-        Description from Chue Hong et. al, RDA FAIR4RS WG. (2022). FAIR Principles for Research Software (FAIR4RS Principles) (1.0). 
-        Zenodo. https://doi.org/10.15497/RDA00068
-
-        Relevant attributes can be determined by repositories, and by communities who create and reuse software. Plurality means that, where possible, 
-        multiple terms for the same, similar, or overlapping concepts should be provided to enable the broadest possible reuse.Metadata and documentation 
-        are distinct, potentially complementary, concepts. Metadata about software can be included in documentation, or in the code itself, or in a 
-        separate location. Metadata included in the documentation are generally not machine readable, or indexable. This does, however, support the 
-        reusability of software particularly from a human perspective.
-
-        """
-        return False
-
     def evalR1_1(self, citation=None, license=None, referencePublication=None) -> bool:
         """
         Description from Chue Hong et. al, RDA FAIR4RS WG. (2022). FAIR Principles for Research Software (FAIR4RS Principles) (1.0). 
@@ -457,4 +396,7 @@ class MyEvaluator(Evaluator):
 
         # XX -- challenging to implement.
         # unsure how to define best practices here for domain-relevant community standards. How do people currently assess this?
+
+        print('evalR3 logs: Challenging to implement.')
+
         return False
