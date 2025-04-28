@@ -2,7 +2,7 @@ from abc import ABC, abstractmethod
 from typing import Dict, Any
 from utils import evaluator_utils
 from utils import codemeta_parser
-from constants import SOFTWARE_REGISTRIES, APPROVED_LICENSES
+from constants import SOFTWARE_REGISTRIES, APPROVED_LICENSES, ACCEPTED_DATA_FORMATS, API_KEYWORDS
  
 
 class Evaluator(ABC):
@@ -44,7 +44,7 @@ class Evaluator(ABC):
         raise NotImplementedError
 
     @abstractmethod
-    def evalI1(self, input=None, output=None, runtimePlatform=None) -> bool:
+    def evalI1(self, supportingData=None, buildInstructions=None) -> bool:
         raise NotImplementedError
     
     @abstractmethod
@@ -169,12 +169,16 @@ class MyEvaluator(Evaluator):
 
         """
 
-        # XX -- challenging to implement.
-        # how does this differ from F1?
+        result = False
 
-        print('evalF3 logs: Challenging to implement.')
+        # check identifier field for operational URL
+        all_args = {key: value for key, value in locals().items() if key != "self" and value is not None}
+        extracted_urls = {key: codemeta_parser.extract_urls_from_field(value) for key, value in all_args.items() if value}
+        if extracted_urls:
+            result = evaluator_utils.validate_and_log_urls(extracted_urls, 'evalF3', 'is a globally unique and persistent identifier for software.')
+            return result
 
-        return False
+        return result
 
     def evalF4(self, applicationCategory=None, applicationSubCategory=None, isAccessibleForFree=None, keywords=None) -> bool:
 
@@ -188,12 +192,10 @@ class MyEvaluator(Evaluator):
 
         """
 
-        # XX -- challenging to implement.
-        # how does this differ from F2?
+        all_args = {key: value for key, value in locals().items() if key != "self" and value is not None}
+        result =  evaluator_utils.validate_presence_of_fields(all_args, 'evalF4')
 
-        print('evalF4 logs: Challenging to implement.')
-
-        return False
+        return result
     
     def evalA1_1(self, downloadUrl=None, installUrl=None, isAccessibleForFree=None, license=None, permissions=None, url=None) -> bool:
         """
@@ -261,7 +263,7 @@ class MyEvaluator(Evaluator):
 
         return result
 
-    def evalI1(self, input=None, output=None, runtimePlatform=None) -> bool:
+    def evalI1(self, supportingData=None, buildInstructions=None) -> bool:
 
         """
         Description from Chue Hong et. al, RDA FAIR4RS WG. (2022). FAIR Principles for Research Software (FAIR4RS Principles) (1.0). 
@@ -279,7 +281,36 @@ class MyEvaluator(Evaluator):
         # XX -- challenging to implement.
         # unsure what the domain relevant community standards are.
 
-        print('evalI1 logs: Challenging to implement.')
+        # workaround
+        # look in encoding term (MediaObject) for input and output data formats from CSDMS
+        
+        # print('evalI1 logs: Challenging to implement.')
+
+
+        # Get all function arguments dynamically
+        all_args = {key: value for key, value in locals().items() if key != "self" and value is not None}
+
+        # Validate interoperability based on data exchange formats
+        result_interoperability = evaluator_utils.validate_data_interoperability(
+            all_args.supportingData,
+            ACCEPTED_DATA_FORMATS,
+            'evalI1'
+        )
+
+        # Check specifically for API documentation links
+        result_api_docs = evaluator_utils.check_for_api_documentation(
+            all_args.buildInstructions,
+            API_KEYWORDS,
+            'evalI1'
+        )
+
+        # Pass only if both validations are True
+        if result_interoperability and result_api_docs:
+            # print(f"evaI1 logs: Passed interoperability evaluation.")
+            return True
+        else:
+            # print(f"{eval_method} logs: Failed interoperability evaluation.")
+            return False
 
         return False
 
@@ -305,6 +336,9 @@ class MyEvaluator(Evaluator):
         # unsure what identifiers and/or controlled vocabularies are
 
         print('evalI2 logs: Challenging to implement.')
+
+        # Get all function arguments dynamically
+        all_args = {key: value for key, value in locals().items() if key != "self" and value is not None}
 
         return False
 
@@ -367,10 +401,18 @@ class MyEvaluator(Evaluator):
 
         """
 
-        # XX -- challenging to implement.
-        # unsure how to define "qualified" reference to other software.
+        # # XX -- challenging to implement.
+        # # unsure how to define "qualified" reference to other software.
 
-        print('evalR2 logs: Challenging to implement.')
+        # print('evalR2 logs: Challenging to implement.')
+
+        # Get all function arguments dynamically
+        all_args = {key: value for key, value in locals().items() if key != "self" and value is not None}
+
+        # Extract URLs from all provided arguments
+        extracted_urls = {key: codemeta_parser.extract_urls_from_field(value) for key, value in all_args.items() if value}
+        if extracted_urls:
+            result = evaluator_utils.validate_and_log_urls(extracted_urls,'evalR2', 'is a qualified reference to other relevant software.')
 
         return False
 
