@@ -1,0 +1,69 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Chi_analysis_tools",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C++"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "memoryRequirements": "Depends on the size of your DEM",
+    "operatingSystem": [
+        "Unix",
+        "Linux"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Simon",
+            "familyName": "Mudd",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Edinburgh",
+                "address": "Edinburgh, United Kingdom"
+            },
+            "email": "mailto:simon.m.mudd@ed.ac.uk"
+        }
+    ],
+    "dateCreated": "2012-01-01",
+    "keywords": [
+        "Terrestrial",
+        "tool",
+        "analysis",
+        "channel",
+        "examining",
+        "examining bedrock channels",
+        "examining bedrock",
+        "bedrock channels",
+        "adequately describes channel",
+        "chi-elevation space",
+        "describes channel incision",
+        "power incision model",
+        "stream power incision",
+        "statistical tests",
+        "spim",
+        "channel incision",
+        "space",
+        "incision model",
+        "describes channel",
+        "geomorphology",
+        "bedrock channel erosion",
+        "topographic analysis",
+        "chi analysis tools",
+        "geomorphology",
+        "bedrock channel erosion",
+        "topographic analysis"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "description": "This tool is used for examining bedrock channels. The tool is based on the assumption that the stream power incision model (SPIM) adequately describes channel incision. Channels profiles are converted to chi-elevation space, where chi is a transformed longitudinal coordinate that takes drainage area into account.  The tool uses a variety of statistical tests to extract the most likely series of segments with distinct steepness in chi-elevation space. It also performs statistical tests to determine the best fit m/n ratio, where m is an area (A) exponent and n is a slope (S) exponent in the SPIM with E = K A^m S^n, where E is an erosion rate and K is an 'erodibility'.",
+    "url": "https://csdms.colorado.edu/wiki/Model:Chi_analysis_tools"
+}

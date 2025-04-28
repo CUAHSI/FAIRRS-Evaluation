@@ -1,0 +1,65 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "CosmoLand",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Single",
+    "memoryRequirements": "<512MB",
+    "operatingSystem": [
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Brian",
+            "familyName": "Yanites",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Colorado",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:brian.yanites@colorado.edu"
+        }
+    ],
+    "dateCreated": "2005-01-01",
+    "keywords": [
+        "Terrestrial",
+        "model",
+        "terrain",
+        "simplified landscape undergoing",
+        "surface crn concentration",
+        "model tracks",
+        "tracks both surface",
+        "eroded off hillslopes",
+        "simplified landscape",
+        "landscape undergoing",
+        "concentration eroded",
+        "fluvial network",
+        "surface crn",
+        "crn concentration",
+        "diffusive-like",
+        "concentration",
+        "erosion",
+        "landslide erosion",
+        "landscape evolution",
+        "landslides",
+        "cosmogenic radionuclides",
+        "cosmoland",
+        "landscape evolution",
+        "landslides",
+        "cosmogenic radionuclides"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "The model tracks both surface CRN concentration and concentration eroded off hillslopes into fluvial network in a simplified landscape undergoing both landslide erosion and more steady 'diffusive-like' erosion. Sediment mixing is allowed in the fluvial network. Code can be used to help successfully develop CRN sampling procedures in terrains where landslides are important.",
+    "url": "https://csdms.colorado.edu/wiki/Model:CosmoLand"
+}

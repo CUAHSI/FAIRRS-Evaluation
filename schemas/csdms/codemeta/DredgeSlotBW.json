@@ -1,0 +1,65 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "DredgeSlotBW",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "operatingSystem": [
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Gary",
+            "familyName": "Parker",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Illinois at Urbana-Champaign",
+                "address": "Urbana, United States"
+            },
+            "email": "mailto:parkerg@illinois.edu"
+        }
+    ],
+    "dateCreated": "1990-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "e-book",
+        "calculator",
+        "hydrographs",
+        "normal flow",
+        "flow",
+        "dredge slot",
+        "normal flow equilibrium",
+        "program calculates",
+        "normal",
+        "depth",
+        "wright and parker",
+        "flow depth",
+        "bed evolution",
+        "bed",
+        "mobile-bed normal flow",
+        "dredge",
+        "sediment",
+        "flow depth prevailing",
+        "fluvial morphodynamics",
+        "dredgeslotbw",
+        "bed evolution",
+        "fluvial morphodynamics"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "identifier": "10.1594/IEDA/100112",
+    "description": "This program calculates the 1D bed evolution of a sand-bed river after installation of a dredge slot. The calculation begins with the assumption of a prevailing mobile-bed normal flow equilibrium before installation of the dredge slot.  The flow depth H, volume bedload transport rate per unit width qb and volume suspended transport rate per unit width qs at normal flow are computed based on input values of discharge Qww, channel width B, bed material sizes D50 and D90, sediment submerged specific gravity Rr and bed slope S.\n\nThe sediment is assumed to be sufficiently uniform so that D50 and D90 are unchanging in space and time. The input parameter Inter specifies the fraction of any year for which flood flow prevails. At other times of the year the river is assumed to be morphologically dormant.\n\nThe reach is assumed to have length L.  The dredge slot is excavated at time t = 0, and then allowed to fill in time with no subsequent excavation.  The depth of initial excavation below the bottom of the bed prevailing at normal equilibrium is an input variable with the name Hslot. The dredge slot extends from an upstream point equal to ru*L to a downstream point rd*Hslot, where ru and rd are user-input values.\n\nThe porosity lamp of the sediment deposit is a user-input parameter.\n\nThe bedload transport relation used in the calculation is that of Ashida and Michiue (1972).  The formulation for entrainment of sediment into suspension is that of Wright and Parker (2004). The formulation for flow resistance is that of Wright and Parker (2004).  The flow stratification correction of Wright-Parker is not implemented here for simplicity.  A quasi-equilibrium formulation is used to computed the transport rate of suspended sediment from the entrainment rate.\n\nA backwater calculation is used to compute the flow.  The water surface elevation at the downstream end of the reach is held constant at the value associated with normal flow equilibrium.\n\nIteration is required to compute: a) the flow depth prevailing at normal flow; b) the friction slope and depth prevailing at normal flow, b) the friction slope and depth associated with skin friction associated with skin friction from any given value of depth, and b) the minimum Shields number below which form drag is taken to vanish.",
+    "url": "https://csdms.colorado.edu/wiki/Model:DredgeSlotBW",
+    "developmentStatus": "As is, no updates are provided"
+}

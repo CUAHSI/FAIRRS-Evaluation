@@ -1,0 +1,77 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "HydroRaVENS",
+    "codeRepository": "https://github.com/MNiMORPH/hydroRaVENS/",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/MNiMORPH/hydroRaVENS/",
+    "memoryRequirements": "Mb",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Andrew",
+            "familyName": "Wickert",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of MInnesota",
+                "address": "Minneapolis, United States"
+            },
+            "email": "mailto:awickert@umn.edu"
+        }
+    ],
+    "dateCreated": "2019-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "linear-reservoir",
+        "evapotranspiration",
+        "linked linear reservoirs",
+        "rain and variable",
+        "streamflow simple",
+        "variable evapotranspiration",
+        "thorntwaite equation",
+        "linear reservoirs",
+        "accumulation from precipitation",
+        "arbitrary number",
+        "number of linked",
+        "linked linear",
+        "soil-zone water",
+        "nieve",
+        "hydrological model",
+        "input or thorntwaite",
+        "hydrology",
+        "catchment",
+        "watershed",
+        "streamflow",
+        "precipitation",
+        "snow",
+        "hydroravens",
+        "hydrology",
+        "catchment",
+        "watershed",
+        "streamflow",
+        "precipitation",
+        "evapotranspiration",
+        "snow"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "identifier": "10.5281/zenodo.6787391",
+    "description": "RaVENS: Rain and Variable Evapotranspiration, Nieve, and Streamflow\n\nSimple \"conceptual\" hydrological model that may include an arbitrary number of linked linear reservoirs (soil-zone water, groundwater, etc.) as well as snowpack (accumulation from precipitation with T<0; positive-degree-day melt) and evapotranspiration (from external input or Thorntwaite equation).\n\nIt also includes a water-balance component to adjust ET (typically the least known input) to ensure that P - Q - ET = 0 over the course of a water year.\n\nOther components plot data and compute the NSE (Nash\u2013Sutcliffe model efficiency coefficient).",
+    "url": "https://csdms.colorado.edu/wiki/Model:HydroRaVENS",
+    "developmentStatus": "Active"
+}

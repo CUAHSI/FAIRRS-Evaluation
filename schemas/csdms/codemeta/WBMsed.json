@@ -1,0 +1,60 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "WBMsed",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C++"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "memoryRequirements": "9 GB for global simulation at 6 arcmin resolution",
+    "operatingSystem": [
+        "Unix",
+        "Linux"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Sagy",
+            "familyName": "Cohen",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "CSDMS, University of Colorado",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:sagy.cohen@colorado.edu"
+        }
+    ],
+    "dateCreated": "2010-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "global",
+        "model",
+        "wbm",
+        "wtm",
+        "psi models",
+        "bqart and psi",
+        "wbmplus",
+        "sediment flux",
+        "global model",
+        "hydrological model",
+        "wbmsed",
+        "Sediment flux",
+        "Global model",
+        "Hydrological model"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "identifier": [
+        "10.1594/IEDA/100178",
+        "10.5281/zenodo.7012896"
+    ],
+    "description": "An extension of the WBMplus (WBM/WTM) model. Introduce a riverine sediment flux component based on the BQART and Psi models.",
+    "url": "https://csdms.colorado.edu/wiki/Model:WBMsed",
+    "developmentStatus": "Active"
+}

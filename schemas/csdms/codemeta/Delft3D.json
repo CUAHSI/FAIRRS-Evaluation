@@ -1,0 +1,80 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Delft3D",
+    "codeRepository": "http://oss.deltares.nl/web/delft3d/source-code",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran90"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "C++"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "downloadUrl": "http://oss.deltares.nl/web/delft3d/source-code",
+    "memoryRequirements": "20MB2GB",
+    "operatingSystem": [
+        "Linux",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Support",
+            "familyName": "Delft3D",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Deltares",
+                "address": "Delft, Netherlands"
+            },
+            "email": "mailto:delft3d.support@deltares.nl"
+        }
+    ],
+    "dateCreated": "1988-01-01",
+    "keywords": [
+        "Hydrology",
+        "Coastal",
+        "Marine",
+        "hydrodynamic",
+        "model",
+        "cohesive sediment transport",
+        "curvilinear multi-domain mesh",
+        "wave-current interaction",
+        "hydrostatic flow",
+        "bed stratigraphy",
+        "water quality",
+        "particle tracking",
+        "online visualization",
+        "cohesive sediment",
+        "sediment transport",
+        "curvilinear multi-domain",
+        "spheric coord.",
+        "multi-domain mesh",
+        "mesh in cartesian",
+        "cartesian or spheric",
+        "hydrodynamics",
+        "coastal and marine",
+        "delft3d",
+        "hydrodynamics",
+        "sediment transport",
+        "coastal and marine"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "wave-current interaction, (non) hydrostatic flow (2D/3D), salinity, temperature, (non) cohesive sediment transport, morphology, bed stratigraphy, water quality, ecology, structures & control, particle tracking, curvilinear multi-domain mesh in cartesian or spheric coord., online visualization, GUI.",
+    "url": "https://csdms.colorado.edu/wiki/Model:Delft3D",
+    "developmentStatus": "Active"
+}

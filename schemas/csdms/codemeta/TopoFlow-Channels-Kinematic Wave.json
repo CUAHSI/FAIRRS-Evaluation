@@ -1,0 +1,66 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "TopoFlow-Channels-Kinematic_Wave",
+    "codeRepository": "https://github.com/peckhams/topoflow",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/peckhams/topoflow",
+    "memoryRequirements": "Standard",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Scott",
+            "familyName": "Peckham",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "CSDMS, INSTAAR, University of Colorado",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:Scott.Peckham@colorado.edu"
+        }
+    ],
+    "dateCreated": "2001-01-01",
+    "keywords": [
+        "Hydrology",
+        "wave",
+        "kinematic",
+        "spatial",
+        "model",
+        "model called topoflow",
+        "spatially-distributed hydrologic model",
+        "hydrologic model called",
+        "called topoflow",
+        "hydrologic model",
+        "model called",
+        "stand-alone model",
+        "lighthill and whitham",
+        "process component",
+        "component is part",
+        "spatially-distributed hydrologic",
+        "method",
+        "topoflow",
+        "flow",
+        "basins",
+        "topoflow-channels-kinematic wave",
+        "basins"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Apache public license"
+    },
+    "description": "This process component is part of a spatially-distributed hydrologic model called TopoFlow, but it can now be used as a stand-alone model. The kinematic wave method (Lighthill and Whitham, 1955) is the simplest method for modeling flow in open channels. This method combines mass conservation with the simplest possible treatment of momentum conservation, namely that all terms in the general momentum equation (pressure gradient, local acceleration and convective acceleration) are neglible except the friction and gravity terms. A flow in which gravitational acceleration is exactly balanced by friction is referred to as steady, uniform flow. For these flows the water surface slope, energy slope and bed slope are all equal.",
+    "url": "https://csdms.colorado.edu/wiki/Model:TopoFlow-Channels-Kinematic_Wave",
+    "developmentStatus": "Active"
+}

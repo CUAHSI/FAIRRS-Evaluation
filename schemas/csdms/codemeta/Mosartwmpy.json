@@ -1,0 +1,76 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Mosartwmpy",
+    "codeRepository": "https://github.com/IMMM-SFA/mosartwmpy",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/IMMM-SFA/mosartwmpy",
+    "memoryRequirements": "~8GB",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Travis",
+            "familyName": "Thurber",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Pacific Northwest National Laboratory",
+                "address": "Seattle, United States"
+            },
+            "email": "mailto:travis.thurber@pnnl.gov"
+        }
+    ],
+    "dateCreated": "2020-01-01",
+    "keywords": [
+        "Hydrology",
+        "python",
+        "scale",
+        "adaptive",
+        "river",
+        "adaptive river transport",
+        "large-scale river-routing python",
+        "river-routing python model",
+        "study riverine dynamics",
+        "scale adaptive river",
+        "river-routing python",
+        "derived from mosart-wm",
+        "adaptive river",
+        "river transport",
+        "water management",
+        "scale adaptive",
+        "python model",
+        "cycles across local",
+        "large-scale river-routing",
+        "study riverine",
+        "hydrological model",
+        "hydrodynamics",
+        "reservoir",
+        "rainfall-runoff",
+        "water quantity",
+        "mosartwmpy",
+        "Hydrological model",
+        "hydrodynamics",
+        "Reservoir",
+        "Python",
+        "Rainfall-runoff",
+        "Water quantity"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "Derived from MOSART-WM (Model for Scale Adaptive River Transport with Water Management), mosasrtwmpy is a large-scale river-routing Python model used to study riverine dynamics of water, energy, and biogeochemistry cycles across local, regional, and global scales. The water management component represents river regulation through reservoir storage and release operations, diversions from reservoir releases, and allocation to sectoral water demands. The model allows an evaluation of the impact of water management over multiple river basins at once (global and continental scales) with consistent representation of human operations over the full domain.",
+    "url": "https://csdms.colorado.edu/wiki/Model:Mosartwmpy",
+    "developmentStatus": "Active"
+}

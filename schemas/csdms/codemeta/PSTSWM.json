@@ -1,0 +1,64 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "PSTSWM",
+    "codeRepository": "http://www.csm.ornl.gov/chammp/pstswm/index.html",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran90"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "http://www.csm.ornl.gov/chammp/pstswm/index.html",
+    "operatingSystem": [
+        "Unix"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Patrick",
+            "familyName": "Worley",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Oak Ridge National Laboratory",
+                "address": "Oak Ridge, United States"
+            },
+            "email": "mailto:worleyph@ornl.gov"
+        }
+    ],
+    "dateCreated": "1995-01-01",
+    "keywords": [
+        "Climate",
+        "model",
+        "spectral",
+        "transform",
+        "shallow",
+        "spectral transform method",
+        "message-passing benchmark code",
+        "parallel algorithm testbed",
+        "nonlinear shallow water",
+        "shallow water equations",
+        "transform method",
+        "message-passing benchmark",
+        "benchmark code",
+        "algorithm testbed",
+        "testbed that solves",
+        "solves the nonlinear",
+        "rotating sphere",
+        "spectral transform",
+        "shallow water",
+        "shallow water test",
+        "pstswm"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "PSTSWM is a message-passing benchmark code and parallel algorithm testbed that solves the nonlinear shallow water equations on a rotating sphere using the spectral transform method. It is a parallel implementation of STSWM to generate reference solutions for the shallow water test cases.",
+    "url": "https://csdms.colorado.edu/wiki/Model:PSTSWM"
+}

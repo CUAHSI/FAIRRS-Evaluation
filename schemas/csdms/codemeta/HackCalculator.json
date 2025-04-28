@@ -1,0 +1,65 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "HackCalculator",
+    "codeRepository": "https://github.com/landlab/landlab/tree/master/landlab",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "downloadUrl": "https://github.com/landlab/landlab/tree/master/landlab",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Katy",
+            "familyName": "Barnhart",
+            "affiliation": {
+                "@type": "Organization",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:katherine.barnhart@colorado.edu"
+        }
+    ],
+    "dateCreated": "2019-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "hack",
+        "calculate",
+        "parameters",
+        "component calculates hack",
+        "drainage basins",
+        "hacks law",
+        "component calculates",
+        "calculates hack",
+        "drainage",
+        "law parameters",
+        "drainage area",
+        "drainage divide",
+        "law",
+        "basins",
+        "parameter fit",
+        "component",
+        "hack \u2019s law",
+        "parameter calculation",
+        "hackcalculator",
+        "Hack",
+        "parameter calculation"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "This component calculates Hack\u2019s law parameters for drainage basins.\n\nHacks law is given as\n\nL = C * A**h\n\nWhere L is the distance to the drainage divide along the channel, A is the drainage area, and C are parameters.\n\nThe HackCalculator uses a ChannelProfiler to determine the nodes on which to calculate the parameter fit.",
+    "url": "https://csdms.colorado.edu/wiki/Model:HackCalculator",
+    "developmentStatus": "Only maintenance"
+}

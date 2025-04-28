@@ -1,0 +1,59 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "AlluvStrat",
+    "codeRepository": "https://github.com/awickert/alluvstrat",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/awickert/alluvstrat",
+    "memoryRequirements": "?",
+    "operatingSystem": [
+        "Linux",
+        "Probably works on all, but is untested"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Andy",
+            "familyName": "Wickert",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Colorado",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:wickert@colorado.edu"
+        }
+    ],
+    "dateCreated": "2011-01-01",
+    "keywords": [
+        "Coastal",
+        "Terrestrial",
+        "rules-based",
+        "cross",
+        "processes",
+        "generates alluvial stratigraphy",
+        "generates alluvial",
+        "alluvial stratigraphy",
+        "channel migration",
+        "channel",
+        "migration",
+        "generates",
+        "stratigraphy",
+        "fluvial",
+        "alluvstrat",
+        "stratigraphy",
+        "fluvial"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "identifier": "10.1594/IEDA/100088",
+    "description": "Generates alluvial stratigraphy by channel migration and avulsion. Channel migration is handled via a random walk. Avulsions occur when the channel superelevates. Channels can create levees. Post-avulsion channel locations chosen at random, or based on topography.",
+    "url": "https://csdms.colorado.edu/wiki/Model:AlluvStrat"
+}

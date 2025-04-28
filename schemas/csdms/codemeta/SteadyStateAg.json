@@ -1,0 +1,65 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "SteadyStateAg",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "operatingSystem": [
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Gary",
+            "familyName": "Parker",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Illinois at Urbana-Champaign",
+                "address": "Urbana, United States"
+            },
+            "email": "mailto:parkerg@illinois.edu"
+        }
+    ],
+    "dateCreated": "1990-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "e-book",
+        "calculator",
+        "flumes",
+        "sea level rise",
+        "outlined in chapter",
+        "constant rate",
+        "program implements",
+        "implements the calculation",
+        "calculation for steady-state",
+        "steady-state aggradation",
+        "sand-bed river",
+        "river in response",
+        "response to sea",
+        "sea level",
+        "level rise",
+        "chapter",
+        "rate",
+        "bed variation",
+        "fluvial morphodynamics",
+        "steadystateag",
+        "bed variation",
+        "fluvial morphodynamics"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "identifier": "10.1594/IEDA/100165",
+    "description": "This program implements the calculation for steady-state aggradation of a sand-bed river in response to sea level rise at a constant rate, as outlined in Chapter 25 of the e-book.",
+    "url": "https://csdms.colorado.edu/wiki/Model:SteadyStateAg",
+    "developmentStatus": "As is, no updates are provided"
+}

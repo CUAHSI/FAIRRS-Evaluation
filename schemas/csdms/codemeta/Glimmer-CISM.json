@@ -1,0 +1,69 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Glimmer-CISM",
+    "codeRepository": "http://sourceforge.net/projects/glimmer-cism.berlios/",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran90"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "downloadUrl": "http://sourceforge.net/projects/glimmer-cism.berlios/",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Magnus",
+            "familyName": "Hagdorn",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "School of GeoSciences, University of Edinburgh",
+                "address": "Edinburgh, United Kingdom"
+            },
+            "email": "mailto:Magnus.Hagdorn@ed.ac.uk"
+        }
+    ],
+    "dateCreated": "2005-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "Cryosphere",
+        "dynamic",
+        "model",
+        "ice sheet model",
+        "global climate models",
+        "three-dimensional thermomechanical ice",
+        "thermomechanical ice sheet",
+        "sheet model",
+        "climate models",
+        "open source",
+        "three-dimensional thermomechanical",
+        "gpl",
+        "thermomechanical ice",
+        "ice sheet",
+        "range of global",
+        "global climate",
+        "nerc genie project",
+        "nerc genie",
+        "glimmer-cism",
+        "ice sheet"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "description": "Glimmer is an open source (GPL) three-dimensional thermomechanical ice sheet model, designed to be interfaced to a range of global climate models. It can also be run in stand-alone mode. Glimmer was developed as part of the NERC GENIE project (www.genie.ac.uk). It's development follows the theoretical basis found in Payne (1999) and Payne (2001). Glimmer's structure contains numerous software design strategies that make it maintainable, extensible, and well documented.",
+    "url": "https://csdms.colorado.edu/wiki/Model:Glimmer-CISM"
+}

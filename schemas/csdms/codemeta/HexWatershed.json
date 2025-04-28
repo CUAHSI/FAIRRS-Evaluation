@@ -1,0 +1,88 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "HexWatershed",
+    "codeRepository": "https://github.com/changliao1025/pyhexwatershed",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C++"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/changliao1025/pyhexwatershed",
+    "memoryRequirements": "Depend on study domain and spatial resolution",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Chang",
+            "familyName": "Liao",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Pacific Northwest National Laboratory",
+                "address": "Richland, United States"
+            },
+            "email": "mailto:chang.liao@pnnl.gov"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Tian",
+            "familyName": "Zhou",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Pacific Northwest National Laboratory",
+                "address": "Richland, United States"
+            },
+            "email": "mailto:tian.zhou@pnnl.gov"
+        }
+    ],
+    "dateCreated": "2017-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "Coastal",
+        "Ecosystems",
+        "Cryosphere",
+        "mesh",
+        "independent",
+        "flow",
+        "direction",
+        "mesh independent flow",
+        "independent flow direction",
+        "flow direction model",
+        "mesh independent",
+        "independent flow",
+        "flow direction",
+        "direction model",
+        "hydrologic models",
+        "model for hydrologic",
+        "watershed delineation",
+        "unstructured",
+        "hydrology",
+        "flow routing",
+        "hexagon",
+        "hexwatershed",
+        "Watershed delineation",
+        "Unstructured",
+        "hydrology",
+        "flow routing",
+        "Hexagon"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "HexWatershed is a mesh independent flow direction model for hydrologic models. It can be run at both regional and global scales. The unique feature of HexWatershed is that it supports both structured and unstructured meshes.",
+    "url": "https://csdms.colorado.edu/wiki/Model:HexWatershed",
+    "developmentStatus": "Active"
+}

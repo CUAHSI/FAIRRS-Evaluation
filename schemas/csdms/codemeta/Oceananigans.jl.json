@@ -1,0 +1,60 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Oceananigans.jl",
+    "codeRepository": "https://github.com/CliMA/Oceananigans.jl",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    },
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/CliMA/Oceananigans.jl",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Ali",
+            "familyName": "Ramadhan",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Massachusetts Institute of Technology",
+                "address": "Cambridge, United States"
+            },
+            "email": "mailto:alir@mit.edu"
+        }
+    ],
+    "dateCreated": "2019-01-01",
+    "keywords": [
+        "Marine",
+        "julia",
+        "cartesian",
+        "oceananigans.jl",
+        "gpus",
+        "supports direct numerical",
+        "large eddy simulation",
+        "direct numerical simulation",
+        "oceananigans.jl is designed",
+        "large eddy",
+        "arbitrary numbers",
+        "passive tracers",
+        "state for seawater",
+        "designed for high-resolution",
+        "idealized geometries",
+        "geometries and supports",
+        "supports direct",
+        "direct numerical",
+        "numbers of active",
+        "active and passive",
+        "large eddy simulation"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "Oceananigans.jl is designed for high-resolution simulations in idealized geometries and supports direct numerical simulation, large eddy simulation, arbitrary numbers of active and passive tracers, and linear and nonlinear equations of state for seawater.",
+    "url": "https://csdms.colorado.edu/wiki/Model:Oceananigans.jl",
+    "developmentStatus": "Active"
+}

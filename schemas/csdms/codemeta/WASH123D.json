@@ -1,0 +1,47 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "WASH123D",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran90"
+        }
+    ],
+    "memoryRequirements": "Problem Dependent",
+    "operatingSystem": [
+        "Unix",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Gour-Tsyh (George)",
+            "familyName": "Yeh",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Central Florida",
+                "address": "Orlando, United States"
+            },
+            "email": "mailto:gyeh@mail.ucf.edu"
+        }
+    ],
+    "dateCreated": "1994-01-01",
+    "keywords": [
+        "Hydrology",
+        "Terrestrial",
+        "basin",
+        "Hydrological model",
+        "sediment transport"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "WASH123D is an integrated multimedia, multi-processes, physics-based computational watershed model of various spatial-temporal scales. The integrated multimedia includes:\n# dentric streams/rivers/canal/open channel,\n# overland regime (land surface),\n# subsurface media (vadose and saturated zones), and\n# ponds, lakes/reservoirs (small/shallow). \n\nIt also includes control structures such as weirs, gates, culverts, pumps, levees, and storage ponds and managements such as operational rules for pumps and control structures.\nThe WASH123D code consisted of eight modules to deal with multiple media:\n# 1-D River/Stream Networks,\n# 2-D Overland Regime,\n# 3-D Subsurface Media (both Vadose and Saturated Zones);\n# Coupled 1-D River/Stream Network and 2-D Overland Regime,\n# Coupled 2-D Overland Regime and 3-D Subsurface,\n# Coupled 3-D Subsurface and 1-D River Systems;\n# Coupled 3-D Subsurface Media, 2-D Overland, and 1-D River Network; and\n# Coupled 0-D Shallow Water Bodies and 1-D Canal Network.\nFor any of the above eight modules, flow only, transport only, or coupled flow and transport simulations can be carried out using WASH123D.",
+    "url": "https://csdms.colorado.edu/wiki/Model:WASH123D"
+}

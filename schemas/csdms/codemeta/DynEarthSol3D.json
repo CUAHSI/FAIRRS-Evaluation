@@ -1,0 +1,86 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "DynEarthSol3D",
+    "codeRepository": "https://github.com/tan2/DynEarthSol",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C++"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/tan2/DynEarthSol",
+    "memoryRequirements": "high (tightly coupled CPU\u2013GPU optional)",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Eh",
+            "familyName": "Tan",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Academia Sinica, Institute of Earth Sciences",
+                "address": "Taipei, Afghanistan"
+            },
+            "email": "mailto:tan2@earth.sinica.edu.tw"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Eunseo",
+            "familyName": "Choi",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "The University of Memphis",
+                "address": "Memphis, United States"
+            },
+            "email": "mailto:echoi2@memphis.edu"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Luc",
+            "familyName": "Lavier",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Texas",
+                "address": "Austin, United States"
+            },
+            "email": "mailto:luc@ig.utexas.edu"
+        }
+    ],
+    "dateCreated": "2013-01-01",
+    "keywords": [
+        "Geodynamic",
+        "lagrangian",
+        "material",
+        "form",
+        "finite",
+        "dynamic earth solver",
+        "open-source finite element",
+        "finite element code",
+        "dynamic earth",
+        "transfer in lagrangian",
+        "lagrangian form",
+        "earth solver",
+        "open-source finite",
+        "unstructured meshes",
+        "finite element",
+        "element code",
+        "code that solves",
+        "solves the momentum",
+        "momentum balance",
+        "heat transfer",
+        "dynearthsol3d"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "DynEarthSol3D (Dynamic Earth Solver in Three Dimensions) is a flexible, open-source  finite element code that solves the momentum balance and the heat transfer in Lagrangian form using unstructured meshes. It can be used to study the long-term deformation of Earth's lithosphere and problems alike.",
+    "url": "https://csdms.colorado.edu/wiki/Model:DynEarthSol3D",
+    "developmentStatus": "Active"
+}

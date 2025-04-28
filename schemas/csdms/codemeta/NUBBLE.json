@@ -1,0 +1,59 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "NUBBLE",
+    "codeRepository": "http://www-nml.dartmouth.edu/Software/nubble/",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "http://www-nml.dartmouth.edu/Software/nubble/",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Christopher",
+            "familyName": "Naimie",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Dartmouth College",
+                "address": "Hanover, United States"
+            },
+            "email": "mailto:Christopher.E.Naimie@dartmouth.edu"
+        }
+    ],
+    "dateCreated": "1982-01-01",
+    "keywords": [
+        "Coastal",
+        "Marine",
+        "equations",
+        "time-stepping point model",
+        "linear finite elements",
+        "surface forcing",
+        "time-stepping point",
+        "point model",
+        "linear finite",
+        "finite elements",
+        "elements to determine",
+        "determine the vertical",
+        "vertical structure",
+        "horizontal components",
+        "components of velocity",
+        "velocity and density",
+        "mellor and yamada",
+        "closure scheme",
+        "nubble",
+        "time-stepping point model"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "This is a time-stepping point model which uses linear finite elements to determine the vertical structure of the horizontal components of velocity and density under specified surface forcing. Both a quadratic closure scheme and the level 2.5 closure scheme of Mellor and Yamada are used in this code.",
+    "url": "https://csdms.colorado.edu/wiki/Model:NUBBLE"
+}

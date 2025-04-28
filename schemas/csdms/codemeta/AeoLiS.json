@@ -1,0 +1,77 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "AeoLiS",
+    "codeRepository": "https://github.com/openearth/aeolis-python",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/openearth/aeolis-python",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Bas",
+            "familyName": "Hoonhout",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Deltares",
+                "address": "Delft, Netherlands"
+            },
+            "email": "mailto:bas.hoonhout@deltares.nl"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Sierd",
+            "familyName": "de Vries",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Delft University of Technology",
+                "address": "Delft, Netherlands"
+            },
+            "email": "mailto:Sierd.deVries@tudelft.nl"
+        }
+    ],
+    "dateCreated": "2014-01-01",
+    "keywords": [
+        "Terrestrial",
+        "aeolis",
+        "important",
+        "environments",
+        "process-based",
+        "simulating aeolian sediment",
+        "aeolian sediment transport",
+        "factors are important",
+        "coastal environments",
+        "process-based model",
+        "model for simulating",
+        "simulating aeolian",
+        "transport in situations",
+        "situations where supply-limiting",
+        "supply-limiting factors",
+        "bed slope effects",
+        "aeolian sediment",
+        "sediment transport",
+        "beach armoring",
+        "sediment sorting",
+        "beach armoring",
+        "sediment sorting",
+        "aeolian sediment transport"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "description": "AeoLiS is a process-based model for simulating aeolian sediment transport in situations where supply-limiting factors are important, like in coastal environments. Supply-limitations currently supported are soil moisture contents, sediment sorting and armouring, bed slope effects, air humidity and roughness elements.",
+    "url": "https://csdms.colorado.edu/wiki/Model:AeoLiS",
+    "developmentStatus": "Active"
+}

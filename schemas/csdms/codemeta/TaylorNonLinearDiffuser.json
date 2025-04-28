@@ -1,0 +1,83 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "TaylorNonLinearDiffuser",
+    "codeRepository": "https://github.com/landlab/landlab/tree/master/landlab",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/landlab/landlab/tree/master/landlab",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Rachel",
+            "familyName": "Glade",
+            "affiliation": {
+                "@type": "Organization",
+                "address": "Los Alamos, United States"
+            },
+            "email": "mailto:rachel.glade@colorado.edu"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Katy",
+            "familyName": "Barnhart",
+            "affiliation": {
+                "@type": "Organization",
+                "address": "Los Alamos, United States"
+            },
+            "email": "mailto:katherine.barnhart@colorado.edu"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Greg",
+            "familyName": "Tucker",
+            "affiliation": {
+                "@type": "Organization",
+                "address": "Los Alamos, United States"
+            },
+            "email": "mailto:gtucker@colorado.edu"
+        }
+    ],
+    "dateCreated": "2017-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "ganti",
+        "taylor series expansion",
+        "taylor series",
+        "hillslope flux derived",
+        "nonlinear hillslope flux",
+        "series expansion",
+        "hillslope evolution",
+        "nonlinear hillslope",
+        "andrews-bucknam formulation",
+        "formulation of nonlinear",
+        "hillslope flux",
+        "flux derived",
+        "taylor",
+        "series",
+        "hillslope",
+        "diffusion",
+        "taylornonlineardiffuser",
+        "hillslope",
+        "diffusion"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "Hillslope evolution using a Taylor Series expansion of the Andrews-Bucknam formulation of nonlinear hillslope flux derived following following Ganti et al., 2012. The flux is given as:\n\nqs = KS ( 1 + (S/Sc)**2 + (S / Sc)**4 + .. + (S / Sc)**2(n - 1) )\n\nwhere K is is the diffusivity, S is the slope, Sc is the critical slope, and n is the number of terms. The default behavior uses two terms to produce a flux law as described by Equation 6 of Ganti et al., (2012).",
+    "url": "https://csdms.colorado.edu/wiki/Model:TaylorNonLinearDiffuser",
+    "developmentStatus": "Only maintenance"
+}

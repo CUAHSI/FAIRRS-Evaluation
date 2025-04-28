@@ -1,0 +1,66 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "AgDegNormGravMixPW",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "operatingSystem": [
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Gary",
+            "familyName": "Parker",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Illinois at Urbana-Champaign",
+                "address": "Urbana, United States"
+            },
+            "email": "mailto:parkerg@illinois.edu"
+        }
+    ],
+    "dateCreated": "1990-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "e-book",
+        "calculator",
+        "streams",
+        "constant width carrying",
+        "computes the time",
+        "time evolution",
+        "program computes",
+        "long profile",
+        "gravel bedload transport",
+        "constant width",
+        "width carrying",
+        "grain size",
+        "prescribed elevation",
+        "gravel",
+        "grain size distribution",
+        "gravel sizes",
+        "downstream end",
+        "elevation",
+        "bed profile evolution",
+        "fluvial morphodynamics",
+        "agdegnormgravmixpw",
+        "bed profile evolution",
+        "fluvial morphodynamics"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "identifier": "10.1594/IEDA/100086",
+    "description": "This program computes the time evolution of the long profile of a river of constant width carrying a mixture of gravel sizes, the downstream end of which has a prescribed elevation. In particular, the program computes the time evolution of the spatial profiles of bed elevation, total gravel bedload transport rate and grain size distribution of the surface (active) layer of the bed. The river has constant width.  The upstream point, at which sediment is fed, is fixed in the horizontal to be at x = 0. The vertical elevation of the upstream point may change freely as the bed aggrades or degrades. The reach has constant length L, so that the downstream point is fixed in the horizontal at x = L. This downstream point has a user-specified initial elevation hdI.\nGravel bedload transport of mixtures is computed with a user-specified selection of the Parker (1990), or Wilcock-Crowe (2003)  surface-based formulations for gravel transport. Sand and finer material must first be excluded from the grain size distributions, which then must be renormalized for gravel content only, in the case of the Parker (1990) relation. In the case of the Wilcock-Crowe (2003) relation, the sand is retained in the computation.",
+    "url": "https://csdms.colorado.edu/wiki/Model:AgDegNormGravMixPW",
+    "developmentStatus": "As is, no updates are provided"
+}

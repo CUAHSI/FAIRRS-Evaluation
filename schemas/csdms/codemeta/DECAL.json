@@ -1,0 +1,46 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "DECAL",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C++"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Single",
+    "memoryRequirements": "Variable",
+    "operatingSystem": [
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Andreas",
+            "familyName": "Baas",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "King's College London",
+                "address": "London, United Kingdom"
+            },
+            "email": "mailto:andreas.baas@kcl.ac.uk"
+        }
+    ],
+    "dateCreated": "2005-01-01",
+    "keywords": [
+        "Coastal",
+        "Terrestrial",
+        "landscape",
+        "Aeolian dune"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "A cellular automaton model for simulating the development of aeolian dune landscapes under the influence of vegetation and biota (parabolic dunes, blowouts, foredunes, nebkha dunes).",
+    "url": "https://csdms.colorado.edu/wiki/Model:DECAL"
+}

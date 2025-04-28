@@ -1,0 +1,70 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "OTTAR",
+    "codeRepository": "https://github.com/MNiMORPH/OTTAR",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/MNiMORPH/OTTAR",
+    "memoryRequirements": "kb to Mb",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Andrew",
+            "familyName": "Wickert",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Minnesota",
+                "address": "Minneapolis, United States"
+            },
+            "email": "mailto:awickert@umn.edu"
+        }
+    ],
+    "dateCreated": "2021-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "ancho",
+        "transient",
+        "ode",
+        "los",
+        "sediment in transport",
+        "transiently evolving river-channel",
+        "streambank properties",
+        "function of streambank",
+        "transiently evolving",
+        "evolving river-channel",
+        "evolving river-channel width",
+        "changing hydrological regimes",
+        "river-channel",
+        "evolving river-channel geometry",
+        "transiently",
+        "properties",
+        "sediment",
+        "transport",
+        "hydrograph",
+        "river",
+        "channel width",
+        "ottar",
+        "river",
+        "channel width"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "description": "Transiently evolving river-channel width as a function of streambank properties, sediment in transport, and the hydrograph.\n\nThis model is designed to compute the rates of river-channel widening and narrowing based on changing hydrological regimes. It is currently designed for rivers with cohesive banks, with a critical shear stress for particle detachment and an erosion-rate coefficient.\n\nOTTAR contains:\n* The RiverWidth class, which contains methods to evolve the width of an alluvial river.\n* The FlowDepthDoubleManning class, which is used to estimate flow depth from discharge, even with an evolving river-channel geometry.",
+    "url": "https://csdms.colorado.edu/wiki/Model:OTTAR",
+    "developmentStatus": "Active"
+}

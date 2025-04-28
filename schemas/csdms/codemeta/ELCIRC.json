@@ -1,0 +1,58 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "ELCIRC",
+    "codeRepository": "http://www.stccmop.org/CORIE/modeling/elcirc/",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    },
+    "applicationCategory": "Single",
+    "downloadUrl": "http://www.stccmop.org/CORIE/modeling/elcirc/",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Yinglong",
+            "familyName": "Zhang",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Oregon Health&Science University",
+                "address": "Beaverton, United States"
+            },
+            "email": "mailto:yjzhang@vims.edu"
+        }
+    ],
+    "dateCreated": "2001-01-01",
+    "keywords": [
+        "Coastal",
+        "Marine",
+        "eulerian-lagrangian",
+        "circulation",
+        "unstructured-grid model designed",
+        "baroclinic circulation",
+        "unstructured-grid model",
+        "model designed",
+        "effective simulation",
+        "finite-difference eulerian-lagrangian algorithm",
+        "shallow water equations",
+        "scales",
+        "elcirc",
+        "baroclinic",
+        "finite-difference eulerian-lagrangian",
+        "water equations",
+        "written to realistically",
+        "river forcings",
+        "unstructured-grid",
+        "ocean circulation",
+        "ocean circulation"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "ELCIRC is an unstructured-grid model designed for the effective simulation of 3D baroclinic circulation across river-to-ocean scales. It uses a finite-volume/finite-difference Eulerian-Lagrangian algorithm to solve the shallow water equations, written to realistically address a wide range of physical processes and of atmospheric, ocean and river forcings. The numerical algorithm is low-order, but volume conservative, stable and computationally efficient. It also naturally incorporates wetting and drying of tidal flats. ELCIRC has been extensively tested against standard ocean/coastal benchmarks, and is starting to be applied to estuaries and continental shelves around the world.",
+    "url": "https://csdms.colorado.edu/wiki/Model:ELCIRC",
+    "developmentStatus": "As is, no updates are provided"
+}

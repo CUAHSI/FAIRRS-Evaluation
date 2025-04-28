@@ -1,0 +1,70 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "SFINCS",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        }
+    ],
+    "applicationCategory": "Single",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Tim",
+            "familyName": "Leijnse",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Deltares",
+                "address": "Delft, Netherlands"
+            },
+            "email": "mailto:Tim.Leijnse@deltares.nl"
+        }
+    ],
+    "dateCreated": "2020-01-01",
+    "keywords": [
+        "Coastal",
+        "sfincs",
+        "pluvial",
+        "tidal",
+        "wind",
+        "efficiently simulate compound",
+        "simulate compound flooding",
+        "compound flooding events",
+        "limited computational cost",
+        "super-fast inundation",
+        "inundation of coasts",
+        "good accuracy",
+        "developed to efficiently",
+        "efficiently simulate",
+        "simulate compound",
+        "compound flooding",
+        "flooding events",
+        "events at limited",
+        "limited computational",
+        "computational cost",
+        "inundation",
+        "coastal systems",
+        "Compound flooding",
+        "Inundation",
+        "Coastal systems"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "description": "The SFINCS model (Super-Fast INundation of CoastS) is developed to efficiently simulate compound flooding events at limited computational cost and good accuracy. SFINCS solves the SSWE and thus includes advection in the momentum equation. However, it can also run using the LIE without advection. Processes such as spatially varying friction, infiltration and precipitation are included. Moreover, SFINCS includes wind-driven shear and an absorbing-generating weakly-reflective boundary is considered which are not included in other reduced-physics models.",
+    "url": "https://csdms.colorado.edu/wiki/Model:SFINCS",
+    "developmentStatus": "Active"
+}

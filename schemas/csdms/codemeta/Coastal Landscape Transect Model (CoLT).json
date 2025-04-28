@@ -1,0 +1,60 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Coastal_Landscape_Transect_Model_(CoLT)",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Single",
+    "operatingSystem": [
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Kendall",
+            "familyName": "Valentine",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Washington",
+                "address": "Seattle, United States"
+            },
+            "email": "mailto:kvalent@uw.edu"
+        }
+    ],
+    "dateCreated": "2020-01-01",
+    "keywords": [
+        "Coastal",
+        "Ecosystems",
+        "geomorphic",
+        "coastal",
+        "transect",
+        "evolves in yearly",
+        "transect spanning",
+        "spanning three coastal",
+        "yearly timesteps",
+        "timesteps to show",
+        "show the evolution",
+        "coastal ecosystems",
+        "adjacent ecosystems",
+        "ecosystems",
+        "evolves",
+        "system",
+        "carbon",
+        "processes",
+        "spanning",
+        "coastal landscape transect model (colt)"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "identifier": "10.5281/zenodo.7625873",
+    "description": "A transect spanning three coastal ecosystems (bay-marsh-forest) evolves in yearly timesteps to show the evolution of the system. Geomorphic and carbon cycling processes allow for the exchange of material between the adjacent ecosystems. Each landscape unit is on the order of kilometers. Main geomorphic processes are featured in Kirwan et al. 2016 in GRL, and carbon processes track allochthonous and autocthonous carbon with time and depth.",
+    "url": "https://csdms.colorado.edu/wiki/Model:Coastal_Landscape_Transect_Model_(CoLT)",
+    "developmentStatus": "As is, no updates are provided"
+}

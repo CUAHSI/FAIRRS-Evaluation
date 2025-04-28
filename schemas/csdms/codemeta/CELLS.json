@@ -1,0 +1,40 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "CELLS",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "operatingSystem": [
+        "Unix"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Fred",
+            "familyName": "Sklar",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "South Florida Water Management District",
+                "address": "West Palm Beach, United States"
+            },
+            "email": "mailto:fsklar@sfwmd.gov"
+        }
+    ],
+    "dateCreated": "1985-01-01",
+    "keywords": [
+        "Coastal",
+        "landscape evolution",
+        "coast ecology"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "description": "--",
+    "url": "https://csdms.colorado.edu/wiki/Model:CELLS"
+}

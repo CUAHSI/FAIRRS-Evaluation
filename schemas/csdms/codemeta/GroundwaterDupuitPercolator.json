@@ -1,0 +1,68 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "GroundwaterDupuitPercolator",
+    "codeRepository": "https://github.com/landlab/landlab",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/landlab/landlab",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "David",
+            "familyName": "Litwin",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Johns Hopkins University",
+                "address": "Baltimore, United States"
+            },
+            "email": "mailto:dlitwin3@jhu.edu"
+        }
+    ],
+    "dateCreated": "2019-01-01",
+    "keywords": [
+        "Hydrology",
+        "boussinesq",
+        "flow",
+        "aquifer",
+        "surface",
+        "shallow groundwater flow",
+        "modeling shallow groundwater",
+        "modeling shallow",
+        "groundwater flow",
+        "hydraulic conductivity",
+        "vertical component",
+        "shallow groundwater",
+        "flow is negligible",
+        "landlab components",
+        "groundwater table approaches",
+        "groundwater",
+        "total groundwater",
+        "hydraulic",
+        "conductivity",
+        "hydrology",
+        "seepage",
+        "groundwaterdupuitpercolator",
+        "groundwater",
+        "hydrology",
+        "seepage",
+        "aquifer"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "The GroundwaterDupuitPercolator is appropriate for modeling shallow groundwater flow where the vertical component of flow is negligible. Where the groundwater table approaches the land surface, it calculates seepage that can be routed using other Landlab components. It can be implemented on both regular (e.g. rectangular and hexagonal) and irregular grids determined by the user. Recharge, hydraulic conductivity, and porosity may be specified as single values uniform over the model domain, or as vectors on the nodes (recharge, porosity) or links (hydraulic conductivity) of the grid. Link hydraulic conductivity can also be specified from a two-dimensional hydraulic conductivity tensor using an included function. For mass balance calculations, the model includes methods to determine the total groundwater storage on the grid domain, the total recharge flux in, and total groundwater and surface water fluxes leaving through the boundaries.",
+    "url": "https://csdms.colorado.edu/wiki/Model:GroundwaterDupuitPercolator"
+}

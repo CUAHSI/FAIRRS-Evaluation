@@ -1,0 +1,58 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "ERA5_Data_Component",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "operatingSystem": [],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Tian",
+            "familyName": "Gan",
+            "affiliation": {
+                "@type": "Organization",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:gantian127@gmail.com"
+        }
+    ],
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "Climate",
+        "Cryosphere",
+        "datasets",
+        "reanalysis",
+        "csdms",
+        "ecmwf",
+        "community surface dynamics",
+        "dynamics modeling system",
+        "surface dynamics modeling",
+        "modeling framework developed",
+        "community surface",
+        "surface dynamics",
+        "pymt modeling framework",
+        "modeling system",
+        "dynamics modeling",
+        "developed by community",
+        "basic model interface",
+        "package that converts",
+        "modeling framework",
+        "pymt modeling",
+        "framework developed",
+        "era5 data component"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "pymt_era5 is a package that converts ERA5 datasets (https://confluence.ecmwf.int/display/CKB/ERA5) into a reusable, plug-and-play data component for PyMT modeling framework developed by Community Surface Dynamics Modeling System (CSDMS). This allows ERA5 datasets (currently support 3 dimensional data) to be easily coupled with other datasets or models that expose a Basic Model Interface.",
+    "url": "https://csdms.colorado.edu/wiki/Model:ERA5_Data_Component",
+    "developmentStatus": "Only maintenance"
+}

@@ -1,0 +1,107 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "LaMEM",
+    "codeRepository": "https://bitbucket.org/bkaus/lamem",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://bitbucket.org/bkaus/lamem",
+    "memoryRequirements": "high",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Anton",
+            "familyName": "Popov",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Johannes Gutenberg University, Institute of Geosciences",
+                "address": "Mainz, Germany"
+            },
+            "email": "mailto:popov@uni-mainz.de"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Boris",
+            "familyName": "Kaus",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Johannes Gutenberg University",
+                "address": "Mainz, Germany"
+            },
+            "email": "mailto:kaus@uni-mainz.de"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Tobias",
+            "familyName": "Baumann",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Johannes Gutenberg University",
+                "address": "Mainz, Germany"
+            },
+            "email": "mailto:baumann@uni-mainz.de"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Adina",
+            "familyName": "P\u00fcs\u00f6k",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Johannes Gutenberg University",
+                "address": "Mainz, Germany"
+            },
+            "email": "mailto:puesoek@uni-mainz.de"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Arthur",
+            "familyName": "Bauville",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Johannes Gutenberg University",
+                "address": "Mainz, Germany"
+            },
+            "email": "mailto:abauvill@uni-mainz.de"
+        }
+    ],
+    "dateCreated": "2007-01-01",
+    "keywords": [
+        "Geodynamic",
+        "lamem",
+        "lithosphere",
+        "model",
+        "mantle",
+        "thermomechanical geodynamical processes",
+        "model various thermomechanical",
+        "thermomechanical geodynamical",
+        "geodynamical processes",
+        "mantle-lithosphere interaction",
+        "interaction for rocks",
+        "numerical code",
+        "rheologies",
+        "finite difference discretization",
+        "code",
+        "parallel",
+        "numerical",
+        "staggered finite difference",
+        "difference discretization",
+        "mantle evolution model",
+        "Mantle Evolution Model"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "description": "A parallel 3D numerical code that can be used to model various thermomechanical geodynamical processes such as mantle-lithosphere interaction for rocks that have visco-elasto-plastic rheologies. The code is build on top of PETSc and the current version of the code uses a marker-in-cell approach with a staggered finite difference discretization.",
+    "url": "https://csdms.colorado.edu/wiki/Model:LaMEM"
+}

@@ -1,0 +1,71 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "CVPM",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "memoryRequirements": "variable",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Gary",
+            "familyName": "Clow",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute of Arctic and Alpine Research",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:gclow@colorado.edu"
+        }
+    ],
+    "dateCreated": "2018-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Cryosphere",
+        "multidimensional",
+        "physics",
+        "control volume permafrost",
+        "control volume",
+        "volume permafrost model",
+        "modular heat-transfer modeling",
+        "volume permafrost",
+        "educational tool",
+        "designed for scientific",
+        "modular heat-transfer",
+        "cvpm",
+        "modeling system designed",
+        "permafrost terrain",
+        "nonlinear heat-transfer equations",
+        "engineering studies",
+        "heat-transfer modeling system",
+        "control",
+        "permafrost",
+        "heat-transfer",
+        "earth",
+        "mars",
+        "permafrost",
+        "heat-transfer",
+        "multidimensional",
+        "Earth",
+        "Mars"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "identifier": "10.5281/zenodo.1237889",
+    "description": "The Control Volume Permafrost Model (CVPM) is a modular heat-transfer modeling system designed for scientific and engineering studies in permafrost terrain, and as an educational tool.  CVPM implements the nonlinear heat-transfer equations in 1-D, 2-D, and 3-D cartesian coordinates, as well as in 1-D radial and 2-D cylindrical coordinates.  To accommodate a diversity of geologic settings, a variety of materials can be specified within the model domain, including: organic-rich materials, sedimentary rocks and soils, igneous and metamorphic rocks, ice bodies, borehole fluids, and other engineering materials.  Porous materials are treated as a matrix of mineral and organic particles with pore spaces filled with liquid water, ice, and air.  Liquid water concentrations at temperatures below 0\u00b0C due to interfacial, grain-boundary, and curvature effects are found using relationships from condensed matter physics; pressure and pore-water solute effects are included.  A radiogenic heat-production term allows simulations to extend into deep permafrost and underlying bedrock.  CVPM can be used over a broad range of depth, temperature, porosity, water saturation, and solute conditions on either the Earth or Mars.  The model is suitable for applications at spatial scales ranging from centimeters to hundreds of kilometers and at timescales ranging from seconds to thousands of years.  CVPM can act as a stand-alone model, the physics package of a geophysical inverse scheme, or serve as a component within a larger earth modeling system that may include vegetation, surface water, snowpack, atmospheric or other modules of varying complexity.",
+    "url": "https://csdms.colorado.edu/wiki/Model:CVPM",
+    "developmentStatus": "Active"
+}

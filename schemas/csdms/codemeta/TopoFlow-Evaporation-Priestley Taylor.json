@@ -1,0 +1,66 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "TopoFlow-Evaporation-Priestley_Taylor",
+    "codeRepository": "https://github.com/peckhams/topoflow",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/peckhams/topoflow",
+    "memoryRequirements": "Standard",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Scott",
+            "familyName": "Peckham",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "CSDMS, INSTAAR, University of Colorado",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:Scott.Peckham@colorado.edu"
+        }
+    ],
+    "dateCreated": "2001-01-01",
+    "keywords": [
+        "Hydrology",
+        "evaporation",
+        "component",
+        "priestley-taylor",
+        "method",
+        "model called topoflow",
+        "spatially-distributed hydrologic model",
+        "hydrologic model called",
+        "called topoflow",
+        "process component",
+        "component is part",
+        "spatially-distributed hydrologic",
+        "hydrologic model",
+        "model called",
+        "stand-alone model",
+        "topoflow",
+        "model",
+        "process",
+        "part",
+        "basins",
+        "topoflow-evaporation-priestley taylor",
+        "basins"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Apache public license"
+    },
+    "description": "This process component is part of a spatially-distributed hydrologic model called TopoFlow, but it can now be used as a stand-alone model.",
+    "url": "https://csdms.colorado.edu/wiki/Model:TopoFlow-Evaporation-Priestley_Taylor",
+    "developmentStatus": "Active"
+}

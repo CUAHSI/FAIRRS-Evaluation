@@ -1,0 +1,63 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Cross_Shore_Sediment_Flux",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Single",
+    "operatingSystem": [
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Alejandra",
+            "familyName": "Ortiz",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Woods Hole Oceanographic Institution",
+                "address": "Woods Hole, United States"
+            },
+            "email": "mailto:aortiz@whoi.edu"
+        }
+    ],
+    "keywords": [
+        "Coastal",
+        "equations",
+        "sediment",
+        "flux",
+        "cross-shore",
+        "cross-shore sediment flux",
+        "addresses predominately sandy",
+        "sediment flux model",
+        "spatial scales ranging",
+        "flux model addresses",
+        "model addresses predominately",
+        "sediment flux",
+        "cross-shore sediment",
+        "airy wave theory",
+        "linear airy wave",
+        "predominately sandy",
+        "wave-dominated coastlines",
+        "full linear airy",
+        "time-scales ranging",
+        "ranging from years",
+        "coastal sediment transport",
+        "coastal evolution",
+        "cross shore sediment flux",
+        "coastal sediment transport",
+        "coastal evolution"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "description": "The Cross-Shore Sediment Flux model addresses predominately sandy, wave-dominated coastlines on time-scales ranging from years to millenia and on spatial scales ranging from kilometers to tens of kilometers using a range of wave parameters as inputs. It calculates the cross-shore sediment flux using both shallow water wave assumptions and full Linear Airy wave Theory. An equilibrium profile is also created. Using the Exner equation, we develop an advection diffusion equation that describes the evolution of profile through time. A morphodynamic depth of closure can be estimated for each input wave parameter.",
+    "url": "https://csdms.colorado.edu/wiki/Model:Cross_Shore_Sediment_Flux"
+}

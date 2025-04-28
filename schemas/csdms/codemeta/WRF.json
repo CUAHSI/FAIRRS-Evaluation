@@ -1,0 +1,67 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "WRF",
+    "codeRepository": "http://www2.mmm.ucar.edu/wrf/users/",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran90"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "downloadUrl": "http://www2.mmm.ucar.edu/wrf/users/",
+    "operatingSystem": [
+        "Linux",
+        "Mac OS",
+        "Darwin"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Bill",
+            "familyName": "Skamarock",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "NCAR",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:wrfhelp@ucar.edu"
+        }
+    ],
+    "dateCreated": "1998-01-01",
+    "keywords": [
+        "Climate",
+        "model",
+        "research",
+        "forecasting",
+        "weather",
+        "mesoscale numerical weather",
+        "numerical weather prediction",
+        "next-generation mesoscale numerical",
+        "weather prediction system",
+        "prediction system designed",
+        "weather research",
+        "numerical weather",
+        "weather prediction",
+        "operational forecasting",
+        "atmospheric research",
+        "next-generation mesoscale",
+        "mesoscale numerical",
+        "designed to serve",
+        "serve both operational",
+        "forecasting and atmospheric",
+        "wrf"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "The Weather Research and Forecasting (WRF) Model is a next-generation mesoscale numerical weather prediction system designed to serve both operational forecasting and atmospheric research needs. It features multiple dynamical cores, a 3-dimensional variational (3DVAR) data assimilation system, and a software architecture allowing for computational parallelism and system extensibility. WRF is suitable for a broad spectrum of applications across scales ranging from meters to thousands of kilometers.",
+    "url": "https://csdms.colorado.edu/wiki/Model:WRF",
+    "developmentStatus": "Active"
+}

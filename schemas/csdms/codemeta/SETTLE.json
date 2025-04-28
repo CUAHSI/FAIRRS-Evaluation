@@ -1,0 +1,67 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "SETTLE",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Rudy",
+            "familyName": "Slingerland",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Penn State University",
+                "address": "University Park, United States"
+            },
+            "email": "mailto:sling@geosc.psu.edu"
+        }
+    ],
+    "dateCreated": "1992-01-01",
+    "keywords": [
+        "Terrestrial",
+        "partical",
+        "solution",
+        "dietrich equation",
+        "constant terminal settling",
+        "terminal settling velocity",
+        "size-density fraction median",
+        "fraction median size",
+        "size from dietrich",
+        "calculates the constant",
+        "constant terminal",
+        "terminal settling",
+        "settling velocity",
+        "size-density fraction",
+        "fraction median",
+        "median size",
+        "dietrich",
+        "calculates",
+        "setting velocity",
+        "turbulent fluid",
+        "fluvial",
+        "settle",
+        "setting velocity",
+        "turbulent fluid",
+        "fluvial"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "identifier": "10.1594/IEDA/100162",
+    "description": "Calculates the constant terminal settling velocity of each size-density fraction's median size from Dietrich's equation.",
+    "url": "https://csdms.colorado.edu/wiki/Model:SETTLE",
+    "developmentStatus": "As is, no updates are provided"
+}

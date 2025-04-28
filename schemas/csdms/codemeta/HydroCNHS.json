@@ -1,0 +1,79 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "HydroCNHS",
+    "codeRepository": "https://github.com/philip928lin/HydroCNHS",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/philip928lin/HydroCNHS",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Chung-Yi",
+            "familyName": "Lin",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Lehigh University",
+                "address": "Bethlehem, United States"
+            },
+            "email": "mailto:chl319@lehigh.edu"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Ethan",
+            "familyName": "Yang",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Lehigh University",
+                "address": "Bethlehem, United States"
+            },
+            "email": "mailto:yey217@lehigh.edu"
+        }
+    ],
+    "dateCreated": "2021-01-01",
+    "keywords": [
+        "Hydrology",
+        "hydrocnhs",
+        "natural",
+        "human",
+        "systems",
+        "application programming interfaces",
+        "open-source python package",
+        "python package supporting",
+        "human decision models",
+        "agent-based modeling concept",
+        "programming interfaces",
+        "application programming",
+        "open-source python",
+        "python package",
+        "supporting four application",
+        "decision models",
+        "modeling concept",
+        "package supporting",
+        "enable users",
+        "users to integrate",
+        "hydrological model",
+        "drainage basin",
+        "agent-based modeling",
+        "Hydrological model",
+        "drainage basin",
+        "Agent-based modeling"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "description": "HydroCNHS is an open-source Python package supporting four Application Programming Interfaces (APIs) that enable users to integrate their human decision models, which can be programmed with the agent-based modeling concept, into the HydroCNHS.",
+    "url": "https://csdms.colorado.edu/wiki/Model:HydroCNHS",
+    "developmentStatus": "Active"
+}

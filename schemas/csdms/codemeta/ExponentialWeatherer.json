@@ -1,0 +1,66 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "ExponentialWeatherer",
+    "codeRepository": "https://github.com/landlab/landlab/tree/master/landlab",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/landlab/landlab/tree/master/landlab",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Rachel",
+            "familyName": "Glade",
+            "affiliation": {
+                "@type": "Organization",
+                "address": "Los Alamos, United States"
+            },
+            "email": "mailto:rachel.glade@colorado.edu"
+        }
+    ],
+    "dateCreated": "2016-01-01",
+    "keywords": [
+        "Terrestrial",
+        "ahnert",
+        "exponential",
+        "implements exponential weathering",
+        "component implements exponential",
+        "bedrock on hillslopes",
+        "soil production",
+        "component implements",
+        "weathering of bedrock",
+        "soil",
+        "soil production rate",
+        "production",
+        "implements exponential",
+        "exponential weathering",
+        "exponential soil production",
+        "style of ahnert",
+        "production rate",
+        "soil production function",
+        "hillslope",
+        "weathering",
+        "exponentialweatherer",
+        "hillslope",
+        "weathering",
+        "soil production"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "This component implements exponential weathering of bedrock on hillslopes. Uses exponential soil production function in the style of Ahnert (1976).\n\nConsider that w_0 is the maximum soil production rate and that d* is the characteristic soil production depth. The soil production rate w is given as a function of the soil depth d,\n\nw = w_0^(-d/d*)\n\nThe ExponentialWeatherer only calculates soil production at core nodes.",
+    "url": "https://csdms.colorado.edu/wiki/Model:ExponentialWeatherer",
+    "developmentStatus": "Only maintenance"
+}

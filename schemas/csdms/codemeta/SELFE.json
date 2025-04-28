@@ -1,0 +1,61 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "SELFE",
+    "codeRepository": "http://www.stccmop.org/CORIE/software/selfe/recent.html",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran90"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "http://www.stccmop.org/CORIE/software/selfe/recent.html",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Yinglong",
+            "familyName": "Zhang",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Oregon Health&Science University",
+                "address": "Beaverton, United States"
+            },
+            "email": "mailto:yjzhang@vims.edu"
+        }
+    ],
+    "dateCreated": "2005-01-01",
+    "keywords": [
+        "Coastal",
+        "Marine",
+        "eulerian",
+        "lagrangian",
+        "element",
+        "finite",
+        "unstructured-grid model designed",
+        "baroclinic circulation",
+        "unstructured-grid model",
+        "model designed",
+        "effective simulation",
+        "shallow water equations",
+        "selfe",
+        "scales",
+        "semi-implicit finite-element eulerian-lagrangian",
+        "finite-element eulerian-lagrangian algorithm",
+        "baroclinic",
+        "water equations",
+        "written to realistically",
+        "ocean and river",
+        "river forcings"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "SELFE is a new unstructured-grid model designed for the effective simulation of 3D baroclinic circulation across river-to-ocean scales. It uses a semi-implicit finite-element Eulerian-Lagrangian algorithm to solve the shallow water equations, written to realistically address a wide range of physical processes and of atmospheric, ocean and river forcings.",
+    "url": "https://csdms.colorado.edu/wiki/Model:SELFE",
+    "developmentStatus": "As is, no updates are provided"
+}

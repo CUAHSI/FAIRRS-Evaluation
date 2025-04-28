@@ -1,0 +1,74 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Dakotathon",
+    "codeRepository": "https://github.com/csdms/dakota",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "downloadUrl": "https://github.com/csdms/dakota",
+    "operatingSystem": [
+        "Linux",
+        "Mac OS"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Mark",
+            "familyName": "Piper",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Colorado, INSTAAR/CSDMS",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:mark.piper@colorado.edu"
+        }
+    ],
+    "dateCreated": "2015-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "Coastal",
+        "Marine",
+        "Geodynamic",
+        "Climate",
+        "python",
+        "api",
+        "dakota",
+        "toolkit",
+        "sandia national laboratories",
+        "national laboratories",
+        "sandia national",
+        "developed at sandia",
+        "uncertainty quantification",
+        "software toolkit",
+        "including support",
+        "calibration techniques",
+        "support for sensitivity",
+        "basic model interface",
+        "laboratories",
+        "dakota experiment",
+        "sandia",
+        "national",
+        "uncertainty",
+        "sensitivity",
+        "optimization",
+        "calibration",
+        "dakotathon",
+        "uncertainty",
+        "sensitivity",
+        "optimization",
+        "calibration"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "Dakota is a software toolkit, developed at Sandia National Laboratories, that provides an interface between models and a library of analysis methods, including support for sensitivity analysis, uncertainty quantification, optimization, and calibration techniques. Dakotathon is a Python package that wraps and extends Dakota\u2019s file-based user interface. It simplifies the process of configuring and running a Dakota experiment, and it allows a Dakota experiment to be scripted. Any model written in Python that exposes a Basic Model Interface (BMI), as well as any model componentized in the CSDMS modeling framework, automatically works with Dakotathon. Currently, six Dakota analysis methods have been implemented from the much larger Dakota library:\n\n* vector parameter study,\n* centered parameter study,\n* multidim parameter study,\n* sampling,\n* polynomial chaos, and\n* stochastic collocation.",
+    "url": "https://csdms.colorado.edu/wiki/Model:Dakotathon",
+    "developmentStatus": "Active"
+}

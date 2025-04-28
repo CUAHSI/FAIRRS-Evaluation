@@ -1,0 +1,58 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "BEDLOAD",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        }
+    ],
+    "applicationCategory": "Single",
+    "memoryRequirements": "<512MB",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Rudy",
+            "familyName": "Slingerland",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Penn State University",
+                "address": "University Park, United States"
+            },
+            "email": "mailto:sling@geosc.psu.edu"
+        }
+    ],
+    "dateCreated": "1992-01-01",
+    "keywords": [
+        "Terrestrial",
+        "bedload",
+        "model",
+        "bedload transport rates",
+        "rates and weights",
+        "weights per unit",
+        "unit area",
+        "transport rates",
+        "bedload transport",
+        "calculates the bedload",
+        "calculates",
+        "size-density",
+        "transport",
+        "fluvial morphodynamics",
+        "fluvial morphodynamics"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "identifier": "10.1594/IEDA/100094",
+    "description": "Calculates the bedload transport rates and weights per unit area for each size-density. NB. Bedload transport of different size-densities is proportioned according to the volumes in the bed.",
+    "url": "https://csdms.colorado.edu/wiki/Model:BEDLOAD",
+    "developmentStatus": "As is, no updates are provided"
+}

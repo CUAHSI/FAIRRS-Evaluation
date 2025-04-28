@@ -1,0 +1,53 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Bio",
+    "codeRepository": "https://github.com/mcflugen/sedflux",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/mcflugen/sedflux",
+    "memoryRequirements": "1GB at the most",
+    "operatingSystem": [
+        "Unix",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Eric",
+            "familyName": "Hutton",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "CSDMS, INSTAAR, University of Colorado",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:huttone@colorado.edu"
+        }
+    ],
+    "dateCreated": "2008-01-01",
+    "keywords": [
+        "Marine",
+        "biogenic",
+        "sediments",
+        "biogenic mixing",
+        "marine sediments",
+        "mixing of marine",
+        "sediment transport",
+        "bio",
+        "sediment transport"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "identifier": "10.1594/IEDA/100099",
+    "description": "Biogenic mixing of marine sediments",
+    "url": "https://csdms.colorado.edu/wiki/Model:Bio",
+    "developmentStatus": "As is, no updates are provided"
+}

@@ -1,0 +1,73 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "BlockLab",
+    "codeRepository": "https://github.com/cmshobe/BlockLab",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/cmshobe/BlockLab",
+    "memoryRequirements": "more is better; will work on a laptop w/ 4 GB RAM",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Charles",
+            "familyName": "Shobe",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Department of Geological Sciences, University of Colorado",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:charles.shobe@colorado.edu"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Rachel",
+            "familyName": "Glade",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Department of Geological Sciences, University of Colorado",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:rachel.glade@colorado.edu"
+        }
+    ],
+    "dateCreated": "2017-01-01",
+    "keywords": [
+        "Terrestrial",
+        "blocklab",
+        "channels",
+        "computes",
+        "landscape",
+        "treats landscape evolution",
+        "blocklab treats landscape",
+        "treats landscape",
+        "landscape evolution",
+        "surface rock",
+        "blocklab treats",
+        "large blocks",
+        "rock",
+        "evolution in landscapes",
+        "landscapes where surface",
+        "large",
+        "blocks",
+        "sediment transport theory"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "Blocklab treats landscape evolution in landscapes where surface rock may be released as large blocks of rock. The motion, degradation, and effects of large blocks do not play nicely with standard continuum sediment transport theory. BlockLab is intended to incorporate the effects of these large grains in a realistic way.",
+    "url": "https://csdms.colorado.edu/wiki/Model:BlockLab",
+    "developmentStatus": "As is, no updates are provided"
+}

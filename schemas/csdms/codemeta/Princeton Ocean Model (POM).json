@@ -1,0 +1,69 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Princeton_Ocean_Model_(POM)",
+    "codeRepository": "http://www.aos.princeton.edu/WWWPUBLIC/htdocs.pom/FTPbackup/",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran90"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "http://www.aos.princeton.edu/WWWPUBLIC/htdocs.pom/FTPbackup/",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Tal",
+            "familyName": "Ezer",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Old Dominion University",
+                "address": "Norfolk, United States"
+            },
+            "email": "mailto:tezer@odu.edu"
+        }
+    ],
+    "dateCreated": "1982-01-01",
+    "keywords": [
+        "Marine",
+        "pom",
+        "sigma",
+        "coastal",
+        "basin",
+        "princeton ocean model",
+        "powerful ocean modeling",
+        "ocean modeling code",
+        "shelf and slope",
+        "princeton ocean",
+        "wide-range of problems",
+        "circulation and mixing",
+        "processes in rivers",
+        "semi-enclosed seas",
+        "modeling code",
+        "simulate a wide-range",
+        "mixing processes",
+        "seas and open",
+        "open and global",
+        "ocean model",
+        "physical oceanography",
+        "princeton ocean model (pom)",
+        "physical oceanography"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "description": "The Princeton Ocean Model (POM), a simple-to-run yet powerful ocean modeling code that is able to simulate a wide-range of problems: circulation and mixing processes in rivers, estuaries, shelf and slope, lakes, semi-enclosed seas and open and global ocean. POM is a sigma coordinate, free surface ocean model with embedded turbulence and wave sub-models, and wet-dry capability. It has been one of the first coastal ocean models freely available to users, with currently over 3000 users from 70 countries.\n\nFor more details see: http://www.ccpo.odu.edu/POMWEB/",
+    "url": "https://csdms.colorado.edu/wiki/Model:Princeton_Ocean_Model_(POM)",
+    "developmentStatus": "Only maintenance"
+}

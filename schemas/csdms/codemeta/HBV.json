@@ -1,0 +1,64 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "HBV",
+    "codeRepository": "https://github.com/johnrobertcraven/hbv_hydromodel",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/johnrobertcraven/hbv_hydromodel",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "John",
+            "familyName": "Craven",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Hydros Consulting Inc.",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:johnrobertcraven@gmail.com"
+        }
+    ],
+    "dateCreated": "2016-01-01",
+    "keywords": [
+        "Hydrology",
+        "hbv",
+        "model",
+        "rainfall-runoff",
+        "hydrologiska byr\u00e5ns vattenbalansavdelning",
+        "includes conceptual numerical",
+        "byr\u00e5ns vattenbalansavdelning",
+        "hydrologiska byr\u00e5ns",
+        "conceptual numerical descriptions",
+        "hbv hydrological model",
+        "catchment scale",
+        "includes conceptual",
+        "conceptual numerical",
+        "rainfall-runoff model",
+        "hbv model",
+        "hydrological processes",
+        "hbv hydrological",
+        "hydrological model",
+        "professor amir aghakouchak",
+        "discharge",
+        "Discharge",
+        "Rainfall-runoff"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "The HBV model (Bergstr\u00f6m, 1976, 1992), also known as Hydrologiska Byr\u00e5ns Vattenbalansavdelning, is a rainfall-runoff model, which includes conceptual numerical descriptions of hydrological processes at the catchment scale. There are many versions created over the years in various coding languages. This description points to the work of John Craven, which is a python implementation of the HBV Hydrological Model, based on matlab code of the work of Professor Amir AghaKouchak at the University of California Irvine.",
+    "url": "https://csdms.colorado.edu/wiki/Model:HBV",
+    "developmentStatus": "As is, no updates are provided"
+}

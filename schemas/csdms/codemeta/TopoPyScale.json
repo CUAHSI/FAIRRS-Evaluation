@@ -1,0 +1,75 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "TopoPyScale",
+    "codeRepository": "https://github.com/ArcticSnow/TopoPyScale",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "downloadUrl": "https://github.com/ArcticSnow/TopoPyScale",
+    "operatingSystem": [
+        "Unix",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Simon",
+            "familyName": "Filhol",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Oslo",
+                "address": "Oslo, Norway"
+            },
+            "email": "mailto:svfilhol@alaska.edu"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Joel",
+            "familyName": "Fiddes",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "WSL Institute for Snow and Avalanche\nResearch SLF",
+                "address": "Davos Dorf, Switzerland"
+            },
+            "email": "mailto:kristoffer.aalstad@geo.uio.no"
+        }
+    ],
+    "keywords": [
+        "Cryosphere",
+        "downscaling",
+        "python",
+        "package",
+        "hillslope",
+        "reducing computational cost",
+        "land surface models",
+        "retaining physical coherence",
+        "land surface-atmosphere interaction",
+        "minimizing complexity",
+        "reducing computational",
+        "computational cost",
+        "simplifying interoperability",
+        "surface models",
+        "pragmatic approach",
+        "approach to downscaling",
+        "downscaling by minimizing",
+        "retaining physical",
+        "physical coherence",
+        "coherence and allowing",
+        "climate downscaling",
+        "topopyscale",
+        "Climate Downscaling"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "TopoPyScale uses a pragmatic approach to downscaling by minimizing complexity, reducing computational cost,\nsimplifying interoperability with land surface models, while retaining physical coherence and allowing the primary drivers of land surface-atmosphere interaction to be considered.",
+    "url": "https://csdms.colorado.edu/wiki/Model:TopoPyScale",
+    "developmentStatus": "Active"
+}

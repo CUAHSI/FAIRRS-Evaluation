@@ -1,0 +1,76 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Sun_fan-delta_model",
+    "codeRepository": "https://github.com/alimaye/sun-fan-delta-model",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/alimaye/sun-fan-delta-model",
+    "operatingSystem": [
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Ajay",
+            "familyName": "Limaye",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Department of Environmental Sciences, University of Virginia",
+                "address": "Charlottesville, United States"
+            },
+            "email": "mailto:ajay@virginia.edu"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Andrew",
+            "familyName": "Moodie",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Texas A&M University",
+                "address": "College Station, United States"
+            },
+            "email": "mailto:amoodie@tamu.edu"
+        }
+    ],
+    "dateCreated": "2021-01-01",
+    "keywords": [
+        "Marine",
+        "Terrestrial",
+        "Coastal",
+        "Planetary landforms",
+        "fan-delta",
+        "model",
+        "fluvial fan-delta evolution",
+        "water",
+        "fan-delta evolution",
+        "standing water",
+        "standing",
+        "fluvial",
+        "limaye",
+        "evolution",
+        "originally",
+        "sediment",
+        "sun",
+        "sediment deposition",
+        "alluvial fan",
+        "sun fan-delta model",
+        "sediment deposition",
+        "alluvial fan",
+        "fan-delta"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "description": "Model for fluvial fan-delta evolution, originally described by Sun et al. (2002) and later adapted by Limaye et al. (2023). The model routes water and sediment across a grid from a single inlet and via a self-formed channel network, where local divergence in sediment flux drives bed elevation change. The model represents hydrodynamics using rules for flow routing and stress partitioning. At large scales, other heuristics determine how channels branch and avulse, distributing water and sediment. The original model, designed for fluvial fan-deltas that debouch into standing water, is extended to allow deposition of an alluvial fan in the absence of standing water.\n\nReferences: \nLimaye, A. B., Adler, J. B., Moodie, A. J., Whipple, K. X., & Howard, A. D. (2023). Effect of standing water on formation of fan-shaped sedimentary deposits at Hypanis Valles, Mars. Geophysical Research Letters, 50(4), e2022GL102367. https://doi.org/10.1029/2022GL102367\n\nSun, T., Paola, C., Parker, G., & Meakin, P. (2002). Fluvial fan deltas: Linking channel processes with large-scale morphodynamics. Water Resources Research, 38(8), 26-1-26\u201310. https://doi.org/10.1029/2001WR000284",
+    "url": "https://csdms.colorado.edu/wiki/Model:Sun_fan-delta_model",
+    "developmentStatus": "As is, no updates are provided"
+}

@@ -1,0 +1,58 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "StreamPowerSmoothThresholdEroder",
+    "codeRepository": "https://github.com/landlab/landlab/tree/master/landlab",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/landlab/landlab/tree/master/landlab",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Greg",
+            "familyName": "Tucker",
+            "affiliation": {
+                "@type": "Organization",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:gtucker@colorado.edu"
+        }
+    ],
+    "dateCreated": "2016-01-01",
+    "keywords": [
+        "Terrestrial",
+        "compute",
+        "threshold",
+        "derived from fastscapeeroder",
+        "defines the streampowersmooththresholderoder",
+        "defines",
+        "stream",
+        "power",
+        "threshold.py",
+        "fastscapeeroder",
+        "smooth threshold formulation",
+        "stream power",
+        "erosion",
+        "streampowersmooththresholderoder",
+        "stream power",
+        "erosion"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "stream_power_smooth_threshold.py: Defines the StreamPowerSmoothThresholdEroder, which is derived from FastscapeEroder. StreamPowerSmoothThresholdEroder uses a mathematically smooth threshold formulation, rather than one with a singularity.",
+    "url": "https://csdms.colorado.edu/wiki/Model:StreamPowerSmoothThresholdEroder",
+    "developmentStatus": "Only maintenance"
+}

@@ -1,0 +1,62 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "DeltaClassification",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "memoryRequirements": "n/a",
+    "operatingSystem": [
+        "Linux",
+        "Mac OS"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Mariela",
+            "familyName": "Perignon",
+            "affiliation": {
+                "@type": "Organization",
+                "address": "Boston, United States"
+            },
+            "email": "mailto:mperignon@gmail.com"
+        }
+    ],
+    "dateCreated": "2017-01-01",
+    "keywords": [
+        "Coastal",
+        "geometry",
+        "islands",
+        "active geomorphic processes",
+        "extracting information",
+        "nature and spatial",
+        "spatial extent",
+        "extent of active",
+        "active geomorphic",
+        "geomorphic processes",
+        "processes across deltas",
+        "unsupervised machine learning",
+        "machine learning algorithm",
+        "machine learning",
+        "ensemble unsupervised machine",
+        "remotely sensed imagery",
+        "two-step ensemble unsupervised",
+        "spatially continuous zones",
+        "delta landforms",
+        "deltaclassification",
+        "machine learning",
+        "delta landforms"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "identifier": "10.5281/zenodo.3926763",
+    "description": "This tool provides a method for extracting information on the nature and spatial extent of active geomorphic processes across deltas from the geometry of islands and the channels around them using machine learning. \nThe method consists of a two-step ensemble unsupervised machine learning algorithm that clusters islands into spatially continuous zones based on morphological metrics computed on remotely sensed imagery",
+    "url": "https://csdms.colorado.edu/wiki/Model:DeltaClassification",
+    "developmentStatus": "As is, no updates are provided"
+}

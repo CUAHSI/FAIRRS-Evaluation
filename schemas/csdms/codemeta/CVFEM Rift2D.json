@@ -1,0 +1,75 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "CVFEM_Rift2D",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "operatingSystem": [
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Yipeng",
+            "familyName": "Zhang",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "New Mexico Institute of Mining and Technology",
+                "address": "Socorro, United States"
+            },
+            "email": "mailto:zhangyipengjd@gmail.com"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Mark",
+            "familyName": "Person",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "New Mexico Institute of Mining and Technology",
+                "address": "Socorro, United States"
+            },
+            "email": "mailto:mark.person@nmt.edu"
+        }
+    ],
+    "dateCreated": "2015-01-01",
+    "keywords": [
+        "Hydrology",
+        "Geodynamic",
+        "multi-physics",
+        "deformation",
+        "fluid",
+        "flow",
+        "pore pressure evolution",
+        "multiple glacial cycles",
+        "hybrid numerical model",
+        "ice sheet loading",
+        "regular finite element",
+        "finite element methods",
+        "control volume finite",
+        "volume finite element",
+        "brine migration",
+        "stress variation",
+        "pore pressure",
+        "pressure evolution",
+        "solute transport",
+        "glacial cycles",
+        "finite element",
+        "cvfem rift2d"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "description": "We have developed a hybrid numerical model at a continental scale via control volume finite element (finite volume) and regular finite element methods to evaluate the stress variation, pore pressure evolution, brine migration, solute transport and heat transfer in the subsurface formations in response to ice sheet loading of multiple glacial cycles.",
+    "url": "https://csdms.colorado.edu/wiki/Model:CVFEM_Rift2D",
+    "developmentStatus": "Active"
+}

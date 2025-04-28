@@ -1,0 +1,47 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "GreenAmptInfiltrationModel",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Peishi",
+            "familyName": "Jiang",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Hydrocomplexity group, UIUC",
+                "address": "Urbana, United States"
+            },
+            "email": "mailto:shixijps@gmail.com"
+        }
+    ],
+    "dateCreated": "2015-01-01",
+    "keywords": [
+        "Hydrology",
+        "estimation",
+        "infiltration estimation",
+        "green-ampt method",
+        "method of infiltration",
+        "greenamptinfiltrationmodel"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "identifier": "10.5281/zenodo.18772",
+    "description": "The Green-Ampt method of infiltration estimation.",
+    "url": "https://csdms.colorado.edu/wiki/Model:GreenAmptInfiltrationModel"
+}

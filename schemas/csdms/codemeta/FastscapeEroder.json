@@ -1,0 +1,65 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "FastscapeEroder",
+    "codeRepository": "https://github.com/landlab/landlab/tree/master/landlab",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/landlab/landlab/tree/master/landlab",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Daniel",
+            "familyName": "Hobley",
+            "affiliation": {
+                "@type": "Organization",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:daniel.hobley@colorado.edu"
+        }
+    ],
+    "dateCreated": "2014-01-01",
+    "keywords": [
+        "Terrestrial",
+        "fastscape",
+        "algorithm",
+        "compute",
+        "theory",
+        "braun-willett fastscape approach",
+        "braun-willett fastscape",
+        "fastscape approach",
+        "stream power framework",
+        "power framework",
+        "approach to calculate",
+        "calculate the amount",
+        "amount of erosion",
+        "stream power scheme",
+        "stream power",
+        "explicit stream power",
+        "grid",
+        "framework",
+        "power scheme",
+        "erosion",
+        "fastscapeeroder",
+        "stream power",
+        "erosion"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "This class uses the Braun-Willett Fastscape approach to calculate the amount of erosion at each node in a grid, following a stream power framework. This should allow it to be stable against larger timesteps than an explicit stream power scheme.",
+    "url": "https://csdms.colorado.edu/wiki/Model:FastscapeEroder",
+    "developmentStatus": "Only maintenance"
+}

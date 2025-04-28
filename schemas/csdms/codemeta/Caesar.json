@@ -1,0 +1,60 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Caesar",
+    "codeRepository": "http://www.coulthard.org.uk/downloads/visualcaesar.htm",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "downloadUrl": "http://www.coulthard.org.uk/downloads/visualcaesar.htm",
+    "memoryRequirements": ">512MB",
+    "operatingSystem": [
+        "Linux",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Tom",
+            "familyName": "Coulthard",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Hull",
+                "address": "Hull, United Kingdom"
+            },
+            "email": "mailto:T.Coulthard@hull.ac.uk"
+        }
+    ],
+    "dateCreated": "1996-01-01",
+    "keywords": [
+        "Terrestrial",
+        "cellular",
+        "model",
+        "including flow routing",
+        "multi grainsize sediment",
+        "grainsize sediment transport",
+        "cellular landscape evolution",
+        "landscape evolution model",
+        "fluvial processes",
+        "including flow",
+        "flow routing",
+        "multi grainsize",
+        "sediment transport",
+        "cellular landscape",
+        "landscape evolution",
+        "emphasis on fluvial",
+        "grainsize sediment",
+        "caesar",
+        "landscape evolution"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "CAESAR is a cellular landscape evolution model, with an emphasis on fluvial processes, including flow routing, multi grainsize sediment transport. It models morphological change in river catchments.",
+    "url": "https://csdms.colorado.edu/wiki/Model:Caesar"
+}

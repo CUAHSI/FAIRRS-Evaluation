@@ -1,0 +1,64 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "FlowDirectorMFD",
+    "codeRepository": "https://github.com/landlab/landlab/tree/master/landlab",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "downloadUrl": "https://github.com/landlab/landlab/tree/master/landlab",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Katy",
+            "familyName": "Barnhart",
+            "affiliation": {
+                "@type": "Organization",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:katherine.barnhart@colorado.edu"
+        }
+    ],
+    "dateCreated": "2017-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "multiple-path",
+        "diagonals",
+        "flow direction method",
+        "multiple flow direction",
+        "direction method",
+        "multiple flow",
+        "directs flow",
+        "assigned multiple flow",
+        "flow",
+        "flow direction",
+        "neighboring nodes",
+        "multiple",
+        "assigned multiple",
+        "directs",
+        "method",
+        "flow path",
+        "flow director",
+        "flowdirectormfd",
+        "flow path",
+        "flow director"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "Directs flow by the multiple flow direction method. Each node is assigned multiple flow directions, toward all of the N neighboring nodes that are lower than it. If none of the neighboring nodes are lower, the location is identified as a pit. Flow proportions can be calculated as proportional to slope or proportional to the square root of slope, which is the solution to a steady kinematic wave.",
+    "url": "https://csdms.colorado.edu/wiki/Model:FlowDirectorMFD",
+    "developmentStatus": "Only maintenance"
+}

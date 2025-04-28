@@ -1,0 +1,66 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "TAo",
+    "codeRepository": "https://github.com/danigeos/tao-geo",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/danigeos/tao-geo",
+    "memoryRequirements": "16Gb",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Daniel",
+            "familyName": "Garcia Castellanos",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "ICTJA-CSIC",
+                "address": "Barcelona, Spain"
+            },
+            "email": "mailto:danielgc@ictja.csic.es"
+        }
+    ],
+    "dateCreated": "1995-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Geodynamic",
+        "erosion",
+        "sedimentation",
+        "tao",
+        "transport",
+        "model permits calculating",
+        "numerical model permits",
+        "independent variable",
+        "numerical model",
+        "permits calculating",
+        "lithospheric flexure",
+        "combination with faulting",
+        "model permits",
+        "cross-section",
+        "loading",
+        "deposition",
+        "linux platforms",
+        "gmt scripts",
+        "standard pcs match",
+        "produced using gmt",
+        "geodynamics",
+        "geodynamics"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "description": "This pseudo-2D (cross-section, 1 independent variable x) numerical model permits calculating 1D lithospheric flexure with different rheologies, in combination with faulting, loading, and erosion/deposition. The programs are developed in C for Linux platforms, graphic output is produced using GMT scripts, and standard PCs match the CPU and memory requirements. The software is available for free under a GPL license.",
+    "url": "https://csdms.colorado.edu/wiki/Model:TAo",
+    "developmentStatus": "Only maintenance"
+}

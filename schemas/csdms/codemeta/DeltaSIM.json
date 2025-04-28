@@ -1,0 +1,71 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "DeltaSIM",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    },
+    "applicationCategory": "Single",
+    "operatingSystem": [
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Bob",
+            "familyName": "Hoogendoorn",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Delft University of Technology",
+                "address": "Delft, Netherlands"
+            },
+            "email": "mailto:bob.hoogendoorn@deltares.nl"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Irina",
+            "familyName": "Overeem",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "CSDMS, INSTAAR, University of Colorado",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:irina.overeem@colorado.edu"
+        }
+    ],
+    "dateCreated": "1997-01-01",
+    "keywords": [
+        "Coastal",
+        "process-response",
+        "systems",
+        "fluvial dominated deltaic",
+        "dominated deltaic systems",
+        "process-response model simulating",
+        "based on simple",
+        "erosion and deposition",
+        "simulating the evolution",
+        "evolution and stratigraphy",
+        "stratigraphy of fluvial",
+        "fluvial dominated",
+        "dominated deltaic",
+        "deltaic systems",
+        "simple approximations",
+        "approximations of erosion",
+        "process-response model",
+        "model simulating",
+        "delta evolution",
+        "stratigraphy",
+        "fluvial",
+        "deltasim",
+        "delta evolution",
+        "stratigraphy",
+        "fluvial"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "A process-response model simulating the evolution and stratigraphy of fluvial dominated deltaic systems in two dimensions, based on simple approximations of erosion and deposition. The model is called DELTASIM, and was initially presented by Overeem et al. (2003) as AQUATELLUS. DELTASIM has several improvements, the main algorithm has been revised and the output can be presented as probabilistic output.",
+    "url": "https://csdms.colorado.edu/wiki/Model:DeltaSIM",
+    "developmentStatus": "As is, no updates are provided"
+}

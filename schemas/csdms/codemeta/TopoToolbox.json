@@ -1,0 +1,68 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "TopoToolbox",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Wolfgang",
+            "familyName": "Schwanghart",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute of Earth and Environmental Science",
+                "address": "Potsdam-Golm, Germany"
+            },
+            "email": "mailto:w.schwanghart@geo.uni-potsdam.de"
+        }
+    ],
+    "dateCreated": "2008-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "matlab",
+        "analysis",
+        "digital elevation models",
+        "set of matlab",
+        "matlab functions",
+        "elevation models",
+        "analysis of relief",
+        "relief and flow",
+        "flow pathways",
+        "pathways in digital",
+        "digital elevation",
+        "support the analysis",
+        "efficient analytical gis",
+        "analytical gis utilities",
+        "functions that support",
+        "analytical gis",
+        "topographic analysis",
+        "geomorphology",
+        "geomorphometry",
+        "topotoolbox",
+        "topographic analysis",
+        "geomorphology",
+        "geomorphometry",
+        "Matlab"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "identifier": "10.1594/IEDA/100175",
+    "description": "TopoToolbox provides a set of Matlab functions that support the analysis of relief and flow pathways in digital elevation models. The major aim of TopoToolbox is to offer stable and efficient analytical GIS utilities in a non-GIS environment in order to support the simultaneous application of GIS-specific and other quantitative methods. With version 2, TopoToolbox adds various tools specifically targeted at tectonic geomorphologists such as Chiplots and slopearea plots.",
+    "url": "https://csdms.colorado.edu/wiki/Model:TopoToolbox",
+    "developmentStatus": "Active"
+}

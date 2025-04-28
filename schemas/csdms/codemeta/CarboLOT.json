@@ -1,0 +1,44 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "CarboLOT",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "memoryRequirements": "Usual PC",
+    "operatingSystem": [
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Chris",
+            "familyName": "Jenkins",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "INSTAAR Univ Colorado at Boulder",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:chris.jenkins@colorado.edu"
+        }
+    ],
+    "dateCreated": "2010-01-01",
+    "keywords": [
+        "Marine",
+        "Carbonates and Biogenics",
+        "carbonate sediments",
+        "population ecology",
+        "numerical model",
+        "benthic colonial organisms"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "The carbonate production is modelled according to organism growth and survival rates moderated by habitat suitability (chiefly light, temperature, nutrient). The environmental inputs are extracted from global databases. At the seabed the model's vertical zonation allows for underground (diagenetic) processes, bed granular transport, lower stable framework, upper collapsable framework. This voxelation allows for the carbonate to be placed (accumulated) correctly within the bedding and clast fabrics. The stratigraphy and seabed elevation are built in this way. As conditions change (e.g., by shallowing) the biological communities respond in the simulation, and so too do the production rates and clast/binding arrangements. Events punctuate the record, and the organism assemblages adjust according to frequencies and severities. The population stocks are calculated by diffuse competition in a Lotke-Volterra scheme, or via cellular simulations of close-in interactions to represent competition by growth, recruitment.",
+    "url": "https://csdms.colorado.edu/wiki/Model:CarboLOT"
+}

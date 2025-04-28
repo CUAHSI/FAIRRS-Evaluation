@@ -1,0 +1,66 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "TopoFlow-Channels-Dynamic_Wave",
+    "codeRepository": "https://github.com/peckhams/topoflow",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/peckhams/topoflow",
+    "memoryRequirements": "Standard",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Scott",
+            "familyName": "Peckham",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "CSDMS, INSTAAR, University of Colorado",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:Scott.Peckham@colorado.edu"
+        }
+    ],
+    "dateCreated": "2001-01-01",
+    "keywords": [
+        "Hydrology",
+        "wave",
+        "dynamic",
+        "spatial",
+        "model",
+        "spatially-distributed hydrologic model",
+        "hydrologic model called",
+        "model called topoflow",
+        "hydrologic model",
+        "model called",
+        "stand-alone model",
+        "process component",
+        "component is part",
+        "spatially-distributed hydrologic",
+        "wave method",
+        "dynamic wave method",
+        "called topoflow",
+        "method",
+        "diffusive wave method",
+        "basins",
+        "topoflow-channels-dynamic wave",
+        "basins"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Apache public license"
+    },
+    "description": "This process component is part of a spatially-distributed hydrologic model called TopoFlow, but it can now be used as a stand-alone model. The dynamic wave method is the most complete and complex method for modeling flow in open channels. This method retains all of the terms in the full, 1D momentum equation, including the gravity, friction and pressure gradient terms (as used by the diffusive wave method) as well as local and convective acceleration (or momentum flux) terms. This full equation is known as the St. Venant equation. In the current version of TopoFlow it is assumed that the flow directions are static and given by a D8 flow grid. In this case, integral vs. differential forms of the conservation equations for mass and momentum can be used.",
+    "url": "https://csdms.colorado.edu/wiki/Model:TopoFlow-Channels-Dynamic_Wave",
+    "developmentStatus": "Active"
+}

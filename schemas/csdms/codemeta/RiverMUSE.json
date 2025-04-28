@@ -1,0 +1,70 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "RiverMUSE",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Single",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Jon",
+            "familyName": "Schwenk",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Los Alamos National Laboratory",
+                "address": "Los Alamos, United States"
+            },
+            "email": "mailto:jonschwenk@gmail.com"
+        }
+    ],
+    "dateCreated": "2014-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "Ecosystems",
+        "simulates",
+        "sediment",
+        "mussel population density",
+        "suspended sediment",
+        "modulates suspended sediment",
+        "population density",
+        "model simulates",
+        "mussel population",
+        "simulates the interaction",
+        "modulates suspended",
+        "chlorophyll-a",
+        "minnesota rivers",
+        "mussel population declines",
+        "suspended",
+        "model",
+        "mussel",
+        "mussels",
+        "matlab",
+        "chlorophyll",
+        "anthropogenic impact",
+        "rivermuse",
+        "mussels",
+        "Matlab",
+        "suspended sediment",
+        "chlorophyll",
+        "anthropogenic impact"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "description": "This model simulates the interaction between suspended sediment, chlorophyll-a, and mussel population density. Discharge is the driver; it modulates suspended sediment and its interactions in the system. The model is suitable for simulating mussel densities at-a-site. It was originally developed to test the hypothesis that increased sediment loads in Minnesota Rivers are a plausible cause of observed mussel population declines. The model and results are described in detail in the following paper: https://doi.org/10.1086/684223",
+    "url": "https://csdms.colorado.edu/wiki/Model:RiverMUSE",
+    "developmentStatus": "As is, no updates are provided"
+}

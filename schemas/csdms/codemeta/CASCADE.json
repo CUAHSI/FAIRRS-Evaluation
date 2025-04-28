@@ -1,0 +1,46 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "CASCADE",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        }
+    ],
+    "applicationCategory": "Single",
+    "memoryRequirements": "depends on model size",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Jean",
+            "familyName": "Braun",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Universit\u00e9 de Rennes 1/CNRS",
+                "address": "Rennes, France"
+            },
+            "email": "mailto:Jean.Braun@univ-rennes1.fr"
+        }
+    ],
+    "dateCreated": "1995-01-01",
+    "keywords": [
+        "Terrestrial",
+        "landscape evolution"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "Makes use of fast Delaunay triangulation and Voronoi diagram calculations to represent surface processes on an irregular, dynamically evolving mesh. Processes include fluvial erosion, transport and deposition, hillslope (diffusion) processes, flexural isostasy, orographic precipitation. Designed to model processes at the orogenic scale. Can be easily modified for other purposes by changing process laws.",
+    "url": "https://csdms.colorado.edu/wiki/Model:CASCADE"
+}

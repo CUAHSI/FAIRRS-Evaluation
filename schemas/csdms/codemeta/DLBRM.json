@@ -1,0 +1,75 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "DLBRM",
+    "codeRepository": "http://www.glerl.noaa.gov/wr/lbrmexamples.html",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    },
+    "applicationCategory": "Single",
+    "downloadUrl": "http://www.glerl.noaa.gov/wr/lbrmexamples.html",
+    "memoryRequirements": "All memory is dynamically sized on the basis of the number of cells in the watershed, so memory requirements are scaled with the size of the watershed.",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Thomas",
+            "familyName": "Croley",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "NOAA/GLERL",
+                "address": "Ann Arbor, United States"
+            },
+            "email": "mailto:tom.croley@noaa.gov"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Timothy",
+            "familyName": "Hunter",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "NOAA/GLERL",
+                "address": "Ann Arbor, United States"
+            },
+            "email": "mailto:tim.hunter@noaa.gov"
+        }
+    ],
+    "keywords": [
+        "Hydrology",
+        "model",
+        "large",
+        "basin",
+        "runoff",
+        "simulates hydrologic processes",
+        "entire watershed sequentially",
+        "watershed hydrology model",
+        "physically based",
+        "grid network",
+        "hydrology model",
+        "model that subdivides",
+        "network and simulates",
+        "simulates hydrologic",
+        "hydrologic processes",
+        "watershed sequentially",
+        "watershed hydrology",
+        "entire watershed",
+        "dlbrm",
+        "watershed",
+        "basins",
+        "fluvial morphodynamics",
+        "pollutants",
+        "basins",
+        "fluvial morphodynamics",
+        "pollutants"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "The DLBRM is a distributed, physically based, watershed hydrology model that subdivides a watershed into a 1 km2 grid network and simulates hydrologic processes for the entire watershed sequentially.",
+    "url": "https://csdms.colorado.edu/wiki/Model:DLBRM"
+}

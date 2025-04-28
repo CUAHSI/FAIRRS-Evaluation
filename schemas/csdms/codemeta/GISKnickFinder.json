@@ -1,0 +1,60 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "GISKnickFinder",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "operatingSystem": [
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Francis",
+            "familyName": "Rengers",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Colorado",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:francis.rengers@colorado.edu"
+        }
+    ],
+    "dateCreated": "2012-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "streams",
+        "arcgis",
+        "find knickpoints based",
+        "find knickpoints",
+        "knickpoints based",
+        "create longitudinal profiles",
+        "landscape",
+        "stream including",
+        "stream path",
+        "knickpoint locations",
+        "elevation",
+        "created",
+        "find",
+        "based",
+        "curvature",
+        "longitudinal profiles",
+        "stream",
+        "gisknickfinder",
+        "ArcGIS"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "description": "This is a tool that I created to help find knickpoints based on the curvature of a landscape. It provides information about a stream including, knickpoint locations, Elevation/distance that can be used to create longitudinal profiles, XYvalues of all the cells in a stream path, etc. The tool uses built-in tools for ArcGIS 10.x (so you must run this on a machine with ArcGIS 10.x installed), but it is written in python. I used it with a 1m LiDAR DEM, so I'm not totally sure how well it will pick out knickpoints on coarser gridded DEMs.",
+    "url": "https://csdms.colorado.edu/wiki/Model:GISKnickFinder",
+    "developmentStatus": "As is, no updates are provided"
+}

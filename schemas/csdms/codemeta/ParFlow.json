@@ -1,0 +1,70 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "ParFlow",
+    "codeRepository": "http://inside.mines.edu/~rmaxwell/maxwell_software.shtml",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran90"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "downloadUrl": "http://inside.mines.edu/~rmaxwell/maxwell_software.shtml",
+    "memoryRequirements": "depends on problem size",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Reed",
+            "familyName": "Maxwell",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "International Groundwater Modeling Center, Colorado School of Mines",
+                "address": "Golden, United States"
+            },
+            "email": "mailto:rmaxwell@mines.edu"
+        }
+    ],
+    "dateCreated": "1994-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "parallel",
+        "high-performance",
+        "integrated",
+        "model",
+        "parallel watershed flow",
+        "watershed flow model",
+        "parallel watershed",
+        "flow model",
+        "watershed flow",
+        "fully-integrated overland flow",
+        "simulate complex topography",
+        "ncar code wrf",
+        "includes fully-integrated overland",
+        "land-surface processes including",
+        "parflow",
+        "coupled land-surface processes",
+        "object-oriented",
+        "overland flow",
+        "biogeochemistry and snow",
+        "basins",
+        "basins"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "LGPL"
+    },
+    "description": "ParFlow is an open-source, object-oriented, parallel watershed flow model. It includes fully-integrated overland flow, the ability to simulate complex topography, geology and heterogeneity and coupled land-surface processes including the land-energy budget, biogeochemistry and snow (via CLM). It is multi-platform and runs with a common I/O structure from laptop to supercomputer. ParFlow is the result of a long, multi-institutional development history and is now a collaborative effort between CSM, LLNL, UniBonn and UCB. ParFlow has been coupled to the mesoscale, meteorological code ARPS and the NCAR code WRF.",
+    "url": "https://csdms.colorado.edu/wiki/Model:ParFlow",
+    "developmentStatus": "Active"
+}

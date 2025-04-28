@@ -1,0 +1,65 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "GFlex",
+    "codeRepository": "https://github.com/awickert/gFlex",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/awickert/gFlex",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Andy",
+            "familyName": "Wickert",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Universit\u00e4t Potsdam",
+                "address": "Potsdam-Golm, Germany"
+            },
+            "email": "mailto:andrew.wickert@uni-potsdam.de"
+        }
+    ],
+    "dateCreated": "2010-01-01",
+    "keywords": [
+        "Geodynamic",
+        "multiple",
+        "flexure",
+        "geoscientific model development",
+        "model development",
+        "geoscientific model",
+        "submitted to geoscientific",
+        "wickert gflex flexure",
+        "gflex flexure model",
+        "flexure model",
+        "wickert",
+        "landlab wrapper",
+        "wickert gflex",
+        "model",
+        "development",
+        "geoscientific",
+        "landlab",
+        "install",
+        "lithospheric flexure",
+        "gflex",
+        "lithospheric flexure"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "identifier": "10.1594/IEDA/100123",
+    "description": "This is a Landlab wrapper for A Wickert's gFlex flexure model (Wickert et al., submitted to Geoscientific Model Development). The most up-to-date version of his code can be found at github.com/awickert/gFlex.\nThis Landlab wrapper will use a snapshot of that code, which YOU need to install on your own machine. A stable snapshot of gFlex is hosted on PyPI, which is the recommended version to install.\nIf you have pip (the Python package install tool), simply run 'pip install gFlex' from a command prompt.\nAlternatively, you can download and unpack the code (from github, or with PyPI, pypi.python.org/pypi/gFlex/), then run 'python setup.py install'.",
+    "url": "https://csdms.colorado.edu/wiki/Model:GFlex",
+    "developmentStatus": "Only maintenance"
+}

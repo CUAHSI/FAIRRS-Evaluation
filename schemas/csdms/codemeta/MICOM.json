@@ -1,0 +1,57 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "MICOM",
+    "codeRepository": "http://rda.ucar.edu/datasets/ds287.1/",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "http://rda.ucar.edu/datasets/ds287.1/",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Rainer",
+            "familyName": "Bleck",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Miami",
+                "address": "Miami, United States"
+            },
+            "email": "mailto:rbleck@rsmas.miami.edu"
+        }
+    ],
+    "keywords": [
+        "Marine",
+        "model",
+        "isopycnic",
+        "coordinate",
+        "ocean",
+        "primitive equation numerical",
+        "equation numerical model",
+        "evolution of momentum",
+        "heat and salt",
+        "primitive equation",
+        "equation numerical",
+        "numerical model",
+        "model that describes",
+        "describes the evolution",
+        "mass",
+        "micom",
+        "momentum",
+        "heat",
+        "primitive"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "MICOM is a primitive equation numerical model that describes the evolution of momentum, mass, heat and salt in the ocean.",
+    "url": "https://csdms.colorado.edu/wiki/Model:MICOM"
+}

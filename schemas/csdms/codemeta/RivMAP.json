@@ -1,0 +1,71 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "RivMAP",
+    "codeRepository": "https://www.mathworks.com/matlabcentral/fileexchange/58264-rivmap-river-morphodynamics-from-analysis-of-planforms",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "downloadUrl": "https://www.mathworks.com/matlabcentral/fileexchange/58264-rivmap-river-morphodynamics-from-analysis-of-planforms",
+    "operatingSystem": [
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Jon",
+            "familyName": "Schwenk",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Minnesota",
+                "address": "Minneapolis, United States"
+            },
+            "email": "mailto:jonschwenk@gmail.com"
+        }
+    ],
+    "dateCreated": "2015-01-01",
+    "keywords": [
+        "Terrestrial",
+        "matlab",
+        "changing river planforms",
+        "analyze changing river",
+        "aerial views",
+        "analyze changing",
+        "river planforms",
+        "changing river",
+        "centerline",
+        "areas",
+        "river",
+        "planforms",
+        "aerial",
+        "views",
+        "compute",
+        "channel",
+        "cutoff",
+        "planform change",
+        "meander migration",
+        "river migration",
+        "width",
+        "spacetime mapping",
+        "rivmap",
+        "planform change",
+        "meander migration",
+        "river migration",
+        "width",
+        "centerline",
+        "spacetime mapping"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "description": "This toolbox was constructed to help analyze changing river planforms (aerial views). Given a binary mask of a river, tools are provided to efficiently compute \n\n- channel centerline \n- banklines \n- channel width (two methods) \n- centerline direction \n- centerline curvature \n\nIf multiple input mask images contain georeference information, a tool is provided to \"stitch\" the masks together--before or after analysis. Stitching can be done for both images and vectors of x,y coordinates. The mapping toolbox is required for this functionality.\n\nIf multiple masks (realizations) of the river are available, RivMAP includes tools to \n\n- compute centerline migrated areas \n- compute erosional and accretional areas \n- identify cutoff areas and quantify cutoff length, chute length, and cutoff area \n- generate channel belt boundaries and centerline \n- measure and map changes (in width, migration areas or rates, centerline elongation, accreted/eroded areas) in space and time",
+    "url": "https://csdms.colorado.edu/wiki/Model:RivMAP",
+    "developmentStatus": "As is, no updates are provided"
+}

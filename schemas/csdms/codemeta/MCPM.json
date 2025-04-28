@@ -1,0 +1,53 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "MCPM",
+    "codeRepository": "https://data.gulfresearchinitiative.org/data/R4.x264.196:0007",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://data.gulfresearchinitiative.org/data/R4.x264.196:0007",
+    "memoryRequirements": "10 Mb",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Giulio",
+            "familyName": "Mariotti",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Louisiana State University",
+                "address": "Baton Rouge, United States"
+            },
+            "email": "mailto:gmariotti@lsu.edu"
+        }
+    ],
+    "keywords": [
+        "Coastal",
+        "marsh",
+        "stand",
+        "model",
+        "morphological",
+        "idealized transect",
+        "millennial time scales",
+        "model simulates morphological",
+        "simulates morphological evolution",
+        "mcpm"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "A stand alone model for an idealized transect across a marsh channel-and-platform. The model simulates morphological evolution from sub-tidal to millennial time scales. In particular, the model explores the effect that soil creep (of both vegetated and unvegetated mud) has on channel bank dynamics, e.g., bank slumping. The model is written in Matlab.",
+    "url": "https://csdms.colorado.edu/wiki/Model:MCPM",
+    "developmentStatus": "Only maintenance"
+}

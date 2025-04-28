@@ -1,0 +1,64 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Bedrock_Fault_Scarp",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Greg",
+            "familyName": "Tucker",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Cooperative Institute for Research in Environmental Sciences (CIRES)",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:gtucker@colorado.edu"
+        }
+    ],
+    "dateCreated": "2010-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Geodynamic",
+        "fault",
+        "two-dimensional",
+        "numerical",
+        "model",
+        "active normal fault",
+        "normal fault",
+        "code computes",
+        "computes the formation",
+        "active normal",
+        "hillslope profile",
+        "hillslope",
+        "points move due",
+        "prescribed erosion rate",
+        "vertical and horizontal",
+        "code",
+        "computes",
+        "formation",
+        "profile",
+        "fault, erosion, hillslope, facet, spur, scarp",
+        "bedrock fault scarp",
+        "fault, erosion, hillslope, facet, spur, scarp"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "identifier": "10.1594/IEDA/100097",
+    "description": "The code computes the formation of a hillslope profile above an active normal fault. It represents the hillslope as a set of points with vertical and horizontal (fault-perpendicular) coordinates. Points move due to a prescribed erosion rate (which may vary in time) and due to offset during earthquakes with a specified recurrence interval and slip rate.\n\nThe model is described and illustrated in the following journal article:\n\nTucker, G. E., S. W. McCoy, A. C. Whittaker, G. P. Roberts, S. T. Lancaster, and R. Phillips (2011), Geomorphic significance of postglacial bedrock scarps on normal-fault footwalls, J. Geophys. Res., 116, F01022, doi: http://dx.doi.org/10.1029/2010JF001861.",
+    "url": "https://csdms.colorado.edu/wiki/Model:Bedrock_Fault_Scarp",
+    "developmentStatus": "Active"
+}

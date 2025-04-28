@@ -1,0 +1,76 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "HIM",
+    "codeRepository": "http://nomads.gfdl.noaa.gov/nomads/forms/him_beta_nomads.html",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C++"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "http://nomads.gfdl.noaa.gov/nomads/forms/him_beta_nomads.html",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "supportingData": [
+        {
+            "@type": "DataFeed",
+            "url": "https://csdms.colorado.edu/csdms_wiki/images/HIM1.10_beta2_example1.tar.gz",
+            "name": "Test Data"
+        },
+        {
+            "@type": "DataFeed",
+            "url": "https://csdms.colorado.edu/csdms_wiki/images/HIM1.10_beta2_example2.tar.gz",
+            "name": "Test Data"
+        },
+        {
+            "@type": "DataFeed",
+            "url": "https://csdms.colorado.edu/csdms_wiki/images/HIM1.10_beta2_example3.tar.gz",
+            "name": "Test Data"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Robert",
+            "familyName": "Hallberg",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "NOAA/GFDL, Princeton University",
+                "address": "Princeton, United States"
+            },
+            "email": "mailto:Robert.Hallberg@noaa.gov"
+        }
+    ],
+    "dateCreated": "2002-01-01",
+    "keywords": [
+        "Marine",
+        "model",
+        "isopycnal",
+        "hallberg",
+        "boussinesq primitive equations",
+        "primitive equation model",
+        "general orthogonal horizontal",
+        "orthogonal horizontal coordinates",
+        "isopycnal vertical coordinates",
+        "solving the boussinesq",
+        "boussinesq primitive",
+        "simulating the ocean",
+        "equation model",
+        "ocean by numerically",
+        "numerically solving",
+        "general orthogonal",
+        "orthogonal horizontal",
+        "primitive equation",
+        "isopycnal vertical",
+        "him"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "It is a C-grid, isopycnal coordinate, primitive equation model,\nsimulating the ocean by numerically solving the Boussinesq primitive equations in isopycnal vertical coordinates and general orthogonal horizontal coordinates.",
+    "url": "https://csdms.colorado.edu/wiki/Model:HIM"
+}

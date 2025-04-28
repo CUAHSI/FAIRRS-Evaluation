@@ -1,0 +1,65 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "ALFRESCO",
+    "codeRepository": "https://github.com/ua-snap/alfresco",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C++"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "downloadUrl": "https://github.com/ua-snap/alfresco",
+    "memoryRequirements": "2GB",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Alec",
+            "familyName": "Bennett",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Alaska Fairbanks (UAF)",
+                "address": "Fairbanks, United States"
+            },
+            "email": "mailto:apbennett@alaska.edu"
+        }
+    ],
+    "dateCreated": "2002-01-01",
+    "keywords": [
+        "Ecosystems",
+        "Cryosphere",
+        "code",
+        "frame\u2010based",
+        "ecosystem",
+        "alaskan",
+        "rupp",
+        "simulate the response",
+        "response of subarctic",
+        "disturbance regime",
+        "fire regime",
+        "future fire regime",
+        "species composition",
+        "changing climate",
+        "regime",
+        "alfresco",
+        "alfresco was originally",
+        "vegetation",
+        "originally developed",
+        "developed to simulate",
+        "subarctic vegetation",
+        "treeline extention",
+        "Subarctic vegetation",
+        "Treeline extention"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "ALFRESCO was originally developed to simulate the response of subarctic vegetation to a changing climate and disturbance regime (Rupp et al. 2000a, 2000b). Previous research has highlighted both direct and indirect (through changes in fire regime) effects of climate on the expansion rate, species composition, and extent of treeline in Alaska (Rupp et al. 2000b, 2001, Lloyd et al. 2003). Additional research, focused on boreal forest vegetation dynamics, has emphasized that fire frequency changes \u2013 both direct (climate-driven or anthropogenic) and indirect (as a result of vegetation succession and species composition) \u2013 strongly influence landscape-level vegetation patterns and associated feedbacks to future fire regime (Rupp et al. 2002, Chapin et al. 2003, Turner et al. 2003). A detailed description of ALFRESCO can be obtained from the literature (Rupp et al. 2000a, 200b, 2001, 2002). The boreal forest version of ALFRESCO was developed to explore the interactions and feedbacks between fire, climate, and vegetation in interior Alaska (Rupp et al. 2002, 2007, Duffy et al. 2005, 2007) and associated impacts to natural resources (Rupp et al. 2006, Butler et al. 2007).",
+    "url": "https://csdms.colorado.edu/wiki/Model:ALFRESCO",
+    "developmentStatus": "Active"
+}

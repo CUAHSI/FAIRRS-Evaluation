@@ -1,0 +1,57 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "FlowDirectorDinf",
+    "codeRepository": "https://github.com/landlab/landlab/tree/master/landlab",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "downloadUrl": "https://github.com/landlab/landlab/tree/master/landlab",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Katy",
+            "familyName": "Barnhart",
+            "affiliation": {
+                "@type": "Organization",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:katherine.barnhart@colorado.edu"
+        }
+    ],
+    "dateCreated": "2017-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "method",
+        "flow",
+        "tarboton",
+        "directs flow",
+        "directs",
+        "flow directions",
+        "steepest subtriangle",
+        "subtriangle",
+        "flow path",
+        "flow director",
+        "flowdirectordinf",
+        "flow path",
+        "flow director"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "Directs flow by the D infinity method (Tarboton, 1997). Each node is assigned two flow directions, toward the two neighboring nodes that are on the steepest subtriangle. Partitioning of flow is done based on the aspect of the subtriangle.",
+    "url": "https://csdms.colorado.edu/wiki/Model:FlowDirectorDinf",
+    "developmentStatus": "Only maintenance"
+}

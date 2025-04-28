@@ -1,0 +1,78 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "TOPOG",
+    "codeRepository": "http://www-data.wron.csiro.au/topog/",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "downloadUrl": "http://www-data.wron.csiro.au/topog/",
+    "memoryRequirements": "at least 32 MB core memory, preferably 64 MB",
+    "operatingSystem": [
+        "Unix"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Richard",
+            "familyName": "Silberstein",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Western Australia",
+                "address": "Nedlands, Australia"
+            },
+            "email": "mailto:richard.silberstein@bigpond.com"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Joel",
+            "familyName": "Rahman",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Flow Matters",
+                "address": "Canberra, Australia"
+            },
+            "email": "mailto:joel.rahman.home@gmail.com"
+        }
+    ],
+    "dateCreated": "1987-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "topog",
+        "package",
+        "land surface",
+        "atmosphere via evaporation",
+        "groundwater and back",
+        "water moves",
+        "topog describes",
+        "conservative solute movement",
+        "moves through landscapes",
+        "landscapes",
+        "soil",
+        "three-dimensional landscapes",
+        "surface",
+        "evaporation",
+        "describes",
+        "moves",
+        "landscape",
+        "catchment",
+        "landscape",
+        "catchment"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "TOPOG describes how water moves through landscapes; over the land surface, into the soil, through the soil and groundwater and back to the atmosphere via evaporation. Conservative solute movement and sediment transport are also simulated.\n\nThe primary strength of TOPOG is that it is based on a sophisticated digital terrain analysis model, which accurately describes the topographic attributes of three-dimensional landscapes. It is intended for application to small catchments (up to 10 km2, and generally smaller than 1 km2).\n\nWe refer to TOPOG as a \"deterministic\", \"distributed-parameter\" hydrologic modelling package. The term \"deterministic\" is used to emphasise the fact that the various water balance models within TOPOG use physical reasoning to explain how the hydrologic system behaves. The term \"distributed-parameter\" means that the model can account for spatial variability inherent in input parameters such as soil type, vegetation and climate.",
+    "url": "https://csdms.colorado.edu/wiki/Model:TOPOG",
+    "developmentStatus": "Only maintenance"
+}

@@ -1,0 +1,56 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "SVELA",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "memoryRequirements": "<512Mb",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Rudy",
+            "familyName": "Slingerland",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Penn State University",
+                "address": "University Park, United States"
+            },
+            "email": "mailto:sling@geosc.psu.edu"
+        }
+    ],
+    "dateCreated": "1992-01-01",
+    "keywords": [
+        "Terrestrial",
+        "shear",
+        "roughness",
+        "calculates shear velocity",
+        "calculates shear",
+        "grain roughness",
+        "shear velocity",
+        "calculates",
+        "sediment transport",
+        "fluvial",
+        "svela",
+        "sediment transport",
+        "fluvial"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "identifier": "10.1594/IEDA/100173",
+    "description": "Calculates shear velocity associated with grain roughness",
+    "url": "https://csdms.colorado.edu/wiki/Model:SVELA",
+    "developmentStatus": "As is, no updates are provided"
+}

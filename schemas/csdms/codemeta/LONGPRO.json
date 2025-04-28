@@ -1,0 +1,62 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "LONGPRO",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        }
+    ],
+    "applicationCategory": "Single",
+    "memoryRequirements": "<512Mb",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Rudy",
+            "familyName": "Slingerland",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Penn State University",
+                "address": "University Park, United States"
+            },
+            "email": "mailto:sling@geosc.psu.edu"
+        }
+    ],
+    "dateCreated": "1992-01-01",
+    "keywords": [
+        "Terrestrial",
+        "dynamic",
+        "profiles",
+        "stream longitudinal profile",
+        "longitudinal profile",
+        "program to calculate",
+        "calculate the dynamical",
+        "dynamical evolution",
+        "stream longitudinal",
+        "profile",
+        "program",
+        "calculate",
+        "dynamical",
+        "evolution",
+        "stream",
+        "longitudinal",
+        "fluvial morphodynamics",
+        "longpro",
+        "fluvial morphodynamics"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "identifier": "10.1594/IEDA/100143",
+    "description": "A program to calculate the dynamical evolution of a stream's longitudinal profile",
+    "url": "https://csdms.colorado.edu/wiki/Model:LONGPRO",
+    "developmentStatus": "As is, no updates are provided"
+}

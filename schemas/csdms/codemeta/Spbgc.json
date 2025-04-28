@@ -1,0 +1,42 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Spbgc",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        }
+    ],
+    "applicationCategory": "Single",
+    "memoryRequirements": "Typical ratio: 2,000,000 nodes requires 1 Gbyte",
+    "operatingSystem": [
+        "Unix",
+        "Linux"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Zachary",
+            "familyName": "Borden",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "UCSB",
+                "address": "Santa Barbara, United States"
+            },
+            "email": "mailto:zborden@gmail.com"
+        }
+    ],
+    "dateCreated": "2000-01-01",
+    "keywords": [
+        "Coastal",
+        "turbidity current",
+        "flow structure"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "description": "High order two dimensional simulations of turbidity currents using DNS of incompressible Navier-Stokes and transport equations.",
+    "url": "https://csdms.colorado.edu/wiki/Model:Spbgc"
+}

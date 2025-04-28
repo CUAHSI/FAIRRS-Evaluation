@@ -1,0 +1,62 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "SPHYSICS",
+    "codeRepository": "http://wiki.manchester.ac.uk/sphysics/index.php/SPHYSICS_Home_Page",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran90"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "http://wiki.manchester.ac.uk/sphysics/index.php/SPHYSICS_Home_Page",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Robert",
+            "familyName": "Dalrymple",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Johns Hopkins University",
+                "address": "Baltimore, United States"
+            },
+            "email": "mailto:rad@jhu.edu"
+        }
+    ],
+    "dateCreated": "2007-01-01",
+    "keywords": [
+        "Coastal",
+        "particle",
+        "hydrodynamics",
+        "smoothed",
+        "code",
+        "smoothed particle hydrodynamics",
+        "violent free-surface hydrodynamics",
+        "smoothed particle",
+        "particle hydrodynamics",
+        "potentially violent free-surface",
+        "free-surface hydrodynamics",
+        "sph",
+        "written in fortran",
+        "simulation of potentially",
+        "potentially violent",
+        "violent free-surface",
+        "code written",
+        "sphysics",
+        "hydrodynamics",
+        "violent free-surface"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "description": "SPHysics is a Smoothed Particle Hydrodynamics (SPH) code written in fortran for the simulation of potentially violent free-surface hydrodynamics. For release version 1.0, the SPHysics code can simulate various phenomena including wave breaking, dam breaks, sloshing, sliding objects, wave impact on a structure, etc.",
+    "url": "https://csdms.colorado.edu/wiki/Model:SPHYSICS"
+}

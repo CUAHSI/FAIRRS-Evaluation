@@ -1,0 +1,42 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "TreeThrow",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        }
+    ],
+    "applicationCategory": "Single",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Matthew",
+            "familyName": "Kirwan",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "USGS, University of Virginia",
+                "address": "Charlottesville, United States"
+            },
+            "email": "mailto:mkirwan@usgs.gov"
+        }
+    ],
+    "dateCreated": "2008-01-01",
+    "keywords": [
+        "Terrestrial",
+        "tree throw",
+        "sediment transport"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "description": "Plot scale, spatially implicit model of tree throw on hillslopes. We couple an existing forest growth model with a couple simple equations for the transport of sediment caused by tree fall.",
+    "url": "https://csdms.colorado.edu/wiki/Model:TreeThrow"
+}

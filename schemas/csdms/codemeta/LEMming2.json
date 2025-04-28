@@ -1,0 +1,66 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "LEMming2",
+    "codeRepository": "https://github.com/ddoubleprime/LEMming2",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/ddoubleprime/LEMming2",
+    "memoryRequirements": "Varies with grid size; 4+GB free recommended",
+    "operatingSystem": [
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Dylan",
+            "familyName": "Ward",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Cincinnati",
+                "address": "Cincinnati, United States"
+            },
+            "email": "mailto:dylan.ward@uc.edu"
+        }
+    ],
+    "dateCreated": "2009-01-01",
+    "keywords": [
+        "Terrestrial",
+        "model",
+        "cliffs",
+        "finite-difference landscape evolution",
+        "landscape evolution model",
+        "finite-difference landscape",
+        "landscape evolution",
+        "hard-capped cliffs",
+        "evolution model",
+        "nonlinear-diffusion erosion equations",
+        "regular grid",
+        "finite-difference",
+        "simulates the retreat",
+        "retreat of hard-capped",
+        "model that simulates",
+        "implements common",
+        "nonlinear-diffusion erosion",
+        "landscape",
+        "lemming2"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "description": "LEMming2 is a 2D, finite-difference landscape evolution model that simulates the retreat of hard-capped cliffs. It implements common unit-stream-power and linear/nonlinear-diffusion erosion equations on a 2D regular grid. Arbitrary stratigraphy may be defined. Cliff retreat is facilitated by a cellular algorithm, and rockfall debris is distributed and redistributed to the angle of repose. It is a standalone model written in Matlab with some C components.\n\nThis repo contains the code used and described by Ward (2019) Lithosphere: \"Dip, layer spacing, and incision rate controls on the formation of strike valleys, cuestas, and cliffbands in heterogeneous stratigraphy\". Given the inputs in that paper it should generate the same results.",
+    "url": "https://csdms.colorado.edu/wiki/Model:LEMming2",
+    "developmentStatus": "Active"
+}

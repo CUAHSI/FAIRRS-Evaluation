@@ -1,0 +1,66 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "1D_Hillslope_MCMC",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C++"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Martin",
+            "familyName": "Hurst",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "British Geological Survevy",
+                "address": "Nottingham, United Kingdom"
+            },
+            "email": "mailto:mhurst@bgs.ac.uk"
+        }
+    ],
+    "dateCreated": "2012-01-01",
+    "keywords": [
+        "Terrestrial",
+        "carlo",
+        "monte",
+        "non-linear",
+        "conditions",
+        "non-linear diffusion rule",
+        "diffusion rule",
+        "back pressure ridge",
+        "model evolves",
+        "non-linear diffusion",
+        "markov chain monte",
+        "chain monte carlo",
+        "dragon back pressure",
+        "monte carlo inversion",
+        "roering",
+        "carrizo plain",
+        "boundary conditions idealised",
+        "varying boundary conditions",
+        "pressure ridge",
+        "hilley and arrowsmith",
+        "landscape evolution",
+        "hillslope model",
+        "1d hillslope mcmc",
+        "landscape evolution",
+        "Hillslope Model"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "description": "The model evolves a 1D hillslope according to a non-linear diffusion rule (e.g. Roering et al. 1999) for varying boundary conditions idealised as a gaussian pulse of baselevel fall through time. A Markov Chain Monte Carlo inversion finds the most likely boundary condition parameters when compared to a time series of field data on hillslope morphology from the Dragon's Back Pressure Ridge, Carrizo Plain, CA, USA; see Hilley and Arrowsmith, 2008.",
+    "url": "https://csdms.colorado.edu/wiki/Model:1D_Hillslope_MCMC",
+    "developmentStatus": "As is, no updates are provided"
+}

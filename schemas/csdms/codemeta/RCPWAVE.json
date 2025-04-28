@@ -1,0 +1,41 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "RCPWAVE",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "memoryRequirements": "Typical",
+    "operatingSystem": [
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Mark",
+            "familyName": "Gravens",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "US",
+                "address": "Vicksburg, United States"
+            },
+            "email": "mailto:Mark.B.Gravens@erdc.usace.army.mil"
+        }
+    ],
+    "dateCreated": "1984-01-01",
+    "keywords": [
+        "Coastal",
+        "wave model",
+        "nearshore"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "RCPWAVE is a 2D steady state monocromatic short wave model for simulating wave propagation over arbitrary bahymetry.",
+    "url": "https://csdms.colorado.edu/wiki/Model:RCPWAVE"
+}

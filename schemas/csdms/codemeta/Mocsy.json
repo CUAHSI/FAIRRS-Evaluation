@@ -1,0 +1,57 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Mocsy",
+    "codeRepository": "https://github.com/jamesorr/mocsy",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    },
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/jamesorr/mocsy",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "James",
+            "familyName": "Orr",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Laboratoire des Sciences du Climat et de l'Environnement/IPSL, CEA-CNRS-UVSQ",
+                "address": "Gif-sur-Yvette, France"
+            },
+            "email": "mailto:James.orr@lsce.saclay.cea.fr"
+        }
+    ],
+    "dateCreated": "2013-01-01",
+    "keywords": [
+        "Marine",
+        "routines",
+        "system",
+        "ocean carbonate system",
+        "carbonate system",
+        "ocean carbonate",
+        "ocean carbon models",
+        "carbonate system variables",
+        "ocean",
+        "carbonate",
+        "routines to model",
+        "mocsy",
+        "ocean carbon",
+        "fortran",
+        "dissolved inorganic carbon",
+        "input dissolved inorganic",
+        "carbon models",
+        "Ocean carbonate system"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "Fortran 95 routines to model the ocean carbonate system (mocsy). Mocsy take as input dissolved inorganic carbon CT and total alkalinity AT, the only two tracers of the ocean carbonate system that are unaffected by changes in temperature and salinity and conservative with respect to mixing, properties that make them ideally suited for ocean carbon models. With basic thermodynamic equilibria, mocsy compute surface-ocean pCO2 in order to simulate air-sea CO2 fluxes. The mocsy package goes beyond the OCMIP code by computing all other carbonate system variables (e.g., pH, CO32-, and CaCO3 saturation states) and by doing so throughout the water column.",
+    "url": "https://csdms.colorado.edu/wiki/Model:Mocsy"
+}

@@ -1,0 +1,47 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Dionisos",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "C++"
+        }
+    ],
+    "applicationCategory": "Single",
+    "memoryRequirements": "256 MB",
+    "operatingSystem": [
+        "Unix",
+        "Linux"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Didier",
+            "familyName": "Granjeon",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "IFP",
+                "address": "Rueil-Malmaison, France"
+            },
+            "email": "mailto:didier.granjeon@ifp.fr"
+        }
+    ],
+    "dateCreated": "1992-01-01",
+    "keywords": [
+        "Coastal",
+        "stratigraphic model",
+        "basin",
+        "sediment dynamics"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "3D basin-scale stratigraphic model",
+    "url": "https://csdms.colorado.edu/wiki/Model:Dionisos"
+}

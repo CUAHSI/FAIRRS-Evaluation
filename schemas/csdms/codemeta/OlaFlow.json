@@ -1,0 +1,74 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "OlaFlow",
+    "codeRepository": "https://github.com/phicau/olaFlow",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C++"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "downloadUrl": "https://github.com/phicau/olaFlow",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Pablo",
+            "familyName": "Higuera",
+            "affiliation": {
+                "@type": "Organization",
+                "address": "Singapore, Singapore"
+            },
+            "email": "mailto:olaFlowCFD@gmail.com"
+        }
+    ],
+    "dateCreated": "2011-01-01",
+    "keywords": [
+        "Hydrology",
+        "Coastal",
+        "Marine",
+        "wave",
+        "framework",
+        "numerical model conceived",
+        "numerical model",
+        "model conceived",
+        "work in ihfoam",
+        "ihfoam",
+        "olafoam",
+        "continuous from ihfoam",
+        "olaflow",
+        "jul",
+        "feb",
+        "mar",
+        "nov",
+        "numerical",
+        "model",
+        "conceived",
+        "openfoam",
+        "wave current interaction",
+        "breakwaters",
+        "OpenFOAM",
+        "wave",
+        "wave current interaction",
+        "breakwaters"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "identifier": "10.5281/zenodo.1297012",
+    "description": "olaFlow (formerly known as olaFoam) is a numerical model conceived as a continuation of the work in IHFOAM. Its development has been continuous from ihFoam (Jul 8, 2014 - Feb 11, 2016) and olaFoam (Mar 2, 2016 - Nov 25, 2017).\n\nThis free and open source project is committed to bringing the latest advances in the simulation of wave dynamics to the OpenFOAM\u00ae and FOAM-extend communities.\n\nolaFlow includes a set of solvers and boundary conditions to generate and absorb water waves actively at the boundaries and to simulate their interaction with porous coastal structures.",
+    "url": "https://csdms.colorado.edu/wiki/Model:OlaFlow",
+    "developmentStatus": "Active"
+}

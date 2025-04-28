@@ -1,0 +1,75 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "CMIP",
+    "codeRepository": "https://github.com/permamodel",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "downloadUrl": "https://github.com/permamodel",
+    "memoryRequirements": "dataset is >2GB",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Irina",
+            "familyName": "Overeem",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "INSTAAR, University of Colorado",
+                "address": "Boulder CO, United States"
+            },
+            "email": "mailto:irina.overeem@colorado.edu"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Scott",
+            "familyName": "Stewart",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "INSTAAR, University of Colorado",
+                "address": "Boulder CO, United States"
+            },
+            "email": "mailto:scott.stewart@colorado.edu"
+        }
+    ],
+    "dateCreated": "2017-01-01",
+    "keywords": [
+        "Climate",
+        "Cryosphere",
+        "permafrost",
+        "region",
+        "data",
+        "1902-2100",
+        "model intercomparison project",
+        "climate model intercomparison",
+        "intercomparison project",
+        "data component processed",
+        "cru-ncep climate model",
+        "called cmip",
+        "model intercomparison",
+        "component processed",
+        "original climate models",
+        "data component",
+        "cru-ncep climate",
+        "data presented include",
+        "climate model",
+        "project",
+        "cmip"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "Data component processed from the CRU-NCEP Climate Model Intercomparison Project - 5, also called CMIP 5. Data presented include the mean annual temperature for each gridcell, mean July temperature  and mean January temperature over the period 1902 -2100. This dataset presents the mean of the CMIP5 models, and the original climate models were run for the representative concentration pathway RCP 8.5.",
+    "url": "https://csdms.colorado.edu/wiki/Model:CMIP",
+    "developmentStatus": "As is, no updates are provided"
+}

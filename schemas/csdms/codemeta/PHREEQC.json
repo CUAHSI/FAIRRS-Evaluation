@@ -1,0 +1,76 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "PHREEQC",
+    "codeRepository": "http://wwwbrr.cr.usgs.gov/projects/GWC_coupled/phreeqc/",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "C++"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "http://wwwbrr.cr.usgs.gov/projects/GWC_coupled/phreeqc/",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "David",
+            "familyName": "Parkhurst",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "USGS",
+                "address": "Denver, United States"
+            },
+            "email": "mailto:dlpark@usgs.gov"
+        }
+    ],
+    "dateCreated": "1980-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "phreeqc",
+        "version",
+        "programming",
+        "calculations",
+        "lawrence livermore national",
+        "livermore national laboratory",
+        "specific ion interaction",
+        "ion interaction theory",
+        "national laboratory model",
+        "ion-association aqueous models",
+        "interaction theory",
+        "lawrence livermore",
+        "livermore national",
+        "national laboratory",
+        "specific ion",
+        "ion interaction",
+        "aqueous models",
+        "laboratory model",
+        "phreeqc implements",
+        "geochemical reaction model",
+        "inverse modeling",
+        "saturation indices",
+        "contaminant migration",
+        "geochemical reaction model",
+        "inverse modeling",
+        "saturation indices",
+        "contaminant migration"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "PHREEQC implements several types of aqueous models: two ion-association aqueous models (the Lawrence Livermore National Laboratory model and WATEQ4F), a Pitzer specific-ion-interaction aqueous model, and the SIT (Specific ion Interaction Theory) aqueous model. Using any of these aqueous models, PHREEQC has capabilities for (1) speciation and saturation-index calculations; (2) batch-reaction and one-dimensional (1D) transport calculations with reversible and irreversible reactions, which include aqueous, mineral, gas, solid-solution, surface-complexation, and ion-exchange equilibria, and specified mole transfers of reactants, kinetically controlled reactions, mixing of solutions, and pressure and temperature changes; and (3) inverse modeling, which finds sets of mineral and gas mole transfers that account for differences in composition between waters within specified compositional uncertainty limits.",
+    "url": "https://csdms.colorado.edu/wiki/Model:PHREEQC",
+    "developmentStatus": "Active"
+}

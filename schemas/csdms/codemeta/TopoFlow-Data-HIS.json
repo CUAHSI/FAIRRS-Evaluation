@@ -1,0 +1,46 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "TopoFlow-Data-HIS",
+    "codeRepository": "https://github.com/peckhams/topoflow",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    },
+    "applicationCategory": "Tool",
+    "downloadUrl": "https://github.com/peckhams/topoflow",
+    "operatingSystem": [],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Scott",
+            "familyName": "Peckham",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "CSDMS, University of Colorado, INSTAAR",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:scott.peckham@colorado.edu"
+        }
+    ],
+    "keywords": [
+        "Hydrology",
+        "system",
+        "cuahsi",
+        "hydrologic",
+        "information",
+        "sharing hydrologic data",
+        "internet-based system",
+        "system for sharing",
+        "sharing hydrologic",
+        "hydrologic data",
+        "data",
+        "topoflow-data-his"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "description": "HIS is an internet-based system for sharing hydrologic data. It is comprised of databases and servers, connected through web services, to client applications, allowing for the publication, discovery and access of data.",
+    "url": "https://csdms.colorado.edu/wiki/Model:TopoFlow-Data-HIS",
+    "developmentStatus": "Active"
+}

@@ -1,0 +1,63 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "GISS_GCM_ModelE",
+    "codeRepository": "http://www.giss.nasa.gov/tools/modelE/",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran90"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "http://www.giss.nasa.gov/tools/modelE/",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Gavin",
+            "familyName": "Schmidt",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "NASA/Goddard Institute for Space Studies",
+                "address": "New York, United States"
+            },
+            "email": "mailto:gavin.a.schmidt@nass.gov"
+        }
+    ],
+    "dateCreated": "1983-01-01",
+    "keywords": [
+        "Hydrology",
+        "Coastal",
+        "Marine",
+        "Climate",
+        "giss",
+        "gcm",
+        "modele",
+        "earth system models",
+        "coupled atmosphere-ocean models",
+        "including interactive atmospheric",
+        "interactive atmospheric chemsitry",
+        "land surface components",
+        "system models",
+        "earth system",
+        "atmosphere-ocean models",
+        "giss series",
+        "configurations of earth",
+        "including interactive",
+        "atmospheric chemsitry",
+        "carbon cycle",
+        "standard atmosphere",
+        "sea ice",
+        "giss gcm modele"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "ModelE is the GISS series of coupled atmosphere-ocean models, which provides the ability to simulate many different configurations of Earth System Models - including interactive atmospheric chemsitry, aerosols, carbon cycle and other tracers, as well as the standard atmosphere, ocean, sea ice and land surface components.",
+    "url": "https://csdms.colorado.edu/wiki/Model:GISS_GCM_ModelE",
+    "developmentStatus": "Active"
+}

@@ -1,0 +1,63 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "AquaTellUs",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        }
+    ],
+    "applicationCategory": "Single",
+    "memoryRequirements": "High",
+    "operatingSystem": [
+        "Unix",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Irina",
+            "familyName": "Overeem",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "CSDMS, INSTAAR, University of Colorado",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:irina.overeem@colorado.edu"
+        }
+    ],
+    "dateCreated": "1997-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Coastal",
+        "fluvial-dominated",
+        "model",
+        "models fluvial-dominated delta",
+        "aquatellus models fluvial-dominated",
+        "fluvial-dominated delta sedimentation",
+        "fluvial-dominated delta",
+        "models fluvial-dominated",
+        "aquatellus models",
+        "erosion",
+        "delta sedimentation",
+        "nested model approach",
+        "flux",
+        "aquatellus",
+        "erosion flux",
+        "flux depends",
+        "longitudinal profiles",
+        "sediment",
+        "coastal evolution",
+        "coastal evolution"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "identifier": "10.1594/IEDA/100089",
+    "description": "AquaTellUs models fluvial-dominated delta sedimentation. AquaTellUS uses a nested model approach; a 2D longitudinal profiles, embedded as a dynamical flowpath in a 3D grid-based space. A main channel belt is modeled as a 2D longitudinal profile that responds dynamically to changes in discharge, sediment load and sea level. Sediment flux is described by separate erosion and sedimentation components. Multiple grain-size classes are independently tracked. Erosion flux depends on discharge and slope, similar to process descriptions used in hill-slope models and is independent of grain-size. Offshore, where we assume unconfined flow, the erosion capacity decreases with increasing water depth. The erosion flux is a proxy for gravity flows in submarine channels close to the coast and for down-slope diffusion over the entire slope due to waves, tides and creep. Erosion is restricted to the main flowpath. This appears to be valid for the river-channel belt, but underestimates the spatial extent and variability of marine erosion processes.\nDeposition flux depends on the stream velocity and on a travel-distance factor, which depends on grain size (i.e. settling velocity). The travel-distance factor is different in the fluvial and marine domains, which results in a sharp increase of the settling rate at the river mouth, mimicking bedload dumping.\n\nDynamic boundary conditions such as climatic changes over time are incorporated by increasing or decreasing discharge and sediment load for each time step.",
+    "url": "https://csdms.colorado.edu/wiki/Model:AquaTellUs",
+    "developmentStatus": "As is, no updates are provided"
+}

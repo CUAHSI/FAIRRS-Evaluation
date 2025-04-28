@@ -1,0 +1,83 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "SIGNUM",
+    "codeRepository": "https://sites.google.com/site/spqggroup/software",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://sites.google.com/site/spqggroup/software",
+    "operatingSystem": [
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Domenico",
+            "familyName": "Capolongo",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Dep of Earth & environmental Sciences/ University of Bari",
+                "address": "Bari, Italy"
+            },
+            "email": "mailto:domenico.capolongo@uniba.it"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Alberto",
+            "familyName": "Refice",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Dep of Earth & environmental Sciences/ University of Bari",
+                "address": "Bari, Italy"
+            },
+            "email": "mailto:refice@ba.issia.cnr.it"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Emanuele",
+            "familyName": "Giachetta",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Dep of Earth & environmental Sciences/ University of Bari",
+                "address": "Bari, Italy"
+            },
+            "email": "mailto:lelucciog@libero.it"
+        }
+    ],
+    "dateCreated": "2010-01-01",
+    "keywords": [
+        "Terrestrial",
+        "signum",
+        "model",
+        "simple",
+        "integrated",
+        "tin-based landscape evolution",
+        "landscape evolution model",
+        "geomorphological numerical model",
+        "integrated geomorphological numerical",
+        "simple integrated geomorphological",
+        "simulating sediment transport",
+        "multi-process numerical model",
+        "numerical model written",
+        "integrated numerical framework",
+        "numerical model",
+        "time scales",
+        "sediment transport",
+        "transport and erosion",
+        "erosion by river",
+        "river flow"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "description": "SIGNUM (Simple Integrated Geomorphological Numerical Model) is a TIN-based landscape evolution model: it is capable of simulating sediment transport and erosion by river flow at different space and time scales. It is a multi-process numerical model written in the Matlab high level programming environment, providing a simple and integrated numerical framework for the simulation of some important processes that shape real landscapes.\n\nParticularly, at the present development stage, SIGNUM is capable of simulating geomorphological processes such as hillslope diffusion, fluvial incision, tectonic uplift or changes in base-level and climate effects in terms of precipitation. A full technical description is reported in Refice et al. 2011 . \nThe software runs under Matlab (it is tested on releases from R2010a to R2011b). It is released under the GPL3 license.",
+    "url": "https://csdms.colorado.edu/wiki/Model:SIGNUM",
+    "developmentStatus": "As is, no updates are provided"
+}

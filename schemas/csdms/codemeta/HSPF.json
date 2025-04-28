@@ -1,0 +1,43 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "HSPF",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "memoryRequirements": "This model system is designed for the IBM PC family of microcomputer or compatible systems running under version 3.30 or higher of the Microsoft or PC Disk Operating Systems (PC or MS DOSrefer to DEVELOPMENT SYSTEM section).  Properly configured, this model system and its support files and programs can be executed under PC DOS or MS DOS 3.30 and later versions, DOS 4.0x, DOS 5.0x, or DOS 6.x.",
+    "operatingSystem": [
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Bob",
+            "familyName": "Bicknell",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "EPA",
+                "address": "Athens, United States"
+            },
+            "email": "mailto:test@test.com"
+        }
+    ],
+    "dateCreated": "1997-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "biogeochemistry",
+        "water quality"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "Hydrological Simulation Program - FORTRAN (HSPF) is a comprehensive package\nfor simulation of watershed hydrology and water quality for both conventional\nand toxic organic pollutants (1,2).  This model can simulate the hydrologic,\nand associated water quality, processes on pervious and impervious land\nsurfaces and in streams and well-mixed impoundments.  HSPF incorporates the\nwatershed-scale ARM and NPS models into a basin-scale analysis framework that\nincludes fate and transport in one-dimensional stream channels.  It is the\nonly comprehensive model of watershed hydrology and water quality that allows\nthe integrated simulation of land and soil contaminant runoff processes with\nin-stream hydraulic and sediment-chemical interactions.\n\nThe result of this simulation is a time history of the runoff flow rate,\nsediment load, and nutrient and pesticide concentrations, along with a time\nhistory of water quantity and quality at any point in a watershed.  HSPF\nsimulates three sediment types (sand, silt, and clay) in addition to a single\norganic chemical and transformation products of that chemical.  The transfer\nand reaction processes included are hydrolysis, oxidation, photolysis,\nbiodegradation, volatilization, and sorption.  Sorption is modeled as a\nfirst-order kinetic process in which the user must specify a desorption rate\nand an equilibrium partition coefficient for each of the three solids types.\n\nResuspension and settling of silts and clays (cohesive solids) are defined in\nterms of shear stress at the sediment water interface.  The capacity of the\nsystem to transport sand at a particular flow is calculated and resuspension\nor settling is defined by the difference between the sand in suspension and\nthe transport capacity.  Calibration of the model requires data for each of\nthe three solids types.  Benthic exchange is modeled as sorption/desorption\nand deposition/scour with surficial benthic sediments.  Underlying sediment\nand pore water are not modeled.",
+    "url": "https://csdms.colorado.edu/wiki/Model:HSPF",
+    "developmentStatus": "As is, no updates are provided"
+}

@@ -1,0 +1,66 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "RecircFeed",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "operatingSystem": [
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Gary",
+            "familyName": "Parker",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Illinois at Urbana-Champaign",
+                "address": "Urbana, United States"
+            },
+            "email": "mailto:parkerg@illinois.edu"
+        }
+    ],
+    "dateCreated": "1990-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "e-book",
+        "calculator",
+        "flumes",
+        "mobile-bed normal equilibrium",
+        "studying the approach",
+        "approach to mobile-bed",
+        "mobile-bed normal",
+        "normal equilibrium",
+        "equilibrium in recirculating",
+        "recirculating and sediment-feed",
+        "implements a calculation",
+        "uniform sediment",
+        "sediment-feed flumes",
+        "sediment",
+        "sediment feed",
+        "water and sediment",
+        "implements",
+        "recirc",
+        "bed equilibrium",
+        "fluvial morphodynamics",
+        "recircfeed",
+        "bed equilibrium",
+        "fluvial morphodynamics"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "identifier": "10.1594/IEDA/100155",
+    "description": "This program provides two modules for studying the approach to mobile-bed normal equilibrium in recirculating and sediment-feed flumes containing uniform sediment.\nThe module \"Recirc\" implements a calculation for the case of a flume that recirculates water and sediment. The module \"Feed\" implements a calculation for the case of flume which receives water and sediment feed.",
+    "url": "https://csdms.colorado.edu/wiki/Model:RecircFeed",
+    "developmentStatus": "As is, no updates are provided"
+}

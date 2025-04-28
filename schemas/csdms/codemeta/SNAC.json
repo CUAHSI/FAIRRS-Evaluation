@@ -1,0 +1,60 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "SNAC",
+    "codeRepository": "http://www.geodynamics.org/cig/software/snac/",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "http://www.geodynamics.org/cig/software/snac/",
+    "memoryRequirements": "tipically < 1 GB",
+    "operatingSystem": [
+        "Linux",
+        "Mac OS"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Eunseo",
+            "familyName": "Choi",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Lamont-Doherty Earth Observatory",
+                "address": "Palisades, United States"
+            },
+            "email": "mailto:echoi@ldeo.columbia.edu"
+        }
+    ],
+    "dateCreated": "2003-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Geodynamic",
+        "lagrangian",
+        "deforming",
+        "solid",
+        "heat energy balance",
+        "energy balance equations",
+        "solid with complicated",
+        "complicated rheology",
+        "solve momentum",
+        "momentum and heat",
+        "heat energy",
+        "energy balance",
+        "balance equations",
+        "snac",
+        "snac can solve",
+        "rheology",
+        "snac makes"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "description": "SNAC can solve momentum and heat energy balance equations in 3D solid with complicated rheology. Lagrangian description of motion adopted in SNAC makes it easy to monitor surface deformation during a crustal or continental scale tectonic event as well as introduce surface processes into a model.",
+    "url": "https://csdms.colorado.edu/wiki/Model:SNAC",
+    "developmentStatus": "Active"
+}

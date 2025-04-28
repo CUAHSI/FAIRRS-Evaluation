@@ -1,0 +1,70 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "ErosionDeposition",
+    "codeRepository": "https://github.com/landlab/landlab/tree/master/landlab/components/erosion_deposition",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/landlab/landlab/tree/master/landlab/components/erosion_deposition",
+    "memoryRequirements": "variable",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Charles",
+            "familyName": "Shobe",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "CIRES and Department of Geological Sciences, University of Colorado",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:charles.shobe@colorado.edu"
+        }
+    ],
+    "dateCreated": "2017-01-01",
+    "keywords": [
+        "Terrestrial",
+        "deposition",
+        "landlab",
+        "erosion",
+        "davy and lague",
+        "journal of geophysical",
+        "geophysical research",
+        "component calculates fluvial",
+        "landlab erosiondeposition component",
+        "calculates fluvial erosion",
+        "erosiondeposition component calculates",
+        "derived by davy",
+        "component calculates",
+        "calculates fluvial",
+        "landlab erosiondeposition",
+        "single substrate",
+        "lague",
+        "journal",
+        "research",
+        "river erosion",
+        "sediment transport",
+        "landscape evolution",
+        "erosiondeposition",
+        "River Erosion",
+        "Sediment Transport",
+        "Landscape Evolution"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "The Landlab ErosionDeposition component calculates fluvial erosion and deposition of a single substrate as derived by Davy and Lague (2009, Journal of Geophysical Research). Mass is simultaneously conserved in two reservoirs: the bed and the water column. ErosionDeposition dynamically transitions between detachment-limited and transport-limited behavior, but is limited to erosion of a single substrate (e.g., sediment or bedrock but not both).",
+    "url": "https://csdms.colorado.edu/wiki/Model:ErosionDeposition",
+    "developmentStatus": "Active"
+}

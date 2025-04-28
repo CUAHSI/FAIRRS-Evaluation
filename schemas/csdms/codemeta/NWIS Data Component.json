@@ -1,0 +1,64 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "NWIS_Data_Component",
+    "codeRepository": "https://github.com/gantian127/bmi_nwis",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "downloadUrl": "https://github.com/gantian127/bmi_nwis",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Tian",
+            "familyName": "Gan",
+            "affiliation": {
+                "@type": "Organization",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:gantian127@gmail.com"
+        }
+    ],
+    "keywords": [
+        "Hydrology",
+        "Climate",
+        "Ecosystems",
+        "nwis",
+        "system",
+        "csdms",
+        "national",
+        "national water information",
+        "water information system",
+        "national water",
+        "water information",
+        "information system",
+        "dynamics modeling system",
+        "basic model interface",
+        "community surface dynamics",
+        "surface dynamics modeling",
+        "analysis and visualization",
+        "set of functions",
+        "nwis package includes",
+        "nwis package",
+        "modeling system",
+        "model interface",
+        "nwis data component"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "nwis package provides a set of functions that allows downloading of the National Water Information System (NWIS) for data analysis and visualization. nwis package includes a Basic Model Interface (BMI), which converts the NWIS dataset into a reusable, plug-and-play data component for Community Surface Dynamics Modeling System (CSDMS) modeling framework.",
+    "url": "https://csdms.colorado.edu/wiki/Model:NWIS_Data_Component",
+    "developmentStatus": "Active"
+}

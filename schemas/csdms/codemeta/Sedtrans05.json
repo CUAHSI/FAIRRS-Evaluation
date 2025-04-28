@@ -1,0 +1,55 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Sedtrans05",
+    "codeRepository": "http://labsedim.uqar.ca/sedtrans05",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "http://labsedim.uqar.ca/sedtrans05",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Urs",
+            "familyName": "Neumeier",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institut des sciences de la mer de Rimouski",
+                "address": "Rimouski QC, Canada"
+            },
+            "email": "mailto:urs_neumeier@uqar.qc.ca"
+        }
+    ],
+    "dateCreated": "1984-01-01",
+    "keywords": [
+        "Marine",
+        "sediment",
+        "estuaries",
+        "shelf and estuaries",
+        "continental shelf",
+        "sediment transport",
+        "transport",
+        "sediment transport model",
+        "single point model",
+        "function water depth",
+        "transport model",
+        "sedtrans05",
+        "sediment transport"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "description": "Sedtrans05 is a sediment transport model for continental shelf and estuaries. It predicts the sediment transport at one location as function water depth, sediment type, current and waves (single point model). It can be used as sediment transport module for larger 2D models.\n\nFive different transport equations are available for non-cohesive sediments (sand) and one algorithm for cohesive sediment.",
+    "url": "https://csdms.colorado.edu/wiki/Model:Sedtrans05",
+    "developmentStatus": "As is, no updates are provided"
+}

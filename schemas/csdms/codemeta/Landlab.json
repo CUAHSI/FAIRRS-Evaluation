@@ -1,0 +1,65 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Landlab",
+    "codeRepository": "https://github.com/landlab/landlab/",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "downloadUrl": "https://github.com/landlab/landlab/",
+    "memoryRequirements": "variable",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Greg",
+            "familyName": "Tucker",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Colorado",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:gtucker@cires.colorado.edu"
+        }
+    ],
+    "dateCreated": "2012-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "Coastal",
+        "Marine",
+        "assembling",
+        "python",
+        "writing",
+        "running",
+        "python software package",
+        "python software",
+        "software package",
+        "package for creating",
+        "landlab",
+        "numerical models",
+        "models",
+        "powerful gridding engine",
+        "engine for creating",
+        "gridding engine",
+        "toolkit",
+        "creating",
+        "components"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "Landlab is a Python software package for creating, assembling, and/or running 2D numerical models. Landlab was created to facilitate modeling in earth-surface dynamics, but it is general enough to support a wide range of applications. Landlab provides three different capabilities:\n\n(1) A DEVELOPER'S TOOLKIT for efficiently building 2D models from scratch. The toolkit includes a powerful GRIDDING ENGINE for creating, managing, and iterative updating data on 2D structured or unstructured grids. The toolkit also includes helpful utilities to handle model input and output.\n\n(2) A set of pre-built COMPONENTS, each of which models a particular process. Components can be combined together to create coupled models.\n\n(3) A library of pre-built MODELS that have been created by combining components together.\n\n To learn more, please visit http://landlab.github.io",
+    "url": "https://csdms.colorado.edu/wiki/Model:Landlab",
+    "developmentStatus": "Active"
+}

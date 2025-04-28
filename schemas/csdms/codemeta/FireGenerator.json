@@ -1,0 +1,66 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "FireGenerator",
+    "codeRepository": "https://github.com/landlab/landlab/tree/master/landlab",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "downloadUrl": "https://github.com/landlab/landlab/tree/master/landlab",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Jordan",
+            "familyName": "Adams",
+            "affiliation": {
+                "@type": "Organization",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:jordan.adams@colorado.edu"
+        }
+    ],
+    "dateCreated": "2013-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Climate",
+        "Ecosystems",
+        "weibull",
+        "distribution",
+        "fire",
+        "component",
+        "component generates random",
+        "generates random numbers",
+        "weibull distribution",
+        "weibull distribution assumes",
+        "component generates",
+        "generates random",
+        "random numbers",
+        "fire regime",
+        "fire recurrence units",
+        "distribution assumes",
+        "time",
+        "random",
+        "probability distribution",
+        "firegenerator",
+        "fire",
+        "random",
+        "probability distribution"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "This component generates random numbers using the Weibull distribution\n(Weibull, 1951). No particular units must be used, but it was written with\nthe fire recurrence units in time (yrs).\nUsing the Weibull Distribution assumes two things: All elements within the study area have the same fire regime. Each element must have (on average) a constant fire regime during the time span of the study.<br>\nAs of Sept. 2013, fires are considered instantaneous events independent of\nother fire events in the time series.",
+    "url": "https://csdms.colorado.edu/wiki/Model:FireGenerator",
+    "developmentStatus": "As is, no updates are provided"
+}

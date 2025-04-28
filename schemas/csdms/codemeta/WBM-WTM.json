@@ -1,0 +1,67 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "WBM-WTM",
+    "codeRepository": "https://github.com/bmfekete/WBMplus",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "downloadUrl": "https://github.com/bmfekete/WBMplus",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Balazs",
+            "familyName": "Fekete",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "The City College of New York at the City University of New York",
+                "address": "New York, United States"
+            },
+            "email": "mailto:bfekete@ccny.cuny.edu"
+        }
+    ],
+    "dateCreated": "1984-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "balance",
+        "transport",
+        "model",
+        "water",
+        "climate input forcings",
+        "water balance model",
+        "ground water recharge",
+        "gridded water balance",
+        "grid cell",
+        "surface and subsurface",
+        "subsurface runoff",
+        "balance model",
+        "model using climate",
+        "climate input",
+        "input forcings",
+        "forcings that calculate",
+        "water balance",
+        "ground water",
+        "water recharge",
+        "global",
+        "wbm-wtm",
+        "global"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "identifier": "10.1594/IEDA/100179",
+    "description": "Gridded water balance model using climate input forcings that calculate surface and subsurface runoff and ground water recharge for each grid cell. The surface and subsurface runoff is propagated horizontally along a prescribed gridded network using Musking type horizontal transport.",
+    "url": "https://csdms.colorado.edu/wiki/Model:WBM-WTM",
+    "developmentStatus": "Active"
+}

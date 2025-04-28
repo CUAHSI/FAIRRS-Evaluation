@@ -1,0 +1,64 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "IceFlow",
+    "codeRepository": "https://github.com/awickert/IceFlow/archive/master.zip",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/awickert/IceFlow/archive/master.zip",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Andy",
+            "familyName": "Wickert",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Colorado",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:wickert@colorado.edu"
+        }
+    ],
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "Cryosphere",
+        "semi-implicit",
+        "model",
+        "simulates ice dynamics",
+        "simplified basal sliding",
+        "glacial systems",
+        "iceflow simulates ice",
+        "dynamics by solving",
+        "solving equations",
+        "equations for internal",
+        "internal deformation",
+        "deformation and simplified",
+        "basal sliding",
+        "alongside basal sliding",
+        "simplified basal",
+        "iceflow simulates",
+        "simulates ice",
+        "ice dynamics",
+        "glacial",
+        "iceflow",
+        "glacial"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "description": "IceFlow simulates ice dynamics by solving equations for internal deformation and simplified basal sliding in glacial systems. It is designed for computational efficiency by using the shallow ice approximation for driving stress, which it solves alongside basal sliding using a semi-implicit direct solver. IceFlow is integrated with GRASS GIS to automatically generate input grids from a geospatial database.",
+    "url": "https://csdms.colorado.edu/wiki/Model:IceFlow"
+}

@@ -1,0 +1,75 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "GeoClaw",
+    "codeRepository": "http://www.clawpack.org/installing.html",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran90"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "http://www.clawpack.org/installing.html",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Randall",
+            "familyName": "LeVeque",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Washington",
+                "address": "Seattle, United States"
+            },
+            "email": "mailto:rjl@uw.edu"
+        }
+    ],
+    "dateCreated": "1994-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Coastal",
+        "depth-averaged",
+        "propagation",
+        "originally developed",
+        "modeling tsunami generation",
+        "storm surge modeling",
+        "tsunami generation",
+        "dam break problems",
+        "developed for modeling",
+        "modeling tsunami",
+        "surge modeling",
+        "modeling",
+        "originally",
+        "inundation",
+        "generation",
+        "overland flooding",
+        "dam break",
+        "shallow-water model",
+        "tsunami",
+        "storm wave",
+        "geoclaw",
+        "Shallow-water model",
+        "Tsunami",
+        "storm wave"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "Originally developed for modeling tsunami generation, propagation, and inundation.  Also used for storm surge modeling and  overland flooding (e.g. dam break problems).  Uses adaptive mesh refinement to allow much greater spatial resolutions in some regions than others, and to automatically follow dynamic evolution of waves or floods.  Uses high-resolution finite volume methods that robustly handle wetting and drying.  The package also includes tools for working with geophysical data including topography DEMs, earthquake source models for tsunami generation, and observed gauge data. The simulation code is in Fortran with OpenMP for shared memory parallelization, and Python for the user interface, visualization, and data tools.",
+    "url": "https://csdms.colorado.edu/wiki/Model:GeoClaw",
+    "developmentStatus": "Active"
+}

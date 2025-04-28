@@ -1,0 +1,60 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "MRSAA",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "operatingSystem": [
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Li",
+            "familyName": "Zhang",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Tsinghua University",
+                "address": "Beijing, China"
+            },
+            "email": "mailto:lizhangpig@gmail.com"
+        }
+    ],
+    "dateCreated": "2015-01-01",
+    "keywords": [
+        "Geodynamic",
+        "macro-roughness",
+        "erosion",
+        "bed",
+        "cover",
+        "earth surface dynamics",
+        "earth surface",
+        "surface dynamics",
+        "macro-roughness model",
+        "alluvial river morphodynamics",
+        "code functionality",
+        "model of bedrock",
+        "stark",
+        "functionality and purpose",
+        "inoue",
+        "viparelli",
+        "references",
+        "alluvial river",
+        "izumi",
+        "sediment transport",
+        "mrsaa",
+        "sediment transport"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "identifier": "10.5281/zenodo.893093",
+    "description": "Code functionality and purpose may be found in the following references:\n\nReferences\n# Zhang L., Parker, G.,  Stark, C.P., Inoue, T., Viparelli, V., Fu, X.D., and Izumi, N. 2015, \"Macro-roughness model of bedrock\u2013alluvial river morphodynamics\", Earth Surface Dynamics, 3, 113\u2013138.\n# Zhang, L., Stark, C.P., Schumer, R., Kwang, J., Li, T.J., Fu, X.D., Wang, G.Q.,  and Parker, G. 2017, \"The advective-diffusive morphodynamics of mixed bedrock-alluvial rivers subjected to spatiotemporally varying sediment supply\" (submitted to JGR)",
+    "url": "https://csdms.colorado.edu/wiki/Model:MRSAA"
+}

@@ -1,0 +1,60 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "TopoFlow",
+    "codeRepository": "https://github.com/peckhams/topoflow",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "downloadUrl": "https://github.com/peckhams/topoflow",
+    "memoryRequirements": "Standard",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Scott",
+            "familyName": "Peckham",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "CSDMS, INSTAAR, University of Colorado",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:Scott.Peckham@colorado.edu"
+        }
+    ],
+    "dateCreated": "2001-01-01",
+    "keywords": [
+        "Hydrology",
+        "spatially-distributed",
+        "hydrologic",
+        "model",
+        "spatially-distributed hydrologic model",
+        "spatially-distributed hydrologic",
+        "interface",
+        "topoflow",
+        "powerful",
+        "user-friendly",
+        "hydrologic model",
+        "climatic forcings",
+        "hydrologic variables",
+        "basins",
+        "basins"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Apache public license"
+    },
+    "identifier": "10.1594/IEDA/100174",
+    "description": "TopoFlow is a powerful, spatially-distributed hydrologic model with a user-friendly point-and-click interface. Its main purpose is to model many different physical processes in a watershed with the goal of accurately predicting how various hydrologic variables will evolve in time in response to climatic forcings.",
+    "url": "https://csdms.colorado.edu/wiki/Model:TopoFlow",
+    "developmentStatus": "Active"
+}

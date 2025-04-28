@@ -1,0 +1,60 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Symphonie",
+    "codeRepository": "http://sirocco.omp.obs-mip.fr/ocean_models",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran90"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "downloadUrl": "http://sirocco.omp.obs-mip.fr/ocean_models",
+    "memoryRequirements": "A few Gb",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Patrick",
+            "familyName": "Marsaleix",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Laboratoire d'A\u00e9rologie",
+                "address": "Toulouse, France"
+            },
+            "email": "mailto:patrick.marsaleix@aero.obs-mip.fr"
+        }
+    ],
+    "dateCreated": "1993-01-01",
+    "keywords": [
+        "Marine",
+        "primitive",
+        "model",
+        "coastal ocean model",
+        "three-dimensional primitive equations",
+        "primitive equations coastal",
+        "equations coastal ocean",
+        "ocean model",
+        "symphonie",
+        "three-dimensional primitive",
+        "primitive equations",
+        "equations coastal",
+        "coastal ocean",
+        "physical oceanography",
+        "physical oceanography"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "SYMPHONIE is a three-dimensional primitive equations coastal ocean model",
+    "url": "https://csdms.colorado.edu/wiki/Model:Symphonie",
+    "developmentStatus": "Active"
+}

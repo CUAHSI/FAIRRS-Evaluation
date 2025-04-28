@@ -1,0 +1,58 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Avulsion",
+    "codeRepository": "https://github.com/mcflugen/sedflux",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/mcflugen/sedflux",
+    "memoryRequirements": "Minimal",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Eric",
+            "familyName": "Hutton",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Colorado",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:huttone@colorado.edu"
+        }
+    ],
+    "dateCreated": "2002-01-01",
+    "keywords": [
+        "Hydrology",
+        "Coastal",
+        "stream",
+        "model",
+        "model stream avulsion",
+        "model stream",
+        "random walk",
+        "stream avulsion",
+        "avulsion as random",
+        "walk",
+        "coastal evolution",
+        "avulsion",
+        "coastal evolution"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Apache public license"
+    },
+    "identifier": "10.1594/IEDA/100091",
+    "description": "Model stream avulsion as random walk",
+    "url": "https://csdms.colorado.edu/wiki/Model:Avulsion",
+    "developmentStatus": "As is, no updates are provided"
+}

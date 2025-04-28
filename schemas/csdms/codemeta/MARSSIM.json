@@ -1,0 +1,60 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "MARSSIM",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran90"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "memoryRequirements": "Variable  dynamic arrays",
+    "operatingSystem": [
+        "Linux",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Alan",
+            "familyName": "Howard",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Virginia",
+                "address": "Charlottesville, United States"
+            },
+            "email": "mailto:ah6p@virginia.edu"
+        }
+    ],
+    "dateCreated": "1990-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "Coastal",
+        "landform",
+        "model",
+        "landform evolution model",
+        "evolution model operating",
+        "larger scale",
+        "landform evolution",
+        "drainage basin",
+        "basin or larger",
+        "evolution model",
+        "model operating",
+        "scale",
+        "recent model development",
+        "targeted planetary applications",
+        "landscape evolution",
+        "marssim",
+        "landscape evolution"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "identifier": "10.1594/IEDA/100144",
+    "description": "A landform evolution model operating at the drainage basin or larger scale. Recent model development has targeted planetary applications.",
+    "url": "https://csdms.colorado.edu/wiki/Model:MARSSIM",
+    "developmentStatus": "Active"
+}

@@ -1,0 +1,61 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "STSWM",
+    "codeRepository": "http://www.csm.ornl.gov/chammp/stswm/index.html",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "downloadUrl": "http://www.csm.ornl.gov/chammp/stswm/index.html",
+    "operatingSystem": [
+        "Unix"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "James",
+            "familyName": "Hack",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Oak Ridge National Laboratory",
+                "address": "Oak Ridge, United States"
+            },
+            "email": "mailto:jhack@ornl.gov"
+        }
+    ],
+    "keywords": [
+        "Climate",
+        "Coastal",
+        "Marine",
+        "ncar",
+        "model",
+        "spectral",
+        "transform",
+        "shallow water equations",
+        "shallow water",
+        "spherical geometry",
+        "water equations",
+        "numerical solution",
+        "evaluating numerical methods",
+        "general circulation models",
+        "equations in spherical",
+        "shallow",
+        "water",
+        "atmospheric general circulation",
+        "model is related",
+        "geometry",
+        "equations",
+        "circulation models",
+        "stswm"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "The model is related to the numerical solution of the shallow water equations in spherical geometry. The shallow water equations are used as a kernel for both oceanic and atmospheric general circulation models and are of interest in evaluating numerical methods for weather forecasting and climate modeling.",
+    "url": "https://csdms.colorado.edu/wiki/Model:STSWM"
+}

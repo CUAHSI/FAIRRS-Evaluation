@@ -1,0 +1,89 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "RHESSys",
+    "codeRepository": "http://fiesta.bren.ucsb.edu/~rhessys/setup/downloads/downloads.html",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "downloadUrl": "http://fiesta.bren.ucsb.edu/~rhessys/setup/downloads/downloads.html",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS"
+    ],
+    "supportingData": [
+        {
+            "@type": "DataFeed",
+            "url": "https://csdms.colorado.edu/csdms_wiki/images/Data.tar",
+            "name": "Test Data"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "christina",
+            "familyName": "Tague",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of California, Santa Barbara",
+                "address": "Santa Barbara, United States"
+            },
+            "email": "mailto:ctague@bren.ucsb.edu"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Janet",
+            "familyName": "Choate",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of California, Santa Barbara",
+                "address": "Santa Barbara, United States"
+            },
+            "email": "mailto:jchoate@bren.ucsb.edu"
+        }
+    ],
+    "dateCreated": "1991-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "system",
+        "simulation",
+        "regional",
+        "hydro-ecological modelling framework",
+        "modelling framework designed",
+        "simulate carbon",
+        "nutrient fluxes",
+        "framework designed",
+        "designed to simulate",
+        "hydro-ecological modelling",
+        "modelling framework",
+        "rhessys is capable",
+        "rhessys",
+        "water",
+        "physically-based process models",
+        "gis-based",
+        "hydro-ecological",
+        "carbon",
+        "biogeochemistry",
+        "water quality",
+        "c-cycle",
+        "nutrient cycle",
+        "biogeochemistry",
+        "water quality",
+        "C-cycle",
+        "Carbon",
+        "Nutrient cycle"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "RHESSys is a GIS-based, hydro-ecological modelling framework designed to simulate carbon, water, and nutrient fluxes. By combining a set of physically-based process models and a methodology for partitioning and parameterizing the landscape, RHESSys is capable of modelling the spatial distribution and spatio-temporal interactions between different processes at the watershed scale.",
+    "url": "https://csdms.colorado.edu/wiki/Model:RHESSys",
+    "developmentStatus": "Active"
+}

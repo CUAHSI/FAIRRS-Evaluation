@@ -1,0 +1,60 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "LOGDIST",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "memoryRequirements": "<512Mb",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Rudy",
+            "familyName": "Slingerland",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Penn State University",
+                "address": "University Park, United States"
+            },
+            "email": "mailto:sling@geosc.psu.edu"
+        }
+    ],
+    "dateCreated": "1992-01-01",
+    "keywords": [
+        "Terrestrial",
+        "logrithmic",
+        "solution",
+        "called from trcalc",
+        "logrithmic velocity distribution",
+        "velocity distribution called",
+        "calculates the logrithmic",
+        "trcalc",
+        "logrithmic velocity",
+        "velocity distribution",
+        "distribution called",
+        "calculates",
+        "vertical velocity profile",
+        "fluvial",
+        "logdist",
+        "vertical velocity profile",
+        "fluvial"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "identifier": "10.1594/IEDA/100142",
+    "description": "Calculates the logrithmic velocity distribution called from TRCALC",
+    "url": "https://csdms.colorado.edu/wiki/Model:LOGDIST",
+    "developmentStatus": "As is, no updates are provided"
+}

@@ -1,0 +1,42 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "CSt_ASMITA",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "memoryRequirements": "Ordinary PC or laptop",
+    "operatingSystem": [
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Alan",
+            "familyName": "Niedoroda",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "URS Corporation-Tallahassee Office",
+                "address": "Tallahassee, United States"
+            },
+            "email": "mailto:alan_niedoroda@urscorp.com"
+        }
+    ],
+    "dateCreated": "2000-01-01",
+    "keywords": [
+        "Coastal",
+        "Marine",
+        "coastal morphdynamics",
+        "sediment transport"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "description": "A length-, and time-averaged representation of coastal system elements including the inner shelf, shoreface, surfzone, inlet, inlet shoals, and estuary channels and tidal flats. The multi-line nature of the morphodynamic model allows it to represent large-scale sediment transport processes with a combination time-average physics empirical relationships. A major use is to represent the interactions between system components to develop with changes in large scale forcing such as accelerated sea level rise, changes in river sediment input (ie. dams), changes in estuary tide prisms (ie. dikes) and the like.",
+    "url": "https://csdms.colorado.edu/wiki/Model:CSt_ASMITA"
+}

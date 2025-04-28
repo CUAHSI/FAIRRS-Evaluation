@@ -1,0 +1,81 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "River_Temperature_Model",
+    "codeRepository": "https://github.com/permamodel/River-temp-python",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/permamodel/River-temp-python",
+    "operatingSystem": [
+        "Mac OS"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Irina",
+            "familyName": "Overeem",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Colorado",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:irina.overeem@colorado.edu"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Lei",
+            "familyName": "Zheng",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Wuhan University",
+                "address": "Boulder, China"
+            },
+            "email": "mailto:zhenglei007@whu.edu.cn"
+        }
+    ],
+    "dateCreated": "2018-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "temperature",
+        "model",
+        "river",
+        "approach",
+        "applied in arctic",
+        "water temperature model",
+        "river water temperature",
+        "arctic rivers",
+        "water temperature",
+        "arctic",
+        "temperature model",
+        "river water",
+        "heat",
+        "net solar radiation",
+        "net longwave radiation",
+        "radiation",
+        "designed",
+        "include surface net",
+        "permafrost",
+        "river discharge",
+        "river temperature model",
+        "permafrost",
+        "river discharge",
+        "river"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "description": "The river water temperature model is designed to be applied in Arctic rivers. Heat energy transfers considered include surface net solar radiation, net longwave radiation, latent heat due to evaporation and condensation, convective heat and the riverbed heat flux. The model is explicitly designed to interact with a permafrost channelbed and frozen conditions through seasonal cycles. In addition to the heat budget, river discharge, or stage, drives the model.",
+    "url": "https://csdms.colorado.edu/wiki/Model:River_Temperature_Model",
+    "developmentStatus": "Active"
+}

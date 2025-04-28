@@ -1,0 +1,46 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "BITM",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran90"
+        }
+    ],
+    "applicationCategory": "Single",
+    "memoryRequirements": "2GB",
+    "operatingSystem": [
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Riccardo",
+            "familyName": "Masetti",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Bologna",
+                "address": "Bologna, Italy"
+            },
+            "email": "mailto:riccardo.masetti@tele2.it"
+        }
+    ],
+    "dateCreated": "2006-01-01",
+    "keywords": [
+        "Coastal",
+        "coastal evolution",
+        "barrier island",
+        "wave current interaction"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "BIT Model aims to simulate the dynamics of the principal processes that govern the formation and evolution of a barrier island. The model includes sea-level oscillations and sediment distribution operated by waves and currents. Each process determines the deposition of a distinct sediment facies, separately schematized in the spatial domain. Therefore, at any temporal step, it is possible to recognize six different stratigraphic units: bedrock, transitional, overwash, shoreface aeolian and lagoonal.",
+    "url": "https://csdms.colorado.edu/wiki/Model:BITM"
+}

@@ -1,0 +1,64 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "DepressionFinderAndRouter",
+    "codeRepository": "https://github.com/landlab/landlab/tree/master/landlab/components/overland_flow",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "downloadUrl": "https://github.com/landlab/landlab/tree/master/landlab/components/overland_flow",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Dan",
+            "familyName": "Hobley",
+            "affiliation": {
+                "@type": "Organization",
+                "address": "BOULDER, United States"
+            },
+            "email": "mailto:daniel.hobley@colorado.edu"
+        }
+    ],
+    "dateCreated": "2018-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "find",
+        "surface",
+        "topographic surface",
+        "component identifies depressions",
+        "default true",
+        "component identifies",
+        "identifies depressions",
+        "find existing routing",
+        "component",
+        "existing routing fields",
+        "routing fields output",
+        "finds an outlet",
+        "find existing",
+        "identifies",
+        "topographic",
+        "outlet",
+        "flow path",
+        "drainage",
+        "depressionfinderandrouter",
+        "flow path",
+        "drainage"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "This component identifies depressions in a topographic surface, finds an outlet for each depression.  If directed to do so (default True), and the component is able to find existing routing fields output from the 'route_flow_dn' component, it will then modify the drainage directions and accumulations already stored in the grid to route flow across these depressions.",
+    "url": "https://csdms.colorado.edu/wiki/Model:DepressionFinderAndRouter"
+}

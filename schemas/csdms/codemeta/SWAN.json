@@ -1,0 +1,61 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "SWAN",
+    "codeRepository": "http://www.swan.tudelft.nl/",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "downloadUrl": "http://www.swan.tudelft.nl/",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Team",
+            "familyName": "SWAN",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Delft University of Technology, Faculty of Civil Engineering and Geosciences",
+                "address": "Delft, Netherlands"
+            },
+            "email": "mailto:swan-info-citg@tudelft.nl"
+        }
+    ],
+    "dateCreated": "1993-01-01",
+    "keywords": [
+        "Coastal",
+        "swan",
+        "model",
+        "short-crested wind-generated waves",
+        "third-generation wave model",
+        "computes random",
+        "short-crested wind-generated",
+        "inland waters",
+        "model that computes",
+        "coastal regions",
+        "regions and inland",
+        "third-generation wave",
+        "wave model",
+        "wind-generated waves",
+        "waves in coastal",
+        "random",
+        "short-crested",
+        "wave dynamics",
+        "wave dynamics"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "SWAN is a third-generation wave model that computes random, short-crested wind-generated waves in coastal regions and inland waters.",
+    "url": "https://csdms.colorado.edu/wiki/Model:SWAN",
+    "developmentStatus": "Active"
+}

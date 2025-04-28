@@ -1,0 +1,41 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "FluidMud",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        }
+    ],
+    "applicationCategory": "Single",
+    "memoryRequirements": "~2Mb",
+    "operatingSystem": [
+        "Linux",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Tian-Jian",
+            "familyName": "Hsu",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Florida",
+                "address": "Gainesville, United States"
+            },
+            "email": "mailto:thsu@ufl.edu"
+        }
+    ],
+    "dateCreated": "2005-01-01",
+    "keywords": [
+        "Coastal",
+        "fluid mud transport"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "This is a 1DV wave-phase resolving numerical model for fluid mud transport based on mixture theory with boundary layer approximation. The model incorporates turbulence-sediment interaction, gravity-driven flow, mud rheology, bed erodibility and the dynamics of floc break-up and aggregation.",
+    "url": "https://csdms.colorado.edu/wiki/Model:FluidMud"
+}

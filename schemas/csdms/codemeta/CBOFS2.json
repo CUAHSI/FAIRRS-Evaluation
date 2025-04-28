@@ -1,0 +1,63 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "CBOFS2",
+    "codeRepository": "https://www.myroms.org/index.php?page=login",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran90"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://www.myroms.org/index.php?page=login",
+    "memoryRequirements": "Depends on application but it is relatively small in distributedmemory since only the tile partition is allocated for global and local arrays. All the state model variables are dynamically allocated and passed as arguments to the computational routines via dereferenced pointer structures.",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Windows",
+        "CygWin"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Lyon",
+            "familyName": "Lanerolle",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "NOAA",
+                "address": "Silver Spring, United States"
+            },
+            "email": "mailto:Lyon.Lanerolle@noaa.gov"
+        }
+    ],
+    "dateCreated": "1998-01-01",
+    "keywords": [
+        "Marine",
+        "system",
+        "generation",
+        "chesapeake",
+        "bay",
+        "regional ocean modeling",
+        "ocean modeling system",
+        "national ocean service",
+        "regional ocean",
+        "ocean modeling",
+        "operational forecast system",
+        "modeling system",
+        "ocean service presently",
+        "forecast system",
+        "baroclinic forecast system",
+        "national ocean",
+        "ocean service",
+        "water levels",
+        "special case",
+        "cbofs2"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "This is a special case of the Regional Ocean Modeling System(ROMS). The National Ocean Service presently has an Operational Forecast System (CBOFS) for the Chesapeake Bay which generates only water levels and depth\u2010integrated currents. As a next generation system, a fully three\u2010dimensional, baroclinic Forecast System (CBOFS2) was developed, calibrated and validated; this system will produce water levels, currents, temperature and salinity. First, a two\u2010month tides only simulation was conducted to validate the water levels and currents and thereafter, a synoptic hindcast simulation from June 01, 2003\u2013September 01, 2005 was conducted to validate water levels, currents, temperature and salinity. Upon comparison with observations, CBOFS2 for the most part met the target NOS water level error criteria and for current error, the criteria were met exceptionally well; the temperature and salinity errors were frequently less than 1 C and 3 PSU respectively. Hence, the predictive accuracy of CBOFS2 warranted it being accepted as a suitable three\u2010dimensional upgrade to CBOFS.\nPlease see https://csdms.colorado.edu/wiki/Model:ROMS for details.",
+    "url": "https://csdms.colorado.edu/wiki/Model:CBOFS2"
+}

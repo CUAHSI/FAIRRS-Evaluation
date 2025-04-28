@@ -1,0 +1,91 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Dorado",
+    "codeRepository": "https://github.com/passaH2O/dorado",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/passaH2O/dorado",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Jayaram",
+            "familyName": "Hariharan",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Department of Civil, Architectural and Environmental Engineering, The University of Texas",
+                "address": "Austin, United States"
+            },
+            "email": "mailto:jayaram.hariharan@utexas.edu"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Paola",
+            "familyName": "Passalacqua",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Department of Civil, Architectural and Environmental Engineering, The University of Texas",
+                "address": "Austin, United States"
+            },
+            "email": "mailto:paola@austin.utexas.edu"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Kyle",
+            "familyName": "Wright",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Department of Civil, Architectural and Environmental Engineering, The University of Texas",
+                "address": "Austin, United States"
+            },
+            "email": "mailto:kyleawright@utexas.edu"
+        }
+    ],
+    "dateCreated": "2020-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "python",
+        "flows",
+        "simulating passive lagrangian",
+        "passive lagrangian particle",
+        "lagrangian particle transport",
+        "shallow-water hydrodynamic model",
+        "random walk methodology",
+        "weighted random walk",
+        "python package",
+        "passive lagrangian",
+        "lagrangian particle",
+        "shallow-water hydrodynamic",
+        "walk methodology",
+        "package for simulating",
+        "simulating passive",
+        "particle transport",
+        "transport over flow-fields",
+        "sediment transport",
+        "sediment flux",
+        "dorado",
+        "particle transport",
+        "Sediment Transport",
+        "Sediment flux",
+        "Lagrangian particle transport"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "Dorado is a Python package for simulating passive Lagrangian particle transport over flow-fields from any 2D shallow-water hydrodynamic model using a weighted random walk methodology.",
+    "url": "https://csdms.colorado.edu/wiki/Model:Dorado",
+    "developmentStatus": "Active"
+}

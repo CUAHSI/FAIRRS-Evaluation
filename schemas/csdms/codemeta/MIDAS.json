@@ -1,0 +1,67 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "MIDAS",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "memoryRequirements": "<512Mb",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Rudy",
+            "familyName": "Slingerland",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Penn State University",
+                "address": "University Park, United States"
+            },
+            "email": "mailto:sling@geosc.psu.edu"
+        }
+    ],
+    "dateCreated": "1992-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "coupled",
+        "flow",
+        "heterogeneous",
+        "model",
+        "single channel flow",
+        "heterogeneous size-density mixtures",
+        "channel flow model",
+        "movable bed",
+        "single channel",
+        "size-density mixtures",
+        "channel flow",
+        "heterogeneous size-density",
+        "flow model",
+        "quasi-unsteady",
+        "model for heterogeneous",
+        "nonuniform",
+        "movable",
+        "bed",
+        "single",
+        "fluvial morphodynamics",
+        "midas",
+        "fluvial morphodynamics"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "identifier": "10.1594/IEDA/100147",
+    "description": "This model is a nonuniform, quasi-unsteady, movable bed, single channel flow model for heterogeneous size-density mixtures",
+    "url": "https://csdms.colorado.edu/wiki/Model:MIDAS",
+    "developmentStatus": "As is, no updates are provided"
+}

@@ -1,0 +1,65 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "LISFLOOD",
+    "codeRepository": "https://github.com/ec-jrc/lisflood-code",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "downloadUrl": "https://github.com/ec-jrc/lisflood-code",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Ad",
+            "familyName": "de Roo",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Joint Research Centre (JRC) of the European Commission",
+                "address": "Ispra, Italy"
+            },
+            "email": "mailto:ad.de-roo@jrc.it"
+        }
+    ],
+    "dateCreated": "1996-01-01",
+    "keywords": [
+        "Hydrology",
+        "lisflood",
+        "model",
+        "joint research centre",
+        "semi-physical hydrological rainfall-runoff",
+        "research centre",
+        "hydrological rainfall-runoff model",
+        "joint research",
+        "commission in late",
+        "european commission",
+        "european flood awareness",
+        "spatially distributed",
+        "semi-physical hydrological",
+        "flood awareness system",
+        "emergency management system",
+        "hydrological rainfall-runoff",
+        "rainfall-runoff model",
+        "copernicus emergency management",
+        "hydrological model",
+        "rainfall-runoff",
+        "Hydrological model",
+        "Rainfall-runoff"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "LISFLOOD is a spatially distributed, semi-physical hydrological rainfall-runoff model that has been developed by the Joint Research Centre (JRC) of the European Commission in late 90ies. Since then LISFLOOD has been applied to a wide range of applications such as all kind of water resources assessments looking at e.g. the effects of climate and land-use change as well as river regulation measures. Its most prominent application is probably within the European Flood Awareness System (EFAS) operated under Copernicus Emergency Management System (EMS).",
+    "url": "https://csdms.colorado.edu/wiki/Model:LISFLOOD",
+    "developmentStatus": "Active"
+}

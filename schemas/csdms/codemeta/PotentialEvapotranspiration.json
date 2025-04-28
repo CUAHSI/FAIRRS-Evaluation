@@ -1,0 +1,65 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "PotentialEvapotranspiration",
+    "codeRepository": "https://github.com/landlab/landlab/tree/master/landlab",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/landlab/landlab/tree/master/landlab",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Sai",
+            "familyName": "Nudurupati",
+            "affiliation": {
+                "@type": "Organization",
+                "address": "Seattle, United States"
+            },
+            "email": "mailto:saisiddu@uw.edu"
+        }
+    ],
+    "dateCreated": "2015-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "Climate",
+        "Ecosystems",
+        "calculates",
+        "evapotranspiration",
+        "potential evapotranspiration component",
+        "evapotranspiration component calculates",
+        "component calculates spatially",
+        "distributed potential evapotranspiration",
+        "potential evapotranspiration based",
+        "priestley taylor",
+        "spatially distributed potential",
+        "evapotranspiration component",
+        "potential evapotranspiration",
+        "calculates spatially distributed",
+        "component calculates",
+        "constant or priestley",
+        "input radiation factor",
+        "evapotranspiration based",
+        "spatial distribution",
+        "potentialevapotranspiration",
+        "evapotranspiration"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "Potential Evapotranspiration Component calculates spatially distributed potential evapotranspiration based on input radiation factor (spatial distribution of incoming radiation) using chosen method such as constant or Priestley Taylor. Ref: Xiaochi et. al. 2013 for 'Cosine' method and ASCE-EWRI Task Committee Report Jan 2005 for 'PriestleyTaylor' method.\nNote: Calling 'PriestleyTaylor' method would generate/overwrite shortwave & longwave radiation fields.",
+    "url": "https://csdms.colorado.edu/wiki/Model:PotentialEvapotranspiration",
+    "developmentStatus": "Only maintenance"
+}

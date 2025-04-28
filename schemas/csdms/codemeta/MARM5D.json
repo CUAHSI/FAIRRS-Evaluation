@@ -1,0 +1,68 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "MARM5D",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran90"
+        }
+    ],
+    "applicationCategory": "Single",
+    "memoryRequirements": "Depend on landscape size and resolution.",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Sagy",
+            "familyName": "Cohen",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Alabama",
+                "address": "Tuscaloosa, Afghanistan"
+            },
+            "email": "mailto:sagy.cohen@ua.edu"
+        }
+    ],
+    "dateCreated": "2006-01-01",
+    "keywords": [
+        "Terrestrial",
+        "landscape-scale",
+        "model",
+        "explicit particle size",
+        "particle size distribution",
+        "simulates soil evolution",
+        "spatial dimensions",
+        "temporal dimension",
+        "explicit particle",
+        "particle size",
+        "size distribution",
+        "distribution and temporal",
+        "simulates soil",
+        "prefix",
+        "soil evolution",
+        "dimensions",
+        "dimension",
+        "simulates",
+        "pedogenesis",
+        "landform development",
+        "soil",
+        "marm5d",
+        "pedogenesis",
+        "landform development",
+        "soil"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "identifier": "10.5281/zenodo.258080",
+    "description": "Simulates soil evolution on three spatial dimensions, explicit particle size distribution and temporal dimension (hence 5D prefix) as a function of:\n1. Bedrock and soil physical weathering;\n2. Sediment transport by overland flow;\n3. Soil Creep (diffusion);\n4. Aeolian deposition.",
+    "url": "https://csdms.colorado.edu/wiki/Model:MARM5D",
+    "developmentStatus": "As is, no updates are provided"
+}

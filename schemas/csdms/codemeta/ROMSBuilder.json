@@ -1,0 +1,41 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "ROMSBuilder",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Jisamma",
+            "familyName": "Kallumadikal",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "CSDMS",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:jisamma.kallumadikal@colorado.edu"
+        }
+    ],
+    "dateCreated": "2010-01-01",
+    "keywords": [
+        "Marine"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "Why ROMSBuilder?\nROMS extensively uses the C preprocessor (cpp) during compilation to replace code statements, insert files into the code, and select relevant parts of the code depending on its directives. There are numerous cpp options that can be activated in header files for your specific application. The preprocessor reads the source file (*.F) and builds a target file (*.f90) according to activated cpp options.\nCPP options can be set through the CMT config tab dialogs. ROMSBuilder generates the header file for compiling the new ROMS component from the tab dialog inputs.",
+    "url": "https://csdms.colorado.edu/wiki/Model:ROMSBuilder"
+}

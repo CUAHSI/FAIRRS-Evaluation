@@ -1,0 +1,80 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "ESCAPE",
+    "codeRepository": "https://github.com/Geodels/eSCAPE",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran90"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/Geodels/eSCAPE",
+    "operatingSystem": [
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Tristan",
+            "familyName": "Salles",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "School of Geosciences The University of Sydney",
+                "address": "Sydney, Australia"
+            },
+            "email": "mailto:tristan.salles@sydney.edu.au"
+        }
+    ],
+    "dateCreated": "2018-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "Marine",
+        "Climate",
+        "parallel",
+        "model",
+        "simulate earth surface",
+        "earth surface dynamics",
+        "parallel landscape evolution",
+        "landscape evolution model",
+        "simulate earth",
+        "earth surface",
+        "built to simulate",
+        "geological times",
+        "parallel landscape",
+        "landscape evolution",
+        "surface dynamics",
+        "dynamics at global",
+        "global scale",
+        "evolution model",
+        "address problems related",
+        "geomorphology",
+        "marine sedimentation",
+        "erosion/deposition",
+        "parallel computing",
+        "python",
+        "escape",
+        "landscape evolution",
+        "geomorphology",
+        "marine sedimentation",
+        "erosion/deposition",
+        "parallel computing",
+        "Python"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "identifier": "10.5281/zenodo.1419844",
+    "description": "eSCAPE is a parallel landscape evolution model, built to simulate Earth surface dynamics at global scale and over geological times. The model is primarily designed to address problems related to geomorphology, hydrology, and stratigraphy, but it can also be used in related fields.\n\neSCAPE accounts for both hillslope processes (soil creep using linear diffusion) and fluvial incision (stream power law). It can be forced using spatially and temporally varying tectonics (vertical displacements) and climatic conditions (precipitation changes and/or sea-level fluctuations).",
+    "url": "https://csdms.colorado.edu/wiki/Model:ESCAPE",
+    "developmentStatus": "Active"
+}

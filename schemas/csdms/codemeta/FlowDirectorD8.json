@@ -1,0 +1,64 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "FlowDirectorD8",
+    "codeRepository": "https://github.com/landlab/landlab/tree/master/landlab",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "downloadUrl": "https://github.com/landlab/landlab/tree/master/landlab",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Katy",
+            "familyName": "Barnhart",
+            "affiliation": {
+                "@type": "Organization",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:katherine.barnhart@colorado.edu"
+        }
+    ],
+    "dateCreated": "2016-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "single-path",
+        "steepest",
+        "flow",
+        "rasters",
+        "flow direction finding",
+        "steepest direction",
+        "finding on raster",
+        "raster grids",
+        "direction finding",
+        "flow direction",
+        "direction",
+        "method",
+        "finding",
+        "raster",
+        "grids",
+        "flow path",
+        "flow director",
+        "flowdirectord8",
+        "flow path",
+        "flow director"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "Single-path (steepest direction) flow direction finding on raster grids by the D8 method. This method considers flow on all eight links such that flow is possible on orthogonal and on diagonal links.",
+    "url": "https://csdms.colorado.edu/wiki/Model:FlowDirectorD8",
+    "developmentStatus": "Only maintenance"
+}

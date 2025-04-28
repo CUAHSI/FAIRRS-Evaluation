@@ -1,0 +1,71 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "SoilInfiltrationGreenAmpt",
+    "codeRepository": "https://github.com/landlab/landlab/blob/master/landlab/components/soil_moisture/infiltrate_soil_green_ampt.py",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "downloadUrl": "https://github.com/landlab/landlab/blob/master/landlab/components/soil_moisture/infiltrate_soil_green_ampt.py",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Francis",
+            "familyName": "Rengers",
+            "affiliation": {
+                "@type": "Organization",
+                "address": "Golden, United States"
+            },
+            "email": "mailto:frengers@usgs.gov"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Jordan",
+            "familyName": "Adams",
+            "affiliation": {
+                "@type": "Organization",
+                "address": "Golden, United States"
+            },
+            "email": "mailto:jordan.adams@colorado.edu"
+        }
+    ],
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "landlab",
+        "solution",
+        "surface water depths",
+        "updates surface water",
+        "time step",
+        "water depths",
+        "component calculates",
+        "calculates an infiltration",
+        "infiltration rate",
+        "model location",
+        "location and updates",
+        "updates surface",
+        "surface water",
+        "step",
+        "depths",
+        "form of julien",
+        "green-ampt method",
+        "soilinfiltrationgreenampt"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "For each time step, this component calculates an infiltration rate for a given model location and updates surface water depths. Based on the Green-Ampt method, it follows the form of Julien et al., 1995.",
+    "url": "https://csdms.colorado.edu/wiki/Model:SoilInfiltrationGreenAmpt",
+    "developmentStatus": "As is, no updates are provided"
+}

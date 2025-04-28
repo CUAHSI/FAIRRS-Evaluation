@@ -1,0 +1,66 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "LEMming",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Single",
+    "memoryRequirements": "Low to moderate",
+    "operatingSystem": [
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Dylan",
+            "familyName": "Ward",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of New Mexico",
+                "address": "Albuquerque, United States"
+            },
+            "email": "mailto:djward@unm.edu"
+        }
+    ],
+    "dateCreated": "2008-01-01",
+    "keywords": [
+        "Terrestrial",
+        "regular-grid",
+        "rules-based",
+        "landscape",
+        "evolution",
+        "lemming tracks regolith",
+        "lemming tracks",
+        "rockfall",
+        "including bedrock erosion",
+        "rockfall debris",
+        "steep slopes",
+        "sediment fluxes",
+        "including bedrock",
+        "tracks regolith",
+        "slope angle",
+        "regolith",
+        "slope",
+        "cell",
+        "debris",
+        "based",
+        "landscape evolution",
+        "rock type",
+        "lemming",
+        "landscape evolution",
+        "rock type"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "identifier": "10.1594/IEDA/100141",
+    "description": "LEMming tracks regolith and sediment fluxes, including bedrock erosion by streams and rockfall from steep slopes. Initial landscape form and stratigraphic structure are prescribed. Model grid cells with slope angles above a threshold, and which correspond to the appropriate rock type, are designated as candidate sources for rockfall. Rockfall erosion of the cliffband is simulated by instantaneously reducing the height of a randomly chosen grid cell that is susceptible to failure to that of its nearest downhill neighbor among the eight cells bordering it. This volume of rockfall debris is distributed across the landscape below this cell according to rules that weight the likelihood of each downhill cell to retain rockfall debris. The weighting is based on local conditions such as slope angle, topographic curvature, and distance and direction from the rockfall source. Rockfall debris and the bedrock types are each differentiated by the rate at which they weather to regolith and by their fluvial erodibility. Regolith is moved according to transport rules mimicking hillslope processes (dependent on local slope angle), and bedload and suspended load transport (based on stream power). Regolith and sediment transport are limited by available material; bedrock incision occurs (also based on stream power) where bare rock is exposed.",
+    "url": "https://csdms.colorado.edu/wiki/Model:LEMming"
+}

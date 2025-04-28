@@ -1,0 +1,64 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "CoastMorpho2D",
+    "codeRepository": "https://github.com/csdms-contrib/CoastMorpho2D",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "downloadUrl": "https://github.com/csdms-contrib/CoastMorpho2D",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Giulio",
+            "familyName": "Mariotti",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Louisiana State University",
+                "address": "Baton Rouge, United States"
+            },
+            "email": "mailto:gmariotti@lsu.edu"
+        }
+    ],
+    "keywords": [
+        "Coastal",
+        "long",
+        "term",
+        "morphodynamics",
+        "areas",
+        "including tidal currents",
+        "long term",
+        "storm surge",
+        "edge erosion",
+        "wind waves",
+        "swell waves",
+        "marsh vegetation",
+        "marsh ponding",
+        "morphodynamics of coastal",
+        "coastal areas",
+        "including tidal",
+        "tidal currents",
+        "sand",
+        "mud",
+        "waves",
+        "coastmorpho2d"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "identifier": "10.5281/zenodo.10563890",
+    "description": "Long term 2D morphodynamics of coastal areas, including tidal currents, wind waves, swell waves,  storm surge, sand, mud, marsh vegetation, edge erosion, marsh ponding, and stratigraphy.\nThe CoastMorpho2D model includes the MarshMorpho2D model (which was previously uploaded on CSDMS)",
+    "url": "https://csdms.colorado.edu/wiki/Model:CoastMorpho2D",
+    "developmentStatus": "Active"
+}

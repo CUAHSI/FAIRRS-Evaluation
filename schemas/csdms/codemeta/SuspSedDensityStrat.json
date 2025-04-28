@@ -1,0 +1,65 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "SuspSedDensityStrat",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "operatingSystem": [
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Gary",
+            "familyName": "Parker",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Illinois at Urbana-Champaign",
+                "address": "Urbana, United States"
+            },
+            "email": "mailto:parkerg@illinois.edu"
+        }
+    ],
+    "dateCreated": "1990-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "e-book",
+        "module",
+        "sediment",
+        "calculating",
+        "density stratification effects",
+        "open channels",
+        "density stratification",
+        "calculation of density",
+        "stratification effects",
+        "suspended sediment",
+        "suspended sediment concentration",
+        "channels",
+        "density",
+        "stratification",
+        "open",
+        "sediment in open",
+        "suspended",
+        "sediment concentration profiles",
+        "fluvial morphodynamics",
+        "suspseddensitystrat",
+        "suspended sediment",
+        "fluvial morphodynamics"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "identifier": "10.1594/IEDA/100172",
+    "description": "Calculation of Density Stratification Effects Associated with Suspended Sediment in Open Channels.\n\nThis program calculates the effect of sediment self-stratification on the streamwise velocity and suspended sediment concentration profiles in open-channel flow.\n\nTwo options are given. Either the near-bed reference concentration Cr can be specified by the user, or the user can specify a shear velocity due to skin friction u*s and compute Cr from the Garcia-Parker sediment entrainment relation.",
+    "url": "https://csdms.colorado.edu/wiki/Model:SuspSedDensityStrat",
+    "developmentStatus": "As is, no updates are provided"
+}

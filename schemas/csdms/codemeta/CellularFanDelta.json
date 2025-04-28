@@ -1,0 +1,44 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "CellularFanDelta",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C++"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "operatingSystem": [
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Matthew",
+            "familyName": "Wolinsky",
+            "affiliation": {
+                "@type": "Organization",
+                "address": "Matthew.Wolinsky@shell.com, United States"
+            },
+            "email": "mailto:Matthew.Wolinsky@shell.com"
+        }
+    ],
+    "dateCreated": "2006-01-01",
+    "keywords": [
+        "Coastal",
+        "Terrestrial",
+        "delta evolution",
+        "stratigraphy",
+        "coarse grain"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "description": "3D cellular model simulating delta evolution in coarse grained river dominated systems (e.g. a gravel fan delta).",
+    "url": "https://csdms.colorado.edu/wiki/Model:CellularFanDelta"
+}

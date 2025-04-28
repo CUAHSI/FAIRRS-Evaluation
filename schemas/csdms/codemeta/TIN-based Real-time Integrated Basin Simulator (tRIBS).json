@@ -1,0 +1,66 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "TIN-based_Real-time_Integrated_Basin_Simulator_(tRIBS)",
+    "codeRepository": "https://github.com/tribshms/tRIBS",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C++"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/tribshms/tRIBS",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Enrique",
+            "familyName": "Vivoni",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Arizona State University",
+                "address": "Tempe, United States"
+            },
+            "email": "mailto:vivoni@asu.edu"
+        }
+    ],
+    "dateCreated": "2000-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "Ecosystems",
+        "tin",
+        "network",
+        "integrated",
+        "basin",
+        "mit license includes",
+        "mit license",
+        "moisture infiltration fronts",
+        "license includes",
+        "vertical redistribution",
+        "tribs model",
+        "soil moisture infiltration",
+        "vadose and saturated",
+        "saturated zones",
+        "mit",
+        "soil moisture",
+        "hydrologic processes",
+        "complex terrain",
+        "moisture infiltration",
+        "infiltration fronts",
+        "tin-based real-time integrated basin simulator (tribs)"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "identifier": "10.5281/zenodo.13324179",
+    "description": "The tRIBS model in this release (version 5.2.0 of May 3, 2024) under the MIT license includes:\n\nHydrologic Processes:\n\nSoil moisture infiltration fronts and their vertical redistribution.\nCoupled dynamics of the vadose and saturated zones with a dynamic water table.\nTopography-driven lateral fluxes in the vadose and saturated zones.\nRadiation and energy balance components on complex terrain.\nSingle layer snowpack accumulation, ablation and melt on complex terrain.\nRainfall and snow interception on vegetation canopies.\nEvaporation of intercepted rainfall, soil evaporation and plant transpiration.\nHydrologic hillslope routing, hydraulic routing in channels, level-pool reservoir routing.\n\nComputational Processes:\n\nMulti-resolution domain generated with channel network and watershed boundary.\nComputationally-efficient methods for infiltration, snow dynamics and flow routing.\nSerial operation for point-scale simulations and small watershed domains.\nParallelized operation for large domains optimized through subbasin partitioning methods.\nIngestion of time-varying meteorological forcing from stations or raster-based products.\nIngestion of soil and vegetation parameters from tabular data or raster-based products.\nPre- and post-processing workflows for time series and spatial analysis using Python.",
+    "url": "https://csdms.colorado.edu/wiki/Model:TIN-based_Real-time_Integrated_Basin_Simulator_(tRIBS)",
+    "developmentStatus": "Active"
+}

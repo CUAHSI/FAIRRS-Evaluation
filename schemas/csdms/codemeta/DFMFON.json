@@ -1,0 +1,89 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "DFMFON",
+    "codeRepository": "https://github.com/smbeselly/DFMFON",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "Java"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "downloadUrl": "https://github.com/smbeselly/DFMFON",
+    "memoryRequirements": "16GB",
+    "operatingSystem": [
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Sebrian",
+            "familyName": "Beselly",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "IHE Delft Institute for Water Education",
+                "address": "Delft, Netherlands"
+            },
+            "email": "mailto:s.besellyputra@un-ihe.org"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Sebrian",
+            "familyName": "Beselly",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Universitas Brawijaya",
+                "address": "Malang, Indonesia"
+            },
+            "email": "mailto:sebrian@ub.ac.id"
+        }
+    ],
+    "dateCreated": "2023-01-01",
+    "keywords": [
+        "Coastal",
+        "model",
+        "dynamic",
+        "spatially-explicit",
+        "hydromorphology development mechanistically",
+        "open-source software written",
+        "dfmfon stands",
+        "written in python",
+        "python to simulate",
+        "hydromorphology development",
+        "development mechanistically",
+        "mangrove model mfon",
+        "open-source software",
+        "software written",
+        "hydromorphodynamic model dfm",
+        "mesh",
+        "mangrove and hydromorphology",
+        "dfmfon",
+        "dfm",
+        "mangrove dynamics",
+        "sediment dynamics",
+        "mangrove-hydromorphodynamic model",
+        "individual-based mangrove model",
+        "delft3d-fm",
+        "mangrove modelling",
+        "eco-geomorphology",
+        "mangrove dynamics",
+        "sediment dynamics",
+        "mangrove-hydromorphodynamic model",
+        "individual-based mangrove model",
+        "Delft3D-FM",
+        "mangrove modelling",
+        "eco-geomorphology"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "description": "DFMFON stands for Delft3D-Flexible Mesh (DFM), and MesoFON (MFON) is an open-source software written in Python to simulate the Mangrove and Hydromorphology development mechanistically. We achieve that by coupling the multi-paradigm of the individual-based mangrove model MFON and process-based hydromorphodynamic model DFM.",
+    "url": "https://csdms.colorado.edu/wiki/Model:DFMFON",
+    "developmentStatus": "Only maintenance"
+}

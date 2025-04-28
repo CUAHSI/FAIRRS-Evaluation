@@ -1,0 +1,66 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "DeltaNorm",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "operatingSystem": [
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Gary",
+            "familyName": "Parker",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Illinois at Urbana-Champaign",
+                "address": "Urbana, United States"
+            },
+            "email": "mailto:parkerg@illinois.edu"
+        }
+    ],
+    "dateCreated": "1990-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "e-book",
+        "calculator",
+        "migrating",
+        "delta",
+        "subaerial fluvial fan-delta",
+        "subaerial fluvial",
+        "fluvial fan-delta",
+        "constant width",
+        "subaerial",
+        "fluvial",
+        "width",
+        "constant",
+        "constant bed resistance",
+        "fan-delta",
+        "channel",
+        "constant bed",
+        "fan-delta prograding",
+        "unit width",
+        "bed profile evolution",
+        "subaerial fluvial delta",
+        "deltanorm",
+        "bed profile evolution",
+        "subaerial fluvial delta"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "identifier": "10.1594/IEDA/100109",
+    "description": "Calculator for 1D Subaerial Fluvial Fan-Delta with Channel of Constant Width. This model assumes a narrowly channelized 1D fan-delta prograding into standing water. The model uses a single grain size D, a generic total bed material load relation and a constant bed resistance coefficient. The channel is assumed to have a constant width.  Water and sediment discharge are specified per unit width. The fan builds outward by forming a prograding delta front with an assigned foreset slope. The code employs the normal flow approximation rather than a full backwater calculation.",
+    "url": "https://csdms.colorado.edu/wiki/Model:DeltaNorm",
+    "developmentStatus": "As is, no updates are provided"
+}

@@ -1,0 +1,67 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "BedrockAlluvialTransition",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "operatingSystem": [
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Gary",
+            "familyName": "Parker",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Illinois at Urbana-Champaign",
+                "address": "Urbana, United States"
+            },
+            "email": "mailto:parkerg@illinois.edu"
+        }
+    ],
+    "dateCreated": "1990-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "e-book",
+        "calculator",
+        "end",
+        "computes fluvial aggradation",
+        "program computes fluvial",
+        "bedrock-alluvial transition",
+        "fluvial aggradation",
+        "bedrock basement channel",
+        "sba",
+        "program computes",
+        "computes fluvial",
+        "bedrock basement",
+        "basement channel",
+        "bedrock-alluvial",
+        "transition",
+        "point sba",
+        "alluvial reach",
+        "change",
+        "bed variation",
+        "fluvial morphodynamics",
+        "bedrockalluvialtransition",
+        "bed variation",
+        "bedrock-alluvial transition",
+        "fluvial morphodynamics"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "identifier": "10.1594/IEDA/100095",
+    "description": "This program computes fluvial aggradation/degradation with a bedrock-alluvial transition. The bedrock-alluvial transition is located at a point sba(t) which is free to change in time. A bedrock basement channel with slope Sb is exposed from x = 0 to sba(t); it is covered with alluvium from x = sba(t) to x = sd, where sd is fixed.  Initially sba = 0. The bedrock basement channel is assumed to undergo no incision on the time scales at which the alluvial reach responds to change. In computing bed level change on the alluvial reach, the normal (steady, uniform) flow approximation is used.  Base level is maintained at x = sd, where bed elevation h = 0. The Engelund-Hansen relation is used to compute sediment transport rate, so the analysis is appropriate for sand-bed streams.  Resistance is specified in terms of a constant Chezy coefficient Cz.",
+    "url": "https://csdms.colorado.edu/wiki/Model:BedrockAlluvialTransition",
+    "developmentStatus": "As is, no updates are provided"
+}

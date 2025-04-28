@@ -1,0 +1,56 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "OverlandFlowBates",
+    "codeRepository": "https://github.com/landlab/landlab/tree/master/landlab",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/landlab/landlab/tree/master/landlab",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Jordan",
+            "familyName": "Adams",
+            "affiliation": {
+                "@type": "Organization",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:jordan.adams@colorado.edu"
+        }
+    ],
+    "dateCreated": "2015-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "bates",
+        "numerical",
+        "flow",
+        "overland flow",
+        "simulate overland flow",
+        "overland",
+        "flood",
+        "shallow water",
+        "overlandflowbates",
+        "overland flow",
+        "flood",
+        "shallow water"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "Simulate overland flow using Bates et al. (2010).\n\nLandlab component that simulates overland flow using the Bates et al., (2010) approximations of the 1D shallow water equations to be used for 2D flood inundation modeling.\n\nThis component calculates discharge, depth and shear stress after some precipitation event across any raster grid. Default input file is named \u201coverland_flow_input.txt\u2019 and is contained in the landlab.components.overland_flow folder.",
+    "url": "https://csdms.colorado.edu/wiki/Model:OverlandFlowBates",
+    "developmentStatus": "Only maintenance"
+}

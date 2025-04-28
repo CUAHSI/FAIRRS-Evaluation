@@ -1,0 +1,64 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "SoilGrids_Data_Component",
+    "codeRepository": "https://github.com/gantian127/soilgrids",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "downloadUrl": "https://github.com/gantian127/soilgrids",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Tian",
+            "familyName": "Gan",
+            "affiliation": {
+                "@type": "Organization",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:gantian127@gmail.com"
+        }
+    ],
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "Ecosystems",
+        "csdms",
+        "system",
+        "data",
+        "component",
+        "gridded soil information",
+        "digital soil mapping",
+        "global gridded soil",
+        "global digital soil",
+        "basic model interface",
+        "community surface dynamics",
+        "dynamics modeling system",
+        "surface dynamics modeling",
+        "set of functions",
+        "mapping to map",
+        "map the spatial",
+        "spatial distribution",
+        "global gridded",
+        "global digital",
+        "gridded soil",
+        "soilgrids data component"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "soilgrids package provides a set of functions that allow downloading of the global gridded soil information from SoilGrids https://www.isric.org/explore/soilgrids, a system for global digital soil mapping to map the spatial distribution of soil properties across the globe. soilgrids package includes a Basic Model Interface (BMI), which converts the SoilGrids dataset into a reusable, plug-and-play data component for Community Surface Dynamics Modeling System (CSDMS) modeling framework.",
+    "url": "https://csdms.colorado.edu/wiki/Model:SoilGrids_Data_Component",
+    "developmentStatus": "Only maintenance"
+}

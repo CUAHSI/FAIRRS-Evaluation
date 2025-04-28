@@ -1,0 +1,70 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "ROMS",
+    "codeRepository": "https://www.myroms.org/index.php?page=login",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran90"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "downloadUrl": "https://www.myroms.org/index.php?page=login",
+    "memoryRequirements": "Depends on application but it is relatively small in distributedmemory since only the tile partition is allocated for global and local arrays. All the state model variables are dynamically allocated and passed as arguments to the computational routines via dereferenced pointer structures.",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Windows",
+        "CygWin"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Hernan G.",
+            "familyName": "Arango",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "IMCS, Rutgers University",
+                "address": "New Brunswick, United States"
+            },
+            "email": "mailto:arango@marine.rutgers.edu"
+        }
+    ],
+    "dateCreated": "1998-01-01",
+    "keywords": [
+        "Marine",
+        "system",
+        "ocean",
+        "modeling",
+        "regional",
+        "primitive equations ocean",
+        "orthogonal curvilinear",
+        "equations ocean model",
+        "primitive equations",
+        "equations ocean",
+        "representer tangent linear",
+        "tangent linear",
+        "roms",
+        "free-surface",
+        "terrain-following",
+        "ocean model",
+        "linear",
+        "orthogonal",
+        "curvilinear",
+        "primitive",
+        "flow dynamics",
+        "wave dynamics",
+        "physical oceanography",
+        "flow dynamics",
+        "wave dynamics",
+        "physical oceanography"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "ROMS is a Free-surface, terrain-following, orthogonal curvilinear, primitive equations ocean model. Its dynamical kernel is comprised of four separate models including the nonlinear, tangent linear, representer tangent linear, and adjoint models. It has multiple model coupling (ESMF, MCT) and multiple grid nesting (composed, mosaics, refinement) capabilities. The code uses a coarse-grained parallelization with both shared-memory (OpenMP) and distributed-memory (MPI) paradigms coexisting together and activated via C-preprocessing.",
+    "url": "https://csdms.colorado.edu/wiki/Model:ROMS",
+    "developmentStatus": "Active"
+}

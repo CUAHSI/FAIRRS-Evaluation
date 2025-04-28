@@ -1,0 +1,63 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "SWEHR",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        }
+    ],
+    "applicationCategory": "Single",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Luke",
+            "familyName": "McGuire",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Arizona",
+                "address": "Tucson, United States"
+            },
+            "email": "mailto:lmcguire@email.arizona.edu"
+        }
+    ],
+    "dateCreated": "2014-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "infiltration",
+        "fluid",
+        "flow",
+        "transport",
+        "hairsine-rose soil erosion",
+        "shallow water equations",
+        "green-ampt infiltration model",
+        "soil erosion model",
+        "couples the shallow",
+        "shallow water",
+        "green-ampt infiltration",
+        "hairsine-rose soil",
+        "soil erosion",
+        "water equations",
+        "model couples",
+        "infiltration model",
+        "erosion model",
+        "high sediment concentrations",
+        "model",
+        "swehr"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "identifier": "10.5281/zenodo.824087",
+    "description": "The model couples the shallow water equations with the Green-Ampt infiltration model and the Hairsine-Rose soil erosion model. Fluid flow is also modified through source terms in the momentum equations that account for changes in flow behavior associated with high sediment concentrations. See McGuire et al. (2016, Constraining the rates of raindrop- and flow-driven sediment transport mechanisms in postwildfire environments and implications for recovery timescales) for a complete model description and details on the numerical solution of the governing equations.",
+    "url": "https://csdms.colorado.edu/wiki/Model:SWEHR"
+}

@@ -1,0 +1,66 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Acronym1D",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "operatingSystem": [
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Gary",
+            "familyName": "Parker",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Illinois at Urbana-Champaign",
+                "address": "Urbana, United States"
+            },
+            "email": "mailto:parkerg@uiuc.edu"
+        }
+    ],
+    "dateCreated": "1990-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "e-book",
+        "program",
+        "time",
+        "grain size distribution",
+        "surface grain size",
+        "flow duration curve",
+        "bedload grain size",
+        "volume bedload transport",
+        "bedload transport rate",
+        "grain size",
+        "size distribution",
+        "sand removed",
+        "flow duration",
+        "duration curve",
+        "computes the volume",
+        "transport rate",
+        "rate per unit",
+        "unit width",
+        "fluvial morphodynamics",
+        "bedload transport",
+        "acronym1d",
+        "fluvial morphodynamics",
+        "bedload transport"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "identifier": "10.1594/IEDA/100077",
+    "description": "Acronym1D is an add on to Acronym1R in that it adds a flow duration curve to Acronym1R, which computes the volume bedload transport rate per unit width and bedload grain size distribution from a specified surface grain size distribution (with sand removed).",
+    "url": "https://csdms.colorado.edu/wiki/Model:Acronym1D",
+    "developmentStatus": "As is, no updates are provided"
+}

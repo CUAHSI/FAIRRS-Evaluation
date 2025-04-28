@@ -1,0 +1,86 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "ISSM",
+    "codeRepository": "https://issm.jpl.nasa.gov",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C++"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "Java"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://issm.jpl.nasa.gov",
+    "memoryRequirements": "varies",
+    "operatingSystem": [
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Eric",
+            "familyName": "Larour",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Jet Propulsion Laboratory",
+                "address": "Pasadena, United States"
+            },
+            "email": "mailto:issm@jpl.nasa.gov"
+        }
+    ],
+    "dateCreated": "2005-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Cryosphere",
+        "issm",
+        "model",
+        "sheet",
+        "system",
+        "jet propulsion laboratory",
+        "california at irvine",
+        "jet propulsion",
+        "propulsion laboratory",
+        "laboratory and university",
+        "university of california",
+        "grace science team",
+        "national science foundation",
+        "sea-level change team",
+        "greenland and antarctica",
+        "nasa sea-level change",
+        "science team",
+        "change team",
+        "irvine",
+        "technology and development",
+        "ice sheet",
+        "glacier",
+        "sea-level rise",
+        "glacial isostatic adjustment",
+        "gia",
+        "ice sheet",
+        "glacier",
+        "sea-level rise",
+        "glacial isostatic adjustment",
+        "GIA"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "ISSM is the result of a collaboration between the Jet Propulsion Laboratory and University of California at Irvine. Its purpose is to tackle the challenge of modeling the evolution of the polar ice caps in Greenland and Antarctica.\nISSM is open source and is funded by the NASA Cryosphere, GRACE Science Team, ICESat Research, ICESat-2 Research, NASA Sea-Level Change Team (N-SLCT), IDS (Interdisciplinary Research in Earth Science), ESI (Earth Surface and Interior), and MAP (Modeling Analysis and Prediction) programs, JPL R&TD (Research, Technology and Development) and the National Science Foundation",
+    "url": "https://csdms.colorado.edu/wiki/Model:ISSM",
+    "developmentStatus": "Active"
+}

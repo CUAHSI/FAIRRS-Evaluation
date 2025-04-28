@@ -1,0 +1,63 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "LateralVerticalIncision",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Single",
+    "operatingSystem": [
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Luca",
+            "familyName": "Malatesta",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "UC Santa Cruz",
+                "address": "Santa Cruz, United States"
+            },
+            "email": "mailto:lcmalate@ucsc.edu"
+        }
+    ],
+    "dateCreated": "2013-01-01",
+    "keywords": [
+        "Terrestrial",
+        "geometric",
+        "rivers",
+        "promote vertical incision",
+        "increasingly tall valley",
+        "river lateral erosion",
+        "tall valley walls",
+        "valley walls constrain",
+        "vertical incision",
+        "explore how increasingly",
+        "increasingly tall",
+        "tall valley",
+        "constrain the river",
+        "erosion and promote",
+        "promote vertical",
+        "river lateral",
+        "lateral erosion",
+        "valley walls",
+        "meander center line",
+        "river",
+        "lateralverticalincision",
+        "Meander center line",
+        "river"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "description": "A model to explore how increasingly tall valley walls constrain the river lateral erosion and promote vertical incision. Each run is unique as a random walk controls the lateral migration of the channel. To store and compare repeated runs with identical parameters, there is a built in system to save the results of each run.\nThis model is used to illustrate the wall feedback concept proposed by Malatesta, Prancevic, Avouac; 2017; JGR Eath-Surface; doi:10.1002/2015JF003797",
+    "url": "https://csdms.colorado.edu/wiki/Model:LateralVerticalIncision",
+    "developmentStatus": "As is, no updates are provided"
+}

@@ -1,0 +1,44 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Hogback",
+    "codeRepository": "https://github.com/Glader011235/Hogback/",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/Glader011235/Hogback/",
+    "operatingSystem": [],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Rachel",
+            "familyName": "Glade",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Colorado Boulder",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:rcglade@gmail.com"
+        }
+    ],
+    "dateCreated": "2014-01-01",
+    "keywords": [
+        "Terrestrial",
+        "evolution",
+        "hogback",
+        "model evolves",
+        "rate",
+        "rock"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "description": "This model evolves a hogback through time. A resistant layer of\nrock, which weathers slowly, overlies a softer layer of rock that weathers\nquickly. Resistant rock produces \"blocks\" which land on the adjoining\nhillslope. Boundaries incise at a specified rate. User can set hogback\nlayer thickness, block size, and dip, as well as relative weathering and\nincision rates. Trackable metrics included are time and space-averaged\nslope, block height, weathering rate, and erosion rate. Parameters that users need to specify are surrounded by many \ncomment signs.",
+    "url": "https://csdms.colorado.edu/wiki/Model:Hogback",
+    "developmentStatus": "As is, no updates are provided"
+}

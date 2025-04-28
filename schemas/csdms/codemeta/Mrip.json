@@ -1,0 +1,61 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Mrip",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Single",
+    "operatingSystem": [
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Edith",
+            "familyName": "Gallagher",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Franklin and Marshall College",
+                "address": "Lancaster, United States"
+            },
+            "email": "mailto:edith.gallagher@fandm.edu"
+        }
+    ],
+    "dateCreated": "2003-01-01",
+    "keywords": [
+        "Coastal",
+        "Hydrology",
+        "mrip",
+        "nearshore",
+        "self-organization",
+        "type",
+        "mrip consists",
+        "sea floor",
+        "representing the sea",
+        "matrix representing",
+        "users choice",
+        "floor",
+        "time",
+        "matrix",
+        "rules or equations",
+        "consists",
+        "representing",
+        "sea",
+        "transport rules",
+        "flow",
+        "bedform evolution",
+        "bedform evolution",
+        "nearshore"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "identifier": "10.1594/IEDA/100149",
+    "description": "Mrip consists of a matrix representing the sea floor (25x25 m at this time). Blocks in the matrix are picked up (or deposited) according to transport rules or equations (users choice) and moved with the flow. The user-determined flow is altered, depending on the height and slope of the bed, thus creating feedback.",
+    "url": "https://csdms.colorado.edu/wiki/Model:Mrip"
+}

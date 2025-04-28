@@ -1,0 +1,59 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "DeltaRCM_Vegetation",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "operatingSystem": [],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Rebecca",
+            "familyName": "Lauzon",
+            "affiliation": {
+                "@type": "Organization",
+                "address": "Rochester, United States"
+            },
+            "email": "mailto:beccalauzon@gmail.com"
+        }
+    ],
+    "dateCreated": "2016-01-01",
+    "keywords": [
+        "Coastal",
+        "delta-building",
+        "vegetation",
+        "delta-building model deltarcm",
+        "model deltarcm expanded",
+        "included vegetation effects",
+        "delta-building model",
+        "model deltarcm",
+        "deltarcm expanded",
+        "expanded to included",
+        "vegetation effects",
+        "included vegetation",
+        "increasing bank stability",
+        "effects",
+        "vegetation colonizes",
+        "logistic growth rate",
+        "resistance to flow",
+        "delta",
+        "delta evolution",
+        "deltarcm vegetation",
+        "delta",
+        "vegetation",
+        "delta evolution"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "identifier": "10.5281/zenodo.143243",
+    "description": "The delta-building model DeltaRCM expanded to included vegetation effects. Vegetation colonizes, grows, and dies, and influences the delta through increasing bank stability and providing resistance to flow. Vegetation was implemented to represent marsh grass type plants, and parameters of stem diameter, carrying capacity, logistic growth rate, and rooting depth can be altered.",
+    "url": "https://csdms.colorado.edu/wiki/Model:DeltaRCM_Vegetation",
+    "developmentStatus": "As is, no updates are provided"
+}

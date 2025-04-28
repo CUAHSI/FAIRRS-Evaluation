@@ -1,0 +1,66 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Hyper",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran90"
+        }
+    ],
+    "applicationCategory": "Single",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Jasim",
+            "familyName": "Imran",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Univ. of South Carolina",
+                "address": "Columbia, United States"
+            },
+            "email": "mailto:imran@engr.sc.edu"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Sadia",
+            "familyName": "Khan",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Land Development Services",
+                "address": "Charlotte, United States"
+            },
+            "email": "mailto:skhan@ci.charlotte.nc.us"
+        }
+    ],
+    "dateCreated": "2001-01-01",
+    "keywords": [
+        "Coastal",
+        "Marine",
+        "turbidity",
+        "current",
+        "model",
+        "sediment failure",
+        "hyperpycnal transport",
+        "transport after sediment",
+        "transport",
+        "sediment",
+        "failure",
+        "hyperpycnal",
+        "sediment transport",
+        "hyper",
+        "sediment transport"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "identifier": "10.1594/IEDA/100136",
+    "description": "This model can be used for both transport after sediment failure and for hyperpycnal transport.",
+    "url": "https://csdms.colorado.edu/wiki/Model:Hyper"
+}

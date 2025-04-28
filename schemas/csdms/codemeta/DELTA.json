@@ -1,0 +1,62 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "DELTA",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        }
+    ],
+    "applicationCategory": "Single",
+    "memoryRequirements": "<512Mb",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Rudy",
+            "familyName": "Slingerland",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Penn State University",
+                "address": "University Park, United States"
+            },
+            "email": "mailto:sling@geosc.psu.edu"
+        }
+    ],
+    "dateCreated": "1991-01-01",
+    "keywords": [
+        "Coastal",
+        "simulates",
+        "turbulent",
+        "growth",
+        "circulation",
+        "turbulent plane jet",
+        "resulting delta growth",
+        "simulates circulation",
+        "turbulent plane",
+        "delta growth",
+        "circulation and sedimentation",
+        "plane jet",
+        "jet and resulting",
+        "resulting delta",
+        "sedimentation",
+        "plane",
+        "coastal evolution",
+        "delta",
+        "coastal evolution"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "identifier": "10.1594/IEDA/100108",
+    "description": "Simulates circulation and sedimentation in a 2D turbulent plane jet and resulting delta growth",
+    "url": "https://csdms.colorado.edu/wiki/Model:DELTA",
+    "developmentStatus": "As is, no updates are provided"
+}

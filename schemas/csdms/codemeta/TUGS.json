@@ -1,0 +1,46 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "TUGS",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran90"
+        }
+    ],
+    "applicationCategory": "Single",
+    "memoryRequirements": "Depending on node,number of sizes and number of layers information has to be stored",
+    "operatingSystem": [
+        "Windows",
+        "Can be compiled to other systems"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Yantao",
+            "familyName": "Cui",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Stillwater Sciences",
+                "address": "Berkeley, United States"
+            },
+            "email": "mailto:yantao@stillwatersci.com"
+        }
+    ],
+    "dateCreated": "2006-01-01",
+    "keywords": [
+        "Terrestrial",
+        "river",
+        "sediment dynamics"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "TUGS is a 1D model that simulates the transport of gravel and sand in rivers. The model predicts the responses of a channel to changes made to the environment (e.g., sediment supply, hydrology, and certain artifical changes made to the river). Output of the model include longitudinal profile, sediment flux, and grain size distributions in bedload, channel surface and subsurface.",
+    "url": "https://csdms.colorado.edu/wiki/Model:TUGS"
+}

@@ -1,0 +1,73 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "CHILD",
+    "codeRepository": "https://github.com/childmodel/child",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C++"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "downloadUrl": "https://github.com/childmodel/child",
+    "memoryRequirements": "depends on grid size",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Greg",
+            "familyName": "Tucker",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Cooperative Institute for Research in Environmental Sciences (CIRES) and Department of Geological Sciences at the University of Colorado",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:gtucker@colorado.edu"
+        }
+    ],
+    "dateCreated": "1997-01-01",
+    "keywords": [
+        "Terrestrial",
+        "model",
+        "evolution",
+        "landscape",
+        "child computes",
+        "sediment transport",
+        "computes the time",
+        "time evolution",
+        "topographic surface",
+        "fluvial and hillslope",
+        "hillslope erosion",
+        "erosion and sediment",
+        "child",
+        "transport",
+        "computes",
+        "time",
+        "topographic",
+        "surface",
+        "landscape evolution",
+        "erosion",
+        "soil erosion",
+        "landform development",
+        "drainage basin",
+        "landscape evolution",
+        "erosion",
+        "sediment transport",
+        "soil erosion",
+        "landform development",
+        "drainage basin"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "identifier": "10.1594/IEDA/100102",
+    "description": "CHILD computes the time evolution of a topographic surface z(x,y,t) by fluvial and hillslope erosion and sediment transport.",
+    "url": "https://csdms.colorado.edu/wiki/Model:CHILD",
+    "developmentStatus": "Only maintenance"
+}

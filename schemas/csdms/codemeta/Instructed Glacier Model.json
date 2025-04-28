@@ -1,0 +1,65 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Instructed_Glacier_Model",
+    "codeRepository": "https://github.com/jouvetg/igm",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/jouvetg/igm",
+    "operatingSystem": [
+        "Unix"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Guillaume",
+            "familyName": "Jouvet",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Zurich",
+                "address": "Zurich, Switzerland"
+            },
+            "email": "mailto:guillaume.jouvet@geo.uzh.ch"
+        }
+    ],
+    "dateCreated": "2021-01-01",
+    "keywords": [
+        "Cryosphere",
+        "igm",
+        "model",
+        "icefields",
+        "instructed",
+        "instructed glacier model",
+        "surface mass balance",
+        "instructed glacier",
+        "surface mass",
+        "mass balance",
+        "mass conservation",
+        "conservation to predict",
+        "predict the evolution",
+        "glacier model",
+        "ice dynamics",
+        "glaciers and icefields",
+        "ice flow physical",
+        "ice flow",
+        "evolution of glaciers",
+        "simulates the ice",
+        "glacier flow",
+        "glacier evolution modeling",
+        "glacier flow",
+        "glacier evolution modeling",
+        "ice dynamics"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "description": "The Instructed Glacier Model (IGM) simulates the ice dynamics, surface mass balance, and its coupling through mass conservation to predict the evolution of glaciers and icefields. The specificity of IGM is that it models the ice flow by a neural network, which is trained with ice flow physical models. Doing so permits to speed-up and facilitate considerably the implementation of the forward model and the inverse model required to assimilate data.",
+    "url": "https://csdms.colorado.edu/wiki/Model:Instructed_Glacier_Model",
+    "developmentStatus": "Active"
+}

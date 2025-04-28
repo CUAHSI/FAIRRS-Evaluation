@@ -1,0 +1,102 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "GridMET_Data_Component",
+    "codeRepository": "https://github.com/nhm-usgs/gridmet_bmi",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "downloadUrl": [
+        "https://github.com/nhm-usgs/gridmet_bmi",
+        "https://github.com/pymt-lab/pymt_gridmet/"
+    ],
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Rich",
+            "familyName": "McDonald",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "USGS",
+                "address": "Denver, United States"
+            },
+            "email": "mailto:rmcd@usgs.gov"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Mark",
+            "familyName": "Piper",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "CSDMS",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:mark.piper@colorado.edu"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Eric",
+            "familyName": "Hutton",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "CSDMS",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:eric.hutton@colorado.edu"
+        }
+    ],
+    "dateCreated": "2020-01-01",
+    "keywords": [
+        "Hydrology",
+        "Coastal",
+        "Climate",
+        "Human dimensions",
+        "csdms",
+        "data",
+        "component",
+        "fetching",
+        "conus meteorological data",
+        "conus meteorological",
+        "caching daily gridmet",
+        "fetching and caching",
+        "caching daily",
+        "cli",
+        "gridmet data component",
+        "meteorological data",
+        "api",
+        "conus",
+        "gridmet data",
+        "daily gridmet",
+        "bmi for fetching",
+        "precipitation accumulation gridmet",
+        "bmi",
+        "gridmet",
+        "meteorology",
+        "climate",
+        "temperature",
+        "precipitation",
+        "gridmet",
+        "meteorology",
+        "climate",
+        "data",
+        "temperature",
+        "precipitation"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "The GridMET data component is an API, CLI, and BMI for fetching and caching daily gridMET (http://www.climatologylab.org/gridmet.html) CONUS meteorological data. Variables include:\n\n* maximum temperature\n* minimum temperature\n* precipitation accumulation\n\nGridMET provides BMI-mediated access to gridMET data as a service, allowing it to be coupled with other components that expose a BMI.",
+    "url": "https://csdms.colorado.edu/wiki/Model:GridMET_Data_Component",
+    "developmentStatus": "Active"
+}

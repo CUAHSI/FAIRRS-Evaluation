@@ -1,0 +1,59 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "DepthDependentDiffuser",
+    "codeRepository": "https://github.com/landlab/landlab/tree/master/landlab/components/depth_dependent_diffusion",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "downloadUrl": "https://github.com/landlab/landlab/tree/master/landlab/components/depth_dependent_diffusion",
+    "operatingSystem": [],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Rachel",
+            "familyName": "Glade",
+            "affiliation": {
+                "@type": "Organization",
+                "address": "Los Alamos, United States"
+            },
+            "email": "mailto:rcglade@gmail.com"
+        }
+    ],
+    "dateCreated": "2017-01-01",
+    "keywords": [
+        "Terrestrial",
+        "soil",
+        "diffuser",
+        "johnstone and hilley",
+        "dependent linear diffusion",
+        "linear diffusion rule",
+        "style of johnstone",
+        "slope dependent linear",
+        "component implements",
+        "implements a depth",
+        "dependent linear",
+        "linear diffusion",
+        "diffusion rule",
+        "hilley",
+        "johnstone",
+        "slope dependent",
+        "vertical velocity profile",
+        "prescribed exponential vertical",
+        "hillslope",
+        "depthdependentdiffuser",
+        "soil",
+        "hillslope"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "This component implements a depth and slope dependent linear diffusion rule in the style of Johnstone and Hilley (2014). Soil moves with a prescribed exponential vertical velocity profile. Soil flux is dictated by a diffusivity, K, and increases linearly with topographic slope.",
+    "url": "https://csdms.colorado.edu/wiki/Model:DepthDependentDiffuser",
+    "developmentStatus": "Active"
+}

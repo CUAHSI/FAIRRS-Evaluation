@@ -1,0 +1,63 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Anuga",
+    "codeRepository": "https://sourceforge.net/projects/anuga/",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://sourceforge.net/projects/anuga/",
+    "operatingSystem": [
+        "Linux",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Nariman",
+            "familyName": "Habili",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Risk and Impact Analysis Group, Geoscience Australia",
+                "address": "Symonston, Australia"
+            },
+            "email": "mailto:nariman.habili@ga.gov.au"
+        }
+    ],
+    "dateCreated": "2004-01-01",
+    "keywords": [
+        "Hydrology",
+        "geometries",
+        "anuga",
+        "complex",
+        "hydrodynamic modelling tool",
+        "model realistic flow",
+        "realistic flow problems",
+        "hydrodynamic modelling",
+        "realistic flow",
+        "modelling tool",
+        "model realistic",
+        "python",
+        "include dam breaks",
+        "anuga components",
+        "problems in complex",
+        "water",
+        "continental",
+        "continental"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "description": "ANUGA is a hydrodynamic modelling tool that allows users to model realistic flow problems in complex 2D geometries. Examples include dam breaks or the effects of natural hazards such as riverine flooding, storm surges and tsunami. The user must specify a study area represented by a mesh of triangular cells, the topography and bathymetry, frictional resistance, initial values for water level (called stage within ANUGA), boundary conditions and forces such as rainfall, stream flows, windstress or pressure gradients if applicable.\nANUGA tracks the evolution of water depth and horizontal momentum within each cell over time by solving the shallow water wave governing equation using a finite-volume method.\n\nANUGA also incorporates a mesh generator that allows the user to set up the geometry of the problem interactively as well as tools for interpolation and surface fitting, and a number of auxiliary tools for visualising and interrogating the model output.\n\nMost ANUGA components are written in the object-oriented programming language Python and most users will interact with ANUGA by writing small Python scripts based on the ANUGA library functions. Computationally intensive components are written for efficiency in C routines working directly with Python numpy structures.",
+    "url": "https://csdms.colorado.edu/wiki/Model:Anuga",
+    "developmentStatus": "Active"
+}

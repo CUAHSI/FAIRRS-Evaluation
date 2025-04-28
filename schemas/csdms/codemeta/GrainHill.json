@@ -1,0 +1,63 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "GrainHill",
+    "codeRepository": "https://github.com/gregtucker/grain_hills",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/gregtucker/grain_hills",
+    "memoryRequirements": "varies with grid size",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Gregory",
+            "familyName": "Tucker",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Colorado",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:gtucker@colorado.edu"
+        }
+    ],
+    "dateCreated": "2014-01-01",
+    "keywords": [
+        "Terrestrial",
+        "cellular",
+        "evolution",
+        "grain hill model",
+        "grain hill",
+        "hill model",
+        "computational framework",
+        "rock",
+        "hill",
+        "model",
+        "study slope forms",
+        "disturbance",
+        "grain",
+        "stochastic disturbance",
+        "grain aggregates",
+        "cells representing",
+        "events",
+        "stochastic disturbance events",
+        "grainhill"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "identifier": "10.5281/zenodo.1306961",
+    "description": "The Grain Hill model provides a computational framework with which to study slope forms that arise from stochastic disturbance and rock weathering events. The model operates on a hexagonal lattice, with cell states representing fluid, rock, and grain aggregates that are either stationary or in a state of motion in one of the six cardinal lattice directions. Cells representing near-surface soil material undergo stochastic disturbance events, in which initially stationary material is put into motion. Net downslope transport emerges from the greater likelihood for disturbed material to move downhill than to move uphill. Cells representing rock undergo stochastic weathering events in which the rock is converted into regolith. The model can reproduce a range of common slope forms, from fully soil mantled to rocky or partially mantled, and from convex-upward to planar shapes. An optional additional state represents large blocks that cannot be displaced upward by disturbance events. With the addition of this state, the model captures the morphology of hogbacks, scarps, and similar features. In its simplest form, the model has only three process parameters, which represent disturbance frequency, characteristic disturbance depth, and baselevel lowering rate, respectively. Incorporating physical weathering of rock adds one additional parameter, representing the characteristic rock weathering rate. These parameters are not arbitrary but rather have a direct link with corresponding parameters in continuum theory. The GrainHill model includes the GrainFacetSimulator, which represents an evolving normal-fault facet with a 60-degree-dipping fault.",
+    "url": "https://csdms.colorado.edu/wiki/Model:GrainHill"
+}

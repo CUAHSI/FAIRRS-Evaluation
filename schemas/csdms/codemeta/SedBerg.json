@@ -1,0 +1,62 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "SedBerg",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        }
+    ],
+    "applicationCategory": "Single",
+    "operatingSystem": [
+        "Linux",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Ruth",
+            "familyName": "Mugford",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Scott Polar Research Institute",
+                "address": "Cambridge, United Kingdom"
+            },
+            "email": "mailto:rm423@cam.ac.uk"
+        }
+    ],
+    "dateCreated": "2003-01-01",
+    "keywords": [
+        "Coastal",
+        "Cryosphere",
+        "model",
+        "developed",
+        "fjords",
+        "utilizing monte carlo",
+        "monte carlo based",
+        "icebergs utilizing monte",
+        "carlo based techniques",
+        "underlying parametric probability",
+        "parametric probability distributions",
+        "monte carlo",
+        "utilizing monte",
+        "carlo based",
+        "population of icebergs",
+        "icebergs utilizing",
+        "behavior of iceberg",
+        "model simulates",
+        "based techniques",
+        "number of underlying",
+        "sediment transport",
+        "sedberg",
+        "sediment transport"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "identifier": "10.1594/IEDA/100160",
+    "description": "The model simulates the formation, drift, and melt of a population of icebergs utilizing Monte Carlo based techniques with a number of underlying parametric probability distributions to describe the stochastic behavior of iceberg formation and dynamics.",
+    "url": "https://csdms.colorado.edu/wiki/Model:SedBerg"
+}

@@ -1,0 +1,56 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "GSSHA",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C++"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "memoryRequirements": "Depends on catchment",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Fred",
+            "familyName": "Ogden",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Wyoming",
+                "address": "Laramie, United States"
+            },
+            "email": "mailto:fogden@uwyo.edu"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Charles",
+            "familyName": "Downer",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "U.S. Army Corps of Engineers",
+                "address": "Vicksburg, United States"
+            },
+            "email": "mailto:Aaron.R.Byrd@usace.army.mil"
+        }
+    ],
+    "dateCreated": "1988-01-01",
+    "keywords": [
+        "Hydrology",
+        "Terrestrial",
+        "Hydrological model",
+        "basin"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "Gridded Surface Subsurface Hydrologic Analysis (GSSHA) is a grid-based two-dimensional hydrologic model. Features include 2D overland flow, 1D stream flow, 1D infiltration, 2D groundwater, and full coupling between the groundwater, vadoze zone, streams, and overland flow. GSSHA can run in both single event and long-term modes. The fully coupled groundwater to surfacewater interaction allows GSSHA to model both Hortonian and Non-Hortonian basins.\nNew features of version 2.0 include support for small lakes and detention basins, wetlands, improved sediment transport, and an improved stream flow model.\nGSSHA has been successfully used to predict soil moistures as well as runoff and flooding.",
+    "url": "https://csdms.colorado.edu/wiki/Model:GSSHA"
+}

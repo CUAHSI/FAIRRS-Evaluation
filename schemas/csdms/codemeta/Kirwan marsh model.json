@@ -1,0 +1,40 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Kirwan_marsh_model",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        }
+    ],
+    "applicationCategory": "Single",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Matthew",
+            "familyName": "Kirwan",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Virginia",
+                "address": "Charlottesville, United States"
+            },
+            "email": "mailto:mkirwan@usgs.gov"
+        }
+    ],
+    "dateCreated": "2003-01-01",
+    "keywords": [
+        "Coastal",
+        "coastal morphdynamics",
+        "salt Marsh - tidal Flat evolution"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "description": "Spatially explicit model of the development and evolution of salt marshes, including vegetation influenced accretion and hydrodynamic determined channel erosion.",
+    "url": "https://csdms.colorado.edu/wiki/Model:Kirwan_marsh_model"
+}

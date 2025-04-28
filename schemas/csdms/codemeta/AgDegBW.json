@@ -1,0 +1,63 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "AgDegBW",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "operatingSystem": [
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Gary",
+            "familyName": "Parker",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Illinois at Urbana-Champaign",
+                "address": "Urbana, United States"
+            },
+            "email": "mailto:parkerg@illinois.edu"
+        }
+    ],
+    "dateCreated": "1990-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "e-book",
+        "calculator",
+        "formulation",
+        "aggradation",
+        "program computes",
+        "differential sediment transport",
+        "due to differential",
+        "sediment transport",
+        "differential sediment",
+        "rivers due",
+        "sediment",
+        "bed variation",
+        "transport",
+        "computes",
+        "assumed",
+        "variation in rivers",
+        "fluvial morphodynamics",
+        "agdegbw",
+        "bed variation",
+        "fluvial morphodynamics"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "identifier": "10.1594/IEDA/100081",
+    "description": "This program computes 1D bed variation in rivers due to differential sediment transport. The sediment is assumed to be uniform with size D. All sediment transport is assumed to occur in a specified fraction of time during which the river is in flood, specified by an intermittency. A Manning-Strickler relation is used for bed resistance. A generic Meyer-Peter Muller relation is used for sediment transport. The flow is computed using a backwater formulation for gradually varied flow.",
+    "url": "https://csdms.colorado.edu/wiki/Model:AgDegBW",
+    "developmentStatus": "As is, no updates are provided"
+}

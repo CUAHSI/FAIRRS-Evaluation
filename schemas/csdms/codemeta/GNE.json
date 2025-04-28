@@ -1,0 +1,65 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "GNE",
+    "codeRepository": "http://www.marine.rutgers.edu/globalnews/GNE/",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "downloadUrl": "http://www.marine.rutgers.edu/globalnews/GNE/",
+    "memoryRequirements": "minimal",
+    "operatingSystem": [
+        "Linux",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Sybil",
+            "familyName": "Seitzinger",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Rutgers - Institute of Marine & Coastal Sciences",
+                "address": "New Brunswick, United States"
+            },
+            "email": "mailto:sybil@marine.rutgers.edu"
+        }
+    ],
+    "dateCreated": "2002-01-01",
+    "keywords": [
+        "Coastal",
+        "Terrestrial",
+        "set",
+        "export",
+        "human impact characteristics",
+        "predicts annual river",
+        "annual river exports",
+        "set of biogeochemical",
+        "impact characteristics",
+        "basin models",
+        "biogeochemical sub-models",
+        "sub-models that predicts",
+        "predicts annual",
+        "annual river",
+        "river exports",
+        "function of basin-aggregated",
+        "basin-aggregated natural",
+        "natural and human",
+        "human impact",
+        "biogeochemistry",
+        "water quality",
+        "gne",
+        "biogeochemistry",
+        "water quality"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "A multi-element (N, P, Si, C), multi-form (particulate, dissolved, organic, inorganic) set of biogeochemical sub-models that predicts annual river exports to the coast as a function of basin-aggregated natural and human impact characteristics; GNE is a generic framework used to run the basin models.",
+    "url": "https://csdms.colorado.edu/wiki/Model:GNE"
+}

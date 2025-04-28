@@ -1,0 +1,68 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "GRLP",
+    "codeRepository": "https://github.com/awickert/GRLP",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/awickert/GRLP",
+    "memoryRequirements": "100200 Mb",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Andrew",
+            "familyName": "Wickert",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Minnesota",
+                "address": "Minneapolis, United States"
+            },
+            "email": "mailto:awickert@umn.edu"
+        }
+    ],
+    "dateCreated": "2018-01-01",
+    "keywords": [
+        "Terrestrial",
+        "evolves",
+        "profiles",
+        "transport-limited gravel-bed rivers",
+        "semi-implicit numerical",
+        "transport-limited gravel-bed",
+        "analytical and numerical",
+        "compute long-profile evolution",
+        "gravel-bed rivers",
+        "computes transient",
+        "long-profile evolution",
+        "numerical",
+        "experience flow resistance",
+        "valley-resolving exner equation",
+        "meyer-peter and m\u00fcller",
+        "bed-material sediment discharge",
+        "evolution of transport-limited",
+        "compute long-profile",
+        "alluvial-channel evolution",
+        "long profile",
+        "grlp",
+        "alluvial-channel evolution",
+        "long profile",
+        "gravel-bed rivers"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "identifier": "10.5281/zenodo.1705386",
+    "description": "Computes transient (semi-implicit numerical) and steady-state (analytical and numerical) solutions for the long-profile evolution of transport-limited gravel-bed rivers. Such rivers are assumed to have an equilibrium width (following Parker, 1978), experience flow resistance that is proportional to grain size, evolve primarily in response to a single dominant \"channel-forming\" or \"geomorphically-effective\" discharge (see Blom et al., 2017, for a recent study and justification of this assumption and how it can be applied), and transport gravel following the Meyer-Peter and M\u00fcller (1948) equation. This combination of variables results in a stream-power-like relationship for bed-material sediment discharge, which is then inserted into a valley-resolving Exner equation to compute long-profile evolution.",
+    "url": "https://csdms.colorado.edu/wiki/Model:GRLP"
+}

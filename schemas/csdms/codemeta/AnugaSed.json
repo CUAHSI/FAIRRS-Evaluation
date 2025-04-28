@@ -1,0 +1,66 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "AnugaSed",
+    "codeRepository": "https://github.com/mperignon/anugaSed",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "downloadUrl": "https://github.com/mperignon/anugaSed",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Mariela",
+            "familyName": "Perignon",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Colorado - CSDMS",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:perignon@colorado.edu"
+        }
+    ],
+    "keywords": [
+        "Hydrology",
+        "Terrestrial",
+        "anuga",
+        "add-on",
+        "drag",
+        "simulating depth-averaged flows",
+        "hydrodynamic model",
+        "model for simulating",
+        "simulating depth-averaged",
+        "vegetation",
+        "depth-averaged flows",
+        "operator",
+        "simpson and castelltort",
+        "davy and lague",
+        "vegetation drag operator",
+        "vegetation drag",
+        "flows",
+        "kean and smith",
+        "nepf",
+        "sediment transport",
+        "flood",
+        "anugased",
+        "sediment transport",
+        "vegetation",
+        "flood"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "ANUGA is a hydrodynamic model for simulating depth-averaged flows over 2D surfaces. This package adds two new modules (operators) to ANUGA. These are appropriate for reach-scale simulations of flows on mobile-bed streams with spatially extensive floodplain vegetation.\n\nThe mathematical framework for the sediment transport operator is described in Simpson and Castelltort (2006) and Davy and Lague (2009). This operator calculates an explicit sediment mass balance within the water column at every cell in order to handle the local disequilibria between entrainment and deposition that arise due to strong spatial variability in shear stress in complex flows.\n\nThe vegetation drag operator uses the mathematical approach of Nepf (1999) and Kean and Smith (2006), treating vegetation as arrays of objects (cylinders) that the flow must go around. Compared to methods that simulate the increased roughness of vegetation with a modified Manning's n, this method better accounts for the effects of drag on the body of the flow and the quantifiable differences between vegetation types and densities (as stem diameter and stem spacing). This operator can simulate uniform vegetation as well as spatially-varied vegetation across the domain. The vegetation drag module also accounts for the effects of vegetation on turbulent and mechanical diffusivity, following the equations in Nepf (1997, 1999).",
+    "url": "https://csdms.colorado.edu/wiki/Model:AnugaSed"
+}

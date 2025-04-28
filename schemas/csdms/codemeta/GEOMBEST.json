@@ -1,0 +1,78 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "GEOMBEST",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Single",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "supportingData": [
+        {
+            "@type": "DataFeed",
+            "url": "https://csdms.colorado.edu/csdms_wiki/images/SampleSimulation.zip",
+            "name": "Test Data"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Laura",
+            "familyName": "Moore",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of North Carolina- Chapel Hill",
+                "address": "Chapel Hill, NC, United States"
+            },
+            "email": "mailto:moorelj@email.unc.edu"
+        }
+    ],
+    "dateCreated": "2002-01-01",
+    "keywords": [
+        "Coastal",
+        "estuarine",
+        "barrier",
+        "translations",
+        "model",
+        "morphological-behaviour model",
+        "model that simulates",
+        "simulates the evolution",
+        "evolution of coastal",
+        "coastal morphology",
+        "morphology and stratigraphy",
+        "stratigraphy resulting",
+        "sea level",
+        "level and sediment",
+        "sediment volume",
+        "geombest",
+        "shoreface",
+        "estuary",
+        "morphological-behaviour",
+        "barrier island",
+        "coastal morphdynamics",
+        "coastal sediment transport",
+        "morphologic",
+        "longshore sediment transport",
+        "barrier island",
+        "coastal morphdynamics",
+        "coastal sediment transport",
+        "morphologic",
+        "longshore sediment transport"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "identifier": "10.5281/zenodo.16576",
+    "description": "GEOMBEST is a morphological-behaviour model that simulates the evolution of coastal morphology and stratigraphy resulting from changes in sea level and sediment volume within the shoreface, barrier, and estuary.",
+    "url": "https://csdms.colorado.edu/wiki/Model:GEOMBEST",
+    "developmentStatus": "Active"
+}

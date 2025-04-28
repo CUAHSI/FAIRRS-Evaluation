@@ -1,0 +1,57 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Bifurcation",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Single",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Gerard",
+            "familyName": "Salter",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "St. Anthony Falls Laboratory",
+                "address": "Minneapolis, United States"
+            },
+            "email": "mailto:salte040@umn.edu"
+        }
+    ],
+    "dateCreated": "2015-01-01",
+    "keywords": [
+        "Coastal",
+        "flow-partitioning",
+        "bifurcation",
+        "river delta bifurcation",
+        "river delta",
+        "model",
+        "delta bifurcation",
+        "avulsion",
+        "ongoing avulsion dynamics",
+        "model generates",
+        "bed elevation profiles",
+        "model outputs include",
+        "ongoing avulsion",
+        "avulsion dynamics",
+        "interaction",
+        "model generates ongoing",
+        "include"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "description": "Bifurcation is a morphodynamic model of a river delta bifurcation. Model outputs include flux partitioning and 1D bed elevation profiles, all of which can evolve through time. Interaction between the two branches occurs in the reach just upstream of the bifurcation, due to the development of a transverse bed slope. Aside from this interaction, the individual branches are modeled in 1D. \n\nThe model generates ongoing avulsion dynamics automatically, arising from the interaction between an upstream positive feedback and the negative feedback from branch progradation and/or aggradation. Depending on the choice of parameters, the model generates symmetry, soft avulsion, or full avulsion. Additionally, the model can include differential subsidence. It can also be run under bypass conditions, simulating the effect of an offshore sink, in which case ongoing avulsion dynamics do not occur.\n\nPossible uses of the model include the study of avulsion, bifurcation stability, and the morphodynamic response of bifurcations to external changes.",
+    "url": "https://csdms.colorado.edu/wiki/Model:Bifurcation"
+}

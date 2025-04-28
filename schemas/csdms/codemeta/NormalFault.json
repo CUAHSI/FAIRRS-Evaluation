@@ -1,0 +1,61 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "NormalFault",
+    "codeRepository": "https://github.com/landlab/landlab/tree/master/landlab",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/landlab/landlab/tree/master/landlab",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Katy",
+            "familyName": "Barnhart",
+            "affiliation": {
+                "@type": "Organization",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:katherine.barnhart@colorado.edu"
+        }
+    ],
+    "dateCreated": "2018-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Geodynamic",
+        "normalfault",
+        "fault",
+        "trace input parameter",
+        "input parameter",
+        "arbitrary trace",
+        "trace input",
+        "trace",
+        "parameter",
+        "points",
+        "rows and columns",
+        "arbitrary",
+        "input",
+        "scarp",
+        "uplift",
+        "fault",
+        "scarp",
+        "uplift"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "The fault can have an arbitrary trace given by two points (x1, y1) and (x2, y2) in the fault_trace input parameter. These value of these points is in model-space coordinates and is not based on node id values or number of rows and columns.",
+    "url": "https://csdms.colorado.edu/wiki/Model:NormalFault",
+    "developmentStatus": "Only maintenance"
+}

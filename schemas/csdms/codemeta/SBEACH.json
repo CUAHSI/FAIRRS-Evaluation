@@ -1,0 +1,46 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "SBEACH",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "C++"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "memoryRequirements": "Typical",
+    "operatingSystem": [
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Mark",
+            "familyName": "Gravens",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "US Army Corps of Engineers",
+                "address": "Vicksburg, United States"
+            },
+            "email": "mailto:Mark.B.Gravens@erdc.usace.army.mil"
+        }
+    ],
+    "dateCreated": "1986-01-01",
+    "keywords": [
+        "Coastal",
+        "coastal evolution",
+        "beach profile",
+        "storm wave"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "SBEACH is a numerical simulation model for predicting beach, berm, and dune erosion due to storm waves and water levels. It has potential for many applications in the coastal environment, and has been used to determine the fate of proposed beach fill alternatives under storm conditions and to compare the performance of different beach fill cross-sectional designs.",
+    "url": "https://csdms.colorado.edu/wiki/Model:SBEACH"
+}

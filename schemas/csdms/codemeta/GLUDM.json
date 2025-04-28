@@ -1,0 +1,65 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "GLUDM",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Java"
+        }
+    ],
+    "applicationCategory": "Single",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Sagy",
+            "familyName": "Cohen",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Alabama",
+                "address": "Tuscaloosa, United States"
+            },
+            "email": "mailto:sagy.cohen@ua.edu"
+        }
+    ],
+    "dateCreated": "2013-01-01",
+    "keywords": [
+        "Terrestrial",
+        "global",
+        "model",
+        "unique regression equation",
+        "calculates a unique",
+        "unique regression",
+        "relative area",
+        "global population",
+        "global population predictions",
+        "predicted global population",
+        "regression equation",
+        "land",
+        "specific land",
+        "model calculates",
+        "population predictions",
+        "population",
+        "relative",
+        "land use",
+        "agriculture",
+        "future",
+        "gludm",
+        "land use",
+        "agriculture",
+        "Future"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "description": "The model calculates a unique regression equation for each grid-cell between a the relative area of a specific land use (e.g. cropland) and global population. The equation is used to extrapolate that land use are into the future in each grid cell with predicted global population predictions. If the relative area of a land use reach a value of 95%, additional expansion is migrated to neighboring cells thus allowing spatial expansion. Geographic limitations are imposed on land use migration (e.g. no cropland beyond 60 degree latitude).\n\nFor more information:\nHaney, N., Cohen, S. (2015), Predicting 21st century global agricultural land use with a spatially and temporally explicit regression-based model. Applied Geography, 62: 366-376.",
+    "url": "https://csdms.colorado.edu/wiki/Model:GLUDM",
+    "developmentStatus": "As is, no updates are provided"
+}

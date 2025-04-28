@@ -1,0 +1,76 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Permafrost_Benchmark_System",
+    "codeRepository": "https://github.com/permamodel/pbs",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "downloadUrl": "https://github.com/permamodel/pbs",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Mark",
+            "familyName": "Piper",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "CSDMS",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:mark.piper@colorado.edu"
+        }
+    ],
+    "dateCreated": "2015-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "Coastal",
+        "Climate",
+        "Ecosystems",
+        "Cryosphere",
+        "pbs",
+        "models",
+        "permafrost benchmark system",
+        "csdms web modeling",
+        "web modeling tool",
+        "ilamb benchmarking system",
+        "command-line ilamb benchmarking",
+        "permafrost benchmark",
+        "modeling tool",
+        "benchmark system",
+        "benchmark datasets",
+        "csdms web",
+        "web modeling",
+        "benchmarking system",
+        "adds tools",
+        "wraps the command-line",
+        "model outputs",
+        "cmip5",
+        "wmt",
+        "permafrost",
+        "data",
+        "benchmark",
+        "CMIP5",
+        "WMT",
+        "permafrost",
+        "data",
+        "benchmark"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Apache public license"
+    },
+    "identifier": "10.5281/zenodo.1410622",
+    "description": "The Permafrost Benchmark System (PBS) wraps the command-line ILAMB benchmarking system with a customized version of the CSDMS Web Modeling Tool (WMT), and adds tools for uploading CMIP5-compatible model outputs and benchmark datasets. The PBS allows users to access and run ILAMB remotely, without having to install software or data locally; a web browser on a desktop, laptop, or tablet computer is all that\u2019s needed.",
+    "url": "https://csdms.colorado.edu/wiki/Model:Permafrost_Benchmark_System"
+}

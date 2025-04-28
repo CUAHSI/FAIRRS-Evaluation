@@ -1,0 +1,66 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "SinkFiller",
+    "codeRepository": "https://github.com/landlab/landlab/tree/master/landlab",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "downloadUrl": "https://github.com/landlab/landlab/tree/master/landlab",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Daniel",
+            "familyName": "Hobley",
+            "affiliation": {
+                "@type": "Organization",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:daniel.hobley@colorado.edu"
+        }
+    ],
+    "dateCreated": "2018-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "barnes",
+        "fill",
+        "brim",
+        "algorithms",
+        "shallow gradient surfaces",
+        "algorithms to replace",
+        "continued draining",
+        "shallow gradient",
+        "gradient surfaces",
+        "replace pits",
+        "topography with flats",
+        "flats",
+        "draining",
+        "topography",
+        "initial topography",
+        "replace",
+        "optionally",
+        "depressions",
+        "flow routing",
+        "sinkfiller",
+        "depressions",
+        "flow routing"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "Uses the Barnes et al (2014) algorithms to replace pits in a topography with flats, or optionally with very shallow gradient surfaces to allow continued draining.\n\nThis component is NOT intended for use iteratively as a model runs; rather, it is to fill in an initial topography. If you want to repeatedly fill pits as a landscape develops, you are after the LakeMapperBarnes component. If you want flow paths on your filled landscape, manually run a FlowDirector and FlowAccumulator for yourself.\n\nThe locations and depths etc. of the fills will be tracked, and properties are provided to access this information.",
+    "url": "https://csdms.colorado.edu/wiki/Model:SinkFiller",
+    "developmentStatus": "Only maintenance"
+}

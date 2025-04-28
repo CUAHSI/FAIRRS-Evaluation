@@ -1,0 +1,68 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "IncrementalDebrisFlowVolumeAnalyzer",
+    "codeRepository": "https://github.com/laurenguido/IncrementalDerisFlowVolumeAnalyzer",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "downloadUrl": "https://github.com/laurenguido/IncrementalDerisFlowVolumeAnalyzer",
+    "operatingSystem": [],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Lauren",
+            "familyName": "Guido",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Colorado School of Mines",
+                "address": "Golden, United States"
+            },
+            "email": "mailto:laurenmiller@mines.edu"
+        }
+    ],
+    "dateCreated": "2023-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "estimate",
+        "erosion",
+        "deposition",
+        "flow",
+        "model generates investigation",
+        "generates investigation polygons",
+        "store incremental erosion",
+        "debris flow path",
+        "user-defined resolution",
+        "model generates",
+        "generates investigation",
+        "investigation polygons",
+        "estimate and store",
+        "erosion and deposition",
+        "debris flow",
+        "flow path",
+        "store incremental",
+        "incremental erosion",
+        "deposition volumes",
+        "hazards",
+        "lateral erosion",
+        "erosion/deposition",
+        "incrementaldebrisflowvolumeanalyzer",
+        "hazards",
+        "erosion",
+        "lateral erosion",
+        "erosion/deposition",
+        "flow path"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "This model generates investigation polygons which are used to estimate and store incremental erosion and deposition volumes along the path of a debris flow at user-defined resolution. The user will need: 1) a .LAS or .TIF of topographic change, 2) a DEM of the AOI, and 3) a shapefile (polyline) of the debris flow path of interest. Each incremental volume is georeferenced and stored within a shapefile attribute associated with a catchment area and distance from outlet for analysis.",
+    "url": "https://csdms.colorado.edu/wiki/Model:IncrementalDebrisFlowVolumeAnalyzer",
+    "developmentStatus": "Active"
+}

@@ -1,0 +1,62 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "PCR-GLOBWB",
+    "codeRepository": "https://github.com/UU-Hydro/PCR-GLOBWB_model",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/UU-Hydro/PCR-GLOBWB_model",
+    "operatingSystem": [
+        "Unix"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Edwin",
+            "familyName": "Sutanudjaja",
+            "affiliation": {
+                "@type": "Organization",
+                "address": "Utrecht, Netherlands"
+            },
+            "email": "mailto:e.h.sutanudjaja@uu.nl"
+        }
+    ],
+    "dateCreated": "2017-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "pcr-globwb",
+        "studies",
+        "allowing easier replacement",
+        "python and pcraster",
+        "pcraster python",
+        "modular structure",
+        "allowing easier",
+        "easier replacement",
+        "model components",
+        "fully rewritten",
+        "development of model",
+        "rewritten in python",
+        "python",
+        "arcmin resolution",
+        "maintenance",
+        "arcmin",
+        "hydrological",
+        "water resources model",
+        "hydrological",
+        "water resources model"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "identifier": "10.5281/zenodo.595656",
+    "description": "PCR-GLOBWB 2 has been fully rewritten in Python and PCRaster Python and has a modular structure, allowing easier replacement, maintenance, and development of model components. PCR-GLOBWB 2 has been implemented at 5\u2009arcmin resolution, but a version parameterized at 30\u2009arcmin resolution is also available.",
+    "url": "https://csdms.colorado.edu/wiki/Model:PCR-GLOBWB",
+    "developmentStatus": "Active"
+}

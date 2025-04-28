@@ -1,0 +1,57 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "CAESAR_Lisflood",
+    "codeRepository": "https://sourceforge.net/projects/caesar-lisflood/",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    },
+    "applicationCategory": "Single",
+    "downloadUrl": "https://sourceforge.net/projects/caesar-lisflood/",
+    "memoryRequirements": "Contingent on simulation size (area)",
+    "operatingSystem": [
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Tom",
+            "familyName": "Coulthard",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Hull",
+                "address": "Kingston upon Hull, United Kingdom"
+            },
+            "email": "mailto:T.Coulthard@hull.ac.uk"
+        }
+    ],
+    "dateCreated": "2013-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "landscape",
+        "lisflood",
+        "caesar",
+        "morphodynamic",
+        "caesar geomorphic model",
+        "landscape evolution model",
+        "caesar geomorphic",
+        "caesar lisflood",
+        "landscape evolution",
+        "combines the lisflood-fp",
+        "erosion and deposition",
+        "bates",
+        "model",
+        "flow model",
+        "simulate erosion",
+        "evolution model",
+        "time scales"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "Caesar Lisflood is a geomorphological / Landscape evolution model that combines the Lisflood-FP 2d hydrodynamic flow model (Bates et al, 2010) with the CAESAR geomorphic model to simulate erosion and deposition in river catchments and reaches over time scales from hours to 1000's of years.\n\nFeaturing:\nLandscape evolution model simulating erosion and deposition across river reaches and catchments\n\nA hydrodynamic 2D flow model (based on the Lisflood FP code) that conserves mass and partial momentum. (model can be run as flow model alone)\n\ndesigned to operate on multiple core processors (parallel processing of core functions)\n\nOperates over a wide range to spatial and time scales (1km2 to 1000km2, <1year to 1000+ years)\n\nEasy to use GUI",
+    "url": "https://csdms.colorado.edu/wiki/Model:CAESAR_Lisflood",
+    "developmentStatus": "Active"
+}

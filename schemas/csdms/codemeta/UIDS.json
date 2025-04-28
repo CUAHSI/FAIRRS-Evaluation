@@ -1,0 +1,73 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "UIDS",
+    "codeRepository": "https://github.com/vinhngoctran/UIDS",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "downloadUrl": "https://github.com/vinhngoctran/UIDS",
+    "operatingSystem": [
+        "Unix",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Vinh",
+            "familyName": "Tran",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Ulsan",
+                "address": "Nam-gu, Korea, South"
+            },
+            "email": "mailto:vinhtn@umich.edu"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Jongho",
+            "familyName": "Kim",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Ulsan",
+                "address": "Nam-gu, Korea, South"
+            },
+            "email": "mailto:kjongho@ulsan.ac.kr"
+        }
+    ],
+    "dateCreated": "2023-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "matlab-based",
+        "inundations",
+        "urban inundation-drainage simulator",
+        "urban flooding dynamics",
+        "simulating urban flooding",
+        "inundation-drainage simulator",
+        "matlab-based platform",
+        "urban inundation-drainage",
+        "simulating urban",
+        "urban flooding",
+        "flooding dynamics",
+        "uids",
+        "urban",
+        "simulator",
+        "coupled model",
+        "flow model",
+        "overland flow model",
+        "Urban flooding"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "The Urban Inundation-Drainage Simulator (UIDS) is a new coupled model for simulating urban flooding dynamics, developed as an open-source, MATLAB-based platform. It integrates a rainfall-runoff model with a two-dimensional overland flow model (OFM) and a one-dimensional sewer flow model (SFM).",
+    "url": "https://csdms.colorado.edu/wiki/Model:UIDS",
+    "developmentStatus": "Active"
+}

@@ -1,0 +1,63 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "FUNDY",
+    "codeRepository": "http://www-nml.dartmouth.edu/Software/fundy/",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "http://www-nml.dartmouth.edu/Software/fundy/",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Christopher",
+            "familyName": "Naimie",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Dartmouth College",
+                "address": "Hanover, United States"
+            },
+            "email": "mailto:Christopher.E.Naimie@dartmouth.edu"
+        }
+    ],
+    "dateCreated": "1987-01-01",
+    "keywords": [
+        "Coastal",
+        "Marine",
+        "diagnostic",
+        "studies",
+        "barotropic boundary conditions",
+        "linear finite elements",
+        "linearized shallow water",
+        "shallow water equations",
+        "water equations forced",
+        "boundary conditions",
+        "finite elements",
+        "solves the linearized",
+        "linearized shallow",
+        "shallow water",
+        "water equations",
+        "equations forced",
+        "forced by tidal",
+        "barotropic boundary",
+        "density gradient",
+        "continental shelf circulation",
+        "hydrodynamics",
+        "fundy",
+        "continental shelf circulation",
+        "hydrodynamics"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "It solves the linearized shallow water equations forced by tidal or other barotropic boundary conditions, wind or a density gradient using linear finite elements.",
+    "url": "https://csdms.colorado.edu/wiki/Model:FUNDY"
+}

@@ -1,0 +1,63 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "OTEQ",
+    "codeRepository": "http://water.usgs.gov/software/OTEQ/",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "http://water.usgs.gov/software/OTEQ/",
+    "operatingSystem": [
+        "Unix",
+        "Linux"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Rob",
+            "familyName": "Runkel",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "USGS",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:runkel@usgs.gov"
+        }
+    ],
+    "dateCreated": "1991-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "oteq",
+        "chemistry",
+        "equilibrium",
+        "transport",
+        "reactive transport model",
+        "solute transport model",
+        "transport model",
+        "model",
+        "chemical equilibrium",
+        "reactive transport",
+        "chemical",
+        "solutes",
+        "one-dimensional transport",
+        "solute transport",
+        "reactions",
+        "oteq equilibrium approach",
+        "biogeochemistry",
+        "water quality",
+        "biogeochemistry",
+        "water quality"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "One-Dimensional Transport with Equilibrium Chemistry (OTEQ):\nA Reactive Transport Model for Streams and Rivers\n\nOTEQ is a mathematical simulation model used to characterize the fate and transport of waterborne solutes in streams and rivers. The model is formed by coupling a solute transport model with a chemical equilibrium submodel. The solute transport model is based on OTIS, a model that considers the physical processes of advection, dispersion, lateral inflow, and transient storage. The equilibrium submodel is based on MINTEQ, a model that considers the speciation and complexation of aqueous species, acid-base reactions, precipitation/dissolution, and sorption.\n\nWithin OTEQ, reactions in the water column may result in the formation of solid phases (precipitates and sorbed species) that are subject to downstream transport and settling processes. Solid phases on the streambed may also interact with the water column through dissolution and sorption/desorption reactions. Consideration of both mobile (waterborne) and immobile (streambed) solid phases requires a unique set of governing differential equations and solution techniques that are developed herein. The partial differential equations describing physical transport and the algebraic equations describing chemical equilibria are coupled using the sequential iteration approach. The model's ability to simulate pH, precipitation/dissolution, and pH-dependent sorption provides a means of evaluating the complex interactions between instream chemistry and hydrologic transport at the field scale.\n\nOTEQ is generally applicable to solutes which undergo reactions that are sufficiently fast relative to hydrologic processes (\"Local Equilibrium\"). Although the definition of \"sufficiently fast\" is highly solute and application dependent, many reactions involving inorganic solutes quickly reach a state of chemical equilibrium. Given a state of chemical equilibrium, inorganic solutes may be modeled using OTEQ's equilibrium approach. This equilibrium approach is facilitated through the use of an existing database that describes chemical equilibria for a wide range of inorganic solutes. In addition, solute reactions not included in the existing database may be added by defining the appropriate mass-action equations and the associated equilibrium constants. As such, OTEQ provides a general framework for the modeling of solutes under the assumption of chemical equilibrium. Despite this generality, most OTEQ applications to date have focused on the transport of metals in streams and small rivers. The OTEQ documentation is therefore focused on metal transport. Potential model users should note, however, that additional applications are possible.",
+    "url": "https://csdms.colorado.edu/wiki/Model:OTEQ",
+    "developmentStatus": "Only maintenance"
+}
