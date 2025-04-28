@@ -89,4 +89,78 @@ def validate_and_log_version(extracted_values,eval_method,log):
 
     return result
 
+def validate_presence_of_fields(fields, eval_method):
+    """
+    Validates that required fields are present and not None or empty.
+    """
 
+    result = True
+
+    for key, value in fields.items():
+        if value is None or (isinstance(value, str) and value.strip() == ''):
+            print(f"{eval_method} logs: Field '{key}' is missing or empty.")
+            result = False
+        else:
+            print(f"{eval_method} logs: Field '{key}' is present.")
+    
+    return result
+
+def extract_extensions_from_supporting_data(supporting_data_list):
+    """
+    Extracts file extensions from supportingData entries (URLs or paths).
+    """
+    extensions = []
+    if supporting_data_list:
+        for entry in supporting_data_list:
+            if isinstance(entry, str):
+                ext = os.path.splitext(entry)[-1].lower().strip(".")
+                if ext:  # skip empty extensions
+                    extensions.append(ext)
+    return extensions
+
+
+def validate_data_interoperability(supporting_data, accepted_data_formats, eval_method):
+    """
+    Validates that the software interoperates using community-accepted standards for data exchange or API documentation.
+    """
+
+    result = True
+    all_formats = extract_extensions_from_supporting_data(supporting_data)
+
+    recognized_formats = [fmt for fmt in all_formats if fmt.lower() in accepted_data_formats]
+
+    if recognized_formats:
+        print(f"{eval_method} logs: Recognized formats used: {recognized_formats}")
+    else:
+        print(f"{eval_method} logs: No recognized formats found in input, output, or supportingData.")
+        result = False
+
+    return result
+
+def check_for_api_documentation(build_instructions, api_keywords, eval_method):
+    """
+    Checks if the buildInstructions field points to API-related documentation based on keywords.
+
+    """
+
+    result = False
+
+    if not build_instructions:
+        print(f"{eval_method} logs: No buildInstructions field provided.")
+        return result
+
+    # Make sure api_documentation is iterable
+    if isinstance(build_instructions, str):
+        build_instructions = [build_instructions]
+
+    for entry in build_instructions:
+        if not isinstance(entry, str):
+            continue
+        lowered_entry = entry.lower()
+        if any(keyword in lowered_entry for keyword in api_keywords):
+            print(f"{eval_method} logs: found API documentation link in buildInstructions: {entry}.")
+            result = True
+        else:
+            print(f"{eval_method} logs: buildInstructions link'{entry}' does not appear to be API documentation.")
+
+    return result
