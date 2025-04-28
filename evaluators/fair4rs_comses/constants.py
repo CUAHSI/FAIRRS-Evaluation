@@ -24,3 +24,24 @@ RESTRICTIVE_LICENSES = [
 
 # Combined list of acceptable open-source licenses
 APPROVED_LICENSES = PERMISSIVE_LICENSES + RESTRICTIVE_LICENSES
+
+# Community defined standards for data exchanged
+ACCEPTED_DATA_FORMATS = [
+    "csv", 
+    "json", 
+    "xml", 
+    "netcdf", 
+    "hdf5", 
+    "yaml", 
+    "geojson"
+    ]
+
+# Add keywords for API links
+API_KEYWORDS = [
+    "api", 
+    "swagger", 
+    "openapi", 
+    "endpoint", 
+    "rest", 
+    "graphql"
+    ]
