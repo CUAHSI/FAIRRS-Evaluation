@@ -3,6 +3,8 @@ import json
 import os
 from evaluators import MyEvaluator
 from utils.crosswalk_loader import CrosswalkLoader
+import scoring
+from weights import WEIGHTS
 
 def main(codemeta_file):
 
@@ -12,7 +14,7 @@ def main(codemeta_file):
     
     # load evaluator methods crosswalk (calling crosswalk for now, may change)
     crosswalk = CrosswalkLoader(codemeta_json)
-    eval_methods = crosswalk.map_evaluators_to_codemeta()
+    eval_mapping = crosswalk.map_evaluators_to_codemeta()
 
     # initialize dictionary of results  
     results = {}
@@ -28,15 +30,25 @@ def main(codemeta_file):
         method = getattr(evaluator, method_name, None)
         # run evaluation and store/print result
         try:
-            result = method(**eval_methods[method_name])
+            result = method(**eval_mapping[method_name])
         # some evaluation methods need codemeta properties in crosswalk
-        except KeyError:
-            result = "Need codemeta property in crosswalk."
+        except KeyError as e:
+            print(f"{method_name} logs: relevant field(s) not in codemeta file.")
+            result = False
         # store and print result (logs are printed in evaluator methods)
-        results[method_name] = result
-        print(f"{method_name} result: {result}")
+        indicator = method_name[4:]
+        results[indicator] = result
+        print(f"{indicator} result: {result}")
+        
+    # Compute FAIR scores
+    scores = scoring.compute_indicator_scores(results, WEIGHTS)
+    print("\nWeighed FAIR Scores (unnormalized):")
+    print(scores)
+    # print("\n🎯 FAIR Scores (0 to 1 scale):")
+    # for principle, score in scores.items():
+    #     print(f"  {principle}: {score}")
 
-    return results
+    return results,scores
 
 
 if __name__ == "__main__":
