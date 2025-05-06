@@ -19,11 +19,18 @@ RESTRICTIVE_LICENSES = [
     "EPL-2.0",
     "MPL-2.0",
     "GPL-3.0",
-    "LGPL-3.0"
+    "LGPL-3.0",
+]
+
+COMSES_APPROVED_LICENSES = [
+    "BSD or MIT X11",
+    "CPL",
+    "GPL v3",
+    "LGPL",
 ]
 
 # Combined list of acceptable open-source licenses
-APPROVED_LICENSES = PERMISSIVE_LICENSES + RESTRICTIVE_LICENSES
+APPROVED_LICENSES = PERMISSIVE_LICENSES + RESTRICTIVE_LICENSES + COMSES_APPROVED_LICENSES
 
 # Community defined standards for data exchanged
 ACCEPTED_DATA_FORMATS = [
