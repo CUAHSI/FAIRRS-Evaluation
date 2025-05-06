@@ -1,8 +1,9 @@
+import re
 import os
 import sys
 import json
 import requests
-from typing import Dict, Any
+from typing import Dict, Any, List
 # Import libraries for loading codemeta file and running codemeticulous validator
 import pydantic
 from codemeticulous.cli import load_and_create_model
@@ -57,7 +58,10 @@ def run_codemeticulous_validation(codemeta_file):
         print(f"{codemeta_file} is not a valid codemeta file. {e}")
         sys.exit(1)
 
-def validate_and_log_urls(extracted_values,eval_method,log):
+def validate_and_log_urls(extracted_values,msg,log=None):
+
+    if log is None:
+        log = []
 
     result = False
 
@@ -68,13 +72,25 @@ def validate_and_log_urls(extracted_values,eval_method,log):
 
             if res == True:
                 result = True
-                print(f"{eval_method} logs: {url} in codemeta property '{key}' {log}")
+                log.append(f"{url} in codemeta property '{key}' is {msg}")
+                # print(f"{eval_method} logs: {url} in codemeta property '{key}' {log}")
+            else:
+                log.append(f"{url} in codemeta property '{key}' is NOT {msg}")
 
-    return result
+    return result, log
 
-def validate_and_log_version(extracted_values,eval_method,log):
+def validate_and_log_version(extracted_values,msg,log=None):
+
+    if log is None:
+        log = []
 
     result = False
+
+    if not extracted_values:
+
+        log.append('No version provided.')
+
+        return result, log
 
     for key, value in extracted_values.items():
 
@@ -84,26 +100,34 @@ def validate_and_log_version(extracted_values,eval_method,log):
         is_valid = len(parts) == 3 and all(part.isdigit() for part in parts)
 
         if is_valid:
-            print(f"{eval_method} logs: {value} in codemeta property '{key}' {log}")
+            log.append(f"{value} in codemeta property '{key}' {msg}")
+            # print(f"{eval_method} logs: {value} in codemeta property '{key}' does NOT {log}")
             result = True
+        else:
+            log.append(f"{value} in codemeta property '{key}' does NOT {msg}")
 
-    return result
+    return result, log
 
-def validate_presence_of_fields(fields, eval_method):
+def validate_presence_of_fields(fields, log=None):
     """
     Validates that required fields are present and not None or empty.
     """
+
+    if log is None:
+        log = []
 
     result = True
 
     for key, value in fields.items():
         if value is None or (isinstance(value, str) and value.strip() == ''):
-            print(f"{eval_method} logs: Field '{key}' is missing or empty.")
+            log.append(f"Field '{key}' is missing or empty.")
+            # print(f"{eval_method} logs: Field '{key}' is missing or empty.")
             result = False
         else:
-            print(f"{eval_method} logs: Field '{key}' is present.")
+            log.append(f"Field '{key}' is present.")
+            # print(f"{eval_method} logs: Field '{key}' is present.")
     
-    return result
+    return result, log
 
 def extract_extensions_from_supporting_data(supporting_data_list):
     """
@@ -119,34 +143,49 @@ def extract_extensions_from_supporting_data(supporting_data_list):
     return extensions
 
 
-def validate_data_interoperability(supporting_data, accepted_data_formats, eval_method):
+def validate_data_interoperability(supporting_data, accepted_data_formats, log=None):
     """
-    Validates that the software interoperates using community-accepted standards for data exchange or API documentation.
+    Validates that the software interoperates using community-accepted standards for data exchange/
     """
 
+    if log is None:
+        log = []
+
     result = True
+
+    if not supporting_data:
+        log.append('No supportingData field provided.')
+        result = False
+
+        return result, log 
+
     all_formats = extract_extensions_from_supporting_data(supporting_data)
 
     recognized_formats = [fmt for fmt in all_formats if fmt.lower() in accepted_data_formats]
 
     if recognized_formats:
-        print(f"{eval_method} logs: Recognized formats used: {recognized_formats}")
+        log.append(f"Recognized data format used: {recognized_formats}")
+        # print(f"{eval_method} logs: Recognized formats used: {recognized_formats}")
     else:
-        print(f"{eval_method} logs: No recognized formats found in input, output, or supportingData.")
+        log.append(f"No recognized data formats used.")
+        # print(f"{eval_method} logs: No recognized formats found in input, output, or supportingData.")
         result = False
 
-    return result
+    return result, log
 
-def check_for_api_documentation(build_instructions, api_keywords, eval_method):
+def check_for_api_documentation(build_instructions, api_keywords, log=None):
     """
     Checks if the buildInstructions field points to API-related documentation based on keywords.
 
     """
+    if log is None:
+        log = []
 
     result = False
 
     if not build_instructions:
-        print(f"{eval_method} logs: No buildInstructions field provided.")
+        log.append('No buildInstructions field provided.')
+        # print(f"{eval_method} logs: No buildInstructions field provided.")
         return result
 
     # Make sure api_documentation is iterable
@@ -158,9 +197,37 @@ def check_for_api_documentation(build_instructions, api_keywords, eval_method):
             continue
         lowered_entry = entry.lower()
         if any(keyword in lowered_entry for keyword in api_keywords):
-            print(f"{eval_method} logs: found API documentation link in buildInstructions: {entry}.")
+            log.append(f"Found API documentation link in buildInstructions: {entry}.")
+            # print(f"{eval_method} logs: found API documentation link in buildInstructions: {entry}.")
             result = True
         else:
-            print(f"{eval_method} logs: buildInstructions link'{entry}' does not appear to be API documentation.")
+            log.append(f"buildInstructions link '{entry}' does not appear to be API documentation.")
+            # print(f"{eval_method} logs: buildInstructions link'{entry}' does not appear to be API documentation.")
 
-    return result
+    return result, log
+
+def check_if_field_in_keywords(field, kw_list, msg, log=None):
+    """
+    Checks if any permissive license keywords appear in the input string using case-insensitive regex.
+
+    Args:
+        text (str): The input string to check.
+        license_list (List[str]): List of license strings to search for (default = PERMISSIVE_LICENSES)
+
+    Returns:
+        bool: True if any license is found, False otherwise.
+        
+    """
+
+    if log is None:
+        log = []
+
+    result = any(re.search(rf'\b{re.escape(kw)}\b', field, re.IGNORECASE) for kw in kw_list)
+
+    if result:
+        log.append(f"{field} is {msg}")
+
+    else:
+        log.append(f"{field} is NOT {msg}")
+
+    return result,log
