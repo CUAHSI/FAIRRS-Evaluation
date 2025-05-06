@@ -7,13 +7,16 @@ def compute_indicator_scores(results: dict, weights: dict) -> dict:
 
     principles = ['F','A','I','R']
 
+    # flatten results dict
+    results_flattened= {key: value["result"] for key, value in results.items()}
+
     # get indicators assoicated with each principle
     for principle in principles:
-        principle_indicators = [k for k in results.keys() if principle in k]
+        principle_indicators = [k for k in results_flattened.keys() if principle in k]
 
         # multiple result by weight
         for principle_indicator in principle_indicators:
-            scores[principle_indicator] = results[principle_indicator] * weights[principle_indicator]
+            scores[principle_indicator] = results_flattened[principle_indicator] * weights[principle_indicator]
     
         # combine secondary indicators where needed
         if principle == 'F':
