@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from typing import Dict, Any
+from typing import Dict, Any, List, Tuple
 from utils import evaluator_utils
 from utils import codemeta_parser
 from constants import SOFTWARE_REGISTRIES, APPROVED_LICENSES, ACCEPTED_DATA_FORMATS, API_KEYWORDS
@@ -11,7 +11,7 @@ class Evaluator(ABC):
     """
 
     @abstractmethod
-    def evalF1_1(self, citation=None, identifier=None, sameAs=None, isPartOf=None, url=None) -> bool:
+    def evalF1_1(self, citation=None, identifier=None, sameAs=None, isPartOf=None, url=None) -> Tuple[bool, List[str]]:
         raise NotImplementedError   
 
     @abstractmethod
@@ -67,7 +67,7 @@ class Evaluator(ABC):
         raise NotImplementedError
 
     @abstractmethod
-    def evalR3(self, referencePublication=None) -> bool:
+    def evalR3(self, review=None) -> bool:
         raise NotImplementedError
 
 
@@ -86,7 +86,7 @@ class MyEvaluator(Evaluator):
 
         return codemeta_json
     
-    def evalF1_1(self, citation=None, identifier=None, sameAs=None, isPartOf=None, url=None) -> bool:
+    def evalF1_1(self, citation=None, identifier=None, sameAs=None, isPartOf=None, url=None) -> Tuple[bool, List[str]]:
 
         """
         Description from Chue Hong et. al, RDA FAIR4RS WG. (2022). FAIR Principles for Research Software (FAIR4RS Principles) (1.0). 
@@ -104,17 +104,24 @@ class MyEvaluator(Evaluator):
         # Get all function arguments dynamically
         all_args = {key: value for key, value in locals().items() if key != "self" and value is not None}
 
-        # initialize result to False
-        result = False
+        # # initialize result to False
+        # result = False
 
         # Extract URLs from all provided arguments
-        extracted_urls = {key: codemeta_parser.extract_urls_from_field(value,regex_filter='https://doi.org/') for key, value in all_args.items() if value}
+        extracted_urls = {
+                        key: urls
+                        for key, value in all_args.items()
+                        if value and (urls := codemeta_parser.extract_urls_from_field(value, regex_filter='https://doi.org/'))
+                        }
         if extracted_urls:
-            result = evaluator_utils.validate_and_log_urls(extracted_urls,'evalF1_1', 'is a globally unique and persistent identifier.')
+            result, log = evaluator_utils.validate_and_log_urls(extracted_urls,'is a globally unique and persistent identifier.')
+        else: 
+            result = False
+            log = [f"No URLs found in {list(all_args.keys())}"]
 
-        return result
+        return result, log
 
-    def evalF1_2(self, softwareVersion=None, version=None) -> bool:
+    def evalF1_2(self, softwareVersion=None, version=None) -> Tuple[bool, List[str]]:
 
         """
         Description from Chue Hong et. al, RDA FAIR4RS WG. (2022). FAIR Principles for Research Software (FAIR4RS Principles) (1.0). 
@@ -134,11 +141,11 @@ class MyEvaluator(Evaluator):
         # Get all function arguments dynamically
         all_args = {key: value for key, value in locals().items() if key != "self" and value is not None}
 
-        result = evaluator_utils.validate_and_log_version(all_args,'evalF1_2', 'represents valid semantic versioning.')
+        result, log = evaluator_utils.validate_and_log_version(all_args,'represents valid semantic versioning.')
 
-        return result
+        return result, log
 
-    def evalF2(self, description=None, fileSize=None) -> bool:
+    def evalF2(self, description=None, fileSize=None) -> Tuple[bool, List[str]]:
 
         """
         Description from Chue Hong et. al, RDA FAIR4RS WG. (2022). FAIR Principles for Research Software (FAIR4RS Principles) (1.0). 
@@ -152,10 +159,12 @@ class MyEvaluator(Evaluator):
         """
 
         # Set to True as it passes Codemeta validation
+        result = True
+        log = ['Codemeta file passed validation through codemeticulous.']
 
-        return True
+        return result, log
 
-    def evalF3(self, codeRepository=None, hasPart=None, identifier=None, publisher=None) -> bool:
+    def evalF3(self, codeRepository=None, hasPart=None, identifier=None, publisher=None) -> Tuple[bool, List[str]]:
 
         """
         Description from Chue Hong et. al, RDA FAIR4RS WG. (2022). FAIR Principles for Research Software (FAIR4RS Principles) (1.0). 
@@ -169,18 +178,25 @@ class MyEvaluator(Evaluator):
 
         """
 
-        result = False
+        # result = False
 
         # check identifier field for operational URL
         all_args = {key: value for key, value in locals().items() if key != "self" and value is not None}
-        extracted_urls = {key: codemeta_parser.extract_urls_from_field(value) for key, value in all_args.items() if value}
+        extracted_urls = {
+                        key: urls
+                        for key, value in all_args.items()
+                        if value and (urls := codemeta_parser.extract_urls_from_field(value, regex_filter='https://doi.org/'))
+                        }
         if extracted_urls:
-            result = evaluator_utils.validate_and_log_urls(extracted_urls, 'evalF3', 'is a globally unique and persistent identifier for software.')
-            return result
+            result, log = evaluator_utils.validate_and_log_urls(extracted_urls, 'a globally unique and persistent identifier for software.')
+        else:
+            result = False
+            log = [f"No URLs found in {list(all_args.keys())}"]
+            # return result
 
-        return result
+        return result, log
 
-    def evalF4(self, applicationCategory=None, applicationSubCategory=None, isAccessibleForFree=None, keywords=None) -> bool:
+    def evalF4(self, applicationCategory=None, applicationSubCategory=None, isAccessibleForFree=None, keywords=None) -> Tuple[bool, List[str]]:
 
         """
         Description from Chue Hong et. al, RDA FAIR4RS WG. (2022). FAIR Principles for Research Software (FAIR4RS Principles) (1.0). 
@@ -193,11 +209,11 @@ class MyEvaluator(Evaluator):
         """
 
         all_args = {key: value for key, value in locals().items() if key != "self" and value is not None}
-        result =  evaluator_utils.validate_presence_of_fields(all_args, 'evalF4')
+        result, log =  evaluator_utils.validate_presence_of_fields(all_args)
 
-        return result
+        return result, log
     
-    def evalA1_1(self, downloadUrl=None, installUrl=None, isAccessibleForFree=None, license=None, permissions=None, url=None) -> bool:
+    def evalA1_1(self, downloadUrl=None, installUrl=None, isAccessibleForFree=None, license=None, permissions=None, url=None) -> Tuple[bool, List[str]]:
         """
         Description from Chue Hong et. al, RDA FAIR4RS WG. (2022). FAIR Principles for Research Software (FAIR4RS Principles) (1.0). 
         Zenodo. https://doi.org/10.15497/RDA00068
@@ -212,13 +228,21 @@ class MyEvaluator(Evaluator):
         all_args = {key: value for key, value in locals().items() if key != "self" and value is not None}
 
         # Extract URLs from all provided arguments
-        extracted_urls = {key: codemeta_parser.extract_urls_from_field(value) for key, value in all_args.items() if value}
+        extracted_urls = {
+                        key: urls
+                        for key, value in all_args.items()
+                        if value and (urls := codemeta_parser.extract_urls_from_field(value))
+                        }
+        # extracted_urls = {key: codemeta_parser.extract_urls_from_field(value) for key, value in all_args.items() if value}
         if extracted_urls:
-            result = evaluator_utils.validate_and_log_urls(extracted_urls,'evalA1_1', 'provides access to the software.')
+            result, log = evaluator_utils.validate_and_log_urls(extracted_urls, 'an open link to the software.')
+        else:
+            result = False
+            log = [f"No URLs found in {list(all_args.keys())}"]
 
-        return result
+        return result, log
 
-    def evalA1_2(self, downloadUrl=None, hasPart=None, installUrl=None, isAccessibleForFree=None, isPartOf=None, license=None, permissions=None) -> bool:
+    def evalA1_2(self, downloadUrl=None, hasPart=None, installUrl=None, isAccessibleForFree=None, isPartOf=None, license=None, permissions=None) -> Tuple[bool, List[str]]:
         """
         Description from Chue Hong et. al, RDA FAIR4RS WG. (2022). FAIR Principles for Research Software (FAIR4RS Principles) (1.0). 
         Zenodo. https://doi.org/10.15497/RDA00068
@@ -229,19 +253,74 @@ class MyEvaluator(Evaluator):
         
         """
 
-        # haven't implemeneted yet but will do the following:
-        # 1) check downloadUrl and installUrl to see if they resolve with 200-399 status code
-        # 2) check isAccessibleForFree to see if it is set to True
-        # 3) check permissions for specific regular expressions that indicate there are conditions to access
-        # 4) check license to see if software is among list of licenses that are openly accessible
-    
-        # unsure how to use hasPart and isPartOf
+        # # Get all function arguments dynamically
+        # all_args = {key: value for key, value in locals().items() if key != "self" and value is not None}
 
-        print('evalA1_2 logs: Challenging to implement.')
+        result = False
+        log = []
 
-        return False
+        # # Extract URLs from all provided arguments
+        # extracted_urls = {key: codemeta_parser.extract_urls_from_field(value) for key, value in all_args.items() if value}
+        # if extracted_urls:
+        #     result, log = evaluator_utils.validate_and_log_urls(extracted_urls, 'an open link to the software.')
+        # else:
+        #     result = False
+        #     log = [f"No URLs found in {list(all_args.keys())}"]
 
-    def evalA2(self, identifier=None, url=None) -> bool:
+        # if downloadUrl is not None:
+
+        #     result, log = evaluator_utils.validate_and_log_urls(downloadUrl, 'an operational URL to download the software.')
+
+            # if result:
+            #     # check url to see if it resolves
+            #     result_log, log = evaluator_utils.validate_and_log_urls(all_args.downloadUrl, 'is an operational URL to download the software.')
+            # else:
+            #     result = evaluator_utils.validate_and_log_urls(all_args.downloadUrl, 'is an operational URL to download the software.')
+
+        # if installUrl is not None:
+        #     if result:
+        #         # check url to see if it resolves
+        #         _,log = evaluator_utils.validate_and_log_urls(installUrl,'an operational URL to install the software.',log=log)
+        #     else:
+        #         result, log = evaluator_utils.validate_and_log_urls(installUrl, 'an operational URL to install the software.',log=log)
+
+        if isAccessibleForFree is not None:    
+            if isAccessibleForFree:
+                # software openly accesible
+                result = True
+                log.append('Software is accessible for free.')
+                # print('evalA1_2 logs: software is accessible for free.')
+            else:
+                result = False
+                log.append('Software is NOT accessible for free.')
+        
+        if license is not None:
+                    
+            # extracted_urls = codemeta_parser.extract_urls_from_field(license,regex_filter=APPROVED_LICENSES)
+            # if extracted_urls:
+            if result:
+                _, log = evaluator_utils.check_if_field_in_keywords(license["name"],APPROVED_LICENSES,'an approved license.')
+            else:
+                result, log = evaluator_utils.check_if_field_in_keywords(license["name"],APPROVED_LICENSES,'an approved license.')
+
+        # unsure what keywords to use for permissions
+        if permissions is not None:
+            pass
+
+        # unsure how to use hasPart
+        if hasPart is not None:
+            pass
+
+        # unsure how to use isPartOf
+        if isPartOf is not None:
+            pass
+
+        if not log:
+            log = ['Link in license field nor flag in isAccessibleForFree provided']
+
+        return result,log
+
+    def evalA2(self, identifier=None, url=None) -> Tuple[bool, List[str]]:
         """
         Description from Chue Hong et. al, RDA FAIR4RS WG. (2022). FAIR Principles for Research Software (FAIR4RS Principles) (1.0). 
         Zenodo. https://doi.org/10.15497/RDA00068
@@ -257,13 +336,21 @@ class MyEvaluator(Evaluator):
         all_args = {key: value for key, value in locals().items() if key != "self" and value is not None}
 
         # Extract URLs from all provided arguments
-        extracted_urls = {key: codemeta_parser.extract_urls_from_field(value,regex_filter=SOFTWARE_REGISTRIES) for key, value in all_args.items() if value}
+        extracted_urls = {
+                        key: urls
+                        for key, value in all_args.items()
+                        if value and (urls := codemeta_parser.extract_urls_from_field(value,regex_filter=SOFTWARE_REGISTRIES))
+                        }
+        # extracted_urls = {key: codemeta_parser.extract_urls_from_field(value,regex_filter=SOFTWARE_REGISTRIES) for key, value in all_args.items() if value}
         if extracted_urls:
-            result = evaluator_utils.validate_and_log_urls(extracted_urls,'evalA2', 'provides access to the software metadata.')
+            result,log = evaluator_utils.validate_and_log_urls(extracted_urls,'providing access to the software metadata.')
+        else:
+            result = False
+            log = [f"No URLs found in {list(all_args.keys())}"]
 
-        return result
+        return result,log
 
-    def evalI1(self, supportingData=None, buildInstructions=None) -> bool:
+    def evalI1(self, supportingData=None, buildInstructions=None) -> Tuple[bool, List[str]]:
 
         """
         Description from Chue Hong et. al, RDA FAIR4RS WG. (2022). FAIR Principles for Research Software (FAIR4RS Principles) (1.0). 
@@ -278,43 +365,32 @@ class MyEvaluator(Evaluator):
 
         """
 
-        # XX -- challenging to implement.
-        # unsure what the domain relevant community standards are.
-
-        # workaround
-        # look in encoding term (MediaObject) for input and output data formats from CSDMS
-        
-        # print('evalI1 logs: Challenging to implement.')
-
-
         # Get all function arguments dynamically
         all_args = {key: value for key, value in locals().items() if key != "self" and value is not None}
 
         # Validate interoperability based on data exchange formats
-        result_interoperability = evaluator_utils.validate_data_interoperability(
-            all_args.supportingData,
-            ACCEPTED_DATA_FORMATS,
-            'evalI1'
+        result_interoperability, log = evaluator_utils.validate_data_interoperability(
+            all_args["supportingData"],
+            ACCEPTED_DATA_FORMATS
         )
 
         # Check specifically for API documentation links
-        result_api_docs = evaluator_utils.check_for_api_documentation(
+        result_api_docs, log = evaluator_utils.check_for_api_documentation(
             all_args.buildInstructions,
             API_KEYWORDS,
-            'evalI1'
+            log=log
         )
 
         # Pass only if both validations are True
         if result_interoperability and result_api_docs:
             # print(f"evaI1 logs: Passed interoperability evaluation.")
-            return True
+            result = True
         else:
-            # print(f"{eval_method} logs: Failed interoperability evaluation.")
-            return False
+            result = False
 
-        return False
+        return result, log
 
-    def evalI2(self, relatedLink=None, supportingData=None, isPartOf=None, referencePublication=None) -> bool:
+    def evalI2(self, relatedLink=None, supportingData=None, isPartOf=None, referencePublication=None) -> Tuple[bool, List[str]]:
         """
         Description from Chue Hong et. al, RDA FAIR4RS WG. (2022). FAIR Principles for Research Software (FAIR4RS Principles) (1.0). 
         Zenodo. https://doi.org/10.15497/RDA00068
@@ -332,17 +408,28 @@ class MyEvaluator(Evaluator):
 
         """
 
-        # XX -- challenging to implement.
-        # unsure what identifiers and/or controlled vocabularies are
-
-        print('evalI2 logs: Challenging to implement.')
+        # result = False
 
         # Get all function arguments dynamically
         all_args = {key: value for key, value in locals().items() if key != "self" and value is not None}
 
-        return False
+        # Extract URLs from all provided arguments
+        extracted_urls = {
+                        key: urls
+                        for key, value in all_args.items()
+                        if value and (urls := codemeta_parser.extract_urls_from_field(value,regex_filter=['http://','https://','doi:']))
+                        }
+        # extracted_urls = {key: codemeta_parser.extract_urls_from_field(value,regex_filter=['http://','https://','doi:']) for key, value in all_args.items() if value}
+        if extracted_urls:
+            result,log = evaluator_utils.validate_and_log_urls(extracted_urls,'a qualified reference.')
+        else:
+            result = False
+            log = [f"No URLs found in {list(all_args.keys())}"]
 
-    def evalR1_1(self, citation=None, license=None, referencePublication=None) -> bool:
+        return result,log
+
+
+    def evalR1_1(self, citation=None, license=None, referencePublication=None) -> Tuple[bool, List[str]]:
         """
         Description from Chue Hong et. al, RDA FAIR4RS WG. (2022). FAIR Principles for Research Software (FAIR4RS Principles) (1.0). 
         Zenodo. https://doi.org/10.15497/RDA00068
@@ -357,16 +444,24 @@ class MyEvaluator(Evaluator):
         all_args = {key: value for key, value in locals().items() if key != "self" and value is not None}
 
         # Extract URLs from all provided arguments
-        extracted_urls = {key: codemeta_parser.extract_urls_from_field(value,regex_filter=APPROVED_LICENSES) for key, value in all_args.items() if value}
-        if extracted_urls:
-            result = evaluator_utils.validate_and_log_urls(extracted_urls,'evalR1_1', 'is an approved license.')
+        ## XX -- fix license
 
-        return result  
+        result, log = evaluator_utils.check_if_field_in_keywords(license["name"],APPROVED_LICENSES,'an approved license.')
+
+
+        # extracted_urls = {key: codemeta_parser.extract_urls_from_field(value,regex_filter=APPROVED_LICENSES) for key, value in all_args.items() if value}
+        # if extracted_urls:
+        #     result, log = evaluator_utils.validate_and_log_urls(extracted_urls, 'an approved license.')
+        # else:
+        #     result = False
+        #     log = [f"No URLs found in {list(all_args.keys())}"]
+
+        return result, log
 
     def evalR1_2(self, address=None, affiliation=None, author=None, citation=None, contributor=None,
                 copyrightHolder=None, copyrightYear=None, dateCreated=None, dateModified=None,
                 datePublished=None, editor=None, email=None, funder=None, funding=None, maintainer=None, 
-                producer=None, provider=None, publisher=None) -> bool:
+                producer=None, provider=None, publisher=None) -> Tuple[bool, List[str]]:
         """
         Description from Chue Hong et. al, RDA FAIR4RS WG. (2022). FAIR Principles for Research Software (FAIR4RS Principles) (1.0). 
         Zenodo. https://doi.org/10.15497/RDA00068
@@ -377,15 +472,20 @@ class MyEvaluator(Evaluator):
         type of metadata this overlaps with the metadata called for in guiding principles F2 and F4.
 
         """
-        
+
         # XX -- challenging to implement. 
         # there are an overwhelming amount of aspects to provenance
+        # let's leave this out for now; might require more work later on
 
-        print('evalR1_2 logs: Challenging to implement.')
 
-        return False
+        # print('evalR1_2 logs: Challenging to implement.')
 
-    def evalR2(self, softwareRequirement=None, softwareSuggestions=None) -> bool:
+        result = False
+        log = ['Not measured; challenging to implement.']
+
+        return result, log
+
+    def evalR2(self, softwareRequirement=None, softwareSuggestions=None) -> Tuple[bool, List[str]]:
         """
         Description from Chue Hong et. al, RDA FAIR4RS WG. (2022). FAIR Principles for Research Software (FAIR4RS Principles) (1.0). 
         Zenodo. https://doi.org/10.15497/RDA00068
@@ -401,22 +501,25 @@ class MyEvaluator(Evaluator):
 
         """
 
-        # # XX -- challenging to implement.
-        # # unsure how to define "qualified" reference to other software.
-
-        # print('evalR2 logs: Challenging to implement.')
-
         # Get all function arguments dynamically
         all_args = {key: value for key, value in locals().items() if key != "self" and value is not None}
 
         # Extract URLs from all provided arguments
-        extracted_urls = {key: codemeta_parser.extract_urls_from_field(value) for key, value in all_args.items() if value}
+        extracted_urls = {
+                        key: urls
+                        for key, value in all_args.items()
+                        if value and (urls := codemeta_parser.extract_urls_from_field(value))
+                        }
+        # extracted_urls = {key: codemeta_parser.extract_urls_from_field(value) for key, value in all_args.items() if value}
         if extracted_urls:
-            result = evaluator_utils.validate_and_log_urls(extracted_urls,'evalR2', 'is a qualified reference to other relevant software.')
+            result,log = evaluator_utils.validate_and_log_urls(extracted_urls, 'a qualified reference to other relevant software.')
+        else:
+            result = False
+            log = [f"No URLs found in {list(all_args.keys())}"]
 
-        return False
+        return result
 
-    def evalR3(self, referencePublication=None) -> bool:
+    def evalR3(self, review=None) -> Tuple[bool, List[str]]:
         """
         Description from Chue Hong et. al, RDA FAIR4RS WG. (2022). FAIR Principles for Research Software (FAIR4RS Principles) (1.0). 
         Zenodo. https://doi.org/10.15497/RDA00068
@@ -436,9 +539,18 @@ class MyEvaluator(Evaluator):
 
         """
 
-        # XX -- challenging to implement.
-        # unsure how to define best practices here for domain-relevant community standards. How do people currently assess this?
+        # # we can use the JOSS badge for code review 
+        # result = False
 
-        print('evalR3 logs: Challenging to implement.')
+        # Get all function arguments dynamically
+        all_args = {key: value for key, value in locals().items() if key != "self" and value is not None}
 
-        return False
+        if 'review' in all_args.keys():
+            # print(f'evalR3 logs: {review.reviewBody}')
+            result = True
+            log = [f"{review['reviewBody']}"]
+        else:
+            result = False
+            log = ['Not code reviewed']
+
+        return result, log
