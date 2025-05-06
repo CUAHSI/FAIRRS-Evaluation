@@ -54,5 +54,6 @@
     },
     "description": "Relative wetness and factor-of-safety are based on the infinite slope stability model driven by topographic and soils inputs and recharge provided by user as inputs to the component. For each node, component simulates mean relative wetness as well as the probability of saturation based on Monte Carlo simulation of relative wetness where the probability is the number of iterations with relative wetness >= 1.0 divided by the number of iterations. Probability of failure for each node is also simulated in the Monte Carlo simulation as the number of iterations with factor-of-safety <= 1.0 divided by the number of iterations.",
     "url": "https://csdms.colorado.edu/wiki/Model:Landslides",
+    "relatedLink": "https://github.com/landlab/landlab/issues",
     "developmentStatus": "Only maintenance"
 }

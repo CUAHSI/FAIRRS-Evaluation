@@ -64,5 +64,6 @@
     },
     "description": "This module uses Taylor Perron\u2019s implicit (2011) method to solve the nonlinear hillslope diffusion equation across a rectangular, regular grid for a single timestep. Note it works with the mass flux implicitly, and thus does not actually calculate it. Grid must be at least 5x5.\n\nBoundary condition handling assumes each edge uses the same BC for each of its nodes. This component cannot yet handle looped boundary conditions, but all others should be fine.\n\nThis component has KNOWN STABILITY ISSUES which will be resolved in a future release; use at your own risk.",
     "url": "https://csdms.colorado.edu/wiki/Model:PerronNLDiffuse",
+    "relatedLink": "https://github.com/landlab/landlab/issues",
     "developmentStatus": "Only maintenance"
 }

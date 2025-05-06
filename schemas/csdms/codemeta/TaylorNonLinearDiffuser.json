@@ -79,5 +79,6 @@
     },
     "description": "Hillslope evolution using a Taylor Series expansion of the Andrews-Bucknam formulation of nonlinear hillslope flux derived following following Ganti et al., 2012. The flux is given as:\n\nqs = KS ( 1 + (S/Sc)**2 + (S / Sc)**4 + .. + (S / Sc)**2(n - 1) )\n\nwhere K is is the diffusivity, S is the slope, Sc is the critical slope, and n is the number of terms. The default behavior uses two terms to produce a flux law as described by Equation 6 of Ganti et al., (2012).",
     "url": "https://csdms.colorado.edu/wiki/Model:TaylorNonLinearDiffuser",
+    "relatedLink": "https://github.com/landlab/landlab/issues",
     "developmentStatus": "Only maintenance"
 }

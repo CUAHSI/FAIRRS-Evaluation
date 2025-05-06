@@ -72,5 +72,9 @@
     "identifier": "10.5281/zenodo.3517217",
     "description": "When wind blows over snow, it self-organizes. This forms surface features, such as ripples and dunes, that alter the reflectivity and thermal conductivity of the snow.\n\nStudying these features in the field is cold and challenging (we've tried), so we created rescal-snow to enable snow scientists to study snow features in controlled numerical experiments. We hope that this model will be useful to researchers in snow science, geomorphology, and polar climate.\n\nRescal-snow is able to simulate:\n- Snow/sand grain erosion and deposition by wind\n- Snowfall\n- Time-dependent cohesion (snow sintering)\n- Avalanches of loose grains\n\nRescal-snow is also designed for robust, reproducible science, and contains tools for high-performance computing, data management, and data analysis, including:\n- Workflow tools for generating and running many simulations in parallel\n- A python-based workflow that manages data and analysis at runtime\n\nThese processes, along with model input, output, performance and constraints, are discussed in detail in the project docs and readme.",
     "url": "https://csdms.colorado.edu/wiki/Model:Rescal-snow",
+    "review": {
+        "@type": "Review",
+        "reviewBody": "Reviewed and accepted by the Journal of Open Source Software (JOSS)."
+    },
     "developmentStatus": "Active"
 }

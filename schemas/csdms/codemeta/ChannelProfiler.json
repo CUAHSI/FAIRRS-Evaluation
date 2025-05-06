@@ -56,5 +56,6 @@
         "name": "BSD or MIT X11"
     },
     "description": "In order to extract channel networks, the flow connectivity across the grid must already be identified. This is typically done with the FlowAccumulator component. However, this component does not require that the FlowAccumulator was used. Instead it expects that the following at-node grid fields will be present:<br>\n'flow__receiver_node'<br>\n'flow__link_to_receiver_node'<br>\nThe ChannelProfiler can work on grids that have used route-to-one or route-to-multiple flow directing.",
-    "url": "https://csdms.colorado.edu/wiki/Model:ChannelProfiler"
+    "url": "https://csdms.colorado.edu/wiki/Model:ChannelProfiler",
+    "relatedLink": "https://github.com/landlab/landlab/issues"
 }

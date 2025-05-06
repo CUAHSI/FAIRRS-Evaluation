@@ -62,5 +62,6 @@
     },
     "description": "This component implements exponential weathering of bedrock on hillslopes. Uses exponential soil production function in the style of Ahnert (1976).\n\nConsider that w_0 is the maximum soil production rate and that d* is the characteristic soil production depth. The soil production rate w is given as a function of the soil depth d,\n\nw = w_0^(-d/d*)\n\nThe ExponentialWeatherer only calculates soil production at core nodes.",
     "url": "https://csdms.colorado.edu/wiki/Model:ExponentialWeatherer",
+    "relatedLink": "https://github.com/landlab/landlab/issues",
     "developmentStatus": "Only maintenance"
 }

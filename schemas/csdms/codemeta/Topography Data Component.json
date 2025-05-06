@@ -84,5 +84,6 @@
     "identifier": "10.5281/zenodo.4608652",
     "description": "Topography is a Python library to fetch and cache NASA Shuttle Radar Topography Mission (SRTM) and JAXA Advanced Land Observing Satellite (ALOS) land elevation data using the OpenTopography REST API.\n\nThe Topography library provides access to the following global raster datasets:\n\n* SRTM GL3 (90m)\n* SRTM GL1 (30m)\n* SRTM GL1 (30m, Ellipsoidal)\n* ALOS World 3D (30m)\n* ALOS World 3D (30m, Ellipsoidal)\n* Global Bathymetry SRTM15+ V2.1\n* NASADEM Global DEM\n* Copernicus Global DSM 30m\n* Copernicus Global DSM 90m\n\nThe library includes an API and CLI that accept the dataset type, a latitude-longitude bounding box, and the output file format. Data are downloaded from OpenTopography and cached locally. The cache is checked before downloading new data. Data from a cached file can optionally be loaded into an xarray DataArray using the experimental open_rasterio method.",
     "url": "https://csdms.colorado.edu/wiki/Model:Topography_Data_Component",
+    "relatedLink": "https://github.com/csdms/bmi-topography/issues",
     "developmentStatus": "Active"
 }

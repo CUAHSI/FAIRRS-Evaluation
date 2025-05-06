@@ -66,5 +66,9 @@
     },
     "description": "The SFINCS model (Super-Fast INundation of CoastS) is developed to efficiently simulate compound flooding events at limited computational cost and good accuracy. SFINCS solves the SSWE and thus includes advection in the momentum equation. However, it can also run using the LIE without advection. Processes such as spatially varying friction, infiltration and precipitation are included. Moreover, SFINCS includes wind-driven shear and an absorbing-generating weakly-reflective boundary is considered which are not included in other reduced-physics models.",
     "url": "https://csdms.colorado.edu/wiki/Model:SFINCS",
+    "review": {
+        "@type": "Review",
+        "reviewBody": "Reviewed and accepted by the Journal of Open Source Software (JOSS)."
+    },
     "developmentStatus": "Active"
 }

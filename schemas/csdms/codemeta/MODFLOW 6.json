@@ -85,5 +85,6 @@
     },
     "description": "MODFLOW 6 is an object-oriented program and framework developed to provide a platform for supporting multiple models and multiple types of models within the same simulation. This version of MODFLOW is labeled with a \"6\" because it is the sixth core version of MODFLOW to be released by the USGS (previous core versions were released in 1984, 1988, 1996, 2000, and 2005). In the new design, any number of models can be included in a simulation. These models can be independent of one another with no interaction, they can exchange information with one another, or they can be tightly coupled at the matrix level by adding them to the same numerical solution. Transfer of information between models is isolated to exchange objects, which allow models to be developed and used independently of one another. Within this new framework, a regional-scale groundwater model may be coupled with multiple local-scale groundwater models. Or, a surface-water flow model could be coupled to multiple groundwater flow models. The framework naturally allows for future extensions to include the simulation of solute transport.",
     "url": "https://csdms.colorado.edu/wiki/Model:MODFLOW_6",
+    "relatedLink": "https://github.com/MODFLOW-USGS/modflow6/discussions",
     "developmentStatus": "Active"
 }

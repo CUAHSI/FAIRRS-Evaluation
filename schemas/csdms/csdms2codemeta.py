@@ -4,12 +4,13 @@
 This utility converts CSDMS metadata to CodeMeta format.
 """
 
+import re
 import json
 import logging
 from glob import glob
 from pathlib import Path
 from datetime import date
-from typing import Union, List
+from typing import Union, List, Optional
 
 
 import typer
@@ -18,6 +19,7 @@ from pydantic2_schemaorg.Person import Person
 from pydantic2_schemaorg.DataFeed import DataFeed
 from pydantic2_schemaorg.Organization import Organization
 from pydantic2_schemaorg.CreativeWork import CreativeWork
+from pydantic2_schemaorg.Review import Review
 from codemeticulous.codemeta.models import CodeMetaV3, VersionedLanguage
 
 
@@ -121,7 +123,7 @@ def build_codemeta(json_file: Path) -> CodeMetaV3:
         str: CodeMeta formatted string.
     """
 
-    with open(json_file, "r") as f:
+    with open(json_file, "r", encoding="utf-8") as f:
         dat = json.loads(f.read())
 
     properties = squash_mediawiki_vars(dat)
@@ -309,19 +311,21 @@ def build_codemeta(json_file: Path) -> CodeMetaV3:
     # identifier
     doi_identifier = properties.get("DOI_model", None)
 
-    # softwareVersion
-    software_version = properties.get("version", None)
+    # softwareVersion 
+    # modify to retrieve DOI_assigned_to_version instead of version property from CSDMS
+    software_version = properties.get("DOI_assigned_to_version", None)
 
     # softwareHelp
-    softwareHelp = None
-    manual_available_string = properties.get("version", "No")
+    # modified to encode buildInstructions codemeta term instead of softwareHelp
+    buildInstructions = None
+    manual_available_string = properties.get("DOI_assigned_to_version", "No")
     helpAvailable = False if manual_available_string == "No" else True
     if helpAvailable:
         model_manual = properties.get("Model_manual", None)
         if model_manual is not None:
             manual_url = f"https://csdms.colorado.edu/csdms_wiki/images/{':'.join(model_manual.split(':')[1:])}"
 
-            softwareHelp = CreativeWork(
+            buildInstructions = CreativeWork(
                 name="Software Manual",
                 url=HttpUrl(scheme="https", url=manual_url.replace(" ", "_")),
             )
@@ -338,6 +342,25 @@ def build_codemeta(json_file: Path) -> CodeMetaV3:
             supportingData.append(
                 DataFeed(name="Test Data", url=test_data_url.replace(" ", "_"))
             )
+
+    # review
+    # check if the model has been code reviewed or not 
+    # link to JOSS publication does not appear to be available for all models
+    # note this is not in Irene's crosswalk at the moment
+    review = None
+    codeReviewed = properties.get("CodeReviewed")
+    if codeReviewed == "0": # model has been reviewed and accepted in JOSS (value is "1" if not reviewed)
+        review = Review(reviewBody="Reviewed and accepted by the Journal of Open Source Software (JOSS).")
+
+    # relatedLink
+    # extracting this from Model forum field for now
+    relatedLink = None
+    related_link_value = properties.get("Model_forum", None)
+    if related_link_value:
+        related_link_url = extract_url(related_link_value)
+        if related_link_url:
+            relatedLink = HttpUrl(scheme="https", url=related_link_url)
+
 
     ###################
     # ENCODE CODEMETA #
@@ -371,12 +394,14 @@ def build_codemeta(json_file: Path) -> CodeMetaV3:
         identifier=doi_identifier,
         software_version=software_version,
         supportingData=supportingData,
+        review = review,
+        relatedLink = relatedLink
     )
     # There appears to be an issue with the validate_creative_work function that
     # I think is related to the "each_item=True" option. To overcome this, we'll
     # add some fields after our class is instantiated to skip validation.
     meta.license = license
-    meta.softwareHelp = softwareHelp
+    meta.buildInstructions = buildInstructions
 
     return meta
 
@@ -441,6 +466,27 @@ def grow_list(
         resized_list.append(last_element)
 
     return resized_list
+
+def extract_url(property_value: str) -> Optional[str]:
+    """
+    Utility function to retrieve URLs from property containing free text.
+    """
+
+    # pattern to find URLs starting with https://
+    pattern = r'https://\S+'
+
+    match = re.search(pattern,property_value)
+
+    if match:
+        url = match.group()
+    else:
+        url = None
+
+    return url
+
+
+
+
 
 
 if __name__ == "__main__":

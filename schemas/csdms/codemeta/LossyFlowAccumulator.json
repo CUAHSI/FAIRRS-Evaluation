@@ -64,5 +64,6 @@
         "name": "BSD or MIT X11"
     },
     "description": "This component is closely related to the FlowAccumulator, in that this is accomplished by first finding flow directions by a user-specified method and then calculating the drainage area and discharge. However, this component additionally requires the passing of a function that describes how discharge is lost or gained downstream, f(Qw, nodeID, linkID, grid). See examples at https://github.com/landlab/landlab/blob/master/landlab/components/flow_accum/lossy_flow_accumulator.py to see how this works in practice.",
-    "url": "https://csdms.colorado.edu/wiki/Model:LossyFlowAccumulator"
+    "url": "https://csdms.colorado.edu/wiki/Model:LossyFlowAccumulator",
+    "relatedLink": "https://github.com/landlab/landlab/issues"
 }
