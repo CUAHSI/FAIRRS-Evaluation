@@ -1,5 +1,7 @@
 # define weights for indiciator computation
 
+# note: R1_2 not measured at the moment
+
 WEIGHTS = {
     'F1': 0.25,
     'F1_1': 0.5,
@@ -14,8 +16,8 @@ WEIGHTS = {
     'I1': 0.5,
     'I2': 0.5,
     'R1': 0.33,
-    'R1_1': 0.5,
-    'R1_2': 0.5,
+    'R1_1': 1,
+    'R1_2': 0, # we are omitting R1_2 for now
     'R2': 0.33,
     'R3': 0.34
 }
