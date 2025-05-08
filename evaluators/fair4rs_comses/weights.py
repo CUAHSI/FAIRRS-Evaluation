@@ -17,7 +17,7 @@ WEIGHTS = {
     'I2': 0.5,
     'R1': 0.33,
     'R1_1': 1,
-    'R1_2': 0, # we are omitting R1_2 for now
+    'R1_2': 0, # skipping provenance for now
     'R2': 0.33,
     'R3': 0.34
 }

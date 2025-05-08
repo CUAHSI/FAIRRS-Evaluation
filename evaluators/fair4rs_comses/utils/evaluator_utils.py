@@ -4,6 +4,8 @@ import sys
 import json
 import requests
 from typing import Dict, Any, List
+from pathlib import Path
+from urllib.parse import urlparse
 # Import libraries for loading codemeta file and running codemeticulous validator
 import pydantic
 from codemeticulous.cli import load_and_create_model
@@ -29,6 +31,16 @@ def check_for_operational_url(url: str, timeout_val = 10) -> bool:
     
     except requests.RequestException as e:
         return False  # URL is not operational
+    
+def get_urls_by_name(codemeta_property_val, target_name) -> list:
+    """
+
+    """
+    return [
+        entry["url"]
+        for entry in codemeta_property_val
+        if entry.get("name") == target_name and "url" in entry
+    ]
 
 def load_codemeta_file(codemeta_file):
     try:
@@ -94,10 +106,15 @@ def validate_and_log_version(extracted_values,msg,log=None):
 
     for key, value in extracted_values.items():
 
-        parts = value.split('.')  # Split the version string
+        # parts = value.split('.')  # Split the version string
 
         # Check if version is in the format X.Y.Z where X, Y, and Z are integers (semanatic versioning)
-        is_valid = len(parts) == 3 and all(part.isdigit() for part in parts)
+        pattern = r'\b(\d)\.(\d)\.(\d)\b'
+        is_valid = re.search(pattern, value)
+        # is_valid = (
+        #     len(parts) == 3 and
+        #     all(part.isdigit() and len(part) == 1 for part in parts)
+        # )
 
         if is_valid:
             log.append(f"{value} in codemeta property '{key}' {msg}")
@@ -142,8 +159,29 @@ def extract_extensions_from_supporting_data(supporting_data_list):
                     extensions.append(ext)
     return extensions
 
+def check_substring_regex(full_string, substring, msg, log=None):
+    """
+    """
 
-def validate_data_interoperability(supporting_data, accepted_data_formats, log=None):
+    if log is None:
+        log = []
+
+    if isinstance(substring,str):
+        substring = [substring]
+
+    pattern = re.compile('|'.join(re.escape(base) for base in substring), re.IGNORECASE)
+
+    if pattern:
+        result = True
+        log.append(f"{full_string} does {msg}.")
+    else:
+        result = False
+        log.append(f"{full_string} does NOT {msg}.")
+
+    return result, log
+
+
+def validate_data_interoperability(supporting_data, accepted_data_formats, target_name, log=None):
     """
     Validates that the software interoperates using community-accepted standards for data exchange/
     """
@@ -151,25 +189,39 @@ def validate_data_interoperability(supporting_data, accepted_data_formats, log=N
     if log is None:
         log = []
 
-    result = True
+    result = False
 
     if not supporting_data:
         log.append('No supportingData field provided.')
         result = False
 
-        return result, log 
+        return result, log
 
-    all_formats = extract_extensions_from_supporting_data(supporting_data)
+    urls = get_urls_by_name(supporting_data, target_name) 
 
-    recognized_formats = [fmt for fmt in all_formats if fmt.lower() in accepted_data_formats]
+    for url in urls:
+        ext = Path(urlparse(url).path).suffix.lstrip('.').lower()
+        if ext in accepted_data_formats:
+            log.append(f"{url} links test data in an accepted file format.")
+            result = True
+        else:
+            log.append(f"{url} links test data in an UNACCEPTED file format.")
+            if result:
+                pass
+            else:
+                result = False
 
-    if recognized_formats:
-        log.append(f"Recognized data format used: {recognized_formats}")
-        # print(f"{eval_method} logs: Recognized formats used: {recognized_formats}")
-    else:
-        log.append(f"No recognized data formats used.")
-        # print(f"{eval_method} logs: No recognized formats found in input, output, or supportingData.")
-        result = False
+    # all_formats = extract_extensions_from_supporting_data(supporting_data)
+    # print(all_formats)
+    # recognized_formats = [fmt for fmt in all_formats if fmt.lower() in accepted_data_formats]
+
+    # if recognized_formats:
+    #     log.append(f"Recognized data format used: {recognized_formats}")
+    #     # print(f"{eval_method} logs: Recognized formats used: {recognized_formats}")
+    # else:
+    #     log.append(f"No recognized data formats used.")
+    #     # print(f"{eval_method} logs: No recognized formats found in input, output, or supportingData.")
+    #     result = False
 
     return result, log
 

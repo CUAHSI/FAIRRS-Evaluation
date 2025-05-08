@@ -40,7 +40,8 @@ ACCEPTED_DATA_FORMATS = [
     "netcdf", 
     "hdf5", 
     "yaml", 
-    "geojson"
+    "geojson",
+    "txt"
     ]
 
 # Add keywords for API links
@@ -51,4 +52,17 @@ API_KEYWORDS = [
     "endpoint", 
     "rest", 
     "graphql"
+    ]
+
+# Add FAIR-aligned repositories
+ACCEPTED_FAIR_REPOSITORIES = [
+    'Zenodo',
+    'HydroShare',
+    'IEDA',
+    ]
+
+# Add software repositories
+ACCEPTED_SOFTWARE_REPOSITORIES = [
+    'https://github.com',
+    'https://gitlab.com'
     ]

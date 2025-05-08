@@ -2,7 +2,7 @@ from abc import ABC, abstractmethod
 from typing import Dict, Any, List, Tuple
 from utils import evaluator_utils
 from utils import codemeta_parser
-from constants import SOFTWARE_REGISTRIES, APPROVED_LICENSES, ACCEPTED_DATA_FORMATS, API_KEYWORDS
+from constants import SOFTWARE_REGISTRIES, APPROVED_LICENSES, ACCEPTED_DATA_FORMATS, API_KEYWORDS, ACCEPTED_FAIR_REPOSITORIES, ACCEPTED_SOFTWARE_REPOSITORIES
  
 
 class Evaluator(ABC):
@@ -28,7 +28,7 @@ class Evaluator(ABC):
 
 
     @abstractmethod
-    def evalF4(self, applicationCategory=None, applicationSubCategory=None, isAccessibleForFree=None, keywords=None) -> bool:
+    def evalF4(self, applicationCategory=None, applicationSubCategory=None, isAccessibleForFree=None, keywords=None, identifier=None) -> bool:
         raise NotImplementedError
     
     @abstractmethod
@@ -59,7 +59,7 @@ class Evaluator(ABC):
     def evalR1_2(self, address=None, affiliation=None, author=None, citation=None, contributor=None,
                 copyrightHolder=None, copyrightYear=None, dateCreated=None, dateModified=None,
                 datePublished=None, editor=None, email=None, funder=None, funding=None, maintainer=None, 
-                producer=None, provider=None, publisher=None) -> bool:
+                producer=None, provider=None, publisher=None, codeRepository=None) -> bool:
         raise NotImplementedError
 
     @abstractmethod
@@ -111,10 +111,10 @@ class MyEvaluator(Evaluator):
         extracted_urls = {
                         key: urls
                         for key, value in all_args.items()
-                        if value and (urls := codemeta_parser.extract_urls_from_field(value, regex_filter='https://doi.org/'))
+                        if value and (urls := codemeta_parser.extract_urls_from_field(value, regex_filter=['https://']))
                         }
         if extracted_urls:
-            result, log = evaluator_utils.validate_and_log_urls(extracted_urls,'is a globally unique and persistent identifier.')
+            result, log = evaluator_utils.validate_and_log_urls(extracted_urls,'is a distinct identifier.')
         else: 
             result = False
             log = [f"No URLs found in {list(all_args.keys())}"]
@@ -178,25 +178,32 @@ class MyEvaluator(Evaluator):
 
         """
 
+        log = []
         # result = False
 
         # check identifier field for operational URL
         all_args = {key: value for key, value in locals().items() if key != "self" and value is not None}
-        extracted_urls = {
-                        key: urls
-                        for key, value in all_args.items()
-                        if value and (urls := codemeta_parser.extract_urls_from_field(value, regex_filter='https://doi.org/'))
-                        }
-        if extracted_urls:
-            result, log = evaluator_utils.validate_and_log_urls(extracted_urls, 'a globally unique and persistent identifier for software.')
+        # extracted_urls = {
+        #                 key: urls
+        #                 for key, value in all_args.items()
+        #                 if value and (urls := codemeta_parser.extract_urls_from_field(value, regex_filter='https://doi.org/'))
+        #                 }
+
+        if "identifier" in all_args:
+            identifier = all_args["identifier"]
+            if isinstance(identifier, list):
+                identifier = {'url':['http://doi.org/' + id for id in identifier]}
+            else:
+                identifier = {'url':['http://doi.org/' + identifier]}
+            # print(identifier_url)
+            result, log = evaluator_utils.validate_and_log_urls(identifier, 'a globally unique and persistent identifier for software.')
         else:
             result = False
-            log = [f"No URLs found in {list(all_args.keys())}"]
-            # return result
+            log = ['No identifier term found.']
 
         return result, log
 
-    def evalF4(self, applicationCategory=None, applicationSubCategory=None, isAccessibleForFree=None, keywords=None) -> Tuple[bool, List[str]]:
+    def evalF4(self, applicationCategory=None, applicationSubCategory=None, isAccessibleForFree=None, keywords=None, identifier=None) -> Tuple[bool, List[str]]:
 
         """
         Description from Chue Hong et. al, RDA FAIR4RS WG. (2022). FAIR Principles for Research Software (FAIR4RS Principles) (1.0). 
@@ -208,8 +215,30 @@ class MyEvaluator(Evaluator):
 
         """
 
+        # initialize log
+        log = []
+        result_list = []
+
         all_args = {key: value for key, value in locals().items() if key != "self" and value is not None}
-        result, log =  evaluator_utils.validate_presence_of_fields(all_args)
+
+        # check if software is deposited in accepted registry/catalog/repository
+        # eg. zenodo, ieda
+        if "identifier" in all_args:
+            # print(all_args["identifier"])
+            identifier = all_args["identifier"]
+            if isinstance(identifier, list):
+                for id in identifier:
+                    # for repo in ACCEPTED_FAIR_REPOSITORIES:
+                    result, log = evaluator_utils.check_substring_regex(id,ACCEPTED_FAIR_REPOSITORIES,'point to DOI in FAIR-aligned repository',log=log)
+                    result_list.append(result)
+                # return True if all True, False if otherwise
+                result = all(result_list)
+            else:
+                # for repo in ACCEPTED_FAIR_REPOSITORIES:
+                result, log = evaluator_utils.check_substring_regex(identifier,ACCEPTED_FAIR_REPOSITORIES,'point to DOI in FAIR-aligned repository')
+        else:
+            result = False
+            log = ['No identifier term found.']     
 
         return result, log
     
@@ -316,7 +345,7 @@ class MyEvaluator(Evaluator):
             pass
 
         if not log:
-            log = ['Link in license field nor flag in isAccessibleForFree provided']
+            log = ['Link in license term nor flag in isAccessibleForFree term provided']
 
         return result,log
 
@@ -368,18 +397,28 @@ class MyEvaluator(Evaluator):
         # Get all function arguments dynamically
         all_args = {key: value for key, value in locals().items() if key != "self" and value is not None}
 
-        # Validate interoperability based on data exchange formats
-        result_interoperability, log = evaluator_utils.validate_data_interoperability(
-            all_args["supportingData"],
-            ACCEPTED_DATA_FORMATS
-        )
+        if "supportingData" in all_args:
+            # Validate interoperability based on data exchange formats
+            result_interoperability, log = evaluator_utils.validate_data_interoperability(
+                all_args["supportingData"],
+                ACCEPTED_DATA_FORMATS,
+                "Test Data"
+            )
+        else:
+            result_interoperability = False
+            log = ['supportingData term not provided.']
 
-        # Check specifically for API documentation links
-        result_api_docs, log = evaluator_utils.check_for_api_documentation(
-            all_args.buildInstructions,
-            API_KEYWORDS,
-            log=log
-        )
+
+        if "buildInstructions" in all_args:
+            # Check specifically for API documentation links
+            result_api_docs, log = evaluator_utils.check_for_api_documentation(
+                all_args["buildInstructions"],
+                API_KEYWORDS,
+                log=log
+            )
+        else:
+            result_api_docs = False
+            log.append('buildInstructions term not provided.')
 
         # Pass only if both validations are True
         if result_interoperability and result_api_docs:
@@ -448,20 +487,12 @@ class MyEvaluator(Evaluator):
 
         result, log = evaluator_utils.check_if_field_in_keywords(license["name"],APPROVED_LICENSES,'an approved license.')
 
-
-        # extracted_urls = {key: codemeta_parser.extract_urls_from_field(value,regex_filter=APPROVED_LICENSES) for key, value in all_args.items() if value}
-        # if extracted_urls:
-        #     result, log = evaluator_utils.validate_and_log_urls(extracted_urls, 'an approved license.')
-        # else:
-        #     result = False
-        #     log = [f"No URLs found in {list(all_args.keys())}"]
-
         return result, log
 
     def evalR1_2(self, address=None, affiliation=None, author=None, citation=None, contributor=None,
                 copyrightHolder=None, copyrightYear=None, dateCreated=None, dateModified=None,
                 datePublished=None, editor=None, email=None, funder=None, funding=None, maintainer=None, 
-                producer=None, provider=None, publisher=None) -> Tuple[bool, List[str]]:
+                producer=None, provider=None, publisher=None,codeRepository=None) -> Tuple[bool, List[str]]:
         """
         Description from Chue Hong et. al, RDA FAIR4RS WG. (2022). FAIR Principles for Research Software (FAIR4RS Principles) (1.0). 
         Zenodo. https://doi.org/10.15497/RDA00068
@@ -473,15 +504,19 @@ class MyEvaluator(Evaluator):
 
         """
 
-        # XX -- challenging to implement. 
-        # there are an overwhelming amount of aspects to provenance
-        # let's leave this out for now; might require more work later on
-
-
-        # print('evalR1_2 logs: Challenging to implement.')
+        # maybe search for active github or gitlab link as this has provenance
 
         result = False
-        log = ['Not measured; challenging to implement.']
+        log = ['Challenging to evaluate provenance; not evaluated.']
+
+        # # Get all function arguments dynamically
+        # all_args = {key: value for key, value in locals().items() if key != "self" and value is not None}
+
+        # if "codeRepository" in all_args:
+        #     result, log = evaluator_utils.check_substring_regex(all_args["codeRepository"],ACCEPTED_SOFTWARE_REPOSITORIES,'point to version controlled software')
+        # else:
+        #     result = False
+        #     log = ['codeRepository term not provided.']
 
         return result, log
 
