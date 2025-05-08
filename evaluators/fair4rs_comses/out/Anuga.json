@@ -21,9 +21,9 @@
         ]
       },
       "F1_1": {
-        "result": false,
+        "result": true,
         "log": [
-          "No URLs found in ['url']"
+          "https://csdms.colorado.edu/wiki/Model:Anuga in codemeta property 'url' is is a distinct identifier."
         ]
       },
       "F1_2": {
@@ -41,14 +41,13 @@
       "F3": {
         "result": false,
         "log": [
-          "No URLs found in ['codeRepository']"
+          "No identifier term found."
         ]
       },
       "F4": {
-        "result": true,
+        "result": false,
         "log": [
-          "Field 'applicationCategory' is present.",
-          "Field 'keywords' is present."
+          "No identifier term found."
         ]
       },
       "I1": {
@@ -72,7 +71,7 @@
       "R1_2": {
         "result": false,
         "log": [
-          "Not measured; challenging to implement."
+          "Challenging to evaluate provenance; not evaluated."
         ]
       },
       "R2": {
@@ -89,13 +88,13 @@
       }
     },
     "scores": {
-      "F1_1": 0.0,
+      "F1_1": 0.5,
       "F1_2": 0.0,
       "F2": 0.25,
       "F3": 0.0,
-      "F4": 0.25,
-      "F1": 0.0,
-      "F": 0.5,
+      "F4": 0.0,
+      "F1": 0.125,
+      "F": 0.375,
       "A1_1": 0.5,
       "A1_2": 0.0,
       "A2": 0.5,

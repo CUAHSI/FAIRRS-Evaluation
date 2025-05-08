@@ -20,15 +20,15 @@
         ]
       },
       "F1_1": {
-        "result": false,
+        "result": true,
         "log": [
-          "No URLs found in ['identifier', 'url']"
+          "https://csdms.colorado.edu/wiki/Model:ADI-2D in codemeta property 'url' is is a distinct identifier."
         ]
       },
       "F1_2": {
         "result": false,
         "log": [
-          "Missing inputs ['softwareVersion', 'version'] for evalF1_2"
+          "0.1 in codemeta property 'softwareVersion' does NOT represents valid semantic versioning."
         ]
       },
       "F2": {
@@ -38,16 +38,15 @@
         ]
       },
       "F3": {
-        "result": false,
+        "result": true,
         "log": [
-          "No URLs found in ['identifier']"
+          "http://doi.org/10.1594/IEDA/100080 in codemeta property 'url' is a globally unique and persistent identifier for software."
         ]
       },
       "F4": {
         "result": true,
         "log": [
-          "Field 'applicationCategory' is present.",
-          "Field 'keywords' is present."
+          "10.1594/IEDA/100080 does point to DOI in FAIR-aligned repository."
         ]
       },
       "I1": {
@@ -71,7 +70,7 @@
       "R1_2": {
         "result": false,
         "log": [
-          "Not measured; challenging to implement."
+          "Challenging to evaluate provenance; not evaluated."
         ]
       },
       "R2": {
@@ -88,13 +87,13 @@
       }
     },
     "scores": {
-      "F1_1": 0.0,
+      "F1_1": 0.5,
       "F1_2": 0.0,
       "F2": 0.25,
-      "F3": 0.0,
+      "F3": 0.25,
       "F4": 0.25,
-      "F1": 0.0,
-      "F": 0.5,
+      "F1": 0.125,
+      "F": 0.875,
       "A1_1": 0.5,
       "A1_2": 0.5,
       "A2": 0.5,

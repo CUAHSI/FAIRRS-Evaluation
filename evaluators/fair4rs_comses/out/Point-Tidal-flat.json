@@ -1,0 +1,113 @@
+{
+  "Point-Tidal-flat": {
+    "indicator_evaluations": {
+      "A1_1": {
+        "result": true,
+        "log": [
+          "https://csdms.colorado.edu/wiki/Model:Point-Tidal-flat in codemeta property 'url' is an open link to the software."
+        ]
+      },
+      "A1_2": {
+        "result": false,
+        "log": [
+          "GPL v2 is NOT an approved license."
+        ]
+      },
+      "A2": {
+        "result": true,
+        "log": [
+          "https://csdms.colorado.edu/wiki/Model:Point-Tidal-flat in codemeta property 'url' is providing access to the software metadata."
+        ]
+      },
+      "F1_1": {
+        "result": true,
+        "log": [
+          "https://csdms.colorado.edu/wiki/Model:Point-Tidal-flat in codemeta property 'url' is is a distinct identifier."
+        ]
+      },
+      "F1_2": {
+        "result": false,
+        "log": [
+          "0.1 in codemeta property 'softwareVersion' does NOT represents valid semantic versioning."
+        ]
+      },
+      "F2": {
+        "result": true,
+        "log": [
+          "Codemeta file passed validation through codemeticulous."
+        ]
+      },
+      "F3": {
+        "result": true,
+        "log": [
+          "http://doi.org/10.1594/IEDA/100153 in codemeta property 'url' is a globally unique and persistent identifier for software."
+        ]
+      },
+      "F4": {
+        "result": true,
+        "log": [
+          "10.1594/IEDA/100153 does point to DOI in FAIR-aligned repository."
+        ]
+      },
+      "I1": {
+        "result": false,
+        "log": [
+          "Missing inputs ['supportingData', 'buildInstructions'] for evalI1"
+        ]
+      },
+      "I2": {
+        "result": false,
+        "log": [
+          "Missing inputs ['relatedLink', 'supportingData', 'isPartOf', 'referencePublication'] for evalI2"
+        ]
+      },
+      "R1_1": {
+        "result": false,
+        "log": [
+          "GPL v2 is NOT an approved license."
+        ]
+      },
+      "R1_2": {
+        "result": false,
+        "log": [
+          "Challenging to evaluate provenance; not evaluated."
+        ]
+      },
+      "R2": {
+        "result": false,
+        "log": [
+          "Missing inputs ['softwareRequirement', 'softwareSuggestions'] for evalR2"
+        ]
+      },
+      "R3": {
+        "result": false,
+        "log": [
+          "Missing inputs ['review'] for evalR3"
+        ]
+      }
+    },
+    "scores": {
+      "F1_1": 0.5,
+      "F1_2": 0.0,
+      "F2": 0.25,
+      "F3": 0.25,
+      "F4": 0.25,
+      "F1": 0.125,
+      "F": 0.875,
+      "A1_1": 0.5,
+      "A1_2": 0.0,
+      "A2": 0.5,
+      "A1": 0.25,
+      "A": 0.75,
+      "I1": 0.0,
+      "I2": 0.0,
+      "I": 0.0,
+      "R1_1": 0,
+      "R1_2": 0,
+      "R2": 0.0,
+      "R3": 0.0,
+      "R1": 0.0,
+      "R": 0.0
+    }
+  }
+}
