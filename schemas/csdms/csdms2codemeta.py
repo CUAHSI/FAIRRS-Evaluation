@@ -313,22 +313,27 @@ def build_codemeta(json_file: Path) -> CodeMetaV3:
 
     # softwareVersion 
     # modify to retrieve DOI_assigned_to_version instead of version property from CSDMS
-    software_version = properties.get("DOI_assigned_to_version", None)
+    softwareVersion = properties.get("DOI_assigned_to_model_version", None)
+    # grab the most recent version if multiple listed
+    if isinstance(softwareVersion,list):
+        softwareVersion = softwareVersion[-1]
 
     # softwareHelp
     # modified to encode buildInstructions codemeta term instead of softwareHelp
     buildInstructions = None
-    manual_available_string = properties.get("DOI_assigned_to_version", "No")
+    manual_available_string = properties.get("DOI_assigned_to_model_version", "No")
     helpAvailable = False if manual_available_string == "No" else True
     if helpAvailable:
         model_manual = properties.get("Model_manual", None)
         if model_manual is not None:
-            manual_url = f"https://csdms.colorado.edu/csdms_wiki/images/{':'.join(model_manual.split(':')[1:])}"
-
-            buildInstructions = CreativeWork(
-                name="Software Manual",
-                url=HttpUrl(scheme="https", url=manual_url.replace(" ", "_")),
-            )
+            if isinstance(model_manual,list):
+                buildInstructions = []
+                for manual in model_manual:
+                    manual_url = f"https://csdms.colorado.edu/csdms_wiki/images/{':'.join(manual.split(':')[1:])}"
+                    buildInstructions.append(HttpUrl(scheme = "https", url=manual_url.replace(" ", "_")))
+            else:
+                manual_url = f"https://csdms.colorado.edu/csdms_wiki/images/{':'.join(model_manual.split(':')[1:])}"
+                buildInstructions = HttpUrl(scheme = "https", url=manual_url.replace(" ", "_"))
 
     # supportingData
     # using test data because this is a URL that's provided. Calibration data is a narrative.
@@ -392,16 +397,17 @@ def build_codemeta(json_file: Path) -> CodeMetaV3:
         developmentStatus=developmentStatus,
         downloadUrl=downloadUrl,
         identifier=doi_identifier,
-        software_version=software_version,
+        softwareVersion=softwareVersion,
         supportingData=supportingData,
         review = review,
-        relatedLink = relatedLink
+        relatedLink = relatedLink,
+        buildInstructions = buildInstructions
     )
     # There appears to be an issue with the validate_creative_work function that
     # I think is related to the "each_item=True" option. To overcome this, we'll
     # add some fields after our class is instantiated to skip validation.
     meta.license = license
-    meta.buildInstructions = buildInstructions
+    # meta.buildInstructions = buildInstructions
 
     return meta
 
