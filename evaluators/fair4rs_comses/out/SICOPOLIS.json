@@ -4,7 +4,7 @@
       "A1_1": {
         "result": true,
         "log": [
-          "http://www.sicopolis.net/ in codemeta property 'downloadUrl' is NOT an open link to the software.",
+          "http://www.sicopolis.net/ in codemeta property 'downloadUrl' is an open link to the software.",
           "https://csdms.colorado.edu/wiki/Model:SICOPOLIS in codemeta property 'url' is an open link to the software."
         ]
       },
@@ -81,9 +81,9 @@
         ]
       },
       "R3": {
-        "result": false,
+        "result": true,
         "log": [
-          "Missing inputs ['review'] for evalR3"
+          "Reviewed and accepted by the Journal of Open Source Software (JOSS)."
         ]
       }
     },
@@ -106,9 +106,9 @@
       "R1_1": 1,
       "R1_2": 0,
       "R2": 0.0,
-      "R3": 0.0,
+      "R3": 0.34,
       "R1": 0.33,
-      "R": 0.33
+      "R": 0.67
     }
   }
 }
