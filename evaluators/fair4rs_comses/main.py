@@ -4,7 +4,7 @@ from collections import defaultdict
 import typer
 import inspect
 
-from evaluators import MyEvaluator
+from evaluators import BaseEvaluator
 from utils.crosswalk_loader import CrosswalkLoader
 import scoring
 from weights import WEIGHTS
@@ -12,7 +12,7 @@ from weights import WEIGHTS
 app = typer.Typer()
 
 def evaluate_file(codemeta_path: Path) -> dict:
-    evaluator = MyEvaluator(codemeta_path)
+    evaluator = BaseEvaluator(codemeta_path)
     codemeta_json = evaluator.validate_codemeta_file()
     crosswalk = CrosswalkLoader(codemeta_json)
     eval_mapping = crosswalk.map_evaluators_to_codemeta()

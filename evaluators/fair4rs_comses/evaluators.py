@@ -71,7 +71,7 @@ class Evaluator(ABC):
         raise NotImplementedError
 
 
-class MyEvaluator(Evaluator):
+class BaseEvaluator(Evaluator):
     """
     Class for implementing evaluation functions.
     """
@@ -179,15 +179,9 @@ class MyEvaluator(Evaluator):
         """
 
         log = []
-        # result = False
 
-        # check identifier field for operational URL
+        # Get all function arguments dynamically
         all_args = {key: value for key, value in locals().items() if key != "self" and value is not None}
-        # extracted_urls = {
-        #                 key: urls
-        #                 for key, value in all_args.items()
-        #                 if value and (urls := codemeta_parser.extract_urls_from_field(value, regex_filter='https://doi.org/'))
-        #                 }
 
         if "identifier" in all_args:
             identifier = all_args["identifier"]
@@ -195,7 +189,7 @@ class MyEvaluator(Evaluator):
                 identifier = {'url':['http://doi.org/' + id for id in identifier]}
             else:
                 identifier = {'url':['http://doi.org/' + identifier]}
-            # print(identifier_url)
+
             result, log = evaluator_utils.validate_and_log_urls(identifier, 'a globally unique and persistent identifier for software.')
         else:
             result = False
@@ -219,6 +213,7 @@ class MyEvaluator(Evaluator):
         log = []
         result_list = []
 
+        # Get all function arguments dynamically
         all_args = {key: value for key, value in locals().items() if key != "self" and value is not None}
 
         # check if software is deposited in accepted registry/catalog/repository
@@ -287,31 +282,6 @@ class MyEvaluator(Evaluator):
 
         result = False
         log = []
-
-        # # Extract URLs from all provided arguments
-        # extracted_urls = {key: codemeta_parser.extract_urls_from_field(value) for key, value in all_args.items() if value}
-        # if extracted_urls:
-        #     result, log = evaluator_utils.validate_and_log_urls(extracted_urls, 'an open link to the software.')
-        # else:
-        #     result = False
-        #     log = [f"No URLs found in {list(all_args.keys())}"]
-
-        # if downloadUrl is not None:
-
-        #     result, log = evaluator_utils.validate_and_log_urls(downloadUrl, 'an operational URL to download the software.')
-
-            # if result:
-            #     # check url to see if it resolves
-            #     result_log, log = evaluator_utils.validate_and_log_urls(all_args.downloadUrl, 'is an operational URL to download the software.')
-            # else:
-            #     result = evaluator_utils.validate_and_log_urls(all_args.downloadUrl, 'is an operational URL to download the software.')
-
-        # if installUrl is not None:
-        #     if result:
-        #         # check url to see if it resolves
-        #         _,log = evaluator_utils.validate_and_log_urls(installUrl,'an operational URL to install the software.',log=log)
-        #     else:
-        #         result, log = evaluator_utils.validate_and_log_urls(installUrl, 'an operational URL to install the software.',log=log)
 
         if isAccessibleForFree is not None:    
             if isAccessibleForFree:
