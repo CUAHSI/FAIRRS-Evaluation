@@ -1,0 +1,114 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "MODFLOW",
+    "codeRepository": "http://water.usgs.gov/nrp/gwsoftware/modflow2000/modflow2000.html",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran90"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "downloadUrl": "http://water.usgs.gov/nrp/gwsoftware/modflow2000/modflow2000.html",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Paul",
+            "familyName": "Barlow",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "U.S. Geological Survey",
+                "address": "Reston, United States"
+            },
+            "email": "mailto:pbarlow@usgs.gov"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Arlen",
+            "familyName": "Harbaugh",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "U.S. Geological Survey",
+                "address": "Reston, United States"
+            },
+            "email": "mailto:harbaugh@usgs.gov"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Edward",
+            "familyName": "Banta",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "U.S. Geological Survey",
+                "address": "Reston, United States"
+            },
+            "email": "mailto:erbanta@usgs.gov"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Mary",
+            "familyName": "Hill",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "U.S. Geological Survey",
+                "address": "Reston, United States"
+            },
+            "email": "mailto:mchill@usgs.gov"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Richard",
+            "familyName": "Winston",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "U.S. Geological Survey",
+                "address": "Reston, United States"
+            },
+            "email": "mailto:rbwinst@usgs.gov"
+        }
+    ],
+    "dateCreated": "1984-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "modflow",
+        "model",
+        "three-dimensional finite-difference ground-water",
+        "three-dimensional finite-difference",
+        "flow",
+        "finite-difference ground-water model",
+        "finite-difference ground-water",
+        "ground-water flow",
+        "ground-water",
+        "boundary",
+        "head",
+        "geological survey",
+        "three-dimensional",
+        "finite-difference",
+        "published",
+        "basins",
+        "basins"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "MODFLOW is a three-dimensional finite-difference ground-water model that was first published in 1984. It has a modular structure that allows it to be easily modified to adapt the code for a particular application.  Many new capabilities have been added to the original model.  OFR 00-92 (complete reference below) documents a general update to MODFLOW, which is called MODFLOW-2000 in order to distinguish it from earlier versions.\n\nMODFLOW-2000 simulates steady and nonsteady flow in an irregularly shaped flow system in which aquifer layers can be confined, unconfined, or a combination of confined and unconfined. Flow from external stresses, such as flow to wells, areal recharge, evapotranspiration, flow to drains, and flow through river beds, can be simulated. Hydraulic conductivities or transmissivities for any layer may differ spatially and be anisotropic (restricted to having the principal directions aligned with the grid axes), and the storage coefficient may be heterogeneous. Specified head and specified flux boundaries can be simulated as can a head dependent flux across the model's outer boundary that allows water to be supplied to a boundary block in the modeled area at a rate proportional to the current head difference between a \"source\" of water outside the modeled area and the boundary block.  MODFLOW is currently the most used numerical model in the U.S. Geological Survey for ground-water flow problems.\n\nIn addition to simulating ground-water flow, the scope of MODFLOW-2000 has been expanded to incorporate related capabilities such as solute transport and parameter estimation.",
+    "url": "https://csdms.colorado.edu/wiki/Model:MODFLOW",
+    "developmentStatus": "Active"
+}

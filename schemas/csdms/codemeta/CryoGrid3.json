@@ -1,0 +1,76 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "CryoGrid3",
+    "codeRepository": "https://github.com/CryoGrid/CryoGrid3",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/CryoGrid/CryoGrid3",
+    "operatingSystem": [
+        "Unix",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Sebastian",
+            "familyName": "Westermann",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Department of Geosciences, University of Oslo",
+                "address": "Oslo, Norway"
+            },
+            "email": "mailto:sebastian.westermann@geo.uio.no"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Moritz",
+            "familyName": "Langer",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Alfred-Wegener-Institute Potsdam",
+                "address": "Potsdam, Germany"
+            },
+            "email": "mailto:mlanger@awi.de"
+        }
+    ],
+    "dateCreated": "2014-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Cryosphere",
+        "cryogrid",
+        "environments",
+        "represent energy transfer",
+        "surface energy balance",
+        "energy transfer processes",
+        "surface energy",
+        "represent energy",
+        "energy transfer",
+        "calculates the surface",
+        "order to represent",
+        "model includes processes",
+        "energy balance",
+        "model calculates",
+        "transfer processes",
+        "energy",
+        "balance in order",
+        "radiation balance",
+        "permafrost",
+        "cryogrid3",
+        "Surface energy balance",
+        "permafrost"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "description": "The model calculates the surface energy balance in order  to  represent energy transfer processes between the atmosphere and the ground. These processes include the radiation balance, the exchange of sensible heat, as well as evaporation and condensation. For a realistic representation of the thermal dynamics of the ground, the model includes processes such as the phase change of soil water and an insulating snow cover during winter.",
+    "url": "https://csdms.colorado.edu/wiki/Model:CryoGrid3",
+    "developmentStatus": "Active"
+}

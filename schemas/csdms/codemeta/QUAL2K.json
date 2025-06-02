@@ -1,0 +1,64 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "QUAL2K",
+    "codeRepository": "http://www.epa.gov/athens/wwqtsc/html/qual2k.html",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran90"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "http://www.epa.gov/athens/wwqtsc/html/qual2k.html",
+    "operatingSystem": [
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Steve",
+            "familyName": "Chapra",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Tufts University, Civil and Environmental Engineering Dept.",
+                "address": "Medford, United States"
+            },
+            "email": "mailto:Steven.Chapra@tufts.edu"
+        }
+    ],
+    "dateCreated": "1987-01-01",
+    "keywords": [
+        "Terrestrial",
+        "quality",
+        "modeling",
+        "framework",
+        "simulating",
+        "brown and barnwell",
+        "river and stream",
+        "intended to represent",
+        "represent a modernized",
+        "modernized version",
+        "brown",
+        "barnwell",
+        "model",
+        "water quality model",
+        "diurnal",
+        "diurnal time scale",
+        "quality model",
+        "stream water quality",
+        "stream water",
+        "simulated",
+        "biogeochemistry",
+        "water quality",
+        "qual2k",
+        "biogeochemistry",
+        "water quality"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "QUAL2K (or Q2K) is a river and stream water quality model that is intended to represent a modernized version of the QUAL2E (or Q2E) model (Brown and Barnwell 1987). Q2K is similar to Q2E in the following respects:\nOne dimensional. The channel is well-mixed vertically and laterally.\n* Steady state hydraulics. Non-uniform, steady flow is simulated.\n* Diurnal heat budget. The heat budget and temperature are simulated as a function of meteorology on a diurnal time scale.\n* Diurnal water-quality kinetics. All water quality variables are simulated on a diurnal time scale.\n* Heat and mass inputs. Point and non-point loads and abstractions are simulated.",
+    "url": "https://csdms.colorado.edu/wiki/Model:QUAL2K"
+}

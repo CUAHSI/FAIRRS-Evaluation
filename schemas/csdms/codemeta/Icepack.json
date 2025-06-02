@@ -1,0 +1,67 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Icepack",
+    "codeRepository": "https://github.com/icepack/icepack",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "downloadUrl": "https://github.com/icepack/icepack",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Daniel",
+            "familyName": "Shapero",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Washington",
+                "address": "Seattle, United States"
+            },
+            "email": "mailto:shapero@uw.edu"
+        }
+    ],
+    "dateCreated": "2017-01-01",
+    "keywords": [
+        "Marine",
+        "Cryosphere",
+        "python",
+        "icepack",
+        "sheets",
+        "problems",
+        "data assimilation problems",
+        "solving glaciological data",
+        "glaciological data assimilation",
+        "python package",
+        "ice sheets",
+        "assimilation problems",
+        "package for simulating",
+        "simulating the flow",
+        "flow of glaciers",
+        "glaciers and ice",
+        "solving glaciological",
+        "glaciological data",
+        "data assimilation",
+        "ice flow",
+        "ice sheet",
+        "glacier flow",
+        "Ice flow",
+        "Ice sheet",
+        "glacier flow"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "description": "Icepack is a Python package for simulating the flow of glaciers and ice sheets, as well as for solving glaciological data assimilation problems. The main goal for icepack is to produce a tool that researchers and students can learn to use quickly and easily, whether or not they are experts in high-performance computing. Icepack is built on the finite element modeling library firedrake, which implements the domain-specific language UFL for the specification of PDEs.",
+    "url": "https://csdms.colorado.edu/wiki/Model:Icepack",
+    "developmentStatus": "Active"
+}

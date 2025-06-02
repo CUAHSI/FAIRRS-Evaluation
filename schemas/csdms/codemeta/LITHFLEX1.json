@@ -1,0 +1,58 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "LITHFLEX1",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        }
+    ],
+    "applicationCategory": "Single",
+    "memoryRequirements": "<512MB",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Kevin",
+            "familyName": "Furlong",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Penn State University",
+                "address": "University Park, United States"
+            },
+            "email": "mailto:kpf1@psu.edu"
+        }
+    ],
+    "dateCreated": "1992-01-01",
+    "keywords": [
+        "Geodynamic",
+        "lithospheric",
+        "solution",
+        "lithospheric flexure solution",
+        "lithospheric flexure",
+        "infinite plate",
+        "flexure solution",
+        "solution for infinite",
+        "greens function",
+        "convolved with greens",
+        "load",
+        "plate",
+        "continuous plate",
+        "lithflex1",
+        "lithospheric flexure",
+        "continuous plate"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "Lithospheric flexure solution for infinite plate. Load is assumed to be convolved with Greens function (unit load) response in order to calculate the net effect of the load. If desired, inclusion of sediments as part of the restoring force effect can be controlled via density assigned to density (2). Each load element can have specified density and several loadings events can be incorporated.",
+    "url": "https://csdms.colorado.edu/wiki/Model:LITHFLEX1",
+    "developmentStatus": "As is, no updates are provided"
+}

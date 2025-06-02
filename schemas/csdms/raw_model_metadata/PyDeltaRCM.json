@@ -1,0 +1,811 @@
+{
+  "subject": "PyDeltaRCM#3002##",
+  "data": [
+    {
+      "property": "Citations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "0"
+        }
+      ]
+    },
+    {
+      "property": "City",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Boulder"
+        }
+      ]
+    },
+    {
+      "property": "CodeReviewed",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "Code_CMT_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_IRF_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_openmi_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_optimized",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single Processor"
+        }
+      ]
+    },
+    {
+      "property": "Country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "United States"
+        }
+      ]
+    },
+    {
+      "property": "Describe_available_calibration_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "An intercomparison of the Matlab and Python versions of DeltaRCM is in the works."
+        }
+      ]
+    },
+    {
+      "property": "Describe_input_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Modify parameters in example input file deltaRCM.yaml included in repository. Run with example script run_pyDeltaRCM.py.\n\nModify water/sediment discharge (as number of parcels), grid size and spacing, basin geometry, mud/sand ratio, etc"
+        }
+      ]
+    },
+    {
+      "property": "Describe_length_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Domain should be 10s of Kms in x and y. Cell spacing should be 10s of meters."
+        }
+      ]
+    },
+    {
+      "property": "Describe_numerical_limitations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Model should never be numerically unstable but its behavior depends on ratios of various parameters. If the model seems to not be \"doing anything\", look at the parameter initialization functions in deltaRCM_tools.py"
+        }
+      ]
+    },
+    {
+      "property": "Describe_output_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Toggle on/off in input file:\n- PNG files of eta, stage, depth\n- grids of eta, stage, depth (as netCDF4)\n- grids of sand fraction in stratigraphy (as netCDF4)"
+        }
+      ]
+    },
+    {
+      "property": "Describe_processes",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Flux routing and sediment transport for the formation of river deltas. Resolves channel bifurcations, avulsion and migration. Can simulate subsidence (default basin-like shape, modify the Python code to customize). Can store stratigraphy (as sand fraction and thickness)."
+        }
+      ]
+    },
+    {
+      "property": "Describe_time_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Sediment and water discharge come from some physical parameters and the number of parcels chosen for each timestep. Set the number of parcels for both water and sediment to 1000s for improved resolution and speed."
+        }
+      ]
+    },
+    {
+      "property": "Development_still_active",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:perignon@colorado.edu"
+        }
+      ]
+    },
+    {
+      "property": "Extended_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "pyDeltaRCM is the Python version of DeltaRCM (https://csdms.colorado.edu/wiki/Model:DeltaRCM) by Man Liang (also available from the CSDMS model repository). This version is a WMT component but can also be run as a stand-alone model (see README.md).\nDeltaRCM is a parcel-based cellular flux routing and sediment transport model for the formation of river deltas, which belongs to the broad category of rule-based exploratory models. It has the ability to resolve emergent channel behaviors including channel bifurcation, avulsion and migration. Sediment transport distinguishes two types of sediment: sand and mud, which have different transport and deposition/erosion rules. Stratigraphy is recorded as the sand fraction in layers.\nBest usage of DeltaRCM is the investigation of autogenic processes in response to external forcings."
+        }
+      ]
+    },
+    {
+      "property": "First_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Mariela"
+        }
+      ]
+    },
+    {
+      "property": "Input_format_model_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "YAML"
+        }
+      ]
+    },
+    {
+      "property": "Institute",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "University of Colorado / CSDMS"
+        }
+      ]
+    },
+    {
+      "property": "Last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Perignon"
+        }
+      ]
+    },
+    {
+      "property": "M-quotient",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "0"
+        }
+      ]
+    },
+    {
+      "property": "Manual_model_available",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No"
+        }
+      ]
+    },
+    {
+      "property": "ModelDomain",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Coastal"
+        },
+        {
+          "type": 2,
+          "item": "Hydrology"
+        }
+      ]
+    },
+    {
+      "property": "Model_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "As code"
+        },
+        {
+          "type": 2,
+          "item": "As teaching tool"
+        }
+      ]
+    },
+    {
+      "property": "Model_forum",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Installation and execution instructions can be found in the README.md file of the GitHub repository."
+        }
+      ]
+    },
+    {
+      "property": "Model_keywords",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "delta evolution"
+        },
+        {
+          "type": 2,
+          "item": "cellular automata"
+        },
+        {
+          "type": 2,
+          "item": "coastal morphodynamics"
+        }
+      ]
+    },
+    {
+      "property": "Model_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single"
+        }
+      ]
+    },
+    {
+      "property": "Model_website",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://github.com/mperignon/pyDeltaRCM_WMT"
+        }
+      ]
+    },
+    {
+      "property": "Modelautophrases",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "reduced"
+        },
+        {
+          "type": 2,
+          "item": "dynamics"
+        },
+        {
+          "type": 2,
+          "item": "csdms model repository"
+        },
+        {
+          "type": 2,
+          "item": "man liang"
+        },
+        {
+          "type": 2,
+          "item": "python version"
+        },
+        {
+          "type": 2,
+          "item": "csdms model"
+        },
+        {
+          "type": 2,
+          "item": "model repository"
+        },
+        {
+          "type": 2,
+          "item": "liang"
+        },
+        {
+          "type": 2,
+          "item": "python"
+        },
+        {
+          "type": 2,
+          "item": "man"
+        },
+        {
+          "type": 2,
+          "item": "csdms"
+        },
+        {
+          "type": 2,
+          "item": "wmt component"
+        },
+        {
+          "type": 2,
+          "item": "deltarcm"
+        },
+        {
+          "type": 2,
+          "item": "model"
+        },
+        {
+          "type": 2,
+          "item": "sediment transport model"
+        },
+        {
+          "type": 2,
+          "item": "sediment transport"
+        },
+        {
+          "type": 2,
+          "item": "version"
+        },
+        {
+          "type": 2,
+          "item": "delta evolution"
+        },
+        {
+          "type": 2,
+          "item": "cellular automata"
+        },
+        {
+          "type": 2,
+          "item": "coastal morphodynamics"
+        },
+        {
+          "type": 2,
+          "item": "pydeltarcm"
+        }
+      ]
+    },
+    {
+      "property": "Nr-of-pubs",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "--"
+        }
+      ]
+    },
+    {
+      "property": "One-line_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Reduced complexity river delta formation and evolution model with channel dynamics"
+        }
+      ]
+    },
+    {
+      "property": "Output_format_model_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "netCDF"
+        }
+      ]
+    },
+    {
+      "property": "Post_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "80303"
+        }
+      ]
+    },
+    {
+      "property": "Pre_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "BSD or MIT X11"
+        }
+      ]
+    },
+    {
+      "property": "Programming_language",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Python"
+        }
+      ]
+    },
+    {
+      "property": "Run_time_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Hours"
+        }
+      ]
+    },
+    {
+      "property": "Source_code_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Through web repository"
+        }
+      ]
+    },
+    {
+      "property": "Source_web_address",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://github.com/mperignon/pyDeltaRCM_WMT"
+        }
+      ]
+    },
+    {
+      "property": "Spatial_dimensions",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2D"
+        }
+      ]
+    },
+    {
+      "property": "Spatialscale",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Landscape-Scale"
+        }
+      ]
+    },
+    {
+      "property": "Start_year_development",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2016"
+        }
+      ]
+    },
+    {
+      "property": "State",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Colorado"
+        }
+      ]
+    },
+    {
+      "property": "Supported_platforms",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Unix"
+        },
+        {
+          "type": 2,
+          "item": "Linux"
+        },
+        {
+          "type": 2,
+          "item": "Mac OS"
+        },
+        {
+          "type": 2,
+          "item": "Windows"
+        }
+      ]
+    },
+    {
+      "property": "Type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Model developer"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_needed",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "_ASK",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "PyDeltaRCM#3002##_QUERYbe245d18584a98aaa3948c0df50e8a6d"
+        },
+        {
+          "type": 9,
+          "item": "PyDeltaRCM#3002##_QUERYbda2c1fbc3400b9e259693497b5aae58"
+        },
+        {
+          "type": 9,
+          "item": "PyDeltaRCM#3002##_QUERY2812b418a19df24329d024d2b7d10247"
+        }
+      ]
+    },
+    {
+      "property": "_CDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2016/9/16/19/53/15/0"
+        }
+      ]
+    },
+    {
+      "property": "_ERRC",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "PyDeltaRCM#3002##_ERR832e19663f926fa58b1c2c38ccac6efd"
+        }
+      ]
+    },
+    {
+      "property": "_INST",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Models#14##"
+        }
+      ]
+    },
+    {
+      "property": "_LEDT",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "WikiSysop#2##"
+        }
+      ]
+    },
+    {
+      "property": "_MDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2020/9/17/2/19/42/0"
+        }
+      ]
+    },
+    {
+      "property": "_SKEY",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "PyDeltaRCM"
+        }
+      ]
+    }
+  ],
+  "sobj": [
+    {
+      "subject": "PyDeltaRCM#3002##_QUERYbe245d18584a98aaa3948c0df50e8a6d",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "0"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[:Model:PyDeltaRCM]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "PyDeltaRCM# QUERYbe245d18584a98aaa3948c0df50e8a6d"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "PyDeltaRCM#3002##_QUERYbda2c1fbc3400b9e259693497b5aae58",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[User:+]] [[First name member::Mariela]] [[Last name member::Perignon]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "PyDeltaRCM# QUERYbda2c1fbc3400b9e259693497b5aae58"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "PyDeltaRCM#3002##_QUERY2812b418a19df24329d024d2b7d10247",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "ul"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[Model:+]] [[First name::Mariela]] [[Last name::Perignon]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "PyDeltaRCM# QUERY2812b418a19df24329d024d2b7d10247"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "PyDeltaRCM#3002##_ERR832e19663f926fa58b1c2c38ccac6efd",
+      "data": [
+        {
+          "property": "_ERRP",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "H-index#102##"
+            }
+          ]
+        },
+        {
+          "property": "_ERRT",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[2,\"smw_nofloat\",\"--\"]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "PyDeltaRCM# ERR832e19663f926fa58b1c2c38ccac6efd"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+  "version": 2
+}

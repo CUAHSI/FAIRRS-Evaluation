@@ -1,0 +1,59 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "BatTri",
+    "codeRepository": "http://www-nml.dartmouth.edu/Software/battri/",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "downloadUrl": "http://www-nml.dartmouth.edu/Software/battri/",
+    "operatingSystem": [
+        "Linux",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Jonathan",
+            "familyName": "Shewchuk",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of California at Berkeley",
+                "address": "Berkeley, United States"
+            },
+            "email": "mailto:jrs@cs.berkeley.edu"
+        }
+    ],
+    "keywords": [
+        "Coastal",
+        "Marine",
+        "triangle",
+        "matlab",
+        "language",
+        "quality",
+        "file to triangle",
+        "triangle and visualizes",
+        "mesh editing",
+        "bathymetry incorporation",
+        "incorporation and interpolation",
+        "refinement properties",
+        "prepares the input",
+        "generation and refinement",
+        "input file",
+        "visualizes and saves",
+        "saves the created",
+        "grid generation",
+        "created grid",
+        "battri"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "BATTRI does the mesh editing, bathymetry incorporation and interpolation, provides the grid generation and refinement properties, prepares the input file to Triangle and visualizes and saves the created grid.",
+    "url": "https://csdms.colorado.edu/wiki/Model:BatTri"
+}

@@ -1,0 +1,65 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "SICOPOLIS",
+    "codeRepository": "http://www.sicopolis.net/",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran90"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "http://www.sicopolis.net/",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Ralf",
+            "familyName": "Greve",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Hokkaido University",
+                "address": "Sapporo, Japan"
+            },
+            "email": "mailto:help@sicopolis.net"
+        }
+    ],
+    "dateCreated": "1995-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Cryosphere",
+        "ice",
+        "model",
+        "polythermal ice sheets",
+        "large ice sheets",
+        "greenland ice sheet",
+        "simulation code",
+        "thermodynamic model",
+        "ice sheets",
+        "code for polythermal",
+        "model that simulates",
+        "simulates the evolution",
+        "evolution of large",
+        "ice caps",
+        "polythermal ice",
+        "large ice",
+        "ice sheet",
+        "sicopolis"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "description": "SICOPOLIS (SImulation COde for POLythermal Ice Sheets) is a 3-d dynamic/thermodynamic model that simulates the evolution of large ice sheets and ice caps. It was originally created by Greve (1997a,b) in a version for the Greenland ice sheet. Since then, SICOPOLIS has been developed continuously and applied to problems of past, present and future glaciation of Greenland, Antarctica, the entire northern hemisphere, the polar ice caps of the planet Mars and others.",
+    "url": "https://csdms.colorado.edu/wiki/Model:SICOPOLIS",
+    "review": {
+        "@type": "Review",
+        "reviewBody": "Reviewed and accepted by the Journal of Open Source Software (JOSS)."
+    },
+    "developmentStatus": "Active"
+}

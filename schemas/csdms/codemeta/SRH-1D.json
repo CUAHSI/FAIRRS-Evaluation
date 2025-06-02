@@ -1,0 +1,41 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "SRH-1D",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran90"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "memoryRequirements": "100 MB",
+    "operatingSystem": [
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Blair",
+            "familyName": "Greimann",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Bureau of Reclamation",
+                "address": "Denver, United States"
+            },
+            "email": "mailto:bgreimann@usbr.gov"
+        }
+    ],
+    "dateCreated": "2000-01-01",
+    "keywords": [
+        "Terrestrial",
+        "river",
+        "sediment transport"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "SRH-1D (Sedimentation and River Hydraulics - One Dimension) is a one-dimensional mobile boundary hydraulic and sediment transport computer model for rivers and manmade canals. Simulation capabilities include steady or unsteady flows, river control structures, looped river networks, cohesive and non-cohesive sediment transport, and lateral inflows. The model uses cross section based river information. The model simulates changes to rivers and canals caused by sediment transport. It can estimate sediment concentrations throughout a waterway given the sediment inflows, bed material, hydrology, and hydraulics of that waterway.",
+    "url": "https://csdms.colorado.edu/wiki/Model:SRH-1D"
+}

@@ -1,0 +1,825 @@
+{
+  "subject": "Bedrock_Fault_Scarp#3002##",
+  "data": [
+    {
+      "property": "Citations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "82"
+        }
+      ]
+    },
+    {
+      "property": "City",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Boulder"
+        }
+      ]
+    },
+    {
+      "property": "CodeReviewed",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "Code_CMT_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_IRF_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Code_openmi_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_optimized",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single Processor"
+        }
+      ]
+    },
+    {
+      "property": "Country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "United States"
+        }
+      ]
+    },
+    {
+      "property": "DOI-filelink",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://csdms.colorado.edu/pub/models/doi-source-code/bedrock_fault_scarp-10.1594.IEDA.100097-0.1.tar.gz"
+        }
+      ]
+    },
+    {
+      "property": "DOI_assigned_to_model_version",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "0.1"
+        }
+      ]
+    },
+    {
+      "property": "DOI_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "10.1594/IEDA/100097"
+        }
+      ]
+    },
+    {
+      "property": "Describe_input_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "HILLSLOPE_LENGTH: length of hillslope, in meters\nNUMBER_OF_NODES: number of model nodes (initially)\nEROSION_RATE: slope-normal erosion rate in m/yr\nTHRESHOLD_SLOPE: threshold slope angle (m/m)\nTHROW_RATE: fault throw rate, meters per year\nFAULT_DIP: fault dip angle, degrees\nSEISMIC_INTERVAL: Time interval between earthquakes, in years\nRUN_DURATION: duration of run in years\nDT: time step duration in years\nOPT_ERO_VAR: option for time variation in erosion rate\nAMPLITUDE: amplitude of sinusoidal variation (m/yr)\nPERIOD: period of sinusoidal variation (yr)\nPHASE: phase offset for sinusoidal variation (degrees)\nDEL18O_FILENAME: name of file containing oxygen isotope curve\nDEL18O_POWER: exponent\nMIN_ERORATE:\nOPT_PLOT: option for plotting\nOPT_EPS_PLOT: option for output to .eps file\nPLOT_INTERVAL: time interval for plotting, in years"
+        }
+      ]
+    },
+    {
+      "property": "Describe_length_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Resolution on order of one to a few meters. Domain length grows over time, reaching order tens to hundreds of meters long."
+        }
+      ]
+    },
+    {
+      "property": "Describe_output_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Simple ascii files containing x and z coordinates of points at end of run. Optional output of figure in .eps format."
+        }
+      ]
+    },
+    {
+      "property": "Describe_processes",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Weathering and erosion of bedrock on a hillslope; vertical and horizontal displacement due to earthquakes."
+        }
+      ]
+    },
+    {
+      "property": "Describe_time_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Typical time scale of order tens to hundreds of thousands of years."
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCode",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Active"
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCodeYearChecked",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2020"
+        }
+      ]
+    },
+    {
+      "property": "Development_still_active",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No"
+        }
+      ]
+    },
+    {
+      "property": "Email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:gtucker@colorado.edu"
+        }
+      ]
+    },
+    {
+      "property": "End_year_development",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "2010"
+        },
+        {
+          "type": 1,
+          "item": "2011"
+        }
+      ]
+    },
+    {
+      "property": "Extended_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "The code computes the formation of a hillslope profile above an active normal fault. It represents the hillslope as a set of points with vertical and horizontal (fault-perpendicular) coordinates. Points move due to a prescribed erosion rate (which may vary in time) and due to offset during earthquakes with a specified recurrence interval and slip rate.\n\nThe model is described and illustrated in the following journal article:\n\nTucker, G. E., S. W. McCoy, A. C. Whittaker, G. P. Roberts, S. T. Lancaster, and R. Phillips (2011), Geomorphic significance of postglacial bedrock scarps on normal-fault footwalls, J. Geophys. Res., 116, F01022, doi: http://dx.doi.org/10.1029/2010JF001861."
+        }
+      ]
+    },
+    {
+      "property": "Fax",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "+1 303 492 2606"
+        }
+      ]
+    },
+    {
+      "property": "First_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Greg"
+        }
+      ]
+    },
+    {
+      "property": "H-index",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "Input_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        }
+      ]
+    },
+    {
+      "property": "Institute",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Cooperative Institute for Research in Environmental Sciences (CIRES)"
+        }
+      ]
+    },
+    {
+      "property": "Last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Tucker"
+        }
+      ]
+    },
+    {
+      "property": "M-quotient",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "0.07"
+        }
+      ]
+    },
+    {
+      "property": "Manual_model_available",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No"
+        }
+      ]
+    },
+    {
+      "property": "ModelDomain",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Terrestrial"
+        },
+        {
+          "type": 2,
+          "item": "Geodynamic"
+        }
+      ]
+    },
+    {
+      "property": "Model_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "As code"
+        }
+      ]
+    },
+    {
+      "property": "Model_keywords",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "fault, erosion, hillslope, facet, spur, scarp"
+        }
+      ]
+    },
+    {
+      "property": "Model_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single"
+        }
+      ]
+    },
+    {
+      "property": "Modelautophrases",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "fault"
+        },
+        {
+          "type": 2,
+          "item": "two-dimensional"
+        },
+        {
+          "type": 2,
+          "item": "numerical"
+        },
+        {
+          "type": 2,
+          "item": "model"
+        },
+        {
+          "type": 2,
+          "item": "active normal fault"
+        },
+        {
+          "type": 2,
+          "item": "normal fault"
+        },
+        {
+          "type": 2,
+          "item": "code computes"
+        },
+        {
+          "type": 2,
+          "item": "computes the formation"
+        },
+        {
+          "type": 2,
+          "item": "active normal"
+        },
+        {
+          "type": 2,
+          "item": "hillslope profile"
+        },
+        {
+          "type": 2,
+          "item": "hillslope"
+        },
+        {
+          "type": 2,
+          "item": "points move due"
+        },
+        {
+          "type": 2,
+          "item": "prescribed erosion rate"
+        },
+        {
+          "type": 2,
+          "item": "vertical and horizontal"
+        },
+        {
+          "type": 2,
+          "item": "code"
+        },
+        {
+          "type": 2,
+          "item": "computes"
+        },
+        {
+          "type": 2,
+          "item": "formation"
+        },
+        {
+          "type": 2,
+          "item": "profile"
+        },
+        {
+          "type": 2,
+          "item": "fault, erosion, hillslope, facet, spur, scarp"
+        },
+        {
+          "type": 2,
+          "item": "bedrock fault scarp"
+        }
+      ]
+    },
+    {
+      "property": "Nr-of-pubs",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2"
+        }
+      ]
+    },
+    {
+      "property": "One-line_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "This is a two-dimensional numerical model that computes the topographic evolution of the facet slope in the footwall of an active normal fault."
+        }
+      ]
+    },
+    {
+      "property": "Output_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        }
+      ]
+    },
+    {
+      "property": "Phone",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "+1 303 492 6985"
+        }
+      ]
+    },
+    {
+      "property": "Post_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Postal_address1",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Campus Box 399"
+        }
+      ]
+    },
+    {
+      "property": "Postal_address2",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "University of Colorado"
+        }
+      ]
+    },
+    {
+      "property": "Postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "80309"
+        }
+      ]
+    },
+    {
+      "property": "Pre_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "GPL v2"
+        }
+      ]
+    },
+    {
+      "property": "Programming_language",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Python"
+        }
+      ]
+    },
+    {
+      "property": "Run_time_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "minutes"
+        }
+      ]
+    },
+    {
+      "property": "Source_code_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Through CSDMS repository"
+        }
+      ]
+    },
+    {
+      "property": "Source_csdms_web_address",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://github.com/csdms-contrib/bedrock_fault_scarp"
+        }
+      ]
+    },
+    {
+      "property": "Spatial_dimensions",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2D"
+        }
+      ]
+    },
+    {
+      "property": "Spatialscale",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Watershed-Scale"
+        },
+        {
+          "type": 2,
+          "item": "Reach-Scale"
+        }
+      ]
+    },
+    {
+      "property": "Start_year_development",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2010"
+        }
+      ]
+    },
+    {
+      "property": "State",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Colorado"
+        }
+      ]
+    },
+    {
+      "property": "Supported_platforms",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Unix"
+        },
+        {
+          "type": 2,
+          "item": "Linux"
+        },
+        {
+          "type": 2,
+          "item": "Mac OS"
+        }
+      ]
+    },
+    {
+      "property": "Type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Model developer"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_needed",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "_ASK",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Bedrock_Fault_Scarp#3002##_QUERY385f61300bccb89c98f923021793e820"
+        },
+        {
+          "type": 9,
+          "item": "Bedrock_Fault_Scarp#3002##_QUERY64015f2246f280bc07cb22032d976845"
+        },
+        {
+          "type": 9,
+          "item": "Bedrock_Fault_Scarp#3002##_QUERYaa5130780783d3c23df31b444e48dadf"
+        }
+      ]
+    },
+    {
+      "property": "_CDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2011/5/2/22/9/48/0"
+        }
+      ]
+    },
+    {
+      "property": "_INST",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Pages_using_duplicate_arguments_in_template_calls#14##"
+        },
+        {
+          "type": 9,
+          "item": "Models#14##"
+        }
+      ]
+    },
+    {
+      "property": "_LEDT",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "WikiSysop#2##"
+        }
+      ]
+    },
+    {
+      "property": "_MDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2020/9/17/2/19/38/0"
+        }
+      ]
+    },
+    {
+      "property": "_SKEY",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Bedrock Fault Scarp"
+        }
+      ]
+    }
+  ],
+  "sobj": [
+    {
+      "subject": "Bedrock_Fault_Scarp#3002##_QUERY385f61300bccb89c98f923021793e820",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "0"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[:Model:Bedrock Fault Scarp]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "Bedrock Fault Scarp# QUERY385f61300bccb89c98f923021793e820"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Bedrock_Fault_Scarp#3002##_QUERY64015f2246f280bc07cb22032d976845",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[User:+]] [[First name member::Greg]] [[Last name member::Tucker]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "Bedrock Fault Scarp# QUERY64015f2246f280bc07cb22032d976845"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Bedrock_Fault_Scarp#3002##_QUERYaa5130780783d3c23df31b444e48dadf",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "ul"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[Model:+]] [[First name::Greg]] [[Last name::Tucker]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "Bedrock Fault Scarp# QUERYaa5130780783d3c23df31b444e48dadf"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+  "version": 2
+}

@@ -1,0 +1,58 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "ROMS_Data_Component",
+    "codeRepository": "https://github.com/gantian127/pymt_roms",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "downloadUrl": "https://github.com/gantian127/pymt_roms",
+    "operatingSystem": [],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Tian",
+            "familyName": "Gan",
+            "affiliation": {
+                "@type": "Organization",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:gantian127@gmail.com"
+        }
+    ],
+    "keywords": [
+        "Marine",
+        "Coastal",
+        "roms",
+        "datasets",
+        "system",
+        "csdms",
+        "community surface dynamics",
+        "dynamics modeling system",
+        "surface dynamics modeling",
+        "modeling framework developed",
+        "pymt modeling framework",
+        "community surface",
+        "surface dynamics",
+        "modeling system",
+        "dynamics modeling",
+        "developed by community",
+        "basic model interface",
+        "modeling framework",
+        "data component",
+        "pymt modeling",
+        "roms model datasets",
+        "roms data component"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "pymt_roms is a package that converts the ROMS model (https://www.myroms.org/) datasets into a reusable, plug-and-play data component for PyMT modeling framework developed by Community Surface Dynamics Modeling System (CSDMS). This allows ROMS model datasets to be easily coupled with other datasets or models that expose a Basic Model Interface.",
+    "url": "https://csdms.colorado.edu/wiki/Model:ROMS_Data_Component",
+    "developmentStatus": "Only maintenance"
+}

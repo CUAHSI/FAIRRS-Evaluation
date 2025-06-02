@@ -1,0 +1,845 @@
+{
+  "subject": "CrevasseFlow#3002##",
+  "data": [
+    {
+      "property": "Citations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "0"
+        }
+      ]
+    },
+    {
+      "property": "City",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Nanjing"
+        }
+      ]
+    },
+    {
+      "property": "CodeReviewed",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "Code_CMT_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_IRF_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_openmi_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_optimized",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single Processor"
+        }
+      ]
+    },
+    {
+      "property": "Country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "China"
+        }
+      ]
+    },
+    {
+      "property": "Current_future_collaborators",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "I'm now writing some papers coauthored with James Syvitski, Irina Overeem and Albert Kettner, on historical channel avulsions and source-to-sink sediment budget models of the Yellow River basin."
+        }
+      ]
+    },
+    {
+      "property": "DOI-filelink",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://csdms.colorado.edu/pub/models/doi-source-code/crevasseflow-10.1594.IEDA.100105-0.0.1.tar.gz"
+        }
+      ]
+    },
+    {
+      "property": "DOI_assigned_to_model_version",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "0.0.1"
+        }
+      ]
+    },
+    {
+      "property": "DOI_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "10.1594/IEDA/100105"
+        }
+      ]
+    },
+    {
+      "property": "Describe_available_test_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Q(m^3/s): daily water discharge series, 365 by 1 matrix\nQs(kg/s): daily sediment flux series, 365 by 1 matrix\nThe trigger flood event is set at the 232th day"
+        }
+      ]
+    },
+    {
+      "property": "Describe_ideal_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "As a test, you can use the attached test data Q and Qs, and run \n{Qd,Delta_hcs,Bcs,Delta_hcsd,Bcsd,Qout,Qcs,Zcs,Hcs,Vcs}=mainCS(Q,Qs,365,232,1,2,965,2.3,4795,0.009,0.03,1.377e-4,-2,0.0005,0.004,1.5,0.7,1800,2.5e-4,25,4.5e-4)"
+        }
+      ]
+    },
+    {
+      "property": "Describe_input_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "daily water discharge series;daily sediment flux series;\naveraged channel cross-sectional depth, averaged channel cross-sectional width;\nfloodplain width;\nmanning coefficients of the channel and floodplain;\nlongitudinal channel slope;\nChannel bed's super-elevation above the floodplain where sedimentation rate is close to 0;\nM-coefficient for erosion rate for the bottom of crevasse splay;\nM-coefficient for erosion rate for the two side slopes of crevasse splay;  \ncritical velocity for erosion; \ncritical  velocity for deposition;\nwidth of dike at the root; \ncross valley slope;\nsettling velocity of suspended load in the channel."
+        }
+      ]
+    },
+    {
+      "property": "Describe_key_physical_parameters",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Key physical parameters:\n*Q: water discharge upstream crevasse splay;\n*Qcs: outflow discharge of crevasse splay;\n*Qabove: the water discharge above the bottom of crevasse splay; \n*rq: the discharge ratio of Qcs and Qabove;\n*hs: channel belt's super-elevation (the elevation of lowest point of channel bed);\n*Zcs: bottom elevation of crevasse splay;\n*Bcs: width of crevasse splay;\n*Hcs: flow depth of crevasse splay;\n*Vcs: flow velocity of crevasse splay;\n*jcs: slope of the outflow of crevasse splay;\n*Zcsb: bottom elevation of a crevasse splay whose flow slope is equal to the channel slope j;\n\nKey physical equations:\n*Zcs<=max(hs,Zcsb); \n*rq=(1.55-1.45*Fi)*Bcs/wc+0.16*(1-2*Fi),  in which Fi is the Fraud number for flow in the trunk channel, wc is width of the trunk channel;\n*Hcs=(nc*Qcs/sqrt(jcs)/Bcs)^(3/5);\n*Vcs=Qcs/Hcs/Bcs;\n*dE=M*(Vcs^2-ucre^2)/ucre^2*dt, where M is M-coefficient for erosion rate for crevasse slpay, ucre is critical velocity for erosion, dt is time step;\n*dD=Sv*(1-Vcs^2/ucrd^2)*ws/0.6*dt, where Sv is volume sediment concentration, ucrd is critical velocity for deposition, ws is settling velocity of suspended load, dt is time step."
+        }
+      ]
+    },
+    {
+      "property": "Describe_length_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "length scale: meters\nresolution constraint: centimeter"
+        }
+      ]
+    },
+    {
+      "property": "Describe_output_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "averaged daily water discharge to lower reach of crevasse splay; \naveraged daily crevasse splay depth;\naveraged daily crevasse splay width"
+        }
+      ]
+    },
+    {
+      "property": "Describe_processes",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "As a crevasse splay evolves, the slope of its outflow should be no less than the slope of lower channel; and the bottom elevation of a crevasse splay should be no lower than the elevation of lowest point of channel bed, so the bottom elevation of the lowest point that a crevasse splay is able to cut down is max(hs, Zcsb).\n\nA ratio of Q above the bottom of crevasse splay can be distributed to outflow of crevasse splay. After flow parameters for the outflow of crevasse splay are calculated, the erosion (deposition) rate of crevasse splay can be calculated, thus the morphology of crevasse splay can be updated. \n\nWhen the crevasse splay has not yet cut down to the lowest point max(hs,Zcsb), it can be both widened and deepened. When the crevasse splay has cut down to the lowest point max(hs,Zcsb), it  can only be widened or silted vertically."
+        }
+      ]
+    },
+    {
+      "property": "Describe_time_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "time scale: decades\nresolution constraints: day"
+        }
+      ]
+    },
+    {
+      "property": "Development_still_active",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:chenyunzhen1010@gmail.com"
+        }
+      ]
+    },
+    {
+      "property": "End_year_development",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "2011"
+        }
+      ]
+    },
+    {
+      "property": "Extended_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "The module is designed to calculate morphological changes and water discharge outflow of a crevasse splay that is triggered by a preset flood event and evolves afterwards. The inputs for \"mainCS.m\" should be daily water discharge and sediment flux series of the trunk channel upstream the crevasse splay. The outputs will be daily series for the cross-sectional parameters of the crevasse splay, and daily water discharge series of the trunk channel downstream the crevasse splay. One limitation of the present version is it only calculates the expanding and healing of a crevasse splay, while ignores the possible morphological change (demise or revival) of the trunk channel downstream the crevasse splay. Another limitation is the codes are originally written for the Lower Yellow River(a suspended load dominated river) for the purpose of calculating sediment budget in the Lower Yellow over a long timescale, say as long as hundreds years, so the present module can not be applied to other alluvial rivers without modifying those lines related to channel geometry, bankfull discharge and bank erosion(deposition)."
+        }
+      ]
+    },
+    {
+      "property": "First_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yunzhen"
+        }
+      ]
+    },
+    {
+      "property": "Input_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        }
+      ]
+    },
+    {
+      "property": "Institute",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Nanjing University"
+        }
+      ]
+    },
+    {
+      "property": "Last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Chen"
+        }
+      ]
+    },
+    {
+      "property": "M-quotient",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "0"
+        }
+      ]
+    },
+    {
+      "property": "Manual_model_available",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No"
+        }
+      ]
+    },
+    {
+      "property": "ModelDomain",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Terrestrial"
+        }
+      ]
+    },
+    {
+      "property": "Model_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "As code"
+        }
+      ]
+    },
+    {
+      "property": "Model_keywords",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "coastal evolution"
+        }
+      ]
+    },
+    {
+      "property": "Model_test_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Media:Testdata.rar"
+        }
+      ]
+    },
+    {
+      "property": "Model_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Tool"
+        }
+      ]
+    },
+    {
+      "property": "Modelautophrases",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "crevasse"
+        },
+        {
+          "type": 2,
+          "item": "splay"
+        },
+        {
+          "type": 2,
+          "item": "module"
+        },
+        {
+          "type": 2,
+          "item": "calculates"
+        },
+        {
+          "type": 2,
+          "item": "preset flood event"
+        },
+        {
+          "type": 2,
+          "item": "crevasse splay"
+        },
+        {
+          "type": 2,
+          "item": "daily water discharge"
+        },
+        {
+          "type": 2,
+          "item": "water discharge outflow"
+        },
+        {
+          "type": 2,
+          "item": "water discharge"
+        },
+        {
+          "type": 2,
+          "item": "trunk channel downstream"
+        },
+        {
+          "type": 2,
+          "item": "water discharge series"
+        },
+        {
+          "type": 2,
+          "item": "trunk channel"
+        },
+        {
+          "type": 2,
+          "item": "preset flood"
+        },
+        {
+          "type": 2,
+          "item": "flood event"
+        },
+        {
+          "type": 2,
+          "item": "event and evolves"
+        },
+        {
+          "type": 2,
+          "item": "daily water"
+        },
+        {
+          "type": 2,
+          "item": "lower yellow river"
+        },
+        {
+          "type": 2,
+          "item": "coastal evolution"
+        },
+        {
+          "type": 2,
+          "item": "crevasseflow"
+        }
+      ]
+    },
+    {
+      "property": "Nr-of-pubs",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2"
+        }
+      ]
+    },
+    {
+      "property": "One-line_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "The module calculates crevasse splay morphology and water discharge outflow of a crevasse splay."
+        }
+      ]
+    },
+    {
+      "property": "Output_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        }
+      ]
+    },
+    {
+      "property": "Phone",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "+8613851402809"
+        }
+      ]
+    },
+    {
+      "property": "Post_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Postal_address1",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "22 Hankou Road"
+        }
+      ]
+    },
+    {
+      "property": "Postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "210093"
+        }
+      ]
+    },
+    {
+      "property": "Pre_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "GPL v2"
+        }
+      ]
+    },
+    {
+      "property": "Programming_language",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Matlab"
+        }
+      ]
+    },
+    {
+      "property": "Run_time_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "seconds"
+        }
+      ]
+    },
+    {
+      "property": "Source_code_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Through CSDMS repository"
+        }
+      ]
+    },
+    {
+      "property": "Source_csdms_web_address",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://github.com/csdms-contrib/crevasseflow"
+        }
+      ]
+    },
+    {
+      "property": "Spatial_dimensions",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1D"
+        }
+      ]
+    },
+    {
+      "property": "Spatialscale",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Landscape-Scale"
+        }
+      ]
+    },
+    {
+      "property": "Start_year_development",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2009"
+        }
+      ]
+    },
+    {
+      "property": "Supported_platforms",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Unix"
+        },
+        {
+          "type": 2,
+          "item": "Linux"
+        },
+        {
+          "type": 2,
+          "item": "Mac OS"
+        },
+        {
+          "type": 2,
+          "item": "Windows"
+        }
+      ]
+    },
+    {
+      "property": "Type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Model developer"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_needed",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "_ASK",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "CrevasseFlow#3002##_QUERY4b532e28391eb3b938f13895aa85563b"
+        },
+        {
+          "type": 9,
+          "item": "CrevasseFlow#3002##_QUERY07cc8701b31e192d2c21a213b85657a4"
+        },
+        {
+          "type": 9,
+          "item": "CrevasseFlow#3002##_QUERY939201b9d6aca64944ba96f4249b8070"
+        }
+      ]
+    },
+    {
+      "property": "_CDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2010/3/29/22/16/15/0"
+        }
+      ]
+    },
+    {
+      "property": "_ERRC",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "CrevasseFlow#3002##_ERR832e19663f926fa58b1c2c38ccac6efd"
+        }
+      ]
+    },
+    {
+      "property": "_INST",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Pages_using_duplicate_arguments_in_template_calls#14##"
+        },
+        {
+          "type": 9,
+          "item": "Models#14##"
+        }
+      ]
+    },
+    {
+      "property": "_LEDT",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "WikiSysop#2##"
+        }
+      ]
+    },
+    {
+      "property": "_MDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2020/9/17/2/15/28/0"
+        }
+      ]
+    },
+    {
+      "property": "_SKEY",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "CrevasseFlow"
+        }
+      ]
+    }
+  ],
+  "sobj": [
+    {
+      "subject": "CrevasseFlow#3002##_QUERY4b532e28391eb3b938f13895aa85563b",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "0"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[:Model:CrevasseFlow]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "CrevasseFlow# QUERY4b532e28391eb3b938f13895aa85563b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "CrevasseFlow#3002##_QUERY07cc8701b31e192d2c21a213b85657a4",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[User:+]] [[First name member::Yunzhen]] [[Last name member::Chen]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "CrevasseFlow# QUERY07cc8701b31e192d2c21a213b85657a4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "CrevasseFlow#3002##_QUERY939201b9d6aca64944ba96f4249b8070",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "ul"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[Model:+]] [[First name::Yunzhen]] [[Last name::Chen]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "CrevasseFlow# QUERY939201b9d6aca64944ba96f4249b8070"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "CrevasseFlow#3002##_ERR832e19663f926fa58b1c2c38ccac6efd",
+      "data": [
+        {
+          "property": "_ERRP",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "H-index#102##"
+            }
+          ]
+        },
+        {
+          "property": "_ERRT",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[2,\"smw_nofloat\",\"--\"]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "CrevasseFlow# ERR832e19663f926fa58b1c2c38ccac6efd"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+  "version": 2
+}

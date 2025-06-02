@@ -1,0 +1,64 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "WILSIM",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Java"
+        }
+    ],
+    "applicationCategory": "Single",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows",
+        "Java Applet, Platform independent"
+    ],
+    "softwareVersion": "30-03-03",
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Wei",
+            "familyName": "Luo",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Northern Illinois University",
+                "address": "DeKalb, United States"
+            },
+            "email": "mailto:wluo@niu.edu"
+        }
+    ],
+    "dateCreated": "2002-01-01",
+    "keywords": [
+        "Terrestrial",
+        "landscape",
+        "model",
+        "java applet",
+        "landform simulation model",
+        "web-based interactive landform",
+        "interactive landform simulation",
+        "cellular automata algorithm",
+        "tectonic uplift",
+        "change different parameters",
+        "user to change",
+        "evolve over time",
+        "simulation model",
+        "incorporating nonlinear rules",
+        "web-based interactive",
+        "cellular automata",
+        "interactive landform",
+        "landform simulation",
+        "landscape evolution",
+        "wilsim",
+        "landscape evolution"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "identifier": "10.1594/IEDA/100180",
+    "description": "This is a Java Applet that allows the user to change different parameters (such as rainfall, erodibility, tectonic uplift) and watch how the landform evolve over time under different scenarios. It is based on a Cellular Automata algorithm. Two versions are available: linear and non-linear. Details can be found in:\n\nLuo, W., Peronja, E., Duffin, K., Stravers, A. J., 2006, Incorporating Nonlinear Rules in a Web-based Interactive Landform Simulation Model (WILSIM), Computers and Geosciences, v. 32, n. 9, p. 1512-1518 (doi: 10.1016/j.cageo.2005.12.012).\nLuo, W., K.L. Duffin, E. Peronja, J.A. Stravers, and G.M. Henry, 2004, A Web-based Interactive Landform Simulation Model (WILSIM), Computers and Geosciences. v. 30, n. 3, p. 215-220.",
+    "url": "https://csdms.colorado.edu/wiki/Model:WILSIM"
+}

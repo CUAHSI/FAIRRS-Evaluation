@@ -1,0 +1,772 @@
+{
+  "subject": "Hilltop_and_hillslope_morphology_extraction#3002##",
+  "data": [
+    {
+      "property": "Citations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "70"
+        }
+      ]
+    },
+    {
+      "property": "City",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Nottingham"
+        }
+      ]
+    },
+    {
+      "property": "CodeReviewed",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "Code_CMT_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_IRF_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_openmi_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_optimized",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single Processor"
+        }
+      ]
+    },
+    {
+      "property": "Country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "United Kingdom"
+        }
+      ]
+    },
+    {
+      "property": "Current_future_collaborators",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "This code has been subsumed into a topographic analysis package being developed with Simon Mudd at the University of Edinburgh which may be available at a future date."
+        }
+      ]
+    },
+    {
+      "property": "Describe_available_test_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Db_dem.zip"
+        }
+      ]
+    },
+    {
+      "property": "Describe_input_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "See included readme"
+        }
+      ]
+    },
+    {
+      "property": "Describe_length_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Requires high resolution (1 m LiDAR) topographic data."
+        }
+      ]
+    },
+    {
+      "property": "Describe_numerical_limitations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Dpeending on the size of the DEM this can be quite a slow process, particularly the third step."
+        }
+      ]
+    },
+    {
+      "property": "Describe_output_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "See included readme"
+        }
+      ]
+    },
+    {
+      "property": "Development_still_active",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No"
+        }
+      ]
+    },
+    {
+      "property": "Email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:mhurst@bgs.ac.uk"
+        }
+      ]
+    },
+    {
+      "property": "End_year_development",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "2012"
+        }
+      ]
+    },
+    {
+      "property": "Extended_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "A series of tools for extracting a network of hilltops from a landscape, computing curvature, slope and aspect over variable length scales from high resolution topography and performing hillslope traces from hilltops to valley bottoms to sample hilltop curvature, mean hillslope gradient and hillslope length. See Hurst et al. (2012) for full description."
+        }
+      ]
+    },
+    {
+      "property": "First_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Martin"
+        }
+      ]
+    },
+    {
+      "property": "H-index",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "Institute",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "British Geological Survevy"
+        }
+      ]
+    },
+    {
+      "property": "Last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Hurst"
+        }
+      ]
+    },
+    {
+      "property": "M-quotient",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "0.08"
+        }
+      ]
+    },
+    {
+      "property": "Manual_model_available",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No"
+        }
+      ]
+    },
+    {
+      "property": "Memory_requirements",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Dependent on DEM size"
+        }
+      ]
+    },
+    {
+      "property": "ModelDomain",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Terrestrial"
+        }
+      ]
+    },
+    {
+      "property": "Model_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "As code"
+        }
+      ]
+    },
+    {
+      "property": "Model_keywords",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "topographic analysis"
+        }
+      ]
+    },
+    {
+      "property": "Model_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Tool"
+        }
+      ]
+    },
+    {
+      "property": "Modelautophrases",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "tools"
+        },
+        {
+          "type": 2,
+          "item": "morphology"
+        },
+        {
+          "type": 2,
+          "item": "sample hilltop curvature"
+        },
+        {
+          "type": 2,
+          "item": "high resolution topography"
+        },
+        {
+          "type": 2,
+          "item": "variable length scales"
+        },
+        {
+          "type": 2,
+          "item": "performing hillslope traces"
+        },
+        {
+          "type": 2,
+          "item": "computing curvature"
+        },
+        {
+          "type": 2,
+          "item": "slope and aspect"
+        },
+        {
+          "type": 2,
+          "item": "hilltop curvature"
+        },
+        {
+          "type": 2,
+          "item": "series of tools"
+        },
+        {
+          "type": 2,
+          "item": "tools for extracting"
+        },
+        {
+          "type": 2,
+          "item": "extracting a network"
+        },
+        {
+          "type": 2,
+          "item": "aspect over variable"
+        },
+        {
+          "type": 2,
+          "item": "scales from high"
+        },
+        {
+          "type": 2,
+          "item": "high resolution"
+        },
+        {
+          "type": 2,
+          "item": "resolution topography"
+        },
+        {
+          "type": 2,
+          "item": "topography and performing"
+        },
+        {
+          "type": 2,
+          "item": "topographic analysis"
+        },
+        {
+          "type": 2,
+          "item": "hilltop and hillslope morphology extraction"
+        }
+      ]
+    },
+    {
+      "property": "Nr-of-pubs",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "One-line_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Tools for extracting hilltops and analysing hillslope morphology"
+        }
+      ]
+    },
+    {
+      "property": "Phone",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "+44 1159 363103"
+        }
+      ]
+    },
+    {
+      "property": "Post_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Postal_address1",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Nicker Hill"
+        }
+      ]
+    },
+    {
+      "property": "Postal_address2",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Keyworth"
+        }
+      ]
+    },
+    {
+      "property": "Postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "NG12 6DA"
+        }
+      ]
+    },
+    {
+      "property": "Pre_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "GPL v3"
+        }
+      ]
+    },
+    {
+      "property": "Programming_language",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "C++"
+        },
+        {
+          "type": 2,
+          "item": "Python"
+        }
+      ]
+    },
+    {
+      "property": "Run_time_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Days-Weeks!"
+        }
+      ]
+    },
+    {
+      "property": "Source_code_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Through CSDMS repository"
+        }
+      ]
+    },
+    {
+      "property": "Source_csdms_web_address",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://github.com/csdms-contrib/hilltop_and_hillslope_morphology_extraction"
+        }
+      ]
+    },
+    {
+      "property": "Spatial_dimensions",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2D"
+        }
+      ]
+    },
+    {
+      "property": "Spatialscale",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Watershed-Scale"
+        },
+        {
+          "type": 2,
+          "item": "Reach-Scale"
+        }
+      ]
+    },
+    {
+      "property": "Start_year_development",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2010"
+        }
+      ]
+    },
+    {
+      "property": "State",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "NO STATE"
+        }
+      ]
+    },
+    {
+      "property": "Supported_platforms",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Unix"
+        },
+        {
+          "type": 2,
+          "item": "Linux"
+        },
+        {
+          "type": 2,
+          "item": "Windows"
+        }
+      ]
+    },
+    {
+      "property": "Type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Model developer"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ESRI"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_needed",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "t"
+        }
+      ]
+    },
+    {
+      "property": "_ASK",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Hilltop_and_hillslope_morphology_extraction#3002##_QUERY1e7acaa65c64a8010c3a242f0e50f651"
+        },
+        {
+          "type": 9,
+          "item": "Hilltop_and_hillslope_morphology_extraction#3002##_QUERYa02da75bb33575bd45bb5e5713e1f32e"
+        },
+        {
+          "type": 9,
+          "item": "Hilltop_and_hillslope_morphology_extraction#3002##_QUERYed8dada849a0fc73aa54d979b010450a"
+        }
+      ]
+    },
+    {
+      "property": "_CDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2013/8/7/9/48/39/0"
+        }
+      ]
+    },
+    {
+      "property": "_INST",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Models#14##"
+        },
+        {
+          "type": 9,
+          "item": "Pages_using_duplicate_arguments_in_template_calls#14##"
+        }
+      ]
+    },
+    {
+      "property": "_LEDT",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "WikiSysop#2##"
+        }
+      ]
+    },
+    {
+      "property": "_MDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2020/9/17/2/18/8/0"
+        }
+      ]
+    },
+    {
+      "property": "_SKEY",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Hilltop and hillslope morphology extraction"
+        }
+      ]
+    }
+  ],
+  "sobj": [
+    {
+      "subject": "Hilltop_and_hillslope_morphology_extraction#3002##_QUERY1e7acaa65c64a8010c3a242f0e50f651",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "0"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[:Model:Hilltop and hillslope morphology extraction]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "Hilltop and hillslope morphology extraction# QUERY1e7acaa65c64a8010c3a242f0e50f651"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Hilltop_and_hillslope_morphology_extraction#3002##_QUERYa02da75bb33575bd45bb5e5713e1f32e",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[User:+]] [[First name member::Martin]] [[Last name member::Hurst]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "Hilltop and hillslope morphology extraction# QUERYa02da75bb33575bd45bb5e5713e1f32e"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Hilltop_and_hillslope_morphology_extraction#3002##_QUERYed8dada849a0fc73aa54d979b010450a",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "ul"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[Model:+]] [[First name::Martin]] [[Last name::Hurst]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "Hilltop and hillslope morphology extraction# QUERYed8dada849a0fc73aa54d979b010450a"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+  "version": 2
+}

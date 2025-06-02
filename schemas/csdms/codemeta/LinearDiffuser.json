@@ -1,0 +1,56 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "LinearDiffuser",
+    "codeRepository": "https://landlab.github.io",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "downloadUrl": "https://landlab.github.io",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": {
+        "@type": "Role"
+    },
+    "dateCreated": "2013-01-01",
+    "keywords": [
+        "Terrestrial",
+        "landlab",
+        "process",
+        "models soil creep",
+        "explicit finite-volume solution",
+        "diffusion equation",
+        "landlab component",
+        "component that models",
+        "models soil",
+        "soil creep",
+        "explicit finite-volume",
+        "finite-volume solution",
+        "lineardiffuser",
+        "diffusion",
+        "equation",
+        "component",
+        "models",
+        "hillslope",
+        "hillslope model",
+        "hillslope",
+        "Hillslope Model",
+        "soil creep",
+        "diffusion"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "LinearDiffuser is a Landlab component that models soil creep using an explicit finite-volume solution to a 2D diffusion equation.",
+    "url": "https://csdms.colorado.edu/wiki/Model:LinearDiffuser",
+    "developmentStatus": "Active"
+}

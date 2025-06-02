@@ -1,0 +1,69 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "AgDegNormalFault",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "operatingSystem": [
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "softwareVersion": "0.1",
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Gary",
+            "familyName": "Parker",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Illinois at Urbana-Champaign",
+                "address": "Urbana, United States"
+            },
+            "email": "mailto:parkerg@illinois.edu"
+        }
+    ],
+    "dateCreated": "1990-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "illustration",
+        "e-book",
+        "calculation",
+        "reach",
+        "sudden vertical fault",
+        "program computes",
+        "differential sediment transport",
+        "undergo a sudden",
+        "sudden vertical",
+        "vertical fault",
+        "sediment transport",
+        "differential sediment",
+        "due to differential",
+        "bed variation",
+        "sediment",
+        "transport",
+        "amount",
+        "bed",
+        "computes",
+        "fluvial morphodynamics",
+        "fault",
+        "agdegnormalfault",
+        "bed variation",
+        "fluvial morphodynamics",
+        "fault"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "identifier": "10.1594/IEDA/100082",
+    "description": "This program computes 1D bed variation in rivers due to differential sediment transport in which it is possible to allow the bed to undergo a sudden vertical fault of a specified amount, at a specified place and time.  Faulting is realized by moving all notes downstream of the specified point downward by the amount of the faulting.\nThe sediment is assumed to be uniform with size D. All sediment transport is assumed to occur in a specified fraction of time during which the river is in flood, specified by an intermittency. A Manning-Strickler formulation is used for bed resistance. A generic relation of the general form of that due to Meyer-Peter and Muller is used for sediment transport. The flow is computed using the normal flow approximation.",
+    "url": "https://csdms.colorado.edu/wiki/Model:AgDegNormalFault",
+    "developmentStatus": "As is, no updates are provided"
+}

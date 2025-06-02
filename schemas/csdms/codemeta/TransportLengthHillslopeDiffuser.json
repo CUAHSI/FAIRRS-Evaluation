@@ -1,0 +1,59 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "TransportLengthHillslopeDiffuser",
+    "codeRepository": "https://github.com/landlab/landlab/tree/master/landlab",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/landlab/landlab/tree/master/landlab",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Margaux",
+            "familyName": "Mouchene",
+            "affiliation": {
+                "@type": "Organization",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:margaux.mouchene@colorado.edu"
+        }
+    ],
+    "dateCreated": "2017-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "transport",
+        "diffusion",
+        "hillslope diffusion component",
+        "style of carretier",
+        "hillslope diffusion",
+        "diffusion component",
+        "davy and lague",
+        "carretier",
+        "hillslope",
+        "soil",
+        "transportlengthhillslopediffuser",
+        "hillslope",
+        "diffusion",
+        "soil"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "Hillslope diffusion component in the style of Carretier et al. (2016, ESurf), and Davy and Lague (2009).\n\nWorks on regular raster-type grid (RasterModelGrid, dx=dy). To be coupled with FlowDirectorSteepest for the calculation of steepest slope at each timestep.",
+    "url": "https://csdms.colorado.edu/wiki/Model:TransportLengthHillslopeDiffuser",
+    "relatedLink": "https://github.com/landlab/landlab/issues",
+    "developmentStatus": "Only maintenance"
+}

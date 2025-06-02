@@ -1,0 +1,783 @@
+{
+  "subject": "LEMming#3002##",
+  "data": [
+    {
+      "property": "Citations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "31"
+        }
+      ]
+    },
+    {
+      "property": "City",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Albuquerque"
+        }
+      ]
+    },
+    {
+      "property": "CodeReviewed",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "Code_CMT_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_IRF_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_openmi_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_optimized",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single Processor"
+        }
+      ]
+    },
+    {
+      "property": "Country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "United States"
+        }
+      ]
+    },
+    {
+      "property": "DOI-filelink",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://csdms.colorado.edu/pub/models/doi-source-code/lemming-10.1594.IEDA.100141-0.1.5.tar.gz"
+        }
+      ]
+    },
+    {
+      "property": "DOI_assigned_to_model_version",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "0.1.5"
+        }
+      ]
+    },
+    {
+      "property": "DOI_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "10.1594/IEDA/100141"
+        }
+      ]
+    },
+    {
+      "property": "Development_still_active",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:djward@unm.edu"
+        }
+      ]
+    },
+    {
+      "property": "End_year_development",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "2011"
+        }
+      ]
+    },
+    {
+      "property": "Extended_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "LEMming tracks regolith and sediment fluxes, including bedrock erosion by streams and rockfall from steep slopes. Initial landscape form and stratigraphic structure are prescribed. Model grid cells with slope angles above a threshold, and which correspond to the appropriate rock type, are designated as candidate sources for rockfall. Rockfall erosion of the cliffband is simulated by instantaneously reducing the height of a randomly chosen grid cell that is susceptible to failure to that of its nearest downhill neighbor among the eight cells bordering it. This volume of rockfall debris is distributed across the landscape below this cell according to rules that weight the likelihood of each downhill cell to retain rockfall debris. The weighting is based on local conditions such as slope angle, topographic curvature, and distance and direction from the rockfall source. Rockfall debris and the bedrock types are each differentiated by the rate at which they weather to regolith and by their fluvial erodibility. Regolith is moved according to transport rules mimicking hillslope processes (dependent on local slope angle), and bedload and suspended load transport (based on stream power). Regolith and sediment transport are limited by available material; bedrock incision occurs (also based on stream power) where bare rock is exposed."
+        }
+      ]
+    },
+    {
+      "property": "Fax",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "303 7462330"
+        }
+      ]
+    },
+    {
+      "property": "First_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Dylan"
+        }
+      ]
+    },
+    {
+      "property": "H-index",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "Input_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        }
+      ]
+    },
+    {
+      "property": "Institute",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "University of New Mexico"
+        }
+      ]
+    },
+    {
+      "property": "Last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Ward"
+        }
+      ]
+    },
+    {
+      "property": "M-quotient",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "0.07"
+        }
+      ]
+    },
+    {
+      "property": "Manual_model_available",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No"
+        }
+      ]
+    },
+    {
+      "property": "Memory_requirements",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Low to moderate"
+        }
+      ]
+    },
+    {
+      "property": "ModelDomain",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Terrestrial"
+        }
+      ]
+    },
+    {
+      "property": "Model_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "As code"
+        }
+      ]
+    },
+    {
+      "property": "Model_keywords",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "landscape evolution"
+        },
+        {
+          "type": 2,
+          "item": "rock type"
+        }
+      ]
+    },
+    {
+      "property": "Model_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single"
+        }
+      ]
+    },
+    {
+      "property": "Modelautophrases",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "regular-grid"
+        },
+        {
+          "type": 2,
+          "item": "rules-based"
+        },
+        {
+          "type": 2,
+          "item": "landscape"
+        },
+        {
+          "type": 2,
+          "item": "evolution"
+        },
+        {
+          "type": 2,
+          "item": "lemming tracks regolith"
+        },
+        {
+          "type": 2,
+          "item": "lemming tracks"
+        },
+        {
+          "type": 2,
+          "item": "rockfall"
+        },
+        {
+          "type": 2,
+          "item": "including bedrock erosion"
+        },
+        {
+          "type": 2,
+          "item": "rockfall debris"
+        },
+        {
+          "type": 2,
+          "item": "steep slopes"
+        },
+        {
+          "type": 2,
+          "item": "sediment fluxes"
+        },
+        {
+          "type": 2,
+          "item": "including bedrock"
+        },
+        {
+          "type": 2,
+          "item": "tracks regolith"
+        },
+        {
+          "type": 2,
+          "item": "slope angle"
+        },
+        {
+          "type": 2,
+          "item": "regolith"
+        },
+        {
+          "type": 2,
+          "item": "slope"
+        },
+        {
+          "type": 2,
+          "item": "cell"
+        },
+        {
+          "type": 2,
+          "item": "debris"
+        },
+        {
+          "type": 2,
+          "item": "based"
+        },
+        {
+          "type": 2,
+          "item": "landscape evolution"
+        },
+        {
+          "type": 2,
+          "item": "rock type"
+        },
+        {
+          "type": 2,
+          "item": "lemming"
+        }
+      ]
+    },
+    {
+      "property": "Nr-of-pubs",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2"
+        }
+      ]
+    },
+    {
+      "property": "One-line_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "LEMming landscape evolution model: a 2-D, regular-grid, rules-based, hybrid finite-difference / cellular automaton model that is designed to explore the effect of multiple rock types on landscape evolution."
+        }
+      ]
+    },
+    {
+      "property": "Output_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Binary"
+        }
+      ]
+    },
+    {
+      "property": "Phone",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "303 7462330"
+        }
+      ]
+    },
+    {
+      "property": "Post_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Postal_address1",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Department of Earth and Planetary Sciences"
+        }
+      ]
+    },
+    {
+      "property": "Postal_address2",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Northrop Hall"
+        }
+      ]
+    },
+    {
+      "property": "Postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "87131"
+        }
+      ]
+    },
+    {
+      "property": "Pre_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "GPL v2"
+        }
+      ]
+    },
+    {
+      "property": "Programming_language",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Matlab"
+        }
+      ]
+    },
+    {
+      "property": "Run_time_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Minutes to days"
+        }
+      ]
+    },
+    {
+      "property": "Source_code_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Through CSDMS repository"
+        }
+      ]
+    },
+    {
+      "property": "Source_csdms_web_address",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://github.com/csdms-contrib/lemming"
+        }
+      ]
+    },
+    {
+      "property": "Spatial_dimensions",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2D"
+        }
+      ]
+    },
+    {
+      "property": "Spatialscale",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Regional-Scale"
+        },
+        {
+          "type": 2,
+          "item": "Landscape-Scale"
+        },
+        {
+          "type": 2,
+          "item": "Watershed-Scale"
+        },
+        {
+          "type": 2,
+          "item": "Reach-Scale"
+        }
+      ]
+    },
+    {
+      "property": "Start_year_development",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2008"
+        }
+      ]
+    },
+    {
+      "property": "State",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "New Mexico"
+        }
+      ]
+    },
+    {
+      "property": "Supported_platforms",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Linux"
+        },
+        {
+          "type": 2,
+          "item": "Mac OS"
+        },
+        {
+          "type": 2,
+          "item": "Windows"
+        }
+      ]
+    },
+    {
+      "property": "Type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Model developer"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_needed",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "_ASK",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "LEMming#3002##_QUERY44cce2c04351c8d57e37ae2441a009fe"
+        },
+        {
+          "type": 9,
+          "item": "LEMming#3002##_QUERY915180c076b6a3f8b6671bd8c7c0e86f"
+        },
+        {
+          "type": 9,
+          "item": "LEMming#3002##_QUERYb2473622bbcd1f83eb0653f3fb1e478c"
+        }
+      ]
+    },
+    {
+      "property": "_CDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2011/2/1/0/39/34/0"
+        }
+      ]
+    },
+    {
+      "property": "_INST",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Pages_using_duplicate_arguments_in_template_calls#14##"
+        },
+        {
+          "type": 9,
+          "item": "Models#14##"
+        }
+      ]
+    },
+    {
+      "property": "_LEDT",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "WikiSysop#2##"
+        }
+      ]
+    },
+    {
+      "property": "_MDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2020/9/17/2/18/6/0"
+        }
+      ]
+    },
+    {
+      "property": "_SKEY",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "LEMming"
+        }
+      ]
+    }
+  ],
+  "sobj": [
+    {
+      "subject": "LEMming#3002##_QUERY44cce2c04351c8d57e37ae2441a009fe",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "0"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[:Model:LEMming]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "LEMming# QUERY44cce2c04351c8d57e37ae2441a009fe"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "LEMming#3002##_QUERY915180c076b6a3f8b6671bd8c7c0e86f",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[User:+]] [[First name member::Dylan]] [[Last name member::Ward]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "LEMming# QUERY915180c076b6a3f8b6671bd8c7c0e86f"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "LEMming#3002##_QUERYb2473622bbcd1f83eb0653f3fb1e478c",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "ul"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[Model:+]] [[First name::Dylan]] [[Last name::Ward]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "LEMming# QUERYb2473622bbcd1f83eb0653f3fb1e478c"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+  "version": 2
+}

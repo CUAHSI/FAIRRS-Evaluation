@@ -1,0 +1,88 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Hilltop_flow_routing",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C++"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "memoryRequirements": "Varies depending on the input DEM size",
+    "operatingSystem": [
+        "Unix",
+        "Linux"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Stuart",
+            "familyName": "Grieve",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Edinburgh",
+                "address": "Edinburgh, United Kingdom"
+            },
+            "email": "mailto:s.grieve@ed.ac.uk"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Simon",
+            "familyName": "Mudd",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Edinburgh",
+                "address": "Edinburgh, United Kingdom"
+            },
+            "email": "mailto:simon.m.mudd@ed.ac.uk"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Martin",
+            "familyName": "Hurst",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "British Geological Survey",
+                "address": "Edinburgh, United Kingdom"
+            },
+            "email": "mailto:mhurst@bgs.ac.uk"
+        }
+    ],
+    "dateCreated": "2013-01-01",
+    "keywords": [
+        "Terrestrial",
+        "algorithm",
+        "data",
+        "generating hillslope length",
+        "generating hillslope",
+        "hillslope length",
+        "flow path",
+        "hilltop pixel",
+        "length and relief",
+        "hillslope scale",
+        "landscape scale",
+        "relief data",
+        "produces a flow",
+        "hillslope",
+        "nonlinear sediment flux",
+        "sediment flux laws",
+        "scale",
+        "tool produces",
+        "geomorphology",
+        "hillslope model",
+        "sediment flux",
+        "hilltop flow routing",
+        "geomorphology",
+        "Hillslope Model",
+        "Sediment flux",
+        "flow path"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "description": "This tool produces a flow path for each hilltop pixel on a landscape, generating hillslope length and relief data at a hillslope scale. These data can be used to discriminate between linear and nonlinear sediment flux laws at a landscape scale.\n\nThe model requires an input DEM in float format and produces a series raster and plain text output files which can be visualized and analysed using code provided at: https://github.com/sgrieve/LH_Paper_Plotting\n\nFor detailed information about how to use this tool please refer to the documentation (http://www.geos.ed.ac.uk/~smudd/LSDTT_docs/html/basin_metrics.html).",
+    "url": "https://csdms.colorado.edu/wiki/Model:Hilltop_flow_routing",
+    "developmentStatus": "Active"
+}

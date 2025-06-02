@@ -1,0 +1,73 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "ModelParameterDictionary",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "memoryRequirements": "minimal",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows",
+        "any platform with Python"
+    ],
+    "softwareVersion": "0.1",
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Greg",
+            "familyName": "Tucker",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "CIRES",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:gtucker@colorado.edu"
+        }
+    ],
+    "dateCreated": "2010-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "Coastal",
+        "Marine",
+        "Climate",
+        "python",
+        "tool",
+        "file",
+        "param",
+        "model parameter dictionary",
+        "simple formatted input",
+        "access model parameters",
+        "dict.read",
+        "number",
+        "tool for numerical",
+        "numerical modelers",
+        "modelers to easily",
+        "simple formatted",
+        "key",
+        "model parameters",
+        "access model",
+        "parameters",
+        "fruit",
+        "input parameters",
+        "read in",
+        "modelparameterdictionary",
+        "input parameters",
+        "read in"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "identifier": "10.1594/IEDA/100148",
+    "description": "The Model Parameter Dictionary is a tool for numerical modelers to\neasily read and access model parameters from a simple formatted \ninput (text) file. Each parameter has a KEY, which identifies the\nparameter, and a VALUE, which can be a number or a string. A\nModelParameterDictionary object reads model parameters from an input \nfile to a Dictionary, and provides functions for the user to look up \nparticular parameters by key name.\n\nThe format of the input file looks like:\n\nPI: the text \"PI\" is an example of a KEY\n3.1416\nAVOGADROS_NUMBER: this is another\n6.022e23\nFAVORITE_FRUIT: yet another\nmangoes\nNUMBER_OF_MANGO_WALKS: this one is an integer\n4\nALSO_LIKES_APPLES: this is a boolean\ntrue\n\nExample code that reads these parameters from a file called\n\"myinputs.txt\":\n\n    my_param_dict = ModelParameterDictionary()\n    my_param_dict.read_from_file( 'myinputs.txt' )\n    pi = my_param_dict.read_float( 'PI' )\n    avogado = my_param_dict.read_float( 'AVOGADROS_NUMBER' )\n    fruit = my_param_dict.read_string( 'FAVORITE_FRUIT' )\n    nmang = my_param_dict.read_int( 'NUMBER_OF_MANGO_WALKS' )\n    apples_ok = my_param_dict.read_bool( 'ALSO_LIKES_APPLES' )\n\nAs in Python, hash marks (#) denote comments. The rules are that each\nkey must have one and only one parameter value, and each value must\nappear on a separate line immediately below the key line.\n\nAlso available are functions to read input parameters from the \ncommand line (e.g., read_float_cmdline( 'PI' ) )",
+    "url": "https://csdms.colorado.edu/wiki/Model:ModelParameterDictionary",
+    "developmentStatus": "As is, no updates are provided"
+}

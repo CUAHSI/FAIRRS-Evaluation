@@ -1,0 +1,64 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "CLUMondo",
+    "codeRepository": "http://www.environmentalgeography.nl/site/data-models/data/clumondo-model/",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C++"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "http://www.environmentalgeography.nl/site/data-models/data/clumondo-model/",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Peter",
+            "familyName": "Verburg",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Vrije Universiteit Amsterdam, Faculty of Earth and Life Sciences",
+                "address": "Amsterdam, Netherlands"
+            },
+            "email": "mailto:peter.verburg@vu.nl"
+        }
+    ],
+    "dateCreated": "2011-01-01",
+    "keywords": [
+        "Terrestrial",
+        "model",
+        "clumondo",
+        "spatially",
+        "explicit",
+        "land systems approach",
+        "land systems",
+        "land",
+        "systems",
+        "systems approach",
+        "land cover",
+        "land systems depends",
+        "land cover composition",
+        "land cover classifications",
+        "management activities employed",
+        "reflect land",
+        "clumondo is based",
+        "socio-ecological systems",
+        "approach",
+        "land system change model",
+        "land system change model"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "CLUMondo is based on the land systems approach. Land systems are socio-ecological systems that reflect land use in a spatial unit in terms of land cover composition, spatial configuration, and the management activities employed. The precise definition of land systems depends on the scale of analysis, the purpose of modelling, and the case study region. In contrast to land cover classifications the role of land use intensity and livestock systems are explicitly addressed. Each land system can be characterized in terms of the fractional land covers.<br>Land systems are characterized based on the amount of forest in the landscape mosaic and the management type ranging from swidden cultivation to permanent cultivation and plantations.",
+    "url": "https://csdms.colorado.edu/wiki/Model:CLUMondo",
+    "developmentStatus": "Active"
+}

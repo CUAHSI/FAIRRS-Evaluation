@@ -1,0 +1,64 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "EF5",
+    "codeRepository": "https://github.com/HyDROSLab/EF5",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C++"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/HyDROSLab/EF5",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Zac",
+            "familyName": "Flamig",
+            "affiliation": {
+                "@type": "Organization",
+                "address": "Norman, United States"
+            },
+            "email": "mailto:zac.flamig@noaa.gov"
+        }
+    ],
+    "keywords": [
+        "Hydrology",
+        "forecasting",
+        "framework",
+        "flash",
+        "flood",
+        "remote sensing laboratory",
+        "university of oklahoma",
+        "hydrometeorology and remote",
+        "remote sensing",
+        "sensing laboratory",
+        "sacramento soil moisture",
+        "soil moisture accouning",
+        "moisture accouning model",
+        "oklahoma",
+        "water balance models",
+        "hydrometeorology",
+        "remote",
+        "sensing",
+        "laboratory",
+        "university",
+        "flash floods",
+        "ef5",
+        "Flash floods",
+        "Forecasting"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "EF5 was created by the Hydrometeorology and Remote Sensing Laboratory at the University of Oklahoma. The goal of EF5 is to have a framework for distributed hydrologic modeling that is user friendly, adaptable, expandable, all while being suitable for large scale (e.g. continental scale) modeling of flash floods with rapid forecast updates. Currently EF5 incorporates 3 water balance models including the Sacramento Soil Moisture Accouning Model (SAC-SMA), Coupled Routing and Excess Storage (CREST), and hydrophobic (HP). These water balance models can be coupled with either linear reservoir or kinematic wave routing.",
+    "url": "https://csdms.colorado.edu/wiki/Model:EF5"
+}

@@ -1,0 +1,65 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "DbSEABED_Data_Component",
+    "codeRepository": "https://github.com/gantian127/bmi_dbseabed",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "downloadUrl": "https://github.com/gantian127/bmi_dbseabed",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Tian",
+            "familyName": "Gan",
+            "affiliation": {
+                "@type": "Organization",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:gantian127@gmail.com"
+        }
+    ],
+    "keywords": [
+        "Marine",
+        "Coastal",
+        "Ecosystems",
+        "Carbonates and Biogenics",
+        "csdms",
+        "system",
+        "data",
+        "component",
+        "basic model interface",
+        "marine substrates datasets",
+        "community surface dynamics",
+        "dynamics modeling system",
+        "surface dynamics modeling",
+        "bmi",
+        "set of functions",
+        "marine substrates",
+        "model interface",
+        "dbseabed package",
+        "basic model",
+        "community surface",
+        "surface dynamics",
+        "substrates datasets",
+        "modeling system",
+        "dbseabed data component"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "bmi_dbseabed package (https://github.com/gantian127/bmi_dbseabed) provides a set of functions that allows downloading of the dataset from dbSEABED (https://instaar.colorado.edu/~jenkinsc/dbseabed/), a system for marine substrates datasets across the globe. bmi_dbseabed package also includes a Basic Model Interface (BMI), which converts the dbSEABED datasets into a reusable, plug-and-play data component for the PyMT modeling framework developed by Community Surface Dynamics Modeling System (CSDMS).",
+    "url": "https://csdms.colorado.edu/wiki/Model:DbSEABED_Data_Component",
+    "developmentStatus": "Only maintenance"
+}

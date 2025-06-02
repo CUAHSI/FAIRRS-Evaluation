@@ -1,0 +1,101 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Barrier3D",
+    "codeRepository": "https://github.com/UNC-CECL/Barrier3D",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/UNC-CECL/Barrier3D",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "softwareVersion": "V2.0 (and V1.0)",
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Ian",
+            "familyName": "Reeves",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of North Carolina at Chapel Hill",
+                "address": "Chapel Hill, United States"
+            },
+            "email": "mailto:reevesi@live.unc.edu"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Laura",
+            "familyName": "Moore",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of North Carolina at Chapel Hill",
+                "address": "Chapel Hill, United States"
+            },
+            "email": "mailto:laura.moore@unc.edu"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Katherine",
+            "familyName": "Anarde",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of North Carolina at Chapel Hill, North Carolina State University",
+                "address": "Chapel Hill, United States"
+            },
+            "email": "mailto:kanarde@ncsu.edu"
+        }
+    ],
+    "dateCreated": "2019-01-01",
+    "keywords": [
+        "Coastal",
+        "Ecosystems",
+        "evolution",
+        "alongshore topographic variations",
+        "years to centuries",
+        "resolves cross-shore",
+        "cross-shore and alongshore",
+        "alongshore topographic",
+        "topographic variations",
+        "variations to simulate",
+        "simulate the morphological",
+        "segment over time",
+        "exploratory model",
+        "morphological evolution",
+        "time scales",
+        "simulating dune evolution",
+        "barrier segment",
+        "individual storm events",
+        "barrier",
+        "coastal",
+        "overwash",
+        "dunes",
+        "ecogemorphology",
+        "sea-level rise",
+        "barrier3d",
+        "barrier",
+        "coastal",
+        "overwash",
+        "dunes",
+        "ecogemorphology",
+        "sea-level rise"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "identifier": [
+        "10.5281/zenodo.4730989",
+        "10.5281/zenodo.4730988"
+    ],
+    "description": "Barrier3D is an exploratory model that resolves cross-shore and alongshore topographic variations to simulate the morphological evolution of a barrier segment over time scales of years to centuries. Barrier3D tackles the scale separation between event-based and long-term models by explicitly yet efficiently simulating dune evolution, storm overwash, and a dynamically evolving shoreface in response to individual storm events and sea-level rise. Ecological-geomorphological couplings of the barrier interior can be simulated with a shrub expansion and mortality module.",
+    "url": "https://csdms.colorado.edu/wiki/Model:Barrier3D",
+    "developmentStatus": "Active"
+}

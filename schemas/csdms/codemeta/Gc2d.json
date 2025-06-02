@@ -1,0 +1,76 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Gc2d",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Single",
+    "memoryRequirements": "Minimal",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Mark",
+            "familyName": "Kessler",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Colorado",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:mark.kessler@colorado.edu"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Eric",
+            "familyName": "Hutton",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "CSDMS, INSTAAR, University of Colorado",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:huttone@colorado.edu"
+        }
+    ],
+    "dateCreated": "2005-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Cryosphere",
+        "glacier",
+        "ice",
+        "model",
+        "models the growth",
+        "ice sheets",
+        "growth and evolution",
+        "evolution of valley",
+        "valley glaciers",
+        "glaciers and ice",
+        "models",
+        "sheets",
+        "growth",
+        "evolution",
+        "valley",
+        "glaciers",
+        "cryosphere",
+        "gc2d",
+        "cryosphere"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Apache public license"
+    },
+    "description": "Models the growth and evolution of valley glaciers and ice sheets",
+    "url": "https://csdms.colorado.edu/wiki/Model:Gc2d"
+}

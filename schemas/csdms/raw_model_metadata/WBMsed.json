@@ -1,0 +1,885 @@
+{
+  "subject": "WBMsed#3002##",
+  "data": [
+    {
+      "property": "Citations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "995"
+        }
+      ]
+    },
+    {
+      "property": "City",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Boulder"
+        }
+      ]
+    },
+    {
+      "property": "CodeReviewed",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "Code_CMT_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No not possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_IRF_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_openmi_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_optimized",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Multiple Processors"
+        }
+      ]
+    },
+    {
+      "property": "Country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "United States"
+        }
+      ]
+    },
+    {
+      "property": "DOI-filelink",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://csdms.colorado.edu/pub/models/doi-source-code/wbmsed-10.1594.IEDA.100178-30-03-03.tar.gz"
+        },
+        {
+          "type": 2,
+          "item": "https://zenodo.org/record/7012896"
+        }
+      ]
+    },
+    {
+      "property": "DOI_assigned_to_model_version",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "30-03-03"
+        },
+        {
+          "type": 2,
+          "item": "v4.4.1"
+        }
+      ]
+    },
+    {
+      "property": "DOI_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "10.1594/IEDA/100178"
+        },
+        {
+          "type": 2,
+          "item": "10.5281/zenodo.7012896"
+        }
+      ]
+    },
+    {
+      "property": "Describe_available_test_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Extensive input dataset is available on the CSDMS HPCC (beach) at '/scratch/ccny/RGISarchive' and '/scratch/saco2635/RGISarchiveCSDMS'."
+        }
+      ]
+    },
+    {
+      "property": "Describe_input_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "depending on configuration, the model can be run with Air temperature and Precipitation only. In the most complex configuration, the model will also need vapor pressure, solar radiation, wind, daily minimum and maximum temperature. Built-in functions allow trading input variables (e.g. use cloud cover instead of solar radiation)."
+        }
+      ]
+    },
+    {
+      "property": "Describe_length_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Available datasets are for global and continental domains. Realistic high-res simulations for global scale is 6 arc-min and for continental 3 arc-min. Higher resolution datasets are available for both (e.g. 15 arc-sec for Europe)."
+        }
+      ]
+    },
+    {
+      "property": "Describe_output_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "The WBMplus model can output any variables used for the water balance and transport calculations. WBMsed unique output are: sediment-flux, over-bank water discharge, and all the BQART parameters."
+        }
+      ]
+    },
+    {
+      "property": "Describe_processes",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "see: Sagy Cohen, Albert J. Kettner, James P.M. Syvitski, Balazs M. Fekete, WBMsed, a distributed global-scale riverine sediment flux model: Model description and validation, Computers and Geosciences, ISSN 0098-3004, 10.1016/j.cageo.2011.08.011."
+        }
+      ]
+    },
+    {
+      "property": "Describe_time_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "It simulate at daily time-steps. Maximum available datasets time-span is between 1901-present."
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCode",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Active"
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCodeYearChecked",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2020"
+        }
+      ]
+    },
+    {
+      "property": "Development_still_active",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:sagy.cohen@colorado.edu"
+        }
+      ]
+    },
+    {
+      "property": "End_year_development",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "2012"
+        },
+        {
+          "type": 1,
+          "item": "2022"
+        }
+      ]
+    },
+    {
+      "property": "Extended_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "An extension of the WBMplus (WBM/WTM) model. Introduce a riverine sediment flux component based on the BQART and Psi models."
+        }
+      ]
+    },
+    {
+      "property": "First_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Sagy"
+        }
+      ]
+    },
+    {
+      "property": "H-index",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "11"
+        }
+      ]
+    },
+    {
+      "property": "Incorporated_modules",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "WBM-WTM"
+        },
+        {
+          "type": 2,
+          "item": "BQART"
+        }
+      ]
+    },
+    {
+      "property": "Input_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Binary"
+        }
+      ]
+    },
+    {
+      "property": "Input_format_model_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "RGIS - .gdbc"
+        }
+      ]
+    },
+    {
+      "property": "Institute",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "CSDMS, University of Colorado"
+        }
+      ]
+    },
+    {
+      "property": "Last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Cohen"
+        }
+      ]
+    },
+    {
+      "property": "M-quotient",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "0.79"
+        }
+      ]
+    },
+    {
+      "property": "Manual_model_available",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Memory_requirements",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "9 GB for global simulation at 6 arc-min resolution"
+        }
+      ]
+    },
+    {
+      "property": "ModelDomain",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Terrestrial"
+        },
+        {
+          "type": 2,
+          "item": "Hydrology"
+        }
+      ]
+    },
+    {
+      "property": "Model_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "As code"
+        }
+      ]
+    },
+    {
+      "property": "Model_forum",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Model version 2 is available."
+        }
+      ]
+    },
+    {
+      "property": "Model_keywords",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Sediment flux"
+        },
+        {
+          "type": 2,
+          "item": "Global model"
+        },
+        {
+          "type": 2,
+          "item": "Hydrological model"
+        }
+      ]
+    },
+    {
+      "property": "Model_manual",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Media:WBMsed manual2-lmf.doc"
+        },
+        {
+          "type": 2,
+          "item": "Media:WBMsed.v2 manual.pdf"
+        }
+      ]
+    },
+    {
+      "property": "Model_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Modular"
+        }
+      ]
+    },
+    {
+      "property": "Modelautophrases",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "global"
+        },
+        {
+          "type": 2,
+          "item": "model"
+        },
+        {
+          "type": 2,
+          "item": "wbm"
+        },
+        {
+          "type": 2,
+          "item": "wtm"
+        },
+        {
+          "type": 2,
+          "item": "psi models"
+        },
+        {
+          "type": 2,
+          "item": "bqart and psi"
+        },
+        {
+          "type": 2,
+          "item": "wbmplus"
+        },
+        {
+          "type": 2,
+          "item": "sediment flux"
+        },
+        {
+          "type": 2,
+          "item": "global model"
+        },
+        {
+          "type": 2,
+          "item": "hydrological model"
+        },
+        {
+          "type": 2,
+          "item": "wbmsed"
+        }
+      ]
+    },
+    {
+      "property": "Multiple_processors_implemented",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Shared memory"
+        }
+      ]
+    },
+    {
+      "property": "Nr-of-pubs",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "14"
+        }
+      ]
+    },
+    {
+      "property": "Nr_of_shared_processors",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "4"
+        }
+      ]
+    },
+    {
+      "property": "One-line_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Global sediment flux and water discharge model."
+        }
+      ]
+    },
+    {
+      "property": "Output_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Binary"
+        }
+      ]
+    },
+    {
+      "property": "Output_format_model_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "RGIS - .gdbc and conversion to NetCDF"
+        }
+      ]
+    },
+    {
+      "property": "Post_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "80309"
+        }
+      ]
+    },
+    {
+      "property": "Pre_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Program_language_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Shell script"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "GPL v2"
+        }
+      ]
+    },
+    {
+      "property": "Programming_language",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "C++"
+        }
+      ]
+    },
+    {
+      "property": "Run_time_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "3 hours per year for global simulation at 6 arc-min resolution"
+        }
+      ]
+    },
+    {
+      "property": "Source_code_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Through CSDMS repository"
+        }
+      ]
+    },
+    {
+      "property": "Source_csdms_web_address",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://github.com/csdms-contrib/wbmsed"
+        }
+      ]
+    },
+    {
+      "property": "Spatial_dimensions",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2D"
+        }
+      ]
+    },
+    {
+      "property": "Spatialscale",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Global"
+        },
+        {
+          "type": 2,
+          "item": "Continental"
+        }
+      ]
+    },
+    {
+      "property": "Start_year_development",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2010"
+        }
+      ]
+    },
+    {
+      "property": "State",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Colorado"
+        }
+      ]
+    },
+    {
+      "property": "Supported_platforms",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Unix"
+        },
+        {
+          "type": 2,
+          "item": "Linux"
+        }
+      ]
+    },
+    {
+      "property": "Type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Model developer"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ESRI"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_needed",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "t"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "VisIt"
+        }
+      ]
+    },
+    {
+      "property": "_ASK",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "WBMsed#3002##_QUERY944f55c28da305337fdd8781126fb87c"
+        },
+        {
+          "type": 9,
+          "item": "WBMsed#3002##_QUERYba6ccc3f44195598ab4031e8a20e0546"
+        },
+        {
+          "type": 9,
+          "item": "WBMsed#3002##_QUERY88bff3d085ca81358a5c6abc6e54dc33"
+        }
+      ]
+    },
+    {
+      "property": "_CDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2011/9/27/22/22/24/0"
+        }
+      ]
+    },
+    {
+      "property": "_INST",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Pages_using_duplicate_arguments_in_template_calls#14##"
+        },
+        {
+          "type": 9,
+          "item": "Models#14##"
+        }
+      ]
+    },
+    {
+      "property": "_LEDT",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "WikiSysop#2##"
+        }
+      ]
+    },
+    {
+      "property": "_MDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2022/8/20/14/49/39/0"
+        }
+      ]
+    },
+    {
+      "property": "_SKEY",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "WBMsed"
+        }
+      ]
+    }
+  ],
+  "sobj": [
+    {
+      "subject": "WBMsed#3002##_QUERY944f55c28da305337fdd8781126fb87c",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "0"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[:Model:WBMsed]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "WBMsed# QUERY944f55c28da305337fdd8781126fb87c"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "WBMsed#3002##_QUERYba6ccc3f44195598ab4031e8a20e0546",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[User:+]] [[First name member::Sagy]] [[Last name member::Cohen]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "WBMsed# QUERYba6ccc3f44195598ab4031e8a20e0546"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "WBMsed#3002##_QUERY88bff3d085ca81358a5c6abc6e54dc33",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "ul"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[Model:+]] [[First name::Sagy]] [[Last name::Cohen]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "WBMsed# QUERY88bff3d085ca81358a5c6abc6e54dc33"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+  "version": 2
+}

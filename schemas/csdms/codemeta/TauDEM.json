@@ -1,0 +1,76 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "TauDEM",
+    "codeRepository": "http://hydrology.usu.edu/taudem/taudem5/index.html",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C++"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "downloadUrl": "http://hydrology.usu.edu/taudem/taudem5/index.html",
+    "memoryRequirements": "Depends on data",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "supportingData": [
+        {
+            "@type": "DataFeed",
+            "url": "https://csdms.colorado.edu/csdms_wiki/images/LoganDemo.zip",
+            "name": "Test Data"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "David",
+            "familyName": "Tarboton",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Utah State University",
+                "address": "Logan, United States"
+            },
+            "email": "mailto:dtarb@usu.edu"
+        }
+    ],
+    "dateCreated": "1997-01-01",
+    "keywords": [
+        "Hydrology",
+        "dem",
+        "model",
+        "digital",
+        "elevation",
+        "graphical user interface",
+        "argonne national laboratory",
+        "toolbox graphical user",
+        "calculates flow paths",
+        "command line executable",
+        "calculates contributing area",
+        "delineation threshold based",
+        "standalone command line",
+        "terrain analysis details",
+        "arcgis toolbox graphical",
+        "line executable programs",
+        "multiple flow direction",
+        "channel network delineation",
+        "network delineation threshold",
+        "variable drainage density",
+        "hydrologivally corrected dem",
+        "watershed",
+        "taudem",
+        "hydrologivally corrected DEM",
+        "watershed"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "description": "TauDEM provides the following capability: \n\n\u2022Development of hydrologically correct (pit removed) DEMs using the flooding approach\n\n\u2022Calculates flow paths (directions) and slopes\n\n\u2022Calculates contributing area using single and multiple flow direction methods\n\n\u2022Multiple methods for the delineation of stream networks including topographic form-based methods sensitive to spatially variable drainage density\n\n\u2022Objective methods for determination of the channel network delineation threshold based on stream drops\n\n\u2022Delineation of watersheds and subwatersheds draining to each stream segment and association between watershed and segment attributes for setting up hydrologic models\n\n\u2022Specialized functions for terrain analysis\n\nDetails of new parallel Version 5.0 of TauDEM\n\n\u2022Restructured into a parallel processing implementation of the TauDEM suite of tools\n\n\u2022Works on Windows PCs, laptops and UNIX clusters\n\n\u2022Multiple processes are not required, the parallel approach can run as multiple processes within a single processor\n\n\u2022Restructured into a set of standalone command line executable programs and an ArcGIS toolbox Graphical User Interface (GUI)\n\n\u2022Command line executables are:\n \n-Written in C++ using Argonne National Laboratory's MPICH2 library to implement message passing between multiple processes\n\n-Based on single set of source code for the command line execuables that is platform independent and can be compiled for both Window's PC's and UNIX clusters",
+    "url": "https://csdms.colorado.edu/wiki/Model:TauDEM",
+    "developmentStatus": "Active"
+}

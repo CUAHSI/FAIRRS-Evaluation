@@ -1,0 +1,826 @@
+{
+  "subject": "SNOWPACK#3002##",
+  "data": [
+    {
+      "property": "Additional_city",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Davos Dorf"
+        }
+      ]
+    },
+    {
+      "property": "Additional_country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Switzerland"
+        }
+      ]
+    },
+    {
+      "property": "Additional_email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:bavay@slf.ch"
+        }
+      ]
+    },
+    {
+      "property": "Additional_first_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Mathias"
+        }
+      ]
+    },
+    {
+      "property": "Additional_institute",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Swiss Federal Institute for Snow and Avalanche Research, SLF"
+        }
+      ]
+    },
+    {
+      "property": "Additional_last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Bavay"
+        }
+      ]
+    },
+    {
+      "property": "Additional_postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "CH-7260"
+        }
+      ]
+    },
+    {
+      "property": "Additional_type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Model developer"
+        }
+      ]
+    },
+    {
+      "property": "Citations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "3136"
+        }
+      ]
+    },
+    {
+      "property": "City",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Davos Dorf"
+        }
+      ]
+    },
+    {
+      "property": "CodeReviewed",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "Code_CMT_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_IRF_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_PyMT_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_openmi_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_optimized",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single Processor"
+        }
+      ]
+    },
+    {
+      "property": "Country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Switzerland"
+        }
+      ]
+    },
+    {
+      "property": "Describe_input_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "It requires the following meteorological parameters:\n* air temperature (TA)\n* relative humidity (RH)\n* wind speed (VW)\n* incoming short wave radiation (ISWR) and/or reflected short wave radiation (RSWR)\n* incoming long wave radiation (ILWR) and/or surface temperature (TSS)\n* precipitation (PSUM) and/or snow height (HS)\n* ground temperature (TSG, if available. Otherwise, you will have to use MeteoIO's data generators to generate a value) or geothermal heat flux\n* snow temperatures at various depths (TS1, TS2, etc if available and only for comparisons, see section Snow and/or soil temperatures)"
+        }
+      ]
+    },
+    {
+      "property": "Describe_output_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Snowpack creates various output files:\n* the current state of its soil and snow layers in \".sno\" files;\n* the current state of its hazard relevant data in \".haz\" files;\n* a time serie of snow profiles;\n* a time serie of the meteorological data and fluxes as used in the model."
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCode",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Active"
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCodeYearChecked",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2024"
+        }
+      ]
+    },
+    {
+      "property": "Development_still_active",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:lehning@slf.ch"
+        }
+      ]
+    },
+    {
+      "property": "Extended_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "SNOWPACK solves numerically the partial differential equations governing the mass, energy and momentum conservation within the snowpack using the finite-element method. The numerical model has been constructed to handle the special problems of avalanche warning."
+        }
+      ]
+    },
+    {
+      "property": "First_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Michael"
+        }
+      ]
+    },
+    {
+      "property": "H-index",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "18"
+        }
+      ]
+    },
+    {
+      "property": "Input_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        }
+      ]
+    },
+    {
+      "property": "Input_format_model_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "SMET: https://code.wsl.ch/snow-models/meteoio/-/package_files/433/download\nNetCDF\niCSV: https://code.wsl.ch/EnviDat/icsv/-/tree/master"
+        }
+      ]
+    },
+    {
+      "property": "Institute",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Swiss Federal Institute for Snow and Avalanche Research, SLF"
+        }
+      ]
+    },
+    {
+      "property": "Last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Lehning"
+        }
+      ]
+    },
+    {
+      "property": "M-quotient",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "0.67"
+        }
+      ]
+    },
+    {
+      "property": "Manual_model_available",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Memory_requirements",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "--"
+        }
+      ]
+    },
+    {
+      "property": "ModelDomain",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Terrestrial"
+        },
+        {
+          "type": 2,
+          "item": "Cryosphere"
+        }
+      ]
+    },
+    {
+      "property": "Model_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "As code"
+        }
+      ]
+    },
+    {
+      "property": "Model_keywords",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "snow"
+        }
+      ]
+    },
+    {
+      "property": "Model_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single"
+        }
+      ]
+    },
+    {
+      "property": "Model_website",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://snowpack.slf.ch"
+        }
+      ]
+    },
+    {
+      "property": "Modelautophrases",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "snowpack"
+        },
+        {
+          "type": 2,
+          "item": "snow"
+        },
+        {
+          "type": 2,
+          "item": "detailed"
+        },
+        {
+          "type": 2,
+          "item": "mass"
+        },
+        {
+          "type": 2,
+          "item": "avalanche warning"
+        },
+        {
+          "type": 2,
+          "item": "snowpack solves numerically"
+        },
+        {
+          "type": 2,
+          "item": "partial differential equations"
+        },
+        {
+          "type": 2,
+          "item": "differential equations governing"
+        },
+        {
+          "type": 2,
+          "item": "snowpack solves"
+        },
+        {
+          "type": 2,
+          "item": "governing the mass"
+        },
+        {
+          "type": 2,
+          "item": "energy and momentum"
+        },
+        {
+          "type": 2,
+          "item": "finite-element method"
+        },
+        {
+          "type": 2,
+          "item": "solves numerically"
+        },
+        {
+          "type": 2,
+          "item": "numerically the partial"
+        },
+        {
+          "type": 2,
+          "item": "partial differential"
+        },
+        {
+          "type": 2,
+          "item": "differential equations"
+        },
+        {
+          "type": 2,
+          "item": "equations governing"
+        },
+        {
+          "type": 2,
+          "item": "momentum conservation"
+        }
+      ]
+    },
+    {
+      "property": "Nr-of-pubs",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "19"
+        }
+      ]
+    },
+    {
+      "property": "One-line_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "SNOWPACK is a multi-purpose snow and land-surface model, which focuses on a detailed description of the mass and energy exchange between the snow, the atmosphere and optionally with the vegetation cover and the soil. It also includes a detailed treatment of mass and energy fluxes within these media."
+        }
+      ]
+    },
+    {
+      "property": "Output_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        }
+      ]
+    },
+    {
+      "property": "Post_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "CH-7260"
+        }
+      ]
+    },
+    {
+      "property": "Pre_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "LGPL"
+        }
+      ]
+    },
+    {
+      "property": "Programming_language",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "C++"
+        },
+        {
+          "type": 2,
+          "item": "IDL"
+        }
+      ]
+    },
+    {
+      "property": "Run_time_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "30s for one year at one point, at most 180s with the most complex liquid water transport model."
+        }
+      ]
+    },
+    {
+      "property": "Source_code_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Through web repository"
+        }
+      ]
+    },
+    {
+      "property": "Source_web_address",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://snowpack.slf.ch"
+        }
+      ]
+    },
+    {
+      "property": "Spatial_dimensions",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1D"
+        }
+      ]
+    },
+    {
+      "property": "Spatialscale",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Point-Based"
+        }
+      ]
+    },
+    {
+      "property": "Start_year_development",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1999"
+        }
+      ]
+    },
+    {
+      "property": "Supported_platforms",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Unix"
+        },
+        {
+          "type": 2,
+          "item": "Mac OS"
+        },
+        {
+          "type": 2,
+          "item": "Windows"
+        },
+        {
+          "type": 2,
+          "item": "Linux"
+        }
+      ]
+    },
+    {
+      "property": "Type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Technical contact"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_needed",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "t"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "The niViz tool, online at https://run.niviz.org"
+        }
+      ]
+    },
+    {
+      "property": "_ASK",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "SNOWPACK#3002##_QUERYea770d17c776f4306f150ad4bbb4a5cc"
+        },
+        {
+          "type": 9,
+          "item": "SNOWPACK#3002##_QUERY176121a5e9bf3032cb053d6ed866ea59"
+        },
+        {
+          "type": 9,
+          "item": "SNOWPACK#3002##_QUERYadbab59dc2dcaafbff85a28a5987cd11"
+        }
+      ]
+    },
+    {
+      "property": "_CDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2019/11/25/19/49/48/0"
+        }
+      ]
+    },
+    {
+      "property": "_INST",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Pages_using_duplicate_arguments_in_template_calls#14##"
+        },
+        {
+          "type": 9,
+          "item": "Models#14##"
+        }
+      ]
+    },
+    {
+      "property": "_LEDT",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "WikiSysop#2##"
+        }
+      ]
+    },
+    {
+      "property": "_MDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2024/10/30/11/1/11/0"
+        }
+      ]
+    },
+    {
+      "property": "_SKEY",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "SNOWPACK"
+        }
+      ]
+    }
+  ],
+  "sobj": [
+    {
+      "subject": "SNOWPACK#3002##_QUERYea770d17c776f4306f150ad4bbb4a5cc",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "0"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[:Model:SNOWPACK]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "SNOWPACK# QUERYea770d17c776f4306f150ad4bbb4a5cc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "SNOWPACK#3002##_QUERY176121a5e9bf3032cb053d6ed866ea59",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[User:+]] [[First name member::Michael]] [[Last name member::Lehning]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "SNOWPACK# QUERY176121a5e9bf3032cb053d6ed866ea59"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "SNOWPACK#3002##_QUERYadbab59dc2dcaafbff85a28a5987cd11",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "ul"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[Model:+]] [[First name::Michael]] [[Last name::Lehning]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "SNOWPACK# QUERYadbab59dc2dcaafbff85a28a5987cd11"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+  "version": 2
+}

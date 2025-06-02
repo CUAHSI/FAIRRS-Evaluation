@@ -1,0 +1,69 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "DeltaRCM",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Single",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Windows",
+        "Mac OS"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Man",
+            "familyName": "Liang",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Texas at Austin",
+                "address": "Austin, United States"
+            },
+            "email": "mailto:manliang@utexas.edu"
+        }
+    ],
+    "dateCreated": "2010-01-01",
+    "keywords": [
+        "Coastal",
+        "river",
+        "dynamics",
+        "rule-based exploratory models",
+        "parcel-based cellular flux",
+        "cellular flux routing",
+        "river deltas",
+        "sediment transport model",
+        "exploratory models",
+        "parcel-based cellular",
+        "cellular flux",
+        "flux routing",
+        "formation of river",
+        "broad category",
+        "category of rule-based",
+        "rule-based exploratory",
+        "transport model",
+        "sediment transport",
+        "delta evolution",
+        "cellula automata",
+        "coastal morphdynamics",
+        "deltarcm",
+        "delta evolution",
+        "cellula automata",
+        "coastal morphdynamics"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "description": "DeltaRCM is a parcel-based cellular flux routing and sediment transport model for the formation of river deltas, which belongs to the broad category of rule-based exploratory models. It has the ability to resolve emergent channel behaviors including channel bifurcation, avulsion and migration. Sediment transport distinguishes two types of sediment: sand and mud, which have different transport and deposition/erosion rules. Stratigraphy is recorded as the sand fraction in layers.\nBest usage of DeltaRCM is the investigation of autogenic processes in response to external forcings.",
+    "url": "https://csdms.colorado.edu/wiki/Model:DeltaRCM",
+    "review": {
+        "@type": "Review",
+        "reviewBody": "Reviewed and accepted by the Journal of Open Source Software (JOSS)."
+    }
+}

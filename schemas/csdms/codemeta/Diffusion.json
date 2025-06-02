@@ -1,0 +1,54 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Diffusion",
+    "codeRepository": "https://github.com/mcflugen/sedflux",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/mcflugen/sedflux",
+    "memoryRequirements": "1GB at the most",
+    "operatingSystem": [
+        "Unix",
+        "Mac OS",
+        "Windows"
+    ],
+    "softwareVersion": "2.1",
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Eric",
+            "familyName": "Hutton",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "CSDMS, INSTAAR, University of Colorado",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:huttone@colorado.edu"
+        }
+    ],
+    "dateCreated": "2001-01-01",
+    "keywords": [
+        "Marine",
+        "bioturbation",
+        "diffusion",
+        "waves",
+        "diffusion of marine",
+        "marine sediments",
+        "sediments",
+        "sediment transport",
+        "sediment transport"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "identifier": "10.1594/IEDA/100111",
+    "description": "Diffusion of marine sediments",
+    "url": "https://csdms.colorado.edu/wiki/Model:Diffusion",
+    "developmentStatus": "As is, no updates are provided"
+}

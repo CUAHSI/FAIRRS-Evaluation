@@ -1,0 +1,66 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "LOADEST",
+    "codeRepository": "http://water.usgs.gov/software/loadest/",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "http://water.usgs.gov/software/loadest/",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Rob",
+            "familyName": "Runkel",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "U.S. Geological Survey",
+                "address": "Lakewood, United States"
+            },
+            "email": "mailto:runkel@usgs.gov"
+        }
+    ],
+    "dateCreated": "2001-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "Coastal",
+        "software",
+        "rivers",
+        "fortran program",
+        "maximum likelihood estimation",
+        "estimating constituent loads",
+        "additional data variables",
+        "likelihood estimation",
+        "estimation",
+        "maximum likelihood",
+        "streams and rivers",
+        "regression model",
+        "loadest",
+        "program for estimating",
+        "data variables",
+        "estimating constituent",
+        "adjusted maximum likelihood",
+        "data",
+        "biogeochemistry",
+        "water quality",
+        "biogeochemistry",
+        "water quality"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "LOAD ESTimator (LOADEST) is a FORTRAN program for estimating constituent loads in streams and rivers. Given a time series of streamflow, additional data variables, and constituent concentration, LOADEST assists the user in developing a regression model for the estimation of constituent load (calibration). Explanatory variables within the regression model include various functions of streamflow, decimal time, and additional user-specified data variables. The formulated regression model then is used to estimate loads over a user-specified time interval (estimation). Mean load estimates, standard errors, and 95 percent confidence intervals are developed on a monthly and(or) seasonal basis.\n\nThe calibration and estimation procedures within LOADEST are based on three statistical estimation methods. The first two methods, Adjusted Maximum Likelihood Estimation (AMLE) and Maximum Likelihood Estimation (MLE), are appropriate when the calibration model errors (residuals) are normally distributed. Of the two, AMLE is the method of choice when the calibration data set (time series of streamflow, additional data variables, and concentration) contains censored data. The third method, Least Absolute Deviation (LAD), is an alternative to maximum likelihood estimation when the residuals are not normally distributed. LOADEST output includes diagnostic tests and warnings to assist the user in determining the appropriate estimation method and in interpreting the estimated loads.\n\nThe LOADEST software and related materials (data and documentation) are made available by the U.S. Geological Survey (USGS) to be used in the public interest and the advancement of science. You may, without any fee or cost, use, copy, modify, or distribute this software, and any derivative works thereof, and its supporting documentation, subject to the USGS software User's Rights Notice.",
+    "url": "https://csdms.colorado.edu/wiki/Model:LOADEST",
+    "developmentStatus": "Only maintenance"
+}

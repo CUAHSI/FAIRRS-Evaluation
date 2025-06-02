@@ -1,0 +1,99 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "WOFOST",
+    "codeRepository": "https://github.com/ajwdewit/WOFOST",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran90"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "Java"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": [
+        "https://github.com/ajwdewit/WOFOST",
+        "https://github.com/ajwdewit/pcse",
+        "https://www.swap.alterra.nl/"
+    ],
+    "memoryRequirements": "Depends on implementation: 20 Mb (Fortran) to 150 Mb (python)",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Hendrik",
+            "familyName": "Boogaard",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Wageningen Environmental Research, Wageningen UR",
+                "address": "Wageningen, Netherlands"
+            },
+            "email": "mailto:hendrik.boogaard@wur.nl"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Allard",
+            "familyName": "de Wit",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Wageningen Environmental Research, Wageningen UR",
+                "address": "Wageningen, Netherlands"
+            },
+            "email": "mailto:allard.dewit@wur.nl"
+        }
+    ],
+    "dateCreated": "1965-01-01",
+    "keywords": [
+        "Terrestrial",
+        "wofost",
+        "world",
+        "studies",
+        "crops",
+        "explains crop growth",
+        "underlying processes",
+        "mechanistic model",
+        "model that explains",
+        "influenced by environmental",
+        "environmental conditions",
+        "crop",
+        "processes are influenced",
+        "processes",
+        "yield gap atlas",
+        "global yield gap",
+        "european mars crop",
+        "explains crop",
+        "crop growth",
+        "crop production",
+        "biomass production",
+        "phenology",
+        "agromanagement",
+        "Crop production",
+        "Biomass production",
+        "phenology",
+        "agromanagement"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "It is a mechanistic model that explains crop growth on the basis of the underlying processes, such as photosynthesis, respiration and how these processes are influenced by environmental conditions. \n\nWith WOFOST, you can calculate attainable crop production, biomass, water use, etc. for a location given knowledge about soil type, crop type, weather data and crop management factors (e.g. sowing date). WOFOST has been used by many researchers over the World and has been applied for many crops over a large range of climatic and management conditions. WOFOST is one of the key components of the European MARS crop yield forecasting system. In the Global Yield Gap Atlas (GYGA) WOFOST is used to estimate the untapped crop production potential on existing farmland based on current climate and available soil and water resources.",
+    "url": "https://csdms.colorado.edu/wiki/Model:WOFOST",
+    "relatedLink": "https://doi.org/10.1016/j.agsy.2018.06.018",
+    "developmentStatus": "Active"
+}

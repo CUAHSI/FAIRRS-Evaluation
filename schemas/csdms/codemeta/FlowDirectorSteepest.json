@@ -1,0 +1,66 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "FlowDirectorSteepest",
+    "codeRepository": "https://github.com/landlab/landlab/tree/master/landlab",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "downloadUrl": "https://github.com/landlab/landlab/tree/master/landlab",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Katy",
+            "familyName": "Barnhart",
+            "affiliation": {
+                "@type": "Organization",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:katherine.barnhart@colorado.edu"
+        }
+    ],
+    "dateCreated": "2017-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "single-path",
+        "steepest",
+        "flow",
+        "diagonals",
+        "descent flow directions",
+        "single-path steepest descent",
+        "steepest descent flow",
+        "steepest single-path steepest",
+        "flow directions",
+        "components finds",
+        "descent flow",
+        "steepest single-path",
+        "single-path steepest",
+        "steepest descent",
+        "directions",
+        "finds the steepest",
+        "flow path",
+        "flow director",
+        "flowdirectorsteepest",
+        "flow path",
+        "flow director"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "This components finds the steepest single-path steepest descent flow directions. It is equivalent to D4 method in the special case of a raster grid in that it does not consider diagonal links between nodes. For that capability, use FlowDirectorD8.",
+    "url": "https://csdms.colorado.edu/wiki/Model:FlowDirectorSteepest",
+    "relatedLink": "https://github.com/landlab/landlab/issues",
+    "developmentStatus": "Only maintenance"
+}

@@ -1,0 +1,62 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "REF-DIF",
+    "codeRepository": "http://falk.ucsd.edu/modeling/",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "http://falk.ucsd.edu/modeling/",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Windows",
+        "There is a special version of REF/DIF (v2.5) for dos"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "James",
+            "familyName": "Kirby",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Delaware, Department of Civil EngineeringCenter for Applied Coastal Research",
+                "address": "Newark, United States"
+            },
+            "email": "mailto:kirby@udel.edu"
+        }
+    ],
+    "dateCreated": "1982-01-01",
+    "keywords": [
+        "Coastal",
+        "phase-resolving",
+        "propagation",
+        "phase-resolving parabolic refraction-diffraction",
+        "surface wave propagation",
+        "parabolic refraction-diffraction model",
+        "ocean surface wave",
+        "tony dalrymple starting",
+        "phase-resolving parabolic",
+        "parabolic refraction-diffraction",
+        "ocean surface",
+        "tony dalrymple",
+        "ref",
+        "dif",
+        "jim kirby",
+        "wave propagation",
+        "kirby",
+        "wave dynamics",
+        "ref-dif",
+        "wave dynamics"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "REF/DIF is a phase-resolving parabolic refraction-diffraction model for ocean surface wave propagation. It was originally developed by Jim Kirby and Tony Dalrymple starting in 1982, based on Kirby's dissertation work. This work led to the development of REF/DIF 1, a monochromatic wave model.",
+    "url": "https://csdms.colorado.edu/wiki/Model:REF-DIF"
+}

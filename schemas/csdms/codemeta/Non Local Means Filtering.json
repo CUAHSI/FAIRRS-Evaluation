@@ -1,0 +1,60 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Non_Local_Means_Filtering",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C++"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "memoryRequirements": "Dependent on DEM size",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "supportingData": [
+        {
+            "@type": "DataFeed",
+            "url": "https://csdms.colorado.edu/csdms_wiki/images/Db_dem.zip",
+            "name": "Test Data"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Martin",
+            "familyName": "Hurst",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "British Geological Survevy",
+                "address": "Nottingham, United Kingdom"
+            },
+            "email": "mailto:mhurst@bgs.ac.uk"
+        }
+    ],
+    "dateCreated": "2012-01-01",
+    "keywords": [
+        "Terrestrial",
+        "dem",
+        "buades",
+        "dem by finding",
+        "smoothes noise",
+        "neighbouring cells",
+        "central cell",
+        "smoothes",
+        "cells and assigning",
+        "topographic analysis",
+        "non local means filtering",
+        "topographic analysis"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "description": "Smoothes noise in a DEM by finding the mean value of neighbouring  cells and assigning it to the central cell. This approach deals well with non-gaussian distributed noise.",
+    "url": "https://csdms.colorado.edu/wiki/Model:Non_Local_Means_Filtering"
+}

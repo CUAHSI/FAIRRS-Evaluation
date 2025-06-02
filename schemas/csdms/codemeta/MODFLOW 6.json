@@ -1,0 +1,90 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "MODFLOW_6",
+    "codeRepository": "https://www.usgs.gov/software/modflow-6-usgs-modular-hydrologic-model",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran90"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "downloadUrl": "https://www.usgs.gov/software/modflow-6-usgs-modular-hydrologic-model",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Joseph",
+            "familyName": "Hughes",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "U.S. Geological Survey",
+                "address": "Reston, United States"
+            },
+            "email": "mailto:modflow@usgs.gov"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Christian",
+            "familyName": "Langevin",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "U.S. Geological Survey",
+                "address": "Mounds View, United States"
+            },
+            "email": "mailto:modflow@usgs.gov"
+        }
+    ],
+    "dateCreated": "1979-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "Coastal",
+        "modflow",
+        "simulation",
+        "multiple",
+        "models",
+        "object-oriented program",
+        "provide a platform",
+        "platform for supporting",
+        "version of modflow",
+        "previous core versions",
+        "supporting multiple models",
+        "sixth core version",
+        "supporting multiple",
+        "multiple types",
+        "modflow is labeled",
+        "core version",
+        "groundwater",
+        "transport",
+        "water quantity",
+        "water quality",
+        "lakes",
+        "shallow-water model",
+        "soil moisture",
+        "compaction",
+        "modflow 6",
+        "groundwater",
+        "transport",
+        "Water quantity",
+        "water quality",
+        "lakes",
+        "Shallow-water model",
+        "soil moisture",
+        "compaction"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "MODFLOW 6 is an object-oriented program and framework developed to provide a platform for supporting multiple models and multiple types of models within the same simulation. This version of MODFLOW is labeled with a \"6\" because it is the sixth core version of MODFLOW to be released by the USGS (previous core versions were released in 1984, 1988, 1996, 2000, and 2005). In the new design, any number of models can be included in a simulation. These models can be independent of one another with no interaction, they can exchange information with one another, or they can be tightly coupled at the matrix level by adding them to the same numerical solution. Transfer of information between models is isolated to exchange objects, which allow models to be developed and used independently of one another. Within this new framework, a regional-scale groundwater model may be coupled with multiple local-scale groundwater models. Or, a surface-water flow model could be coupled to multiple groundwater flow models. The framework naturally allows for future extensions to include the simulation of solute transport.",
+    "url": "https://csdms.colorado.edu/wiki/Model:MODFLOW_6",
+    "relatedLink": "https://github.com/MODFLOW-USGS/modflow6/discussions",
+    "developmentStatus": "Active"
+}

@@ -1,0 +1,64 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "CMFT",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran90"
+        }
+    ],
+    "applicationCategory": "Single",
+    "operatingSystem": [
+        "Unix",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Giulio",
+            "familyName": "Mariotti",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Boston University",
+                "address": "Boston, United States"
+            },
+            "email": "mailto:giuliom@bu.edu"
+        }
+    ],
+    "dateCreated": "2008-01-01",
+    "keywords": [
+        "Coastal",
+        "marsh",
+        "flat",
+        "transect",
+        "coupled",
+        "coupled long-term evolution",
+        "coupled long-term",
+        "salt marshes",
+        "tidal flats",
+        "includes tidal currents",
+        "dimensional model",
+        "long-term evolution",
+        "evolution of salt",
+        "framework includes tidal",
+        "model framework includes",
+        "model",
+        "tidal currents",
+        "marshes and tidal",
+        "includes tidal",
+        "flats",
+        "ecogemorphic",
+        "salt marsh - tidal flat evolution",
+        "cmft",
+        "ecogemorphic",
+        "salt Marsh - tidal Flat evolution"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "description": "One dimensional model for the coupled long-term evolution of salt marshes and tidal flats. The model framework includes tidal currents, wind waves, sediment erosion and deposition, as well as the effect of vegetation on sediment dynamics. The model is used to explore the evolution of the marsh boundary under different scenarios of sediment supply and sea level rise.  Time resolution 30 min, simulation length about 100 years.",
+    "url": "https://csdms.colorado.edu/wiki/Model:CMFT",
+    "developmentStatus": "As is, no updates are provided"
+}

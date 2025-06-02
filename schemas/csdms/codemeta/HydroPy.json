@@ -1,0 +1,44 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "HydroPy",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Tobias",
+            "familyName": "Stacke",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Max Planck Institute for Meteorology",
+                "address": "Hamburg, Germany"
+            },
+            "email": "mailto:tobias.stacke@mpimet.mpg.de"
+        }
+    ],
+    "keywords": [
+        "Hydrology",
+        "Global hydrological model",
+        "land surface water balance",
+        "Python"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "HydroPy model is a revised version of an established global hydrological model (GHM), the Max Planck Institute for Meteorology's Hydrology Model (MPI-HM). Being rewritten in Python, the HydroPy model requires much less effort in maintenance and new processes can be easily implemented.",
+    "url": "https://csdms.colorado.edu/wiki/Model:HydroPy",
+    "developmentStatus": "As is, no updates are provided"
+}

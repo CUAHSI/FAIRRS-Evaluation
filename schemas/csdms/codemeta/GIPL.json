@@ -1,0 +1,71 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "GIPL",
+    "codeRepository": "https://github.com/Elchin/GIPL",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran90"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/Elchin/GIPL",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Windows"
+    ],
+    "softwareVersion": "0.1",
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Elchin",
+            "familyName": "Jafarov",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Colorado",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:Elchin.Jafarov@colorado.edu"
+        }
+    ],
+    "dateCreated": "2000-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Cryosphere",
+        "gipl",
+        "geophysical",
+        "laboratory",
+        "institute",
+        "geophysical institute permafrost",
+        "institute permafrost laboratory",
+        "geophysical institute",
+        "one-dimensional heat flow",
+        "difference one-dimensional heat",
+        "permafrost laboratory",
+        "heat flow numerical",
+        "institute permafrost",
+        "gipl model",
+        "implicit finite difference",
+        "finite difference one-dimensional",
+        "flow numerical model",
+        "one-dimensional heat",
+        "heat flow",
+        "permafrost",
+        "heat flow",
+        "permafrost"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "identifier": "10.1594/IEDA/100131",
+    "description": "GIPL(Geophysical Institute Permafrost Laboratory) is an implicit finite difference one-dimensional heat flow numerical model. The GIPL model uses the effect of snow layer and subsurface soil thermal properties to simulate ground temperatures and active layer thickness (ALT) by solving the 1D heat diffusion equation with phase change. The phase change associated with freezing and thawing process occurs within a range of temperatures below 0 degree centigrade, and is represented by the unfrozen water curve (Romanovsky and Osterkamp 2000). The model employs finite difference numerical scheme over a specified domain. The soil column is divided into several layers, each with distinct thermo-physical properties. The GIPL model has been successfully used to map permafrost dynamics in Alaska and validated using ground temperature measurements in shallow boreholes across Alaska (Nicolsky et al. 2009, Jafarov et al. 2012, Jafarov et al. 2013, Jafarov et al. 2014).",
+    "url": "https://csdms.colorado.edu/wiki/Model:GIPL",
+    "developmentStatus": "As is, no updates are provided"
+}

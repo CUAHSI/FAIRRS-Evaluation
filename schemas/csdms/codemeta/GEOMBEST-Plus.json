@@ -1,0 +1,134 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "GEOMBEST-Plus",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Single",
+    "memoryRequirements": "350 KB",
+    "operatingSystem": [
+        "Windows"
+    ],
+    "softwareVersion": "1.0",
+    "supportingData": [
+        {
+            "@type": "DataFeed",
+            "url": "https://csdms.colorado.edu/csdms_wiki/images/Accretionresponse.xlsx",
+            "name": "Test Data"
+        },
+        {
+            "@type": "DataFeed",
+            "url": "https://csdms.colorado.edu/csdms_wiki/images/Erosionresponse.xlsx",
+            "name": "Test Data"
+        },
+        {
+            "@type": "DataFeed",
+            "url": "https://csdms.colorado.edu/csdms_wiki/images/Tract1.xlsx",
+            "name": "Test Data"
+        },
+        {
+            "@type": "DataFeed",
+            "url": "https://csdms.colorado.edu/csdms_wiki/images/Run1.xlsx",
+            "name": "Test Data"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "David",
+            "familyName": "Walters",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Virginia Institute of Marine Science",
+                "address": "Gloucester Point, United States"
+            },
+            "email": "mailto:dcwalters@vims.edu"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Laura",
+            "familyName": "Moore",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of North Carolina - Chapel Hill",
+                "address": "Chapel Hill, United States"
+            },
+            "email": "mailto:laura.moore@unc.edu"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Orencio",
+            "familyName": "Duran",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "MARUM Center for Marine Environmental Sciences",
+                "address": "Bremen, Germany"
+            },
+            "email": "mailto:orencioduran@me.com"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Sergio",
+            "familyName": "Fagherazzi",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Boston University",
+                "address": "Boston, Germany"
+            },
+            "email": "mailto:sergio@bu.edu"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Giulio",
+            "familyName": "Mariotti",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Louisiana State University",
+                "address": "Baton Rouge, Germany"
+            },
+            "email": "mailto:gmariotti@lsu.edu"
+        }
+    ],
+    "dateCreated": "2013-01-01",
+    "keywords": [
+        "Coastal",
+        "cross-shore",
+        "rise",
+        "geomorphic model",
+        "sea level",
+        "coastal morphology",
+        "shoreface translations",
+        "geombest-plus differs",
+        "barrier and estuary",
+        "morphological-behaviour model",
+        "dean and maumeyer",
+        "large-scale behaviour models",
+        "barrier",
+        "shoreface",
+        "sediment volume",
+        "estuarine",
+        "geombest-plus",
+        "geomorphic",
+        "overwash",
+        "sea level rise",
+        "barrier island",
+        "marsh",
+        "overwash",
+        "sea level rise",
+        "barrier island",
+        "marsh"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "identifier": "10.5281/zenodo.16687",
+    "description": "\u201cGEOMBEST-Plus\u201d (Geomorphic Model of Barrier, Estuarine, and Shoreface Translations) is a new morphological-behaviour model that simulates the evolution of coastal morphology and stratigraphy, resulting from changes in sea level, and sediment volume within the shoreface, barrier and estuary. GEOMBEST-Plus differs from other large-scale behaviour models (e.g. Bruun, 1962; Dean and Maumeyer, 1983; Cowell et al., 1995; Niedoroda et al., 1995, Stive & de Vriend, 1995 and Storms et al., 2002) by relaxing the assumption that the initial substrate (i.e stratigraphy) is comprised of an unlimited supply of unconsolidated material (typically sand). The substrate is instead defined by distinct stratigraphic units characterized by their erodibility and sediment composition. Additionally, GEOMBEST-Plus differs from its predecessor (GEOMBEST) by adding in a dynamic stratigraphic unit for a backbarrier marsh. Accordingly, the effects of geological framework on morphological evolution and shoreline translation can be simulated.",
+    "url": "https://csdms.colorado.edu/wiki/Model:GEOMBEST-Plus",
+    "buildInstructions": "https://csdms.colorado.edu/csdms_wiki/images/Geombest+_Users_Guide.doc",
+    "developmentStatus": "Active"
+}

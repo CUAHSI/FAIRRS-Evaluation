@@ -1,0 +1,66 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "OrderID",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "memoryRequirements": "Depends on dataset being analysed, but should be small, perhaps a few megabytes",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Peter",
+            "familyName": "Burgess",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Department of Earth Sciences, Royal Holloway University of London",
+                "address": "Egham, United Kingdom"
+            },
+            "email": "mailto:p.burgess@es.rhul.ac.uk"
+        }
+    ],
+    "dateCreated": "2010-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Coastal",
+        "Marine",
+        "strata",
+        "method",
+        "test",
+        "order",
+        "thickness and facies",
+        "facies data",
+        "vertical succession",
+        "presence of order",
+        "succession of strata",
+        "strata and tests",
+        "orderid",
+        "thickness",
+        "facies",
+        "data",
+        "vertical",
+        "succession",
+        "tests",
+        "sequence stratigraphy",
+        "strata",
+        "order",
+        "sequence stratigraphy"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "MPL"
+    },
+    "description": "OrderID is a method that takes thickness and facies data from a vertical succession of strata and tests for the presence of order in the strata",
+    "url": "https://csdms.colorado.edu/wiki/Model:OrderID",
+    "developmentStatus": "Active"
+}

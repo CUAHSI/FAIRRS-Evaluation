@@ -1,0 +1,892 @@
+{
+  "subject": "BarrierBMFT#3002##",
+  "data": [
+    {
+      "property": "Additional_comments_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Documentation available at: https://github.com/UNC-CECL/BarrierBMFT"
+        }
+      ]
+    },
+    {
+      "property": "Citations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "0"
+        }
+      ]
+    },
+    {
+      "property": "City",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Woods Hole"
+        }
+      ]
+    },
+    {
+      "property": "CodeReviewed",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "Country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "United States"
+        }
+      ]
+    },
+    {
+      "property": "DataComponent",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No"
+        }
+      ]
+    },
+    {
+      "property": "Describe_input_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "The use of this coupled model framework requires Barrier3D v2.0 (https://doi.org/10.5281/zenodo.7604068)\n and PyBMFT-C v1.0 (https://doi.org/10.5281/zenodo.7853803).\n\n\n1) barrier3d-parameters.yaml: yaml-formatted text file containing initial values for all static and dynamic variables\n\n2) barrier3d-elevation.npy: Initial interior elevation grid\n\n3) barrier3d-storms.npy: Stochastically generated sequence of storms\n\n4) barrier3d-dunes.npy: Initial height of dune cells\n\n5) barrier3d-growthparam.npy: Alongshore varying growth rates for the dune domain\n\n6) Equilibrium Bay Depth.mat: Array of bay depths for a given combination of rate of sea level rise and external sediment supply\n\n7) MarshStrat.mat: Initial marsh stratigraphy"
+        }
+      ]
+    },
+    {
+      "property": "Describe_length_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Cross-shore transect length can extend 10's of km from the ocean barrier shoreface into the mainland. Grid resolution on the barrier is 10 m, and 1 m spacing from the back-barrier marsh to the mainland."
+        }
+      ]
+    },
+    {
+      "property": "Describe_output_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Extent, and elevation, and cross-shore boundary locations of barrier, marsh (back-barrier and mainland), bay, and forest ecosystems; organic and mineral deposition; shoreline locations; dune elevations; overwash & shoreface fluxes"
+        }
+      ]
+    },
+    {
+      "property": "Describe_processes",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Explores ecogeomorphic couplings between adjacent and non-adjacent components of the entire coastal barrier system, from the ocean shoreface to the mainland forest. Processes include: Dune growth and storm erosion; storm overwash; shoreline change (ocean and back-barrier); dynamic shoreface response to sea-level rise, overwash, and dune growth; horizontal and vertical marsh dynamics; bay depth changes with wind waves; marsh migration into coastal forests; sediment exchange between barrier-marsh-bay-forest ecosystems; and carbon processes associated with ecogeomorphic changes."
+        }
+      ]
+    },
+    {
+      "property": "Describe_time_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Time step: one year, with multiple storms occurring within each year\nDuration: years to centuries"
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCode",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "As is, no updates are provided"
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCodeYearChecked",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2022"
+        }
+      ]
+    },
+    {
+      "property": "Development_still_active",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:ian.reeves@whoi.edu"
+        }
+      ]
+    },
+    {
+      "property": "Extended_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "BarrierBMFT is a coupled model framework for exploring morphodynamic interactions across components of the entire coastal barrier system, from the ocean shoreface to the mainland forest. The model framework couples Barrier3D (Reeves et al., 2021), a spatially explicit model of barrier evolution, with the Python version of the Coastal Landscape Transect model (CoLT; Valentine et al., 2023), known as PyBMFT-C (Bay-Marsh-Forest Transect Model with Carbon). In the BarrierBMFT coupled model framework, two PyBMFT-C simulations drive evolution of back-barrier marsh, bay, mainland marsh, and forest ecosystems, and a Barrier3D simulation drives evolution of barrier and back-barrier marsh ecosystems. As these model components simultaneously advance, they dynamically evolve together by sharing information annually to capture the effects of key cross-landscape couplings. BarrierBMFT contains no new governing equations or parameterizations itself, but rather is a framework for trading information between Barrier3D and PyBMFT-C.\n\nThe use of this coupled model framework requires Barrier3D v2.0 (https://doi.org/10.5281/zenodo.7604068)\n and PyBMFT-C v1.0 (https://doi.org/10.5281/zenodo.7853803)."
+        }
+      ]
+    },
+    {
+      "property": "First_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Ian"
+        }
+      ]
+    },
+    {
+      "property": "Last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Reeves"
+        }
+      ]
+    },
+    {
+      "property": "M-quotient",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "0"
+        }
+      ]
+    },
+    {
+      "property": "Manual_model_available",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No"
+        }
+      ]
+    },
+    {
+      "property": "ModelDomain",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Coastal"
+        },
+        {
+          "type": 2,
+          "item": "Ecosystems"
+        }
+      ]
+    },
+    {
+      "property": "Model_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "As code"
+        }
+      ]
+    },
+    {
+      "property": "Model_keywords",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "marsh"
+        },
+        {
+          "type": 2,
+          "item": "ecogemorphology"
+        },
+        {
+          "type": 2,
+          "item": "barrier"
+        },
+        {
+          "type": 2,
+          "item": "coastal"
+        }
+      ]
+    },
+    {
+      "property": "Model_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single"
+        }
+      ]
+    },
+    {
+      "property": "Model_website",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://github.com/UNC-CECL/BarrierBMFT"
+        }
+      ]
+    },
+    {
+      "property": "Modelautophrases",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "transect"
+        },
+        {
+          "type": 2,
+          "item": "framework"
+        },
+        {
+          "type": 2,
+          "item": "coupled"
+        },
+        {
+          "type": 2,
+          "item": "model"
+        },
+        {
+          "type": 2,
+          "item": "coastal landscape transect"
+        },
+        {
+          "type": 2,
+          "item": "exploring morphodynamic interactions"
+        },
+        {
+          "type": 2,
+          "item": "coastal barrier system"
+        },
+        {
+          "type": 2,
+          "item": "landscape transect model"
+        },
+        {
+          "type": 2,
+          "item": "entire coastal barrier"
+        },
+        {
+          "type": 2,
+          "item": "coupled model framework"
+        },
+        {
+          "type": 2,
+          "item": "model framework"
+        },
+        {
+          "type": 2,
+          "item": "transect model"
+        },
+        {
+          "type": 2,
+          "item": "landscape transect"
+        },
+        {
+          "type": 2,
+          "item": "entire coastal"
+        },
+        {
+          "type": 2,
+          "item": "coastal landscape"
+        },
+        {
+          "type": 2,
+          "item": "coupled model"
+        },
+        {
+          "type": 2,
+          "item": "exploring morphodynamic"
+        },
+        {
+          "type": 2,
+          "item": "morphodynamic interactions"
+        },
+        {
+          "type": 2,
+          "item": "marsh"
+        },
+        {
+          "type": 2,
+          "item": "ecogemorphology"
+        },
+        {
+          "type": 2,
+          "item": "barrier"
+        },
+        {
+          "type": 2,
+          "item": "coastal"
+        },
+        {
+          "type": 2,
+          "item": "barrierbmft"
+        }
+      ]
+    },
+    {
+      "property": "Nr-of-pubs",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "--"
+        }
+      ]
+    },
+    {
+      "property": "One-line_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Barrier-Bay-Marsh-Forest Transect Coupled Model Framework"
+        }
+      ]
+    },
+    {
+      "property": "Post_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "02543"
+        }
+      ]
+    },
+    {
+      "property": "Pre_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "GPL v3"
+        }
+      ]
+    },
+    {
+      "property": "Programming_language",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Python"
+        }
+      ]
+    },
+    {
+      "property": "Source_code_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Through web repository"
+        }
+      ]
+    },
+    {
+      "property": "Source_web_address",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://github.com/UNC-CECL/BarrierBMFT"
+        }
+      ]
+    },
+    {
+      "property": "Spatial_dimensions",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1D"
+        }
+      ]
+    },
+    {
+      "property": "Spatialscale",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Landscape-Scale"
+        }
+      ]
+    },
+    {
+      "property": "Start_year_development",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2021"
+        }
+      ]
+    },
+    {
+      "property": "State",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Massachusetts"
+        }
+      ]
+    },
+    {
+      "property": "Supported_platforms",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Mac OS"
+        },
+        {
+          "type": 2,
+          "item": "Windows"
+        }
+      ]
+    },
+    {
+      "property": "Type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Model developer"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_needed",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "_ASK",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "BarrierBMFT#3002##_QUERY2483d6447119f231f48a9325b4d049c5"
+        },
+        {
+          "type": 9,
+          "item": "BarrierBMFT#3002##_QUERY0396a279f63c9ea5afacf0d0a1d99838"
+        },
+        {
+          "type": 9,
+          "item": "BarrierBMFT#3002##_QUERYe5e8692b42c14e71b7d637017cf87d6b"
+        }
+      ]
+    },
+    {
+      "property": "_CDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2023/4/21/21/39/41/0"
+        }
+      ]
+    },
+    {
+      "property": "_ERRC",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "BarrierBMFT#3002##_ERRe276a1ffb0e020a1257eff82199d1d33"
+        },
+        {
+          "type": 9,
+          "item": "BarrierBMFT#3002##_ERRf1d465c2abf4947336e4674ceaa22c37"
+        },
+        {
+          "type": 9,
+          "item": "BarrierBMFT#3002##_ERR604147abdb14669b9c8f3104544da08b"
+        },
+        {
+          "type": 9,
+          "item": "BarrierBMFT#3002##_ERRde9fdd962ce63dcda24f603326a2771d"
+        },
+        {
+          "type": 9,
+          "item": "BarrierBMFT#3002##_ERR832e19663f926fa58b1c2c38ccac6efd"
+        }
+      ]
+    },
+    {
+      "property": "_INST",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Models#14##"
+        }
+      ]
+    },
+    {
+      "property": "_LEDT",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "ReevesI#2##"
+        }
+      ]
+    },
+    {
+      "property": "_MDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2023/4/21/21/39/41/0"
+        }
+      ]
+    },
+    {
+      "property": "_SKEY",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "BarrierBMFT"
+        }
+      ]
+    }
+  ],
+  "sobj": [
+    {
+      "subject": "BarrierBMFT#3002##_QUERY2483d6447119f231f48a9325b4d049c5",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "0"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[:Model:BarrierBMFT]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "BarrierBMFT# QUERY2483d6447119f231f48a9325b4d049c5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "BarrierBMFT#3002##_QUERY0396a279f63c9ea5afacf0d0a1d99838",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[User:+]] [[First name member::Ian]] [[Last name member::Reeves]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "BarrierBMFT# QUERY0396a279f63c9ea5afacf0d0a1d99838"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "BarrierBMFT#3002##_QUERYe5e8692b42c14e71b7d637017cf87d6b",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "ul"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[Model:+]] [[First name::Ian]] [[Last name::Reeves]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "BarrierBMFT# QUERYe5e8692b42c14e71b7d637017cf87d6b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "BarrierBMFT#3002##_ERRe276a1ffb0e020a1257eff82199d1d33",
+      "data": [
+        {
+          "property": "_ERRP",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "Code_openmi_compliant_or_not#102##"
+            }
+          ]
+        },
+        {
+          "property": "_ERRT",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[8,\"smw-constraint-error-allows-value-list\",\"Not yet\",\"Yes, No but planned, No but possible, No not possible\",\"Code openmi compliant or not\"]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "BarrierBMFT# ERRe276a1ffb0e020a1257eff82199d1d33"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "BarrierBMFT#3002##_ERRf1d465c2abf4947336e4674ceaa22c37",
+      "data": [
+        {
+          "property": "_ERRP",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "Code_IRF_or_not#102##"
+            }
+          ]
+        },
+        {
+          "property": "_ERRT",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[8,\"smw-constraint-error-allows-value-list\",\"Not yet\",\"Yes, No but planned, No but possible, No not possible\",\"Code IRF or not\"]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "BarrierBMFT# ERRf1d465c2abf4947336e4674ceaa22c37"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "BarrierBMFT#3002##_ERR604147abdb14669b9c8f3104544da08b",
+      "data": [
+        {
+          "property": "_ERRP",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "Code_CMT_compliant_or_not#102##"
+            }
+          ]
+        },
+        {
+          "property": "_ERRT",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[8,\"smw-constraint-error-allows-value-list\",\"Not yet\",\"Yes, In progress, No but possible, No not possible\",\"Code CMT compliant or not\"]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "BarrierBMFT# ERR604147abdb14669b9c8f3104544da08b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "BarrierBMFT#3002##_ERRde9fdd962ce63dcda24f603326a2771d",
+      "data": [
+        {
+          "property": "_ERRP",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "Code_PyMT_compliant_or_not#102##"
+            }
+          ]
+        },
+        {
+          "property": "_ERRT",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[8,\"smw-constraint-error-allows-value-list\",\"Not yet\",\"Yes, In progress, No but possible, No not possible\",\"Code PyMT compliant or not\"]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "BarrierBMFT# ERRde9fdd962ce63dcda24f603326a2771d"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "BarrierBMFT#3002##_ERR832e19663f926fa58b1c2c38ccac6efd",
+      "data": [
+        {
+          "property": "_ERRP",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "H-index#102##"
+            }
+          ]
+        },
+        {
+          "property": "_ERRT",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[2,\"smw_nofloat\",\"--\"]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "BarrierBMFT# ERR832e19663f926fa58b1c2c38ccac6efd"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+  "version": 2
+}

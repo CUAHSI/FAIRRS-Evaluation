@@ -1,0 +1,910 @@
+{
+  "subject": "Landslides#3002##",
+  "data": [
+    {
+      "property": "Citations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "0"
+        }
+      ]
+    },
+    {
+      "property": "City",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Seattle"
+        }
+      ]
+    },
+    {
+      "property": "CodeReviewed",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "Code_optimized",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single Processor"
+        }
+      ]
+    },
+    {
+      "property": "Country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "United States"
+        }
+      ]
+    },
+    {
+      "property": "Describe_output_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "\"landslide__probability_of_failure\": \n{\n\"dtype\": float,\n\"intent\": \"out\",\n\"optional\": False,\n\"units\": \"None\",\n\"mapping\": \"node\",\n\"doc\": \"number of times FS is <=1 out of number of iterations user selected\",\n}\n\n\"soil__density\": \n{\n\"dtype\": float,\n\"intent\": \"in\",\n\"optional\": False,\n\"units\": \"kg/m3\",\n\"mapping\": \"node\",\n\"doc\": \"wet bulk density of soil\",\n}\n\n\"soil__internal_friction_angle\": \n{\n\"dtype\": float,\n\"intent\": \"in\",\n\"optional\": False,\n\"units\": \"degrees\",\n\"mapping\": \"node\",\n\"doc\": \"critical angle just before failure due to friction between particles\",\n}\n\n\"soil__maximum_total_cohesion\": \n{\n\"dtype\": float,\n\"intent\": \"in\",\n\"optional\": False,\n\"units\": \"Pa or kg/m-s2\",\n\"mapping\": \"node\",\n\"doc\": \"maximum of combined root and soil cohesion at node\",\n}\n\n\"soil__mean_relative_wetness\": \n{\n\"dtype\": float,\n\"intent\": \"out\",\n\"optional\": False,\n\"units\": \"None\",\n\"mapping\": \"node\",\n\"doc\": \"Indicator of soil wetness; relative depth perched water table within the soil layer\",\n}\n\n\"soil__minimum_total_cohesion\": \n{\n\"dtype\": float,\n\"intent\": \"in\",\n\"optional\": False,\n\"units\": \"Pa or kg/m-s2\",\n\"mapping\": \"node\",\n\"doc\": \"minimum of combined root and soil cohesion at node\",\n}\n\n\"soil__mode_total_cohesion\": \n{\n\"dtype\": float,\n\"intent\": \"in\",\n\"optional\": False,\n\"units\": \"Pa or kg/m-s2\",\n\"mapping\": \"node\",\n\"doc\": \"mode of combined root and soil cohesion at node\",\n}\n\n\"soil__probability_of_saturation\": \n{\n\"dtype\": float,\n\"intent\": \"out\",\n\"optional\": False,\n\"units\": \"None\",\n\"mapping\": \"node\",\n\"doc\": \"number of times relative wetness is >=1 out of number of iterations user selected\",\n}\n\n\"soil__saturated_hydraulic_conductivity\": \n{\n\"dtype\": float,\n\"intent\": \"in\",\n\"optional\": False,\n\"units\": \"m/day\",\n\"mapping\": \"node\",\n\"doc\": \"mode rate of water transmitted through soil - provided if transmissivity is NOT provided to calculate tranmissivity  with soil depth\",\n}\n\n\"soil__thickness\": \n{\n\"dtype\": float,\n\"intent\": \"in\",\n\"optional\": False,\n\"units\": \"m\",\n\"mapping\": \"node\",\n\"doc\": \"soil depth to restrictive layer\",\n}\n\n\"soil__transmissivity\": \n{\n\"dtype\": float,\n\"intent\": \"in\",\n\"optional\": False,\n\"units\": \"m2/day\",\n\"mapping\": \"node\",\n\"doc\": \"mode rate of water transmitted through a unit width of saturated soil - either provided or calculated with Ksat and soil depth\",\n}\n\n\"topographic__slope\": \n{\n\"dtype\": float,\n\"intent\": \"in\",\n\"optional\": False,\n\"units\": \"tan theta\",\n\"mapping\": \"node\",\n\"doc\": \"gradient of the ground surface\",\n}\n\n\"topographic__specific_contributing_area\": \n{\n\"dtype\": float,\n\"intent\": \"in\",\n\"optional\": False,\n\"units\": \"m\",\n\"mapping\": \"node\",\n\"doc\": \"specific contributing (upslope area/cell face ) that drains to node\",\n}"
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCode",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Only maintenance"
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCodeYearChecked",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2020"
+        }
+      ]
+    },
+    {
+      "property": "Development_still_active",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No"
+        }
+      ]
+    },
+    {
+      "property": "End_year_development",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "2020"
+        }
+      ]
+    },
+    {
+      "property": "Extended_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Relative wetness and factor-of-safety are based on the infinite slope stability model driven by topographic and soils inputs and recharge provided by user as inputs to the component. For each node, component simulates mean relative wetness as well as the probability of saturation based on Monte Carlo simulation of relative wetness where the probability is the number of iterations with relative wetness >= 1.0 divided by the number of iterations. Probability of failure for each node is also simulated in the Monte Carlo simulation as the number of iterations with factor-of-safety <= 1.0 divided by the number of iterations."
+        }
+      ]
+    },
+    {
+      "property": "First_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Ronda"
+        }
+      ]
+    },
+    {
+      "property": "Input_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        }
+      ]
+    },
+    {
+      "property": "Last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Strauch"
+        }
+      ]
+    },
+    {
+      "property": "M-quotient",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "0"
+        }
+      ]
+    },
+    {
+      "property": "Manual_model_available",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No"
+        }
+      ]
+    },
+    {
+      "property": "ModelDomain",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Terrestrial"
+        },
+        {
+          "type": 2,
+          "item": "Human dimensions"
+        }
+      ]
+    },
+    {
+      "property": "ModelFramework",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "LandLab"
+        }
+      ]
+    },
+    {
+      "property": "Model_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "As code"
+        }
+      ]
+    },
+    {
+      "property": "Model_forum",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://github.com/landlab/landlab/issues"
+        }
+      ]
+    },
+    {
+      "property": "Model_keywords",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "landslides"
+        },
+        {
+          "type": 2,
+          "item": "hazards"
+        }
+      ]
+    },
+    {
+      "property": "Model_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single"
+        }
+      ]
+    },
+    {
+      "property": "Model_website",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://landlab.github.io"
+        }
+      ]
+    },
+    {
+      "property": "Modelautophrases",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "probability"
+        },
+        {
+          "type": 2,
+          "item": "landlab"
+        },
+        {
+          "type": 2,
+          "item": "saturation"
+        },
+        {
+          "type": 2,
+          "item": "component"
+        },
+        {
+          "type": 2,
+          "item": "infinite slope stability"
+        },
+        {
+          "type": 2,
+          "item": "slope stability model"
+        },
+        {
+          "type": 2,
+          "item": "stability model driven"
+        },
+        {
+          "type": 2,
+          "item": "monte carlo simulation"
+        },
+        {
+          "type": 2,
+          "item": "relative wetness"
+        },
+        {
+          "type": 2,
+          "item": "number of iterations"
+        },
+        {
+          "type": 2,
+          "item": "monte carlo"
+        },
+        {
+          "type": 2,
+          "item": "soils inputs"
+        },
+        {
+          "type": 2,
+          "item": "infinite slope"
+        },
+        {
+          "type": 2,
+          "item": "slope stability"
+        },
+        {
+          "type": 2,
+          "item": "stability model"
+        },
+        {
+          "type": 2,
+          "item": "model driven"
+        },
+        {
+          "type": 2,
+          "item": "driven by topographic"
+        },
+        {
+          "type": 2,
+          "item": "topographic and soils"
+        },
+        {
+          "type": 2,
+          "item": "recharge provided"
+        },
+        {
+          "type": 2,
+          "item": "landslides"
+        },
+        {
+          "type": 2,
+          "item": "hazards"
+        }
+      ]
+    },
+    {
+      "property": "Nr-of-pubs",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "--"
+        }
+      ]
+    },
+    {
+      "property": "One-line_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Landlab component that simulates landslide probability of failure as well as mean relative wetness and probability of saturation."
+        }
+      ]
+    },
+    {
+      "property": "Output_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        }
+      ]
+    },
+    {
+      "property": "Post_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "98195"
+        }
+      ]
+    },
+    {
+      "property": "Pre_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "BSD or MIT X11"
+        }
+      ]
+    },
+    {
+      "property": "Programming_language",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Python"
+        }
+      ]
+    },
+    {
+      "property": "Source_code_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Through web repository"
+        }
+      ]
+    },
+    {
+      "property": "Source_web_address",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://github.com/landlab/landlab/tree/master/landlab"
+        }
+      ]
+    },
+    {
+      "property": "Spatial_dimensions",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2D"
+        }
+      ]
+    },
+    {
+      "property": "Spatialscale",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Regional-Scale"
+        },
+        {
+          "type": 2,
+          "item": "Landscape-Scale"
+        },
+        {
+          "type": 2,
+          "item": "Watershed-Scale"
+        }
+      ]
+    },
+    {
+      "property": "Start_year_development",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2017"
+        }
+      ]
+    },
+    {
+      "property": "Supported_platforms",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Unix"
+        },
+        {
+          "type": 2,
+          "item": "Linux"
+        },
+        {
+          "type": 2,
+          "item": "Mac OS"
+        },
+        {
+          "type": 2,
+          "item": "Windows"
+        }
+      ]
+    },
+    {
+      "property": "Type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Model developer"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_needed",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "_ASK",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Landslides#3002##_QUERY8e1e67bca4ec7e234cf3e45fb654a996"
+        },
+        {
+          "type": 9,
+          "item": "Landslides#3002##_QUERY29128033fa29ed8f759ec1400ac26417"
+        },
+        {
+          "type": 9,
+          "item": "Landslides#3002##_QUERY9e05c72873b892f8adf502ebc6d0894e"
+        }
+      ]
+    },
+    {
+      "property": "_CDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2020/5/19/21/56/30/0"
+        }
+      ]
+    },
+    {
+      "property": "_ERRC",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Landslides#3002##_ERRf56a4ff71aeaebc0025db40c21a86f4a"
+        },
+        {
+          "type": 9,
+          "item": "Landslides#3002##_ERRe276a1ffb0e020a1257eff82199d1d33"
+        },
+        {
+          "type": 9,
+          "item": "Landslides#3002##_ERRf1d465c2abf4947336e4674ceaa22c37"
+        },
+        {
+          "type": 9,
+          "item": "Landslides#3002##_ERR604147abdb14669b9c8f3104544da08b"
+        },
+        {
+          "type": 9,
+          "item": "Landslides#3002##_ERRde9fdd962ce63dcda24f603326a2771d"
+        },
+        {
+          "type": 9,
+          "item": "Landslides#3002##_ERR832e19663f926fa58b1c2c38ccac6efd"
+        }
+      ]
+    },
+    {
+      "property": "_INST",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Models#14##"
+        }
+      ]
+    },
+    {
+      "property": "_LEDT",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "WikiSysop#2##"
+        }
+      ]
+    },
+    {
+      "property": "_MDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2020/9/17/2/17/43/0"
+        }
+      ]
+    },
+    {
+      "property": "_SKEY",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Landslides"
+        }
+      ]
+    }
+  ],
+  "sobj": [
+    {
+      "subject": "Landslides#3002##_QUERY8e1e67bca4ec7e234cf3e45fb654a996",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "0"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[:Model:Landslides]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "Landslides# QUERY8e1e67bca4ec7e234cf3e45fb654a996"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Landslides#3002##_QUERY29128033fa29ed8f759ec1400ac26417",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[User:+]] [[First name member::Ronda]] [[Last name member::Strauch]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "Landslides# QUERY29128033fa29ed8f759ec1400ac26417"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Landslides#3002##_QUERY9e05c72873b892f8adf502ebc6d0894e",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "ul"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[Model:+]] [[First name::Ronda]] [[Last name::Strauch]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "Landslides# QUERY9e05c72873b892f8adf502ebc6d0894e"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Landslides#3002##_ERRf56a4ff71aeaebc0025db40c21a86f4a",
+      "data": [
+        {
+          "property": "_ERRP",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "Email_address#102##"
+            }
+          ]
+        },
+        {
+          "property": "_ERRT",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[2,\"smw_baduri\",\"https:\\/\\/github.com\\/RondaStrauch\"]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "Landslides# ERRf56a4ff71aeaebc0025db40c21a86f4a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Landslides#3002##_ERRe276a1ffb0e020a1257eff82199d1d33",
+      "data": [
+        {
+          "property": "_ERRP",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "Code_openmi_compliant_or_not#102##"
+            }
+          ]
+        },
+        {
+          "property": "_ERRT",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[8,\"smw-constraint-error-allows-value-list\",\"Not yet\",\"Yes, No but planned, No but possible, No not possible\",\"Code openmi compliant or not\"]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "Landslides# ERRe276a1ffb0e020a1257eff82199d1d33"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Landslides#3002##_ERRf1d465c2abf4947336e4674ceaa22c37",
+      "data": [
+        {
+          "property": "_ERRP",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "Code_IRF_or_not#102##"
+            }
+          ]
+        },
+        {
+          "property": "_ERRT",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[8,\"smw-constraint-error-allows-value-list\",\"Not yet\",\"Yes, No but planned, No but possible, No not possible\",\"Code IRF or not\"]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "Landslides# ERRf1d465c2abf4947336e4674ceaa22c37"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Landslides#3002##_ERR604147abdb14669b9c8f3104544da08b",
+      "data": [
+        {
+          "property": "_ERRP",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "Code_CMT_compliant_or_not#102##"
+            }
+          ]
+        },
+        {
+          "property": "_ERRT",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[8,\"smw-constraint-error-allows-value-list\",\"Not yet\",\"Yes, In progress, No but possible, No not possible\",\"Code CMT compliant or not\"]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "Landslides# ERR604147abdb14669b9c8f3104544da08b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Landslides#3002##_ERRde9fdd962ce63dcda24f603326a2771d",
+      "data": [
+        {
+          "property": "_ERRP",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "Code_PyMT_compliant_or_not#102##"
+            }
+          ]
+        },
+        {
+          "property": "_ERRT",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[8,\"smw-constraint-error-allows-value-list\",\"Not yet\",\"Yes, In progress, No but possible, No not possible\",\"Code PyMT compliant or not\"]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "Landslides# ERRde9fdd962ce63dcda24f603326a2771d"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Landslides#3002##_ERR832e19663f926fa58b1c2c38ccac6efd",
+      "data": [
+        {
+          "property": "_ERRP",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "H-index#102##"
+            }
+          ]
+        },
+        {
+          "property": "_ERRT",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[2,\"smw_nofloat\",\"--\"]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "Landslides# ERR832e19663f926fa58b1c2c38ccac6efd"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+  "version": 2
+}

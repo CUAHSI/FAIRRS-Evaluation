@@ -1,0 +1,61 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "ChesROMS",
+    "codeRepository": "http://ches.communitymodeling.org/models/ChesROMS/",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran90"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "http://ches.communitymodeling.org/models/ChesROMS/",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Windows",
+        "CygWin"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Wen",
+            "familyName": "Long",
+            "affiliation": {
+                "@type": "Organization",
+                "address": "Cambridge, United States"
+            },
+            "email": "mailto:wenlong@umces.edu"
+        }
+    ],
+    "dateCreated": "1998-01-01",
+    "keywords": [
+        "Marine",
+        "chesroms",
+        "model",
+        "roms",
+        "bay",
+        "chesapeake research consortium",
+        "noaa merhab program",
+        "ocean modeling system",
+        "research consortium",
+        "natural resources",
+        "maryland department",
+        "noaa merhab",
+        "department of natural",
+        "chesapeake bay region",
+        "regional ocean modeling",
+        "rutgers regional ocean",
+        "chesapeake bay program",
+        "chesapeake research",
+        "university of maryland",
+        "chesapeake bay"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "ChesROMS is a community ocean modeling system for the Chesapeake Bay region being developed by scientists in NOAA, University of Maryland, CRC (Chesapeake Research Consortium) and MD DNR (Maryland Department of Natural Resources) supported by the NOAA MERHAB program. The model is built based on the Rutgers Regional Ocean Modeling System (ROMS, http://www.myroms.org/) with significant adaptations for the Chesapeake Bay.\n\nThe model is developed to provide a community modeling system for nowcast and forecast of 3D hydrodynamic circulation, temperature and salinity, sediment transport, biogeochemical and ecosystem states with applications to ecosystem and human health in the bay. Model validation is based on bay wide satellite remote sensing, real-time in situ measurements and historical data provided by Chesapeake Bay Program.\n\nhttp://ches.communitymodeling.org/models/ChesROMS/index.php",
+    "url": "https://csdms.colorado.edu/wiki/Model:ChesROMS"
+}

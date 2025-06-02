@@ -1,0 +1,70 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "WACCM-CARMA",
+    "codeRepository": "http://www.cesm.ucar.edu/?ref=404",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran90"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "downloadUrl": "http://www.cesm.ucar.edu/?ref=404",
+    "memoryRequirements": "N/A",
+    "operatingSystem": [
+        "Unix",
+        "Mac OS"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Jason",
+            "familyName": "English",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Colorado, ATOC",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:jason.english@colorado.edu"
+        }
+    ],
+    "dateCreated": "1982-01-01",
+    "keywords": [
+        "Climate",
+        "atmospheric",
+        "aerosol",
+        "model",
+        "brian toon aerosol",
+        "ncar atmospheric high-altitude",
+        "waccm is ncar",
+        "carma is brian",
+        "toon aerosol microphysical",
+        "brian toon",
+        "atmospheric high-altitude model",
+        "microphysical sectional model",
+        "aerosol microphysical sectional",
+        "ncar atmospheric",
+        "toon aerosol",
+        "atmospheric high-altitude",
+        "microphysical sectional",
+        "high-altitude model",
+        "sectional model",
+        "microphysical",
+        "climate",
+        "waccm-carma",
+        "microphysical",
+        "climate"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "description": "WACCM is NCAR's atmospheric high-altitude model; CARMA is Brian Toon's aerosol microphysical sectional model. I'm studying sulfate aerosols in the UTLS region using this coupled model.",
+    "url": "https://csdms.colorado.edu/wiki/Model:WACCM-CARMA",
+    "developmentStatus": "As is, no updates are provided"
+}

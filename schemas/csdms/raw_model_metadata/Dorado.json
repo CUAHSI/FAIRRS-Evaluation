@@ -1,0 +1,912 @@
+{
+  "subject": "Dorado#3002##",
+  "data": [
+    {
+      "property": "Additional_city",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Austin"
+        }
+      ]
+    },
+    {
+      "property": "Additional_country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "United States"
+        }
+      ]
+    },
+    {
+      "property": "Additional_email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:paola@austin.utexas.edu"
+        },
+        {
+          "type": 5,
+          "item": "mailto:kyleawright@utexas.edu"
+        }
+      ]
+    },
+    {
+      "property": "Additional_first_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Paola"
+        },
+        {
+          "type": 2,
+          "item": "Kyle"
+        }
+      ]
+    },
+    {
+      "property": "Additional_institute",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Department of Civil, Architectural and Environmental Engineering, The University of Texas"
+        }
+      ]
+    },
+    {
+      "property": "Additional_last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Passalacqua"
+        },
+        {
+          "type": 2,
+          "item": "Wright"
+        }
+      ]
+    },
+    {
+      "property": "Additional_postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "78712"
+        }
+      ]
+    },
+    {
+      "property": "Additional_state",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Texas"
+        }
+      ]
+    },
+    {
+      "property": "Additional_type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Project manager"
+        },
+        {
+          "type": 2,
+          "item": "Model developer"
+        }
+      ]
+    },
+    {
+      "property": "Citations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "21"
+        }
+      ]
+    },
+    {
+      "property": "City",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Austin"
+        }
+      ]
+    },
+    {
+      "property": "CodeReviewed",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "0"
+        }
+      ]
+    },
+    {
+      "property": "Code_CMT_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_IRF_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_PyMT_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_openmi_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_optimized",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single Processor"
+        }
+      ]
+    },
+    {
+      "property": "Country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "United States"
+        }
+      ]
+    },
+    {
+      "property": "DataComponent",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No"
+        }
+      ]
+    },
+    {
+      "property": "Describe_input_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "(1) the length along a square cell face (dx), (2) 2 of the following 3 arrays describing the domain: (a) the water depth (depth); (b) the water stage (stage); (c) the topography (topography), (3) either the x and y components of water velocity (u and v) or the x and y components of the water discharge (qx and qy), (4) and some optional parameters that include values related to the random walk weighting scheme, travel time calculations, and even the distance and direction assumptions related to the grid."
+        }
+      ]
+    },
+    {
+      "property": "Describe_key_physical_parameters",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "--"
+        }
+      ]
+    },
+    {
+      "property": "Describe_length_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "--"
+        }
+      ]
+    },
+    {
+      "property": "Describe_numerical_limitations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "--"
+        }
+      ]
+    },
+    {
+      "property": "Describe_output_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "* Query particle locations and travel times at a given iteration\n* Query particle locations at a given travel time\n* Plot the particle exposure time distributions\n* Animate the output images of particle locations\n* Plot the travel paths specified particles have taken\n* Plot the particle positions for a specified iteration or travel time"
+        }
+      ]
+    },
+    {
+      "property": "Describe_processes",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Lagrangian particle transport. See also: https://passah2o.github.io/dorado/background/index.html"
+        }
+      ]
+    },
+    {
+      "property": "Describe_time_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "--"
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCode",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Active"
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCodeYearChecked",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2021"
+        }
+      ]
+    },
+    {
+      "property": "Development_still_active",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:jayaram.hariharan@utexas.edu"
+        }
+      ]
+    },
+    {
+      "property": "Extended_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Dorado is a Python package for simulating passive Lagrangian particle transport over flow-fields from any 2D shallow-water hydrodynamic model using a weighted random walk methodology."
+        }
+      ]
+    },
+    {
+      "property": "First_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Jayaram"
+        }
+      ]
+    },
+    {
+      "property": "H-index",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "3"
+        }
+      ]
+    },
+    {
+      "property": "Input_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        }
+      ]
+    },
+    {
+      "property": "Institute",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Department of Civil, Architectural and Environmental Engineering, The University of Texas"
+        }
+      ]
+    },
+    {
+      "property": "Last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Hariharan"
+        }
+      ]
+    },
+    {
+      "property": "M-quotient",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "0.5"
+        }
+      ]
+    },
+    {
+      "property": "Manual_model_available",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No"
+        }
+      ]
+    },
+    {
+      "property": "Memory_requirements",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "--"
+        }
+      ]
+    },
+    {
+      "property": "ModelDomain",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Terrestrial"
+        },
+        {
+          "type": 2,
+          "item": "Hydrology"
+        }
+      ]
+    },
+    {
+      "property": "Model_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "As code"
+        }
+      ]
+    },
+    {
+      "property": "Model_keywords",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "particle transport"
+        },
+        {
+          "type": 2,
+          "item": "Sediment Transport"
+        },
+        {
+          "type": 2,
+          "item": "Sediment flux"
+        },
+        {
+          "type": 2,
+          "item": "Lagrangian particle transport"
+        }
+      ]
+    },
+    {
+      "property": "Model_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single"
+        }
+      ]
+    },
+    {
+      "property": "Model_website",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://passah2o.github.io/dorado/index.html"
+        }
+      ]
+    },
+    {
+      "property": "Modelautophrases",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "python"
+        },
+        {
+          "type": 2,
+          "item": "flows"
+        },
+        {
+          "type": 2,
+          "item": "simulating passive lagrangian"
+        },
+        {
+          "type": 2,
+          "item": "passive lagrangian particle"
+        },
+        {
+          "type": 2,
+          "item": "lagrangian particle transport"
+        },
+        {
+          "type": 2,
+          "item": "shallow-water hydrodynamic model"
+        },
+        {
+          "type": 2,
+          "item": "random walk methodology"
+        },
+        {
+          "type": 2,
+          "item": "weighted random walk"
+        },
+        {
+          "type": 2,
+          "item": "python package"
+        },
+        {
+          "type": 2,
+          "item": "passive lagrangian"
+        },
+        {
+          "type": 2,
+          "item": "lagrangian particle"
+        },
+        {
+          "type": 2,
+          "item": "shallow-water hydrodynamic"
+        },
+        {
+          "type": 2,
+          "item": "walk methodology"
+        },
+        {
+          "type": 2,
+          "item": "package for simulating"
+        },
+        {
+          "type": 2,
+          "item": "simulating passive"
+        },
+        {
+          "type": 2,
+          "item": "particle transport"
+        },
+        {
+          "type": 2,
+          "item": "transport over flow-fields"
+        },
+        {
+          "type": 2,
+          "item": "sediment transport"
+        },
+        {
+          "type": 2,
+          "item": "sediment flux"
+        },
+        {
+          "type": 2,
+          "item": "dorado"
+        }
+      ]
+    },
+    {
+      "property": "Nr-of-pubs",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "3"
+        }
+      ]
+    },
+    {
+      "property": "One-line_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "A Python package for simulating passive particle transport in shallow-water flows"
+        }
+      ]
+    },
+    {
+      "property": "Output_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        }
+      ]
+    },
+    {
+      "property": "Post_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "78712"
+        }
+      ]
+    },
+    {
+      "property": "Pre_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "BSD or MIT X11"
+        }
+      ]
+    },
+    {
+      "property": "Programming_language",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Python"
+        }
+      ]
+    },
+    {
+      "property": "Run_time_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "--"
+        }
+      ]
+    },
+    {
+      "property": "Source_code_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Through web repository"
+        }
+      ]
+    },
+    {
+      "property": "Source_web_address",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://github.com/passaH2O/dorado"
+        }
+      ]
+    },
+    {
+      "property": "Spatial_dimensions",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2D"
+        }
+      ]
+    },
+    {
+      "property": "Spatialscale",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Watershed-Scale"
+        }
+      ]
+    },
+    {
+      "property": "Start_year_development",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2020"
+        }
+      ]
+    },
+    {
+      "property": "State",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Texas"
+        }
+      ]
+    },
+    {
+      "property": "Supported_platforms",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Unix"
+        },
+        {
+          "type": 2,
+          "item": "Linux"
+        },
+        {
+          "type": 2,
+          "item": "Mac OS"
+        },
+        {
+          "type": 2,
+          "item": "Windows"
+        }
+      ]
+    },
+    {
+      "property": "Type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Model developer"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_needed",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "_ASK",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Dorado#3002##_QUERYf628f0b540ce992387cac85c639d87fa"
+        },
+        {
+          "type": 9,
+          "item": "Dorado#3002##_QUERY6c1159f3b15d40bc849ea33822132f4b"
+        },
+        {
+          "type": 9,
+          "item": "Dorado#3002##_QUERY86156eee615985dbeff62b9966906369"
+        }
+      ]
+    },
+    {
+      "property": "_CDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2021/7/16/17/31/20/0"
+        }
+      ]
+    },
+    {
+      "property": "_INST",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Pages_using_duplicate_arguments_in_template_calls#14##"
+        },
+        {
+          "type": 9,
+          "item": "Models#14##"
+        }
+      ]
+    },
+    {
+      "property": "_LEDT",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Kyleawright#2##"
+        }
+      ]
+    },
+    {
+      "property": "_MDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2023/5/19/20/46/23/0"
+        }
+      ]
+    },
+    {
+      "property": "_SKEY",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Dorado"
+        }
+      ]
+    }
+  ],
+  "sobj": [
+    {
+      "subject": "Dorado#3002##_QUERYf628f0b540ce992387cac85c639d87fa",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "0"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[:Model:Dorado]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "Dorado# QUERYf628f0b540ce992387cac85c639d87fa"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Dorado#3002##_QUERY6c1159f3b15d40bc849ea33822132f4b",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[User:+]] [[First name member::Jayaram]] [[Last name member::Hariharan]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "Dorado# QUERY6c1159f3b15d40bc849ea33822132f4b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Dorado#3002##_QUERY86156eee615985dbeff62b9966906369",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "ul"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[Model:+]] [[First name::Jayaram]] [[Last name::Hariharan]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "Dorado# QUERY86156eee615985dbeff62b9966906369"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+  "version": 2
+}

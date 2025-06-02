@@ -1,0 +1,40 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Lake-Permafrost_with_Subsidence",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Single",
+    "operatingSystem": [
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Nora",
+            "familyName": "Matell",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "INSTAAR, University of Colorado",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:nlmatell@gmail.com"
+        }
+    ],
+    "dateCreated": "2008-01-01",
+    "keywords": [
+        "Terrestrial",
+        "thermal model",
+        "permafrost"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "description": "Models temperature of 1-D lake-permafrost system through time, given input surface temperature and solar radiation. Model is fully implicit control volume scheme, and cell size can vary with depth. Thermal conductivity and specific heat capacity are dependent on cell substrate (% soil and % ice) and temperature using the apparent heat capacity scheme where freezing/thawing occurs over a finite temperature range and constants are modified to account for latent heat. Lake freezes and thaws depending on temperature; when no ice is present lake is fully mixed and can absorb solar radiation. Upper 10 m substrate contains excess ice and, if thawed, can subside by this amount (lake then deepens by amount of subsidence). \"Cell type\" controls whether cell has excess ice, only pore space ice, or is lake water.",
+    "url": "https://csdms.colorado.edu/wiki/Model:Lake-Permafrost_with_Subsidence"
+}

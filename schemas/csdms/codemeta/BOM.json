@@ -1,0 +1,74 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "BOM",
+    "codeRepository": "https://org.uib.no/bom/",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    },
+    "applicationCategory": "Single",
+    "downloadUrl": "https://org.uib.no/bom/",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Jarle",
+            "familyName": "Berntsen",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Bergen",
+                "address": "Bergen, Norway"
+            },
+            "email": "mailto:Jarle.Berntsen@mi.uib.no"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Helge",
+            "familyName": "Avlesen",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "NORCE Norwegian Research Centre",
+                "address": "Bergen, Norway"
+            },
+            "email": "mailto:heav@norceresearch.no"
+        }
+    ],
+    "dateCreated": "1995-01-01",
+    "keywords": [
+        "Coastal",
+        "Marine",
+        "model",
+        "ocean",
+        "bergen",
+        "three-dimensional hydrodynamic multi-purpose",
+        "hydrodynamic multi-purpose model",
+        "shelf seas",
+        "coupled to biological",
+        "re-suspension and contaminant",
+        "three-dimensional hydrodynamic",
+        "hydrodynamic multi-purpose",
+        "coastal and shelf",
+        "multi-purpose model",
+        "contaminant models",
+        "model for coastal",
+        "seas",
+        "biological",
+        "re-suspension",
+        "seasonal scale processes",
+        "hydrodynamics",
+        "bom",
+        "hydrodynamics"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "A three-dimensional hydrodynamic multi-purpose model for coastal and shelf seas, which can be coupled to biological, re-suspension and contaminant models. Has been used in a variety of configurations from resolving grain-scale up to seasonal scale processes. Can be run with optional MPI parallelization or run-time visualization via PGPLOT. Programmed with the goal that the same executable can be used for all cases, by using allocatable arrays and cases defined via a single configuration file pointing to input data in files typically in the same directory.",
+    "url": "https://csdms.colorado.edu/wiki/Model:BOM",
+    "developmentStatus": "Only maintenance"
+}

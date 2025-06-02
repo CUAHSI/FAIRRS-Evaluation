@@ -1,0 +1,68 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "LakeMapperBarnes",
+    "codeRepository": "https://github.com/landlab/landlab/tree/master/landlab",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "downloadUrl": "https://github.com/landlab/landlab/tree/master/landlab",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Daniel",
+            "familyName": "Hobley",
+            "affiliation": {
+                "@type": "Organization",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:hobleyd@cardiff.ac.uk"
+        }
+    ],
+    "dateCreated": "2018-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "temporarily",
+        "landlab by dejh",
+        "landlab",
+        "lake",
+        "barnes",
+        "landlab implementation",
+        "lakes",
+        "lake routing algorithms",
+        "adapted for landlab",
+        "flow",
+        "component",
+        "surface",
+        "map",
+        "run",
+        "flow routing",
+        "routing",
+        "flow path",
+        "depressions",
+        "lakemapperbarnes",
+        "flow path",
+        "depressions",
+        "lakes",
+        "flow routing"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "A Landlab implementation of the Barnes et al. (2014) lake filling & lake routing algorithms, lightly modified and adapted for Landlab by DEJH. This component is designed as a direct replacement for the LakeMapper as existing pre-Aug 2018, and provides a suite of properties to access information about the lakes created each time it is run. Only significant difference is the way the lakes are coded: this component uses the (unique) ID of the outlet node, whereas DepressionFinderAndRouter uses one of the pit node IDs. Note also this component does not offer the lake_codes or display_depression_map options, for essentially this reason. Use lake_map instead for both. It also uses a much more Landlabbian run_one_step() method as its driver, superceding DepressionFinderAndRouter\u2019s map_depressions().\n\nA variety of options is provided. Flow routing is route-to-one in this implementation, but can be either D4 (\u201csteepest\u201d) or D8 on a raster. The surface can be filled to either flat or a very slight downward incline, such that subsequent flow routing will run over the lake surface. This incline is applied at machine precision to minimize the chances of creating false outlets by overfill, and note that the gradient as calculated on such surfaces may still appear to be zero. The filling can either be performed in place, or on a new (water) surface distinct from the original (rock) surface. For efficiency, data structures describing the lakes and their properties are only created, and existing flow direction and flow accumulation fields modified, if those flags are set at instantiation",
+    "url": "https://csdms.colorado.edu/wiki/Model:LakeMapperBarnes",
+    "relatedLink": "https://github.com/landlab/landlab/issues",
+    "developmentStatus": "Only maintenance"
+}

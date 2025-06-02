@@ -1,0 +1,70 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "AgDegNormalSub",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "operatingSystem": [
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "softwareVersion": "0.1",
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Gary",
+            "familyName": "Parker",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Illinois at Urbana-Champaign",
+                "address": "Urbana, United States"
+            },
+            "email": "mailto:parkerg@illinois.edu"
+        }
+    ],
+    "dateCreated": "1990-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "e-book",
+        "program",
+        "basins",
+        "calculate",
+        "subsiding basin",
+        "workbook computes",
+        "steady state",
+        "time evolution",
+        "assumed",
+        "computes the time",
+        "time",
+        "basin",
+        "workbook",
+        "computes",
+        "evolution",
+        "steady",
+        "state",
+        "subsiding",
+        "river toward steady",
+        "bed profile evolution",
+        "fluvial morphodynamics",
+        "subside",
+        "agdegnormalsub",
+        "bed profile evolution",
+        "fluvial morphodynamics",
+        "subside"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "identifier": "10.1594/IEDA/100085",
+    "description": "This workbook computes the time evolution of a river toward steady state as it flows into a subsiding basin. The subsidence rate s is assumed to be constant in time and space. The sediment is assumed to be uniform with size D. A Manning-Strickler formulation is used for bed resistance. A generic relation of the general form of that due to Meyer-Peter and Muller is used for sediment transport. The flow is computed using the normal flow approximation. The river is assumed to have a constant width.",
+    "url": "https://csdms.colorado.edu/wiki/Model:AgDegNormalSub",
+    "developmentStatus": "As is, no updates are provided"
+}

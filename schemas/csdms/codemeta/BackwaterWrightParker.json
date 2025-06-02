@@ -1,0 +1,68 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "BackwaterWrightParker",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "operatingSystem": [
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "softwareVersion": "1.0",
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Gary",
+            "familyName": "Parker",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Illinois at Urbana-Champaign",
+                "address": "Urbana, United States"
+            },
+            "email": "mailto:parkerg@illinois.edu"
+        }
+    ],
+    "dateCreated": "1990-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "e-book",
+        "skin",
+        "friction",
+        "calculator",
+        "program calculates backwater",
+        "calculates backwater curves",
+        "spatially constant bed",
+        "constant bed slope",
+        "program calculates",
+        "calculates backwater",
+        "backwater curves",
+        "sand-bed stream",
+        "spatially constant",
+        "constant bed",
+        "bed slope",
+        "wright and parker",
+        "flow stratification correction",
+        "hydraulic resistance formulation",
+        "formulation of wright",
+        "elevation profile",
+        "fluvial morphodynamics",
+        "backwaterwrightparker",
+        "elevation profile",
+        "fluvial morphodynamics"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "identifier": "10.1594/IEDA/100093",
+    "description": "This program calculates backwater curves over a sand-bed stream with a specified spatially constant bed slope S.  The calculation uses the hydraulic resistance formulation of Wright and Parker (2004) (but without the flow stratification correction).",
+    "url": "https://csdms.colorado.edu/wiki/Model:BackwaterWrightParker",
+    "developmentStatus": "As is, no updates are provided"
+}

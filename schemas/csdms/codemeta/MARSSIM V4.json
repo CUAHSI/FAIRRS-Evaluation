@@ -1,0 +1,65 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "MARSSIM_V4",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran90"
+        }
+    ],
+    "applicationCategory": "Single",
+    "memoryRequirements": "depends upon simulated domain",
+    "operatingSystem": [
+        "Unix",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Alan",
+            "familyName": "Howard",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Planetary Science Institute",
+                "address": "Tucson, United States"
+            },
+            "email": "mailto:ah6p@virginia.edu"
+        }
+    ],
+    "dateCreated": "1991-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "Planetary landforms",
+        "marssim",
+        "model",
+        "landform",
+        "evolution",
+        "incorporates selectable modules",
+        "optionally including event-driven",
+        "including event-driven flow",
+        "iterative framework",
+        "selectable modules",
+        "framework that incorporates",
+        "incorporates selectable",
+        "evaporation from lakes",
+        "lakes in depression",
+        "including event-driven",
+        "bedrock",
+        "matsubara",
+        "sklar and dietrich",
+        "chatanantavet and parker",
+        "landform evolution model",
+        "marssim v4",
+        "Landform evolution model"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "description": "MARSSIM is a grid based, iterative framework that incorporates selectable modules, including: 1) flow routing, optionally including event-driven flow and evaporation from lakes in depression as a function of relative aridity (Matsubara et al., 2011). Runoff can be spatially uniform or variably distributed. Stream channel morphology (width and depth) is parameterized as a function of effective discharge; 2) bedrock weathering, following Equation 1; 3) spatially variable bedrock resistance to weathering and fluvial erosion, including 3-D stratigraphy and surficial coherent crusts; 4) erosion of bedrock channels using either a stream power relationship (Howard, 1994) or sediment load scour (Sklar and Dietrich, 2004; Chatanantavet and Parker, 2009); 5) sediment routing in alluvial channels including suspended/wash load and a single size of bedload. An optional sediment transport model simulates transport of multiple grain sizes of bedload with sorting and abrasion (Howard et al., 2016); 6) geometric impact cratering modeling optionally using a database of martian fresh crater morphology; 7) vapor sublimation from or condensation on the land surface, with options for rate control by the interaction between incident radiation, reflected light, and local topography; 8) mass wasting utilizing either the Howard (1994) or the Roering et al. (1999, 2001a) rate law. Bedrock can be optionally weathered and mass wasted assuming a critical slope angle steeper than the critical gradient for regolith-mantled slopes. Mass wasted debris is instantaneously routed across exposed bedrock, and the debris flux can be specified to erode the bedrock; 9) groundwater flow using the assumption of hydrostatic pressures and shallow flow relative to cell dimensions.  Both recharge and seepage to the surface are modeled.  Seepage discharge can be modeled to transport sediment (seepage erosion) or to weather exposed bedrock (groundwater sapping); 10) deep-seated mass flows using either Glen's law or Bingham rheology using a hydrostatic stress assumption; 11) eolian deposition and erosion in which the rate is determined by local topography; 12) lava flow and deposition from one or multiple vents.  These model components vary in degree to which they are based on established theory or utilize heuristic",
+    "url": "https://csdms.colorado.edu/wiki/Model:MARSSIM_V4",
+    "developmentStatus": "Active"
+}

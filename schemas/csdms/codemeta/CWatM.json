@@ -1,0 +1,71 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "CWatM",
+    "codeRepository": "https://github.com/iiasa/CWatM",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C++"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "downloadUrl": "https://github.com/iiasa/CWatM",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Burek",
+            "familyName": "Peter",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "International Institute for Applied Systems Analysis (IIASA)",
+                "address": "Laxenburg, Austria"
+            },
+            "email": "mailto:burek@iiasa.ac.at"
+        }
+    ],
+    "dateCreated": "2019-01-01",
+    "keywords": [
+        "Hydrology",
+        "cwatm",
+        "water",
+        "model",
+        "community",
+        "applied systems analysis",
+        "community water model",
+        "channel routing model",
+        "routing model developed",
+        "systems analysis",
+        "international institute",
+        "institute for applied",
+        "applied systems",
+        "routing model",
+        "model developed",
+        "community water",
+        "integrated hydrological",
+        "hydrological and channel",
+        "channel routing",
+        "cwatm quantifies water",
+        "groundwater",
+        "surface water",
+        "groundwater",
+        "surface water"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "description": "The Community Water Model (CWatM) is an integrated hydrological and channel routing model developed at the International Institute for Applied Systems Analysis (IIASA). CWatM quantifies water availability, human water use, and the effect of water infrastructure, e.g., reservoirs, groundwater pumping, and irrigation, in regional water resources management.",
+    "url": "https://csdms.colorado.edu/wiki/Model:CWatM",
+    "developmentStatus": "Active"
+}

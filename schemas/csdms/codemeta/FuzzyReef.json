@@ -1,0 +1,41 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "FuzzyReef",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        }
+    ],
+    "applicationCategory": "Single",
+    "memoryRequirements": "512Mb",
+    "operatingSystem": [
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "William",
+            "familyName": "Parcell",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Wichita State University",
+                "address": "Wichita, United States"
+            },
+            "email": "mailto:william.parcell@wichita.edu"
+        }
+    ],
+    "dateCreated": "1999-01-01",
+    "keywords": [
+        "Carbonates and Biogenics",
+        "stratigraphic model",
+        "microbial reef"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "description": "FuzzyReef is a three-dimensional (3D) numerical stratigraphic model that simulates the development of microbial reefs using fuzzy logic (multi-valued logic) modeling methods. The flexibility of the model allows for the examination of a large number of variables. This model has been used to examine the importance of local environmental conditions and global changes on the frequency of reef development relative to the temporal and spatial constraints from Upper Jurassic (Oxfordian) Smackover reef datasets from two Alabama oil fields.\n\nThe fuzzy model simulates the deposition of reefs and carbonate facies through integration of local and global variables. Local-scale factors include basement relief, sea-level change, climate, latitude, water energy, water depth, background sedimentation rate, and substrate conditions. Regional and global-scale changes include relative sea-level change, climate, and latitude.",
+    "url": "https://csdms.colorado.edu/wiki/Model:FuzzyReef"
+}

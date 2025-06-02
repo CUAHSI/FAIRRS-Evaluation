@@ -1,0 +1,63 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "KnickZone-Picker",
+    "codeRepository": "https://github.com/UP-RS-ESP/DEM-KZP",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "downloadUrl": "https://github.com/UP-RS-ESP/DEM-KZP",
+    "memoryRequirements": "depending on DEM size",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Bodo",
+            "familyName": "Bookhagen",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Potsdam",
+                "address": "Potsdam-Golm, Germany"
+            },
+            "email": "mailto:bodo.bookhagen@uni-potsdam.de"
+        }
+    ],
+    "dateCreated": "2015-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "matlab-based",
+        "knickpoints",
+        "jgr earth surface",
+        "jgr earth",
+        "earth surface",
+        "matlab-based scripts extract",
+        "research",
+        "cite",
+        "calibration and validation",
+        "steepness index",
+        "code",
+        "knickzone selection algorithm",
+        "analyze transient landscapes",
+        "matlab-based scripts",
+        "automated knickzone selection",
+        "catchment scale based",
+        "log area",
+        "knickzone-picker"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "description": "--- WHEN USING THIS CODE FOR YOUR RESEARCH, PLEASE CITE: ---<br>\nNeely, A., Bookhagen B., Burbank, D.W. (2017): An automated knickzone selection algorithm (KZ-Picker) to analyze transient landscapes: Calibration and validation, JGR Earth Surface, doi:10.1002/2017JF004250\navailable at: http://onlinelibrary.wiley.com/doi/10.1002/2017JF004250/full\n<br>\n---\n\nThe Matlab-based scripts extract several topometrics at the catchment scale based on log area/log slope and chi plots. Topometrics include: steepness index, theta, steepness index with adjusted theta for each drainage basin, specific stream power, curvature, local relief, and others. Detrended and normalized chi-squared plots are used to identify river knickpoints. Output is written as GeoTIFF files, shapefiles, and CSV files.\n\nAdditional information, examples, and tutorials are provided on the github page.",
+    "url": "https://csdms.colorado.edu/wiki/Model:KnickZone-Picker"
+}

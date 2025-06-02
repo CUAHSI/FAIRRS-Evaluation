@@ -1,0 +1,66 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "WPHydResAMBL",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "operatingSystem": [
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "softwareVersion": "1.0",
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Gary",
+            "familyName": "Parker",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Illinois at Urbana-Champaign",
+                "address": "Urbana, United States"
+            },
+            "email": "mailto:parkerg@illinois.edu"
+        }
+    ],
+    "dateCreated": "1990-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "e-book",
+        "implementation",
+        "wright-parker",
+        "ashida-michiue",
+        "bedload calculator",
+        "bedload transport",
+        "flow resistance",
+        "stratification correction",
+        "wright-parker formulation",
+        "ashida-michiue formulation",
+        "formulation for flow",
+        "depth-discharge and bedload",
+        "calculator",
+        "formulation for bedload",
+        "bedload",
+        "formulation",
+        "depth-discharge",
+        "resistance",
+        "fluvial morphodynamics",
+        "wphydresambl",
+        "bedload transport",
+        "fluvial morphodynamics"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "identifier": "10.1594/IEDA/100182",
+    "description": "Depth-Discharge and Bedload Calculator, uses:\n# Wright-Parker formulation for flow resistance (without stratification correction)\n# Ashida-Michiue formulation for bedload transport.",
+    "url": "https://csdms.colorado.edu/wiki/Model:WPHydResAMBL",
+    "developmentStatus": "As is, no updates are provided"
+}

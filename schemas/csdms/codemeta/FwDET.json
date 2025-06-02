@@ -1,0 +1,92 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "FwDET",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "IDL"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "operatingSystem": [
+        "Linux",
+        "Windows",
+        "ArcGIS (arcpy) licence or QGIS (different versions)"
+    ],
+    "softwareVersion": "2.1.0",
+    "supportingData": [
+        {
+            "@type": "DataFeed",
+            "url": "https://csdms.colorado.edu/csdms_wiki/images/FwDET_DemoData2.zip",
+            "name": "Test Data"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Sagy",
+            "familyName": "Cohen",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Alabama",
+                "address": "Tuscaloosa, United States"
+            },
+            "email": "mailto:sagy.cohen@ua.edu"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Austin",
+            "familyName": "Raney",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Alabama",
+                "address": "Tuscaloosa, United States"
+            },
+            "email": "mailto:aaraney@crimson.ua.edu"
+        }
+    ],
+    "dateCreated": "2017-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "Coastal",
+        "dem",
+        "calculate",
+        "polygon",
+        "sensing",
+        "flood extent layer",
+        "extent layer",
+        "quick estimation",
+        "estimation of water",
+        "water depths",
+        "flooded domain",
+        "flood extent",
+        "layer",
+        "flood",
+        "gis",
+        "water depth",
+        "fwdet",
+        "flood",
+        "DEM",
+        "GIS",
+        "Water Depth"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "identifier": [
+        "10.5281/zenodo.1119066",
+        "10.5281/zenodo.3372535",
+        "10.5281/zenodo.7019135"
+    ],
+    "description": "Allow for quick estimation of water depths within a flooded domain using only the flood extent layer (polygon) and a DEM of the area. Useful for near-real-time flood analysis, especially from remote sensing mapping.\nVersion 2.0 offers improved capabilities in coastal areas.",
+    "url": "https://csdms.colorado.edu/wiki/Model:FwDET",
+    "buildInstructions": "https://csdms.colorado.edu/csdms_wiki/images/Cohen_et_al_JAWRA2017.pdf",
+    "developmentStatus": "Active"
+}

@@ -1,0 +1,57 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Plume",
+    "codeRepository": "https://github.com/mcflugen/sedflux",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/mcflugen/sedflux",
+    "memoryRequirements": "Minimal",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "softwareVersion": "2.1",
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Eric",
+            "familyName": "Hutton",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "CSDMS, INSTAAR, University of Colorado",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:huttone@colorado.edu"
+        }
+    ],
+    "dateCreated": "1997-01-01",
+    "keywords": [
+        "Coastal",
+        "Marine",
+        "hypopycnal",
+        "plume",
+        "hypopycnal sediment plume",
+        "run a hypopycnal",
+        "sediment plume",
+        "hypopycnal sediment",
+        "run",
+        "sediment transport",
+        "sediment transport"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Apache public license"
+    },
+    "identifier": "10.1594/IEDA/100152",
+    "description": "Run a hypopycnal sediment plume",
+    "url": "https://csdms.colorado.edu/wiki/Model:Plume",
+    "developmentStatus": "As is, no updates are provided"
+}

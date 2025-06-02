@@ -1,0 +1,76 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "TwoPhaseEulerSedFoam",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C++"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Zhen",
+            "familyName": "Cheng",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Ocean Engineering Lab, University of Delaware",
+                "address": "Newark, United States"
+            },
+            "email": "mailto:zcheng@udel.edu"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Tian-Jian",
+            "familyName": "Hsu",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Ocean Engineering Lab, University of Delaware",
+                "address": "Newark, United States"
+            },
+            "email": "mailto:thsu@udel.edu"
+        }
+    ],
+    "dateCreated": "2011-01-01",
+    "keywords": [
+        "Hydrology",
+        "Terrestrial",
+        "eulerian",
+        "transport",
+        "sediment transport based",
+        "multi-dimensional numerical model",
+        "numerical model",
+        "sediment transport",
+        "two-phase flow formulation",
+        "transport based",
+        "model",
+        "model is developed",
+        "multi-dimensional numerical",
+        "two-phase flow",
+        "suspended load assumptions",
+        "numerical",
+        "developed",
+        "require conventional bedload",
+        "sediment",
+        "two-phase model",
+        "multi-dimensional",
+        "twophaseeulersedfoam",
+        "sediment transport",
+        "two-phase model",
+        "multi-dimensional"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "CDDL"
+    },
+    "description": "A multi-dimensional numerical model for sediment transport based on the two-phase\nflow formulation is developed. With closures of particle stresses and fluid-particle interaction,\nthe model is able to resolve processes in the concentrated region of sediment\ntransport and hence does not require conventional bedload/suspended load assumptions.\nThe numerical model is developed in three spatial dimensions. However, in this version,\nthe model is only validated for Reynolds-averaged two-dimensional vertical (2DV) formulation\n(with the k \u2212 epsilon closure for carrier flow turbulence) for sheet flow in steady and\noscillatory flows. This numerical model is developed via the open-source CFD library of\nsolvers, OpenFOAM and the new solver is called twoPhaseEulerSedFoam.",
+    "url": "https://csdms.colorado.edu/wiki/Model:TwoPhaseEulerSedFoam"
+}

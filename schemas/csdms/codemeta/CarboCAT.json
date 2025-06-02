@@ -1,0 +1,54 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "CarboCAT",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Single",
+    "operatingSystem": [
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Peter",
+            "familyName": "Burgess",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Shell International E&P",
+                "address": "Rijswijk, Netherlands"
+            },
+            "email": "mailto:p.burgess@es.rhul.ac.uk"
+        }
+    ],
+    "dateCreated": "2008-01-01",
+    "keywords": [
+        "Carbonates and Biogenics",
+        "carbonate",
+        "automatacyclicity",
+        "carbonate lithofacies",
+        "cellular automata",
+        "automata to model",
+        "model horizontal",
+        "horizontal and vertical",
+        "vertical distributions",
+        "distributions of carbonate",
+        "carbocat",
+        "lithofacies",
+        "carbonate lithofacy",
+        "cellular automatacyclicity",
+        "carbonate lithofacy",
+        "cellular automatacyclicity"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "description": "CarboCAT uses a cellular automata to model horizontal and vertical distributions of carbonate lithofacies",
+    "url": "https://csdms.colorado.edu/wiki/Model:CarboCAT",
+    "developmentStatus": "Active"
+}

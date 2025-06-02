@@ -1,0 +1,55 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "NEMO",
+    "codeRepository": "https://forge.nemo-ocean.eu/nemo/nemo/-//releases/4.2.2",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran90"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "downloadUrl": "https://forge.nemo-ocean.eu/nemo/nemo/-//releases/4.2.2",
+    "operatingSystem": [
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "NEMO",
+            "familyName": "System Team",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "CMCC/CNRS/Mercator Oc\u00e9an/Met O\ufb00ice/NERC)",
+                "address": "--, Europe"
+            },
+            "email": "mailto:--@--.---"
+        }
+    ],
+    "dateCreated": "2007-01-01",
+    "keywords": [
+        "Marine",
+        "nemo",
+        "nucleus",
+        "ocean",
+        "european",
+        "modelling framework",
+        "nemo includes",
+        "modelling",
+        "framework",
+        "nemo is developed",
+        "ocean dynamics",
+        "ocean biogeochemistry",
+        "Ocean dynamics",
+        "Ocean biogeochemistry"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "NEMO is a state-of-the-art modelling framework. It is used for research activities and forecasting services in ocean and climate sciences. NEMO is developed by a European consortium with the objective of ensuring long term reliability and sustainability. NEMO includes three major components; the blue ocean (dynamics), the white ocean (sea-ice), the green ocean (ocean biogeochemistry). It also allows coupling through interfaces with atmosphere (through OASIS software), waves, ice-shelves, so as nesting through the adaptive mesh refinement software AGRIF.",
+    "url": "https://csdms.colorado.edu/wiki/Model:NEMO",
+    "relatedLink": "https://nemo-ocean.discourse.group/",
+    "developmentStatus": "Active"
+}

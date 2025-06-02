@@ -1,0 +1,63 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Reservoir",
+    "codeRepository": "https://github.com/swd-turner/reservoir",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    },
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/swd-turner/reservoir",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Sean",
+            "familyName": "Turner",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Pacific Northwest National Lab",
+                "address": "Seattle, United States"
+            },
+            "email": "mailto:sean.turner@pnnl.gov"
+        }
+    ],
+    "dateCreated": "2015-01-01",
+    "keywords": [
+        "Hydrology",
+        "design",
+        "reservoir",
+        "tools",
+        "analysis",
+        "determine no-fail rippl",
+        "evaluate inflow characteristics",
+        "no-fail rippl storage",
+        "measure single reservoir",
+        "sequent peak analysis",
+        "optimize release decisions",
+        "stochastic dynamic programming",
+        "single reservoir performance",
+        "no-fail rippl",
+        "rippl storage",
+        "measure single",
+        "performance using resilience",
+        "vulnerability metrics",
+        "determine no-fail",
+        "peak analysis",
+        "water storage yield",
+        "Reservoir",
+        "Water storage yield"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "description": "Measure single reservoir performance using resilience, reliability, and vulnerability metrics; compute storage-yield-reliability relationships; determine no-fail Rippl storage with sequent peak analysis; optimize release decisions using determinisitc and stochastic dynamic programming; evaluate inflow characteristics.",
+    "url": "https://csdms.colorado.edu/wiki/Model:Reservoir",
+    "developmentStatus": "Only maintenance"
+}

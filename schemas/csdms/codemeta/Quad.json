@@ -1,0 +1,45 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Quad",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Jorge",
+            "familyName": "Lorenzo Trueba",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Saint Anthony Falls Laboratory",
+                "address": "Minneapolis, United States"
+            },
+            "email": "mailto:loren153@umn.edu"
+        }
+    ],
+    "dateCreated": "2010-01-01",
+    "keywords": [
+        "Coastal",
+        "delta evolution",
+        "shoreline dynamics",
+        "alluvial-basement transition",
+        "base-level changes"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "description": "We present a geometric model able to track the geomorphic boundaries that delimit the fluvial plain of fluvial-deltas: the shoreline and the alluvial-bedrock transition. By assuming a fluvial profile with a quadratic form, which satisfies the overall mass balance and the boundary conditions dictated by diffusive transport, we are able to provide a solution that accounts for general base-level changes.",
+    "url": "https://csdms.colorado.edu/wiki/Model:Quad"
+}

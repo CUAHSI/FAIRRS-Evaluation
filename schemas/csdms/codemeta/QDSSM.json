@@ -1,0 +1,41 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "QDSSM",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran90"
+        }
+    ],
+    "applicationCategory": "Single",
+    "operatingSystem": [
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "George",
+            "familyName": "Postma",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Utrecht Univeristy",
+                "address": "Utrecht, Netherlands"
+            },
+            "email": "mailto:gpostma@geo.uu.nl"
+        }
+    ],
+    "dateCreated": "1998-01-01",
+    "keywords": [
+        "Coastal",
+        "landscape evolution",
+        "stratigraphy",
+        "coastal evolution"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "QDSSM is a 3D cellular, forward numerical model coded in Fortran90 that simulates landscape evolution and stratigraphy as controlled by changes in sea-level, subsidence, discharge and bedload flux. The model includes perfect and imperfect sorting modules of grain size and allows stratigraphy to be build over time spans of 1000 to million of years.",
+    "url": "https://csdms.colorado.edu/wiki/Model:QDSSM"
+}

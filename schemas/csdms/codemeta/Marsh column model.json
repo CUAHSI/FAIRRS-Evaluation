@@ -1,0 +1,42 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Marsh_column_model",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C++"
+        }
+    ],
+    "applicationCategory": "Single",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Simon",
+            "familyName": "Mudd",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Edinburgh",
+                "address": "Edinburgh, United Kingdom"
+            },
+            "email": "mailto:simon.m.mudd@ed.ac.uk"
+        }
+    ],
+    "dateCreated": "2006-01-01",
+    "keywords": [
+        "Coastal",
+        "marsh profile",
+        "sediment dynamics"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "description": "A marsh column model designed to (ultimately) be inserted beneath spatially distributed marsh sedimentation models. Tracks surface biomass, subsurface root mass, carbon accumulation and decay (includes both labile and refractory carbon), inorganic sediments, and sediment compaction.",
+    "url": "https://csdms.colorado.edu/wiki/Model:Marsh_column_model"
+}

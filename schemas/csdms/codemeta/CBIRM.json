@@ -1,0 +1,43 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "CBIRM",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Single",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Dylan",
+            "familyName": "McNamara",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "UNC-Wilmington Dept of Physics",
+                "address": "Wilmington, United States"
+            },
+            "email": "mailto:mcnamarad@uncw.edu"
+        }
+    ],
+    "dateCreated": "2003-01-01",
+    "keywords": [
+        "Coastal",
+        "coastal evolution",
+        "barrier island management"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "description": "--",
+    "url": "https://csdms.colorado.edu/wiki/Model:CBIRM"
+}

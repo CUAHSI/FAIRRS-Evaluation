@@ -1,0 +1,893 @@
+{
+  "subject": "GRLP#3002##",
+  "data": [
+    {
+      "property": "Citations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "48"
+        }
+      ]
+    },
+    {
+      "property": "City",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Minneapolis"
+        }
+      ]
+    },
+    {
+      "property": "CodeReviewed",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "Code_CMT_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_IRF_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_openmi_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_optimized",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single Processor"
+        }
+      ]
+    },
+    {
+      "property": "Country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "United States"
+        }
+      ]
+    },
+    {
+      "property": "Current_future_collaborators",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "DOI-filelink",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://zenodo.org/record/1705386"
+        }
+      ]
+    },
+    {
+      "property": "DOI_assigned_to_model_version",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1.0.0"
+        }
+      ]
+    },
+    {
+      "property": "DOI_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "10.5281/zenodo.1705386"
+        }
+      ]
+    },
+    {
+      "property": "Describe_available_calibration_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Laboratory experiments; long-term surveyed rivers; long profiles of transport-limited rivers"
+        }
+      ]
+    },
+    {
+      "property": "Describe_input_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Water discharge inputs, sediment discharge inputs, base-level change, along-channel sources/sinks of sediment, grid of downstream distances"
+        }
+      ]
+    },
+    {
+      "property": "Describe_key_physical_parameters",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "See Wickert and Schildgen, 2018, Equations 20 and 36"
+        }
+      ]
+    },
+    {
+      "property": "Describe_length_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Valid so long as the whole modeled region is a gravel-bed river that is transport-limited"
+        }
+      ]
+    },
+    {
+      "property": "Describe_numerical_limitations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Semi-implicit solution can decrease in accuracy for extremely long (hundreds of millions of years for typical input parameters) time steps"
+        }
+      ]
+    },
+    {
+      "property": "Describe_output_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Long profile (x, z); output sediment discharge"
+        }
+      ]
+    },
+    {
+      "property": "Describe_processes",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Transport-limited equilibrium-width long-profile evolution"
+        }
+      ]
+    },
+    {
+      "property": "Describe_time_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Longer than the intermittency between channel-forming events"
+        }
+      ]
+    },
+    {
+      "property": "Development_still_active",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:awickert@umn.edu"
+        }
+      ]
+    },
+    {
+      "property": "End_year_development",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "2018"
+        }
+      ]
+    },
+    {
+      "property": "Extended_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Computes transient (semi-implicit numerical) and steady-state (analytical and numerical) solutions for the long-profile evolution of transport-limited gravel-bed rivers. Such rivers are assumed to have an equilibrium width (following Parker, 1978), experience flow resistance that is proportional to grain size, evolve primarily in response to a single dominant \"channel-forming\" or \"geomorphically-effective\" discharge (see Blom et al., 2017, for a recent study and justification of this assumption and how it can be applied), and transport gravel following the Meyer-Peter and Müller (1948) equation. This combination of variables results in a stream-power-like relationship for bed-material sediment discharge, which is then inserted into a valley-resolving Exner equation to compute long-profile evolution."
+        }
+      ]
+    },
+    {
+      "property": "First_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Andrew"
+        }
+      ]
+    },
+    {
+      "property": "H-index",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "Input_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        },
+        {
+          "type": 2,
+          "item": "Binary"
+        }
+      ]
+    },
+    {
+      "property": "Input_format_model_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Prescribed within Python set-up script"
+        }
+      ]
+    },
+    {
+      "property": "Institute",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "University of Minnesota"
+        }
+      ]
+    },
+    {
+      "property": "Last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Wickert"
+        }
+      ]
+    },
+    {
+      "property": "M-quotient",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "0.12"
+        }
+      ]
+    },
+    {
+      "property": "Manual_model_available",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No"
+        }
+      ]
+    },
+    {
+      "property": "Memory_requirements",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "100-200 Mb"
+        }
+      ]
+    },
+    {
+      "property": "ModelDomain",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Terrestrial"
+        }
+      ]
+    },
+    {
+      "property": "Model_also_known_as",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Gravel River Long Profile"
+        }
+      ]
+    },
+    {
+      "property": "Model_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "As code"
+        }
+      ]
+    },
+    {
+      "property": "Model_keywords",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "alluvial-channel evolution"
+        },
+        {
+          "type": 2,
+          "item": "long profile"
+        },
+        {
+          "type": 2,
+          "item": "gravel-bed rivers"
+        }
+      ]
+    },
+    {
+      "property": "Model_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single"
+        }
+      ]
+    },
+    {
+      "property": "Modelautophrases",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "evolves"
+        },
+        {
+          "type": 2,
+          "item": "profiles"
+        },
+        {
+          "type": 2,
+          "item": "transport-limited gravel-bed rivers"
+        },
+        {
+          "type": 2,
+          "item": "semi-implicit numerical"
+        },
+        {
+          "type": 2,
+          "item": "transport-limited gravel-bed"
+        },
+        {
+          "type": 2,
+          "item": "analytical and numerical"
+        },
+        {
+          "type": 2,
+          "item": "compute long-profile evolution"
+        },
+        {
+          "type": 2,
+          "item": "gravel-bed rivers"
+        },
+        {
+          "type": 2,
+          "item": "computes transient"
+        },
+        {
+          "type": 2,
+          "item": "long-profile evolution"
+        },
+        {
+          "type": 2,
+          "item": "numerical"
+        },
+        {
+          "type": 2,
+          "item": "experience flow resistance"
+        },
+        {
+          "type": 2,
+          "item": "valley-resolving exner equation"
+        },
+        {
+          "type": 2,
+          "item": "meyer-peter and müller"
+        },
+        {
+          "type": 2,
+          "item": "bed-material sediment discharge"
+        },
+        {
+          "type": 2,
+          "item": "evolution of transport-limited"
+        },
+        {
+          "type": 2,
+          "item": "compute long-profile"
+        },
+        {
+          "type": 2,
+          "item": "alluvial-channel evolution"
+        },
+        {
+          "type": 2,
+          "item": "long profile"
+        },
+        {
+          "type": 2,
+          "item": "grlp"
+        }
+      ]
+    },
+    {
+      "property": "Nr-of-pubs",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2"
+        }
+      ]
+    },
+    {
+      "property": "One-line_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Evolves gravel-bed river long profiles"
+        }
+      ]
+    },
+    {
+      "property": "Output_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        },
+        {
+          "type": 2,
+          "item": "Binary"
+        }
+      ]
+    },
+    {
+      "property": "Output_format_model_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "As desired by user in Python set-up script"
+        }
+      ]
+    },
+    {
+      "property": "Post_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Postal_address1",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "St. Anthony Falls Laboratory"
+        }
+      ]
+    },
+    {
+      "property": "Postal_address2",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2 Third Avenue SE"
+        }
+      ]
+    },
+    {
+      "property": "Postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "55414"
+        }
+      ]
+    },
+    {
+      "property": "Pre_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "GPL v3"
+        }
+      ]
+    },
+    {
+      "property": "Programming_language",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Python"
+        }
+      ]
+    },
+    {
+      "property": "Run_time_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "seconds"
+        }
+      ]
+    },
+    {
+      "property": "Source_code_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Through web repository"
+        }
+      ]
+    },
+    {
+      "property": "Source_web_address",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://github.com/awickert/GRLP"
+        }
+      ]
+    },
+    {
+      "property": "Spatial_dimensions",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1D"
+        },
+        {
+          "type": 2,
+          "item": "1.5D"
+        }
+      ]
+    },
+    {
+      "property": "Spatialscale",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Continental"
+        },
+        {
+          "type": 2,
+          "item": "Regional-Scale"
+        },
+        {
+          "type": 2,
+          "item": "Landscape-Scale"
+        },
+        {
+          "type": 2,
+          "item": "Watershed-Scale"
+        },
+        {
+          "type": 2,
+          "item": "Reach-Scale"
+        },
+        {
+          "type": 2,
+          "item": "Patch-Scale"
+        }
+      ]
+    },
+    {
+      "property": "Start_year_development",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2018"
+        }
+      ]
+    },
+    {
+      "property": "State",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Minnesota"
+        }
+      ]
+    },
+    {
+      "property": "Supported_platforms",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Unix"
+        },
+        {
+          "type": 2,
+          "item": "Linux"
+        },
+        {
+          "type": 2,
+          "item": "Mac OS"
+        },
+        {
+          "type": 2,
+          "item": "Windows"
+        }
+      ]
+    },
+    {
+      "property": "Type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Model developer"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_needed",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "_ASK",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "GRLP#3002##_QUERYe6628fd1d989bb2fa71ddd1a445e5627"
+        },
+        {
+          "type": 9,
+          "item": "GRLP#3002##_QUERY4479dc9f953d8e9514c0bd4f862a189c"
+        },
+        {
+          "type": 9,
+          "item": "GRLP#3002##_QUERY378a8aca9d12c98b1ad4cc0409c5668a"
+        }
+      ]
+    },
+    {
+      "property": "_CDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2018/11/29/18/18/36/0"
+        }
+      ]
+    },
+    {
+      "property": "_INST",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Pages_using_duplicate_arguments_in_template_calls#14##"
+        },
+        {
+          "type": 9,
+          "item": "Models#14##"
+        }
+      ]
+    },
+    {
+      "property": "_LEDT",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "WikiSysop#2##"
+        }
+      ]
+    },
+    {
+      "property": "_MDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2020/9/17/2/15/17/0"
+        }
+      ]
+    },
+    {
+      "property": "_SKEY",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "GRLP"
+        }
+      ]
+    }
+  ],
+  "sobj": [
+    {
+      "subject": "GRLP#3002##_QUERYe6628fd1d989bb2fa71ddd1a445e5627",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "0"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[:Model:GRLP]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "GRLP# QUERYe6628fd1d989bb2fa71ddd1a445e5627"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "GRLP#3002##_QUERY4479dc9f953d8e9514c0bd4f862a189c",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[User:+]] [[First name member::Andrew]] [[Last name member::Wickert]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "GRLP# QUERY4479dc9f953d8e9514c0bd4f862a189c"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "GRLP#3002##_QUERY378a8aca9d12c98b1ad4cc0409c5668a",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "ul"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[Model:+]] [[First name::Andrew]] [[Last name::Wickert]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "GRLP# QUERY378a8aca9d12c98b1ad4cc0409c5668a"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+  "version": 2
+}

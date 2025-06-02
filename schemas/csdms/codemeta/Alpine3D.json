@@ -1,0 +1,64 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Alpine3D",
+    "codeRepository": "https://alpine3d.slf.ch",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C++"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "downloadUrl": "https://alpine3d.slf.ch",
+    "memoryRequirements": "several Gbits (depends on the surface that is simulated)",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Mathias",
+            "familyName": "Bavay",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "WSL/SLF",
+                "address": "Davos Dorf, Switzerland"
+            },
+            "email": "mailto:bavay@slf.ch"
+        }
+    ],
+    "dateCreated": "2006-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Cryosphere",
+        "model",
+        "processes",
+        "high resolution simulation",
+        "high resolution",
+        "resolution simulation",
+        "simulation of alpine",
+        "alpine surface processes",
+        "snow",
+        "alpine surface",
+        "vegetation",
+        "snow model solving",
+        "drifting snow model",
+        "snow dynamics",
+        "alpine3d",
+        "meteorological model outputs",
+        "meteoio pre-processing library",
+        "snow model",
+        "alpine surface processes",
+        "snow dynamics"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "description": "Alpine3D is a model for high resolution simulation of alpine surface processes, in particular snow processes. The model can be forced by measurements from automatic weather stations or by meteorological model outputs (this is handled by the MeteoIO pre-processing library). The core three-dimensional Alpine3D modules consist of a radiation balance model (which uses a view factor approach and includes shortwave scattering and longwave emission from terrain and tall vegetation) and a drifting snow model solving a diffusion equation for suspended snow and a saltation transport equation. The processes in the atmosphere are thus treated in three dimensions and coupled to a distributed one dimensional model of vegetation, snow and soil model (Snowpack) using the assumption that lateral exchange is small in these media. The model can be used to force a distributed catchment hydrology model (AlpineFlow). The model modules can be run in a parallel mode, using either OpenMP and/or MPI. Finally, the Inishell tool provides a GUI for configuring and running Alpine3D.\n\nAlpine3D is a valuable tool to investigate surface dynamics in mountains and is currently used to investigate snow cover dynamics for avalanche warning and permafrost development and vegetation changes under climate change scenarios. It could also be used to create accurate soil moisture assessments for meteorological and flood forecasting.",
+    "url": "https://csdms.colorado.edu/wiki/Model:Alpine3D",
+    "developmentStatus": "Active"
+}

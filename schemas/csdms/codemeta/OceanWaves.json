@@ -1,0 +1,64 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "OceanWaves",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "operatingSystem": [
+        "Unix",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Patricia",
+            "familyName": "Wiberg",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Virginia",
+                "address": "Charlottesville, United States"
+            },
+            "email": "mailto:pw3c@virginia.edu"
+        }
+    ],
+    "dateCreated": "2014-01-01",
+    "keywords": [
+        "Coastal",
+        "Marine",
+        "calculate",
+        "parameters",
+        "calculate wave-generated bottom",
+        "bottom orbital velocities",
+        "surface wave parameters",
+        "wave-generated bottom orbital",
+        "measured surface wave",
+        "calculate wave-generated",
+        "bottom orbital",
+        "orbital velocities",
+        "wave parameters",
+        "surface wave",
+        "surface wave spectra",
+        "wave-generated bottom",
+        "measured surface",
+        "orbital",
+        "velocities from measured",
+        "wave model",
+        "wind wave estimation",
+        "oceanwaves",
+        "wave model",
+        "bottom orbital velocities",
+        "wind wave estimation"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "Calculate wave-generated bottom orbital velocities from measured surface wave parameters. Also permits calculation of surface wave spectra from wind conditions, from which bottom orbital velocities can be determined.",
+    "url": "https://csdms.colorado.edu/wiki/Model:OceanWaves"
+}

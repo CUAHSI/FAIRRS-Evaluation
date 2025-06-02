@@ -1,0 +1,74 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "SurfaceRoughness",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C++"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "memoryRequirements": "Memory requirements dependent on size of DEM",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "David",
+            "familyName": "Milodowski",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Edinburgh, School of GeoSciences",
+                "address": "Edinburgh, United Kingdom"
+            },
+            "email": "mailto:d.t.milodowski@ed.ac.uk"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Simon",
+            "familyName": "Mudd",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Edinburgh, School of GeoSciences",
+                "address": "Edinburgh, United Kingdom"
+            },
+            "email": "mailto:simon.m.mudd@ed.ac.uk"
+        }
+    ],
+    "dateCreated": "2012-01-01",
+    "keywords": [
+        "Terrestrial",
+        "quantifies",
+        "vectors",
+        "surface",
+        "roughness",
+        "surface roughness",
+        "map out areas",
+        "areas of hillslopes",
+        "emergence of bedrock",
+        "bedrock drives",
+        "drives an increase",
+        "increase in surface",
+        "float format",
+        "dem in float",
+        "input dem",
+        "tool requires",
+        "output the rasters",
+        "tool",
+        "float",
+        "rock exposure",
+        "lidar",
+        "surfaceroughness",
+        "Rock Exposure",
+        "Surface Roughness",
+        "LiDAR"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "description": "This tool can be used to map out areas of hillslopes where the emergence of bedrock drives an increase in surface roughness.  The tool requires an input DEM in float format and will output the rasters, also in float format, for three eigenvectors that together describe the distribution of normal vectors within a user-defined neighbourhood for each pixel.",
+    "url": "https://csdms.colorado.edu/wiki/Model:SurfaceRoughness"
+}

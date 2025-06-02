@@ -1,0 +1,68 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "PISM",
+    "codeRepository": "https://github.com/pism/pism",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C++"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/pism/pism",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Glacier",
+            "familyName": "Group",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Alaska Fairbanks",
+                "address": "Fairbanks, United States"
+            },
+            "email": "mailto:uaf-pism@alaska.edu"
+        }
+    ],
+    "dateCreated": "2002-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Cryosphere",
+        "pism",
+        "model",
+        "ice",
+        "sheet",
+        "hybrid shallow ice",
+        "shallow shelf model",
+        "shelf model",
+        "hybrid shallow",
+        "shallow shelf",
+        "computing research community",
+        "increasing problem size",
+        "scalable software libraries",
+        "high-performance computing research",
+        "pism is designed",
+        "shallow",
+        "flow",
+        "simulate ice flow",
+        "shallow ice",
+        "ice flow",
+        "ice sheet",
+        "ice sheet model",
+        "Ice flow",
+        "Ice sheet",
+        "Ice sheet model"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "description": "PISM is a hybrid shallow ice, shallow shelf model. PISM is designed to scale with increasing problem size\nby harnessing the computational power of supercomputing systems and by leveraging the scalable software libraries that have been developed by the high-performance computing research community. The model combines two shallow (small depth-to-width ratio) stress balances, namely the shallow-ice approximation (SIA) and the shallow-shelf approximation (SSA), which are computationally efficient schemes to simulate ice flow by internal deformation and ice-stream flow, respectively. In PISM, deformational velocities from the SIA and sliding velocities from the SSA are weighted and averaged to achieve a smooth transition from shearing flow to sliding flow.",
+    "url": "https://csdms.colorado.edu/wiki/Model:PISM",
+    "developmentStatus": "Active"
+}

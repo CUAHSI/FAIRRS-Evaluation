@@ -1,0 +1,66 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Nitrate_Network_Model",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Single",
+    "operatingSystem": [
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Jonathan",
+            "familyName": "Czuba",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Virginia Tech",
+                "address": "Blacksburg, United States"
+            },
+            "email": "mailto:jon.czuba@gmail.com"
+        }
+    ],
+    "dateCreated": "2015-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "nitrate",
+        "network",
+        "network-based modeling framework",
+        "water resources research",
+        "network-based modeling",
+        "modeling framework",
+        "organic carbon",
+        "water resources",
+        "resources research",
+        "wetland-river network",
+        "assess nitrate removal",
+        "framework of czuba",
+        "inform watershed management",
+        "contextualizing wetlands",
+        "czuba",
+        "foufoula-georgiou as applied",
+        "applied to nitrate",
+        "river network",
+        "wetland",
+        "denitrification",
+        "nitrate network model",
+        "River network",
+        "Nitrate",
+        "Organic carbon",
+        "Wetland",
+        "Denitrification"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "description": "Network-based modeling framework of Czuba and Foufoula-Georgiou as applied to nitrate and organic carbon on a wetland-river network.\n\nThis code is capable of reproducing the results (with some work of commenting/uncommenting code by the end user) described in the following publication:\n\nCzuba, J.A., A.T. Hansen, E. Foufoula-Georgiou, and J.C. Finlay (2018), Contextualizing wetlands within a river network to assess nitrate removal and inform watershed management, Water Resources Research, 54(2), 1312-1337, doi:10.1002/2017WR021859.",
+    "url": "https://csdms.colorado.edu/wiki/Model:Nitrate_Network_Model",
+    "developmentStatus": "As is, no updates are provided"
+}

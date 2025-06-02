@@ -1,0 +1,853 @@
+{
+  "subject": "ThawLake1D#3002##",
+  "data": [
+    {
+      "property": "Additional_city",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Boulder"
+        }
+      ]
+    },
+    {
+      "property": "Additional_country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "United States"
+        }
+      ]
+    },
+    {
+      "property": "Additional_email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:Irina.overeem@colorado.edu"
+        }
+      ]
+    },
+    {
+      "property": "Additional_first_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Irina"
+        }
+      ]
+    },
+    {
+      "property": "Additional_institute",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "INSTAAR"
+        }
+      ]
+    },
+    {
+      "property": "Additional_last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Overeem"
+        }
+      ]
+    },
+    {
+      "property": "Additional_phone",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "303-4926631"
+        }
+      ]
+    },
+    {
+      "property": "Additional_postal_address1",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1560 30th street"
+        }
+      ]
+    },
+    {
+      "property": "Additional_state",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Colorado"
+        }
+      ]
+    },
+    {
+      "property": "Additional_type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Model developer"
+        }
+      ]
+    },
+    {
+      "property": "Citations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "19"
+        }
+      ]
+    },
+    {
+      "property": "City",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Boulder"
+        }
+      ]
+    },
+    {
+      "property": "CodeReviewed",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "Code_CMT_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No not possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_IRF_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_openmi_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_optimized",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single Processor"
+        }
+      ]
+    },
+    {
+      "property": "Country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "United States"
+        }
+      ]
+    },
+    {
+      "property": "Current_future_collaborators",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes, the project is ongoing at CU Boulder and with USGS partners"
+        }
+      ]
+    },
+    {
+      "property": "Describe_available_calibration_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Model is designed and calibrated for Alaska Coastal Plain.\nWe calibrated the model against temperature data in the subsurface from the Drew point, AK, USGS meteorological station."
+        }
+      ]
+    },
+    {
+      "property": "Describe_input_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Requires an input file called: radin_dailyavg.mat\nThis specifies the daily average incoming radiation."
+        }
+      ]
+    },
+    {
+      "property": "Describe_key_physical_parameters",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "- permafrost thermal model: calculates thermal condutivity and specific heat capacity \n- lake ice model: conduction of heat within water depending on incoming solar radiation\n- subsiidence model: melted permafrost cells with excess ice are subsided by the excess ice content. A talik can form under a lake"
+        }
+      ]
+    },
+    {
+      "property": "Describe_length_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1D\n\nUppermost 10 m has high resolution gridcells (0.05m).\nBelow 10 m to 500 m depth, grid cells are coarser (1m)."
+        }
+      ]
+    },
+    {
+      "property": "Describe_output_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "temperature time series at variable depths into the subsurface in deg C\nlake depth in m\nice thickness in m"
+        }
+      ]
+    },
+    {
+      "property": "Describe_post-processing_software",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Matlab"
+        }
+      ]
+    },
+    {
+      "property": "Describe_processes",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ThawLake1D Model couples a permafrost thermal model, a lake ice model and a subsidence model. It models heat conductio through a lake-permafrost system, evaluating temperature with depth."
+        }
+      ]
+    },
+    {
+      "property": "Describe_time_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Simulations are run at daily time step\nTotal simulation duration is typically over 100's of years."
+        }
+      ]
+    },
+    {
+      "property": "Development_still_active",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:nlmatell@gmail.com"
+        }
+      ]
+    },
+    {
+      "property": "Extended_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "This model a 1-D numerical model of permafrost and subsidence processes. \nIt aims to investigate the subsurface thermal impact of thaw lakes of various depths, and to evaluate how this impact might change in a warming climate."
+        }
+      ]
+    },
+    {
+      "property": "First_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Nora"
+        }
+      ]
+    },
+    {
+      "property": "H-index",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "Institute",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "INSTAAR"
+        }
+      ]
+    },
+    {
+      "property": "Last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Matell"
+        }
+      ]
+    },
+    {
+      "property": "M-quotient",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "0.08"
+        }
+      ]
+    },
+    {
+      "property": "Manual_model_available",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No"
+        }
+      ]
+    },
+    {
+      "property": "ModelDomain",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Terrestrial"
+        },
+        {
+          "type": 2,
+          "item": "Hydrology"
+        },
+        {
+          "type": 2,
+          "item": "Cryosphere"
+        }
+      ]
+    },
+    {
+      "property": "Model_keywords",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "permafrost"
+        },
+        {
+          "type": 2,
+          "item": "thermal"
+        },
+        {
+          "type": 2,
+          "item": "subsurface"
+        },
+        {
+          "type": 2,
+          "item": "thaw lake"
+        },
+        {
+          "type": 2,
+          "item": "talik"
+        }
+      ]
+    },
+    {
+      "property": "Model_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single"
+        }
+      ]
+    },
+    {
+      "property": "Modelautophrases",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "numerical"
+        },
+        {
+          "type": 2,
+          "item": "processes"
+        },
+        {
+          "type": 2,
+          "item": "subsidence processes"
+        },
+        {
+          "type": 2,
+          "item": "numerical model"
+        },
+        {
+          "type": 2,
+          "item": "permafrost and subsidence"
+        },
+        {
+          "type": 2,
+          "item": "model of permafrost"
+        },
+        {
+          "type": 2,
+          "item": "model"
+        },
+        {
+          "type": 2,
+          "item": "subsurface thermal impact"
+        },
+        {
+          "type": 2,
+          "item": "warming climate"
+        },
+        {
+          "type": 2,
+          "item": "permafrost"
+        },
+        {
+          "type": 2,
+          "item": "subsidence"
+        },
+        {
+          "type": 2,
+          "item": "thermal"
+        },
+        {
+          "type": 2,
+          "item": "subsurface"
+        },
+        {
+          "type": 2,
+          "item": "thaw lake"
+        },
+        {
+          "type": 2,
+          "item": "talik"
+        },
+        {
+          "type": 2,
+          "item": "thawlake1d"
+        }
+      ]
+    },
+    {
+      "property": "Nr-of-pubs",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "One-line_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1-D numerical model of permafrost and subsidence processes."
+        }
+      ]
+    },
+    {
+      "property": "Output_format_model_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "matlab plots and variables"
+        }
+      ]
+    },
+    {
+      "property": "Post_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "t"
+        }
+      ]
+    },
+    {
+      "property": "Postal_address1",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1560 30th street"
+        }
+      ]
+    },
+    {
+      "property": "Postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "80303"
+        }
+      ]
+    },
+    {
+      "property": "Pre_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "GPL v2"
+        }
+      ]
+    },
+    {
+      "property": "Programming_language",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Matlab"
+        }
+      ]
+    },
+    {
+      "property": "Run_time_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2 hrs for 1000 year simulation"
+        }
+      ]
+    },
+    {
+      "property": "Source_code_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Through CSDMS repository"
+        }
+      ]
+    },
+    {
+      "property": "Source_csdms_web_address",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://github.com/csdms-contrib/thawlake1d"
+        }
+      ]
+    },
+    {
+      "property": "Spatial_dimensions",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1D"
+        }
+      ]
+    },
+    {
+      "property": "Spatialscale",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Point-Based"
+        },
+        {
+          "type": 2,
+          "item": "Watershed-Scale"
+        }
+      ]
+    },
+    {
+      "property": "Start_year_development",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2009"
+        }
+      ]
+    },
+    {
+      "property": "State",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Colorado"
+        }
+      ]
+    },
+    {
+      "property": "Supported_platforms",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Mac OS"
+        }
+      ]
+    },
+    {
+      "property": "Type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Model developer"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Matlab"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_needed",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "t"
+        }
+      ]
+    },
+    {
+      "property": "_ASK",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "ThawLake1D#3002##_QUERY73d151f15b3ff3182a497a1d96df0ad8"
+        },
+        {
+          "type": 9,
+          "item": "ThawLake1D#3002##_QUERY62d4f28dc5270db130712225c34530fd"
+        },
+        {
+          "type": 9,
+          "item": "ThawLake1D#3002##_QUERYf717b2a48c860331722e1db70b4a9598"
+        }
+      ]
+    },
+    {
+      "property": "_CDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2011/6/9/22/45/41/0"
+        }
+      ]
+    },
+    {
+      "property": "_INST",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Pages_using_duplicate_arguments_in_template_calls#14##"
+        },
+        {
+          "type": 9,
+          "item": "Models#14##"
+        }
+      ]
+    },
+    {
+      "property": "_LEDT",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "WikiSysop#2##"
+        }
+      ]
+    },
+    {
+      "property": "_MDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2020/9/17/2/17/5/0"
+        }
+      ]
+    },
+    {
+      "property": "_SKEY",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ThawLake1D"
+        }
+      ]
+    }
+  ],
+  "sobj": [
+    {
+      "subject": "ThawLake1D#3002##_QUERY73d151f15b3ff3182a497a1d96df0ad8",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "0"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[:Model:ThawLake1D]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "ThawLake1D# QUERY73d151f15b3ff3182a497a1d96df0ad8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "ThawLake1D#3002##_QUERY62d4f28dc5270db130712225c34530fd",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[User:+]] [[First name member::Nora]] [[Last name member::Matell]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "ThawLake1D# QUERY62d4f28dc5270db130712225c34530fd"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "ThawLake1D#3002##_QUERYf717b2a48c860331722e1db70b4a9598",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "ul"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[Model:+]] [[First name::Nora]] [[Last name::Matell]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "ThawLake1D# QUERYf717b2a48c860331722e1db70b4a9598"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+  "version": 2
+}

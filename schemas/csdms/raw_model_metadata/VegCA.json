@@ -1,0 +1,884 @@
+{
+  "subject": "VegCA#3002##",
+  "data": [
+    {
+      "property": "Citations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "0"
+        }
+      ]
+    },
+    {
+      "property": "City",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Seattle"
+        }
+      ]
+    },
+    {
+      "property": "CodeReviewed",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "Code_optimized",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single Processor"
+        }
+      ]
+    },
+    {
+      "property": "Country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "United States"
+        }
+      ]
+    },
+    {
+      "property": "Describe_input_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "grid: RasterModelGrid<br>\nA grid.\n\nPemaxg: float, optional<br>\nMaximal establishment probability of grass.\n\nING: float, optional<br>\nParameter to define allelopathic effect of creosote on grass.\n\nThetaGrass: float, optional<br>\nDrought resistance threshold of grass.\n\nPmbGrass: float, optional<br>\nBackground mortality probability of grass.\n\nPemaxsh: float, optional<br>\nMaximal establishment probability of shrub.\n\nThetaShrub: float, optional<br>\nDrought resistance threshold of shrub.\n\nPmbShrub: float, optional<br>\nBackground mortality probability of shrub.\n\ntpmaxShrub: float, optional<br>\nMaximum age of shrub (years).\n\nPemaxtr: float, optional<br>\nMaximal establishment probability of tree.\n\nThetatree: float, optional<br>\nDrought resistance threshold of tree.\n\nPmbTree: float, optional<br>\nBackground mortality probability of tree.\n\ntpmaxTree: float, optional<br>\nMaximum age of tree (years).\n\nThetaShrubSeedling: float, optional<br>\nDrought resistance threshold of shrub seedling.\n\nPmbShrubSeedling: float, optional<br>\nBackground mortality probability of shrub seedling.\n\ntpmaxShrubSeedling: float, optional<br>\nMaximum age of shrub seedling (years).\n\nThetaTreeSeedling: float, optional<br>\nDrought resistance threshold of tree seedling.\n\nPmbTreeSeedling: float, optional<br>\nBackground mortality probability of tree seedling.\n\ntpmaxTreeSeedling: float, optional<br>\nMaximum age of tree seedling (years).\n\nmethod: str, optional<br>\nMethod used.\n\nEdit_VegCov: bool, optional<br>\nIf Edit_VegCov=True, an optional field 'vegetation__boolean_vegetated' will be output, (i.e.) if a cell is vegetated the corresponding cell of the \nfield will be 1, otherwise it will be 0."
+        }
+      ]
+    },
+    {
+      "property": "Describe_output_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "\"plant__age\": \n{\n\"dtype\": float,\n\"intent\": \"out\",\n\"optional\": False,\n\"units\": \"Years\",\n\"mapping\": \"cell\",\n\"doc\": \"Age of plant\",\n}\n\n\"plant__live_index\": \n{\n\"dtype\": float,\n\"intent\": \"out\",\n\"optional\": False,\n\"units\": \"None\",\n\"mapping\": \"cell\",\n\"doc\": \"1 - vegetation__cumulative_water_stress\",\n}\n\n\"vegetation__cumulative_water_stress\": \n{\n\"dtype\": float,\n\"intent\": \"in\",\n\"optional\": False,\n\"units\": \"None\",\n\"mapping\": \"cell\",\n\"doc\": \"cumulative vegetation__water_stress over the growing season\",\n}\n\n\"vegetation__plant_functional_type\": \n{\n\"dtype\": int,\n\"intent\": \"in\",\n\"optional\": False,\n\"units\": \"None\",\n\"mapping\": \"cell\",\n\"doc\": \"classification of plants (int), grass=0, shrub=1, tree=2, bare=3, shrub_seedling=4, tree_seedling=5\",\n}"
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCode",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Only maintenance"
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCodeYearChecked",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2020"
+        }
+      ]
+    },
+    {
+      "property": "Development_still_active",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No"
+        }
+      ]
+    },
+    {
+      "property": "Email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:saisiddu@uw.edu"
+        }
+      ]
+    },
+    {
+      "property": "End_year_development",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "2020"
+        }
+      ]
+    },
+    {
+      "property": "Extended_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "This code is based on Cellular Automata Tree Grass Shrub Simulator (CATGraSS). It simulates spatial competition of multiple plant functional types through establishment and mortality. In the current code, tree, grass and shrubs are used."
+        }
+      ]
+    },
+    {
+      "property": "First_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Sai"
+        }
+      ]
+    },
+    {
+      "property": "Input_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        }
+      ]
+    },
+    {
+      "property": "Last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Nudurupati"
+        }
+      ]
+    },
+    {
+      "property": "M-quotient",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "0"
+        }
+      ]
+    },
+    {
+      "property": "Manual_model_available",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No"
+        }
+      ]
+    },
+    {
+      "property": "ModelDomain",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Terrestrial"
+        },
+        {
+          "type": 2,
+          "item": "Ecosystems"
+        }
+      ]
+    },
+    {
+      "property": "ModelFramework",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "LandLab"
+        }
+      ]
+    },
+    {
+      "property": "Model_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "As code"
+        }
+      ]
+    },
+    {
+      "property": "Model_forum",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://github.com/landlab/landlab/issues"
+        }
+      ]
+    },
+    {
+      "property": "Model_keywords",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "population ecology"
+        },
+        {
+          "type": 2,
+          "item": "cellular automata"
+        },
+        {
+          "type": 2,
+          "item": "species"
+        },
+        {
+          "type": 2,
+          "item": "competition"
+        }
+      ]
+    },
+    {
+      "property": "Model_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single"
+        }
+      ]
+    },
+    {
+      "property": "Model_website",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://landlab.github.io"
+        }
+      ]
+    },
+    {
+      "property": "Modelautophrases",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "landlab"
+        },
+        {
+          "type": 2,
+          "item": "cellular"
+        },
+        {
+          "type": 2,
+          "item": "model"
+        },
+        {
+          "type": 2,
+          "item": "cellular automata tree"
+        },
+        {
+          "type": 2,
+          "item": "cellular automata"
+        },
+        {
+          "type": 2,
+          "item": "grass shrub simulator"
+        },
+        {
+          "type": 2,
+          "item": "automata tree grass"
+        },
+        {
+          "type": 2,
+          "item": "based on cellular"
+        },
+        {
+          "type": 2,
+          "item": "shrub simulator"
+        },
+        {
+          "type": 2,
+          "item": "automata tree"
+        },
+        {
+          "type": 2,
+          "item": "simulator"
+        },
+        {
+          "type": 2,
+          "item": "catgrass"
+        },
+        {
+          "type": 2,
+          "item": "automata"
+        },
+        {
+          "type": 2,
+          "item": "tree grass shrub"
+        },
+        {
+          "type": 2,
+          "item": "population ecology"
+        },
+        {
+          "type": 2,
+          "item": "species"
+        },
+        {
+          "type": 2,
+          "item": "competition"
+        },
+        {
+          "type": 2,
+          "item": "vegca"
+        }
+      ]
+    },
+    {
+      "property": "Nr-of-pubs",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "--"
+        }
+      ]
+    },
+    {
+      "property": "One-line_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Landlab component that simulates inter-species plant competition using a 2D cellular automata model."
+        }
+      ]
+    },
+    {
+      "property": "Output_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        }
+      ]
+    },
+    {
+      "property": "Post_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "98195"
+        }
+      ]
+    },
+    {
+      "property": "Pre_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "BSD or MIT X11"
+        }
+      ]
+    },
+    {
+      "property": "Programming_language",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Python"
+        }
+      ]
+    },
+    {
+      "property": "Source_code_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Through web repository"
+        }
+      ]
+    },
+    {
+      "property": "Source_web_address",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://github.com/landlab/landlab/tree/master/landlab"
+        }
+      ]
+    },
+    {
+      "property": "Spatial_dimensions",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2D"
+        }
+      ]
+    },
+    {
+      "property": "Spatialscale",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Landscape-Scale"
+        },
+        {
+          "type": 2,
+          "item": "Watershed-Scale"
+        }
+      ]
+    },
+    {
+      "property": "Start_year_development",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2016"
+        }
+      ]
+    },
+    {
+      "property": "State",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Washington"
+        }
+      ]
+    },
+    {
+      "property": "Supported_platforms",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Unix"
+        },
+        {
+          "type": 2,
+          "item": "Linux"
+        },
+        {
+          "type": 2,
+          "item": "Mac OS"
+        },
+        {
+          "type": 2,
+          "item": "Windows"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_needed",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "_ASK",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "VegCA#3002##_QUERY03e1eef41f8cbaad445b741c5403352d"
+        },
+        {
+          "type": 9,
+          "item": "VegCA#3002##_QUERYb7610df9e547c011e97159cb28a22ef2"
+        },
+        {
+          "type": 9,
+          "item": "VegCA#3002##_QUERY404a9a2e06fe1aa1f2ea53bb92002248"
+        }
+      ]
+    },
+    {
+      "property": "_CDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2020/6/5/17/8/24/0"
+        }
+      ]
+    },
+    {
+      "property": "_ERRC",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "VegCA#3002##_ERRe276a1ffb0e020a1257eff82199d1d33"
+        },
+        {
+          "type": 9,
+          "item": "VegCA#3002##_ERRf1d465c2abf4947336e4674ceaa22c37"
+        },
+        {
+          "type": 9,
+          "item": "VegCA#3002##_ERR604147abdb14669b9c8f3104544da08b"
+        },
+        {
+          "type": 9,
+          "item": "VegCA#3002##_ERRde9fdd962ce63dcda24f603326a2771d"
+        },
+        {
+          "type": 9,
+          "item": "VegCA#3002##_ERR832e19663f926fa58b1c2c38ccac6efd"
+        }
+      ]
+    },
+    {
+      "property": "_INST",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Models#14##"
+        }
+      ]
+    },
+    {
+      "property": "_LEDT",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "WikiSysop#2##"
+        }
+      ]
+    },
+    {
+      "property": "_MDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2020/9/17/2/16/31/0"
+        }
+      ]
+    },
+    {
+      "property": "_SKEY",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "VegCA"
+        }
+      ]
+    }
+  ],
+  "sobj": [
+    {
+      "subject": "VegCA#3002##_QUERY03e1eef41f8cbaad445b741c5403352d",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "0"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[:Model:VegCA]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "VegCA# QUERY03e1eef41f8cbaad445b741c5403352d"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "VegCA#3002##_QUERYb7610df9e547c011e97159cb28a22ef2",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[User:+]] [[First name member::Sai]] [[Last name member::Nudurupati]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "VegCA# QUERYb7610df9e547c011e97159cb28a22ef2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "VegCA#3002##_QUERY404a9a2e06fe1aa1f2ea53bb92002248",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "ul"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[Model:+]] [[First name::Sai]] [[Last name::Nudurupati]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "VegCA# QUERY404a9a2e06fe1aa1f2ea53bb92002248"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "VegCA#3002##_ERRe276a1ffb0e020a1257eff82199d1d33",
+      "data": [
+        {
+          "property": "_ERRP",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "Code_openmi_compliant_or_not#102##"
+            }
+          ]
+        },
+        {
+          "property": "_ERRT",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[8,\"smw-constraint-error-allows-value-list\",\"Not yet\",\"Yes, No but planned, No but possible, No not possible\",\"Code openmi compliant or not\"]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "VegCA# ERRe276a1ffb0e020a1257eff82199d1d33"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "VegCA#3002##_ERRf1d465c2abf4947336e4674ceaa22c37",
+      "data": [
+        {
+          "property": "_ERRP",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "Code_IRF_or_not#102##"
+            }
+          ]
+        },
+        {
+          "property": "_ERRT",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[8,\"smw-constraint-error-allows-value-list\",\"Not yet\",\"Yes, No but planned, No but possible, No not possible\",\"Code IRF or not\"]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "VegCA# ERRf1d465c2abf4947336e4674ceaa22c37"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "VegCA#3002##_ERR604147abdb14669b9c8f3104544da08b",
+      "data": [
+        {
+          "property": "_ERRP",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "Code_CMT_compliant_or_not#102##"
+            }
+          ]
+        },
+        {
+          "property": "_ERRT",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[8,\"smw-constraint-error-allows-value-list\",\"Not yet\",\"Yes, In progress, No but possible, No not possible\",\"Code CMT compliant or not\"]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "VegCA# ERR604147abdb14669b9c8f3104544da08b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "VegCA#3002##_ERRde9fdd962ce63dcda24f603326a2771d",
+      "data": [
+        {
+          "property": "_ERRP",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "Code_PyMT_compliant_or_not#102##"
+            }
+          ]
+        },
+        {
+          "property": "_ERRT",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[8,\"smw-constraint-error-allows-value-list\",\"Not yet\",\"Yes, In progress, No but possible, No not possible\",\"Code PyMT compliant or not\"]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "VegCA# ERRde9fdd962ce63dcda24f603326a2771d"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "VegCA#3002##_ERR832e19663f926fa58b1c2c38ccac6efd",
+      "data": [
+        {
+          "property": "_ERRP",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "H-index#102##"
+            }
+          ]
+        },
+        {
+          "property": "_ERRT",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[2,\"smw_nofloat\",\"--\"]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "VegCA# ERR832e19663f926fa58b1c2c38ccac6efd"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+  "version": 2
+}

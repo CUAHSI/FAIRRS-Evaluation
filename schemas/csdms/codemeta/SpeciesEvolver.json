@@ -1,0 +1,58 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "SpeciesEvolver",
+    "codeRepository": "https://github.com/landlab/landlab/tree/master/landlab",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/landlab/landlab/tree/master/landlab",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Nathan",
+            "familyName": "Lyons",
+            "affiliation": {
+                "@type": "Organization",
+                "address": "New Orleans, United States"
+            },
+            "email": "mailto:nlyons@tulane.edu"
+        }
+    ],
+    "dateCreated": "2017-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Ecosystems",
+        "evolve",
+        "landscape",
+        "biotic and abiotic",
+        "dynamics at earth",
+        "earth",
+        "earth \u2019s surface",
+        "complex dynamics",
+        "abiotic processes",
+        "ecology",
+        "evolution",
+        "speciesevolver",
+        "ecology",
+        "evolution"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "Life evolves alongside landscapes by biotic and abiotic processes under complex dynamics at Earth\u2019s surface. Researchers who wish to explore these dynamics can use this component as a tool for them to build landscape-life evolution models. Landlab components, including SpeciesEvolver are designed to work with a shared model grid. Researchers can build novel models using plug-and-play surface process components to evolve the grid\u2019s landscape alongside the life tracked by SpeciesEvolver. The simulated life evolves following customizable processes.",
+    "url": "https://csdms.colorado.edu/wiki/Model:SpeciesEvolver",
+    "relatedLink": "https://github.com/landlab/landlab/issues",
+    "developmentStatus": "Only maintenance"
+}

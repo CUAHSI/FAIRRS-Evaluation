@@ -1,0 +1,61 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "ChiFinder",
+    "codeRepository": "https://github.com/landlab/landlab/tree/master/landlab",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/landlab/landlab/tree/master/landlab",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Daniel",
+            "familyName": "Hobley",
+            "affiliation": {
+                "@type": "Organization",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:hobleyd@cardiff.ac.uk"
+        }
+    ],
+    "dateCreated": "2016-01-01",
+    "keywords": [
+        "Terrestrial",
+        "indices",
+        "chi",
+        "calculate",
+        "sensu perron",
+        "calculates chi indices",
+        "landlab landscape",
+        "royden",
+        "component calculates chi",
+        "chi indices",
+        "perron",
+        "component calculates",
+        "calculates chi",
+        "landlab",
+        "sensu",
+        "landscape",
+        "chi index",
+        "chifinder",
+        "chi index"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "This component calculates chi indices, sensu Perron & Royden, 2013, for a Landlab landscape.",
+    "url": "https://csdms.colorado.edu/wiki/Model:ChiFinder",
+    "relatedLink": "https://github.com/landlab/landlab/issues"
+}

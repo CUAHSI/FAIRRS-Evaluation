@@ -1,0 +1,793 @@
+{
+  "subject": "1D_Hillslope_MCMC#3002##",
+  "data": [
+    {
+      "property": "Citations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "310"
+        }
+      ]
+    },
+    {
+      "property": "City",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Nottingham"
+        }
+      ]
+    },
+    {
+      "property": "CodeReviewed",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "Code_CMT_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_IRF_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_openmi_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_optimized",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single Processor"
+        }
+      ]
+    },
+    {
+      "property": "Country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "United Kingdom"
+        }
+      ]
+    },
+    {
+      "property": "Current_future_collaborators",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No"
+        }
+      ]
+    },
+    {
+      "property": "Describe_available_test_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Hillslope morphology data from the Dragon's Back Pressure Ridge is included in packaged code."
+        }
+      ]
+    },
+    {
+      "property": "Describe_input_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Number of iterations (or links in the chain)\nInitial parameters from which to start the Markov Chain Monte Carlo simulations\nHillslope morphology measured from topograph for comparison (in dimensionless E* R* format; see Roering et al. 2007 or Hurst et al. 2012)."
+        }
+      ]
+    },
+    {
+      "property": "Describe_length_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Model uses a fixed hillslope length of 30 m constrained from topographic measurements."
+        }
+      ]
+    },
+    {
+      "property": "Describe_output_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Parameters used for simulations by the MCMC algorithm and their likelihood compared to the field data."
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCode",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "As is, no updates are provided"
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCodeYearChecked",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2020"
+        }
+      ]
+    },
+    {
+      "property": "Development_still_active",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No"
+        }
+      ]
+    },
+    {
+      "property": "Email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:mhurst@bgs.ac.uk"
+        }
+      ]
+    },
+    {
+      "property": "End_year_development",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "2012"
+        }
+      ]
+    },
+    {
+      "property": "Extended_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "The model evolves a 1D hillslope according to a non-linear diffusion rule (e.g. Roering et al. 1999) for varying boundary conditions idealised as a gaussian pulse of baselevel fall through time. A Markov Chain Monte Carlo inversion finds the most likely boundary condition parameters when compared to a time series of field data on hillslope morphology from the Dragon's Back Pressure Ridge, Carrizo Plain, CA, USA; see Hilley and Arrowsmith, 2008."
+        }
+      ]
+    },
+    {
+      "property": "First_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Martin"
+        }
+      ]
+    },
+    {
+      "property": "H-index",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "3"
+        }
+      ]
+    },
+    {
+      "property": "Input_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        }
+      ]
+    },
+    {
+      "property": "Input_format_model_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "command line arguments"
+        }
+      ]
+    },
+    {
+      "property": "Institute",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "British Geological Survevy"
+        }
+      ]
+    },
+    {
+      "property": "Last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Hurst"
+        }
+      ]
+    },
+    {
+      "property": "M-quotient",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "0.21"
+        }
+      ]
+    },
+    {
+      "property": "Manual_model_available",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No"
+        }
+      ]
+    },
+    {
+      "property": "ModelDomain",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Terrestrial"
+        }
+      ]
+    },
+    {
+      "property": "Model_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "As code"
+        }
+      ]
+    },
+    {
+      "property": "Model_keywords",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "landscape evolution"
+        },
+        {
+          "type": 2,
+          "item": "Hillslope Model"
+        }
+      ]
+    },
+    {
+      "property": "Model_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Tool"
+        }
+      ]
+    },
+    {
+      "property": "Modelautophrases",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "carlo"
+        },
+        {
+          "type": 2,
+          "item": "monte"
+        },
+        {
+          "type": 2,
+          "item": "non-linear"
+        },
+        {
+          "type": 2,
+          "item": "conditions"
+        },
+        {
+          "type": 2,
+          "item": "non-linear diffusion rule"
+        },
+        {
+          "type": 2,
+          "item": "diffusion rule"
+        },
+        {
+          "type": 2,
+          "item": "back pressure ridge"
+        },
+        {
+          "type": 2,
+          "item": "model evolves"
+        },
+        {
+          "type": 2,
+          "item": "non-linear diffusion"
+        },
+        {
+          "type": 2,
+          "item": "markov chain monte"
+        },
+        {
+          "type": 2,
+          "item": "chain monte carlo"
+        },
+        {
+          "type": 2,
+          "item": "dragon back pressure"
+        },
+        {
+          "type": 2,
+          "item": "monte carlo inversion"
+        },
+        {
+          "type": 2,
+          "item": "roering"
+        },
+        {
+          "type": 2,
+          "item": "carrizo plain"
+        },
+        {
+          "type": 2,
+          "item": "boundary conditions idealised"
+        },
+        {
+          "type": 2,
+          "item": "varying boundary conditions"
+        },
+        {
+          "type": 2,
+          "item": "pressure ridge"
+        },
+        {
+          "type": 2,
+          "item": "hilley and arrowsmith"
+        },
+        {
+          "type": 2,
+          "item": "landscape evolution"
+        },
+        {
+          "type": 2,
+          "item": "hillslope model"
+        },
+        {
+          "type": 2,
+          "item": "1d hillslope mcmc"
+        }
+      ]
+    },
+    {
+      "property": "Nr-of-pubs",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "4"
+        }
+      ]
+    },
+    {
+      "property": "One-line_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Monte Carlo chain of 1D non-linear diffusion hillslope model to find most likely boundary conditions"
+        }
+      ]
+    },
+    {
+      "property": "Output_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        }
+      ]
+    },
+    {
+      "property": "Phone",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "+44 1159 363103"
+        }
+      ]
+    },
+    {
+      "property": "Post_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Postal_address1",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Nicker Hill"
+        }
+      ]
+    },
+    {
+      "property": "Postal_address2",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Keyworth"
+        }
+      ]
+    },
+    {
+      "property": "Postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "NG12 6DA"
+        }
+      ]
+    },
+    {
+      "property": "Pre_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "GPL v3"
+        }
+      ]
+    },
+    {
+      "property": "Programming_language",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "C++"
+        }
+      ]
+    },
+    {
+      "property": "Run_time_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Days"
+        }
+      ]
+    },
+    {
+      "property": "Source_code_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Through CSDMS repository"
+        }
+      ]
+    },
+    {
+      "property": "Source_csdms_web_address",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://github.com/csdms-contrib/1d_hillslope_mcmc"
+        }
+      ]
+    },
+    {
+      "property": "Spatial_dimensions",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1D"
+        }
+      ]
+    },
+    {
+      "property": "Spatialscale",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Reach-Scale"
+        }
+      ]
+    },
+    {
+      "property": "Start_year_development",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2012"
+        }
+      ]
+    },
+    {
+      "property": "Supported_platforms",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Unix"
+        },
+        {
+          "type": 2,
+          "item": "Linux"
+        },
+        {
+          "type": 2,
+          "item": "Mac OS"
+        },
+        {
+          "type": 2,
+          "item": "Windows"
+        }
+      ]
+    },
+    {
+      "property": "Type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Project manager"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_needed",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "_ASK",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "1D_Hillslope_MCMC#3002##_QUERY7f09a4b060ac9ba8b938a10bb636b65a"
+        },
+        {
+          "type": 9,
+          "item": "1D_Hillslope_MCMC#3002##_QUERYa02da75bb33575bd45bb5e5713e1f32e"
+        },
+        {
+          "type": 9,
+          "item": "1D_Hillslope_MCMC#3002##_QUERYed8dada849a0fc73aa54d979b010450a"
+        }
+      ]
+    },
+    {
+      "property": "_CDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2013/8/7/9/27/32/0"
+        }
+      ]
+    },
+    {
+      "property": "_INST",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Pages_using_duplicate_arguments_in_template_calls#14##"
+        },
+        {
+          "type": 9,
+          "item": "Models#14##"
+        }
+      ]
+    },
+    {
+      "property": "_LEDT",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "WikiSysop#2##"
+        }
+      ]
+    },
+    {
+      "property": "_MDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2020/9/17/2/16/10/0"
+        }
+      ]
+    },
+    {
+      "property": "_SKEY",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1D Hillslope MCMC"
+        }
+      ]
+    }
+  ],
+  "sobj": [
+    {
+      "subject": "1D_Hillslope_MCMC#3002##_QUERY7f09a4b060ac9ba8b938a10bb636b65a",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "0"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[:Model:1D Hillslope MCMC]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "1D Hillslope MCMC# QUERY7f09a4b060ac9ba8b938a10bb636b65a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "1D_Hillslope_MCMC#3002##_QUERYa02da75bb33575bd45bb5e5713e1f32e",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[User:+]] [[First name member::Martin]] [[Last name member::Hurst]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "1D Hillslope MCMC# QUERYa02da75bb33575bd45bb5e5713e1f32e"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "1D_Hillslope_MCMC#3002##_QUERYed8dada849a0fc73aa54d979b010450a",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "ul"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[Model:+]] [[First name::Martin]] [[Last name::Hurst]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "1D Hillslope MCMC# QUERYed8dada849a0fc73aa54d979b010450a"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+  "version": 2
+}

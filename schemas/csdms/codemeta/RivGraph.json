@@ -1,0 +1,67 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "RivGraph",
+    "codeRepository": "https://github.com/VeinsOfTheEarth/RivGraph",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "downloadUrl": "https://github.com/VeinsOfTheEarth/RivGraph",
+    "operatingSystem": [
+        "Unix",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Jon",
+            "familyName": "Schwenk",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Los Alamos National laboratory",
+                "address": "Los Alamos, United States"
+            },
+            "email": "mailto:jschwenk@lanl.gov"
+        }
+    ],
+    "dateCreated": "2020-01-01",
+    "keywords": [
+        "Hydrology",
+        "Coastal",
+        "rivgraph",
+        "automatic",
+        "topology",
+        "extraction",
+        "user-provided binary image",
+        "river channel networks",
+        "python package",
+        "binary image",
+        "package that automates",
+        "automates the extraction",
+        "extraction and characterization",
+        "characterization of river",
+        "user-provided binary",
+        "river channel",
+        "channel networks",
+        "channel",
+        "python",
+        "image",
+        "River channel networks"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "RivGraph is a Python package that automates the extraction and characterization of river channel networks from a user-provided binary image, or mask, of a channel network.",
+    "url": "https://csdms.colorado.edu/wiki/Model:RivGraph",
+    "review": {
+        "@type": "Review",
+        "reviewBody": "Reviewed and accepted by the Journal of Open Source Software (JOSS)."
+    },
+    "developmentStatus": "Only maintenance"
+}

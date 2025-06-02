@@ -1,0 +1,75 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "CEM",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        }
+    ],
+    "applicationCategory": "Single",
+    "memoryRequirements": "20 Mb",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS"
+    ],
+    "softwareVersion": "0.1.1",
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "A. Brad",
+            "familyName": "Murray",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Duke University",
+                "address": "Durham, United States"
+            },
+            "email": "mailto:abmurray@duke.edu"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Andrew",
+            "familyName": "Ashton",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "WHOI",
+                "address": "Woods Hole, United States"
+            },
+            "email": "mailto:aashton@whoi.edu"
+        }
+    ],
+    "dateCreated": "2000-01-01",
+    "keywords": [
+        "Coastal",
+        "coastline",
+        "model",
+        "spatial scales ranging",
+        "addresses predominately sandy",
+        "time-scales ranging",
+        "ranging from years",
+        "scales ranging",
+        "addresses predominately",
+        "years to millenia",
+        "spatial scales",
+        "coastline evolution model",
+        "coastline evolution",
+        "ranging from kilometers",
+        "hundreds of kilometers",
+        "kilometers to hundreds",
+        "wave-dominated coastlines",
+        "ranging",
+        "coastal evolution",
+        "cem",
+        "coastal evolution"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "identifier": "10.1594/IEDA/100100",
+    "description": "The Coastline Evolution Model (CEM) addresses predominately sandy, wave-dominated coastlines on time-scales ranging from years to millenia and on spatial scales ranging from kilometers to hundreds of kilometers. Shoreline evolution results from gradients in wave-driven alongshore sediment transport. At its most basic level, the model follows the standard 'one-line' modeling approach, where the cross-shore dimension is collapsed into a single data point. However, the model allows the plan-view shoreline to take on arbitrary local orientations, and even fold back upon itself, as complex shapes such as capes and spits form under some wave climates (distributions of wave influences from different approach angles). The model can also represent the geology underlying the sandy coastline and shoreface in a simplified manner and enables the simulation of coastline evolution when sediment supply from an eroding shoreface may be constrained. CEM also supports the simulation of human manipulations to coastline evolution through beach nourishment or hard structures.",
+    "url": "https://csdms.colorado.edu/wiki/Model:CEM",
+    "developmentStatus": "Active"
+}

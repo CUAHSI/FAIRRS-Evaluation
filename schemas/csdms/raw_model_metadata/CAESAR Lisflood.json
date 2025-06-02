@@ -1,0 +1,930 @@
+{
+  "subject": "CAESAR_Lisflood#3002##",
+  "data": [
+    {
+      "property": "Additional_comments_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Manual/videos/walkthroughs available through the wiki on the sourceforge site above."
+        }
+      ]
+    },
+    {
+      "property": "Citations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "940"
+        }
+      ]
+    },
+    {
+      "property": "City",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Kingston upon Hull"
+        }
+      ]
+    },
+    {
+      "property": "CodeReviewed",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "Code_optimized",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Multiple Processors"
+        }
+      ]
+    },
+    {
+      "property": "Country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "United Kingdom"
+        }
+      ]
+    },
+    {
+      "property": "Current_future_collaborators",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes - continually collaborating with multiple researchers."
+        }
+      ]
+    },
+    {
+      "property": "Describe_available_calibration_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Module tested here: https://www.geosci-model-dev.net/11/4873/2018/"
+        }
+      ]
+    },
+    {
+      "property": "Describe_input_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "DEM"
+        }
+      ]
+    },
+    {
+      "property": "Describe_output_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "DEM, Flow patterns, Inundation, Grainsize and others"
+        }
+      ]
+    },
+    {
+      "property": "Describe_pre-processing_software",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes - ish - uses arc GIS ascii formats - commonly available."
+        }
+      ]
+    },
+    {
+      "property": "Describe_processes",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Hydrology: Spatially variable TOPMODEL\n2d Hydrodynamic flow model: Using the Lisflood-FP (Bates et al., 2010) method\nFluvial erosion and deposition over 9 different grainsizes - through 10 active layers\nLateral erosion: Based on radius of curvature\nSlope processes: Landslides and soil creep\nSand Dunes: Ability to couple sand dune sub model with fluvial processes."
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCode",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Active"
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCodeYearChecked",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2020"
+        }
+      ]
+    },
+    {
+      "property": "Development_still_active",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:T.Coulthard@hull.ac.uk"
+        }
+      ]
+    },
+    {
+      "property": "Extended_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Caesar Lisflood is a geomorphological / Landscape evolution model that combines the Lisflood-FP 2d hydrodynamic flow model (Bates et al, 2010) with the CAESAR geomorphic model to simulate erosion and deposition in river catchments and reaches over time scales from hours to 1000's of years.\n\nFeaturing:\nLandscape evolution model simulating erosion and deposition across river reaches and catchments\n\nA hydrodynamic 2D flow model (based on the Lisflood FP code) that conserves mass and partial momentum. (model can be run as flow model alone)\n\ndesigned to operate on multiple core processors (parallel processing of core functions)\n\nOperates over a wide range to spatial and time scales (1km2 to 1000km2, <1year to 1000+ years)\n\nEasy to use GUI"
+        }
+      ]
+    },
+    {
+      "property": "First_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Tom"
+        }
+      ]
+    },
+    {
+      "property": "H-index",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "16"
+        }
+      ]
+    },
+    {
+      "property": "Input_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        }
+      ]
+    },
+    {
+      "property": "Input_format_model_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Rainfall or stream gauge data"
+        }
+      ]
+    },
+    {
+      "property": "Institute",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "University of Hull"
+        }
+      ]
+    },
+    {
+      "property": "Last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Coulthard"
+        }
+      ]
+    },
+    {
+      "property": "M-quotient",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "1.23"
+        }
+      ]
+    },
+    {
+      "property": "Manual_model_available",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No"
+        }
+      ]
+    },
+    {
+      "property": "Memory_requirements",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Contingent on simulation size (area)"
+        }
+      ]
+    },
+    {
+      "property": "ModelDomain",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Terrestrial"
+        },
+        {
+          "type": 2,
+          "item": "Hydrology"
+        }
+      ]
+    },
+    {
+      "property": "Model_also_known_as",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "CAESAR-Lisflood"
+        }
+      ]
+    },
+    {
+      "property": "Model_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "As code"
+        },
+        {
+          "type": 2,
+          "item": "As teaching tool"
+        }
+      ]
+    },
+    {
+      "property": "Model_forum",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://groups.google.com/forum/#!forum/caesar-lisflood"
+        }
+      ]
+    },
+    {
+      "property": "Model_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single"
+        }
+      ]
+    },
+    {
+      "property": "Model_website",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://sourceforge.net/projects/caesar-lisflood/"
+        }
+      ]
+    },
+    {
+      "property": "Modelautophrases",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "landscape"
+        },
+        {
+          "type": 2,
+          "item": "lisflood"
+        },
+        {
+          "type": 2,
+          "item": "caesar"
+        },
+        {
+          "type": 2,
+          "item": "morphodynamic"
+        },
+        {
+          "type": 2,
+          "item": "caesar geomorphic model"
+        },
+        {
+          "type": 2,
+          "item": "landscape evolution model"
+        },
+        {
+          "type": 2,
+          "item": "caesar geomorphic"
+        },
+        {
+          "type": 2,
+          "item": "caesar lisflood"
+        },
+        {
+          "type": 2,
+          "item": "landscape evolution"
+        },
+        {
+          "type": 2,
+          "item": "combines the lisflood-fp"
+        },
+        {
+          "type": 2,
+          "item": "erosion and deposition"
+        },
+        {
+          "type": 2,
+          "item": "bates"
+        },
+        {
+          "type": 2,
+          "item": "model"
+        },
+        {
+          "type": 2,
+          "item": "flow model"
+        },
+        {
+          "type": 2,
+          "item": "simulate erosion"
+        },
+        {
+          "type": 2,
+          "item": "evolution model"
+        },
+        {
+          "type": 2,
+          "item": "time scales"
+        }
+      ]
+    },
+    {
+      "property": "Multiple_processors_implemented",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Shared memory"
+        }
+      ]
+    },
+    {
+      "property": "Nr-of-pubs",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "66"
+        }
+      ]
+    },
+    {
+      "property": "One-line_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Caesar Lisflood is a morphodynamic / Landscape evolution model that simulates erosion and deposition in river catchments and reaches over time scales from hours to 1000's of years."
+        }
+      ]
+    },
+    {
+      "property": "Output_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        }
+      ]
+    },
+    {
+      "property": "Post_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "HU6 7RX"
+        }
+      ]
+    },
+    {
+      "property": "Pre_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "t"
+        }
+      ]
+    },
+    {
+      "property": "Program_language_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "C#"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Other"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "GNU"
+        }
+      ]
+    },
+    {
+      "property": "Run_time_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Minutes to days (contingent on scale)"
+        }
+      ]
+    },
+    {
+      "property": "Source_code_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Through web repository"
+        }
+      ]
+    },
+    {
+      "property": "Source_web_address",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://sourceforge.net/projects/caesar-lisflood/"
+        }
+      ]
+    },
+    {
+      "property": "Spatial_dimensions",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2D"
+        }
+      ]
+    },
+    {
+      "property": "Spatialscale",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Regional-Scale"
+        },
+        {
+          "type": 2,
+          "item": "Landscape-Scale"
+        },
+        {
+          "type": 2,
+          "item": "Watershed-Scale"
+        },
+        {
+          "type": 2,
+          "item": "Reach-Scale"
+        },
+        {
+          "type": 2,
+          "item": "Patch-Scale"
+        }
+      ]
+    },
+    {
+      "property": "Start_year_development",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2013"
+        }
+      ]
+    },
+    {
+      "property": "Supported_platforms",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Windows"
+        }
+      ]
+    },
+    {
+      "property": "Type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Model developer"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_needed",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "_ASK",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "CAESAR_Lisflood#3002##_QUERY7d479c076bc37574c1966cb39a3d0fd2"
+        },
+        {
+          "type": 9,
+          "item": "CAESAR_Lisflood#3002##_QUERY3960a56f3926731e0bc43243661e9158"
+        },
+        {
+          "type": 9,
+          "item": "CAESAR_Lisflood#3002##_QUERYdc02767c85d0fd8847a40e74e52b8952"
+        }
+      ]
+    },
+    {
+      "property": "_CDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2020/4/21/15/30/10/0"
+        }
+      ]
+    },
+    {
+      "property": "_ERRC",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "CAESAR_Lisflood#3002##_ERRe276a1ffb0e020a1257eff82199d1d33"
+        },
+        {
+          "type": 9,
+          "item": "CAESAR_Lisflood#3002##_ERRf1d465c2abf4947336e4674ceaa22c37"
+        },
+        {
+          "type": 9,
+          "item": "CAESAR_Lisflood#3002##_ERR604147abdb14669b9c8f3104544da08b"
+        },
+        {
+          "type": 9,
+          "item": "CAESAR_Lisflood#3002##_ERRde9fdd962ce63dcda24f603326a2771d"
+        }
+      ]
+    },
+    {
+      "property": "_INST",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Pages_using_duplicate_arguments_in_template_calls#14##"
+        },
+        {
+          "type": 9,
+          "item": "Models#14##"
+        }
+      ]
+    },
+    {
+      "property": "_LEDT",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "WikiSysop#2##"
+        }
+      ]
+    },
+    {
+      "property": "_MDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2020/9/17/2/14/19/0"
+        }
+      ]
+    },
+    {
+      "property": "_SKEY",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "CAESAR Lisflood"
+        }
+      ]
+    }
+  ],
+  "sobj": [
+    {
+      "subject": "CAESAR_Lisflood#3002##_QUERY7d479c076bc37574c1966cb39a3d0fd2",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "0"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[:Model:CAESAR Lisflood]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "CAESAR Lisflood# QUERY7d479c076bc37574c1966cb39a3d0fd2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "CAESAR_Lisflood#3002##_QUERY3960a56f3926731e0bc43243661e9158",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[User:+]] [[First name member::Tom]] [[Last name member::Coulthard]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "CAESAR Lisflood# QUERY3960a56f3926731e0bc43243661e9158"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "CAESAR_Lisflood#3002##_QUERYdc02767c85d0fd8847a40e74e52b8952",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "ul"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[Model:+]] [[First name::Tom]] [[Last name::Coulthard]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "CAESAR Lisflood# QUERYdc02767c85d0fd8847a40e74e52b8952"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "CAESAR_Lisflood#3002##_ERRe276a1ffb0e020a1257eff82199d1d33",
+      "data": [
+        {
+          "property": "_ERRP",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "Code_openmi_compliant_or_not#102##"
+            }
+          ]
+        },
+        {
+          "property": "_ERRT",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[8,\"smw-constraint-error-allows-value-list\",\"Not yet\",\"Yes, No but planned, No but possible, No not possible\",\"Code openmi compliant or not\"]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "CAESAR Lisflood# ERRe276a1ffb0e020a1257eff82199d1d33"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "CAESAR_Lisflood#3002##_ERRf1d465c2abf4947336e4674ceaa22c37",
+      "data": [
+        {
+          "property": "_ERRP",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "Code_IRF_or_not#102##"
+            }
+          ]
+        },
+        {
+          "property": "_ERRT",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[8,\"smw-constraint-error-allows-value-list\",\"Not yet\",\"Yes, No but planned, No but possible, No not possible\",\"Code IRF or not\"]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "CAESAR Lisflood# ERRf1d465c2abf4947336e4674ceaa22c37"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "CAESAR_Lisflood#3002##_ERR604147abdb14669b9c8f3104544da08b",
+      "data": [
+        {
+          "property": "_ERRP",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "Code_CMT_compliant_or_not#102##"
+            }
+          ]
+        },
+        {
+          "property": "_ERRT",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[8,\"smw-constraint-error-allows-value-list\",\"Not yet\",\"Yes, In progress, No but possible, No not possible\",\"Code CMT compliant or not\"]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "CAESAR Lisflood# ERR604147abdb14669b9c8f3104544da08b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "CAESAR_Lisflood#3002##_ERRde9fdd962ce63dcda24f603326a2771d",
+      "data": [
+        {
+          "property": "_ERRP",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "Code_PyMT_compliant_or_not#102##"
+            }
+          ]
+        },
+        {
+          "property": "_ERRT",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[8,\"smw-constraint-error-allows-value-list\",\"Not yet\",\"Yes, In progress, No but possible, No not possible\",\"Code PyMT compliant or not\"]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "CAESAR Lisflood# ERRde9fdd962ce63dcda24f603326a2771d"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+  "version": 2
+}

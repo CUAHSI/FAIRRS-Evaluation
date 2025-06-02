@@ -1,0 +1,59 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "FlowAccumulator",
+    "codeRepository": "https://github.com/landlab/landlab/tree/master/landlab",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "downloadUrl": "https://github.com/landlab/landlab/tree/master/landlab",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Katy",
+            "familyName": "Barnhart",
+            "affiliation": {
+                "@type": "Organization",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:katherine.barnhart@colorado.edu"
+        }
+    ],
+    "dateCreated": "2016-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "component",
+        "area",
+        "calculates drainage area",
+        "drainage area",
+        "calculates drainage",
+        "accumulates flow",
+        "flow",
+        "flowaccumulator supports multiple",
+        "calculating flow direction",
+        "flowaccumulator",
+        "flowaccumulator component",
+        "drainage",
+        "flow path",
+        "drainage",
+        "flow path"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "Provides the FlowAccumulator component which accumulates flow and calculates drainage area. FlowAccumulator supports multiple methods for calculating flow direction. Optionally a depression finding component can be specified and flow directing, depression finding, and flow routing can all be accomplished together.",
+    "url": "https://csdms.colorado.edu/wiki/Model:FlowAccumulator",
+    "relatedLink": "https://github.com/landlab/landlab/issues"
+}

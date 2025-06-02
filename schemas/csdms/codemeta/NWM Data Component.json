@@ -1,0 +1,63 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "NWM_Data_Component",
+    "codeRepository": "https://github.com/gantian127/nwm",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "downloadUrl": "https://github.com/gantian127/nwm",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Tian",
+            "familyName": "Gan",
+            "affiliation": {
+                "@type": "Organization",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:gantian127@gmail.com"
+        }
+    ],
+    "keywords": [
+        "Hydrology",
+        "Climate",
+        "csdms",
+        "national",
+        "water",
+        "model",
+        "national water model",
+        "time series datasets",
+        "national water",
+        "basic model interface",
+        "nwm package",
+        "water model",
+        "time series",
+        "model grid",
+        "set of functions",
+        "river reach",
+        "csdms modeling framework",
+        "model interface",
+        "nwm",
+        "series datasets",
+        "basic model",
+        "nwm data component"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "nwm package provides a set of functions that allows downloading of the National Water Model (NWM) time series datasets for a river reach or a model grid. nwm package also includes a Basic Model Interface (BMI), which converts the dataset into a reusable, plug-and-play data component for the CSDMS modeling framework.",
+    "url": "https://csdms.colorado.edu/wiki/Model:NWM_Data_Component",
+    "developmentStatus": "Only maintenance"
+}

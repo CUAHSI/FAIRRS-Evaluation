@@ -1,0 +1,961 @@
+{
+  "subject": "TopoFlow#3002##",
+  "data": [
+    {
+      "property": "Additional_comments_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "About this component:\n*The TopoFlow hydrologic model was originally written in IDL and had a complete point-and-click GUI. For more information on TopoFlow, please goto: https://csdms.colorado.edu/wiki/Model:TopoFlow.\n*When used from within the CSDMS Modeling Tool (CMT), this component has a \"config\" button which launches a graphical user interface (GUI) for changing input parameters. The GUI is a tabbed dialog with a Help button at the bottom that displays HTML help in a browser window.\n*Each of the hydrologic process components used by TopoFlow can now be used either as components in a larger model (such as TopoFlow) or as stand-alone \"submodels\".\n*TopoFlow has a 90+ page HTML help system and intuitive GUI that is ideal for teaching.\n*This component also has a configuration (CFG) file, with a name of the form: <case_prefix>_topoflow.cfg.  This file can be edited with a text editor.\n*The Numerical Python module (numpy) is used for fast, array-based processing.\n*This model has an OpenMI-style interface, similar to OpenMI 2.0.  Part of this interface is inherited from \"CSDMS_base.py\".\n*This version was converted from IDL to Python with the help of i2py 2.0."
+        }
+      ]
+    },
+    {
+      "property": "Citations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "124"
+        }
+      ]
+    },
+    {
+      "property": "City",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Boulder"
+        }
+      ]
+    },
+    {
+      "property": "CodeReviewed",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "Code_CMT_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Code_IRF_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Code_openmi_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but planned"
+        }
+      ]
+    },
+    {
+      "property": "Code_optimized",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single Processor"
+        }
+      ]
+    },
+    {
+      "property": "Country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "United States"
+        }
+      ]
+    },
+    {
+      "property": "Current_future_collaborators",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Collaborators include: Larry Hinzman (UAF), Bob Bolton, Anna Liljedahl (UAF), Stefan Pohl, Tom Over and others"
+        }
+      ]
+    },
+    {
+      "property": "DOI-filelink",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://csdms.colorado.edu/pub/models/doi-source-code/topoflow-10.1594.IEDA.100174-3.1.0.tar.gz"
+        }
+      ]
+    },
+    {
+      "property": "DOI_assigned_to_model_version",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "3.1.0"
+        }
+      ]
+    },
+    {
+      "property": "DOI_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "10.1594/IEDA/100174"
+        }
+      ]
+    },
+    {
+      "property": "Describe_available_calibration_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "TopoFlow is typically not calibrated to fit data, but is run with best guesses of the physical parameters."
+        }
+      ]
+    },
+    {
+      "property": "Describe_available_test_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Available test datat sets:\n*Treynor watershed, in the Nishnabotna River basin, Iowa, USA. (Two large rainfall events.)\n*Small basin in Kentucky.\n*Inclined plane for testing.\n*Arctic watershed data from Larry Hinzman (UAF).\n*See /data/progs/topoflow/3.0/data on CSDMS cluster."
+        }
+      ]
+    },
+    {
+      "property": "Describe_ideal_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Several test datasets can be downloaded from the TopoFlow website.  See /data/progs/topoflow/3.0/data on the CSDMS cluster."
+        }
+      ]
+    },
+    {
+      "property": "Describe_input_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Too many to list here. Please see the HTML help system and the wiki pages for all of the process components."
+        }
+      ]
+    },
+    {
+      "property": "Describe_key_physical_parameters",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Too many to list here. Please see the wiki page and HTML help page for each process component."
+        }
+      ]
+    },
+    {
+      "property": "Describe_length_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Recommended grid cell size is around 100 meters, but can be parameterized to run with a wide range of grid cell sizes. DEM grid dimensions are typically less than 1000 columns by 1000 rows."
+        }
+      ]
+    },
+    {
+      "property": "Describe_numerical_limitations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Overland flow is currently modeled in a nonstandard way. Diffusive wave and dynamic wave routing routines need more testing.  The linkage between the unsaturated zone (infiltration component) and saturated zone (subsurface flow component and water table) is not robust."
+        }
+      ]
+    },
+    {
+      "property": "Describe_output_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Too many to list here. Please see the HTML help system and the wiki pages for all of the process components."
+        }
+      ]
+    },
+    {
+      "property": "Describe_post-processing_software",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "RiverTools, VisIt or IDL can be used for visualization."
+        }
+      ]
+    },
+    {
+      "property": "Describe_pre-processing_software",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Another program must be used to prepare the required input grids.  These include a D8 flow grid and a slope grid, extracted from a DEM of the area."
+        }
+      ]
+    },
+    {
+      "property": "Describe_processes",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Modeled processes include:\n*Channelized flow (kinematic, diffusive or dynamic wave, all 1D and D8-based)\n*Overland flow\n*Snowmelt (degree-day or energy balance)\n*Icemelt (from valley glaciers using GC2D)\n*Meteorology (including precipitation, air temperature, shortwave and longwave radiation, etc.)\n*Evaporation (Priestley-Taylor or energy balance)\n*Infiltration (Green-Ampt, Smith-Parlange or Richards' 1D, multi-layer),  *Shallow subsurface flow (Darcy, up to 6 layers)\n*Flow diversions (sinks, sources or canals)"
+        }
+      ]
+    },
+    {
+      "property": "Describe_time_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Each process can have its own timestep. Typical timesteps are:\n*Channel flow (seconds)\n*Infiltration (seconds to minutes)\n*Snowmelt (hours to days)\n*Subsurface flow (hours to days), etc.\nModel can be run for a full year or longer, if necessary."
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCode",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Active"
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCodeYearChecked",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2020"
+        }
+      ]
+    },
+    {
+      "property": "Development_still_active",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:Scott.Peckham@colorado.edu"
+        }
+      ]
+    },
+    {
+      "property": "End_year_development",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "2012"
+        }
+      ]
+    },
+    {
+      "property": "Extended_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "TopoFlow is a powerful, spatially-distributed hydrologic model with a user-friendly point-and-click interface. Its main purpose is to model many different physical processes in a watershed with the goal of accurately predicting how various hydrologic variables will evolve in time in response to climatic forcings."
+        }
+      ]
+    },
+    {
+      "property": "First_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Scott"
+        }
+      ]
+    },
+    {
+      "property": "H-index",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "5"
+        }
+      ]
+    },
+    {
+      "property": "Incorporated_modules",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "TopoFlow-Channels-Diffusive Wave"
+        },
+        {
+          "type": 2,
+          "item": "TopoFlow-Channels-Dynamic Wave"
+        },
+        {
+          "type": 2,
+          "item": "TopoFlow-Channels-Kinematic Wave"
+        },
+        {
+          "type": 2,
+          "item": "TopoFlow-Diversions"
+        },
+        {
+          "type": 2,
+          "item": "TopoFlow-Evaporation-Energy Balance"
+        },
+        {
+          "type": 2,
+          "item": "TopoFlow-Evaporation-Priestley Taylor"
+        },
+        {
+          "type": 2,
+          "item": "TopoFlow-Evaporation-Read File"
+        },
+        {
+          "type": 2,
+          "item": "TopoFlow-Infiltration-Green-Ampt"
+        },
+        {
+          "type": 2,
+          "item": "TopoFlow-Infiltration-Richards 1D"
+        },
+        {
+          "type": 2,
+          "item": "TopoFlow-Infiltration-Smith-Parlange"
+        },
+        {
+          "type": 2,
+          "item": "TopoFlow-Meteorology"
+        },
+        {
+          "type": 2,
+          "item": "TopoFlow-Saturated Zone-Darcy Law"
+        },
+        {
+          "type": 2,
+          "item": "TopoFlow-Snowmelt-Degree-Day"
+        },
+        {
+          "type": 2,
+          "item": "TopoFlow-Snowmelt-Energy Balance"
+        }
+      ]
+    },
+    {
+      "property": "Input_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        },
+        {
+          "type": 2,
+          "item": "Binary"
+        }
+      ]
+    },
+    {
+      "property": "Institute",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "CSDMS, INSTAAR, University of Colorado"
+        }
+      ]
+    },
+    {
+      "property": "Last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Peckham"
+        }
+      ]
+    },
+    {
+      "property": "M-quotient",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "0.24"
+        }
+      ]
+    },
+    {
+      "property": "Manual_model_available",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Memory_requirements",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Standard"
+        }
+      ]
+    },
+    {
+      "property": "ModelDomain",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Hydrology"
+        }
+      ]
+    },
+    {
+      "property": "Model_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "As code"
+        }
+      ]
+    },
+    {
+      "property": "Model_keywords",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "basins"
+        }
+      ]
+    },
+    {
+      "property": "Model_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Modular"
+        }
+      ]
+    },
+    {
+      "property": "Model_website",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "This site"
+        }
+      ]
+    },
+    {
+      "property": "Modelautophrases",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "spatially-distributed"
+        },
+        {
+          "type": 2,
+          "item": "hydrologic"
+        },
+        {
+          "type": 2,
+          "item": "model"
+        },
+        {
+          "type": 2,
+          "item": "spatially-distributed hydrologic model"
+        },
+        {
+          "type": 2,
+          "item": "spatially-distributed hydrologic"
+        },
+        {
+          "type": 2,
+          "item": "interface"
+        },
+        {
+          "type": 2,
+          "item": "topoflow"
+        },
+        {
+          "type": 2,
+          "item": "powerful"
+        },
+        {
+          "type": 2,
+          "item": "user-friendly"
+        },
+        {
+          "type": 2,
+          "item": "hydrologic model"
+        },
+        {
+          "type": 2,
+          "item": "climatic forcings"
+        },
+        {
+          "type": 2,
+          "item": "hydrologic variables"
+        },
+        {
+          "type": 2,
+          "item": "basins"
+        }
+      ]
+    },
+    {
+      "property": "Nr-of-pubs",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "8"
+        }
+      ]
+    },
+    {
+      "property": "One-line_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Spatially-distributed, D8-based hydrologic model"
+        }
+      ]
+    },
+    {
+      "property": "Output_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        },
+        {
+          "type": 2,
+          "item": "Binary"
+        }
+      ]
+    },
+    {
+      "property": "Phone",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "303-492-6752"
+        }
+      ]
+    },
+    {
+      "property": "Post_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "t"
+        }
+      ]
+    },
+    {
+      "property": "Postal_address1",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1560 30th street"
+        }
+      ]
+    },
+    {
+      "property": "Postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "80305"
+        }
+      ]
+    },
+    {
+      "property": "Pre_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "t"
+        }
+      ]
+    },
+    {
+      "property": "Program_language_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "IDL (used for version 1.5)"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Apache public license"
+        }
+      ]
+    },
+    {
+      "property": "Programming_language",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Python"
+        }
+      ]
+    },
+    {
+      "property": "Run_time_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Minutes to hours"
+        }
+      ]
+    },
+    {
+      "property": "Source_code_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Through web repository"
+        }
+      ]
+    },
+    {
+      "property": "Source_web_address",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://github.com/peckhams/topoflow"
+        }
+      ]
+    },
+    {
+      "property": "Spatial_dimensions",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2D"
+        }
+      ]
+    },
+    {
+      "property": "Spatialscale",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Landscape-Scale"
+        },
+        {
+          "type": 2,
+          "item": "Watershed-Scale"
+        }
+      ]
+    },
+    {
+      "property": "Start_year_development",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2001"
+        }
+      ]
+    },
+    {
+      "property": "State",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Colorado"
+        }
+      ]
+    },
+    {
+      "property": "Supported_platforms",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Unix"
+        },
+        {
+          "type": 2,
+          "item": "Linux"
+        },
+        {
+          "type": 2,
+          "item": "Mac OS"
+        },
+        {
+          "type": 2,
+          "item": "Windows"
+        }
+      ]
+    },
+    {
+      "property": "Type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Model developer"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_needed",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "t"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "VisIt or RiverTools"
+        }
+      ]
+    },
+    {
+      "property": "_ASK",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "TopoFlow#3002##_QUERY9dc58d6c133fade891dd8cfdee4b3658"
+        },
+        {
+          "type": 9,
+          "item": "TopoFlow#3002##_QUERYf827ab8b81c27b3081932110253db0a7"
+        },
+        {
+          "type": 9,
+          "item": "TopoFlow#3002##_QUERYdfb8ba22f24d8b31468ce7a2925ca174"
+        }
+      ]
+    },
+    {
+      "property": "_CDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2009/2/18/15/37/26/0"
+        }
+      ]
+    },
+    {
+      "property": "_INST",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Pages_using_duplicate_arguments_in_template_calls#14##"
+        },
+        {
+          "type": 9,
+          "item": "Models#14##"
+        }
+      ]
+    },
+    {
+      "property": "_LEDT",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "WikiSysop#2##"
+        }
+      ]
+    },
+    {
+      "property": "_MDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2020/9/17/2/18/52/0"
+        }
+      ]
+    },
+    {
+      "property": "_SKEY",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "TopoFlow"
+        }
+      ]
+    }
+  ],
+  "sobj": [
+    {
+      "subject": "TopoFlow#3002##_QUERY9dc58d6c133fade891dd8cfdee4b3658",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "0"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[:Model:TopoFlow]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "TopoFlow# QUERY9dc58d6c133fade891dd8cfdee4b3658"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "TopoFlow#3002##_QUERYf827ab8b81c27b3081932110253db0a7",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[User:+]] [[First name member::Scott]] [[Last name member::Peckham]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "TopoFlow# QUERYf827ab8b81c27b3081932110253db0a7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "TopoFlow#3002##_QUERYdfb8ba22f24d8b31468ce7a2925ca174",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "ul"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[Model:+]] [[First name::Scott]] [[Last name::Peckham]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "TopoFlow# QUERYdfb8ba22f24d8b31468ce7a2925ca174"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+  "version": 2
+}

@@ -1,0 +1,68 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Auto_marsh",
+    "codeRepository": "https://github.com/csdms-contrib/Auto_marsh",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/csdms-contrib/Auto_marsh",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Nicoletta",
+            "familyName": "Leonardi",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Boston University",
+                "address": "Boston, United States"
+            },
+            "email": "mailto:nicleona@bu.edu"
+        }
+    ],
+    "keywords": [
+        "Coastal",
+        "cellula",
+        "attack",
+        "reproduce the effect",
+        "salt marsh erosion",
+        "soil resistance",
+        "model reproduce",
+        "soil",
+        "salt marsh",
+        "randomly distributed resistance",
+        "model",
+        "wind waves",
+        "resistance",
+        "erosion",
+        "eroded",
+        "model consists",
+        "critical soil height",
+        "distributed resistance",
+        "cellula automata",
+        "extreme events",
+        "ecogemorphology",
+        "auto marsh",
+        "salt marsh",
+        "cellula automata",
+        "wind waves",
+        "extreme events",
+        "ecogemorphology"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "description": "The model reproduce the effect of a variability in soil resistance on salt marsh erosion by wind waves.\nThe model consists of a two-dimensional square lattice whose elements, i, have randomly distributed resistance, r_i. The critical soil height H_ci for boundary stability is calculated from soil shear strength values and is assumed as representative of soil resistance, as it is a convenient way to take into account general soil and ambient conditions. The erosion rate of each cell, E_i, which represents the erosion of an homogeneous marsh portion, is defined as:\nE_i=\u3016\u03b1P\u3017^\u03b2 exp (-H_ci/H)\nWhere \u03b1 and \u03b2 are non-dimensional constants set equal to 0.35 and 1.1 respectively, P is the wave power, and H is the mean wave height. \nThe model follows three rules: i) only neighbors of previously eroded cells can be eroded. Therefore, only cells having at least one side in common with previously eroded elements are susceptible to erosion; ii) at every time step one element is eroded at random with probability p_i=E_i/(\u2211E_i ); iii) A cell is removed from the domain if it remains isolated from the rest of the boundary (no neighbors).",
+    "url": "https://csdms.colorado.edu/wiki/Model:Auto_marsh"
+}

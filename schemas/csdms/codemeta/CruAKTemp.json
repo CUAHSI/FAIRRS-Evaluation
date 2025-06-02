@@ -1,0 +1,50 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "CruAKTemp",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "operatingSystem": [
+        "n/a"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Scott",
+            "familyName": "Stewart",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Colorado",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:scottincolorado@gmail.com"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Irina",
+            "familyName": "Stewart",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Colorado",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:irina.overeem@colorado.edu"
+        }
+    ],
+    "dateCreated": "2016-01-01",
+    "keywords": [
+        "Climate"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "description": "CruAKtemp is a python 2.7 package that is a data component which serves to provide onthly temperature data over the 20th century for permafrost modeling. The original dataset at higher resolution can be found here:\nhttp://ckan.snap.uaf.edu/dataset/historical-monthly-and-derived-temperature-products-771m-cru-ts\nThe geographical extent of this CRUAKtemp dataset has been reduced to greatly reduce the number of ocean or Canadian pixels. Also, the spatial resolution has been reduced by a factor of 13 in each direction, resulting in an effective pixel resolution of about 10km.\nThe data are monthly average temperatures for each month from January 1901 through December 2009.",
+    "url": "https://csdms.colorado.edu/wiki/Model:CruAKTemp",
+    "relatedLink": "https://github.com/permamodel/cruAKtemp"
+}

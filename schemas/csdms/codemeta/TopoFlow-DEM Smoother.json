@@ -1,0 +1,32 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "TopoFlow-DEM_Smoother",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    },
+    "applicationCategory": "Tool",
+    "operatingSystem": [],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Scott",
+            "familyName": "Peckham",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "CSDMS, University of Colorado, INSTAAR",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:scott.peckham@colorado.edu"
+        }
+    ],
+    "keywords": [
+        "Hydrology"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "description": "This tool is used to creates a \"profile-smoothed\" DEM from an input DEM.",
+    "url": "https://csdms.colorado.edu/wiki/Model:TopoFlow-DEM_Smoother"
+}

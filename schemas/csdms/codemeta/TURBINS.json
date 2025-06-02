@@ -1,0 +1,72 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "TURBINS",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "memoryRequirements": "Roughly, 1 GB per 270,000 grid cells.",
+    "operatingSystem": [
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Mohamad",
+            "familyName": "Nasr-Azadani",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "UC Santa Barbara",
+                "address": "Santa Barbara, United States"
+            },
+            "email": "mailto:mmnasr@gmail.com"
+        }
+    ],
+    "dateCreated": "2007-01-01",
+    "keywords": [
+        "Marine",
+        "navier",
+        "stokes",
+        "boundary",
+        "topographies",
+        "modular code written",
+        "highly parallel modular",
+        "parallel modular code",
+        "turbidity currents interacting",
+        "modular code",
+        "code written",
+        "capable of modeling",
+        "modeling gravity",
+        "turbidity currents",
+        "complex topographies",
+        "pressure poisson equation",
+        "highly parallel",
+        "parallel modular",
+        "currents interacting",
+        "turbins",
+        "turbidity current",
+        "numerical simulation",
+        "complex topography",
+        "polydisperse suspension",
+        "sedimentation",
+        "parallel computing",
+        "turbidity current",
+        "numerical simulation",
+        "complex topography",
+        "polydisperse suspension",
+        "sedimentation",
+        "parallel computing"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "description": "TURBINS, a highly parallel modular code written in C, is capable of modeling gravity and turbidity currents interacting with complex topographies in two and three dimensions. Accurate treatment of the complex geometry, implementation of an efficient and scalable parallel solver, i.e. multigrid solver via PETSc and HYPRE to solve the pressure Poisson equation, and parallel IO are some of the features of TURBINS. \nTURBINS enables us to tackle problems involving the interaction of turbidity currents with complex topographies. It provides us with a numerical tool for quantifying the flow field properties and sedimentation processes, e.g. energy transfer, dissipation, and wall shear stress, which are difficult to obtain even at laboratory scales. By benefiting from massively parallel simulations, we hope to understand the underlying physics and processes related to the formation and deposition of particles due to the occurrence of turbidity currents.",
+    "url": "https://csdms.colorado.edu/wiki/Model:TURBINS"
+}

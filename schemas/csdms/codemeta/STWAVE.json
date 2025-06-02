@@ -1,0 +1,61 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "STWAVE",
+    "codeRepository": "http://chl.erdc.usace.army.mil/chl.aspx?p=s&a=SOFTWARE;9",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "downloadUrl": "http://chl.erdc.usace.army.mil/chl.aspx?p=s&a=SOFTWARE;9",
+    "operatingSystem": [
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Jane",
+            "familyName": "Smith",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "US Army Corps of Engineers, Coastal and Hydraulics Laboratory",
+                "address": "Vicksburg, United States"
+            },
+            "email": "mailto:Jane.M.Smith@usace.army.mil"
+        }
+    ],
+    "keywords": [
+        "Coastal",
+        "model",
+        "spectral",
+        "wave",
+        "steady-state",
+        "steady state spectral",
+        "state spectral wave",
+        "nearshore wind-wave growth",
+        "steady state",
+        "state spectral",
+        "stwave simulates depth-induced",
+        "half-plane model",
+        "parametric wave growth",
+        "model for nearshore",
+        "nearshore wind-wave",
+        "steepness-induced wave breaking",
+        "growing wave field",
+        "wind-wave growth",
+        "depth-induced wave refraction",
+        "spectral wave",
+        "wave dynamics",
+        "stwave",
+        "wave dynamics"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "STWAVE (STeady State spectral WAVE) is an easy-to-apply, flexible, robust, half-plane model for nearshore wind-wave growth and propagation. STWAVE simulates depth-induced wave refraction and shoaling, current-induced refraction and shoaling, depth- and steepness-induced wave breaking, diffraction, parametric wave growth because of wind input, and wave-wave interaction and white capping that redistribute and dissipate energy in a growing wave field.",
+    "url": "https://csdms.colorado.edu/wiki/Model:STWAVE"
+}

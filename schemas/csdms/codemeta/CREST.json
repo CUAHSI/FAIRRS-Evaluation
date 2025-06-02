@@ -1,0 +1,62 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "CREST",
+    "codeRepository": "http://hydro.ou.edu/research/crest/",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran90"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "http://hydro.ou.edu/research/crest/",
+    "operatingSystem": [
+        "Unix",
+        "Linux"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Jiahu",
+            "familyName": "Wang",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Oklahoma",
+                "address": "Norman, United States"
+            },
+            "email": "mailto:yanghong@ou.edu"
+        }
+    ],
+    "dateCreated": "2008-01-01",
+    "keywords": [
+        "Hydrology",
+        "crest",
+        "simulation",
+        "coupled",
+        "routing",
+        "servir project team",
+        "nasa servir project",
+        "university of oklahoma",
+        "project team",
+        "nasa servir",
+        "servir project",
+        "hybrid modeling strategy",
+        "distributed hydrological model",
+        "excess storage",
+        "distributed hydrological",
+        "crest model",
+        "hybrid modeling",
+        "modeling strategy",
+        "hydrological model",
+        "continental",
+        "continental"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "The Coupled Routing and Excess STorage (CREST) distributed hydrological model is a hybrid modeling strategy that was recently developed by the University of Oklahoma (http://hydro.ou.edu) and NASA SERVIR Project Team. CREST simulates the spatiotemporal variation of water and energy fluxes and storages on a regular grid with the grid cell resolution being user-defined, thereby enabling global- and regional-scale applications. The scalability of CREST simulations is accomplished through sub-grid scale representation of soil moisture storage capacity (using a variable infiltration curve) and runoff generation processes (using linear reservoirs).  The CREST model was initially developed to provide online global flood predictions with relatively coarse resolution, but it is also applicable at small scales, such as single basins. This README file and the accompanying code concentrates on and tests the model at the small scale. The CREST Model can be forced by gridded potential evapotranspiration and precipitation datasets such as, satellite-based precipitation estimates, gridded rain gauge observations, remote sensing platforms such as weather radar, and quantitative precipitation forecasts from numerical weather prediction models.  The representation of the primary water fluxes such as infiltration and routing are closely related to the spatially variable land surface characteristics (i.e., vegetation, soil type, and topography).  The runoff generation component and routing scheme are coupled, thus providing realistic interactions between atmospheric, land surface, and subsurface water.",
+    "url": "https://csdms.colorado.edu/wiki/Model:CREST",
+    "developmentStatus": "Active"
+}

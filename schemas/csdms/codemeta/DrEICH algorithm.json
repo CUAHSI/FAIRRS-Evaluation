@@ -1,0 +1,88 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "DrEICH_algorithm",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C++"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "memoryRequirements": "Varies depending on the input DEM size",
+    "operatingSystem": [
+        "Unix",
+        "Linux"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Fiona",
+            "familyName": "Clubb",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Edinburgh",
+                "address": "Edinburgh, United Kingdom"
+            },
+            "email": "mailto:f.clubb@ed.ac.uk"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Simon",
+            "familyName": "Mudd",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Edinburgh",
+                "address": "Edinburgh, United Kingdom"
+            },
+            "email": "mailto:simon.m.mudd@ed.ac.uk"
+        },
+        {
+            "@type": "Person",
+            "givenName": "David",
+            "familyName": "Milodowski",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Edinburgh",
+                "address": "Edinburgh, United Kingdom"
+            },
+            "email": "mailto:D.T.Milodowski@ed.ac.uk"
+        }
+    ],
+    "dateCreated": "2012-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "algorithm",
+        "data",
+        "chi river profile",
+        "river profile analysis",
+        "predict channel head",
+        "channel head locations",
+        "chi river",
+        "river profile",
+        "profile analysis",
+        "analysis to predict",
+        "river networks",
+        "predict channel",
+        "head locations",
+        "extraction of river",
+        "river",
+        "extracted channel heads",
+        "high resolution lidar",
+        "geomorphology",
+        "hydrological",
+        "bedrock channel erosion",
+        "dreich algorithm",
+        "geomorphology",
+        "hydrological",
+        "bedrock channel erosion"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "description": "This tool uses chi river profile analysis to predict channel head locations across a landscape and therefore allow the extraction of river networks. It is most suitable for use with high resolution LiDAR (1m) DEMs. The model requires an input DEM in float format and will output the extracted channel heads and networks, also in float format. For detailed information about how to use this tool please refer to the documentation (http://www.geos.ed.ac.uk/~smudd/LSDTT_docs/html/channel_heads.html)\nand to the associated paper (http://onlinelibrary.wiley.com/doi/10.1002/2013WR015167/full).",
+    "url": "https://csdms.colorado.edu/wiki/Model:DrEICH_algorithm",
+    "developmentStatus": "As is, no updates are provided"
+}

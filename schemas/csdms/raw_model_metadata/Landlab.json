@@ -1,0 +1,995 @@
+{
+  "subject": "Landlab#3002##",
+  "data": [
+    {
+      "property": "Additional_city",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "New Orleans"
+        },
+        {
+          "type": 2,
+          "item": "Seattle"
+        },
+        {
+          "type": 2,
+          "item": "Boulder"
+        }
+      ]
+    },
+    {
+      "property": "Additional_country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "United States"
+        }
+      ]
+    },
+    {
+      "property": "Additional_first_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Nicole"
+        },
+        {
+          "type": 2,
+          "item": "Erkan"
+        },
+        {
+          "type": 2,
+          "item": "Eric"
+        }
+      ]
+    },
+    {
+      "property": "Additional_institute",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Tulane University"
+        },
+        {
+          "type": 2,
+          "item": "University of Washington"
+        },
+        {
+          "type": 2,
+          "item": "University of Colorado"
+        }
+      ]
+    },
+    {
+      "property": "Additional_last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Gasparini"
+        },
+        {
+          "type": 2,
+          "item": "Istanbulluoglu"
+        },
+        {
+          "type": 2,
+          "item": "Hutton"
+        }
+      ]
+    },
+    {
+      "property": "Additional_postal_address1",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "CSDMS"
+        }
+      ]
+    },
+    {
+      "property": "Additional_postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "80309"
+        }
+      ]
+    },
+    {
+      "property": "Additional_state",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Louisiana"
+        },
+        {
+          "type": 2,
+          "item": "Washington"
+        },
+        {
+          "type": 2,
+          "item": "Colorado"
+        }
+      ]
+    },
+    {
+      "property": "Additional_type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Model developer"
+        }
+      ]
+    },
+    {
+      "property": "Citations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1342"
+        }
+      ]
+    },
+    {
+      "property": "City",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Boulder"
+        }
+      ]
+    },
+    {
+      "property": "CodeReviewed",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "0"
+        }
+      ]
+    },
+    {
+      "property": "Code_CMT_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_IRF_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_openmi_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_optimized",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single Processor"
+        }
+      ]
+    },
+    {
+      "property": "Country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "United States"
+        }
+      ]
+    },
+    {
+      "property": "Current_future_collaborators",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Landlab was created for the scientific community to use and share. We encourage anyone interested to contribute new components and models."
+        }
+      ]
+    },
+    {
+      "property": "Describe_available_calibration_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Varies among components and models"
+        }
+      ]
+    },
+    {
+      "property": "Describe_available_test_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Varies among components and models. All components include internal consistency checks using the doctest package."
+        }
+      ]
+    },
+    {
+      "property": "Describe_ideal_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Varies among components and models"
+        }
+      ]
+    },
+    {
+      "property": "Describe_input_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Because this is a toolkit for model building, there are no set input parameters. Rather, developers use the code to create their own models, with their own unique inputs. \n\nThe ModelParameterDictionary tool provides formatted ASCII input for model parameters. The I/O component also handles input of digital elevation models (DEMs) in standard ArcInfo ASCII format."
+        }
+      ]
+    },
+    {
+      "property": "Describe_key_physical_parameters",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "See documentation at: http://landlab.readthedocs.org"
+        }
+      ]
+    },
+    {
+      "property": "Describe_length_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Depends on application/process"
+        }
+      ]
+    },
+    {
+      "property": "Describe_numerical_limitations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Depends on application/process"
+        }
+      ]
+    },
+    {
+      "property": "Describe_output_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Gridding component provides ASCII and/or netCDF output of grid geometry."
+        }
+      ]
+    },
+    {
+      "property": "Describe_processes",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "As of autumn 2013, the library of process components includes the following:\n\n- diffusion (for conductive heat transport, soil transport over terrain, or other applications of diffusion theory)\n- single-direction flow routing over topography\n- detachment-limited stream erosion\n- solar radiation input as a function of topography, latitude, and time\n- evapotranspiration\n- soil-moisture dynamics\n- stochastic storm generation\n- stochastic wildfire generation\n- impact cratering\n- overland flow / flood inundation"
+        }
+      ]
+    },
+    {
+      "property": "Describe_time_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Depends on application/process"
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCode",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Active"
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCodeYearChecked",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2020"
+        }
+      ]
+    },
+    {
+      "property": "Development_still_active",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:gtucker@cires.colorado.edu"
+        }
+      ]
+    },
+    {
+      "property": "Extended_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Landlab is a Python software package for creating, assembling, and/or running 2D numerical models. Landlab was created to facilitate modeling in earth-surface dynamics, but it is general enough to support a wide range of applications. Landlab provides three different capabilities:\n\n(1) A DEVELOPER'S TOOLKIT for efficiently building 2D models from scratch. The toolkit includes a powerful GRIDDING ENGINE for creating, managing, and iterative updating data on 2D structured or unstructured grids. The toolkit also includes helpful utilities to handle model input and output.\n\n(2) A set of pre-built COMPONENTS, each of which models a particular process. Components can be combined together to create coupled models.\n\n(3) A library of pre-built MODELS that have been created by combining components together.\n\n To learn more, please visit http://landlab.github.io"
+        }
+      ]
+    },
+    {
+      "property": "First_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Greg"
+        }
+      ]
+    },
+    {
+      "property": "H-index",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "21"
+        }
+      ]
+    },
+    {
+      "property": "Input_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        }
+      ]
+    },
+    {
+      "property": "Institute",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "University of Colorado"
+        }
+      ]
+    },
+    {
+      "property": "Last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Tucker"
+        }
+      ]
+    },
+    {
+      "property": "M-quotient",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "1.75"
+        }
+      ]
+    },
+    {
+      "property": "Manual_model_available",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Memory_requirements",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "variable"
+        }
+      ]
+    },
+    {
+      "property": "ModelDomain",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Terrestrial"
+        },
+        {
+          "type": 2,
+          "item": "Hydrology"
+        },
+        {
+          "type": 2,
+          "item": "Coastal"
+        },
+        {
+          "type": 2,
+          "item": "Marine"
+        }
+      ]
+    },
+    {
+      "property": "ModelFramework",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "LandLab"
+        }
+      ]
+    },
+    {
+      "property": "Model_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "As code"
+        }
+      ]
+    },
+    {
+      "property": "Model_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Modular"
+        }
+      ]
+    },
+    {
+      "property": "Model_website",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Documentation online at http://landlab.github.io"
+        }
+      ]
+    },
+    {
+      "property": "Modelautophrases",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "assembling"
+        },
+        {
+          "type": 2,
+          "item": "python"
+        },
+        {
+          "type": 2,
+          "item": "writing"
+        },
+        {
+          "type": 2,
+          "item": "running"
+        },
+        {
+          "type": 2,
+          "item": "python software package"
+        },
+        {
+          "type": 2,
+          "item": "python software"
+        },
+        {
+          "type": 2,
+          "item": "software package"
+        },
+        {
+          "type": 2,
+          "item": "package for creating"
+        },
+        {
+          "type": 2,
+          "item": "landlab"
+        },
+        {
+          "type": 2,
+          "item": "numerical models"
+        },
+        {
+          "type": 2,
+          "item": "models"
+        },
+        {
+          "type": 2,
+          "item": "powerful gridding engine"
+        },
+        {
+          "type": 2,
+          "item": "engine for creating"
+        },
+        {
+          "type": 2,
+          "item": "gridding engine"
+        },
+        {
+          "type": 2,
+          "item": "toolkit"
+        },
+        {
+          "type": 2,
+          "item": "creating"
+        },
+        {
+          "type": 2,
+          "item": "components"
+        }
+      ]
+    },
+    {
+      "property": "Nr-of-pubs",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "62"
+        }
+      ]
+    },
+    {
+      "property": "One-line_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Python software framework for writing, assembling, and running 2D numerical models"
+        }
+      ]
+    },
+    {
+      "property": "Output_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        }
+      ]
+    },
+    {
+      "property": "Phone",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "+1 303 492 6985"
+        }
+      ]
+    },
+    {
+      "property": "Post_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Postal_address1",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Campus Box 399"
+        }
+      ]
+    },
+    {
+      "property": "Postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "80309"
+        }
+      ]
+    },
+    {
+      "property": "Pre_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Other"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "MIT License"
+        }
+      ]
+    },
+    {
+      "property": "Programming_language",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Python"
+        }
+      ]
+    },
+    {
+      "property": "Run_time_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "variable"
+        }
+      ]
+    },
+    {
+      "property": "Source_code_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Through web repository"
+        }
+      ]
+    },
+    {
+      "property": "Source_web_address",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://github.com/landlab/landlab/"
+        }
+      ]
+    },
+    {
+      "property": "Spatial_dimensions",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2D"
+        }
+      ]
+    },
+    {
+      "property": "Spatialscale",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Landscape-Scale"
+        },
+        {
+          "type": 2,
+          "item": "Watershed-Scale"
+        },
+        {
+          "type": 2,
+          "item": "Reach-Scale"
+        },
+        {
+          "type": 2,
+          "item": "Patch-Scale"
+        }
+      ]
+    },
+    {
+      "property": "Start_year_development",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2012"
+        }
+      ]
+    },
+    {
+      "property": "State",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Colorado"
+        }
+      ]
+    },
+    {
+      "property": "Supported_platforms",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Unix"
+        },
+        {
+          "type": 2,
+          "item": "Linux"
+        },
+        {
+          "type": 2,
+          "item": "Mac OS"
+        },
+        {
+          "type": 2,
+          "item": "Windows"
+        }
+      ]
+    },
+    {
+      "property": "Type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Model developer"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Matlab"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_needed",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "t"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Python, VisIt"
+        }
+      ]
+    },
+    {
+      "property": "_ASK",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Landlab#3002##_QUERY2f0e717793bb5e95536c49df1045ab91"
+        },
+        {
+          "type": 9,
+          "item": "Landlab#3002##_QUERY64015f2246f280bc07cb22032d976845"
+        },
+        {
+          "type": 9,
+          "item": "Landlab#3002##_QUERYaa5130780783d3c23df31b444e48dadf"
+        }
+      ]
+    },
+    {
+      "property": "_CDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2014/2/19/4/31/17/0"
+        }
+      ]
+    },
+    {
+      "property": "_INST",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Models#14##"
+        },
+        {
+          "type": 9,
+          "item": "Pages_using_duplicate_arguments_in_template_calls#14##"
+        }
+      ]
+    },
+    {
+      "property": "_LEDT",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Mpiper#2##"
+        }
+      ]
+    },
+    {
+      "property": "_MDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2021/3/30/18/15/35/0"
+        }
+      ]
+    },
+    {
+      "property": "_SKEY",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Landlab"
+        }
+      ]
+    }
+  ],
+  "sobj": [
+    {
+      "subject": "Landlab#3002##_QUERY2f0e717793bb5e95536c49df1045ab91",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "0"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[:Model:Landlab]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "Landlab# QUERY2f0e717793bb5e95536c49df1045ab91"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Landlab#3002##_QUERY64015f2246f280bc07cb22032d976845",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[User:+]] [[First name member::Greg]] [[Last name member::Tucker]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "Landlab# QUERY64015f2246f280bc07cb22032d976845"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Landlab#3002##_QUERYaa5130780783d3c23df31b444e48dadf",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "ul"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[Model:+]] [[First name::Greg]] [[Last name::Tucker]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "Landlab# QUERYaa5130780783d3c23df31b444e48dadf"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+  "version": 2
+}

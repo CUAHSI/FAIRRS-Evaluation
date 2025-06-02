@@ -1,0 +1,60 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "SWMM",
+    "codeRepository": "http://www2.epa.gov/water-research/storm-water-management-model-swmm",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    },
+    "applicationCategory": "Single",
+    "downloadUrl": "http://www2.epa.gov/water-research/storm-water-management-model-swmm",
+    "operatingSystem": [
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Lewis",
+            "familyName": "Rossman",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "U.S. Environmental Protection Agency (EPA), Ground Water and Ecosystems Restoration Division",
+                "address": "Ada, United States"
+            },
+            "email": "mailto:rossman.lewis@epa.gov"
+        }
+    ],
+    "dateCreated": "1971-01-01",
+    "keywords": [
+        "Hydrology",
+        "Terrestrial",
+        "model",
+        "water",
+        "management",
+        "storm",
+        "epa storm water",
+        "storm water management",
+        "water management model",
+        "epa storm",
+        "management model",
+        "rainfall-runoff simulation model",
+        "primarily urban areas",
+        "dynamic rainfall-runoff simulation",
+        "storm water",
+        "water management",
+        "event or long-term",
+        "dynamic rainfall-runoff",
+        "single event",
+        "primarily urban",
+        "simulation model",
+        "reaches",
+        "swmm",
+        "reaches"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "The EPA Storm Water Management Model (SWMM) is a dynamic rainfall-runoff simulation model used for single event or long-term (continuous) simulation of runoff quantity and quality from primarily urban areas. The runoff component of SWMM operates on a collection of subcatchment areas that receive precipitation and generate runoff and pollutant loads. The routing portion of SWMM transports this runoff through a system of pipes, channels, storage/treatment devices, pumps, and regulators. SWMM tracks the quantity and quality of runoff generated within each subcatchment, and the flow rate, flow depth, and quality of water in each pipe and channel during a simulation period comprised of multiple time steps.",
+    "url": "https://csdms.colorado.edu/wiki/Model:SWMM"
+}

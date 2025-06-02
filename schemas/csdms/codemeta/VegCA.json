@@ -1,0 +1,67 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "VegCA",
+    "codeRepository": "https://github.com/landlab/landlab/tree/master/landlab",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/landlab/landlab/tree/master/landlab",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Sai",
+            "familyName": "Nudurupati",
+            "affiliation": {
+                "@type": "Organization",
+                "address": "Seattle, United States"
+            },
+            "email": "mailto:saisiddu@uw.edu"
+        }
+    ],
+    "dateCreated": "2016-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Ecosystems",
+        "landlab",
+        "cellular",
+        "model",
+        "cellular automata tree",
+        "cellular automata",
+        "grass shrub simulator",
+        "automata tree grass",
+        "based on cellular",
+        "shrub simulator",
+        "automata tree",
+        "simulator",
+        "catgrass",
+        "automata",
+        "tree grass shrub",
+        "population ecology",
+        "species",
+        "competition",
+        "vegca",
+        "population ecology",
+        "cellular automata",
+        "species",
+        "competition"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "This code is based on Cellular Automata Tree Grass Shrub Simulator (CATGraSS). It simulates spatial competition of multiple plant functional types through establishment and mortality. In the current code, tree, grass and shrubs are used.",
+    "url": "https://csdms.colorado.edu/wiki/Model:VegCA",
+    "relatedLink": "https://github.com/landlab/landlab/issues",
+    "developmentStatus": "Only maintenance"
+}

@@ -1,0 +1,914 @@
+{
+  "subject": "GEOtop#3002##",
+  "data": [
+    {
+      "property": "Additional_first_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Stefano"
+        },
+        {
+          "type": 2,
+          "item": "Matteo"
+        }
+      ]
+    },
+    {
+      "property": "Additional_last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Endrizzi"
+        },
+        {
+          "type": 2,
+          "item": "Dall'Amico"
+        }
+      ]
+    },
+    {
+      "property": "Additional_type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Model developer"
+        }
+      ]
+    },
+    {
+      "property": "Citations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1322"
+        }
+      ]
+    },
+    {
+      "property": "City",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Trento"
+        }
+      ]
+    },
+    {
+      "property": "CodeReviewed",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "Code_CMT_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_IRF_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_openmi_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_optimized",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single Processor"
+        }
+      ]
+    },
+    {
+      "property": "Country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Italy"
+        }
+      ]
+    },
+    {
+      "property": "Current_future_collaborators",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes, see list-geotopdev@ing.unitn.it and the developer's website. There is also a list for users: list-geotopusers@ing.unitn.it.\nInformation at http://geotopmodel.github.io/geotop/"
+        }
+      ]
+    },
+    {
+      "property": "Describe_available_calibration_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "There are few test on Rio Corda, a ten square kilometer catchment in Trentino, Italy. Simulations on Little Washita will be made available soon, too."
+        }
+      ]
+    },
+    {
+      "property": "Describe_available_test_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Please look at the GEOtop website: http://www.slideshare.net/GEOFRAMEcafe/geotop-2008?type=powerpoint"
+        }
+      ]
+    },
+    {
+      "property": "Describe_ideal_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "The ideal data set is one as those of Panola catchment."
+        }
+      ]
+    },
+    {
+      "property": "Describe_input_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Please see:  http://geotopmodel.github.io/geotop/"
+        }
+      ]
+    },
+    {
+      "property": "Describe_key_physical_parameters",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Please give a look at http://geotopmodel.github.io/geotop/"
+        }
+      ]
+    },
+    {
+      "property": "Describe_length_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Resolution is limited by RAM. Processes however are parametrized at a few square meter scale."
+        }
+      ]
+    },
+    {
+      "property": "Describe_numerical_limitations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Any of the processes modeling can be obviously improved."
+        }
+      ]
+    },
+    {
+      "property": "Describe_output_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Please see:  http://geotopmodel.github.io/geotop/"
+        }
+      ]
+    },
+    {
+      "property": "Describe_post-processing_software",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "JGrass (http://www.jgrass.org) for visualizing inputs/outputs. Interface with IDL, matlab and R are also being developed."
+        }
+      ]
+    },
+    {
+      "property": "Describe_processes",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Please have a look at: http://www.slideshare.net/GEOFRAMEcafe/geotop-2008?type=powerpoint."
+        }
+      ]
+    },
+    {
+      "property": "Describe_time_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Most forcings are required at hourly scale. Integration time step is what required by numerical algorithms to converge (depends actually on processes)"
+        }
+      ]
+    },
+    {
+      "property": "Development_still_active",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:riccardo.rigon@ing.unitn.it"
+        }
+      ]
+    },
+    {
+      "property": "Extended_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "GEOtop accommodates very complex topography and, besides the water balance integrates all the terms in the surface energy balance equation. For saturated and unsaturated subsurface flow, it uses the 3D Richards’ equation. An accurate treatment of radiation inputs is implemented in order to be able to return surface temperature.\n\nThe model GEOtop simulates the complete hydrological balance in a continuous way, during a whole year, inside a basin and combines the main features of the modern land surfaces models with the distributed rainfall-runoff models.\n\nThe new 0.875 version of GEOtop introduces the snow accumulation and melt module and describes sub-surface flows in an unsaturated media more accurately. With respect to the version 0.750 the updates are fundamental: the codex is completely eviewed, the energy and mass parametrizations are rewritten, the input/output file set is redifined.\n\nGEOtop makes it possible to know the outgoing discharge at the basin's closing section, to estimate the local values at the ground of humidity, of soil temperature, of sensible and latent heat fluxes, of heat flux in the soil and of net radiation, together with other hydrometeorlogical distributed variables. Furthermore it describes the distributed snow water equivalent and surface snow temperature.\n\nGEOtop is a model based on the use of Digital Elevation Models (DEMs). It makes also use of meteorological measurements obtained thought traditional instruments on the ground. Yet, it can also assimilate distributed data like those coming from radar measurements, from satellite terrain sensing or from micrometeorological models."
+        }
+      ]
+    },
+    {
+      "property": "Fax",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "+39-0461-882672"
+        }
+      ]
+    },
+    {
+      "property": "First_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Riccardo"
+        }
+      ]
+    },
+    {
+      "property": "H-index",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "13"
+        }
+      ]
+    },
+    {
+      "property": "Input_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        }
+      ]
+    },
+    {
+      "property": "Institute",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "University of Trento"
+        }
+      ]
+    },
+    {
+      "property": "Last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Rigon"
+        }
+      ]
+    },
+    {
+      "property": "M-quotient",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "0.59"
+        }
+      ]
+    },
+    {
+      "property": "Manual_model_available",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Memory_requirements",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Dependent on DEM size"
+        }
+      ]
+    },
+    {
+      "property": "ModelDomain",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Hydrology"
+        },
+        {
+          "type": 2,
+          "item": "Terrestrial"
+        }
+      ]
+    },
+    {
+      "property": "Model_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "As code"
+        }
+      ]
+    },
+    {
+      "property": "Model_forum",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "http://www.slideshare.net/GEOFRAMEcafe/geotop-2008?type=powerpoint"
+        }
+      ]
+    },
+    {
+      "property": "Model_keywords",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "basins"
+        }
+      ]
+    },
+    {
+      "property": "Model_manual",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Media:geotop 20110719 users man.pdf"
+        }
+      ]
+    },
+    {
+      "property": "Model_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Modular"
+        }
+      ]
+    },
+    {
+      "property": "Model_website",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "http://geotopmodel.github.io/geotop/"
+        }
+      ]
+    },
+    {
+      "property": "Modelautophrases",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "distributed"
+        },
+        {
+          "type": 2,
+          "item": "model"
+        },
+        {
+          "type": 2,
+          "item": "water"
+        },
+        {
+          "type": 2,
+          "item": "budgets"
+        },
+        {
+          "type": 2,
+          "item": "water balance integrates"
+        },
+        {
+          "type": 2,
+          "item": "energy balance equation"
+        },
+        {
+          "type": 2,
+          "item": "accommodates very complex"
+        },
+        {
+          "type": 2,
+          "item": "complex topography"
+        },
+        {
+          "type": 2,
+          "item": "richards’ equation"
+        },
+        {
+          "type": 2,
+          "item": "surface energy balance"
+        },
+        {
+          "type": 2,
+          "item": "balance integrates"
+        },
+        {
+          "type": 2,
+          "item": "geotop accommodates"
+        },
+        {
+          "type": 2,
+          "item": "balance equation"
+        },
+        {
+          "type": 2,
+          "item": "geotop"
+        },
+        {
+          "type": 2,
+          "item": "surface snow temperature"
+        },
+        {
+          "type": 2,
+          "item": "digital elevation models"
+        },
+        {
+          "type": 2,
+          "item": "return surface temperature"
+        },
+        {
+          "type": 2,
+          "item": "models"
+        },
+        {
+          "type": 2,
+          "item": "land surfaces models"
+        },
+        {
+          "type": 2,
+          "item": "basins"
+        }
+      ]
+    },
+    {
+      "property": "Nr-of-pubs",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "30"
+        }
+      ]
+    },
+    {
+      "property": "One-line_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Distributed hydrological model, water and energy budgets"
+        }
+      ]
+    },
+    {
+      "property": "Output_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        }
+      ]
+    },
+    {
+      "property": "Phone",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "+39-0461-882614"
+        }
+      ]
+    },
+    {
+      "property": "Post_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "t"
+        }
+      ]
+    },
+    {
+      "property": "Postal_address1",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Via Mesiano, 77"
+        }
+      ]
+    },
+    {
+      "property": "Postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "I-38100"
+        }
+      ]
+    },
+    {
+      "property": "Pre_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Other"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "--"
+        }
+      ]
+    },
+    {
+      "property": "Programming_language",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Fortran77"
+        },
+        {
+          "type": 2,
+          "item": "C"
+        },
+        {
+          "type": 2,
+          "item": "Java"
+        }
+      ]
+    },
+    {
+      "property": "Run_time_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Depends on the lenght of the period simulated"
+        }
+      ]
+    },
+    {
+      "property": "Source_code_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Through web repository"
+        }
+      ]
+    },
+    {
+      "property": "Source_web_address",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "http://geotopmodel.github.io/geotop/"
+        }
+      ]
+    },
+    {
+      "property": "Spatial_dimensions",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2D"
+        }
+      ]
+    },
+    {
+      "property": "Spatialscale",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Landscape-Scale"
+        }
+      ]
+    },
+    {
+      "property": "Start_year_development",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1997"
+        }
+      ]
+    },
+    {
+      "property": "State",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "NO STATE"
+        }
+      ]
+    },
+    {
+      "property": "Supported_platforms",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Linux"
+        },
+        {
+          "type": 2,
+          "item": "Mac OS"
+        },
+        {
+          "type": 2,
+          "item": "Windows"
+        }
+      ]
+    },
+    {
+      "property": "Type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Technical contact"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_needed",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "t"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "JGrass"
+        }
+      ]
+    },
+    {
+      "property": "_ASK",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "GEOtop#3002##_QUERYf6da6da05b829e16677e553948baaa5a"
+        },
+        {
+          "type": 9,
+          "item": "GEOtop#3002##_QUERY45fb76f497d91e9a2a4b804af61babd0"
+        },
+        {
+          "type": 9,
+          "item": "GEOtop#3002##_QUERY793cad7e1975ade71374ec48030bdf51"
+        }
+      ]
+    },
+    {
+      "property": "_CDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2009/7/15/15/4/17/0"
+        }
+      ]
+    },
+    {
+      "property": "_INST",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Models#14##"
+        },
+        {
+          "type": 9,
+          "item": "Pages_using_duplicate_arguments_in_template_calls#14##"
+        }
+      ]
+    },
+    {
+      "property": "_LEDT",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "WikiSysop#2##"
+        }
+      ]
+    },
+    {
+      "property": "_MDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2020/9/17/2/14/42/0"
+        }
+      ]
+    },
+    {
+      "property": "_SKEY",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "GEOtop"
+        }
+      ]
+    }
+  ],
+  "sobj": [
+    {
+      "subject": "GEOtop#3002##_QUERYf6da6da05b829e16677e553948baaa5a",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "0"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[:Model:GEOtop]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "GEOtop# QUERYf6da6da05b829e16677e553948baaa5a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "GEOtop#3002##_QUERY45fb76f497d91e9a2a4b804af61babd0",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[User:+]] [[First name member::Riccardo]] [[Last name member::Rigon]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "GEOtop# QUERY45fb76f497d91e9a2a4b804af61babd0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "GEOtop#3002##_QUERY793cad7e1975ade71374ec48030bdf51",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "ul"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[Model:+]] [[First name::Riccardo]] [[Last name::Rigon]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "GEOtop# QUERY793cad7e1975ade71374ec48030bdf51"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+  "version": 2
+}

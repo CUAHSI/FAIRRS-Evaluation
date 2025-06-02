@@ -1,0 +1,73 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "TOPMODEL",
+    "codeRepository": "https://cran.r-project.org/package=topmodel",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "downloadUrl": "https://cran.r-project.org/package=topmodel",
+    "operatingSystem": [
+        "Windows"
+    ],
+    "supportingData": [
+        {
+            "@type": "DataFeed",
+            "url": "https://csdms.colorado.edu/csdms_wiki/images/TOPMODEL_Example.zip",
+            "name": "Test Data"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Keith",
+            "familyName": "Beven",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Lancaster University, Department of Environmental Science, Institute of Environmental and Natural Sciences",
+                "address": "Lancaster, United Kingdom"
+            },
+            "email": "mailto:K.Beven@lancaster.ac.uk"
+        }
+    ],
+    "dateCreated": "1974-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "physically",
+        "based",
+        "distributed",
+        "watershed",
+        "infiltration-excess overland flow",
+        "saturation overland flow",
+        "distributed watershed model",
+        "overland flow",
+        "simulates hydrologic fluxes",
+        "subsurface flow",
+        "physically based",
+        "channel routing",
+        "distributed watershed",
+        "infiltration-excess overland",
+        "saturation overland",
+        "produce saturation overland",
+        "hydrologic fluxes",
+        "flow",
+        "model simulates explicit",
+        "basin",
+        "hydrological",
+        "topmodel",
+        "basin",
+        "hydrological"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "TOPMODEL is a physically based, distributed watershed model that simulates hydrologic fluxes of water (infiltration-excess overland flow, saturation overland flow, infiltration, exfiltration, subsurface flow, evapotranspiration, and channel routing) through a watershed. The model simulates explicit groundwater/surface water interactions by predicting the movement of the water table, which determines where saturated land-surface areas develop and have the potential to produce saturation overland flow.",
+    "url": "https://csdms.colorado.edu/wiki/Model:TOPMODEL",
+    "developmentStatus": "Active"
+}

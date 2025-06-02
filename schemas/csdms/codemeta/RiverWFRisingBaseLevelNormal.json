@@ -1,0 +1,67 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "RiverWFRisingBaseLevelNormal",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "operatingSystem": [
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "softwareVersion": "1.0",
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Gary",
+            "familyName": "Parker",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Illinois at Urbana-Champaign",
+                "address": "Urbana, United States"
+            },
+            "email": "mailto:parkerg@illinois.edu"
+        }
+    ],
+    "dateCreated": "1990-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "e-book",
+        "calculator",
+        "level",
+        "steady-state aggradation",
+        "program steadystateag",
+        "program computes",
+        "program",
+        "downstream end",
+        "constant chezy resistance",
+        "grain size",
+        "computes",
+        "steady-state",
+        "aggradation",
+        "computes the steady-state",
+        "chezy resistance coefficient",
+        "size",
+        "base level",
+        "constant chezy",
+        "bed variation",
+        "fluvial morphodynamics",
+        "riverwfrisingbaselevelnormal",
+        "bed variation",
+        "fluvial morphodynamics"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "identifier": "10.1594/IEDA/100156",
+    "description": "This program is a companion to the program SteadyStateAg, which computes the steady-state aggradation of a river with a specified base level rise at the downstream end. This program computes the time evolution toward steady-state aggradation.\n\nThe calculation assumes a specified, constant Chezy resistance coefficient Cz and floodplain width Bf. The sediment is assumed to be uniform with size D. All sediment transport is assumed to occur in a specified fraction of time during which the river is in flood, specified by an intermittency. If grain size D < 2 mm the Engelund-Hansen (1967) formulation for total bed material transport of sand is used. If grain size D >=  2 mm the Parker (1979) bedload transport formulation for gravel is used. The flow is computed using the normal flow approximation. The reach has downchannel length L, and base level is allowed to rise at a specified rate at the downstream end.",
+    "url": "https://csdms.colorado.edu/wiki/Model:RiverWFRisingBaseLevelNormal",
+    "developmentStatus": "As is, no updates are provided"
+}

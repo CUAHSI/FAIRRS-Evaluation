@@ -1,0 +1,65 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "FVshock",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran90"
+        }
+    ],
+    "applicationCategory": "Single",
+    "memoryRequirements": "2 GBytes",
+    "operatingSystem": [
+        "Linux",
+        "Windows"
+    ],
+    "softwareVersion": "0.1",
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Alberto",
+            "familyName": "Canestrelli",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Boston University",
+                "address": "Boston, United States"
+            },
+            "email": "mailto:canestrelli@idra.unipd.it"
+        }
+    ],
+    "dateCreated": "2009-01-01",
+    "keywords": [
+        "Coastal",
+        "volume",
+        "finite",
+        "model",
+        "two-dimensional shallow water",
+        "shallow water equations",
+        "numerical model solves",
+        "sediment transport",
+        "bed-load and suspended",
+        "suspended load",
+        "two-dimensional shallow",
+        "shallow water",
+        "modes of sediment",
+        "canestrelli",
+        "solves the two-dimensional",
+        "water equations",
+        "partial differential equations",
+        "differential equations cast",
+        "numerical model",
+        "hydro-morphodynamic",
+        "fluvial",
+        "fvshock",
+        "hydro-morphodynamic",
+        "fluvial"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "identifier": "10.1594/IEDA/100130",
+    "description": "The numerical model solves the two-dimensional shallow water equations with different modes of sediment transport (bed-load and suspended load) (Canestrelli et al. 2009, Canestrelli et al, 2010). The scheme solves the system of partial differential equations cast in a non-conservative form, but it has the important characteristic of reducing automatically to a conservative scheme if the underlying system of equations is a conservation law.  The scheme thus belongs to the so-called category of \u201cshock-capturing\u201d schemes. At the present I am adding a new module for the computation of mud flows, and I want to apply the model to the Fly River (Papua New Guinea) system.",
+    "url": "https://csdms.colorado.edu/wiki/Model:FVshock"
+}

@@ -1,0 +1,63 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "River_Erosion_Model",
+    "codeRepository": "https://github.com/rodlammers/REM",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C++"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/rodlammers/REM",
+    "operatingSystem": [
+        "Windows",
+        "Has not been tested on non-Windows platforms"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Roderick",
+            "familyName": "Lammers",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Georgia",
+                "address": "Athens, United States"
+            },
+            "email": "mailto:rodlammers@gmail.com"
+        }
+    ],
+    "dateCreated": "2017-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "evolution",
+        "years",
+        "decades",
+        "scale",
+        "channel bed aggradation",
+        "rem mechanistically simulates",
+        "mechanistically simulates channel",
+        "simulates channel bed",
+        "bed aggradation",
+        "rem mechanistically",
+        "river networks",
+        "simulate channel change",
+        "mechanistically simulates",
+        "monte carlo simulations",
+        "channel bed",
+        "channel widening",
+        "running monte carlo",
+        "rem",
+        "simulates channel",
+        "river erosion model"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "REM mechanistically simulates channel bed aggradation/degradation and channel widening in river networks. It has successfully been applied to alluvial river systems to simulate channel change over annual and decadal time scales. REM is also capable of running Monte Carlo simulations (in parallel to reduce computational time) to quantify uncertainty in model predictions.",
+    "url": "https://csdms.colorado.edu/wiki/Model:River_Erosion_Model",
+    "developmentStatus": "Only maintenance"
+}

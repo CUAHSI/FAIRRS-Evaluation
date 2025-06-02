@@ -1,0 +1,63 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "CICE",
+    "codeRepository": "https://github.com/CICE-Consortium/CICE",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran90"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "downloadUrl": "https://github.com/CICE-Consortium/CICE",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Elizabeth",
+            "familyName": "Hunke",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Los Alamos National Laboratory",
+                "address": "Los Alamos, United States"
+            },
+            "email": "mailto:eclare@lanl.gov"
+        }
+    ],
+    "dateCreated": "2008-01-01",
+    "keywords": [
+        "Marine",
+        "Cryosphere",
+        "alamos",
+        "los",
+        "model",
+        "polar sea ice",
+        "computationally efficient model",
+        "simulating the growth",
+        "computationally efficient",
+        "movement of polar",
+        "sea ice model",
+        "sea ice",
+        "polar sea",
+        "ice model suitable",
+        "efficient model",
+        "cice model",
+        "melting",
+        "including process studies",
+        "cice",
+        "global climate models"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "CICE is a computationally efficient model for simulating the growth, melting, and movement of polar sea ice. Designed as one component of coupled atmosphere-ocean-land-ice global climate models, today\u2019s CICE model is the outcome of more than two decades of community collaboration in building a sea ice model suitable for multiple uses including process studies, operational forecasting, and climate simulation.",
+    "url": "https://csdms.colorado.edu/wiki/Model:CICE",
+    "relatedLink": "https://bb.cgd.ucar.edu/cesm/forums/cice-consortium.146/",
+    "developmentStatus": "Active"
+}

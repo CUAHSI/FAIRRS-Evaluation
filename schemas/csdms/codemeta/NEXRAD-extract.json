@@ -1,0 +1,68 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "NEXRAD-extract",
+    "codeRepository": "https://github.com/awickert/nexrad-extract",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "downloadUrl": "https://github.com/awickert/nexrad-extract",
+    "memoryRequirements": "little",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS"
+    ],
+    "softwareVersion": "0.1",
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Andy",
+            "familyName": "Wickert",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Colorado",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:wickert@colorado.edu"
+        }
+    ],
+    "dateCreated": "2011-01-01",
+    "keywords": [
+        "Climate",
+        "Hydrology",
+        "nexrad",
+        "doppler",
+        "radar",
+        "extract",
+        "national weather service",
+        "doppler weather radar",
+        "weather radar network",
+        "doppler weather",
+        "weather service",
+        "radar network operated",
+        "national weather",
+        "python tool",
+        "weather radar",
+        "tool for extracting",
+        "plotting data",
+        "radar network",
+        "network operated",
+        "weather",
+        "hydrological",
+        "nexrad-extract",
+        "Weather",
+        "hydrological"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "identifier": "10.1594/IEDA/100150",
+    "description": "A Python tool for extracting and/or plotting data from the NEXRAD (WSR-88D) Doppler weather radar network operated by the US National Weather Service. This can be used for inputs to models that require a meteorologic component.",
+    "url": "https://csdms.colorado.edu/wiki/Model:NEXRAD-extract"
+}

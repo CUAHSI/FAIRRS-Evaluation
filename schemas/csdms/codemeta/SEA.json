@@ -1,0 +1,61 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "SEA",
+    "codeRepository": "http://www.uea.ac.uk/menu/acad_depts/mth/ocean/SEA/welcome.html",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "http://www.uea.ac.uk/menu/acad_depts/mth/ocean/SEA/welcome.html",
+    "operatingSystem": [
+        "Unix"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "David",
+            "familyName": "Stevens",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of East Anglia",
+                "address": "Norwich, United Kingdom"
+            },
+            "email": "mailto:D.Stevens@uea.ac.uk"
+        }
+    ],
+    "dateCreated": "1984-01-01",
+    "keywords": [
+        "Marine",
+        "southamption",
+        "east",
+        "anglia",
+        "pvm message passing",
+        "message passing library",
+        "primitive equation ocean",
+        "equation ocean general",
+        "ocean general circulation",
+        "general circulation model",
+        "circulation model based",
+        "give good performance",
+        "massively parallel machines",
+        "cox formulation",
+        "pvm message",
+        "passing library",
+        "primitive equation",
+        "equation ocean",
+        "ocean general",
+        "ocean circulation",
+        "sea",
+        "ocean circulation"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "A primitive equation ocean general circulation model based on the Bryan--Semtner--Cox formulation and designed to give good performance on clusters of workstations and massively parallel machines using the PVM message passing library.",
+    "url": "https://csdms.colorado.edu/wiki/Model:SEA"
+}

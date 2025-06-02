@@ -1,0 +1,82 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "WAVEWATCH_III_^TM",
+    "codeRepository": "http://polar.ncep.noaa.gov/waves/index2.shtml",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran90"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "downloadUrl": "http://polar.ncep.noaa.gov/waves/index2.shtml",
+    "operatingSystem": [
+        "Unix",
+        "Linux"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Hendrik",
+            "familyName": "Tolman",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "NOAA/NCEP",
+                "address": "Camp Springs, United States"
+            },
+            "email": "mailto:Hendrik.tolman@NOAA.gov"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Ali",
+            "familyName": "Abdolali",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "NOAA/NCEP",
+                "address": "College park, United States"
+            },
+            "email": "mailto:ali.abdolali@noaa.gov"
+        }
+    ],
+    "dateCreated": "1992-01-01",
+    "keywords": [
+        "Coastal",
+        "Marine",
+        "spectral",
+        "model",
+        "including shallow water",
+        "spectral wave model",
+        "shallow water physcis",
+        "generation random phase",
+        "random phase spectral",
+        "phase spectral wave",
+        "wave model",
+        "including shallow",
+        "water physcis",
+        "generation random",
+        "random phase",
+        "phase spectral",
+        "spectral wave",
+        "shallow water",
+        "physical oceanography",
+        "wavewatch iii ^tm",
+        "physical oceanography"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "Third generation random phase spectral wave model, including shallow water physcis.",
+    "url": "https://csdms.colorado.edu/wiki/Model:WAVEWATCH_III_^TM",
+    "relatedLink": "https://github.com/NOAA-EMC/WW3/wiki",
+    "developmentStatus": "Active"
+}

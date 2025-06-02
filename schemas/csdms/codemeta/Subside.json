@@ -1,0 +1,54 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Subside",
+    "codeRepository": "https://github.com/mcflugen/sedflux",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/mcflugen/sedflux",
+    "memoryRequirements": "Minimal",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "softwareVersion": "2.1",
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Eric",
+            "familyName": "Hutton",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "CSDMS, INSTAAR, University of Colorado",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:huttone@colorado.edu"
+        }
+    ],
+    "dateCreated": "2002-01-01",
+    "keywords": [
+        "Geodynamic",
+        "flexure",
+        "model",
+        "flexure model",
+        "basin uplift or subside",
+        "subside",
+        "flexure",
+        "basin uplift or subside"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Apache public license"
+    },
+    "identifier": "10.1594/IEDA/100169",
+    "description": "1D and 2D flexure model",
+    "url": "https://csdms.colorado.edu/wiki/Model:Subside",
+    "developmentStatus": "As is, no updates are provided"
+}

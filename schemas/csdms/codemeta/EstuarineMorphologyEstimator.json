@@ -1,0 +1,73 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "EstuarineMorphologyEstimator",
+    "codeRepository": "https://github.com/JasperLeuven/EstuarineMorphologyEstimator/",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "downloadUrl": "https://github.com/JasperLeuven/EstuarineMorphologyEstimator/",
+    "operatingSystem": [],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Jasper",
+            "familyName": "Leuven",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Utrecht University",
+                "address": "Utrecht, Netherlands"
+            },
+            "email": "mailto:mail@jasperleuven.nl"
+        }
+    ],
+    "keywords": [
+        "Hydrology",
+        "Coastal",
+        "Marine",
+        "bathymetry",
+        "flow",
+        "imagery",
+        "assessment",
+        "present a python",
+        "predicts the hydrodynamics",
+        "bed elevation",
+        "includes a comprehensive",
+        "comprehensive set",
+        "patterns of channels",
+        "channels and bars",
+        "bars in mere",
+        "python tool",
+        "along-channel width profile",
+        "python",
+        "empirical relations derived",
+        "flow velocity",
+        "along-channel width",
+        "width profile",
+        "estuary",
+        "morphology",
+        "salinity",
+        "rapid assessment",
+        "tool",
+        "estuarinemorphologyestimator",
+        "estuary",
+        "morphology",
+        "salinity",
+        "flow velocity",
+        "rapid assessment",
+        "bathymetry",
+        "tool",
+        "imagery"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "description": "Here, we present a Python tool that includes a comprehensive set of relations that predicts the hydrodynamics, bed elevation and the patterns of channels and bars in mere seconds. Predictions are based on a combination of empirical relations derived from natural estuaries, including a novel predictor for cross-sectional depth distributions, which is dependent on the along-channel width profile. Flow velocity, an important habitat characteristic, is calculated with a new correlation between depth below high water level and peak tidal flow velocity, which was based on spatial numerical modelling. Salinity is calculated from estuarine geometry and flow conditions. The tool only requires an along-channel width profile and tidal amplitude, making it useful for quick assessments, for example of potential habitat in ecology, when only remotely-sensed imagery is available.",
+    "url": "https://csdms.colorado.edu/wiki/Model:EstuarineMorphologyEstimator",
+    "developmentStatus": "Active"
+}

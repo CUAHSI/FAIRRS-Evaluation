@@ -1,0 +1,58 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "RAFEM",
+    "codeRepository": "https://github.com/katmratliff/avulsion-bmi",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/katmratliff/avulsion-bmi",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Katherine",
+            "familyName": "Ratliff",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Environmental Protection Agency (US EPA)",
+                "address": "Research Triangle Park, United States"
+            },
+            "email": "mailto:ratliff.katherine@epa.gov"
+        }
+    ],
+    "dateCreated": "2014-01-01",
+    "keywords": [
+        "Terrestrial",
+        "module",
+        "avulsion",
+        "floodplain",
+        "evolution",
+        "morphodynamic river avulsion",
+        "river avulsion model",
+        "coupled with cem",
+        "morphodynamic river",
+        "avulsion model",
+        "river avulsion",
+        "cem",
+        "morphodynamic",
+        "model",
+        "designed",
+        "rafem"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "Morphodynamic river avulsion model, designed to be coupled with CEM and SEDFLUX3D",
+    "url": "https://csdms.colorado.edu/wiki/Model:RAFEM",
+    "developmentStatus": "Active"
+}

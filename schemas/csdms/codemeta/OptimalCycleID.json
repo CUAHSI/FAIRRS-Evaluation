@@ -1,0 +1,70 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "OptimalCycleID",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Peter",
+            "familyName": "Burgess",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Liverpool",
+                "address": "Liverpool, United Kingdom"
+            },
+            "email": "mailto:p.burgess@es.rhul.ac.uk"
+        }
+    ],
+    "dateCreated": "2015-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Coastal",
+        "Marine",
+        "facies",
+        "numerical",
+        "method",
+        "analyse",
+        "probability matrix approach",
+        "optimised transition probability",
+        "transition probability matrix",
+        "matrix approach",
+        "numerical method",
+        "method to analyse",
+        "analyse a vertical",
+        "vertical succession",
+        "succession of strata",
+        "strata and identify",
+        "cyclical arrangement",
+        "arrangement of constituent",
+        "constituent facies",
+        "optimised transition",
+        "transition probability",
+        "cyclicity",
+        "strata",
+        "markov",
+        "optimalcycleid",
+        "cyclicity",
+        "strata",
+        "Markov"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "description": "A numerical method to analyse a vertical succession of strata and identify the most cyclical arrangement of constituent facies using an optimised transition probability matrix approach",
+    "url": "https://csdms.colorado.edu/wiki/Model:OptimalCycleID",
+    "developmentStatus": "Only maintenance"
+}

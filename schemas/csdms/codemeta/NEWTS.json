@@ -1,0 +1,65 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "NEWTS",
+    "codeRepository": "https://code.usgs.gov/spcmsc/newts",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://code.usgs.gov/spcmsc/newts",
+    "operatingSystem": [
+        "Unix",
+        "Mac OS",
+        "Windows"
+    ],
+    "softwareVersion": "v1.0",
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Rose",
+            "familyName": "Palermo",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "USGS",
+                "address": "St. Petersburg, United States"
+            },
+            "email": "mailto:rpalermo@usgs.gov"
+        }
+    ],
+    "dateCreated": "2023-01-01",
+    "keywords": [
+        "Coastal",
+        "newts",
+        "numerical",
+        "scarps",
+        "erosion",
+        "transgressive scarps",
+        "waves and transgressive",
+        "numerical model",
+        "framework to simulate",
+        "closed-basin coastline",
+        "coastline through time",
+        "time by fetch-dependent",
+        "coastal erosion",
+        "fetch-dependent erosion",
+        "uniform erosion",
+        "erosion by waves",
+        "model of coastal",
+        "coastline erosion",
+        "wave erosion",
+        "Coastline erosion",
+        "wave erosion"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "identifier": "10.5066/P9Q6GDGP",
+    "description": "The Numerical model of coastal Erosion by Waves and Transgressive Scarps (NEWTS) model is a framework to simulate the erosion of a closed-basin coastline through time by fetch-dependent erosion or uniform erosion.",
+    "url": "https://csdms.colorado.edu/wiki/Model:NEWTS",
+    "developmentStatus": "Active"
+}

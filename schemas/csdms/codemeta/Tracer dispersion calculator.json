@@ -1,0 +1,80 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Tracer_dispersion_calculator",
+    "codeRepository": "https://github.com/vipenrica/tracer-stone-modeling",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/vipenrica/tracer-stone-modeling",
+    "memoryRequirements": "a laptop or desktop computer should be more than enough",
+    "operatingSystem": [
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Enrica",
+            "familyName": "Viparelli",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of South Carolina",
+                "address": "Columbia, United States"
+            },
+            "email": "mailto:viparell@cec.sc.edu"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Amanda",
+            "familyName": "Balkus",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of South Carolina",
+                "address": "Columbia, United States"
+            },
+            "email": "mailto:ABALKUS@email.sc.edu"
+        }
+    ],
+    "dateCreated": "2021-01-01",
+    "keywords": [
+        "Terrestrial",
+        "river",
+        "model",
+        "computes",
+        "streamwise",
+        "morphodynamic framework proposed",
+        "equilibrium gravel bed",
+        "mountainous halfmoon creek",
+        "braided buech river",
+        "vertically continuous",
+        "morphodynamic framework",
+        "framework proposed",
+        "streamwise and vertical",
+        "vertical dispersal",
+        "patch of tracers",
+        "tracers installed",
+        "equilibrium gravel",
+        "halfmoon creek",
+        "buech river",
+        "gravel bed",
+        "tracers",
+        "gravel-bed rivers",
+        "bedload transport",
+        "tracer dispersion calculator",
+        "tracers",
+        "gravel-bed rivers",
+        "bedload transport"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "The model uses the vertically continuous (not active layer-based), morphodynamic framework proposed by Parker, Paola an Leclair in 2000 to model the streamwise and vertical dispersal of a patch of tracers installed in a equilibrium gravel bed. The model was validated at laboratory and field scales on the mountainous Halfmoon Creek, USA, and on the braided Buech River, France.\nDifferent versions of the model are uploaded in the github folder because the formulaiton for the calculation of the formative bed shear stress varied depending on the available data. \n\nREFERENCE\nParker, G., Paola, C. & Leclair, S. (2000). Probabilistic Exner sediment continuity equation for mixtures with no active layer. Journal of Hydraulic Engineering, 126 (11), 818-826.",
+    "url": "https://csdms.colorado.edu/wiki/Model:Tracer_dispersion_calculator",
+    "developmentStatus": "Active"
+}

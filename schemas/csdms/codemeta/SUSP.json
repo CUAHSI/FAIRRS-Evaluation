@@ -1,0 +1,61 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "SUSP",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        }
+    ],
+    "applicationCategory": "Single",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "softwareVersion": "0.1",
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Rudy",
+            "familyName": "Slingerland",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Penn State University",
+                "address": "University Park, United States"
+            },
+            "email": "mailto:sling@geosc.psu.edu"
+        }
+    ],
+    "dateCreated": "1992-01-01",
+    "keywords": [
+        "Terrestrial",
+        "suspended",
+        "subroutine",
+        "calculates non-equilibrium suspended",
+        "non-equilibrium suspended load",
+        "suspended load transport",
+        "load transport rates",
+        "calculates non-equilibrium",
+        "non-equilibrium suspended",
+        "suspended load",
+        "load transport",
+        "transport rates",
+        "size-density fractions",
+        "calculates",
+        "bed",
+        "fluvial morphodynamics",
+        "susp",
+        "fluvial morphodynamics"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "identifier": "10.1594/IEDA/100171",
+    "description": "Calculates non-equilibrium suspended load transport rates of various size-density fractions in the bed",
+    "url": "https://csdms.colorado.edu/wiki/Model:SUSP",
+    "developmentStatus": "As is, no updates are provided"
+}

@@ -1,0 +1,119 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "SiStER",
+    "codeRepository": "https://github.com/jaolive/SiStER",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/jaolive/SiStER",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Jean-Arthur",
+            "familyName": "Olive",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Massachusetts Institute of Technology, Woods Hole Oceanographic Institution Joint Program in Oceanography,",
+                "address": "Cambridge, United States"
+            },
+            "email": "mailto:jaolive@ldeo.columbia.edu"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Eric",
+            "familyName": "Mittelstaedt",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Idaho",
+                "address": "Moscow, United States"
+            },
+            "email": "mailto:emittelstaedt@uidaho.edu"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Benjamin",
+            "familyName": "Klein",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Massachusetts Institute of Technology",
+                "address": "Cambridge, United States"
+            },
+            "email": "mailto:bzklein@mit.edu"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Steve",
+            "familyName": "Howell",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Hawaii",
+                "address": "Honolulu, United States"
+            },
+            "email": "mailto:showell@soest.hawaii.edu"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Mark",
+            "familyName": "Behn",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Woods Hole Oceanographic Institution",
+                "address": "Woods Hole, United States"
+            },
+            "email": "mailto:mbehn@whoi.edu"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Garrett",
+            "familyName": "Ito",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Woods Hole Oceanographic Institution",
+                "address": "Woods Hole, United States"
+            },
+            "email": "mailto:gito@hawaii.edu"
+        }
+    ],
+    "dateCreated": "2011-01-01",
+    "keywords": [
+        "Geodynamic",
+        "matlab",
+        "deformation",
+        "simple stokes solver",
+        "simple stokes",
+        "exotic rheologies",
+        "non-linear rheologies",
+        "complex bcs",
+        "solver with exotic",
+        "simulates lithosphere",
+        "continuum mechanics",
+        "sharp contrasts",
+        "material properties",
+        "stokes solver",
+        "stokes flow",
+        "strain localization",
+        "lithosphere and mantle",
+        "mantle deformation",
+        "lithosphere deflection",
+        "sister",
+        "lithosphere deflection",
+        "Mantle deformation"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "SiStER (Simple Stokes solver with Exotic Rheologies) simulates lithosphere and mantle deformation with continuum mechanics: Stokes flow with large strains, strain localization, non-linear rheologies, sharp contrasts in material properties, complex BCs.",
+    "url": "https://csdms.colorado.edu/wiki/Model:SiStER"
+}

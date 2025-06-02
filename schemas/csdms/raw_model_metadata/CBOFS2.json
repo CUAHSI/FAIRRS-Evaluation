@@ -1,0 +1,809 @@
+{
+  "subject": "CBOFS2#3002##",
+  "data": [
+    {
+      "property": "Additional_comments_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "The documentation about ROMS can be found in WikiROMS: https://www.myroms.org/wiki\n\nThere is a very active ROMS user's forum: https://www.myroms.org/forum\n\nNOTICE: REGISTRATION IS NEEDED TO RECEIVE THE SOURCE CODE: https://www.myroms.org/index.php?page=login"
+        }
+      ]
+    },
+    {
+      "property": "Citations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "7780"
+        }
+      ]
+    },
+    {
+      "property": "City",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Silver Spring"
+        }
+      ]
+    },
+    {
+      "property": "CodeReviewed",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "Code_CMT_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_IRF_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Code_openmi_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "United States"
+        }
+      ]
+    },
+    {
+      "property": "Current_future_collaborators",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes, we work with several modeling groups around the world."
+        }
+      ]
+    },
+    {
+      "property": "Describe_available_calibration_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "There are several idealized and realistic test cases. Some of the idealized test cases have quasi-analytical solutions."
+        }
+      ]
+    },
+    {
+      "property": "Describe_available_test_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "We have a website for test problems: http://marine.rutgers.edu/po/index.php?model=test-problems"
+        }
+      ]
+    },
+    {
+      "property": "Describe_ideal_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "We have test cases for both laboratory and field observations. In the past, we have used data from rotating tanks."
+        }
+      ]
+    },
+    {
+      "property": "Describe_input_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "There are hundreds of input parameters for the physical, ecosystem, and sediment models. In addition, there are input scripts for floats, stations, model coupling, and data assimilation."
+        }
+      ]
+    },
+    {
+      "property": "Describe_key_physical_parameters",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Navier-Stokes primitive equations. Bio-optical, biogeochemical, and ecosystem models equations. Cohesive and non cohesive sediment equations. Several vertical turbulece equations (KPP, GLS, MY-2.5). Air-Sea interaction coupling equations (COARE). Bottom boundary layer model equations."
+        }
+      ]
+    },
+    {
+      "property": "Describe_length_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Estuary, regional, and basin scales. There are couple of global applications."
+        }
+      ]
+    },
+    {
+      "property": "Describe_numerical_limitations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ROMS has a predictior-corrector algorithm that is efficient and accuarate. This class of model (terrain-following) exhibits stronger sensitivity to topography which results in pressure gradient errors. ROMS has several pressure gradient algorithms that minimize this problem."
+        }
+      ]
+    },
+    {
+      "property": "Describe_output_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "There are hundreds of output parameters and fields that are written to several NetCDF files."
+        }
+      ]
+    },
+    {
+      "property": "Describe_post-processing_software",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes, ROMS I/O is via NetCDF and follows CF-standard conventions. Therefore, any visualization software for NetCDF files can be used for pre- and post-processing."
+        }
+      ]
+    },
+    {
+      "property": "Describe_processes",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ROMS resolved fast (gravity waves) and slow (Rossby waves) dynamics. Hydrostatic approximation but there is a nonhydrostatic version of ROMS."
+        }
+      ]
+    },
+    {
+      "property": "Describe_time_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Hours, days, seasons. It also can be used for climate research (decades)."
+        }
+      ]
+    },
+    {
+      "property": "Development_still_active",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No"
+        }
+      ]
+    },
+    {
+      "property": "Email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:Lyon.Lanerolle@noaa.gov"
+        }
+      ]
+    },
+    {
+      "property": "Extended_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "This is a special case of the Regional Ocean Modeling System(ROMS). The National Ocean Service presently has an Operational Forecast System (CBOFS) for the Chesapeake Bay which generates only water levels and depth‐integrated currents. As a next generation system, a fully three‐dimensional, baroclinic Forecast System (CBOFS2) was developed, calibrated and validated; this system will produce water levels, currents, temperature and salinity. First, a two‐month tides only simulation was conducted to validate the water levels and currents and thereafter, a synoptic hindcast simulation from June 01, 2003–September 01, 2005 was conducted to validate water levels, currents, temperature and salinity. Upon comparison with observations, CBOFS2 for the most part met the target NOS water level error criteria and for current error, the criteria were met exceptionally well; the temperature and salinity errors were frequently less than 1 C and 3 PSU respectively. Hence, the predictive accuracy of CBOFS2 warranted it being accepted as a suitable three‐dimensional upgrade to CBOFS.\nPlease see https://csdms.colorado.edu/wiki/Model:ROMS for details."
+        }
+      ]
+    },
+    {
+      "property": "First_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Lyon"
+        }
+      ]
+    },
+    {
+      "property": "H-index",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "7"
+        }
+      ]
+    },
+    {
+      "property": "Input_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        }
+      ]
+    },
+    {
+      "property": "Input_format_model_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII (input scripts), NetCDF (input fields)."
+        }
+      ]
+    },
+    {
+      "property": "Institute",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "NOAA"
+        }
+      ]
+    },
+    {
+      "property": "Last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Lanerolle"
+        }
+      ]
+    },
+    {
+      "property": "M-quotient",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "0.22"
+        }
+      ]
+    },
+    {
+      "property": "Manual_model_available",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Memory_requirements",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Depends on application but it is relatively small in distributed-memory since only the tile partition is allocated for global and local arrays. All the state model variables are dynamically allocated and passed as arguments to the computational routines via de-referenced pointer structures."
+        }
+      ]
+    },
+    {
+      "property": "ModelDomain",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Marine"
+        }
+      ]
+    },
+    {
+      "property": "Model_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "As code"
+        }
+      ]
+    },
+    {
+      "property": "Model_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single"
+        }
+      ]
+    },
+    {
+      "property": "Model_website",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "http://www.tidesandcurrents.noaa.gov/ofs/cbofs/cbofs.html"
+        }
+      ]
+    },
+    {
+      "property": "Modelautophrases",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "system"
+        },
+        {
+          "type": 2,
+          "item": "generation"
+        },
+        {
+          "type": 2,
+          "item": "chesapeake"
+        },
+        {
+          "type": 2,
+          "item": "bay"
+        },
+        {
+          "type": 2,
+          "item": "regional ocean modeling"
+        },
+        {
+          "type": 2,
+          "item": "ocean modeling system"
+        },
+        {
+          "type": 2,
+          "item": "national ocean service"
+        },
+        {
+          "type": 2,
+          "item": "regional ocean"
+        },
+        {
+          "type": 2,
+          "item": "ocean modeling"
+        },
+        {
+          "type": 2,
+          "item": "operational forecast system"
+        },
+        {
+          "type": 2,
+          "item": "modeling system"
+        },
+        {
+          "type": 2,
+          "item": "ocean service presently"
+        },
+        {
+          "type": 2,
+          "item": "forecast system"
+        },
+        {
+          "type": 2,
+          "item": "baroclinic forecast system"
+        },
+        {
+          "type": 2,
+          "item": "national ocean"
+        },
+        {
+          "type": 2,
+          "item": "ocean service"
+        },
+        {
+          "type": 2,
+          "item": "water levels"
+        },
+        {
+          "type": 2,
+          "item": "special case"
+        },
+        {
+          "type": 2,
+          "item": "cbofs2"
+        }
+      ]
+    },
+    {
+      "property": "Nr-of-pubs",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "7"
+        }
+      ]
+    },
+    {
+      "property": "One-line_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "The Second Generation Chesapeake Bay Operational Forecast System (CBOFS2): A ROMS‐Based Modeling System"
+        }
+      ]
+    },
+    {
+      "property": "Output_format_model_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "NetCDF, CF-convections."
+        }
+      ]
+    },
+    {
+      "property": "Post_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "t"
+        }
+      ]
+    },
+    {
+      "property": "Postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "20901"
+        }
+      ]
+    },
+    {
+      "property": "Pre_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Other"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "MIT/X License, see License_ROMS.txt."
+        }
+      ]
+    },
+    {
+      "property": "Programming_language",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Fortran90"
+        }
+      ]
+    },
+    {
+      "property": "Run_time_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Depends on application and resolution. Usually it takes several hours to run a realistic application for a simulation month."
+        }
+      ]
+    },
+    {
+      "property": "Source_code_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Through web repository"
+        }
+      ]
+    },
+    {
+      "property": "Source_web_address",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://www.myroms.org/index.php?page=login"
+        }
+      ]
+    },
+    {
+      "property": "Start_year_development",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1998"
+        }
+      ]
+    },
+    {
+      "property": "State",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Maryland"
+        }
+      ]
+    },
+    {
+      "property": "Supported_platforms",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Unix"
+        },
+        {
+          "type": 2,
+          "item": "Linux"
+        },
+        {
+          "type": 2,
+          "item": "Windows"
+        }
+      ]
+    },
+    {
+      "property": "Supported_platforms_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "CygWin"
+        }
+      ]
+    },
+    {
+      "property": "Type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Technical contact"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_needed",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "t"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes, a plotting package is provided. It uses the NCAR's graphics Library. Any visualization package for NetCDF files can be used, like IDL, Matlab, and others."
+        }
+      ]
+    },
+    {
+      "property": "_ASK",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "CBOFS2#3002##_QUERY45fcb5bb0db6c9fade5d04089ac488da"
+        },
+        {
+          "type": 9,
+          "item": "CBOFS2#3002##_QUERYa9073b6ecda49368f389bcae2a31207a"
+        },
+        {
+          "type": 9,
+          "item": "CBOFS2#3002##_QUERY3a08a7318804171c81d9fab46fc12ada"
+        }
+      ]
+    },
+    {
+      "property": "_CDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2011/7/27/20/36/35/0"
+        }
+      ]
+    },
+    {
+      "property": "_INST",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Pages_using_duplicate_arguments_in_template_calls#14##"
+        },
+        {
+          "type": 9,
+          "item": "Models#14##"
+        }
+      ]
+    },
+    {
+      "property": "_LEDT",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "WikiSysop#2##"
+        }
+      ]
+    },
+    {
+      "property": "_MDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2020/9/17/2/18/19/0"
+        }
+      ]
+    },
+    {
+      "property": "_SKEY",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "CBOFS2"
+        }
+      ]
+    }
+  ],
+  "sobj": [
+    {
+      "subject": "CBOFS2#3002##_QUERY45fcb5bb0db6c9fade5d04089ac488da",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "0"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[:Model:CBOFS2]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "CBOFS2# QUERY45fcb5bb0db6c9fade5d04089ac488da"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "CBOFS2#3002##_QUERYa9073b6ecda49368f389bcae2a31207a",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[User:+]] [[First name member::Lyon]] [[Last name member::Lanerolle]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "CBOFS2# QUERYa9073b6ecda49368f389bcae2a31207a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "CBOFS2#3002##_QUERY3a08a7318804171c81d9fab46fc12ada",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "ul"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[Model:+]] [[First name::Lyon]] [[Last name::Lanerolle]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "CBOFS2# QUERY3a08a7318804171c81d9fab46fc12ada"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+  "version": 2
+}

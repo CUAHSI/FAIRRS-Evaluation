@@ -1,0 +1,69 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "GSFLOW-GRASS",
+    "codeRepository": "https://github.com/UMN-Hydro/GSFLOW-GRASS",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "downloadUrl": "https://github.com/UMN-Hydro/GSFLOW-GRASS",
+    "memoryRequirements": "ca. 1 Gb",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Windows"
+    ],
+    "softwareVersion": "1.0.0",
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Andrew",
+            "familyName": "Wickert",
+            "affiliation": {
+                "@type": "Organization",
+                "address": "Minneapolis, United States"
+            },
+            "email": "mailto:awickert@umn.edu"
+        }
+    ],
+    "dateCreated": "2017-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "gsflow",
+        "quickly",
+        "output",
+        "generates",
+        "usgs integrated groundwater",
+        "quickly generates input",
+        "generates input files",
+        "surface-water model",
+        "runs gsflow",
+        "usgs integrated",
+        "quickly generates",
+        "integrated groundwater",
+        "outputs of gsflow",
+        "generates input",
+        "input files",
+        "visualize the outputs",
+        "usgs",
+        "hydrological model",
+        "watershed",
+        "groundwater",
+        "gsflow-grass",
+        "Hydrological model",
+        "watershed",
+        "groundwater"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "identifier": "10.5281/zenodo.1487716",
+    "description": "Quickly generates input files for and runs GSFLOW, the USGS integrated groundwater--surface-water model, and can be used to visualize the outputs of GSFLOW.",
+    "url": "https://csdms.colorado.edu/wiki/Model:GSFLOW-GRASS"
+}

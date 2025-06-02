@@ -1,0 +1,42 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Physprop",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Lincoln",
+            "familyName": "Pratson",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Duke University",
+                "address": "Durham, United States"
+            },
+            "email": "mailto:lincoln.pratson@duke.edu"
+        }
+    ],
+    "dateCreated": "1997-01-01",
+    "keywords": [
+        "Coastal",
+        "Marine",
+        "sound propagation",
+        "marine sediment"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "description": "physical property, velocity modeling and synthetic seismic modeling",
+    "url": "https://csdms.colorado.edu/wiki/Model:Physprop"
+}

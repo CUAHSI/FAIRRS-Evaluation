@@ -1,0 +1,66 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "HyLands",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Benjamin",
+            "familyName": "Campforts",
+            "affiliation": {
+                "@type": "Organization",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:benjamin.campforts@colorado.edu"
+        }
+    ],
+    "dateCreated": "2020-01-01",
+    "keywords": [
+        "Terrestrial",
+        "dynamics",
+        "hylands",
+        "model",
+        "simulates",
+        "landscape evolution model",
+        "hylands landscape evolution",
+        "landscape evolution",
+        "evolution model",
+        "hylands landscape",
+        "landlab software package",
+        "landlab modeling framework",
+        "landlab",
+        "landlab project",
+        "hylands model",
+        "community surface dynamics",
+        "hylands model builds",
+        "landlab modeling",
+        "dynamics modeling system",
+        "surface dynamics modeling",
+        "landscape morphology",
+        "landslides",
+        "Landscape Evolution",
+        "Landscape Morphology",
+        "landslides"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "The HyLands Landscape Evolution Model is built using the Landlab software package. The HyLands model builds on three new components: water and sediment is routed using the PriorityFloodFlowRouter, fluvial erosion and sediment transport is calculated using the SpaceLargeScaleEroder while bedrock landsliding and sediment runout is calculated using the BedrockLandslider. These and all other Landlab components used in this paper are part of the open source Landlab modeling framework, version 2.5.0 (Barnhart et al., 2020a; Hobley et al., 2017), which is part of the Community Surface Dynamics Modeling System (Tucker et al., 2021). Source code for the Landlab project is housed on GitHub: http://github.com/landlab/landlab (last access: 17 August 2022). Documentation, installation, instructions, and software dependencies for the entire Landlab project can be found at http://landlab.github.io/ (last access: 17 August 2022). A user manual with an accompanying Jupyter notebooks is available from https://github.com/BCampforts/hylands_modeling (last access: 17 August 2022). The Landlab project is tested on recent-generation Mac, Linux, and Windows platforms. The Landlab modeling framework is distributed under a MIT open-source license. The latest version of the Landlab software package, including the components developed for the HyLands model is archived at: https://doi.org/10.5281/zenodo.6951444 (last access: 17 August 2022).",
+    "url": "https://csdms.colorado.edu/wiki/Model:HyLands",
+    "relatedLink": "https://github.com/landlab/landlab/issues",
+    "developmentStatus": "Active"
+}

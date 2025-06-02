@@ -1,0 +1,57 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "DROG3D",
+    "codeRepository": "http://www-nml.dartmouth.edu/Software/drog3d/",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "http://www-nml.dartmouth.edu/Software/drog3d/",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Brian",
+            "familyName": "Blanton",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Department of Marine Sciences, Univerisity of North Carolina",
+                "address": "Chapel Hill, United States"
+            },
+            "email": "mailto:Brian_Blanton@unc.edu"
+        }
+    ],
+    "keywords": [
+        "Coastal",
+        "Marine",
+        "finite",
+        "drogue",
+        "tracking",
+        "algorithm",
+        "finite element mesh",
+        "tracks passive drogues",
+        "harmonic velocity field",
+        "tracks passive",
+        "velocity field",
+        "finite element",
+        "element mesh",
+        "passive drogues",
+        "harmonic velocity",
+        "tracks",
+        "field",
+        "mesh",
+        "drog3d"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "DROG3D tracks passive drogues with given harmonic velocity field(s) in a 3-D finite element mesh",
+    "url": "https://csdms.colorado.edu/wiki/Model:DROG3D"
+}

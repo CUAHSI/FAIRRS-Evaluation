@@ -1,0 +1,71 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "ATS_(The_Advanced_Terrestrial_Simulator)",
+    "codeRepository": "https://github.com/amanzi/ats",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C++"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/amanzi/ats",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Ethan",
+            "familyName": "Coon",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Oak Ridge National Laboratory",
+                "address": "Oak Ridge, United States"
+            },
+            "email": "mailto:coonet@ornl.gov"
+        }
+    ],
+    "dateCreated": "2020-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "Cryosphere",
+        "simulator",
+        "terrestrial",
+        "integrated",
+        "advanced",
+        "advanced terrestrial simulator",
+        "arctic terrestrial simulator",
+        "terrestrial simulator",
+        "advanced terrestrial",
+        "arctic terrestrial",
+        "distributed hydrology",
+        "solving ecosystem-based",
+        "richards equation coupled",
+        "arctic",
+        "richards equation",
+        "forms of richards",
+        "integrated hydrologic model",
+        "hydrological model",
+        "ecohydrology",
+        "cryosphere",
+        "ats (the advanced terrestrial simulator)",
+        "integrated hydrologic model",
+        "Hydrological model",
+        "ecohydrology",
+        "Cryosphere"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "The Advanced Terrestrial Simulator (formerly sometimes known as the Arctic Terrestrial Simulator) is a code for solving ecosystem-based, integrated, distributed hydrology.\n\nCapabilities are largely based on solving various forms of Richards equation coupled to a surface flow equation, along with the needed sources and sinks for ecosystem and climate models. This can (but need not) include thermal processes (especially ice for frozen soils), evapo-transpiration, albedo-driven surface energy balances, snow, biogeochemistry, plant dynamics, deformation, transport, and much more. In addition, we solve problems of reactive transport in both the subsurface and surface, leveraging external geochemical engines through the Alquimia interface.",
+    "url": "https://csdms.colorado.edu/wiki/Model:ATS_(The_Advanced_Terrestrial_Simulator)",
+    "relatedLink": "https://groups.google.com/forum/#!forum/ats-users",
+    "developmentStatus": "Active"
+}

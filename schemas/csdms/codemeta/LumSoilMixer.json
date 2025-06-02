@@ -1,0 +1,54 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "LumSoilMixer",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "operatingSystem": [],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Harrison",
+            "familyName": "Gray",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "U.S. Geological Survey",
+                "address": "Lakewood, United States"
+            },
+            "email": "mailto:hgray@usgs.gov"
+        }
+    ],
+    "dateCreated": "2018-01-01",
+    "keywords": [
+        "Terrestrial",
+        "soil",
+        "model",
+        "simulate",
+        "non-dimensionalized",
+        "non-dimensional equation",
+        "fokker-plank equation",
+        "mixing soil",
+        "equation for luminescence",
+        "equation",
+        "non-dimensional",
+        "luminescence",
+        "mixing",
+        "derived",
+        "fokker-plank",
+        "lumsoilmixer",
+        "soil",
+        "luminescence"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "description": "This model uses a non-dimensional equation for luminescence in a mixing soil that was derived from the Fokker-Plank Equation.",
+    "url": "https://csdms.colorado.edu/wiki/Model:LumSoilMixer",
+    "developmentStatus": "As is, no updates are provided"
+}

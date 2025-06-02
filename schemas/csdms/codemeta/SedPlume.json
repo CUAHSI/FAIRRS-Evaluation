@@ -1,0 +1,41 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "SedPlume",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        }
+    ],
+    "applicationCategory": "Single",
+    "operatingSystem": [
+        "Linux",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Ruth",
+            "familyName": "Mugford",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Cambridge",
+                "address": "Cambridge, United Kingdom"
+            },
+            "email": "mailto:rm423@cam.ac.uk"
+        }
+    ],
+    "dateCreated": "2003-01-01",
+    "keywords": [
+        "Coastal",
+        "glacial",
+        "sediment deposition"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "SedPlume is an integral model, solving the conservation equations of volume, momentum, buoyancy and sediment flux along the path of a turbulent plume injected into stably stratified ambient fluid. Sedimentation occurs from the plume when the radial component of the sediment fall velocity exceeds the entrainment velocity. When the plume reaches the surface, it is treated as a radially spreading surface gravity current, for which exact solutions exist for the sediment deposition rate. Flocculation of silt and clay particles is modeled using empirical measurements of particle settling velocities in fjords to adjust the settling velocity of fine-grained sediments.",
+    "url": "https://csdms.colorado.edu/wiki/Model:SedPlume"
+}

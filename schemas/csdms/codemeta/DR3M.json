@@ -1,0 +1,60 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "DR3M",
+    "codeRepository": "http://water.usgs.gov/software/DR3M/",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "http://water.usgs.gov/software/DR3M/",
+    "operatingSystem": [
+        "Unix",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Geological Survey",
+            "familyName": "U.S.",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "U.S. Geological Survey",
+                "address": "Reston, United States"
+            },
+            "email": "mailto:h2osoft@usgs.gov"
+        }
+    ],
+    "dateCreated": "1972-01-01",
+    "keywords": [
+        "Hydrology",
+        "Terrestrial",
+        "model",
+        "routing",
+        "distributed",
+        "version",
+        "branched system",
+        "routing storm runoff",
+        "rainfall as input",
+        "system of pipes",
+        "branched",
+        "natural channels",
+        "routing storm",
+        "storm runoff",
+        "watershed model",
+        "natural",
+        "input",
+        "basins",
+        "dr3m",
+        "basins"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "DR3M is a watershed model for routing storm runoff through a Branched system of pipes and (or) natural channels using rainfall as input. DR3M provides detailed simulation of storm-runoff periods selected by the user. There is daily soil-moisture accounting between storms. A drainage basin is represented as a set of overland-flow, channel, and reservoir segments, which jointly describe the drainage features of the basin. This model is usually used to simulate small urban basins. Interflow and base flow are not simulated. Snow accumulation and snowmelt are not simulated.",
+    "url": "https://csdms.colorado.edu/wiki/Model:DR3M"
+}

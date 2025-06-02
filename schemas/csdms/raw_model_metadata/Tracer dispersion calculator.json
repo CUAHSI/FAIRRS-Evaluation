@@ -1,0 +1,1090 @@
+{
+  "subject": "Tracer_dispersion_calculator#3002##",
+  "data": [
+    {
+      "property": "Additional_city",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Columbia"
+        }
+      ]
+    },
+    {
+      "property": "Additional_comments_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "A manuscript titled \"Streamwise and vertical dispersal of tracer stones in an equilibrium bed\" will be submitted soon to Water Resources Research."
+        }
+      ]
+    },
+    {
+      "property": "Additional_country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "United States"
+        }
+      ]
+    },
+    {
+      "property": "Additional_email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:ABALKUS@email.sc.edu"
+        }
+      ]
+    },
+    {
+      "property": "Additional_first_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Amanda"
+        }
+      ]
+    },
+    {
+      "property": "Additional_institute",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "University of South Carolina"
+        }
+      ]
+    },
+    {
+      "property": "Additional_last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Balkus"
+        }
+      ]
+    },
+    {
+      "property": "Additional_postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "29208"
+        }
+      ]
+    },
+    {
+      "property": "Additional_state",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "South Carolina"
+        }
+      ]
+    },
+    {
+      "property": "Additional_type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Model developer"
+        }
+      ]
+    },
+    {
+      "property": "Citations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "0"
+        }
+      ]
+    },
+    {
+      "property": "City",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Columbia"
+        }
+      ]
+    },
+    {
+      "property": "CodeReviewed",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "Code_optimized",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single Processor"
+        }
+      ]
+    },
+    {
+      "property": "Country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "United States"
+        }
+      ]
+    },
+    {
+      "property": "Current_future_collaborators",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Amanda Balkus is modeling tracer dispersal from a continuous source. \nDiscussions on how to extend the model to sediment mixtures are in progress"
+        }
+      ]
+    },
+    {
+      "property": "DataComponent",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No"
+        }
+      ]
+    },
+    {
+      "property": "Describe_available_calibration_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "The experiments by Wong et al. (2007) were used to determine a relation to express the elevation of the maximum probability of particle entrainment in bedload transport to the characteristics of the flow and of the sediment. \nThe Wong et al. (2007) dataset is available in the github repository with the comparison between model results and experimental data."
+        }
+      ]
+    },
+    {
+      "property": "Describe_available_test_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "The model has been tested against field data on tracer dispersal collected on Halfmoon Creek, Colorado USA, by Bradley and Tucker (2012) and Bradley (2017), and on the Buech River, France, by Brousse et al. (2019), Michal Tal and Daniel Vazquez-Tarrio. The Halfmoon Creek data are available as supporting information of Bradley (2017). The Buech River data are in teh model github repository.  \n\nREFERENCES\nBradley, D. N. (2017). Direct observation of heavy-tailed storage times of bed load tracer particles causing anomalous superdiffusion. Geophysical Research Letters, 44, 12227-12235.\nBradley, D. N & Tucker, G. E. (2012). Measuring gravel transport and dispersion in a mountain river using passive radio tracers. Earth Surface Processes and Landforms, 37, 1034-1045. \nBrousse, G., Arnaud-Fassetta, G., Liebault, F., Bertrand, M., Melum, G., Loire, R., Malavoi, J.-R., Fantino, G. & Borgniet, L. (2020). Channel response to sediment replenishment in a large gravel-bed river: The case of the Saint-Sauveur dam in the Buech River (Southern Alps, France). River Research and Application, 36 (6), 880-893."
+        }
+      ]
+    },
+    {
+      "property": "Describe_ideal_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Any experimental dataset on tracer dispersal in an bed that is not too far from equilibirum conditions"
+        }
+      ]
+    },
+    {
+      "property": "Describe_input_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "equilibrium bed profile, sediment size, probabilities of instantaneous bed elevations and of particle entrainment, area of the patch of tracers installed on the bed, entrainment rate of particles in bedload tranport, particle step lenght"
+        }
+      ]
+    },
+    {
+      "property": "Describe_key_physical_parameters",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "The model solves the elevation-specific equation of tracer mass conservation simplified for the case of an equilibrium bed. This simplification is appropriate in slowly varying non-equilibrium conditions at time scales up to 1-2 decades. \nKey physical parameters are the entrainment rate of particles in bedload transport, the average particle step length, the standard deviation of bed elevation change, the elevation of the maximum probability of particle entrainment, the probability functions of bed elevations and of particle entrainment in bedload transport."
+        }
+      ]
+    },
+    {
+      "property": "Describe_length_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "The model domain must be at least 10s of particle step length long."
+        }
+      ]
+    },
+    {
+      "property": "Describe_numerical_limitations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "The elevation specific equation of mass conservation is integrated with the Euler method. Thus, the user should carefully choose the spatial distance between computational nodes in the vertical and streamwise direction, as well as the temporal increment, to guarantee the numerical stability and mass conservation."
+        }
+      ]
+    },
+    {
+      "property": "Describe_output_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "volume fraction content of tracers in the deposit"
+        }
+      ]
+    },
+    {
+      "property": "Describe_processes",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "The model represent the streamwise and vertical dispersal of a patch of tracer stones in an equilibrium gravel bed."
+        }
+      ]
+    },
+    {
+      "property": "Describe_time_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Time scales should be long compared to the time scales of short-term bed elevation changes, i.e. changes in instantaneous bed elevation associated with bedload transport and bedform migration (Blom et al., 2003, Wong et al., 2007). In other words, model results are averages over short-term bed elevation changes. For applications at field scales, the time resolution should be at least of one year because the model runs with formative conditions representative of mean annual values. \n\nREFERENCES\nBlom, A., Ribberink, J. S. & de Vriend, H. (2003). Vertical sorting in bed forms: Flume experiments with a natural and a trimodal sediment mixture. Water Resources Research, 39 (2), 1025.\nWong, M., Parker, G., DeVries, P., Brown, T. M. & Burges, S. J. (2007). Experiments on dispersion of tracer stones under lower-regime plane-bed equilibrium bedload transport. Water Resources Research, 45, W03440."
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCode",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Active"
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCodeYearChecked",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2022"
+        }
+      ]
+    },
+    {
+      "property": "Development_still_active",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:viparell@cec.sc.edu"
+        }
+      ]
+    },
+    {
+      "property": "Extended_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "The model uses the vertically continuous (not active layer-based), morphodynamic framework proposed by Parker, Paola an Leclair in 2000 to model the streamwise and vertical dispersal of a patch of tracers installed in a equilibrium gravel bed. The model was validated at laboratory and field scales on the mountainous Halfmoon Creek, USA, and on the braided Buech River, France.\nDifferent versions of the model are uploaded in the github folder because the formulaiton for the calculation of the formative bed shear stress varied depending on the available data. \n\nREFERENCE\nParker, G., Paola, C. & Leclair, S. (2000). Probabilistic Exner sediment continuity equation for mixtures with no active layer. Journal of Hydraulic Engineering, 126 (11), 818-826."
+        }
+      ]
+    },
+    {
+      "property": "First_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Enrica"
+        }
+      ]
+    },
+    {
+      "property": "Input_format_model_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "hard coded in the model file"
+        }
+      ]
+    },
+    {
+      "property": "Institute",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "University of South Carolina"
+        }
+      ]
+    },
+    {
+      "property": "Last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Viparelli"
+        }
+      ]
+    },
+    {
+      "property": "M-quotient",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "0"
+        }
+      ]
+    },
+    {
+      "property": "Manual_model_available",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No"
+        }
+      ]
+    },
+    {
+      "property": "Memory_requirements",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "a laptop or desktop computer should be more than enough"
+        }
+      ]
+    },
+    {
+      "property": "ModelDomain",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Terrestrial"
+        }
+      ]
+    },
+    {
+      "property": "Model_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "As code"
+        }
+      ]
+    },
+    {
+      "property": "Model_keywords",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "tracers"
+        },
+        {
+          "type": 2,
+          "item": "gravel-bed rivers"
+        },
+        {
+          "type": 2,
+          "item": "bedload transport"
+        }
+      ]
+    },
+    {
+      "property": "Model_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single"
+        }
+      ]
+    },
+    {
+      "property": "Modelautophrases",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "river"
+        },
+        {
+          "type": 2,
+          "item": "model"
+        },
+        {
+          "type": 2,
+          "item": "computes"
+        },
+        {
+          "type": 2,
+          "item": "streamwise"
+        },
+        {
+          "type": 2,
+          "item": "morphodynamic framework proposed"
+        },
+        {
+          "type": 2,
+          "item": "equilibrium gravel bed"
+        },
+        {
+          "type": 2,
+          "item": "mountainous halfmoon creek"
+        },
+        {
+          "type": 2,
+          "item": "braided buech river"
+        },
+        {
+          "type": 2,
+          "item": "vertically continuous"
+        },
+        {
+          "type": 2,
+          "item": "morphodynamic framework"
+        },
+        {
+          "type": 2,
+          "item": "framework proposed"
+        },
+        {
+          "type": 2,
+          "item": "streamwise and vertical"
+        },
+        {
+          "type": 2,
+          "item": "vertical dispersal"
+        },
+        {
+          "type": 2,
+          "item": "patch of tracers"
+        },
+        {
+          "type": 2,
+          "item": "tracers installed"
+        },
+        {
+          "type": 2,
+          "item": "equilibrium gravel"
+        },
+        {
+          "type": 2,
+          "item": "halfmoon creek"
+        },
+        {
+          "type": 2,
+          "item": "buech river"
+        },
+        {
+          "type": 2,
+          "item": "gravel bed"
+        },
+        {
+          "type": 2,
+          "item": "tracers"
+        },
+        {
+          "type": 2,
+          "item": "gravel-bed rivers"
+        },
+        {
+          "type": 2,
+          "item": "bedload transport"
+        },
+        {
+          "type": 2,
+          "item": "tracer dispersion calculator"
+        }
+      ]
+    },
+    {
+      "property": "Nr-of-pubs",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "--"
+        }
+      ]
+    },
+    {
+      "property": "One-line_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "The model computes the streamwise and vertical dispersal of a patch of tracers in a gravel bed river"
+        }
+      ]
+    },
+    {
+      "property": "Output_format_model_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "text files"
+        }
+      ]
+    },
+    {
+      "property": "Post_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "29208"
+        }
+      ]
+    },
+    {
+      "property": "Pre_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "BSD or MIT X11"
+        }
+      ]
+    },
+    {
+      "property": "Programming_language",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Python"
+        }
+      ]
+    },
+    {
+      "property": "Run_time_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "few/several minutes"
+        }
+      ]
+    },
+    {
+      "property": "Source_code_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Through web repository"
+        }
+      ]
+    },
+    {
+      "property": "Source_web_address",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://github.com/vipenrica/tracer-stone-modeling"
+        }
+      ]
+    },
+    {
+      "property": "Spatial_dimensions",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1D"
+        }
+      ]
+    },
+    {
+      "property": "Spatialscale",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Landscape-Scale"
+        },
+        {
+          "type": 2,
+          "item": "Watershed-Scale"
+        },
+        {
+          "type": 2,
+          "item": "Reach-Scale"
+        }
+      ]
+    },
+    {
+      "property": "Start_year_development",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2021"
+        }
+      ]
+    },
+    {
+      "property": "State",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "South Carolina"
+        }
+      ]
+    },
+    {
+      "property": "Supported_platforms",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Mac OS"
+        },
+        {
+          "type": 2,
+          "item": "Windows"
+        }
+      ]
+    },
+    {
+      "property": "Type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Model developer"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Matlab"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_needed",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "t"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "excel, python"
+        }
+      ]
+    },
+    {
+      "property": "_ASK",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Tracer_dispersion_calculator#3002##_QUERY4610c82495a89fd16be8f2e902f02144"
+        },
+        {
+          "type": 9,
+          "item": "Tracer_dispersion_calculator#3002##_QUERYe80e490b08896cf22e527d4a8097f09d"
+        },
+        {
+          "type": 9,
+          "item": "Tracer_dispersion_calculator#3002##_QUERY43ef20a09a71d27e3f7832b0918d1687"
+        }
+      ]
+    },
+    {
+      "property": "_CDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2022/5/23/9/8/55/0"
+        }
+      ]
+    },
+    {
+      "property": "_ERRC",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Tracer_dispersion_calculator#3002##_ERRe276a1ffb0e020a1257eff82199d1d33"
+        },
+        {
+          "type": 9,
+          "item": "Tracer_dispersion_calculator#3002##_ERRf1d465c2abf4947336e4674ceaa22c37"
+        },
+        {
+          "type": 9,
+          "item": "Tracer_dispersion_calculator#3002##_ERR604147abdb14669b9c8f3104544da08b"
+        },
+        {
+          "type": 9,
+          "item": "Tracer_dispersion_calculator#3002##_ERRde9fdd962ce63dcda24f603326a2771d"
+        },
+        {
+          "type": 9,
+          "item": "Tracer_dispersion_calculator#3002##_ERR832e19663f926fa58b1c2c38ccac6efd"
+        }
+      ]
+    },
+    {
+      "property": "_INST",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Models#14##"
+        }
+      ]
+    },
+    {
+      "property": "_LEDT",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Enrica#2##"
+        }
+      ]
+    },
+    {
+      "property": "_MDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2022/5/23/9/8/55/0"
+        }
+      ]
+    },
+    {
+      "property": "_SKEY",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Tracer dispersion calculator"
+        }
+      ]
+    }
+  ],
+  "sobj": [
+    {
+      "subject": "Tracer_dispersion_calculator#3002##_QUERY4610c82495a89fd16be8f2e902f02144",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "0"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[:Model:Tracer dispersion calculator]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "Tracer dispersion calculator# QUERY4610c82495a89fd16be8f2e902f02144"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Tracer_dispersion_calculator#3002##_QUERYe80e490b08896cf22e527d4a8097f09d",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[User:+]] [[First name member::Enrica]] [[Last name member::Viparelli]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "Tracer dispersion calculator# QUERYe80e490b08896cf22e527d4a8097f09d"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Tracer_dispersion_calculator#3002##_QUERY43ef20a09a71d27e3f7832b0918d1687",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "ul"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[Model:+]] [[First name::Enrica]] [[Last name::Viparelli]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "Tracer dispersion calculator# QUERY43ef20a09a71d27e3f7832b0918d1687"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Tracer_dispersion_calculator#3002##_ERRe276a1ffb0e020a1257eff82199d1d33",
+      "data": [
+        {
+          "property": "_ERRP",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "Code_openmi_compliant_or_not#102##"
+            }
+          ]
+        },
+        {
+          "property": "_ERRT",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[8,\"smw-constraint-error-allows-value-list\",\"Not yet\",\"Yes, No but planned, No but possible, No not possible\",\"Code openmi compliant or not\"]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "Tracer dispersion calculator# ERRe276a1ffb0e020a1257eff82199d1d33"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Tracer_dispersion_calculator#3002##_ERRf1d465c2abf4947336e4674ceaa22c37",
+      "data": [
+        {
+          "property": "_ERRP",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "Code_IRF_or_not#102##"
+            }
+          ]
+        },
+        {
+          "property": "_ERRT",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[8,\"smw-constraint-error-allows-value-list\",\"Not yet\",\"Yes, No but planned, No but possible, No not possible\",\"Code IRF or not\"]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "Tracer dispersion calculator# ERRf1d465c2abf4947336e4674ceaa22c37"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Tracer_dispersion_calculator#3002##_ERR604147abdb14669b9c8f3104544da08b",
+      "data": [
+        {
+          "property": "_ERRP",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "Code_CMT_compliant_or_not#102##"
+            }
+          ]
+        },
+        {
+          "property": "_ERRT",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[8,\"smw-constraint-error-allows-value-list\",\"Not yet\",\"Yes, In progress, No but possible, No not possible\",\"Code CMT compliant or not\"]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "Tracer dispersion calculator# ERR604147abdb14669b9c8f3104544da08b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Tracer_dispersion_calculator#3002##_ERRde9fdd962ce63dcda24f603326a2771d",
+      "data": [
+        {
+          "property": "_ERRP",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "Code_PyMT_compliant_or_not#102##"
+            }
+          ]
+        },
+        {
+          "property": "_ERRT",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[8,\"smw-constraint-error-allows-value-list\",\"Not yet\",\"Yes, In progress, No but possible, No not possible\",\"Code PyMT compliant or not\"]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "Tracer dispersion calculator# ERRde9fdd962ce63dcda24f603326a2771d"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Tracer_dispersion_calculator#3002##_ERR832e19663f926fa58b1c2c38ccac6efd",
+      "data": [
+        {
+          "property": "_ERRP",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "H-index#102##"
+            }
+          ]
+        },
+        {
+          "property": "_ERRT",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[2,\"smw_nofloat\",\"--\"]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "Tracer dispersion calculator# ERR832e19663f926fa58b1c2c38ccac6efd"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+  "version": 2
+}

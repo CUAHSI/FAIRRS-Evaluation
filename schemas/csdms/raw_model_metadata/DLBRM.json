@@ -1,0 +1,901 @@
+{
+  "subject": "DLBRM#3002##",
+  "data": [
+    {
+      "property": "Additional_city",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Ann Arbor"
+        }
+      ]
+    },
+    {
+      "property": "Additional_country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "United States"
+        }
+      ]
+    },
+    {
+      "property": "Additional_email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:tim.hunter@noaa.gov"
+        }
+      ]
+    },
+    {
+      "property": "Additional_fax",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "734-741-2055"
+        }
+      ]
+    },
+    {
+      "property": "Additional_first_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Timothy"
+        }
+      ]
+    },
+    {
+      "property": "Additional_institute",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "NOAA/GLERL"
+        }
+      ]
+    },
+    {
+      "property": "Additional_last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Hunter"
+        }
+      ]
+    },
+    {
+      "property": "Additional_phone",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "734-741-2344"
+        }
+      ]
+    },
+    {
+      "property": "Additional_postal_address1",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "NOAA/GLERL, 4840 S. State Rd."
+        }
+      ]
+    },
+    {
+      "property": "Additional_postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "48108-9719"
+        }
+      ]
+    },
+    {
+      "property": "Additional_state",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Michigan"
+        }
+      ]
+    },
+    {
+      "property": "Additional_type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Model developer"
+        }
+      ]
+    },
+    {
+      "property": "Citations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "321"
+        }
+      ]
+    },
+    {
+      "property": "City",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Ann Arbor"
+        }
+      ]
+    },
+    {
+      "property": "CodeReviewed",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "Code_CMT_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_IRF_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_openmi_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_optimized",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single Processor"
+        }
+      ]
+    },
+    {
+      "property": "Country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "United States"
+        }
+      ]
+    },
+    {
+      "property": "Describe_available_calibration_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "See:\nCroley, T. E., II, C. He, and D. H. Lee, 2005. Distributed-parameter large basin runoff model II: application. Journal of Hydrologic Engineering, 10(3):182-191.\nC.He, and Croley, T.E., 2007. Application of a distributed large basin runoff model in the Great Lakes basin. Control Engineering Practice, 15(8): 1001-1011."
+        }
+      ]
+    },
+    {
+      "property": "Describe_available_test_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "The LBRM model has been applied to 121 large watersheds surrounding the Laurentian Great Lakes since its development in the 1980s."
+        }
+      ]
+    },
+    {
+      "property": "Describe_input_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "For every cell in the watershed grid, daily precipitation and air temperature, solar isolation, elevation, slope, flow direction, land use, depths (cm) of USZ (Upper Soil Zone) and LSZ (Lower Soil Zone), available water capacity (%) of USZ and LSZ, soil texture, permeability (cm/h) of USZ and LSZ, Manning's coefficient values, and daily flows (Changsheng He and Thomas E. Croley II, 2007)."
+        }
+      ]
+    },
+    {
+      "property": "Describe_key_physical_parameters",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Croley, T. E., II, and He, C. (2005). “Distributed-parameter large basin runoff model. I: Model development.” J. Hydrol. Eng., 10(3), 173–181."
+        }
+      ]
+    },
+    {
+      "property": "Describe_output_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "DLBRM output includes, for every cell in the watershed grid, surface runoff to surface storage, infiltration to USZ, ET, ETP, percolation from USZ to LSZ, interflow from LSZ to surface storage, deep percolation from LSZ to groundwater storage, groundwater flow from groundwater storage to surface storage, surface moisture storage, USZ, and LSZ moisture storages, groundwater storage, and lateral flows from storages to adjacent cells for the surface (channel outflow), USZ, LSZ, and groundwater (Changsheng He and Thomas E. Croley II, 2007)."
+        }
+      ]
+    },
+    {
+      "property": "Describe_processes",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Precipitation enters the snowpack, if present, and is then available as snowmelt, depending mainly on air temperature and solar radiation. Snowmelt and rainfall partly infiltrate infiltrate into the soil and partly run off directly to surface storage, depending upon the moisture content of the soil. Infiltration is high if the soil is dry, and surface runoff is high if the soil is saturated. Soil moisture evaporates or is transpired by vegetation, depending on the types of vegetation, the season, solar radiation, air temperature, humidity, and wind speed. The remainder percolates into deeper basin storages that feed surface storage through interflows and groundwater flows. Generally, these supplies are high if the soil and groundwater storages are large. Finally, there is a flow into surface storage from the upstream cell, which is routed, along with all the other flows into surface storage, through the cell into the next downstream cell."
+        }
+      ]
+    },
+    {
+      "property": "Development_still_active",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No"
+        }
+      ]
+    },
+    {
+      "property": "Email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:tom.croley@noaa.gov"
+        }
+      ]
+    },
+    {
+      "property": "End_year_development",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "2010"
+        }
+      ]
+    },
+    {
+      "property": "Extended_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "The DLBRM is a distributed, physically based, watershed hydrology model that subdivides a watershed into a 1 km2 grid network and simulates hydrologic processes for the entire watershed sequentially."
+        }
+      ]
+    },
+    {
+      "property": "Fax",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "(734) 741-2055"
+        }
+      ]
+    },
+    {
+      "property": "First_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Thomas"
+        }
+      ]
+    },
+    {
+      "property": "H-index",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "10"
+        }
+      ]
+    },
+    {
+      "property": "Input_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        }
+      ]
+    },
+    {
+      "property": "Institute",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "NOAA/GLERL"
+        }
+      ]
+    },
+    {
+      "property": "Last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Croley"
+        }
+      ]
+    },
+    {
+      "property": "M-quotient",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "0.42"
+        }
+      ]
+    },
+    {
+      "property": "Manual_model_available",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No"
+        }
+      ]
+    },
+    {
+      "property": "Memory_requirements",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "All memory is dynamically sized on the basis of the number of cells in the watershed, so memory requirements are scaled with the size of the watershed."
+        }
+      ]
+    },
+    {
+      "property": "ModelDomain",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Hydrology"
+        }
+      ]
+    },
+    {
+      "property": "Model_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "As code"
+        }
+      ]
+    },
+    {
+      "property": "Model_keywords",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "basins"
+        },
+        {
+          "type": 2,
+          "item": "fluvial morphodynamics"
+        },
+        {
+          "type": 2,
+          "item": "pollutants"
+        }
+      ]
+    },
+    {
+      "property": "Model_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single"
+        }
+      ]
+    },
+    {
+      "property": "Model_website",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "http://www.glerl.noaa.gov/res/Programs/pep/dlbrm/home.html"
+        }
+      ]
+    },
+    {
+      "property": "Modelautophrases",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "model"
+        },
+        {
+          "type": 2,
+          "item": "large"
+        },
+        {
+          "type": 2,
+          "item": "basin"
+        },
+        {
+          "type": 2,
+          "item": "runoff"
+        },
+        {
+          "type": 2,
+          "item": "simulates hydrologic processes"
+        },
+        {
+          "type": 2,
+          "item": "entire watershed sequentially"
+        },
+        {
+          "type": 2,
+          "item": "watershed hydrology model"
+        },
+        {
+          "type": 2,
+          "item": "physically based"
+        },
+        {
+          "type": 2,
+          "item": "grid network"
+        },
+        {
+          "type": 2,
+          "item": "hydrology model"
+        },
+        {
+          "type": 2,
+          "item": "model that subdivides"
+        },
+        {
+          "type": 2,
+          "item": "network and simulates"
+        },
+        {
+          "type": 2,
+          "item": "simulates hydrologic"
+        },
+        {
+          "type": 2,
+          "item": "hydrologic processes"
+        },
+        {
+          "type": 2,
+          "item": "watershed sequentially"
+        },
+        {
+          "type": 2,
+          "item": "watershed hydrology"
+        },
+        {
+          "type": 2,
+          "item": "entire watershed"
+        },
+        {
+          "type": 2,
+          "item": "dlbrm"
+        },
+        {
+          "type": 2,
+          "item": "watershed"
+        },
+        {
+          "type": 2,
+          "item": "basins"
+        },
+        {
+          "type": 2,
+          "item": "fluvial morphodynamics"
+        },
+        {
+          "type": 2,
+          "item": "pollutants"
+        }
+      ]
+    },
+    {
+      "property": "Nr-of-pubs",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "14"
+        }
+      ]
+    },
+    {
+      "property": "One-line_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Distributed Large Basin Runoff Model"
+        }
+      ]
+    },
+    {
+      "property": "Output_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        }
+      ]
+    },
+    {
+      "property": "Phone",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "(734) 741-2238"
+        }
+      ]
+    },
+    {
+      "property": "Post_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Postal_address1",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "NOAA/GLERL, 4840 S. State Rd."
+        }
+      ]
+    },
+    {
+      "property": "Postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "48108-9719"
+        }
+      ]
+    },
+    {
+      "property": "Pre_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Program_language_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Fortran95"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Other"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "--"
+        }
+      ]
+    },
+    {
+      "property": "Source_code_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Through web repository"
+        }
+      ]
+    },
+    {
+      "property": "Source_web_address",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "http://www.glerl.noaa.gov/wr/lbrmexamples.html"
+        }
+      ]
+    },
+    {
+      "property": "Spatial_dimensions",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2D"
+        }
+      ]
+    },
+    {
+      "property": "Spatialscale",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Watershed-Scale"
+        }
+      ]
+    },
+    {
+      "property": "State",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Michigan"
+        }
+      ]
+    },
+    {
+      "property": "Supported_platforms",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Unix"
+        },
+        {
+          "type": 2,
+          "item": "Linux"
+        },
+        {
+          "type": 2,
+          "item": "Windows"
+        }
+      ]
+    },
+    {
+      "property": "Type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Model developer"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_needed",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "_ASK",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "DLBRM#3002##_QUERYbbe4bda6c2b69d65c3e84418021f27ec"
+        },
+        {
+          "type": 9,
+          "item": "DLBRM#3002##_QUERY1b7fe779aa072e514d5b1926ebf3d142"
+        },
+        {
+          "type": 9,
+          "item": "DLBRM#3002##_QUERY1752227135537d8bfc31d9b40b8c2aeb"
+        }
+      ]
+    },
+    {
+      "property": "_CDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2011/3/16/17/40/30/0"
+        }
+      ]
+    },
+    {
+      "property": "_INST",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Pages_using_duplicate_arguments_in_template_calls#14##"
+        },
+        {
+          "type": 9,
+          "item": "Models#14##"
+        }
+      ]
+    },
+    {
+      "property": "_LEDT",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "WikiSysop#2##"
+        }
+      ]
+    },
+    {
+      "property": "_MDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2020/9/17/2/19/46/0"
+        }
+      ]
+    },
+    {
+      "property": "_SKEY",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "DLBRM"
+        }
+      ]
+    }
+  ],
+  "sobj": [
+    {
+      "subject": "DLBRM#3002##_QUERYbbe4bda6c2b69d65c3e84418021f27ec",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "0"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[:Model:DLBRM]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "DLBRM# QUERYbbe4bda6c2b69d65c3e84418021f27ec"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "DLBRM#3002##_QUERY1b7fe779aa072e514d5b1926ebf3d142",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[User:+]] [[First name member::Thomas]] [[Last name member::Croley]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "DLBRM# QUERY1b7fe779aa072e514d5b1926ebf3d142"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "DLBRM#3002##_QUERY1752227135537d8bfc31d9b40b8c2aeb",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "ul"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[Model:+]] [[First name::Thomas]] [[Last name::Croley]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "DLBRM# QUERY1752227135537d8bfc31d9b40b8c2aeb"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+  "version": 2
+}

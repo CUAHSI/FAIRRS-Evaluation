@@ -1,0 +1,62 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "DHSVM",
+    "codeRepository": "https://github.com/pnnl/DHSVM-PNNL",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "downloadUrl": "https://github.com/pnnl/DHSVM-PNNL",
+    "memoryRequirements": "> 512Mb RAM",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Administrator",
+            "familyName": "DHSVM",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Washington, Land Surface Hydrology Research Group, Department of Civil and Environmental Engineering",
+                "address": "Seattle, United States"
+            },
+            "email": "mailto:dhsvm@hydro.washington.edu"
+        }
+    ],
+    "dateCreated": "1997-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "dhsvm",
+        "landscape",
+        "distributed",
+        "hydrologic",
+        "ten years ago",
+        "university of washington",
+        "distributed hydrology model",
+        "years ago",
+        "distributed hydrology",
+        "hydrology model",
+        "ten years",
+        "university",
+        "washington",
+        "ago",
+        "continental",
+        "continental"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "DHSVM is a distributed hydrology model that was developed at the University of Washington more than ten years ago. It has been applied both operationally, for streamflow prediction, and in a research capacity, to examine the effects of forest management on peak streamflow, among other things.",
+    "url": "https://csdms.colorado.edu/wiki/Model:DHSVM",
+    "developmentStatus": "Active"
+}

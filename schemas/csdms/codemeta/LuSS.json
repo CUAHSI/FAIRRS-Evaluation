@@ -1,0 +1,61 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "LuSS",
+    "codeRepository": "https://github.com/nathandbrown/LuSS",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/nathandbrown/LuSS",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Nathan",
+            "familyName": "Brown",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "UC Berkeley",
+                "address": "Berkeley, United States"
+            },
+            "email": "mailto:nathan.brown@berkeley.edu"
+        }
+    ],
+    "dateCreated": "2019-01-01",
+    "keywords": [
+        "Terrestrial",
+        "matlab",
+        "scenarios",
+        "resulting signals shown",
+        "exposures to heat",
+        "signals shown",
+        "heat and sunlight",
+        "resulting signals",
+        "luminescence rate equations",
+        "exposures",
+        "shown",
+        "rate equations",
+        "underlying luminescence rate",
+        "brown",
+        "luminescence",
+        "osl",
+        "luss",
+        "luminescence",
+        "osl"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "description": "Exposures to heat and sunlight can be simulated and the resulting signals shown. For a detailed description of the underlying luminescence rate equations, or to cite your use of LuSS, please use Brown, (2020).",
+    "url": "https://csdms.colorado.edu/wiki/Model:LuSS",
+    "developmentStatus": "As is, no updates are provided"
+}

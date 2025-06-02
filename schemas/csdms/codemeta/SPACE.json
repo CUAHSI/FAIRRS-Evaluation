@@ -1,0 +1,72 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "SPACE",
+    "codeRepository": "https://github.com/landlab/landlab",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/landlab/landlab",
+    "memoryRequirements": "variable",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Charles",
+            "familyName": "Shobe",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "CIRES and Department of Geological Sciences, University of Colorado",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:charles.shobe@colorado.edu"
+        }
+    ],
+    "dateCreated": "2016-01-01",
+    "keywords": [
+        "Terrestrial",
+        "landlab",
+        "calculation",
+        "erosion",
+        "stream power",
+        "conservation and entrainment",
+        "simultaneously conserving mass",
+        "power with alluvium",
+        "alluvium conservation",
+        "landlab space",
+        "enables modeling",
+        "water column",
+        "bedrock-alluvial rivers",
+        "rivers by simultaneously",
+        "simultaneously conserving",
+        "conserving mass",
+        "geoscientific model development",
+        "alluvial bed",
+        "stream",
+        "river erosion",
+        "sediment transport",
+        "bedrock erosion",
+        "landscape evolution",
+        "space",
+        "River Erosion",
+        "Sediment Transport",
+        "Bedrock Erosion",
+        "Landscape Evolution"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "The Landlab SPACE (Stream Power with Alluvium Conservation and Entrainment) enables modeling of bedrock, alluviated, and bedrock-alluvial rivers by simultaneously conserving mass in three reservoirs: the water column, the alluvial bed, and the underlying bedrock. SPACE allows dynamic transitions between detachment-limited, transport-limited, and intermediate states. SPACE calculates sediment fluxes, alluvial layer thickness, and bedrock erosion at all nodes within the model domain. An extended description of the model may be found in Shobe et al (2017, Geoscientific Model Development).",
+    "url": "https://csdms.colorado.edu/wiki/Model:SPACE",
+    "developmentStatus": "Only maintenance"
+}

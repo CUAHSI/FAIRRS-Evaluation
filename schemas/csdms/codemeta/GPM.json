@@ -1,0 +1,43 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "GPM",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C++"
+        }
+    ],
+    "applicationCategory": "Single",
+    "memoryRequirements": "2GB",
+    "operatingSystem": [
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Daniel",
+            "familyName": "Tetzlaff",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Schlumberger",
+                "address": "Houston, United States"
+            },
+            "email": "mailto:dtetzlaff@slb.com"
+        }
+    ],
+    "dateCreated": "2001-01-01",
+    "keywords": [
+        "Coastal",
+        "Terrestrial",
+        "geologic process",
+        "sedimentary record",
+        "compaction"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "Another derivative of the original SEDSIM, completely rewritten from scratch. It uses finite differences (in addition to the original particle-cell method) to speed up steady flow calculations. It also incorporates compaction algorithms. A general description has been published.",
+    "url": "https://csdms.colorado.edu/wiki/Model:GPM"
+}

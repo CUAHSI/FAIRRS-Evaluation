@@ -1,0 +1,67 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Drainage_Density",
+    "codeRepository": "https://github.com/landlab/landlab/tree/master/landlab/components/drainage_density",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "downloadUrl": "https://github.com/landlab/landlab/tree/master/landlab/components/drainage_density",
+    "memoryRequirements": "Dependent on size/resolution of model grid",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Charles",
+            "familyName": "Shobe",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Department of Geological Sciences, University of Colorado",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:charles.shobe@colorado.edu"
+        }
+    ],
+    "dateCreated": "2016-01-01",
+    "keywords": [
+        "Terrestrial",
+        "landlab",
+        "component",
+        "network",
+        "landlab drainage density",
+        "calculates landscape-averaged drainage",
+        "drainage density component",
+        "landscape-averaged drainage density",
+        "component calculates landscape-averaged",
+        "density component calculates",
+        "drainage density",
+        "landlab drainage",
+        "density component",
+        "calculates landscape-averaged",
+        "landscape-averaged drainage",
+        "component calculates",
+        "density",
+        "nearest channel",
+        "landscape morphology",
+        "morphometry",
+        "Drainage Density",
+        "Landscape Morphology",
+        "Morphometry"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "The Landlab Drainage Density component calculates landscape-averaged drainage density, defined as the inverse of the mean distance from any pixel to the nearest channel. The component follows the approach defined in Tucker et al (2001, Geomorphology). The drainage density component does not find channel heads, but takes a user-defined channels mask.",
+    "url": "https://csdms.colorado.edu/wiki/Model:Drainage_Density",
+    "developmentStatus": "Active"
+}

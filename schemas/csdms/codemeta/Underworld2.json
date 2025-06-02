@@ -1,0 +1,72 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Underworld2",
+    "codeRepository": "https://github.com/underworldcode/underworld2",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/underworldcode/underworld2",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Louis",
+            "familyName": "Moresi",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Melbourne",
+                "address": "Victoria, Australia"
+            },
+            "email": "mailto:louis.moresi@unimelb.edu.au"
+        }
+    ],
+    "dateCreated": "2003-01-01",
+    "keywords": [
+        "Geodynamic",
+        "open-source",
+        "finite",
+        "simulations",
+        "large-scale geodynamics simulations",
+        "element code tuned",
+        "finite element code",
+        "geodynamics simulations",
+        "code tuned",
+        "large-scale geodynamics",
+        "finite element",
+        "finite element mesh",
+        "element code",
+        "large-scale flow",
+        "fine-scale damage parameters",
+        "tuned for large-scale",
+        "fluid flow",
+        "large-scale",
+        "convecting medium",
+        "plate tectonics",
+        "lithospheric flexure",
+        "underworld2",
+        "Plate tectonics",
+        "lithospheric flexure"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "Underworld2 is an open-source, particle-in-cell finite element code tuned for large-scale geodynamics simulations. The numerical algorithms allow the tracking of history information through the high-strain deformation associated with fluid flow (for example, transport of the stress tensor in a viscoelastic, convecting medium, or the advection of fine-scale damage parameters by the large-scale flow). The finite element mesh can be static or dynamic, but it is not contrained to move in lock-step with the evolving geometry of the fluid. This hybrid approach is very well suited to complex fluids which is how the solid Earth behaves on a geological timescale.",
+    "url": "https://csdms.colorado.edu/wiki/Model:Underworld2",
+    "relatedLink": "https://www.facebook.com/underworldcode",
+    "review": {
+        "@type": "Review",
+        "reviewBody": "Reviewed and accepted by the Journal of Open Source Software (JOSS)."
+    },
+    "developmentStatus": "Active"
+}

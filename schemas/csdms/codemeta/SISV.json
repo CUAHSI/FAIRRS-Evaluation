@@ -1,0 +1,38 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "SISV",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C++"
+        }
+    ],
+    "applicationCategory": "Single",
+    "memoryRequirements": "5M nodes ~ 1GB",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Peter",
+            "familyName": "Burns",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "UCSB",
+                "address": "Santa Barbara, United States"
+            },
+            "email": "mailto:pburns@umail.ucsb.edu"
+        }
+    ],
+    "dateCreated": "2009-01-01",
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "description": "--",
+    "url": "https://csdms.colorado.edu/wiki/Model:SISV"
+}

@@ -1,0 +1,69 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "OpenFOAM",
+    "codeRepository": "http://www.openfoam.org/download/",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C++"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "downloadUrl": "http://www.openfoam.org/download/",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Henry",
+            "familyName": "Weller",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "OpenCFD Ltd. (SGI)",
+                "address": "Winnersh, United Kingdom"
+            },
+            "email": "mailto:contact@through.web.form"
+        }
+    ],
+    "dateCreated": "2004-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "Coastal",
+        "Marine",
+        "field",
+        "operation",
+        "manipulation",
+        "open",
+        "open field operation",
+        "customized numerical solvers",
+        "continuum mechanics problems",
+        "including computational fluid",
+        "computational fluid dynamics",
+        "open field",
+        "operation and manipulation",
+        "field operation",
+        "numerical solvers",
+        "post-processing utilities",
+        "mechanics problems",
+        "including computational",
+        "fluid dynamics",
+        "development of customized",
+        "customized numerical",
+        "toolbox",
+        "continuum mechanics",
+        "openfoam",
+        "Toolbox",
+        "Computational fluid dynamics",
+        "continuum mechanics"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "description": "OpenFOAM (Open Field Operation and Manipulation) is a toolbox for the development of customized numerical solvers, and pre-/post-processing utilities for the solution of continuum mechanics problems, including computational fluid dynamics.",
+    "url": "https://csdms.colorado.edu/wiki/Model:OpenFOAM",
+    "developmentStatus": "Active"
+}

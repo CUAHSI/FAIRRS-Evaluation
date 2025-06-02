@@ -1,0 +1,772 @@
+{
+  "subject": "RASCAL#3002##",
+  "data": [
+    {
+      "property": "Citations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "0"
+        }
+      ]
+    },
+    {
+      "property": "City",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Reston"
+        }
+      ]
+    },
+    {
+      "property": "CodeReviewed",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "Code_CMT_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_IRF_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_openmi_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_optimized",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single Processor"
+        }
+      ]
+    },
+    {
+      "property": "Country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "United States"
+        }
+      ]
+    },
+    {
+      "property": "Current_future_collaborators",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes."
+        }
+      ]
+    },
+    {
+      "property": "Describe_available_test_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Flow velocities measured under current conditions in the Everglades in ridge (high-flow-resistance) and slough (low-flow-resistance) vegetation communities. This is very limited validation, as it only tests simulated velocities at the low end of the range of velocities the model is capable of simulating. Results are shown in Larsen and Harvey, Geomorphology, 2010, Fig. 4."
+        }
+      ]
+    },
+    {
+      "property": "Describe_ideal_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "More aspects of the model will be tested in the Everglades as part of the upcoming Decompartmentalization Physical Model, a series of experimental flow releases that will elevate water-surface slope and flow velocities and likely entrain sediment. Coinciding measurements of flow velocities and sediment transport characteristics will be made within different vegetation communities as part of the experiment."
+        }
+      ]
+    },
+    {
+      "property": "Describe_input_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "*Input topography OR initial relative coverage of high-resistance vegetation community\n*Annual duration of high-flow events\n*Initial surface-water level\n*Water surface slope during high-flow events\n*Bed sediment diffusion coefficient (for erosion by gravity)\n*Critical shear stress for entrainment of bed sediment (model uses a flocculent sediment transport relation) and corresponding entrainment function\n* Scaling factor affecting maximum peat accretion rate of high-flow-resistance community\n* Scaling factor affecting equilibrium elevation of high-flow-resistance community\n* Scaling factor for vegetative propagation/below-ground biomass expansion rates\n* Scaling factor for lateral velocities\n* Effected suspended sediment settling velocity\n* Soil bulk density\n* Optional: Mean annual evapotranspiration in each vegetation community\n* Optional: Vertical profiles of vegetation stem architecture and diameter and drag coefficient relationships for vegetation communities (otherwise model will use default high-flow-resistance and low-flow-resistance communities = ridge and slough vegetation communities in the Everglades)"
+        }
+      ]
+    },
+    {
+      "property": "Describe_key_physical_parameters",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "See Larsen and Harvey, 2010, Geomorphology and Larsen and Harvey, 2010, American Naturalist (currently in press)"
+        }
+      ]
+    },
+    {
+      "property": "Describe_length_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Code has been most commonly run for 10x5 m cells (with the long axis parallel to flow) and domain size of 1.27 x 1.86 km. Other scales are possible, but adding additional cells will slow down processing. This model is only designed to simulate mean flows; resolution of fine turbulence structure is not possible with the code."
+        }
+      ]
+    },
+    {
+      "property": "Describe_numerical_limitations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "The model was designed for laminar to transitional flows, up to 10 cm/s. Under these conditions, the flow velocity solution is approximate but is realistic and stable."
+        }
+      ]
+    },
+    {
+      "property": "Describe_output_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2-dimensional distributions of the following:\n* Vegetation community (high- or low-flow-resistance)\n* Depth-averaged flow speed and directional components\n* Bed shear stress\n* Soil elevation\n* Suspended sediment concentration"
+        }
+      ]
+    },
+    {
+      "property": "Describe_pre-processing_software",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Pre-processing software is optional and should be used if the code is to be developed for specific vegetation communities. The software creates two-dimensional lookup tables for fluid mechanical parameters such as bed shear stress, depth-averaged drag force, and dispersion coefficients as a function of water depth and mean flow velocity. Lookup tables encapsulate the results of detailed simulations of velocity profiles under different combinations of water-surface slope and surface-water depth. See description in Larsen et al., Ecological Engineering, 2009."
+        }
+      ]
+    },
+    {
+      "property": "Describe_processes",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "The main source code calls sub-modules that simulate the following processes:\n- Vegetation community colonization as a function of local water depth. Colonization is deterministic over some ranges and stochastic in others.\n- Solution of flow field in two dimensions using a cellular automata algorithm (see Larsen and Harvey, 2010, Geomorphology, and Larsen and Harvey, 2010 in press, American Naturalist). The flow field is only simulated during high-flow events that entrain sediment.\n- Sediment transport by flow according to an advection-dispersion equation. Within each high-flow pulse, steady conditions are assumed.\n- Evolution of the topography through sediment transport, peat accretion (which is based on Larsen et al., Ecological Monographs, 2007), diffusive erosion of topographic gradients, vegetative propagation, and below-ground biomass expansion.\n- Adjustment of water levels and high-flow discharge to satisfy a water balance and compensate for the growth of vegetation patches."
+        }
+      ]
+    },
+    {
+      "property": "Describe_time_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Code has been most commonly run at 1 year time steps for up to 6000 years. Time steps are constrained by rates of evolution of topography due to episodic sediment transport events and peat accretion and how quickly those processes affect the flow field. In the situation for which the model was developed, sediment accumulates at a mean rate of 1 mm/yr."
+        }
+      ]
+    },
+    {
+      "property": "Development_still_active",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:lglarsen@usgs.gov"
+        }
+      ]
+    },
+    {
+      "property": "Extended_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Simulates the evolution of landscapes consisting of patches of high-flow-resistance vegetation and low-flow-resistance vegetation as a result of surface-water flow, peat accretion, gravitationally driven erosion, and sediment transport by flow. Was developed for the freshwater Everglades but could also apply to coastal marshes or floodplains. Described in Larsen and Harvey, Geomorphology, 2010 and Larsen and Harvey, American Naturalist, 2010 in press."
+        }
+      ]
+    },
+    {
+      "property": "Fax",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "703-648-5484"
+        }
+      ]
+    },
+    {
+      "property": "First_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Laurel"
+        }
+      ]
+    },
+    {
+      "property": "Input_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        }
+      ]
+    },
+    {
+      "property": "Institute",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "USGS"
+        }
+      ]
+    },
+    {
+      "property": "Last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Larsen"
+        }
+      ]
+    },
+    {
+      "property": "M-quotient",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "0"
+        }
+      ]
+    },
+    {
+      "property": "Manual_model_available",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No"
+        }
+      ]
+    },
+    {
+      "property": "Memory_requirements",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1G"
+        }
+      ]
+    },
+    {
+      "property": "ModelDomain",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Coastal"
+        },
+        {
+          "type": 2,
+          "item": "Hydrology"
+        },
+        {
+          "type": 2,
+          "item": "Terrestrial"
+        }
+      ]
+    },
+    {
+      "property": "Model_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "As code"
+        }
+      ]
+    },
+    {
+      "property": "Model_keywords",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "landscape evolution"
+        },
+        {
+          "type": 2,
+          "item": "everglades"
+        }
+      ]
+    },
+    {
+      "property": "Model_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Modular"
+        }
+      ]
+    },
+    {
+      "property": "Nr-of-pubs",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "--"
+        }
+      ]
+    },
+    {
+      "property": "One-line_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Landscape evolution resulting from feedback between flow, vegetation, and sediment"
+        }
+      ]
+    },
+    {
+      "property": "Output_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        },
+        {
+          "type": 2,
+          "item": "Binary"
+        }
+      ]
+    },
+    {
+      "property": "Phone",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "703-648-5891"
+        }
+      ]
+    },
+    {
+      "property": "Post_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Postal_address1",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "12201 Sunrise Valley Drive"
+        }
+      ]
+    },
+    {
+      "property": "Postal_address2",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Mailstop 430"
+        }
+      ]
+    },
+    {
+      "property": "Postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "20192"
+        }
+      ]
+    },
+    {
+      "property": "Pre_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "t"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "GPL v2"
+        }
+      ]
+    },
+    {
+      "property": "Programming_language",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Matlab"
+        }
+      ]
+    },
+    {
+      "property": "Run_time_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1-7 days"
+        }
+      ]
+    },
+    {
+      "property": "Spatial_dimensions",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2D"
+        }
+      ]
+    },
+    {
+      "property": "Spatialscale",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Landscape-Scale"
+        }
+      ]
+    },
+    {
+      "property": "Start_year_development",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2008"
+        }
+      ]
+    },
+    {
+      "property": "State",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Virginia"
+        }
+      ]
+    },
+    {
+      "property": "Supported_platforms",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Linux"
+        },
+        {
+          "type": 2,
+          "item": "Windows"
+        }
+      ]
+    },
+    {
+      "property": "Type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Model developer"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Matlab"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_needed",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "t"
+        }
+      ]
+    },
+    {
+      "property": "_ASK",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "RASCAL#3002##_QUERYc3ab1703280d9b5811985f00b1b5e576"
+        },
+        {
+          "type": 9,
+          "item": "RASCAL#3002##_QUERYc214ea92c1a2f6e0f498efaa153831f6"
+        },
+        {
+          "type": 9,
+          "item": "RASCAL#3002##_QUERY5cd4527bd1fa319d8088f8a806326e85"
+        }
+      ]
+    },
+    {
+      "property": "_CDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2010/5/7/19/16/26/0"
+        }
+      ]
+    },
+    {
+      "property": "_ERRC",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "RASCAL#3002##_ERR832e19663f926fa58b1c2c38ccac6efd"
+        }
+      ]
+    },
+    {
+      "property": "_INST",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Models#14##"
+        },
+        {
+          "type": 9,
+          "item": "Source_code_not_available#14##"
+        }
+      ]
+    },
+    {
+      "property": "_LEDT",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "WikiSysop#2##"
+        }
+      ]
+    },
+    {
+      "property": "_MDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2020/9/17/2/15/38/0"
+        }
+      ]
+    },
+    {
+      "property": "_SKEY",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "RASCAL"
+        }
+      ]
+    }
+  ],
+  "sobj": [
+    {
+      "subject": "RASCAL#3002##_QUERYc3ab1703280d9b5811985f00b1b5e576",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "0"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[:Model:RASCAL]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "RASCAL# QUERYc3ab1703280d9b5811985f00b1b5e576"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "RASCAL#3002##_QUERYc214ea92c1a2f6e0f498efaa153831f6",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[User:+]] [[First name member::Laurel]] [[Last name member::Larsen]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "RASCAL# QUERYc214ea92c1a2f6e0f498efaa153831f6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "RASCAL#3002##_QUERY5cd4527bd1fa319d8088f8a806326e85",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "ul"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[Model:+]] [[First name::Laurel]] [[Last name::Larsen]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "RASCAL# QUERY5cd4527bd1fa319d8088f8a806326e85"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "RASCAL#3002##_ERR832e19663f926fa58b1c2c38ccac6efd",
+      "data": [
+        {
+          "property": "_ERRP",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "H-index#102##"
+            }
+          ]
+        },
+        {
+          "property": "_ERRT",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[2,\"smw_nofloat\",\"--\"]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "RASCAL# ERR832e19663f926fa58b1c2c38ccac6efd"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+  "version": 2
+}

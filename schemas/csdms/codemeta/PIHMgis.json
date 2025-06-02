@@ -1,0 +1,94 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "PIHMgis",
+    "codeRepository": "http://sourceforge.net/projects/pihmgis/",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "C++"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "downloadUrl": "http://sourceforge.net/projects/pihmgis/",
+    "memoryRequirements": "512 mb",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Christopher",
+            "familyName": "Duffy",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Penn State University",
+                "address": "University Park, United States"
+            },
+            "email": "mailto:cxd11@psu.edu"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Gopal",
+            "familyName": "Bhatt",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Penn State University",
+                "address": "University Park, United States"
+            },
+            "email": "mailto:gxb913@psu.edu"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Mukesh",
+            "familyName": "Kumar",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Duke University",
+                "address": "University Park, United States"
+            },
+            "email": "mailto:muk139@psu.edu"
+        }
+    ],
+    "dateCreated": "2005-01-01",
+    "keywords": [
+        "Hydrology",
+        "model",
+        "gis",
+        "penn",
+        "state",
+        "physically-based fully-distributed hydrologic",
+        "simulate hydrologic state",
+        "hydrologic state variables",
+        "topography and hydrogeology",
+        "fully-distributed hydrologic models",
+        "physically-based fully-distributed",
+        "heterogeneity in climate",
+        "state variables",
+        "variables in space",
+        "space and time",
+        "information regarding heterogeneity",
+        "hydrologic model requires",
+        "fully-distributed hydrologic",
+        "simulate hydrologic",
+        "hydrologic state",
+        "basins",
+        "pihmgis",
+        "basins",
+        "GIS"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "description": "Physically-based fully-distributed hydrologic models try to simulate hydrologic state variables in space and time while using information regarding heterogeneity in climate, land use, topography and hydrogeology. However incorporating a large number of physical data layers in the hydrologic model requires intensive data development and topology definitions.",
+    "url": "https://csdms.colorado.edu/wiki/Model:PIHMgis",
+    "developmentStatus": "As is, no updates are provided"
+}

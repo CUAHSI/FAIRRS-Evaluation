@@ -1,0 +1,60 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "QUODDY",
+    "codeRepository": "http://www-nml.dartmouth.edu/Software/quoddy/",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "http://www-nml.dartmouth.edu/Software/quoddy/",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Kristina",
+            "familyName": "Lynch",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Department of Physics and Astronomy, Dartmouth College",
+                "address": "Hanover, United States"
+            },
+            "email": "mailto:kristina.lynch@dartmouth.edu"
+        }
+    ],
+    "dateCreated": "1995-01-01",
+    "keywords": [
+        "Coastal",
+        "finite-element",
+        "modeling",
+        "incorporates advanced turbulence",
+        "advanced turbulence closure",
+        "free surface",
+        "incorporates advanced",
+        "turbulence closure",
+        "tidal time",
+        "model is three-dimensional",
+        "three-dimensional and fully",
+        "fully nonlinear",
+        "advanced turbulence",
+        "operates in tidal",
+        "structured linear elements",
+        "surface",
+        "incorporates",
+        "closure",
+        "coastal circulation",
+        "quoddy",
+        "coastal circulation"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "The model is three-dimensional and fully nonlinear with a free surface, incorporates advanced turbulence closure, and operates in tidal time. Variable horizontal and vertical resolution are facilitated by the use of unstructured meshes of linear triangles in the horizontal, and structured linear elements in the vertical",
+    "url": "https://csdms.colorado.edu/wiki/Model:QUODDY"
+}

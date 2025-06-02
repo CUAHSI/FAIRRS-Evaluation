@@ -1,0 +1,73 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "LTRANS",
+    "codeRepository": "http://northweb.hpl.umces.edu/LTRANS.htm",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran90"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "downloadUrl": "http://northweb.hpl.umces.edu/LTRANS.htm",
+    "operatingSystem": [
+        "Unix",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Elizabeth",
+            "familyName": "North",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Maryland",
+                "address": "Cambridge, United States"
+            },
+            "email": "mailto:enorth@umces.edu"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Zachary",
+            "familyName": "Schlag",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Maryland",
+                "address": "Cambridge, United States"
+            },
+            "email": "mailto:zschlag@umces.edu"
+        }
+    ],
+    "dateCreated": "2002-01-01",
+    "keywords": [
+        "Coastal",
+        "Marine",
+        "ltrans",
+        "roms",
+        "system",
+        "larval",
+        "ocean modeling system",
+        "regional ocean modeling",
+        "modeling system",
+        "regional ocean",
+        "ocean modeling",
+        "larval transport lagrangian",
+        "transport lagrangian model",
+        "specifically the regional",
+        "transport lagrangian",
+        "off-line particle-tracking model",
+        "lagrangian model",
+        "off-line particle-tracking",
+        "stored predictions",
+        "larval transport model",
+        "larval transport model"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "The Larval TRANSport Lagrangian model (LTRANS) is an off-line particle-tracking model that runs with the stored predictions of a 3D hydrodynamic model, specifically the Regional Ocean Modeling System (ROMS). Although LTRANS was built to simulate oyster larvae, it can easily be adapted to simulate passive particles and other planktonic organisms. LTRANS is written in Fortran 90 and is designed to track the trajectories of particles in three dimensions. It includes a 4th order Runge-Kutta scheme for particle advection and a random displacement model for vertical turbulent particle motion. Reflective boundary conditions, larval behavior, and settlement routines are also included. LTRANS was built by Elizabeth North and Zachary Schlag of University of Maryland Center for Environmental Science Horn Point Laboratory. Funding was provided by the National Science Foundation Biological Oceanography Program, Maryland Department of Natural Resources, NOAA Chesapeake Bay Office, and NOAA-funded UMCP Advanced Study Institute for the Environment. Components of LTRANS have been in development since 2002 and are described in the following publications: North et al. 2005, North et al. 2006a, North et al. 2006b, and North et al. 2008.",
+    "url": "https://csdms.colorado.edu/wiki/Model:LTRANS",
+    "developmentStatus": "Only maintenance"
+}

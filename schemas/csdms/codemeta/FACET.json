@@ -1,0 +1,115 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "FACET",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "memoryRequirements": "16GB",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "softwareVersion": "0.1.0",
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Samuel",
+            "familyName": "Lamont",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "USGS",
+                "address": "--, United States"
+            },
+            "email": "mailto:facet@usgs.gov"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Marina",
+            "familyName": "Metes",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "USGS",
+                "address": "Baltimore, United States"
+            },
+            "email": "mailto:mmetes@usgs.gov"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Peter",
+            "familyName": "Claggett",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "USGS",
+                "address": "Raleigh, United States"
+            },
+            "email": "mailto:pclaggett@usgs.gov"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Kristina",
+            "familyName": "Hopkins",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "USGS",
+                "address": "Reston, United States"
+            },
+            "email": "mailto:khopkins@usgs.gov"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Gregory",
+            "familyName": "Noe",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "USGS",
+                "address": "Reston, United States"
+            },
+            "email": "mailto:gnoe@usgs.gov"
+        }
+    ],
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "facet",
+        "tool",
+        "channel",
+        "evaluation",
+        "delaware river watersheds",
+        "digital elevation models",
+        "open source modules",
+        "derive reach-scale summaries",
+        "high-resolution digital elevation",
+        "chesapeake bay",
+        "bay and delaware",
+        "delaware river",
+        "python tool",
+        "floodplain geomorphic measurements",
+        "river watersheds",
+        "elevation models",
+        "current tool functionality",
+        "geomorphic measurements",
+        "open source",
+        "channel evaluation tool",
+        "floodplains",
+        "floodplain extent",
+        "channel width",
+        "Channel Evaluation Tool",
+        "floodplains",
+        "floodplain extent",
+        "channel width"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "identifier": "10.5066/P9PI94Z1",
+    "description": "FACET is a Python tool that uses open source modules to map the floodplain extent and derive reach-scale summaries of stream and floodplain geomorphic measurements from high-resolution digital elevation models (DEMs). Geomorphic measurements include channel width, stream bank height, floodplain width, and stream slope.<br>Current tool functionality is only meant to process DEMs within the Chesapeake Bay and Delaware River watersheds. FACET was developed to batch process 3-m resolution DEMs in the Chesapeake Bay and Delaware River watersheds. Future updates to FACET will allow users to process DEMs outside of the Chesapeake and Delaware basins.<br>FACET allows the user to hydrologically condition the DEM, generate the stream network, select one of two options for stream bank  identification, map the floodplain extent using a Height Above Nearest Drainage (HAND) approach, and calculate stream and floodplain metrics using three approaches.",
+    "url": "https://csdms.colorado.edu/wiki/Model:FACET"
+}

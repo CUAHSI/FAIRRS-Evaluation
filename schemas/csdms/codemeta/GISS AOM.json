@@ -1,0 +1,58 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "GISS_AOM",
+    "codeRepository": "http://aom.giss.nasa.gov/",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran90"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "http://aom.giss.nasa.gov/",
+    "operatingSystem": [
+        "Unix"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "David",
+            "familyName": "Rind",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "NASA/Goddard Institute for Space Studies",
+                "address": "New York, United States"
+            },
+            "email": "mailto:David.H.Rind@noaa.gov"
+        }
+    ],
+    "dateCreated": "1990-01-01",
+    "keywords": [
+        "Climate",
+        "Marine",
+        "giss",
+        "model",
+        "atmosphere-ocean model",
+        "simulates the earth",
+        "gridded domain",
+        "earth",
+        "computer program",
+        "program that simulates",
+        "earth orbital parameters",
+        "earth climate",
+        "prognostic variables",
+        "earth atmospheric constituents",
+        "earth surface distribution",
+        "model requires",
+        "earth topography",
+        "prognostic variables include",
+        "giss aom"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "The Atmosphere-Ocean Model is a computer program that simulates the Earth's climate in three dimensions on a gridded domain. The Model requires two kinds of input, specified parameters and prognostic variables, and generates two kinds of output, climate diagnostics and prognostic variables. The specified input parameters include physical constants, the Earth's orbital parameters, the Earth's atmospheric constituents, the Earth's topography, the Earth's surface distribution of ocean, glacial ice, or vegetation, and many others. The time varying prognostic variables include fluid mass, horizontal velocity, heat, water vapor, salt, and subsurface mass and energy fields.",
+    "url": "https://csdms.colorado.edu/wiki/Model:GISS_AOM"
+}

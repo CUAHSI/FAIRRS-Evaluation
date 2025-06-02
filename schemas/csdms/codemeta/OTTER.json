@@ -1,0 +1,53 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "OTTER",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Single",
+    "operatingSystem": [],
+    "softwareVersion": "Version 1.0",
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Brian",
+            "familyName": "Yanites",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Indiana University",
+                "address": "Bloomington, United States"
+            },
+            "email": "mailto:byanites@indiana.edu"
+        }
+    ],
+    "dateCreated": "2017-01-01",
+    "keywords": [
+        "Terrestrial",
+        "evolution",
+        "width",
+        "technique in transient",
+        "transient evolution",
+        "optimization technique",
+        "evolution of rivers",
+        "otter",
+        "channel",
+        "technique",
+        "transient",
+        "channel width",
+        "river profile",
+        "shear stress",
+        "slightly",
+        "shear"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "identifier": "10.5281/zenodo.1243079",
+    "description": "Optimization Technique in Transient Evolution of Rivers (OTTER). This models a 1D river profile while incorporating a algorithm for dynamic channel width.    The channel width algorithm dynamically adjusts channel geometry in response to values of water discharge, rock-uplift/erosion, and sediment supply. It operates by calculating the current shear stress (no wide channel assumption), the shear stress if channel width is slightly larger, and shear stress for a slightly narrower channel.  Using these values, erosion potential is calculated for all three scenarios (no change in width, slightly wider, slightly narrower) and the one that generates the maximum erosion rate dictates the direction of channel change.  See Yanites, 2018 JGR for further information.",
+    "url": "https://csdms.colorado.edu/wiki/Model:OTTER"
+}

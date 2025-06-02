@@ -1,0 +1,66 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "OTIS",
+    "codeRepository": "http://water.usgs.gov/software/OTIS/",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "http://water.usgs.gov/software/OTIS/",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Windows",
+        "macOS"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Rob",
+            "familyName": "Runkel",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "USGS",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:runkel@usgs.gov"
+        }
+    ],
+    "dateCreated": "1990-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "otis",
+        "storage",
+        "rivers",
+        "transport",
+        "streams and rivers",
+        "mathematical simulation model",
+        "solute transport model",
+        "rivers otis",
+        "simulation model",
+        "mathematical simulation",
+        "characterize the fate",
+        "streams",
+        "one-dimensional transport",
+        "transient storage",
+        "solute transport",
+        "transport model",
+        "model",
+        "biogeochemistry",
+        "water quality",
+        "biogeochemistry",
+        "water quality"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "One-Dimensional Transport with Inflow and Storage (OTIS): A Solute Transport Model for Streams and Rivers\n\nOTIS is a mathematical simulation model used to characterize the fate and transport of water-borne solutes in streams and rivers. The governing equation underlying the model is the advection-dispersion equation with additional terms to account for transient storage, lateral inflow, first-order decay, and sorption. This equation and the associated equations describing transient storage and sorption are solved using a Crank-Nicolson finite-difference solution.\n\nOTIS may be used in conjunction with data from field-scale tracer experiments to quantify the hydrologic parameters affecting solute transport. This application typically involves a trial-and-error approach wherein parameter estimates are adjusted to obtain an acceptable match between simulated and observed tracer concentrations. Additional applications include analyses of nonconservative solutes that are subject to sorption processes or first-order decay. OTIS-P, a modified version of OTIS, couples the solution of the governing equation with a nonlinear regression package. OTIS-P determines an optimal set of parameter estimates that minimize the squared differences between the simulated and observed concentrations, thereby automating the parameter estimation process.",
+    "url": "https://csdms.colorado.edu/wiki/Model:OTIS",
+    "developmentStatus": "Only maintenance"
+}

@@ -1,0 +1,876 @@
+{
+  "subject": "LTRANS#3002##",
+  "data": [
+    {
+      "property": "Additional_city",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Cambridge"
+        }
+      ]
+    },
+    {
+      "property": "Additional_country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "United States"
+        }
+      ]
+    },
+    {
+      "property": "Additional_email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:zschlag@umces.edu"
+        }
+      ]
+    },
+    {
+      "property": "Additional_first_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Zachary"
+        }
+      ]
+    },
+    {
+      "property": "Additional_institute",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "University of Maryland"
+        }
+      ]
+    },
+    {
+      "property": "Additional_last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Schlag"
+        }
+      ]
+    },
+    {
+      "property": "Additional_postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "MD 21613"
+        }
+      ]
+    },
+    {
+      "property": "Additional_state",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Maryland"
+        }
+      ]
+    },
+    {
+      "property": "Additional_type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Model developer"
+        }
+      ]
+    },
+    {
+      "property": "Citations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "605"
+        }
+      ]
+    },
+    {
+      "property": "City",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Cambridge"
+        }
+      ]
+    },
+    {
+      "property": "CodeReviewed",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "Code_CMT_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "In progress"
+        }
+      ]
+    },
+    {
+      "property": "Code_IRF_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Code_openmi_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Code_optimized",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single Processor"
+        }
+      ]
+    },
+    {
+      "property": "Country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "United States"
+        }
+      ]
+    },
+    {
+      "property": "Describe_available_test_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "See: http://northweb.hpl.umces.edu/LTRANS.htm"
+        }
+      ]
+    },
+    {
+      "property": "Describe_input_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Input files:\n# the NetCDF files from the ROMS hydrodynamic model\n# a comma delimited file that contains the particle locations, \n# comma delimited files that contain habitat boundaries for the Settlement Module. The latter is only needed if the Settlement Module is turned on."
+        }
+      ]
+    },
+    {
+      "property": "Describe_output_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "The output can ultimately be used to plot and view the particles and compare the\noutcomes of different model runs. There are two types of comma-delimited output files: para\nand endfile. The para files are created periodically at set intervals throughout the running of the\nprogram and contain the particle locations at the current time. The endfile file is created only at\nthe end of the program and contains information regarding each particles’ start location, end\nlocation, and ending status."
+        }
+      ]
+    },
+    {
+      "property": "Describe_pre-processing_software",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "External Dependencies and Programs. LTRANS requires NetCDF libraries and uses the following programs to calculate random numbers (Mersenne Twister) and fit tension splines (TSPACK). Because LTRANS reads-in ROMS-generated NetCDF (.nc) files, it requires that the appropriate NetCDF libraries be installed on your computer (see files and links below). Also, please note that although the Mersenne Twister and TSPACK programs are included in the LTRANS in the Random_module.f90 and Tension_module.f90, respectively, they do not share the same license file as LTRANS. See also: http://northweb.hpl.umces.edu/LTRANS.htm"
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCode",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Only maintenance"
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCodeYearChecked",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2020"
+        }
+      ]
+    },
+    {
+      "property": "Development_still_active",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:enorth@umces.edu"
+        }
+      ]
+    },
+    {
+      "property": "Extended_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "The Larval TRANSport Lagrangian model (LTRANS) is an off-line particle-tracking model that runs with the stored predictions of a 3D hydrodynamic model, specifically the Regional Ocean Modeling System (ROMS). Although LTRANS was built to simulate oyster larvae, it can easily be adapted to simulate passive particles and other planktonic organisms. LTRANS is written in Fortran 90 and is designed to track the trajectories of particles in three dimensions. It includes a 4th order Runge-Kutta scheme for particle advection and a random displacement model for vertical turbulent particle motion. Reflective boundary conditions, larval behavior, and settlement routines are also included. LTRANS was built by Elizabeth North and Zachary Schlag of University of Maryland Center for Environmental Science Horn Point Laboratory. Funding was provided by the National Science Foundation Biological Oceanography Program, Maryland Department of Natural Resources, NOAA Chesapeake Bay Office, and NOAA-funded UMCP Advanced Study Institute for the Environment. Components of LTRANS have been in development since 2002 and are described in the following publications: North et al. 2005, North et al. 2006a, North et al. 2006b, and North et al. 2008."
+        }
+      ]
+    },
+    {
+      "property": "First_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Elizabeth"
+        }
+      ]
+    },
+    {
+      "property": "H-index",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "4"
+        }
+      ]
+    },
+    {
+      "property": "Input_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Binary"
+        }
+      ]
+    },
+    {
+      "property": "Input_format_model_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "NetCDF"
+        }
+      ]
+    },
+    {
+      "property": "Institute",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "University of Maryland"
+        }
+      ]
+    },
+    {
+      "property": "Last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "North"
+        }
+      ]
+    },
+    {
+      "property": "M-quotient",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "0.2"
+        }
+      ]
+    },
+    {
+      "property": "Manual_model_available",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Memory_requirements",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "--"
+        }
+      ]
+    },
+    {
+      "property": "ModelDomain",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Coastal"
+        },
+        {
+          "type": 2,
+          "item": "Marine"
+        }
+      ]
+    },
+    {
+      "property": "Model_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "As code"
+        }
+      ]
+    },
+    {
+      "property": "Model_keywords",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "larval transport model"
+        }
+      ]
+    },
+    {
+      "property": "Model_manual",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Media:LTRANS UsersGuide 5September08.pdf"
+        }
+      ]
+    },
+    {
+      "property": "Model_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Modular"
+        }
+      ]
+    },
+    {
+      "property": "Model_website",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "http://northweb.hpl.umces.edu/LTRANS.htm#Forum"
+        }
+      ]
+    },
+    {
+      "property": "Modelautophrases",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ltrans"
+        },
+        {
+          "type": 2,
+          "item": "roms"
+        },
+        {
+          "type": 2,
+          "item": "system"
+        },
+        {
+          "type": 2,
+          "item": "larval"
+        },
+        {
+          "type": 2,
+          "item": "ocean modeling system"
+        },
+        {
+          "type": 2,
+          "item": "regional ocean modeling"
+        },
+        {
+          "type": 2,
+          "item": "modeling system"
+        },
+        {
+          "type": 2,
+          "item": "regional ocean"
+        },
+        {
+          "type": 2,
+          "item": "ocean modeling"
+        },
+        {
+          "type": 2,
+          "item": "larval transport lagrangian"
+        },
+        {
+          "type": 2,
+          "item": "transport lagrangian model"
+        },
+        {
+          "type": 2,
+          "item": "specifically the regional"
+        },
+        {
+          "type": 2,
+          "item": "transport lagrangian"
+        },
+        {
+          "type": 2,
+          "item": "off-line particle-tracking model"
+        },
+        {
+          "type": 2,
+          "item": "lagrangian model"
+        },
+        {
+          "type": 2,
+          "item": "off-line particle-tracking"
+        },
+        {
+          "type": 2,
+          "item": "stored predictions"
+        },
+        {
+          "type": 2,
+          "item": "larval transport model"
+        }
+      ]
+    },
+    {
+      "property": "Nr-of-pubs",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "7"
+        }
+      ]
+    },
+    {
+      "property": "One-line_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "The Larval TRANSport Lagrangian model (LTRANS) is an off-line particle-tracking model that runs with the stored predictions of a 3D hydrodynamic model, specifically the Regional Ocean Modeling System (ROMS)."
+        }
+      ]
+    },
+    {
+      "property": "Output_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        }
+      ]
+    },
+    {
+      "property": "Post_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "MD 21613"
+        }
+      ]
+    },
+    {
+      "property": "Pre_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "t"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Other"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "MIT"
+        }
+      ]
+    },
+    {
+      "property": "Programming_language",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Fortran90"
+        }
+      ]
+    },
+    {
+      "property": "Run_time_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "--"
+        }
+      ]
+    },
+    {
+      "property": "Source_code_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Through web repository"
+        }
+      ]
+    },
+    {
+      "property": "Source_web_address",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "http://northweb.hpl.umces.edu/LTRANS.htm"
+        }
+      ]
+    },
+    {
+      "property": "Spatial_dimensions",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "3D"
+        }
+      ]
+    },
+    {
+      "property": "Spatialscale",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Landscape-Scale"
+        },
+        {
+          "type": 2,
+          "item": "Reach-Scale"
+        },
+        {
+          "type": 2,
+          "item": "Watershed-Scale"
+        }
+      ]
+    },
+    {
+      "property": "Start_year_development",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2002"
+        }
+      ]
+    },
+    {
+      "property": "State",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Maryland"
+        }
+      ]
+    },
+    {
+      "property": "Supported_platforms",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Unix"
+        },
+        {
+          "type": 2,
+          "item": "Windows"
+        }
+      ]
+    },
+    {
+      "property": "Type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Model developer"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Matlab"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_needed",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "t"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Surfer/Scripter; see also: http://northweb.hpl.umces.edu/LTRANS.htm"
+        }
+      ]
+    },
+    {
+      "property": "_ASK",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "LTRANS#3002##_QUERYde77acb9c5fd721859d9b805b151787e"
+        },
+        {
+          "type": 9,
+          "item": "LTRANS#3002##_QUERY9f09bf4d163a76afd24200d6e83fef9b"
+        },
+        {
+          "type": 9,
+          "item": "LTRANS#3002##_QUERY85718b048eefa05e9cd361c93df5c42d"
+        }
+      ]
+    },
+    {
+      "property": "_CDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2011/6/22/21/14/22/0"
+        }
+      ]
+    },
+    {
+      "property": "_INST",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Pages_using_duplicate_arguments_in_template_calls#14##"
+        },
+        {
+          "type": 9,
+          "item": "Models#14##"
+        }
+      ]
+    },
+    {
+      "property": "_LEDT",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "WikiSysop#2##"
+        }
+      ]
+    },
+    {
+      "property": "_MDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2020/9/17/2/13/44/0"
+        }
+      ]
+    },
+    {
+      "property": "_SKEY",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "LTRANS"
+        }
+      ]
+    }
+  ],
+  "sobj": [
+    {
+      "subject": "LTRANS#3002##_QUERYde77acb9c5fd721859d9b805b151787e",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "0"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[:Model:LTRANS]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "LTRANS# QUERYde77acb9c5fd721859d9b805b151787e"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "LTRANS#3002##_QUERY9f09bf4d163a76afd24200d6e83fef9b",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[User:+]] [[First name member::Elizabeth]] [[Last name member::North]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "LTRANS# QUERY9f09bf4d163a76afd24200d6e83fef9b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "LTRANS#3002##_QUERY85718b048eefa05e9cd361c93df5c42d",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "ul"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[Model:+]] [[First name::Elizabeth]] [[Last name::North]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "LTRANS# QUERY85718b048eefa05e9cd361c93df5c42d"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+  "version": 2
+}

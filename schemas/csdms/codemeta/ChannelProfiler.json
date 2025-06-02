@@ -1,0 +1,61 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "ChannelProfiler",
+    "codeRepository": "https://github.com/landlab/landlab/tree/master/landlab",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/landlab/landlab/tree/master/landlab",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Katy",
+            "familyName": "Barnhart",
+            "affiliation": {
+                "@type": "Organization",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:katherine.barnhart@colorado.edu"
+        }
+    ],
+    "dateCreated": "2019-01-01",
+    "keywords": [
+        "Terrestrial",
+        "grid",
+        "extract channel networks",
+        "channel networks",
+        "order to extract",
+        "extract channel",
+        "flow connectivity",
+        "flow",
+        "networks",
+        "identified",
+        "receiver",
+        "order",
+        "extract",
+        "channel",
+        "connectivity",
+        "profile",
+        "channelprofiler",
+        "channel",
+        "profile"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "In order to extract channel networks, the flow connectivity across the grid must already be identified. This is typically done with the FlowAccumulator component. However, this component does not require that the FlowAccumulator was used. Instead it expects that the following at-node grid fields will be present:<br>\n'flow__receiver_node'<br>\n'flow__link_to_receiver_node'<br>\nThe ChannelProfiler can work on grids that have used route-to-one or route-to-multiple flow directing.",
+    "url": "https://csdms.colorado.edu/wiki/Model:ChannelProfiler",
+    "relatedLink": "https://github.com/landlab/landlab/issues"
+}

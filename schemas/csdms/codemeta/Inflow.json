@@ -1,0 +1,57 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Inflow",
+    "codeRepository": "https://github.com/mcflugen/sedflux",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    },
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/mcflugen/sedflux",
+    "memoryRequirements": "Minimal",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "softwareVersion": "2.1",
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Eric",
+            "familyName": "Hutton",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "CSDMS, INSTAAR, University of Colorado",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:huttone@colorado.edu"
+        }
+    ],
+    "dateCreated": "1997-01-01",
+    "keywords": [
+        "Coastal",
+        "Marine",
+        "steady-state",
+        "model",
+        "steady-state hyperpycnal flow",
+        "hyperpycnal flow model",
+        "steady-state hyperpycnal",
+        "flow model",
+        "hyperpycnal flow",
+        "hyperpycnal inflows",
+        "river",
+        "inflow",
+        "hyperpycnal inflows",
+        "river"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Apache public license"
+    },
+    "identifier": "10.1594/IEDA/100139",
+    "description": "Steady-state hyperpycnal flow model.",
+    "url": "https://csdms.colorado.edu/wiki/Model:Inflow",
+    "developmentStatus": "As is, no updates are provided"
+}

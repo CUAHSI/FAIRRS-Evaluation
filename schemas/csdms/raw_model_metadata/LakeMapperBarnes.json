@@ -1,0 +1,892 @@
+{
+  "subject": "LakeMapperBarnes#3002##",
+  "data": [
+    {
+      "property": "Citations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "0"
+        }
+      ]
+    },
+    {
+      "property": "City",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Boulder"
+        }
+      ]
+    },
+    {
+      "property": "CodeReviewed",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "Code_optimized",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single Processor"
+        }
+      ]
+    },
+    {
+      "property": "Country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "United States"
+        }
+      ]
+    },
+    {
+      "property": "Describe_input_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "grid : ModelGrid<br>\nA Landlab grid.\n\t\t\t\nsurface : field name at node or array of length node<br>\nThe surface to direct flow across.\n\t\t\t\nmethod : {'Steepest', 'D8'}<br>\nWhether or not to recognise diagonals as valid flow paths, if a raster. Otherwise, no effect.\n\t\t\t\nfill_flat : bool<br>\nIf True, pits will be filled to perfectly horizontal. \nIf False, the new surface will be slightly inclined to give steepest descent flow paths to the outlet.\n\t\t\t\nfill_surface : bool<br>\nSets the field or array to fill. \nIf fill_surface is surface, this operation occurs in place, and is faster.\nNote that the component will overwrite fill_surface if it exists; to supply an existing water level to it, supply that water level field as surface, not fill_surface.\n\t\t\t\nredirect_flow_steepest_descent : bool<br>\nIf True, the component outputs modified versions of the 'flow__receiver_node', 'flow__link_to_receiver_node', 'flow__sink_flag', and 'topographic__steepest_slope' fields. \nThese are the fields output by the FlowDirector components, so set to True if you wish to pass this LakeFiller to the FlowAccumulator, or if you wish to work directly with the new, correct flow directions and slopes without rerunning these components on your new surface.\nEnsure the necessary fields already exist, and have already been calculated by a FlowDirector! \nThis also means you need to instantiate your FlowDirector **before** you instantiate the LakeMapperBarnes.\nNote that the new topographic__steepest_slope will always be set to zero, even if fill_flat=False (i.e., there is actually a miniscule gradient on the new topography, which gets ignored).\n\t\t\t\nreaccumulate_flow : bool<br>\nIf True, and redirect_flow_steepest_descent is True, the run method will (re-)accumulate the flow after redirecting the flow. \nThis means the 'drainage_area', 'surface_water__discharge', 'flow__upstream_node_order', and the other various flow accumulation fields (see output field names) will now reflect the new drainage patterns without having to manually reaccumulate the discharge. \nIf True but redirect_flow_steepest_descent is False, raises an ValueError.\n\t\t\t\nignore_overfill : bool<br>\nIf True, suppresses the Error that would normally be raised during creation of a gentle incline on a fill surface (i.e., if not fill_flat). \nTypically this would happen on a synthetic DEM where more than one outlet is possible at the same elevation. \nIf True, the was_there_overfill property can still be used to see if this has occurred.\n\t\t\t\ntrack_lakes : bool<br>\nIf True, the component permits a slight hit to performance in order to explicitly track which nodes have been filled, and to enable queries on that data in retrospect. \nSet to False to simply fill the surface and be done with it."
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCode",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Only maintenance"
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCodeYearChecked",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2020"
+        }
+      ]
+    },
+    {
+      "property": "Development_still_active",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No"
+        }
+      ]
+    },
+    {
+      "property": "Email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:hobleyd@cardiff.ac.uk"
+        }
+      ]
+    },
+    {
+      "property": "End_year_development",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "2020"
+        }
+      ]
+    },
+    {
+      "property": "Extended_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "A Landlab implementation of the Barnes et al. (2014) lake filling & lake routing algorithms, lightly modified and adapted for Landlab by DEJH. This component is designed as a direct replacement for the LakeMapper as existing pre-Aug 2018, and provides a suite of properties to access information about the lakes created each time it is run. Only significant difference is the way the lakes are coded: this component uses the (unique) ID of the outlet node, whereas DepressionFinderAndRouter uses one of the pit node IDs. Note also this component does not offer the lake_codes or display_depression_map options, for essentially this reason. Use lake_map instead for both. It also uses a much more Landlabbian run_one_step() method as its driver, superceding DepressionFinderAndRouter’s map_depressions().\n\nA variety of options is provided. Flow routing is route-to-one in this implementation, but can be either D4 (“steepest”) or D8 on a raster. The surface can be filled to either flat or a very slight downward incline, such that subsequent flow routing will run over the lake surface. This incline is applied at machine precision to minimize the chances of creating false outlets by overfill, and note that the gradient as calculated on such surfaces may still appear to be zero. The filling can either be performed in place, or on a new (water) surface distinct from the original (rock) surface. For efficiency, data structures describing the lakes and their properties are only created, and existing flow direction and flow accumulation fields modified, if those flags are set at instantiation"
+        }
+      ]
+    },
+    {
+      "property": "First_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Daniel"
+        }
+      ]
+    },
+    {
+      "property": "Input_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        }
+      ]
+    },
+    {
+      "property": "Last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Hobley"
+        }
+      ]
+    },
+    {
+      "property": "M-quotient",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "0"
+        }
+      ]
+    },
+    {
+      "property": "Manual_model_available",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No"
+        }
+      ]
+    },
+    {
+      "property": "ModelDomain",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Terrestrial"
+        },
+        {
+          "type": 2,
+          "item": "Hydrology"
+        }
+      ]
+    },
+    {
+      "property": "ModelFramework",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "LandLab"
+        }
+      ]
+    },
+    {
+      "property": "Model_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "As code"
+        }
+      ]
+    },
+    {
+      "property": "Model_forum",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://github.com/landlab/landlab/issues"
+        }
+      ]
+    },
+    {
+      "property": "Model_keywords",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "flow path"
+        },
+        {
+          "type": 2,
+          "item": "depressions"
+        },
+        {
+          "type": 2,
+          "item": "lakes"
+        },
+        {
+          "type": 2,
+          "item": "flow routing"
+        }
+      ]
+    },
+    {
+      "property": "Model_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Tool"
+        }
+      ]
+    },
+    {
+      "property": "Model_website",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://landlab.github.io"
+        }
+      ]
+    },
+    {
+      "property": "Modelautophrases",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "temporarily"
+        },
+        {
+          "type": 2,
+          "item": "landlab by dejh"
+        },
+        {
+          "type": 2,
+          "item": "landlab"
+        },
+        {
+          "type": 2,
+          "item": "lake"
+        },
+        {
+          "type": 2,
+          "item": "barnes"
+        },
+        {
+          "type": 2,
+          "item": "landlab implementation"
+        },
+        {
+          "type": 2,
+          "item": "lakes"
+        },
+        {
+          "type": 2,
+          "item": "lake routing algorithms"
+        },
+        {
+          "type": 2,
+          "item": "adapted for landlab"
+        },
+        {
+          "type": 2,
+          "item": "flow"
+        },
+        {
+          "type": 2,
+          "item": "component"
+        },
+        {
+          "type": 2,
+          "item": "surface"
+        },
+        {
+          "type": 2,
+          "item": "map"
+        },
+        {
+          "type": 2,
+          "item": "run"
+        },
+        {
+          "type": 2,
+          "item": "flow routing"
+        },
+        {
+          "type": 2,
+          "item": "routing"
+        },
+        {
+          "type": 2,
+          "item": "flow path"
+        },
+        {
+          "type": 2,
+          "item": "depressions"
+        },
+        {
+          "type": 2,
+          "item": "lakemapperbarnes"
+        }
+      ]
+    },
+    {
+      "property": "Nr-of-pubs",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "--"
+        }
+      ]
+    },
+    {
+      "property": "One-line_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Temporarily fills depressions and reroutes flow across them"
+        }
+      ]
+    },
+    {
+      "property": "Output_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        }
+      ]
+    },
+    {
+      "property": "Post_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "80309"
+        }
+      ]
+    },
+    {
+      "property": "Pre_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "BSD or MIT X11"
+        }
+      ]
+    },
+    {
+      "property": "Programming_language",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Python"
+        }
+      ]
+    },
+    {
+      "property": "Source_code_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Through web repository"
+        }
+      ]
+    },
+    {
+      "property": "Source_web_address",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://github.com/landlab/landlab/tree/master/landlab"
+        }
+      ]
+    },
+    {
+      "property": "Spatial_dimensions",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2D"
+        }
+      ]
+    },
+    {
+      "property": "Spatialscale",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Regional-Scale"
+        },
+        {
+          "type": 2,
+          "item": "Landscape-Scale"
+        },
+        {
+          "type": 2,
+          "item": "Watershed-Scale"
+        }
+      ]
+    },
+    {
+      "property": "Start_year_development",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2018"
+        }
+      ]
+    },
+    {
+      "property": "State",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Colorado"
+        }
+      ]
+    },
+    {
+      "property": "Supported_platforms",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Unix"
+        },
+        {
+          "type": 2,
+          "item": "Linux"
+        },
+        {
+          "type": 2,
+          "item": "Mac OS"
+        },
+        {
+          "type": 2,
+          "item": "Windows"
+        }
+      ]
+    },
+    {
+      "property": "Type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Technical contact"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_needed",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "_ASK",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "LakeMapperBarnes#3002##_QUERYde2ec14ea790d0a4fdeb6fff693b776f"
+        },
+        {
+          "type": 9,
+          "item": "LakeMapperBarnes#3002##_QUERY17d901e959a1b07a5de4cd1214e03a99"
+        },
+        {
+          "type": 9,
+          "item": "LakeMapperBarnes#3002##_QUERY7231f45ac7d4912a6e53f305a43da708"
+        }
+      ]
+    },
+    {
+      "property": "_CDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2020/5/19/21/28/19/0"
+        }
+      ]
+    },
+    {
+      "property": "_ERRC",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "LakeMapperBarnes#3002##_ERRe276a1ffb0e020a1257eff82199d1d33"
+        },
+        {
+          "type": 9,
+          "item": "LakeMapperBarnes#3002##_ERRf1d465c2abf4947336e4674ceaa22c37"
+        },
+        {
+          "type": 9,
+          "item": "LakeMapperBarnes#3002##_ERR604147abdb14669b9c8f3104544da08b"
+        },
+        {
+          "type": 9,
+          "item": "LakeMapperBarnes#3002##_ERRde9fdd962ce63dcda24f603326a2771d"
+        },
+        {
+          "type": 9,
+          "item": "LakeMapperBarnes#3002##_ERR832e19663f926fa58b1c2c38ccac6efd"
+        }
+      ]
+    },
+    {
+      "property": "_INST",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Models#14##"
+        }
+      ]
+    },
+    {
+      "property": "_LEDT",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "WikiSysop#2##"
+        }
+      ]
+    },
+    {
+      "property": "_MDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2020/9/17/2/14/26/0"
+        }
+      ]
+    },
+    {
+      "property": "_SKEY",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "LakeMapperBarnes"
+        }
+      ]
+    }
+  ],
+  "sobj": [
+    {
+      "subject": "LakeMapperBarnes#3002##_QUERYde2ec14ea790d0a4fdeb6fff693b776f",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "0"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[:Model:LakeMapperBarnes]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "LakeMapperBarnes# QUERYde2ec14ea790d0a4fdeb6fff693b776f"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "LakeMapperBarnes#3002##_QUERY17d901e959a1b07a5de4cd1214e03a99",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[User:+]] [[First name member::Daniel]] [[Last name member::Hobley]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "LakeMapperBarnes# QUERY17d901e959a1b07a5de4cd1214e03a99"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "LakeMapperBarnes#3002##_QUERY7231f45ac7d4912a6e53f305a43da708",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "ul"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[Model:+]] [[First name::Daniel]] [[Last name::Hobley]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "LakeMapperBarnes# QUERY7231f45ac7d4912a6e53f305a43da708"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "LakeMapperBarnes#3002##_ERRe276a1ffb0e020a1257eff82199d1d33",
+      "data": [
+        {
+          "property": "_ERRP",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "Code_openmi_compliant_or_not#102##"
+            }
+          ]
+        },
+        {
+          "property": "_ERRT",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[8,\"smw-constraint-error-allows-value-list\",\"Not yet\",\"Yes, No but planned, No but possible, No not possible\",\"Code openmi compliant or not\"]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "LakeMapperBarnes# ERRe276a1ffb0e020a1257eff82199d1d33"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "LakeMapperBarnes#3002##_ERRf1d465c2abf4947336e4674ceaa22c37",
+      "data": [
+        {
+          "property": "_ERRP",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "Code_IRF_or_not#102##"
+            }
+          ]
+        },
+        {
+          "property": "_ERRT",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[8,\"smw-constraint-error-allows-value-list\",\"Not yet\",\"Yes, No but planned, No but possible, No not possible\",\"Code IRF or not\"]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "LakeMapperBarnes# ERRf1d465c2abf4947336e4674ceaa22c37"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "LakeMapperBarnes#3002##_ERR604147abdb14669b9c8f3104544da08b",
+      "data": [
+        {
+          "property": "_ERRP",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "Code_CMT_compliant_or_not#102##"
+            }
+          ]
+        },
+        {
+          "property": "_ERRT",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[8,\"smw-constraint-error-allows-value-list\",\"Not yet\",\"Yes, In progress, No but possible, No not possible\",\"Code CMT compliant or not\"]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "LakeMapperBarnes# ERR604147abdb14669b9c8f3104544da08b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "LakeMapperBarnes#3002##_ERRde9fdd962ce63dcda24f603326a2771d",
+      "data": [
+        {
+          "property": "_ERRP",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "Code_PyMT_compliant_or_not#102##"
+            }
+          ]
+        },
+        {
+          "property": "_ERRT",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[8,\"smw-constraint-error-allows-value-list\",\"Not yet\",\"Yes, In progress, No but possible, No not possible\",\"Code PyMT compliant or not\"]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "LakeMapperBarnes# ERRde9fdd962ce63dcda24f603326a2771d"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "LakeMapperBarnes#3002##_ERR832e19663f926fa58b1c2c38ccac6efd",
+      "data": [
+        {
+          "property": "_ERRP",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "H-index#102##"
+            }
+          ]
+        },
+        {
+          "property": "_ERRT",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[2,\"smw_nofloat\",\"--\"]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "LakeMapperBarnes# ERR832e19663f926fa58b1c2c38ccac6efd"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+  "version": 2
+}

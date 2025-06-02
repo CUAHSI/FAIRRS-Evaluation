@@ -1,0 +1,81 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Frost_Model",
+    "codeRepository": "https://github.com/permamodel",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/permamodel",
+    "memoryRequirements": "small",
+    "operatingSystem": [
+        "Unix",
+        "Mac OS"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Irina",
+            "familyName": "Overeem",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "CSDMS",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:irina.overeem@colorado.edu"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Scott",
+            "familyName": "Stewart",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "CSDMS",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:scottincolorado@gmail.com"
+        }
+    ],
+    "dateCreated": "2016-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Cryosphere",
+        "frost",
+        "distribution",
+        "model",
+        "predicts",
+        "air frost number",
+        "thawing degree days",
+        "dimensionless ratio based",
+        "frost number",
+        "model implement",
+        "implement the calculation",
+        "dimensionless ratio",
+        "freezing and thawing",
+        "thawing degree",
+        "degree days",
+        "air frost",
+        "ratio based",
+        "based on freezing",
+        "number",
+        "annual temperature distribution",
+        "annual temperature",
+        "cryosphere",
+        "permafrost",
+        "frost model",
+        "annual temperature",
+        "cryosphere",
+        "permafrost"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "This model implement the calculation of the 'Frost Number', a dimensionless ratio based on freezing and thawing degree days in the year. Specifically, the 'Air Frost Number' intents to predict the existence of permafrost at a given location based on a cosine-function approximating the annual temperature distribution.",
+    "url": "https://csdms.colorado.edu/wiki/Model:Frost_Model",
+    "developmentStatus": "Active"
+}

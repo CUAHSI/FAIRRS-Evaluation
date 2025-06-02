@@ -1,0 +1,64 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Cliffs",
+    "codeRepository": "https://github.com/Delta-function/cliffs-src",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran90"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/Delta-function/cliffs-src",
+    "memoryRequirements": "100 MB  few GB in 2D, depending on grid size",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Elena",
+            "familyName": "Tolkova",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "NorthWest Research Associates, Inc.",
+                "address": "Redmond, United States"
+            },
+            "email": "mailto:e.tolkova@gmail.com"
+        }
+    ],
+    "dateCreated": "2013-01-01",
+    "keywords": [
+        "Coastal",
+        "Marine",
+        "numerical",
+        "approximation",
+        "shallow-water approximation",
+        "cliffs features",
+        "cartesian or spherical",
+        "dimensional splitting",
+        "features",
+        "shallow-water",
+        "titov",
+        "synolakis",
+        "tsunami",
+        "inundation",
+        "runup on land",
+        "shallow-water model",
+        "cliffs",
+        "Tsunami",
+        "Inundation",
+        "Runup on land",
+        "Shallow-water model"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "Cliffs features: \nShallow-Water approximation;\nUse of Cartesian or spherical (lon/lat) coordinates;\n1D and 2D configurations;\nStructured co-located grid with (optionally) varying spacing;\nRun-up on land;\nInitial conditions or boundary forcing;\nGrid nesting with one-way coupling;\nParallelized with OpenMP;\nNetCDF format of input/output data.\n\nCliffs utilizes VTCS-2 finite-difference scheme and dimensional splitting as in (Titov and Synolakis, 1998), and reflection and inundation computations as in (Tolkova, 2014). \n\nReferences: \nTitov, V.V., and C.E. Synolakis. Numerical modeling of tidal wave runup. J. Waterw. Port Coast. Ocean Eng., 124(4), 157\u2013171 (1998)\nTolkova E. Land-Water Boundary Treatment for a Tsunami Model With Dimensional Splitting.\nPure and Applied Geophysics, 171(9), 2289-2314 (2014)",
+    "url": "https://csdms.colorado.edu/wiki/Model:Cliffs",
+    "developmentStatus": "Only maintenance"
+}

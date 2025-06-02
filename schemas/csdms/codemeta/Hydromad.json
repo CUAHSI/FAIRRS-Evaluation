@@ -1,0 +1,71 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Hydromad",
+    "codeRepository": "https://github.com/josephguillaume/hydromad",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    },
+    "applicationCategory": "Tool",
+    "downloadUrl": "https://github.com/josephguillaume/hydromad",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Joseph",
+            "familyName": "Guillaume",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "The Australian National University",
+                "address": "Canberra City, Australia"
+            },
+            "email": "mailto:josephguillaume@gmail.com"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Felix",
+            "familyName": "Andrews",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "The Australian National University",
+                "address": "Canberra City, Australia"
+            },
+            "email": "mailto:felix@nfrac.org"
+        }
+    ],
+    "dateCreated": "2010-01-01",
+    "keywords": [
+        "Hydrology",
+        "development",
+        "model",
+        "assessment",
+        "hydrological",
+        "hydrological model assessment",
+        "compare hydrological models",
+        "assessment and development",
+        "model assessment",
+        "hydrological model",
+        "analyse and compare",
+        "compare hydrological",
+        "set of functions",
+        "functions which work",
+        "manipulate",
+        "hydromad",
+        "package",
+        "event separation",
+        "Hydrological model",
+        "Event separation"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "description": "The hydromad (Hydrological Model Assessment and Development) package provides a set of functions which work together to construct, manipulate, analyse and compare hydrological models.",
+    "url": "https://csdms.colorado.edu/wiki/Model:Hydromad",
+    "developmentStatus": "Active"
+}

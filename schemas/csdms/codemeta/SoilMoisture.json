@@ -1,0 +1,67 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "SoilMoisture",
+    "codeRepository": "https://github.com/landlab/landlab/tree/master/landlab",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/landlab/landlab/tree/master/landlab",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Sai",
+            "familyName": "Nudurupati",
+            "affiliation": {
+                "@type": "Organization",
+                "address": "Seattle, United States"
+            },
+            "email": "mailto:saisiddu@uw.edu"
+        }
+    ],
+    "dateCreated": "2016-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "compute",
+        "period",
+        "live leaf area",
+        "leaf area index",
+        "simulates root-zone average",
+        "root-zone average soil",
+        "average soil moisture",
+        "soil moisture",
+        "live leaf",
+        "area index",
+        "vegetation cover",
+        "simulates root-zone",
+        "root-zone average",
+        "leaf area",
+        "soil",
+        "landlab component",
+        "average soil",
+        "evapotranspiration",
+        "soilmoisture",
+        "soil",
+        "soil moisture",
+        "evapotranspiration"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "Landlab component that simulates root-zone average soil moisture at each cell using inputs of potential evapotranspiration, live leaf area index, and vegetation cover.\n\nThis component uses a single soil moisture layer and models soil moisture loss through transpiration by plants, evaporation by bare soil, and leakage. The solution of water balance is based on Laio et. al 2001. The component requires fields of initial soil moisture, rainfall input (if any), time to the next storm and potential transpiration.",
+    "url": "https://csdms.colorado.edu/wiki/Model:SoilMoisture",
+    "relatedLink": "https://github.com/landlab/landlab/issues",
+    "developmentStatus": "Only maintenance"
+}

@@ -1,0 +1,71 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "The_TELEMAC_system",
+    "codeRepository": "http://www.opentelemac.org/",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran90"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "downloadUrl": "http://www.opentelemac.org/",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "-",
+            "familyName": "TELEMAC support team",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "The TELEMAC Consortium",
+                "address": "-, Europe"
+            },
+            "email": "mailto:ot-consortium@opentelemac.org"
+        }
+    ],
+    "keywords": [
+        "Hydrology",
+        "Marine",
+        "flows",
+        "powerful integrated modeling",
+        "integrated modeling tool",
+        "telemac system",
+        "free-surface flows",
+        "powerful integrated",
+        "integrated modeling",
+        "modeling tool",
+        "field of free-surface",
+        "high-capacity algorithms based",
+        "telemac",
+        "finite-element method",
+        "simulation modules",
+        "modules use high-capacity",
+        "high-capacity algorithms",
+        "hydrodynamics",
+        "coastal and marine",
+        "fluvial",
+        "groundwater",
+        "the telemac system",
+        "hydrodynamics",
+        "coastal and marine",
+        "fluvial",
+        "groundwater"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "description": "The TELEMAC system is a powerful integrated modeling tool for use in the field of free-surface flows. The various simulation modules use high-capacity algorithms based on the finite-element method. Space is discretised in the form of an unstructured grid of triangular elements, which means that it can be refined particularly in areas of special interest. This avoids the need for systematic use of embedded models, as is the case with the finite-difference method.It has numerous applications in both river and maritime hydraulics.",
+    "url": "https://csdms.colorado.edu/wiki/Model:The_TELEMAC_system",
+    "developmentStatus": "Active"
+}

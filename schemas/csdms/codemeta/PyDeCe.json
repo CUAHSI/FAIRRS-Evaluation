@@ -1,0 +1,64 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "PyDeCe",
+    "codeRepository": "https://github.com/iganache/PyDeCe",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/iganache/PyDeCe",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Indujaa",
+            "familyName": "Ganesh",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Arizona",
+                "address": "Tucson, United States"
+            },
+            "email": "mailto:indujaa@email.arizona.edu"
+        }
+    ],
+    "dateCreated": "2019-01-01",
+    "keywords": [
+        "Terrestrial",
+        "pydece",
+        "eruptions",
+        "dense",
+        "python",
+        "sustained fountaining eruptions",
+        "impulsive column collapse",
+        "pyroclastic density currents",
+        "fountaining eruptions",
+        "python code",
+        "code for modeling",
+        "endmember of pyroclastic",
+        "impulsive column",
+        "column collapse",
+        "collapse or sustained",
+        "sustained fountaining",
+        "iverson and denlinger",
+        "particle rich pdc",
+        "dense endmember",
+        "density currents",
+        "pyroclastic density currents"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "description": "A python code for modeling the dense endmember of pyroclastic density currents (PDCs) generated either by impulsive column collapse or sustained fountaining eruptions. Dense, particle rich PDC is modeled as solid-fluid mixture driven by gravity analogous to the granular flow models of Iverson and Denlinger (2001). Flow movement over real topography is realized by using a digital elevation model (DEM) file as one of the model inputs. Other model inputs include simulation time, flow density and viscosity, x and y coordinates (or longitude and latitude) of the source, among others, which are input to the model either using a config file or via command line arguments.",
+    "url": "https://csdms.colorado.edu/wiki/Model:PyDeCe",
+    "developmentStatus": "Only maintenance"
+}

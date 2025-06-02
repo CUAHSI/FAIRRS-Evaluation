@@ -1,0 +1,776 @@
+{
+  "subject": "VIC#3002##",
+  "data": [
+    {
+      "property": "Additional_comments_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "unsure what type of license"
+        }
+      ]
+    },
+    {
+      "property": "Citations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "46297"
+        }
+      ]
+    },
+    {
+      "property": "City",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Seattle"
+        }
+      ]
+    },
+    {
+      "property": "CodeReviewed",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "Code_CMT_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_IRF_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_openmi_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_optimized",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single Processor"
+        }
+      ]
+    },
+    {
+      "property": "Country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "United States"
+        }
+      ]
+    },
+    {
+      "property": "Current_future_collaborators",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://mailman.u.washington.edu/mailman/listinfo/vic_users"
+        }
+      ]
+    },
+    {
+      "property": "Describe_ideal_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "http://www.hydro.washington.edu/Lettenmaier/Models/VIC/Development/BetaTesting.shtml"
+        }
+      ]
+    },
+    {
+      "property": "Describe_input_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Global Parameter File\nuser_def.h File\nMeteorological Forcing Files\nSoil Parameter File\nVegetation Library File\nVegetation Parameter File\n(Optional) Initial State File\n(Optional) Elevation Band File\n(Optional) Lake/Wetland Parameter File"
+        }
+      ]
+    },
+    {
+      "property": "Describe_key_physical_parameters",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Land Cover can subdivide each grid cell's land cover into arbitrary number of \"tiles\", each corresponding to the fraction of the cell covered by that particular land cover (e.g. coniferous evergreen forest, grassland, etc.)\ngeographic locations or configurations of land cover types are not considered; VIC lumps all patches of same cover type into 1 tile\nSnow Model\nVIC considers snow in several forms: ground snow pack, snow in the vegetation canopy, and snow on top of lake ice. Main features:\n\nGround snow pack is quasi 2-layer; the topmost portion of the pack is considered separately for solving energy balance at pack surface\nMeteorological Input Data\nCan use sub-daily met data (prcp, tair, wind) at intervals matching simulation time step\nCan use daily met data (prcp, tmax, tmin, wind) for daily or sub-daily simulations\nDisaggregates daily met data to sub-daily via Thornton & Running algorithm and others (computes incoming sw and lw rad, pressure, density, vp)\nVIC can consider spatial heterogeneity in precipitation, arising from either storm fronts/local convection or topographic heterogeneity. Here we consider the influence of storm fronts and local convective activity. This functionality is controlled by the DIST_PRCP option in the global parameter file. Main features:\n\nCan subdivide the grid cell into a time-varying wet fraction (where precipitation falls) and dry fraction (where no precipitation falls).\nThe wet fraction depends on the intensity of the precipitation; the user can control this function.\nFluxes and storages from the wet and dry fractions are averaged together (weighted by area fraction) to give grid-cell average for writing to output files.\nElevation Bands\nVIC can consider spatial heterogeneity in precipitation, arising from either storm fronts/local convection or topographic heterogeneity. Here we consider the influence of topography, via elevation bands. This is primarily used to produce more accurate estimates of mountain snow pack. This functionality is controlled by the SNOW_BAND option in the global parameter file. Main features:\n\nCan subdivide the grid cell into arbitrary number of elevation bands, to account for variation of topography within cell\nWithin each band, meteorologic forcings are lapsed from grid cell average elevation to band's elevation\nGeographic locations or configurations of elevation bands are not considered; VIC lumps all areas of same elevation range into 1 band\nFluxes and storages from the bands are averaged together (weighted by area fraction) to give grid-cell average for writing to output files\nHowever, the band-specific values of some variables can be written separately in the output files\n\nLiang et al. (1999): set QUICK_FLUX to TRUE in global parameter file; this is the default for FULL_ENERGY = TRUE and FROZEN_SOIL = FALSE.\nCherkauer et al. (1999): set QUICK_FLUX to FALSE in global parameter file; this is the default for FROZEN_SOIL = TRUE.\nBy default, the finite difference formulation is an explicit method.\nBy default, the nodes of the finite difference formulation are spaced linearly.\nThese apply to the case QUICK_FLUX = FALSE and FROZEN_SOIL = TRUE, i.e. the formulation of Cherkauer et al. (1999)."
+        }
+      ]
+    },
+    {
+      "property": "Describe_output_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "http://www.hydro.washington.edu/Lettenmaier/Models/VIC/Documentation/Inputs.shtml"
+        }
+      ]
+    },
+    {
+      "property": "Describe_post-processing_software",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "http://www.hydro.washington.edu/Lettenmaier/Models/VIC/Documentation/PostProcessing.shtml"
+        }
+      ]
+    },
+    {
+      "property": "Describe_processes",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Land Cover and Soil Snow Model\nMeteorology (Inputs, Distributed Precip, and Snow/Elevation Bands)\nFrozen Soil (including Permafrost)\nDynamic Lake/Wetland Model (new to 4.1.1)\nFlow Routing"
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCode",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Active"
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCodeYearChecked",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2020"
+        }
+      ]
+    },
+    {
+      "property": "Development_still_active",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:vicadmin@hydro.washington.edu"
+        }
+      ]
+    },
+    {
+      "property": "Extended_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "The VIC model is a large-scale, semi-distributed hydrologic model. As such, it shares several basic features with the other land surface models (LSMs) that are commonly coupled to global circulation models (GCMs):\n\nThe land surface is modelled as a grid of large (>1km), flat, uniform cells\nSub-grid heterogeneity (e.g. elevation, land cover) is handled via statistical distributions.\nInputs are time series of daily or sub-daily meteorological drivers (e.g. precipitation, air temperature, wind speed).\nLand-atmosphere fluxes, and the water and energy balances at the land surface, are simulated at a daily or sub-daily time step\nWater can only enter a grid cell via the atmosphere\nNon-channel flow between grid cells is ignored\nThe portions of surface and subsurface runoff that reach the local channel network within a grid cell are assumed to be >> the portions that cross grid cell boundaries into neighboring cells\nOnce water reaches the channel network, it is assumed to stay in the channel (it cannot flow back into the soil)\nThis last point has several consequences for VIC model implementation:\n\nGrid cells are simulated independently of each other\nEntire simulation is run for each grid cell separately, 1 grid cell at a time, rather than, for each time step, looping over all grid cells\nMeteorological input data for each grid cell (for the entire simulation period) are read from a file specific to that grid cell\nTime series of output variables for each grid cell (for the entire simulation period) are stored in files specific to that grid cell\nRouting of stream flow is performed separately from the land surface simulation, using a separate model (typically the routing model of Lohmann et al., 1996 and 1998)"
+        }
+      ]
+    },
+    {
+      "property": "First_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Dennis"
+        }
+      ]
+    },
+    {
+      "property": "H-index",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "101"
+        }
+      ]
+    },
+    {
+      "property": "Input_format_model_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "http://www.hydro.washington.edu/Lettenmaier/Models/VIC/Documentation/Inputs.shtml"
+        }
+      ]
+    },
+    {
+      "property": "Last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Lettenmaier"
+        }
+      ]
+    },
+    {
+      "property": "M-quotient",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "2.46"
+        }
+      ]
+    },
+    {
+      "property": "Manual_model_available",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No"
+        }
+      ]
+    },
+    {
+      "property": "ModelDomain",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Hydrology"
+        }
+      ]
+    },
+    {
+      "property": "Model_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "As code"
+        }
+      ]
+    },
+    {
+      "property": "Model_keywords",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "global"
+        }
+      ]
+    },
+    {
+      "property": "Model_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single"
+        }
+      ]
+    },
+    {
+      "property": "Modelautophrases",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "vic"
+        },
+        {
+          "type": 2,
+          "item": "variable"
+        },
+        {
+          "type": 2,
+          "item": "capacity"
+        },
+        {
+          "type": 2,
+          "item": "washington"
+        },
+        {
+          "type": 2,
+          "item": "grid cell"
+        },
+        {
+          "type": 2,
+          "item": "grid"
+        },
+        {
+          "type": 2,
+          "item": "semi-distributed hydrologic model"
+        },
+        {
+          "type": 2,
+          "item": "cell"
+        },
+        {
+          "type": 2,
+          "item": "grid cells"
+        },
+        {
+          "type": 2,
+          "item": "land surface"
+        },
+        {
+          "type": 2,
+          "item": "semi-distributed hydrologic"
+        },
+        {
+          "type": 2,
+          "item": "land"
+        },
+        {
+          "type": 2,
+          "item": "cells"
+        },
+        {
+          "type": 2,
+          "item": "surface"
+        },
+        {
+          "type": 2,
+          "item": "vic model"
+        },
+        {
+          "type": 2,
+          "item": "time"
+        },
+        {
+          "type": 2,
+          "item": "model"
+        },
+        {
+          "type": 2,
+          "item": "simulation"
+        },
+        {
+          "type": 2,
+          "item": "entire simulation"
+        },
+        {
+          "type": 2,
+          "item": "global"
+        }
+      ]
+    },
+    {
+      "property": "Nr-of-pubs",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "810"
+        }
+      ]
+    },
+    {
+      "property": "One-line_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "VIC (Variable Infiltration Capacity) is a macroscale hydrologic model that solves full water and energy balances, originally developed by Xu Liang at the University of Washington."
+        }
+      ]
+    },
+    {
+      "property": "Output_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        },
+        {
+          "type": 2,
+          "item": "Binary"
+        }
+      ]
+    },
+    {
+      "property": "Output_format_model_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "http://www.hydro.washington.edu/Lettenmaier/Models/VIC/Documentation/OutputVarList.shtml"
+        }
+      ]
+    },
+    {
+      "property": "Phone",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "206.685.1796"
+        }
+      ]
+    },
+    {
+      "property": "Post_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "t"
+        }
+      ]
+    },
+    {
+      "property": "Postal_address1",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Dept. of Civil and Env. Engineering"
+        }
+      ]
+    },
+    {
+      "property": "Postal_address2",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "University of Washington, Box 352700"
+        }
+      ]
+    },
+    {
+      "property": "Postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "98195-2700"
+        }
+      ]
+    },
+    {
+      "property": "Pre_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "t"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Other"
+        }
+      ]
+    },
+    {
+      "property": "Source_code_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Through web repository"
+        }
+      ]
+    },
+    {
+      "property": "Source_web_address",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "http://www.hydro.washington.edu/Lettenmaier/Models/VIC/Development/BetaTesting.shtml"
+        }
+      ]
+    },
+    {
+      "property": "Spatial_dimensions",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "3D"
+        }
+      ]
+    },
+    {
+      "property": "Spatialscale",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Continental"
+        },
+        {
+          "type": 2,
+          "item": "Global"
+        },
+        {
+          "type": 2,
+          "item": "Regional-Scale"
+        }
+      ]
+    },
+    {
+      "property": "State",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Washington"
+        }
+      ]
+    },
+    {
+      "property": "Supported_platforms",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Unix"
+        },
+        {
+          "type": 2,
+          "item": "Linux"
+        }
+      ]
+    },
+    {
+      "property": "Type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Technical contact"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_needed",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "_ASK",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "VIC#3002##_QUERY52f86ffec8391a132d158b2f46512ed2"
+        },
+        {
+          "type": 9,
+          "item": "VIC#3002##_QUERY24621f89ea355ca8d190d55f4845ba11"
+        },
+        {
+          "type": 9,
+          "item": "VIC#3002##_QUERY91e22a0ef8a76e3c5e4559fdda4497ec"
+        }
+      ]
+    },
+    {
+      "property": "_CDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2009/11/6/11/45/46/0"
+        }
+      ]
+    },
+    {
+      "property": "_INST",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Models#14##"
+        },
+        {
+          "type": 9,
+          "item": "Pages_using_duplicate_arguments_in_template_calls#14##"
+        }
+      ]
+    },
+    {
+      "property": "_LEDT",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "WikiSysop#2##"
+        }
+      ]
+    },
+    {
+      "property": "_MDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2020/9/17/2/16/49/0"
+        }
+      ]
+    },
+    {
+      "property": "_SKEY",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "VIC"
+        }
+      ]
+    }
+  ],
+  "sobj": [
+    {
+      "subject": "VIC#3002##_QUERY52f86ffec8391a132d158b2f46512ed2",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "0"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[:Model:VIC]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "VIC# QUERY52f86ffec8391a132d158b2f46512ed2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "VIC#3002##_QUERY24621f89ea355ca8d190d55f4845ba11",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[User:+]] [[First name member::Dennis]] [[Last name member::Lettenmaier]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "VIC# QUERY24621f89ea355ca8d190d55f4845ba11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "VIC#3002##_QUERY91e22a0ef8a76e3c5e4559fdda4497ec",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "ul"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[Model:+]] [[First name::Dennis]] [[Last name::Lettenmaier]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "VIC# QUERY91e22a0ef8a76e3c5e4559fdda4497ec"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+  "version": 2
+}

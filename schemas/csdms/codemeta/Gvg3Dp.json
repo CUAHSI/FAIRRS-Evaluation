@@ -1,0 +1,42 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Gvg3Dp",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        }
+    ],
+    "applicationCategory": "Single",
+    "memoryRequirements": "Typical ratio: 250,000 nodes requires 1 Gbyte",
+    "operatingSystem": [
+        "Unix",
+        "Linux"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Mohamad Mehdi",
+            "familyName": "Nasr Azadani",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of California, Santa Barbara",
+                "address": "Santa Barabra, United States"
+            },
+            "email": "mailto:mmnasr@engr.ucsb.edu"
+        }
+    ],
+    "dateCreated": "2006-01-01",
+    "keywords": [
+        "Marine",
+        "turbidity current",
+        "flow dynamics"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "description": "Three dimensional simulations of the Turbidity currents using DNS of incompressible Navier-Stokes and transport equations.",
+    "url": "https://csdms.colorado.edu/wiki/Model:Gvg3Dp"
+}

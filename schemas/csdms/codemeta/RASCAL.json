@@ -1,0 +1,44 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "RASCAL",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "memoryRequirements": "1G",
+    "operatingSystem": [
+        "Linux",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Laurel",
+            "familyName": "Larsen",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "USGS",
+                "address": "Reston, United States"
+            },
+            "email": "mailto:lglarsen@usgs.gov"
+        }
+    ],
+    "dateCreated": "2008-01-01",
+    "keywords": [
+        "Coastal",
+        "Hydrology",
+        "Terrestrial",
+        "landscape evolution",
+        "everglades"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "description": "Simulates the evolution of landscapes consisting of patches of high-flow-resistance vegetation and low-flow-resistance vegetation as a result of surface-water flow, peat accretion, gravitationally driven erosion, and sediment transport by flow. Was developed for the freshwater Everglades but could also apply to coastal marshes or floodplains. Described in Larsen and Harvey, Geomorphology, 2010 and Larsen and Harvey, American Naturalist, 2010 in press.",
+    "url": "https://csdms.colorado.edu/wiki/Model:RASCAL"
+}

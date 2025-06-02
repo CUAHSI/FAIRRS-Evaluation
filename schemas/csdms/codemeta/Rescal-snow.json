@@ -1,0 +1,81 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Rescal-snow",
+    "codeRepository": "https://github.com/kellykochanski/rescal-snow",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/kellykochanski/rescal-snow",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS"
+    ],
+    "softwareVersion": "v1.1.1",
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Kelly",
+            "familyName": "Kochanski",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Colorado Boulder",
+                "address": "Boulder CO, United States"
+            },
+            "email": "mailto:kelly.kochanski@gmail.com"
+        }
+    ],
+    "dateCreated": "2018-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "Cryosphere",
+        "snow-waves",
+        "snow",
+        "wind blows",
+        "study snow features",
+        "forms surface features",
+        "features",
+        "rescal-snow",
+        "snow features",
+        "enable snow scientists",
+        "surface features",
+        "self-organizes",
+        "snow science",
+        "blows",
+        "data",
+        "ripples and dunes",
+        "loose grains rescal-snow",
+        "snow dynamics",
+        "sand",
+        "aeolian sediment transport",
+        "dune",
+        "aeolian dune",
+        "snow dynamics",
+        "sand",
+        "aeolian sediment transport",
+        "dune",
+        "Aeolian dune"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "identifier": "10.5281/zenodo.3517217",
+    "description": "When wind blows over snow, it self-organizes. This forms surface features, such as ripples and dunes, that alter the reflectivity and thermal conductivity of the snow.\n\nStudying these features in the field is cold and challenging (we've tried), so we created rescal-snow to enable snow scientists to study snow features in controlled numerical experiments. We hope that this model will be useful to researchers in snow science, geomorphology, and polar climate.\n\nRescal-snow is able to simulate:\n- Snow/sand grain erosion and deposition by wind\n- Snowfall\n- Time-dependent cohesion (snow sintering)\n- Avalanches of loose grains\n\nRescal-snow is also designed for robust, reproducible science, and contains tools for high-performance computing, data management, and data analysis, including:\n- Workflow tools for generating and running many simulations in parallel\n- A python-based workflow that manages data and analysis at runtime\n\nThese processes, along with model input, output, performance and constraints, are discussed in detail in the project docs and readme.",
+    "url": "https://csdms.colorado.edu/wiki/Model:Rescal-snow",
+    "review": {
+        "@type": "Review",
+        "reviewBody": "Reviewed and accepted by the Journal of Open Source Software (JOSS)."
+    },
+    "developmentStatus": "Active"
+}

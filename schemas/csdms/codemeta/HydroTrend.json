@@ -1,0 +1,77 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "HydroTrend",
+    "codeRepository": "https://github.com/kettner/hydrotrend",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/kettner/hydrotrend",
+    "memoryRequirements": "1Gb at the most",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "softwareVersion": "3.0.2",
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Albert",
+            "familyName": "Kettner",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "CSDMS, INSTAAR, University of Colorado",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:kettner@colorado.edu"
+        }
+    ],
+    "dateCreated": "1992-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "climate",
+        "model",
+        "hydrological water balance",
+        "simulates water discharge",
+        "climate-driven hydrological water",
+        "river outlet",
+        "climate-driven hydrological",
+        "balance and transport",
+        "transport model",
+        "model that simulates",
+        "discharge and sediment",
+        "sediment load",
+        "hydrological water",
+        "water balance",
+        "simulates water",
+        "water discharge",
+        "hydrotrend",
+        "basins",
+        "hydrological model",
+        "sediment transport",
+        "river",
+        "hydrological",
+        "transport",
+        "basins",
+        "Hydrological model",
+        "Sediment Transport",
+        "river",
+        "hydrological",
+        "transport"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "identifier": "10.1594/IEDA/100135",
+    "description": "HydroTrend v.3.0 is a climate-driven hydrological water balance and transport model that simulates water discharge and sediment load at a river outlet.",
+    "url": "https://csdms.colorado.edu/wiki/Model:HydroTrend",
+    "developmentStatus": "Active"
+}

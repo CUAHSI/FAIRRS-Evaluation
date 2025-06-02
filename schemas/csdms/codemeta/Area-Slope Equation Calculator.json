@@ -1,0 +1,83 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Area-Slope_Equation_Calculator",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "softwareVersion": "0.1",
+    "supportingData": [
+        {
+            "@type": "DataFeed",
+            "url": "https://csdms.colorado.edu/csdms_wiki/images/Area_demo.txt",
+            "name": "Test Data"
+        },
+        {
+            "@type": "DataFeed",
+            "url": "https://csdms.colorado.edu/csdms_wiki/images/Slope_demo.txt",
+            "name": "Test Data"
+        },
+        {
+            "@type": "DataFeed",
+            "url": "https://csdms.colorado.edu/csdms_wiki/images/Flowdir_demo.txt",
+            "name": "Test Data"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Sagy",
+            "familyName": "Cohen",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "CSDMS, University of Colorado",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:sagy.cohen@colorado.edu"
+        }
+    ],
+    "dateCreated": "2006-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "pixel",
+        "calculator",
+        "slope plot",
+        "area vs. slope",
+        "traditionally the area-slope",
+        "area-slope equation",
+        "alpha",
+        "catchment area",
+        "traditionally",
+        "equation",
+        "plot",
+        "area-slope",
+        "calculate the area-slope",
+        "area-slope constant",
+        "catchment",
+        "constant and coefficient",
+        "downslope neighbor",
+        "geomorphologic",
+        "area-slope equation calculator",
+        "geomorphologic",
+        "catchment"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "identifier": "10.1594/IEDA/100090",
+    "description": "Traditionally the Area-Slope equation (S=cA^alpha) is extracted from a catchment area vs. slope plot. This model calculate the Area-Slope constant and coefficient (alpha) for each pixel at the catchment as a function of its downslope neighbor.",
+    "url": "https://csdms.colorado.edu/wiki/Model:Area-Slope_Equation_Calculator",
+    "developmentStatus": "As is, no updates are provided"
+}

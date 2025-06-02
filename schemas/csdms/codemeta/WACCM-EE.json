@@ -1,0 +1,66 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "WACCM-EE",
+    "codeRepository": "http://www.cesm.ucar.edu/working_groups/WACCM/",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran90"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "downloadUrl": "http://www.cesm.ucar.edu/working_groups/WACCM/",
+    "memoryRequirements": "1GB for input data",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Eric",
+            "familyName": "Wolf",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Colorado, ATOC",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:eric.wolf@colorado.edu"
+        }
+    ],
+    "dateCreated": "2008-01-01",
+    "keywords": [
+        "Climate",
+        "gcm",
+        "studies",
+        "ncar waccm model",
+        "ncar waccm",
+        "developing a gcm",
+        "gcm based",
+        "based on ncar",
+        "ancient earth",
+        "waccm model",
+        "studied the climate",
+        "earth",
+        "waccm",
+        "ncar",
+        "faint young sun",
+        "model to studied",
+        "titan-like photochemical hazes",
+        "paleoclimate",
+        "waccm-ee",
+        "paleoclimate"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "description": "I am developing a GCM based on NCAR's WACCM model to studied the climate of the ancient Earth. WACCM has been linked with a microphysical model (CARMA). Some important issues to be examined are the climate of the ancient Earth in light of the faint young Sun, reducing chemistry of the early atmosphere, and the production and radiative forcing of Titan-like photochemical hazes that likely enshrouded the Earth at this time.",
+    "url": "https://csdms.colorado.edu/wiki/Model:WACCM-EE"
+}

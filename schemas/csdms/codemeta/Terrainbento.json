@@ -1,0 +1,59 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Terrainbento",
+    "codeRepository": "https://github.com/TerrainBento/terrainbento",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "downloadUrl": "https://github.com/TerrainBento/terrainbento",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Katy",
+            "familyName": "Barnhart",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Colorado",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:katy.barnhart@gmail.com"
+        }
+    ],
+    "dateCreated": "2017-01-01",
+    "keywords": [
+        "Terrestrial",
+        "python",
+        "evolution",
+        "python package",
+        "earth over geologic",
+        "geologic time",
+        "thousands to millions",
+        "millions of years",
+        "package for modeling",
+        "modeling the evolution",
+        "terrainbento",
+        "earth",
+        "established governing equation",
+        "time",
+        "thousands",
+        "years"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "Terrainbento is a Python package for modeling the evolution of the surface of the Earth over geologic time (e.g., thousands to millions of years). Despite many decades of effort by the geomorphology community, there is no one established governing equation for the evolution of topography. Terrainbento thus provides 28 alternative models that support hypothesis testing and multi-model analysis in landscape evolution.",
+    "url": "https://csdms.colorado.edu/wiki/Model:Terrainbento",
+    "developmentStatus": "Active"
+}

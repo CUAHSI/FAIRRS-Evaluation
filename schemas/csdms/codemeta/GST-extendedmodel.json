@@ -1,0 +1,76 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "GST-extendedmodel",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Single",
+    "operatingSystem": [
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Astrid",
+            "familyName": "Blom",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Delft University of Technology",
+                "address": "Delft, Netherlands"
+            },
+            "email": "mailto:astrid.blom@tudelft.nl"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Victor",
+            "familyName": "Chavarrias",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Delft University of Technology",
+                "address": "Delft, Netherlands"
+            },
+            "email": "mailto:V.ChavarriasBorras@tudelft.nl"
+        }
+    ],
+    "dateCreated": "2016-01-01",
+    "keywords": [
+        "Terrestrial",
+        "gst",
+        "extended",
+        "combination",
+        "conditions",
+        "analytical gst migration",
+        "gst migration model",
+        "extended gst model",
+        "migration model combined",
+        "analytical gst",
+        "gst migration",
+        "closure relations",
+        "surface texture",
+        "quasi-equilibrium conditions",
+        "extended gst",
+        "combined with closure",
+        "slope and surface",
+        "assumption of quasi-equilibrium",
+        "gst model",
+        "gravel-sand transitions",
+        "mixed-size sediment",
+        "gravel-bed rivers",
+        "sand-bed rivers",
+        "gst-extendedmodel",
+        "gravel-sand transitions",
+        "mixed-size sediment",
+        "gravel-bed rivers",
+        "sand-bed rivers"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "description": "The term \"extended GST model\" indicates the combination of an analytical GST migration model combined with closure relations (for slope and surface texture) based on the assumption of quasi-equilibrium conditions. The extended model is described in Blom et al, 2017 \"Advance, retreat, and halt of abrupt gravel-sand transitions in alluvial rivers\", http://dx.doi.org/10.1002/2017GL074231.",
+    "url": "https://csdms.colorado.edu/wiki/Model:GST-extendedmodel"
+}

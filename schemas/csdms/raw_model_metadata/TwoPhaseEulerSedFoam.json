@@ -1,0 +1,946 @@
+{
+  "subject": "TwoPhaseEulerSedFoam#3002##",
+  "data": [
+    {
+      "property": "Additional_city",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Newark"
+        }
+      ]
+    },
+    {
+      "property": "Additional_country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "United States"
+        }
+      ]
+    },
+    {
+      "property": "Additional_email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:thsu@udel.edu"
+        }
+      ]
+    },
+    {
+      "property": "Additional_first_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Tian-Jian"
+        }
+      ]
+    },
+    {
+      "property": "Additional_institute",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Ocean Engineering Lab, University of Delaware"
+        }
+      ]
+    },
+    {
+      "property": "Additional_last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Hsu"
+        }
+      ]
+    },
+    {
+      "property": "Additional_phone",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "+1 (302) 831-4172"
+        }
+      ]
+    },
+    {
+      "property": "Additional_postal_address1",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "259 Academy St."
+        }
+      ]
+    },
+    {
+      "property": "Additional_postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "19716"
+        }
+      ]
+    },
+    {
+      "property": "Additional_state",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Delaware"
+        }
+      ]
+    },
+    {
+      "property": "Additional_type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Model developer"
+        }
+      ]
+    },
+    {
+      "property": "Citations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "0"
+        }
+      ]
+    },
+    {
+      "property": "City",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Newark"
+        }
+      ]
+    },
+    {
+      "property": "CodeReviewed",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "Code_CMT_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_IRF_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_openmi_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_optimized",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single Processor"
+        },
+        {
+          "type": 2,
+          "item": "Multiple Processors"
+        }
+      ]
+    },
+    {
+      "property": "Country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "United States"
+        }
+      ]
+    },
+    {
+      "property": "Describe_available_calibration_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Experiment data for steady channel flow can be found in:\nSumer, B. M., Kozakiewicz, A., Fredsoe, J., Deigaard, R., 1996. Velocity and concentration profiles in sheet-flow layer of movable bed. Journal of Hydraulic Engineering, (1996) 549-558.\n\nExperiment for oscillatory flow can be found in:\nO'Donoghue, T., Wright, S., 2004. Concentrations in oscillatory sheet flow for well sorted and graded sands. Coastal Engineering 50 (2004) 117-138."
+        }
+      ]
+    },
+    {
+      "property": "Describe_input_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "flow forcing; sediment properties ( density, grain size, etc.); fluid properties; coefficients for carrier fluid turbulence, and parameters for kinetic theory for granular flow; model selection for kinetic theory, such as granular pressure, conductivity, and viscosity model, etc. More details are described in the user maunal."
+        }
+      ]
+    },
+    {
+      "property": "Describe_key_physical_parameters",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "please see more details in the user manual"
+        }
+      ]
+    },
+    {
+      "property": "Describe_length_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "domain needs to be large enough to capture the boundary layer, and the resolution ( on the order of grain size) should be fine enough to capture the sediment-fluid interaction near the bed level."
+        }
+      ]
+    },
+    {
+      "property": "Describe_numerical_limitations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "This model is only tested in rectangle domains, and compared the results with idealized experiments;\n\nSediment bed state is affected by the initial condition (mainly due to the frictional stess closure in this model). For 2D or 3D runs, it is suggested that first run 1DV to steady or quasi-steady state, and map the 1DV results to 2DV or 3D, in this way, the initial instability of the sediment bed can be avoided."
+        }
+      ]
+    },
+    {
+      "property": "Describe_output_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "sediment concentration (alpha); carrier fluid turbulence (k, epsilon); granular temperature (Theta); fluid pressure (p); sediment and fluid velocities (Ua, Ub); turbulence modulation factor (tmf); particle pressure ( kinetic part, pa), more details are described in the user maunal."
+        }
+      ]
+    },
+    {
+      "property": "Describe_processes",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Sediment transport under steady channel flow, oscillatory flow (sinusoidal and Stokes 2nd order waves)"
+        }
+      ]
+    },
+    {
+      "property": "Describe_time_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "The flow should be run to be fully developed, and this time scale depends on the time scale of sediment settling time, and flow periods. the time step should be fine enough not to cause numerical instability, and also capture the varying the flow forcing."
+        }
+      ]
+    },
+    {
+      "property": "Development_still_active",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:zcheng@udel.edu"
+        }
+      ]
+    },
+    {
+      "property": "Extended_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "A multi-dimensional numerical model for sediment transport based on the two-phase\nflow formulation is developed. With closures of particle stresses and fluid-particle interaction,\nthe model is able to resolve processes in the concentrated region of sediment\ntransport and hence does not require conventional bedload/suspended load assumptions.\nThe numerical model is developed in three spatial dimensions. However, in this version,\nthe model is only validated for Reynolds-averaged two-dimensional vertical (2DV) formulation\n(with the k − epsilon closure for carrier flow turbulence) for sheet flow in steady and\noscillatory flows. This numerical model is developed via the open-source CFD library of\nsolvers, OpenFOAM and the new solver is called twoPhaseEulerSedFoam."
+        }
+      ]
+    },
+    {
+      "property": "First_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Zhen"
+        }
+      ]
+    },
+    {
+      "property": "Input_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        }
+      ]
+    },
+    {
+      "property": "Institute",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Ocean Engineering Lab, University of Delaware"
+        }
+      ]
+    },
+    {
+      "property": "Last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Cheng"
+        }
+      ]
+    },
+    {
+      "property": "M-quotient",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "0"
+        }
+      ]
+    },
+    {
+      "property": "Manual_model_available",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "ModelDomain",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Hydrology"
+        },
+        {
+          "type": 2,
+          "item": "Terrestrial"
+        }
+      ]
+    },
+    {
+      "property": "Model_also_known_as",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "SedFoam"
+        }
+      ]
+    },
+    {
+      "property": "Model_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "As code"
+        }
+      ]
+    },
+    {
+      "property": "Model_keywords",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "sediment transport"
+        },
+        {
+          "type": 2,
+          "item": "two-phase model"
+        },
+        {
+          "type": 2,
+          "item": "multi-dimensional"
+        }
+      ]
+    },
+    {
+      "property": "Model_manual",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Media:User Manual.pdf"
+        }
+      ]
+    },
+    {
+      "property": "Model_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Modular"
+        }
+      ]
+    },
+    {
+      "property": "Modelautophrases",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "eulerian"
+        },
+        {
+          "type": 2,
+          "item": "transport"
+        },
+        {
+          "type": 2,
+          "item": "sediment transport based"
+        },
+        {
+          "type": 2,
+          "item": "multi-dimensional numerical model"
+        },
+        {
+          "type": 2,
+          "item": "numerical model"
+        },
+        {
+          "type": 2,
+          "item": "sediment transport"
+        },
+        {
+          "type": 2,
+          "item": "two-phase flow formulation"
+        },
+        {
+          "type": 2,
+          "item": "transport based"
+        },
+        {
+          "type": 2,
+          "item": "model"
+        },
+        {
+          "type": 2,
+          "item": "model is developed"
+        },
+        {
+          "type": 2,
+          "item": "multi-dimensional numerical"
+        },
+        {
+          "type": 2,
+          "item": "two-phase flow"
+        },
+        {
+          "type": 2,
+          "item": "suspended load assumptions"
+        },
+        {
+          "type": 2,
+          "item": "numerical"
+        },
+        {
+          "type": 2,
+          "item": "developed"
+        },
+        {
+          "type": 2,
+          "item": "require conventional bedload"
+        },
+        {
+          "type": 2,
+          "item": "sediment"
+        },
+        {
+          "type": 2,
+          "item": "two-phase model"
+        },
+        {
+          "type": 2,
+          "item": "multi-dimensional"
+        },
+        {
+          "type": 2,
+          "item": "twophaseeulersedfoam"
+        }
+      ]
+    },
+    {
+      "property": "Multiple_processors_implemented",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Distributed memory"
+        }
+      ]
+    },
+    {
+      "property": "Nr-of-pubs",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "--"
+        }
+      ]
+    },
+    {
+      "property": "One-line_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "A four-way coupled two-phase Eulerian model for sediment transport"
+        }
+      ]
+    },
+    {
+      "property": "Output_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        }
+      ]
+    },
+    {
+      "property": "Phone",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "+1 (302)4196006"
+        }
+      ]
+    },
+    {
+      "property": "Post_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Postal_address1",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "259 Academy Street"
+        }
+      ]
+    },
+    {
+      "property": "Postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "19716"
+        }
+      ]
+    },
+    {
+      "property": "Pre_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "CDDL"
+        }
+      ]
+    },
+    {
+      "property": "Programming_language",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "C++"
+        }
+      ]
+    },
+    {
+      "property": "Run_time_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "one day for typical 50,000 grid points using 1 processor, model scalability has been tested to be very good."
+        }
+      ]
+    },
+    {
+      "property": "Source_code_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Through CSDMS repository"
+        }
+      ]
+    },
+    {
+      "property": "Source_csdms_web_address",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://github.com/csdms-contrib/twophaseeulersedfoam"
+        }
+      ]
+    },
+    {
+      "property": "Spatial_dimensions",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "3D"
+        }
+      ]
+    },
+    {
+      "property": "Spatialscale",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Patch-Scale"
+        },
+        {
+          "type": 2,
+          "item": "Grain-Scale"
+        }
+      ]
+    },
+    {
+      "property": "Start_year_development",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2011"
+        }
+      ]
+    },
+    {
+      "property": "State",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Delaware"
+        }
+      ]
+    },
+    {
+      "property": "Supported_platforms",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Unix"
+        },
+        {
+          "type": 2,
+          "item": "Linux"
+        },
+        {
+          "type": 2,
+          "item": "Mac OS"
+        },
+        {
+          "type": 2,
+          "item": "Windows"
+        }
+      ]
+    },
+    {
+      "property": "Type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Model developer"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_needed",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "_ASK",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "TwoPhaseEulerSedFoam#3002##_QUERY1a5f3815ca951f4ee9cda85e67b637ba"
+        },
+        {
+          "type": 9,
+          "item": "TwoPhaseEulerSedFoam#3002##_QUERY926cc440dd410475c90ddad42424c08c"
+        },
+        {
+          "type": 9,
+          "item": "TwoPhaseEulerSedFoam#3002##_QUERY7e2b27c96ffdca76730a18c1b874af88"
+        }
+      ]
+    },
+    {
+      "property": "_CDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2014/9/3/18/0/24/0"
+        }
+      ]
+    },
+    {
+      "property": "_ERRC",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "TwoPhaseEulerSedFoam#3002##_ERR832e19663f926fa58b1c2c38ccac6efd"
+        }
+      ]
+    },
+    {
+      "property": "_INST",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Models#14##"
+        }
+      ]
+    },
+    {
+      "property": "_LEDT",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "WikiSysop#2##"
+        }
+      ]
+    },
+    {
+      "property": "_MDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2020/9/17/2/17/14/0"
+        }
+      ]
+    },
+    {
+      "property": "_SKEY",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "TwoPhaseEulerSedFoam"
+        }
+      ]
+    }
+  ],
+  "sobj": [
+    {
+      "subject": "TwoPhaseEulerSedFoam#3002##_QUERY1a5f3815ca951f4ee9cda85e67b637ba",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "0"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[:Model:TwoPhaseEulerSedFoam]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "TwoPhaseEulerSedFoam# QUERY1a5f3815ca951f4ee9cda85e67b637ba"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "TwoPhaseEulerSedFoam#3002##_QUERY926cc440dd410475c90ddad42424c08c",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[User:+]] [[First name member::Zhen]] [[Last name member::Cheng]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "TwoPhaseEulerSedFoam# QUERY926cc440dd410475c90ddad42424c08c"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "TwoPhaseEulerSedFoam#3002##_QUERY7e2b27c96ffdca76730a18c1b874af88",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "ul"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[Model:+]] [[First name::Zhen]] [[Last name::Cheng]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "TwoPhaseEulerSedFoam# QUERY7e2b27c96ffdca76730a18c1b874af88"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "TwoPhaseEulerSedFoam#3002##_ERR832e19663f926fa58b1c2c38ccac6efd",
+      "data": [
+        {
+          "property": "_ERRP",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "H-index#102##"
+            }
+          ]
+        },
+        {
+          "property": "_ERRT",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[2,\"smw_nofloat\",\"--\"]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "TwoPhaseEulerSedFoam# ERR832e19663f926fa58b1c2c38ccac6efd"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+  "version": 2
+}

@@ -1,0 +1,62 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "AR2-sinuosity",
+    "codeRepository": "https://github.com/alimaye/AR2-sinuosity",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/alimaye/AR2-sinuosity",
+    "memoryRequirements": "Variable, but minimal for processing any one centerline",
+    "operatingSystem": [
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Ajay",
+            "familyName": "Limaye",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Department of Environmental Sciences, University of Virginia",
+                "address": "Charlottesville, United States"
+            },
+            "email": "mailto:ajay@virginia.edu"
+        }
+    ],
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "Planetary landforms",
+        "generates",
+        "model",
+        "earth surface processes",
+        "second-order autoregressive model",
+        "single thread-channel",
+        "line equidistant",
+        "second-order autoregressive",
+        "earth surface",
+        "surface processes",
+        "disturbed periodic model",
+        "code creates",
+        "autoregressive model",
+        "proposed by ferguson",
+        "disturbed periodic",
+        "banks",
+        "thread-channel",
+        "ar2-sinuosity"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "description": "This code creates the channel centerline (i.e., the line equidistant between two banks) for a single thread-channel, using a second-order autoregressive model. The code implements a model for random centerlines proposed by Ferguson, R. I. (1976) Disturbed periodic model for river meanders, Earth Surface Processes 1(4), 337-347, doi:10.1002/esp.3290010403. This implementation also includes (1) controls for the node spacing and extent of channels, (2) removal of self-intersecting (cutoff) loops from modeled centerlines, and (3) a wrapper script to sweep model parameter space and generate alternate realizations using different random disturbance series.",
+    "url": "https://csdms.colorado.edu/wiki/Model:AR2-sinuosity",
+    "developmentStatus": "Only maintenance"
+}

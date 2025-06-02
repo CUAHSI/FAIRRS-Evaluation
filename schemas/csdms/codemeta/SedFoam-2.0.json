@@ -1,0 +1,113 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "SedFoam-2.0",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C++"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "memoryRequirements": "depends on the problem",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Julien",
+            "familyName": "Chauchat",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Grenoble Alpes, LEGI, G-INP, CNRS",
+                "address": "Grenoble, France"
+            },
+            "email": "mailto:julien.chauchat@legi.grenoble-inp.fr"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Zhen",
+            "familyName": "Cheng",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Woods hole oceanographic institution",
+                "address": "Woods Hole, United States"
+            },
+            "email": "mailto:zcheng@whoi.edu"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Tim",
+            "familyName": "Nagel",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Grenoble Alpes, LEGI, G-INP, CNRS",
+                "address": "Grenoble, France"
+            },
+            "email": "mailto:tim.nagel@univ-grenoble-alpes.fr"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Cyrille",
+            "familyName": "Bonamy",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Delaware",
+                "address": "Newark, France"
+            },
+            "email": "mailto:Cyrille.Bonamy@legi.cnrs.fr"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Tian-Jian (Tom)",
+            "familyName": "Hsu",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Delaware",
+                "address": "Newark, France"
+            },
+            "email": "mailto:thsu@udel.edu"
+        }
+    ],
+    "dateCreated": "2016-01-01",
+    "keywords": [
+        "Hydrology",
+        "Coastal",
+        "version",
+        "eulerian",
+        "transport",
+        "three-dimensional two-phase flow",
+        "three-dimensional two-phase",
+        "two-phase flow solver",
+        "sediment transport",
+        "sediment",
+        "two-phase flow",
+        "flow",
+        "solver",
+        "models",
+        "turbulence models",
+        "sediment transport applications",
+        "stress",
+        "inter-granular stress",
+        "turbulent sediment transport",
+        "two-phase model",
+        "openfoam",
+        "multi-dimensional",
+        "sedfoam-2.0",
+        "two-phase model",
+        "OpenFOAM",
+        "sediment transport",
+        "multi-dimensional"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "description": "A three-dimensional two-phase flow solver, SedFoam-2.0, is presented for sediment transport applications. The solver is extended upon twoPhaseEulerSedFoam (https://csdms.colorado.edu/wiki/Model:TwoPhaseEulerSedFoam). In this approach the sediment phase is modeled as a continuum, and constitutive laws have to be prescribed for the sediment stresses. In the proposed solver, two different inter-granular stress models are implemented: the kinetic theory of granular flows and the dense granular flow rheology \u03bc(I). For the fluid stress, laminar or turbulent flow regimes can be simulated and three different turbulence models are available for sediment transport: a simple mixing length model (one-dimensional configuration only), a k-\u03f5 and a k-\u03c9 model. The numerical implementation is first demonstrated by two validation test cases, sedimentation of suspended particles and laminar bed-load. Two applications are then investigated to illustrate the capabilities of SedFoam-2.0 to deal with complex turbulent sediment transport problems, such as sheet flow and scouring, with different combinations of inter-granular stress and turbulence models.",
+    "url": "https://csdms.colorado.edu/wiki/Model:SedFoam-2.0"
+}

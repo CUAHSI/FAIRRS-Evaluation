@@ -1,0 +1,65 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "OpenAMUNDSEN",
+    "codeRepository": "https://github.com/openamundsen/openamundsen",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/openamundsen/openamundsen",
+    "operatingSystem": [
+        "Unix",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Ulrich",
+            "familyName": "Strasser",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Innsbruck",
+                "address": "Innsbruck, Austria"
+            },
+            "email": "mailto:ulrich.strasser@uibk.ac.at"
+        }
+    ],
+    "dateCreated": "2020-01-01",
+    "keywords": [
+        "Hydrology",
+        "Cryosphere",
+        "python",
+        "openamundsen",
+        "fully distributed model",
+        "ice covered surfaces",
+        "distributed model",
+        "designed primarily",
+        "mountain regions",
+        "fully distributed",
+        "primarily for resolving",
+        "resolving the mass",
+        "mass and energy",
+        "energy balance",
+        "balance of snow",
+        "snow and ice",
+        "ice covered",
+        "covered surfaces",
+        "surfaces in mountain",
+        "snow and ice energy balance",
+        "hydroclimatological model",
+        "Snow and ice energy balance",
+        "Hydroclimatological model"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "openAMUNDSEN is a fully distributed model, designed primarily for resolving the mass and energy balance of snow and ice covered surfaces in mountain regions. Typically, it is applied in areas ranging from the point scale to the regional scale (i.e., up to some hundreds to thousands of square kilometers), using a spatial resolution of 10\u2013100 m and a temporal resolution of 1\u20133 h, however its potential applications are very versatile.",
+    "url": "https://csdms.colorado.edu/wiki/Model:OpenAMUNDSEN",
+    "developmentStatus": "Active"
+}

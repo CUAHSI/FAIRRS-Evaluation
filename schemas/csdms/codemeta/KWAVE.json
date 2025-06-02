@@ -1,0 +1,64 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "KWAVE",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Single",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Luke",
+            "familyName": "McGuire",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Arizona",
+                "address": "Tucson, United States"
+            },
+            "email": "mailto:lmcguire@arizona.edu"
+        }
+    ],
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "interception",
+        "infiltration",
+        "approximation",
+        "kinematic wave equation",
+        "equation to represent",
+        "green-ampt equation",
+        "represent infiltration",
+        "wave equation",
+        "represent runoff",
+        "kinematic wave",
+        "equation",
+        "represent",
+        "landscape",
+        "model",
+        "green-ampt",
+        "kinematic",
+        "wave",
+        "kwave"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "description": "This model uses the Green-Ampt equation to represent infiltration and the kinematic wave equation to represent runoff over a landscape. The effects of rainfall interception can also be included.",
+    "url": "https://csdms.colorado.edu/wiki/Model:KWAVE",
+    "developmentStatus": "As is, no updates are provided"
+}

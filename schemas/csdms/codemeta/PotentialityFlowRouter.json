@@ -1,0 +1,67 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "PotentialityFlowRouter",
+    "codeRepository": "https://github.com/landlab/landlab/tree/master/landlab",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "downloadUrl": "https://github.com/landlab/landlab/tree/master/landlab",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Daniel",
+            "familyName": "Hobley",
+            "affiliation": {
+                "@type": "Organization",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:daniel.hobley@colorado.edu"
+        }
+    ],
+    "dateCreated": "2015-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "multidirectional",
+        "method",
+        "class implements voller",
+        "experimental matrix solutions",
+        "implements voller",
+        "paola \u2019s experimental",
+        "class implements",
+        "experimental matrix",
+        "matrix solutions",
+        "hobley",
+        "voller",
+        "paola",
+        "flow",
+        "chezy or manning",
+        "routing",
+        "manning equations",
+        "class",
+        "flow path",
+        "flow routing",
+        "potentialityflowrouter",
+        "flow path",
+        "flow routing"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "This class implements Voller, Hobley, and Paola\u2019s experimental matrix solutions for flow routing. The method works by solving for a potential field at all nodes on the grid, which enforces both mass conservation and flow downhill along topographic gradients. It is order n and highly efficient, but does not return any information about flow connectivity.\n\nOptions are permitted to allow \u201cabstract\u201d routing (flow enforced downslope, but no particular assumptions are made about the governing equations), or routing according to the Chezy or Manning equations. This routine assumes that water is distributed evenly over the surface of the cell in deriving the depth, and does not assume channelization. You will need to back- calculate channel depths for yourself using known widths at each node if that is what you want.",
+    "url": "https://csdms.colorado.edu/wiki/Model:PotentialityFlowRouter",
+    "relatedLink": "https://github.com/landlab/landlab/issues",
+    "developmentStatus": "Active"
+}

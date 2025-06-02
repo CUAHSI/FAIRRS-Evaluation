@@ -1,0 +1,66 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "TURB",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "memoryRequirements": "<512Mb",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "softwareVersion": "0.1",
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Rudy",
+            "familyName": "Slingerland",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Penn State University",
+                "address": "University Park, United States"
+            },
+            "email": "mailto:sling@geosc.psu.edu"
+        }
+    ],
+    "dateCreated": "1992-01-01",
+    "keywords": [
+        "Terrestrial",
+        "gausian",
+        "bed",
+        "instantaneous shear stresses",
+        "calculates the gaussian",
+        "coefficient of variation",
+        "gaussian or log-gaussian",
+        "log-gaussian distribution",
+        "distribution of instantaneous",
+        "instantaneous shear",
+        "shear stresses",
+        "calculates",
+        "variation",
+        "gaussian",
+        "log-gaussian",
+        "distribution",
+        "instantaneous",
+        "bedload transport",
+        "fluvial",
+        "turb",
+        "bedload transport",
+        "fluvial"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "identifier": "10.1594/IEDA/100176",
+    "description": "Calculates the gaussian or log-gaussian distribution of instantaneous shear stresses on the bed, given a mean and coefficient of variation.",
+    "url": "https://csdms.colorado.edu/wiki/Model:TURB",
+    "developmentStatus": "As is, no updates are provided"
+}

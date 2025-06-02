@@ -1,0 +1,66 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "1DBreachingTurbidityCurrent",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    },
+    "applicationCategory": "Single",
+    "operatingSystem": [
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Esther",
+            "familyName": "Eke",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Utah State University",
+                "address": "Logan, United States"
+            },
+            "email": "mailto:eceke2@gmail.com"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Enrica",
+            "familyName": "Viparelli",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of South Carolina",
+                "address": "Columbia, United States"
+            },
+            "email": "mailto:VIPARELL@cec.sc.edu"
+        }
+    ],
+    "dateCreated": "2011-01-01",
+    "keywords": [
+        "Coastal",
+        "breaching",
+        "turbidity",
+        "model",
+        "generating",
+        "turbidity current directed",
+        "turbidity current",
+        "steep subaqueous slope",
+        "breach-generated turbidity current",
+        "vertical turbidity current",
+        "retrogressive failure",
+        "sustained turbidity currents",
+        "steep subaqueous",
+        "quasi-horizontal turbidity current",
+        "current directed",
+        "current",
+        "breach-generated turbidity",
+        "monterey submarine canyon",
+        "subaqueous slope",
+        "1dbreachingturbiditycurrent",
+        "turbidity current"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "description": "The term \u201cbreaching\u201d refers to the slow, retrogressive failure of a steep subaqueous slope, so forming a nearly vertical turbidity current directed down the face. This mechanism, first identified by the dredging industry, has remained largely unexplored, and yet evidence exists to link breaching to the formation of sustained turbidity currents in the deep sea. The model can simulate a breach-generated turbidity current with a layer-averaged formulation that has at its basis the governing equations for the conservation of momentum, water, suspended sediment and turbulent kinetic energy.  In particular, the equations of suspended sediment conservation are solved for a mixture of sediment particles differing in grain size. In the model the turbidity current is divided into two regions joined at a migrating boundary: the breach face, treated as vertical, and a quasi-horizontal region sloping downdip. In this downstream region, the bed slope is much lower (but still nonzero), and is constructed by deposition from a quasi-horizontal turbidity current. The model is applied to establish the feasibility of a breach-generated turbidity current in a field setting, using a generic example based on the Monterey Submarine Canyon, offshore California, USA.",
+    "url": "https://csdms.colorado.edu/wiki/Model:1DBreachingTurbidityCurrent"
+}

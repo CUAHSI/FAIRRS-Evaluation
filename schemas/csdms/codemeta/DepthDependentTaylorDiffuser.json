@@ -1,0 +1,70 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "DepthDependentTaylorDiffuser",
+    "codeRepository": "https://github.com/landlab/landlab/tree/master/landlab",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/landlab/landlab/tree/master/landlab",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Rachel",
+            "familyName": "Glade",
+            "affiliation": {
+                "@type": "Organization",
+                "address": "Los Alamos, United States"
+            },
+            "email": "mailto:rachel.glade@colorado.edu"
+        }
+    ],
+    "dateCreated": "2016-01-01",
+    "keywords": [
+        "Terrestrial",
+        "taylor",
+        "ganti",
+        "rule",
+        "combining",
+        "taylor series expansion",
+        "johnstone and hilley",
+        "taylor series",
+        "component inspired johnstone",
+        "hillslope sediment flux",
+        "nonlinear hillslope flux",
+        "hillslope flux derived",
+        "series expansion",
+        "inspired johnstone",
+        "dependent component inspired",
+        "math",
+        "hillslope sediment",
+        "nonlinear hillslope",
+        "depth dependent component",
+        "andrews-bucknam formulation",
+        "soil creep",
+        "hillslope",
+        "diffusion",
+        "depthdependenttaylordiffuser",
+        "soil creep",
+        "hillslope",
+        "diffusion"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "Hillslope sediment flux uses a Taylor Series expansion of the Andrews-Bucknam formulation of nonlinear hillslope flux derived following following Ganti et al., 2012 with a depth dependent component inspired Johnstone and Hilley (2014). The flux :math:`q_s` is given as:\nq_s = DSH^* ( 1 + (S/S_c)^2 + (S/Sc_)^4 + .. + (S/S_c)^2(n-1) ) (1.0 - exp( H / H^*)\n\nwhere :math:`D` is is the diffusivity, :math:`S` is the slope, :math:`S_c` is the critical slope, :math:`n` is the number of terms, :math:`H` is the soil depth on links, and :math:`H^*` is the soil transport decay depth. The default behavior uses two terms to produce a slope dependence as described by Equation 6 of Ganti et al., (2012).This component will ignore soil thickness located at non-core nodes.",
+    "url": "https://csdms.colorado.edu/wiki/Model:DepthDependentTaylorDiffuser",
+    "relatedLink": "https://github.com/landlab/landlab/issues",
+    "developmentStatus": "Active"
+}

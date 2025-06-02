@@ -1,0 +1,61 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "River_Network_Bed-Material_Sediment",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Single",
+    "operatingSystem": [
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Jonathan",
+            "familyName": "Czuba",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Virginia Tech",
+                "address": "Blacksburg, United States"
+            },
+            "email": "mailto:jon.czuba@gmail.com"
+        }
+    ],
+    "dateCreated": "2012-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "bed-material",
+        "networks",
+        "water resources research",
+        "resources research",
+        "water resources",
+        "doi",
+        "czuba",
+        "sediment",
+        "gravel bed dynamics",
+        "earth surface",
+        "research",
+        "earth surface processes",
+        "bed-material sediment transport",
+        "sediment transport",
+        "geophysical research",
+        "foufoula-georgiou",
+        "bed dynamics",
+        "river network",
+        "river network bed-material sediment",
+        "River network",
+        "sediment transport"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "description": "Network-based modeling framework of Czuba and Foufoula-Georgiou as applied to bed-material sediment transport.\n\nThis code is capable of reproducing the results (with some work by the end user) described in the following publications:\n\nCzuba, J.A., and E. Foufoula-Georgiou (2014), A network-based framework for identifying potential synchronizations and amplifications of sediment delivery in river basins, Water Resources Research, 50(5), 3826\u20133851, doi:10.1002/2013WR014227.\n\nCzuba, J.A., and E. Foufoula-Georgiou (2015), Dynamic connectivity in a fluvial network for identifying hotspots of geomorphic change, Water Resources Research, 51(3), 1401-1421, doi:10.1002/2014WR016139.\n\nGran, K.B., and J.A. Czuba, (2017), Sediment pulse evolution and the role of network structure,\nGeomorphology, 277, 17-30, doi:10.1016/j.geomorph.2015.12.015.\n\nCzuba, J.A., E. Foufoula-Georgiou, K.B. Gran, P. Belmont, and P.R. Wilcock (2017), Interplay between spatially-explicit sediment sourcing, hierarchical river-network structure, and in-channel bed-material sediment transport and storage dynamics, Journal of Geophysical Research - Earth Surface, 122(5), 1090-1120, doi:10.1002/2016JF003965.\n\nAs of 20 March 2019, additional model codes were added to the repository in the folder \"Gravel_Bed_Dynamics\" that extend the model to gravel bed dynamics. The new methods for gravel bed dynamics are described in:\n\nCzuba, J.A. (2018), A Lagrangian framework for exploring complexities of mixed-size sediment transport in gravel-bedded river networks, Geomorphology, 321, 146-152, doi:10.1016/j.geomorph.2018.08.031. \n\nAnd an application to Clear Creek/Tushar Mountains in Utah is described in:\n\nMurphy, B.P., J.A. Czuba, and P. Belmont (2019), Post-wildfire sediment cascades: a modeling framework linking debris flow generation and network-scale sediment routing, Earth Surface Processes and Landforms, 44(11), 2126-2140, doi:10.1002/esp.4635.\n\nNote: the application code and data files for Murphy et al., 2019 are included in the repository as example files.\n\nAs of 24 September 2020, this code has largely been converted to Python and has been incorporated into Landlab version 2.2 as the NetworkSedimentTransporter. See:\n\nPfeiffer, A.M., K.R. Barnhart, J.A. Czuba, and E.W.H. Hutton (2020), NetworkSedimentTransporter: A Landlab component for bed material transport through river networks, Journal of Open Source Software, 5(53), 2341, doi:10.21105/joss.02341.\n\nThis initial release is the core code, but development is ongoing to make the data preprocessing, model interface, and exploration of model results more user friendly. All future developments will be in the Landlab/Python version of the code instead of this Matlab version.",
+    "url": "https://csdms.colorado.edu/wiki/Model:River_Network_Bed-Material_Sediment",
+    "developmentStatus": "As is, no updates are provided"
+}

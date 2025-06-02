@@ -1,0 +1,60 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "FUNWAVE",
+    "codeRepository": "http://chinacat.coastal.udel.edu/programs/funwave/funwave.html",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "http://chinacat.coastal.udel.edu/programs/funwave/funwave.html",
+    "operatingSystem": [
+        "Unix",
+        "Linux"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Jim",
+            "familyName": "Kirby",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Delaware, Department of Civil EngineeringCenter for Applied Coastal Research",
+                "address": "Newark, United States"
+            },
+            "email": "mailto:kirby@udel.edu"
+        }
+    ],
+    "dateCreated": "1995-01-01",
+    "keywords": [
+        "Coastal",
+        "model",
+        "nonlinear",
+        "boussinesq",
+        "wave",
+        "time-stepping boussinesq model",
+        "time-stepping boussinesq",
+        "ocean surface wave",
+        "surface wave propagation",
+        "boussinesq model",
+        "funwave",
+        "model for ocean",
+        "ocean surface",
+        "surface wave",
+        "wave propagation",
+        "phase-resolving",
+        "time-stepping",
+        "nearshore",
+        "wave dynamics",
+        "wave dynamics"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "FUNWAVE is a phase-resolving, time-stepping Boussinesq model for ocean surface wave propagation in the nearshore.",
+    "url": "https://csdms.colorado.edu/wiki/Model:FUNWAVE"
+}

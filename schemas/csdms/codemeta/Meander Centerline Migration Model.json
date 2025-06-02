@@ -1,0 +1,93 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Meander_Centerline_Migration_Model",
+    "codeRepository": "https://github.com/FluidMechanicsUNIPD/Meander_Floodplain_Heterogeneity",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran90"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/FluidMechanicsUNIPD/Meander_Floodplain_Heterogeneity",
+    "memoryRequirements": "Up to GBytes",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "softwareVersion": "1.0",
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Manuel",
+            "familyName": "Bogoni",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Padova",
+                "address": "Padova, Italy"
+            },
+            "email": "mailto:manuelbogoni@gmail.com"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Stefano",
+            "familyName": "Lanzoni",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Padova",
+                "address": "Padova, Italy"
+            },
+            "email": "mailto:stefano.lanzoni@dicea.unipd.it"
+        }
+    ],
+    "dateCreated": "2014-01-01",
+    "keywords": [
+        "Hydrology",
+        "Terrestrial",
+        "simulation",
+        "floodplains",
+        "long-term",
+        "migration",
+        "heterogeneous floodplain surfaces",
+        "point bars",
+        "floodplain surfaces",
+        "model simulates",
+        "simulates the long-term",
+        "long-term evolution",
+        "evolution of meandering",
+        "formation of oxbow",
+        "oxbow lakes",
+        "lakes and point",
+        "meandering rivers",
+        "heterogeneous floodplain",
+        "rivers above heterogeneous",
+        "surfaces",
+        "bars",
+        "river migration",
+        "meander",
+        "meander migration",
+        "river profile",
+        "meander center line",
+        "fluvial morphodynamics",
+        "meander centerline migration model",
+        "river migration",
+        "meander",
+        "meander migration",
+        "floodplains",
+        "River profile",
+        "Meander center line",
+        "fluvial morphodynamics"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "identifier": "10.5281/zenodo.821601",
+    "description": "The model simulates the long-term evolution of meandering rivers above heterogeneous floodplain surfaces, i.e. floodplains that have been reworked by the river itself through the formation of oxbow lakes and point bars.",
+    "url": "https://csdms.colorado.edu/wiki/Model:Meander_Centerline_Migration_Model",
+    "buildInstructions": "https://csdms.colorado.edu/csdms_wiki/images/Manual_of_the_MCMM.pdf",
+    "developmentStatus": "Active"
+}

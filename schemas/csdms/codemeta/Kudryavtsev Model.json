@@ -1,0 +1,79 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Kudryavtsev_Model",
+    "codeRepository": "https://github.com/permamodel",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/permamodel",
+    "memoryRequirements": "N/A",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Irina",
+            "familyName": "Overeem",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Colorado",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:irina.overeem@colorado.edu"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Kang",
+            "familyName": "Wang",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Colorado",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:kang.wang@colorado.edu"
+        }
+    ],
+    "dateCreated": "2016-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "Cryosphere",
+        "active",
+        "layer",
+        "thickness",
+        "model",
+        "active layer thickness",
+        "models the temporal",
+        "active layer",
+        "layer thickness",
+        "temporal and spatial",
+        "spatial distribution",
+        "permafrost soils",
+        "soil thermal properties",
+        "underlying approximation accounts",
+        "temperature",
+        "snow cover",
+        "models",
+        "permafrost",
+        "cryosphere",
+        "kudryavtsev model",
+        "active layer thickness",
+        "permafrost",
+        "cryosphere"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "Models the temporal and spatial distribution of the active layer thickness and temperature of permafrost soils. The underlying approximation accounts for effects of air temperature, snow cover, vegatation, soil moisture, soil thermal properties to predict temperature at the ground surface and mean active layer thickness.",
+    "url": "https://csdms.colorado.edu/wiki/Model:Kudryavtsev_Model",
+    "developmentStatus": "Active"
+}

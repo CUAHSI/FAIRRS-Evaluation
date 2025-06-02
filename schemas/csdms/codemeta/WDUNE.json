@@ -1,0 +1,67 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "WDUNE",
+    "codeRepository": "https://github.com/tbarchyn/WDUNE",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C++"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/tbarchyn/WDUNE",
+    "operatingSystem": [
+        "Linux",
+        "Windows",
+        "theoretically, any platform supported by Python with a C++ compiler"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Tom",
+            "familyName": "Barchyn",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Lethbridge",
+                "address": "Lethbridge, Canada"
+            },
+            "email": "mailto:tbarchyn@gmail.com"
+        }
+    ],
+    "dateCreated": "2011-01-01",
+    "keywords": [
+        "Terrestrial",
+        "gui",
+        "werner",
+        "cellular",
+        "model",
+        "simple cellular automata",
+        "gui implementation",
+        "cellular automata dune",
+        "simple cellular",
+        "cellular automata",
+        "automata dune model",
+        "automata dune",
+        "proposed by werner",
+        "geology",
+        "aeolian dune",
+        "gis",
+        "geomorphologic",
+        "wdune",
+        "Aeolian dune",
+        "GIS",
+        "geomorphologic"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "description": "This model is a GUI implementation of a simple cellular automata dune model. The model was originally proposed by Werner (1995, Geology 23) and has seen several extensions. It can simulate basic barchan, transverse, star, and linear dunes. The model is designed to be easy to operate for researchers or students without programming skills. Also included is a tool to operate the model from ArcGIS.",
+    "url": "https://csdms.colorado.edu/wiki/Model:WDUNE",
+    "developmentStatus": "As is, no updates are provided"
+}

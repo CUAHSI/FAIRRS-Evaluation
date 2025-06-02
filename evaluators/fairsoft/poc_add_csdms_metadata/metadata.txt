@@ -1,0 +1,110 @@
+{
+    "@context": {
+        "schema": "https://schema.org/",
+        "bs": "https://bioschemas.org/terms/",
+        "codemeta": "https://w3id.org/codemeta/",
+        "rdf": "https://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "https://www.w3.org/2000/01/rdf-schema#",
+        "maSMP": "https://discovery.biothings.io/view/maSMP/"
+    },
+    "@type": "schema:SoftwareApplication",
+    "schema:applicationSubcategory": [
+        "edam:topic_0003"
+    ],
+    "schema:name": "mosartwmpy",
+    "@id": "https://openebench.bsc.es/bioschemas/tools/observatory:mosartwmpy:0.6.2/",
+    "schema:description": "Python translation of MOSART-WM: a water routing and management model",
+    "schema:operatingSystem": [
+        "Unix, Linux, Mac OS, Windows"
+    ],
+    "schema:license": [
+        {
+            "@type": "schema:CreativeWork",
+            "schema:name": "Other",
+            "schema:url": "http://choosealicense.com/licenses/other/"
+        }
+    ],
+    "schema:author": [
+        {
+            "@type": "schema:Person",
+            "schema:name": "Travis Thurber"
+        },
+        {
+            "@type": "schema:Person",
+            "schema:name": "Emily Rexer"
+        },
+        {
+            "@type": "schema:Person",
+            "schema:name": "Chris Vernon"
+        },
+        {
+            "@type": "schema:Person",
+            "schema:name": "Ning Sun"
+        },
+        {
+            "@type": "schema:Person",
+            "schema:name": "Sean Turner"
+        },
+        {
+            "@type": "schema:Person",
+            "schema:name": "Jim Yoon"
+        },
+        {
+            "@type": "schema:Person",
+            "schema:name": "Daniel Broman"
+        },
+        {
+            "@type": "schema:Person",
+            "schema:name": "Nathalie Voisin"
+        }
+    ],
+    "schema:softwareVersion": "0.6.2",
+    "schema:codeRepository": [
+        "https://github.com/IMMM-SFA/mosartwmpy"
+    ],
+    "schema:featureList": [
+        "edam:operation_2426"
+    ],
+    "bioschemas:input": [
+        {
+            "@type": "https://bioschemas.org/FormatParameter",
+            "bioschemas:encodingFormat": "edam:format_1196"
+        }
+    ],
+    "bioschemas:output": [
+        {
+            "@type": "https://bioschemas.org/FormatParameter",
+            "bioschemas:encodingFormat": "edam:format_1196"
+        }
+    ],
+    "schema:softwareHelp": [
+        {
+            "@id": "https://github.com/abnerbog/mosartwmpy/blob/main/CONTRIBUTING.md"
+        },
+        {
+            "@id": "https://github.com/abnerbog/mosartwmpy/blob/main/README.md"
+        },
+        {
+            "@id": "https://github.com/abnerbog/mosartwmpy/blob/main/requirements.txt"
+        },
+        {
+            "@id": "https://github.com/abnerbog/mosartwmpy/blob/main/docs/README.md"
+        },
+        {
+            "@id": "https://github.com/abnerbog/mosartwmpy/blob/main/docs/requirements.txt"
+        }
+    ],
+    "schema:requirements": [
+        "https://github.com/IMMM-SFA/mosartwmpy/blob/3b76f7c445c233c7880ab5b0ee306b41487ae73e/docs/requirements.txt"
+    ],
+    "schema:dateModified": "2025-01-27T16:14:48Z",
+    "codemeta:referencePublication": [
+        {
+            "@type": "schema:CreativeWork",
+            "@id": "https://doi.org/10.21105/joss.03221",
+            "schema:name": "mosartwmpy: A Python implementation of the MOSART-WM coupled hydrologic routing and water management model.",
+            "schema:url": "https://doi.org/10.21105/joss.03221"
+        }
+    ],
+    "codemeta:readme": "https://github.com/abnerbog/mosartwmpy/blob/main/README.md"
+}

@@ -1,0 +1,53 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "ACADIA",
+    "codeRepository": "http://www-nml.dartmouth.edu/Software/acadia5.0/",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "downloadUrl": "http://www-nml.dartmouth.edu/Software/acadia5.0/",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Wendy",
+            "familyName": "Gentleman",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Dartmouth College",
+                "address": "Halifax, Canada"
+            },
+            "email": "mailto:wendy.gentleman@dal.ca"
+        }
+    ],
+    "dateCreated": "1998-01-01",
+    "keywords": [
+        "Marine",
+        "adr",
+        "diffusion",
+        "reaction",
+        "equation",
+        "quoddy simulations",
+        "depth-averaged transport variables",
+        "conjunction with quoddy",
+        "tracks any number",
+        "depth-averaged transport",
+        "transport variables",
+        "quoddy",
+        "simulations",
+        "acadia"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "It tracks any number of different depth-averaged transport variables and is usually used in conjunction with QUODDY simulations.",
+    "url": "https://csdms.colorado.edu/wiki/Model:ACADIA"
+}

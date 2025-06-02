@@ -1,0 +1,799 @@
+{
+  "subject": "CSt_ASMITA#3002##",
+  "data": [
+    {
+      "property": "Additional_city",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Delft"
+        }
+      ]
+    },
+    {
+      "property": "Additional_comments_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "This model is actively under development as of the spring of 2009."
+        }
+      ]
+    },
+    {
+      "property": "Additional_country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Netherlands"
+        }
+      ]
+    },
+    {
+      "property": "Additional_first_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Marcel"
+        },
+        {
+          "type": 2,
+          "item": "Z.B."
+        }
+      ]
+    },
+    {
+      "property": "Additional_institute",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Delft Univeristy of Technology"
+        }
+      ]
+    },
+    {
+      "property": "Additional_last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Stive"
+        },
+        {
+          "type": 2,
+          "item": "Wang"
+        }
+      ]
+    },
+    {
+      "property": "Additional_state",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "NO STATE"
+        }
+      ]
+    },
+    {
+      "property": "Additional_type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Model developer"
+        }
+      ]
+    },
+    {
+      "property": "Citations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "0"
+        }
+      ]
+    },
+    {
+      "property": "City",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Tallahassee"
+        }
+      ]
+    },
+    {
+      "property": "CodeReviewed",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "Code_CMT_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_IRF_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_openmi_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_optimized",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single Processor"
+        }
+      ]
+    },
+    {
+      "property": "Country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "United States"
+        }
+      ]
+    },
+    {
+      "property": "Current_future_collaborators",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "This model continues to evolve. The users are encouraged to replace subroutine with very simplified representations of physics (eg. wave refraction and shoaling) with superior codes. They are requested to pass these back to the authors for inclusion in the new version. Similar requests are made of those using the model for interesting teaching situations.\n\nThis model will form a basis of the SL-PR model now funded for development and use with coastal response to sea level rise problems."
+        }
+      ]
+    },
+    {
+      "property": "Describe_available_calibration_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Like most morphodynamical models the user is to supply long-term coastal change data from measured data."
+        }
+      ]
+    },
+    {
+      "property": "Describe_available_test_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Several papers have been published that can be used in comparison tests (simply Google Niedoroda)"
+        }
+      ]
+    },
+    {
+      "property": "Describe_ideal_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "User supplied time history of shoreline and depth changes over time with supporting long records of short-term wave and current measurements."
+        }
+      ]
+    },
+    {
+      "property": "Describe_input_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Parameters:\n*A(I,J) - Angle between flow and grid coordinates {SG}\n*Ab(I) - Breaker angle {2}\n*ACENT - Angle of wave climate central tendency (0 is for crests parallel to the lower boundary)\n*ASTORM - Angle of dominant waves\n*Aw(I,J) - Angle between wave propagation & onshore direction {2}\n*Beta - Scales the exponent in the wave-drift\n*CK - Coef.scales rate of gravity-driven upper shoreface sed flux (3)\n*DELTAX -  Longshore grid cell dimension (SG)\n*DELTAY - Cross-shore grid cell dimension (SG)\n*DC(I,J) - Cross-shore diff. coef.in flow coords.{1}\n*DCyyy - Controls the slope of the cross-shore diffusion coef. when it is *computed from a linear eqn.\n*DCzero - The offset in the above relationship\n*DCmax - Max. Limit for the cross-shore diff. coef.\n*DL(I,J) - Longshore diff. coef.in flow coords. {1}\n*DLyyy - Slope of the longshore diff. coef.\n*DLzero - Offset of the above.\n*DLmax - Max. Limit for the long-shore diff. coef.\n*DT - Time step in years\n*EDFACT - Controls relative converge/divergence of waves due to refraction (should mimic RFACT)\n*GFACT - Factor for the K(Cn)/(delrho)ga in the ls transp.eqn.\n*H(I,J,iTime) - Depths in grid, fill index in surf-zone cells {SG}\n*Hmax - Max.(ie. most negative) depth in the surf zone cell (SG)\n*Hmin - Min. depth in the surf zone cell  (SG)\n*IMAX - Number of grid cells in the shore parallel direction(SG)\n*JMAX -   Number of grid cells in the cross-shore direction(SG)\n*JSHORE(I) - Most landward ocean cell - surf-zone cell(SG)\n*K1 - Scales the diff. sed. transport\n*MFACT - Scales the wave-energy density of general wave climate\n*NFACT - Scales the wave-energy density of the dominant waves\n*PORE - Sediment porosity\n*SANGLE(I) - - Tangent angle along the shoreline {SG}\n*Scr - The critical slope of the upper shoreface cell (JSHORE-1)\n*SHOAL(I) - Relative convergence/div of wave-energy density due to refraction\n*RFACT - Contols the relative ray-bending due to refraction\n*Wo - Scales the wave-drift sed. trans.\n*XSHORE(I) - X-coord. of the continuous shoreline {SG}\n*YSHORE(I) - Y-coord. of the continuous shoreline {SG}\n*YOFF(I,iTime) - offset between the surf-zone cell center and the continuous shoreline (can be positive or negative){SG}"
+        }
+      ]
+    },
+    {
+      "property": "Describe_key_physical_parameters",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "These are described in the extensive comments within the fortran program."
+        }
+      ]
+    },
+    {
+      "property": "Describe_length_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Typical applications involve coastal systems tens to hundreds of kilometers in extent. Very useful when there are many components in the coastal system. Although the gridded portion of the model usually use delta x and y values on the order of 100s of meters there is a sub-grid scale representation of the shoreline position with resolution of meters."
+        }
+      ]
+    },
+    {
+      "property": "Describe_numerical_limitations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Probably more than we know but none come to mind."
+        }
+      ]
+    },
+    {
+      "property": "Describe_output_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "time-histories of shoreline positions on a sub-grid scale and the water depths over the gridded portion of the model. Time histories of the inlet cross-section and the areas of bar, channels and tidal flats in the estuary"
+        }
+      ]
+    },
+    {
+      "property": "Describe_processes",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Time- and length-averaged sediment transport in shelf, shoreface and surf zone environments combined with morphodynamic-driven sediment flux through inlet, along ebb tide delta and with the bay or estuar."
+        }
+      ]
+    },
+    {
+      "property": "Describe_time_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Averaging time is on the order of annual averages so that individual storm events are not represented. Problems usually are scaled for years, to decades all the way up to millenia."
+        }
+      ]
+    },
+    {
+      "property": "Development_still_active",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No"
+        }
+      ]
+    },
+    {
+      "property": "Email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:alan_niedoroda@urscorp.com"
+        }
+      ]
+    },
+    {
+      "property": "Extended_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "A length-, and time-averaged representation of coastal system elements including the inner shelf, shoreface, surfzone, inlet, inlet shoals, and estuary channels and tidal flats. The multi-line nature of the morphodynamic model allows it to represent large-scale sediment transport processes with a combination time-average physics empirical relationships. A major use is to represent the interactions between system components to develop with changes in large scale forcing such as accelerated sea level rise, changes in river sediment input (ie. dams), changes in estuary tide prisms (ie. dikes) and the like."
+        }
+      ]
+    },
+    {
+      "property": "First_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Alan"
+        }
+      ]
+    },
+    {
+      "property": "Input_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        }
+      ]
+    },
+    {
+      "property": "Institute",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "URS Corporation-Tallahassee Office"
+        }
+      ]
+    },
+    {
+      "property": "Last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Niedoroda"
+        }
+      ]
+    },
+    {
+      "property": "M-quotient",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "0"
+        }
+      ]
+    },
+    {
+      "property": "Manual_model_available",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No"
+        }
+      ]
+    },
+    {
+      "property": "Memory_requirements",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Ordinary PC or laptop"
+        }
+      ]
+    },
+    {
+      "property": "ModelDomain",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Coastal"
+        },
+        {
+          "type": 2,
+          "item": "Marine"
+        }
+      ]
+    },
+    {
+      "property": "Model_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "As code"
+        },
+        {
+          "type": 2,
+          "item": "As teaching tool"
+        }
+      ]
+    },
+    {
+      "property": "Model_keywords",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "coastal morphdynamics"
+        },
+        {
+          "type": 2,
+          "item": "sediment transport"
+        }
+      ]
+    },
+    {
+      "property": "Model_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Modular"
+        }
+      ]
+    },
+    {
+      "property": "Nr-of-pubs",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "--"
+        }
+      ]
+    },
+    {
+      "property": "One-line_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Aggregate scale morphodynamic model of integrated coastal systems"
+        }
+      ]
+    },
+    {
+      "property": "Output_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        }
+      ]
+    },
+    {
+      "property": "Phone",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "850 402 6349"
+        }
+      ]
+    },
+    {
+      "property": "Post_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Postal_address1",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1625 Summit Lake Drive"
+        }
+      ]
+    },
+    {
+      "property": "Postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "32317"
+        }
+      ]
+    },
+    {
+      "property": "Pre_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "GPL v2"
+        }
+      ]
+    },
+    {
+      "property": "Programming_language",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Fortran77"
+        }
+      ]
+    },
+    {
+      "property": "Run_time_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Minutes"
+        }
+      ]
+    },
+    {
+      "property": "Start_year_development",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2000"
+        }
+      ]
+    },
+    {
+      "property": "State",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Florida"
+        }
+      ]
+    },
+    {
+      "property": "Supported_platforms",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Windows"
+        }
+      ]
+    },
+    {
+      "property": "Type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Model developer"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_needed",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "_ASK",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "CSt_ASMITA#3002##_QUERYa7b072e647d3923ad12f8050bd892d31"
+        },
+        {
+          "type": 9,
+          "item": "CSt_ASMITA#3002##_QUERY29cb1ca160843c483cdf5247633cc2e2"
+        },
+        {
+          "type": 9,
+          "item": "CSt_ASMITA#3002##_QUERY6a021835a1793b483f4c3dd22e922181"
+        }
+      ]
+    },
+    {
+      "property": "_CDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2009/2/18/22/54/15/0"
+        }
+      ]
+    },
+    {
+      "property": "_ERRC",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "CSt_ASMITA#3002##_ERR832e19663f926fa58b1c2c38ccac6efd"
+        }
+      ]
+    },
+    {
+      "property": "_INST",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Models#14##"
+        },
+        {
+          "type": 9,
+          "item": "Source_code_not_available#14##"
+        }
+      ]
+    },
+    {
+      "property": "_LEDT",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "WikiSysop#2##"
+        }
+      ]
+    },
+    {
+      "property": "_MDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2020/9/17/2/15/9/0"
+        }
+      ]
+    },
+    {
+      "property": "_SKEY",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "CSt ASMITA"
+        }
+      ]
+    }
+  ],
+  "sobj": [
+    {
+      "subject": "CSt_ASMITA#3002##_QUERYa7b072e647d3923ad12f8050bd892d31",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "0"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[:Model:CSt ASMITA]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "CSt ASMITA# QUERYa7b072e647d3923ad12f8050bd892d31"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "CSt_ASMITA#3002##_QUERY29cb1ca160843c483cdf5247633cc2e2",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[User:+]] [[First name member::Alan]] [[Last name member::Niedoroda]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "CSt ASMITA# QUERY29cb1ca160843c483cdf5247633cc2e2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "CSt_ASMITA#3002##_QUERY6a021835a1793b483f4c3dd22e922181",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "ul"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[Model:+]] [[First name::Alan]] [[Last name::Niedoroda]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "CSt ASMITA# QUERY6a021835a1793b483f4c3dd22e922181"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "CSt_ASMITA#3002##_ERR832e19663f926fa58b1c2c38ccac6efd",
+      "data": [
+        {
+          "property": "_ERRP",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "H-index#102##"
+            }
+          ]
+        },
+        {
+          "property": "_ERRT",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[2,\"smw_nofloat\",\"--\"]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "CSt ASMITA# ERR832e19663f926fa58b1c2c38ccac6efd"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+  "version": 2
+}

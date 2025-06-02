@@ -1,0 +1,63 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "DynQual",
+    "codeRepository": "https://github.com/UU-Hydro/DYNQUAL",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/UU-Hydro/DYNQUAL",
+    "operatingSystem": [
+        "Unix",
+        "Linux"
+    ],
+    "softwareVersion": "version 1.0",
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Edward",
+            "familyName": "Jones",
+            "affiliation": {
+                "@type": "Organization",
+                "address": "Utrecht, Netherlands"
+            },
+            "email": "mailto:e.r.jones@uu.nl"
+        }
+    ],
+    "dateCreated": "2023-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "dynqual",
+        "model",
+        "biological oxygen demand",
+        "represent salinity pollution",
+        "represent organic pollution",
+        "water quality model",
+        "simulate water temperature",
+        "surface water quality",
+        "total dissolved solids",
+        "quality model",
+        "concentrations of total",
+        "biological oxygen",
+        "salinity pollution",
+        "organic pollution",
+        "pathogen pollution",
+        "surface water",
+        "water temperature",
+        "surface water quality model",
+        "surface water quality model"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "identifier": "10.5281/zenodo.7932317",
+    "description": "DynQual is a high-spatio-temporal-resolution surface water quality model, which can be used to simulate water temperature; concentrations of total dissolved solids to represent salinity pollution; biological oxygen demand to represent organic pollution; and fecal coliform as a coarse indicator for pathogen pollution.",
+    "url": "https://csdms.colorado.edu/wiki/Model:DynQual",
+    "developmentStatus": "Active"
+}

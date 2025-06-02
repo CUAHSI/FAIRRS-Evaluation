@@ -1,0 +1,62 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Meanderpy",
+    "codeRepository": "https://github.com/zsylvester/meanderpy",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/zsylvester/meanderpy",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Zoltan",
+            "familyName": "Sylvester",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "The University of Texas at Austin",
+                "address": "Austin, United States"
+            },
+            "email": "mailto:zoltan.sylvester@beg.utexas.edu"
+        }
+    ],
+    "dateCreated": "2018-01-01",
+    "keywords": [
+        "Terrestrial",
+        "meandering",
+        "sufficient conditions",
+        "simulation approach",
+        "conditions for river",
+        "river meandering",
+        "simple numerical model",
+        "migration rate",
+        "python module",
+        "nominal migration rate",
+        "migration",
+        "numerical model",
+        "computing migration rate",
+        "sufficient",
+        "approach",
+        "rate",
+        "fluvial morphodynamics",
+        "meanderpy",
+        "fluvial morphodynamics",
+        "meandering"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Apache public license"
+    },
+    "description": "\"meanderpy\" is a Python module that implements a simple numerical model of meandering, the one described by Howard & Knutson in their 1984 paper \"Sufficient Conditions for River Meandering: A Simulation Approach\" (https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/WR020i011p01659). This is a kinematic model that is based on computing migration rate as the weighted sum of upstream curvatures; flow velocity does not enter the equation. Curvature is transformed into a 'nominal migration rate' through multiplication with a migration rate (or erodibility) constant; in the Howard & Knutson (1984) paper this is a nonlinear relationship based on field observations that suggested a complex link between curvature and migration rate. In the 'meanderpy' module we use a simple linear relationship between the nominal migration rate and curvature, as recent work using time-lapse satellite imagery suggests that high curvatures result in high migration rates (Sylvester et al., 2019).",
+    "url": "https://csdms.colorado.edu/wiki/Model:Meanderpy",
+    "developmentStatus": "Active"
+}

@@ -1,0 +1,60 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "MITgcm",
+    "codeRepository": "http://mitgcm.org/",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran90"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "downloadUrl": "http://mitgcm.org/",
+    "memoryRequirements": "Memory requirements range from around 10^7 bytes (\u2248 10 megabytes) to 10^11 bytes (\u2248 100 gigabytes).",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Nicole",
+            "familyName": "Lovenduski",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Colorado at Boulder",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:nicole.lovenduski@colorado.edu"
+        }
+    ],
+    "dateCreated": "1997-01-01",
+    "keywords": [
+        "Climate",
+        "ocean",
+        "mit",
+        "model",
+        "general",
+        "mit general circulation",
+        "general circulation model",
+        "numerical model designed",
+        "mit general",
+        "general circulation",
+        "circulation model",
+        "numerical model",
+        "model designed",
+        "designed for study",
+        "circulation",
+        "state estimation problems",
+        "non-hydrostatic formulation enables",
+        "mitgcm"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "The MITgcm (MIT General Circulation Model) is a numerical model designed for study of the atmosphere, ocean, and climate. Its non-hydrostatic formulation enables it to simulate fluid phenomena over a wide range of scales; its adjoint capability enables it to be applied to parameter and state estimation problems. By employing fluid isomorphisms, one hydrodynamical kernel can be used to simulate flow in both the atmosphere and ocean.",
+    "url": "https://csdms.colorado.edu/wiki/Model:MITgcm"
+}

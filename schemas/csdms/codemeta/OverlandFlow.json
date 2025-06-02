@@ -1,0 +1,64 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "OverlandFlow",
+    "codeRepository": "https://github.com/landlab/landlab/tree/master/landlab/components/overland_flow",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/landlab/landlab/tree/master/landlab/components/overland_flow",
+    "memoryRequirements": "variable",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Jordan",
+            "familyName": "Adams",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Colorado",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:jordan.adams@colorado.edu"
+        }
+    ],
+    "dateCreated": "2012-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "almeida",
+        "component",
+        "numerical",
+        "algorithm",
+        "simplified inertial approximation",
+        "landlab overlandflow component",
+        "shallow water equations",
+        "landlab overlandflow",
+        "simplified inertial",
+        "inertial approximation",
+        "water equations",
+        "shallow water",
+        "overlandflow component",
+        "landlab",
+        "equations",
+        "component is based",
+        "overlandflow",
+        "based"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "The Landlab OverlandFlow component is based on a simplified inertial approximation of the shallow water equations, following the solution of de Almeida et al. (2012). This explicit two-dimensional hydrodynamic algorithm simulates a flood wave across a model domain, where water discharge and flow depth are calculated at all locations within a structured (raster) grid. This component generates a hydrograph at all grid locations, and allows for flow to move in one of the four cardinal directions (D4) into/out of a given model node.",
+    "url": "https://csdms.colorado.edu/wiki/Model:OverlandFlow",
+    "developmentStatus": "Only maintenance"
+}

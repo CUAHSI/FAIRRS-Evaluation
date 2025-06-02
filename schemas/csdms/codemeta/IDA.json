@@ -1,0 +1,72 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "IDA",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "supportingData": [
+        {
+            "@type": "DataFeed",
+            "url": "https://csdms.colorado.edu/csdms_wiki/images/Example.tar.bz2",
+            "name": "Test Data"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Alan",
+            "familyName": "Richardson",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Massachusetts Institute of Technology",
+                "address": "Cambridge, United States"
+            },
+            "email": "mailto:alan_r@mit.edu"
+        }
+    ],
+    "dateCreated": "2012-01-01",
+    "keywords": [
+        "Hydrology",
+        "drainage",
+        "area",
+        "implicit",
+        "method",
+        "implicit equations",
+        "formulates the task",
+        "task of determing",
+        "ida formulates",
+        "drainage area",
+        "distributed memory systems",
+        "ida",
+        "processor",
+        "determing the drainage",
+        "ida permits large",
+        "flow",
+        "system of implicit",
+        "memory systems",
+        "flow directions",
+        "drainage basin",
+        "watershed",
+        "hydrological",
+        "parallel computing",
+        "drainage basin",
+        "watershed",
+        "hydrological",
+        "parallel computing"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "IDA formulates the task of determing the drainage area, given flow directions, as a system of implicit equations. This allows the use of iterative solvers, which have the advantages of being parallelizable on distributed memory systems and widely available through libraries such as PETSc.\n\nUsing the open source PETSc library (which must be downloaded and installed separately), IDA permits large landscapes to be divided among processors, reducing total runtime and memory requirements per processor.\n\nIt is possible to reduce run time with the use of an initial guess of the drainage area. This can either be provided as a file, or use a serial algorithm on each processor to correctly determine the drainage area for the cells that do not receive flow from outside the processor's domain.\n\nThe hybrid IDA method, which is enabled with the -onlycrossborder option, uses a serial algorithm to solve for local drainage on each processor, and then only uses the parallel iterative solver to incorporate flow between processor domains. This generally results in a significant reduction in total runtime.\n\nCurrently only D8 flow directions are supported. Inputs and outputs are raw binary files.",
+    "url": "https://csdms.colorado.edu/wiki/Model:IDA",
+    "developmentStatus": "As is, no updates are provided"
+}

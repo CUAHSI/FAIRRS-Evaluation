@@ -1,0 +1,61 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "WINDSEA",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        }
+    ],
+    "applicationCategory": "Single",
+    "memoryRequirements": "<512MB",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "softwareVersion": "0.1",
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Rudy",
+            "familyName": "Slingerland",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Penn State University",
+                "address": "University Park, United States"
+            },
+            "email": "mailto:sling@geosc.psu.edu"
+        }
+    ],
+    "dateCreated": "1992-01-01",
+    "keywords": [
+        "Coastal",
+        "deep",
+        "routine",
+        "deep water significant",
+        "water significant wave",
+        "significant wave height",
+        "subroutine computes",
+        "computes the deep",
+        "deep water",
+        "water significant",
+        "significant wave",
+        "wave height",
+        "height and period",
+        "hurricane",
+        "wave dynamics",
+        "windsea",
+        "wave dynamics"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "identifier": "10.1594/IEDA/100181",
+    "description": "This subroutine computes the deep water significant wave height and period at each point under a hurricane",
+    "url": "https://csdms.colorado.edu/wiki/Model:WINDSEA",
+    "developmentStatus": "As is, no updates are provided"
+}

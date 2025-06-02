@@ -1,0 +1,78 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Terrapin",
+    "codeRepository": "https://github.com/awickert/terrapin",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/awickert/terrapin",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Andy",
+            "familyName": "Wickert",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Colorado",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:wickert@colorado.edu"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Katy",
+            "familyName": "Barnhart",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Colorado",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:katherine.barnhart@colorado.edu"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Eric",
+            "familyName": "Winchell",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Colorado",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:robert.s.anderson@colorado.edu"
+        }
+    ],
+    "dateCreated": "2012-01-01",
+    "keywords": [
+        "Terrestrial",
+        "build",
+        "terraces",
+        "destroy",
+        "strath",
+        "put into numerics",
+        "numerics",
+        "terrapin",
+        "terraces put",
+        "stands",
+        "terrace",
+        "fluvial",
+        "terrace",
+        "fluvial"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "description": "Terrapin (or TerraPIN) stands for \"Terraces put into Numerics\". It is a module that generates the expected terraces, both strath and fill, from prescribed river aggradation and degradation.",
+    "url": "https://csdms.colorado.edu/wiki/Model:Terrapin"
+}

@@ -1,0 +1,70 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "SedDepEroder",
+    "codeRepository": "https://github.com/landlab/landlab/tree/master/landlab",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/landlab/landlab/tree/master/landlab",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Daniel",
+            "familyName": "Hobley",
+            "affiliation": {
+                "@type": "Organization",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:daniel.hobley@colorado.edu"
+        }
+    ],
+    "dateCreated": "2014-01-01",
+    "keywords": [
+        "Terrestrial",
+        "theory",
+        "compute",
+        "tools",
+        "cover",
+        "volumetric sediment flux",
+        "volumetric sediment transport",
+        "stream power-like term",
+        "bed erosion rate",
+        "implements sediment flux",
+        "sediment flux dependent",
+        "module implements sediment",
+        "sediment transport capacity",
+        "flux dependent channel",
+        "dependent channel incision",
+        "volumetric sediment",
+        "sediment flux",
+        "power-like term",
+        "optional threshold",
+        "erosion rate",
+        "stream power",
+        "erosion",
+        "tools and cover",
+        "seddeperoder",
+        "stream power",
+        "erosion",
+        "tools and cover"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "This module implements sediment flux dependent channel incision following::\n\nE = f(Qs, Qc) * ((a stream power-like term) - (an optional threshold)),\n\nwhere E is the bed erosion rate, Qs is the volumetric sediment flux into a node, and Qc is the volumetric sediment transport capacity at that node.\n\nThis component is under active research and development; proceed with its use at your own risk.",
+    "url": "https://csdms.colorado.edu/wiki/Model:SedDepEroder",
+    "relatedLink": "https://github.com/landlab/landlab/issues",
+    "developmentStatus": "Only maintenance"
+}

@@ -1,0 +1,804 @@
+{
+  "subject": "CVFEM_Rift2D#3002##",
+  "data": [
+    {
+      "property": "Additional_city",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Socorro"
+        }
+      ]
+    },
+    {
+      "property": "Additional_country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "United States"
+        }
+      ]
+    },
+    {
+      "property": "Additional_email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:mark.person@nmt.edu"
+        }
+      ]
+    },
+    {
+      "property": "Additional_first_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Mark"
+        }
+      ]
+    },
+    {
+      "property": "Additional_institute",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "New Mexico Institute of Mining and Technology"
+        }
+      ]
+    },
+    {
+      "property": "Additional_last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Person"
+        }
+      ]
+    },
+    {
+      "property": "Additional_postal_address1",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Dept. of Earth and Environmental Sciences"
+        }
+      ]
+    },
+    {
+      "property": "Additional_postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "87801"
+        }
+      ]
+    },
+    {
+      "property": "Additional_state",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "New Mexico"
+        }
+      ]
+    },
+    {
+      "property": "Additional_type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Project manager"
+        }
+      ]
+    },
+    {
+      "property": "Citations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "11"
+        }
+      ]
+    },
+    {
+      "property": "City",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Socorro"
+        }
+      ]
+    },
+    {
+      "property": "CodeReviewed",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "Code_CMT_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_IRF_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_openmi_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_optimized",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single Processor"
+        }
+      ]
+    },
+    {
+      "property": "Country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "United States"
+        }
+      ]
+    },
+    {
+      "property": "Describe_processes",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "The four primary components of our multi-physics code include geomechanical, hydrologic, solute transport and heat transfer modules. The geomechanical module calculates displacement of an elastic lithosphere disturbed by an ice sheet load. Transient geomechanical deformation is represented by one-dimensional (lateral) viscous asthenosphere flow. Our geomechanical module is partially coupled to the hydrologic module by providing the rate of change in the mean normal stress. Mean normal stress change rate is included as a source term in the groundwater flow equation driving flow. Flow is also influenced by changes in the top specified hydraulic head boundary condition. We implement two-way coupling between fluid flow, solute transport and heat transfer module via density and viscosity equations of state. \n\nThree additional modules in our multi-physics code calculate changes to the upper hydraulic and thermal boundary conditions or alter the hydraulic transport properties (permeability) due to hydrogeomechanical failure. These include ice sheet evolution, permafrost, and failure analysis modules. Ice sheet thickness determines both the vertical load in the geomechanical module as well as the hydraulic head boundary condition at the land surface in the hydrologic module. In this study we adopted a simple parabolic polynomial equation to represent the idealized geometry of an ice sheet’s cross section in the ice sheet evolution module. We solved for permafrost\nformation at and below the land surface using a suite of one-dimensional heat transfer models. We allowed for grid growth within the permafrost module to account for changes in ice sheet thickness. A failure analysis module was used to modify permeability due to hydromechanical failure. We adopted the effective Coulomb’s Failure Stress change criterion from Ge et al.(2009) to assess regions of failure during glaciations."
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCode",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Active"
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCodeYearChecked",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2020"
+        }
+      ]
+    },
+    {
+      "property": "Development_still_active",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:zhangyipengjd@gmail.com"
+        }
+      ]
+    },
+    {
+      "property": "Extended_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "We have developed a hybrid numerical model at a continental scale via control volume finite element (finite volume) and regular finite element methods to evaluate the stress variation, pore pressure evolution, brine migration, solute transport and heat transfer in the subsurface formations in response to ice sheet loading of multiple glacial cycles."
+        }
+      ]
+    },
+    {
+      "property": "First_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yipeng"
+        }
+      ]
+    },
+    {
+      "property": "H-index",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "Input_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        }
+      ]
+    },
+    {
+      "property": "Institute",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "New Mexico Institute of Mining and Technology"
+        }
+      ]
+    },
+    {
+      "property": "Last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Zhang"
+        }
+      ]
+    },
+    {
+      "property": "M-quotient",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "0.12"
+        }
+      ]
+    },
+    {
+      "property": "Manual_model_available",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No"
+        }
+      ]
+    },
+    {
+      "property": "ModelDomain",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Hydrology"
+        },
+        {
+          "type": 2,
+          "item": "Geodynamic"
+        }
+      ]
+    },
+    {
+      "property": "Model_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "As code"
+        }
+      ]
+    },
+    {
+      "property": "Model_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Modular"
+        }
+      ]
+    },
+    {
+      "property": "Modelautophrases",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "multi-physics"
+        },
+        {
+          "type": 2,
+          "item": "deformation"
+        },
+        {
+          "type": 2,
+          "item": "fluid"
+        },
+        {
+          "type": 2,
+          "item": "flow"
+        },
+        {
+          "type": 2,
+          "item": "pore pressure evolution"
+        },
+        {
+          "type": 2,
+          "item": "multiple glacial cycles"
+        },
+        {
+          "type": 2,
+          "item": "hybrid numerical model"
+        },
+        {
+          "type": 2,
+          "item": "ice sheet loading"
+        },
+        {
+          "type": 2,
+          "item": "regular finite element"
+        },
+        {
+          "type": 2,
+          "item": "finite element methods"
+        },
+        {
+          "type": 2,
+          "item": "control volume finite"
+        },
+        {
+          "type": 2,
+          "item": "volume finite element"
+        },
+        {
+          "type": 2,
+          "item": "brine migration"
+        },
+        {
+          "type": 2,
+          "item": "stress variation"
+        },
+        {
+          "type": 2,
+          "item": "pore pressure"
+        },
+        {
+          "type": 2,
+          "item": "pressure evolution"
+        },
+        {
+          "type": 2,
+          "item": "solute transport"
+        },
+        {
+          "type": 2,
+          "item": "glacial cycles"
+        },
+        {
+          "type": 2,
+          "item": "finite element"
+        },
+        {
+          "type": 2,
+          "item": "cvfem rift2d"
+        }
+      ]
+    },
+    {
+      "property": "Nr-of-pubs",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "One-line_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "multi-physics numerical model that simulates rock deformation, fluid flow, solute transport and heat transfer in response to ice sheet loading of multiple cycles"
+        }
+      ]
+    },
+    {
+      "property": "Output_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        }
+      ]
+    },
+    {
+      "property": "Phone",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "8147772015"
+        }
+      ]
+    },
+    {
+      "property": "Post_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Postal_address1",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "PO Box 2255"
+        }
+      ]
+    },
+    {
+      "property": "Postal_address2",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "801 Leroy Place"
+        }
+      ]
+    },
+    {
+      "property": "Postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "87801"
+        }
+      ]
+    },
+    {
+      "property": "Pre_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "GPL v3"
+        }
+      ]
+    },
+    {
+      "property": "Programming_language",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Fortran77"
+        },
+        {
+          "type": 2,
+          "item": "Matlab"
+        }
+      ]
+    },
+    {
+      "property": "Source_code_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Through CSDMS repository"
+        }
+      ]
+    },
+    {
+      "property": "Source_csdms_web_address",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://github.com/csdms-contrib/CVFEM-Rift2D"
+        }
+      ]
+    },
+    {
+      "property": "Spatial_dimensions",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2D"
+        }
+      ]
+    },
+    {
+      "property": "Spatialscale",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Continental"
+        }
+      ]
+    },
+    {
+      "property": "Start_year_development",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2015"
+        }
+      ]
+    },
+    {
+      "property": "Supported_platforms",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Windows"
+        }
+      ]
+    },
+    {
+      "property": "Type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Model developer"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_needed",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "t"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Tecplot"
+        }
+      ]
+    },
+    {
+      "property": "_ASK",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "CVFEM_Rift2D#3002##_QUERY624e7ba00dbc4eb8df30369830aa7c1d"
+        },
+        {
+          "type": 9,
+          "item": "CVFEM_Rift2D#3002##_QUERY0e124b06f63be858a7f56b88e7c5bb12"
+        },
+        {
+          "type": 9,
+          "item": "CVFEM_Rift2D#3002##_QUERY5db385a9dfeb0a94d0a47550cc36b43d"
+        }
+      ]
+    },
+    {
+      "property": "_CDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2018/8/12/13/37/13/0"
+        }
+      ]
+    },
+    {
+      "property": "_INST",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Pages_using_duplicate_arguments_in_template_calls#14##"
+        },
+        {
+          "type": 9,
+          "item": "Models#14##"
+        }
+      ]
+    },
+    {
+      "property": "_LEDT",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "WikiSysop#2##"
+        }
+      ]
+    },
+    {
+      "property": "_MDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2020/9/17/2/18/11/0"
+        }
+      ]
+    },
+    {
+      "property": "_SKEY",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "CVFEM Rift2D"
+        }
+      ]
+    }
+  ],
+  "sobj": [
+    {
+      "subject": "CVFEM_Rift2D#3002##_QUERY624e7ba00dbc4eb8df30369830aa7c1d",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "0"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[:Model:CVFEM Rift2D]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "CVFEM Rift2D# QUERY624e7ba00dbc4eb8df30369830aa7c1d"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "CVFEM_Rift2D#3002##_QUERY0e124b06f63be858a7f56b88e7c5bb12",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[User:+]] [[First name member::Yipeng]] [[Last name member::Zhang]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "CVFEM Rift2D# QUERY0e124b06f63be858a7f56b88e7c5bb12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "CVFEM_Rift2D#3002##_QUERY5db385a9dfeb0a94d0a47550cc36b43d",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "ul"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[Model:+]] [[First name::Yipeng]] [[Last name::Zhang]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "CVFEM Rift2D# QUERY5db385a9dfeb0a94d0a47550cc36b43d"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+  "version": 2
+}

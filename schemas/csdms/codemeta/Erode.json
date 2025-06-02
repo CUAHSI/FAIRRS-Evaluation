@@ -1,0 +1,64 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Erode",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "IDL"
+        }
+    ],
+    "applicationCategory": "Single",
+    "memoryRequirements": "Standard",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "softwareVersion": "3.0",
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Scott",
+            "familyName": "Peckham",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "CSDMS, INSTAAR, University of Colorado",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:Scott.Peckham@colorado.edu"
+        }
+    ],
+    "dateCreated": "2003-01-01",
+    "keywords": [
+        "Terrestrial",
+        "fluvial",
+        "model",
+        "fluvial landscape evolution",
+        "landscape evolution model",
+        "modeling tool cmt",
+        "csdms modeling tool",
+        "fluvial landscape",
+        "evolution model",
+        "landscape evolution",
+        "tool cmt",
+        "csdms modeling",
+        "modeling tool",
+        "written in python",
+        "erode",
+        "raster-based",
+        "landscape evolution"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Apache public license"
+    },
+    "identifier": "10.1594/IEDA/100116",
+    "description": "Erode is a raster-based, fluvial landscape evolution model. The newest version  (3.0) is written in Python and contains html help pages when running the program through the CSDMS Modeling Tool CMT (https://csdms.colorado.edu/wiki/Help:Ccaffeine_GUI).",
+    "url": "https://csdms.colorado.edu/wiki/Model:Erode"
+}

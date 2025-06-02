@@ -1,0 +1,1221 @@
+{
+  "subject": "WRF-Hydro#3002##",
+  "data": [
+    {
+      "property": "Additional_city",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Boulder"
+        }
+      ]
+    },
+    {
+      "property": "Additional_country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "United States"
+        }
+      ]
+    },
+    {
+      "property": "Additional_email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:gochis@ucar.edu"
+        },
+        {
+          "type": 5,
+          "item": "mailto:wrfhydro@ucar.edu"
+        }
+      ]
+    },
+    {
+      "property": "Additional_first_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "David"
+        },
+        {
+          "type": 2,
+          "item": "WRF-Hydro"
+        }
+      ]
+    },
+    {
+      "property": "Additional_institute",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "NCAR"
+        }
+      ]
+    },
+    {
+      "property": "Additional_last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Gochis"
+        },
+        {
+          "type": 2,
+          "item": "Team"
+        }
+      ]
+    },
+    {
+      "property": "Additional_postal_address1",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "3450 Mitchell Ln"
+        }
+      ]
+    },
+    {
+      "property": "Additional_postal_address2",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "3450 Mitchell Ln"
+        }
+      ]
+    },
+    {
+      "property": "Additional_postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "80301"
+        }
+      ]
+    },
+    {
+      "property": "Additional_state",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Colorado"
+        }
+      ]
+    },
+    {
+      "property": "Additional_type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Model developer"
+        }
+      ]
+    },
+    {
+      "property": "Citations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2926"
+        }
+      ]
+    },
+    {
+      "property": "City",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Boulder"
+        }
+      ]
+    },
+    {
+      "property": "CodeReviewed",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "Code_optimized",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Multiple Processors"
+        }
+      ]
+    },
+    {
+      "property": "Country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "United States"
+        }
+      ]
+    },
+    {
+      "property": "Current_future_collaborators",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "The development repository is public and has contribution guidelines https://github.com/NCAR/wrf_hydro_nwm_public\n\nWe are open to avenues for collaboration\n\nWRF-Hydro Helpdesk: https://ral.ucar.edu/projects/wrf_hydro/contact\nWRF-Hydro User's Forum:\nhttps://groups.google.com/a/ucar.edu/g/wrf-hydro_users"
+        }
+      ]
+    },
+    {
+      "property": "Describe_input_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "For a complete explanation of input parameters please see the WRF-Hydro Technical Description https://ral.ucar.edu/projects/wrf_hydro/technical-description-user-guide\nWRF-Hydro requires a number of input files describing the model domain, parameters, initial\nconditions, hydrologic routing,  and when run in a standalone configuration, meteorological forcing files."
+        }
+      ]
+    },
+    {
+      "property": "Describe_key_physical_parameters",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "See WRF-Hydro Technical Description https://ral.ucar.edu/projects/wrf_hydro/technical-description-user-guide"
+        }
+      ]
+    },
+    {
+      "property": "Describe_length_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "See WRF-Hydro Technical Description https://ral.ucar.edu/projects/wrf_hydro/technical-description-user-guide"
+        }
+      ]
+    },
+    {
+      "property": "Describe_numerical_limitations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "See WRF-Hydro Technical Description https://ral.ucar.edu/projects/wrf_hydro/technical-description-user-guide"
+        }
+      ]
+    },
+    {
+      "property": "Describe_output_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "The following output files are available to the user, depending on their run configuration:\n1. Land surface model output\n2. Land surface diagnostic output\n3. Streamflow output at all channel reaches/cells\n4. Streamflow output at forecast points or gage reaches/cells\n5. Streamflow on the 2D high resolution routing grid (gridded channel routing only)\n6. Terrain routing variables on the 2D high resolution routing grid\n7. Lake output variables\n8. Ground water output variables\n9. A text file of streamflow output at either forecast points or gage locations\nFor a detailed table of each variable\ncontained within each output file, see the WRF-Hydro Output Variable Matrix V5 located on our website\nhttps://ral.ucar.edu/projects/wrf_hydro/technical-description-user-guide"
+        }
+      ]
+    },
+    {
+      "property": "Describe_post-processing_software",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "It is helpful to utilize post-processing software considering the volume of output files, however, we do not recommend anything specific."
+        }
+      ]
+    },
+    {
+      "property": "Describe_pre-processing_software",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "While some parameter files and templates are included with the model source code, most must be\ngenerated by the user. We provide a number of scripts and preprocessing utilities on the WRF-Hydro website (https://ral.ucar.edu/projects/wrf_hydro) in order to aid in this process. These include NCAR Command Language (NCL) scripts to regrid forcing data from commonly used data sources, R scripts to generate parameter and model initialization files, and a set of Python based ArcGIS pre-processing tools."
+        }
+      ]
+    },
+    {
+      "property": "Describe_processes",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "See the WRF-Hydro Technical Description https://ral.ucar.edu/projects/wrf_hydro/technical-description-user-guide\n\"First the 1-dimensional (1D) column land surface model calculates the vertical fluxes of energy (sensible and latent heat, net radiation) and moisture (canopy interception, infiltration, infiltration-excess, deep percolation) and soil thermal and moisture states. Infiltration excess, ponded water depth and soil moisture are subsequently disaggregated from the 1D LSM grid, typically of 1–4 km spatial resolution, to a highresolution, typically 30–100 m, routing grid using a time-step weighted method (Gochis and Chen, 2003) and are passed to the subsurface and overland flow terrain-routing modules. In typical U.S. applications, land cover classifications for the 1D LSMs are provided by the USGS 24-type Land Use Land Cover product or MODIS Modified IGBP 20-category land cover product (see WRF/WPS documentation); soil classifications are provided by the 1-km STATSGO database (Miller and White, 1998); and soil hydraulic parameters that are mapped to the STATSGO soil classes are specified by the soil analysis of Cosby et al.  20 (1984). Other land cover and soil type classification datasets can be used with WRF-Hydro but users are responsible for mapping those categories back to the same categories as used in the USGS or MODIS land cover and STATSGO soil type datasets. The WRF model pre-processing system (WPS) also provides a fairly comprehensive database of land surface data that can be used to set up the Noah and Noah-MP land surface models. It is possible to use other land cover and soils datasets.\nThen subsurface lateral flow in WRF-Hydro is calculated prior to the routing of overland flow to allow exfiltration from fully saturated grid cells to be added to the infiltration excess calculated by the LSM. The method used to calculate the lateral flux of the saturated portion of the soil column is that of Wigmosta et al. (1994) and Wigmosta and Lettenmaier (1999), implemented in the Distributed Hydrology Soil Vegetation Model (DHSVM). It calculates a quasi-3D flow, which includes the effects of topography,\nsaturated soil depth, and depth-varying saturated hydraulic conductivity values. Hydraulic gradients are approximated as the slope of the water table between adjacent grid cells in either the steepest descent or in both x- and y-directions. The flux of water from one cell to its down-gradient neighbor on each timestep is approximated as a steady-state solution. The subsurface flux occurs on the coarse grid of the LSM while overland flow occurs on the fine grid.\nNext, WRF-Hydro calcuates the water table depth according to the depth of the top of the saturated soil layer that is nearest to the surface. Typically, a minimum of four soil layers are used in a 2-meter soil column used in WRF-Hydro but this is not a strict requirement. Additional discretization permits improved resolution of a time-varying water table height and users may vary the number and thickness of soil layers in the model namelist described in the Appendices A3, A4, and A5.\nThen overland flow is defined. The fully unsteady, spatially explicit, diffusive wave formulation of Julien et al. (1995-CASC2D) with later modification by Ogden (1997) is the current option for representing overland flow, which is calculated when the depth of water on a model grid cell exceeds a specified retention depth. The diffusive wave equation accounts for backwater effects and allows for flow on adverse slopes (Ogden, 1997). As in Julien et al. (1995), the continuity equation for an overland flood wave is combined with the diffusive wave formulation of the momentum equation. Manning’s equation is used as the resistance formulation for momentum and requires specification of an overland flow roughness parameter. Values of the overland flow roughness coefficient used in WRF-Hydro were obtained from Vieux (2001) and were mapped to the existing land cover classifications provided by the USGS 24-type land-cover product of Loveland et al. (1995) and the MODIS 20-type land cover product, which are the same land cover classification datasets used in the 1D Noah/Noah-MP LSMs.\nAdditional modules have also been implemented to represent stream channel flow processes, lakes and reservoirs, and stream baseflow. In WRF-Hydro v5.0 inflow into the stream network and lake and reservoir objects is a one-way process. Overland flow reaching grid cells identified as ‘channel’ grid cells pass a portion of the surface water in excess of the local ponded water retention depth to the channel model. This current formulation implies that stream and lake inflow from the land surface is always positive to the stream or lake element. There currently are no channel or lake loss functions where water can move from channels or lakes back to the landscape. Channel flow in WRF-Hydro is represented by one of a few different user-selected methodologies described below. Water passing into and through lakes and reservoirs is routed using a simple level pool routing scheme. Baseflow to the stream network is represented using a conceptual catchment storage-discharge bucket model formulation (discussed below) which obtains “drainage” flow from the spatially-distributed landscape. Discharge from buckets is input directly into the stream using an empirically-derived storage-discharge relationship. If overland flow is active, the only water flowing into the buckets comes from soil drainage. This is because the  21 overland flow scheme will pass water directly to the channel model. If overland flow is switched off and channel routing is still active, then surface infiltration excess water from the land model is collected over the pre-defined catchment and passed into the bucket as well. Each of these process options are enabled through the specification of options in the model namelist file.\""
+        }
+      ]
+    },
+    {
+      "property": "Describe_time_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "See WRF-Hydro Technical Description https://ral.ucar.edu/projects/wrf_hydro/technical-description-user-guide"
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCode",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Active"
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCodeYearChecked",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2020"
+        }
+      ]
+    },
+    {
+      "property": "Development_still_active",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:mollymca@ucar.edu"
+        }
+      ]
+    },
+    {
+      "property": "Extended_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "The Weather Research and Forecasting Model Hydrological modeling system (WRF-Hydro) was developed as a community-based, open source, model coupling framework designed to link multi-scale process models of the atmosphere and terrestrial hydrology to provide:\n\nAn extensible multi-scale & multi-physics land-atmosphere modeling capability for conservative, coupled and uncoupled assimilation & prediction of major water cycle components such as: precipitation, soil moisture, snow pack, ground water, streamflow, and inundation\nAccurate and reliable streamflow prediction across scales (from 0-order headwater catchments to continental river basins and from minutes to seasons)\nA research modeling testbed for evaluating and improving physical process and coupling representations."
+        }
+      ]
+    },
+    {
+      "property": "First_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Molly"
+        }
+      ]
+    },
+    {
+      "property": "H-index",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "29"
+        }
+      ]
+    },
+    {
+      "property": "Incorporated_modules",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "NOAH-MP"
+        }
+      ]
+    },
+    {
+      "property": "Input_format_model_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "NetCDF"
+        }
+      ]
+    },
+    {
+      "property": "Institute",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "National Center for Atmospheric Research (NCAR"
+        }
+      ]
+    },
+    {
+      "property": "Last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "McAllister"
+        }
+      ]
+    },
+    {
+      "property": "M-quotient",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "1.12"
+        }
+      ]
+    },
+    {
+      "property": "Manual_model_available",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Memory_requirements",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "8GB min"
+        }
+      ]
+    },
+    {
+      "property": "ModelDomain",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Terrestrial"
+        },
+        {
+          "type": 2,
+          "item": "Hydrology"
+        },
+        {
+          "type": 2,
+          "item": "Coastal"
+        },
+        {
+          "type": 2,
+          "item": "Climate"
+        },
+        {
+          "type": 2,
+          "item": "Ecosystems"
+        },
+        {
+          "type": 2,
+          "item": "Cryosphere"
+        }
+      ]
+    },
+    {
+      "property": "Model_also_known_as",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "WRF-Hydro Modeling System"
+        }
+      ]
+    },
+    {
+      "property": "Model_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "As code"
+        },
+        {
+          "type": 2,
+          "item": "As teaching tool"
+        }
+      ]
+    },
+    {
+      "property": "Model_forum",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://groups.google.com/a/ucar.edu/g/wrf-hydro_users"
+        }
+      ]
+    },
+    {
+      "property": "Model_keywords",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "model"
+        },
+        {
+          "type": 2,
+          "item": "software"
+        },
+        {
+          "type": 2,
+          "item": "hydrometeorology"
+        },
+        {
+          "type": 2,
+          "item": "land-atmosphere interactions"
+        },
+        {
+          "type": 2,
+          "item": "terrestrial hydrology"
+        },
+        {
+          "type": 2,
+          "item": "hydrology"
+        },
+        {
+          "type": 2,
+          "item": "Earth science"
+        },
+        {
+          "type": 2,
+          "item": "Fortran"
+        },
+        {
+          "type": 2,
+          "item": "hydrologic model"
+        }
+      ]
+    },
+    {
+      "property": "Model_manual",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Media:https://ral.ucar.edu/projects/wrf_hydro/technical-description-user-guide"
+        }
+      ]
+    },
+    {
+      "property": "Model_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Modular"
+        }
+      ]
+    },
+    {
+      "property": "Model_website",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://ral.ucar.edu/projects/wrf_hydro"
+        }
+      ]
+    },
+    {
+      "property": "Modelautophrases",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "modeling"
+        },
+        {
+          "type": 2,
+          "item": "system"
+        },
+        {
+          "type": 2,
+          "item": "precipitation"
+        },
+        {
+          "type": 2,
+          "item": "streamflow"
+        },
+        {
+          "type": 2,
+          "item": "forecasting model hydrological"
+        },
+        {
+          "type": 2,
+          "item": "model hydrological modeling"
+        },
+        {
+          "type": 2,
+          "item": "hydrological modeling system"
+        },
+        {
+          "type": 2,
+          "item": "major water cycle"
+        },
+        {
+          "type": 2,
+          "item": "water cycle components"
+        },
+        {
+          "type": 2,
+          "item": "multi-scale process models"
+        },
+        {
+          "type": 2,
+          "item": "model coupling framework"
+        },
+        {
+          "type": 2,
+          "item": "multi-physics land-atmosphere modeling"
+        },
+        {
+          "type": 2,
+          "item": "link multi-scale process"
+        },
+        {
+          "type": 2,
+          "item": "forecasting model"
+        },
+        {
+          "type": 2,
+          "item": "model hydrological"
+        },
+        {
+          "type": 2,
+          "item": "coupling framework designed"
+        },
+        {
+          "type": 2,
+          "item": "land-atmosphere modeling capability"
+        },
+        {
+          "type": 2,
+          "item": "open source"
+        },
+        {
+          "type": 2,
+          "item": "soil moisture"
+        },
+        {
+          "type": 2,
+          "item": "model"
+        },
+        {
+          "type": 2,
+          "item": "software"
+        },
+        {
+          "type": 2,
+          "item": "hydrometeorology"
+        },
+        {
+          "type": 2,
+          "item": "land-atmosphere interactions"
+        },
+        {
+          "type": 2,
+          "item": "terrestrial hydrology"
+        },
+        {
+          "type": 2,
+          "item": "hydrology"
+        },
+        {
+          "type": 2,
+          "item": "earth science"
+        },
+        {
+          "type": 2,
+          "item": "fortran"
+        },
+        {
+          "type": 2,
+          "item": "hydrologic model"
+        },
+        {
+          "type": 2,
+          "item": "wrf-hydro"
+        }
+      ]
+    },
+    {
+      "property": "Multiple_processors_implemented",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Shared memory"
+        }
+      ]
+    },
+    {
+      "property": "Nr-of-pubs",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "232"
+        }
+      ]
+    },
+    {
+      "property": "One-line_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "The WRF-Hydro® Modeling System, an open-source community model, is used for a range of projects, including flash flood prediction, regional hydroclimate impacts assessment, seasonal forecasting of water resources, and land-atmosphere coupling studies. It produces forecasts and analyses for all major terrestrial water-cycle components: Precipitation, Streamflow, Soil moisture, Snowpack, Flooding, Groundwater."
+        }
+      ]
+    },
+    {
+      "property": "Output_format_model_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "NetCDF"
+        }
+      ]
+    },
+    {
+      "property": "Post_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "t"
+        }
+      ]
+    },
+    {
+      "property": "Postal_address1",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "3450 Mitchell Ln"
+        }
+      ]
+    },
+    {
+      "property": "Postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "80301"
+        }
+      ]
+    },
+    {
+      "property": "Pre_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "t"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Other"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://ral.ucar.edu/projects/wrf_hydro/terms-of-use"
+        }
+      ]
+    },
+    {
+      "property": "Programming_language",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Fortran90"
+        }
+      ]
+    },
+    {
+      "property": "Run_time_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Depends"
+        }
+      ]
+    },
+    {
+      "property": "Source_code_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Through web repository"
+        }
+      ]
+    },
+    {
+      "property": "Source_web_address",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://ral.ucar.edu/projects/wrf_hydro/model-code"
+        }
+      ]
+    },
+    {
+      "property": "Spatial_dimensions",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1D"
+        },
+        {
+          "type": 2,
+          "item": "2D"
+        }
+      ]
+    },
+    {
+      "property": "Spatialscale",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Continental"
+        },
+        {
+          "type": 2,
+          "item": "Regional-Scale"
+        },
+        {
+          "type": 2,
+          "item": "Landscape-Scale"
+        },
+        {
+          "type": 2,
+          "item": "Watershed-Scale"
+        },
+        {
+          "type": 2,
+          "item": "Reach-Scale"
+        },
+        {
+          "type": 2,
+          "item": "Point-Based"
+        }
+      ]
+    },
+    {
+      "property": "Start_year_development",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2008"
+        }
+      ]
+    },
+    {
+      "property": "State",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Colorado"
+        }
+      ]
+    },
+    {
+      "property": "Supported_platforms",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Unix"
+        },
+        {
+          "type": 2,
+          "item": "Linux"
+        }
+      ]
+    },
+    {
+      "property": "Type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Technical contact"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_needed",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "t"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "NCview, Panoply, NetCDF viewer is helpful"
+        }
+      ]
+    },
+    {
+      "property": "_ASK",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "WRF-Hydro#3002##_QUERYc9ec65edf3ce9ef58c8c02d0fc3e316d"
+        },
+        {
+          "type": 9,
+          "item": "WRF-Hydro#3002##_QUERY25ebe3515027d30d9477a31494c643c4"
+        },
+        {
+          "type": 9,
+          "item": "WRF-Hydro#3002##_QUERY87871b1ed132d32718dc31594541b60b"
+        }
+      ]
+    },
+    {
+      "property": "_CDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2021/1/11/2/11/38/0"
+        }
+      ]
+    },
+    {
+      "property": "_ERRC",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "WRF-Hydro#3002##_ERRe276a1ffb0e020a1257eff82199d1d33"
+        },
+        {
+          "type": 9,
+          "item": "WRF-Hydro#3002##_ERRf1d465c2abf4947336e4674ceaa22c37"
+        },
+        {
+          "type": 9,
+          "item": "WRF-Hydro#3002##_ERR604147abdb14669b9c8f3104544da08b"
+        },
+        {
+          "type": 9,
+          "item": "WRF-Hydro#3002##_ERRde9fdd962ce63dcda24f603326a2771d"
+        }
+      ]
+    },
+    {
+      "property": "_INST",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Pages_using_duplicate_arguments_in_template_calls#14##"
+        },
+        {
+          "type": 9,
+          "item": "Models#14##"
+        }
+      ]
+    },
+    {
+      "property": "_LEDT",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Mollymca1#2##"
+        }
+      ]
+    },
+    {
+      "property": "_MDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2021/1/19/17/33/43/0"
+        }
+      ]
+    },
+    {
+      "property": "_SKEY",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "WRF-Hydro"
+        }
+      ]
+    }
+  ],
+  "sobj": [
+    {
+      "subject": "WRF-Hydro#3002##_QUERYc9ec65edf3ce9ef58c8c02d0fc3e316d",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "0"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[:Model:WRF-Hydro]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "WRF-Hydro# QUERYc9ec65edf3ce9ef58c8c02d0fc3e316d"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "WRF-Hydro#3002##_QUERY25ebe3515027d30d9477a31494c643c4",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[User:+]] [[First name member::Molly]] [[Last name member::McAllister]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "WRF-Hydro# QUERY25ebe3515027d30d9477a31494c643c4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "WRF-Hydro#3002##_QUERY87871b1ed132d32718dc31594541b60b",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "ul"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[Model:+]] [[First name::Molly]] [[Last name::McAllister]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "WRF-Hydro# QUERY87871b1ed132d32718dc31594541b60b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "WRF-Hydro#3002##_ERRe276a1ffb0e020a1257eff82199d1d33",
+      "data": [
+        {
+          "property": "_ERRP",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "Code_openmi_compliant_or_not#102##"
+            }
+          ]
+        },
+        {
+          "property": "_ERRT",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[8,\"smw-constraint-error-allows-value-list\",\"Not yet\",\"Yes, No but planned, No but possible, No not possible\",\"Code openmi compliant or not\"]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "WRF-Hydro# ERRe276a1ffb0e020a1257eff82199d1d33"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "WRF-Hydro#3002##_ERRf1d465c2abf4947336e4674ceaa22c37",
+      "data": [
+        {
+          "property": "_ERRP",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "Code_IRF_or_not#102##"
+            }
+          ]
+        },
+        {
+          "property": "_ERRT",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[8,\"smw-constraint-error-allows-value-list\",\"Not yet\",\"Yes, No but planned, No but possible, No not possible\",\"Code IRF or not\"]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "WRF-Hydro# ERRf1d465c2abf4947336e4674ceaa22c37"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "WRF-Hydro#3002##_ERR604147abdb14669b9c8f3104544da08b",
+      "data": [
+        {
+          "property": "_ERRP",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "Code_CMT_compliant_or_not#102##"
+            }
+          ]
+        },
+        {
+          "property": "_ERRT",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[8,\"smw-constraint-error-allows-value-list\",\"Not yet\",\"Yes, In progress, No but possible, No not possible\",\"Code CMT compliant or not\"]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "WRF-Hydro# ERR604147abdb14669b9c8f3104544da08b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "WRF-Hydro#3002##_ERRde9fdd962ce63dcda24f603326a2771d",
+      "data": [
+        {
+          "property": "_ERRP",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "Code_PyMT_compliant_or_not#102##"
+            }
+          ]
+        },
+        {
+          "property": "_ERRT",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[8,\"smw-constraint-error-allows-value-list\",\"Not yet\",\"Yes, In progress, No but possible, No not possible\",\"Code PyMT compliant or not\"]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "WRF-Hydro# ERRde9fdd962ce63dcda24f603326a2771d"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+  "version": 2
+}

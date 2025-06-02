@@ -1,0 +1,63 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "ArcDelRCM",
+    "codeRepository": "https://gitlab.com/nhchan/arcdelrcm.jl",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    },
+    "applicationCategory": "Single",
+    "downloadUrl": "https://gitlab.com/nhchan/arcdelrcm.jl",
+    "operatingSystem": [
+        "Unix",
+        "Mac OS",
+        "Windows"
+    ],
+    "softwareVersion": "v.0.3.0",
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Ngai-Ham (Erik)",
+            "familyName": "Chan",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "German Research Centre for Geosciences GFZ",
+                "address": "Potsdam, Germany"
+            },
+            "email": "mailto:echan@gfz-potsdam.de"
+        }
+    ],
+    "dateCreated": "2020-01-01",
+    "keywords": [
+        "Cryosphere",
+        "arctic-delta",
+        "arctic",
+        "ramp",
+        "deltas",
+        "ramp feature observed",
+        "arctic-delta reduced-complexity model",
+        "arctic deltas",
+        "arctic-delta reduced-complexity",
+        "ramp feature",
+        "feature observed",
+        "earth surface dynamics",
+        "reduced-complexity model",
+        "model",
+        "surface dynamics journal",
+        "deltarcm by liang",
+        "earth surface",
+        "surface dynamics",
+        "delta",
+        "arcdelrcm",
+        "Arctic-delta",
+        "delta"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "identifier": "10.5880/GFZ.4.7.2023.001",
+    "description": "This is an Arctic-delta reduced-complexity model that can reproduce the 2-m ramp feature observed in most Arctic deltas. The model is built by first reconstructing from published descriptions of the DeltaRCM-Arctic model (Lauzon et al., GRL, 2019), which is, in turn, based on DeltaRCM by Liang et al. (Esurf, 2015). All the modifications and refinements leading to this model (ArcDelRCM.jl) are detailed in a manuscript submitted to Earth Surface Dynamics journal for publication (Chan et al., 2022: esurf-2022-25). Options are retained to run this model with the \"DeltaRCM-Arctic\" (reconstruction) setting. The code is written purely in Julia language.",
+    "url": "https://csdms.colorado.edu/wiki/Model:ArcDelRCM",
+    "developmentStatus": "Active"
+}

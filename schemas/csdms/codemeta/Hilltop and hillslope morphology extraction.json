@@ -1,0 +1,65 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Hilltop_and_hillslope_morphology_extraction",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C++"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "memoryRequirements": "Dependent on DEM size",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Martin",
+            "familyName": "Hurst",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "British Geological Survevy",
+                "address": "Nottingham, United Kingdom"
+            },
+            "email": "mailto:mhurst@bgs.ac.uk"
+        }
+    ],
+    "dateCreated": "2010-01-01",
+    "keywords": [
+        "Terrestrial",
+        "tools",
+        "morphology",
+        "sample hilltop curvature",
+        "high resolution topography",
+        "variable length scales",
+        "performing hillslope traces",
+        "computing curvature",
+        "slope and aspect",
+        "hilltop curvature",
+        "series of tools",
+        "tools for extracting",
+        "extracting a network",
+        "aspect over variable",
+        "scales from high",
+        "high resolution",
+        "resolution topography",
+        "topography and performing",
+        "topographic analysis",
+        "hilltop and hillslope morphology extraction",
+        "topographic analysis"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "description": "A series of tools for extracting a network of hilltops from a landscape, computing curvature, slope and aspect over variable length scales from high resolution topography and performing hillslope traces from hilltops to valley bottoms to sample hilltop curvature, mean hillslope gradient and hillslope length. See Hurst et al. (2012) for full description.",
+    "url": "https://csdms.colorado.edu/wiki/Model:Hilltop_and_hillslope_morphology_extraction"
+}

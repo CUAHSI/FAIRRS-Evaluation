@@ -1,0 +1,800 @@
+{
+  "subject": "SWAN#3002##",
+  "data": [
+    {
+      "property": "Additional_comments_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Notice: SWAN can be freely downloaded from the next site:\nhttps://sourceforge.net/projects/swanmodel/files/swan/\nNo registration is needed."
+        }
+      ]
+    },
+    {
+      "property": "Citations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "41982"
+        }
+      ]
+    },
+    {
+      "property": "City",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Delft"
+        }
+      ]
+    },
+    {
+      "property": "CodeReviewed",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "Code_CMT_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_IRF_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_openmi_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_optimized",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Multiple Processors"
+        }
+      ]
+    },
+    {
+      "property": "Country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Netherlands"
+        }
+      ]
+    },
+    {
+      "property": "Current_future_collaborators",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "--"
+        }
+      ]
+    },
+    {
+      "property": "Describe_input_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "The bathymetry, current, water level, bottom friction and wind (if spatially variable) need to be provided to SWAN on so-called input grids. It is best to make an input grid so large that it completely covers the computational grid."
+        }
+      ]
+    },
+    {
+      "property": "Describe_key_physical_parameters",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "SWAN contains a number of physical processes (see Scientific/Technical documentation) that add or withdraw wave energy to or from the wave field. The processes included are: wind input, whitecapping, bottom friction, depth-induced wave breaking, obstacle transmission, nonlinear wave-wave interactions (quadruplets and triads) and wave-induced set-up. SWAN can run in several modes, indicating the level of parameterization. SWAN can operate in first-, second- and third-generation mode. The first- and second-generation modes are essentially those of Holthuijsen and De Boer (1988); first-generation with a constant Phillips \"constant\" of 0.0081 and second-generation with a variable Phillips \"constant\". An overview of the options is given in Table below."
+        }
+      ]
+    },
+    {
+      "property": "Describe_length_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "SWAN can be used on any scale relevant for wind generated surface gravity waves. However, SWAN is specifically designed for coastal applications that should actually not require such flexibility in scale. The reasons for providing SWAN with such flexibility are:\n\n* to allow SWAN to be used from laboratory conditions to shelf seas and\n* to nest SWAN in the WAM model or the WAVEWATCH III model which are formulated in terms of spherical coordinates."
+        }
+      ]
+    },
+    {
+      "property": "Describe_numerical_limitations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "'''Limitations'''\n\nThe DIA approximation for the quadruplet wave-wave interactions depends on the width of the directional distribution of the wave spectrum. It seems to work reasonably in many cases but it is a poor approximation for long-crested waves (narrow directional distribution). It also depends on the frequency resolution. It seems to work reasonably in many cases but it is a poor approximation for frequency resolutions with ratios very different from 10% (see command CGRID). This is a fundamental problem that SWAN shares with other third-generation wave models such as WAM and WAVEWATCH III.\n\n\nThe LTA approximation for the triad wave-wave interactions depends on the width of the directional distribution of the wave spectrum. The present tuning in SWAN (the default settings, see command TRIAD) seems to work reasonably in many cases but it has been obtained from observations in a narrow wave flume (long-crested waves).\n\n\nAs an option SWAN computes wave-induced set-up. In 1D cases the computations are based on exact equations. In 2D cases, the computations are based on approximate equations. This approximation in SWAN can only be applied to open coast (unlimited supply of water from outside the domain, e.g. nearshore coasts and estuaries) in contrast to closed basin, e.g. lakes, where this option should not be used. The effects of wave-induced currents are always ignored.\n\n\nSWAN does not calculate wave-induced currents. If relevant, such currents should be provided as input to SWAN, e.g. from a circulation model which can be driven by waves from SWAN in an iteration procedure.\n\n\nIn areas where variations in wave height are large within a horizontal scale of a few wave lengths, diffraction should be used. However, the computation of diffraction in arbitrary geophysical conditions is rather complicated and requires considerable computing effort. To avoid this, a phase-decoupled approach is employed in SWAN so that same qualitative behaviour of spatial redistribution and changes in wave direction is obtained. This approach, however, does not properly handle diffraction in harbors or in front of reflecting obstacles."
+        }
+      ]
+    },
+    {
+      "property": "Describe_output_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "SWAN can provide output on uniform, recti-linear spatial grids that are independent from the input grids and from the computational grid. In the computation with a curvi-linear computational grid, curvi-linear output grids are available in SWAN. This also holds for triangular meshes. An output grid has to be specified by the user with an arbitrary resolution, but it is of course wise to choose a resolution that is fine enough to show relevant spatial details. It must be pointed out that the information on an output grid is obtained from the computational grid by bi-linear interpolation (output always at computational time level). This implies that some inaccuracies are introduced by this interpolation. It also implies that bottom or current information on an output plot has been obtained by interpolating twice: once from the input grid to the computational grid and once from the computational grid to the output grid. If the input-, computational- and output grids are identical, then no interpolation errors occur.\n\n\nIn the regions where the output grid does not cover the computational grid, SWAN assumes output values equal to the corresponding exception value. For example, the default exception value for the significant wave height is -9. The exception values of output quantities can be changed by means of the QUANTITY command.\n\n\nIn nonstationary computations, output can be requested at regular intervals starting at a given time always at computational times."
+        }
+      ]
+    },
+    {
+      "property": "Describe_processes",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "SWAN accounts for the following physics:\n* Wave propagation in time and space, shoaling, refraction due to current and depth, frequency shifting due to currents and non-stationary depth.\n* Wave generation by wind.\n* Three- and four-wave interactions.\n* Whitecapping, bottom friction and depth-induced breaking.\n* Wave-induced set-up.\n* Propagation from laboratory up to global scales.\n* Transmission through and reflection (specular and diffuse) against obstacles.\n* Diffraction."
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCode",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Active"
+        }
+      ]
+    },
+    {
+      "property": "DevelopmentCodeYearChecked",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2020"
+        }
+      ]
+    },
+    {
+      "property": "Development_still_active",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:swan-info-citg@tudelft.nl"
+        }
+      ]
+    },
+    {
+      "property": "Extended_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "SWAN is a third-generation wave model that computes random, short-crested wind-generated waves in coastal regions and inland waters."
+        }
+      ]
+    },
+    {
+      "property": "First_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Team"
+        }
+      ]
+    },
+    {
+      "property": "H-index",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "87"
+        }
+      ]
+    },
+    {
+      "property": "Input_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Binary"
+        }
+      ]
+    },
+    {
+      "property": "Institute",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Delft University of Technology, Faculty of Civil Engineering and Geosciences"
+        }
+      ]
+    },
+    {
+      "property": "Last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "SWAN"
+        }
+      ]
+    },
+    {
+      "property": "M-quotient",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "1.16"
+        }
+      ]
+    },
+    {
+      "property": "Manual_model_available",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Memory_requirements",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "--"
+        }
+      ]
+    },
+    {
+      "property": "ModelDomain",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Coastal"
+        }
+      ]
+    },
+    {
+      "property": "Model_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "As code"
+        }
+      ]
+    },
+    {
+      "property": "Model_forum",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "https://sourceforge.net/p/swanmodel/mailman/"
+        }
+      ]
+    },
+    {
+      "property": "Model_keywords",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "wave dynamics"
+        }
+      ]
+    },
+    {
+      "property": "Model_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Modular"
+        }
+      ]
+    },
+    {
+      "property": "Model_website",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Manual: http://swanmodel.sourceforge.net/online_doc/swanuse/swanuse.html\nOfficial SWAN website: http://www.swan.tudelft.nl"
+        }
+      ]
+    },
+    {
+      "property": "Modelautophrases",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "swan"
+        },
+        {
+          "type": 2,
+          "item": "model"
+        },
+        {
+          "type": 2,
+          "item": "short-crested wind-generated waves"
+        },
+        {
+          "type": 2,
+          "item": "third-generation wave model"
+        },
+        {
+          "type": 2,
+          "item": "computes random"
+        },
+        {
+          "type": 2,
+          "item": "short-crested wind-generated"
+        },
+        {
+          "type": 2,
+          "item": "inland waters"
+        },
+        {
+          "type": 2,
+          "item": "model that computes"
+        },
+        {
+          "type": 2,
+          "item": "coastal regions"
+        },
+        {
+          "type": 2,
+          "item": "regions and inland"
+        },
+        {
+          "type": 2,
+          "item": "third-generation wave"
+        },
+        {
+          "type": 2,
+          "item": "wave model"
+        },
+        {
+          "type": 2,
+          "item": "wind-generated waves"
+        },
+        {
+          "type": 2,
+          "item": "waves in coastal"
+        },
+        {
+          "type": 2,
+          "item": "random"
+        },
+        {
+          "type": 2,
+          "item": "short-crested"
+        },
+        {
+          "type": 2,
+          "item": "wave dynamics"
+        }
+      ]
+    },
+    {
+      "property": "Nr-of-pubs",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1657"
+        }
+      ]
+    },
+    {
+      "property": "One-line_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "SWAN is a third-generation wave model"
+        }
+      ]
+    },
+    {
+      "property": "Output_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Binary"
+        }
+      ]
+    },
+    {
+      "property": "Post_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Postal_address1",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "P.O. Box 5048"
+        }
+      ]
+    },
+    {
+      "property": "Postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "2600 GA"
+        }
+      ]
+    },
+    {
+      "property": "Pre_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Other"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "GNU General Public License"
+        }
+      ]
+    },
+    {
+      "property": "Programming_language",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Fortran77"
+        }
+      ]
+    },
+    {
+      "property": "Run_time_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "--"
+        }
+      ]
+    },
+    {
+      "property": "Source_code_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Through web repository"
+        }
+      ]
+    },
+    {
+      "property": "Source_web_address",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "http://www.swan.tudelft.nl/"
+        }
+      ]
+    },
+    {
+      "property": "Spatial_dimensions",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "3D"
+        }
+      ]
+    },
+    {
+      "property": "Spatialscale",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Continental"
+        },
+        {
+          "type": 2,
+          "item": "Landscape-Scale"
+        },
+        {
+          "type": 2,
+          "item": "Regional-Scale"
+        }
+      ]
+    },
+    {
+      "property": "Start_year_development",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1993"
+        }
+      ]
+    },
+    {
+      "property": "Supported_platforms",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Unix"
+        },
+        {
+          "type": 2,
+          "item": "Linux"
+        },
+        {
+          "type": 2,
+          "item": "Windows"
+        }
+      ]
+    },
+    {
+      "property": "Type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Model developer"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_needed",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "_ASK",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "SWAN#3002##_QUERY21e6ed105a17539e4e579ba204622abe"
+        },
+        {
+          "type": 9,
+          "item": "SWAN#3002##_QUERY5fbb338ae188660f18e8438f19be2409"
+        },
+        {
+          "type": 9,
+          "item": "SWAN#3002##_QUERYf718981f71f61de58f13f54327a58aa3"
+        }
+      ]
+    },
+    {
+      "property": "_CDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2009/11/22/19/51/35/0"
+        }
+      ]
+    },
+    {
+      "property": "_INST",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Pages_using_duplicate_arguments_in_template_calls#14##"
+        },
+        {
+          "type": 9,
+          "item": "Models#14##"
+        }
+      ]
+    },
+    {
+      "property": "_LEDT",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "WikiSysop#2##"
+        }
+      ]
+    },
+    {
+      "property": "_MDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2020/9/17/2/18/46/0"
+        }
+      ]
+    },
+    {
+      "property": "_SKEY",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "SWAN"
+        }
+      ]
+    }
+  ],
+  "sobj": [
+    {
+      "subject": "SWAN#3002##_QUERY21e6ed105a17539e4e579ba204622abe",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "0"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[:Model:SWAN]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "SWAN# QUERY21e6ed105a17539e4e579ba204622abe"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "SWAN#3002##_QUERY5fbb338ae188660f18e8438f19be2409",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[User:+]] [[First name member::Team]] [[Last name member::SWAN]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "SWAN# QUERY5fbb338ae188660f18e8438f19be2409"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "SWAN#3002##_QUERYf718981f71f61de58f13f54327a58aa3",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "ul"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[Model:+]] [[First name::Team]] [[Last name::SWAN]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "SWAN# QUERYf718981f71f61de58f13f54327a58aa3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+  "version": 2
+}

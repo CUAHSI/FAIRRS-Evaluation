@@ -1,0 +1,44 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Shoreline",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Single",
+    "memoryRequirements": "Standard",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Scott",
+            "familyName": "Peckham",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "CSDMS, INSTAAR, University of Colorado",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:Scott.Peckham@colorado.edu"
+        }
+    ],
+    "dateCreated": "2002-01-01",
+    "keywords": [
+        "Coastal",
+        "coast line evolution",
+        "longshore sediment transport"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Apache public license"
+    },
+    "description": "Shoreline is a \"line model\" for modeling the evolution of a coastline as the result of wind/wave-driven longshore sediment transport. It is based on conservation of mass and a semi-empirical sediment transport formula known as the CERC formula. This model was specifically adapted for modeling the evolution of the coastline near Barrow, Alaska.",
+    "url": "https://csdms.colorado.edu/wiki/Model:Shoreline"
+}

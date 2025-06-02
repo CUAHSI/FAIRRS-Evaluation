@@ -1,0 +1,109 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "WRF-Hydro",
+    "codeRepository": "https://ral.ucar.edu/projects/wrf_hydro/model-code",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran90"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "downloadUrl": "https://ral.ucar.edu/projects/wrf_hydro/model-code",
+    "memoryRequirements": "8GB min",
+    "operatingSystem": [
+        "Unix",
+        "Linux"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Molly",
+            "familyName": "McAllister",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "National Center for Atmospheric Research (NCAR",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:mollymca@ucar.edu"
+        },
+        {
+            "@type": "Person",
+            "givenName": "David",
+            "familyName": "Gochis",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "NCAR",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:gochis@ucar.edu"
+        },
+        {
+            "@type": "Person",
+            "givenName": "WRF-Hydro",
+            "familyName": "Team",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "NCAR",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:wrfhydro@ucar.edu"
+        }
+    ],
+    "dateCreated": "2008-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "Coastal",
+        "Climate",
+        "Ecosystems",
+        "Cryosphere",
+        "modeling",
+        "system",
+        "precipitation",
+        "streamflow",
+        "forecasting model hydrological",
+        "model hydrological modeling",
+        "hydrological modeling system",
+        "major water cycle",
+        "water cycle components",
+        "multi-scale process models",
+        "model coupling framework",
+        "multi-physics land-atmosphere modeling",
+        "link multi-scale process",
+        "forecasting model",
+        "model hydrological",
+        "coupling framework designed",
+        "land-atmosphere modeling capability",
+        "open source",
+        "soil moisture",
+        "model",
+        "software",
+        "hydrometeorology",
+        "land-atmosphere interactions",
+        "terrestrial hydrology",
+        "hydrology",
+        "earth science",
+        "fortran",
+        "hydrologic model",
+        "wrf-hydro",
+        "model",
+        "software",
+        "hydrometeorology",
+        "land-atmosphere interactions",
+        "terrestrial hydrology",
+        "hydrology",
+        "Earth science",
+        "Fortran",
+        "hydrologic model"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "The Weather Research and Forecasting Model Hydrological modeling system (WRF-Hydro) was developed as a community-based, open source, model coupling framework designed to link multi-scale process models of the atmosphere and terrestrial hydrology to provide:\n\nAn extensible multi-scale & multi-physics land-atmosphere modeling capability for conservative, coupled and uncoupled assimilation & prediction of major water cycle components such as: precipitation, soil moisture, snow pack, ground water, streamflow, and inundation\nAccurate and reliable streamflow prediction across scales (from 0-order headwater catchments to continental river basins and from minutes to seasons)\nA research modeling testbed for evaluating and improving physical process and coupling representations.",
+    "url": "https://csdms.colorado.edu/wiki/Model:WRF-Hydro",
+    "relatedLink": "https://groups.google.com/a/ucar.edu/g/wrf-hydro_users",
+    "developmentStatus": "Active"
+}

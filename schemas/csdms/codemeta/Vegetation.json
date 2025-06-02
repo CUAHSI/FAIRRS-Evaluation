@@ -1,0 +1,71 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Vegetation",
+    "codeRepository": "https://github.com/landlab/landlab/tree/master/landlab",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/landlab/landlab/tree/master/landlab",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Sai",
+            "familyName": "Nudurupati",
+            "affiliation": {
+                "@type": "Organization",
+                "address": "Seattle, United States"
+            },
+            "email": "mailto:saisiddu@uw.edu"
+        }
+    ],
+    "dateCreated": "2016-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "Climate",
+        "Ecosystems",
+        "model",
+        "species",
+        "plant",
+        "dynamics",
+        "net primary productivity",
+        "average soil moisture",
+        "simulates net primary",
+        "leaf area index",
+        "root-zone average soil",
+        "landlab component",
+        "primary productivity",
+        "biomass and leaf",
+        "soil moisture",
+        "component that simulates",
+        "simulates net",
+        "net primary",
+        "leaf area",
+        "area index",
+        "cell based",
+        "vegetation",
+        "plant dynamics",
+        "vegetation",
+        "plant dynamics",
+        "soil moisture"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "Landlab component that simulates net primary productivity, biomass and leaf area index at each cell based on inputs of root-zone average soil moisture.",
+    "url": "https://csdms.colorado.edu/wiki/Model:Vegetation",
+    "relatedLink": "https://github.com/landlab/landlab/issues",
+    "developmentStatus": "Only maintenance"
+}

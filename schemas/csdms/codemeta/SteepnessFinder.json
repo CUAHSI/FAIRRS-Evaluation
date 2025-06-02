@@ -1,0 +1,60 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "SteepnessFinder",
+    "codeRepository": "https://github.com/landlab/landlab/tree/master/landlab",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "downloadUrl": "https://github.com/landlab/landlab/tree/master/landlab",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Daniel",
+            "familyName": "Hobley",
+            "affiliation": {
+                "@type": "Organization",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:daniel.hobley@colorado.edu"
+        }
+    ],
+    "dateCreated": "2016-01-01",
+    "keywords": [
+        "Terrestrial",
+        "calculate",
+        "topography",
+        "sensu wobus",
+        "calculates steepness indices",
+        "component calculates steepness",
+        "steepness indices",
+        "wobus",
+        "component calculates",
+        "calculates steepness",
+        "concavity",
+        "terrain analysis",
+        "steepness",
+        "steepnessfinder",
+        "concavity",
+        "terrain analysis",
+        "steepness"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "This component calculates steepness indices, sensu Wobus et al. 2006, for a Landlab landscape. Follows broadly the approach used in GeomorphTools, geomorphtools.org.",
+    "url": "https://csdms.colorado.edu/wiki/Model:SteepnessFinder",
+    "relatedLink": "https://github.com/landlab/landlab/issues",
+    "developmentStatus": "Only maintenance"
+}

@@ -1,0 +1,72 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "CoAStal_Community-lAnDscape_Evolution_(CASCADE)_model",
+    "codeRepository": "https://github.com/UNC-CECL/CASCADE",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "downloadUrl": "https://github.com/UNC-CECL/CASCADE",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Katherine",
+            "familyName": "Anarde",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "North Carolina State University",
+                "address": "Raleigh, United States"
+            },
+            "email": "mailto:kanarde@ncsu.edu"
+        }
+    ],
+    "dateCreated": "2019-01-01",
+    "keywords": [
+        "Coastal",
+        "Human dimensions",
+        "evolution",
+        "barrierr inlet environment",
+        "inlet environment",
+        "cascade combines elements",
+        "barrierr inlet",
+        "exploratory morphodynamic models",
+        "single model framework",
+        "combines elements",
+        "cascade combines",
+        "nienhuis",
+        "cascade",
+        "reeves",
+        "environment",
+        "exploratory morphodynamic",
+        "inlet",
+        "cellular exploratory model",
+        "barrier island",
+        "barrier island management",
+        "coastal morphodynamics",
+        "sea-level rise",
+        "coastal evolution",
+        "coastal community-landscape evolution (cascade) model",
+        "barrier island",
+        "barrier island management",
+        "coastal morphodynamics",
+        "sea-level rise",
+        "coastal evolution"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "CASCADE combines elements of two exploratory morphodynamic models of barrier evolution -- barrier3d (Reeves et al., 2021) and the BarrierR Inlet Environment (brie) model (Nienhuis & Lorenzo-Trueba, 2019) -- into a single model framework. Barrier3d, a spatially-explicit cellular exploratory model, is the core of CASCADE. It is used within the CASCADE framework to simulate the effects of individual storm events and SLR on shoreface evolution; dune dynamics, including dune growth, erosion, and migration; and overwash deposition by individual storms. BRIE is used to simulate large-scale coastline evolution arising from alongshore sediment transport processes; this is accomplished by connecting individual Barrier3d models through diffusive alongshore sediment transport. Human dynamics are incorporated in cascade in two separate modules. The first module simulates strategies for preventing roadway pavement damage during overwashing events, including rebuilding roadways at sufficiently low elevations to allow for burial by overwash, constructing large dunes, and relocating the road into the barrier interior. The second module incorporates management strategies for maintaining a coastal community, including beach nourishment, dune construction, and overwash removal.",
+    "url": "https://csdms.colorado.edu/wiki/Model:CoAStal_Community-lAnDscape_Evolution_(CASCADE)_model",
+    "developmentStatus": "Active"
+}

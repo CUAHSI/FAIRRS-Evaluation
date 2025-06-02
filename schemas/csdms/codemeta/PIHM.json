@@ -1,0 +1,70 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "PIHM",
+    "codeRepository": "http://sourceforge.net/projects/pihmmodel/",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "C++"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "downloadUrl": "http://sourceforge.net/projects/pihmmodel/",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows",
+        "Platform independent"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Christopher",
+            "familyName": "Duffy",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Penn State University",
+                "address": "University Park, United States"
+            },
+            "email": "mailto:cxd11@psu.edu"
+        }
+    ],
+    "dateCreated": "2002-01-01",
+    "keywords": [
+        "Hydrology",
+        "pihm",
+        "multiprocess",
+        "multi-scale",
+        "model",
+        "finite volume method",
+        "major hydrological processes",
+        "semi-discrete finite volume",
+        "multi-scale hydrologic model",
+        "multi-scale hydrologic",
+        "volume method",
+        "major hydrological",
+        "hydrological processes",
+        "processes are fully",
+        "fully coupled",
+        "semi-discrete finite",
+        "finite volume",
+        "hydrologic model",
+        "gis interface",
+        "basins",
+        "continental",
+        "basins",
+        "continental"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "description": "PIHM is a multiprocess, multi-scale hydrologic model where the major hydrological processes are fully coupled using the semi-discrete finite volume method. PIHM is a physical model for surface and groundwater, \u201ctightly-coupled\u201d to a GIS interface. PIHMgis which is open source, platform independent and extensible. The tight coupling between GIS and the model is achieved by developing a shared data-model and hydrologic-model data structure.",
+    "url": "https://csdms.colorado.edu/wiki/Model:PIHM"
+}

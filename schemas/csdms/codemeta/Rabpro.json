@@ -1,0 +1,71 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Rabpro",
+    "codeRepository": "https://github.com/VeinsOfTheEarth/rabpro",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "downloadUrl": "https://github.com/VeinsOfTheEarth/rabpro",
+    "operatingSystem": [
+        "Unix",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Jon",
+            "familyName": "Schwenk",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Los Alamos National Laboratory",
+                "address": "Los Alamos, United States"
+            },
+            "email": "mailto:jschwenk@lanl.gov"
+        }
+    ],
+    "dateCreated": "2021-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "rabpro",
+        "profiler",
+        "basin",
+        "river",
+        "extract river flowlines",
+        "compute watershed statistics",
+        "earth \u2019s surface",
+        "python package",
+        "extract river",
+        "elevation profiles",
+        "package to delineate",
+        "river flowlines",
+        "flowlines and elevation",
+        "delineate watersheds",
+        "compute watershed",
+        "watershed statistics",
+        "python",
+        "earth",
+        "watershed delineation",
+        "elevation profile",
+        "Watershed delineation",
+        "river flowlines",
+        "elevation profile"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "Rabpro is a Python package to delineate watersheds, extract river flowlines and elevation profiles, and compute watershed statistics for any location on the Earth\u2019s surface.",
+    "url": "https://csdms.colorado.edu/wiki/Model:Rabpro",
+    "review": {
+        "@type": "Review",
+        "reviewBody": "Reviewed and accepted by the Journal of Open Source Software (JOSS)."
+    },
+    "developmentStatus": "Active"
+}

@@ -1,0 +1,59 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Detrital_Thermochron",
+    "codeRepository": "http://code.google.com/p/thermochron/",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "downloadUrl": "http://code.google.com/p/thermochron/",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Boris",
+            "familyName": "Avdeev",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Michigan",
+                "address": "Ann Arbor, United States"
+            },
+            "email": "mailto:borisaqua@gmail.com"
+        }
+    ],
+    "dateCreated": "2010-01-01",
+    "keywords": [
+        "Terrestrial",
+        "code",
+        "data",
+        "detrital thermochronometric data",
+        "estimating long-term exhumation",
+        "long-term exhumation histories",
+        "code for estimating",
+        "thermochronometric data",
+        "estimating long-term",
+        "long-term exhumation",
+        "exhumation histories",
+        "histories and spatial",
+        "spatial patterns",
+        "patterns of short-term",
+        "short-term erosion",
+        "detrital thermochronometric",
+        "detrital thermochron"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "Code for estimating long-term exhumation histories and spatial patterns of short-term erosion from the detrital thermochronometric data.",
+    "url": "https://csdms.colorado.edu/wiki/Model:Detrital_Thermochron"
+}

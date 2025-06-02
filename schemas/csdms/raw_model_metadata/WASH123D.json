@@ -1,0 +1,824 @@
+{
+  "subject": "WASH123D#3002##",
+  "data": [
+    {
+      "property": "Additional_comments_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "This model is not users' friendly.  I would welcome anyone to collaborate with me to develop interface to make this model users's friendly.  The unique of this model is\n# every module was developed based physics-based conservation principles of fluid, momentum, enery, and mass;\n# rigious coupling processes between media to internalize fluxes across media boundaries,\n# general paradigm to model water quality based on reactive biogeochemistry,\n# many numerical options were implemented.\n\nI have already posted the technical report.  For those who are interested in \"true\" physics-based watershed models, please read the report and I hope you like it."
+        }
+      ]
+    },
+    {
+      "property": "Additional_first_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Guobiao"
+        },
+        {
+          "type": 2,
+          "item": "Hwei-Ping (Pearce)"
+        }
+      ]
+    },
+    {
+      "property": "Additional_last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Huang"
+        },
+        {
+          "type": 2,
+          "item": "Cheng"
+        }
+      ]
+    },
+    {
+      "property": "Additional_type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Model developer"
+        }
+      ]
+    },
+    {
+      "property": "Citations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "0"
+        }
+      ]
+    },
+    {
+      "property": "City",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Orlando"
+        }
+      ]
+    },
+    {
+      "property": "CodeReviewed",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1"
+        }
+      ]
+    },
+    {
+      "property": "Code_CMT_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_IRF_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_openmi_compliant_or_not",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "No but possible"
+        }
+      ]
+    },
+    {
+      "property": "Code_optimized",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Single Processor"
+        }
+      ]
+    },
+    {
+      "property": "Country",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "United States"
+        }
+      ]
+    },
+    {
+      "property": "Current_future_collaborators",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "I am currently collaborating with ERDC, US Army Corps on the continuing development and improvement of WASH123D. I am also collaborating with several university researchers on the application of the model to field watesheds.\n\nI am willing to collaborate with any users either in the further development and modification of the model or in the application of the model to field scale or laboratory scale problems. I am also willing to collaborate with anyone to develop graphical interfaces to prepare input and to visualize output of this model."
+        }
+      ]
+    },
+    {
+      "property": "Describe_available_calibration_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "A total of 17 flow problems and 15 water quality transport problems are presented in WASH123D. These example problems can serve as templates for users to apply WASH123D to research problems or practical field-scale problems. For the 17 flow examples, the following objectives are achieved: Seven to demonstrate the design capability of WASH123D using seven different flow modules; Four to show the needs of various approaches to simulate various types of flow (critical, subcritical, and supercritical) in river networks and overland regime; and Five to illustrate some realistic problems using WASH123D."
+        }
+      ]
+    },
+    {
+      "property": "Describe_available_test_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "A total of 17 flow problems and 15 water quality transport problems are presented in WASH123D. These example problems can serve as templates for users to apply WASH123D to research problems or practical field-scale problems. For the 13 water quality transport problems: six examples for one-dimensional transport, four examples for two-dimensional transport, and three examples for three-dimensional transport. These examples are used to achieve the following objectives:\n\n# verify the correctness of computer implementation,\n# demonstrate the need of various numerical options and coupling strategies between transport and biogeochemical processes for application-depending circumstances,\n# illustrate how the generality of the water quality modeling paradigm embodies the widely used water quality models as specific examples; and\n# validate the capability of the models to simulate laboratory experiments, and indicate its potential applications to field problems."
+        }
+      ]
+    },
+    {
+      "property": "Describe_ideal_data",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "For field scale:\n\n# Flooding of Dade County watershed in South Florida,\n# Flooding of South Fork Broad River Watershed in South Carolina due to Hurricane Earl,\n# Redistru=ibution of waters in a wetland watershed along Biscayne Bay Coast Wetlands. \n\nFor Laboraty Test:\n\n# Circular Dam Break problems,\n# two dimensional non-symmetrical dam break problem, and\n# Constructed storm water treatment area."
+        }
+      ]
+    },
+    {
+      "property": "Describe_input_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Input parameters:\n#  Geomety in terms of finite element mesh\n# matreial properties,\n# initila conditions,\n# boundary conditions,\n# meteogoligcal data, and\n# reaction networks for biogeochemical transport. \n\nDetailed input/output refers to Yeh et al., 2005 Technical Report on WASH123D"
+        }
+      ]
+    },
+    {
+      "property": "Describe_key_physical_parameters",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Key physical parameters are:\n#  flows rivers/stream/canal/open channel networks - 1D St Venant Equations for River Networks with kinematic, diffusive, and fully dynamic wave options,\n# flows in overland regime - 2D St Venant Equations with: kinematic, diffusive, and fully dynamic wave options,\n# flow in subsurface media - 3D Richard Equation for both vadose and saturated zones,\n# salinity, thermal, and sediment transport in river networks and overland regime - modified ddvection-dispersion equations with phenomenological approaches for erosion and deposition, and\n# water quality transport for all media - advection-dispersion-reaction equations with reaction-based mechanistic approaches to water quality modeling using a general paradigm.\nFor details refer to Yeh et al., 2005 Technical Report on WASH123D"
+        }
+      ]
+    },
+    {
+      "property": "Describe_length_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "lenth sscale ranges from meters (for example dam break problems) to thousands of kilometers (for example large watershed simulations)."
+        }
+      ]
+    },
+    {
+      "property": "Describe_numerical_limitations",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Covergency and instabiliy may occur depending the stiffness of the problems."
+        }
+      ]
+    },
+    {
+      "property": "Describe_output_parameters_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Fluid velocity, pressure, temperature, salinity, concentrations, thermal flexes, and matrial fluxes at all nodes at any desired time. volumetric, energy, and mass balance at all types of boundaries and the entire boundary at any specified time. Br>For details refer to Yeh et al., 2005 Technical Report on WASH123D"
+        }
+      ]
+    },
+    {
+      "property": "Describe_post-processing_software",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "GMS, Tecplot"
+        }
+      ]
+    },
+    {
+      "property": "Describe_processes",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "The integrated multi-processes include:\n\n# hydrological cycles (evaporation, evapotranspiration, infiltration, and recharges);\n# fluid flow (surface runoff in land surface, hydraulics and yydrodynamics in river/stream/canal networks;\n# interflow in vadose zones, and groundwater flow in saturated zones);\n# salinity transport and thermal transport (in surface waters and groundwater);\n# sediment transport (in surface waters);\n# water quality transport (any number of reactive constituents);\n# biogeochemical cycles (nitrogen, phosphorous, carbon, oxygen, etc.); and\n# biota kinetics (algae, phyotoplankton, zooplakton, caliform, bacteria, plants, etc.)."
+        }
+      ]
+    },
+    {
+      "property": "Describe_time_scale_and_resolution",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Time scale ranges to seconds (for example, dam break problems) to tens of years (for example real time simulations of large watersheds)."
+        }
+      ]
+    },
+    {
+      "property": "Development_still_active",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Email_address",
+      "dataitem": [
+        {
+          "type": 5,
+          "item": "mailto:gyeh@mail.ucf.edu"
+        }
+      ]
+    },
+    {
+      "property": "Extended_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "WASH123D is an integrated multimedia, multi-processes, physics-based computational watershed model of various spatial-temporal scales. The integrated multimedia includes:\n# dentric streams/rivers/canal/open channel,\n# overland regime (land surface),\n# subsurface media (vadose and saturated zones), and\n# ponds, lakes/reservoirs (small/shallow). \n\nIt also includes control structures such as weirs, gates, culverts, pumps, levees, and storage ponds and managements such as operational rules for pumps and control structures.\nThe WASH123D code consisted of eight modules to deal with multiple media:\n# 1-D River/Stream Networks,\n# 2-D Overland Regime,\n# 3-D Subsurface Media (both Vadose and Saturated Zones);\n# Coupled 1-D River/Stream Network and 2-D Overland Regime,\n# Coupled 2-D Overland Regime and 3-D Subsurface,\n# Coupled 3-D Subsurface and 1-D River Systems;\n# Coupled 3-D Subsurface Media, 2-D Overland, and 1-D River Network; and\n# Coupled 0-D Shallow Water Bodies and 1-D Canal Network.\nFor any of the above eight modules, flow only, transport only, or coupled flow and transport simulations can be carried out using WASH123D."
+        }
+      ]
+    },
+    {
+      "property": "Fax",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "(407) 823-3315"
+        }
+      ]
+    },
+    {
+      "property": "First_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Gour-Tsyh (George)"
+        }
+      ]
+    },
+    {
+      "property": "Input_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        },
+        {
+          "type": 2,
+          "item": "Binary"
+        }
+      ]
+    },
+    {
+      "property": "Institute",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "University of Central Florida"
+        }
+      ]
+    },
+    {
+      "property": "Last_name",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yeh"
+        }
+      ]
+    },
+    {
+      "property": "M-quotient",
+      "dataitem": [
+        {
+          "type": 1,
+          "item": "0"
+        }
+      ]
+    },
+    {
+      "property": "Manual_model_available",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Yes"
+        }
+      ]
+    },
+    {
+      "property": "Memory_requirements",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Problem Dependent"
+        }
+      ]
+    },
+    {
+      "property": "ModelDomain",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Hydrology"
+        },
+        {
+          "type": 2,
+          "item": "Terrestrial"
+        }
+      ]
+    },
+    {
+      "property": "Model_availability",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "As code"
+        }
+      ]
+    },
+    {
+      "property": "Model_keywords",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "basin"
+        },
+        {
+          "type": 2,
+          "item": "Hydrological model"
+        },
+        {
+          "type": 2,
+          "item": "sediment transport"
+        }
+      ]
+    },
+    {
+      "property": "Model_website",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "--"
+        }
+      ]
+    },
+    {
+      "property": "Nr-of-pubs",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "--"
+        }
+      ]
+    },
+    {
+      "property": "One-line_model_description",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Watershed Model, River Hydraulics, Overland Flow, Subsurface Flow, Sediment Transport, Water Quality Transport"
+        }
+      ]
+    },
+    {
+      "property": "Output_format_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "ASCII"
+        },
+        {
+          "type": 2,
+          "item": "Binary"
+        }
+      ]
+    },
+    {
+      "property": "Phone",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "(407) 823-2317"
+        }
+      ]
+    },
+    {
+      "property": "Post_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "t"
+        }
+      ]
+    },
+    {
+      "property": "Postal_address1",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Room 442B/C, ENGII, UCF"
+        }
+      ]
+    },
+    {
+      "property": "Postal_address2",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "4000 Central Florida Blvd"
+        }
+      ]
+    },
+    {
+      "property": "Postal_code",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "32816"
+        }
+      ]
+    },
+    {
+      "property": "Pre_processing_software",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "f"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Other"
+        }
+      ]
+    },
+    {
+      "property": "Program_license_type_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "--"
+        }
+      ]
+    },
+    {
+      "property": "Programming_language",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Fortran77"
+        },
+        {
+          "type": 2,
+          "item": "Fortran90"
+        }
+      ]
+    },
+    {
+      "property": "Run_time_model",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Problem Dependent"
+        }
+      ]
+    },
+    {
+      "property": "Start_year_development",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "1994"
+        }
+      ]
+    },
+    {
+      "property": "State",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Florida"
+        }
+      ]
+    },
+    {
+      "property": "Supported_platforms",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Unix"
+        },
+        {
+          "type": 2,
+          "item": "Windows"
+        }
+      ]
+    },
+    {
+      "property": "Type_of_contact",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "Model developer"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_needed",
+      "dataitem": [
+        {
+          "type": 4,
+          "item": "t"
+        }
+      ]
+    },
+    {
+      "property": "Visualization_software_other",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "GMS, Tecplot"
+        }
+      ]
+    },
+    {
+      "property": "_ASK",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "WASH123D#3002##_QUERYccf430070ced9502077366dfd5581f4a"
+        },
+        {
+          "type": 9,
+          "item": "WASH123D#3002##_QUERYa8ff243657124ac159877829ea82b15e"
+        },
+        {
+          "type": 9,
+          "item": "WASH123D#3002##_QUERY63ac5e763dea9cf86de21d5e51ee21ea"
+        }
+      ]
+    },
+    {
+      "property": "_CDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2009/2/18/15/53/21/0"
+        }
+      ]
+    },
+    {
+      "property": "_ERRC",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "WASH123D#3002##_ERR832e19663f926fa58b1c2c38ccac6efd"
+        }
+      ]
+    },
+    {
+      "property": "_INST",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "Models#14##"
+        },
+        {
+          "type": 9,
+          "item": "Source_code_not_available#14##"
+        }
+      ]
+    },
+    {
+      "property": "_LEDT",
+      "dataitem": [
+        {
+          "type": 9,
+          "item": "WikiSysop#2##"
+        }
+      ]
+    },
+    {
+      "property": "_MDAT",
+      "dataitem": [
+        {
+          "type": 6,
+          "item": "1/2020/9/17/2/19/17/0"
+        }
+      ]
+    },
+    {
+      "property": "_SKEY",
+      "dataitem": [
+        {
+          "type": 2,
+          "item": "WASH123D"
+        }
+      ]
+    }
+  ],
+  "sobj": [
+    {
+      "subject": "WASH123D#3002##_QUERYccf430070ced9502077366dfd5581f4a",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "0"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[:Model:WASH123D]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "WASH123D# QUERYccf430070ced9502077366dfd5581f4a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "WASH123D#3002##_QUERYa8ff243657124ac159877829ea82b15e",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "plainlist"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[User:+]] [[First name member::Gour-Tsyh (George)]] [[Last name member::Yeh]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "WASH123D# QUERYa8ff243657124ac159877829ea82b15e"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "WASH123D#3002##_QUERY63ac5e763dea9cf86de21d5e51ee21ea",
+      "data": [
+        {
+          "property": "_ASKDE",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "1"
+            }
+          ]
+        },
+        {
+          "property": "_ASKFO",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "ul"
+            }
+          ]
+        },
+        {
+          "property": "_ASKSI",
+          "dataitem": [
+            {
+              "type": 1,
+              "item": "5"
+            }
+          ]
+        },
+        {
+          "property": "_ASKST",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[[Model:+]] [[First name::Gour-Tsyh (George)]] [[Last name::Yeh]]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "WASH123D# QUERY63ac5e763dea9cf86de21d5e51ee21ea"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "WASH123D#3002##_ERR832e19663f926fa58b1c2c38ccac6efd",
+      "data": [
+        {
+          "property": "_ERRP",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "H-index#102##"
+            }
+          ]
+        },
+        {
+          "property": "_ERRT",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "[2,\"smw_nofloat\",\"--\"]"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "WASH123D# ERR832e19663f926fa58b1c2c38ccac6efd"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+  "version": 2
+}

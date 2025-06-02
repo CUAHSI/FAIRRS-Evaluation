@@ -1,0 +1,65 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "ENTRAIN",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        }
+    ],
+    "applicationCategory": "Single",
+    "memoryRequirements": "<512MB",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "softwareVersion": "0.1",
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Rudy",
+            "familyName": "Slingerland",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Penn State University",
+                "address": "University Park, United States"
+            },
+            "email": "mailto:sling@geosc.psu.edu"
+        }
+    ],
+    "dateCreated": "1992-01-01",
+    "keywords": [
+        "Terrestrial",
+        "simulates",
+        "sizes",
+        "critical shear stress",
+        "yalin and karahan",
+        "karahan formulation",
+        "assuming no hiding",
+        "bed using yalin",
+        "calculates the critical",
+        "critical shear",
+        "shear stress",
+        "stress for entrainment",
+        "median size",
+        "size-density fraction",
+        "yalin",
+        "karahan",
+        "calculates",
+        "formulation",
+        "sediment entrainment",
+        "entrain",
+        "sediment entrainment"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "identifier": "10.1594/IEDA/100114",
+    "description": "Calculates the critical shear stress for entrainment of the median size of each size-density fraction of a bed using Yalin and Karahan formulation, assuming no hiding",
+    "url": "https://csdms.colorado.edu/wiki/Model:ENTRAIN",
+    "developmentStatus": "As is, no updates are provided"
+}

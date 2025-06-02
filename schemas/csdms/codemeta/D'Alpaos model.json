@@ -1,0 +1,48 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "D'Alpaos_model",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran90"
+        }
+    ],
+    "applicationCategory": "Single",
+    "operatingSystem": [
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Andrea",
+            "familyName": "D'Alpaos",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Padova",
+                "address": "Padova, Italy"
+            },
+            "email": "mailto:adalpaos@idra.unipd.it"
+        }
+    ],
+    "dateCreated": "2003-01-01",
+    "keywords": [
+        "Coastal",
+        "ecomorphodynamics",
+        "salt Marsh - tidal Flat evolution"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "description": "Long-term ecomorphodynamic model of the initiation and development of tidal networks and of the adjacent marsh platform, accounting for vegetation influence and relative sea level rise effects",
+    "url": "https://csdms.colorado.edu/wiki/Model:D'Alpaos_model",
+    "review": {
+        "@type": "Review",
+        "reviewBody": "Reviewed and accepted by the Journal of Open Source Software (JOSS)."
+    }
+}

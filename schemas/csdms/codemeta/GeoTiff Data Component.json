@@ -1,0 +1,80 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "GeoTiff_Data_Component",
+    "codeRepository": "https://github.com/csdms/bmi-geotiff",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "downloadUrl": "https://github.com/csdms/bmi-geotiff",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "softwareVersion": "v0.3.1",
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Mark",
+            "familyName": "Piper",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "CSDMS",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:mark.piper@colorado.edu"
+        }
+    ],
+    "dateCreated": "2021-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "Coastal",
+        "Marine",
+        "Geodynamic",
+        "Climate",
+        "Ecosystems",
+        "Carbonates and Biogenics",
+        "Cryosphere",
+        "Human dimensions",
+        "Planetary landforms",
+        "csdms",
+        "data",
+        "file",
+        "url.",
+        "python modeling toolkit",
+        "modeling toolkit",
+        "python modeling",
+        "remote url",
+        "library for accessing",
+        "local filepath",
+        "geotiff data component",
+        "geotiff file",
+        "accessing data",
+        "geotiff data",
+        "toolkit",
+        "url",
+        "geotiff",
+        "python",
+        "modeling",
+        "geospatial",
+        "geotiff",
+        "data",
+        "geospatial"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "identifier": "10.5281/zenodo.4721474",
+    "description": "The GeoTiff data component, pymt_geotiff, is a Python Modeling Toolkit (pymt) library for accessing data (and metadata) from a GeoTIFF file, through either a local filepath or a remote URL.\n\nThe pymt_geotiff component provides BMI-mediated access to GeoTIFF data as a service, allowing them to be coupled in pymt with other data or model components that expose a BMI.",
+    "url": "https://csdms.colorado.edu/wiki/Model:GeoTiff_Data_Component",
+    "relatedLink": "https://github.com/csdms/bmi-geotiff/issues",
+    "developmentStatus": "Active"
+}

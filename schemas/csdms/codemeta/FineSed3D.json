@@ -1,0 +1,70 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "FineSed3D",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        }
+    ],
+    "applicationCategory": "Single",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "supportingData": [
+        {
+            "@type": "DataFeed",
+            "url": "https://csdms.colorado.edu/csdms_wiki/images/Case2Data.mat",
+            "name": "Test Data"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Zhen",
+            "familyName": "Cheng",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Center for Applied Coastal Research, University of Delaware",
+                "address": "Newark, United States"
+            },
+            "email": "mailto:zcheng@udel.edu"
+        }
+    ],
+    "dateCreated": "2012-01-01",
+    "keywords": [
+        "Marine",
+        "Terrestrial",
+        "layer",
+        "fine sediment transport",
+        "turbulence-resolving numerical model",
+        "layer is developed",
+        "fine sediment",
+        "sediment transport",
+        "turbulence-resolving numerical",
+        "bottom boundary layer",
+        "simplified eulerian two-phase",
+        "eulerian two-phase flow",
+        "sediment",
+        "equilibrium eulerian approximation",
+        "numerical model",
+        "boundary layer",
+        "sediment settling velocity",
+        "simplified eulerian",
+        "turbulence-resolving",
+        "finesed3d",
+        "Fine Sediment",
+        "Turbulence-resolving",
+        "Bottom boundary layer"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "CDDL"
+    },
+    "description": "A turbulence-resolving numerical model for fine sediment transport in the bottom boundary layer is developed. A simplified Eulerian two-phase flow formulation for the fine sediment transport is adopted. By applying the equilibrium Eulerian approximation, the particle phase velocity is expressed as a vectorial sum of fluid velocity, sediment settling velocity and Stokes number dependent inertia terms. The Boussinesq approximation is applied to simplify the governing equation for the fluid phase. This model utilizes a high accuracy hybrid compact finite difference scheme in the wall-normal direction, and uses the pseudo-spectral scheme in the streamwise and spanwise directions. The model allows a prescribed sediment availability as well as an erosional/depositional bottom boundary condition for sediment concentration. Meanwhile, the model also has the capability to include the particle inertia effect and hindered settling effect for the particle velocity.",
+    "url": "https://csdms.colorado.edu/wiki/Model:FineSed3D"
+}

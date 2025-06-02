@@ -1,0 +1,41 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "GENESIS",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "memoryRequirements": "Typical",
+    "operatingSystem": [
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Mark",
+            "familyName": "Gravens",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "US Army Corps of Engineers",
+                "address": "Vicksburg, United States"
+            },
+            "email": "mailto:Mark.B.Gravens@erdc.usace.army.mil"
+        }
+    ],
+    "dateCreated": "1985-01-01",
+    "keywords": [
+        "Coastal",
+        "shoreline evolution",
+        "coastal sediment transport"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "GENESIS calculates shoreline change produced by statial and temporal differences in longshore sand transport produced by breaking waves. The shoreline evolution portion of the numerical modeling system is based on one-line shoreline change theory, which assumes that the beach profile shape remains unchanged, allowing shoreline change to be described uniquely in terms of the translation of a single point (for example, Mean High Water shoreline) on the profile.",
+    "url": "https://csdms.colorado.edu/wiki/Model:GENESIS"
+}

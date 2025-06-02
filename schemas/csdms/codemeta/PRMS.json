@@ -1,0 +1,68 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "PRMS",
+    "codeRepository": "http://wwwbrr.cr.usgs.gov/projects/SW_MoWS/PRMS.html",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "downloadUrl": "http://wwwbrr.cr.usgs.gov/projects/SW_MoWS/PRMS.html",
+    "operatingSystem": [
+        "Linux",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "George",
+            "familyName": "Leavesley",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "USGS",
+                "address": "Lakewood, United States"
+            },
+            "email": "mailto:george@usgs.gov"
+        }
+    ],
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "system",
+        "modeling",
+        "precipitation-runoff",
+        "general basin hydrology",
+        "modular-design modeling system",
+        "sediment yields",
+        "combinations of precipitation",
+        "surface-water runoff",
+        "basin hydrology",
+        "modular-design modeling",
+        "modeling system",
+        "developed to evaluate",
+        "evaluate the impacts",
+        "general basin",
+        "climate",
+        "prms",
+        "precipitation",
+        "runoff",
+        "hydrological model",
+        "basin",
+        "Hydrological model",
+        "basin"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "PRMS is a modular-design modeling system that has been developed to evaluate the impacts of various combinations of precipitation, climate, and land use on surface-water runoff, sediment yields, and general basin hydrology",
+    "url": "https://csdms.colorado.edu/wiki/Model:PRMS",
+    "developmentStatus": "Active"
+}

@@ -1,0 +1,45 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "SIMSAFADIM",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        }
+    ],
+    "applicationCategory": "Single",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Klaus",
+            "familyName": "Bitzer",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University Bayreuth",
+                "address": "Bayreuth, Germany"
+            },
+            "email": "mailto:klaus.bitzer@uni-bayreuth.de"
+        }
+    ],
+    "dateCreated": "2000-01-01",
+    "keywords": [
+        "Coastal",
+        "Marine",
+        "coastal and marine",
+        "stratigraphic",
+        "facies distribution"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "Finite element process based simulation model for fluid flow, clastic, carbonate and evaporate sedimentation.",
+    "url": "https://csdms.colorado.edu/wiki/Model:SIMSAFADIM"
+}

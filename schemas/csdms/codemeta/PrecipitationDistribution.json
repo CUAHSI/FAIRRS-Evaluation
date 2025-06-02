@@ -1,0 +1,66 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "PrecipitationDistribution",
+    "codeRepository": "https://github.com/landlab/landlab/tree/master/landlab",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "downloadUrl": "https://github.com/landlab/landlab/tree/master/landlab",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Jordan",
+            "familyName": "Adams",
+            "affiliation": {
+                "@type": "Organization",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:jordan.adams@colorado.edu"
+        }
+    ],
+    "dateCreated": "2013-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "Climate",
+        "generate",
+        "events",
+        "water resources research",
+        "rectangular poisson pulse",
+        "poisson pulse model",
+        "water resources",
+        "resources research",
+        "generates precipitation events",
+        "rectangular poisson",
+        "poisson pulse",
+        "landlab component",
+        "component that generates",
+        "generates precipitation",
+        "precipitation events",
+        "pulse model",
+        "eagleson",
+        "water",
+        "precipitation",
+        "precipitationdistribution",
+        "precipitation"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "BSD or MIT X11"
+    },
+    "description": "Landlab component that generates precipitation events using the rectangular Poisson pulse model described in Eagleson (1978, Water Resources Research).\n\nNo particular units must be used, but it was written with the storm units in hours (hr) and depth units in millimeters (mm).",
+    "url": "https://csdms.colorado.edu/wiki/Model:PrecipitationDistribution",
+    "relatedLink": "https://github.com/landlab/landlab/issues",
+    "developmentStatus": "Only maintenance"
+}

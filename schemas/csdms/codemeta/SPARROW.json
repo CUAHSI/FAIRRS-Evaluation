@@ -1,0 +1,94 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "SPARROW",
+    "codeRepository": "http://water.usgs.gov/nawqa/sparrow/",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    },
+    "applicationCategory": "Single",
+    "downloadUrl": "http://water.usgs.gov/nawqa/sparrow/",
+    "operatingSystem": [
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Richard",
+            "familyName": "Alexander",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "USGS, NAWQA Hydrologic Systems Team",
+                "address": "Reston, United States"
+            },
+            "email": "mailto:ralex@usgs.gov"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Steve",
+            "familyName": "Preston",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "USGS, NAWQA Hydrologic Systems Team",
+                "address": "Reston, United States"
+            },
+            "email": "mailto:spreston@usgs.gov"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Gregory",
+            "familyName": "Schwarz",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "USGS, NAWQA Hydrologic Systems Team",
+                "address": "Reston, United States"
+            },
+            "email": "mailto:gschwarz@usgs.gov"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Richard",
+            "familyName": "Smith",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "USGS, NAWQA Hydrologic Systems Team",
+                "address": "Reston, United States"
+            },
+            "email": "mailto:rsmith1@usgs.gov"
+        }
+    ],
+    "dateCreated": "1992-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "model",
+        "sparrow",
+        "surface",
+        "spatially referenced regressions",
+        "relating water-quality measurements",
+        "water-quality measurements made",
+        "watershed modeling technique",
+        "spatially referenced",
+        "referenced regressions",
+        "monitoring stations",
+        "modeling technique",
+        "technique for relating",
+        "relating water-quality",
+        "water-quality measurements",
+        "measurements made",
+        "nonlinear regression equation",
+        "regression equation describing",
+        "watershed attributes",
+        "biogeochemistry",
+        "water quality",
+        "biogeochemistry",
+        "water quality"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "SPARROW (SPAtially Referenced Regressions On Watershed attributes) is a watershed modeling technique for relating water-quality measurements made at a network of monitoring stations to attributes of the watersheds containing the stations. The core of the model consists of a nonlinear regression equation describing the non-conservative transport of contaminants from point and diffuse sources on land to rivers and through the stream and river network. The model predicts contaminant flux, concentration, and yield in streams and has been used to evaluate alternative hypotheses about the important contaminant sources and watershed properties that control transport over large spatial scales.",
+    "url": "https://csdms.colorado.edu/wiki/Model:SPARROW",
+    "developmentStatus": "Active"
+}

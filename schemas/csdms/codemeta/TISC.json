@@ -1,0 +1,80 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "TISC",
+    "codeRepository": "https://sites.google.com/site/daniggcc/software/tisc",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://sites.google.com/site/daniggcc/software/tisc",
+    "memoryRequirements": "32 GB",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Daniel",
+            "familyName": "Garcia Castellanos",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "ICTJA-CSIC",
+                "address": "Barcelona, Spain"
+            },
+            "email": "mailto:danielgc@ictja.csic.es"
+        }
+    ],
+    "dateCreated": "1997-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "Geodynamic",
+        "Climate",
+        "erosion",
+        "sedimentation",
+        "tisc",
+        "transport",
+        "geological time scales",
+        "large-scale sediment transport",
+        "time scales",
+        "computer program",
+        "program that simulates",
+        "simulates the evolution",
+        "geological time",
+        "sediment transport",
+        "surface transport",
+        "river sediment transport",
+        "large-scale sediment",
+        "tectonic",
+        "network",
+        "fluvial morphodynamics",
+        "geodynamics",
+        "bedrock erosion",
+        "groundwater",
+        "isostasy",
+        "orographic precipitattion",
+        "evaporation",
+        "lake",
+        "fluvial morphodynamics",
+        "geodynamics",
+        "Bedrock Erosion",
+        "groundwater",
+        "isostasy",
+        "orographic precipitattion",
+        "evaporation",
+        "lake"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "description": "TISC is a computer program that simulates the evolution of 3D large-scale sediment transport together with tectonic deformation and lithospheric vertical movements on geological time scales. Particular attention is given to foreland sedimentary basin settings. TISC (formerly called tao3D) stands for Tectonics, Isostasy, Surface Transport, and Climate.\n\n*hydrology/climate\nThe drainage river network is calculated following the maximum slope along the evolving topography. Based on the runoff distribution, the water discharge at any cell of the network is calculated as the water collected from tributary cells plus the precipitation at that cell. Lake evaporation is accounted for, enabling the model to study close endorheic basins. Both topography and the network evolves as a result of erosion, sedimentation and tectonic processes. \n\n*river sediment transport\nSediment carrying capacity is a function of water discharge and slope and determines whether a river is eroding or depositing. Suspended sediments resulting from erosion are transported through the fluvial network until they are deposited or they leave the model domain (explicit mass conservation).\n\n*lithospheric flexure\nA elastic and/or viscoelastic plate approach is used to calculate the vertical movements of the lithosphere caused by the mass redistribution. In the classical lithospheric flexural model, the lithosphere is assumed to rest on a fluid asthenosphere and behave as a thin plate when submitted to external forces.\n\n*tectonic deformation\nTectonic modification of the relieve and the correspondent loading of the lithosphere are calculated using a cinematic vertical shear approach (preserving the vertical thickness of the moving units during displacement).",
+    "url": "https://csdms.colorado.edu/wiki/Model:TISC",
+    "developmentStatus": "Only maintenance"
+}

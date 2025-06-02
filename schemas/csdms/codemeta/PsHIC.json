@@ -1,0 +1,74 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "PsHIC",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Tool",
+    "memoryRequirements": "low, depending on dataset",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "softwareVersion": "0.1",
+    "supportingData": [
+        {
+            "@type": "DataFeed",
+            "url": "https://csdms.colorado.edu/csdms_wiki/images/DEM_demo.txt",
+            "name": "Test Data"
+        },
+        {
+            "@type": "DataFeed",
+            "url": "https://csdms.colorado.edu/csdms_wiki/images/FlowDir_demo.txt",
+            "name": "Test Data"
+        }
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Sagy",
+            "familyName": "Cohen",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "The University of Newcastle",
+                "address": "Callaghan, Australia"
+            },
+            "email": "mailto:sagy.cohen@uon.edu.au"
+        }
+    ],
+    "dateCreated": "2006-01-01",
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "calculator",
+        "hypsometric",
+        "integral",
+        "pixel-scale",
+        "calculate the hypsometric",
+        "hypsometric integral",
+        "calculate",
+        "catchment",
+        "pixel",
+        "contributing area",
+        "considered a local",
+        "local outlet",
+        "geomorphologic",
+        "pshic",
+        "geomorphologic",
+        "catchment"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "identifier": "10.1594/IEDA/100154",
+    "description": "Calculate the hypsometric integral for each pixel at the catchment. Each pixel is considered a local outlet and the hypsometric integral is calculated according to the characteristics of its contributing area.",
+    "url": "https://csdms.colorado.edu/wiki/Model:PsHIC",
+    "developmentStatus": "As is, no updates are provided"
+}

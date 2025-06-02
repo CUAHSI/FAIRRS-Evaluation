@@ -1,0 +1,73 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "GEOtop",
+    "codeRepository": "http://geotopmodel.github.io/geotop/",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        },
+        {
+            "@type": "ComputerLanguage",
+            "name": "Java"
+        }
+    ],
+    "applicationCategory": "Modular",
+    "downloadUrl": "http://geotopmodel.github.io/geotop/",
+    "memoryRequirements": "Dependent on DEM size",
+    "operatingSystem": [
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Riccardo",
+            "familyName": "Rigon",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Trento",
+                "address": "Trento, Italy"
+            },
+            "email": "mailto:riccardo.rigon@ing.unitn.it"
+        }
+    ],
+    "dateCreated": "1997-01-01",
+    "keywords": [
+        "Hydrology",
+        "Terrestrial",
+        "distributed",
+        "model",
+        "water",
+        "budgets",
+        "water balance integrates",
+        "energy balance equation",
+        "accommodates very complex",
+        "complex topography",
+        "richards\u2019 equation",
+        "surface energy balance",
+        "balance integrates",
+        "geotop accommodates",
+        "balance equation",
+        "geotop",
+        "surface snow temperature",
+        "digital elevation models",
+        "return surface temperature",
+        "models",
+        "land surfaces models",
+        "basins",
+        "basins"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "GEOtop accommodates very complex topography and, besides the water balance integrates all the terms in the surface energy balance equation. For saturated and unsaturated subsurface flow, it uses the 3D Richards\u2019 equation. An accurate treatment of radiation inputs is implemented in order to be able to return surface temperature.\n\nThe model GEOtop simulates the complete hydrological balance in a continuous way, during a whole year, inside a basin and combines the main features of the modern land surfaces models with the distributed rainfall-runoff models.\n\nThe new 0.875 version of GEOtop introduces the snow accumulation and melt module and describes sub-surface flows in an unsaturated media more accurately. With respect to the version 0.750 the updates are fundamental: the codex is completely eviewed, the energy and mass parametrizations are rewritten, the input/output file set is redifined.\n\nGEOtop makes it possible to know the outgoing discharge at the basin's closing section, to estimate the local values at the ground of humidity, of soil temperature, of sensible and latent heat fluxes, of heat flux in the soil and of net radiation, together with other hydrometeorlogical distributed variables. Furthermore it describes the distributed snow water equivalent and surface snow temperature.\n\nGEOtop is a model based on the use of Digital Elevation Models (DEMs). It makes also use of meteorological measurements obtained thought traditional instruments on the ground. Yet, it can also assimilate distributed data like those coming from radar measurements, from satellite terrain sensing or from micrometeorological models.",
+    "url": "https://csdms.colorado.edu/wiki/Model:GEOtop"
+}

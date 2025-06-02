@@ -1,0 +1,68 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "OGGM",
+    "codeRepository": "https://github.com/OGGM/oggm",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "Single",
+    "downloadUrl": "https://github.com/OGGM/oggm",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Fabien",
+            "familyName": "Maussion",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Innsbruck",
+                "address": "Innsbruck, Austria"
+            },
+            "email": "mailto:info@oggm.org"
+        }
+    ],
+    "dateCreated": "2018-01-01",
+    "keywords": [
+        "Cryosphere",
+        "oggm",
+        "dynamics",
+        "including contributory branches",
+        "ice dynamics module",
+        "explicit ice dynamics",
+        "including contributory",
+        "contributory branches",
+        "dynamics module",
+        "model accounts",
+        "includes an explicit",
+        "explicit ice",
+        "ice dynamics",
+        "glacier geometry",
+        "accounts for glacier",
+        "including",
+        "branches",
+        "module",
+        "glacier flow",
+        "glacier",
+        "glacier dynamics",
+        "glacier flow",
+        "glacier",
+        "glacier dynamics"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v3"
+    },
+    "description": "The model accounts for glacier geometry (including contributory branches) and includes an explicit ice dynamics module. It can simulate past and future mass-balance, volume and geometry of (almost) any glacier in the world in a fully automated and extensible workflow. Publicly available data is used for calibration and validation.",
+    "url": "https://csdms.colorado.edu/wiki/Model:OGGM",
+    "relatedLink": "https://mailman.zfn.uni-bremen.de/cgi-bin/mailman/listinfo/oggm-users",
+    "developmentStatus": "Active"
+}

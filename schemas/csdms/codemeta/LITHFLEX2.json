@@ -1,0 +1,60 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "LITHFLEX2",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran77"
+        }
+    ],
+    "applicationCategory": "Single",
+    "memoryRequirements": "<512MB",
+    "operatingSystem": [
+        "Unix",
+        "Linux",
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Kevin",
+            "familyName": "Furlong",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Penn State University",
+                "address": "University Park, United States"
+            },
+            "email": "mailto:kpf1@psu.edu"
+        }
+    ],
+    "dateCreated": "1992-01-01",
+    "keywords": [
+        "Geodynamic",
+        "lithospheric",
+        "plate",
+        "lithospheric flexure solution",
+        "lithospheric flexure",
+        "flexure solution",
+        "broken plate",
+        "equal width loading",
+        "width loading elements",
+        "broken edge",
+        "broken",
+        "load is assumed",
+        "flexure",
+        "solution",
+        "edge of plate",
+        "lithflex2",
+        "lithospheric flexure",
+        "broken plate"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Other"
+    },
+    "description": "Lithospheric flexure solution for a broken plate. Load is assumed to be represented by equal width loading elements specified distance from broken edge of plate. Inclusion of sediments as part of the restoring force effect is possible by choice of density assigned to density (2).",
+    "url": "https://csdms.colorado.edu/wiki/Model:LITHFLEX2",
+    "developmentStatus": "As is, no updates are provided"
+}

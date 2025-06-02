@@ -1,0 +1,79 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Ecopath_with_Ecosim",
+    "codeRepository": "http://www.ecopath.org/",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    },
+    "applicationCategory": "Single",
+    "downloadUrl": "http://www.ecopath.org/",
+    "operatingSystem": [
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Villy",
+            "familyName": "Christensen",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "UBC Fisheries Centre",
+                "address": "Vancouver, B.C., Canada"
+            },
+            "email": "mailto:v.christensen@fisheries.ubc.ca"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Carl",
+            "familyName": "Walters",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "UBC Fisheries Centre",
+                "address": "Vancouver, B.C., Canada"
+            },
+            "email": "mailto:c.walters@fisheries.ubc.ca"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Daniel",
+            "familyName": "Pauly",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "UBC Fisheries Centre",
+                "address": "Vancouver, B.C., Canada"
+            },
+            "email": "mailto:d.pauly@fisheries.ubc.ca"
+        }
+    ],
+    "dateCreated": "1992-01-01",
+    "keywords": [
+        "Marine",
+        "Ecosystems",
+        "ewe",
+        "ecosim",
+        "ecopath",
+        "computers",
+        "modeling software suite",
+        "personal computers",
+        "suite for personal",
+        "ecological modeling software",
+        "protected areas",
+        "address ecological questions",
+        "impact and placement",
+        "ecological modeling",
+        "modeling software",
+        "software suite",
+        "evaluate",
+        "ecopath software package",
+        "marine protected areas",
+        "ecopath with ecosim"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "description": "Ecopath with Ecosim (EwE) is an ecological modeling software suite for personal computers. EwE has three main components: Ecopath \u2013 a static, mass-balanced snapshot of the system; Ecosim \u2013 a time dynamic simulation module for policy exploration; and Ecospace \u2013 a spatial and temporal dynamic module primarily designed for exploring impact and placement of protected areas. The Ecopath software package can be used to:\n*Address ecological questions;\n*Evaluate ecosystem effects of fishing;\n*Explore management policy options;\n*Evaluate impact and placement of marine protected areas;\n*Evaluate effect of environmental changes.",
+    "url": "https://csdms.colorado.edu/wiki/Model:Ecopath_with_Ecosim",
+    "developmentStatus": "Active"
+}

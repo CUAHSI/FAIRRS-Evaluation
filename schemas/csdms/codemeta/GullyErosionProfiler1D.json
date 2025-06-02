@@ -1,0 +1,61 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "GullyErosionProfiler1D",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
+    ],
+    "applicationCategory": "Single",
+    "operatingSystem": [
+        "Mac OS",
+        "Windows"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Francis",
+            "familyName": "Rengers",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Colorado",
+                "address": "Boulder, United States"
+            },
+            "email": "mailto:francis.rengers@colorado.edu"
+        }
+    ],
+    "keywords": [
+        "Terrestrial",
+        "Hydrology",
+        "headcuts",
+        "simulate longitudinal profiles",
+        "headward advancing headcuts",
+        "longitudinal profiles",
+        "profiles with headward",
+        "headward advancing",
+        "simulate longitudinal",
+        "model simulates gully",
+        "advancing headcuts",
+        "model simulates",
+        "model",
+        "model is designed",
+        "gully",
+        "elevation profile",
+        "matlab",
+        "arid alluvial channel",
+        "gullyerosionprofiler1d",
+        "Gully",
+        "elevation profile",
+        "Matlab",
+        "arid alluvial channel"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "name": "GPL v2"
+    },
+    "description": "This model is designed to simulate longitudinal profiles with headward advancing headcuts.  This model simulates gully erosion on the centennial-scale given information such as average rainfall and infiltration rates.  The modeler also specifies a headcut erosion rate and or a rule for headcut retreat (either discharge-dependent or height-dependent retreat).",
+    "url": "https://csdms.colorado.edu/wiki/Model:GullyErosionProfiler1D",
+    "developmentStatus": "As is, no updates are provided"
+}
