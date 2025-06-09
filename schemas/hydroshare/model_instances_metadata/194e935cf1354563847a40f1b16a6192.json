@@ -1,0 +1,31 @@
+{
+  "title": "Runnymeade ParFlow.CLM model input files",
+  "link": "/resource/194e935cf1354563847a40f1b16a6192/",
+  "availability": [
+    "published"
+  ],
+  "availabilityurl": "https://storage.googleapis.com/hydroshare-prod-static-media/static/img/published.png",
+  "type": "Resource",
+  "author": "Barnes, Michael",
+  "authors": [
+    "Barnes, Michael"
+  ],
+  "contributor": [
+    "Miller, Andrew J",
+    "Welty, Claire"
+  ],
+  "author_link": "/user/2503/",
+  "owner": "Barnes, Michael",
+  "abstract": "Six headwater catchments of the Gwynns Falls watershed, located in Baltimore County, Maryland, USA, were simulated using ParFlow.CLM. We utilized a 10-m horizontal gridding, with catchment areas ranging on the order of 0.2 to 2 sq. km. Vertical discretization was variable ranging from 0.1 to 8m with the terrain-following grid feature of ParFlow.CLM activated. Model domains contained 69,120 to 505,440 finite difference cells. The simulation period was 1 January 2012 to 31 December 2015. \nEach compressed tar archive (.tar.gz) contains the inputs required to execute the model run. These include: ParFlow binary files (.pfb) for permeability, slope and geologic unit indicator field, CLM text files (.dat and .txt) for input paramaters, 1-D NLDAS2 forcing, vegetation matrix and vegetation parameters, and a ParFlow input tcl file to generate model input database (.tcl). A Bash shell script (.sh) containing model dimensions is also included.\n",
+  "subject": [
+    "Surface water",
+    "ParFlow",
+    "Urban hydrology",
+    "Groundwater",
+    "Hydrologic modeling"
+  ],
+  "created": "2018-04-12T18:09:27",
+  "modified": "2018-06-08T03:58:20",
+  "short_id": "194e935cf1354563847a40f1b16a6192",
+  "geo": ""
+}
