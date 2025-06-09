@@ -1,0 +1,35 @@
+{
+  "title": "Jordan valley streamflow simulations from HSPF (Hydrological Simulation Program - FORTRAN) model",
+  "link": "/resource/62a36a7bea14465c98ecbc86704e2f6c/",
+  "availability": [
+    "public"
+  ],
+  "availabilityurl": "https://storage.googleapis.com/hydroshare-prod-static-media/static/img/public.png",
+  "type": "Resource",
+  "author": "khatri, krishna",
+  "authors": [
+    "khatri, krishna",
+    "Strong, Courtenay"
+  ],
+  "contributor": null,
+  "author_link": "/user/883/",
+  "owner": "Strong, Courtenay",
+  "abstract": "The results included are based on the HSPF model simulations developed for the Jordan River watersehds. The base model used to simulate was developed by a consultant (STANTEC in 2010/2011) and employed by the Salt Lake County, Utah. The model was calibrated and statistical results were checked only for the Big Cottonwood Canyons at the Canyons Mouth and other several location in the Jordan River. The model was applied to study climate and land use change in March 2017. The historical time periods considered are Jan1 1995 to Dec 31,2004. The calibration time period considered for the streamflow is Jan1,2005 to Dec 31,2006 (it varies for other water quality parameters considering the data availability). Future simulations include 2035 to 2044 and 2085 to 2094. The model results were simulated in an hourly time steps and this resource has the daily results. The results included are only for the climate change scenarios as the canyons have negligible effects of the land use and land cover changes. The three scenarios considered are based on the RCP6 climate scenario that was dynamically downscaled using the Weather Research & Forecasting (WRF) model and statistically downscaled two climate scenarios corresponding to the mean of the driest and wettest quartiles of the statistically downscaled CMIP5 database at https://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html . \t\n\nFor each streamflow tab in the file, the Observed column indicates results forcing the model with station observations. Future simulation columns labeled Min_* provide results for the mean of the driest quartile of CMIP5 simulations, RCP_* provide results for the WRF simulation of RCP 6.0, and Max_* provide results for the mean of the wettest quartile of CMIP5 simulations. The second tab in the file provides sample results from the HSPF standard calibration procedure. \n",
+  "subject": [
+    "hydrology"
+  ],
+  "created": "2018-07-26T17:58:12",
+  "modified": "2018-07-26T20:57:51",
+  "short_id": "62a36a7bea14465c98ecbc86704e2f6c",
+  "geo": {
+    "short_id": "62a36a7bea14465c98ecbc86704e2f6c",
+    "title": "Jordan valley streamflow simulations from HSPF (Hydrological Simulation Program - FORTRAN) model",
+    "coverage_type": "box",
+    "north": 40.62385,
+    "east": -111.8853,
+    "northlimit": 40.9741,
+    "southlimit": 40.2736,
+    "eastlimit": -111.4582,
+    "westlimit": -112.3124
+  }
+}
