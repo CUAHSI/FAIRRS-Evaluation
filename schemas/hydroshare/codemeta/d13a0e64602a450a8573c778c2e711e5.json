@@ -1,0 +1,33 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "A High Resolution SWMM Model for the City of Logan Utah",
+    "codeRepository": "https://www.hydroshare.org",
+    "applicationCategory": [
+        "Resource"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Buahin, Caleb"
+        },
+        {
+            "@type": "Person",
+            "name": "Horsburgh, Jeffery S."
+        }
+    ],
+    "dateCreated": "2017-11-08",
+    "dateModified": "2018-01-23",
+    "keywords": [
+        "Urban stormwater modeling",
+        "SWMM",
+        "Component-based modeling",
+        "High Performance Computing"
+    ],
+    "description": "This model instance represents a high resolution urban stormwater model developed using the Environmental Protection Agency's Stormwater Management Model (SWMM) for the City of Logan, Utah. It was developed as part of a larger coupled modeling effort, where the SWMM model represents only the built conveyance network of the stormwater conveyance system including pipes, inlets, outfalls, culverts, etc. This SWMM model was developed using high resolution geospatial survey data collected by Logan's  public works department. This model was coupled to a larger two-dimensional hydraulic model that simulates overland and riverine flow. The SWMM model provided in this resource has, however, not been calibrated.",
+    "url": "https://www.hydroshare.org/resource/d13a0e64602a450a8573c778c2e711e5/",
+    "maintainer": {
+        "@type": "Person",
+        "name": "iUTAH Data Manager"
+    }
+}

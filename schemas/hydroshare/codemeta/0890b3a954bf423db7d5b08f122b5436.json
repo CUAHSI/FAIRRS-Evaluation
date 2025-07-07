@@ -1,0 +1,35 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Uncalibrated SWAT+ models for Blue Nile created using GUI and SWAT+ AW",
+    "codeRepository": "https://www.hydroshare.org",
+    "applicationCategory": [
+        "Resource"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "name": "CHAWANDA, Celray James"
+        }
+    ],
+    "dateCreated": "2020-06-29",
+    "dateModified": "2020-06-29",
+    "keywords": [
+        "hydrology",
+        "modelling",
+        "SWAT",
+        "reproducibility",
+        "workflows"
+    ],
+    "identifier": "10.4211/hs.0890b3a954bf423db7d5b08f122b5436",
+    "description": "A Graphical User Interface (GUI) is regularly used to support model applications in hydrological catchment modelling software. A GUI is generally user-friendly for novice users but opens sources of irreproducible research. We illustrate this risk by showing that none of the 10 Soil and Water Assessment Tool (SWAT) studies over the Upper Blue Nile Basin report all settings required to reproduce the model results. On the other hand, scripted workflows provide the ability to reproduce model setup and results, but they may be less user-friendly especially to novice users. We present a software (SWAT+ AW) that promotes reproducible SWAT+ model studies while remaining user-friendly for both novice and expert users. The workflow creates a SWAT+ model based on a configuration file while maintaining GUI compatibility. We applied the workflow to the Blue Nile catchment and show that it yields the same results as a model built with the SWAT+ GUI. We conclude that such user-friendly scripted workflows can help make catchment studies reproducible and offer opportunities for increased transparency and reusability of hydrological models. The software is publicly available on GitHub (https://github.com/VUB-HYDR/SWATPlus-AW).",
+    "url": "https://www.hydroshare.org/resource/0890b3a954bf423db7d5b08f122b5436/",
+    "review": {
+        "@type": "Review",
+        "reviewBody": "Reviewed and accepted for publication in HydroShare."
+    },
+    "maintainer": {
+        "@type": "Person",
+        "name": "Celray James CHAWANDA"
+    }
+}

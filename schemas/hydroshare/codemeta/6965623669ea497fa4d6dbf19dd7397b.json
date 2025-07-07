@@ -1,0 +1,32 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "AMR WRR paper 2020 - model",
+    "codeRepository": "https://www.hydroshare.org",
+    "applicationCategory": [
+        "Resource"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Kourakos, Georgios"
+        },
+        {
+            "@type": "Person",
+            "name": "Harter, Thomas"
+        }
+    ],
+    "dateCreated": "2021-05-14",
+    "dateModified": "2021-12-12",
+    "keywords": [
+        "Unconfined simulation",
+        "Adaptive mesh refinement",
+        "Groundwater model"
+    ],
+    "description": "This repository contains information about the model that is used in the 10.1029/2020WR029354 paper. \nThe current version of the model simulates steady state unconfined groundwater flow. It is based on the finite element method using  quadrilateral or hexahedral finite elements for the domain discretization. For the mesh generation we use adaptive mesh refinement where we start from a coarse mesh and refine the areas of the domain where there is rapid change in the hydraulic head.\nIn addition the water table elevation is treated as an additional unknown and the iterations of the unconfined non linear problem are blended with the iterations of the adaptive mesh refinement process.",
+    "url": "https://www.hydroshare.org/resource/6965623669ea497fa4d6dbf19dd7397b/",
+    "maintainer": {
+        "@type": "Person",
+        "name": "Kourakos, Georgios"
+    }
+}
