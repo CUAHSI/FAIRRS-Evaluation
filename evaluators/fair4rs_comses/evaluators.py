@@ -186,9 +186,9 @@ class BaseEvaluator(Evaluator):
         if "identifier" in all_args:
             identifier = all_args["identifier"]
             if isinstance(identifier, list):
-                identifier = {'url':['http://doi.org/' + id for id in identifier]}
+                identifier = {'identifier':['http://doi.org/' + id for id in identifier]}
             else:
-                identifier = {'url':['http://doi.org/' + identifier]}
+                identifier = {'identifier':['http://doi.org/' + identifier]}
 
             result, log = evaluator_utils.validate_and_log_urls(identifier, 'a globally unique and persistent identifier for software.')
         else:
