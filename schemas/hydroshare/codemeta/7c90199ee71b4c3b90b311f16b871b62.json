@@ -1,0 +1,30 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "HEC-HMS 4.2.1 Model for Rapidan River Watershed, VA",
+    "codeRepository": "https://www.hydroshare.org",
+    "applicationCategory": [
+        "Resource"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Benavides, J Marie"
+        }
+    ],
+    "dateCreated": "2017-11-21",
+    "dateModified": "2017-11-21",
+    "keywords": [
+        "HEC-HMS",
+        "Discharge",
+        "Rapidan River",
+        "Virginia",
+        "Flow-routing"
+    ],
+    "description": "HEC-HMS 4.2.1 can be used to accurately route stream flow through a selected watershed. A model of the Rapidan River Watershed, VA was calibrated using a precipitation event occurring on April 2nd, 2005 at 15:00PM. The baseflow method chosen was the recession method and Muskingum routing was used as a routing method. Optimization trials were used once the model closely resembled the observed precipitation event. Model accuracy was determined by the Nash-Sutcliffe model efficiency coefficient and Peak Volume of discharge, before testing the model with additional precipitation events of similar size and seasonal occurrence. Peak discharge volume was unable to match the observed data for additional storms. The model was able to predict the time of peak discharge with accuracy, all three storm peaks reported within 15 minutes of observed data. Since this model was able to accurately predict the time of the peak discharge, it is still possible to use this model for temporal flow routing through the Rapidan River Watershed. It would  not be accurate to use this model to quantify the amount of discharge occurring during a precipitation event.",
+    "url": "https://www.hydroshare.org/resource/7c90199ee71b4c3b90b311f16b871b62/",
+    "maintainer": {
+        "@type": "Person",
+        "name": "Benavides, J Marie"
+    }
+}

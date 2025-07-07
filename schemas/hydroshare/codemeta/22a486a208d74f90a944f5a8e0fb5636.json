@@ -1,0 +1,30 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Snowmelt simulation for Dolores River watershed from 2009 to 2015",
+    "codeRepository": "https://www.hydroshare.org",
+    "applicationCategory": [
+        "Resource"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Gan, Tian"
+        }
+    ],
+    "dateCreated": "2018-08-24",
+    "dateModified": "2018-11-29",
+    "keywords": [
+        "UEB",
+        "Snowmelt",
+        "HydroDS",
+        "Dolores River",
+        "Colorado River Basin"
+    ],
+    "description": "It was created using HydroShare UEB model inputs preparation application which utilized the HydroDS modeling web services. The model inputs data files include: watershed.nc, aspect.nc, slope.nc, cc.nc, hcan.nc, lai.nc, vp0.nc, tmin0.nc, tmax0.nc, srad0.nc, prcp0.nc, ueb_setup.py, hydrogate.py. The model parameter files include: control.dat, param.dat, siteinitial.dat, inputcontrol.dat, outputcontrol.dat. This model instance resource is complete for model simulation. The corresponding model output is also included in the resource.  Use the HydroShare user account and the link  to access the UEB web app  (https://appsdev.hydroshare.org/apps/ueb-app/)",
+    "url": "https://www.hydroshare.org/resource/22a486a208d74f90a944f5a8e0fb5636/",
+    "maintainer": {
+        "@type": "Person",
+        "name": "Gan, Tian"
+    }
+}

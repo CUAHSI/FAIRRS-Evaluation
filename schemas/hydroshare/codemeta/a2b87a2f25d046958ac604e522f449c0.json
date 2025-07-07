@@ -1,0 +1,33 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Animas watershed snowmelt modeling in the 2010 water year (use case 2)",
+    "codeRepository": "https://www.hydroshare.org",
+    "applicationCategory": [
+        "Resource"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Gan, Tian"
+        }
+    ],
+    "dateCreated": "2019-04-15",
+    "dateModified": "2019-08-21",
+    "keywords": [
+        "UEB",
+        "web-based simulation",
+        "snow melt"
+    ],
+    "identifier": "10.4211/hs.a2b87a2f25d046958ac604e522f449c0",
+    "description": "This resource contains the use case results of web-based simulation for snowmelt modeling research. The model input files were created by executing the Python script (ueb_setup.py) in CUAHSI JupyterHub web app, which made web requests to HydroDS modeling web services (https://github.com/CI-WATER/Hydro-DS) for inputs preparation. The model output files were created by using the model input files and the UEB web app (https://appsdev.hydroshare.org/apps/ueb-app/). A JupyterHub Notebook file (Data_analysis_code.ipynb) includes the data analysis code to compare the model output created by this use case and another use case (https://doi.org/10.4211/hs.1be4d7902c87481d85b93daad99cf471) with different model grid resolutions (600 m vs 1200 m).",
+    "url": "https://www.hydroshare.org/resource/a2b87a2f25d046958ac604e522f449c0/",
+    "review": {
+        "@type": "Review",
+        "reviewBody": "Reviewed and accepted for publication in HydroShare."
+    },
+    "maintainer": {
+        "@type": "Person",
+        "name": "Gan, Tian"
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Blue Nile SWAT models  setup using QSWAT Workflow v1.5 and QSWAT GUI",
+    "codeRepository": "https://www.hydroshare.org",
+    "applicationCategory": [
+        "Resource"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Celray James CHAWANDA"
+        }
+    ],
+    "dateCreated": "2018-08-25",
+    "dateModified": "2018-08-30",
+    "keywords": [
+        "SWAT",
+        "Hydrology",
+        "QSWAT",
+        "Modelling",
+        "Workflow"
+    ],
+    "identifier": "10.4211/hs.88454dae8c604009b684bfa136e5f7f4",
+    "description": "Most catchment modelling software use a Graphical User Interface (GUI) to allow direct manipulation of the models and adapt to specific case studies. GUI is generally easy to use for novice users but opens sources of irreproducible research. We present a workflow (QSWAT Workflow) that promotes reproducible SWAT model studies while remaining user-friendly for both novice and expert users. We applied this environment to the Blue Nile catchment and show that it yields the same results as using the QSWAT GUI. The workflow includes benefits in rebuilding earlier model configurations and implementing changes to existing setups while saving time. The project can still be viewed and modified in the GUI. We conclude that workflows can help reduce cases of irreproducible catchment studies and offer benefits for researchers building upon existing models including opportunities for catchment model setup with cloud computing without losing interoperability with GUIs. This workflow is on GitHub: https://github.com/VUB-HYDR/QSWAT_Automated_Workflow)",
+    "url": "https://www.hydroshare.org/resource/88454dae8c604009b684bfa136e5f7f4/",
+    "review": {
+        "@type": "Review",
+        "reviewBody": "Reviewed and accepted for publication in HydroShare."
+    },
+    "maintainer": {
+        "@type": "Person",
+        "name": "Celray James CHAWANDA"
+    }
+}

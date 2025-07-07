@@ -1,0 +1,29 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "SUMMA input of subwatershed 18 in Coweeta",
+    "codeRepository": "https://www.hydroshare.org",
+    "applicationCategory": [
+        "Resource"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "name": "CHOI, YOUNG-DON"
+        }
+    ],
+    "dateCreated": "2019-10-17",
+    "dateModified": "2020-05-04",
+    "keywords": [
+        "input",
+        "sub18",
+        "rhessys",
+        "coweeta"
+    ],
+    "description": "In this model instance, there are spatial data and observed time-series data. \nFor spatial data, there is gis_data folder, and in the gis_data folder, there are DEM.tif, NLCD.tif, MapunitPolyExtended.shp(soil), and gage.shp etc.\nFor observed time-series data, there are climate (9/1/1983~12/31/2014) and streamflow data (1/1/2000~12/31/2006).",
+    "url": "https://www.hydroshare.org/resource/719d896e620c41a59c69519f219d71b8/",
+    "maintainer": {
+        "@type": "Person",
+        "name": "Choi, Young-Don"
+    }
+}

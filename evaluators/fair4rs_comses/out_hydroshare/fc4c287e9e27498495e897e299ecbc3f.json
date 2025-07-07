@@ -1,0 +1,113 @@
+{
+  "TWDB: Edwards-Trinity (Plateau) Aquifer": {
+    "indicator_evaluations": {
+      "A1_1": {
+        "result": true,
+        "log": [
+          "https://www.hydroshare.org/resource/fc4c287e9e27498495e897e299ecbc3f/ in codemeta property 'url' is an open link to the software."
+        ]
+      },
+      "A1_2": {
+        "result": false,
+        "log": [
+          "Missing inputs ['downloadUrl', 'hasPart', 'installUrl', 'isAccessibleForFree', 'isPartOf', 'license', 'permissions'] for evalA1_2"
+        ]
+      },
+      "A2": {
+        "result": true,
+        "log": [
+          "https://www.hydroshare.org/resource/fc4c287e9e27498495e897e299ecbc3f/ in codemeta property 'url' is providing access to the software metadata."
+        ]
+      },
+      "F1_1": {
+        "result": true,
+        "log": [
+          "https://www.hydroshare.org/resource/fc4c287e9e27498495e897e299ecbc3f/ in codemeta property 'url' is is a distinct identifier."
+        ]
+      },
+      "F1_2": {
+        "result": false,
+        "log": [
+          "Missing inputs ['softwareVersion', 'version'] for evalF1_2"
+        ]
+      },
+      "F2": {
+        "result": true,
+        "log": [
+          "Codemeta file passed validation through codemeticulous."
+        ]
+      },
+      "F3": {
+        "result": false,
+        "log": [
+          "No identifier term found."
+        ]
+      },
+      "F4": {
+        "result": false,
+        "log": [
+          "No identifier term found."
+        ]
+      },
+      "I1": {
+        "result": false,
+        "log": [
+          "Missing inputs ['supportingData', 'buildInstructions'] for evalI1"
+        ]
+      },
+      "I2": {
+        "result": false,
+        "log": [
+          "Missing inputs ['relatedLink', 'supportingData', 'isPartOf', 'referencePublication'] for evalI2"
+        ]
+      },
+      "R1_1": {
+        "result": false,
+        "log": [
+          "Missing inputs ['citation', 'license', 'referencePublication'] for evalR1_1"
+        ]
+      },
+      "R1_2": {
+        "result": false,
+        "log": [
+          "Challenging to evaluate provenance; not evaluated."
+        ]
+      },
+      "R2": {
+        "result": false,
+        "log": [
+          "Missing inputs ['softwareRequirement', 'softwareSuggestions'] for evalR2"
+        ]
+      },
+      "R3": {
+        "result": false,
+        "log": [
+          "Missing inputs ['review'] for evalR3"
+        ]
+      }
+    },
+    "scores": {
+      "F1_1": 0.5,
+      "F1_2": 0.0,
+      "F2": 0.25,
+      "F3": 0.0,
+      "F4": 0.0,
+      "F1": 0.125,
+      "F": 0.375,
+      "A1_1": 0.5,
+      "A1_2": 0.0,
+      "A2": 0.5,
+      "A1": 0.25,
+      "A": 0.75,
+      "I1": 0.0,
+      "I2": 0.0,
+      "I": 0.0,
+      "R1_1": 0,
+      "R1_2": 0,
+      "R2": 0.0,
+      "R3": 0.0,
+      "R1": 0.0,
+      "R": 0.0
+    }
+  }
+}

@@ -1,7 +1,7 @@
 SOFTWARE_REGISTRIES =  [
     'https://www.comses.net/',      # CoMSES model library
     'https://csdms.colorado.edu/',  # CSDMS model repo
-    'https://hydroshare.org/'       # HydroShare
+    'https://www.hydroshare.org/'       # HydroShare
 ]   
 
 # Recommended highly permissive licenses

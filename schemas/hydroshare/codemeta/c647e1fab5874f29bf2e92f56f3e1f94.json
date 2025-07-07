@@ -1,0 +1,43 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "SWMM Model of the Milandre Cave (Switzerland)",
+    "codeRepository": "https://www.hydroshare.org",
+    "applicationCategory": [
+        "Resource"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Vuilleumier, C\u00e9cile"
+        }
+    ],
+    "contributor": [
+        {
+            "@type": "Person",
+            "name": "Perrochet, Pierre"
+        },
+        {
+            "@type": "Person",
+            "name": "Jeannin, Pierre-Yves"
+        }
+    ],
+    "dateCreated": "2019-11-06",
+    "dateModified": "2019-11-10",
+    "keywords": [
+        "karst",
+        "SWMM",
+        "sediment transport"
+    ],
+    "identifier": "10.4211/hs.c647e1fab5874f29bf2e92f56f3e1f94",
+    "description": "This dataset contains the input and output files of a hydraulic model (EPA Storm Water Management Model (SWMM)) of the downstream part of the Milandre Cave (Switzerland).  The aim of the model is to simulate sediment transport processes in the karst conduits, which is done as a post-processing step.\n\nThe model is based on the cave survey and calibrated on the basis of hydraulic head, flow rate and tracer test data. The software version is SWMM5.0.019 for Linux. The simulation results (flow rates, hydraulic heads, flow velocities) are used to compute the mean boundary shear stress and the shear velocity in the conduits in order to assess sediment transport processes.",
+    "url": "https://www.hydroshare.org/resource/c647e1fab5874f29bf2e92f56f3e1f94/",
+    "review": {
+        "@type": "Review",
+        "reviewBody": "Reviewed and accepted for publication in HydroShare."
+    },
+    "maintainer": {
+        "@type": "Person",
+        "name": "Vuilleumier, C\u00e9cile"
+    }
+}

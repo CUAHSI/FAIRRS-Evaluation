@@ -1,0 +1,32 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Watershed runoff modeling for USGS station \"Rapidan river near Ruckersville\"",
+    "codeRepository": "https://www.hydroshare.org",
+    "applicationCategory": [
+        "Resource"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Chen, Alex"
+        }
+    ],
+    "dateCreated": "2017-11-21",
+    "dateModified": "2017-11-21",
+    "keywords": [
+        "HEC-HMS",
+        "streamflow",
+        "Ruckerville",
+        "Muskingum",
+        "precipitation",
+        "SCS Unit Hydrograph",
+        "Rapidan River"
+    ],
+    "description": "In this model, HEC-HMS 4.2.1 is used for simulating the runoff for the USGS streamflow  station \"Rapidan river near Ruckersville\" watershed. We chose three storm events: one storm event for calibration of the model and two events for validating the model. The results showed that the model could be helpful for simulating the runoff of the streamflow station from given storm event",
+    "url": "https://www.hydroshare.org/resource/416ec6e8ecbf4bb79d39f0223110c7f8/",
+    "maintainer": {
+        "@type": "Person",
+        "name": "Chen, Alex"
+    }
+}
