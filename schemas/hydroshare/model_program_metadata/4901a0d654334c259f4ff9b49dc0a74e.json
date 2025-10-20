@@ -1,12 +1,18 @@
 {
+  "version": null,
+  "programming_languages": [
+    "Python"
+  ],
+  "operating_systems": [
+    "Windows"
+  ],
+  "code_repository": "None",
+  "rights": "http://creativecommons.org/licenses/by/4.0/",
+  "software_type": "model-program",
   "title": "Discrete wavelet transform coupled with the active subspace method",
-  "link": "/resource/4901a0d654334c259f4ff9b49dc0a74e/",
   "availability": [
     "published"
   ],
-  "availabilityurl": "https://storage.googleapis.com/hydroshare-prod-static-media/static/img/published.png",
-  "type": "Resource",
-  "author": "Bittner, Daniel",
   "authors": [
     "Bittner, Daniel",
     "Engel, Michael",
@@ -14,10 +20,6 @@
     "Labat, David",
     "Chiogna, Gabriele"
   ],
-  "contributor": null,
-  "author_link": "/user/7037/",
-  "owner": "Bittner, Daniel",
-  "abstract": "The provided Python code represents the coupled framework between the discrete wavelet transform and the active subspace method. It has the goal to perform temporal scale dependent model parameter sensitivity analysis. In the provided case, the methodology is coupled to an R code containing the LuKARS model.\n\nThe folder named 'as_dwt' contains the entire source code of the methodology as well as the required data\nof the Kerschbaum spring case study.\n\nThe subfolder uq_tools contains supplementary python scripts that can be used for analyses that go beyond\nthe methodology proposed in the WRR article.\n\nThe subfolder examples contains a folder called 'as_wavelets', in which the relevant python scripts are stored.\n\nThe data and the LuKARS model (R. file) can be found from this directory in 'scens/scen_main'.\n\nThe LuKARS model is given by the file 'main_exe.R.'\n\nThe precipitation and discharge data is stored in 'kerschbaum.txt'.\n\nThe monthly mean temperatures (needed for Thornthwaite's ET method) are stored in 'monthly_mean_temp.csv'.\n\nThe daily temperature values and snow depths are stored in 'snow_waidhofen.csv'.",
   "subject": [
     "Active subspace method",
     "Sensitivity analysis",
@@ -25,13 +27,5 @@
     "Karst hydrology"
   ],
   "created": "2020-08-05T05:12:37",
-  "modified": "2021-06-21T06:40:23",
-  "short_id": "4901a0d654334c259f4ff9b49dc0a74e",
-  "geo": {
-    "short_id": "4901a0d654334c259f4ff9b49dc0a74e",
-    "title": "Discrete wavelet transform coupled with the active subspace method",
-    "coverage_type": "point",
-    "north": 47.9208,
-    "east": 14.7661
-  }
+  "modified": "2021-06-21T06:40:23"
 }
