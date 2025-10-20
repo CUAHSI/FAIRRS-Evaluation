@@ -53,7 +53,7 @@ def get_model_program_metadata(hs_instance,resource):
             resource['programming_languages'] += metadata.programming_languages
             resource['operating_systems'] += metadata.operating_systems
             resource['code_repository'] += metadata.code_repository
-            resource['rights'] += metadata.rights.url
+            resource['rights'] += str(metadata.rights.url)
 
     return resource     
 
