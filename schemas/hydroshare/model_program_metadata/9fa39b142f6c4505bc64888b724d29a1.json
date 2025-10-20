@@ -1,0 +1,43 @@
+{
+  "title": "HYSTAR_OSBS",
+  "link": "/resource/9fa39b142f6c4505bc64888b724d29a1/",
+  "availability": [
+    "published"
+  ],
+  "availabilityurl": "https://storage.googleapis.com/hydroshare-prod-static-media/static/img/published.png",
+  "type": "Resource",
+  "author": "Her, Young Gu",
+  "authors": [
+    "Her, Young Gu"
+  ],
+  "contributor": null,
+  "author_link": "/user/2695/",
+  "owner": "Her, Young",
+  "abstract": "Distributed, continuous hydrologic models promote better understanding of hydrology and enable integrated hydrologic analyses by providing a more detailed picture of water transport processes across the varying landscape. However, such models are not widely used in routine modeling practices, due in part to the extensive data input requirements, computational demands, and complexity of routing algorithms. HYSATR is a new two-dimensional continuous hydrologic model developed using a time-area method within a grid-based spatial data model with the goal of providing an alternative way to simulate spatiotemporally varied watershed-scale hydrologic processes. The model calculates the direct runoff hydrograph by coupling a time-area routing scheme with a dynamic rainfall excess sub-model, explicitly considering downstream ‘reinfiltration’ of routed surface runoff. Soil moisture content is determined at each time interval based on a water balance equation, and overland and channel runoff is routed on time-area maps, representing spatial variation in hydraulic characteristics for each time interval in a storm event. Simulating runoff hydrographs does not depend on unit hydrograph theory or on solution of the Saint Venant equation, yet retains the simplicity of a unit hydrograph approach and the capability of explicitly simulating two-dimensional flow routing. The model offers a way to simulate watershed processes and runoff hydrographs using the time-area method, providing a simple, efficient, and sound framework that explicitly represents mechanisms of spatially and temporally varied hydrologic processes.\nGrid-based spatially distributed hydrological modeling has become feasible with advances in watershed routing schemes, remote sensing technology, and computing resources. However, the need for long-running times on a substantial set of computational resources prevent a spatially detailed modeling program from being widely used, particularly in fine-resolution large-scale studies. Parallelizing computational tasks successfully mitigates this difficulty. A novel way to improve the simulation efficiency of direct runoff transport processes is proposed; watershed areas are grouped based on a time-area routing scheme; this was applied to simulating the runoff routing processes of two watersheds in different sizes and landscapes. The method substantially improved the computational efficiency of the time-area routing method with common computing resources. In addition, the efficiency of the parallelization scheme was not limited by the hierarchical relationship between upstream and downstream catchments along the flow paths, which could be possible with the Lagrangian tracking of the time-area routing method.",
+  "subject": [
+    "travel time",
+    "hydrological modeling",
+    "parallel computing",
+    "isochrone",
+    "hydrology",
+    "two-dimensional routing",
+    "overland flow",
+    "HYSTAR",
+    "flow routing",
+    "time-area method"
+  ],
+  "created": "2021-04-13T14:47:01",
+  "modified": "2021-10-06T14:16:41",
+  "short_id": "9fa39b142f6c4505bc64888b724d29a1",
+  "geo": {
+    "short_id": "9fa39b142f6c4505bc64888b724d29a1",
+    "title": "HYSTAR_OSBS",
+    "coverage_type": "box",
+    "north": 29.6932,
+    "east": -82.0143,
+    "northlimit": 29.7099,
+    "southlimit": 29.6765,
+    "eastlimit": -81.9896,
+    "westlimit": -82.039
+  }
+}

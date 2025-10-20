@@ -1,0 +1,28 @@
+{
+  "title": "Landlab",
+  "link": "/resource/74a4a124f0ba47d8bc3e2ffa11fb03d5/",
+  "availability": [
+    "public"
+  ],
+  "availabilityurl": "https://storage.googleapis.com/hydroshare-prod-static-media/static/img/public.png",
+  "type": "Resource",
+  "author": "Tucker, Greg",
+  "authors": [
+    "Tucker, Greg",
+    "Gasparini, Nicole",
+    "Istanbulluoglu, Erkan",
+    "Hutton, Eric"
+  ],
+  "contributor": null,
+  "author_link": "None",
+  "owner": "Morgan, Edward",
+  "abstract": "Landlab is a Python software package for creating, assembling, and/or running 2D numerical models. Landlab was created to facilitate modeling in earth-surface dynamics, but it is general enough to support a wide range of applications. Landlab provides three different capabilities:\n(1) A DEVELOPER'S TOOLKIT for efficiently building 2D models from scratch. The toolkit includes a powerful GRIDDING ENGINE for creating, managing, and iterative updating data on 2D structured or unstructured grids. The toolkit also includes helpful utilities to handle model input and output.\n\n(2) A set of pre-built COMPONENTS, each of which models a particular process. Components can be combined together to create coupled models.\n\n(3) A library of pre-built MODELS that have been created by combining components together.\n\nTo learn more, please visit http://landlab.github.io\n\nInput Parameters: \nBecause this is a toolkit for model building, there are no set input parameters. Rather, developers use the code to create their own models, with their own unique inputs.\nThe ModelParameterDictionary tool provides formatted ASCII input for model parameters. The I/O component also handles input of digital elevation models (DEMs) in standard ArcInfo ASCII format.\n\nOutput Parameters: \nGridding component provides ASCII and/or netCDF output of grid geometry.\n",
+  "subject": [
+    "Python",
+    "2D"
+  ],
+  "created": "2017-01-20T04:00:01",
+  "modified": "2017-05-14T03:36:09",
+  "short_id": "74a4a124f0ba47d8bc3e2ffa11fb03d5",
+  "geo": ""
+}

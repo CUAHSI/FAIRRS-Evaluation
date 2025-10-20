@@ -1,0 +1,46 @@
+{
+  "title": "Estimating Potential Climate Change Effects on the Upper Neuse Watershed Water Balance Using the SWAT Model",
+  "link": "/resource/1710a6b553da4f70877c2abc69f3a42b/",
+  "availability": [
+    "published"
+  ],
+  "availabilityurl": "https://storage.googleapis.com/hydroshare-prod-static-media/static/img/published.png",
+  "type": "Resource",
+  "author": "Ercan, Mehmet",
+  "authors": [
+    "Ercan, Mehmet",
+    "Maghami, Iman",
+    "Bowes, Benjamin",
+    "Goodall, Jonathan",
+    "Morsy, Mohamed"
+  ],
+  "contributor": null,
+  "author_link": "/user/1126/",
+  "owner": "Iman Maghami",
+  "abstract": "This resource holds the data and models used by Ercan et al. (2020). The goal of their study was to quantify possible changes in the water balance of a 1373 km2 watershed in North Carolina, the Upper Neuse watershed,  due to climate change. To accomplish this, they used a SWAT model to quantify possible changes in the water balance. They first analyzed sensitivity to determine their study area's most sensitive model parameters. Next, they calibrated and validated the SWAT model using daily streamflow records within the watershed. Finally, they used the SWAT model forced with different climate scenarios for baseline, mid-century, and end-century periods using five different downscaled General Circulation Models.\n\n​Ercan et al. (2020)​ did not formally publish the data or Model Instances (MI) used in their study, which is not uncommon. In this resource, we published their data and MIs as an example to demonstrate the design capabilities of Maghami et al. (2023)'s extensible schema for capturing environmental model metadata and show its implementation in HydroShare.\n\nThis resource includes the raw input data and preprocessing codes to prepare them as MIs for the SWAT model, four MIs, one Model Program (MP), and postprocessing codes Ercan et al. (2020) used summarize the model results as figures and tables. The contents are organized into the following seven folders:\n\n1- InputDataAndPreprocessing\n2- MI_1_SensitivityAnalysis\n3- MI_2_CalibrationAndValidation\n4- MI_4_ClimateModels_Historical_AfterCalibration\n5- MI_5_ClimateModels_Future_AfterCalibration\n6- MP\n7- Postprocessing\n\nA detailed explanation of the MIs and the MP is available in Maghami et al. (2023). It is important to note that our model metadata design treats the entire raw input data, custom preprocessing, and postprocessing tools (e.g., codes to process raw input data), along with the processed input data, as a single MI. However, since most of the raw input data, preprocessing, and postprocessing tools are common among the four MIs, to avoid repetition, we have organized them into dedicated folders. Each MI now specifically includes only the processed input data for the SWAT model.",
+  "subject": [
+    "modeling",
+    "SWAT",
+    "Climate change",
+    "Watershed modeling"
+  ],
+  "created": "2021-10-19T23:27:50",
+  "modified": "2023-12-05T17:17:20",
+  "short_id": "1710a6b553da4f70877c2abc69f3a42b",
+  "geo": {
+    "short_id": "1710a6b553da4f70877c2abc69f3a42b",
+    "title": "Estimating Potential Climate Change Effects on the Upper Neuse Watershed Water Balance Using the SWAT Model",
+    "coverage_type": "box",
+    "north": 36.095,
+    "east": -78.97,
+    "northlimit": 36.23,
+    "southlimit": 35.96,
+    "eastlimit": -78.73,
+    "westlimit": -79.21
+  },
+  "version": [],
+  "programming_languages": [],
+  "operating_systems": [],
+  "code_repository": [],
+  "rights": []
+}

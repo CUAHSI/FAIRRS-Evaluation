@@ -1,0 +1,38 @@
+{
+  "title": "Watershed Model in Powersim",
+  "link": "/resource/c7fb9823f1df4f0ab61911bff2f9d3f5/",
+  "availability": [
+    "public"
+  ],
+  "availabilityurl": "https://storage.googleapis.com/hydroshare-prod-static-media/static/img/public.png",
+  "type": "Resource",
+  "author": "Gunda, Thushara",
+  "authors": [
+    "Gunda, Thushara"
+  ],
+  "contributor": [
+    "Tidwell, Vincent"
+  ],
+  "author_link": "/user/1942/",
+  "owner": "Gunda, Thushara",
+  "abstract": "This model simulates runoff for an upland subwatershed in northern New Mexico using a system dynamics platform. This model was developed and applied as part of a research study to explore community responses to simulated streamflow under different climate change conditions in the Rio Hondo; this research was published in Water Resources Research: http://onlinelibrary.wiley.com/doi/10.1002/2017WR021223/full. \n\nThe structure for the upland hydrology model was strongly guided by input parsimony while capturing the primary processes of precipitation partitioning, evapotranspiration, baseflow, and saturation excess runoff that influence streamflow at the outlet. The water available in the stream is simulated using a lumped approach that characterizes the upland subwatershed into individual hydrologic response units (HRUs); the HRU method provides sufficient discretization of watershed properties while maximizing computational efficiency. Monthly precipitation and temperature data derived from the Bureau of Reclamation’s datasets, which have a resolution of 1/8th degree, for the upland subwatershed of the Rio Hondo were used as inputs into the model. Note: In addition to simulating streamflow under climate change conditions (i.e., increased temperatures and variable precipitation), the model also has an exploratory module for simulating impacts of wildfires on streamflows. ",
+  "subject": [
+    "streamflow",
+    "watershed modeling",
+    "system dynamics"
+  ],
+  "created": "2017-10-24T21:56:58",
+  "modified": "2018-03-15T03:22:58",
+  "short_id": "c7fb9823f1df4f0ab61911bff2f9d3f5",
+  "geo": {
+    "short_id": "c7fb9823f1df4f0ab61911bff2f9d3f5",
+    "title": "Watershed Model in Powersim",
+    "coverage_type": "box",
+    "north": 36.59775,
+    "east": -105.4647,
+    "northlimit": 36.6439,
+    "southlimit": 36.5516,
+    "eastlimit": -105.3818,
+    "westlimit": -105.5476
+  }
+}

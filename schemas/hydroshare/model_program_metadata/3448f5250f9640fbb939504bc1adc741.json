@@ -1,0 +1,25 @@
+{
+  "title": "TopoFlow",
+  "link": "/resource/3448f5250f9640fbb939504bc1adc741/",
+  "availability": [
+    "public"
+  ],
+  "availabilityurl": "https://storage.googleapis.com/hydroshare-prod-static-media/static/img/public.png",
+  "type": "Resource",
+  "author": "Matell, Nora",
+  "authors": [
+    "Matell, Nora",
+    "Overeem, Irina"
+  ],
+  "contributor": null,
+  "author_link": "None",
+  "owner": "Morgan, Edward",
+  "abstract": "TopoFlow is a powerful, spatially-distributed hydrologic model with a user-friendly point-and-click interface. Its main purpose is to model many different physical processes in a watershed with the goal of accurately predicting how various hydrologic variables will evolve in time in response to climatic forcings.\nModeled processes include:\nChannelized flow (kinematic, diffusive or dynamic wave, all 1D and D8-based)\nOverland flow\nSnowmelt (degree-day or energy balance)\nIcemelt (from valley glaciers using GC2D)\nMeteorology (including precipitation, air temperature, shortwave and longwave radiation, etc.)\nEvaporation (Priestley-Taylor or energy balance)\nInfiltration (Green-Ampt, Smith-Parlange or Richards' 1D, multi-layer), *Shallow subsurface flow (Darcy, up to 6 layers)\nFlow diversions (sinks, sources or canals)\n\nEach process can have its own timestep. Typical timesteps are:\nChannel flow (seconds)\nInfiltration (seconds to minutes)\nSnowmelt (hours to days)\nSubsurface flow (hours to days), etc.\nModel can be run for a full year or longer, if necessary.\n\nOverland flow is currently modeled in a nonstandard way. Diffusive wave and dynamic wave routing routines need more testing. The linkage between the unsaturated zone (infiltration component) and saturated zone (subsurface flow component and water table) is not robust.\n\nAvailable test datat sets:\nTreynor watershed, in the Nishnabotna River basin, Iowa, USA. (Two large rainfall events.)\nSmall basin in Kentucky.\nInclined plane for testing.\nArctic watershed data from Larry Hinzman (UAF).\nSee /data/progs/topoflow/3.0/data on CSDMS cluster.",
+  "subject": [
+    "basins,"
+  ],
+  "created": "2017-01-19T04:33:06",
+  "modified": "2017-05-14T03:36:05",
+  "short_id": "3448f5250f9640fbb939504bc1adc741",
+  "geo": ""
+}

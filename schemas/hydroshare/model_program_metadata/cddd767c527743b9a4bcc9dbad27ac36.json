@@ -1,0 +1,22 @@
+{
+  "title": "DR3M",
+  "link": "/resource/cddd767c527743b9a4bcc9dbad27ac36/",
+  "availability": [
+    "public"
+  ],
+  "availabilityurl": "https://storage.googleapis.com/hydroshare-prod-static-media/static/img/public.png",
+  "type": "Resource",
+  "author": "US Geological Survey",
+  "authors": null,
+  "contributor": null,
+  "author_link": "None",
+  "owner": "Morgan, Edward",
+  "abstract": "DR3M is a watershed model for routing storm runoff through a Branched system of pipes and (or) natural channels using rainfall as input. DR3M provides detailed simulation of storm-runoff periods selected by the user. There is daily soil-moisture accounting between storms. A drainage basin is represented as a set of overland-flow, channel, and reservoir segments, which jointly describe the drainage features of the basin. This model is usually used to simulate small urban basins. Interflow and base flow are not simulated. Snow accumulation and snowmelt are not simulated.\n\nInput Parameters:\naily precipitation, daily evapotranspiration, and short-interval precipitation are required. Short-interval discharge is required for the optimization option and to calibrate the model. These time series are read from a WDM file. Roughness and hydraulics parameters and sub-catchment areas are required to define the basin. Six parameters are required to calculate infiltration and soil-moisture accounting. Up to three rainfall stations may be used. Two soil types may be defined. A total of 99 flow planes, channels, pipes, reservoirs, and junctions may be used to define the basin.\n\nOutput Parameters:\nThe computed outflow from any flow plane, pipe, or channel segment for each storm period may be written to the output file or to the WDM file. A summary of the measured and simulated rainfall, runoff, and peak flows is written to the output file. A flat file containing the storm rainfall, measured flow (if available), and simulated flow at user selected sites can be generated. A flat file for each storm containing the total rainfall, the measured peak flow (if available), and the simulated peak flow for user-selected sites can be generated.\n\nProcess:\nThe rainfall-excess components include soil-moisture accounting, pervious-area rainfall excess, impervious-area rainfall excess, and parameter optimization. The Green-Ampt equation is used in the calculations of infiltration and pervious area rainfall excess. A Rosenbrock optimization procedure may be used to aid in calibrating several of the infiltration and soil-moisture accounting parameters. Kinematic wave theory is used for both overland-flow and channel routing. There are three solution techniques available: method of characteristics, implicit finite difference method, and explicit finite difference method. Two soil types may be defined. Overland flow may be defined as turbulent or laminar. Detention reservoirs may be simulated as linear storage or using a modified-Puls method. Channel segments may be defined as gutter, pipe, triangular cross section, or by explicitly specifying the kinematic channel parameters alpha and m.\n",
+  "subject": [
+    "basins,"
+  ],
+  "created": "2017-01-19T04:31:42",
+  "modified": "2017-05-14T03:35:51",
+  "short_id": "cddd767c527743b9a4bcc9dbad27ac36",
+  "geo": ""
+}

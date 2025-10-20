@@ -1,0 +1,36 @@
+{
+  "title": "SnowModel Soil Moisture Submodel (SoilBal)",
+  "link": "/resource/8e12debf926c4299acc782f9407512f5/",
+  "availability": [
+    "published"
+  ],
+  "availabilityurl": "https://storage.googleapis.com/hydroshare-prod-static-media/static/img/published.png",
+  "type": "Resource",
+  "author": "Beamer, Jordan P",
+  "authors": [
+    "Beamer, Jordan P"
+  ],
+  "contributor": null,
+  "author_link": "/user/6049/",
+  "owner": "Beamer, Jordan",
+  "abstract": "The SoilBal model computes a soil water balance using SnowModel daily outputs of Runoff (Rain+Melt), SWE Depth, and Potential ET (Priestly-Taylor). In order to account for changes in soil moisture and ET, a gridded soil product with tracks the soil moisture status. Previous applications of SnowModel excluded calculation of ET because the simulations occurred during the winter season or in areas largely dominated by glaciers and ice sheets (Greenland) where ET fluxes are small. \n\nThe significance of the ET flux in the Gulf of Alaska (GOA) basin motivated the following additions to the SnowModel model structure. First, we calculated potential evapotranspiration (PET) using the Priestley‐Taylor equation [Priestley and Taylor, 1972], which uses modeled daily air temperature and top‐of‐canopy net radiation (Rn). We used a Priestley‐Taylor coefficient (α) of 1.26, which is consistent with previous regional‐scale applications [Federer et al., 1996; Shuttleworth, 2007].The Rn calculation takes into account variations in surface albedo from different vegetation types. In the case where PET is negative (typically during winter when Rn is negative), PET was set to zero. Second, routines were added to solve a soil water balance [Hoogeveen et al., 2015] using SnowModel grid‐cell runoff and PET as hydrologic input, and gridded soil water storage at field capacity and wilting point. The root zone water storage was calculated as the water content of the soil at a given condition (e.g., field capacity, wilting point) multiplied by the rooting zone depth, and was used to determine the soil moisture conditions in the soil water balance. The vertical soil water balance follows closely that used in GlobWat – a global water balance model to assess water use in irrigated agriculture (Hoogeven et al., 2015). Actual ET is computed largely based on a ET–PET relationship for moisture limited conditions scaled using relative soil moisture (Dingman, 2002 and Spittlehouse and Black, 1981). The baseflow runoff is modeled as linear reservoir drainage out of the soil moisture store  (Liston et al., 1994). The spatial distribution of soil texture data were obtained from the gridded Harmonized World Soil Data set (HWSD; Version 1.2) [Fischer et al., 2008], available at 1 km resolution (globally)\nhttp://www.fao.org/soils-portal/soil-survey/soil-maps-and-databases/harmonized-world-soil-database-v12/en/\nFor the different soils in the GOA, USDA soil texture classifications were used to estimate soil water content at field capacity (−0.03 MPa) and available water content using the tables in Saxton et al., (1986). These two processes together make up the submodel SoilBal. SoilBal produced daily grids of actual evapotranspiration (ET), surface, and base flow runoff. The resulting surplus runoff and base flow output were then used to drive the runoff simulations.",
+  "subject": [
+    "Soil_water_balance",
+    "Hydrologic_modeling",
+    "SnowModel"
+  ],
+  "created": "2020-02-28T04:59:23",
+  "modified": "2020-03-05T05:39:59",
+  "short_id": "8e12debf926c4299acc782f9407512f5",
+  "geo": {
+    "short_id": "8e12debf926c4299acc782f9407512f5",
+    "title": "SnowModel Soil Moisture Submodel (SoilBal)",
+    "coverage_type": "box",
+    "north": 59.22735,
+    "east": -143.6557,
+    "northlimit": 64.1114,
+    "southlimit": 54.3433,
+    "eastlimit": -128.3627,
+    "westlimit": -158.9487
+  }
+}

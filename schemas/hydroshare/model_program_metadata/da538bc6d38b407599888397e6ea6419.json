@@ -1,0 +1,30 @@
+{
+  "title": "MODFLOW_USG Model",
+  "link": "/resource/da538bc6d38b407599888397e6ea6419/",
+  "availability": [
+    "public"
+  ],
+  "availabilityurl": "https://storage.googleapis.com/hydroshare-prod-static-media/static/img/public.png",
+  "type": "Resource",
+  "author": "Panday, Sorab",
+  "authors": [
+    "Panday, Sorab",
+    "Ibaraki, Motomu",
+    "Langevin, Christian D.",
+    "Niswonger, Richard G.",
+    "Hughes, Joseph D."
+  ],
+  "contributor": null,
+  "author_link": "/user/545/",
+  "owner": "Choi, Young-Don",
+  "abstract": "A version of MODFLOW, called MODFLOW-USG (for UnStructured Grid), was developed to support a wide variety of structured and unstructured grid types, including nested grids and grids based on prismatic triangles, rectangles, hexagons, and other cell shapes. Flexibility in grid design can be used to focus resolution along rivers and around wells, for example, or to subdiscretize individual layers to better represent hydrostratigraphic units.\n\nMODFLOW-USG is based on an underlying control volume finite difference (CVFD) formulation in which a cell can be connected to an arbitrary number of adjacent cells. To improve accuracy of the CVFD formulation for irregular grid-cell geometries or nested grids, a generalized Ghost Node Correction (GNC) Package was developed, which uses interpolated heads in the flow calculation between adjacent connected cells.\n\nMODFLOW-USG includes a Groundwater Flow (GWF) Process, based on the GWF Process in MODFLOW-2005, as well as a new Connected Linear Network (CLN) Process to simulate the effects of multi-node wells, karst conduits, and tile drains, for example. The CLN Process is tightly coupled with the GWF Process in that the equations from both processes are formulated into one matrix equation and solved simultaneously. This robustness results from using an unstructured grid with unstructured matrix storage and solution schemes.\n\nMODFLOW-USG also contains an optional Newton-Raphson formulation, based on the formulation in MODFLOW-NWT, for improving solution convergence and avoiding problems with the drying and rewetting of cells. Because the existing MODFLOW solvers were developed for structured and symmetric matrices, they were replaced with a new Sparse Matrix Solver (SMS) Package developed specifically for MODFLOW-USG. The SMS Package provides several methods for resolving nonlinearities and multiple symmetric and asymmetric linear solution schemes to solve the matrix arising from the flow equations and the Newton-Raphson formulation, respectively.",
+  "subject": [
+    "control volume finite difference formulation",
+    "MODFLOW",
+    "MODFLOW-USG"
+  ],
+  "created": "2017-08-28T20:08:56",
+  "modified": "2017-08-29T17:59:24",
+  "short_id": "da538bc6d38b407599888397e6ea6419",
+  "geo": ""
+}

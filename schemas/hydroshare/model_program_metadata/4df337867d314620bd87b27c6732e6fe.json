@@ -1,0 +1,33 @@
+{
+  "title": "VFLUX: Vertical Fluid Heat Transfer Solver (VFlu[H]X Solver)",
+  "link": "/resource/4df337867d314620bd87b27c6732e6fe/",
+  "availability": [
+    "published"
+  ],
+  "availabilityurl": "https://storage.googleapis.com/hydroshare-prod-static-media/static/img/published.png",
+  "type": "Resource",
+  "author": "Lautz, Laura",
+  "authors": [
+    "Lautz, Laura",
+    "Gordon, Ryan P.",
+    "Irvine, Dylan J.",
+    "Briggs, Martin A.",
+    "McKenzie, Jeffrey M."
+  ],
+  "contributor": null,
+  "author_link": "/user/2565/",
+  "owner": "Lautz, Laura",
+  "abstract": "VFLUX is a program that calculates one-dimensional vertical fluid flow (seepage flux) through saturated porous media, using heat transport equations. It uses temperature time series data measured by multiple temperature sensors in a vertical profile in order to calculate flux at specific times and depths. VFLUX is written as a MATLAB toolbox, a set of functions that run in the MATLAB environment.\n\nPlease cite as: (Gordon et al., 2012; Irvine et al., 2015)\n- Irvine, DJ, LK Lautz, MA Briggs, RP Gordon, JM McKenzie. 2015. Experimental evaluation of the applicability of phase, amplitude, and combined methods to determine water flux and thermal diffusivity from temperature time series using VFLUX 2. Journal of Hydrology, 531(3):728-737. doi:10.1016/j.jhydrol.2015.10.054.\n- Gordon, RP, LK Lautz, MA Briggs, JM McKenzie. 2012. Automated calculation of vertical pore-water flux from field temperature time series using the VFLUX method and computer program. Journal of Hydrology, 420-421:142-158. doi: 10.1016/j.jhydrol.2011.11.053.\n- (Two minor typographical errors were recently discovered in the publication Gordon et al. (2012). The definition for H in Equation 12 (p. 147) should be corrected to read “H = Cw/λo”. Also, Equation 9 (p. 147) should read “κe = (λo/C) + β|v|”, where v is the thermal front velocity. Please note that the code of the VFLUX program has always contained the correct forms of these two equations. Thanks go to Chengpeng Lu of Hohai University and Dylan Irvine of Monash University for bringing these typographical errors to our attention.)\n\nVFLUX 1.2.5: The original VFLUX code, with amplitude- and phase-based solutions to determine flux from temperature time series data, as well as signal processing methods, data visualization, sensitivity analysis, and Monte Carlo error analysis modules.\n\nVFLUX 2.0.0: Includes all functionality of the original VFLUX, with the addition of solutions for the “combined” amplitude ratio and phase lag methods (Luce et al., 2013; McCallum et al., 2012). More information can be found in Irvine et al. (2015).\n\nVFLUX requires the Captain Toolbox and the ‘resample’ function from the MATLAB Signal Processing Toolbox. The Captain Toolbox is available for free at http://www.lancs.ac.uk/staff/taylorcj/tdc/download.php. The Signal Processing toolbox is available from MathWorks at http://www.mathworks.com/products/signal/. If the Signal Processing Toolbox is not available to you, then an alternate function may be substituted (for more information, contact the authors).\n\nVFLUX Add-ons\n(1) vflux_qar_opt is an add on program for VFLUX2 (v 2.0.0 and greater). vflux_qar_opt has two main applications: 1) to fine tune flux estimates using the benefits of two analytical solutions, and 2) to provide a workflow to assess potential streambed scour. vflux_qar_opt can be run after the main vflux functions, where the user can optimize flux estimates by refining the thermal diffusivity (κe) value that best reproduces the known sensor spacing (Δz). More information can be found in the vflux_qar_opt documentation, which is included with the m-file in the download, and associated manuscript (Irvine et al. 2017).\nIrvine, DJ, MA Briggs, I Cartwright, CR Scruggs, LK Lautz. 2017. Improved vertical streambed flux estimation using multiple diurnal temperature methods in series. Groundwater, 55(1): 73-80. doi: 10.1111/gwat.12436",
+  "subject": [
+    "temperature",
+    "flux",
+    "Matlab",
+    "iButton",
+    "heat tracing",
+    "heat transport"
+  ],
+  "created": "2020-06-03T13:50:37",
+  "modified": "2020-06-03T15:36:05",
+  "short_id": "4df337867d314620bd87b27c6732e6fe",
+  "geo": ""
+}

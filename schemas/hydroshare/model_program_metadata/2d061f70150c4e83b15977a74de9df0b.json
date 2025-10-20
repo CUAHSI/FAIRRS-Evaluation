@@ -1,0 +1,39 @@
+{
+  "title": "Blended Near Optimal Tools",
+  "link": "/resource/2d061f70150c4e83b15977a74de9df0b/",
+  "availability": [
+    "published"
+  ],
+  "availabilityurl": "https://storage.googleapis.com/hydroshare-prod-static-media/static/img/published.png",
+  "type": "Resource",
+  "author": "Rosenberg, David",
+  "authors": [
+    "Rosenberg, David"
+  ],
+  "contributor": null,
+  "author_link": "/user/1157/",
+  "owner": "Rosenberg, David",
+  "abstract": "Links to the repository (https://github.com/dzeke/Blended-Near-Optimal-Tools) that stores the Matlab 2013a source code and (1) Documentation for blended near-optimal tools that (2) generate alternatives, (3) visualize alternatives, and allow a user to interactively explore the near-optimal region from which alternatives are generated. Also contains the data and model files for a (4) linear programming example application to manage water quality for Echo Reservoir, Utah, (5) mixed-integer programming example application to manage water supply and demands in Amman, Jordan, and (6) multi-objective linear programming reservoir operations problem.\n\nNear-optimal alternatives perform within a (near-optimal) tolerable deviation of the optimal objective function value and are of interest to managers and decision makers because they can address un-modelled objectives, preferences, limits, uncertainties, or issues that are not considered by the original optimization model or it's optimal solution. Mathematically, the region of near-optimal alternatives is defined by the constraints for the original optimization model as well as a constraint that limits alternatives to those with objective function values that are within a tolerable deviation of the optimal objective function value. The code and tools within this repository allow users to generate and visualize the structure and full extent of the near-optimal region to an optimization problem. The tools also allow users to interactively explore region features of most interest, streamline the process to elicit un-modelled issues, and update the model formulation with new information. The tools and their use are described here for generating, visualizing, and interactively exploring near-optimal alternatives to optimization problems, but the tools are general and can be used to generate and visualize points within any high-dimensional, closed, bounded region that can be defined by a system of constraints. The parallel coordinate visualization and several interaction tools can also be used for any high-dimensional data set. ",
+  "subject": [
+    "linear program",
+    "Echo Reservoir",
+    "Utah",
+    "Phosophorus removal",
+    "Near-optimal",
+    "Jordan",
+    "Amman",
+    "Parallel coordinate visualization",
+    "mixed-integer program",
+    "multi-objective program"
+  ],
+  "created": "2017-02-20T05:53:40",
+  "modified": "2017-05-16T18:35:39",
+  "short_id": "2d061f70150c4e83b15977a74de9df0b",
+  "geo": {
+    "short_id": "2d061f70150c4e83b15977a74de9df0b",
+    "title": "Blended Near Optimal Tools",
+    "coverage_type": "point",
+    "north": 40.9626,
+    "east": -111.433
+  }
+}

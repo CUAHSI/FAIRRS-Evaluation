@@ -1,0 +1,24 @@
+{
+  "title": "Pllcart3d",
+  "link": "/resource/fe68b38271da4f86b9204168f72d06bf/",
+  "availability": [
+    "public"
+  ],
+  "availabilityurl": "https://storage.googleapis.com/hydroshare-prod-static-media/static/img/public.png",
+  "type": "Resource",
+  "author": "Oliviera, Rafael",
+  "authors": [
+    "Oliviera, Rafael"
+  ],
+  "contributor": null,
+  "author_link": "None",
+  "owner": "Morgan, Edward",
+  "abstract": "Nonlinear three dimensional simulations of miscible Hele-Shaw flows using DNS of incompressible Navier-Stokes and transport equations.\nThe code models the evolution of a diffusive interface and the instabilities that arises when a less viscous fluid pushes a more viscous one in a confined rectangular geometry. Incompressible Navier-Stokes equations coupled to a convective-diffusive equation to describe the concentration field of the particles. In its current state, the code is restricted to low Reynolds number and Peclet number of order 1000.\n\n\nInput Parameters:\nGeometrical parameters: Nx, Ny, Nz, X1, X2, Y1, Y2, Z1, Z2 (ASCII);\nFlow parameters: Reynolds, Peclet, Viscosity Ratio; Flags: resume simulation, add wave perturbation.\n\nOutput Parameters (Binary):\nVelocities and concentration fields of the particles are stored to binary files at given time steps.",
+  "subject": [
+    "micible Hele-Shaw flow,"
+  ],
+  "created": "2017-01-19T04:32:38",
+  "modified": "2017-05-14T18:51:46",
+  "short_id": "fe68b38271da4f86b9204168f72d06bf",
+  "geo": ""
+}

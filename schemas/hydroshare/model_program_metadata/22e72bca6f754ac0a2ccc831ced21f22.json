@@ -1,0 +1,43 @@
+{
+  "title": "SWAT Baseline Model for Soldier Creek, KS, USA",
+  "link": "/resource/22e72bca6f754ac0a2ccc831ced21f22/",
+  "availability": [
+    "discoverable"
+  ],
+  "availabilityurl": "https://storage.googleapis.com/hydroshare-prod-static-media/static/img/discoverable.png",
+  "type": "Resource",
+  "author": "Detenbeck, Naomi",
+  "authors": [
+    "Detenbeck, Naomi",
+    "Le, Alyssa"
+  ],
+  "contributor": null,
+  "author_link": "/user/10181/",
+  "owner": "Detenbeck, Naomi",
+  "abstract": "Authors:\nNaomi DetenbeckAlyssa Le\nOwners:\tNaomi Detenbeck\nType:\tResource\nStorage:\tThe size of this resource is 53.7 MB\nCreated:\tMay 27, 2025 at 1:35 p.m.\nLast updated:\tMay 27, 2025 at 3:38 p.m.\nCitation:\tSee how to cite this resource\nContent types:\tSingle File Content  Geographic Feature Content \nSharing Status:\nPrivate\nViews:\t2\nDownloads:\t0\n+1 Votes:\tBe the first one to    this.\nComments:\tNo comments (yet)\nAbstract\nWe created a baseline SWAT model for 1995-2015 (including a 2-year warm-up period) at the HUC12-scale using the HAWQS v1 system. We used default data included with the HAWQS v1 system, including land-cover derived from NLCD 2006 and the Cropland Data Layer (2011-2012) and weather inputs from the HAWQS PRISM database. We updated the SWAT model to include point source inputs from wastewater effluent that were derived from (a) the EPA ECHO database (https://echo.epa.gov/trends/loading-tool/get-data/watershed-statistics) for TSS and (b) the Hypoxia Task Force database for TP (https://echo.epa.gov/trends/loading-tool/hypoxia-task-force-nutrient-model) We assumed 57% of TP effluent from wastewater is soluble reactive P, 2.8% is organic P and 40% is particulate mineral P (total of 97% mineral P and 3% organic P). For the Potawatomie treatment plant, modeled discharge values were used in place of measured values because violations had been reported due to inadequate flow calibrations at the facility. We also added initial groundwater concentrations of 0.1 mg N/L for NO3-N and 0.0433 mg P/L for soluble P to replace default SWAT values of zero.\nThe baseline SWAT model from HAWQS was modified to represent existing agricultural management activities. Information on existing agricultural conservation practices in the USC (cover crops, residue and tillage management, contouring, terraces, filter strips, controlled stream access for cattle, managed grazing), as of 2015 were compiled from KDHE (Andrew S. Lyon, KDHE, pers. comm.). To model the effects of cattle grazing and associated BMPs, we used methodology described in Sheshukov et al. (2016)]; See Supplemental Material 2)). Following guidance in Waidler et al. (2009), cover crops were implemented using the land use update (lup) table in SWAT and modifying HRU fraction (HRU_FRC) to simultaneously convert area from converted crop land (CORN or SOY or CORNSOY combinations) to SOYWW (soy/winter wheat) or WWSY (winter wheat/soy) sequences. The baseline SWAT model for USC, including existing BMPs (Contouring (736 acres treated), Grassed waterways (2965 acres), No till (966 acres), Terracing (966 acres), Vegetative filter strips (848 acres), Created agricultural wetlands (36 acres treated) and cattle grazing, was calibrated using the SUFI-2 (Sequential Uncertainty Fitting version 2 using SWAT-CUP.] This model set-up includes the swat670-WMOST version which formats output for use in US EPA's Watershed Management Optimization Support Tool.",
+  "subject": [
+    "nitrogen",
+    "phosphorus",
+    "hydrologic_modeling",
+    "sediment"
+  ],
+  "created": "2025-05-27T15:39:51",
+  "modified": "2025-05-27T16:39:20",
+  "short_id": "22e72bca6f754ac0a2ccc831ced21f22",
+  "geo": {
+    "short_id": "22e72bca6f754ac0a2ccc831ced21f22",
+    "title": "SWAT Baseline Model for Soldier Creek, KS, USA",
+    "coverage_type": "box",
+    "north": 39.4502,
+    "east": -95.92005,
+    "northlimit": 39.6578,
+    "southlimit": 39.2426,
+    "eastlimit": -95.8141,
+    "westlimit": -96.026
+  },
+  "version": [],
+  "programming_languages": [],
+  "operating_systems": [],
+  "code_repository": [],
+  "rights": []
+}
