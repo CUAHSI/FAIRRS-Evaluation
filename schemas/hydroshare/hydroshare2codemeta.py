@@ -1,50 +1,47 @@
-#!/usr/bin/env python3
+"""
+Convert HydroShare Model Program metadata (JSON) to CodeMeta v3.
 
+This CLI mirrors the structure of the provided `csdms2codemeta.py` tool and
+expects input files that look like the HydroShare model program JSON shown in
+your extract (one JSON per research software object).
+
+Usage
+-----
+# Single file
+python hydroshare2codemeta.py -f path/to/model-program.json -o out_dir
+
+# Directory of files (\*.json)
+python hydroshare2codemeta.py -d path/to/dir -o out_dir
+
+Notes
+-----
+- We map HydroShare fields to CodeMeta where there is a clear correspondence.
+- Unknown or missing values are omitted rather than filled with placeholders.
+- "downloadUrl" is taken from HydroShare `file_types` entries that represent
+  software or engines. We ignore documentation entries for this field.
+- "license" is taken from `rights.url` when present, otherwise we fall back to
+  embedding the `rights.statement` as a CreativeWork name.
 """
-This utility converts HydroShare model instance metadata to CodeMeta format.
-"""
+
+from __future__ import annotations
 
 import json
 import logging
+from datetime import date, datetime
 from glob import glob
 from pathlib import Path
-from datetime import date, datetime
-from typing import Union, List, Optional
+from typing import Any, Iterable, List, Optional
 
 import typer
-from pydantic.v1 import HttpUrl, AnyUrl # Import AnyUrl to handle its serialization
+from pydantic.v1 import HttpUrl
 from pydantic2_schemaorg.Person import Person
 from pydantic2_schemaorg.Organization import Organization
-from pydantic2_schemaorg.PropertyValue import PropertyValue
-from pydantic2_schemaorg.Review import Review
-
-# Assuming codemeticulous.codemeta.models is available and contains CodeMetaV3
-# and VersionedLanguage as per your models.py file.
-# If not, you'll need to adjust the import path or include the models directly.
-try:
-    from codemeticulous.codemeta.models import CodeMetaV3, VersionedLanguage
-except ImportError:
-    # Fallback for local testing if codemeticulous is not installed
-    # This requires models.py to be in the same directory or accessible via PYTHONPATH
-    import sys
-    sys.path.append(str(Path(__file__).parent))
-    from models import CodeMetaV3, VersionedLanguage
+from pydantic2_schemaorg.CreativeWork import CreativeWork
+from codemeticulous.codemeta.models import CodeMetaV3, VersionedLanguage
 
 
-app = typer.Typer()
+app = typer.Typer(help="Convert HydroShare Model Program JSON to CodeMeta v3")
 
-# Define the base URL for HydroShare resources
-HYDROSHARE_BASE_URL = "https://www.hydroshare.org"
-
-def as_list(obj: Union[str, List[str]]) -> List[str]:
-    """
-    Utility function to convert a string or list of strings to a list of strings.
-    """
-    if isinstance(obj, list):
-        return obj
-    if obj is None:
-        return []
-    return [obj]
 
 @app.command()
 def encode(
@@ -56,7 +53,7 @@ def encode(
         file_okay=True,
         dir_okay=False,
         readable=True,
-        help="path to a single input file containing mediawiki variables in JSON format",
+        help="path to a single HydroShare JSON file",
     ),
     directory: Path | None = typer.Option(
         None,
@@ -66,219 +63,257 @@ def encode(
         file_okay=False,
         dir_okay=True,
         readable=True,
-        help="path to a directory containing input files containing mediawiki variables in JSON format",
+        help="path to a directory containing HydroShare JSON files",
     ),
     output_directory: Path = typer.Option(
-        None,
+        ...,  # required
         "--output_directory",
         "-o",
         exists=True,
         file_okay=False,
         dir_okay=True,
         writable=True,
-        help="path to a directory to write the output file(s)",
+        help="directory to write CodeMeta JSON output",
     ),
-    verbose: bool = typer.Option(False, "--verbose", "-v", help="print verbose output"),
+    verbose: bool = typer.Option(False, "--verbose", "-v", help="verbose logging"),
 ) -> None:
+    """Main entry point for converting one file or a directory of files."""
 
-    # Check that exactly one of file or directory is provided
-    if (file is None and directory is None) or (
-        file is not None and directory is not None
-    ):
-        typer.echo(
-            "Error: You must provide exactly one of --file or --directory.", err=True
-        )
+    # Ensure exactly one of file or directory was provided
+    if (file is None and directory is None) or (file is not None and directory is not None):
+        typer.echo("Error: provide exactly one of --file or --directory", err=True)
         raise typer.Exit(code=1)
 
-    if verbose:
-        logging.basicConfig(level=logging.INFO, format="%(message)s")
-        logging.info("Verbose output enabled")
-    else:
-        logging.basicConfig(level=logging.ERROR, format="%(message)s")
+    logging.basicConfig(level=logging.INFO if verbose else logging.ERROR, format="%(message)s")
 
-    codemeta = {}
     if file:
-        logging.info(f"Processing file: {file}")
-        codemeta = build_codemeta(file)
-
-        if output_directory:
-            outfile = f"{output_directory}/{file.stem}.json"
-
-            # this is a hack to pretty print the json since not
-            # all pydantic options are implemetned in the codemeiculous
-            json_data = json.loads(codemeta.json())
-
-            with open(outfile, "w") as f:
-                json.dump(json_data, f, indent=4)
-
-        if verbose:
-            logging.info(f"{json.dumps(json.loads(codemeta.json()) , indent=4)}")
+        _process_one(file, output_directory, verbose)
     else:
-        files = glob(f"{directory}/*.json")
-        i = 1
-        for f in files:
-            logging.info(f"Processing file [{i} of {len(files)}]: {Path(f)}")
+        files = sorted(Path(directory).glob("*.json"))
+        total = len(files)
+        for i, f in enumerate(files, start=1):
+            logging.info(f"Processing file [{i} of {total}]: {f}")
+            _process_one(f, output_directory, verbose)
 
-            codemeta = build_codemeta(Path(f))
-            if output_directory:
-                outfile = f"{output_directory}/{Path(f).stem}.json"
 
-                # this is a hack to pretty print the json since not
-                # all pydantic options are implemetned in the codemeiculous
-                json_data = json.loads(codemeta.json())
+def _process_one(file: Path, output_directory: Path, verbose: bool) -> None:
+    cm = build_codemeta(file)
 
-                with open(outfile, "w") as f:
-                    json.dump(json_data, f, indent=4)
-            i += 1
+    # Pretty-print using json library (codemeticulous' .json() may not indent)
+    json_data = json.loads(cm.json())
+    out_path = output_directory / f"{file.stem}.json"
+    with out_path.open("w", encoding="utf-8") as fh:
+        json.dump(json_data, fh, indent=4, ensure_ascii=False)
 
-def build_codemeta(json_file: Path) -> Optional[CodeMetaV3]:
+    if verbose:
+        logging.info(json.dumps(json_data, indent=4, ensure_ascii=False))
+
+
+# -------------------------------
+# Core converter
+# -------------------------------
+
+def build_codemeta(json_file: Path) -> CodeMetaV3:
+    """Read one HydroShare JSON file and emit a CodeMetaV3 model.
+
+    Parameters
+    ----------
+    json_file : Path
+        Path to a HydroShare model program JSON file.
     """
-    Reads a HydroShare metadata file in JSON format and converts it to CodeMeta format.
+    with json_file.open("r", encoding="utf-8") as fh:
+        hs = json.load(fh)
 
-    Arguments:
-        json_file (Path): Path to the HydroShare metadata JSON file.
+    # -----------------
+    # Basic properties
+    # -----------------
+    name: Optional[str] = hs.get("title") or _basename_fallback(json_file)
 
-    Returns:
-        Optional[CodeMetaV3]: CodeMetaV3 object or None if conversion fails.
-    """
-    try:
-        with open(json_file, "r", encoding="utf-8") as f:
-            dat = json.loads(f.read())
-    except json.JSONDecodeError as e:
-        logging.error(f"Error decoding JSON from {json_file}: {e}")
-        return None
-    except FileNotFoundError:
-        logging.error(f"File not found: {json_file}")
-        return None
+    # Keywords
+    subjects = _as_list(hs.get("subjects")) or None
 
-    # Mapping HydroShare fields to CodeMetaV3 properties based on the crosswalk
-    # and the CodeMetaV3 class definition.
+    # Programming languages -> List[VersionedLanguage]
+    plangs_raw = _as_list(hs.get("programming_languages"))
+    programmingLanguage = [VersionedLanguage(name=p) for p in plangs_raw] if plangs_raw else None
 
-    # Basic fields
-    name = dat.get("title")
-    description = dat.get("abstract")
-    keywords = as_list(dat.get("subject", [])) if dat.get("subject") else None
-    if keywords == []: # Ensure empty list becomes None
-        keywords = None
+    # Operating systems
+    operatingSystem = _as_list(hs.get("operating_systems")) or None
 
-    # Dates - keep as datetime objects for now, json_serial will handle conversion to string
-    date_created_str = dat.get("created")
-    date_modified_str = dat.get("modified")
-    date_created = None
-    date_modified = None
+    # Version
+    softwareVersion = hs.get("version") or None
 
-    if date_created_str:
-        try:
-            # HydroShare dates are typically ISO format (e.g., "2018-07-11T15:42:26")
-            # We will keep them as datetime objects here, and json_serial will convert them
-            date_created = datetime.fromisoformat(date_created_str.replace('Z', '+00:00'))
-        except ValueError:
-            logging.warning(f"Could not parse dateCreated: {date_created_str}")
-    if date_modified_str:
-        try:
-            date_modified = datetime.fromisoformat(date_modified_str.replace('Z', '+00:00'))
-        except ValueError:
-            logging.warning(f"Could not parse dateModified: {date_modified_str}")
+    # Dates
+    datePublished = _parse_datetime(hs.get("published"))  # HydroShare timestamp -> date
 
-    # Authors and Contributors
-    authors = []
-    # HydroShare's 'author' field is the primary author
-    primary_author_name = dat.get("author")
-    if primary_author_name:
-        authors.append(Person(name=primary_author_name))
+    # Web presence
+    website = hs.get("website")
+    codeRepository = hs.get("code_repository")
 
-    # HydroShare's 'authors' field is a list of all contributing authors
-    # Assuming 'authors' is a list of strings (names)
-    contributing_authors = as_list(dat.get("authors", []))
-    for auth_name in contributing_authors:
-        if auth_name and auth_name != primary_author_name: # Avoid duplicating primary author if listed in 'authors'
-            authors.append(Person(name=auth_name))
+    # Choose url: prefer website; else HydroShare landing page; else aggregation URL
+    url = None
+    if website:
+        url = _as_http_url(website)
+    else:
+        rid = hs.get("resource_id")
+        agg_url = hs.get("url")
+        if rid:
+            url = _as_http_url(f"https://www.hydroshare.org/resource/{rid}")
+        elif agg_url:
+            url = _as_http_url(agg_url)
 
-    # HydroShare's 'contributor' field for additional contributors
-    additional_contributors = as_list(dat.get("contributor", []))
-    contributors = []
-    for contrib_name in additional_contributors:
-        if contrib_name:
-            contributors.append(Person(name=contrib_name))
-
-    # Links and Identifiers
-    # Construct the full URL for the 'link' field
-    code_repository_relative_url = dat.get("link")
-    code_repository_url = None
-    if code_repository_relative_url:
-        # Ensure it's not just an empty string after stripping
-        full_url = f"{HYDROSHARE_BASE_URL}{code_repository_relative_url}".strip()
-        if full_url: # Only assign if not empty
-            code_repository_url = full_url
-
-    identifier_short_id = dat.get("short_id")
-    author_link = dat.get("author_link")
-    availability_url = dat.get("availabilityurl")
-    # license_status is typically a list, e.g., ["public"]
-    hydroshare_availability = dat.get("availability")
-    
-    identifier = None 
-    if hydroshare_availability == ["published"]:
-        identifier = '10.4211/hs.' + identifier_short_id 
-
-    # Type/Category
-    application_category = as_list(dat.get("type", [])) if dat.get("type") else None
-    if application_category == []:
-        application_category = None
-
-    # Maintainer (owner)
-    maintainer_name = dat.get("owner")
-    maintainer = Person(name=maintainer_name) if maintainer_name else None
-
-    # review
-    # check if the model has been code reviewed or not 
-    review = None
-    if hydroshare_availability == ["published"]:
-        review = Review(reviewBody="Reviewed and accepted for publication in HydroShare.")
-
-    # License
+    # License -> from rights block
     license_obj = None
-    # # for now just comment this out
-    # # If HydroShare availability indicates "public", assume a common open license
-    # if hydroshare_availability and "public" in [s.lower() for s in as_list(hydroshare_availability)]:
-    #     # This is a common default for publicly available data/models that don't specify a license.
-    #     # You might need to confirm the actual default license for HydroShare public resources.
-    #     license_obj = "https://creativecommons.org/licenses/by/4.0/" # Creative Commons Attribution 4.0 International
+    rights = hs.get("rights") or {}
+    rights_url = rights.get("url")
+    rights_stmt = rights.get("statement")
+    if rights_url:
+        license_obj = _as_http_url(rights_url)
+    elif rights_stmt:
+        license_obj = CreativeWork(name=rights_stmt)
 
-    # Geo (geographic coverage) - CodeMetaV3 doesn't have a direct 'geo' property.
-    # This information would typically be part of a CreativeWork that the software relates to,
-    # or could be added as a custom PropertyValue if needed. For now, we'll skip direct mapping.
-    # geo_coverage = dat.get("geo")
+    # downloadUrl(s) from file_types entries that indicate software/engine/executable
+    downloadUrl = _extract_download_urls(hs.get("file_types")) or None
 
-    try:
-        codemeta_obj = CodeMetaV3(
-            name=name,
-            description=description,
-            author=authors if authors else None,
-            contributor=contributors if contributors else None,
-            keywords=keywords,
-            applicationCategory=application_category,
-            # Pass the string directly for Pydantic to validate as HttpUrl
-            codeRepository=HYDROSHARE_BASE_URL,
-            identifier=identifier,
-            dateCreated=date_created,
-            dateModified=date_modified,
-            license=license_obj, # Use the refined license_obj
-            maintainer=maintainer,
-            # Pass the string directly for Pydantic to validate as HttpUrl
-            url=code_repository_url,
-            review=review
-            # Add other fields as needed based on the CodeMetaV3 model and HydroShare metadata
-            # For example, if 'availabilityurl' is a status image, it might not directly map
-            # to a CodeMeta property, or could be a relatedLink.
-            # If 'availabilityurl' is a link to a status image, it doesn't directly fit CodeMetaV3.
-            # You might consider adding it to 'relatedLink' if it's a general link.
-            # relatedLink=as_list(availability_url) if availability_url else None,
-        )
-        return codemeta_obj
-    except Exception as e:
-        logging.error(f"Error creating CodeMetaV3 object for {json_file}: {e}")
+    # Authors
+    author = _authors_from_creators(hs.get("creators") or []) or None
+
+    # Identifier (resource_id)
+    identifier = hs.get("resource_id")
+
+    # applicationCategory: we use first subject if nothing else
+    applicationCategory = None
+    if subjects:
+        applicationCategory = subjects[0]
+
+    # Build CodeMeta object
+    meta = CodeMetaV3(
+        name=name,
+        author=author,
+        description=None,  # HydroShare Model Program JSON rarely includes a rich description field
+        keywords=subjects,
+        programmingLanguage=programmingLanguage,
+        operatingSystem=operatingSystem,
+        softwareVersion=softwareVersion,
+        codeRepository=_as_http_url(codeRepository) if codeRepository else None,
+        url=url,
+        datePublished=datePublished,
+        downloadUrl=downloadUrl,
+        applicationCategory=applicationCategory,
+        identifier=identifier,
+    )
+
+    # Skip validation for license via attribute assignment (pattern used in reference script)
+    meta.license = license_obj
+
+    return meta
+
+
+# -------------------------------
+# Helpers
+# -------------------------------
+
+def _as_list(value: Any) -> List[str]:
+    if value is None:
+        return []
+    if isinstance(value, list):
+        return [v for v in value if v is not None]
+    return [value]
+
+
+def _basename_fallback(path: Path) -> str:
+    return path.stem.replace("-model-program", "")
+
+
+def _parse_datetime(ts: Optional[str]) -> Optional[date]:
+    if not ts:
         return None
+    # HydroShare example: "2021-11-04 16:36:44.150474+00:00"
+    try:
+        # Try multiple formats robustly
+        for fmt in (
+            "%Y-%m-%d %H:%M:%S.%f%z",
+            "%Y-%m-%d %H:%M:%S%z",
+            "%Y-%m-%d %H:%M:%S.%f",
+            "%Y-%m-%d %H:%M:%S",
+            "%Y-%m-%d",
+        ):
+            try:
+                dt = datetime.strptime(ts, fmt)
+                return dt.date()
+            except ValueError:
+                continue
+    except Exception:
+        return None
+    return None
+
+
+def _as_http_url(url_str: str | None) -> Optional[HttpUrl]:
+    if not url_str:
+        return None
+    try:
+        scheme = url_str.split(":")[0]
+        return HttpUrl(scheme=scheme, url=url_str)
+    except Exception:
+        return None
+
+
+_SOFTWARE_LIKE_TYPES = {
+    "https://www.hydroshare.org/terms/modelSoftware",
+    "https://www.hydroshare.org/terms/modelEngine",
+    "https://www.hydroshare.org/terms/modelProgramSoftware",
+}
+
+
+def _extract_download_urls(file_types: Optional[Iterable[dict]]) -> Optional[list[HttpUrl]]:
+    if not file_types:
+        return None
+    urls: list[HttpUrl] = []
+    for ft in file_types:
+        t = (ft or {}).get("type")
+        u = (ft or {}).get("url")
+        if not u:
+            continue
+        if (t in _SOFTWARE_LIKE_TYPES) or (t and ("Software" in t or "Engine" in t)):
+            http_u = _as_http_url(u)
+            if http_u:
+                urls.append(http_u)
+    return urls or None
+
+
+def _authors_from_creators(creators: list[dict[str, Any]]) -> list[Person]:
+    people: list[Person] = []
+    for c in creators:
+        name = (c or {}).get("name")
+        # Try to parse given/family from a "Last, First" or "First Last" name if possible
+        given, family = _split_name(name)
+        email = (c or {}).get("email")
+        org = (c or {}).get("organization")
+        address_bits = []
+        if (c or {}).get("address"):
+            address_bits.append(c.get("address"))
+        # Build affiliation if we have organization
+        affiliation = None
+        if org:
+            affiliation = Organization(name=org, address=", ".join(address_bits) if address_bits else None)
+        person = Person(givenName=given, familyName=family, email=email, affiliation=affiliation)
+        people.append(person)
+    return people
+
+
+def _split_name(name: Optional[str]) -> tuple[Optional[str], Optional[str]]:
+    if not name:
+        return None, None
+    name = name.strip()
+    # Comma style: "Last, First M."
+    if "," in name:
+        last, first = [part.strip() for part in name.split(",", 1)]
+        return first or None, last or None
+    # Space style: take last token as family
+    parts = name.split()
+    if len(parts) == 1:
+        return None, parts[0]
+    return " ".join(parts[:-1]), parts[-1]
+
 
 if __name__ == "__main__":
     app()
