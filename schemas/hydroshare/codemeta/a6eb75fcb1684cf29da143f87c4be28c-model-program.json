@@ -2,29 +2,44 @@
     "@context": "https://w3id.org/codemeta/3.0",
     "@type": "SoftwareSourceCode",
     "name": "model-program",
-    "applicationCategory": [
-        "ModelProgram"
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "R"
+        }
     ],
-    "operatingSystem": "Windows",
+    "applicationCategory": "time-area method",
+    "operatingSystem": [
+        "Windows",
+        "and iOS",
+        "LINUX"
+    ],
     "softwareVersion": "1.0",
     "author": [
         {
             "@type": "Person",
-            "name": "Her, Young Gu"
+            "givenName": "Young Gu",
+            "familyName": "Her",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Florida;Agricultural and Biological Engineering / Tropical Research and Education Center, Institute of Food and Agricultural Sciences, University of Florida"
+            },
+            "email": "yher@ufl.edu"
         }
     ],
-    "dateCreated": "2021-04-19",
     "keywords": [
         "time-area method",
-        "hydrological modeling",
         "hydrology",
-        "isochrone",
-        "HYSTAR",
-        "parallel computing",
+        "two-dimensional routing",
         "travel time",
-        "overland flow",
         "flow routing",
-        "two-dimensional routing"
+        "hydrological modeling",
+        "HYSTAR",
+        "overland flow",
+        "parallel computing",
+        "isochrone"
     ],
-    "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+    "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "identifier": "a6eb75fcb1684cf29da143f87c4be28c",
+    "url": "https://www.hydroshare.org/resource/a6eb75fcb1684cf29da143f87c4be28c"
 }

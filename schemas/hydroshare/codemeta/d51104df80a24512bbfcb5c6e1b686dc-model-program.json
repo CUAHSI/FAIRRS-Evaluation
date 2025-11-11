@@ -2,47 +2,70 @@
     "@context": "https://w3id.org/codemeta/3.0",
     "@type": "SoftwareSourceCode",
     "name": "model-program",
-    "applicationCategory": [
-        "ModelProgram"
-    ],
+    "applicationCategory": "Labor",
     "author": [
         {
             "@type": "Person",
-            "name": "David Rosenberg"
+            "givenName": "David",
+            "familyName": "Rosenberg",
+            "email": "david.rosenberg@usu.edu"
         },
         {
             "@type": "Person",
-            "name": "Kelly Kopp"
+            "givenName": "Kelly",
+            "familyName": "Kopp",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Utah State University"
+            }
         },
         {
             "@type": "Person",
-            "name": "Heidi Kratsch"
+            "givenName": "Heidi",
+            "familyName": "Kratsch",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Nevada, Reno"
+            }
         },
         {
             "@type": "Person",
-            "name": "Larry Rupp"
+            "givenName": "Larry",
+            "familyName": "Rupp",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Utah State University"
+            }
         },
         {
             "@type": "Person",
-            "name": "Paul Johnson"
+            "givenName": "Paul",
+            "familyName": "Johnson",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Utah State University"
+            }
         },
         {
             "@type": "Person",
-            "name": "Roger Kjelgren"
+            "givenName": "Roger",
+            "familyName": "Kjelgren",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Utah State University"
+            }
         }
     ],
+    "datePublished": "2023-09-05",
     "keywords": [
         "Labor",
-        "Landscape",
-        "Energy Conservation",
         "Spreadsheet model",
+        "Landscape",
         "Water conservation",
-        "Utah"
+        "Utah",
+        "Energy Conservation"
     ],
     "license": "http://creativecommons.org/licenses/by/4.0/",
-    "identifier": "10.4211/hs.d51104df80a24512bbfcb5c6e1b686dc",
-    "review": {
-        "@type": "Review",
-        "reviewBody": "Reviewed and accepted for publication in HydroShare."
-    }
+    "identifier": "d51104df80a24512bbfcb5c6e1b686dc",
+    "url": "https://www.hydroshare.org/resource/d51104df80a24512bbfcb5c6e1b686dc"
 }

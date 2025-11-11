@@ -2,24 +2,36 @@
     "@context": "https://w3id.org/codemeta/3.0",
     "@type": "SoftwareSourceCode",
     "name": "model-program",
-    "applicationCategory": [
-        "ModelProgram"
-    ],
+    "applicationCategory": "WS18",
     "author": [
         {
             "@type": "Person",
-            "name": "Charles Scaife"
+            "givenName": "Charles",
+            "familyName": "Scaife",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Virginia"
+            },
+            "email": "scaife@virginia.edu"
         },
         {
             "@type": "Person",
-            "name": "Lawrence Band"
+            "givenName": "Lawrence",
+            "familyName": "Band",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "UNC Chapel Hill"
+            },
+            "email": "lband@email.unc.edu"
         }
     ],
     "keywords": [
-        "Coweeta Hydrologic Laboratory",
         "WS18",
-        "EVHY7640",
-        "RHESSys"
+        "Coweeta Hydrologic Laboratory",
+        "RHESSys",
+        "EVHY7640"
     ],
-    "license": "http://creativecommons.org/licenses/by/4.0/"
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "identifier": "e5e492c865504e968910610424768728",
+    "url": "https://www.hydroshare.org/resource/e5e492c865504e968910610424768728"
 }

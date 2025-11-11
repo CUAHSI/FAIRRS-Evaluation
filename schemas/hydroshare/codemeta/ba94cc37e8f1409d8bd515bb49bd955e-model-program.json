@@ -1,0 +1,41 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "model-program",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "FORTRAN"
+        }
+    ],
+    "applicationCategory": "MODFLOW 2005",
+    "downloadUrl": [
+        "http://www.hydroshare.org/resource/ba94cc37e8f1409d8bd515bb49bd955e/data/contents/model-program/mf2005.exe",
+        "http://www.hydroshare.org/resource/ba94cc37e8f1409d8bd515bb49bd955e/data/contents/model-program/mf2005dbl.exe",
+        "http://www.hydroshare.org/resource/ba94cc37e8f1409d8bd515bb49bd955e/data/contents/model-program/src.zip"
+    ],
+    "operatingSystem": [
+        "Executables pre-compiled for Windows"
+    ],
+    "softwareVersion": "1.11.0",
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Arlen W.",
+            "familyName": "Harbaugh",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "U.S. Geological Survey"
+            }
+        }
+    ],
+    "keywords": [
+        "MODFLOW 2005",
+        "Groundwater modeling",
+        "USGS",
+        "numerical simulation"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "identifier": "ba94cc37e8f1409d8bd515bb49bd955e",
+    "url": "http://water.usgs.gov/ogw/modflow/MODFLOW.html"
+}

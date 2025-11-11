@@ -2,19 +2,30 @@
     "@context": "https://w3id.org/codemeta/3.0",
     "@type": "SoftwareSourceCode",
     "name": "model-program",
-    "applicationCategory": [
-        "ModelProgram"
-    ],
+    "applicationCategory": "Hydrology",
     "author": [
         {
             "@type": "Person",
-            "name": "Farf\u00e1n-Dur\u00e1n, Juan F."
+            "givenName": "Juan F.",
+            "familyName": "Farfán-Durán",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Centre for Technological Innovations in Construction and Civil Engineering (CITEEC)"
+            },
+            "email": "j.farfan@udc.es"
         },
         {
             "@type": "Person",
-            "name": "Luis Cea"
+            "givenName": "Luis",
+            "familyName": "Cea",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Universidade da Coruña"
+            },
+            "email": "luis.cea@udc.es"
         }
     ],
+    "datePublished": "2022-08-12",
     "keywords": [
         "Hydrology",
         "Water resources management",
@@ -22,9 +33,6 @@
         "Hydrological model"
     ],
     "license": "http://creativecommons.org/licenses/by/4.0/",
-    "identifier": "10.4211/hs.d98161b9f3fb4d03a4358f6c8b5f2c04",
-    "review": {
-        "@type": "Review",
-        "reviewBody": "Reviewed and accepted for publication in HydroShare."
-    }
+    "identifier": "d98161b9f3fb4d03a4358f6c8b5f2c04",
+    "url": "https://www.hydroshare.org/resource/d98161b9f3fb4d03a4358f6c8b5f2c04"
 }

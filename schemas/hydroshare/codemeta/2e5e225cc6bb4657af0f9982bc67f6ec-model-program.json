@@ -1,0 +1,35 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "model-program",
+    "codeRepository": "https://github.com/NCAR/summa.git",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran"
+        }
+    ],
+    "applicationCategory": "summa",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "softwareVersion": "2.0.0 develop",
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Young-Don",
+            "familyName": "Choi",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "K-water & University of Virginia"
+            },
+            "email": "choiyd1115@gmail.com"
+        }
+    ],
+    "keywords": [
+        "summa"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "identifier": "2e5e225cc6bb4657af0f9982bc67f6ec",
+    "url": "http://www.ral.ucar.edu/projects/summa"
+}

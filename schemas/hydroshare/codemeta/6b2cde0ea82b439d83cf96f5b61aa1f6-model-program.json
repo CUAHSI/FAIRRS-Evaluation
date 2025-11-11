@@ -3,41 +3,50 @@
     "@type": "SoftwareSourceCode",
     "name": "model-program",
     "codeRepository": "http://hydroshare/",
-    "applicationCategory": [
-        "ModelProgram"
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Matlab"
+        }
     ],
-    "operatingSystem": "Windows 10",
+    "applicationCategory": "river water quality",
+    "operatingSystem": [
+        "Windows 10"
+    ],
     "softwareVersion": "2021",
     "author": [
         {
             "@type": "Person",
-            "name": "Timis, Elisabeta Cristina"
+            "givenName": "Elisabeta Cristina",
+            "familyName": "Timis",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Babes-Bolyai University, Department of Chemical Engineering, Computer Aided Process Engineering Research Centre",
+                "address": "11, Arany Janos Street, 400028, Cluj-Napoca, Cluj, Romania"
+            },
+            "email": "elisabeta.timis@ubbcluj.ro"
         }
     ],
-    "dateCreated": "2021-09-30",
+    "datePublished": "2021-09-30",
     "keywords": [
-        "phosphorus in-stream transformations",
-        "plant uptake",
-        "phosphorus transformations",
-        "detailed pollutant transport modelling",
-        "advection dispersion model",
         "river water quality",
         "ADModel",
-        "water quality model",
+        "plant uptake",
+        "advection dispersion model",
         "phosphorus adsorption and desorption",
-        "mineralization",
-        "River Swale",
+        "detailed pollutant transport modelling",
         "phosphorus sedimentation",
-        "empirical model",
-        "SRP",
         "OP",
-        "pollutant transport modelling"
+        "water quality model",
+        "mineralization",
+        "SRP",
+        "pollutant transport modelling",
+        "phosphorus transformations",
+        "phosphorus in-stream transformations",
+        "empirical model",
+        "River Swale"
     ],
     "license": "http://creativecommons.org/licenses/by/4.0/",
-    "identifier": "10.4211/hs.6b2cde0ea82b439d83cf96f5b61aa1f6",
-    "url": "http://hydroshare/",
-    "review": {
-        "@type": "Review",
-        "reviewBody": "Reviewed and accepted for publication in HydroShare."
-    }
+    "identifier": "6b2cde0ea82b439d83cf96f5b61aa1f6",
+    "url": "https://www.hydroshare.org/"
 }

@@ -1,0 +1,90 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "model-program",
+    "codeRepository": "https://github.com/mwtoews/MODFLOW-USG/tree/6425740f3a5d725cf9de0f66ca63656724233957",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran 90 with some Fortran 2003 extensions"
+        }
+    ],
+    "applicationCategory": "MODFLOW-USG",
+    "downloadUrl": [
+        "http://www.hydroshare.org/resource/da538bc6d38b407599888397e6ea6419/data/contents/model-program/mfusg.exe",
+        "http://www.hydroshare.org/resource/da538bc6d38b407599888397e6ea6419/data/contents/model-program/mfusg_x64.exe",
+        "http://www.hydroshare.org/resource/da538bc6d38b407599888397e6ea6419/data/contents/model-program/zonbudusg.exe",
+        "http://www.hydroshare.org/resource/da538bc6d38b407599888397e6ea6419/data/contents/model-program/msvs.zip",
+        "http://www.hydroshare.org/resource/da538bc6d38b407599888397e6ea6419/data/contents/model-program/pymake.zip",
+        "http://www.hydroshare.org/resource/da538bc6d38b407599888397e6ea6419/data/contents/model-program/src.zip"
+    ],
+    "operatingSystem": [
+        "Microsoft Windows XP or 7"
+    ],
+    "softwareVersion": "1.2",
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Sorab",
+            "familyName": "Panday",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "GIS ENVIRONMENTAL",
+                "address": "4590 MacArthur Blvd #285, Newport Beach, CA 92660"
+            },
+            "email": "spanday@gsienv.com"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Motomu",
+            "familyName": "Ibaraki",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "The OHIO State University",
+                "address": "275 Mendenhall Lab 125 South Oval Mall Columbus OH, 43210"
+            },
+            "email": "ibaraki.1@osu.edu"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Christian D.",
+            "familyName": "Langevin",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "USGS",
+                "address": "12201 Sunrise Valley Dr Reston, VA 20192"
+            },
+            "email": "langevin@usgs.gov"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Richard G.",
+            "familyName": "Niswonger",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "USGS",
+                "address": "345 Middlefield Road Menlo Park, CA 94025"
+            },
+            "email": "rniswon@usgs.gov"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Joseph D.",
+            "familyName": "Hughes",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "USGS",
+                "address": "12201 Sunrise Valley Dr Reston, VA 20192"
+            },
+            "email": "jdhughes@usgs.gov"
+        }
+    ],
+    "keywords": [
+        "MODFLOW-USG",
+        "MODFLOW",
+        "control volume finite difference formulation"
+    ],
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "identifier": "da538bc6d38b407599888397e6ea6419",
+    "url": "https://water.usgs.gov/ogw/mfusg/"
+}

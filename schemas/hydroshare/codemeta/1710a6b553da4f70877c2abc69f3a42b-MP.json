@@ -2,39 +2,65 @@
     "@context": "https://w3id.org/codemeta/3.0",
     "@type": "SoftwareSourceCode",
     "name": "MP",
-    "applicationCategory": [
-        "ModelProgram"
+    "applicationCategory": "SWAT",
+    "downloadUrl": [
+        "http://www.hydroshare.org/resource/1710a6b553da4f70877c2abc69f3a42b/data/contents/MP/swat.exe"
     ],
     "author": [
         {
             "@type": "Person",
-            "name": "Ercan, Mehmet"
+            "givenName": "Mehmet",
+            "familyName": "Ercan",
+            "email": "mehmetbercan@gmail.com"
         },
         {
             "@type": "Person",
-            "name": "Maghami, Iman"
+            "givenName": "Iman",
+            "familyName": "Maghami",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Virginia"
+            },
+            "email": "im3vp@virginia.edu"
         },
         {
             "@type": "Person",
-            "name": "Bowes, Benjamin"
+            "givenName": "Benjamin",
+            "familyName": "Bowes",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "The University of Virginia"
+            },
+            "email": "bdb3m@virginia.edu"
         },
         {
             "@type": "Person",
-            "name": "Goodall, Jonathan"
+            "givenName": "Jonathan",
+            "familyName": "Goodall",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Virginia",
+                "address": "Virginia, US"
+            },
+            "email": "goodall@virginia.edu"
         },
         {
             "@type": "Person",
-            "name": "Morsy, Mohamed"
+            "givenName": "Mohamed",
+            "familyName": "Morsy",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Virginia"
+            },
+            "email": "mmm4dh@virginia.edu"
         }
     ],
+    "datePublished": "2023-12-05",
     "keywords": [
-        "modeling",
-        "SWAT"
+        "SWAT",
+        "modeling"
     ],
     "license": "http://creativecommons.org/licenses/by/4.0/",
-    "identifier": "10.4211/hs.1710a6b553da4f70877c2abc69f3a42b",
-    "review": {
-        "@type": "Review",
-        "reviewBody": "Reviewed and accepted for publication in HydroShare."
-    }
+    "identifier": "1710a6b553da4f70877c2abc69f3a42b",
+    "url": "https://swat.tamu.edu/"
 }
