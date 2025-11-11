@@ -1,0 +1,65 @@
+{
+  "title": "model-program",
+  "subjects": [
+    "TauDEM",
+    "TOPNET",
+    "rain",
+    "TOPKAPI",
+    "Daymet",
+    "ET",
+    "SSURGO"
+  ],
+  "language": "eng",
+  "additional_metadata": {},
+  "version": "1.0",
+  "programming_languages": [
+    "Python"
+  ],
+  "operating_systems": [
+    "Ubuntu",
+    "Centos"
+  ],
+  "release_date": "2017-12-04",
+  "website": "https://appsdev.hydroshare.org/apps/hydrotop/",
+  "code_repository": "https://github.com/prasanna310/hydrotop-app.git",
+  "file_types": [],
+  "type": "ModelProgram",
+  "url": "http://www.hydroshare.org/resource/0e6c5fb604b044b6b6f3804f906753cc/data/contents/model-program/model-program_resmap.xml#aggregation",
+  "rights": {
+    "statement": "This resource is shared under the Creative Commons Attribution CC BY.",
+    "url": "http://creativecommons.org/licenses/by/4.0/"
+  },
+  "resource_id": "0e6c5fb604b044b6b6f3804f906753cc",
+  "creators": [
+    {
+      "name": "topkapi app",
+      "email": "dahal.prasanna@gmail.com",
+      "creator_order": 1,
+      "hydroshare_user_id": 1884,
+      "identifiers": {}
+    },
+    {
+      "name": "Prasanna Dahal",
+      "organization": "Utah State University",
+      "email": "Dahal.prasanna@gmail.com",
+      "creator_order": 2,
+      "hydroshare_user_id": 127,
+      "identifiers": {}
+    }
+  ],
+  "published": null,
+  "spatial_coverage": {
+    "type": "box",
+    "name": "United States",
+    "northlimit": 49.3983,
+    "eastlimit": -65.8984,
+    "southlimit": 28.4805,
+    "westlimit": -124.9609,
+    "units": "Decimal degrees",
+    "projection": "WGS 84 EPSG:4326"
+  },
+  "period_coverage": {
+    "start": "2011-01-01 00:00:00",
+    "end": "2012-01-01 00:00:00"
+  }
+}
