@@ -37,6 +37,7 @@ from pydantic.v1 import HttpUrl
 from pydantic2_schemaorg.Person import Person
 from pydantic2_schemaorg.Organization import Organization
 from pydantic2_schemaorg.CreativeWork import CreativeWork
+from pydantic2_schemaorg.Review import Review
 from codemeticulous.codemeta.models import CodeMetaV3, VersionedLanguage
 
 
@@ -183,6 +184,11 @@ def build_codemeta(json_file: Path) -> CodeMetaV3:
     if subjects:
         applicationCategory = subjects[0]
 
+    review = None
+    published = hs.get("published")
+    if published: # model has been reviewed and accepted in JOSS (value is "1" if not reviewed)
+        review = Review(reviewBody=f"Published at {published}")
+
     # Build CodeMeta object
     meta = CodeMetaV3(
         name=name,
@@ -198,6 +204,7 @@ def build_codemeta(json_file: Path) -> CodeMetaV3:
         downloadUrl=downloadUrl,
         applicationCategory=applicationCategory,
         identifier=identifier,
+        review=review
     )
 
     # Skip validation for license via attribute assignment (pattern used in reference script)
