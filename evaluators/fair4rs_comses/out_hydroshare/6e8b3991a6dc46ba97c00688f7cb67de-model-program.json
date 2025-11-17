@@ -1,0 +1,114 @@
+{
+  "model-program": {
+    "indicator_evaluations": {
+      "A1_1": {
+        "result": true,
+        "log": [
+          "http://creativecommons.org/licenses/by/4.0/ in codemeta property 'license' is an open link to the software.",
+          "https://www.hydroshare.org/resource/6e8b3991a6dc46ba97c00688f7cb67de in codemeta property 'url' is NOT an open link to the software."
+        ]
+      },
+      "A1_2": {
+        "result": true,
+        "log": [
+          "This resource is shared under the Creative Commons Attribution CC BY. is an approved license."
+        ]
+      },
+      "A2": {
+        "result": false,
+        "log": [
+          "https://www.hydroshare.org/resource/6e8b3991a6dc46ba97c00688f7cb67de in codemeta property 'url' is NOT providing access to the software metadata in an approved software reigstry."
+        ]
+      },
+      "F1_1": {
+        "result": false,
+        "log": [
+          "https://www.hydroshare.org/resource/6e8b3991a6dc46ba97c00688f7cb67de in codemeta property 'url' is NOT is a distinct identifier."
+        ]
+      },
+      "F1_2": {
+        "result": false,
+        "log": [
+          "Missing inputs ['softwareVersion', 'version'] for evalF1_2"
+        ]
+      },
+      "F2": {
+        "result": false,
+        "log": [
+          "Missing inputs ['description', 'fileSize'] for evalF2"
+        ]
+      },
+      "F3": {
+        "result": false,
+        "log": [
+          "http://doi.org/6e8b3991a6dc46ba97c00688f7cb67de in codemeta property 'identifier' is NOT a globally unique and persistent identifier for software."
+        ]
+      },
+      "F4": {
+        "result": true,
+        "log": [
+          "6e8b3991a6dc46ba97c00688f7cb67de does point to DOI in FAIR-aligned repository."
+        ]
+      },
+      "I1": {
+        "result": false,
+        "log": [
+          "Missing inputs ['supportingData', 'buildInstructions'] for evalI1"
+        ]
+      },
+      "I2": {
+        "result": false,
+        "log": [
+          "Missing inputs ['relatedLink', 'supportingData', 'isPartOf', 'referencePublication'] for evalI2"
+        ]
+      },
+      "R1_1": {
+        "result": true,
+        "log": [
+          "This resource is shared under the Creative Commons Attribution CC BY. is an approved license."
+        ]
+      },
+      "R1_2": {
+        "result": false,
+        "log": [
+          "Challenging to evaluate provenance; not evaluated."
+        ]
+      },
+      "R2": {
+        "result": false,
+        "log": [
+          "Missing inputs ['softwareRequirement', 'softwareSuggestions'] for evalR2"
+        ]
+      },
+      "R3": {
+        "result": false,
+        "log": [
+          "Missing inputs ['review'] for evalR3"
+        ]
+      }
+    },
+    "scores": {
+      "F1_1": 0.0,
+      "F1_2": 0.0,
+      "F2": 0.0,
+      "F3": 0.0,
+      "F4": 0.25,
+      "F1": 0.0,
+      "F": 0.25,
+      "A1_1": 0.5,
+      "A1_2": 0.5,
+      "A2": 0.0,
+      "A1": 0.5,
+      "A": 0.5,
+      "I1": 0.0,
+      "I2": 0.0,
+      "I": 0.0,
+      "R1_1": 1,
+      "R1_2": 0,
+      "R2": 0.0,
+      "R3": 0.0,
+      "R1": 0.33,
+      "R": 0.33
+    }
+  }
+}

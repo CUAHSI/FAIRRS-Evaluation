@@ -1,0 +1,116 @@
+{
+  "model-program": {
+    "indicator_evaluations": {
+      "A1_1": {
+        "result": true,
+        "log": [
+          "http://www.hydroshare.org/resource/74a4a124f0ba47d8bc3e2ffa11fb03d5/data/contents/model-program/landlab-master.zip in codemeta property 'downloadUrl' is NOT an open link to the software.",
+          "http://www.hydroshare.org/resource/74a4a124f0ba47d8bc3e2ffa11fb03d5/data/contents/model-program/landlab-master.zip in codemeta property 'downloadUrl' is NOT an open link to the software.",
+          "http://creativecommons.org/licenses/by/4.0/ in codemeta property 'license' is an open link to the software.",
+          "http://landlab.readthedocs.io/en/latest/ in codemeta property 'url' is an open link to the software."
+        ]
+      },
+      "A1_2": {
+        "result": true,
+        "log": [
+          "This resource is shared under the Creative Commons Attribution CC BY. is an approved license."
+        ]
+      },
+      "A2": {
+        "result": false,
+        "log": [
+          "No URLs found in ['identifier', 'url'] 'providing access to the software metadata in an approved software reigstry.'"
+        ]
+      },
+      "F1_1": {
+        "result": false,
+        "log": [
+          "No URLs found in ['identifier', 'url']"
+        ]
+      },
+      "F1_2": {
+        "result": false,
+        "log": [
+          "0.2 in codemeta property 'softwareVersion' does NOT represents valid semantic versioning."
+        ]
+      },
+      "F2": {
+        "result": false,
+        "log": [
+          "Missing inputs ['description', 'fileSize'] for evalF2"
+        ]
+      },
+      "F3": {
+        "result": false,
+        "log": [
+          "http://doi.org/74a4a124f0ba47d8bc3e2ffa11fb03d5 in codemeta property 'identifier' is NOT a globally unique and persistent identifier for software."
+        ]
+      },
+      "F4": {
+        "result": true,
+        "log": [
+          "74a4a124f0ba47d8bc3e2ffa11fb03d5 does point to DOI in FAIR-aligned repository."
+        ]
+      },
+      "I1": {
+        "result": false,
+        "log": [
+          "Missing inputs ['supportingData', 'buildInstructions'] for evalI1"
+        ]
+      },
+      "I2": {
+        "result": false,
+        "log": [
+          "Missing inputs ['relatedLink', 'supportingData', 'isPartOf', 'referencePublication'] for evalI2"
+        ]
+      },
+      "R1_1": {
+        "result": true,
+        "log": [
+          "This resource is shared under the Creative Commons Attribution CC BY. is an approved license."
+        ]
+      },
+      "R1_2": {
+        "result": false,
+        "log": [
+          "Challenging to evaluate provenance; not evaluated."
+        ]
+      },
+      "R2": {
+        "result": false,
+        "log": [
+          "Missing inputs ['softwareRequirement', 'softwareSuggestions'] for evalR2"
+        ]
+      },
+      "R3": {
+        "result": false,
+        "log": [
+          "Missing inputs ['review'] for evalR3"
+        ]
+      }
+    },
+    "scores": {
+      "F1_1": 0.0,
+      "F1_2": 0.0,
+      "F2": 0.0,
+      "F3": 0.0,
+      "F4": 0.25,
+      "F1": 0.0,
+      "F": 0.25,
+      "A1_1": 0.5,
+      "A1_2": 0.5,
+      "A2": 0.0,
+      "A1": 0.5,
+      "A": 0.5,
+      "I1": 0.0,
+      "I2": 0.0,
+      "I": 0.0,
+      "R1_1": 1,
+      "R1_2": 0,
+      "R2": 0.0,
+      "R3": 0.0,
+      "R1": 0.33,
+      "R": 0.33
+    }
+  }
+}
