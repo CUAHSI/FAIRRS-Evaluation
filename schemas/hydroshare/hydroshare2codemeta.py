@@ -166,10 +166,8 @@ def build_codemeta(json_file: Path) -> CodeMetaV3:
     rights = hs.get("rights") or {}
     rights_url = rights.get("url")
     rights_stmt = rights.get("statement")
-    if rights_url:
-        license_obj = _as_http_url(rights_url)
-    elif rights_stmt:
-        license_obj = CreativeWork(name=rights_stmt)
+    if rights_url or rights_stmt:
+        license_obj = CreativeWork(name=rights_stmt,url=_as_http_url(rights_url))
 
     # downloadUrl(s) from file_types entries that indicate software/engine/executable
     downloadUrl = _extract_download_urls(hs.get("file_types")) or None
