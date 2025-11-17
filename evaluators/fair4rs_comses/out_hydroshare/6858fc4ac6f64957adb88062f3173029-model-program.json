@@ -23,7 +23,8 @@
       "F1_1": {
         "result": true,
         "log": [
-          "https://github.com/RHESSys/RHESSys in codemeta property 'url' is is a distinct identifier."
+          "https://hydroshare.org/resource/6858fc4ac6f64957adb88062f3173029 in codemeta property 'identifier' is a distinct identifier.",
+          "https://github.com/RHESSys/RHESSys in codemeta property 'url' is a distinct identifier."
         ]
       },
       "F1_2": {
@@ -39,15 +40,15 @@
         ]
       },
       "F3": {
-        "result": false,
+        "result": true,
         "log": [
-          "http://doi.org/6858fc4ac6f64957adb88062f3173029 in codemeta property 'identifier' is NOT a globally unique and persistent identifier for software."
+          "https://hydroshare.org/resource/6858fc4ac6f64957adb88062f3173029 in codemeta property 'identifier' is a globally unique and persistent identifier for software."
         ]
       },
       "F4": {
         "result": true,
         "log": [
-          "6858fc4ac6f64957adb88062f3173029 does point to DOI in FAIR-aligned repository."
+          "https://hydroshare.org/resource/6858fc4ac6f64957adb88062f3173029 does point to software metadata in FAIR-aligned repository."
         ]
       },
       "I1": {
@@ -91,10 +92,10 @@
       "F1_1": 0.5,
       "F1_2": 0.0,
       "F2": 0.0,
-      "F3": 0.0,
+      "F3": 0.25,
       "F4": 0.25,
       "F1": 0.125,
-      "F": 0.375,
+      "F": 0.625,
       "A1_1": 0.5,
       "A1_2": 0.5,
       "A2": 0.0,

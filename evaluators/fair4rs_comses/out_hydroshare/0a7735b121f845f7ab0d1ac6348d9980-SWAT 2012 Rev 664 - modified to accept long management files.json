@@ -16,15 +16,16 @@
         ]
       },
       "A2": {
-        "result": false,
+        "result": true,
         "log": [
-          "No URLs found in ['identifier', 'url'] 'providing access to the software metadata in an approved software reigstry.'"
+          "https://doi.org/10.4211/hs.0a7735b121f845f7ab0d1ac6348d9980 in codemeta property 'identifier' is providing access to the software metadata in an approved software reigstry."
         ]
       },
       "F1_1": {
         "result": true,
         "log": [
-          "https://swat.tamu.edu/software/swat-executables/ in codemeta property 'url' is is a distinct identifier."
+          "https://doi.org/10.4211/hs.0a7735b121f845f7ab0d1ac6348d9980 in codemeta property 'identifier' is a distinct identifier.",
+          "https://swat.tamu.edu/software/swat-executables/ in codemeta property 'url' is a distinct identifier."
         ]
       },
       "F1_2": {
@@ -40,15 +41,15 @@
         ]
       },
       "F3": {
-        "result": false,
+        "result": true,
         "log": [
-          "http://doi.org/0a7735b121f845f7ab0d1ac6348d9980 in codemeta property 'identifier' is NOT a globally unique and persistent identifier for software."
+          "https://doi.org/10.4211/hs.0a7735b121f845f7ab0d1ac6348d9980 in codemeta property 'identifier' is a globally unique and persistent identifier for software."
         ]
       },
       "F4": {
         "result": true,
         "log": [
-          "0a7735b121f845f7ab0d1ac6348d9980 does point to DOI in FAIR-aligned repository."
+          "https://doi.org/10.4211/hs.0a7735b121f845f7ab0d1ac6348d9980 does point to software metadata in FAIR-aligned repository."
         ]
       },
       "I1": {
@@ -84,7 +85,7 @@
       "R3": {
         "result": true,
         "log": [
-          "Published at 2021-11-04 16:36:44.150474+00:00"
+          "Published on 2021-11-04 16:36:44.150474+00:00 at https://doi.org/10.4211/hs.0a7735b121f845f7ab0d1ac6348d9980"
         ]
       }
     },
@@ -92,15 +93,15 @@
       "F1_1": 0.5,
       "F1_2": 0.0,
       "F2": 0.0,
-      "F3": 0.0,
+      "F3": 0.25,
       "F4": 0.25,
       "F1": 0.125,
-      "F": 0.375,
+      "F": 0.625,
       "A1_1": 0.5,
       "A1_2": 0.5,
-      "A2": 0.0,
+      "A2": 0.5,
       "A1": 0.5,
-      "A": 0.5,
+      "A": 1.0,
       "I1": 0.0,
       "I2": 0.0,
       "I": 0.0,

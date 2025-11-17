@@ -6,7 +6,7 @@
         "log": [
           "http://www.hydroshare.org/resource/82a2ba1a767742cca39d4959f10b2a9e/data/contents/model-program/hl-rdhm-release-3.5.10_withUEBgpu_DA.zip in codemeta property 'downloadUrl' is NOT an open link to the software.",
           "http://creativecommons.org/licenses/by/4.0/ in codemeta property 'license' is an open link to the software.",
-          "https://www.hydroshare.org/resource/82a2ba1a767742cca39d4959f10b2a9e in codemeta property 'url' is NOT an open link to the software."
+          "https://www.hydroshare.org/resource/82a2ba1a767742cca39d4959f10b2a9e in codemeta property 'url' is an open link to the software."
         ]
       },
       "A1_2": {
@@ -16,15 +16,17 @@
         ]
       },
       "A2": {
-        "result": false,
+        "result": true,
         "log": [
-          "https://www.hydroshare.org/resource/82a2ba1a767742cca39d4959f10b2a9e in codemeta property 'url' is NOT providing access to the software metadata in an approved software reigstry."
+          "https://doi.org/10.4211/hs.82a2ba1a767742cca39d4959f10b2a9e in codemeta property 'identifier' is providing access to the software metadata in an approved software reigstry.",
+          "https://www.hydroshare.org/resource/82a2ba1a767742cca39d4959f10b2a9e in codemeta property 'url' is providing access to the software metadata in an approved software reigstry."
         ]
       },
       "F1_1": {
-        "result": false,
+        "result": true,
         "log": [
-          "https://www.hydroshare.org/resource/82a2ba1a767742cca39d4959f10b2a9e in codemeta property 'url' is NOT is a distinct identifier."
+          "https://doi.org/10.4211/hs.82a2ba1a767742cca39d4959f10b2a9e in codemeta property 'identifier' is a distinct identifier.",
+          "https://www.hydroshare.org/resource/82a2ba1a767742cca39d4959f10b2a9e in codemeta property 'url' is a distinct identifier."
         ]
       },
       "F1_2": {
@@ -40,15 +42,15 @@
         ]
       },
       "F3": {
-        "result": false,
+        "result": true,
         "log": [
-          "http://doi.org/82a2ba1a767742cca39d4959f10b2a9e in codemeta property 'identifier' is NOT a globally unique and persistent identifier for software."
+          "https://doi.org/10.4211/hs.82a2ba1a767742cca39d4959f10b2a9e in codemeta property 'identifier' is a globally unique and persistent identifier for software."
         ]
       },
       "F4": {
         "result": true,
         "log": [
-          "82a2ba1a767742cca39d4959f10b2a9e does point to DOI in FAIR-aligned repository."
+          "https://doi.org/10.4211/hs.82a2ba1a767742cca39d4959f10b2a9e does point to software metadata in FAIR-aligned repository."
         ]
       },
       "I1": {
@@ -84,23 +86,23 @@
       "R3": {
         "result": true,
         "log": [
-          "Published at 2019-11-25 03:11:57.479430+00:00"
+          "Published on 2019-11-25 03:11:57.479430+00:00 at https://doi.org/10.4211/hs.82a2ba1a767742cca39d4959f10b2a9e"
         ]
       }
     },
     "scores": {
-      "F1_1": 0.0,
+      "F1_1": 0.5,
       "F1_2": 0.0,
       "F2": 0.0,
-      "F3": 0.0,
+      "F3": 0.25,
       "F4": 0.25,
-      "F1": 0.0,
-      "F": 0.25,
+      "F1": 0.125,
+      "F": 0.625,
       "A1_1": 0.5,
       "A1_2": 0.5,
-      "A2": 0.0,
+      "A2": 0.5,
       "A1": 0.5,
-      "A": 0.5,
+      "A": 1.0,
       "I1": 0.0,
       "I2": 0.0,
       "I": 0.0,

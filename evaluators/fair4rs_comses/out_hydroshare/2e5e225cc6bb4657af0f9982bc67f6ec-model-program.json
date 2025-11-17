@@ -5,7 +5,7 @@
         "result": true,
         "log": [
           "http://creativecommons.org/licenses/by/4.0/ in codemeta property 'license' is an open link to the software.",
-          "http://www.ral.ucar.edu/projects/summa in codemeta property 'url' is NOT an open link to the software."
+          "http://www.ral.ucar.edu/projects/summa in codemeta property 'url' is an open link to the software."
         ]
       },
       "A1_2": {
@@ -21,9 +21,9 @@
         ]
       },
       "F1_1": {
-        "result": false,
+        "result": true,
         "log": [
-          "No URLs found in ['identifier', 'url']"
+          "https://hydroshare.org/resource/2e5e225cc6bb4657af0f9982bc67f6ec in codemeta property 'identifier' is a distinct identifier."
         ]
       },
       "F1_2": {
@@ -39,15 +39,15 @@
         ]
       },
       "F3": {
-        "result": false,
+        "result": true,
         "log": [
-          "http://doi.org/2e5e225cc6bb4657af0f9982bc67f6ec in codemeta property 'identifier' is NOT a globally unique and persistent identifier for software."
+          "https://hydroshare.org/resource/2e5e225cc6bb4657af0f9982bc67f6ec in codemeta property 'identifier' is a globally unique and persistent identifier for software."
         ]
       },
       "F4": {
         "result": true,
         "log": [
-          "2e5e225cc6bb4657af0f9982bc67f6ec does point to DOI in FAIR-aligned repository."
+          "https://hydroshare.org/resource/2e5e225cc6bb4657af0f9982bc67f6ec does point to software metadata in FAIR-aligned repository."
         ]
       },
       "I1": {
@@ -88,13 +88,13 @@
       }
     },
     "scores": {
-      "F1_1": 0.0,
+      "F1_1": 0.5,
       "F1_2": 0.5,
       "F2": 0.0,
-      "F3": 0.0,
+      "F3": 0.25,
       "F4": 0.25,
-      "F1": 0.125,
-      "F": 0.375,
+      "F1": 0.25,
+      "F": 0.75,
       "A1_1": 0.5,
       "A1_2": 0.5,
       "A2": 0.0,

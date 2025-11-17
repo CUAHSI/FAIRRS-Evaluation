@@ -25,7 +25,8 @@
       "F1_1": {
         "result": true,
         "log": [
-          "https://water.usgs.gov/ogw/modflow-nwt/ in codemeta property 'url' is is a distinct identifier."
+          "https://hydroshare.org/resource/ace3231be6b64ee6a02ddd8e6dfa3d5d in codemeta property 'identifier' is a distinct identifier.",
+          "https://water.usgs.gov/ogw/modflow-nwt/ in codemeta property 'url' is a distinct identifier."
         ]
       },
       "F1_2": {
@@ -41,15 +42,15 @@
         ]
       },
       "F3": {
-        "result": false,
+        "result": true,
         "log": [
-          "http://doi.org/ace3231be6b64ee6a02ddd8e6dfa3d5d in codemeta property 'identifier' is NOT a globally unique and persistent identifier for software."
+          "https://hydroshare.org/resource/ace3231be6b64ee6a02ddd8e6dfa3d5d in codemeta property 'identifier' is a globally unique and persistent identifier for software."
         ]
       },
       "F4": {
         "result": true,
         "log": [
-          "ace3231be6b64ee6a02ddd8e6dfa3d5d does point to DOI in FAIR-aligned repository."
+          "https://hydroshare.org/resource/ace3231be6b64ee6a02ddd8e6dfa3d5d does point to software metadata in FAIR-aligned repository."
         ]
       },
       "I1": {
@@ -93,10 +94,10 @@
       "F1_1": 0.5,
       "F1_2": 0.5,
       "F2": 0.0,
-      "F3": 0.0,
+      "F3": 0.25,
       "F4": 0.25,
       "F1": 0.25,
-      "F": 0.5,
+      "F": 0.75,
       "A1_1": 0.5,
       "A1_2": 0.5,
       "A2": 0.0,

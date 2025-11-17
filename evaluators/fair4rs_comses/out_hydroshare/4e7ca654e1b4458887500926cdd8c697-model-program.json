@@ -6,7 +6,7 @@
         "log": [
           "http://www.hydroshare.org/resource/4e7ca654e1b4458887500926cdd8c697/data/contents/model-program/pysumma_gis.img in codemeta property 'downloadUrl' is NOT an open link to the software.",
           "http://creativecommons.org/licenses/by/4.0/ in codemeta property 'license' is an open link to the software.",
-          "https://www.hydroshare.org/resource/4e7ca654e1b4458887500926cdd8c697 in codemeta property 'url' is NOT an open link to the software."
+          "https://www.hydroshare.org/resource/4e7ca654e1b4458887500926cdd8c697 in codemeta property 'url' is an open link to the software."
         ]
       },
       "A1_2": {
@@ -16,15 +16,16 @@
         ]
       },
       "A2": {
-        "result": false,
+        "result": true,
         "log": [
-          "https://www.hydroshare.org/resource/4e7ca654e1b4458887500926cdd8c697 in codemeta property 'url' is NOT providing access to the software metadata in an approved software reigstry."
+          "https://www.hydroshare.org/resource/4e7ca654e1b4458887500926cdd8c697 in codemeta property 'url' is providing access to the software metadata in an approved software reigstry."
         ]
       },
       "F1_1": {
-        "result": false,
+        "result": true,
         "log": [
-          "https://www.hydroshare.org/resource/4e7ca654e1b4458887500926cdd8c697 in codemeta property 'url' is NOT is a distinct identifier."
+          "https://hydroshare.org/resource/4e7ca654e1b4458887500926cdd8c697 in codemeta property 'identifier' is a distinct identifier.",
+          "https://www.hydroshare.org/resource/4e7ca654e1b4458887500926cdd8c697 in codemeta property 'url' is a distinct identifier."
         ]
       },
       "F1_2": {
@@ -40,15 +41,15 @@
         ]
       },
       "F3": {
-        "result": false,
+        "result": true,
         "log": [
-          "http://doi.org/4e7ca654e1b4458887500926cdd8c697 in codemeta property 'identifier' is NOT a globally unique and persistent identifier for software."
+          "https://hydroshare.org/resource/4e7ca654e1b4458887500926cdd8c697 in codemeta property 'identifier' is a globally unique and persistent identifier for software."
         ]
       },
       "F4": {
         "result": true,
         "log": [
-          "4e7ca654e1b4458887500926cdd8c697 does point to DOI in FAIR-aligned repository."
+          "https://hydroshare.org/resource/4e7ca654e1b4458887500926cdd8c697 does point to software metadata in FAIR-aligned repository."
         ]
       },
       "I1": {
@@ -89,18 +90,18 @@
       }
     },
     "scores": {
-      "F1_1": 0.0,
+      "F1_1": 0.5,
       "F1_2": 0.0,
       "F2": 0.0,
-      "F3": 0.0,
+      "F3": 0.25,
       "F4": 0.25,
-      "F1": 0.0,
-      "F": 0.25,
+      "F1": 0.125,
+      "F": 0.625,
       "A1_1": 0.5,
       "A1_2": 0.5,
-      "A2": 0.0,
+      "A2": 0.5,
       "A1": 0.5,
-      "A": 0.5,
+      "A": 1.0,
       "I1": 0.0,
       "I2": 0.0,
       "I": 0.0,

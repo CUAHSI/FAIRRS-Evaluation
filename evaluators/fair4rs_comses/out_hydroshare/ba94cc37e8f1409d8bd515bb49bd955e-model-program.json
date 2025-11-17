@@ -24,9 +24,9 @@
         ]
       },
       "F1_1": {
-        "result": false,
+        "result": true,
         "log": [
-          "No URLs found in ['identifier', 'url']"
+          "https://hydroshare.org/resource/ba94cc37e8f1409d8bd515bb49bd955e in codemeta property 'identifier' is a distinct identifier."
         ]
       },
       "F1_2": {
@@ -42,15 +42,15 @@
         ]
       },
       "F3": {
-        "result": false,
+        "result": true,
         "log": [
-          "http://doi.org/ba94cc37e8f1409d8bd515bb49bd955e in codemeta property 'identifier' is NOT a globally unique and persistent identifier for software."
+          "https://hydroshare.org/resource/ba94cc37e8f1409d8bd515bb49bd955e in codemeta property 'identifier' is a globally unique and persistent identifier for software."
         ]
       },
       "F4": {
         "result": true,
         "log": [
-          "ba94cc37e8f1409d8bd515bb49bd955e does point to DOI in FAIR-aligned repository."
+          "https://hydroshare.org/resource/ba94cc37e8f1409d8bd515bb49bd955e does point to software metadata in FAIR-aligned repository."
         ]
       },
       "I1": {
@@ -91,13 +91,13 @@
       }
     },
     "scores": {
-      "F1_1": 0.0,
+      "F1_1": 0.5,
       "F1_2": 0.0,
       "F2": 0.0,
-      "F3": 0.0,
+      "F3": 0.25,
       "F4": 0.25,
-      "F1": 0.0,
-      "F": 0.25,
+      "F1": 0.125,
+      "F": 0.625,
       "A1_1": 0.5,
       "A1_2": 0.5,
       "A2": 0.0,
