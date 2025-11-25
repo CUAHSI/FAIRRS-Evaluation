@@ -1,9 +1,9 @@
 {
   "title": "model-program",
   "subjects": [
-    "MODFLOW-USG",
+    "control volume finite difference formulation",
     "MODFLOW",
-    "control volume finite difference formulation"
+    "MODFLOW-USG"
   ],
   "language": "eng",
   "additional_metadata": {},
@@ -28,19 +28,19 @@
     },
     {
       "type": "https://www.hydroshare.org/terms/modelDocumentation",
-      "url": "http://www.hydroshare.org/resource/da538bc6d38b407599888397e6ea6419/data/contents/model-program/mfusg_io_v_1_3.pdf"
-    },
-    {
-      "type": "https://www.hydroshare.org/terms/modelDocumentation",
       "url": "http://www.hydroshare.org/resource/da538bc6d38b407599888397e6ea6419/data/contents/model-program/tm6-A45.pdf"
     },
     {
-      "type": "https://www.hydroshare.org/terms/modelSoftware",
-      "url": "http://www.hydroshare.org/resource/da538bc6d38b407599888397e6ea6419/data/contents/model-program/mfusg.exe"
+      "type": "https://www.hydroshare.org/terms/modelDocumentation",
+      "url": "http://www.hydroshare.org/resource/da538bc6d38b407599888397e6ea6419/data/contents/model-program/mfusg_io_v_1_3.pdf"
     },
     {
       "type": "https://www.hydroshare.org/terms/modelSoftware",
       "url": "http://www.hydroshare.org/resource/da538bc6d38b407599888397e6ea6419/data/contents/model-program/mfusg_x64.exe"
+    },
+    {
+      "type": "https://www.hydroshare.org/terms/modelSoftware",
+      "url": "http://www.hydroshare.org/resource/da538bc6d38b407599888397e6ea6419/data/contents/model-program/mfusg.exe"
     },
     {
       "type": "https://www.hydroshare.org/terms/modelSoftware",
@@ -120,6 +120,12 @@
     }
   ],
   "published": null,
+  "relations": [
+    {
+      "type": "The content of this resource is derived from",
+      "value": "https://water.usgs.gov/ogw/mfusg/"
+    }
+  ],
   "spatial_coverage": null,
   "period_coverage": null
 }

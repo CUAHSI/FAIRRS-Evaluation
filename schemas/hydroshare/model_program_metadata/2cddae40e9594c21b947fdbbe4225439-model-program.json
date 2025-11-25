@@ -1,10 +1,10 @@
 {
   "title": "model-program",
   "subjects": [
-    "Event-Based",
     "Watershed",
     "Continuous",
     "Model",
+    "Event-Based",
     "Rainfall-Runoff",
     "Hydrology"
   ],
@@ -15,18 +15,18 @@
     "C"
   ],
   "operating_systems": [
-    "Windows XP",
-    "7"
+    "7",
+    "Windows XP"
   ],
   "website": "http://www2.epa.gov/water-research/storm-water-management-model-swmm?#downloads",
   "file_types": [
     {
       "type": "https://www.hydroshare.org/terms/modelDocumentation",
-      "url": "http://www.hydroshare.org/resource/2cddae40e9594c21b947fdbbe4225439/data/contents/model-program/epaswmm5_apps_manual.zip"
+      "url": "http://www.hydroshare.org/resource/2cddae40e9594c21b947fdbbe4225439/data/contents/model-program/swmm_user_manual.pdf"
     },
     {
       "type": "https://www.hydroshare.org/terms/modelDocumentation",
-      "url": "http://www.hydroshare.org/resource/2cddae40e9594c21b947fdbbe4225439/data/contents/model-program/swmm_user_manual.pdf"
+      "url": "http://www.hydroshare.org/resource/2cddae40e9594c21b947fdbbe4225439/data/contents/model-program/epaswmm5_apps_manual.zip"
     },
     {
       "type": "https://www.hydroshare.org/terms/modelSoftware",
@@ -83,6 +83,12 @@
     }
   ],
   "published": null,
+  "relations": [
+    {
+      "type": "The content of this resource is derived from",
+      "value": "http://www2.epa.gov/water-research/storm-water-management-model-swmm"
+    }
+  ],
   "spatial_coverage": null,
   "period_coverage": null
 }

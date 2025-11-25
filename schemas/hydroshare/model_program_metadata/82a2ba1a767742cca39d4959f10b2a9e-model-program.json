@@ -1,19 +1,19 @@
 {
   "title": "model-program",
   "subjects": [
-    "EnKF",
     "RDHM",
     "PF",
-    "CUDA",
+    "EnKF",
+    "UEB",
     "GPU",
-    "UEB"
+    "CUDA"
   ],
   "language": "eng",
   "additional_metadata": {},
   "programming_languages": [
     "CUDA",
-    "C",
-    "C++"
+    "C++",
+    "C"
   ],
   "operating_systems": [
     "Linux"
@@ -54,6 +54,16 @@
     }
   ],
   "published": "2019-11-25 03:11:57.479430+00:00",
+  "relations": [
+    {
+      "type": "This resource is described by",
+      "value": "Gichamo, T. Z., & Tarboton, D. G. (2019). Ensemble streamflow forecasting using an energy balance snowmelt model coupled to a distributed hydrologic model with assimilation of snow and streamflow observations. Water Resources Research, 55. https://doi.org/10.1029/2019WR025472"
+    },
+    {
+      "type": "This resource updates and replaces a previous version",
+      "value": "Tarboton, D. G., T. Z. Gichamo (2019). The Utah Energy Balance (UEB) Snowmelt Model Coupled to the Research Distributed Hydrologic Model (RDHM) with Parallel Processing using the CUDA GPU, HydroShare, https://doi.org/10.4211/hs.d31117430c234a67950823335b17fdb1"
+    }
+  ],
   "spatial_coverage": null,
   "period_coverage": null
 }

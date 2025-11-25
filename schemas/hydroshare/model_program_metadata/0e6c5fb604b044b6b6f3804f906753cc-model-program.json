@@ -1,13 +1,13 @@
 {
   "title": "model-program",
   "subjects": [
-    "TauDEM",
-    "TOPNET",
-    "rain",
-    "TOPKAPI",
-    "Daymet",
     "ET",
-    "SSURGO"
+    "rain",
+    "TauDEM",
+    "Daymet",
+    "TOPKAPI",
+    "SSURGO",
+    "TOPNET"
   ],
   "language": "eng",
   "additional_metadata": {},
@@ -16,8 +16,8 @@
     "Python"
   ],
   "operating_systems": [
-    "Ubuntu",
-    "Centos"
+    "Centos",
+    "Ubuntu"
   ],
   "release_date": "2017-12-04",
   "website": "https://appsdev.hydroshare.org/apps/hydrotop/",
@@ -48,6 +48,7 @@
     }
   ],
   "published": null,
+  "relations": [],
   "spatial_coverage": {
     "type": "box",
     "name": "United States",
