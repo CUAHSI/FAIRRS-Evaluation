@@ -25,6 +25,7 @@ Notes
 
 from __future__ import annotations
 
+import re
 import json
 import logging
 from datetime import date, datetime
@@ -39,6 +40,7 @@ from pydantic2_schemaorg.Organization import Organization
 from pydantic2_schemaorg.CreativeWork import CreativeWork
 from pydantic2_schemaorg.Review import Review
 from codemeticulous.codemeta.models import CodeMetaV3, VersionedLanguage
+from hsmodels.schemas.enums import RelationType
 
 
 app = typer.Typer(help="Convert HydroShare Model Program JSON to CodeMeta v3")
@@ -176,18 +178,38 @@ def build_codemeta(json_file: Path) -> CodeMetaV3:
     # Authors
     author = _authors_from_creators(hs.get("creators") or []) or None
 
-    # Identifier (resource_id)
-    identifier = hs.get("resource_id")
-
     # applicationCategory: we use first subject if nothing else
     applicationCategory = None
     if subjects:
         applicationCategory = subjects[0]
 
     review = None
+    resource_id = hs.get("resource_id")
     published = hs.get("published")
     if published: # model has been reviewed and accepted in JOSS (value is "1" if not reviewed)
-        review = Review(reviewBody=f"Published at {published}")
+        identifier = f"https://doi.org/10.4211/hs.{resource_id}"
+        review = Review(reviewBody=f"Published on {published} at {identifier}")
+    else:
+        identifier = f"https://hydroshare.org/resource/{resource_id}"
+
+    # get related resources and initiate isPartOf and hasPart fields
+    relations = hs.get("relations")    
+    isPartOf = None
+    hasPart = None
+
+    # iterate through relations to extract isPartOf as hasPart fields
+    if relations:
+        for relation in relations:
+            if relation['type'] == RelationType.isPartOf:
+                url_match = re.search(r'https?://\S+', relation['value'])
+                if url_match:
+                    url_is_part_of = url_match.group()
+                    isPartOf = CreativeWork(url=_as_http_url(url_is_part_of))
+            elif relation['type'] == RelationType.hasPart:
+                url_match = re.search(r'https?://\S+', relation['value'])
+                if url_match:
+                    url_has_part = url_match.group()
+                    hasPart = CreativeWork(url=_as_http_url(url_has_part))
 
     # Build CodeMeta object
     meta = CodeMetaV3(
@@ -200,11 +222,12 @@ def build_codemeta(json_file: Path) -> CodeMetaV3:
         softwareVersion=softwareVersion,
         codeRepository=_as_http_url(codeRepository) if codeRepository else None,
         url=url,
-        datePublished=datePublished,
         downloadUrl=downloadUrl,
         applicationCategory=applicationCategory,
         identifier=identifier,
-        review=review
+        review=review,
+        isPartOf=isPartOf,
+        hasPart=hasPart
     )
 
     # Skip validation for license via attribute assignment (pattern used in reference script)
