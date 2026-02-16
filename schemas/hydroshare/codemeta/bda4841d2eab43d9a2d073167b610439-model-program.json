@@ -1,0 +1,57 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "model-program",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "C"
+        }
+    ],
+    "applicationCategory": "GIS",
+    "downloadUrl": [
+        "http://www.hydroshare.org/resource/bda4841d2eab43d9a2d073167b610439/data/contents/model-program/RHESSys-master.zip"
+    ],
+    "operatingSystem": [
+        "Mac OS",
+        "Linux",
+        "Unix"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Christina",
+            "familyName": "Tague",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of California, Santa Barbara",
+                "address": "Bren Hall 4516, Santa Barbara, CA, USA, 93106"
+            },
+            "email": "ctague@bren.ucsb.edu"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Janet",
+            "familyName": "Choate",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of California, Santa Barbara",
+                "address": "Bren Hall 4516, Santa Barbara, CA, USA, 93106"
+            },
+            "email": "jchoate@bren.ucsb.edu"
+        }
+    ],
+    "keywords": [
+        "GIS",
+        "water quality",
+        "watershed",
+        "biogeochemistry"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "This resource is shared under the Creative Commons Attribution CC BY."
+    },
+    "identifier": "bda4841d2eab43d9a2d073167b610439",
+    "url": "http://fiesta.bren.ucsb.edu/~rhessys/setup/downloads/downloads.html"
+}

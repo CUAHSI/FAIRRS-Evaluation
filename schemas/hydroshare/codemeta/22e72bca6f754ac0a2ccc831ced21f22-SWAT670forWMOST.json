@@ -1,0 +1,45 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "SWAT670forWMOST",
+    "codeRepository": "https://swat.tamu.edu/media/116527/swat_v670_rel_wmost_012720.zip",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran"
+        }
+    ],
+    "operatingSystem": [
+        "Windows"
+    ],
+    "softwareVersion": "670",
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Naomi",
+            "familyName": "Detenbeck",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "US EPA"
+            },
+            "email": "NDetenbeck@aol.com"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Alyssa",
+            "familyName": "Le",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "ICF"
+            },
+            "email": "Alyssa.Le@icf.com"
+        }
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "This resource is shared under the Creative Commons Attribution CC BY."
+    },
+    "identifier": "22e72bca6f754ac0a2ccc831ced21f22",
+    "url": "https://swat.tamu.edu/software/"
+}

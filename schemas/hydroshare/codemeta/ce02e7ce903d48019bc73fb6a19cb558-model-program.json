@@ -1,0 +1,83 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "model-program",
+    "codeRepository": "https://github.com/NCAR/summa/releases/tag/v3.0.0",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran"
+        }
+    ],
+    "applicationCategory": "SUMMA",
+    "downloadUrl": [
+        "http://www.hydroshare.org/resource/ce02e7ce903d48019bc73fb6a19cb558/data/contents/model-program/summa-3.0.0.zip"
+    ],
+    "operatingSystem": [
+        "lubuntu-20.04LDT"
+    ],
+    "softwareVersion": "3.0.0",
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Young-Don",
+            "familyName": "Choi",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "K-water & University of Virginia"
+            },
+            "email": "choiyd1115@gmail.com"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Andrew",
+            "familyName": "Bennett",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Washington"
+            },
+            "email": "bennett.andr@gmail.com"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Bart",
+            "familyName": "Nijssen",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Washington"
+            },
+            "email": "nijssen@uw.edu"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Martyn",
+            "familyName": "Clark",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "NCAR"
+            },
+            "email": "mclark@ucar.edu"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Jonathan",
+            "familyName": "Goodall",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Virginia",
+                "address": "Virginia, US"
+            },
+            "email": "goodall@virginia.edu"
+        }
+    ],
+    "keywords": [
+        "SUMMA"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "This resource is shared under the Creative Commons Attribution CC BY."
+    },
+    "identifier": "ce02e7ce903d48019bc73fb6a19cb558",
+    "url": "https://github.com/NCAR/summa"
+}

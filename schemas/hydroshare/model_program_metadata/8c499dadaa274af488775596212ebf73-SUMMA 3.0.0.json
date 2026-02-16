@@ -1,0 +1,67 @@
+{
+  "title": "SUMMA 3.0.0",
+  "subjects": [
+    "SUMMA"
+  ],
+  "language": "eng",
+  "additional_metadata": {
+    "The content of this aggregation is derived from": "https://github.com/NCAR/summa/releases/tag/v3.0.0",
+    "Description": "SUMMA (Clark et al., 2015a;b;c) is a hydrologic modeling framework that can be used for the systematic analysis of alternative model conceptualizations with respect to flux parameterizations, spatial configurations, and numerical solution techniques. It can be used to configure a wide range of hydrological model alternatives and we anticipate that systematic model analysis will help researchers and practitioners understand reasons for inter-model differences in model behavior. When applied across a large sample of catchments, SUMMA may provide insights in the dominance of different physical processes and regional variability in the suitability of different modeling approaches. An important application of SUMMA is selecting specific physics options to reproduce the behavior of existing models – these applications of \"model mimicry\" can be used to define reference (benchmark) cases in structured model comparison experiments, and can help diagnose weaknesses of individual models in different hydroclimatic regimes. SUMMA is built on a common set of conservation equations and a common numerical solver, which together constitute the “structural core” of the model. Different modeling approaches can then be implemented within the structural core, enabling a controlled and systematic analysis of alternative modeling options, and providing insight for future model development. This version was released on July 20, 2020.",
+    "The aggregation is described by": "https://summa.readthedocs.io/en/latest/installation/SUMMA_installation/",
+    "Migrated from": "Model Program Resource: https://www.hydroshare.org/resource/ce02e7ce903d48019bc73fb6a19cb558/"
+  },
+  "version": "3.0.0",
+  "programming_languages": [
+    "Fortran"
+  ],
+  "operating_systems": [
+    "lubuntu-20.04LDT"
+  ],
+  "release_date": "2020-07-20",
+  "website": "https://github.com/NCAR/summa",
+  "code_repository": "https://github.com/NCAR/summa/releases/tag/v3.0.0",
+  "file_types": [
+    {
+      "type": "https://www.hydroshare.org/terms/modelEngine",
+      "url": "http://www.hydroshare.org/resource/8c499dadaa274af488775596212ebf73/data/contents/SUMMA%203.0.0/summa-3.0.0.zip"
+    }
+  ],
+  "program_schema_json": "http://www.hydroshare.org/resource/8c499dadaa274af488775596212ebf73/data/contents/SUMMA%203.0.0/SUMMA%203.0_schema.json",
+  "type": "ModelProgram",
+  "url": "http://www.hydroshare.org/resource/8c499dadaa274af488775596212ebf73/data/contents/SUMMA%203.0.0/SUMMA%203.0_resmap.xml#aggregation",
+  "rights": {
+    "statement": "This resource is shared under the Creative Commons Attribution CC BY.",
+    "url": "http://creativecommons.org/licenses/by/4.0/"
+  },
+  "resource_id": "8c499dadaa274af488775596212ebf73",
+  "creators": [
+    {
+      "name": "Maghami, Iman",
+      "organization": "University of Virginia",
+      "email": "im3vp@virginia.edu",
+      "creator_order": 1,
+      "hydroshare_user_id": 1976,
+      "identifiers": {}
+    }
+  ],
+  "published": null,
+  "relations": [
+    {
+      "type": "The content of this resource is derived from",
+      "value": "https://www.hydroshare.org/resource/33cfb9622a354442b2b0a869b15ea6b0/"
+    }
+  ],
+  "spatial_coverage": {
+    "type": "box",
+    "northlimit": 43.0707,
+    "eastlimit": -116.7495,
+    "southlimit": 43.063,
+    "westlimit": -116.7592,
+    "units": "Decimal degrees",
+    "projection": "WGS 84 EPSG:4326"
+  },
+  "period_coverage": {
+    "start": "2002-07-01 00:00:00",
+    "end": "2008-09-30 00:00:00"
+  }
+}

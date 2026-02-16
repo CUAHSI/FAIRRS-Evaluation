@@ -1,0 +1,50 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "model-program",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "DLL"
+        }
+    ],
+    "applicationCategory": "EPANET_2.0",
+    "downloadUrl": [
+        "http://www.hydroshare.org/resource/429765e3f04b4236897b43117f79c8ce/data/contents/model-program/en2setup_0.exe",
+        "http://www.hydroshare.org/resource/429765e3f04b4236897b43117f79c8ce/data/contents/model-program/EPANET_toolkit/epanet2.dll"
+    ],
+    "operatingSystem": [
+        "Windows"
+    ],
+    "softwareVersion": "2.0",
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Lewis A.",
+            "familyName": "Rossman",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "National Risk Management Research Laboratory"
+            }
+        },
+        {
+            "@type": "Person",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "U.S. ENVIRONMENTAL PROTECTION AGENCY"
+            }
+        }
+    ],
+    "keywords": [
+        "EPANET_2.0",
+        "epanet",
+        "hydraulic modeling"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "This resource is shared under the Creative Commons Attribution CC BY."
+    },
+    "identifier": "429765e3f04b4236897b43117f79c8ce",
+    "url": "https://www.epa.gov/water-research/epanet"
+}

@@ -1,0 +1,42 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "SUMMA 3.0.0",
+    "codeRepository": "https://github.com/NCAR/summa/releases/tag/v3.0.0",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran"
+        }
+    ],
+    "applicationCategory": "SUMMA",
+    "downloadUrl": [
+        "http://www.hydroshare.org/resource/8c499dadaa274af488775596212ebf73/data/contents/SUMMA%203.0.0/summa-3.0.0.zip"
+    ],
+    "operatingSystem": [
+        "lubuntu-20.04LDT"
+    ],
+    "softwareVersion": "3.0.0",
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Iman",
+            "familyName": "Maghami",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Virginia"
+            },
+            "email": "im3vp@virginia.edu"
+        }
+    ],
+    "keywords": [
+        "SUMMA"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "This resource is shared under the Creative Commons Attribution CC BY."
+    },
+    "identifier": "8c499dadaa274af488775596212ebf73",
+    "url": "https://github.com/NCAR/summa"
+}

@@ -1,0 +1,76 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "model-program",
+    "codeRepository": "https://github.com/landlab/landlab/",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "2D",
+    "downloadUrl": [
+        "http://www.hydroshare.org/resource/74a4a124f0ba47d8bc3e2ffa11fb03d5/data/contents/model-program/landlab-master.zip",
+        "http://www.hydroshare.org/resource/74a4a124f0ba47d8bc3e2ffa11fb03d5/data/contents/model-program/landlab-master.zip"
+    ],
+    "operatingSystem": [
+        "Unix",
+        "Windows",
+        "Linux",
+        "Mac OS"
+    ],
+    "softwareVersion": "0.2",
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Greg",
+            "familyName": "Tucker",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Colorado",
+                "address": "Campus Box 399, Boulder, Colorado, 80309"
+            },
+            "email": "gtucker@cires.colorado.edu"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Nicole",
+            "familyName": "Gasparini",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Tulane University"
+            }
+        },
+        {
+            "@type": "Person",
+            "givenName": "Erkan",
+            "familyName": "Istanbulluoglu",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Washington"
+            }
+        },
+        {
+            "@type": "Person",
+            "givenName": "Eric",
+            "familyName": "Hutton",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Colorado"
+            },
+            "email": "huttone@colorado.edu"
+        }
+    ],
+    "keywords": [
+        "2D",
+        "Python"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "This resource is shared under the Creative Commons Attribution CC BY."
+    },
+    "identifier": "74a4a124f0ba47d8bc3e2ffa11fb03d5",
+    "url": "http://landlab.readthedocs.io/en/latest/"
+}

@@ -1,0 +1,42 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "model-program",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "c"
+        }
+    ],
+    "applicationCategory": "MODFLOW-NWT Engine",
+    "downloadUrl": [
+        "http://www.hydroshare.org/resource/ace3231be6b64ee6a02ddd8e6dfa3d5d/data/contents/model-program/mfnwt",
+        "http://www.hydroshare.org/resource/ace3231be6b64ee6a02ddd8e6dfa3d5d/data/contents/model-program/mfnwt"
+    ],
+    "operatingSystem": [
+        "Linux"
+    ],
+    "softwareVersion": "v.1.1.2",
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Richard",
+            "familyName": "Niswonger",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "U.S. Geological Survey National Research Program - Western Branch U.S. Geological Survey"
+            },
+            "email": "rniswon@usgs.gov"
+        }
+    ],
+    "keywords": [
+        "MODFLOW-NWT Engine"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "This resource is shared under the Creative Commons Attribution CC BY."
+    },
+    "identifier": "ace3231be6b64ee6a02ddd8e6dfa3d5d",
+    "url": "https://water.usgs.gov/ogw/modflow-nwt/"
+}

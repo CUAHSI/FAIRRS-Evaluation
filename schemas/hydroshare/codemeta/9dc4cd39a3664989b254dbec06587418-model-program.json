@@ -1,0 +1,52 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "model-program",
+    "codeRepository": "https://github.com/awickert/IceFlow/archive/master.zip",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "glacial,",
+    "operatingSystem": [
+        "Mac OS",
+        "Unix",
+        "Windows",
+        "Linux"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Andy",
+            "familyName": "Wickert",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Colorado",
+                "address": "Institute of Arctic and Alpine Research, 1560 30th St., Boulder, Colorado, 80303"
+            },
+            "email": "wickert@colorado.edu"
+        },
+        {
+            "@type": "Person",
+            "givenName": "William",
+            "familyName": "Colgan",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Geological Survey of Denmark and Greenland",
+                "address": "Øster Voldgade 10, Copenhagen K, Denmark"
+            }
+        }
+    ],
+    "keywords": [
+        "glacial,"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "This resource is shared under the Creative Commons Attribution CC BY."
+    },
+    "identifier": "9dc4cd39a3664989b254dbec06587418",
+    "url": "https://www.hydroshare.org/resource/9dc4cd39a3664989b254dbec06587418"
+}

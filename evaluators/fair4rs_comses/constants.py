@@ -11,7 +11,8 @@ PERMISSIVE_LICENSES = [
     "BSD-3-Clause",
     "BSD-2-Clause",
     "CC0-1.0",
-    "Unlicense"
+    "Unlicense",
+    "Creative Commons Attribution CC BY"
 ]
 
 # Less permissive but widely used licenses

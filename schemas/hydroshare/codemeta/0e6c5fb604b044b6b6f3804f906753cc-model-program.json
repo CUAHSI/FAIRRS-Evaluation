@@ -1,0 +1,52 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "model-program",
+    "codeRepository": "https://github.com/prasanna310/hydrotop-app.git",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Python"
+        }
+    ],
+    "applicationCategory": "TauDEM",
+    "operatingSystem": [
+        "Ubuntu",
+        "Centos"
+    ],
+    "softwareVersion": "1.0",
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "topkapi",
+            "familyName": "app",
+            "email": "dahal.prasanna@gmail.com"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Prasanna",
+            "familyName": "Dahal",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Utah State University"
+            },
+            "email": "Dahal.prasanna@gmail.com"
+        }
+    ],
+    "keywords": [
+        "TauDEM",
+        "TOPNET",
+        "rain",
+        "TOPKAPI",
+        "Daymet",
+        "ET",
+        "SSURGO"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "This resource is shared under the Creative Commons Attribution CC BY."
+    },
+    "identifier": "0e6c5fb604b044b6b6f3804f906753cc",
+    "url": "https://appsdev.hydroshare.org/apps/hydrotop/"
+}

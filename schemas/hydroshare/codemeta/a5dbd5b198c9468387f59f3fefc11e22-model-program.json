@@ -1,0 +1,64 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "name": "model-program",
+    "codeRepository": "https://github.com/NCAR/summa/tree/sopron_2018",
+    "programmingLanguage": [
+        {
+            "@type": "ComputerLanguage",
+            "name": "Fortran"
+        }
+    ],
+    "applicationCategory": "modeling",
+    "downloadUrl": [
+        "http://www.hydroshare.org/resource/a5dbd5b198c9468387f59f3fefc11e22/data/contents/model-program/summa%202.0.0%20sopron.zip"
+    ],
+    "operatingSystem": [
+        "lubuntu-16.10"
+    ],
+    "softwareVersion": "Sopron workshop version",
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Martyn",
+            "familyName": "Clark",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "NCAR"
+            },
+            "email": "mclark@ucar.edu"
+        },
+        {
+            "@type": "Person",
+            "givenName": "Bart",
+            "familyName": "Nijssen",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Washington"
+            },
+            "email": "nijssen@uw.edu"
+        }
+    ],
+    "datePublished": "2019-05-24",
+    "keywords": [
+        "modeling",
+        "Unifying Multiple Modeling Alternatives",
+        "Hydrological Community Model",
+        "Hydrological Model",
+        "sopron2018",
+        "hydrologic",
+        "framework",
+        "physical process"
+    ],
+    "license": {
+        "@type": "CreativeWork",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "This resource is shared under the Creative Commons Attribution CC BY."
+    },
+    "identifier": "a5dbd5b198c9468387f59f3fefc11e22",
+    "url": "http://www.ral.ucar.edu/projects/summa",
+    "review": {
+        "@type": "Review",
+        "reviewBody": "Published at 2019-05-24 00:31:16.733697+00:00"
+    }
+}
