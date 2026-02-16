@@ -1,0 +1,81 @@
+
+    {
+  "@id": "https://doi.org/10.25937/z56b-3291",
+  "url": "https://doi.org/10.25937/z56b-3291",
+  "name": "Boyds (NetLogo): Boids That Fight",
+  "@type": "SoftwareSourceCode",
+  "author": [
+    {
+      "@id": "https://orcid.org/0000-0002-5693-5978",
+      "@type": "Person",
+      "email": "omhpublic@haynold.com",
+      "givenName": "Oliver",
+      "familyName": "M. Haynold"
+    }
+  ],
+  "license": {
+    "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+    "name": "GPL-3.0",
+    "@type": "CreativeWork"
+  },
+  "version": "1.0.0",
+  "@context": "https://w3id.org/codemeta/3.0",
+  "citation": [
+    {
+      "text": "Craig W. Reynolds. \u201cFlocks, herds and schools: A distributed behavioral model\u201d. In: Comput. Graph. (ACM) 21.4 (Aug. 1987), pp. 25\u201334.\nU. Wilensky. NetLogo Flocking model. As included with NetLogo 4.6.0. 1998. url: http://ccl.northwestern.edu/netlogo/models/Flocking.",
+      "@type": "CreativeWork"
+    },
+    {
+      "text": "This model extends the Flocking model included in NetLogo. (U. Wilensky. NetLogo Flocking model. As included with NetLogo 4.6.0. 1998. url: http:\n//ccl.northwestern.edu/netlogo/models/Flocking) With only one faction populated, it should produce identical behavior to Flocking.",
+      "@type": "CreativeWork"
+    }
+  ],
+  "keywords": [
+    "agent-based modeling",
+    "alignment-cohesion-separation",
+    "boids",
+    "collective behavior",
+    "collective motion",
+    "combat modeling",
+    "conflict",
+    "emergent behavior",
+    "fight-flight",
+    "flocking",
+    "multi-agent systems",
+    "multi-faction competition",
+    "NetLogo",
+    "numerical superiority",
+    "pursuit-evasion",
+    "swarm intelligence",
+    "target locking"
+  ],
+  "publisher": {
+    "@id": "https://ror.org/015bsfc29",
+    "url": "https://www.comses.net",
+    "name": "CoMSES Net",
+    "@type": "Organization"
+  },
+  "identifier": [
+    "10.25937/z56b-3291",
+    "https://doi.org/10.25937/z56b-3291"
+  ],
+  "dateCreated": "2025-10-19",
+  "description": "Boyds (Boids that Fight) is an agent-based model in NetLogo that extends the classic Flocking model with multi-faction competition, a local fight\u2013flight heuristic, and a target locking/\u201ctaking\u201d mechanism. The model separates perception (vision) from engagement range (lock distance) and uses per-faction steering bounds to explore how local numerical superiority, sensing, and bounded turning affect victory, losses, and emergent formations.",
+  "downloadUrl": "https://www.comses.net/codebases/f1ace8ce-f18e-4e71-8106-9aa4b9fe3106/releases/1.0.0/download/",
+  "dateModified": "2026-01-20",
+  "releaseNotes": "This is the initial public release of Boyds on CoMSES. The model was originally written for the CAS-520: Agent-Based Modeling course at Arizona State University's School of Complex Adaptive systems, taught in Spring 2025 by Sean Bergin. The present release has only minor modifications for CoMSES compliance and user-friendliness.",
+  "copyrightYear": 2026,
+  "datePublished": "2026-01-20",
+  "operatingSystem": "platform_independent",
+  "runtimePlatform": [
+    "Netlogo 6"
+  ],
+  "applicationCategory": "Computational Model",
+  "programmingLanguage": [
+    {
+      "name": "Netlogo 6",
+      "@type": "ComputerLanguage"
+    }
+  ]
+}
+  

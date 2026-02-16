@@ -1,0 +1,64 @@
+{
+    "@id": "https://www.comses.net/codebases/15a2fc42-90bd-42c4-b21b-dfba428cdb16/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/15a2fc42-90bd-42c4-b21b-dfba428cdb16/releases/1.0.0/",
+    "name": "Replica of Turchin's (2003) Metaethnic Frontier model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/780/",
+            "@type": "Person",
+            "email": "paul.smaldino@gmail.com",
+            "givenName": "Paul",
+            "familyName": "Smaldino",
+            "affiliation": {
+                "@id": "https://ror.org/00d9ah105",
+                "url": "http://www.ucmerced.edu/",
+                "name": "University of California, Merced",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00d9ah105"
+            }
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "cliodynamics",
+        "cultural evolution",
+        "cycles",
+        "empire",
+        "metaethnic",
+        "smaldino",
+        "turchin"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/15a2fc42-90bd-42c4-b21b-dfba428cdb16/releases/1.0.0/",
+    "dateCreated": "2026-02-15",
+    "description": "In his 2003 book, Historical Dynamics (ch. 4), Turchin describes and briefly analyzes a spatial ABM of his metaethnic frontier theory, which is essentially a formalization of a theory by Ibn Khaldun in the 14th century. In the model, polities compete with neighboring polities and can absorb them into an empire. Groups possess \"asabiya\", a measure of social solidarity and a sense of shared purpose. Regions that share borders with other groups will have increased asabiya do to salient us vs. them competition. High asabiya enhances the ability to grow, work together, and hence wage war on neighboring groups and assimilate them into an empire. The larger the frontier, the higher the empire\u2019s asabiya. \nAs an empire expands, (1) increased access to resources drives further growth; (2) internal conflict decreases asabiya among those who live far from the frontier; and (3) expanded size of the frontier decreases ability to wage war along all frontiers.  When an empire\u2019s asabiya decreases too much, it collapses. \u00a0Another group with more compelling\u00a0asabiya\u00a0eventually helps establish a new empire.",
+    "downloadUrl": "https://www.comses.net/codebases/15a2fc42-90bd-42c4-b21b-dfba428cdb16/releases/1.0.0/download/",
+    "dateModified": "2026-02-15",
+    "releaseNotes": "I coded Turchin's model in NetLogo to use in pedagogy. ",
+    "copyrightYear": 2026,
+    "datePublished": "2026-02-15",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Netlogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Netlogo 6.4",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Turchin P. (2003) Historical Dynamics: Why States Rise and Fall. Princeton University Press."
+}

@@ -1,0 +1,60 @@
+
+    {
+  "@id": "https://www.comses.net/codebases/602c9bbc-b45a-423a-9d1b-0c41e476d1e3/releases/1.0.0/",
+  "url": "https://www.comses.net/codebases/602c9bbc-b45a-423a-9d1b-0c41e476d1e3/releases/1.0.0/",
+  "name": "Gender Dynamics at a Naturist Venue (infinite capacity)",
+  "@type": "SoftwareSourceCode",
+  "author": [
+    {
+      "@id": "https://www.comses.net/users/5449/",
+      "@type": "Person",
+      "email": "james.junghanns@mac.com",
+      "givenName": "James",
+      "familyName": "Junghanns"
+    }
+  ],
+  "license": {
+    "url": "https://opensource.org/licenses/BSD-3-Clause",
+    "name": "BSD-3-Clause",
+    "@type": "CreativeWork"
+  },
+  "version": "1.0.0",
+  "@context": "https://w3id.org/codemeta/3.0",
+  "keywords": [
+    "Mathematica",
+    "naturism",
+    "population dynamics"
+  ],
+  "publisher": {
+    "@id": "https://ror.org/015bsfc29",
+    "url": "https://www.comses.net",
+    "name": "CoMSES Net",
+    "@type": "Organization"
+  },
+  "identifier": "https://www.comses.net/codebases/602c9bbc-b45a-423a-9d1b-0c41e476d1e3/releases/1.0.0/",
+  "dateCreated": "2026-02-03",
+  "description": "Manipulate[\n Module[{fDot, mDot, poly, roots, stableRoots, rStar, rIso, \n   endPointStar, endPointIso},(*1. Define the System Dynamics*)\n  fDot = phi1*(f/m) - phi2*(m/f);\n  mDot = mu1*(f/m) - mu2*(m/f);\n  (*2. Find the Equilibrium Ratio r=f/\n  m*)(*The cubic polynomial governing the ratio evolution*)\n  poly[r_] := -mu1*r^3 + phi1*r^2 + mu2*r - phi2;\n  (*Solve for positive real roots*)\n  roots = r /. NSolve[{poly[r] == 0, r > 0}, r];\n  (*Filter for STABLE roots where P'(r)<0*)\n  stableRoots = Select[roots, (D[poly[x], x] /. x -> #) < 0 &];\n  rStar = If[Length[stableRoots] > 0, First[stableRoots], None];\n  (*3. Define the F-Isocline (Growth Boundary)*)rIso = Sqrt[phi2/phi1];\n  (*4. Geometric Helper:Find the edge intersection for a line y=k*\n  x*)(*This ensures rays are always drawn across the full visible box*)\n  getEdge[k_] := If[k <= 1, {scale, scale*k}, {scale/k, scale}];\n  endPointIso = getEdge[rIso];\n  endPointStar = If[NumberQ[rStar], getEdge[rStar], {0, 0}];\n  (*5. Generate the Plot*)\n  Show[StreamPlot[{mu1*(f/m) - mu2*(m/f), \n     phi1*(f/m) - phi2*(m/f)}, {m, 0.1, scale}, {f, 0.1, scale}, \n    StreamPoints -> density, \n    StreamStyle -> {Arrowheads[0.02], Thickness[0.002], GrayLevel[0.4]},\n     Frame -> True, \n    FrameLabel -> {Style[\"Male Population (m)\", 12, \n       FontFamily -> \"Helvetica\"], \n      Style[\"Female Population (f)\", 12, FontFamily -> \"Helvetica\"]}, \n    LabelStyle -> {12, FontFamily -> \"Helvetica\"}, ImageSize -> 500, \n    PlotRange -> {{0, scale}, {0, scale}}, \n    PlotRangePadding -> None],(*Overlays*)\n   Graphics[{(*Shaded Region:\n     Female Decline (Below Isocline)*){Opacity[0.15], Orange, \n      Polygon[{{0, 0}, {scale, 0}, endPointIso}]},(*Green Dotted Line:\n     F-Isocline*){Thickness[0.005], Dotted, Darker[Green], \n      Line[{{0, 0}, endPointIso}]},(*Red Dashed Line:\n     Stable Attractor (Only if it exists)*)\n     If[NumberQ[rStar], {Thickness[0.007], Dashed, Red, \n       Line[{{0, 0}, endPointStar}]}, {}]}],(*Legend*)\n   PlotLegends -> \n    Placed[LineLegend[{Directive[Red, Dashed, Thickness[0.005]], \n       Directive[Darker[Green], Dotted, Thickness[0.005]], \n       Directive[Orange, Opacity[0.5]]}, {\"Stable Attractor\", \n       \"Growth Boundary\", \"Decline Zone\"}, LegendFunction -> Framed, \n      LegendMargins -> 5], {Right, Top}]]],(*Controls*){{phi1, 4.0, \n   \"Fem. Influx (\\[Phi]1)\"}, 0.1, 10, \n  Appearance -> \"Labeled\"}, {{phi2, 1.0, \"Fem. Exit (\\[Phi]2)\"}, 0.1, \n  10, Appearance -> \"Labeled\"}, {{mu1, 1.0, \"Male Influx (\\[Mu]1)\"}, \n  0.1, 10, Appearance -> \"Labeled\"}, {{mu2, 1.0, \"Male Exit (\\[Mu]2)\"},\n   0.1, 10, \n  Appearance -> \"Labeled\"}, Delimiter, {{scale, 10, \"Max Population\"},\n   10, 100, 10, \n  Appearance -> \"Labeled\"}, {{density, 20, \"Streamline Density\"}, 5, \n  40, 1, Appearance -> \"Labeled\"}, ControlPlacement -> Left, \n TrackedSymbols :> {phi1, phi2, mu1, mu2, scale, density}]",
+  "downloadUrl": "https://www.comses.net/codebases/602c9bbc-b45a-423a-9d1b-0c41e476d1e3/releases/1.0.0/download/",
+  "dateModified": "2026-02-03",
+  "releaseNotes": "This Mathematica code implements an interactive model of gender balance at naturist venues based on a mathematical model I am publishing. ",
+  "copyrightYear": 2026,
+  "datePublished": "2026-02-03",
+  "embargoEndDate": "2027-01-01",
+  "operatingSystem": "platform_independent",
+  "runtimePlatform": [
+    "Mathematica"
+  ],
+  "applicationCategory": "Computational Model",
+  "programmingLanguage": [
+    {
+      "name": "Mathematica",
+      "@type": "ComputerLanguage"
+    },
+    {
+      "name": "Wolfram Language",
+      "@type": "ComputerLanguage"
+    }
+  ],
+  "referencePublication": "10.5281/zenodo.18458348"
+}
+  
