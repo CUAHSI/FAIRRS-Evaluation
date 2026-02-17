@@ -3,95 +3,103 @@ from bs4 import BeautifulSoup
 import json
 import time
 import os
+import re
 from urllib.parse import urljoin
 
 # --- Configuration ---
 BASE_URL = "https://www.comses.net"
-START_URL = "https://www.comses.net/codebases/"
-OUTPUT_DIR = "codemeta"
+SEARCH_BASE_URL = "https://www.comses.net/codebases/?page="
+OUTPUT_DIR = "schemas/comses/codemeta"
 HEADERS = {
     "User-Agent": "Metadata-Research-Bot/1.0 (Contact: your_email@example.com)"
 }
+
+# Regex to match exactly /codebases/{uuid}/
+MODEL_URL_PATTERN = re.compile(r"^/codebases/[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}/?$")
 
 def ensure_dir(directory):
     if not os.path.exists(directory):
         os.makedirs(directory)
 
-def get_codebase_links(page_url):
-    """Scrapes the search/list page for links to individual models."""
+def get_model_links_from_page(page_num):
+    """Scrapes a specific page number for links to individual models using strict Regex."""
+    page_url = f"{SEARCH_BASE_URL}{page_num}"
     print(f"Scanning list page: {page_url}")
+    
     try:
         response = requests.get(page_url, headers=HEADERS, timeout=10)
+        if response.status_code == 404:
+            return set()
+            
         response.raise_for_status()
         soup = BeautifulSoup(response.content, "html.parser")
         
-        # Collect links to models
         links = set()
         for a in soup.find_all("a", href=True):
             href = a['href']
-            # Pattern: /codebases/[UUID]/
-            if href.startswith("/codebases/") and len(href.strip("/").split("/")) >= 2:
+            if MODEL_URL_PATTERN.match(href):
                 links.add(urljoin(BASE_URL, href))
-        
-        # Check for 'Next' page in pagination
-        next_page = None
-        next_btn = soup.find("a", string=lambda t: t and "Next" in t)
-        if next_btn:
-            next_page = urljoin(BASE_URL, next_btn['href'])
-            
-        return list(links), next_page
+        return links
     except Exception as e:
-        print(f"Error scanning {page_url}: {e}")
-        return [], None
+        print(f"Error scanning page {page_num}: {e}")
+        return set()
 
 def extract_codemeta_from_html(model_url):
-    """Visits model page and extracts JSON-LD from the <script> tag."""
+    """Checks for local file existence, then fetches and saves JSON-LD if missing."""
     try:
-        print(f"  Fetching: {model_url}")
+        # 1. Extract the ID from the URL
+        parts = model_url.rstrip("/").split("/")
+        model_id = parts[-1]
+        
+        # 2. Check if the file already exists locally
+        save_path = os.path.join(OUTPUT_DIR, f"{model_id}.json")
+        if os.path.exists(save_path):
+            print(f"  [Skip] {model_id}.json already exists locally.")
+            return
+
+        # 3. Only fetch if the file is missing
+        print(f"  Fetching Model: {model_id}")
         response = requests.get(model_url, headers=HEADERS, timeout=10)
         response.raise_for_status()
         
         soup = BeautifulSoup(response.content, "html.parser")
-        
-        # Locate the specific JSON-LD script tag
         script_tag = soup.find("script", type="application/ld+json")
         
         if script_tag and script_tag.string:
-            # Parse the text as JSON to ensure it's valid
             metadata = json.loads(script_tag.string)
-            
-            # Use the model UUID as the filename
-            # e.g., /codebases/15a2fc42-90bd-42c4-b21b-dfba428cdb16/...
-            model_id = model_url.split("/codebases/")[1].split("/")[0]
-            
-            save_path = os.path.join(OUTPUT_DIR, f"{model_id}.json")
             with open(save_path, "w", encoding='utf-8') as f:
                 json.dump(metadata, f, indent=4)
-                
-            print(f"    [OK] Saved metadata to {save_path}")
+            print(f"    [OK] Saved")
         else:
-            print(f"    [!] No JSON-LD found on page.")
+            print(f"    [!] No JSON-LD found.")
 
     except Exception as e:
         print(f"    [!] Error processing {model_url}: {e}")
 
 def main():
     ensure_dir(OUTPUT_DIR)
-    current_url = START_URL
-    # page_limit = 3  # Increase or remove this for a full scrape
+    
     current_page = 1
+    MAX_PAGES = 5 
 
-    while current_url:
+    while current_page <= MAX_PAGES:
         print(f"\n--- Processing Page {current_page} ---")
-        links, next_url = get_codebase_links(current_url)
+        links = get_model_links_from_page(current_page)
+        
+        if not links:
+            print("No models found on this page. Stopping extraction.")
+            break
+            
+        print(f"  -> Found {len(links)} valid model links.")
         
         for link in links:
             extract_codemeta_from_html(link)
-            time.sleep(1) # Politeness delay
+            # Politeness delay only if we are actually making a request
+            # We'll keep it short since we're only hitting model pages now
+            time.sleep(0.5) 
             
-        current_url = next_url
         current_page += 1
-        time.sleep(2)
+        time.sleep(1) 
 
     print("\nExtraction complete.")
 
