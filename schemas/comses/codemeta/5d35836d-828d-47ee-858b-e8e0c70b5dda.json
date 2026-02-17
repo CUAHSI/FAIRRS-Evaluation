@@ -1,0 +1,58 @@
+{
+    "@id": "https://www.comses.net/codebases/5d35836d-828d-47ee-858b-e8e0c70b5dda/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5d35836d-828d-47ee-858b-e8e0c70b5dda/releases/1.0.0/",
+    "name": "FRAMe (Flood Resilience Agent-Based Model)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-7824-9725",
+            "@type": "Person",
+            "email": "wenhan.feng@geographie.uni-muenchen.de",
+            "givenName": "Wenhan",
+            "familyName": "Feng",
+            "affiliation": {
+                "@id": "https://ror.org/05591te55",
+                "url": "https://www.lmu.de",
+                "name": "Ludwig-Maximilians-Universit\u00e4t M\u00fcnchen",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05591te55"
+            }
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5d35836d-828d-47ee-858b-e8e0c70b5dda/releases/1.0.0/",
+    "dateCreated": "2025-06-27",
+    "description": "The FRAMe (Flood Resilience Agent-Based Model) serves as a framework designed to simulate flood resilience dynamics at the community level, focusing on a rural settlement in the Mekong River Basin. Integrating empirical data from extensive surveys, Bayesian networks, and hydrological simulations, the framework quantifies resilience as a trade-off between robustness (resistance to damage) and adaptability (capacity for dynamic response). Agents include households, governments, and other actors, linked by social and governance networks that facilitate knowledge transfer, resource distribution, and risk communication. FRAMe incorporates mechanisms for flood forecasting, policy interventions (education, aid, insurance), and individual and collective decision-making, grounded in Protection Motivation Theory and MoHuB frameworks. The framework's spatially explicit design leverages GIS data, which supports scenario testing of governance structures and stakeholder interactions. By examining policy scenarios and agent behavior, FRAMe aims to inform adaptive flood management strategies and enhance community resilience.",
+    "downloadUrl": "https://www.comses.net/codebases/5d35836d-828d-47ee-858b-e8e0c70b5dda/releases/1.0.0/download/",
+    "dateModified": "2025-10-22",
+    "releaseNotes": "Initial release of the Flood Resilience Agent-Based Model (FRAMe), as presented in \u201cFRAMe: Empirically Informed Flood Resilience Agent-Based Model for the Mekong River Basin\u201d (Feng et al., 2025, MethodsX, DOI: 10.1016/j.mex.2025.103682).",
+    "copyrightYear": 2025,
+    "datePublished": "2025-10-22",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "computational experiments by using netlogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Netlogo 6.4.0",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "r language",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

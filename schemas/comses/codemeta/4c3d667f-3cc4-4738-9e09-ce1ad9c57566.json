@@ -1,0 +1,68 @@
+{
+    "@id": "https://www.comses.net/codebases/4c3d667f-3cc4-4738-9e09-ce1ad9c57566/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4c3d667f-3cc4-4738-9e09-ce1ad9c57566/releases/1.0.0/",
+    "name": "Modeling Prejudice Reduction",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "email": "patrick.grim@stonybrook.edu",
+            "givenName": "Patrick",
+            "familyName": "Grim"
+        },
+        {
+            "@id": "https://www.comses.net/users/5408/",
+            "@type": "Person",
+            "email": "wbraynen@gmail.com",
+            "givenName": "William",
+            "familyName": "Braynen"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based complex systems",
+        "agent-based modeling",
+        "desegregation",
+        "prejudice reduction",
+        "social psychology"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4c3d667f-3cc4-4738-9e09-ce1ad9c57566/releases/1.0.0/",
+    "dateCreated": "2026-01-20",
+    "description": "Software for an agent-based game-theoretic model of the contact hypothesis of prejudice reduction, to accompany \"Modeling Prejudice Reduction,\" in the Handbook of Computational Social Psychology, adapted from Public Affairs Quarterly 19 (2) 2005.",
+    "downloadUrl": "https://www.comses.net/codebases/4c3d667f-3cc4-4738-9e09-ce1ad9c57566/releases/1.0.0/download/",
+    "dateModified": "2026-01-20",
+    "releaseNotes": "Instructions for how to run it can be found at https://www.netlogoweb.org",
+    "copyrightYear": 2026,
+    "datePublished": "2026-01-20",
+    "codeRepository": "https://github.com/wbraynen/PrejudiceReduction",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "computational experiments by using netlogo",
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "NetLogo 7.0.4",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Grim, P., Selinger, E., Braynen, W., Rosenberger, R., Au, R., Louie, N., & Connolly, J. (2005). Modeling prejudice reduction: Spatialized game theory and the contact hypothesis. Public Affairs Quarterly, 19(2), 95-125."
+}

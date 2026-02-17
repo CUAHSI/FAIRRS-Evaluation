@@ -1,0 +1,78 @@
+{
+    "@id": "https://doi.org/10.25937/hjr6-sv47",
+    "url": "https://doi.org/10.25937/hjr6-sv47",
+    "name": "The Indus Village's Weather model: procedural generation of daily weather",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-9946-8142",
+            "@type": "Person",
+            "email": "andros.spica@gmail.com",
+            "givenName": "Andreas",
+            "familyName": "Angourakis",
+            "affiliation": {
+                "@id": "https://ror.org/04tsk2644",
+                "url": "http://www.ruhr-uni-bochum.de/index_en.htm",
+                "name": "Institute of Archaeological Studies, Ruhr-Universit\u00e4t Bochum",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04tsk2644"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Allen, Richard G., Luis S. Pereira, Dirk Raes, and Martin Smith. 1998. Crop Evapotranspiration - FAO Irrigation and Drainage Paper No. 56. Rome: FAO. http://www.fao.org/3/X0490E/x0490e00.htm.\n\nGuo, Danlu, Seth Westra, and Tim Peterson. 2022. \u2018Evapotranspiration: Modelling Actual, Potential and Reference Crop Evapotranspiration\u2019. https://cran.r-project.org/web/packages/Evapotranspiration/index.html.\n\nShabani, A., A. R. Sepaskhah, A. A. Kamgar-Haghighi, and T. Honar. 2018. \u2018Using Double Logistic Equation to Describe the Growth of Winter Rapeseed\u2019. Journal of Agricultural Science 156 (1): 37\u201345. https://doi.org/10.1017/S0021859617000934.\n\nSuleiman, Ayman A., and Gerrit Hoogenboom. 2007. \u2018Comparison of Priestley-Taylor and FAO-56 Penman-Monteith for Daily Reference Evapotranspiration Estimation in Georgia\u2019. Journal of Irrigation and Drainage Engineering 133 (2): 175\u201382. https://doi.org/10.1061/(ASCE)0733-9437(2007)133:2(175).\n\nWoli, Prem, James W. Jones, Keith T. Ingram, and Clyde W. Fraisse. 2012. \u2018Agricultural Reference Index for Drought (ARID)\u2019. Agronomy Journal 104 (2): 287. https://doi.org/10.2134/agronj2011.0286.\n\nZhao, Chuang, Bing Liu, Liujun Xiao, Gerrit Hoogenboom, Kenneth J. Boote, Belay T. Kassie, Willingthon Pavan, et al. 2019. \u2018A SIMPLE Crop Model\u2019. European Journal of Agronomy 104 (March):97\u2013106. https://doi.org/10.1016/J.EJA.2019.01.009.",
+            "@type": "CreativeWork"
+        },
+        {
+            "text": "No",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "climate",
+        "modules",
+        "NetLogo",
+        "procedural generation",
+        "R",
+        "weather"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/hjr6-sv47",
+        "https://doi.org/10.25937/hjr6-sv47"
+    ],
+    "dateCreated": "2025-02-13",
+    "description": "## Overview\n\nThe Weather model is a procedural generation model designed to create realistic daily weather data for socioecological simulations. It generates synthetic weather time series for solar radiation, temperature, and precipitation using algorithms based on sinusoidal and double logistic functions. The model incorporates stochastic variation to mimic unpredictable weather patterns and aims to provide realistic yet flexible weather inputs for exploring diverse climate scenarios.\n\nThe Weather model can be used independently or integrated into larger models, providing realistic weather patterns without extensive coding or data collection. It can be customized to meet specific requirements, enabling users to gain a better understanding of the underlying mechanisms and have greater confidence in their applications.\n\n## Key aspects\n\n*   **Procedural Generation:** The Weather model is not a simulation model but a procedural generation engine. It does not represent realistic processes behind its output but generates datasets stochastically that match a range of sought patterns using meaningful parameters.\n*   **Realistic Weather Patterns:** The model generates realistic time series of weather variables for a point location based on the distinction between climate and weather patterns. Climate patterns are long-term averages, particularly seasonality, while weather patterns are day-to-day variations around the climatic average, representing inter-annual variability and unpredictable events.\n*   **Targeted Weather Variables:** The Weather model produces daily values of all-sky insolation (solar radiation) in megajoules (MJ), average/max/min temperature in degrees Celsius (\u00baC), and total precipitation in millimeters (mm).\n*   **Integration with the Indus Village Model:** The Weather model was designed as a component of the Indus Village model, a larger simulation framework studying the Indus Civilization. It provides essential environmental inputs related to climate conditions, which, combined with regional hydrological dynamics, shape the environmental variables that inform the rest of the system. The Weather model's output is pre-adapted for use by the Soil Water and Crop models, making it an integral part of the Land Water model.\n*   **Flexibility and Adaptability:** The Weather model can generate a wide variety of patterns with parameters directly related to the model output. Once the role of parameters is understood, patterns can be explicitly sought and controlled.\n\n## Implementations\n\nThe Weather model is implemented in NetLogo and R, offering a computationally efficient method to generate extensive weather data. The implementations include auxiliary algorithms such as the calculation of reference evapotranspiration. The source code is available on GitHub, as part of the [Indus Village model repository](https://github.com/Two-Rains/indus-village-model/tree/master/01-weather) and in the [supplementary materials for a dedicated publication](https://github.com/Two-Rains/Weather-Angourakis-et-al-2025/) (in submission).\n\n## Design details\n\nThe Weather model uses two general equations:\n\n*  A sinusoidal function that approximates daily solar radiation and temperature as a sinusoid wave.\n\n*   A double logistic function that approximates the annual cumulative precipitation as the sequence of two logistic curves.\n\nThe procedural approach offers a balance between complexity and flexibility. By employing parametric equations and algorithms, procedural models avoid dependence on extensive datasets, allowing for the flexible exploration of diverse weather scenarios. This design also circumvents the computational challenges of mechanistic models and the static and biased nature of observational datasets.\n\n## Caveats \n\nThe current version of the Weather model does not account for the delaying and depressing effects of atmospheric particles, humidity, and cloudiness on solar radiation and temperature. Also, precipitation might overestimate daily amounts, introducing unrealistic spikes due to the relatively free sampling of year parameters.\n",
+    "downloadUrl": "https://www.comses.net/codebases/32d7408e-3c2d-4281-8df3-09feff435e25/releases/1.0.0/download/",
+    "dateModified": "2025-05-17",
+    "releaseNotes": "**NetLogo implementation**\nUSE: default workflow in NetLogo (`setup`, then `go`; parameters adjustable in interface). \nNOTE: The current version updates a few minor code fragments in relation to the one used in Angourakis et. al. (2022). Outputs remains largely the same.\nDEPENDENCIES: NetLogo 6.4.0. No extensions are required.\n\n**R implementation**\nUSE: Import code base with `source()`, then create model instance with `initialise_weather_model()` and `run_weather_model()`. Specific arguments are required as parameters and run options. Roxygen documentation is available.\nNOTE: Atmospheric CO2 concentrations are not included explicitly in this implementation, but can be easily covered following the approach used for solar radiation.\nDEPENDENCIES: R 4.3.3. No extra packages are required.",
+    "copyrightYear": 2025,
+    "datePublished": "2025-05-13",
+    "codeRepository": "https://github.com/Two-Rains/indus-village-model",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Netlogo",
+        "R"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "procedural generation",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Angourakis, Andreas, Jean-Philippe Baudouin, and Cameron A. Petrie. (in submission). The Weather model (Indus Village): procedural generation of daily weather for the simulation of small-scale socioecological systems. JASSS X (X). DOI: X\n\nAngourakis, Andreas, Jennifer Bates, Jean-Philippe Baudouin, Alena Giesche, Joanna R. Walker, M. Cemre Ustunkaya, Nathan Wright, Ravindra Nath Singh, and Cameron A. Petrie. 2022. \u2018Weather, Land and Crops in the Indus Village Model: A Simulation Framework for Crop Dynamics under Environmental Variability and Climate Change in the Indus Civilisation\u2019. Quaternary 5 (2): 25. https://doi.org/10.3390/quat5020025.\n\nAngourakis, Andreas. 2021. \u2018Two-Rains/Indus-Village-Model: The Indus Village Model Development Files (May 2021)\u2019. Zenodo. https://doi.org/10.5281/zenodo.4814255."
+}

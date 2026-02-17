@@ -1,0 +1,77 @@
+{
+    "@id": "https://www.comses.net/codebases/9eac8588-3b05-47a4-aa1b-8e23f80bdc57/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/9eac8588-3b05-47a4-aa1b-8e23f80bdc57/releases/1.0.0/",
+    "name": "Agent-based Modelling of Unsustainable and Sustainable Norms Under Resource Constraints",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "email": "adrianwillthomas@gmail.com",
+            "givenName": "Adrian",
+            "familyName": "Thomas"
+        },
+        {
+            "@id": "https://www.comses.net/users/5367/",
+            "@type": "Person",
+            "email": "fachrizal.sng@gmail.com",
+            "givenName": "Fachrizal",
+            "familyName": "Sinaga",
+            "affiliation": {
+                "url": "https://www.sydney.edu.au/",
+                "name": "The University of Sydney",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "sufywanfawwad@mail.com",
+            "givenName": "Sufyan",
+            "familyName": "Fawwad"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Roope Oskari Kaaronen, Nikita Strelkovskii (2019, December 04). \u201cCultural Evolution of Sustainable Behaviours: Landscape of Affordances Model\u201d (Version 1.2.0). CoMSES Computational Model Library. Retrieved from: https://doi.org/10.25937/z8x6-2v73",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "common pool resource",
+        "coupled socio-environmental system",
+        "social behavior"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/9eac8588-3b05-47a4-aa1b-8e23f80bdc57/releases/1.0.0/",
+    "dateCreated": "2025-11-24",
+    "description": "This model explores the coupled dynamics of social norm diffusion and finite resource depletion. Extending the \"Affordance Landscape\" framework by Kaaronen & Strelkovskii (2020), this simulation investigates how resource scarcity and regeneration rates influence the adoption of pro-environmental behaviours.\n\nThe model addresses the gap by linking behavioural norms to a depleting common-pool resource. It tests whether sustainable norms can diffuse rapidly enough to prevent ecological collapse and identifies \"tipping points\" where resource scarcity acts as a driver for behavioural change.",
+    "downloadUrl": "https://www.comses.net/codebases/9eac8588-3b05-47a4-aa1b-8e23f80bdc57/releases/1.0.0/download/",
+    "dateModified": "2025-11-24",
+    "releaseNotes": "This initial release of the introduces a coupled socio-ecological framework to the original Kaaronen & Strelkovskii model, designed to investigate if sustainable norms can diffuse fast enough to prevent resource collapse. By integrating a finite, regenerating resource stock with explicit Erd\u0151s\u2013R\u00e9nyi social networks, the simulation explores how ecological constraints, specifically resource scarcity, interact with social norms and infrastructure to drive behavioural change. Key to this extension is the implementation of a scarcity feedback loop, where the utility of unsustainable behaviour is penalized via a cubic function as resources deplete, simulating a \"necessity-driven\" transition mechanism that forces agents to adapt even against their habits.",
+    "copyrightYear": 2025,
+    "datePublished": "2025-11-24",
+    "operatingSystem": "other",
+    "runtimePlatform": [
+        "Netlog0 6.2.2"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Netlogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

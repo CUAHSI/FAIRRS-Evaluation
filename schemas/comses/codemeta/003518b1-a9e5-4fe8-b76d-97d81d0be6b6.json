@@ -1,0 +1,103 @@
+{
+    "@id": "https://www.comses.net/codebases/003518b1-a9e5-4fe8-b76d-97d81d0be6b6/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/003518b1-a9e5-4fe8-b76d-97d81d0be6b6/releases/1.0.0/",
+    "name": "Tax vs ETS ABM",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1169/",
+            "@type": "Person",
+            "email": "davide.natalini@hotmail.it",
+            "givenName": "Davide",
+            "familyName": "Natalini",
+            "affiliation": {
+                "url": "http://www.anglia.ac.uk/ruskin/en/home/microsites/global_sustainability_institute.html?utm_source=gsi&utm_medium=url&utm_campaign=redirect&utm_content=gsi.marketing.mar11",
+                "name": "Global Sustainability Institute",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "aled.jones@aru.ac.uk",
+            "givenName": "Aled",
+            "familyName": "Jones",
+            "affiliation": {
+                "@id": "https://ror.org/0009t4v78",
+                "url": "https://www.aru.ac.uk/",
+                "name": "Anglia Ruskin University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0009t4v78"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "simonsharpe@scurveeconomics.org",
+            "givenName": "Simon",
+            "familyName": "Sharpe"
+        },
+        {
+            "@id": "https://www.comses.net/users/1169/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "No",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "alternative policies",
+        "carbon tax",
+        "electricity",
+        "electricity market",
+        "ets",
+        "technological endogenous innovation"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/003518b1-a9e5-4fe8-b76d-97d81d0be6b6/releases/1.0.0/",
+    "dateCreated": "2025-06-26",
+    "description": "This agent-based model (ABM), developed in NetLogo and available on the COMSES repository, simulates a stylized, competitive electricity market to explore the effects of carbon pricing policies under conditions of technological innovation. Unlike traditional models that treat innovation as exogenous, this ABM incorporates endogenous innovation dynamics, allowing clean technology costs to evolve based on cumulative deployment (Wright\u2019s Law) or time (Moore\u2019s Law). Electricity generation companies act as agents, making investment decisions across coal, gas, wind, and solar PV technologies based on expected returns and market conditions. The model evaluates three policy scenarios\u2014No Policy, Emissions Trading System (ETS), and Carbon Tax\u2014within a merit-order market framework. It is partially empirically grounded, using real-world data for technology costs and emissions caps. By capturing emergent system behavior, this model offers a flexible and transparent tool for analyzing the transition to low-carbon electricity systems.",
+    "downloadUrl": "https://www.comses.net/codebases/003518b1-a9e5-4fe8-b76d-97d81d0be6b6/releases/1.0.0/download/",
+    "dateModified": "2025-06-27",
+    "releaseNotes": "Current version is V3.9",
+    "copyrightYear": 2025,
+    "datePublished": "2025-06-27",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Netlogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Forthcoming"
+}

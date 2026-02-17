@@ -1,0 +1,81 @@
+{
+    "@id": "https://doi.org/10.25937/sqh5-8241",
+    "url": "https://doi.org/10.25937/sqh5-8241",
+    "name": "ABM for Social Cohesion and Wellbeing(ABMSCWB)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-5098-893X",
+            "@type": "Person",
+            "email": "taseer.salahuddin@ihu.edu.tr",
+            "givenName": "Taseer",
+            "familyName": "Salahuddin",
+            "affiliation": {
+                "@id": "https://ror.org/01zp49f50",
+                "url": "http://www.gscwu.edu.pk/",
+                "name": "Government Sadiq College Women University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01zp49f50"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "hasan.vergil@ihu.edu.tr",
+            "givenName": "Hasan",
+            "familyName": "Vergil",
+            "affiliation": {
+                "url": "https://www.ihu.edu.tr/en/",
+                "name": "Ibn Haldun University, Istanbul",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.html",
+        "name": "Apache-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "no",
+            "@type": "CreativeWork"
+        }
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/sqh5-8241",
+        "https://doi.org/10.25937/sqh5-8241"
+    ],
+    "dateCreated": "2025-04-24",
+    "description": "ABM model studying impact of social cohesion on wellbeing of a society. Ibn  Khaldun's cyclical theory of history is being used as the theoretical lens along with some other theories. Social cohesion is measured as \tTSC = (TVE + 2 * (TPI * TPL - TNI * TNL))/((TPI+TNI))\nWhere \n  TSC total-social-cohesion\t\t\t\t    ; Variable for social cohesion\n  TPI total-positive-interactions      ; Count of positive interactions\n  TNI total-negative-interactions      ; Count of negative interactions\n  TPL total-positive-learning                   ; Count of positive learning outcomes\n  TNL total-negative-learning                                                    ; Count of negative learning outcomes \nand total wellbeing is measured as TWB = TVE + TME .... where TME = TBE + TRE... TBE = total birth energy, TVE is the summation of randomly assigned valued energies of turtles who have two breeds hedonic (if VE = 0-49) and eudemonic (if VE = 50-100). TRE is the total resource energy acquired by the agents by consuming renewable and non-renewable resources. Social cohesion is impacted by changing negative-interaction-cost and positive-interaction-benefit and also the reproduction threshold. experiment was designed to change these values and see the change in the values of TSC and TWB. 2500 runs were done and data generated for TSC and TWB. ",
+    "downloadUrl": "https://www.comses.net/codebases/a62efcea-bec7-4b5a-961c-aa655ca01cb1/releases/1.0.0/download/",
+    "dateModified": "2025-06-25",
+    "releaseNotes": "Netlogo 6.2.0 was used",
+    "copyrightYear": 2025,
+    "datePublished": "2025-06-25",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo 6.2.0"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "nil"
+}

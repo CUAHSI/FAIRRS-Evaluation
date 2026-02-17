@@ -1,0 +1,97 @@
+{
+    "@id": "https://doi.org/10.25937/dfpn-fh81",
+    "url": "https://doi.org/10.25937/dfpn-fh81",
+    "name": "Urban Transport Mode Choices",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/5069/",
+            "@type": "Person",
+            "email": "kgsalaza@unal.edu.co",
+            "givenName": "Kathleen",
+            "familyName": "Salazar -Serna"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "dlcadavi@unal.edu.co",
+            "givenName": "Lorena",
+            "familyName": "Cadavid",
+            "affiliation": {
+                "url": "https://medellin.unal.edu.co/",
+                "name": "Universidad Nacional de Colombia - Sede Medellin",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "cjfranco@unal.edu.co",
+            "givenName": "Carlos",
+            "familyName": "Franco",
+            "affiliation": {
+                "url": "https://medellin.unal.edu.co/",
+                "name": "Universidad Nacional de Colombia - Sede Medellin",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "ABM",
+        "NetLogo",
+        "Social Networks",
+        "sustainable transportation",
+        "transportation",
+        "transportation systems",
+        "transport mode choice",
+        "urban passenger transport",
+        "urban travel"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/dfpn-fh81",
+        "https://doi.org/10.25937/dfpn-fh81"
+    ],
+    "dateCreated": "2025-04-22",
+    "description": "The model represents urban commuters\u2019 transport mode choices among cars, public transit, and motorcycles\u2014a mode highly prevalent in developing countries. Using an agent-based modeling approach, it simulates transport dynamics and serves as a testbed for evaluating policies aimed at improving mobility.\n\nThe model simulates an ecosystem of human agents who decide, at each time step, which mode of transportation to use for commuting to work. Their decision is based on a combination of personal satisfaction with their most recent journey\u2014evaluated across a vector of individual needs\u2014the information they crowdsource from their social network, and their personal uncertainty regarding trying new transport options.\n\nAgents are assigned demographic attributes such as sex, age, and income level, and are distributed across city neighborhoods according to their socioeconomic status. To represent social influence in decision-making, agents are connected via a scale-free social network topology, where connections are more likely among agents within the same socioeconomic group, reflecting the tendency of individuals to form social ties with similar others.\n\nBy adjusting parameters related to transport attributes, the model enables the evaluation of policy impacts on mobility through metrics such as CO2 emissions, road accidents, and travel time.",
+    "downloadUrl": "https://www.comses.net/codebases/3523ccd0-c6fe-46d1-a1fb-aae60e2540f4/releases/1.0.0/download/",
+    "dateModified": "2025-05-22",
+    "releaseNotes": "Initial release of the simulation model for Urban Transport Mode Choices",
+    "copyrightYear": 2025,
+    "datePublished": "2025-05-22",
+    "embargoEndDate": "2025-04-22",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Netlogo 6.4.0",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "10.1007/978-3-031-43129-6_21\n10.1109/WSC60868.2023.10408063\n10.1109/WSC63780.2024.10838860"
+}

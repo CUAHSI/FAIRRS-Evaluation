@@ -1,0 +1,74 @@
+{
+    "@id": "https://www.comses.net/codebases/be07e911-4f08-47c7-bbe1-f2b36f176047/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/be07e911-4f08-47c7-bbe1-f2b36f176047/releases/1.0.0/",
+    "name": "The SAFIRe model : Simulation of Agents for Fertility, Integrated Energy, Food security, and Reforestation",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-6633-6269",
+            "@type": "Person",
+            "email": "etienne.delay@cirad.fr",
+            "givenName": "Etienne",
+            "familyName": "DELAY",
+            "affiliation": {
+                "url": "https://ur-green.cirad.fr/en",
+                "name": "CIRAD",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "lucasbrt43@gmail.com",
+            "givenName": "Lucas",
+            "familyName": "Broutin",
+            "affiliation": {
+                "@id": "https://ror.org/04gpe6h67",
+                "url": "https://umr-sens.fr",
+                "name": "Savoirs, Environnement, Soci\u00e9t\u00e9s",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04gpe6h67"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agropastoralism",
+        "ComExp",
+        "Commod",
+        "food security",
+        "Senegal"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/be07e911-4f08-47c7-bbe1-f2b36f176047/releases/1.0.0/",
+    "dateCreated": "2025-06-12",
+    "description": "The SAFIRe model (Simulation of Agents for Fertility, Integrated Energy, Food Security, and Reforestation) is an agent-based model co-developed with rural communities in Senegal's Groundnut Basin. Its purpose is to explore how local farming and pastoral practices affect the regeneration of Faidherbia albida trees, which are essential for maintaining soil fertility and supporting food security through improved millet production. The model supports collective reflection on how different social and ecological factors interact, particularly around firewood demand, livestock pressure, and agricultural intensification.\n\nThe model simulates a 100-hectare agricultural landscape where agents (farmers, shepherds, woodcutters, and supervisors) interact with trees, land parcels, and each other. It incorporates seasonality, crop rotation, tree growth and cutting, livestock feeding behaviors, and farmers\u2019 engagement in sapling protection through Assisted Natural Regeneration (ANR). Two types of surveillance strategies are compared: community-led monitoring and delegated surveillance by forestry authorities. Farmer engagement evolves over time based on peer influence, meeting participation, and the success of visible tree regeneration efforts.\n\nSAFIRe integrates participatory modeling (ComMod and ComExp) and a backcasting approach (ACARDI) to co-produce scenarios rooted in local aspirations. It was explored using the OpenMole platform, allowing stakeholders to test a wide range of future trajectories and analyze the sensitivity of key parameters (e.g., discussion frequency, time in fields). The model's outcomes not only revealed unexpected insights\u2014such as the hidden role of farmers in tree loss\u2014but also led to real-world actions, including community nursery creation and behavioral shifts toward tree care. SAFIRe illustrates how agent-based modeling can become a tool for social learning and collective action in socio-ecological systems.",
+    "downloadUrl": "https://www.comses.net/codebases/be07e911-4f08-47c7-bbe1-f2b36f176047/releases/1.0.0/download/",
+    "dateModified": "2025-06-12",
+    "releaseNotes": "This is the first iteration of the model. It gathers all the elements as described by the participants during the workshops and has been collectively validated with them -- through dialogue, negotiation, and shared understanding. It is not a final truth, but a situated articulation of their lived experiences and concerns, translated into code.",
+    "copyrightYear": 2025,
+    "datePublished": "2025-06-12",
+    "codeRepository": "https://github.com/LucTin4/real-tree-model",
+    "operatingSystem": "linux",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,83 @@
+{
+    "@id": "https://www.comses.net/codebases/7f5b456a-d734-4b64-8aa8-007337b3cd62/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/7f5b456a-d734-4b64-8aa8-007337b3cd62/releases/1.0.0/",
+    "name": "An Agent-Based Model of Farmland  Trading Partners Selection",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-4949-2777",
+            "@type": "Person",
+            "email": "hang.xiong@outlook.com",
+            "givenName": "Hang",
+            "familyName": "Xiong",
+            "affiliation": {
+                "@id": "https://ror.org/05a28rw58",
+                "url": "https://ethz.ch",
+                "name": "ETH Zurich",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05a28rw58"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0009-0004-3233-9559",
+            "@type": "Person",
+            "email": "uinapril@gmail.com",
+            "givenName": "Chen",
+            "familyName": "Yuxin",
+            "affiliation": {
+                "@id": "https://ror.org/011ashp19",
+                "url": "https://scu.edu.cn",
+                "name": "Sichuan University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/011ashp19"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/5335/",
+            "@type": "Person",
+            "email": "xinfan.wang@outlook.com",
+            "givenName": "Xinfan",
+            "familyName": "Wang"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based",
+        "decision making",
+        "farmland transfer",
+        "Netlogo",
+        "social relationship networks"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/7f5b456a-d734-4b64-8aa8-007337b3cd62/releases/1.0.0/",
+    "dateCreated": "2025-08-19",
+    "description": "This base model uses an agent-based approach to represent heterogeneous farmers\u2019 trading partners selection among multiple recipients (other farmers, village collectives, and firms). Each period, a potential transfer-out farmer decides whether to transfer based on a net-return versus transaction-cost trade-off; if transferring, the farmer selects the counterparty with the highest expected profit. Meanwhile, social learning\u2014operationalized as logistic accumulation of neighborhood experience\u2014continuously updates uncertainty, which in turn shapes transaction costs and subsequent decisions.",
+    "downloadUrl": "https://www.comses.net/codebases/7f5b456a-d734-4b64-8aa8-007337b3cd62/releases/1.0.0/download/",
+    "dateModified": "2025-08-19",
+    "releaseNotes": "Release Notes (v1.0.0) \u2014 Base Model\n\nRelease date: 2025-08-20 \nScope: public release of the foundation version, including core mechanisms and parameter calibration, but not scenario switches.",
+    "copyrightYear": 2025,
+    "datePublished": "2025-08-19",
+    "embargoEndDate": "2025-08-20",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetlLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "ABM",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

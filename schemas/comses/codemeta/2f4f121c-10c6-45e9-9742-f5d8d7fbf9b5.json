@@ -1,0 +1,125 @@
+{
+    "@id": "https://doi.org/10.25937/5g8t-qw73",
+    "url": "https://doi.org/10.25937/5g8t-qw73",
+    "name": "soslivestock model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/4046/",
+            "@type": "Person",
+            "email": "diego.soler.navarro@gmail.com",
+            "givenName": "Diego J.",
+            "familyName": "Soler-Navarro",
+            "affiliation": {
+                "@id": "https://ror.org/012a91z28",
+                "url": "https://en.wikipedia.org/wiki/University_of_Zaragoza",
+                "name": "Universidad de Zaragoza",
+                "@type": "Organization",
+                "identifier": "https://ror.org/012a91z28"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-5756-2715",
+            "@type": "Person",
+            "email": "alicia.tenza@gmail.com",
+            "givenName": "Alicia",
+            "familyName": "Tenza Peral",
+            "affiliation": {
+                "name": "AgriFood Institute of Aragon",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Person",
+            "email": "marco.janssen@asu.edu",
+            "givenName": "Marco",
+            "familyName": "Janssen",
+            "affiliation": {
+                "url": "https://schoolofsustainability.asu.edu/",
+                "name": "School of Sustainability",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/239/",
+            "@type": "Person",
+            "email": "ire.perezi@gmail.com",
+            "givenName": "Irene",
+            "familyName": "Perez Ibarra",
+            "affiliation": {
+                "url": "http://csid.asu.edu/",
+                "name": "Center for the Study of Institutional Diversity",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-5756-2715",
+            "@type": "Role",
+            "roleName": "collaborator"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Role",
+            "roleName": "collaborator"
+        },
+        {
+            "@id": "https://www.comses.net/users/239/",
+            "@type": "Role",
+            "roleName": "collaborator"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.1",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Soler-Navarro, D.J., Tenza-Peral, A., Dieguez-Cameroni, F., Bommel, P., Janssen, M., P\u00e9rez-Ibarra, I. (2023). \u201cSequiaBasalto model\u201d (Version 1.0.0). CoMSES Computational Model Library. Retrieved from: https://www.comses.net/codebases/6c4b759c-71f3-4da8-ac1d-3c130158a481/releases/1.0.0/\n\nDieguez Cameroni, F.J., Terra, R., Tabarez, S., Bommel, P., Corral, J., Bartaburu, D., Pereira, M., Montes, E., Duarte, E., Morales Grosskopf, H., 2014. Virtual experiments using a participatory model to explore interactions between climatic variability and management decisions in extensive systems in the basaltic region of Uruguay. Agricultural Systems. 130, 89\u2013 104. http://dx.doi.org/10.1016/j.agsy.2014.07.002\n\nDieguez Cameroni, F.J., Bommel, P., Corral, J., Bartaburu, D., Pereira, M., Montes, E., Duarte, E., Morales Grosskopf, H., 2012. Modelizaci\u00f3n de una explotaci\u00f3n ganadera extensiva criadora en basalto. Agrociencia Uruguay. 16(2), 120-130.\n\nBommel, P., Dieguez Cameroni, F.J., Bartaburu, D., Duarte, E., Montes, E., Pereira, M., Corral, J., Lucena, C., Morales, H., 2014. A Further Step Towards Participatory Modelling. Fostering Stakeholder Involvement in Designing Models by Using Executable UML. Journal of Artificial Societies and Social Simulation 17 (1) 6. http://jasss.soc.surrey.ac.uk/17/1/6.html\n\nMorales Grosskopf, H., Tourrand, J. F., Bartaburu, D., Dieguez Cameroni, F.J., Bommel, P., Corral, J., Montes, E., Pereira, M., Duarte, E., De Hegedus, P., 2015. Use of simulations to enhance knowledge integration and livestock producers\u2019 adaptation to variability in the climate in northern Uruguay. The Rangeland Journal, 37(4), 425-432. https://doi.org/10.1071/RJ14063",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "climate change adaptation",
+        "extensive",
+        "farmer decision making",
+        "grazing",
+        "livestock",
+        "natural resources",
+        "stocking rate",
+        "sustainability"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/5g8t-qw73",
+        "https://doi.org/10.25937/5g8t-qw73"
+    ],
+    "dateCreated": "2025-05-28",
+    "description": "The purpose of this model is to analyze how different management strategies affect the wellbeing, sustainability and resilience of an extensive livestock system under scenarios of climate change and landscape configurations. For this purpose, it simulates one cattle farming system, in which agents (cattle) move through the space using resources (grass). Three farmer profiles are considered: 1) a subsistence farmer that emphasizes self-sufficiency and low costs with limited attention to herd management practices, 2) a commercial farmer focused on profit maximization through efficient production methods, and 3) an environmental farmer that prioritizes conservation of natural resources and animal welfare over profit maximization. These three farmer profiles share the same management strategies to adapt to climate and resource conditions, but differ in their goals and decision-making criteria for when, how, and whether to implement those strategies. This model is based on the SequiaBasalto model (Dieguez Cameroni et al. 2012, 2014, Bommel et al. 2014 and Morales et al. 2015), replicated in NetLogo by Soler-Navarro et al. (2023).\n\nOne year is 368 days. Seasons change every 92 days. Each step begins with the growth of grass as a function of climate and season. This is followed by updating the live weight of animals according to the grass height of their patch, and grass consumption, which is determined based on the updated live weight. Animals can be supplemented by the farmer in case of severe drought. After consumption, cows grow and reproduce, and a new grass height is calculated. This updated grass height value becomes the starting grass height for the next day. Cows then move to the next area with the highest grass height. After that, cattle prices are updated and cattle sales are held on the first day of fall. In the event of a severe drought, special sales are held. Finally, at the end of the day, the farm balance and the farmer's effort are calculated.",
+    "downloadUrl": "https://www.comses.net/codebases/2f4f121c-10c6-45e9-9742-f5d8d7fbf9b5/releases/1.1.1/download/",
+    "dateModified": "2025-06-10",
+    "releaseNotes": "1) The logic of how the different climacoef values in the historical-climacoef list are synchronized with each season has been improved: I added a new variable called \"clock-historical-climacoef\" to more efficiently synchronize each climacoef value with each season, and this new variable is also used to stop the model once the historical-climacoef list is finished (thus preventing the model from returning an error message as it did before).\n\n2) Previously, the \"Accumulated balance\" and \"Stocking rate\" plots had their titles in red, indicating that something wasn't quite right (although it didn't affect the correct performance of the model). This has been fixed by doing the following:\n- In the code, within the \"setup-globals procedure\", I changed \u201cset balance-historyXticks []\u201d to \u201cset balance-historyXticks 0\u201d. I did the same for the the other variables with \"xxxxxx-historyXticks-xxx\"\n- In the \"Stocking rate plot\": apparently there is an option to not plot a value, using plot-pen-up, so in the pen update commands I have written: ifelse (spatial-management = \"rotational grazing\") [plot paddock-SR][plot-pen-up]. In this way, the line \"Paddock-SR\" is only displayed when rotational grazing management is in effect.\n\n3) In the \"Carrying capacity vs Livestock population\" plot, I have changed the pen update commands for the \"EST. Carrying capacity (only for Env. farmer)\" pen: ifelse (farmer-profile = \"environmental\") [plot estimated-carrying-capacity ][plot-pen-up]. In this way, this line will only be displayed when environmental farmer profile is selected.",
+    "copyrightYear": 2025,
+    "datePublished": "2025-06-10",
+    "codeRepository": "https://github.com/DiegoJSN/soslivestock/tree/soslivestock",
+    "embargoEndDate": "2025-01-31",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo 6.2.1"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo 6.2.1",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

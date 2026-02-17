@@ -1,0 +1,104 @@
+{
+    "@id": "https://www.comses.net/codebases/3eae1616-56c3-4b55-ad01-6f0477d73716/releases/1.6.0/",
+    "url": "https://www.comses.net/codebases/3eae1616-56c3-4b55-ad01-6f0477d73716/releases/1.6.0/",
+    "name": "Incentives for data sharing",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/5235/",
+            "@type": "Person",
+            "email": "t.klebel@hotmail.com",
+            "givenName": "Thomas",
+            "familyName": "Klebel",
+            "affiliation": {
+                "@id": "https://ror.org/004zhad81",
+                "url": "https://www.know-center.at",
+                "name": "Know Center Research GmbH (Austria)",
+                "@type": "Organization",
+                "identifier": "https://ror.org/004zhad81"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-7473-1928",
+            "@type": "Person",
+            "email": "federico.bianchi1@unimi.it",
+            "givenName": "Federico",
+            "familyName": "Bianchi",
+            "affiliation": {
+                "@id": "https://ror.org/00wjc7c48",
+                "url": "http://www.unimi.it/ENG/",
+                "name": "Department of Social and Political Sciences, University of Milan (Italy)",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00wjc7c48"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "tross@know-center.at",
+            "givenName": "Tony",
+            "familyName": "Ross-Hellauer",
+            "affiliation": {
+                "@id": "https://ror.org/004zhad81",
+                "url": "https://www.know-center.at",
+                "name": "Know Center Research GmbH (Austria)",
+                "@type": "Organization",
+                "identifier": "https://ror.org/004zhad81"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-6503-6077",
+            "@type": "Person",
+            "email": "flaminio.squazzoni@unimi.it",
+            "givenName": "Flaminio",
+            "familyName": "Squazzoni",
+            "affiliation": {
+                "@id": "https://ror.org/00wjc7c48",
+                "url": "http://www.unimi.it/ENG/",
+                "name": "University of Milan",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00wjc7c48"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.6.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Thomas Klebel, & Federico Bianchi. (2025). tklebel/data-sharing-policies: Data and Code for \"The paradox of competition: How funding models could undermine the uptake of data sharing practices\" Latest (v1.6.0). Zenodo. https://doi.org/10.5281/zenodo.15534439",
+            "@type": "CreativeWork"
+        }
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3eae1616-56c3-4b55-ad01-6f0477d73716/releases/1.6.0/",
+    "dateCreated": "2025-05-28",
+    "description": "Although beneficial to scientific development, data sharing is still uncommon in many research areas. Various organisations, including funding agencies that endorse open science, aim to increase its uptake. However, estimating the large-scale implications of different policy interventions on data sharing by funding agencies, especially in the context of intense competition among academics, is difficult empirically. Here, we built an agent-based model to simulate the effect of different funding schemes (i.e., highly competitive large grants vs. distributive small grants), and varying intensity of incentives for data sharing on the uptake of data sharing by academic teams strategically adapting to the context.",
+    "downloadUrl": "https://www.comses.net/codebases/3eae1616-56c3-4b55-ad01-6f0477d73716/releases/1.6.0/download/",
+    "dateModified": "2025-10-02",
+    "releaseNotes": "Initial release of the model.",
+    "copyrightYear": 2025,
+    "datePublished": "2025-10-02",
+    "codeRepository": "https://github.com/tklebel/data-sharing-policies",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "https://doi.org/10.1016/j.respol.2025.105340"
+}

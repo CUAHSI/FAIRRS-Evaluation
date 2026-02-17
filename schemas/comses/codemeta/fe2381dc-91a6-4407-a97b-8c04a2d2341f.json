@@ -1,0 +1,53 @@
+{
+    "@id": "https://www.comses.net/codebases/fe2381dc-91a6-4407-a97b-8c04a2d2341f/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/fe2381dc-91a6-4407-a97b-8c04a2d2341f/releases/1.0.0/",
+    "name": "Netlogo model ` Effect of Network Homophily and Partisanship on Social Media to \u201cOil Spill\u201d Polarizations\u2019",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/5167/",
+            "@type": "Person",
+            "email": "takuya.nagura@akiyama-lab.net",
+            "givenName": "takuya",
+            "familyName": "nagura"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "communication networks",
+        "polarization",
+        "social media"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/fe2381dc-91a6-4407-a97b-8c04a2d2341f/releases/1.0.0/",
+    "dateCreated": "2025-09-12",
+    "description": "This model was utilized for the simulation in the paper titled Effect of Network Homophily and Partisanship on Social Media to \u201cOil Spill\u201d Polarizations. It allows you to examine whether oil spill polarization occurs through people's communication under various conditions.\n\n\u30fbChoose the network construction conditions you'd like to examine from the \"rewire-style\" chooser box.\n\u30fbSelect the desired strength of partisanship from the \"partisanlevel\" chooser box. You can also set the strength manually in the code tab.\n\u30fbYou can set the number of dynamic topics using the \"number-of-topics\" slider.\n\u30fbUse the \"divers-of-opinion\" slider to set the number of preference types for each dynamic topic.\n\u30fbIf \"rewire-style\" is set to random, you can set the probability that network rewiring will be performed using the \"random-rewire-probability\" slider.\n\u30fbYou can set the maximum number of steps for each simulation using the \"overtimesteps\" slider.\n\u30fbPress the walkthrough button to run the simulation the number of times set in \"iterate\".\n\n\nUpon completion of each simulation, the model outputs a variety of parameters. These include each user's final preferences, their following group, the similarity of their preferences with followed users, and interaction probabilities. It also outputs overall metrics such as same-q, diff-q, and psi to measure the level of oil spill polarization.\n\nTo run the simulation, you'll need to specify the desired output directory from the code tab.",
+    "downloadUrl": "https://www.comses.net/codebases/fe2381dc-91a6-4407-a97b-8c04a2d2341f/releases/1.0.0/download/",
+    "dateModified": "2025-09-12",
+    "releaseNotes": "published",
+    "copyrightYear": 2025,
+    "datePublished": "2025-09-13",
+    "embargoEndDate": "2025-09-12",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Netlogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Netlogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

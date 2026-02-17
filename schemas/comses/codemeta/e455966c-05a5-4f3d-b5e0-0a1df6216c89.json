@@ -1,0 +1,45 @@
+{
+    "@id": "https://www.comses.net/codebases/e455966c-05a5-4f3d-b5e0-0a1df6216c89/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/e455966c-05a5-4f3d-b5e0-0a1df6216c89/releases/1.0.0/",
+    "name": "Selective Depolarization by Endogenous Migration in Attraction-Repulsion Opinion Dynamics (NetLogo)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/5461/",
+            "@type": "Person",
+            "email": "poyeker@gmail.com"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/e455966c-05a5-4f3d-b5e0-0a1df6216c89/releases/1.0.0/",
+    "dateCreated": "2026-02-17",
+    "description": "This model implements a coupled opinion-mobility agent-based framework in NetLogo, extending Attraction-Repulsion Model (ARM) dynamics with endogenous migration in continuous 2D space.\n\nEach agent has an opinion s in [0,1] and a spatial position (x,y). Agents interact locally within an interaction radius, with exposure-controlled interaction probability. Opinion updates follow ARM rules: attraction for small opinion distance and repulsion for large distance (tolerance threshold T). After social interaction, agents move according to a social-force mechanism that balances attraction to similar neighbors and avoidance of dissimilar neighbors, controlled by orientation bias (approaching goods vs leaving bads). The model also includes an optional exposure-mobility coupling setting.\n\nMain outputs include polarization (P), spatial assortativity (Moran\u2019s I), mixed-neighbor fraction (f_mix), and good-component count (N_g). The model is designed to study phase behavior of polarization and segregation under mobility and tolerance heterogeneity.\n\nThis upload provides the primary NetLogo model code and parameter settings used for the manuscript\u2019s main simulations.\n",
+    "downloadUrl": "https://www.comses.net/codebases/e455966c-05a5-4f3d-b5e0-0a1df6216c89/releases/1.0.0/download/",
+    "dateModified": "2026-02-17",
+    "releaseNotes": "Version 1.0.0 (Initial public release)\n\nThis is the first public CoMSES release of the NetLogo model for selective depolarization via endogenous migration in attraction-repulsion opinion dynamics.\n\nIncluded in this release:\n- Primary NetLogo model code (ARM + local spatial interaction + orientation-driven migration)\n- Parameter settings used for the manuscript\u2019s main simulations\n- Narrative documentation (ODD-style): equations, pseudocode, scheduling, and metrics\n\nCore model features:\n- Local interaction probability decays with ideological distance (exposure-controlled)\n- Attraction/repulsion opinion update based on tolerance threshold\n- Movement combines \u201capproach good neighbors\u201d and \u201cleave bad neighbors\u201d\n- Optional heterogeneity in movement orientation and exposure-orientation coupling\n\nMain outputs:\n- Polarization (variance of ideology)\n- Moran\u2019s I\n- Good-component count\n- Mixed-neighborhood fraction\n- Additional diagnostics (extremity fraction, giant component, join-count metrics)\n\nSoftware:\n- NetLogo 6.4.0\n- No external data dependencies\n\nKnown scope/limitations:\n- One-dimensional ideology ([0,1])\n- Global fixed tolerance within each run\n- Spatial local-contact channel only (no explicit online social-network layer)\n",
+    "copyrightYear": 2026,
+    "datePublished": "2026-02-17",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Netlogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetlLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

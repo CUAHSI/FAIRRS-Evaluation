@@ -1,0 +1,64 @@
+{
+    "@id": "https://www.comses.net/codebases/c1b17091-04c8-4047-bbe8-d07238dae6b4/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/c1b17091-04c8-4047-bbe8-d07238dae6b4/releases/1.0.0/",
+    "name": "Development of coral reefs under climate change impacts and adaptation options",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0009-0003-9423-750X",
+            "@type": "Person",
+            "email": "nina.preussler@gmx.de",
+            "givenName": "Nina",
+            "familyName": "Preu\u00dfler"
+        }
+    ],
+    "license": {
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.html",
+        "name": "Apache-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Data and values used in the model are based on:\n\nBayraktarov, E., Stewart-Sinclair, P. J., Brisbane, S., Bostr\u00f6m-Einarsson, L., Saunders, M. I., Lovelock, C. E., Possingham, H. P., Mumby, P. J., & Wilson, K. A. (2019). Motivations, success, and cost of coral reef restoration. Restoration Ecology, 27(5), 981\u2013991. https://doi.org/10.1111/rec.12977\n\nCoral Reef Research Foundation (CRRF). (2014). A Summary of Palau\u2019s Typhoon History. Technical Report (p. 17). https://coralreefpalau.org/wp-content/uploads/2017/05/CRRF-Palau-Typhoon-History-2014-1.pdf\n\nFabricius, K. E., Langdon, C., Uthicke, S., Humphrey, C., Noonan, S., De\u2019ath, G., Okazaki, R., Muehllehner, N., Glas, M. S., & Lough, J. M. (2011). Losers and winners in coral reefs acclimatized to elevated carbon dioxide concentrations. Nature Climate Change, 1(3), 165\u2013169. https://doi.org/10.1038/nclimate1122\n\nGolbuu, Y., Gouezo, M., Kurihara, H., Rehm, L., & Wolanski, E. (2016). Long-term isolation and local adaptation in Palau\u2019s Nikko Bay help corals thrive in acidic waters. Coral Reefs, 35(3), 909\u2013918. https://doi.org/10.1007/s00338-016-1457-5\n\nGupta, A. (2019). 2019 State of the Environment Report, Republic of Palau. National Environmental Protection Council, Government of Palau: Koror, Palau.\n\nIPCC. (2023). Climate Change 2022 \u2013 Impacts, Adaptation and Vulnerability: Working Group II Contribution to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change (1st ed.). Cambridge University Press. https://doi.org/10.1017/9781009325844\n\nLachs, L., Donner, S. D., Mumby, P. J., Bythell, J. C., Humanes, A., East, H. K., & Guest, J. R. (2023). Emergent increase in coral thermal tolerance reduces mass bleaching under climate change. Nature Communications, 14(1), 4939. https://doi.org/10.1038/s41467-023-40601-6\n\nNational Centers for Coastal Ocean Science (NCCOS). (2007). Benthic Habitat Mapping. Republic of Palau [Shapefile]. https://products.coastalscience.noaa.gov/collections/benthic/e102palau/\n\nPACCSAP. (2015). Current and future climate of Palau. Australia: Palau National Weather Service Office, Australian Bureau of Meteorology, and Commonwealth Scientific and Industrial Research Organisation (CSIRO). https://www.pacificclimatechange.net/sites/default/files/2_PACCSAP-Palau-11pp_WEB.pdf\n\nVan Woesik, R., Golbuu, Y., & Roff, G. (2015). Keep up or drown: Adjustment of western Pacific coral reefs to sea-level rise in the 21st century. Royal Society Open Science, 2(7), 150181. https://doi.org/10.1098/rsos.150181\n\nvan Woesik, R., Houk, P., Isechal, A. L., Idechong, J. W., Victor, S., & Golbuu, Y. (2012). Climate-change refugia in the sheltered bays of Palau: Analogs of future reefs. Ecology and Evolution, 2(10), 2474\u20132484. https://doi.org/10.1002/ece3.363",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "climate adaptation",
+        "Climate Change",
+        "coral reefs",
+        "marine ecosystems"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/c1b17091-04c8-4047-bbe8-d07238dae6b4/releases/1.0.0/",
+    "dateCreated": "2025-05-18",
+    "description": "This NetLogo model simulates how coral reefs around the islands of Palau would develop under different emission scenarios and with selected adaptation strategies. Reef health is indicated by coral cover (%) and is affected by four major climate change impacts: increasing sea surface temperature, sea level rise, ocean acidification, and more intense typhoons. The model differentiates between inner and outer reefs, with the former naturally adapted to warmer, more acidic waters. The simulation includes bleaching events and possible recovery. In addition, the user can choose between different coral transplantation strategies as well as regulate natural thermal adaptation rates.",
+    "downloadUrl": "https://www.comses.net/codebases/c1b17091-04c8-4047-bbe8-d07238dae6b4/releases/1.0.0/download/",
+    "dateModified": "2025-05-18",
+    "releaseNotes": "First release of the model, including source code and documentation.",
+    "copyrightYear": 2025,
+    "datePublished": "2025-05-30",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Netlogo",
+        "Netlogo 6.4.0"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "Netlogo 6.4.0",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

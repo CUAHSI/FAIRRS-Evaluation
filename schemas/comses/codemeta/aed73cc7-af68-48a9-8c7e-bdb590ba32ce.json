@@ -1,0 +1,127 @@
+{
+    "@id": "https://www.comses.net/codebases/aed73cc7-af68-48a9-8c7e-bdb590ba32ce/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/aed73cc7-af68-48a9-8c7e-bdb590ba32ce/releases/1.0.0/",
+    "name": "An agent-based model exploring the biodiversity-agriculture-nutrition dynamics in Eastern Madagascar resulting from alternative land uses",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-3303-340X",
+            "@type": "Person",
+            "email": "romain.cr@outlook.com",
+            "givenName": "Romain",
+            "familyName": "Clercq-Roques"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "jessica.williams15@imperial.ac.uk",
+            "givenName": "Jessica",
+            "familyName": "Williams",
+            "affiliation": {
+                "@id": "https://ror.org/041kmwe10",
+                "url": "https://www.imperial.ac.uk",
+                "name": "Imperial College London",
+                "@type": "Organization",
+                "identifier": "https://ror.org/041kmwe10"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "perezguz@iiasa.ac.at",
+            "givenName": "Katja",
+            "familyName": "Perez Guzman",
+            "affiliation": {
+                "@id": "https://ror.org/02wfhk785",
+                "url": "https://iiasa.ac.at",
+                "name": "International Institute for Applied Systems Analysis",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02wfhk785"
+            }
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "email": "kozicka@iiasa.ac.at",
+            "givenName": "Marta",
+            "familyName": "Kozicka",
+            "affiliation": {
+                "@id": "https://ror.org/02wfhk785",
+                "url": "https://iiasa.ac.at",
+                "name": "International Institute for Applied Systems Analysis",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02wfhk785"
+            }
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Person",
+            "email": "k.belesova@imperial.ac.uk",
+            "givenName": "Kristine",
+            "familyName": "Belesova",
+            "affiliation": {
+                "@id": "https://ror.org/041kmwe10",
+                "url": "https://www.imperial.ac.uk",
+                "name": "Imperial College London",
+                "@type": "Organization",
+                "identifier": "https://ror.org/041kmwe10"
+            }
+        },
+        {
+            "@id": "_:author_6",
+            "@type": "Person",
+            "email": "z.chalabi@ucl.ac.uk",
+            "givenName": "Zaid",
+            "familyName": "Chalabi",
+            "affiliation": {
+                "@id": "https://ror.org/02jx3x895",
+                "url": "http://www.ucl.ac.uk/",
+                "name": "University College London",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02jx3x895"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agroforestry",
+        "biodiversity management",
+        "deforestation",
+        "foraging",
+        "land use/land cover change",
+        "nutrition",
+        "shifting cultivation"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/aed73cc7-af68-48a9-8c7e-bdb590ba32ce/releases/1.0.0/",
+    "dateCreated": "2025-07-23",
+    "description": "This agent-based model simulates the interactions between smallholder farming households, land-use dynamics, and ecosystem services in a rural landscape of Eastern Madagascar. It explores how alternative agricultural practices \u2014shifting agriculture, rice cultivation, and agroforestry\u2014combined with varying levels of forest protection, influence food production, food security, dietary diversity, and forest biodiversity over time. The landscape is represented as a grid of spatially explicit patches characterized by land use, ecological attributes, and regeneration dynamics. Agents make yearly decisions on land management based on demographic pressures, agricultural returns, and institutional constraints. Crop yields are affected by stochastic biotic and abiotic disruptions, modulated by local ecosystem regulation functions. The model additionally represents foraging as a secondary food source and pressure on biodiversity. The model supports the analysis of long-term trade-offs between agricultural productivity, human nutrition, and conservation under different policy and land-use scenarios.",
+    "downloadUrl": "https://www.comses.net/codebases/aed73cc7-af68-48a9-8c7e-bdb590ba32ce/releases/1.0.0/download/",
+    "dateModified": "2025-07-23",
+    "releaseNotes": "First version",
+    "copyrightYear": 2025,
+    "datePublished": "2025-07-23",
+    "codeRepository": "https://github.com/RomainCR-git/ABM_BD_Health",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Netlogo 6"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

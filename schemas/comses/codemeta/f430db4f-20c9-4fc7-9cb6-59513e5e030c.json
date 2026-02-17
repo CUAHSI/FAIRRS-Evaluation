@@ -1,0 +1,67 @@
+{
+    "@id": "https://www.comses.net/codebases/f430db4f-20c9-4fc7-9cb6-59513e5e030c/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/f430db4f-20c9-4fc7-9cb6-59513e5e030c/releases/1.0.0/",
+    "name": "Urban Teacher Lifecycle and Mobility",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-1216-5043",
+            "@type": "Person",
+            "email": "patarakin@gmail.com",
+            "givenName": "Yevgeny",
+            "familyName": "Patarakin",
+            "affiliation": {
+                "@id": "https://ror.org/05cy1av38",
+                "url": "https://www.mgpu.ru/",
+                "name": "Moscow City University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05cy1av38"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "No",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "complex adaptive systems science",
+        "education",
+        "educational equality",
+        "teachers"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/f430db4f-20c9-4fc7-9cb6-59513e5e030c/releases/1.0.0/",
+    "dateCreated": "2025-07-23",
+    "description": "This agent-based model simulates the lifecycle, movement, and satisfaction of teachers within an urban educational system composed of multiple universities and schools. Each teacher agent transitions through several possible roles: newcomer, university student, unemployed graduate, and employed teacher. Teachers\u2019 pathways are shaped by spatial configuration, institutional capacities, individual characteristics, and dynamic interactions with schools and universities. Universities are assigned spatial locations with a controllable level of centralization and are characterized by academic ratings, capacity, and alumni records. Schools are distributed throughout the city, each with a limited number of vacancies, hiring requirements, and offered salaries. Teachers apply to universities based on the alignment of their personal academic profiles with institutional ratings, pursue studies, and upon graduation become candidates for employment at schools.\nThe employment process is driven by a decentralized matching of teacher expectations and school offers, taking into account factors such as salary, proximity, and peer similarity. Teachers\u2019 satisfaction evolves over time, reflecting both institutional characteristics and the composition of their colleagues; low satisfaction may prompt teachers to transfer between schools within their mobility radius. Mortality and teacher attrition further shape workforce dynamics, leading to continuous recruitment of newcomers to maintain a stable population. The model tracks university reputation through the academic performance and number of alumni, and visualizes key metrics including teacher status distribution, school staffing, university alumni counts, and overall satisfaction. This structure enables the exploration of policy interventions, hiring and training strategies, and the impact of spatial and institutional design on the allocation, retention, and happiness of urban educational staff.",
+    "downloadUrl": "https://www.comses.net/codebases/f430db4f-20c9-4fc7-9cb6-59513e5e030c/releases/1.0.0/download/",
+    "dateModified": "2025-07-23",
+    "releaseNotes": "What's New\n- Dynamic University Academic Ratings: Universities now update their ratings based on actual alumni performance and number of graduates, reflecting real institutional reputation.\n- Satisfaction-Based Teacher Transfers: Teachers periodically evaluate their satisfaction and can transfer to other schools within their mobility radius if dissatisfied, recording all workplace changes for career path analysis.\nBug Fixes\n- Fixed issues with agent filtering and list handling (e.g., correct use of `length` with `filter`, proper `member?` usage).\n- Corrected errors in patch allocation and movement logic on crowded grids.\n- Fixed improper initialization and update of satisfaction and employment-status fields.\n- Improved handling of deceased teachers in rosters, preventing orphaned references and data pollution.",
+    "copyrightYear": 2025,
+    "datePublished": "2025-07-23",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Netlogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Netlogo 6",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Patarakin Eugeny, & Salimullin, K. D. (2025). Bridging Agent-Based Modeling and Learning Design. Mcu Journal of Pedagogy and Psychology, 19(1), 157\u2013173. https://doi.org/10.24412/2076-9121-2025-1-77-157-173\nPatarakin E., Shishkov M. (2025). Designing Learning Practices Based on the Multi-Agent Approach. Artificial societies. vol. 20, no. 1 DOI: 10.18254/S207751800033922-3"
+}

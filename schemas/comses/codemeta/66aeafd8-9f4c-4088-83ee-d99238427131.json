@@ -1,0 +1,94 @@
+{
+    "@id": "https://www.comses.net/codebases/66aeafd8-9f4c-4088-83ee-d99238427131/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/66aeafd8-9f4c-4088-83ee-d99238427131/releases/1.0.0/",
+    "name": "BESTMAP-ABM DE",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-9638-5862",
+            "@type": "Person",
+            "email": "meike.will@ufz.de",
+            "givenName": "Meike",
+            "familyName": "Will",
+            "affiliation": {
+                "url": "https://www.ufz.de/",
+                "name": "Helmholtz Centre for Environmental Research - UFZ",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "felix.jaeger@uni-hohenheim.de",
+            "givenName": "Felix",
+            "familyName": "J\u00e4ger"
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-8780-4420",
+            "@type": "Person",
+            "email": "birgit.mueller@ufz.de",
+            "givenName": "Birgit",
+            "familyName": "M\u00fcller",
+            "affiliation": {
+                "url": "http://www.ufz.de",
+                "name": "Helmholtz Centre for Environmental Research UFZ",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-8780-4420",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "https://doi.org/10.3897/rio.6.e52052",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "agent-based model",
+        "agricultural modeling",
+        "farmer decision making",
+        "policy analysis"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/66aeafd8-9f4c-4088-83ee-d99238427131/releases/1.0.0/",
+    "dateCreated": "2024-07-26",
+    "description": "BESTMAP-ABM-DE is an agent-based model to determine the adoption and spatial allocation of selected agri-environmental schemes (AES) by individual farmers in the Mulde River Basin located in Western Saxony, Germany. The selected AES are buffer areas, cover crops, maintaining permanent grassland and conversion of arable land to permanent grassland. While the first three schemes have already been offered in the case study area, the latter scheme is a hypothetical scheme designed to test the impact of potential policy changes. For the first model analyses, only the currently offered schemes are considered. With the model, the effect of different scenarios of policy design on patterns of adoption can be investigated. In particular, the model can be used to study the social-ecological consequences of agricultural policies at different spatial and temporal scales and, in combination with biophysical models, test the ecological implications of different designs of the EU\u2019s Common Agricultural Policy. The model was developed in the BESTMAP project.\n",
+    "downloadUrl": "https://www.comses.net/codebases/66aeafd8-9f4c-4088-83ee-d99238427131/releases/1.0.0/download/",
+    "dateModified": "2025-07-06",
+    "releaseNotes": "first model version uploaded",
+    "copyrightYear": 2025,
+    "datePublished": "2025-07-01",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Netlog0 6.2.2"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo 6.2.2",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Will, M.; J\u00e4ger, F.; M\u00fcller, B. Farmer decision-making on agri-environmental schemes: An agent-based modelling approach to evaluate different policy designs in Saxony, Germany. Agricultural Systems, 229, 104439, 2025. https://doi.org/10.1016/j.agsy.2025.104439"
+}

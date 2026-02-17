@@ -1,0 +1,78 @@
+{
+    "@id": "https://www.comses.net/codebases/86ea55dd-faec-4407-87aa-27c84dc403d5/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/86ea55dd-faec-4407-87aa-27c84dc403d5/releases/1.0.0/",
+    "name": "Geospatial Agent-Based Model of Immigrant Settlement Dynamics in Metro Vancouver",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-6599-9893",
+            "@type": "Person",
+            "email": "l.perez@umontreal.ca",
+            "givenName": "Liliana",
+            "familyName": "Perez",
+            "affiliation": {
+                "@id": "https://ror.org/0161xgx34",
+                "url": "http://www.umontreal.ca/english/",
+                "name": "University of Montreal",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0161xgx34"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "Maryam.Yousefi@metrovancouver.org",
+            "givenName": "Maryam",
+            "familyName": "Yousefi"
+        },
+        {
+            "@id": "https://www.comses.net/users/5390/",
+            "@type": "Person",
+            "email": "navid.mahdizadeh.gharakhanlou@umontreal.ca",
+            "givenName": "Navid",
+            "familyName": "Mahdizadeh Gharakhanlou"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "# Agent Based Modeling.",
+        "agent based modeling and simulation",
+        "Complex Systems",
+        "Geographic information systems (GIS)",
+        "Immigrant settlement",
+        "Residential segregation",
+        "Spatial diversity"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/86ea55dd-faec-4407-87aa-27c84dc403d5/releases/1.0.0/",
+    "dateCreated": "2025-12-03",
+    "description": "This agent-based model simulates how new immigrant households choose where to live in Metro Vancouver under the origins diversity scenario. The model begins with 16,000 household agents, reflecting an expected annual population increase of about 42,500 people based on an average household size of 2.56. Each agent is assigned four characteristics: one of ten origin categories, income level (adjusted using NOC data and recent immigrant earnings), likelihood of having children, and preferred mode of commuting. The ten origin groups are drawn from Census patterns, including six subgroups within the broader Asian category (China, India, the Philippines, Iran, South Korea, and Other Asian countries) and two categories for immigrants from the Americas. This refined classification better captures the diversity of newcomers arriving in the region.",
+    "downloadUrl": "https://www.comses.net/codebases/86ea55dd-faec-4407-87aa-27c84dc403d5/releases/1.0.0/download/",
+    "dateModified": "2025-12-03",
+    "releaseNotes": "INSTRUCTIONS\n\n1) Adjust experiment parameters \"desired_neighbors\" and \"nbBus\" sliders in the top left.\n\n2) Click Setup. Setup is complete when the button returns to its original colour.\n\n2) Click go. The model will run for 5 ticks. Afterwards, you may click Export_To_Shapefile to export data for processing in a GIS.",
+    "copyrightYear": 2025,
+    "datePublished": "2025-12-03",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Netlogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Netlogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Perez, L., Yousefi, M., Mahdizadeh Gharakhanlou, N., Vukicevic, S., and Dragicevic, S., 2025. From Agent-Based Modeling to Urban Policy Strategy: Census-Validated Insights into Immigrant Settlement and Diversity in Metro Vancouver. Unpublished manuscript."
+}

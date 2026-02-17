@@ -1,0 +1,120 @@
+{
+    "@id": "https://www.comses.net/codebases/4f2be13a-3957-4537-bf64-3fad96ba271f/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/4f2be13a-3957-4537-bf64-3fad96ba271f/releases/1.1.0/",
+    "name": "Log\u00f4nia: Plant Growth Response Model in NetLogo",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-7782-759X",
+            "@type": "Person",
+            "email": "danvartan@gmail.com",
+            "givenName": "Daniel",
+            "familyName": "Vartanian",
+            "affiliation": {
+                "@id": "https://ror.org/036rp1748",
+                "url": "https://www5.usp.br",
+                "name": "Universidade de S\u00e3o Paulo",
+                "@type": "Organization",
+                "identifier": "https://ror.org/036rp1748"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-5947-2617",
+            "@type": "Person",
+            "email": "l.garcia@qub.ac.uk",
+            "givenName": "Leandro",
+            "familyName": "Garcia",
+            "affiliation": {
+                "@id": "https://ror.org/00hswnk62",
+                "url": "http://www.qub.ac.uk/",
+                "name": "Queen's University Belfast",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00hswnk62"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/5273/",
+            "@type": "Person",
+            "email": "alinenutri@usp.br",
+            "givenName": "Aline"
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-7782-759X",
+            "@type": "Role",
+            "roleName": "maintainer"
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-7782-759X",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-7782-759X",
+            "@type": "Role",
+            "roleName": "copyrightHolder"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Fick, S. E., & Hijmans, R. J. (2017). WorldClim 2: New 1-km spatial resolution climate surfaces for global land areas. *International Journal of Climatology*, *37*(12), 4302-4315. https://doi.org/10.1002/joc.5086\n\nHarris, I., Osborn, T. J., Jones, P., & Lister, D. (2020). Version 4 of the CRU TS monthly high-resolution gridded multivariate climate dataset. *Scientific Data*, *7*(1), 109. https://doi.org/10.1038/s41597-020-0453-3",
+            "@type": "CreativeWork"
+        },
+        {
+            "text": "No.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "Agent-Based Modeling",
+        "Climate Change",
+        "Climate Simulations",
+        "Complexity Science",
+        "Complex Systems",
+        "Environmental Sciences",
+        "Historical Climate Data",
+        "LevelSpace",
+        "LogoClim",
+        "NetLogo",
+        "Parallel Execution",
+        "Plant Growth",
+        "Population Dynamics",
+        "Simulations",
+        "Spatial Analysis",
+        "Time Series",
+        "WorldClim"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4f2be13a-3957-4537-bf64-3fad96ba271f/releases/1.1.0/",
+    "dateCreated": "2025-09-16",
+    "description": "`Log\u00f4nia` is a [NetLogo](https://www.netlogo.org) model that simulates the growth response of a fictional plant, log\u00f4nia, under different climatic conditions. The model uses climate data from [WorldClim 2.1](https://worldclim.org/) and demonstrates how to integrate the [`LogoClim`](https://www.comses.net/codebases/bccd451f-76a4-408a-85fd-c5024359ba9a/) model through the [`LevelSpace`](https://ccl.northwestern.edu/netlogo/docs/ls.html) extension.\n\n`Log\u00f4nia` follows the FAIR Principles for Research Software ([Barker et al., 2022](https://doi.org/10.1038/s41597-022-01710-x)) and is openly available on the CoMSES Network and [GitHub](https://github.com/sustentarea/logonia).",
+    "downloadUrl": "https://www.comses.net/codebases/4f2be13a-3957-4537-bf64-3fad96ba271f/releases/1.1.0/download/",
+    "dateModified": "2025-09-16",
+    "releaseNotes": "- Updated *Juvenile* color in *Log\u00f4nias* for better contrast.\n- Modified climate variable inspection: the model now halts if a switch is toggled during the simulation.\n- Upgraded [`LogoClim`](https://github.com/sustentarea/logoclim) to v2.1.0.\n- Revised 12-month moving average for climate variables to use values directly from [`LogoClim`](https://github.com/sustentarea/logoclim).\n- Fixed 12-month moving average counter for *Log\u00f4nia* plants.\n- Fixed `logistic-regression` to return `false` when encountering `false` values.\n- Refactored code for improved readability and maintainability.\n- Updated the documentation.",
+    "copyrightYear": 2025,
+    "datePublished": "2025-09-16",
+    "codeRepository": "https://github.com/sustentarea/logonia",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo 7.0.0"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Vartanian, D., Garcia, L., & Carvalho, A. M. (2025). *{LogoClim}: WorldClim in NetLogo* \\[Computer software\\]. https://doi.org/10.17605/OSF.IO/EAPZU"
+}

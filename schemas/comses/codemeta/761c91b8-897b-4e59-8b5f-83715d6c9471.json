@@ -1,0 +1,63 @@
+{
+    "@id": "https://doi.org/10.25937/fxaj-xj78",
+    "url": "https://doi.org/10.25937/fxaj-xj78",
+    "name": "MicroAnts 2.5",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2975/",
+            "@type": "Person",
+            "email": "dialves@yahoo.com",
+            "givenName": "Diogo",
+            "familyName": "Alves"
+        }
+    ],
+    "license": {
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.html",
+        "name": "Apache-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "No, but based heavily on MicroAnts 2.0",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "ants",
+        "artificial agents",
+        "evolution",
+        "genetic algorithm"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/fxaj-xj78",
+        "https://doi.org/10.25937/fxaj-xj78"
+    ],
+    "dateCreated": "2025-08-05",
+    "description": "MicroAnts 2.5 is a general-purpose agent-based model designed as a flexible workhorse for simulating ecological and evolutionary dynamics in artificial populations, as well as, potentially, the emergence of political institutions and economic regimes. It builds on and extends Stephen Wright\u2019s original MicroAnts 2.0 by introducing configurable predators, inequality tracking, and other options.\nAnt agents are of two tyes/casts and controlled by 16-bit chromosomes encoding traits such as vision, movement, mating thresholds, sensing, and combat strength. Predators (anteaters) operate in static, random, or targeted predatory modes. Ants reproduce, mutate, cooperate, fight, and die based on their traits and interactions. Environmental pressures (poison and predators) and social dynamics (sharing, mating, combat) drive emergent behavior across red and black ant populations.\nThe model supports insertion of custom agents at runtime, configurable mutation/inversion rates, and exports detailed statistics, including inequality metrics (e.g., Gini coefficients), trait frequencies, predator kills, and lineage data. Intended for rapid testing and educational experimentation, MicroAnts 2.5 serves as a modular base for more complex ecological and social simulations.",
+    "downloadUrl": "https://www.comses.net/codebases/761c91b8-897b-4e59-8b5f-83715d6c9471/releases/1.0.0/download/",
+    "dateModified": "2025-10-16",
+    "releaseNotes": "First version. The ODD and the INFO flaps are a bit verbose, this will be improved in upcoming versions. ",
+    "copyrightYear": 2025,
+    "datePublished": "2025-10-16",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Netlogo 6.4.0"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Netlogo 6",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "10.5281/zenodo.16748257 (permanent DOI for all versions on Zenodo)"
+}

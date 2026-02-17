@@ -1,0 +1,87 @@
+{
+    "@id": "https://doi.org/10.25937/8jy2-wj25",
+    "url": "https://doi.org/10.25937/8jy2-wj25",
+    "name": "Casting: A Bio-Inspired Method for Restructuring Machine Learning Ensembles",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-7238-6801",
+            "@type": "Person",
+            "email": "cmlynch2@asu.edu",
+            "givenName": "Colin",
+            "familyName": "Lynch",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "https://www.asu.edu",
+                "name": "Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "bryan.daniels.1@asu.edu",
+            "givenName": "Bryan",
+            "familyName": "Daniels"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "NA",
+            "@type": "CreativeWork"
+        },
+        {
+            "text": "NA",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "bias vs variance",
+        "casting",
+        "complex adaptive social system",
+        "ensemble",
+        "machine learning"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/8jy2-wj25",
+        "https://doi.org/10.25937/8jy2-wj25"
+    ],
+    "dateCreated": "2025-03-20",
+    "description": "The wisdom of the crowd refers to the phenomenon in which a group of individuals, each making independent decisions, can collectively arrive at highly accurate solutions\u2014often more accurate than any individual within the group. This principle relies heavily on independence: if individual opinions are unbiased and uncorrelated, their errors tend to cancel out when averaged, reducing overall bias. However, in real-world social networks, individuals are often influenced by their neighbors, introducing correlations between decisions. Such social influence can amplify biases, disrupting the benefits of independent voting. This trade-off between independence and interdependence has striking parallels to ensemble learning methods in machine learning. Bagging (bootstrap aggregating) improves classification performance by combining independently trained weak learners, reducing bias. Boosting, on the other hand, explicitly introduces sequential dependence among learners, where each learner focuses on correcting the errors of its predecessors. This process can reinforce biases present in the data even if it reduces variance. Here, we introduce a new meta-algorithm, casting, which captures this biological and computational trade-off. Casting forms partially connected groups (\"castes\") of weak learners that are internally linked through boosting, while the castes themselves remain independent and are aggregated using bagging. This creates a continuum between full independence (i.e., bagging) and full dependence (i.e., boosting). This method allows for the testing of model capabilities across values of the hyperparameter which controls connectedness. We specifically investigate classification tasks, but the method can be used for regression tasks as well. Ultimately, casting can provide insights for how real systems contend with classification problems. ",
+    "downloadUrl": "https://www.comses.net/codebases/471369f9-a7e2-4519-844c-cf1afebc1d43/releases/1.0.0/download/",
+    "dateModified": "2025-09-18",
+    "releaseNotes": "# Ensemble Connectivity Analysis\n\nPython and R scripts evaluate and visualize the effect of **P** (ensemble connectivity).\n\n## Files\nSave these in the same folder:\n```\nant_ensemble_class.py   # Classifier (Python)\ntestAllData.py          # Runs experiments, outputs CSVs\nmodelPerformanceGraphs.R# Generates plots (R)\n```\n\n## 1. Run Python Code in Spyder (Anaconda)\n\n**Open Spyder** via Anaconda Navigator \u2192 `File \u2192 Open` \u2192 `testAllData.py`.  \n**Set Working Directory** in the toolbar to the script folder.  \n**Install packages** in Anaconda Prompt or IPython Console:\n```bash\npip install numpy pandas scikit-learn mlxtend seaborn matplotlib\n```\n**Run Script** (`Run` button).  \nThis calls `ant_ensemble_class.py` and creates:\n- `ValidationResults.csv`\n- `VerificationResults.csv`\n\n## 2. Visualize in R (Anaconda)\n\n**Open R** (RStudio via Anaconda Navigator or `R` in prompt).  \n**Set Working Directory**:\n```r\nsetwd(\"path/to/folder\")\n```\n**Install packages**:\n```r\ninstall.packages(c(\"tidyverse\",\"colorspace\",\"ggpubr\",\"scales\",\"ggridges\"))\n```\n**Run script**:\n```r\nsource(\"modelPerformanceGraphs.R\")\n```\nReads the CSVs and plots:\n- Bias/variance vs **P**\n- Composite metric vs **P**\n\n## 3. Output\nPlots match those in **CastingModel.pdf**.\n\n**Workflow**:  \n1. Run `testAllData.py` \u2192 generates CSVs.  \n2. Run `modelPerformanceGraphs.R` \u2192 creates plots.",
+    "copyrightYear": 2025,
+    "datePublished": "2025-09-18",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "Python 3",
+        "R"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python 3",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "R",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "NA"
+}

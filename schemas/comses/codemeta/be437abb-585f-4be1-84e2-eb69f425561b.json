@@ -1,0 +1,104 @@
+{
+    "@id": "https://www.comses.net/codebases/be437abb-585f-4be1-84e2-eb69f425561b/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/be437abb-585f-4be1-84e2-eb69f425561b/releases/1.0.0/",
+    "name": "Agent-based modeling of the spatio-temporal distribution of Sahelian transhumant herds",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-7160-4069",
+            "@type": "Person",
+            "email": "cheickameddiloma@yahoo.fr",
+            "givenName": "Cheick Amed Diloma Gabriel",
+            "familyName": "TRAORE",
+            "affiliation": {
+                "@id": "https://ror.org/04cq90n15",
+                "url": "https://www.univ-bobo.gov.bf",
+                "name": "Nazi Boni University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04cq90n15"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-6633-6269",
+            "@type": "Person",
+            "email": "etienne.delay@cirad.fr",
+            "givenName": "Etienne",
+            "familyName": "DELAY",
+            "affiliation": {
+                "url": "https://ur-green.cirad.fr/en",
+                "name": "CIRAD",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "alassane.bah@ucad.edu.sn",
+            "givenName": "Alassane",
+            "familyName": "Bah"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "email": "djibrildiopsn@gmail.com",
+            "givenName": "Djibril",
+            "familyName": "Diop"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc/4.0",
+        "name": "CC-BY-NC-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Traore, C.A.D.G., Delay, E., Bah, A., Diop, D., 2023. Agent-Based Modeling of the Spatio-temporal Distribution of Sahelian Transhumant Herds, in: Arai, K. (Ed.), Intelligent Systems and Applications, Lecture Notes in Networks and Systems. Springer International Publishing, Cham, pp. 630\u2013645. https://doi.org/10.1007/978-3-031-16078-3_43",
+            "@type": "CreativeWork"
+        },
+        {
+            "text": "No",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "# Agent Based Modeling.",
+        "distributed artificial intelligence",
+        "multi-agent",
+        "pastoralism",
+        "Sahel",
+        "Senegal"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/be437abb-585f-4be1-84e2-eb69f425561b/releases/1.0.0/",
+    "dateCreated": "2024-03-28",
+    "description": "Sahelian transhumance is a seasonal pastoral mobility between the transhumant\u2019s terroir of origin and one or more host terroirs. Sahelian transhumance can last several months and extend over hundreds of kilometers. Its purpose is to ensure efficient and inexpensive feeding of the herd\u2019s ruminants. This paper describes an agent-based model to determine the spatio-temporal distribution of Sahelian transhumant herds and their impact on vegetation. Three scenarios based on different values of rainfall and the proportion of vegetation that can be grazed by transhumant herds are simulated. The results of the simulations show that the impact of Sahelian transhumant herds on vegetation is not significant and that rainfall does not impact the alley phase of transhumance. The beginning of the rainy season has a strong temporal impact on the spatial distribution of transhumant herds during the return phase of transhumance.",
+    "downloadUrl": "https://www.comses.net/codebases/be437abb-585f-4be1-84e2-eb69f425561b/releases/1.0.0/download/",
+    "dateModified": "2024-03-28",
+    "releaseNotes": "Read ODD file",
+    "copyrightYear": 2025,
+    "datePublished": "2025-05-20",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "GAMA",
+        "Jupyter Notebook"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "gaml",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "Python 3",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "10.1007/978-3-031-16078-3_43"
+}

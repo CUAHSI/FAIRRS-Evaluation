@@ -1,0 +1,57 @@
+{
+    "@id": "https://www.comses.net/codebases/6e19c517-d944-4f02-8af9-269016173c20/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/6e19c517-d944-4f02-8af9-269016173c20/releases/1.0.0/",
+    "name": "Structural Violence and Neurobiological Adaptation: Modeling the Trajectory of Youth Outside of Care",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/5387/",
+            "@type": "Person",
+            "email": "masterpiece33330@gmail.com"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "No",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "\u200bHomeless Youth",
+        "Neurobiology",
+        "Social Simulation",
+        "System Dynamics"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/6e19c517-d944-4f02-8af9-269016173c20/releases/1.0.0/",
+    "dateCreated": "2025-11-27",
+    "description": "This study presents a System Dynamics (SD) model that explores the \"trajectories of homelessness\" among youth outside of the formal care system. Unlike traditional approaches that view runaway behavior as a discrete choice, this model reinterprets it as a neurobiological adaptation to chronic resource deprivation and systemic neglect.\n\u200bThe model incorporates key mechanisms such as 'Allostatic Load' accumulation, 'PFC-Amygdala Switching', and the 'Iatrogenic Effects' of shelter policies. It utilizes Monte Carlo simulations to demonstrate how structural factors create a \"probabilistic vulnerability,\" trapping youth in cycles of survival crime and isolation regardless of individual resilience.\n\u200bThe uploaded code includes a Python implementation of the model to ensure reproducibility of the stochastic analysis presented in the paper.",
+    "downloadUrl": "https://www.comses.net/codebases/6e19c517-d944-4f02-8af9-269016173c20/releases/1.0.0/download/",
+    "dateModified": "2025-11-27",
+    "releaseNotes": "\u200bThis is the initial release of the \"Structural Violence and Neurobiological Adaptation\" model, submitted for peer review to the Journal of Artificial Societies and Social Simulation (JASSS).\n\u200bKey Features:\n\u200bImplementation of Allostatic Load accumulation dynamics.\n\u200bNeurobiological switching mechanism (PFC to Amygdala) using logistic functions.\n\u200bMonte Carlo simulation logic for probabilistic vulnerability analysis.\n\u200bIncludes Python source code and ODD protocol description.",
+    "copyrightYear": 2025,
+    "datePublished": "2025-11-27",
+    "operatingSystem": "other",
+    "runtimePlatform": [
+        "none"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

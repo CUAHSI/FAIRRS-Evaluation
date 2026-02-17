@@ -1,0 +1,102 @@
+{
+    "@id": "https://doi.org/10.25937/rcc1-c427",
+    "url": "https://doi.org/10.25937/rcc1-c427",
+    "name": "HUMLAND FIRE-IN-THE-HOLE agent-based model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-4456-0942",
+            "@type": "Person",
+            "email": "nikulina1302@gmail.com",
+            "givenName": "Anastasia",
+            "familyName": "Nikulina",
+            "affiliation": {
+                "@id": "https://ror.org/027bh9e22",
+                "url": "http://www.leiden.edu/",
+                "name": "Leiden University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/027bh9e22"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-5859-8813",
+            "@type": "Person",
+            "email": "f.scherjon@arch.leidenuniv.nl",
+            "givenName": "Fulco",
+            "familyName": "Scherjon"
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-4456-0942",
+            "@type": "Role",
+            "roleName": "editor"
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-4456-0942",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-5859-8813",
+            "@type": "Role",
+            "roleName": "editor"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Nikulina, A., MacDonald, K., Zapolska, A., Serge, M. A., Roche, D. M., Mazier, F., Svenning, J., van Wees, D., A. Pearce, E., Fyfe, R., Roebroeks, W., & Scherjon, F. (2024). Hunter-gatherer impact on European interglacial vegetation: A modelling approach. Quaternary Science Reviews, 324. https://doi.org/https://doi.org/10.1016/j.quascirev.2023.108439\n\nNikulina, A., MacDonald, K., Zapolska, A., Serge, M. A., Davoli, M., Wees, D. van, & Scherjon, F. (2023). HUMLAND: HUMan impact on LANDscapes agent-based model. CoMSES Computational Model Library. https://doi.org/https://doi.org/10.25937/fxdq-fn86",
+            "@type": "CreativeWork"
+        },
+        {
+            "text": "10.25937/fxdq-fn86",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "ABM",
+        "agent-based model (abm)",
+        "anthropogenic fire",
+        "elephant",
+        "Europe",
+        "fire",
+        "hunter-gatherers",
+        "landscape",
+        "Last Interglacial",
+        "Netlogo"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/rcc1-c427",
+        "https://doi.org/10.25937/rcc1-c427"
+    ],
+    "dateCreated": "2025-07-11",
+    "description": "HUMLAND Fire-in-the-Hole is a conceptual agent-based model (ABM) designed to explore the ecological and behavioral consequences of fire-driven hunting strategies employed by hunter-gatherers, specifically Neanderthals, during the Last Interglacial period around the Neumark-Nord (Germany) archaeological site.\n\nThis model builds on and specializes the HUMLAND 1.0.0 model (Nikulina et al. 2024), integrating anthropogenic fires, elephant group behavior, and landscape response to simulate interactions between humans, megafauna, and vegetation over time.",
+    "downloadUrl": "https://www.comses.net/codebases/86368e2e-f309-48c1-80c0-55cf7885c3b8/releases/1.0.0/download/",
+    "dateModified": "2025-10-20",
+    "releaseNotes": "This spetial version of HUMLAND includes\n-fire-driven elephant hunting by hunter-gatherers\n-impact of elephants on vegetation\n-reproduction of elephants \n-mock datasets on potential natural and pollen-based vegetation covers",
+    "copyrightYear": 2025,
+    "datePublished": "2025-10-20",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo 6.2.2"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Anastasia Nikulina, Fulco Scherjon (in press). Fire in the hole: A prototype agent-based model for studying hunter-gatherers\u2019 fire-driven hunting. In Dusseldorp, G.L., Chu, W., Bakels, C. and M. Soressi (eds.). Intent on the Paleolithic. Papers in honour of Prof. Dr. Wil Roebroeks. Analecta Praehistorica Leidensia 55. Leiden: Sidestone Press, pp. 123-136."
+}

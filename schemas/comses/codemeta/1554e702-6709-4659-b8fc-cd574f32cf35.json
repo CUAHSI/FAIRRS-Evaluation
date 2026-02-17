@@ -1,0 +1,69 @@
+{
+    "@id": "https://doi.org/10.25937/etrw-7652",
+    "url": "https://doi.org/10.25937/etrw-7652",
+    "name": "ACross (Academic Collaboration, Research, Output, and System Simulation)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-7824-9725",
+            "@type": "Person",
+            "email": "wenhan.feng@geographie.uni-muenchen.de",
+            "givenName": "Wenhan",
+            "familyName": "Feng",
+            "affiliation": {
+                "@id": "https://ror.org/05591te55",
+                "url": "https://www.lmu.de",
+                "name": "Ludwig-Maximilians-Universit\u00e4t M\u00fcnchen",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05591te55"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/5105/",
+            "@type": "Person",
+            "email": "barryli081@gmail.com",
+            "givenName": "Bayi",
+            "familyName": "Li"
+        },
+        {
+            "@id": "https://www.comses.net/users/5105/",
+            "@type": "Role",
+            "roleName": "collaborator"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/etrw-7652",
+        "https://doi.org/10.25937/etrw-7652"
+    ],
+    "dateCreated": "2025-02-03",
+    "description": "The primary purpose of this model is to explain the dynamic processes within university-centered collaboration networks, with a particular focus on the complex transformation of academic knowledge into practical projects. Based on investigations of actual research projects and a thorough literature review, the model integrates multiple drivers and influencing factors to explore how these factors affect the formation and evolution of collaboration networks under different parameter scenarios. The model places special emphasis on the impact of disciplinary attributes, knowledge exchange, and interdisciplinary collaboration on the dynamics of collaboration networks, as well as the complex mechanisms of network structure, system efficiency, and interdisciplinary interactions during project formation.\nSpecifically, the model aims to:\n-\tSimulate how university research departments drive the formation of research projects through knowledge creation.\n-\tInvestigate how the dynamics of collaboration networks influence the transformation of innovative hypotheses into matured projects.\n-\tExamine the critical roles of knowledge exchange and interdisciplinary collaboration in knowledge production and project formation.\n-\tProvide both quantitative and qualitative insights into the interactions among academia, industry, and project outputs.",
+    "downloadUrl": "https://www.comses.net/codebases/1554e702-6709-4659-b8fc-cd574f32cf35/releases/1.0.0/download/",
+    "dateModified": "2025-06-28",
+    "releaseNotes": "ACross (Academic Collaboration, Research, Output, and System Simulation)",
+    "copyrightYear": 2025,
+    "datePublished": "2025-06-28",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetlLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,93 @@
+{
+    "@id": "https://doi.org/10.25937/3vah-2a07",
+    "url": "https://doi.org/10.25937/3vah-2a07",
+    "name": "The effect of homophily on co-offending outcomes",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-0907-0908",
+            "@type": "Person",
+            "email": "rklymentiev@gmail.com",
+            "givenName": "Ruslan",
+            "familyName": "Klymentiev",
+            "affiliation": {
+                "@id": "https://ror.org/00cv9y106",
+                "url": "https://www.ugent.be/en",
+                "name": "Ghent University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00cv9y106"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "luis.rocha@ugent.be",
+            "givenName": "Luis E. C.",
+            "familyName": "Rocha",
+            "affiliation": {
+                "@id": "https://ror.org/00cv9y106",
+                "url": "https://www.ugent.be",
+                "name": "Ghent University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00cv9y106"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "Christophe.Vandeviver@UGent.be",
+            "givenName": "Christophe",
+            "familyName": "Vandeviver",
+            "affiliation": {
+                "@id": "https://ror.org/00cv9y106",
+                "url": "https://www.ugent.be",
+                "name": "Ghent University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00cv9y106"
+            }
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "co-offending",
+        "criminology",
+        "homophily",
+        "skill acquisition",
+        "social network analysis"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/3vah-2a07",
+        "https://doi.org/10.25937/3vah-2a07"
+    ],
+    "dateCreated": "2025-06-29",
+    "description": "This Agent-Based Model is designed to simulate how similarity-based partner selection (homophily) shapes the formation of co-offending networks and the diffusion of skills within those networks. Its purpose is to isolate and test the effects of offenders\u2019 preference for similar partners on network structure and information flow, under controlled conditions.\n\nIn the model, offenders are represented as agents with an individual attribute and a set of skills. At each time step, agents attempt to select partners based on similarity preference. When two agents mutually select each other, they commit a co-offense, forming a tie and exchanging a skill. The model tracks the evolution of network properties (e.g., density, clustering, and tie strength) as well as the spread of skills over time.\n\nThis simple and theoretical model does not aim to produce precise empirical predictions but rather to generate insights and test hypotheses about the trade-off between network stability and information diffusion. It provides a flexible framework for exploring how changes in partner selection preferences may lead to differences in criminal network dynamics. Although the model was developed to simulate offenders\u2019 interactions, in principle, it could be applied to other social processes involving social learning and skills exchange.\n\nMore information about the model can be found in the associated publication. CoMSES Ten-Minute Dialogues series: [YouTube](https://www.youtube.com/watch?v=WNGKWwWdOUU).",
+    "downloadUrl": "https://www.comses.net/codebases/d388b160-e179-4c3c-b61d-25f2f2ed68a4/releases/1.0.0/download/",
+    "dateModified": "2026-02-09",
+    "releaseNotes": "## Code Structure\n\n\u251c\u2500\u2500 `src/`  # Source files for the model\n\u2502 \u251c\u2500\u2500 `agent.py`  # Agents' behavior setup\n\u2502 \u251c\u2500\u2500 `description.txt`  # Description file for interactive mode\n\u2502 \u251c\u2500\u2500 `model.py`  # Environment setup and model logic\n\u2502 \u2514\u2500\u2500 `server.py`  # Server view for interactive mode\n\u251c\u2500\u2500 `requirements.txt`  # List of required Python packages\n\u251c\u2500\u2500 `run.py`  # Launches the model in interactive mode\n\u2514\u2500\u2500 `simulation_run.py`  # Runs the model in batch mode with parameter sweeps\n\n---\n\n## Instructions to Set Up and Run the Model\n\n1. Create a new Python environment\n\n    ```\n    python -m venv homophily_abm\n    ```\n\n2. Activate the environment\n\n    - Unix/macOS\n      ```\n      source homophily_abm/bin/activate\n      ```\n    - Windows\n      ```\n      homophily_abm\\Scripts\\activate\n      ```\n\n3. Install required packages\n\n    ```\n    pip install -r requirements.txt\n    ```\n\n4. Run the model in interactive mode\n\n    ```\n    python run.py\n    ```\n\n5. Run the model in batch mode\n\n    First, adjust the input parameters in `simulation_run.py` (lines 9\u201315), then run:\n\n    ```\n    python simulation_run.py\n    ```\n\n---\n\n## Interactive Mode\n\n1. Set the desired parameters in the left panel.\n2. Click **\"Start\"** to run the model continuously, or **\"Step\"** to advance it one step at a time.\n3. Click **\"Reset\"** to reinitialize the model with the selected parameters.\n\n> *Note*: Interactive mode is not intended to produce output files. It is mainly used to observe how the network evolves over time and to track the cumulative number of co-offenses.  Additional metrics can be added by modifying `src/server.py`.\n\n---\n\n## Batch Mode\n\n1. Set input parameters in `simulation_run.py` (lines 9\u201315).\n2. To explore a single value:\n   ```\n   n_agents = 50  # or  n_agents = [50]\n   ```\n3. To explore multiple values:\n    ```\n    n_agents = [2, 50, 100]\n    ```\n4. The model will run for each combination of input parameters.\n\n\n---\n\nPlease refer to the official documentation for more details about the Mesa package: https://mesa.readthedocs.io/stable/.",
+    "copyrightYear": 2025,
+    "datePublished": "2025-09-26",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "mesa"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Ruslan Klymentiev, Luis E. C. Rocha, Christophe Vandeviver (2025). Homophily promotes stable connections in co-offending networks but limits information diffusion: insights from a simulation study. Crime Science, 14(1). https://doi.org/10.1186/s40163-025-00254-w\n\n\nConsortium, C. (2025). Crimversations: \u201cHomophily promotes stable connections in co-offending networks but limits information diffusion: insights from a simulation study.\u201d CrimRxiv. https://doi.org/10.21428/cb6ab371.e073c85a"
+}

@@ -1,0 +1,56 @@
+{
+    "@id": "https://www.comses.net/codebases/44d0678d-1412-40d9-8a02-a857a5f1d81d/releases/1.0.1/",
+    "url": "https://www.comses.net/codebases/44d0678d-1412-40d9-8a02-a857a5f1d81d/releases/1.0.1/",
+    "name": "An agent-based model of scapegoating",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/5340/",
+            "@type": "Person",
+            "email": "paes120@gmail.com",
+            "givenName": "Carlos",
+            "familyName": "Paes"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.1",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "ABM",
+        "collective behavior",
+        "contagion",
+        "crisis",
+        "scapegoating",
+        "social contagion"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/44d0678d-1412-40d9-8a02-a857a5f1d81d/releases/1.0.1/",
+    "dateCreated": "2025-08-28",
+    "description": "This agent-based model investigates scapegoating as a social mechanism of crisis management. Inspired by Ren\u00e9 Girard\u2019s mimetic theory, it simulates how individual tension accumulates and spreads across a small-world network. When tension exceeds certain thresholds, leaders emerge and accuse marginalized agents, who may attempt to transfer blame to substitutes. If scapegoating occurs, collective tension decreases, but victims become isolated while leaders consolidate temporary authority. This simulation provides a conceptual and methodological framework for exploring how collective blame, crisis contagion, and leadership paradoxes emerge in complex networks. It can also be extended with empirical data, such as social media dynamics of online harassment and virtual lynching, offering potential applications for both theoretical research and practical crisis monitoring.",
+    "downloadUrl": "https://www.comses.net/codebases/44d0678d-1412-40d9-8a02-a857a5f1d81d/releases/1.0.1/download/",
+    "dateModified": "2025-12-17",
+    "releaseNotes": "Version 1.0.1 is a corrected release of the Scapegoating ABM. In the initial release, a Word document was mistakenly uploaded as source code. This version provides the correct NetLogo source file (.nlogo) together with the ODD protocol documentation, ensuring that the model can be run, replicated, and extended by other researchers. Contact: paes120@gmail.com\n",
+    "copyrightYear": 2025,
+    "datePublished": "2025-08-28",
+    "codeRepository": "https://github.com/carlospaes120/scapegoat",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Netlogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Netlogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

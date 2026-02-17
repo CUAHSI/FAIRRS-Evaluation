@@ -1,0 +1,61 @@
+{
+    "@id": "https://www.comses.net/codebases/3dc265f6-7f26-46f8-abfd-3f8b26805829/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/3dc265f6-7f26-46f8-abfd-3f8b26805829/releases/1.0.0/",
+    "name": "Agent-based Simulation of Innovation Diffusion",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/5199/",
+            "@type": "Person",
+            "email": "t.elbracht@uni-bielefeld.de",
+            "givenName": "Theresa",
+            "familyName": "Elbracht"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Bass, F. M. (1969). A new product growth for model consumer durables. Management science, 15(5), 215-227.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "agent-based model",
+        "innovation diffusion"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3dc265f6-7f26-46f8-abfd-3f8b26805829/releases/1.0.0/",
+    "dateCreated": "2025-05-08",
+    "description": "<p>The agent-based simulation of innovation diffusion is based on the idea of the Bass model (1969).</p>\n<p>The adoption of an agent is driven two parameters: its innovativess p and its prospensity to conform with others.\nThe model is designed for a computational experiment building up on the following four model variations:</p>\n(i) the agent population it fully connected and all agents share the same parameter values for p and q \n(ii) the agent population it fully connected and agents are heterogeneous, i.e. individual parameter values are drawn from a normal distribution \n(iii) the agents population is embeded in a social network and all agents share the same parameter values for p and q \n(iv) the agents population is embeded in a social network agents are heterogeneous, i.e. individual parameter values are drawn from a normal distribution ",
+    "downloadUrl": "https://www.comses.net/codebases/3dc265f6-7f26-46f8-abfd-3f8b26805829/releases/1.0.0/download/",
+    "dateModified": "2025-05-19",
+    "releaseNotes": "Initial release",
+    "copyrightYear": 2025,
+    "datePublished": "2025-05-19",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Julia"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Agents.jl",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "julia-lang",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

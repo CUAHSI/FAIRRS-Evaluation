@@ -1,0 +1,54 @@
+{
+    "@id": "https://www.comses.net/codebases/c240dcc6-1746-4cc4-b7a3-c8630a100418/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/c240dcc6-1746-4cc4-b7a3-c8630a100418/releases/1.0.0/",
+    "name": "FilterBubbles_in_Carley1991",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-7981-192X",
+            "@type": "Person",
+            "email": "benoit.desmarchelier@univ-paris13.fr",
+            "givenName": "Beno\u00eet",
+            "familyName": "Desmarchelier"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "The model is an extension of: Carley K. (1991) \"A theory of group stability\", American Sociological Review, vol. 56, pp. 331-354, https://doi.org/10.2307/2096108",
+            "@type": "CreativeWork"
+        }
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/c240dcc6-1746-4cc4-b7a3-c8630a100418/releases/1.0.0/",
+    "dateCreated": "2025-05-21",
+    "description": "The model is an extension of: Carley K. (1991) \"A theory of group stability\", American Sociological Review, vol. 56, pp. 331-354.\n\nThe original model from Carley (1991) works as follows: \n- Agents know or ignore a series of knowledge facts;\n- At each time step, each agent i choose a partner j to interact with at random, with a probability of choice proportional to the degree of knowledge facts they have in common. \n- Agents interact synchronously. As such, interaction happens only if the partnert j is not already busy interacting with someone else.\n- During the interaction process, both agents i and j choose a fact at random among those they know and share it with their partner - who then adopts this (potentially new) knowledge.\n\n\nOur additions to the original model are the followings:\n- We introduce a filter bubble that limits agent's choice set. It is controlled by the FilterBubble parameter (Line 408 of the computer code). It is an integer number that has to be lower or equal to the size of the agents' population (itself controlled by the N parameter, at line 425).\n- We introduce a probability of access to an external source of knowledge, for instance a third place, when the partner j is busy. This probability is controlled by the decimal parameter ProbaLib (line 413). ProbaLib is in [0,1]. When attending to a third place, an agent sees one of his knowledge facts modified at random (see the Library method, at the line 124 of the code). The number of knowledge facts to be known is controlled by the size of the vector InitFacts, at the line 427 of the code.\n- We also compute an index representing the market share of the most frequent opinion.\n- The code is prepared so as to produce 100 simulation runs of 3000 time step each as well as 100 network files in .net format summarizing all the interactions hapening among the agents.\n\n\nSeveral output files are produced by the model :\n- 100 network files, named SocialNetwork.net\n- 100 time series of the market share of the most frequent opinion, named MarketShare_MostSharedOpinion.txt\"\n- 100 time series of the culture homogenenity index proposed in Carley (1991). The file is named CultureHomogeneity.txt.\n- The opinions of the 50 agents of the model about each of the 30 knowledge facts at the last time step. The files are named KnownFacts_tn.txt",
+    "downloadUrl": "https://www.comses.net/codebases/c240dcc6-1746-4cc4-b7a3-c8630a100418/releases/1.0.0/download/",
+    "dateModified": "2025-09-13",
+    "releaseNotes": "version 1.0.0",
+    "copyrightYear": 2025,
+    "datePublished": "2025-05-21",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Code::Blocks"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "C++",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Desmarchelier, B., Djellal, F. & Gallouj, F. Filter bubbles as a vector of tradition? Decoding opinion dynamics with agent-based modelling. J Comput Soc Sc 8, 88 (2025). https://doi.org/10.1007/s42001-025-00422-7"
+}

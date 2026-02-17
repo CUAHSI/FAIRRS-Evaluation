@@ -1,0 +1,66 @@
+{
+    "@id": "https://doi.org/10.25937/0yra-k708",
+    "url": "https://doi.org/10.25937/0yra-k708",
+    "name": "Mission Cattle",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-3533-9421",
+            "@type": "Person",
+            "email": "iullah@sdsu.edu",
+            "givenName": "Isaac",
+            "familyName": "Ullah",
+            "affiliation": {
+                "@id": "https://ror.org/0264fdx42",
+                "url": "http://www.sdsu.edu/",
+                "name": "San Diego State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0264fdx42"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "cattle ranching",
+        "herd population dynamics",
+        "historical archaeology"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/0yra-k708",
+        "https://doi.org/10.25937/0yra-k708"
+    ],
+    "dateCreated": "2025-09-22",
+    "description": "The model examines cattle herd dynamics on a patchy grassland subject to two exogenous pressures: periodic raiding events that remove animals and scheduled management culling that can target males and/or females. It is intended for comparative experiments on how raiding frequency, culling schedules, vegetation dynamics, and life-history parameters interact to shape herd persistence. The model was specifically designed to test the scenario of cattle herding in the arid grasslands of southern Arizona and northern Sonora during the mission period (late 17th through late 18th centuries, CE). In this period, herds were locally managed by Spanish mission personnel and local O\u2019odham groups. Herds were culled mostly for local consumption of meat, hides, and tallow, but the mission herds were often targets for raiding by neighboring groups. The main purpose of the model is to examine herd dynamics in a seasonally variable, arid environment where herds are subject to both intentional internal harvest (culling) and external harvest (raiding).",
+    "downloadUrl": "https://www.comses.net/codebases/0bb82c18-7f49-4ba8-8d2a-529324305946/releases/1.0.0/download/",
+    "dateModified": "2026-01-20",
+    "releaseNotes": "Most of the main procedures and design concepts of the model (Table 6) are reused or modified from the peer-reviewed Megafauna Hunting Pressure Model (MHPM; https://doi.org/10.25937/ghsa-8208). The shuffle_artifacts procedure is reused from the peer-reviewed tASEL model (https://doi.org/10.25937/snzp-vv60). The Cull-Males and Cull-Females procedures are newly implemented in the Mission Cattle model, and represent the planned harvesting of herd animals by herd managers. Forager movement (Move) and foraging tactics (Forage) have been significantly altered from their original implementation in the MHPM. Now, they represent the foraging strategy of \u201craiding\u201d of domestic herds by outside groups. Other minor changes to existing procedures were made to account for differences caused by these main changes.",
+    "copyrightYear": 2025,
+    "datePublished": "2025-12-15",
+    "supportingData": {
+        "url": "https://doi.org/10.5281/zenodo.17178870",
+        "@type": "DataFeed"
+    },
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo 6.3.0"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo 6.3.0",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

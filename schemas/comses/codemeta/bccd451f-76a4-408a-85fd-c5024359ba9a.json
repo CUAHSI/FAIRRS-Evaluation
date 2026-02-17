@@ -1,0 +1,123 @@
+{
+    "@id": "https://www.comses.net/codebases/bccd451f-76a4-408a-85fd-c5024359ba9a/releases/2.1.0/",
+    "url": "https://www.comses.net/codebases/bccd451f-76a4-408a-85fd-c5024359ba9a/releases/2.1.0/",
+    "name": "LogoClim: WorldClim in NetLogo",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-7782-759X",
+            "@type": "Person",
+            "email": "danvartan@gmail.com",
+            "givenName": "Daniel",
+            "familyName": "Vartanian",
+            "affiliation": {
+                "@id": "https://ror.org/036rp1748",
+                "url": "https://www5.usp.br",
+                "name": "Universidade de S\u00e3o Paulo",
+                "@type": "Organization",
+                "identifier": "https://ror.org/036rp1748"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-5947-2617",
+            "@type": "Person",
+            "email": "l.garcia@qub.ac.uk",
+            "givenName": "Leandro",
+            "familyName": "Garcia",
+            "affiliation": {
+                "@id": "https://ror.org/00hswnk62",
+                "url": "http://www.qub.ac.uk/",
+                "name": "Queen's University Belfast",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00hswnk62"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/5273/",
+            "@type": "Person",
+            "email": "alinenutri@usp.br",
+            "givenName": "Aline"
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-7782-759X",
+            "@type": "Role",
+            "roleName": "maintainer"
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-7782-759X",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-7782-759X",
+            "@type": "Role",
+            "roleName": "copyrightHolder"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "2.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Eyring, V., Bony, S., Meehl, G. A., Senior, C. A., Stevens, B., Stouffer, R. J., & Taylor, K. E. (2016). Overview of the Coupled Model Intercomparison Project Phase 6 (CMIP6) experimental design and organization. *Geoscientific Model Development*, *9*(5), 1937-1958. https://doi.org/10.5194/gmd-9-1937-2016\n\nFick, S. E., & Hijmans, R. J. (2017). WorldClim 2: New 1-km spatial resolution climate surfaces for global land areas. *International Journal of Climatology*, *37*(12), 4302-4315. https://doi.org/10.1002/joc.5086\n\nHarris, I., Osborn, T. J., Jones, P., & Lister, D. (2020). Version 4 of the CRU TS monthly high-resolution gridded multivariate climate dataset. *Scientific Data*, *7*(1), 109. https://doi.org/10.1038/s41597-020-0453-3\n\nO'Neill, B. C., Kriegler, E., Ebi, K. L., Kemp-Benedict, E., Riahi, K., Rothman, D. S., van Ruijven, B. J., van Vuuren, D. P., Birkmann, J., Kok, K., Levy, M., & Solecki, W. (2017). The roads ahead: Narratives for shared socioeconomic pathways describing world futures in the 21st century. *Global Environmental Change*, *42*, 169-180. https://doi.org/10.1016/j.gloenvcha.2015.01.004\n\nVartanian, D., Garcia, L., & Carvalho, A. M. (2025). *{Log\u00f4nia}: Plant growth response model in NetLogo* \\[Computer software\\]. https://doi.org/10.17605/OSF.IO/TPY7S",
+            "@type": "CreativeWork"
+        },
+        {
+            "text": "No.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "Agent-Based Modeling",
+        "Climate Change",
+        "Climate Data Visualization",
+        "Climate Projections",
+        "Climate Simulations",
+        "Environmental Sciences",
+        "Future Climate Scenarios",
+        "Geospatial Analysis",
+        "Historical Climate Data",
+        "LevelSpace",
+        "Log\u00f4nia",
+        "NetLogo",
+        "Parallel Execution",
+        "Raster Data",
+        "Reproducible Research",
+        "Shared Socioeconomic Pathways",
+        "Simulations",
+        "Spatial Analysis",
+        "Time Series",
+        "WorldClim"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/bccd451f-76a4-408a-85fd-c5024359ba9a/releases/2.1.0/",
+    "dateCreated": "2025-09-16",
+    "description": "`LogoClim` is a [NetLogo](https://www.netlogo.org) model for simulating and visualizing global climate conditions. It allows researchers to integrate high-resolution climate data into agent-based models, supporting reproducible research in ecology, agriculture, environmental sciences, and other fields that rely on climate data.\n\nThe model utilizes raster data to represent climate variables such as temperature and precipitation over time. It incorporates historical data (1951-2024) and future climate projections (2021-2100) derived from global climate models under various Shared Socioeconomic Pathways ([SSPs](https://climatedata.ca/resource/understanding-shared-socio-economic-pathways-ssps/), [O'Neill et al., 2017](https://doi.org/10.1016/j.gloenvcha.2015.01.004)). All climate inputs come from [WorldClim 2.1](https://worldclim.org/), a widely used source of high-resolution, interpolated climate datasets based on weather station observations worldwide ([Fick & Hijmans, 2017](https://doi.org/10.1002/joc.5086)).\n\n`LogoClim` follows the FAIR Principles for Research Software ([Barker et al., 2022](https://doi.org/10.1038/s41597-022-01710-x)) and is openly available on the CoMSES Network and [GitHub](https://github.com/sustentarea/logoclim). See the [`Log\u00f4nia`](https://www.comses.net/codebases/4f2be13a-3957-4537-bf64-3fad96ba271f/) model for an example of its integration into a full NetLogo simulation.",
+    "downloadUrl": "https://www.comses.net/codebases/bccd451f-76a4-408a-85fd-c5024359ba9a/releases/2.1.0/download/",
+    "dateModified": "2025-09-29",
+    "releaseNotes": "- Added a `#headless?` parameter to the `setup` procedure for improved headless execution.\n- Removed the `#tick` and `#wait` parameters from the `go` procedure; it now has no parameters, simplifying execution.\n- Updated the `go-back` procedure to reset ticks and clear all plots.\n- Converted `NaN` values produced by the [GIS extension](https://docs.netlogo.org/gis.html) (used to represent missing data) into `false`, following [Seth Tisue's suggestion](https://github.com/NetLogo/NetLogo/issues/2554). This fixes problems with primitives such as `export-world` and `import-world` (see [GIS Known Issues](https://docs.netlogo.org/gis.html#known-issues)).\n- Converted string parameters and interface text to title case.\n- Improved the `show-value` procedure to provide better contrast for patch labels.\n- Added a 12-month moving average for patches. Patches now have two additional attributes: `value-12` (last 12 months of values) and `value-12ma` (12-month moving average).\n- Updated plot behaviors: added a 12-month moving average pen, added indicators for the start of each 12-month cycle, and y-axis now dynamically adjusts based on the minimum, maximum, and interquartile range of the 12-month data window.\n- Removed the `halt` procedure; error messages now provide more descriptive text.\n- Added the [`Log\u00f4nia`](https://github.com/sustentarea/logonia) model as a reference for `LogoClim` integration.\n- Updated [Quarto](https://quarto.org/) notebooks.\n- Updated documentation to reflect all changes.",
+    "copyrightYear": 2025,
+    "datePublished": "2025-09-16",
+    "codeRepository": "https://github.com/sustentarea/logoclim",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo 7.0.0"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "A manuscript describing the model has been submitted to the Journal of Open Source Software ([JOSS](https://joss.theoj.org)) and is currently under [review](https://joss.theoj.org/papers/093e7333c6a34b5f3dc0b44b76e05480)."
+}

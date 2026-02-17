@@ -1,0 +1,80 @@
+{
+    "@id": "https://www.comses.net/codebases/e346d6d4-11d1-4bfa-b818-c2d00941a068/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/e346d6d4-11d1-4bfa-b818-c2d00941a068/releases/1.0.0/",
+    "name": "Online Protest and Repression in Authoritarian Settings (OPRAS)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-5948-9881",
+            "@type": "Person",
+            "email": "aytalinaliu@gmail.com",
+            "givenName": "Aytalina",
+            "familyName": "Kulichkina"
+        },
+        {
+            "@id": "https://www.comses.net/users/1193/",
+            "@type": "Person",
+            "email": "annie.waldherr@googlemail.com",
+            "givenName": "Annie",
+            "familyName": "Waldherr",
+            "affiliation": {
+                "@id": "https://ror.org/046ak2485",
+                "url": "http://www.fu-berlin.de/en/",
+                "name": "Free University of Berlin, Department of Political and Social Sciences",
+                "@type": "Organization",
+                "identifier": "https://ror.org/046ak2485"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-4636-315X",
+            "@type": "Person",
+            "email": "nwijermans@gmail.com",
+            "givenName": "Nanda",
+            "familyName": "Wijermans",
+            "affiliation": {
+                "@id": "https://ror.org/05f0yaq80",
+                "url": "http://www.su.se/english/",
+                "name": "Stockholm Resilience Center, Stockholm University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05f0yaq80"
+            }
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/e346d6d4-11d1-4bfa-b818-c2d00941a068/releases/1.0.0/",
+    "dateCreated": "2026-01-24",
+    "description": "This agent-based model, developed for the study \"Online Protest and Repression in Authoritarian Settings,\" examines how online protest and repression evolve in authoritarian contexts and how these dynamics affect ordinary users\u2019 attitudes and behavior on social media. The model integrates key theoretical and empirical insights into social media use and core political factors that shape digital contention in authoritarian settings. The following questions are addressed: (1) how online protest\u2013repression dynamics unfold across different levels of authoritarianism and varying compositions of committed accounts, and (2) how ordinary users\u2019 internal propensity to protest and their perceived probability of successful repression change during online protest-repression contestation. The model is evaluated against two empirically grounded macro patterns observed in the real world. The first is enduring protest: online protest becomes dominant as vocal protesters grow to outnumber vocal repressors, shrinking the pool of silent users and stabilizing a pro-protest majority. The second is suppressed protest: online dissent is contained as vocal repression and silence expand in response to protest, yielding a sustained majority of repressive and silent accounts. Together, these dynamics demonstrate how dissenting voices are empowered and suppressed online in authoritarian settings.",
+    "downloadUrl": "https://www.comses.net/codebases/e346d6d4-11d1-4bfa-b818-c2d00941a068/releases/1.0.0/download/",
+    "dateModified": "2026-01-27",
+    "releaseNotes": "v1.0.0",
+    "copyrightYear": 2026,
+    "datePublished": "2026-01-27",
+    "supportingData": {
+        "url": "https://osf.io/d82tq",
+        "@type": "DataFeed"
+    },
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "Netlogo 6.4.0"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Netlogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "https://doi.org/10.1007/978-3-031-91782-0_22"
+}

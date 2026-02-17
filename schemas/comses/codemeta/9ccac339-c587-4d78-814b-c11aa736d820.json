@@ -1,0 +1,108 @@
+{
+    "@id": "https://www.comses.net/codebases/9ccac339-c587-4d78-814b-c11aa736d820/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/9ccac339-c587-4d78-814b-c11aa736d820/releases/1.0.0/",
+    "name": "Industrial Cooperation and the Hydrogen Transition",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "email": "atesemrea@gmail.com",
+            "givenName": "Emre",
+            "familyName": "Ates"
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-6162-9345",
+            "@type": "Person",
+            "email": "r.j.vantveer@tudelft.nl",
+            "givenName": "Renske",
+            "familyName": "van 't Veer"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "a.ghorbani@tudelft.nl",
+            "givenName": "Amineh",
+            "familyName": "Ghorbani",
+            "affiliation": {
+                "@id": "https://ror.org/02e2c7k09",
+                "url": "http://www.tudelft.nl/en/",
+                "name": "Delft University of Technology",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02e2c7k09"
+            }
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "email": "z.lukszo@tudelft.nl",
+            "givenName": "Zofia",
+            "familyName": "Lukszo"
+        },
+        {
+            "@id": "_:author_1",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-6162-9345",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "No",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "ABM",
+        "hydrogen",
+        "industry",
+        "investment sharing"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/9ccac339-c587-4d78-814b-c11aa736d820/releases/1.0.0/",
+    "dateCreated": "2025-09-23",
+    "description": "An Agent Based Model that explores the deployment of hydrogen among a regional industrial cluster in the Netherlands, consisting of 15 companies. The companies seek to decarbonize by replacing their natural gas by hydrogen.\nThe model integrates technical characteristics as well as company motivations to transition to hydrogen. The baseline model only considers individual investments where company can locally produce hydrogen. If they reach the backbone threshold, companies can also consider buying hydrogen through a connection to the national hydrogen network. The second scenario considers that companies can participate in a joint investment to get an electrolyzer to locally produce the hydrogen.\nTwo experiments look at the impact of the sectoral configuration and at the impact of subsidy conditions on the region's hydrogen transition ",
+    "downloadUrl": "https://www.comses.net/codebases/9ccac339-c587-4d78-814b-c11aa736d820/releases/1.0.0/download/",
+    "dateModified": "2025-10-02",
+    "releaseNotes": "The model is made and run in NetLogo 6.3.0\nIt is the first version, accompanying an article currently submitted for review\n",
+    "copyrightYear": 2025,
+    "datePublished": "2025-09-23",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo 6.3.0"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Netlogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Industrial Cooperation and the Hydrogen Transition in Dutch Regional Industries: An Agent-Based Modeling Approach (submitted)"
+}

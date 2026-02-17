@@ -1,0 +1,70 @@
+{
+    "@id": "https://www.comses.net/codebases/e8cdbb3c-9b4a-4b7b-9ba0-77961853d82f/releases/4.0.0/",
+    "url": "https://www.comses.net/codebases/e8cdbb3c-9b4a-4b7b-9ba0-77961853d82f/releases/4.0.0/",
+    "name": "An agent-based model of the journey of victim/survivors through local authority domestic abuse support services in the UK",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-3903-2507",
+            "@type": "Person",
+            "email": "bruce@edmonds.name",
+            "givenName": "Bruce",
+            "familyName": "Edmonds",
+            "affiliation": {
+                "url": "http://mmu.ac.uk",
+                "name": "Centre for Policy Modelling",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/LGPL-3.0",
+        "name": "LGPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "4.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Ministry of Housing, Communities and Local Government (2025)  Domestic Abuse Duty for Support in Safe Accommodation: Evaluation. Findings from a 3-year evaluation of Part 4 of the Domestic Abuse Act 2021 assessing its delivery, impact and value for money. https://www.gov.uk/government/publications/domestic-abuse-duty-for-support-in-safe-accommodation-evaluation",
+            "@type": "CreativeWork"
+        },
+        {
+            "text": "No",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "agent-based",
+        "decision processes",
+        "domestic violence",
+        "local authority",
+        "united kingdom"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/e8cdbb3c-9b4a-4b7b-9ba0-77961853d82f/releases/4.0.0/",
+    "dateCreated": "2025-06-30",
+    "description": "This model played a small part in the UK government's review of the working of local authority implementation of the Domestic Abuse legislation. The model explicitly represents victim-survivor families as they: (a) try to contact the local DA support system, (b) are triaged by the system and (if there is space) allocated to safe temporary accomodation (c) recieve support services from this position and (d) eventually move on to more permenant accomodation. The purpose of the model was to understand some possible ways in which the implementation of DA Duty, might be frustrated in practice, the identification of gaps in the evidence base and to inform the developing Theory of Change. The key measures used for assessing outcomes in the model were the number of families helped and the services that were delivered to them. The exploration was grounded for in two archetypal cases: that of a relatively immature system for the delivery of DA services and a more mature one (based on actual local authority cases, but not based on any single one). See the official report under associated publications for a summary of results.",
+    "downloadUrl": "https://www.comses.net/codebases/e8cdbb3c-9b4a-4b7b-9ba0-77961853d82f/releases/4.0.0/download/",
+    "dateModified": "2025-07-29",
+    "releaseNotes": "There were four internal major iterations of this model and many minor versions. This is the final version used to inform the evaluation for the Ministry of Housing, Communities and Local Government via Ipsos-Mori (who were managing the wider evaluation of which this was a small part)",
+    "copyrightYear": 2025,
+    "datePublished": "2025-07-28",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "ABM",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Ministry of Housing, Communities and Local Government (2025) Domestic Abuse Duty Evaluation: Agent-based modelling report. https://assets.publishing.service.gov.uk/media/687a5c2a3f4bde279ef452a5/DA_Duty_Eval_ABM_report.pdf"
+}

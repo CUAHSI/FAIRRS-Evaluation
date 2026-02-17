@@ -1,0 +1,81 @@
+{
+    "@id": "https://www.comses.net/codebases/4328be1a-1d93-4a13-80a4-e46f09bb2f1d/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/4328be1a-1d93-4a13-80a4-e46f09bb2f1d/releases/1.1.0/",
+    "name": "Tragedy of the Commons with Environmental Feedback: A Model of Human-AI Socio-Environmental Water Dilemma",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/5275/",
+            "@type": "Person",
+            "email": "ivanamalcic2000@gmail.com",
+            "givenName": "Ivana",
+            "familyName": "Malcic"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "lukawaronig@gmail.com",
+            "givenName": "Luka",
+            "familyName": "Waronig"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "andrewwrcrossley@gmail.com",
+            "givenName": "Andrew",
+            "familyName": "Crossley"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "collaborator"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "collaborator"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "ai",
+        "environmental change",
+        "humans",
+        "tragedy of the commons",
+        "water"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4328be1a-1d93-4a13-80a4-e46f09bb2f1d/releases/1.1.0/",
+    "dateCreated": "2025-07-06",
+    "description": "This project is an interactive agent-based model simulating consumption of a shared, renewable resource using a game-theoretic framework with environmental feedback. The primary function of this model was to test how resource-use among AI and human agents degrades the environment, and to explore the socio-environmental feedback loops that lead to complex emergent system dynamics. We implemented a classic game theoretic matrix which decides agents\u00b4 strategies, and added a feedback loop which switches between strategies in pristine vs degraded environments. This leads to cooperation in bad environments, and defection in good ones.\n\nDespite this use, it can be applicable for a variety of other scenarios including simulating climate disasters, environmental sensitivity to resource consumption, or influence of environmental degradation to agent behaviour. \nThe ABM was inspired by the Weitz et. al. (2016, https://pubmed.ncbi.nlm.nih.gov/27830651/) use of environmental feedback in their paper, as well as the Demographic Prisoner\u2019s Dilemma on a Grid model (https://mesa.readthedocs.io/stable/examples/advanced/pd_grid.html#demographic-prisoner-s-dilemma-on-a-grid). The main innovation is the added environmental feedback with local resource replenishment.\n\nBeyond its theoretical insights into coevolutionary dynamics, it serves as a versatile tool with several practical applications. For urban planners and policymakers, the model can function as a \u201ddigital sandbox\u201d for testing the impacts of locating high-consumption industrial agents, such as data centers, in proximity to residential communities. It allows for the exploration of different urban densities, and the evaluation of policy interventions\u2014such as taxes on defection or subsidies for cooperation\u2014by directly modifying the agents\u2019 resource consumptions to observe effects on resource health. Furthermore, the model provides a framework for assessing the resilience of such socio-environmental systems to external shocks. \n\nThe model is built using Mesa 1.2.1 for the model and Solara for the interactive web-based dashboard. ",
+    "downloadUrl": "https://www.comses.net/codebases/4328be1a-1d93-4a13-80a4-e46f09bb2f1d/releases/1.1.0/download/",
+    "dateModified": "2025-07-06",
+    "releaseNotes": "Version 1.1 - July 7, 2025\nThis is a maintenance release to correct the main model.py file.\nChanges in this version:\n\nCorrected Model File: The primary model.py file has been replaced with the correct, functional version. The previously uploaded file was from an earlier development stage. The new model.py successfully adds deviation rates, as well as differing resource consumption rates for agents.\n\nImproved Documentation: Added comprehensive docstrings to the WaterToC model class and all its methods, explaining the purpose of each component.",
+    "copyrightYear": 2025,
+    "datePublished": "2025-07-06",
+    "codeRepository": "https://github.com/3mmdrew/Assignment-ABM/blob/model/README.md",
+    "embargoEndDate": "2025-07-06",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "mesa",
+        "solara"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}
