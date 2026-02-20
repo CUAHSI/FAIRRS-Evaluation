@@ -15,7 +15,7 @@ HEADERS = {
 }
 
 # Regex to match exactly /codebases/{uuid}/
-MODEL_URL_PATTERN = re.compile(r"^/codebases/[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}/?$")
+MODEL_URL_PATTERN = re.compile(r"^/codebases/([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}|\d{4})(/?|/releases/.*)$")
 
 def ensure_dir(directory):
     if not os.path.exists(directory):
@@ -80,7 +80,7 @@ def main():
     ensure_dir(OUTPUT_DIR)
     
     current_page = 1
-    MAX_PAGES = 9999 
+    MAX_PAGES = 9999
 
     while current_page <= MAX_PAGES:
         print(f"\n--- Processing Page {current_page} ---")
