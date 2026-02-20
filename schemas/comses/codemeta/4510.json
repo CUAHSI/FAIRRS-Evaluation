@@ -1,0 +1,86 @@
+{
+    "@id": "https://www.comses.net/codebases/4510/releases/1.2.0/",
+    "url": "https://www.comses.net/codebases/4510/releases/1.2.0/",
+    "name": "The emergence of tag-mediated altruism in structured societies",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-8072-4134",
+            "@type": "Person",
+            "email": "shade.shutters@asu.edu",
+            "givenName": "Shade",
+            "familyName": "Shutters",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1611/",
+            "@type": "Person",
+            "email": "dave@davidhales.com",
+            "givenName": "David",
+            "familyName": "Hales"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-8072-4134",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://www.comses.net/users/1611/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "RL Riolo, MD Cohen, R Axelrod (2001) \"Evolution of cooperation without reciprocity\" Nature 414(6862):441-443, https://doi.org/10.1038/35106555\n\nG Roberts, TN Sherratt (2002) \"Does similarity breed cooperation?\" Nature 418(6897):499-500, https://doi.org/10.1038/418499b\n\nL Spector, J Klein (2006) \"Genetic stability and territorial structure facilitate the evolution of tag-mediated altruism\" Artificial Life 12(4):553-560, https://doi.org/10.1162/artl.2006.12.4.553",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "altruism",
+        "cooperation",
+        "neighborhood effects",
+        "network",
+        "tag"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4510/releases/1.2.0/",
+    "dateCreated": "2015-06-01",
+    "description": "In this highly abstract model, agents occupy the nodes of a static network and exhibit an arbitrary \"tag\" that can be observed by others in the agent's local environment. During the simulation agents pair with others in the local neighborhood and in each pairing one agent takes on the role of donor and the other of recipient. The donor first determines how similar it is to the recipient by calculating the difference between their tag values. If this difference is too great, the donor ignores the recipient. But if they are sufficiently similar, the donor pays a cost in order for the recipient to receive a benefit. Thus a donation is altruistic.\r\n\r\nTo make a determination of whether similarity is sufficient in a pairing, each agent has an internal tag \"tolerance\" - a threshold of tag difference below which the agent will altruistically donate to another.\r\n\r\nFurthermore, cheaters may emerge in the population that display tags but never act altruistically, even when they are a donor and paired with recipient that is sufficiently similar.\r\n\r\nThe model is used to explore how different population parameters affect the ability of the simulated society to evolve relatively high levels of altruism.",
+    "downloadUrl": "https://www.comses.net/codebases/4510/releases/1.2.0/download/",
+    "dateModified": "2023-04-06",
+    "releaseNotes": "Previous versions used extension \"gradient\" which is no longer available in current version of NetLogo. Thus, this legacy extension has been replaced with the extension \"palette\". Otherwise, there are no other changes.",
+    "copyrightYear": 2023,
+    "datePublished": "2023-03-02",
+    "embargoEndDate": "2023-03-03",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Netlogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo 6.3.0",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "[1] ST Shutters & D Hales (2013) \"Tag-Mediated Altruism is Contingent on How Cheaters Are Defined\" Journal of Artificial Societies and Social Simulation. 16(1):4, https://doi.org/10.18564/jasss.2090  \n\n[2] ST Shutters & D Hales (2015) \"Altruism displays a harmonic signature in structured societies\" Journal of Artificial Societies and Social Simulation. 18(3):2, https://doi.org/10.18564/jasss.2780"
+}

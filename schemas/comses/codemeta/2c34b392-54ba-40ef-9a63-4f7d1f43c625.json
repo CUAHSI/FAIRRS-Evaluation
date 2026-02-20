@@ -1,0 +1,77 @@
+{
+    "@id": "https://www.comses.net/codebases/2c34b392-54ba-40ef-9a63-4f7d1f43c625/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/2c34b392-54ba-40ef-9a63-4f7d1f43c625/releases/1.0.0/",
+    "name": "A Pastoral Stoking Strategy Model with Fodder Import and Loan Scenarios",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2752/",
+            "@type": "Person",
+            "email": "yblee@ynu.edu.cn",
+            "givenName": "Yanbo",
+            "familyName": "Li",
+            "affiliation": {
+                "@id": "https://ror.org/0040axw97",
+                "url": "http://english.ynu.edu.cn/",
+                "name": "Institute of International Rivers and Eco-Security, Yunnan University, China",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0040axw97"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "https://doi.org/10.1890/07-0992.1",
+            "@type": "CreativeWork"
+        },
+        {
+            "text": "No",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "climate variability",
+        "debt",
+        "dryland",
+        "exogenous fodder input",
+        "forage",
+        "loan",
+        "Monte-Carlo method",
+        "pastoralism",
+        "pastoral systems"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2c34b392-54ba-40ef-9a63-4f7d1f43c625/releases/1.0.0/",
+    "dateCreated": "2019-12-24",
+    "description": "This model was built to estimate the impacts of exogenous fodder input and credit loans services on livelihood, rangeland health and profits of pastoral production in a small holder pastoral household in the arid steppe rangeland of Inner Mongolia, China. The model simulated the long-term dynamic of herd size and structure, the forage demand and supply, the cash flow, and the situation of loan debt under three different stocking strategies: (1) No external fodder input, (2) fodders were only imported when natural disaster occurred, and (3) frequent import of external fodder, with different amount of available credit loans.  Monte-Carlo method was used to address the influence of climate variability. ",
+    "downloadUrl": "https://www.comses.net/codebases/2c34b392-54ba-40ef-9a63-4f7d1f43c625/releases/1.0.0/download/",
+    "dateModified": "2019-12-24",
+    "releaseNotes": "To use this model you need to upload the code files in MatLab, define the parameters, and run the main program (the run_final document). More detailed instruction is provided in the description document. If you need to use it in other parts, you have to modify the code.",
+    "copyrightYear": 2019,
+    "datePublished": "2019-12-24",
+    "embargoEndDate": "2019-12-24",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "MatLab"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "MatLab",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Li,Y.B..2014.Improvement of carrying capacity management in Inner Mongolian rangeland: Beyond the non-equilibrium paradigm. PhD dissertation, Peking University, Beijing, China. (in Chinese)"
+}

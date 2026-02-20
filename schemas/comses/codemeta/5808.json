@@ -1,0 +1,53 @@
+{
+    "@id": "https://www.comses.net/codebases/5808/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5808/releases/1.0.0/",
+    "name": "Knowledge Space Model for Opinion Dynamics",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-7418-4592",
+            "@type": "Person",
+            "email": "shanem@mtu.edu",
+            "givenName": "Shane",
+            "familyName": "Mueller",
+            "affiliation": {
+                "@id": "https://ror.org/0036rpn28",
+                "url": "http://www.mtu.edu/",
+                "name": "Michigan Technological University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0036rpn28"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-7418-4592",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5808/releases/1.0.0/",
+    "dateCreated": "2017-09-28",
+    "description": "This model uses the notion of a knowledge space to simulate change of opinion in an interacting system.  It is implemented in the R statistical computing language, and provides base functions and three simulations that produce consensus, opinion divergence, and group polarization.",
+    "downloadUrl": "https://www.comses.net/codebases/5808/releases/1.0.0/download/",
+    "dateModified": "2018-09-20",
+    "releaseNotes": "",
+    "copyrightYear": 2018,
+    "datePublished": "2018-09-20",
+    "operatingSystem": "platform_independent",
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    }
+}

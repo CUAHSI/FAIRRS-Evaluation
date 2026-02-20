@@ -1,0 +1,137 @@
+{
+    "@id": "https://doi.org/10.25937/p9qm-6x26",
+    "url": "https://doi.org/10.25937/p9qm-6x26",
+    "name": "SequiaBasalto model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/4046/",
+            "@type": "Person",
+            "email": "diego.soler.navarro@gmail.com",
+            "givenName": "Diego J.",
+            "familyName": "Soler-Navarro",
+            "affiliation": {
+                "@id": "https://ror.org/012a91z28",
+                "url": "https://en.wikipedia.org/wiki/University_of_Zaragoza",
+                "name": "Universidad de Zaragoza",
+                "@type": "Organization",
+                "identifier": "https://ror.org/012a91z28"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-5756-2715",
+            "@type": "Person",
+            "email": "alicia.tenza@gmail.com",
+            "givenName": "Alicia",
+            "familyName": "Tenza Peral",
+            "affiliation": {
+                "name": "AgriFood Institute of Aragon",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "fd_uy@yahoo.com",
+            "givenName": "Francisco",
+            "familyName": "Dieguez Cameroni",
+            "affiliation": {
+                "@id": "https://ror.org/030bbe882",
+                "url": "https://udelar.edu.uy",
+                "name": "Universidad de la Rep\u00fablica",
+                "@type": "Organization",
+                "identifier": "https://ror.org/030bbe882"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-7776-9075",
+            "@type": "Person",
+            "email": "bommel@cirad.fr",
+            "givenName": "Pierre",
+            "familyName": "Bommel",
+            "affiliation": {
+                "url": "http://www.cirad.fr",
+                "name": "CIRAD",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Person",
+            "email": "marco.janssen@asu.edu",
+            "givenName": "Marco",
+            "familyName": "Janssen",
+            "affiliation": {
+                "url": "https://schoolofsustainability.asu.edu/",
+                "name": "School of Sustainability",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/239/",
+            "@type": "Person",
+            "email": "ire.perezi@gmail.com",
+            "givenName": "Irene",
+            "familyName": "Perez Ibarra",
+            "affiliation": {
+                "url": "http://csid.asu.edu/",
+                "name": "Center for the Study of Institutional Diversity",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Dieguez Cameroni, F.J., Terra, R., Tabarez, S., Bommel, P., Corral, J., Bartaburu, D., Pereira, M., Montes, E., Duarte, E., Morales Grosskopf, H., 2014. Virtual experiments using a participatory model to explore interactions between climatic variability and management decisions in extensive systems in the basaltic region of Uruguay. Agricultural Systems. 130, 89\u2013 104. http://dx.doi.org/10.1016/j.agsy.2014.07.002\n\nDieguez Cameroni, F.J., Bommel, P., Corral, J., Bartaburu, D., Pereira, M., Montes, E., Duarte, E., Morales Grosskopf, H., 2012. Modelizaci\u00f3n de una explotaci\u00f3n ganadera extensiva criadora en basalto. Agrociencia Uruguay. 16(2), 120-130.\n\nBommel, P., Dieguez Cameroni, F.J., Bartaburu, D., Duarte, E., Montes, E., Pereira, M., Corral, J., Lucena, C., Morales, H., 2014. A Further Step Towards Participatory Modelling. Fostering Stakeholder Involvement in Designing Models by Using Executable UML. Journal of Artificial Societies and Social Simulation 17 (1) 6. http://jasss.soc.surrey.ac.uk/17/1/6.html\n\nMorales Grosskopf, H., Tourrand, J. F., Bartaburu, D., Dieguez Cameroni, F.J., Bommel, P., Corral, J., Montes, E., Pereira, M., Duarte, E., De Hegedus, P., 2015. Use of simulations to enhance knowledge integration and livestock producers\u2019 adaptation to variability in the climate in northern Uruguay. The Rangeland Journal, 37(4), 425-432. https://doi.org/10.1071/RJ14063",
+            "@type": "CreativeWork"
+        },
+        {
+            "text": "http://dx.doi.org/10.1016/j.agsy.2014.07.002",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "Climate Change",
+        "extensive",
+        "grazing",
+        "livestock",
+        "natural resources",
+        "stocking rate"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/p9qm-6x26",
+        "https://doi.org/10.25937/p9qm-6x26"
+    ],
+    "dateCreated": "2023-05-26",
+    "description": "This is a replication of the SequiaBasalto model, originally built in Cormas by Dieguez Cameroni et al. (2012, 2014, Bommel et al. 2014 and Morales et al. 2015). The model aimed to test various adaptations of livestock producers to the drought phenomenon provoked by climate change. For that purpose, it simulates the behavior of one livestock farm in the Basaltic Region of Uruguay. The model incorporates the price of livestock, fodder and paddocks, as well as the growth of grass as a function of climate and seasons (environmental submodel), the life cycle of animals feeding on the pasture (livestock submodel), and the different strategies used by farmers to manage their livestock (management submodel). The purpose of the model is to analyze to what degree the common management practices used by farmers (i.e., proactive and reactive) to cope with seasonal and interannual climate variations allow to maintain a sustainable livestock production without depleting the natural resources (i.e., pasture). Here, we replicate the environmental and livestock submodel using NetLogo. \n\nOne year is 368 days. Seasons change every 92 days. Each day begins with the growth of grass as a function of climate and season. This is followed by updating the live weight of cows according to the grass height of their patch, and grass consumption, which is determined based on the updated live weight. After consumption, cows grow and reproduce, and a new grass height is calculated. Cows then move to the patch with less cows and with the highest grass height. This updated grass height value will be the initial grass height for the next day.",
+    "downloadUrl": "https://www.comses.net/codebases/6c4b759c-71f3-4da8-ac1d-3c130158a481/releases/1.0.0/download/",
+    "dateModified": "2024-12-05",
+    "releaseNotes": "Initial release",
+    "copyrightYear": 2023,
+    "datePublished": "2023-05-26",
+    "codeRepository": "https://github.com/DiegoJSN/soslivestock/commits/SequiaBasalto_ODD(lite)",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo 6.2.2"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo 6.2.2",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

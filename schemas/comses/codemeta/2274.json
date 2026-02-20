@@ -1,0 +1,75 @@
+{
+    "@id": "https://www.comses.net/codebases/2274/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/2274/releases/1.1.0/",
+    "name": "Evolution of Cooperation in Asymmetric Commons Dilemmas",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Person",
+            "email": "marco.janssen@asu.edu",
+            "givenName": "Marco",
+            "familyName": "Janssen",
+            "affiliation": {
+                "url": "https://schoolofsustainability.asu.edu/",
+                "name": "School of Sustainability",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/86/",
+            "@type": "Person",
+            "email": "nathan.rollins@asu.edu",
+            "givenName": "Nathan",
+            "familyName": "Rollins"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://www.comses.net/users/86/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "asymmetry",
+        "evolution of cooperation",
+        "irrigation"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2274/releases/1.1.0/",
+    "dateCreated": "2012-11-16",
+    "description": "This model can be used to explore under which conditions agents behave as observed in field experiments on irrigation games. In irrigation games participants have different levels of access to the resource. This asymmetry causes that agents downstream reduce investment in the common infrastructure if they do not get a large enough share of the common pool. Participants balance efficiency and equity. When do agents evolve who do the same?",
+    "downloadUrl": "https://www.comses.net/codebases/2274/releases/1.1.0/download/",
+    "dateModified": "2018-02-16",
+    "releaseNotes": "Updated for Netlogo 5.0",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Janssen, M.A. and N.D. Rollins (2012). Evolution of cooperation in asymmetric commons dilemmas. Journal of Economic Behavior and Organization, 81: 220-229"
+}

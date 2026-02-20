@@ -1,0 +1,59 @@
+{
+    "@id": "https://www.comses.net/codebases/0ecd5574-99ed-40da-b190-6a1b5786edd5/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/0ecd5574-99ed-40da-b190-6a1b5786edd5/releases/1.0.0/",
+    "name": "MTC_Model_Pilditch&Madsen",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-1679-7440",
+            "@type": "Person",
+            "email": "tdpilditch@gmail.com",
+            "givenName": "Toby",
+            "familyName": "Pilditch"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Madsen, J. K., & Pilditch, T. D. (2018). A method for evaluating cognitively informed micro-targeted campaign strategies: An agent-based model proof of principle. PloS One, 13(4), e0193909.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "Micro-targeting",
+        "politics",
+        "voting"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/0ecd5574-99ed-40da-b190-6a1b5786edd5/releases/1.0.0/",
+    "dateCreated": "2020-10-09",
+    "description": "Micro-targeted vs stochastic political campaigning agent-based model simulation. Written by Toby D. Pilditch (University of Oxford, University College London), in collaboration with Jens K. Madsen (University of Oxford, London School of Economics)\n\nThe purpose of the model is to explore the various impacts on voting intention among a population sample, when both stochastic (traditional) and Micto-targeted campaigns (MTCs) are in play. There are several stages of the model: initialization (setup), campaigning (active running protocols) and vote-casting (end of simulation). The campaigning stage consists of update cycles in which \u201cvoters\u201d are targeted and \u201cpersuaded\u201d - updating their beliefs in the campaign candidate / policies.",
+    "downloadUrl": "https://www.comses.net/codebases/0ecd5574-99ed-40da-b190-6a1b5786edd5/releases/1.0.0/download/",
+    "dateModified": "2020-10-09",
+    "releaseNotes": "Current release allows for the testing of multiple policies.\nVersion contains functionality for testing up to 8 policies, with settings for belief in and weighting of those policies.\nAlso included the capacity to turn on or off the capacity for campaigns to re-target the same voters within the same campaign (recall-YN), as well the capacity to observe undecided voter positions (undecided-vote-YN) at the point of voting.",
+    "copyrightYear": 2020,
+    "datePublished": "2020-10-09",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Pilditch, T. D. & Madsen, J.K. (under review). Targeting your preferences: Modelling micro-targeting for an increasingly diverse electorate."
+}

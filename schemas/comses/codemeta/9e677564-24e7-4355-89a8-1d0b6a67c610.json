@@ -1,0 +1,52 @@
+{
+    "@id": "https://www.comses.net/codebases/9e677564-24e7-4355-89a8-1d0b6a67c610/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/9e677564-24e7-4355-89a8-1d0b6a67c610/releases/1.0.0/",
+    "name": "Mission San Diego Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-6762-995X",
+            "@type": "Person",
+            "email": "orbannc@health.missouri.edu",
+            "givenName": "Carolyn",
+            "familyName": "Orbann"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc/4.0",
+        "name": "CC-BY-NC-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "disease modeling",
+        "historical epidemiology",
+        "NetLogo"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/9e677564-24e7-4355-89a8-1d0b6a67c610/releases/1.0.0/",
+    "dateCreated": "2019-04-08",
+    "description": "The Mission San Diego model is an epidemiological model designed to test hypotheses related to the spread of the 1805-1806 measles epidemic among indigenous residents of Mission San Diego during the early mission period in Alta California. The model community is based on the population of the Mission San Diego community, as listed in the parish documents (baptismal, marriage, and death records). Model agents are placed on a map-like grid that consists of houses, the mission church, a women\u2019s dormitory (monjeria) adjacent to the church, a communal kitchen, priest\u2019s quarters, and agricultural fields. They engage in daily activities that reflect known ethnographic patterns of behavior at the mission. A pathogen is introduced into the community and then it spreads throughout the population as a consequence of individual agent movements and interactions.",
+    "downloadUrl": "https://www.comses.net/codebases/9e677564-24e7-4355-89a8-1d0b6a67c610/releases/1.0.0/download/",
+    "dateModified": "2019-04-15",
+    "releaseNotes": "This is the Netlogo version of the Mission San Diego model, an epidemic model of Mission San Diego population in the 18th and early 19th century. The model was originally developed in RePast, but is no longer maintained in that format.\n\nThe model file, two required input data, and two results files are provided here.",
+    "copyrightYear": 2019,
+    "datePublished": "2019-04-15",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

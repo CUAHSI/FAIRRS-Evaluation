@@ -1,0 +1,69 @@
+{
+    "@id": "https://www.comses.net/codebases/3976/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/3976/releases/1.0.0/",
+    "name": "ABM mobility",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "givenName": "Irene",
+            "familyName": "P\u00e9rez Ibarra"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Person",
+            "email": "marco.janssen@asu.edu",
+            "givenName": "Marco",
+            "familyName": "Janssen",
+            "affiliation": {
+                "url": "https://schoolofsustainability.asu.edu/",
+                "name": "School of Sustainability",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_1",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3976/releases/1.0.0/",
+    "dateCreated": "2014-11-17",
+    "description": "The MOBILITY model is a stylized representation of a dynamic population of agents moving and harvesting a renewable resource. Cooperators (harvest an amount close to the maximum sustainable yield) and selfish agents (harvest higher levels of resource) are simulated in the model. The purpose of the model is to analyze how agents\u2019 mobility (i.e. the extent agents can move) affects the performance of social-ecological systems in different landscape configurations (spatial distribution of resource richness: homogeneous, uniform, normal, and exponential). Three indicators of the outcomes of the system are analyzed: number of settlements, resource level, and proportion of cooperators in the population.",
+    "downloadUrl": "https://www.comses.net/codebases/3976/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2014,
+    "datePublished": "2014-11-17",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "P\u00e9rez I and Janssen MA. In press. The effect of spatial heterogeneity and mobility on resource use in social-ecological systems. Ecological Modelling"
+}

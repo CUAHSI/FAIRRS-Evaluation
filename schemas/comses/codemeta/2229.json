@@ -1,0 +1,62 @@
+{
+    "@id": "https://www.comses.net/codebases/2229/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/2229/releases/1.0.0/",
+    "name": "A Replication of Rolf Zieglers Kula Ring Simulation",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/124/",
+            "@type": "Person",
+            "email": "rstotts@asu.edu",
+            "givenName": "Rhian",
+            "familyName": "Stotts"
+        },
+        {
+            "@id": "https://www.comses.net/users/124/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Ziegler, Rolf\r\n2008  What makes the Kula go round? A simulation model of the spontaneous emergence of a ceremonial exchange system. Social Networks 30: 107-126.\r\n\r\n2007  The Kula Ring of Bronislaw Malinowski: A Simulation Model of the Co-Evolution of an Economic and Ceremonial Exchange System. Bayerische Akademie der Wissenschaften, Munich.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "anthropology",
+        "exchangenetworks"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2229/releases/1.0.0/",
+    "dateCreated": "2008-12-16",
+    "description": "This model is a simulation of the ceremonial exchange network in Papua New Guinea called the Kula Ring.  In the Kula Ring, there are two types of gifts that travel in opposite directions: armshells counterclockwise and necklaces clockwise.  This model is a replication of some aspects of a model created by Rolf Ziegler.  The purpose of Ziegler's model was to account for the emergence and stability of this exchange network.",
+    "downloadUrl": "https://www.comses.net/codebases/2229/releases/1.0.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "@id": "https://www.comses.net/codebases/ec0b0ce9-91b8-4120-928b-b71995c9e5df/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/ec0b0ce9-91b8-4120-928b-b71995c9e5df/releases/1.0.0/",
+    "name": "An Individual-Based Mechanistic Model of Mussel Bed Boundary Formation and Intensity",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-0890-1375",
+            "@type": "Person",
+            "email": "mschumm@uchicago.edu",
+            "givenName": "Matthew",
+            "familyName": "Schumm",
+            "affiliation": {
+                "name": "FSU",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "intertidal ecology",
+        "marine ecosystems",
+        "predator-prey",
+        "spatial agent-based model"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/ec0b0ce9-91b8-4120-928b-b71995c9e5df/releases/1.0.0/",
+    "dateCreated": "2019-09-28",
+    "description": "Individually parameterized mussels (Mytilus californianus) recruit, grow, move and die in a 3D environment while facing predation (in the form of seastar agents), heat and desiccation with increased tide height, and storms. Parameterized with data collected by Wootton, Paine, Kandur, Donahue, Robles and others. See my 2019 CoMSES video presentation to learn more.",
+    "downloadUrl": "https://www.comses.net/codebases/ec0b0ce9-91b8-4120-928b-b71995c9e5df/releases/1.0.0/download/",
+    "dateModified": "2019-09-30",
+    "releaseNotes": "Version current as of 9/28/19. ***Development of ODD-consistent narrative documentation is in progress and will appear with the next version.*** Please see https://github.com/mpschumm/mussels-seastars-abm for more info on running model. See CoMSES 2019 video presentation on this model [here](https://www.youtube.com/watch?v=drap2WhZRTg). ",
+    "copyrightYear": 2019,
+    "datePublished": "2019-09-28",
+    "codeRepository": "https://github.com/mpschumm/mussels-seastars-abm",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "@id": "https://www.comses.net/codebases/5152/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5152/releases/1.0.0/",
+    "name": "LAMDA - Learning Agents for Mechanism-Design Analysis",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1736/",
+            "@type": "Person",
+            "email": "iris.lorscheid@tuhh.de",
+            "givenName": "Iris",
+            "familyName": "Lorscheid",
+            "affiliation": {
+                "@id": "https://ror.org/04bs1pb34",
+                "url": "http://www.tuhh.de/",
+                "name": "Institute of Management Accounting and Simulation, Hamburg University of Technology",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04bs1pb34"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Matthias",
+            "familyName": "Meyer"
+        },
+        {
+            "@id": "https://www.comses.net/users/1736/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based simulation",
+        "bounded rationality",
+        "budgeting",
+        "coordination",
+        "mechanism design theory"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5152/releases/1.0.0/",
+    "dateCreated": "2016-08-08",
+    "description": "The simulation model LAMDA demonstrates how agent-based simulation (ABS) may provide a computational testbed for mechanism design using concepts of bounded rationality (BR). ABS can be used to systematically derive and formalize different models of BR. This allows us to identify the cognitive preconditions for behavior intended by the mechanism and thereby to derive implications for the design of mechanisms.\r\nBased on an analysis of the requirements of the decision context, we describe a systematic way of incorporating different BR concepts into an agent learning model. The presented BR concepts as simulated by agent models cannot model human behavior in its full complexity. The simplification of complex human behavior is a useful analytical construct for the controlled analysis of a few aspects and an understanding of the potential consequences of those aspects of human behavior for mechanism design.",
+    "downloadUrl": "https://www.comses.net/codebases/5152/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2016,
+    "datePublished": "2016-08-08",
+    "operatingSystem": "windows",
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Lorscheid, I. and Meyer, M. (under review) \"Agent-Based Mechanism Design \u2013 Investigating bounded rationality concepts in a budgeting context\" Team Performance Management."
+}

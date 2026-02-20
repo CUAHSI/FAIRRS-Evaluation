@@ -1,0 +1,68 @@
+{
+    "@id": "https://www.comses.net/codebases/2639/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/2639/releases/1.1.0/",
+    "name": "Hominin ecodynamics v.2",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-2561-1927",
+            "@type": "Person",
+            "email": "michael.barton@asu.edu",
+            "givenName": "C Michael",
+            "familyName": "Barton",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-2561-1927",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "evolution",
+        "human ecology",
+        "human evolution",
+        "hunter-gatherer",
+        "land-use",
+        "mate",
+        "MOBIL",
+        "neanderthal",
+        "pleistocene"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2639/releases/1.1.0/",
+    "dateCreated": "2014-03-28",
+    "description": "hominin_ecodynamics2.0 is designed as an experimental laboratory to explore the dynamics of biobehavioral interactions between two populations, and their genetic and demographic consequences. Specifically, the model is designed to study the effects of differing initial population sizes, different interaction distances, mating restrictions, and different fitness on the demography and spatial distributions of the original two populations and hybrids.",
+    "downloadUrl": "https://www.comses.net/codebases/2639/releases/1.1.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "In version 1, each agent has a pair of 'chromosomes' each with a single allele. In version 2 (this version), chromosomes have 10 or more alleles.",
+    "copyrightYear": 2014,
+    "datePublished": "2014-03-28",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    },
+    "referencePublication": "Barton, C. Michael & Julien Riel-Salvatore (2012). Agents of change: modeling biocultural evolution in Late Pleistocene western Eurasia. Advances in Complex Systems. DOI: 10.1142/S0219525911003359."
+}

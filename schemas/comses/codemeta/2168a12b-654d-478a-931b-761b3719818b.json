@@ -1,0 +1,122 @@
+{
+    "@id": "https://doi.org/10.25937/3ewr-yt59",
+    "url": "https://doi.org/10.25937/3ewr-yt59",
+    "name": "Circular Business Model experimentation: local biodigestion network",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-2599-1421",
+            "@type": "Person",
+            "email": "k.p.h.lange@hva.nl",
+            "givenName": "Kasper",
+            "familyName": "Lange",
+            "affiliation": {
+                "@id": "https://ror.org/00y2z2s03",
+                "url": "http://www.hva.nl/",
+                "name": "Amsterdam University of Applied Sciences & Delft University of Technology",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00y2z2s03"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "g.korevaar@tudelft.nl",
+            "givenName": "Gijsbert",
+            "familyName": "Korevaar",
+            "affiliation": {
+                "@id": "https://ror.org/02e2c7k09",
+                "url": "http://www.tudelft.nl/en/",
+                "name": "Delft University of Technology",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02e2c7k09"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1211/",
+            "@type": "Person",
+            "email": "i.nikolic@tudelft.nl",
+            "givenName": "Igor",
+            "familyName": "Nikolic",
+            "affiliation": {
+                "@id": "https://ror.org/02e2c7k09",
+                "url": "http://www.tudelft.nl/en/",
+                "name": "Delft University of Technology",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02e2c7k09"
+            }
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "email": "p.m.herder@tudelft.nl",
+            "givenName": "Paulien",
+            "familyName": "Herder",
+            "affiliation": {
+                "@id": "https://ror.org/02e2c7k09",
+                "url": "http://www.tudelft.nl/en/",
+                "name": "Delft University of Technology",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02e2c7k09"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "https://www.comses.net/users/1211/",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Kasper Pieter Hendrik Lange, Gijsbert Korevaar, Igor Nikolic, Paulien Herder (2020, December 01). \u201cIndustrial Symbiosis Network implementation ABM\u201d (Version 1.1.0). CoMSES Computational Model Library. Retrieved from: https://www.comses.net/codebases/27b94bd6-cbcd-4800-b779-85e87a8f6f63/releases/1.1.0/",
+            "@type": "CreativeWork"
+        }
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/3ewr-yt59",
+        "https://doi.org/10.25937/3ewr-yt59"
+    ],
+    "dateCreated": "2020-12-17",
+    "description": "The purpose of the model is to explore the influence of the design of circular business models (CBMs) on CBM viability. The model represents an Industrial Symbiosis Network (ISN) in which a processor uses the organic waste from suppliers to produce biogas and nutrient rich digestate for local reuse. CBM viability is expressed as value captured (e.g., cash flow/tonne waste/agent) and the survival of the network over time (shown in the interface).  \n\nIn the model, the value captured is calculated relative to the initial state, using incineration costs as a benchmark. Moderating variables are interactions with the waste incinerator and actor behaviour factors. Actors may leave the network when the waste supply for local production is too low, or when personal economic benefits are too low. When the processor decides to leave, the network fails. Theory of planned behaviour can be used to include agent behaviour in the simulations.",
+    "downloadUrl": "https://www.comses.net/codebases/2168a12b-654d-478a-931b-761b3719818b/releases/1.1.0/download/",
+    "dateModified": "2021-07-14",
+    "releaseNotes": "Version 1.1.0:\nWe fixed an error that may have occurred when the Data2CSV algorithm was being used to create outputs regarding variables WSRNorm, WPRNorm, WSStepOutB, WSEBFailure, WPStepOutB and WPEBFailure.",
+    "copyrightYear": 2021,
+    "datePublished": "2021-06-29",
+    "codeRepository": "https://gitlab.tudelft.nl/kphllange/biodigester-isn-abm",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Agent-based modelling and simulation for circular business model experimentation"
+}

@@ -1,0 +1,103 @@
+{
+    "@id": "https://www.comses.net/codebases/35729cf6-9a2b-40ca-b895-1e4e6225f092/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/35729cf6-9a2b-40ca-b895-1e4e6225f092/releases/1.0.0/",
+    "name": "Peer review model with heterogeneous grade language",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-4977-0877",
+            "@type": "Person",
+            "email": "thomas.feliciani@gmail.com",
+            "givenName": "Thomas",
+            "familyName": "Feliciani",
+            "affiliation": {
+                "@id": "https://ror.org/041vb4f30",
+                "url": "https://www.ucd.ie/cvera/",
+                "name": "UCD Centre for Veterinary Epidemiology and Risk Analysis",
+                "@type": "Organization",
+                "identifier": "https://ror.org/041vb4f30"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "ramanathan.moorthy@ucdconnect.ie",
+            "givenName": "Ramanathan",
+            "familyName": "Moorthy",
+            "affiliation": {
+                "@id": "https://ror.org/041vb4f30",
+                "url": "https://www.ucd.ie/cvera/",
+                "name": "UCD Centre for Veterinary Epidemiology and Risk Analysis",
+                "@type": "Organization",
+                "identifier": "https://ror.org/041vb4f30"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/304/",
+            "@type": "Person",
+            "email": "pablo.lucas@ucd.ie",
+            "givenName": "Pablo",
+            "familyName": "Lucas",
+            "affiliation": {
+                "name": "University College Dublin",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "email": "kalpana.shankar@ucd.ie",
+            "givenName": "Kalpana",
+            "familyName": "Shankar",
+            "affiliation": {
+                "@id": "https://ror.org/041vb4f30",
+                "url": "https://www.ucd.ie/cvera/",
+                "name": "UCD Centre for Veterinary Epidemiology and Risk Analysis",
+                "@type": "Organization",
+                "identifier": "https://ror.org/041vb4f30"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "This is a re-implementation of and extension to the \"Peer Review Model\":\n\nSquazzoni, F., & Gandelli, C. (2013b). Peer Review Model (Version 1.1.0) [Computer software]. CoM-SES Computational Model Library. https://www.comses.net/codebases/3145/releases/1.1.0/",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "peer review"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/35729cf6-9a2b-40ca-b895-1e4e6225f092/releases/1.0.0/",
+    "dateCreated": "2020-03-13",
+    "description": "This ABM re-implements and extends the simulation model of peer review described in Squazzoni & Gandelli (Squazzoni & Gandelli, 2013 - doi:10.18564/jasss.2128) (hereafter: \u2018SG\u2019). The SG model was originally developed for NetLogo and is also available in CoMSES at [this link](https://www.comses.net/codebases/3145/releases/1.1.0/).\nThe purpose of the original SG model was to explore how different author and reviewer strategies would impact the outcome of a journal peer review system on an array of dimensions including peer review efficacy, efficiency and equality. In SG, reviewer evaluation consists of a continuous variable in the range [0,1], and this evaluation scale is the same for all reviewers. Our present extension to the SG model allows to explore the consequences of two more realistic assumptions on reviewer evaluation: (1) that the evaluation scale is discrete (e.g. like in a Likert scale); (2) that there may be differences among their interpretation of the grades of the evaluation scale (i.e. that the grade language is heterogeneous).\n",
+    "downloadUrl": "https://www.comses.net/codebases/35729cf6-9a2b-40ca-b895-1e4e6225f092/releases/1.0.0/download/",
+    "dateModified": "2020-05-07",
+    "releaseNotes": "First version. Instructions are found in the documentation.",
+    "copyrightYear": 2020,
+    "datePublished": "2020-05-07",
+    "embargoEndDate": "2020-04-30",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "agent-based model"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "R",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

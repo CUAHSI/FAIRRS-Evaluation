@@ -1,0 +1,65 @@
+{
+    "@id": "https://www.comses.net/codebases/5ff4b7a8-7ba8-497a-bf12-2018348e1ce1/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5ff4b7a8-7ba8-497a-bf12-2018348e1ce1/releases/1.0.0/",
+    "name": "An Agent-based Model of Farmland Transfer (Version 1.0.0)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-4843-2462",
+            "@type": "Person",
+            "email": "peng.jiang1@outlook.com",
+            "givenName": "Peng",
+            "familyName": "Jiang"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-4949-2777",
+            "@type": "Person",
+            "email": "hang.xiong@outlook.com",
+            "givenName": "Hang",
+            "familyName": "Xiong",
+            "affiliation": {
+                "@id": "https://ror.org/05a28rw58",
+                "url": "https://ethz.ch",
+                "name": "ETH Zurich",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05a28rw58"
+            }
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "decision making",
+        "farmland transfer"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5ff4b7a8-7ba8-497a-bf12-2018348e1ce1/releases/1.0.0/",
+    "dateCreated": "2021-08-11",
+    "description": "This is model that explores how a few farmers in a Chinese village, where all farmers are smallholders originally, reach optimal farming scale by transferring in farmland from other farmers in the context of urbanization and aging.",
+    "downloadUrl": "https://www.comses.net/codebases/5ff4b7a8-7ba8-497a-bf12-2018348e1ce1/releases/1.0.0/download/",
+    "dateModified": "2021-08-11",
+    "releaseNotes": "The model is designed to simulate farmers\u2019 behavior of transferring farmland in rural China. We create a world representing a village with heterogeneous farmers who can transfer in or out farmland. The farmers that transfer in land, in general large land holders, are exogenously chosen for the moment. The propensity a farmer transfers, in or out, farmland is determined by his age, degree of off-farm work.The amount of land that a farmer can transfers in is restricted by his optimal farming scale, whereas the amount of land that a farmer can transfers out is restricted by his survival farming scale. In addition, farmers are assumed to only transfer adjacent land in.",
+    "copyrightYear": 2021,
+    "datePublished": "2021-08-11",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

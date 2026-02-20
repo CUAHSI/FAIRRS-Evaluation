@@ -1,0 +1,64 @@
+{
+    "@id": "https://www.comses.net/codebases/2924/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/2924/releases/1.0.0/",
+    "name": "SpeciesWorld",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/653/",
+            "@type": "Person",
+            "email": "tlawso@essex.ac.uk",
+            "givenName": "Tony",
+            "familyName": "Lawson",
+            "affiliation": {
+                "@id": "https://ror.org/02nkf1q06",
+                "url": "http://www.essex.ac.uk/",
+                "name": "University of Essex",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02nkf1q06"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/653/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "daisyworld",
+        "environment",
+        "feedback"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2924/releases/1.0.0/",
+    "dateCreated": "2012-03-16",
+    "description": "SpeciesWorld is a development from the Daisyworld idea of Watson and Lovelock (1983).\r\n\r\nIn Daisyworld, the white daisies thrive in warm conditions. They reflect heat which has the effect of cooling the environment. In cold conditions, there are more of the black daisies which absorb heat and warm the environment. The result is a robust feedback mechanism which, within limits, keeps global temperature within a range that is conducive for life.\r\n\r\nThe question is: how did this come about. If the black daisies did better in warm conditions and the white ones preferred the cold, there would be feedback that would result in either runaway warming or coolong.\r\n\r\nSpeciesWorld depicts a situation where speicies that alter their environment in a way that promotes life have a higher chance of survival. Those that worsen their environment die out more quickly. In this way, the ecosystem evolves species which work together to counteract external environmental change.",
+    "downloadUrl": "https://www.comses.net/codebases/2924/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

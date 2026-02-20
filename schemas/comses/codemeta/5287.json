@@ -1,0 +1,95 @@
+{
+    "@id": "https://www.comses.net/codebases/5287/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/5287/releases/1.1.0/",
+    "name": "Cooperation Under Resources Pressure (CURP)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-6151-1176",
+            "@type": "Person",
+            "email": "mariaperedagarcia@gmail.com",
+            "givenName": "Mar\u00eda",
+            "familyName": "Pereda",
+            "affiliation": {
+                "url": "https://www.upm.es",
+                "name": "Universidad Polit\u00e9cnica de Madrid",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "jmgalan@ubu.es",
+            "givenName": "Jos\u00e9 Manuel",
+            "familyName": "Gal\u00e1n Ordax",
+            "affiliation": {
+                "@id": "https://ror.org/049da5t36",
+                "url": "https://www.ubu.es",
+                "name": "Universidad de Burgos",
+                "@type": "Organization",
+                "identifier": "https://ror.org/049da5t36"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-6653-043X",
+            "@type": "Person",
+            "email": "jismartin@gmail.com",
+            "givenName": "Jos\u00e9",
+            "familyName": "Santos",
+            "affiliation": {
+                "@id": "https://ror.org/049da5t36",
+                "url": "https://www.ubu.es/english-version",
+                "name": "University of Burgos (Spain)",
+                "@type": "Organization",
+                "identifier": "https://ror.org/049da5t36"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-6151-1176",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-6653-043X",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5287/releases/1.1.0/",
+    "dateCreated": "2017-01-18",
+    "description": "Cooperation Under Resources Pressure (CURP) is an agent-based model designed to explore the evolution of cooperation under different resources scenarios that condition individual needs for survival. The model is a very stylized abstraction, where resources pressure is modeled by a stochastic process of acquiring resources (i.e. prob-resource) and by a parameter of the minimal proportion of the resource unit necessary for survival (i.e. min-energy). The model offers different insights about how the resources pressure can change the cooperative behavior of any group of individuals, although we have a particular interest in the evolution of sharing practices in HG societies.",
+    "downloadUrl": "https://www.comses.net/codebases/5287/releases/1.1.0/download/",
+    "dateModified": "2018-04-25",
+    "releaseNotes": "",
+    "copyrightYear": 2018,
+    "datePublished": "2018-04-25",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

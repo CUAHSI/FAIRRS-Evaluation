@@ -1,0 +1,77 @@
+{
+    "@id": "https://www.comses.net/codebases/5611/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5611/releases/1.0.0/",
+    "name": "Agent-based model of WiFi tracking system in urban environment",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-8960-2504",
+            "@type": "Person",
+            "email": "thron@tamuct.edu",
+            "givenName": "Christopher",
+            "familyName": "Thron",
+            "affiliation": {
+                "url": "http://www.tamuct.edu",
+                "name": "Texas A&M University-Central Texas",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Khoi",
+            "familyName": "Tran"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-8960-2504",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "location",
+        "network",
+        "sensor",
+        "tracking",
+        "urban",
+        "wifi"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5611/releases/1.0.0/",
+    "dateCreated": "2017-04-21",
+    "description": "The model (written in basic Matlab, convertable to Octave) provides proof-of-concept for a sensor network system for tracking  WiFi users in outdoor urban environments. Sensors are fixed, and are capable of measuring signal power from users\u2019 WiFi devices.  The location algorithm takes into account the effects of power control, and is self-calibrating in that the signal power model used by the algorithm is adjusted and improved as part of the operation of the network.\r\n  \r\nThe Matlab code includes testbench files to generate simulation results which verify the system\u2019s performance. The simulation scenario is based on a 1.5 km2 area of lower Manhattan, The self-calibration mechanism was verified for initial rms (root mean square) errors of up to  12 dB in the channel power estimates: rms errors were reduced by over 60% in 300 track-hours, in systems with limited power control. Under typical operating conditions with (without) power control, location rms errors are about 8.5 (5) meters with 90% accuracy within 9 (13) meters, for both pedestrian and vehicular users. The distance error distributions for smaller distances (<30 m) are well-approximated by an exponential distribution, while the distributions for large distance errors have fat tails.\r\n\r\nAlso included is an Octave program which utilizes an integer linear programming algorithm to determine sensor placement for networks with reduced number of sensors. In our test case, the algorithm produces a network with 18.5% fewer sensors with comparable accuracy estimation performance.",
+    "downloadUrl": "https://www.comses.net/codebases/5611/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "Run testbench files to duplicate results.",
+    "copyrightYear": 2017,
+    "datePublished": "2017-04-21",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "MatLab"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Any",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Christopher Thron, Khoi Tran, Douglas Smith, Daniel Benincasa,\r\n\"Design and Simulation of Sensor Networks for Tracking Wifi Users in Outdoor Urban Environments\", Proceedings SPIE (2017)"
+}

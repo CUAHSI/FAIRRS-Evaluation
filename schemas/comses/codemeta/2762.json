@@ -1,0 +1,62 @@
+{
+    "@id": "https://www.comses.net/codebases/2762/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/2762/releases/1.0.0/",
+    "name": "Agent-based model of sexual partnership",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/631/",
+            "@type": "Person",
+            "email": "a.k.knittel@gmail.com",
+            "givenName": "Andrea",
+            "familyName": "Knittel",
+            "affiliation": {
+                "url": "https://www.isas.illinois.edu/",
+                "name": "Illinois State Archaeological Survey",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/631/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "sexualbehavior",
+        "sexualdecisionmaking"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2762/releases/1.0.0/",
+    "dateCreated": "2011-12-05",
+    "description": "The agent-based model presented here builds on existing models, allowing for multiple partnerships, including those overlapping in time, to examine sexual partnerships, with the goal of hypothesis testing and guiding data collection. Within each model run, agents are assigned characteristics (including quality, aspiration, courtship duration, and ideal number of lifetime partners) and then search for partners; existing couples choose whether they should break up, remain dating, or become sexual partners. Model behavior was tested across a wide range of parameters and compared\r\nwith empirical data. The model produces numbers of lifetime sexual partners, and partners in the last year, rates of concurrency, and relationship durations similar to nationally representative data from the United States; it also generates correlations in partners\u2019 quality similar to those reported for marriage and dating partners. Model results highlight the importance of individual preferences, interactions between individuals, and contextual factors in sexual decision making.",
+    "downloadUrl": "https://www.comses.net/codebases/2762/releases/1.0.0/download/",
+    "dateModified": "2018-02-19",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Repast"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Andrea K Knittel, Rick L Riolo and Rachel C Snow. Development and evaluation of an agent-based model of sexual partnership. Adaptive Behavior published online 15 November 2011. DOI: 10.1177/1059712311422611 (http://adb.sagepub.com/content/early/2011/10/29/1059712311422611)"
+}

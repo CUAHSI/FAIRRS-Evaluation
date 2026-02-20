@@ -1,0 +1,67 @@
+{
+    "@id": "https://www.comses.net/codebases/5637/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5637/releases/1.0.0/",
+    "name": "Coastal Coupled Housing and Land Markets (C-CHALMS)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/564/",
+            "@type": "Person",
+            "email": "nrmagliocca@ua.edu",
+            "givenName": "Nicholas",
+            "familyName": "Magliocca",
+            "affiliation": {
+                "@id": "https://ror.org/02qskvh78",
+                "url": "http://www.umbc.edu/",
+                "name": "University of Maryland, Baltimore County",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02qskvh78"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/564/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "adaption",
+        "expected utility",
+        "land-use change",
+        "natural hazards",
+        "risk perception",
+        "salience theory"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5637/releases/1.0.0/",
+    "dateCreated": "2017-05-18",
+    "description": "The overall purpose of this model is to explore how feedbacks between housing and land markets influence the conversion of undeveloped land (e.g., agriculture) to residential housing. The agent-based model (ABM) presented here is a version of the CHALMS model (Magliocca et al., 2011, 2012) that has been adapted to a coastal landscape subject to uncertain impacts from coastal storms (C-CHALMS). The goal of the model is not to simulate the development patterns and market dynamics of any particular location. Rather, the aim is to isolate psychological and perceptual factors that influence location and adaptation decisions and their effects on key interactions between housing and land markets (particularly the timing and proximity to the coast of land conversion. The model investigates how agent-level decisions and interactions through markets link to market- and landscape-level outcomes, such as housing and land prices and extent and configuration of residential development, respectively. Further, the goal is to understand how residential housing consumers make trade-offs between amenities and risks of damages from storms given location near the coast, and how those trade-offs do or do not influence adaptive decisions in response to storms, such as purchasing insurance and/or relocating to less risky areas.",
+    "downloadUrl": "https://www.comses.net/codebases/5637/releases/1.0.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "This version is designed with modular risk perception and value functions that can be experimentally turned 'on' and 'off' for use with a genetic algorithm or other parallel-executing parameter sweep routine. All dependencies are included in the downloaded folder, but path names will need to be changed for the local environment.",
+    "copyrightYear": 2017,
+    "datePublished": "2017-05-18",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "MatLab"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "MatLab",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

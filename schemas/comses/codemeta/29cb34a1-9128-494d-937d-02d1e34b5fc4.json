@@ -1,0 +1,106 @@
+{
+    "@id": "https://www.comses.net/codebases/29cb34a1-9128-494d-937d-02d1e34b5fc4/releases/2.0.0/",
+    "url": "https://www.comses.net/codebases/29cb34a1-9128-494d-937d-02d1e34b5fc4/releases/2.0.0/",
+    "name": "The Friendship Field",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-8552-9469",
+            "@type": "Person",
+            "email": "eva.timmer@wur.nl",
+            "givenName": "Eva",
+            "familyName": "Timmer",
+            "affiliation": {
+                "@id": "https://ror.org/04qw24q55",
+                "url": "https://www.wur.nl/",
+                "name": "Wageningen University & Research",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04qw24q55"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/3589/",
+            "@type": "Person",
+            "email": "chrisja00@live.nl",
+            "givenName": "Chrisja",
+            "familyName": "van de Kieft",
+            "affiliation": {
+                "@id": "https://ror.org/04qw24q55",
+                "url": "https://www.wur.nl/",
+                "name": "Wageningen University & Research",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04qw24q55"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-8552-9469",
+            "@type": "Role",
+            "roleName": "publisher"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-8552-9469",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "https://www.comses.net/users/3589/",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "2.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Kemper, T. D. (2017). Elementary Forms of Social Relations: status, power and reference groups. Routledge.\nHofstede, G. J., Student, J., & Kramer, M. R. (2018). The status\u2013power arena: a comprehensive agent-based model of social status dynamics and gender in groups of children. AI and Society, 0(0), 1\u201321. https://doi.org/10.1007/s00146-017-0793-5",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "Agent based social simulation",
+        "extraversion",
+        "friendship formation",
+        "friendships",
+        "humans",
+        "introversion",
+        "Kemper",
+        "NetLogo",
+        "resemblance",
+        "social battery",
+        "social energy",
+        "social interaction",
+        "social status"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/29cb34a1-9128-494d-937d-02d1e34b5fc4/releases/2.0.0/",
+    "dateCreated": "2022-05-26",
+    "description": "The Friendship Field model aims at modelling friendship formation based on three factors: Extraversion, Resemblance and Status, where social interaction is motivated by the Social Battery. Social Battery is one's energy and motivation to engage in social contact. Since social contact is crucial for friendship formation, the model included Social Battery to affect social interactions. To our best knowledge, Social Battery is a yet unintroduced concept in research while it is a dynamic factor influencing the social interaction besides one's characteristics. Extraverts' Social Batteries charge while interacting and exhaust while being alone. Introverts' Social Batteries charge while being alone and exhaust while interacting. The aim of the model is to illustrate the concept of Social Battery. Moreover, the Friendship Field shows patterns regarding Extraversion, Resemblance and Status including the mere-exposure effect and friendship by similarity. For the implementation of Status, Kemper's status-power theory is used. The concept of Social Battery is also linked to Kemper's theory on the organism as reference group. By running the model for a year (3 interactions moments per day), the friendship dynamics over time can be studied. \n\nWe presented the model at the Social Simulation Conference 2022.",
+    "downloadUrl": "https://www.comses.net/codebases/29cb34a1-9128-494d-937d-02d1e34b5fc4/releases/2.0.0/download/",
+    "dateModified": "2025-03-11",
+    "releaseNotes": "Release v2.0.0 - August 2022",
+    "copyrightYear": 2022,
+    "datePublished": "2022-08-30",
+    "embargoEndDate": "2022-05-26",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo 6.2.2"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo 6.2.2",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "https://doi.org/10.1007/978-3-031-34920-1_24"
+}

@@ -1,0 +1,83 @@
+{
+    "@id": "https://www.comses.net/codebases/1fef1ba7-ba2b-4fa6-96f9-634b8ad35553/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/1fef1ba7-ba2b-4fa6-96f9-634b8ad35553/releases/1.0.0/",
+    "name": "An agent-based model to simulate field-specific nitrogen fertilizer applications in grasslands",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "email": "andrea.kaim@ufz.de",
+            "givenName": "Andrea",
+            "familyName": "Kaim"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-7287-6648",
+            "@type": "Person",
+            "email": "thomas.schmitt@kit.edu",
+            "givenName": "Thomas",
+            "familyName": "Schmitt"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "sylvia.annuth@uni-bayreuth.de",
+            "givenName": "Sylvia",
+            "familyName": "Annuth"
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-4530-8968",
+            "@type": "Person",
+            "email": "maria.haensel@uni-bayreuth.de",
+            "givenName": "Maria",
+            "familyName": "Haensel"
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Person",
+            "email": "thomas.koellner@uni-bayreuth.de",
+            "givenName": "Thomas",
+            "familyName": "Koellner"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based model",
+        "field-scale",
+        "grassland management",
+        "nitrogen fertilization",
+        "nutrient trade"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/1fef1ba7-ba2b-4fa6-96f9-634b8ad35553/releases/1.0.0/",
+    "dateCreated": "2025-02-09",
+    "description": "Grasslands have a large share of the world\u2019s land cover and their sustainable management is important for the protection and provisioning of grassland ecosystem services. The question of how to manage grassland sustainably is becoming increasingly important, especially in view of climate change, which on the one hand extends the vegetation period (and thus potentially allows use intensification) and on the other hand causes yield losses due to droughts. Fertilization plays an important role in grassland management and decisions are usually made at farm level. Data on fertilizer application rates are crucial for an accurate assessment of the effects of grassland management on ecosystem services. However, these are generally not available on farm/field scale. To close this gap, we present an agent-based model for Fertilization In Grasslands (FertIG). Based on animal, land-use, and cutting data, the model estimates grassland yields and calculates field-specific amounts of applied organic and mineral nitrogen on grassland (and partly cropland). Furthermore, the model considers different legal requirements (including fertilization ordinances) and nutrient trade among farms. FertIG was applied to a grassland-dominated region in Bavaria, Germany comparing the effects of changes in the fertilization ordinance as well as nutrient trade. The results show that the consideration of nutrient trade improves organic fertilizer distribution and leads to slightly lower Nmin applications. On a regional scale, recent legal changes (fertilization ordinance) had limited impacts. Limiting the maximum applicable amount of Norg to 170 kg N/ha fertilized area instead of farm area as of 2020 hardly changed fertilizer application rates. No longer considering application losses in the calculation of fertilizer requirements had the strongest effects, leading to lower supplementary Nmin applications. The model can be applied to other regions in Germany and, with respective adjustments, in Europe. Generally, it allows comparing the effects of policy changes on fertilization management at regional, farm and field scale.",
+    "downloadUrl": "https://www.comses.net/codebases/1fef1ba7-ba2b-4fa6-96f9-634b8ad35553/releases/1.0.0/download/",
+    "dateModified": "2025-02-09",
+    "releaseNotes": "model associated with Kaim et al. 2025 | doi:10.1016/j.eja.2025.127539",
+    "copyrightYear": 2025,
+    "datePublished": "2025-02-09",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Netlogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Netlogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "doi:10.1016/j.eja.2025.127539"
+}

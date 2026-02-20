@@ -1,0 +1,112 @@
+{
+    "@id": "https://www.comses.net/codebases/3549/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/3549/releases/1.1.0/",
+    "name": "Wedding Doughnut",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-0147-6118",
+            "@type": "Person",
+            "email": "thorsilver@gmail.com",
+            "givenName": "Eric",
+            "familyName": "Silverman",
+            "affiliation": {
+                "@id": "https://ror.org/00vtgdb53",
+                "url": "http://www.gla.ac.uk/",
+                "name": "University of Glasgow",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00vtgdb53"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Jakub",
+            "familyName": "Bijak"
+        },
+        {
+            "@id": "https://www.comses.net/users/1125/",
+            "@type": "Person",
+            "email": "jason_hilton@yahoo.com",
+            "givenName": "Jason",
+            "familyName": "Hilton",
+            "affiliation": {
+                "@id": "https://ror.org/01ryk1543",
+                "url": "http://www.southampton.ac.uk/",
+                "name": "University of Southampton",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01ryk1543"
+            }
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "givenName": "Viet",
+            "familyName": "Cao"
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-0147-6118",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://www.comses.net/users/1125/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "http://www.demographic-research.org/Volumes/Vol17/3/17-3.pdf",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "agentbasedmodel",
+        "demography",
+        "partnershipformation"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3549/releases/1.1.0/",
+    "dateCreated": "2013-09-20",
+    "description": "Here we have an agent-based model designed to demonstrate the potential synergies between ABM approaches and statistical demographic studies of populations.  We aim to take advantage of the strengths of both disciplines -- the statistical demographic elements provide strong empirical relevance, while the ABM elements allow for the study of the social mechanisms underlying partnership formation.\r\n\r\nThe model is implemented in Repast Simphony 2.0 beta, and the code is written entirely in Java.  The package uploaded here contains all the model code, all the parameters used in our default scenario, and CSV files containing the relevant fertility and mortality rates for the UK population from 1951 onward.\r\n\r\nThe data used here was collected from the Office for National Statistics in the UK, and from the Human Mortality Database.  All of this data is freely available online for no charge.",
+    "downloadUrl": "https://www.comses.net/codebases/3549/releases/1.1.0/download/",
+    "dateModified": "2018-02-19",
+    "releaseNotes": "This version of the model is connected to our recent journal paper, forthcoming in Demographic Research; further details can be found in the reference provided.",
+    "copyrightYear": 2013,
+    "datePublished": "2013-09-20",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Repast"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Silverman, E., Bijak, J., Noble, J., Cao, V., Hilton, J. (2012).  Semi-Artificial Models of Population: Connecting Demography with Agent-Based Modelling.  Accepted to the 4th World Congress on Social Simulation, Taipei, Taiwan, 4-7 September 2012."
+}

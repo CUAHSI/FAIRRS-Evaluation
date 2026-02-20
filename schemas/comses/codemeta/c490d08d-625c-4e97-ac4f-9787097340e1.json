@@ -1,0 +1,59 @@
+{
+    "@id": "https://www.comses.net/codebases/c490d08d-625c-4e97-ac4f-9787097340e1/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/c490d08d-625c-4e97-ac4f-9787097340e1/releases/1.0.0/",
+    "name": "On the liquidity of the illiquid (hard-to-trade) assets",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-8858-4615",
+            "@type": "Person",
+            "email": "czuprynm@uek.krakow.pl",
+            "givenName": "Marcin",
+            "familyName": "Czupryna",
+            "affiliation": {
+                "@id": "https://ror.org/0262te083",
+                "url": "http://www.uek.krakow.pl/",
+                "name": "Cracow University of Economics",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0262te083"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/c490d08d-625c-4e97-ac4f-9787097340e1/releases/1.0.0/",
+    "dateCreated": "2024-11-27",
+    "description": "\tThis paper investigates the impact of agents' trading decisions on market liquidity and transactional efficiency in markets for illiquid (hard-to-trade) assets. Drawing on a unique order book dataset from the fine wine exchange Liv-ex, we offer novel insights into liquidity dynamics in illiquid markets. Using an agent-based framework, we assess the adequacy of conventional liquidity measures in capturing market liquidity and transactional efficiency. Our main findings reveal that conventional liquidity measures, such as the number of bids, asks, new bids and new asks, may not accurately represent overall transactional efficiency. Instead, volume (measured by the number of trades) and relative spread measures may be more appropriate indicators of liquidity within the context of illiquid markets. Furthermore, our simulations demonstrate that a greater number of traders participating in the market correlates with an increased efficiency in trade execution, while wider trader-set margins may decrease the transactional efficiency. Interestingly, the trading period of the agents appears to have a significant impact on trade execution. This suggests that granting market participants additional time for trading (for example, through the support of automated trading systems) can enhance transactional efficiency within illiquid markets. These insights offer practical implications for market participants and policymakers aiming to optimise market functioning and liquidity.",
+    "downloadUrl": "https://www.comses.net/codebases/c490d08d-625c-4e97-ac4f-9787097340e1/releases/1.0.0/download/",
+    "dateModified": "2025-01-13",
+    "releaseNotes": "The preliminary version",
+    "copyrightYear": 2025,
+    "datePublished": "2025-01-13",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "visual studio 2019"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Julia",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "julia-lang",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "To be provided"
+}

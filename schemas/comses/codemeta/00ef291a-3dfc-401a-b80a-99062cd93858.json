@@ -1,0 +1,80 @@
+{
+    "@id": "https://doi.org/10.25937/6cfk-dk31",
+    "url": "https://doi.org/10.25937/6cfk-dk31",
+    "name": "An agent-based model for brain drain",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-9701-2814",
+            "@type": "Person",
+            "email": "furkan.gursoy@boun.edu.tr",
+            "givenName": "Furkan",
+            "familyName": "G\u00fcrsoy",
+            "affiliation": {
+                "@id": "https://ror.org/03z9tma90",
+                "url": "http://www.boun.edu.tr/en_US",
+                "name": "Bo\u011fazi\u00e7i University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03z9tma90"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "badur@boun.edu.tr",
+            "givenName": "Bertan",
+            "familyName": "Badur",
+            "affiliation": {
+                "@id": "https://ror.org/03z9tma90",
+                "url": "http://www.boun.edu.tr/en_US",
+                "name": "Bo\u011fazi\u00e7i University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03z9tma90"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.1",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based model",
+        "brain drain",
+        "network effects",
+        "utility function"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/6cfk-dk31",
+        "https://doi.org/10.25937/6cfk-dk31"
+    ],
+    "dateCreated": "2018-08-02",
+    "description": "An agent-based model for the emigration of highly-skilled labour.\n\nWe hypothesise that there are two main factors that impact the decision and ability to move abroad: desire to maximise individual utility and network effects. Accordingly, several factors play role in brain drain such as the overall economic and social differences between the home and host countries, people\u2019s ability and capacity to obtain good jobs and start a life abroad, the barriers of moving abroad, and people\u2019s social network who are already working abroad.",
+    "downloadUrl": "https://www.comses.net/codebases/00ef291a-3dfc-401a-b80a-99062cd93858/releases/1.0.1/download/",
+    "dateModified": "2021-03-17",
+    "releaseNotes": "Original version of the model as studied in the associated publication.",
+    "copyrightYear": 2021,
+    "datePublished": "2021-03-12",
+    "codeRepository": "https://github.com/furkangursoy/braindrainabm",
+    "embargoEndDate": "2021-03-12",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "F. G\u00fcrsoy and B. Badur. An Agent-Based Modelling Approach to Brain Drain. IEEE Transactions on Computational Social Systems. (to appear). doi: 10.1109/TCSS.2021.3066074\n\nPreprint: https://arxiv.org/abs/2103.03234"
+}

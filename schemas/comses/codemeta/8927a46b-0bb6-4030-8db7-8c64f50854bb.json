@@ -1,0 +1,97 @@
+{
+    "@id": "https://www.comses.net/codebases/8927a46b-0bb6-4030-8db7-8c64f50854bb/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/8927a46b-0bb6-4030-8db7-8c64f50854bb/releases/1.0.0/",
+    "name": "Agent-Based Model of Transhumant Decision-Making Processes in Senegal",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-7160-4069",
+            "@type": "Person",
+            "email": "cheickameddiloma@yahoo.fr",
+            "givenName": "Cheick Amed Diloma Gabriel",
+            "familyName": "TRAORE",
+            "affiliation": {
+                "@id": "https://ror.org/04cq90n15",
+                "url": "https://www.univ-bobo.gov.bf",
+                "name": "Nazi Boni University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04cq90n15"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-6633-6269",
+            "@type": "Person",
+            "email": "etienne.delay@cirad.fr",
+            "givenName": "Etienne",
+            "familyName": "DELAY",
+            "affiliation": {
+                "url": "https://ur-green.cirad.fr/en",
+                "name": "CIRAD",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "djibrildiopsn@gmail.com",
+            "givenName": "Djibril",
+            "familyName": "Diop"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "email": "alassane.bah@ucad.edu.sn",
+            "givenName": "Alassane",
+            "familyName": "Bah"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc/4.0",
+        "name": "CC-BY-NC-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Traore, C.A.D.G., Delay, E., Diop, D., Bah, A., 2024a. Sahelian transhumance simulator (STS). Software Impacts 19, 100627. https://doi.org/10.1016/j.simpa.2024.100627\n\nTraore, C.A.D.G., Delay, E., Diop, D., Bah, A., 2024b. Agent-Based Model for Analyzing the Impact of Movement Factors of Sahelian Transhumant Herds. Hum-Cent Intell Syst. https://doi.org/10.1007/s44230-024-00075-1",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "Adaptation",
+        "agent-based model (abm)",
+        "Complex Adaptive Agents",
+        "Hough transform",
+        "Multi Criteria Decision-Making",
+        "multiobjective optimization",
+        "optimization",
+        "Rationality"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/8927a46b-0bb6-4030-8db7-8c64f50854bb/releases/1.0.0/",
+    "dateCreated": "2023-09-21",
+    "description": "Sahelian transhumance is a  type of socio-economic and environmental pastoral mobility.\u00a0It involves the movement of herds from their terroir of origin  (i.e., their original pastures) to one or more host terroirs, followed by a return to the terroir of origin. \u00a0According to certain pastoralists, the mobility of herds is planned to prevent environmental degradation, given the continuous dependence of these herds on their environment. However, these herds emit Greenhouse Gases (GHGs) in the spaces they traverse. Given that GHGs contribute to global warming, our long-term objective is to quantify the GHGs emitted by Sahelian herds. The determination of these herds' GHG emissions requires: (1) the artificial replication of the transhumance, and (2) precise knowledge of the space used during their transhumance.\nThis article presents the design of an artificial replication of the transhumance through an agent-based model named MSTRANS. MSTRANS determines the space used by transhumant herds, based on the decision-making process of Sahelian transhumants.\nMSTRANS integrates a constrained multi-objective optimization problem and algorithms into an agent-based model. The constrained multi-objective optimization problem encapsulates  the rationality and adaptability of pastoral strategies. Interactions between a transhumant and its socio-economic network are modeled using algorithms, diffusion processes, and within the multi-objective optimization problem. The dynamics of pastoral resources are formalized at various spatio-temporal scales using equations that are integrated into the algorithms.\nThe results of MSTRANS are validated using GPS data collected from transhumant herds in Senegal. MSTRANS results highlight the relevance of integrated models and constrained multi-objective optimization for modeling and monitoring the movements of transhumant herds in the Sahel. Now specialists in calculating greenhouse gas emissions have a reproducible and reusable tool for determining the space occupied by transhumant herds in a Sahelian country. In addition, decision-makers, pastoralists, veterinarians and traders have a reproducible and reusable tool to help them make environmental and socio-economic decisions.",
+    "downloadUrl": "https://www.comses.net/codebases/8927a46b-0bb6-4030-8db7-8c64f50854bb/releases/1.0.0/download/",
+    "dateModified": "2024-08-13",
+    "releaseNotes": "None",
+    "copyrightYear": 2024,
+    "datePublished": "2024-07-03",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "GAMA"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "gaml",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "https://doi.org/10.18564/jasss.5445"
+}

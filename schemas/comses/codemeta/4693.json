@@ -1,0 +1,68 @@
+{
+    "@id": "https://www.comses.net/codebases/4693/releases/1.4.0/",
+    "url": "https://www.comses.net/codebases/4693/releases/1.4.0/",
+    "name": "PPHPC - Predator-Prey for High-Performance Computing",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-8487-5837",
+            "@type": "Person",
+            "email": "faken@fakenmc.com",
+            "givenName": "Nuno",
+            "familyName": "Fachada",
+            "affiliation": {
+                "url": "https://www.ulusofona.pt/",
+                "name": "Universidade Lus\u00f3fona de Humanidades e Tecnologias",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-8487-5837",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.4.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "odd",
+        "predator-prey",
+        "spatial model",
+        "standard model"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4693/releases/1.4.0/",
+    "dateCreated": "2015-11-25",
+    "description": "PPHPC is a conceptual model which captures important characteristics of spatial agent-based models (SABMs), such as agent movement and local agent interactions. It was designed with several goals in mind:\r\n\r\n* Provide a basis for a tutorial on complete model specification and thorough simulation output analysis.\r\n* Investigate statistical comparison strategies for model replication.\r\n* Compare different implementations from a performance point of view, using different frameworks, programming languages, hardware and/or parallelization strategies, while maintaining statistical equivalence among implementations.\r\n* Test the influence of different pseudo-random number generators (PRNGs) on the statistical accuracy of simulation output.\r\n\r\nThe model can be implemented using substantially different approaches that ensure statistically equivalent qualitative results. Implementations may differ in aspects such as the selected system architecture, choice of programming language and/or agent-based modeling framework, parallelization strategy, random number generator, and so forth. By comparing distinct PPHPC implementations, valuable insights can be obtained on the computational and algorithmical design of SABMs in general.",
+    "downloadUrl": "https://www.comses.net/codebases/4693/releases/1.4.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "Update article, final published version.",
+    "copyrightYear": 2015,
+    "datePublished": "2015-11-25",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Fachada N, Lopes VV, Martins RC, Rosa AC. (2015) Towards a standard model for research in agent-based modeling and simulation. PeerJ Computer Science 1:e36 http://dx.doi.org/10.7717/peerj-cs.36"
+}

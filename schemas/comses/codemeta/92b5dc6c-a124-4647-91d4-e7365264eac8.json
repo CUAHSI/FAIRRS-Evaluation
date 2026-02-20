@@ -1,0 +1,58 @@
+{
+    "@id": "https://www.comses.net/codebases/92b5dc6c-a124-4647-91d4-e7365264eac8/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/92b5dc6c-a124-4647-91d4-e7365264eac8/releases/1.0.0/",
+    "name": "Importing a Roman transport network",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-1589-7768",
+            "@type": "Person",
+            "email": "tombrughmans1@gmail.com",
+            "givenName": "Tom",
+            "familyName": "Brughmans",
+            "affiliation": {
+                "@id": "https://ror.org/052gg0110",
+                "url": "http://www.ox.ac.uk/",
+                "name": "University of Oxford",
+                "@type": "Organization",
+                "identifier": "https://ror.org/052gg0110"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "complex networks",
+        "roman archaeology"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/92b5dc6c-a124-4647-91d4-e7365264eac8/releases/1.0.0/",
+    "dateCreated": "2018-09-30",
+    "description": "A draft model teaching how a Roman transport model can be imported into Netlogo, and the issues confronted when importing and reusing open access Roman datasets. This model is used for the tutorial:\nBrughmans, T. (2018). Importing a Roman Transport network with Netlogo, Tutorial, https://archaeologicalnetworks.wordpress.com/resources/#transport  .",
+    "downloadUrl": "https://www.comses.net/codebases/92b5dc6c-a124-4647-91d4-e7365264eac8/releases/1.0.0/download/",
+    "dateModified": "2018-09-30",
+    "releaseNotes": "Draft version of model for the following tutorial: \nBrughmans, T. (2018). Importing a Roman Transport network with Netlogo, Tutorial, https://archaeologicalnetworks.wordpress.com/resources/#transport  .\nThe input data 'orbis.graphml' was created using the edge list available here: https://purl.stanford.edu/mn425tz9757\nand the settlements data available here: https://github.com/emeeks/orbis_v2/blob/master/sites_extended.csv\nThis data is made available by ORBIS, Walter Scheidel, Elijah Meeks, Karl Grossner under the CC-BY-3.0 license.",
+    "copyrightYear": 2018,
+    "datePublished": "2018-09-30",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

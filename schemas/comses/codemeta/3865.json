@@ -1,0 +1,91 @@
+{
+    "@id": "https://www.comses.net/codebases/3865/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/3865/releases/1.1.0/",
+    "name": "A-KinGDom: A Kinship, Grooming and Dominance Model for Primate Societies",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1094/",
+            "@type": "Person",
+            "email": "ruth.dolado@ub.edu",
+            "givenName": "Ruth",
+            "familyName": "Dolado",
+            "affiliation": {
+                "@id": "https://ror.org/021018s57",
+                "url": "http://www.ub.edu/web/ub/en/",
+                "name": "University of Barcelona",
+                "@type": "Organization",
+                "identifier": "https://ror.org/021018s57"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Francesc",
+            "familyName": "Beltran"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Vicenc",
+            "familyName": "Quera"
+        },
+        {
+            "@id": "https://www.comses.net/users/1094/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Puga-Gonz\u00e1lez, I., Hildenbrandt, H., & Hemelrijk, C.K. (2009). Emergent patterns of social affiliation in primates, a model. Plos Computational Biology, 5 (12).",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "affiliative interactions",
+        "biological models",
+        "dominance interactions",
+        "kinship",
+        "primate social structure"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3865/releases/1.1.0/",
+    "dateCreated": "2013-07-17",
+    "description": "Based on previous models (Hemelrijk 1998; Puga-Gonz\u00e1lez, Hildenbrant & Hemelrijk 2009), we have developed an agent-based model and software, called A-KinGDom, which allows us to simulate the emergence of the social structure in a group of non-human primates. The model includes dominance and affiliative interactions which allow us to define four different attack and affiliative strategies. The A-KinGDom software reads initial parameters from a text file, performs the simulations and saves the agents\u2019 information and the main measures of social structure of non-human primates in three text files. Therefore, the results obtained from simulations can be compared with empirical observations of groups of primates",
+    "downloadUrl": "https://www.comses.net/codebases/3865/releases/1.1.0/download/",
+    "dateModified": "2018-02-23",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-07-17",
+    "operatingSystem": "windows",
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "C",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

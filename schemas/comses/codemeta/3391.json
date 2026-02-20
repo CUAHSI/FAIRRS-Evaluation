@@ -1,0 +1,61 @@
+{
+    "@id": "https://www.comses.net/codebases/3391/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/3391/releases/1.0.0/",
+    "name": "Variations on the Ethnocentrism Model of Hammond and Axelrod",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-8357-0276",
+            "@type": "Person",
+            "email": "fredrik.jansson@intercult.su.se",
+            "givenName": "Fredrik",
+            "familyName": "Jansson",
+            "affiliation": {
+                "url": "http://www.intercult.su.se",
+                "name": "Centre for the Study of Cultural Evolution",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-8357-0276",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "evolution",
+        "evolutionary game theory",
+        "prisoners' dilemma",
+        "replication",
+        "spatial agent-based model"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3391/releases/1.0.0/",
+    "dateCreated": "2012-11-10",
+    "description": "In the original model of Hammond and Axelrod (2006), agents populate a lattice and interact with their immediate neighbours in a prisoner's dilemma. Agents have a tag, and one strategy towards agents with the same tag and one towards those with a different tag. Depending on success in previous interactions, agents reproduce onto neighbouring patches.\r\n\r\nThe model has been scrutinised with several adjustments in the paper \"Pitfalls in Spatial Modelling of Ethnocentrism\" and this Java package contains the implementation of the different models used there, allowing for the following modifications to the original model:\r\n\r\nSpatial structure:\r\n\nLattice with wrap-around borders\r\n\nwith up to 24 neighbours\r\n\nSmall-world network\r\nWell-mixed population (no spatial structure)\r\n\nwith different weights for in- and outgroup interactions\r\n\n\r\n\r\nStrategies:\r\n\nAgents discriminating on tag\r\n\nwith tags and strategies mutating at different rates\r\nwith tags being difficult to perceive\r\n\nAgents recognising and discriminating on kin relations\r\n",
+    "downloadUrl": "https://www.comses.net/codebases/3391/releases/1.0.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "platform_independent",
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "@id": "https://www.comses.net/codebases/3993/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/3993/releases/1.0.0/",
+    "name": "Auroa Shooting Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "givenName": "Roy",
+            "familyName": "Hayes"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Reginald",
+            "familyName": "Hayes"
+        },
+        {
+            "@id": "_:author_1",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based",
+        "mass shooting"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3993/releases/1.0.0/",
+    "dateCreated": "2013-10-25",
+    "description": "The simulation environment consists of a two-dimensional Cartesian world. When it is either the gunman\u2019s turn to act, they aim directly for the center of their target. The bullet they fire is perturbed from this intended trajectory. This error represents both the gun\u2019s and the shooter\u2019s accuracy. A smaller perturbation is indicative of a more accurate gun and shooter. The perturbation is a normally distributed random variable. The baseline standard deviation (\u03c3) of the random variable is calculated from the maximum effective distance of the gun. The maximum effective distance of a gun is considered the distance at which an average trained shooter can hit a human torso, assumed 1.4 feet in diameter, 50% of the time. Assuming a normal distribution, it becomes possible to determine the standard deviation or baseline measure of the accuracy for each weapon. Take for example the AR-15, which has an effective range of 1804.46 feet. \u03b8=tan^(-1)\u3016(radius human torso)/(effective range)\u3017 Using the equation above, the AR-15\u2019s \u03b8=0.022 degrees. In other words, 50% of the time the AR-15 will fire a bullet within 0.022 degrees of the intended aiming line. The mean of the random normal distribution is assumed to be 0. To determine the standard deviation, the equation \u03c3= \u03b8/0.67 is used. In the case of the AR-15, the standard deviation is 0.033. Any additional deviation is caused by the shooter. The shooter aims at the center of the target. For the gunman, this is the closest civilian the bullet leaves at a trajectory that is altered by random normal distribution; for the AR-15 this is N(0,0.033 + human error). The bullet travels on this adjusted trajectory, and the first person that is less than 0.7 feet (assumed radius of the torso) off of the trajectory and within the range of the gun is considered shot. The bullet is assumed to travel instantaneously and does not penetrate through a person or wall.",
+    "downloadUrl": "https://www.comses.net/codebases/3993/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-10-25",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

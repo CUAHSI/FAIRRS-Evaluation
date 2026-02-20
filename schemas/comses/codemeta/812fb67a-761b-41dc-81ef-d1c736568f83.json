@@ -1,0 +1,76 @@
+{
+    "@id": "https://www.comses.net/codebases/812fb67a-761b-41dc-81ef-d1c736568f83/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/812fb67a-761b-41dc-81ef-d1c736568f83/releases/1.0.0/",
+    "name": "Artificial Long House Valley",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-4766-5264",
+            "@type": "Person",
+            "email": "alwarren@uark.edu",
+            "givenName": "Amy",
+            "familyName": "Warren"
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-4534-3392",
+            "@type": "Person",
+            "email": "sattenspiell@missouri.edu",
+            "givenName": "Lisa",
+            "familyName": "Sattenspiel",
+            "affiliation": {
+                "@id": "https://ror.org/02ymw8z06",
+                "url": "http://missouri.edu/",
+                "name": "University of Missouri",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02ymw8z06"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.html",
+        "name": "Apache-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Axtell, Robert L., Joshua M. Epstein, Jeffrey S. Dean, George J. Gumerman, Alan C. Swedlund, Jason Harburger, Shubha Chakravarty, Ross Hammond, Jon Parker, and Miles Parker. (2002) Population growth and collapse in a multiagent model of the Kayenta Anasazi in Long House Valley. Proceedings of the National Academy of Sciences, USA 99(3):7275\u20137279.\n\nJanssen, Marco A. (2009) Understanding Artificial Anasazi. Journal of Artificial Societies and Social Simulation 12(4):13. <http://jasss.soc.surrey.ac.uk/12/4/13.html>\n\nKowalewski, Stephen A. (1982) Population and agricultural potential: Early I through V. In: Monte Alban hinterlands, Part I. The Prehispanic Settlement Patterns of the Central and Southern Parts of the Valley of Oaxaca, Mexico. Memoirs No. 23. Museum of Anthropology. University of Michigan, Ann Arbor. pp. 149-180.\n\nStonedahl, F., & Wilensky, U. (2010). Evolutionary Robustness Checking in the Artificial Anasazi Model. Proceedings of the AAAI Fall Symposium on Complex Adaptive Systems: Resilience, Robustness, and Evolvability. November 11-13, 2010. Arlington, VA. (Available:  http://ccl.northwestern.edu/papers/2010/Stonedahl%20and%20Wilensky.pdf)\n\nWeiss, Kenneth M. and Wobst, H. Martin. (1973) Demographic models for anthropology. Memoirs of the Society for American Archaeology, No. 27. p. i-ix, 1-186.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "agent-based computational demography",
+        "agent-based model",
+        "archaeology",
+        "Artificial Anasazi",
+        "Artificial Long House Valley",
+        "paleodemography"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/812fb67a-761b-41dc-81ef-d1c736568f83/releases/1.0.0/",
+    "dateCreated": "2020-03-19",
+    "description": "This model extends the original Artifical Anasazi (AA) model to include individual agents, who vary in age and sex, and are aggregated into households. This allows more realistic simulations of population dynamics within the Long House Valley of Arizona from AD 800 to 1350 than are possible in the original model. The parts of this model that are directly derived from the AA model are based on Janssen's 1999 Netlogo implementation of the model; the code for all extensions and adaptations in the model described here (the Artificial Long House Valley (ALHV) model) have been written by the authors. The AA model included only ideal and homogeneous \"individuals\" who do not participate in the population processes (e.g., birth and death)--these processes were assumed to act on entire households only. The ALHV model incorporates actual individual agents and all demographic processes affect these individuals. Individuals are aggregated into households that participate in annual agricultural and demographic cycles. Thus, the ALHV model is a combination of individual processes (birth and death) and household-level processes (e.g., finding suitable agriculture plots). \n\nAs is the case for the AA model, the ALHV model makes use of detailed archaeological and paleoenvironmental data from the Long House Valley and the adjacent areas in Arizona. It also uses the same methods as the original model (from Janssen's Netlogo implementation) to estimate annual maize productivity of various agricultural zones within the valley. These estimates are used to determine suitable locations for households and farms during each year of the simulation.",
+    "downloadUrl": "https://www.comses.net/codebases/812fb67a-761b-41dc-81ef-d1c736568f83/releases/1.0.0/download/",
+    "dateModified": "2020-03-19",
+    "releaseNotes": "Initial release of the Artificial Long House Valley model. ",
+    "copyrightYear": 2020,
+    "datePublished": "2020-03-19",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Swedlund, Alan, Lisa Sattenspiel, Amy Warren, and George Gumerman (2014) Modelling archaeology: 20 years after Artificial Anasazi. In Agent-based Modeling and Archaeology, Gabriel Wurzer, Kerstin Kowarik, and Hans Reschreiter (eds.) Berlin: Springer, pp. 37-50.\n\nSwedlund, Alan C, Lisa Sattenspiel, Amy Warren, Richard S Meindl, and George J Gumerman III (2016) Explorations in paleodemography: an overview of the Artificial Long House Valley agent-based modeling project, with new observations on demographic estimation. In New Directions in Biocultural Anthropology, Molly K Zuckerman and Deborah Martin (eds.) New York: Wiley-Blackwell, pp. 403-426."
+}

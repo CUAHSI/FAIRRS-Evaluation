@@ -1,0 +1,62 @@
+{
+    "@id": "https://www.comses.net/codebases/2620/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/2620/releases/1.0.0/",
+    "name": "An agent-based model to study the effects of trust in coalition formation",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-4506-2745",
+            "@type": "Person",
+            "email": "gnardin@emse.fr",
+            "givenName": "Luis Gustavo",
+            "familyName": "Nardin",
+            "affiliation": {
+                "url": "https://emse.fr",
+                "name": "Mines Saint-Etienne",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-4506-2745",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "coalition formation",
+        "spatial prisoner's dilemma",
+        "trust"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2620/releases/1.0.0/",
+    "dateCreated": "2011-08-31",
+    "description": "This model is an agent-based simulation that consists of agents who play the spatial prisioner's dilemma game with coalition formation. The coalition dynamics are mainly influenced by how much the agents trust their leaders. The main objective is provide a simulation model to enable the analysis of the impacts that the use of trust may cause in coalition formation.",
+    "downloadUrl": "https://www.comses.net/codebases/2620/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "linux",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

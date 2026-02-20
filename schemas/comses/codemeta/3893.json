@@ -1,0 +1,56 @@
+{
+    "@id": "https://www.comses.net/codebases/3893/releases/1.2.0/",
+    "url": "https://www.comses.net/codebases/3893/releases/1.2.0/",
+    "name": "A model of circular migration",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "givenName": "Anna",
+            "familyName": "Klabunde"
+        },
+        {
+            "@id": "_:author_1",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "circular migration",
+        "empirical model",
+        "network"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3893/releases/1.2.0/",
+    "dateCreated": "2016-02-17",
+    "description": "An agent-based model of endogenously evolving migrant networks is developed to find and estimate the size of determinants of migration and return decisions. Individuals are connected by links, the strength of which declines over time and distance.  Methodologically, parameterization using data from the Mexican Migration Project is combined with calibration. It is shown that expected earnings, an idiosyncratic home bias, network ties to other migrants, strength of links to the home country and age have a significant impact on circular migration patterns over time.\r\nThe model can reproduce spatial patterns of migration as well as the distribution of number of trips of migrants. It can also be used for computational experiments and policy analysis.",
+    "downloadUrl": "https://www.comses.net/codebases/3893/releases/1.2.0/download/",
+    "dateModified": "2018-02-19",
+    "releaseNotes": "Version 7.8",
+    "copyrightYear": 2016,
+    "datePublished": "2016-02-17",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

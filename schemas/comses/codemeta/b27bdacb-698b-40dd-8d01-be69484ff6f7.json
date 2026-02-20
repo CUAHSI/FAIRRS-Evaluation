@@ -1,0 +1,58 @@
+{
+    "@id": "https://www.comses.net/codebases/b27bdacb-698b-40dd-8d01-be69484ff6f7/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/b27bdacb-698b-40dd-8d01-be69484ff6f7/releases/1.0.0/",
+    "name": "DiDIY Factory",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-3936-2565",
+            "@type": "Person",
+            "email": "ruth@cfpm.org",
+            "givenName": "Ruth",
+            "familyName": "Meyer",
+            "affiliation": {
+                "url": "http://mmu.ac.uk",
+                "name": "Centre for Policy Modelling",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc/4.0",
+        "name": "CC-BY-NC-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent based model (abm)",
+        "Digital DIY",
+        "factory",
+        "organisational design"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/b27bdacb-698b-40dd-8d01-be69484ff6f7/releases/1.0.0/",
+    "dateCreated": "2018-02-20",
+    "description": "The DiDIY-Factory model is a model of an abstract factory. Its purpose is to investigate the impact Digital Do-It-Yourself (DiDIY) could have on the domain of work and organisation.\n\nDiDIY can be defined as the set of all manufacturing activities (and mindsets) that are made possible by digital technologies. The availability and ease of use of digital technologies together with easily accessible shared knowledge may allow anyone to carry out activities that were previously only performed by experts and professionals. In the context of work and organisations, the DiDIY effect shakes organisational roles by such disintermediation of experts. It allows workers to overcome the traditionally strict organisational hierarchies by having direct access to relevant information, e.g. the status of machines via real-time information systems implemented in the factory.\n\nA simulation model of this general scenario needs to represent a more or less abstract manufacturing firm with supervisors, workers, machines and tasks to be performed. Experiments with such a model can then be run to investigate the organisational structure \u2013- changing from a strict hierarchy to a self-organised, seemingly anarchic organisation.",
+    "downloadUrl": "https://www.comses.net/codebases/b27bdacb-698b-40dd-8d01-be69484ff6f7/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "Internal version 3.0, combining two previously separate model variants (with/without supervisor) into one model. Switching between model variants is now possible via the model parameter *with-supervisor?*.\n\nAll necessary extensions (factbase, queue, time) that do not come with Netlogo have been bundled with the model code.",
+    "copyrightYear": 2018,
+    "datePublished": "2018-02-20",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,83 @@
+{
+    "@id": "https://www.comses.net/codebases/6cc6a99b-cde1-4e49-bef8-e6fd4f997259/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/6cc6a99b-cde1-4e49-bef8-e6fd4f997259/releases/1.0.0/",
+    "name": "Vertical Communication in Organizations",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-7013-765X",
+            "@type": "Person",
+            "email": "victorien.barbet@univ-amu.fr",
+            "givenName": "Victorien",
+            "familyName": "Barbet",
+            "affiliation": {
+                "url": "https://www.amse-aixmarseille.fr/",
+                "name": "AMSE",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1614/",
+            "@type": "Person",
+            "email": "juliette.rouchier@dauphine.fr",
+            "givenName": "Juliette",
+            "familyName": "Rouchier",
+            "affiliation": {
+                "url": "http://www.lamsade.dauphine.fr",
+                "name": "CNRS-LAMSADE",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "noe.guiraud.1@ulaval.ca",
+            "givenName": "No\u00e9",
+            "familyName": "Guiraud",
+            "affiliation": {
+                "@id": "https://ror.org/04sjchr03",
+                "url": "http://www2.ulaval.ca/en/home.html",
+                "name": "Universit\u00e9 Laval",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04sjchr03"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/260/",
+            "@type": "Person",
+            "email": "vincent_laperriere@yahoo.fr"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/6cc6a99b-cde1-4e49-bef8-e6fd4f997259/releases/1.0.0/",
+    "dateCreated": "2018-04-16",
+    "description": "We propose an ABM replicating the evolution of action oriented groups (like NPO) due to disagreement among members on the practices to implement. Looking at the stability and representativeness (ability of groups to federate) we introduce vertical communication: the possibility for group to communicate around their practices to their members. We test for three levels (to whom it is addressed) and four types (how it influences agents) of communication.",
+    "downloadUrl": "https://www.comses.net/codebases/6cc6a99b-cde1-4e49-bef8-e6fd4f997259/releases/1.0.0/download/",
+    "dateModified": "2019-12-20",
+    "releaseNotes": "We present a model showing the evolution of an organization of agents who discuss democratically about good practices. This model feeds on a field study we did for a few years in France where we followed NPOs, called AMAP, and observed their construction through time at the regional and national level. Most of the hypothesis we make are here either based on the literature on opinion diffusion or on the results of our field study. By defining dynamics where agents influence each other, make collective decision at the group level, and decide to stay in or leave their respective groups, we analyse the effect of different forms of vertical communication that is meant to spread good practices within the organization. Our main indicators of the good functioning of the democratic dynamics are stability and representativeness. We show that if communication about norms is well designed, it has a positive impact on both stability and representativeness. Interestingly the effect of communication increases with the number of dimensions discussed in the groups. Communication about norms is thus a valuable tool to use in groups that wish to improve their democratic practices without jeopardizing stability.",
+    "copyrightYear": 2019,
+    "datePublished": "2019-12-20",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

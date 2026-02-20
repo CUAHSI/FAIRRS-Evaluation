@@ -1,0 +1,63 @@
+{
+    "@id": "https://www.comses.net/codebases/43ae828c-ad0c-4cd1-ab6d-8d0e4a75e8a7/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/43ae828c-ad0c-4cd1-ab6d-8d0e4a75e8a7/releases/1.0.0/",
+    "name": "Social Identity Model of Protest Emergence (SIMPE)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-7170-3067",
+            "@type": "Person",
+            "email": "cristina.chueca-del-cerro@durham.ac.uk",
+            "givenName": "Cristina",
+            "familyName": "Chueca Del Cerro",
+            "affiliation": {
+                "@id": "https://ror.org/01v29qb04",
+                "url": "https://www.dur.ac.uk/",
+                "name": "Durham University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01v29qb04"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "Netlogo",
+        "opinion dynamics",
+        "polarisation",
+        "protests",
+        "social media",
+        "Social Networks"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/43ae828c-ad0c-4cd1-ab6d-8d0e4a75e8a7/releases/1.0.0/",
+    "dateCreated": "2023-03-17",
+    "description": "The Social Identity Model of Protest Emergence (SIMPE), an agent-based model of national identity and protest mobilisations.\n\nI developed this model for my PhD project, \"Polarisation and Protest Mobilisation Around Secessionist Movements: an Agent-Based Model of Online and Offline Social Networks\", at the University of Glasgow (2019-2023).\n\nThe purpose of this model is to simulate protest emergence in a given country where there is an independence movement, fostering the self-categorisation process of national identification. In order to contextualised SIMPE, I have used Catalonia, where an ongoing secessionist movement since 2011 has been present, national identity has shown signs of polarisation, and where numerous mobilisations have taken place over the last decade. Data from the Catalan Centre of Opinion Studies (CEO) has been used to inform some of the model parameters.\n\nThis model integrates mehcanisms and assumptions from previous models of opinion dynamics, social influence, and collective action (see Deffuant et al., 2002; Hegselmann and Krause 2002; M\u00c3\u00a4s and Flache, 2010; Epstein, 2003;2013, Edmonds,2021) to understand the role of national identity polarisation in protest emergence. In particular, SIMPE applies social identity theory to Epstein's Agent Zero (2013) and Epstein's civil violence (2003) models to explain protest mobilisation.",
+    "downloadUrl": "https://www.comses.net/codebases/43ae828c-ad0c-4cd1-ab6d-8d0e4a75e8a7/releases/1.0.0/download/",
+    "dateModified": "2023-11-09",
+    "releaseNotes": "Current working version of my model (Netlogo 6.2, Dec 2020 release)",
+    "copyrightYear": 2023,
+    "datePublished": "2023-03-17",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetlLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Netlogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Under revision"
+}

@@ -1,0 +1,146 @@
+{
+    "@id": "https://www.comses.net/codebases/4609/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/4609/releases/1.1.0/",
+    "name": "MedLanD Modeling Laboratory",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-2561-1927",
+            "@type": "Person",
+            "email": "michael.barton@asu.edu",
+            "givenName": "C Michael",
+            "familyName": "Barton",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1937/",
+            "@type": "Person",
+            "email": "iullah@sdsu.edu",
+            "givenName": "Isaac",
+            "familyName": "Ullah",
+            "affiliation": {
+                "@id": "https://ror.org/0264fdx42",
+                "url": "http://www.sdsu.edu/",
+                "name": "San Diego State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0264fdx42"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Gary",
+            "familyName": "Mayer"
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-9576-7914",
+            "@type": "Person",
+            "email": "sean.bergin@asu.edu",
+            "givenName": "Sean",
+            "familyName": "Bergin",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "School of Complex Adaptive Systems, Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Person",
+            "givenName": "Hessam",
+            "familyName": "Sarjoughian"
+        },
+        {
+            "@id": "_:author_6",
+            "@type": "Person",
+            "givenName": "Helena",
+            "familyName": "Mitasova"
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-2561-1927",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://www.comses.net/users/1937/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-9576-7914",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_6",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agriculture",
+        "farms",
+        "hybrid model",
+        "landscape evolution",
+        "land-use",
+        "mediterranean",
+        "socio-ecological systems",
+        "swidden"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4609/releases/1.1.0/",
+    "dateCreated": "2017-12-14",
+    "description": "MedLanD Modeling Laboratory, developed in the NSF funded Mediterranean Landscape Dynamics Project. The MML provides a hybrid modeling environment that couples an agent-based model of small-holder agropastoral households and a cellular landscape evolution model that simulates changes in erosion/deposition, soils, and vegetation. The ABM is written in Java and uses DEVS Suite (all needed files are included). The landscape evolution model is written in Python and requires installation of GRASS GIS v.6. Java jar, Java source code, Python source code, and sample data files (as a GRASS spatial database) are available here.",
+    "downloadUrl": "https://www.comses.net/codebases/4609/releases/1.1.0/download/",
+    "dateModified": "2020-07-23",
+    "releaseNotes": "This version is a bug fix that restores a missing jar file.",
+    "copyrightYear": 2017,
+    "datePublished": "2017-12-14",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "DEVS Suite",
+        "GRASS"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Barton CM, Ullah IIT, Bergin S (2010a) Land use, water and Mediterranean landscapes: modelling long-term dynamics of complex socio-ecological systems. Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences 368:5275 \u20135297. doi: 10.1098/rsta.2010.0193\r\n\r\nBarton CM, Ullah IIT, Bergin SM, et al. (2012) Looking for the future in the past: long-term change in socioecological systems. Ecological Modelling 241:42\u201353. doi: 10.1016/j.ecolmodel.2012.02.010\r\n\r\nBarton CM, Ullah IIT, Mitasova H (2010b) Computational modeling and Neolithic socioecological dynamics: a case study from southwest Asia. American Antiquity 75:364\u2013386.\r\n\r\nMayer GR, Sarjoughian HS (2007) Complexities of Simulating a Hybrid Agent-Landscape Model Using Multi-Formalism Composability. In: Ades MJ (ed) SpringSim \u201907 Proceedings of the 2007 spring simulation multiconference, Norfolk, Virginia. Society for Computer Simulation International, San Diego, CA, pp 161\u2013168\r\n\r\nMayer GR, Sarjoughian HS (2009) Composable Cellular Automata. SIMULATION 85:735\u2013749. doi: 10.1177/0037549709106341\r\n\r\nMayer GR, Sarjoughian HS, Allen EK, et al. (2006) Simulation modeling for human community and agricultural landuse. Agent-Directed Simulation, Proceedings of the Agent-Directed Simulation Multi-Conference, Huntsville, Alabama. Huntsville, AL, pp 65\u201372\r\n\r\nMitasova H, Barton CM, Ullah IIT, et al. (2013) GIS-based soil erosion modeling. In: Shroder J, Bishop M (eds) Treatise in Geomorphology: Vol. 3 Remote Sensing and GI Science in Geomorphology. Academic Press, San Diego, CA, pp 228\u2013258\r\n\r\nSarjoughian HS, Meyer GR, Ullah II, Barton CM (2015) Managing Hybrid Model Composition Complexity: Human\u2013Environment Simulation Models. In: Yilmaz L (ed) Concepts and Methodologies for Modeling and Simulation. Springer International Publishing, pp 107\u2013134\r\n\r\nUllah IIT (2013) The Consequences of Human land-use Strategies During the PPNB-LN Transition: A Simulation Modeling Approach. PhD Dissertation, Arizona State University\r\n\r\nUllah IIT (2011) A GIS method for assessing the zone of human-environmental impact around archaeological sites: a test case from the Late Neolithic of Wadi Ziql\u00e2b, Jordan. Journal of Archaeological Science 38:623\u2013632. doi: 10.1016/j.jas.2010.10.015\r\n\r\nUllah IIT, Bergin S (2012) Modeling the consequences of village site location: least cost path modeling in a coupled GIS and Agent-Based model of village agropastoralism in Eastern Spain. In: White DA, Surface-Evans SL (eds) Least Cost Analysis of Social Landscapes: Archaeological Case Studies. University of Utah Press, Salt Lake City, pp 155\u2013173"
+}

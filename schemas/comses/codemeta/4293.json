@@ -1,0 +1,63 @@
+{
+    "@id": "https://www.comses.net/codebases/4293/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4293/releases/1.0.0/",
+    "name": "SEDIBASES",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/990/",
+            "@type": "Person",
+            "email": "voidness@gmx.de",
+            "givenName": "Sebastian",
+            "familyName": "Rasch",
+            "affiliation": {
+                "url": "http://www.ilr.uni-bonn.de/agpo/agpo_e.htm",
+                "name": "Doctoral Student",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/990/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "ABM",
+        "norm",
+        "rangeland",
+        "SES"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4293/releases/1.0.0/",
+    "dateCreated": "2014-10-20",
+    "description": "We model cooperative behaviour based in form of a \"resource-blind\" norm. Agents restrain from excessive resource abstraction due to social embeddedness and norms of reciprocity. The model was parameterized according to survey data from a village community in South Africa, Sediba.Parts of the ABM decision making utilizes a generic classifier library by Klaus Hufschlag https://www.openabm.org/model/2263/version/1/view",
+    "downloadUrl": "https://www.comses.net/codebases/4293/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "First version handed in for puplication",
+    "copyrightYear": 2014,
+    "datePublished": "2014-10-20",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Repast"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

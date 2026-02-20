@@ -1,0 +1,55 @@
+{
+    "@id": "https://www.comses.net/codebases/b1f59901-a3e1-4759-bb1e-22bea68facc0/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/b1f59901-a3e1-4759-bb1e-22bea68facc0/releases/1.0.0/",
+    "name": "Sandy Beach Visitor Flow: An Agent-Based Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/4024/",
+            "@type": "Person",
+            "email": "e.bakhshianlamouki@utwente.nl",
+            "givenName": "Elham",
+            "familyName": "Bakhshianlamouki"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-sa/4.0/",
+        "name": "CC-BY-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "# Agent Based model",
+        "# coastal recreation",
+        "# Integrated Coastal Management",
+        "# Sand Motor",
+        "# Sandy Anthropogenic Shore (SAS)"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/b1f59901-a3e1-4759-bb1e-22bea68facc0/releases/1.0.0/",
+    "dateCreated": "2024-03-08",
+    "description": "\nThe model is intended to simulate visitor spatial and temporal dynamics, encompassing their numbers, activities, and distribution along a coastline influenced by beach landscape design. Our primary focus is understanding how the spatial distribution of services and recreational facilities (e.g., beach width, entrance location, recreational facilities, parking availability) impacts visitation density. Our focus is not on tracking the precise visitation density but rather on estimating the areas most affected by visitor activity. This comprehension allows for assessing the diverse influences of beach layouts on spatial visitor density and, consequently, on the landscape's biophysical characteristics (e.g., vegetation, fauna, and sediment features).",
+    "downloadUrl": "https://www.comses.net/codebases/b1f59901-a3e1-4759-bb1e-22bea68facc0/releases/1.0.0/download/",
+    "dateModified": "2024-12-02",
+    "releaseNotes": "In the model interface, several critical outcomes of the ABM will be presented, including the visitor density map, total number of visitors per day, and number of visitors per type (local, stay overnight, and one-day visitor). Users will have the option to explore the impact of various changes on these outcomes, such as:\n1. Landscape layout information, including the number of entrances and their accessibility to car parking.\n2. Information about the number and types of visitors, including:\n   - The visitors-growth-index, which ranges from 1 to 1.2. A value of 1 indicates no change, while 1.2 indicates a 20% increase in visitors.\n   - Indexes representing visitors per activity per type (e.g., n-swimmer-loc-indx), which can vary from 0 to 0.2. A value of 0 indicates no change, while 0.2 represents a 20% increase.\nThe model requires specific inputs, which are provided in the same folder as the model file. When you download and use the model, please be sure to update the directory in the code within the setup section (set-current-directory) to reflect the directory where you saved the model.\nThe model requires specific inputs, such as weather conditions (temperature, precipitation, rainfall duration, wind speed), provided for 365 days. If the model is run for more than 365 days, data for additional days should also be supplied.\nConsidering the maximum number of visitors is crucial, as the model is highly sensitive to this parameter. Exceeding a certain threshold can lead to significant computational load, potentially causing performance issues. Any adjustments or changes should be made while keeping this sensitivity in mind.\nIf you plan to use the model for your specific case study, certain sections of the code need to be updated with relevant information. These sections are clearly identified in the code for ease of customization.\n",
+    "copyrightYear": 2024,
+    "datePublished": "2024-03-14",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Netlogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetlLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Bakhshianlamouki, E., Augustijn, E. W., Brugnach, M., Voinov, A., & Wijnberg, K. (2023). A Participatory Modelling Approach to Cognitive Mapping of the Socio-Environmental System of Sandy Anthropogenic Shores in the Netherlands. Available at SSRN 4297865.\n\nBakhshianlamouki, E., Augustijn, E. W., van den Heuvel, J., Terpstra, T., Brugnach, M., Voinov, A., & Wijnberg, K. Balancing Recreation and Flood Safety for Integrated Coastal Management: Understanding Beach Visitors' Types of Attitude and Behaviour in Sandy Anthropogenic Shores. Available at SSRN 4682335."
+}

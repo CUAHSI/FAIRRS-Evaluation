@@ -1,0 +1,59 @@
+{
+    "@id": "https://www.comses.net/codebases/3577/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/3577/releases/1.1.0/",
+    "name": "Asymmetric two-sided matching",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1004/",
+            "@type": "Person",
+            "email": "shiba.naoki@nihon-u.ac.jp",
+            "givenName": "Naoki",
+            "familyName": "Shiba",
+            "affiliation": {
+                "@id": "https://ror.org/05jk51a88",
+                "url": "http://www.nihon-u.ac.jp/",
+                "name": "Nihon University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05jk51a88"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1004/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3577/releases/1.1.0/",
+    "dateCreated": "2013-05-28",
+    "description": "Peter Todd tried a simulation for two-sided matching problem in symmetric setting in 1999. In his model there are the same number of agents in two parties, each of whom has his/her own mate value. Each agent in both parties tries to find his/her mate in the other party based on his/her candidate\u2019s mate value and his/her own aspiration level for the partner\u2019s mate values. Each agent learns his/her own mate value and adjusts his/her aspiration level through the trial period (adolescence). Todd tried a several search rules and the learning mechanisms. The rules and the mechanisms are symmetric for both parties in this setting.\r\nIn this model his model is extended to the asymmetric setting where two parties have the different number of agents. Therefore, the search rule and the learning mechanism for two parties differ. Through the simulation, the search rules and the learning mechanisms which were identified to be appropriate in symmetric setting are revealed to be inappropriate in asymmetric setting. The reason why they are inappropriate is discussed.\r\n\r\nPeter M. Todd and Geoffery F. Miller, \u201cFrom pride and prejudice to persuasion\u201d, in Gred Gigerenzer, Peter M. Todd and the ABC Research Group, Simple heuristics that makes us smart, Oxford University Press, New York, 1999",
+    "downloadUrl": "https://www.comses.net/codebases/3577/releases/1.1.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-05-28",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

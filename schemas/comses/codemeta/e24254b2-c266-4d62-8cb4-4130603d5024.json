@@ -1,0 +1,53 @@
+{
+    "@id": "https://www.comses.net/codebases/e24254b2-c266-4d62-8cb4-4130603d5024/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/e24254b2-c266-4d62-8cb4-4130603d5024/releases/1.0.0/",
+    "name": "Opinion Dynamics with various confidence distributions",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2321/",
+            "@type": "Person",
+            "email": "jn.lindblad@gmail.com",
+            "givenName": "Jonas",
+            "familyName": "Lindblad"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent based model",
+        "bounded confidence",
+        "dynamics opinion",
+        "NetLogo"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/e24254b2-c266-4d62-8cb4-4130603d5024/releases/1.0.0/",
+    "dateCreated": "2018-09-26",
+    "description": "Project for the course \"Introduction to Agent-Based Modeling\".\n\nThe NetLogo model implements an Opinion Dynamics model with different confidence distributions, inspired by the Bounded Confidence model presented by Hegselmann and Krause in 2002. Hegselmann and Krause used a model with uniform distribution of confidence, but one could imagine agents that are more confident in their own opinions than others. Confidence with triangular, semi-circular, and Gaussian distributions are implemented. Moreover, network structure is optional and can be taken into account in the agent's confidence such that agents assign less confidence the further away from them other agents are.",
+    "downloadUrl": "https://www.comses.net/codebases/e24254b2-c266-4d62-8cb4-4130603d5024/releases/1.0.0/download/",
+    "dateModified": "2018-09-28",
+    "releaseNotes": "This release contains the main NetLogo file and documentation following the ODD protocol. Instructions for running the model are also included in the NetLogo info tab.",
+    "copyrightYear": 2018,
+    "datePublished": "2018-09-28",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

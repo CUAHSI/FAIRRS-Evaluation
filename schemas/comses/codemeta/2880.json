@@ -1,0 +1,60 @@
+{
+    "@id": "https://www.comses.net/codebases/2880/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/2880/releases/1.0.0/",
+    "name": "WaterScape",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/730/",
+            "@type": "Person",
+            "email": "erin.bohensky@csiro.au",
+            "givenName": "Erin",
+            "familyName": "Bohensky",
+            "affiliation": {
+                "url": "http://www.csiro.au",
+                "name": "Research Scientist, CSIRO Ecosystem Sciences",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/730/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "learning",
+        "south africa",
+        "water management"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2880/releases/1.0.0/",
+    "dateCreated": "2012-02-06",
+    "description": "The process of learning in social-ecological systems is an emerging area of research, but little attention has been given to how social and ecological interactions motivate or inhibit learning. This is highly relevant to the South African water sector, where a major policy transition is occurring that provides local water users and managers with new opportunities to engage in adaptive learning about how to balance human and ecological needs for water. The WaterScape, an agent-based model, is used to explore potential \u2018learning dilemmas,\u2019 or barriers to learning in the South African water sector, whereby human perceptions combined with social-ecological conditions affect the capacity, understanding, and willingness required to learn. Agents manage water according to different management strategies and use various indicators to evaluate their success. Results indicate that: in areas with highly variable hydrological regimes, agents may be less able to learn because conditions change too rapidly for them to benefit from past experience. Because of this rapid change, however, agents are more likely to try new water management strategies, promoting a greater diversity of experience in the system for agents to learn from in the future. In water-stressed areas, where agents tend to have greater difficulty fulfilling demand for water than in areas with abundant water supplies, they are also more apt to try new strategies. When learning is restricted to small areas, agents may learn more quickly but based on a more narrow range of experience than in larger or more heterogeneous areas. These results suggest a need to enhance learning so that it accounts for interacting hydrological, ecological, and social dynamics. Although this is only a preliminary exploration of challenges to learning, such analysis may eventually help to reverse the past trend of poor understanding of social-ecological dynamics as they relate to water management.",
+    "downloadUrl": "https://www.comses.net/codebases/2880/releases/1.0.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "version 9 December 2005",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "linux",
+    "runtimePlatform": [
+        "Cormas"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    },
+    "referencePublication": "Bohensky, E. L. 2006. A Social-Ecological Systems Perspective on Water Management in South Africa. PhD Dissertation, University of Pretoria, Pretoria, South Africa."
+}

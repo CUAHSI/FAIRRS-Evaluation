@@ -1,0 +1,67 @@
+{
+    "@id": "https://www.comses.net/codebases/4561/releases/1.2.0/",
+    "url": "https://www.comses.net/codebases/4561/releases/1.2.0/",
+    "name": "Lithic Raw Material Procurement and Provisioning",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1234/",
+            "@type": "Person",
+            "email": "jnpaige@asu.edu",
+            "givenName": "Jonathan",
+            "familyName": "Paige",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1234/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "hunter-gatherer",
+        "lithic raw material",
+        "lithics",
+        "neolithic",
+        "organization of technology",
+        "provisioning"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4561/releases/1.2.0/",
+    "dateCreated": "2015-03-12",
+    "description": "Quantitative models of lithic technology tend to focus on hunter-gatherers as subjects of study. This model adopts and modifies some concepts from the literature on the organization of technology among hunter-gatherers to groups that have permanently occupied villages. The model is designed to evaluate the effects of individual mobility, core reduction technology, availability of lithic raw material, and forecasting of raw material shortages on the amount of work individuals are able to perform both at permanent settlements, and during movement across the landscape to and from those settlements.  The model features a settlement occupied by agents, which are split into two groups: foragers and camp dwellers. Foragers move between raw material sources and the settlement, performing work and transporting raw material. Camp dwellers occupy the settlement and perform work. Each unit of work performed exhausts some amount (which varies by core reduction efficiency) of raw material. The model allows for evaluation of the conditions in which different technological, or mobility decisions are more likely to be made.",
+    "downloadUrl": "https://www.comses.net/codebases/4561/releases/1.2.0/download/",
+    "dateModified": "2018-02-16",
+    "releaseNotes": "This version of the model is revised based on reviewer comments. Additional comments and modifications to existing comments were made. The info tab of the model now has more information.",
+    "copyrightYear": 2015,
+    "datePublished": "2015-03-12",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

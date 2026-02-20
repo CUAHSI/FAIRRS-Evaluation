@@ -1,0 +1,70 @@
+{
+    "@id": "https://www.comses.net/codebases/5347/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5347/releases/1.0.0/",
+    "name": "Biodynamica",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/258/",
+            "@type": "Person",
+            "email": "kjaffe@usb.ve",
+            "givenName": "Klaus",
+            "familyName": "Jaffe",
+            "affiliation": {
+                "url": "http://www.usb.ve",
+                "name": "Universidad Simon Bolivar",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/258/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "http://www.bcv.cee.usb.ve/juegos/biodyn_en.html",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "evolution",
+        "genetic",
+        "parental investment",
+        "sex",
+        "social"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5347/releases/1.0.0/",
+    "dateCreated": "2016-12-24",
+    "description": "The model is implemented in Unity and can be run from\r\nhttp://www.bcv.cee.usb.ve/juegos/biodyn_en.html",
+    "downloadUrl": "https://www.comses.net/codebases/5347/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "http://www.bcv.cee.usb.ve/juegos/biodyn_en.html",
+    "copyrightYear": 2016,
+    "datePublished": "2016-12-24",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Unity"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Unity",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

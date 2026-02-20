@@ -1,0 +1,45 @@
+{
+    "@id": "https://www.comses.net/codebases/0997bc88-d8e9-4af8-8b72-ee1d3f1fba7f/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/0997bc88-d8e9-4af8-8b72-ee1d3f1fba7f/releases/1.0.0/",
+    "name": "A Bottom-Up Simulation on Competition and Displacement of Online Interpersonal Communication Platforms",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2766/",
+            "@type": "Person",
+            "email": "futao@bjut.edu.cn"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/0997bc88-d8e9-4af8-8b72-ee1d3f1fba7f/releases/1.0.0/",
+    "dateCreated": "2019-12-31",
+    "description": "This model aims to simulate Competition and Displacement of Online Interpersonal Communication Platforms process from a bottom-up angle. Individual interpersonal communication platform adoption and abandonment serve as the micro-foundation of the simulation model. The evolution mode of platform user online communication network determines how present platform users adjust their communication relationships as well as how new users join that network. This evolution mode together with innovations proposed by individual interpersonal communication platforms would also have impacts on the platform competition and displacement process and result by influencing individual platform adoption and abandonment behaviors. Three scenes were designed to simulate some common competition situations occurred in the past and current time, that two homogeneous interpersonal communication platforms competed with each other when this kind of platforms first came into the public eye, that a late entrant platform with a major innovation competed with the leading incumbent platform during the following days, as well as that both the leading incumbent and the late entrant continued to propose many small innovations to compete in recent days, respectively.\nInitial parameters are as follows: n(Nmax in the paper), denotes the final node number of the online communication network node. mi (m in the paper), denotes the initial degree of those initial network nodes and new added nodes. pc(Pc in the paper), denotes the proportion of links to be removed and added in each epoch. pst(Pv in the paper), denotes the proportion of nodes with a viscosity to some platforms. comeintime(Ti in the paper), denotes the epoch when Platform 2 joins the market. pit(Pi in the paper), denotes the proportion of nodes adopting Platform 2 immediately at epoch comeintime(Ti). ct(Ct in the paper), denotes the Innovation Effective Period length. In Scene 2, There is only one major platform proposed by Platform 2, and ct describes that length. However, in Scene 3, Platform 2 and 1 will propose innovations alternately. And so, we set ct=10000 in simulation program, and every jtt epochs, we alter the innovation proposer from one platform to the other. Hence in this scene, jtt actually denotes the Innovation Effective Period length instead of ct. ",
+    "downloadUrl": "https://www.comses.net/codebases/0997bc88-d8e9-4af8-8b72-ee1d3f1fba7f/releases/1.0.0/download/",
+    "dateModified": "2019-12-31",
+    "releaseNotes": "On a Win10 system with Swarm 2.4.1 installed, run the perco.exe file in each directory directly. Or enter the subdirectory of the program under the MINGW32 circumstance,  and input  ./perco ",
+    "copyrightYear": 2019,
+    "datePublished": "2019-12-31",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Swarm"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Objective-C",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "@id": "https://www.comses.net/codebases/d1013f71-b7e0-45aa-9f42-870c8793895b/releases/1.0.1/",
+    "url": "https://www.comses.net/codebases/d1013f71-b7e0-45aa-9f42-870c8793895b/releases/1.0.1/",
+    "name": "Agent based model of COVID19 spread with digital contact tracing",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-5070-5824",
+            "@type": "Person",
+            "email": "stefano.picascia@glasgow.ac.uk",
+            "givenName": "Stefano",
+            "familyName": "Picascia",
+            "affiliation": {
+                "url": "https://sphsu.gla.ac.uk",
+                "name": "MRC/CSO, University of Glasgow Social and Public Health Science Unit",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "yonialmagor@hotmail.com",
+            "givenName": "Jonatan",
+            "familyName": "Almagor",
+            "affiliation": {
+                "@id": "https://ror.org/00vtgdb53",
+                "url": "http://www.gla.ac.uk/",
+                "name": "University of Glasgow",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00vtgdb53"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-sa/4.0/",
+        "name": "CC-BY-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.1",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "contact tracing",
+        "COVID-19",
+        "infectious diseases",
+        "multi-layered social network",
+        "PHASE"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/d1013f71-b7e0-45aa-9f42-870c8793895b/releases/1.0.1/",
+    "dateCreated": "2021-09-28",
+    "description": "Multi-layer network agent-based model of the progression of the COVID19 infection, digital contact tracing",
+    "downloadUrl": "https://www.comses.net/codebases/d1013f71-b7e0-45aa-9f42-870c8793895b/releases/1.0.1/download/",
+    "dateModified": "2021-10-13",
+    "releaseNotes": "Added missing source file",
+    "copyrightYear": 2021,
+    "datePublished": "2021-10-13",
+    "codeRepository": "https://github.com/harrykipper/covid",
+    "operatingSystem": "linux",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "10.1038/s41598-020-79000-y"
+}

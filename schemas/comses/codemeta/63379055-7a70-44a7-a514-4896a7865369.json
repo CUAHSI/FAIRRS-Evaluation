@@ -1,0 +1,81 @@
+{
+    "@id": "https://www.comses.net/codebases/63379055-7a70-44a7-a514-4896a7865369/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/63379055-7a70-44a7-a514-4896a7865369/releases/1.0.0/",
+    "name": "Risk perception of individuals and the transmission dynamics of COVID-19",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2646/",
+            "@type": "Person",
+            "email": "sarahshm@gmail.com",
+            "givenName": "Sara",
+            "familyName": "Shahin Moghadam"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "Franziska.Klugl@oru.se",
+            "givenName": "Franziska",
+            "familyName": "kl\u00fcgel",
+            "affiliation": {
+                "@id": "https://ror.org/05kytsw45",
+                "url": "http://www.oru.se/English/",
+                "name": "\u00d6rebro University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05kytsw45"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/2646/",
+            "@type": "Role",
+            "roleName": "editor"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "editor"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "https://doi.org/10.1038/s41467-021-21747-7",
+            "@type": "CreativeWork"
+        },
+        {
+            "text": "The model is an agent-based extention of an established large-scale Individual-based model called STRIDE. We first replicated the original STRIDE as an agent-based model and then extended it by integrating a Risk Perception Module.\nSTRIDE's DOI:10.5281/zenodo.4440258",
+            "@type": "CreativeWork"
+        }
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/63379055-7a70-44a7-a514-4896a7865369/releases/1.0.0/",
+    "dateCreated": "2023-06-26",
+    "description": "The purpose of this model is to explore the influence of integrating individuals\u2019 behavioral dynamics in an agent-based model of COVID-19, on the dynamics of disease transmission. The model is an agent-based extention of an established large-scale Individual-based model called STRIDE. Four risk factors determine the individual\u2019s perception of the risk and how they behave accordingly. It is assumed that individuals with higher levels of risk perception adopt higher levels of contact reduction in their daily routines. Individuals can assign different weights to any of the four different risk factors, i.e., the modeler can model different populations and explore how the transmission dynamics vary among them.",
+    "downloadUrl": "https://www.comses.net/codebases/63379055-7a70-44a7-a514-4896a7865369/releases/1.0.0/download/",
+    "dateModified": "2023-06-27",
+    "releaseNotes": "Version 1.0.0",
+    "copyrightYear": 2023,
+    "datePublished": "2023-06-27",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "SeSAm"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Domain-Specific Language for ABS",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

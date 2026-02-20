@@ -1,0 +1,60 @@
+{
+    "@id": "https://www.comses.net/codebases/3742/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/3742/releases/1.1.0/",
+    "name": "Individual bias and organizational objectivity",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1050/",
+            "@type": "Person",
+            "email": "ericshyu@foxmail.com",
+            "givenName": "Bo",
+            "familyName": "Xu",
+            "affiliation": {
+                "@id": "https://ror.org/017zhmm22",
+                "url": "http://en.xjtu.edu.cn/",
+                "name": "School of Management, Xi'an Jiaotong University,China",
+                "@type": "Organization",
+                "identifier": "https://ror.org/017zhmm22"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1050/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3742/releases/1.1.0/",
+    "dateCreated": "2014-03-30",
+    "description": "This model introduces individual bias as an information filtering mechanism to March\u2019s (1991) and Miller et al.'s (2006) models of exploration and exploitation.\r\nBoth March(1991) and Miller et al.\u2019s(2006) presume that there is a reality, which can be represented by a binary vector [1,-1]^D. Individuals and the organization hold beliefs about the reality. The beliefs is represented as a vector [0,1,-1]^D. If a belief has a value of 0, it means the absence of belief about the reality. Otherwise, the match between beliefs and the reality measures the accuracy of the beliefs. Thus, individuals or the organization may learn from each other by copy their beliefs. The learning probability reflects the effectiveness of socialization to the organization norm or to other individuals. March (1991) focuses on the learning process between individuals and the organization, while Miller et al. (2006) also consider the learning process among individuals. The model of exploration and exploitation simulates central processes of knowledge diffusion within the organization, and helps investigate effects of many factors on organizational knowledge, such as size, task complexity, learning effectiveness, turnover, and environmental turbulence. \r\nThis model includes the key features of Miller et al. (2006), and introduces a bias vector [0,1]^D to each individual. A value of 1 in the bias vector means the knowledge (i.e. belief about the reality) on that dimension is filtered out by bias, while a value of 0 means the absence of bias. This bias is similar to the bias called the sin of commission or omission by Kerr et al. (1996). The proportion of 1 reflects the degree of the individual bias.\r\nThis model enables the researcher to incorporate individual bias and other important factors within the organization to investigate the means to improve organizational objectivity.",
+    "downloadUrl": "https://www.comses.net/codebases/3742/releases/1.1.0/download/",
+    "dateModified": "2019-04-08",
+    "releaseNotes": "",
+    "copyrightYear": 2019,
+    "datePublished": "2019-04-08",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Kerr, N. L., MacCoun, R. J., & Kramer, G. P. (1996). Bias in judgment: Comparing individuals and groups. Psychological Review, 103(4), 687-719. doi: 10.1037/0033-295x.103.4.687\r\nMarch, J. G. (1991). EXPLORATION AND EXPLOITATION IN ORGANIZATIONAL LEARNING. Organization Science, 2(1), 71-87. doi: 10.1287/orsc.2.1.71\r\nMiller, K. D., Zhao, M., & Calantone, R. J. (2006). Adding interpersonal learning and tacit knowledge to March's exploration-exploitation model. Academy of Management Journal, 49(4), 709-722."
+}

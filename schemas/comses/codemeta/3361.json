@@ -1,0 +1,55 @@
+{
+    "@id": "https://www.comses.net/codebases/3361/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/3361/releases/1.1.0/",
+    "name": "Digital divide and opinion formation",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "givenName": "Dongwon",
+            "familyName": "Lim"
+        },
+        {
+            "@id": "_:author_1",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "digital divide",
+        "dynamics opinion"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3361/releases/1.1.0/",
+    "dateCreated": "2013-05-20",
+    "description": "The original bounded confidence model of Deffuant et al.(2000) assumes synchronous one-to-one communication such as face-to-face communication. Mutual exchange of opinions is normal in such a situation. However, online communication usually involves asynchronous one-to-many communication and opinions flow in one direction. For example, if we write our opinion in our blog or in a web bulletin board, it takes time for the opinion to be read by others, and the fact that they read our written words does not change our opinion while it can change theirs. However, readers sometimes send feedback to the writer via comments or replies, but there is no such process in the simulation. It was assumed that repeated interactions compensate for such feedback. Moreover, our opinion may have an influence on multiple individuals on the Internet because a blog or a web bulletin board does not usually attract a single person, but many persons. Thus, we rewrote the opinion updating rule as\r\n\r\n\r\nx = x\r\n\r\nx' = x' + c * (x - x')\r\n\r\nif |x - x'| < d\r\n\r\n(c: convergent parameter, d: uncertainty interval)\r\n\r\nwhere x is an opinion that is written on the Internet, and x\u2019 is an opinion of an agent who reads the opinion. \r\n\r\n\r\n  From this point, for convenience, an agent who can communicate with others in both the online and offline environment is called a connected agent, while an agent who stays only offline is called a disconnected agent. For connected agents, it is assumed that they not only have physical resources, but also motivation and skills to use the Internet.\r\n\r\n\r\n  Our simulation process is as follows. First, a random agent is selected among all the agents. If the agent is not connected, he or she have to communicate offline inevitably, and the agent will interact with another agent according to the original opinion updating rule. Otherwise, the agent should be connected and able to act in two different modes: online and offline modes. If the agent choose to communicate his or her opinion offline, nothing is different from the disconnected agent, and he or she will interact with another agent according to the new equation. On the other hand, if the agent choose to communicate his or her opinion online, he or she will interact with a number of other connected agents, and each of their opinions should be updated with the new equation. The number of communicatees was determined based on his or her connectivity. This process was repeated until it reached 100,000 iterations.",
+    "downloadUrl": "https://www.comses.net/codebases/3361/releases/1.1.0/download/",
+    "dateModified": "2018-02-19",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-05-20",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

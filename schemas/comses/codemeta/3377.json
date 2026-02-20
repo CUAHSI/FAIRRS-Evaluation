@@ -1,0 +1,73 @@
+{
+    "@id": "https://www.comses.net/codebases/3377/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/3377/releases/1.0.0/",
+    "name": "The Evolution of Cooperation in an Ecological Context",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/977/",
+            "@type": "Person",
+            "email": "oudiani@asu.edu",
+            "givenName": "Oyita",
+            "familyName": "Udiani",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/977/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Pepper, J. W. & Smuts, B. B. 2000. The evolution of cooperation in an ecological context: an agent-based model. Pp. 45-76 in T. A. Kohler and G. J. Gumerman, eds. Dynamics of human and primate societies: agent-based modeling of social and spatial processes. Oxford University Press, Oxford.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "cooperation",
+        "group composition",
+        "group selection",
+        "inclusive fitness",
+        "kin selection",
+        "multilevel selection"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3377/releases/1.0.0/",
+    "dateCreated": "2012-11-03",
+    "description": "This is an adaptation of the ecological model of cooperation presented in Pepper & Smuts (2000, 2002). The purpose of this model is to present a minimalist framework for the evolution of altruistic traits under stochastic ecological conditions. Assortment and trait selection is achieved through an environmental feedback mechanism that relies on the spatiotemporal variability in resource availability (plants) and cooperative tendencies of conspecifics. The model looks at two altruistic traits (feeding restraint and alarm calling) and predicts that fixation from an initially mixed strategist population is highly dependent on the spatial structure of the model world.",
+    "downloadUrl": "https://www.comses.net/codebases/3377/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "1.0",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

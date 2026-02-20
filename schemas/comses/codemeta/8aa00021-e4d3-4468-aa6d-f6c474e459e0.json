@@ -1,0 +1,49 @@
+{
+    "@id": "https://www.comses.net/codebases/8aa00021-e4d3-4468-aa6d-f6c474e459e0/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/8aa00021-e4d3-4468-aa6d-f6c474e459e0/releases/1.0.0/",
+    "name": "Amazon smallholder resilience",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-6320-5482",
+            "@type": "Person",
+            "email": "yuedou.whu@gmail.com",
+            "givenName": "Yue",
+            "familyName": "Dou"
+        }
+    ],
+    "license": {
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.html",
+        "name": "Apache-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/8aa00021-e4d3-4468-aa6d-f6c474e459e0/releases/1.0.0/",
+    "dateCreated": "2019-09-08",
+    "description": "The purpose of this agent-based model is to simulate the behaviors of small farming households in the Amazon estuary region and evaluate their resilience to external shocks with the presence of several government cash transfer programs. ",
+    "downloadUrl": "https://www.comses.net/codebases/8aa00021-e4d3-4468-aa6d-f6c474e459e0/releases/1.0.0/download/",
+    "dateModified": "2019-09-09",
+    "releaseNotes": "The model can be utilized to quantify the resilience of rural livelihoods in the face of external pressure such as price oscillation and climatic events. Specifically, we adopt the definition of \u201cdevelopment resilience\u201d to frame the model output , in order to (1) identify the alternative states in the resilience landscape, (2) determine the negative influence from each shock, and (3) explore interventions to move households out of poverty trap or be more resilient. This is a pioneering effort to demonstrate the resilience dynamics by the simulation of an agent-based model, which extends the theoretical exploration and provides valuable policy implications.    ",
+    "copyrightYear": 2019,
+    "datePublished": "2019-09-09",
+    "codeRepository": "https://github.com/y2dou/MariaTest/tree/resilience",
+    "embargoEndDate": "2019-09-08",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Repast"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

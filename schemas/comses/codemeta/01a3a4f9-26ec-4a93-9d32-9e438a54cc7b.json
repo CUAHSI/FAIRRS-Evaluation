@@ -1,0 +1,58 @@
+{
+    "@id": "https://doi.org/10.25937/s1ts-9j61",
+    "url": "https://doi.org/10.25937/s1ts-9j61",
+    "name": "NetLogo model of USA mass shootings",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-5279-7627",
+            "@type": "Person",
+            "email": "ivsmrudn@yandex.ru",
+            "givenName": "Smarzhevskiy",
+            "familyName": "Ivan"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "active shooter",
+        "gun",
+        "human",
+        "mass shoting",
+        "mental illness",
+        "person"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/s1ts-9j61",
+        "https://doi.org/10.25937/s1ts-9j61"
+    ],
+    "dateCreated": "2019-09-23",
+    "description": "Is the mass shooter a maniac or a relatively normal person in a state of great stress? According to the FBI report (Silver, J., Simons, A., & Craun, S. (2018). A Study of the Pre-Attack Behaviors of Active Shooters in the United States Between 2000 \u2013 2013. Federal Bureau of Investigation, U.S. Department of Justice,Washington, D.C. 20535.), only 25% of the active shooters were known to have been diagnosed by a mental health professional with a mental illness of any kind prior to the offense.\nThe main objects of the model are the humans and the guns. The main factors influencing behavior are the population size, the number of people with mental disabilities (\u201cpsycho\u201d in the model terminology) per 100,000 population, the total number of weapons (\u201cguns\u201d) in the population, the availability of guns for humans, the intensity of stressors affecting humans and the threshold level of stress, upon reaching which a person commits an act of mass shooting.\nThe key difference (in the model) between a normal person and a psycho is that a psycho accumulates stressors and, upon reaching a threshold level, commits an act of mass shooting. A normal person is exposed to stressors, but reaching the threshold level for killing occurs only when the simultaneous effect of stressors on him exceeds this level.\nThe population dynamics are determined by the following factors: average (normally distributed) life expectancy (\u201clife_span\u201d attribute of humans) and population growth with the percentage of newborns set by the value of the TickReprRatio% slider of the current population volume from 16 to 45 years old.Thus, one step of model time corresponds to a year.",
+    "downloadUrl": "https://www.comses.net/codebases/01a3a4f9-26ec-4a93-9d32-9e438a54cc7b/releases/1.1.0/download/",
+    "dateModified": "2020-04-25",
+    "releaseNotes": "1.0.0",
+    "copyrightYear": 2020,
+    "datePublished": "2020-04-14",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

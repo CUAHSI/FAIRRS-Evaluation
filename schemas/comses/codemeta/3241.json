@@ -1,0 +1,111 @@
+{
+    "@id": "https://www.comses.net/codebases/3241/releases/1.2.0/",
+    "url": "https://www.comses.net/codebases/3241/releases/1.2.0/",
+    "name": "Managing Connectivity: insights from modelling species interactions accross multiple scales in an idealized landscape",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-9616-4143",
+            "@type": "Person",
+            "email": "jacopo.baggio@ucf.edu",
+            "givenName": "Jacopo A.",
+            "familyName": "Baggio",
+            "affiliation": {
+                "@id": "https://ror.org/036nfer12",
+                "url": "http://www.ucf.edu/",
+                "name": "School of Politics, Security, and International Affairs, National Center for Integrated Coastal Research, Sustainable Coastal Systems Cluster, University of Central Florida",
+                "@type": "Organization",
+                "identifier": "https://ror.org/036nfer12"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/125/",
+            "@type": "Person",
+            "email": "kehinde.salau@gmail.com",
+            "givenName": "Kehinde",
+            "familyName": "Salau",
+            "affiliation": {
+                "@id": "https://ror.org/03m2x1q45",
+                "url": "http://www.arizona.edu/",
+                "name": "The University of Arizona",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03m2x1q45"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "michael.schoon@asu.edu",
+            "givenName": "Michael",
+            "familyName": "Schoon",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Person",
+            "email": "marco.janssen@asu.edu",
+            "givenName": "Marco",
+            "familyName": "Janssen",
+            "affiliation": {
+                "url": "https://schoolofsustainability.asu.edu/",
+                "name": "School of Sustainability",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-9616-4143",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://www.comses.net/users/125/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3241/releases/1.2.0/",
+    "dateCreated": "2014-01-20",
+    "description": "The model comprises two connected patches. The link that connects the two patches represents the cost of movement between habitats. Predators and prey move across the landscape according to predetermined rules. Prey and predators reproduce, predators are able to hunt and kill prey and die of natural causes. The carrying capacity of the patches is dynamic, based on the presence of prey. A manager is able to alter the connection between patches in order to hinder or facilitate movement of species. The management objective is always the maximization of the coexistence time.",
+    "downloadUrl": "https://www.comses.net/codebases/3241/releases/1.2.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2014,
+    "datePublished": "2014-01-20",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    }
+}

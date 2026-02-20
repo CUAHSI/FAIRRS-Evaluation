@@ -1,0 +1,66 @@
+{
+    "@id": "https://www.comses.net/codebases/2224/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/2224/releases/1.0.0/",
+    "name": "Patch choice model from Optimal Foraging Theory (Human Behavioral Ecology)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-2561-1927",
+            "@type": "Person",
+            "email": "michael.barton@asu.edu",
+            "givenName": "C Michael",
+            "familyName": "Barton",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-2561-1927",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "behavior eology",
+        "decision",
+        "ecology",
+        "human behavioral ecology",
+        "optimal foraging theory"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2224/releases/1.0.0/",
+    "dateCreated": "2008-11-22",
+    "description": "NetLogo model of patch choice model from optimal foraging theory (human behavioral ecology). One or more foragers occupy a landscape of multiple resource patches of variable resource density. Foragers will collect resources in one patch until the rate of encountering resources in a patch drops below the average resource encounter rate of the model world.",
+    "downloadUrl": "https://www.comses.net/codebases/2224/releases/1.0.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

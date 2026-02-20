@@ -1,0 +1,75 @@
+{
+    "@id": "https://www.comses.net/codebases/2297/releases/1.2.0/",
+    "url": "https://www.comses.net/codebases/2297/releases/1.2.0/",
+    "name": "Relational Social Interaction Model of Migration (RSIMM)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-9576-7914",
+            "@type": "Person",
+            "email": "sean.bergin@asu.edu",
+            "givenName": "Sean",
+            "familyName": "Bergin",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "School of Complex Adaptive Systems, Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Christopher",
+            "familyName": "Roberts"
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-9576-7914",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "anglo-saxon",
+        "habitus",
+        "migration"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2297/releases/1.2.0/",
+    "dateCreated": "2011-02-14",
+    "description": "Current trends suggest that when individuals of different cultural backgrounds encounter one another, their social categories become entangled and create new hybridized or creole identities. To understand the effects this entanglement has on styles of material culture we created an agent-based-model that plays out the process of cultural entanglement and tracks the results this has on human action. We employ Pierre Bourdieu's insights on social organization to create a period of culture contact between four different but related groups of individuals and track how they were changed by different kinds of encounters.",
+    "downloadUrl": "https://www.comses.net/codebases/2297/releases/1.2.0/download/",
+    "dateModified": "2018-02-17",
+    "releaseNotes": "This is the version of the model first presented at the Society for American Archaeology conference in Sacramento, California in March, 2011.",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

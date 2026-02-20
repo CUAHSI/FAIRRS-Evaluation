@@ -1,0 +1,67 @@
+{
+    "@id": "https://www.comses.net/codebases/410da6f6-e71d-4ce8-9e71-ae8fa5fa69d9/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/410da6f6-e71d-4ce8-9e71-ae8fa5fa69d9/releases/1.0.0/",
+    "name": "Large-scale land acqusitions and smallholder food security",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-5642-728X",
+            "@type": "Person",
+            "email": "tgw@umich.edu",
+            "givenName": "Tim",
+            "familyName": "Williams",
+            "affiliation": {
+                "@id": "https://ror.org/008xxew50",
+                "url": "https://vu.nl/",
+                "name": "Environmental Geography Department, Vrije Universiteit Amsterdam",
+                "@type": "Organization",
+                "identifier": "https://ror.org/008xxew50"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agriculture",
+        "contract farming",
+        "food security",
+        "land acquisitions",
+        "smallholder"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/410da6f6-e71d-4ce8-9e71-ae8fa5fa69d9/releases/1.0.0/",
+    "dateCreated": "2021-09-16",
+    "description": "Large-scale land acquisitions (LSLAs) threaten smallholder livelihoods globally. Despite more than a decade of research on the LSLA phenomenon, it remains a challenge to identify governance conditions that may foster beneficial outcomes for both smallholders and investors. One potentially promising strategy toward this end is contract farming (CF), which more directly involves smallholder households in commodity production than conditions of acquisition and displacement. \n\nTo improve understanding of how CF may mediate the outcomes of LSLAs, we developed an agent-based model of smallholder livelihoods, which we used as a virtual laboratory to experiment on a range of hypothetical LSLA and CF implementation scenarios. \n\nThe model represents a community of smallholder households in a mixed crop-livestock system. Each agent farms their own land and manages a herd of livestock. Agents can also engage in off-farm employment, for which they earn a fixed wage and compete for a limited number of jobs. The principal model outputs include measures of household food security (representing access to a single, staple food crop) and agricultural production (of a single, staple food crop).\n\nThe model was designed, calibrated, and validated  using household survey data collected from four regions affected by LSLAs in Ethiopia. We used pattern-oriented modeling with a genetic algorithm to identify model parameters that generate acceptable distributions of livelihood characteristics (food security, crop yields, livestock holdings, non-farm labor, and fertilizer use) across the four case study sites.",
+    "downloadUrl": "https://www.comses.net/codebases/410da6f6-e71d-4ce8-9e71-ae8fa5fa69d9/releases/1.0.0/download/",
+    "dateModified": "2021-09-16",
+    "releaseNotes": "Initial release.",
+    "copyrightYear": 2021,
+    "datePublished": "2021-09-16",
+    "embargoEndDate": "2021-10-25",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Python"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Jupyter Notebook",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "forthcoming"
+}

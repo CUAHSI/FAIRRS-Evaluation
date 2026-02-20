@@ -1,0 +1,56 @@
+{
+    "@id": "https://www.comses.net/codebases/2986/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/2986/releases/1.0.0/",
+    "name": "SearchResource",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/776/",
+            "@type": "Person",
+            "email": "romulus_catalin_damaceanu@yahoo.com",
+            "givenName": "Romulus-Catalin",
+            "familyName": "Damaceanu",
+            "affiliation": {
+                "@id": "https://ror.org/026qypj38",
+                "url": "http://www.upa.ro/",
+                "name": "Petre Andrei University of Iasi",
+                "@type": "Organization",
+                "identifier": "https://ror.org/026qypj38"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/776/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2986/releases/1.0.0/",
+    "dateCreated": "2012-05-04",
+    "description": "The agent-based computational algorithm used by turtle agent is based on Wilensky [1] and gives to this the next improvements:\r\n(i) the algorithm has a variable number of searching directions in comparison with the Wilensky algorithm that has only four directions; thus the number of searching direction can vary from 4 to 360.\r\n(ii) the algorithm has two regimes: one is deterministic and uses the searching directions and the other is random and is used only if the first regime fails to find the resources that surrounds the agent.\r\n[1] Wilensky, U., NetLogo Wealth Distribution model. http://ccl.northwestern.edu/netlogo/models/WealthDistribution. Center for Connected Learning and Computer-Based Modeling, 1998",
+    "downloadUrl": "https://www.comses.net/codebases/2986/releases/1.0.0/download/",
+    "dateModified": "2018-02-28",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "linux",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    }
+}

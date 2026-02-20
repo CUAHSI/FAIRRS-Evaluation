@@ -1,0 +1,65 @@
+{
+    "@id": "https://www.comses.net/codebases/5608/releases/2.0.0/",
+    "url": "https://www.comses.net/codebases/5608/releases/2.0.0/",
+    "name": "TERRoir level Organic matter Interactions and Recycling model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1945/",
+            "@type": "Person",
+            "email": "myriam.grillot@gmail.com",
+            "givenName": "Myriam",
+            "familyName": "Grillot",
+            "affiliation": {
+                "url": "https://agir.toulouse.hub.inrae.fr/",
+                "name": "INRAE - UMR AGIR",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1945/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "2.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agro-sylvo-pastoral system",
+        "crop-livestock integration",
+        "nutrient spatial transfers",
+        "west africa"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5608/releases/2.0.0/",
+    "dateCreated": "2017-11-30",
+    "description": "The TERROIR computer model \u2014 **TERRoir level Organic matter Interactions and Recycling model** \u2014 was built to assess **soil fertility management** and the **nutrient recycling efficiency** of agro-sylvo-pastoral landscapes. It is a spatially-explicit ABM that represents the management of a typical West African **agro-sylvo-pastoral landscape** in space and over time. \nThe model focuses on the processes that create **biomass flows **and the related nutrient cycling. Here, it focuses on nitrogen (N) as a key limiting resource for both plant and animal production in West African agro-ecosystems.\nThe purpose of the model is to provide realistic estimations of the **structure of N flows** at different levels: land plot and herd, household and village. It is not intended to predict long term agro-ecosystem dynamics but rather to **compare** different agro-ecosystems, depending on input parameters concerning the structure of the landscape (proportion of land units, i.e. homogeneous part of the landscape in terms of land use and management practices) and crop-livestock systems diversity (linked to a typology of households).\nThe model can be further used to explore new improved agro-sylvo-pastoral landscapes.\nIt is coded with **[GAMA](https://gama-platform.github.io/)**, a multi-agent simulation and spatially explicit modeling platform.",
+    "downloadUrl": "https://www.comses.net/codebases/5608/releases/2.0.0/download/",
+    "dateModified": "2020-06-17",
+    "releaseNotes": "GAMA **1.8**\n\nIn models, use gridbuilding to build your grid, change parameters and initialization in folder inputs and run the model through the \"main\" file.\nThis is a stabilized version of the Terroir model.\n\n",
+    "copyrightYear": 2020,
+    "datePublished": "2020-06-17",
+    "codeRepository": "https://github.com/MyriamGrillot/TerroirModel",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "GAMA"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "GAMA",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Grillot M., Guerrin F., Gaudou B., Masse D., Vayssi\u00e8res J., 2018a. Multi-level analysis of nutrient cycling within agro-sylvo-pastoral landscapes in West Africa using an agent-based model. Environmental Modelling & Software 107, 267\u2011280. https://doi.org/10.1016/j.envsoft.2018.05.003\n\nGrillot M., Vayssi\u00e8res J., Gaudou B., Bah A., 2016. An agent-based model to analyze the ecological functioning of agro-silvo-pastoral landscapes in West Africa, dans : iEMSs 8th: International Congress on Environmental Modelling and Software. Toulouse, France.\n\nGrillot M., Vayssi\u00e8res J., Masse D., 2018b. Agent-based modelling as a time machine to assess nutrient cycling reorganization during past agrarian transitions in West Africa. Agricultural Systems 164, 133\u2011151. https://doi.org/10.1016/j.agsy.2018.04.008"
+}

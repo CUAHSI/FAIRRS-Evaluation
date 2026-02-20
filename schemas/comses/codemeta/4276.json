@@ -1,0 +1,68 @@
+{
+    "@id": "https://www.comses.net/codebases/4276/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/4276/releases/1.1.0/",
+    "name": "Informal City version 1.0",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-4624-488X",
+            "@type": "Person",
+            "email": "n.schwarz@utwente.nl",
+            "givenName": "Nina",
+            "familyName": "Schwarz",
+            "affiliation": {
+                "@id": "https://ror.org/000h6jb29",
+                "url": "http://www.ufz.de/index.php?de=11385",
+                "name": "Helmholtz Centre for Environmental Research \u2013 UFZ",
+                "@type": "Organization",
+                "identifier": "https://ror.org/000h6jb29"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-4624-488X",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.html",
+        "name": "Apache-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent based model",
+        "informal settlement",
+        "land use change",
+        "sub-saharan africa",
+        "urban land use",
+        "urban upgrading"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4276/releases/1.1.0/",
+    "dateCreated": "2015-07-30",
+    "description": "The biggest part of urbanization takes place in cities of the global south, often in informal settlements. Urban upgrading shall improve livelihood conditions, but might lead to unexpected effects like increased segregation. Therefore, it is necessary to understand the effects of improved infrastructure provision onto spatial patterns of population distribution. InformalCity, a spatially explicit agent-based model (ABM), simulates an artificial city and allows for testing configurations of urban upgrading schemes.",
+    "downloadUrl": "https://www.comses.net/codebases/4276/releases/1.1.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "Version 1.0\r\n(this is openabm version 2: only documentation was updated compared to version 1)",
+    "copyrightYear": 2015,
+    "datePublished": "2015-07-30",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Repast"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Schwarz, N., Flacke, J., Sliuzas, R. (2016): Modelling the impacts of urban upgrading on population dynamics. Environmental Modelling & Software 78: 150-162. https://doi.org/10.1016/j.envsoft.2015.12.009"
+}

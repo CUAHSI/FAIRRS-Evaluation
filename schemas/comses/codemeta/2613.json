@@ -1,0 +1,57 @@
+{
+    "@id": "https://www.comses.net/codebases/2613/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/2613/releases/1.0.0/",
+    "name": "ABODE - Agent Based Model of Origin Destination Estimation",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/639/",
+            "@type": "Person",
+            "email": "dlevinson@umn.edu",
+            "givenName": "D",
+            "familyName": "Levinson"
+        },
+        {
+            "@id": "https://www.comses.net/users/639/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "employment search",
+        "job search",
+        "location based search"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2613/releases/1.0.0/",
+    "dateCreated": "2011-08-29",
+    "description": "The model proposed here matches origins and destinations using employment search methods at the individual level. The outcomes depend on skills of the searcher, compensation, travel preferences, the locations of employment opportunities, and the willingness of firms to employ the searcher. The geographic plain on which the modeling is undertaken contains both employment locations which may be flexibly arranged into one or multiple employment zones or be randomly distributed as well as residential locations. Firm and housing locations are assumed to be exogenous in the model. Workers will search for employment from fixed home locations. The model contains both active agents which interact with one another through out the simulation and inactive agents which are mainly used to mark location and to house employment opportunities.The inactive agents in this model are job centers, where firms are located, and the firms where employment positions are housed. Job centers and firms are present to give structure to the location of employment opportunities. Job centers (which may be one or many) house firms, and firms house employment opportunities. The presence of job centers is optional. When job centers are not present firms can be distributed through out the modeled area randomly. All employment opportunities are housed within a firm to which they are randomly assigned. The active agents in this model are the workers and employment positions which interact with one another in determining job opportunities and pay scales, and negotiate agreeable arrangements for employment. Each of these agents are discussed below.",
+    "downloadUrl": "https://www.comses.net/codebases/2613/releases/1.0.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

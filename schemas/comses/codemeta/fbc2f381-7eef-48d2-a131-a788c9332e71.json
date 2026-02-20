@@ -1,0 +1,112 @@
+{
+    "@id": "https://www.comses.net/codebases/fbc2f381-7eef-48d2-a131-a788c9332e71/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/fbc2f381-7eef-48d2-a131-a788c9332e71/releases/1.0.0/",
+    "name": "Pedestrian model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-9616-009X",
+            "@type": "Person",
+            "email": "danaekaziyeva@gmail.com",
+            "givenName": "Dana",
+            "familyName": "Kaziyeva",
+            "affiliation": {
+                "@id": "https://ror.org/05gs8cd61",
+                "url": "https://www.plus.ac.at/",
+                "name": "Department of Geoinformatics - Z_GIS, University of Salzburg",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05gs8cd61"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "petra.stutz@plus.ac.at",
+            "givenName": "Petra",
+            "familyName": "Stutz",
+            "affiliation": {
+                "@id": "https://ror.org/05gs8cd61",
+                "url": "https://www.plus.ac.at/",
+                "name": "University of Salzburg",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05gs8cd61"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-3845-7685",
+            "@type": "Person",
+            "email": "gudrun.wallentin@sbg.ac.at",
+            "givenName": "Gudrun",
+            "familyName": "Wallentin",
+            "affiliation": {
+                "@id": "https://ror.org/05gs8cd61",
+                "url": "https://www.plus.ac.at/",
+                "name": "Department of Geoinformatics - Z_GIS, University of Salzburg",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05gs8cd61"
+            }
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "email": "martin.loidl@sbg.ac.at",
+            "givenName": "Martin",
+            "familyName": "Loidl",
+            "affiliation": {
+                "@id": "https://ror.org/05gs8cd61",
+                "url": "https://www.plus.ac.at/",
+                "name": "University of Salzburg",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05gs8cd61"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-3845-7685",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/fbc2f381-7eef-48d2-a131-a788c9332e71/releases/1.0.0/",
+    "dateCreated": "2022-09-14",
+    "description": "The model generates disaggregated traffic flows of pedestrians, simulating their daily mobility behaviour represented as probabilistic rules. Various parameters of physical infrastructure and travel behaviour can be altered and tested. This allows predicting potential shifts in traffic dynamics in a simulated setting. Moreover, assumptions in decision-making processes are general for mid-sized cities and can be applied to similar areas.\n\nTogether with the model files, there is the ODD protocol with the detailed description of model's structure. Check the associated publication for results and evaluation of the model.\n\nInstallation\nDownload GAMA-platform (GAMA1.8.2 with JDK version) from https://gama-platform.github.io/. The platform requires a minimum of 4 GB of RAM.\n\nFollow the installation steps provided here: https://gama-platform.org/wiki/Installation\nIn preferences set up maximum memory allocated to the GAMA to at least 4 GB. Open GAMA menu in Help -> Preferences -> Interface. Make sure the platform uses the same coordinate reference system as input shapefiles (EPSG:32633) in Help -> Preferences -> Data and Operators.\n\nThe download zip has the \u201ccode\u201d folder with GAMA project files. Import these files into GAMA by right-clicking on \u201cUser-models\u201d in \u201cModels\u201d tab of the GAMA interface. Select \u201cGAMA project\u201d. In the new window browse to the \u201ccode\u201d folder as a root directory. Make sure to check the boxes \u201cSearch for nested projects\u201d and \u201cCopy project into workspace\u201d. Click Finish.\n\nRunning experiment\nThe input data of the project is in the folder \u201cincludes\u201d and the model code file is in the folder \u201cmodels\u201d under \u201cpedestrian_model.gaml\u201d name. Due to licensing restrictions homes and workplaces datasets do not include actual values.",
+    "downloadUrl": "https://www.comses.net/codebases/fbc2f381-7eef-48d2-a131-a788c9332e71/releases/1.0.0/download/",
+    "dateModified": "2023-11-06",
+    "releaseNotes": "-",
+    "copyrightYear": 2023,
+    "datePublished": "2023-08-07",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "GAMA"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "gaml",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Kaziyeva, D., Stutz, P., Wallentin, G., & Loidl, M. (2023). Large-scale agent-based simulation model of pedestrian traffic flows. Computers, Environment and Urban Systems, 105, 102021. https://doi.org/https://doi.org/10.1016/j.compenvurbsys.2023.102021"
+}

@@ -1,0 +1,113 @@
+{
+    "@id": "https://doi.org/10.25937/zp7k-bq40",
+    "url": "https://doi.org/10.25937/zp7k-bq40",
+    "name": "MHMSLeptoDy (Multi-host, multi-serovar Leptospira Dynamics Model)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-4651-0116",
+            "@type": "Person",
+            "email": "anyadoc@gmail.com",
+            "givenName": "Aniruddha",
+            "familyName": "Belsare",
+            "affiliation": {
+                "url": "https://cfwe.auburn.edu/",
+                "name": "Auburn University",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "mrmason@stkate.edu",
+            "givenName": "Meghan",
+            "familyName": "Mason",
+            "affiliation": {
+                "@id": "https://ror.org/03x1f1d90",
+                "url": "http://www.stkate.edu/",
+                "name": "St. Catherine University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03x1f1d90"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "gompperm@missouri.edu",
+            "givenName": "Matthew",
+            "familyName": "Gompper",
+            "affiliation": {
+                "@id": "https://ror.org/02ymw8z06",
+                "url": "http://missouri.edu/",
+                "name": "University of Missouri",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02ymw8z06"
+            }
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "email": "munozzan@umn.edu",
+            "givenName": "Claudia",
+            "familyName": "Munoz-Zanzi",
+            "affiliation": {
+                "@id": "https://ror.org/017zqws13",
+                "url": "http://twin-cities.umn.edu/",
+                "name": "University of Minnesota",
+                "@type": "Organization",
+                "identifier": "https://ror.org/017zqws13"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.2",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/zp7k-bq40",
+        "https://doi.org/10.25937/zp7k-bq40"
+    ],
+    "dateCreated": "2019-01-20",
+    "description": "**Leptospirosis** is a neglected, bacterial zoonosis with worldwide distribution, primarily a disease of poverty. More than 200 pathogenic serovars  of *Leptospira* bacteria exist, and a variety of species may act as reservoirs for these serovars. Human infection is the result of direct or indirect contact with *Leptospira* bacteria in the urine of infected animal hosts, primarily livestock, dogs, and rodents. There is increasing evidence that dogs and dog-adapted serovar Canicola play an important role in the burden of leptospirosis in humans in marginalized urban communities. What is needed is a more thorough understanding of the transmission dynamics of Leptospira in these marginalized urban communities, specifically the relative importance of dogs and rodents in the transmission of Leptospira to humans. This understanding will be vital for identifying meaningful intervention strategies.\nOne of the main objectives of **MHMSLeptoDy** is to **elucidate transmission dynamics** of host-adapted *Leptospira* strains in multi-host system. The model can also be used to evaluate alternate interventions aimed at reducing human infection risk in small-scale communities like urban slums.",
+    "downloadUrl": "https://www.comses.net/codebases/26380987-f7d4-4027-8390-9e608203ee8d/releases/1.1.2/download/",
+    "dateModified": "2022-11-15",
+    "releaseNotes": "The output file ( now titled 'HostLeptoIncidence.csv') records four additional outputs for every year of model run: i) annual number of cases due to dog serotype in dogs, ii) annual number of cases due to rodent serotype in dogs, iii) annual number of cases due to rodent serotype in rodents, and iv) annual number of cases due to dog serotype in rodents.\n\n1) The user specifies the number of households desired (slider '*num-households*'), household area (slider \u2018*hh-area*\u2019: neighboring patches belonging to/influenced by a household) and the community-area (slider '*community-size*': area of influence of all the households). \n2) The user sets the initial dog and rodent population using two sliders: '*num-humans-per-dog*' and '*mean-num-rodents-perhh*'.\n3)  The probabilities of direct transmission are set using sliders '*rodent-rodent-transmission*' and '*dog-dog-transmission*'. The proportion of leptospires surviving each day is set using slider '*decay-factor*'.\n4)  If model outputs are to be stored as a .csv file, select 'YES' using the dropdown menu for the chooser '*Output-file*?'",
+    "copyrightYear": 2019,
+    "datePublished": "2019-03-12",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "https://doi.org/10.1111/tbed.14750"
+}

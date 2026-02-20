@@ -1,0 +1,92 @@
+{
+    "@id": "https://doi.org/10.25937/z8x6-2v73",
+    "url": "https://doi.org/10.25937/z8x6-2v73",
+    "name": "Cultural Evolution of Sustainable Behaviours: Landscape of Affordances Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-2414-6974",
+            "@type": "Person",
+            "email": "roope.kaaronen@helsinki.fi",
+            "givenName": "Roope Oskari",
+            "familyName": "Kaaronen",
+            "affiliation": {
+                "@id": "https://ror.org/040af2s02",
+                "url": "https://www.helsinki.fi/",
+                "name": "University of Helsinki, Helsinki Institute of Sustainability Science",
+                "@type": "Organization",
+                "identifier": "https://ror.org/040af2s02"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-6862-1768",
+            "@type": "Person",
+            "email": "strelkon@iiasa.ac.at",
+            "givenName": "Nikita",
+            "familyName": "Strelkovskii",
+            "affiliation": {
+                "url": "http://iiasa.ac.at",
+                "name": "IIASA",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-6862-1768",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc/4.0",
+        "name": "CC-BY-NC-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "affordance",
+        "behavior change",
+        "complex adaptive social system",
+        "cultural evolution",
+        "ecological psychology",
+        "habit",
+        "leverage point",
+        "NetLogo",
+        "pro-environmental behavior",
+        "sustainability",
+        "sustainability science",
+        "sustainable commuting",
+        "tipping point",
+        "urban design"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/z8x6-2v73",
+        "https://doi.org/10.25937/z8x6-2v73"
+    ],
+    "dateCreated": "2019-08-28",
+    "description": "This NetLogo model illustrates the cultural evolution of pro-environmental behaviour patterns. It illustrates how collective behaviour patterns evolve from interactions between agents and agents (in a social network) as well as agents and the affordances (action opportunities provided by the environment) within a niche. More specifically, the cultural evolution of behaviour patterns is understood in this model as a product of:\n\n1.\tThe landscape of affordances provided by the material environment,\n2.\tIndividual learning and habituation,\n3.\tSocial learning and network structure,\n4.\tPersonal states (such as habits and attitudes), and\n5.\tCultural niche construction, or the modulation of affordances within a niche.\n\nMore particularly, the model illustrates how changes in the landscape of affordances can trigger nonlinear changes in collective behaviour patterns. Even linear changes in affordances can trigger nonlinear uptakes of collective behaviour patterns. The model also shows how several behavioural cultures can emerge from the same environment and even within the same network.\n\nThe model is an elaboration of Kurt Lewin\u2019s heuristic equation, *B = f(P, E)*, where behaviour (B) is a function (f) of the person (P) and the environment (E). The model introduces several feedback loops (1\u20135 above) to Lewin\u2019s equation, and thus provides an entry-point into studying the evolution of dynamical and complex behavioural systems over time. The model should be considered an abstract model, since many of its parameters are unspecifiable due to limits to current understanding of human (social) behaviour. However, the model can be tuned to replicate real-world macro patterns, and can be used as a sandbox environment to locate tipping points in social systems.",
+    "downloadUrl": "https://www.comses.net/codebases/c2feceb8-d9c4-4637-8f27-fda49c7dc4f3/releases/1.2.0/download/",
+    "dateModified": "2020-01-20",
+    "releaseNotes": "See ODD protocol (comes with download).",
+    "copyrightYear": 2019,
+    "datePublished": "2019-12-04",
+    "codeRepository": "https://github.com/roopekaaronen/affordance",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "doi: https://doi.org/10.31234/osf.io/w6dpa\n\nCite as:\n\nAPA\nKaaronen, R. O., & Strelkovskii, N. (2019, October 9). Cultural Evolution of Sustainable Behaviours: Pro-Environmental Tipping Points in an Agent-Based Model. https://doi.org/10.31234/osf.io/w6dpa\nMLA\nKaaronen, Roope O., and Nikita Strelkovskii. \u201cCultural Evolution of Sustainable Behaviours: Pro-environmental Tipping Points in an Agent-based Model.\u201d PsyArXiv, 9 Oct. 2019. Web.\nChicago\nKaaronen, Roope O., and Nikita Strelkovskii. 2019. \u201cCultural Evolution of Sustainable Behaviours: Pro-environmental Tipping Points in an Agent-based Model.\u201d PsyArXiv. October 9. doi:10.31234/osf.io/w6dpa."
+}

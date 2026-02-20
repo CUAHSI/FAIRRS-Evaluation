@@ -1,0 +1,66 @@
+{
+    "@id": "https://www.comses.net/codebases/d4055760-2e55-4399-a81d-8f1f7ea6ae3c/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/d4055760-2e55-4399-a81d-8f1f7ea6ae3c/releases/1.0.0/",
+    "name": "Reflexivity in a diffusion of innovations model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2876/",
+            "@type": "Person",
+            "email": "ccordoba12@gmail.com",
+            "givenName": "Carlos",
+            "familyName": "Cordoba"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-5395-5324",
+            "@type": "Person",
+            "email": "c.e.garcia.diaz@gmail.com",
+            "givenName": "C\u00e9sar",
+            "familyName": "Garc\u00eda-D\u00edaz",
+            "affiliation": {
+                "url": "http://www.javeriana.edu.co",
+                "name": "School of Economics and Business, Pontificia Universidad Javeriana (Colombia)",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://opensource.org/licenses/BSD-2-Clause",
+        "name": "BSD-2-Clause",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "innovation diffusion",
+        "Python",
+        "reflexivity"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/d4055760-2e55-4399-a81d-8f1f7ea6ae3c/releases/1.0.0/",
+    "dateCreated": "2020-05-06",
+    "description": "In this agent-based model, agents decide to adopt a new product according to a utility function that depends on two kinds of social influences. First, there is a local influence exerted on an agent by her closest neighbors that have already adopted, and also by herself if she feels the product suits her personal needs. Second, there is a global influence which leads agents to adopt when they become aware of emerging trends happening in the system. For this, we endow agents with a reflexive capacity that allows them to recognize a trend, even if they can not perceive a significant change in their neighborhood.\n\nResults reveal the appearance of slowdown periods along the adoption rate curve, in contrast with the classic stylized bell-shaped behavior. Results also show that network structure plays an important role in the effect of reflexivity: while some structures (e.g., scale-free networks) may amplify it, others (e.g., small-world structure) weaken such an effect.",
+    "downloadUrl": "https://www.comses.net/codebases/d4055760-2e55-4399-a81d-8f1f7ea6ae3c/releases/1.0.0/download/",
+    "dateModified": "2020-06-18",
+    "releaseNotes": "First release",
+    "copyrightYear": 2020,
+    "datePublished": "2020-05-07",
+    "codeRepository": "https://github.com/ccordoba12/diffusion-of-innovations-model",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Python"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "http://jasss.soc.surrey.ac.uk/23/3/9.html"
+}

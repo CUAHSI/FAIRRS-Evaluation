@@ -1,0 +1,66 @@
+{
+    "@id": "https://www.comses.net/codebases/4490/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4490/releases/1.0.0/",
+    "name": "Demographic microsimulation for individuals and couples",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-8093-086X",
+            "@type": "Person",
+            "email": "szinn@diw.de",
+            "givenName": "Sabine",
+            "familyName": "Zinn",
+            "affiliation": {
+                "@id": "https://ror.org/0050vmv35",
+                "url": "http://www.diw.de/en",
+                "name": "German Institute for Economic Research",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0050vmv35"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-8093-086X",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "continuous-time",
+        "demography",
+        "mate-matching",
+        "microsimulation"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4490/releases/1.0.0/",
+    "dateCreated": "2015-01-14",
+    "description": "We present a simulation approach which models and simulates life courses of individuals and couples and conducts mate matching. To define individual and couple behavior we use a continuous-time multi-state model, that is, we use a continuous-time microsimulation model. For mate matching we apply agent-based modeling: First, to each individual who is seeking for\r\na partner a random value is assigned that captures his or her aspiration level regarding the fit with a potential partner. Then, via an empirical likelihood equation we assess the probability that a given woman and a given man would mate. Thereafter, we simulate a decision making\r\nprocess whether two individuals form a couple applying individuals\u2019 aspiration levels and their mating probability. We use the ml-DEVS formalism to specify our novel simulation Approach and the modeling and simulation framework JAMES II for implementation. The accordant\r\nml-DEVS population model consists of a macro-DEVS model comprising two types of micro components: individuals and couples. The micro components handle the life-course dynamics of individuals and couples and the macro model guides partnership onsets, dissolution events, and other changes in the population composition such as childbirth and death events. We illustrate the potential of the presented approach by projecting a hypothesized population based on the population of the Netherlands.",
+    "downloadUrl": "https://www.comses.net/codebases/4490/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2015,
+    "datePublished": "2015-01-14",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "James II"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "https://www.dropbox.com/s/mj4nikezt7zy6iq/MicSim_ABM_ZinnJan2015.pdf?dl=0"
+}

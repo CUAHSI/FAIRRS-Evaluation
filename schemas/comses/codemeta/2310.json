@@ -1,0 +1,67 @@
+{
+    "@id": "https://www.comses.net/codebases/2310/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/2310/releases/1.1.0/",
+    "name": "CROSS - crowd behaviour modelling: a festival crowd model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-4636-315X",
+            "@type": "Person",
+            "email": "nwijermans@gmail.com",
+            "givenName": "Nanda",
+            "familyName": "Wijermans",
+            "affiliation": {
+                "@id": "https://ror.org/05f0yaq80",
+                "url": "http://www.su.se/english/",
+                "name": "Stockholm Resilience Center, Stockholm University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05f0yaq80"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-4636-315X",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "cognitive model",
+        "crowd behaviour",
+        "crowds",
+        "social-cognitive",
+        "social simulation"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2310/releases/1.1.0/",
+    "dateCreated": "2012-09-07",
+    "description": "CROwd Simulation of Situated individuals represents a modern generation simulation as a (social) scientific tool for understanding crowd behaviour. The CROSS model represents individuals in a crowd as social-cognitive agents that are affected by their social and physical surroundings and produce behaviour and behaviour patterns. Understanding is sought by relating the intra- and inter-individual level levels of behaviour generation with behaviour pattern emergence at group level.  The CROSS model advances crowd research by adding a description of behaviour at the cognitive (intra-individual) level as well as the use of simulation experiments to test theory.  The CROSS model meets the need of crowd research for a theory that reflects the dynamic interplay between individuals and their environment as well as the need for a method that allows for testing.",
+    "downloadUrl": "https://www.comses.net/codebases/2310/releases/1.1.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "Initial version.",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Repast"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Wijermans, N. (2011). Understanding crowd behaviour: Simulating situated individuals. PhD thesis."
+}

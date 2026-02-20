@@ -1,0 +1,65 @@
+{
+    "@id": "https://doi.org/10.25937/ddk1-1h77",
+    "url": "https://doi.org/10.25937/ddk1-1h77",
+    "name": "Avian pest control: Yield outcome due to insectivorous birds, falconry, and integration of nest boxes.",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0009-0002-9411-9303",
+            "@type": "Person",
+            "email": "david.jung@stud.leuphana.de",
+            "givenName": "David",
+            "familyName": "Jung"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Garcia, K., Olimpi, E. M., Karp, D. S., & Gonthier, D. J. (2020). The Good, the Bad, and the Risky: Can Birds Be Incorporated as Biological Control Agents into Integrated Pest Management Programs? Journal of Integrated Pest Management, 11(1), Article 11. https://doi.org/10.1093/jipm/pmaa009\n\nGarc\u00eda, D., Mi\u00f1arro, M., & Mart\u00ednez\u2010Sastre, R. (2021). Enhancing ecosystem services in apple orchards: Nest boxes increase pest control by insectivorous birds. Journal of Applied Ecology, 58(3), 465\u2013475. https://doi.org/10.1111/1365-2664.13823\n\nGonthier, D. J., Sciligo, A. R., Karp, D. S., Lu, A., Garcia, K., Juarez, G., Chiba, T., Gennet, S., & Kremen, C. (2019). Bird services and disservices to strawberry farming in Californian agricultural landscapes. Journal of Applied Ecology, 56(8), 1948\u20131959. https://doi.org/10.1111/1365-2664.13422\n\nGrass, I., Lehmann, K., Thies, C., & Tscharntke, T. (2017). Insectivorous birds disrupt biological control \nof cereal aphids. Ecology, 98(6), 1583\u20131590. https://doi.org/10.1002/ecy.1814\n\nKross, S. M., Bourbour, R. P., & Martinico, B. L. (2016). Agricultural land use, barn owl diet, and vertebrate pest control implications. Agriculture, Ecosystems & Environment, 223, 167\u2013174. https://doi.org/10.1016/j.agee.2016.03.002\n\nLagos, V. O., Bozinovic, F., & Contreras, L. C. (1995). Microhabitat Use by a Small Diurnal Rodent \n(Octodon degus) in a Semiarid Environment: Thermoregulatory Constraints or Predation \nRisk? Journal of Mammalogy, 76(3), 900. https://doi.org/10.2307/1382759",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "agricultural modeling",
+        "avian pest control",
+        "biological control",
+        "nest boxes",
+        "nesting ecology"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/ddk1-1h77",
+        "https://doi.org/10.25937/ddk1-1h77"
+    ],
+    "dateCreated": "2023-11-08",
+    "description": "The model aims to simulate predator-prey relationships in an agricultural setting. The focus lies on avian communities and their effect on different pest organisms (here: pest birds, rodents, and arthropod pests). Since most case studies focused on the impact on arthropod pests (AP) alone, this model attempts to include effects on yield outcome. By incorporating three treatments with different factor levels (insectivorous bird species, falconry, nest box density) an experimental setup is given that allows for further statistical analysis to identify an optimal combination of the treatments. \nIn light of a global decline of birds, insects, and many other groups of organisms, alternative practices of pest management are heavily needed to reduce the input of pesticides. Avian pest control therefore poses an opportunity to bridge the disconnect between humans and nature by realizing ecosystem services and emphasizing sustainable social ecological systems. ",
+    "downloadUrl": "https://www.comses.net/codebases/e188da7f-0890-4a5c-b31d-51d03f6bbd03/releases/1.1.0/download/",
+    "dateModified": "2024-04-12",
+    "releaseNotes": "Initiate release.",
+    "copyrightYear": 2023,
+    "datePublished": "2023-11-19",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Java virtual machine",
+        "Netlogo",
+        "NetLogo 6.3.0"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

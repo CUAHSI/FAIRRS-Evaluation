@@ -1,0 +1,111 @@
+{
+    "@id": "https://www.comses.net/codebases/2c804e5c-fe54-4910-aebf-22308cbd489b/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/2c804e5c-fe54-4910-aebf-22308cbd489b/releases/1.0.0/",
+    "name": "Physical activity promotion and the United Nations Sustainable Development Goals",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-5947-2617",
+            "@type": "Person",
+            "email": "l.garcia@qub.ac.uk",
+            "givenName": "Leandro",
+            "familyName": "Garcia",
+            "affiliation": {
+                "@id": "https://ror.org/00hswnk62",
+                "url": "http://www.qub.ac.uk/",
+                "name": "Queen's University Belfast",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00hswnk62"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "ivana.stankov@gmail.com",
+            "givenName": "Ivana",
+            "familyName": "Stankov",
+            "affiliation": {
+                "@id": "https://ror.org/04bdffz58",
+                "url": "http://www.drexel.edu/",
+                "name": "Drexel University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04bdffz58"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "rahulatiitd@gmail.com",
+            "givenName": "Rahul",
+            "familyName": "Goel",
+            "affiliation": {
+                "@id": "https://ror.org/013meh722",
+                "url": "http://www.cam.ac.uk/",
+                "name": "University of Cambridge",
+                "@type": "Organization",
+                "identifier": "https://ror.org/013meh722"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "collaborator"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "collaborator"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "https://doi.org/10.17605/OSF.IO/NB652",
+            "@type": "CreativeWork"
+        },
+        {
+            "text": "No",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "active travel",
+        "PHASE",
+        "physical activity",
+        "population health",
+        "public health",
+        "travel patterns"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2c804e5c-fe54-4910-aebf-22308cbd489b/releases/1.0.0/",
+    "dateCreated": "2022-03-01",
+    "description": "This model was created to investigate the potential impacts of large-scale recreational and transport-related physical activity promotion strategies on six United Nations Sustainable Development Goals (SDGs) related outcomes\u2014road traffic deaths (SDG 3), transportation mode share (SDG 9), convenient access to public transport, levels of fine particulate matter, and access to public open spaces (SDG 11), and levels of carbon dioxide emissions (SDG 13)\u2014in three cities designed as abstract representations of common city types in high-, middle-, and low-income countries.",
+    "downloadUrl": "https://www.comses.net/codebases/2c804e5c-fe54-4910-aebf-22308cbd489b/releases/1.0.0/download/",
+    "dateModified": "2022-03-01",
+    "releaseNotes": "Initial release.",
+    "copyrightYear": 2022,
+    "datePublished": "2022-03-01",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Agent-based modelling"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "https://doi.org/10.1123/jpah.2021-0413"
+}

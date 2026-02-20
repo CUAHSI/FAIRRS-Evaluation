@@ -1,0 +1,60 @@
+{
+    "@id": "https://doi.org/10.25937/6qeq-1c13",
+    "url": "https://doi.org/10.25937/6qeq-1c13",
+    "name": "MIOvCWD",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-4651-0116",
+            "@type": "Person",
+            "email": "anyadoc@gmail.com",
+            "givenName": "Aniruddha",
+            "familyName": "Belsare",
+            "affiliation": {
+                "url": "https://cfwe.auburn.edu/",
+                "name": "Auburn University",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "cwd",
+        "white-tailed deer"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/6qeq-1c13",
+        "https://doi.org/10.25937/6qeq-1c13"
+    ],
+    "dateCreated": "2019-12-11",
+    "description": "MI*Ov*CWD is a spatially-explicit, agent-based model designed to simulate the spread of chronic wasting disease (CWD) in Michigan\u2019s white-tailed deer populations. CWD is an emerging prion disease of North American cervids (white-tailed deer *Odocoileus virginianus*, mule deer *Odocoileus hemionus*, and elk *Cervus elaphus*) that is being actively managed by wildlife agencies in most states and provinces in North America, including Michigan. MI*Ov*CWD incorporates features like deer population structure, social organization and behavior that are particularly useful to simulate CWD dynamics in regional deer populations.",
+    "downloadUrl": "https://www.comses.net/codebases/31ff492f-bf2a-4b5c-8ebf-078d27579a9d/releases/1.0.0/download/",
+    "dateModified": "2020-01-15",
+    "releaseNotes": "Version 2.2.1\nRequires a .csv file that provides the dynamic contact structure for the white-tailed deer population. This file can be modified by the user.",
+    "copyrightYear": 2019,
+    "datePublished": "2019-12-13",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Belsare, A. V. and Stewart, C. M. OvCWD: An agent-based modeling framework for informing chronic wasting disease management in white-tailed deer populations. EcolSolutEvidence. 2020; e12017. https://doi.org/10.1002/2688-8319.12017"
+}

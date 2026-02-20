@@ -1,0 +1,67 @@
+{
+    "@id": "https://www.comses.net/codebases/5901/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5901/releases/1.0.0/",
+    "name": "Simulating the evolution of the human family",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/780/",
+            "@type": "Person",
+            "email": "paul.smaldino@gmail.com",
+            "givenName": "Paul",
+            "familyName": "Smaldino",
+            "affiliation": {
+                "@id": "https://ror.org/00d9ah105",
+                "url": "http://www.ucmerced.edu/",
+                "name": "University of California, Merced",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00d9ah105"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/780/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nd/4.0",
+        "name": "CC-BY-ND-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "cooperation",
+        "cooperative breeding",
+        "cultural group selection",
+        "evolution",
+        "harsh environments"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5901/releases/1.0.0/",
+    "dateCreated": "2017-11-29",
+    "description": "An agent-based model that incorporates some key aspects of human social structure and life history. We investigate the evolution of a population under conditions of different environmental harshness and in which selection can occur at the level of the group as well as the level of the individual. We focus on the evolution of a socially learned characteristic related to individuals\u2019 willingness to contribute to raising the offspring of others within their family group. We find that environmental harshness increases the frequency of individuals who make such contributions. However, under the conditions we stipulate, we also find that environmental variability can allow groups to survive with lower frequencies of helpers. The model presented here is inevitably a simplified representation of a human population, but it provides a basis for future modeling work toward evolutionary explanations of human behavior that consider the influence of both genetic and cultural transmission of behavior.",
+    "downloadUrl": "https://www.comses.net/codebases/5901/releases/1.0.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "",
+    "copyrightYear": 2017,
+    "datePublished": "2017-11-29",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Mason"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Smaldino PE, Newson L, Schank JC, Richerson PJ (2013) Simulating the evolution of the human family:\r\nCooperative breeding increases in harsh environments. PLOS ONE 8(11): e80753."
+}

@@ -1,0 +1,60 @@
+{
+    "@id": "https://www.comses.net/codebases/34f57722-1ebf-4735-8b9c-bc2e1f69a77b/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/34f57722-1ebf-4735-8b9c-bc2e1f69a77b/releases/1.0.0/",
+    "name": "Network Behaviour Diffusion",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-4171-3897",
+            "@type": "Person",
+            "email": "research@criticalconnections.com.au",
+            "givenName": "Jennifer",
+            "familyName": "Badham",
+            "affiliation": {
+                "@id": "https://ror.org/01v29qb04",
+                "url": "https://www.dur.ac.uk/",
+                "name": "Durham University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01v29qb04"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "behaviour change",
+        "network diffusion",
+        "PHASE"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/34f57722-1ebf-4735-8b9c-bc2e1f69a77b/releases/1.0.0/",
+    "dateCreated": "2021-10-02",
+    "description": "This model implements two types of network diffusion from an initial group of activated nodes. In complex contagion, a node is activated if the proportion of neighbour nodes that are already activated exceeds a given threshold. This is intended to represented the spread of health behaviours. In simple contagion, an activated node has a given probability of activating its inactive neighbours and re-tests each time step until all of the neighbours are activated. This is intended to represent information spread.\n\nA range of networks are included with the model from secondary school friendship networks. The proportion of nodes initially activated and the method of selecting those nodes are controlled by the user.",
+    "downloadUrl": "https://www.comses.net/codebases/34f57722-1ebf-4735-8b9c-bc2e1f69a77b/releases/1.0.0/download/",
+    "dateModified": "2021-10-02",
+    "releaseNotes": "Initial release as used in publications.",
+    "copyrightYear": 2021,
+    "datePublished": "2021-10-02",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetlLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Badham, Kee and Hunter (2021). Network structure influence on simulated network interventions for behaviour change. Social Networks 64 pp 55-62. https://doi.org/10.1016/j.socnet.2020.08.003\n\nBadham, Kee and Hunter (2019). Effectiveness variation in simulated school-based network interventions. Applied Network Science 4(70). https://doi.org/10.1007/s41109-019-0168-6"
+}

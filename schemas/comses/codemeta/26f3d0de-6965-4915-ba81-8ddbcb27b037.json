@@ -1,0 +1,46 @@
+{
+    "@id": "https://www.comses.net/codebases/26f3d0de-6965-4915-ba81-8ddbcb27b037/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/26f3d0de-6965-4915-ba81-8ddbcb27b037/releases/1.0.0/",
+    "name": "Using Agent-Based Modelling and Reinforcement Learning to Study Hybrid Threats",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/4947/",
+            "@type": "Person",
+            "email": "padurk@gmail.com"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/26f3d0de-6965-4915-ba81-8ddbcb27b037/releases/1.0.0/",
+    "dateCreated": "2024-09-19",
+    "description": "Hybrid attacks coordinate the exploitation of vulnerabilities across domains to undermine trust in authorities and cause social unrest. Whilst such attacks have primarily been seen in active conflict zones, there is growing concern about the potential harm that can be caused by hybrid attacks more generally and a desire to discover how better to identify and react to them. In addressing such threats, it is important to be able to identify and understand an adversary's behaviour. Game theory is the approach predominantly used in security and defence literature for this purpose. However, the underlying rationality assumption, the equilibrium concept of game theory, as well as the need to make simplifying assumptions can limit its use in the study of emerging threats. To study hybrid threats, we present a novel agent-based model in which, for the first time, agents use reinforcement learning to inform their decisions. This model allows us to investigate the behavioural strategies of threat agents with hybrid attack capabilities as well as their broader impact on the behaviours and opinions of other agents.",
+    "downloadUrl": "https://www.comses.net/codebases/26f3d0de-6965-4915-ba81-8ddbcb27b037/releases/1.0.0/download/",
+    "dateModified": "2024-09-20",
+    "releaseNotes": "For initialisation, ```setup_values.py``` specifies all the parameters inputted into the experiments.\n\nPython 3.10 or higher version is required.\n\nThe following Python libraries are required:\n- numpy (version 1.24.2 or higher)\n- pandas (version 1.5.3 or higher)\n- matplotlib (version 3.7.0 or higher)\n- networkx (version 3.0 or higher)\n\nTo run the experiment, ```python run.py```",
+    "copyrightYear": 2024,
+    "datePublished": "2024-09-20",
+    "embargoEndDate": "2025-01-01",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "Python3"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python3",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

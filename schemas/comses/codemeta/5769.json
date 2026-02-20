@@ -1,0 +1,53 @@
+{
+    "@id": "https://www.comses.net/codebases/5769/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5769/releases/1.0.0/",
+    "name": "InnovationGame",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1740/",
+            "@type": "Person",
+            "email": "mhtyson@asu.edu",
+            "givenName": "Madeline",
+            "familyName": "Tyson"
+        },
+        {
+            "@id": "https://www.comses.net/users/1740/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5769/releases/1.0.0/",
+    "dateCreated": "2017-08-24",
+    "description": "The purpose of the experiment and model published here is to observe how group search behaviors (such local or global search, sharing, and copying) changes when participants either have or lack the ability to exclude others from choosing a combination. This includes both an experimental innovation search platform that was implemented using Netlogo's Hubnet and a parallel Netlogo model that has defined agent search strategies in the same environment. Agent strategies include both a search strategy (either random or threshold based) and a social orientation strategy (cooperative, selfish, or conditionally cooperative). The model allows for validation of search strategies against the experimental findings.",
+    "downloadUrl": "https://www.comses.net/codebases/5769/releases/1.0.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "Netlogo v.5.3",
+    "copyrightYear": 2017,
+    "datePublished": "2017-08-24",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "https://cbie.asu.edu/publications/working-paper-series"
+}

@@ -1,0 +1,57 @@
+{
+    "@id": "https://www.comses.net/codebases/5e0f6726-30fa-4238-afe5-4cdb9012c208/releases/0.9.0/",
+    "url": "https://www.comses.net/codebases/5e0f6726-30fa-4238-afe5-4cdb9012c208/releases/0.9.0/",
+    "name": "A Toy Model for the Abilene Paradox",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-3501-2242",
+            "@type": "Person",
+            "email": "sahinvictor@gmail.com",
+            "givenName": "Victor",
+            "familyName": "Sahin"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "0.9.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based model",
+        "akka",
+        "scala",
+        "spark",
+        "toy model"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5e0f6726-30fa-4238-afe5-4cdb9012c208/releases/0.9.0/",
+    "dateCreated": "2019-06-17",
+    "description": "This version adds a Maslowian entropy to each agent decision based on Kendrick et. al. Rudimentary implementation assumes agents with lower scores are more likely to make decisions autonomously rather than sociotropically.",
+    "downloadUrl": "https://www.comses.net/codebases/5e0f6726-30fa-4238-afe5-4cdb9012c208/releases/0.9.0/download/",
+    "dateModified": "2020-07-13",
+    "releaseNotes": "This version adds evolutionary dynamics for modeling of phenomena like Groupthink.\n\n- Each agent has a 'phenome' which is a string like \"AAABF\". \n- A set of phenomes have a pre-defined utility for convenience e.g. AAABF -> 9.52, AAABS -> 8.62 etc. and a base utility for any combinations not defined e.g. ZXDXZ -> 0.0001\n- Each agent also has a 'Maslowian' value which is a list of numeric values e.g. [0.5, 0.6, 0.7]. This yields a hierarchical sum that describes how well agent needs are satisfied.\n\n- For each iteration, every agent acquires a mutation to their phenome ex. AAABF -> ABABF. Then they have 2 options:\n- They can keep the mutation by a probability correlating with the utility value of this new combination and reversely correlating with sum of neighboring agent utilities.\n- They can 'attune' by replacing the mutated portion from a neighboring agent by a probability inversely correlating to their Maslowian value. This is analogous to an actual cell undergoing apoptosis and getting replaced by a neighboring cell multiplying\n- Suppose at the end of an iteration for this agent with 'AAA' phenome the neighbor phenomes are like [1 -> 'AAA', 2 -> 'BAA', 3 -> 'BBA', 4 -> 'BBB']\nThe attunement weights get updated by the degree of difference between phenomes like 1 -> 0.25, 2 -> 0.125 etc.\n# How to Run\n- Define instance parameters in the application.conf file\n- Compile project into a jar and run.\n- Make sure to include dependency jars for Akka 2.5.23 and Scala 2.12.8\n- Output will be a log of phenome distribution statistics.\n\n# Dependencies\n- Requires Scala 2.12 and Akka 2.5 to run, as well as Java 1.8+",
+    "copyrightYear": 2019,
+    "datePublished": "2019-07-14",
+    "codeRepository": "https://github.com/IDoCodingStuffs/abilene-model/tree/dev",
+    "embargoEndDate": "2019-08-01",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "akka",
+        "spark"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "scala",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

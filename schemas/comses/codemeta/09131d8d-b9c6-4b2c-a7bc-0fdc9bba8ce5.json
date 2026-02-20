@@ -1,0 +1,63 @@
+{
+    "@id": "https://www.comses.net/codebases/09131d8d-b9c6-4b2c-a7bc-0fdc9bba8ce5/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/09131d8d-b9c6-4b2c-a7bc-0fdc9bba8ce5/releases/1.0.0/",
+    "name": "An Agent-Based Model of an Insurance Market driven by Supply and Demand with Imperfectly Estimated Strategies in C#",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-6530-6527",
+            "@type": "Person",
+            "email": "solitude_saiyajin@hotmail.com",
+            "givenName": "Rei",
+            "familyName": "England",
+            "affiliation": {
+                "@id": "https://ror.org/02nwg5t34",
+                "url": "http://www.uwe.ac.uk/",
+                "name": "University of the West of England",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02nwg5t34"
+            }
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "Agent based modelling",
+        "bounded rationality",
+        "demand",
+        "imperfect information",
+        "insurance",
+        "optimal strategy",
+        "supply"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/09131d8d-b9c6-4b2c-a7bc-0fdc9bba8ce5/releases/1.0.0/",
+    "dateCreated": "2022-12-14",
+    "description": " This is a simulation of an insurance market where the premium moves according to the balance between supply and demand. In this model, insurers set their supply with the aim of maximising their expected utility gain while operating under imperfect information about both customer demand and underlying risk distributions.\n\nThere are seven types of insurer strategies. One type follows a rational strategy within the bounds of imperfect information. The other six types also seek to maximise their utility gain, but base their market expectations on a chartist strategy. Under this strategy, market premium is extrapolated from trends based on past insurance prices. This is subdivided according to whether the insurer is trend following or a contrarian (counter-trend), and further depending on whether the trend is estimated from short-term, medium-term, or long-term data.\n\nCustomers are modelled as a whole and allocated between insurers according to available supply. Customer demand is calculated according to a logit choice model based on the expected utility gain of purchasing insurance for an average customer versus the expected utility gain of non-purchase.",
+    "downloadUrl": "https://www.comses.net/codebases/09131d8d-b9c6-4b2c-a7bc-0fdc9bba8ce5/releases/1.0.0/download/",
+    "dateModified": "2023-09-24",
+    "releaseNotes": "Initial release",
+    "copyrightYear": 2023,
+    "datePublished": "2023-09-24",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        ".Net 5.0"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "C#",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

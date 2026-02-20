@@ -1,0 +1,55 @@
+{
+    "@id": "https://www.comses.net/codebases/a6ba9582-da40-4323-b4c9-3a45def89db1/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/a6ba9582-da40-4323-b4c9-3a45def89db1/releases/1.0.0/",
+    "name": "TIMELY Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-0010-9666",
+            "@type": "Person",
+            "email": "backmann.pia@googlemail.com",
+            "givenName": "Pia",
+            "familyName": "Backmann"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "ABM",
+        "individual-based model",
+        "plant competition",
+        "plant defense",
+        "plant-herbivore interactions"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/a6ba9582-da40-4323-b4c9-3a45def89db1/releases/1.0.0/",
+    "dateCreated": "2019-09-09",
+    "description": "An individual-based model to evaluate, whether time delays in plant responses to insect herbivory can be beneficial for the plant.",
+    "downloadUrl": "https://www.comses.net/codebases/a6ba9582-da40-4323-b4c9-3a45def89db1/releases/1.0.0/download/",
+    "dateModified": "2019-09-19",
+    "releaseNotes": "The github repository contains the netlogo source code and the documentation of the model.",
+    "copyrightYear": 2019,
+    "datePublished": "2019-09-19",
+    "codeRepository": "https://github.com/PiaBackmann/TIMELY-MODEL",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

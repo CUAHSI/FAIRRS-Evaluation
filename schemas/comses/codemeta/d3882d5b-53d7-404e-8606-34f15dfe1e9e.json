@@ -1,0 +1,96 @@
+{
+    "@id": "https://www.comses.net/codebases/d3882d5b-53d7-404e-8606-34f15dfe1e9e/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/d3882d5b-53d7-404e-8606-34f15dfe1e9e/releases/1.0.0/",
+    "name": "Threshold Public Goods Game Models with Punishment",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "email": "gabriela.kolvekova@tuke.sk",
+            "givenName": "Gabriela",
+            "familyName": "Ko\u013evekov\u00e1",
+            "affiliation": {
+                "@id": "https://ror.org/05xm08015",
+                "url": "https://www.tuke.sk/tuke/university",
+                "name": "Technical University of Ko\u0161ice",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05xm08015"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "manuela.raisova@tuke.sk",
+            "givenName": "Manuela",
+            "familyName": "Raisov\u00e1",
+            "affiliation": {
+                "@id": "https://ror.org/05xm08015",
+                "url": "https://www.tuke.sk/tuke/university",
+                "name": "Technical University of Ko\u0161ice",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05xm08015"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-0535-7928",
+            "@type": "Person",
+            "email": "zoricakmartin@gmail.com",
+            "givenName": "Martin",
+            "familyName": "Zori\u010dak",
+            "affiliation": {
+                "@id": "https://ror.org/05xm08015",
+                "url": "https://www.tuke.sk/tuke/university",
+                "name": "Technical University of Ko\u0161ice",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05xm08015"
+            }
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "email": "vladimir.gazda@tuke.sk",
+            "givenName": "Vladimir",
+            "familyName": "Gazda",
+            "affiliation": {
+                "@id": "https://ror.org/05xm08015",
+                "url": "https://www.tuke.sk/tuke/university",
+                "name": "Technical University of Ko\u0161ice",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05xm08015"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/d3882d5b-53d7-404e-8606-34f15dfe1e9e/releases/1.0.0/",
+    "dateCreated": "2020-06-06",
+    "description": "This is a set of threshold public goods games models. Set consists of baseline model, endogenous shared punishment model, endogenous shared punishment model with activists and cooperation model. In each round, all agents are granted a budget of size set in GUI. Then they decide on how much they contribute to public goods and how much they keep. Public goods are provided only if the sum of contributions meets or exceeds the threshold defined in the GUI. After each round agents evaluate their strategy and payoff from this strategy. ",
+    "downloadUrl": "https://www.comses.net/codebases/d3882d5b-53d7-404e-8606-34f15dfe1e9e/releases/1.0.0/download/",
+    "dateModified": "2020-06-06",
+    "releaseNotes": "Model was constructed and simulations run on NetLogo version 6.0.4. \nNewer versions of NetLogo may also work, however they were not tested.\nModel may be run directly within the NetLogo or custom scripts written in different languages may be used to run headless NetLogo model.\nFor more reproducable results, we recomand to run simulations by R script using package RNetLogo.",
+    "copyrightYear": 2020,
+    "datePublished": "2020-06-06",
+    "operatingSystem": "linux",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

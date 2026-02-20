@@ -1,0 +1,66 @@
+{
+    "@id": "https://www.comses.net/codebases/8ca8240f-2345-4df2-ba86-e65013faf8ea/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/8ca8240f-2345-4df2-ba86-e65013faf8ea/releases/1.0.0/",
+    "name": "SeaROOTS ABM: Simulating Artificial Hominins Maritime Mobility at Inner Ionian, Greece",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2835/",
+            "@type": "Person",
+            "email": "angelos@ims.forth.gr",
+            "givenName": "Angelos",
+            "familyName": "Chliaoutakis",
+            "affiliation": {
+                "url": "https://www.ims.forth.gr/en/department/view?id=7",
+                "name": "Laboratory of Geophysical - Satellite Remote Sensing and Archaeo-environment, IMS-FORTH",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Chliaoutakis A., Chalkiadakis G. (2016). Agent-Based Modeling of Ancient Societies and their Organization Structure, Journal of Autonomous Agents and Multi-Agent Systems (JAAMAS), Volume 30, Issue 6, pp. 1072-1116.\n\nGustas, R., & Supernant, K. (2017). Least cost path analysis of early maritime movement on the Pacific Northwest Coast. Journal of Archaeological Science, 78, 40-56.\n\nClaudine Gravel-Miguel, Colin Wren (2021). Least cost path mobility (Version 2.0). CoMSES Computational Model Library. Retrieved from: https://www.comses.net/codebases/5782/releases/2.0.0/",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "agent-based modeling",
+        "archaeological computing",
+        "geospatial modeling",
+        "hominin dispersal",
+        "maritime mobility",
+        "reconstructed environment"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/8ca8240f-2345-4df2-ba86-e65013faf8ea/releases/1.0.0/",
+    "dateCreated": "2024-05-26",
+    "description": "SeaROOTS ABM is a quite generic agent-based modeling system, for simulating and evaluating potential terrestrial and maritime mobility of artificial hominin groups, configured by available archaeological data and hypotheses. Necessary bathymetric, geomorphological and paleoenvironmental data are combined in order to reconstruct paleoshorelines for the study area and produce an archaeologically significant agent environment. Paleoclimatic and archaeological data are incorporated in the ABM in order to simulate maritime crossings and assess the emergent patterns of interaction between human agency and the sea. \n\nSeaROOTS agent-based system includes completely autonomous, utility-based agents (Chliaoutakis & Chalkiadakis 2016), representing artificial hominin groups, with partial knowledge of their environment, for simulating their evolution and potential maritime mobility, utilizing alternative Least Cost Path analysis modeling techniques (Gustas & Supernant 2017, Gravel-Miguel & Wren 2021). Two groups of hominins, Neanderthals and Homo sapiens, are chosen in order to study the challenges and actions employed as a response to the fluctuating sea-levels, as well as probability scenarios with respect to sea-crossings via buoyant vessels (rafting) or the human body itself (swimming). SeaROOTS ABM aims to simulate various scenarios and investigate the degree climatic fluctuations influenced such activities and interactions in the Middle Paleolithic period.\n\nThe model focuses on simulating potential terrestrial and maritime routes, explore the interactions and relations between autonomous agents and their environment, as well as to test specific research questions; for example, when and under what conditions would Middle Paleolithic hominins be more likely to attempt a crossing and successfully reach the islands? By which agent type (Sapiens or Neanderthals) and how (e.g. swimming or by sea-vessels) could such short sea crossings be (mostly) attempted, and which (sea) routes were usually considered by the agents? When does a sea-crossing become a choice and when is it a result of forced migration, i.e. disaster- or conflict-induced displacement? Results show that the dynamic marine environment of the Inner Ionian, our case study in this work, played an important role in their decision-making process.",
+    "downloadUrl": "https://www.comses.net/codebases/8ca8240f-2345-4df2-ba86-e65013faf8ea/releases/1.0.0/download/",
+    "dateModified": "2024-05-29",
+    "releaseNotes": "SeaROOTS ABM simulates the potential maritime routes of artificial hominin groups during the Middle Paleolithic period, depending on the reconstructed environmental conditions and topography, at the Inner Ionian, Greece. ",
+    "copyrightYear": 2024,
+    "datePublished": "2024-05-29",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo 6.3.0"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo 6.3.0",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

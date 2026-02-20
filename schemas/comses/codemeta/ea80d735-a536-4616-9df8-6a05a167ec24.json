@@ -1,0 +1,103 @@
+{
+    "@id": "https://doi.org/10.25937/rm0p-mm61",
+    "url": "https://doi.org/10.25937/rm0p-mm61",
+    "name": "Correlated Random Walk (NetLogo)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-3072-0095",
+            "@type": "Person",
+            "email": "radchuk.victoria@gmail.com",
+            "givenName": "Viktoriia",
+            "familyName": "Radchuk",
+            "affiliation": {
+                "@id": "https://ror.org/05nywn832",
+                "url": "http://www.izw-berlin.de/welcome.html",
+                "name": "Leibniz Institute for Zoo and Wildlife Research",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05nywn832"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-6129-5362",
+            "@type": "Person",
+            "email": "fronville.thibault@hotmail.com",
+            "givenName": "Thibault",
+            "familyName": "Fronville",
+            "affiliation": {
+                "@id": "https://ror.org/05nywn832",
+                "url": "http://www.izw-berlin.de/welcome.html",
+                "name": "Leibniz Institute for Zoo and Wildlife Research",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05nywn832"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "uta.berger@tu-dresden.de",
+            "givenName": "Uta",
+            "familyName": "Berger",
+            "affiliation": {
+                "@id": "https://ror.org/042aqky30",
+                "url": "https://tu-dresden.de",
+                "name": "TU Dresden",
+                "@type": "Organization",
+                "identifier": "https://ror.org/042aqky30"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-6129-5362",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "animals",
+        "dispersal",
+        "movement",
+        "Movement model"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/rm0p-mm61",
+        "https://doi.org/10.25937/rm0p-mm61"
+    ],
+    "dateCreated": "2023-05-09",
+    "description": "This is NetLogo code that presents two alternative implementations of Correlated Random Walk (CRW):\n- 1. drawing the turning angles from the uniform distribution, i.e. drawing the angle with the same probability from a certain given range; \n- 2. drawing the turning angles from von Mises distribution.\nThe move lengths are drawn from the lognormal distribution with the specified parameters. \n\nCorrelated Random Walk is used to represent the movement of animal individuals in two-dimensional space. When modeled as CRW, the direction of movement at any time step is correlated with the direction of movement at the previous time step. Although originally used to describe the movement of insects, CRW was later shown to sufficiently well describe the empirical movement data of other animals, such as wild boars, caribous, sea stars.\n\nThis building block can be re-used in other (potentially more complex) models to reflect movement of individuals, for which CRW is a sufficient description of their movement.",
+    "downloadUrl": "https://www.comses.net/codebases/ea80d735-a536-4616-9df8-6a05a167ec24/releases/1.0.0/download/",
+    "dateModified": "2023-12-19",
+    "releaseNotes": "This is the first release of this model version.",
+    "copyrightYear": 2023,
+    "datePublished": "2023-12-18",
+    "codeRepository": "https://github.com/radchukv/RBB_CRW",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "Netlogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo 6.2.2",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "This code is a reusable building block representation of correlated random walk. More details on this reusable building block as well as some history of correlated random walk use in animal ecology can be found at https://github.com/radchukv/RBB_CRW"
+}

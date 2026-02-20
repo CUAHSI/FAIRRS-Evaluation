@@ -1,0 +1,49 @@
+{
+    "@id": "https://www.comses.net/codebases/2282/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/2282/releases/1.0.0/",
+    "name": "ergodicity_test",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/537/",
+            "@type": "Person",
+            "email": "jakob.grazzini@unito.it",
+            "givenName": "Jakob",
+            "familyName": "Grazzini"
+        },
+        {
+            "@id": "https://www.comses.net/users/537/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2282/releases/1.0.0/",
+    "dateCreated": "2010-11-29",
+    "description": "This Python module contain a function that is able to test the ergodicity of a given agent based model. It is sufficient to produce one long time series and many smaller time series. The function uses the Wald-Walfowitz nonparametric test to test whether the moments coming from the subsamples of the long time series come from the same distribution of the moment computed over the many smaller time series. To use the test the time series has to be stationary (use stationary_test module)",
+    "downloadUrl": "https://www.comses.net/codebases/2282/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "other",
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "C",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

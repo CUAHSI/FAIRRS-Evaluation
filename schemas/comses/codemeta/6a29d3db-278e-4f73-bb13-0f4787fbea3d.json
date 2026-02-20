@@ -1,0 +1,67 @@
+{
+    "@id": "https://doi.org/10.25937/xcd5-2f02",
+    "url": "https://doi.org/10.25937/xcd5-2f02",
+    "name": "Virus Transmission with Super-spreaders",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-9052-7126",
+            "@type": "Person",
+            "email": "jmappleg@asu.edu",
+            "givenName": "J M",
+            "familyName": "Applegate",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc/4.0",
+        "name": "CC-BY-NC-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Adam, D.C., Wu, P., Wong, J.Y. et al. Clustering and super spreading potential of SARS-CoV-2 infections in Hong Kong. Nat Med 26, 1714\u20131719 (2020).\nWilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "COVID-19",
+        "epidemiology"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/xcd5-2f02",
+        "https://doi.org/10.25937/xcd5-2f02"
+    ],
+    "dateCreated": "2021-09-11",
+    "description": "A curious aspect of the Covid-19 pandemic is the clustering of outbreaks. Evidence suggests that 80\\% of people who contract the virus are infected by only 19% of infected individuals, and that the majority of infected individuals faile to infect another person. Thus, the dispersion of a contagion, $k$, may be of more use in understanding the spread of Covid-19 than the reproduction number, R0.\n\nThe Virus Transmission with Super-spreaders model, written in NetLogo, is an adaptation of the canonical Virus Transmission on a Network model and allows the exploration of various mitigation protocols such as testing and quarantines with both homogenous transmission and heterogenous transmission.\n\nThe model consists of a population of individuals arranged in a network, where both population and network degree are tunable. At the start of the simulation, a subset of the population is initially infected. As the model runs, infected individuals will infect neighboring susceptible individuals according to either homogenous or heterogenous transmission, where heterogenous transmission models super-spreaders. In this case, k is described as the percentage of super-spreaders in the population and the differing transmission rates for super-spreaders and non super-spreaders. Infected individuals either recover, at which point they become resistant to infection, or die. Testing regimes cause discovered infected individuals to quarantine for a period of time.",
+    "downloadUrl": "https://www.comses.net/codebases/6a29d3db-278e-4f73-bb13-0f4787fbea3d/releases/1.0.0/download/",
+    "dateModified": "2024-12-05",
+    "releaseNotes": "Version 1.0 .0, first release of model.\nRequires NetLogo 6.2",
+    "copyrightYear": 2021,
+    "datePublished": "2021-09-11",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "None"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

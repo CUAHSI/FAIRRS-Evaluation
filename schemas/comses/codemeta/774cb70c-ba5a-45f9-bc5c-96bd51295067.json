@@ -1,0 +1,54 @@
+{
+    "@id": "https://www.comses.net/codebases/774cb70c-ba5a-45f9-bc5c-96bd51295067/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/774cb70c-ba5a-45f9-bc5c-96bd51295067/releases/1.0.0/",
+    "name": "Vacunaci\u00f3n-Covid Ecuador",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2377/",
+            "@type": "Person",
+            "email": "adrian.lara08@gmail.com",
+            "givenName": "Adrian",
+            "familyName": "Lara"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc/4.0",
+        "name": "CC-BY-NC-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "challenge",
+        "COVID-19",
+        "Data",
+        "ecuador"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/774cb70c-ba5a-45f9-bc5c-96bd51295067/releases/1.0.0/",
+    "dateCreated": "2022-03-22",
+    "description": "El modelo a continuaci\u00f3n, fue desarrollado para el DATA CHALLENGE 2022. Es un an\u00e1lisis de la informaci\u00f3n descargada del Portal de datos abiertos de Ecuador. Dentro del modelo podemos realizar una breve exploraci\u00f3n de la informaci\u00f3n as\u00ed como una simulaci\u00f3n respecto al proceso de vacunaci\u00f3n en Ecuador.",
+    "downloadUrl": "https://www.comses.net/codebases/774cb70c-ba5a-45f9-bc5c-96bd51295067/releases/1.0.0/download/",
+    "dateModified": "2022-03-22",
+    "releaseNotes": "El funcionamiento del modelo es bastante sencillo, la informaci\u00f3n ha sido pre procesada en un notebook de Jupyter y almacenada en un documento .csv.\nEsta informaci\u00f3n se puede extrapolar dependiendo de la zona que se quiera analizar. Un an\u00e1lisis m\u00e1s completo puede encontrarse en el archivo narrativo de este modelo.",
+    "copyrightYear": 2022,
+    "datePublished": "2022-03-22",
+    "embargoEndDate": "2022-03-22",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo 6.2.1"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo 6.2.1",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

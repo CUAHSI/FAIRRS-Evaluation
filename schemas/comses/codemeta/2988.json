@@ -1,0 +1,56 @@
+{
+    "@id": "https://www.comses.net/codebases/2988/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/2988/releases/1.0.0/",
+    "name": "WealthDistribRes",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/776/",
+            "@type": "Person",
+            "email": "romulus_catalin_damaceanu@yahoo.com",
+            "givenName": "Romulus-Catalin",
+            "familyName": "Damaceanu",
+            "affiliation": {
+                "@id": "https://ror.org/026qypj38",
+                "url": "http://www.upa.ro/",
+                "name": "Petre Andrei University of Iasi",
+                "@type": "Organization",
+                "identifier": "https://ror.org/026qypj38"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/776/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2988/releases/1.0.0/",
+    "dateCreated": "2012-05-04",
+    "description": "This model WealthDistribRes can be used to study the distribution of wealth in function of using a combination of resources classified in two renewable and nonrenewable.\r\nThis agent-based computational model created in NetLogo 4.0.5 has the following fundamental characteristics:\r\n(i) the turtles are of two types: female and male;\r\n(ii) these turtles have a limited life expectancy determined by the parameters LifeExpectancyMax (maximum life expectancy) and LifeExpectancyMin (minimum life expectancy);\r\n(iii) patches stores a certain amount of water ResWater?0, a certain amount of food ResFood?0, a certain amount of coal ResCoal?0, a certain amount of oil ResOil?0, a certain amount of gas ResGas?0, a certain amount of uranium ResUranium?0, a certain amount of wind ResWind?0, a certain amount of sun ResSun?0, a certain amount of tides ResTides ?0, and a certain amount of geothermal heat ResGeothermalHeat?0; all these resources are converted in energy; these ten resources are divided in two: the first type are renewable resources and here are included water, food, wind, geothermal heat, tides and sun resources that are replenished on every simulation step; the second type are nonrenewable resources (coal, oil, gas, uranium);\r\n(iv) a male and female turtle can create a couple, and a number of children;\r\n(v) the children can inherit the wealth of their parents;\r\n(vi) the needs of every turtle are 1 of energy per one year processed from the available resources found on the patches;\r\n(vii) if these basic needs are not fulfilled then the respective turtle dies.",
+    "downloadUrl": "https://www.comses.net/codebases/2988/releases/1.0.0/download/",
+    "dateModified": "2018-02-28",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    }
+}

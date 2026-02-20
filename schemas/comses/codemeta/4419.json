@@ -1,0 +1,95 @@
+{
+    "@id": "https://www.comses.net/codebases/4419/releases/1.4.0/",
+    "url": "https://www.comses.net/codebases/4419/releases/1.4.0/",
+    "name": "Exploring homeowners' insulation activity",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1408/",
+            "@type": "Person",
+            "email": "jonasfriege@gmail.com",
+            "givenName": "Jonas",
+            "familyName": "Friege",
+            "affiliation": {
+                "@id": "https://ror.org/01spy4t79",
+                "url": "http://wupperinst.org/en/home/",
+                "name": "Wuppertal Institute for Climate, Environment and Energy",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01spy4t79"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-8529-4241",
+            "@type": "Person",
+            "email": "e.j.l.chappin@tudelft.nl",
+            "givenName": "Emile",
+            "familyName": "Chappin",
+            "affiliation": {
+                "@id": "https://ror.org/02e2c7k09",
+                "url": "http://www.tudelft.nl/en/",
+                "name": "Delft University of Technology",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02e2c7k09"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/614/",
+            "@type": "Person",
+            "email": "gholtz@uos.de",
+            "givenName": "Georg",
+            "familyName": "Holtz",
+            "affiliation": {
+                "url": "http://www.usf.uos.de",
+                "name": "Institute of Environmental Systems Research",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1408/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-8529-4241",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://www.comses.net/users/614/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.4.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4419/releases/1.4.0/",
+    "dateCreated": "2015-06-11",
+    "description": "Insulating existing buildings offers great potential for reducing greenhouse gas emissions and meeting Germany\u2019s climate protection targets. Previous research suggests that, since homeowners\u2019 decision-making processes are inadequately understood as yet, today\u2019s incentives aiming at increasing insulation activity lead to unsatisfactory results. We developed an agent-based model to foster the understanding of homeowners\u2019 decision-making processes regarding insulation and to explore how situational factors, such as the structural condition of houses and social interaction, influence their insulation activity. Simulation experiments allow us furthermore to study the influence of socio-spatial structures such as residential segregation and population density on the diffusion of renovation behavior among homeowners. Based on the insights gained, we derive recommendations for designing innovative policy instruments. We conclude that the success of particular policy instruments aiming at increasing homeowners\u2019 insulation activity in a specific region depends on the socio-spatial structure at hand, and that reducing financial constraints only has a relatively low potential for increasing Germany\u2019s insulation rate. Policy instruments should also target the fact that specific renovation occasions are used to undertake additional insulation activities, e.g. by incentivizing lenders and craftsmen to advise homeowners to have insulation installed.",
+    "downloadUrl": "https://www.comses.net/codebases/4419/releases/1.4.0/download/",
+    "dateModified": "2019-04-08",
+    "releaseNotes": "",
+    "copyrightYear": 2019,
+    "datePublished": "2019-04-08",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

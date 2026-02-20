@@ -1,0 +1,60 @@
+{
+    "@id": "https://www.comses.net/codebases/154415c3-f172-417b-aa1c-e9ad5de9dcf0/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/154415c3-f172-417b-aa1c-e9ad5de9dcf0/releases/1.0.0/",
+    "name": "The effects of complementary microfinance service on income and lifting poor out of poverty: An agent-based modeling study",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-9584-581X",
+            "@type": "Person",
+            "email": "rezasadeghi@ut.ac.ir",
+            "givenName": "Mohammad Reza",
+            "familyName": "Sadeghi Moghaddam"
+        },
+        {
+            "@id": "https://orcid.org/0009-0001-3804-9411",
+            "@type": "Person",
+            "email": "mehr.hedayat@gmail.com",
+            "givenName": "Mehrdad",
+            "familyName": "Hamidi Hedayat"
+        },
+        {
+            "@id": "https://orcid.org/0009-0001-3804-9411",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/154415c3-f172-417b-aa1c-e9ad5de9dcf0/releases/1.0.0/",
+    "dateCreated": "2024-06-27",
+    "description": "This model simulate the process of borrowing from an Microfinance Institute (MFI) and starting a business within a poor household.",
+    "downloadUrl": "https://www.comses.net/codebases/154415c3-f172-417b-aa1c-e9ad5de9dcf0/releases/1.0.0/download/",
+    "dateModified": "2024-07-01",
+    "releaseNotes": "This model simulate the process of borrowing from an MFI and starting a business within a poor household.\nan MFI is established in a village, and the poor become members after forming a group of 10 to 20 people. Members contribute monthly savings to the MFI. Donations to the MFI are equivalent to the group's savings from the previous quarter. Loans are provided to members within three months, with recipients randomly selected from those who have not yet received a loan. No new loans are granted until all members have had the opportunity to receive one. Members can apply for a new loan once they have settled their previous loan. \nThe loan amount is proportional to the savings of the poor, set at ten times their savings. Members may fail in their business due to a lack of knowledge or proper training and may be unable to repay their loan installments. To mitigate this risk, the MFI provides necessary training through business mentors. Mentors can also supply raw materials to borrowers. By selling raw materials at a discount, mentors help reduce the initial working capital required for the business, thus supporting individuals in starting their enterprises. This discount lowers the initial costs for raw materials, aiding the poor in reducing their startup expenses.\nMentors provide training that enhances business productivity. Increased productivity can boost sales revenue and profits, helping individuals rise out of poverty. Since mentors receive a percentage of the profits, their income also increases. After receiving the loan, the poor start their businesses, and mentors provide training during the process. Over time, as their income grows, they can cover their expenses, including production costs, loan instalments, and monthly savings contributions to the fund. \nannual income of the poor and the number of people above the poverty line as indicator of a poor agent to show the status of poor people and the amount of receivables as well as funds as indicators of MFI to show MFI status over time.",
+    "copyrightYear": 2024,
+    "datePublished": "2024-06-27",
+    "embargoEndDate": "2024-08-31",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo 6.3.0"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo 6.0.3",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,106 @@
+{
+    "@id": "https://www.comses.net/codebases/4433/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4433/releases/1.0.0/",
+    "name": "The Adder Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-2684-6330",
+            "@type": "Person",
+            "email": "julia.kasmire@manchester.ac.uk",
+            "givenName": "Julia",
+            "familyName": "Kasmire",
+            "affiliation": {
+                "@id": "https://ror.org/027m9bs27",
+                "url": "http://www.manchester.ac.uk/",
+                "name": "University of Manchester",
+                "@type": "Organization",
+                "identifier": "https://ror.org/027m9bs27"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Janne",
+            "familyName": "Korhonen"
+        },
+        {
+            "@id": "https://www.comses.net/users/1210/",
+            "@type": "Person",
+            "email": "nikolic.igor@tudelft.nl",
+            "givenName": "Igor",
+            "familyName": "Nikolic",
+            "affiliation": {
+                "@id": "https://ror.org/02e2c7k09",
+                "url": "http://www.tudelft.nl/en/",
+                "name": "Delft University of Technology",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02e2c7k09"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-2684-6330",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://www.comses.net/users/1210/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-sa/4.0/",
+        "name": "CC-BY-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Arthur WB, Polak W. The evolution of technology within a simple computer model. Complexity. 2004: May, doi:10.1002/cplx.20130",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "agent-based model",
+        "complexity",
+        "incremental innovation",
+        "radical innovation",
+        "self-organized criticality",
+        "technology",
+        "technology adoption",
+        "technology evolution"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4433/releases/1.0.0/",
+    "dateCreated": "2014-12-05",
+    "description": "Radical innovations prompt significant subsequent technological development and exhibit novelty and \"architectural\" innovation, i.e. rearranging the way design elements are put together in a system. Thus, radical innovations often serve as the foundation for new technological systems, industries or domains and are seen to involve significant conceptual breakthroughs, through either luck or genius. The much more common incremental innovations are perceived as mere improvements to existing technologies. Decreasing returns from incremental innovation are understood to motivate a search for a new radical innovation to provide a platform for more incremental innovation. \r\n\r\nHowever, deeper study shows that the conceptual \"distance\" a radical breakthrough travels is far shorter than would initially appear. On closer inspection, several innovations with an undoubtedly radical effect are composed of small inventive steps that appear self-evident, even logical, to the developers. This conundrum appears to stem from conflating a radical effect with a radical development. What\u2019s more, this view of radical innovation appears to view inventions as isolated from the broader currents of technological development. An alternative view sees innovations as embedded in a co-evolutionary socio-technical landscape, where inventions develop in a technological environment and become building blocks for further inventions. Although only inventions adopted for use can be called innovations, \u201cinactive\u201d inventions can also serve as building blocks. In this view, (almost) all steps to innovation are incremental, but the system's self-organized criticality (SOC) allows spontaneous radical effects and returns.",
+    "downloadUrl": "https://www.comses.net/codebases/4433/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2014,
+    "datePublished": "2014-12-05",
+    "operatingSystem": "linux",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "J Kasmire, Janne M Korhonen, and Igor Nikolic. How radical is a radical innovation?\r\nAn outline for a computational approach. Energy Procedia, 20:346-353, 2012b.\r\n\r\nJanne M Korhonen and J. Kasmire. Adder: a new model for simulating the evolution\r\nof technology, with observations on why perfectly knowledgeable agents cannot\r\nlaunch technological revolutions. In Innovation and Competitiveness: Dynamics of\r\nOrganizations, Industries, Systems and Regions. DRUID, 2012."
+}

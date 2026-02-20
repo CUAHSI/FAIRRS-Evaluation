@@ -1,0 +1,53 @@
+{
+    "@id": "https://www.comses.net/codebases/68fdf788-6b8c-44a1-9c38-62cbca344b4e/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/68fdf788-6b8c-44a1-9c38-62cbca344b4e/releases/1.0.0/",
+    "name": "A Data-Driven Approach of Layout Evaluation for Electric Vehicle Charging Infrastructure Using Agent-Based Simulation and GIS",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/4305/",
+            "@type": "Person",
+            "email": "18301797928@163.com",
+            "givenName": "yue",
+            "familyName": "zhang",
+            "affiliation": {
+                "@id": "https://ror.org/00d2w9g53",
+                "url": "http://english.szpt.edu.cn/",
+                "name": "Shenzhen Polytechnic",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00d2w9g53"
+            }
+        }
+    ],
+    "license": {
+        "name": "None",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/68fdf788-6b8c-44a1-9c38-62cbca344b4e/releases/1.0.0/",
+    "dateCreated": "2023-09-21",
+    "description": "The development and popularisation of new energy vehicles have become a global consensus. The shortage and unreasonable layout of electric vehicle charging infrastructure (EVCI) have severely restricted the development of electric vehicles. In the literature, many methods can be used to optimise the layout of charging stations (CSs) for producing good layout designs. However, more realistic evaluation and validation should be used to assess and validate these layout options. This study suggested an agent-based simulation (ABS) model to evaluate the layout designs of EVCI and simulate the driving and charging behaviours of electric taxis (ETs). In the case study of Shenzhen, China, GPS trajectory data were used to extract the temporal and spatial patterns of ETs, which were then used to calibrate and validate the actions of ETs in the simulation. The ABS model was developed in a GIS context of an urban road network with travelling speeds of 24 h to account for the effects of traffic conditions. After the high-resolution simulation, evaluation results of the performance of EVCI and the behaviours of ETs can be provided in detail and in summary. Sensitivity analysis demonstrates the accuracy of simulation implementation and aids in understanding the effect of model parameters on system performance. Maximising the time satisfaction of ET users and reducing the workload variance of EVCI were the two goals of a multiobjective layout optimisation technique based on the Pareto frontier. The location plans for the new CS based on Pareto analysis can significantly enhance both metrics through simulation evaluation. ",
+    "downloadUrl": "https://www.comses.net/codebases/68fdf788-6b8c-44a1-9c38-62cbca344b4e/releases/1.0.0/download/",
+    "dateModified": "2023-09-21",
+    "releaseNotes": "The video of the simulation can be downloaded in the Output (Results) sections. ",
+    "copyrightYear": 2023,
+    "datePublished": "2023-09-21",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Repast Simphony"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java Repast",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

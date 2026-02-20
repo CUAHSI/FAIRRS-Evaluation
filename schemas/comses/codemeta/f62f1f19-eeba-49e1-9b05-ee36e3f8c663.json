@@ -1,0 +1,53 @@
+{
+    "@id": "https://www.comses.net/codebases/f62f1f19-eeba-49e1-9b05-ee36e3f8c663/releases/1.0.1/",
+    "url": "https://www.comses.net/codebases/f62f1f19-eeba-49e1-9b05-ee36e3f8c663/releases/1.0.1/",
+    "name": "Holmestrand School Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-3504-6538",
+            "@type": "Person",
+            "email": "jessica.dimka@shu.edu",
+            "givenName": "Jessica",
+            "familyName": "Dimka"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc/4.0",
+        "name": "CC-BY-NC-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.1",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "anthropology",
+        "disease modeling",
+        "historical epidemiology",
+        "NetLogo"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/f62f1f19-eeba-49e1-9b05-ee36e3f8c663/releases/1.0.1/",
+    "dateCreated": "2021-06-18",
+    "description": "The Holmestrand model is an epidemiological agent-based model. Its aim is to test hypotheses related to how the social and physical environment of a residential school for children with disabilities might influence the spread of an infectious disease epidemic among students and staff. Annual reports for the Holmestrand School for the Deaf (Norway) are the primary sources of inspiration for the modeled school, with additional insights drawn from other archival records for schools for children with disabilities in early 20th century Norway and data sources for the 1918 influenza pandemic. The model environment consists of a simplified boarding school that includes residential spaces for students and staff, classrooms, a dining room, common room, and an outdoor area. Students and staff engage in activities reflecting hourly schedules suggested by school reports. By default, a random staff member is selected as the first case and is infected with disease. Subsequent transmission is determined by agent movement and interactions between susceptible and infectious pairs.",
+    "downloadUrl": "https://www.comses.net/codebases/f62f1f19-eeba-49e1-9b05-ee36e3f8c663/releases/1.0.1/download/",
+    "dateModified": "2022-04-29",
+    "releaseNotes": "Clarification in narrative documentation on estimation of mortality probability. Correction to code selecting first case. \n",
+    "copyrightYear": 2022,
+    "datePublished": "2022-04-29",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

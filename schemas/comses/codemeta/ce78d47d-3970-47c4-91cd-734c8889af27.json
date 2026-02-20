@@ -1,0 +1,62 @@
+{
+    "@id": "https://www.comses.net/codebases/ce78d47d-3970-47c4-91cd-734c8889af27/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/ce78d47d-3970-47c4-91cd-734c8889af27/releases/1.0.0/",
+    "name": "Agent-Based Model of a Circular Food Packaging Ecosystem to assess Packaging Waste Dynamics",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/4995/",
+            "@type": "Person",
+            "email": "annoekreitsema@hotmail.com",
+            "givenName": "Annoek",
+            "familyName": "Reitsema"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "No",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "agent based model (abm)",
+        "Circular Economy",
+        "circular ecosystems",
+        "decision-making process",
+        "food packaging",
+        "packaging waste",
+        "system dynamics modeling"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/ce78d47d-3970-47c4-91cd-734c8889af27/releases/1.0.0/",
+    "dateCreated": "2024-10-10",
+    "description": "Reducing packaging waste is a critical challenge that requires organizations to collaborate within circular ecosystems, considering social, economic, and technical variables like decision-making behavior, material prices, and available technologies. Agent-Based Modeling (ABM) offers a valuable methodology for understanding these complex dynamics. In our research, we have developed an ABM to explore circular ecosystems' potential in reducing packaging waste, using a case study of the Dutch food packaging ecosystem. The model incorporates three types of agents\u2014beverage producers, packaging producers, and waste treaters\u2014who can form closed-loop recycling systems.\n\nBeverage Producer Agents: These agents represent the beverage company divided into five types based on packaging formats: cans, PET bottles, glass bottles, cartons, and bag-in-boxes. Each producer has specific packaging demands based on product volume, type, weight, and reuse potential. They select packaging suppliers annually, guided by deterministic decision styles: bargaining (seeking the lowest price) or problem-solving (prioritizing high recycled content).\n\nPackaging Producer Agents: These agents are responsible for creating packaging using either recycled or virgin materials. The model assumes a mix of monopolistic and competitive market situations, with agents calculating annual material needs. Decision styles influence their choices: bargaining agents compare recycled and virgin material costs, while problem-solving agents prioritize maximum recycled content. They calculate recycled content in packaging and set prices accordingly, ensuring all produced packaging is sold within or outside the model.\n\nWaste Treater Agents: Representing Dutch waste sorters, incinerators, and recyclers, these agents handle waste based on material type. They recycle a portion of collected waste annually, with recycling rates varying slightly. Prices for recycled materials depend on previous supply relationships and decision styles: bargaining agents increase prices for profit, while problem-solving agents lower prices to promote closed-loop recycling. They ensure recycled materials are sold to packaging producers or external entities.\n\nThe ABM integrates organizational decision-making theory to simulate different decision styles and rules. Experimentation results suggest that even a few organizations prioritizing circularity over individual profit can significantly reduce packaging waste. The decision style of beverage producers is crucial in ecosystems focused on profit maximization. Centralized waste management could stabilize recycled material supply and reduce fluctuations in recycled content.\n\nImplemented in NetLogo, the model uses environment variables to assess circular practices' impact on waste reduction. It highlights the potential of collaborative circular ecosystems to achieve sustainability goals.",
+    "downloadUrl": "https://www.comses.net/codebases/ce78d47d-3970-47c4-91cd-734c8889af27/releases/1.0.0/download/",
+    "dateModified": "2024-10-11",
+    "releaseNotes": "The ABM can be used for experimentation with different circular ecosystems, offering flexibility to change most of the input variables.",
+    "copyrightYear": 2024,
+    "datePublished": "2024-10-11",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo 6.3.0"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo 6.3.0",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

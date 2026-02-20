@@ -1,0 +1,84 @@
+{
+    "@id": "https://www.comses.net/codebases/4488/releases/1.2.0/",
+    "url": "https://www.comses.net/codebases/4488/releases/1.2.0/",
+    "name": "Effect of communication in irrigation games",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Person",
+            "email": "marco.janssen@asu.edu",
+            "givenName": "Marco",
+            "familyName": "Janssen",
+            "affiliation": {
+                "url": "https://schoolofsustainability.asu.edu/",
+                "name": "School of Sustainability",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-9616-4143",
+            "@type": "Person",
+            "email": "jacopo.baggio@ucf.edu",
+            "givenName": "Jacopo A.",
+            "familyName": "Baggio",
+            "affiliation": {
+                "@id": "https://ror.org/036nfer12",
+                "url": "http://www.ucf.edu/",
+                "name": "School of Politics, Security, and International Affairs, National Center for Integrated Coastal Research, Sustainable Coastal Systems Cluster, University of Central Florida",
+                "@type": "Organization",
+                "identifier": "https://ror.org/036nfer12"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-9616-4143",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "calibration",
+        "conditional cooperation",
+        "irrigation games",
+        "other regarding preferences",
+        "social dilemma"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4488/releases/1.2.0/",
+    "dateCreated": "2017-08-09",
+    "description": "The model includes different formulations how agents make decisions in irrigation games and this is compared with empirical data. These experiments are 5 person lab experiments with monetary incentives. Participants made investment and extraction decisions in 10 rounds. Participants varied in being upstream vs downstream. There were two treatments limited and full communication. With limited communication we found more inequality. The aim is to test different theoretical models, especially explaining effect of communication. We compare different null models (selfish, cooperative, random) and two theoretical models: conditional cooperation and social values.",
+    "downloadUrl": "https://www.comses.net/codebases/4488/releases/1.2.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2017,
+    "datePublished": "2017-08-09",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Janssen, M.A. and J.A. Baggio (2017), Using agent-based models to compare behavioral theories on experimental data: Application for irrigation games, Journal of Environmental Psychology 52: 194-203."
+}

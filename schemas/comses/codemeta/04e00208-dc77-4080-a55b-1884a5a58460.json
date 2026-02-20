@@ -1,0 +1,62 @@
+{
+    "@id": "https://www.comses.net/codebases/04e00208-dc77-4080-a55b-1884a5a58460/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/04e00208-dc77-4080-a55b-1884a5a58460/releases/1.0.0/",
+    "name": "06b EiLab_Model_I_V5.00 NL",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1014/",
+            "@type": "Person",
+            "email": "orrery@rogers.com",
+            "givenName": "Garvin",
+            "familyName": "Boyle",
+            "affiliation": {
+                "url": "http://modeco-software.webs.com",
+                "name": "Retired High School Teacher",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "BDY Models",
+        "biophysical economics",
+        "Capital Exchange Models",
+        "ecological economic modeling",
+        "Kinetic Wealth Exchange Models (KWEMs)",
+        "Model I of EiLab",
+        "sustainable economics"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/04e00208-dc77-4080-a55b-1884a5a58460/releases/1.0.0/",
+    "dateCreated": "2019-09-29",
+    "description": "**EiLab - Model I** - is a capital exchange model.  That is a type of economic model used to study the dynamics of modern money which, strangely, is very similar to the dynamics of energetic systems.  It is a variation on the BDY models first described in the paper by Dragulescu and Yakovenko, published in 2000, entitled \"Statistical Mechanics of Money\".    This model demonstrates the ability of capital exchange models to produce a distribution of wealth that does not have a preponderance of poor agents and a small number of exceedingly wealthy agents.\n\nThis is a re-implementation of a model first built in the C++ application called **Entropic Index Laboratory**, or **EiLab**.  The first eight models in that application were labeled A through H, and are the **BDY** models.  The **BDY** models all have a single constraint - a limit on how poor agents can be.  That is to say that the wealth distribution is bounded on the left.  This ninth model is a variation on the BDY models that has an added constraint that limits how wealthy an agent can be?  It is bounded on both the left and right.\n\n**EiLab** demonstrates the inevitable role of entropy in such capital exchange models, and can be used to examine the connections between changing entropy and changes in wealth distributions at a very minute level.  \n\n**MAXIMUM ENTROPY PRINCIPLE (MEP)** - The second law of thermodynamics, when applied to isolated or closed energy systems, is sometimes called the maximum entropy principle (MEP).  We might paraphrase it so say \"in any closed thermodynamic system, the thermodynamic entropy of the system will tend to rise until it reaches a maximum attainable value, and then will stay at that value.\"  If we were to define a kind of entropy that can be calculated for distributions of monetary wealth, then we could make a similar law of economics - \"in any closed monetary system, the monetary entropy of the system will tend to rise until it reaches a maximum attainable value, and then will stay at that value\".  **EiLab** demonstrates such dynamics.",
+    "downloadUrl": "https://www.comses.net/codebases/04e00208-dc77-4080-a55b-1884a5a58460/releases/1.0.0/download/",
+    "dateModified": "2019-10-05",
+    "releaseNotes": "This is a NetLogo Version of just one of the models of EiLab V1.40.  That program, written in C++, contains all eight of the BDY models discussed in the paper by Yakovenko and Dragulescu (2000).  This is a replication of the ninth model - Model I.  It includes an implementation of my most recent calculations of and \"Entropic Index\", with an implementation of the GammaLn(x) function that can be used in most ABMs.\n\nThe purpose of this particular model is as a teaching tool, to teach students how to calculate entropy in agent-based models of sustainable economies.  My development notes are bundled with the software.  ",
+    "copyrightYear": 2019,
+    "datePublished": "2019-10-05",
+    "embargoEndDate": "2019-10-01",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

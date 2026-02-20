@@ -1,0 +1,90 @@
+{
+    "@id": "https://www.comses.net/codebases/5924/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/5924/releases/1.1.0/",
+    "name": "Simulation of the Governance of Complex Systems",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-9022-5956",
+            "@type": "Person",
+            "email": "fabian.adelt@tu-dortmund.de",
+            "givenName": "Fabian",
+            "familyName": "Adelt",
+            "affiliation": {
+                "url": "http://www.wiwi.tu-dortmund.de/wiwi/ts/de/lehrstuhl/",
+                "name": "TU Dortmund University, Technolgy Studies Group",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Johannes",
+            "familyName": "Weyer"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Robin",
+            "familyName": "Fink"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "givenName": "Andreas",
+            "familyName": "Ihrig"
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-9022-5956",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5924/releases/1.1.0/",
+    "dateCreated": "2017-12-20",
+    "description": "The simulation framework \"Simulation of the Governance of Complex Systems\" (SimCo) has been conceived as a general purpose framework that allows to model and to analyse interaction processes in networked systems which force agents to take into consideration the physical infrastructure (with nodes and edges) as an additional variable when making individual choices. It shall improve our understanding of how to control complex, network-like infrastructure systems (macro level)involving the interactions of a large number of strategic decision makers (autonomous agents at the micro level) as a source of complexity.\r\n\r\nSimCo has been designed as a framework to investigate governance issues and to discuss the following two items:\r\n1. Risk management: Operational risk management of infrastructure systems typically aims at reducing undesirable external effects (e.g. pollution) or avoiding system breakdown (e.g. congestion) or even catastrophes (e.g. self-destruction of parts of the system).\r\n2. System transformation: Political measures of system transformation typically promote a regime change (e.g. towards sustainable mobility), which mostly comprises/entails  a fundamental new way of operating the system.\r\n\r\nRoad transportation serves as an example application of the abstract framework.",
+    "downloadUrl": "https://www.comses.net/codebases/5924/releases/1.1.0/download/",
+    "dateModified": "2018-04-10",
+    "releaseNotes": "Basic release in parallel to publishing the corresponding article in \"Journal of Artificial Societies and Social Simulation\".\nArticle published in issue 21/2: http://jasss.soc.surrey.ac.uk/21/2/2.html",
+    "copyrightYear": 2018,
+    "datePublished": "2018-03-02",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

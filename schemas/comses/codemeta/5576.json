@@ -1,0 +1,89 @@
+{
+    "@id": "https://www.comses.net/codebases/5576/releases/2.2.0/",
+    "url": "https://www.comses.net/codebases/5576/releases/2.2.0/",
+    "name": "MOOvPOPsurveillance",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-4651-0116",
+            "@type": "Person",
+            "email": "anyadoc@gmail.com",
+            "givenName": "Aniruddha",
+            "familyName": "Belsare",
+            "affiliation": {
+                "url": "https://cfwe.auburn.edu/",
+                "name": "Auburn University",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "gompperm@missouri.edu",
+            "givenName": "Matthew",
+            "familyName": "Gompper",
+            "affiliation": {
+                "@id": "https://ror.org/02ymw8z06",
+                "url": "http://missouri.edu/",
+                "name": "University of Missouri",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02ymw8z06"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Joshua",
+            "familyName": "Millspaugh"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-sa/4.0/",
+        "name": "CC-BY-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "2.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "chronic wasting disease",
+        "hunter-harvest surveillance",
+        "missouri",
+        "white-tailed deer"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5576/releases/2.2.0/",
+    "dateCreated": "2018-01-18",
+    "description": "MO*Ov*POP*surveillance* incorporates real-world disease distribution and harvest heterogeneities, and can be used to simulate disease surveillance strategies under alternate assumptions. The model can be used to determine  population-specific sample sizes for prompt detection of wildlife diseases like chronic wasting disease (CWD). MO*Ov*POP*surveillance* is initialized with model-generated ( MO*Ov*POP: https://www.comses.net/codebases/5585/releases/2.2.0/ ) pre-harvest deer population snapshot (abundance, sex-age composition and distribution in the landscape) for selected sampling regions in Missouri. CWD+ deer are then distributed in the landscape under one of the two assumptions: random or clustered distribution.  User selects the sampling region, age-sex class wise distribution of CWD prevalence, age-sex class wise sample sizes (proportion of harvest tested) and sampling method (random or non-random). Three processes are implemented: 1) individual growth (age of every deer increases by one month), 2) non-hunting mortality (determined by age- and sex- specific monthly mortality rates), and 3) hunting mortality and CWD testing. MO*Ov*POP*surveillance* runs for one time-step (one month), and provides following outputs: total number of adult deer (male and female) remaining in the population after harvest, number of CWD+ deer in the population, in the hunter harvest, and in the sample (deer tested for CWD).",
+    "downloadUrl": "https://www.comses.net/codebases/5576/releases/2.2.0/download/",
+    "dateModified": "2020-05-12",
+    "releaseNotes": "MO*Ov*POPsurveillance v2.2.0: can read data directly from the 'data' folder and write result files in the 'results' folder.\n",
+    "copyrightYear": 2020,
+    "datePublished": "2020-05-12",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Belsare, A.V., Gompper, M.E., Keller, B.J., Sumners, J.A., Hansen, L.P., and Millspaugh, J.J. An agent-based framework for improving wildlife disease surveillance: A case study of chronic wasting disease in Missouri white-tailed deer. 2020. Ecological Modelling 417 (108919). (F1000Prime Recommended Article).\n\nBelsare, A.V., Gompper, M.E., Keller, B.J., Sumners, J.A., Hansen, L.P., and Millspaugh, J.J. Size Matters: Sample size assessments for chronic wasting disease surveillance using an agent-based modeling framework. 2020. MethodsX 7(100953). https://doi.org/10.1016/j.mex.2020.100953.\n\nMysterud A, Viljugrein H, Rolandsen CM, Belsare AV. 2021 Harvest strategies for the elimination of low prevalence wildlife diseases. R. Soc. Open Sci. 8: 210124. https://doi.org/10.1098/rsos.210124"
+}

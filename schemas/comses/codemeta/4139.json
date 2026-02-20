@@ -1,0 +1,59 @@
+{
+    "@id": "https://www.comses.net/codebases/4139/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/4139/releases/1.1.0/",
+    "name": "Food Safety Inspection Model - Stores Signal with Errors",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1212/",
+            "@type": "Person",
+            "email": "sam123@mail.usask.ca",
+            "givenName": "Sara",
+            "familyName": "Mcphee-Knowles",
+            "affiliation": {
+                "@id": "https://ror.org/010x8gc63",
+                "url": "https://www.usask.ca/",
+                "name": "Johnson-Shoyama Graduate School of Public Policy, University of Saskatchewan",
+                "@type": "Organization",
+                "identifier": "https://ror.org/010x8gc63"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1212/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4139/releases/1.1.0/",
+    "dateCreated": "2014-07-11",
+    "description": "This model represents a very basic food safety system where inspectors, consumers and stores interact. The purpose of this model is to provide insight into an optimal level of inspectors in a food system by comparing three search strategies used by inspectors: a random strategy, one where stores close if they are no longer visited by consumers, and one where stores can signal to inspectors and consumers that there is a problem. This version includes the code for the scenario involving store closures.\r\n\r\nThe model incorporates stores, consumers and inspectors. Food products and suppliers are assumed to be embedded within the stores. Consumers move around to different stores and consume food products. They avoid stores where they have become sick in the past. Stores become contaminated randomly, and in the alternative scenarios, may close if they do not receive enough customers, or they may signal if they are contaminated. The inspection strategy of the inspectors depends on the model version: they either inspect randomly or prioritize stores that are signalling. The number of inspectors can vary. \r\n\r\nIn all three scenarios, as the number of inspectors increases, the number of sick consumers declines. Consumers fare best in the scenario where stores signal, even when those signals involve errors, as compared to the random inspection scenario. Please download all three versions in order to run the three scenarios.",
+    "downloadUrl": "https://www.comses.net/codebases/4139/releases/1.1.0/download/",
+    "dateModified": "2019-04-08",
+    "releaseNotes": "",
+    "copyrightYear": 2019,
+    "datePublished": "2019-04-08",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

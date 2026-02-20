@@ -1,0 +1,78 @@
+{
+    "@id": "https://www.comses.net/codebases/a0f46686-41cc-4e55-a55e-4eb97783a2ba/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/a0f46686-41cc-4e55-a55e-4eb97783a2ba/releases/1.1.0/",
+    "name": "Consumer diets and values ABM",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-2678-0389",
+            "@type": "Person",
+            "email": "ndavis.research@gmail.com",
+            "givenName": "Natalie",
+            "familyName": "Davis"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "m.k.radbruch@uu.nl",
+            "givenName": "Merlin",
+            "familyName": "Radbruch",
+            "affiliation": {
+                "@id": "https://ror.org/04pp8hn57",
+                "url": "https://www.uu.nl",
+                "name": "Utrecht University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04pp8hn57"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "d.r.bucciarelli@students.uu.nl",
+            "givenName": "Dean",
+            "familyName": "Bucciarelli"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/a0f46686-41cc-4e55-a55e-4eb97783a2ba/releases/1.1.0/",
+    "dateCreated": "2025-02-28",
+    "description": "An agent-based model of individual consumers making choices between five possible diets: omnivore, flexitarian, pescatarian, vegetarian, or vegan. Each consumer makes decisions based on personal constraints and values, and their perceptions of how well each diet matches with those values. Consumers can also be influenced by each other\u2019s perceptions via interaction across three social networks: household members, friends, and acquaintances. ",
+    "downloadUrl": "https://www.comses.net/codebases/a0f46686-41cc-4e55-a55e-4eb97783a2ba/releases/1.1.0/download/",
+    "dateModified": "2025-12-21",
+    "releaseNotes": "Updated to Netlogo 6.4.0, fixed bug in household network creation and income setting",
+    "copyrightYear": 2025,
+    "datePublished": "2025-03-05",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Netlogo 6.4.0"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Netlogo 6.4.0",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

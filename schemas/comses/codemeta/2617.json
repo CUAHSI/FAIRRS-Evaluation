@@ -1,0 +1,54 @@
+{
+    "@id": "https://www.comses.net/codebases/2617/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/2617/releases/1.0.0/",
+    "name": "SONG - Simulation of Network Growth",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/639/",
+            "@type": "Person",
+            "email": "dlevinson@umn.edu",
+            "givenName": "D",
+            "familyName": "Levinson"
+        },
+        {
+            "@id": "https://www.comses.net/users/639/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "network growth",
+        "transporation",
+        "transport network"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2617/releases/1.0.0/",
+    "dateCreated": "2011-08-29",
+    "description": "SONG 1.0 is a simulator designed for simulating the process of transportation network growth. The growth or decline of transportation networks is normally treated as the result of top-down decision making in the long-range planning efforts of metropolitan planning organizations (MPOs). However, changes to transportation networks are essentially the results of numerous small decisions by property owners, firms, developers, towns, cities, counties, state department of transportation districts, MPOs, and states in response to market conditions and policy initiatives. These system behaviors demonstrate the characteristics of decentralized systems, where organized patterns and structures can emerge not because of centralized control, but because of the interactions among decentralized system components. This phenomenon of decentralization and self-organization occurs in many circumstances, such as bird flocks, ant colonies, life evolutions, neural networks. Increasingly research is applying decentralized models in different domains as a new way of viewing the world. In SONG 1.0, transportation networks are treated as decentralized systems that demonstrate self-organizing patterns. By design, the simulator models behavior of individual system components and small decisions, and then demonstrates the patterns resulting from interactions of component models. The idea is that it is the actions of the components, not the whole that are controlled by the designer; the resulting patterns or structures, which often behave very differently than the elements that compose them, are not designed.",
+    "downloadUrl": "https://www.comses.net/codebases/2617/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "platform_independent",
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

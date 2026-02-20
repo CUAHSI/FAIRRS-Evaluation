@@ -1,0 +1,95 @@
+{
+    "@id": "https://www.comses.net/codebases/4704/releases/1.2.0/",
+    "url": "https://www.comses.net/codebases/4704/releases/1.2.0/",
+    "name": "Generic servicising model (SPREE project)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1585/",
+            "@type": "Person",
+            "email": "reinier.vanderveen@gmail.com",
+            "givenName": "Reinier",
+            "familyName": "Van Der Veen",
+            "affiliation": {
+                "url": "http://www.tudelft.nl/",
+                "name": "Delft University of Technology (the Netherlands)",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Kasper",
+            "familyName": "Kisjes"
+        },
+        {
+            "@id": "https://www.comses.net/users/1210/",
+            "@type": "Person",
+            "email": "nikolic.igor@tudelft.nl",
+            "givenName": "Igor",
+            "familyName": "Nikolic",
+            "affiliation": {
+                "@id": "https://ror.org/02e2c7k09",
+                "url": "http://www.tudelft.nl/en/",
+                "name": "Delft University of Technology",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02e2c7k09"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1585/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://www.comses.net/users/1210/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "absolute decoupling",
+        "behavioral economic",
+        "policy exploration",
+        "product-service systems",
+        "service economy",
+        "servicising"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4704/releases/1.2.0/",
+    "dateCreated": "2016-09-28",
+    "description": "This agent-based model has been developed in the frame of the EC FP7 project \u2018Servicizing Policy for a Resource Efficient Economy (SPREE)\u2019 (see www.spreeproject.com and wiki.spreeproject.com).  It is a generic servicising model that  can be used to explore the impacts of servisising (i.e., selling the functional use of products) and servicising policy on the absolute decoupling of economic growth from environmental degradation. The model can be applied to various sectors, and has been used for mobility, agri-food and water sector cases. \r\n\r\nThe model represents a single market of autonomous sellers and buyers, centered around a single consumption need. This need can be satisfied through competing Products and Services. The Producing Business (PB) represents the seller, and the Consuming Business (CB) and/or the Consumer represents the buyer. \r\n\r\nServices are delivered through Service Contracts between PBs and the consuming agents. The Products and Services have certain amounts of Resource types associated with them, which represent materials and wastes. \r\n\r\nProducts and Services are produced and consumed through three types of \u2018transformation models\u2019: Manufacturing Models (MMs), Sales Models (SMs) and Consumption Models (CMs). Producing Businesses must choose one MM and one or two SMs, while consuming agents must choose one CM. These may require access to certain Infrastructures or possession of certain Skills. Upstream inputs can be bought from the World Market, and outputs can be disposed in the Physical Environment.\r\n\r\nThe simulated market can be influenced externally by Policy Instruments and Market Developments. The Policy Instruments represent concrete regulatory measures that influence the market, such as a subsidy. Market Developments may represent other developments that influence the simulated market, such as a technological development. Policy Instruments can be grouped in Policy Packages, and Market Developments in Market Scenarios.",
+    "downloadUrl": "https://www.comses.net/codebases/4704/releases/1.2.0/download/",
+    "dateModified": "2018-02-19",
+    "releaseNotes": "Model version July 15th, 2015. Input spreadsheets added (incl. SPREE cases).",
+    "copyrightYear": 2016,
+    "datePublished": "2016-09-28",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

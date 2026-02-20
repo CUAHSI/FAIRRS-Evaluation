@@ -1,0 +1,60 @@
+{
+    "@id": "https://www.comses.net/codebases/a33c5f0a-a903-45e0-ae72-cb7abbce2f9f/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/a33c5f0a-a903-45e0-ae72-cb7abbce2f9f/releases/1.1.0/",
+    "name": "Correlated random walk",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-6129-5362",
+            "@type": "Person",
+            "email": "fronville.thibault@hotmail.com",
+            "givenName": "Thibault",
+            "familyName": "Fronville",
+            "affiliation": {
+                "@id": "https://ror.org/05nywn832",
+                "url": "http://www.izw-berlin.de/welcome.html",
+                "name": "Leibniz Institute for Zoo and Wildlife Research",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05nywn832"
+            }
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "correlated random walk",
+        "Python",
+        "Von Mises"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/a33c5f0a-a903-45e0-ae72-cb7abbce2f9f/releases/1.1.0/",
+    "dateCreated": "2022-03-31",
+    "description": "The first simple movement models used unbiased and uncorrelated random walks (RW). In such models of movement, the direction of the movement is totally independent of the previous movement direction. In other words, at each time step the direction, in which an individual is moving is completely random. This process is referred to as a Brownian motion.\nOn the other hand, in correlated random walks (CRW) the choice of the movement directions depends on the direction of the previous movement. At each  time step, the movement direction has a tendency to point in the same direction as the previous one. This movement model fits well observational movement data for many animal species.\nThe presented agent based model simulated the movement of the agents as a correlated random walk (CRW). The turning angle at each time step follows the Von Mises distribution with a \u03f0 of 10. The closer \u03f0 gets to zero, the closer the Von Mises distribution becomes uniform. The larger \u03f0 gets, the more the Von Mises distribution approaches a normal distribution concentrated around the mean (0\u00b0). \nThis model is implemented in python and can be used as a building block for more complex agent based models that would rely on describing the movement of individuals with CRW.\n",
+    "downloadUrl": "https://www.comses.net/codebases/a33c5f0a-a903-45e0-ae72-cb7abbce2f9f/releases/1.1.0/download/",
+    "dateModified": "2022-04-25",
+    "releaseNotes": "First Release",
+    "copyrightYear": 2022,
+    "datePublished": "2022-04-25",
+    "codeRepository": "https://github.com/Fronville/CRW_python.git",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Pycharm"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

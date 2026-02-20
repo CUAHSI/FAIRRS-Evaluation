@@ -1,0 +1,74 @@
+{
+    "@id": "https://www.comses.net/codebases/4036/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4036/releases/1.0.0/",
+    "name": "Frotembo",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/13/",
+            "@type": "Person",
+            "email": "christophe.le_page@cirad.fr",
+            "givenName": "Christophe",
+            "familyName": "Le Page",
+            "affiliation": {
+                "url": "https://www.cirad.fr/",
+                "name": "Centre de Coop\u00e9ration Internationale en Recherche Agronomique pour le D\u00e9veloppement (CIRAD)",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Kadiri",
+            "familyName": "Bobo"
+        },
+        {
+            "@id": "https://www.comses.net/users/13/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "companion modeling",
+        "Cormas",
+        "hunting",
+        "interactive simulation"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4036/releases/1.0.0/",
+    "dateCreated": "2014-10-16",
+    "description": "The Frotembo ABM represents snare trapping of blue duikers (Cephalophus monticola)  in Cameroon. It was co-designed and used with local populations to raise their awareness about the sustainability of bushmeat hunting activities in the region of the Korup National Park (South-West Cameroon). Village meetings based on interactive simulations with a stylized scale model were structured in three successive steps. During the first step, an abstract representation of a village surrounded by a portion of forest was co-designed by directly manipulating the computer interface displaying a spatial grid. Then, knowledge about the live-cycle traits and the behavior of blue duikers was shared through the demonstration of the individual-based population dynamics module of the ABM. The objective of the second step, introducing the hunting module of the ABM, was to elicit snare trapping practices trough interactive simulation and to calibrate the hunting module by setting a value for the probability of a blue duiker to be caught by a snare trap. In a third step, a more realistic version of the ABM was introduced. The seven villages included in the process were located in the GIS-based spatial representation, and the number of \u201cHunter\u201d agents for each village in the ABM was set according to the results of a survey. The demonstration of this realistic version triggered discussion about possible management scenarios, whose results obtained with the finalized version of the ABM will be discussed during next round of village meetings",
+    "downloadUrl": "https://www.comses.net/codebases/4036/releases/1.0.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "Version used in the first set of village meetings (July 2012)",
+    "copyrightYear": 2014,
+    "datePublished": "2014-10-16",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Cormas"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Smalltalk",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

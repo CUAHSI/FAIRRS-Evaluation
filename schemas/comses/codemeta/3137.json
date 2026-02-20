@@ -1,0 +1,64 @@
+{
+    "@id": "https://www.comses.net/codebases/3137/releases/1.8.0/",
+    "url": "https://www.comses.net/codebases/3137/releases/1.8.0/",
+    "name": "SimAdapt",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-3672-0101",
+            "@type": "Person",
+            "email": "francois.rebaudo@ird.fr",
+            "givenName": "Fran\u00e7ois",
+            "familyName": "Rebaudo",
+            "affiliation": {
+                "name": "IRD",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-3672-0101",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.8.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "adaption",
+        "ecology",
+        "forward-time simulation",
+        "landscape genetics",
+        "land-use and land-cover changes"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3137/releases/1.8.0/",
+    "dateCreated": "2014-10-13",
+    "description": "SimAdapt is a spatially explicit, individual-based, forward-time, landscape-genetic simulation model combined with a landscape cellular automaton to represent evolutionary processes of adaptation and population dynamics in changing landscapes, using the NetLogo environment.",
+    "downloadUrl": "https://www.comses.net/codebases/3137/releases/1.8.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "",
+    "copyrightYear": 2014,
+    "datePublished": "2014-10-13",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Rebaudo F., Le Rouzic A., Dupas S., Silvain J.F., Harry M., Dangles O. (2013) SimAdapt: An individual-based genetic model for simulating landscape management impacts on populations. Methods in Ecology and Evolution (in press)."
+}

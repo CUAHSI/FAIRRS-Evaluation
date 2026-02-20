@@ -1,0 +1,68 @@
+{
+    "@id": "https://www.comses.net/codebases/4557/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4557/releases/1.0.0/",
+    "name": "Netlogo Profiler code example",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-4940-3997",
+            "@type": "Person",
+            "email": "cwren@uccs.edu",
+            "givenName": "Colin",
+            "familyName": "Wren",
+            "affiliation": {
+                "@id": "https://ror.org/054spjc55",
+                "url": "http://www.uccs.edu/",
+                "name": "University of Colorado Colorado Springs",
+                "@type": "Organization",
+                "identifier": "https://ror.org/054spjc55"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-4940-3997",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-sa/4.0/",
+        "name": "CC-BY-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "forage",
+        "NetLogo",
+        "profiler"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4557/releases/1.0.0/",
+    "dateCreated": "2015-03-04",
+    "description": "Agents harvest resources from a random environment and move randomly to find new cells. More importantly, the Profiler buttons help illustrate where the computational time is going.",
+    "downloadUrl": "https://www.comses.net/codebases/4557/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2015,
+    "datePublished": "2015-03-04",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

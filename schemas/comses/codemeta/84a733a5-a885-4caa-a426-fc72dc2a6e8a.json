@@ -1,0 +1,54 @@
+{
+    "@id": "https://www.comses.net/codebases/84a733a5-a885-4caa-a426-fc72dc2a6e8a/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/84a733a5-a885-4caa-a426-fc72dc2a6e8a/releases/1.1.0/",
+    "name": "Youth and their Artificial Social Environmental Risk and Promotive Scores (Ya-TASERPS)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-5405-910X",
+            "@type": "Person",
+            "email": "jlee120@gmu.edu",
+            "givenName": "JoAnn",
+            "familyName": "Lee"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "delinquency",
+        "interactional theory",
+        "risk behavior in adolescence",
+        "social work"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/84a733a5-a885-4caa-a426-fc72dc2a6e8a/releases/1.1.0/",
+    "dateCreated": "2020-11-12",
+    "description": "Risk assessments are designed to measure cumulative risk and promotive factors for delinquency and recidivism, and are used by criminal and juvenile justice systems to inform sanctions and interventions. Yet, these risk assessments tend to focus on individual risk and often fail to capture each individual\u2019s environmental risk. This agent-based model (ABM)  explores the interaction of individual and environmental risk on the youth. The ABM is based on an interactional theory of delinquency and moves beyond more traditional statistical approaches used to study delinquency that tend to rely on point-in-time measures, and to focus on exploring the dynamics and processes that evolve from interactions between agents (i.e., youths) and their environments. Our ABM simulates a youth\u2019s day, where they spend time in schools, their neighborhoods, and families. The youth has proclivities for engaging in prosocial or antisocial behaviors, and their environments have likelihoods of presenting prosocial or antisocial opportunities. \n",
+    "downloadUrl": "https://www.comses.net/codebases/84a733a5-a885-4caa-a426-fc72dc2a6e8a/releases/1.1.0/download/",
+    "dateModified": "2023-02-24",
+    "releaseNotes": "This version extends the original model by adding authority figures who attempt to intervene in the youth's acquisition of risk and promotive factors. There are three versions of the authority figure.",
+    "copyrightYear": 2023,
+    "datePublished": "2023-02-24",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Lee, J.S. & Crooks, A.T. (accepted). Youth and their artificial social environmental risk and promotive scores (Ya-TASERPS). Journal of Artificial Societies and Social Simulation."
+}

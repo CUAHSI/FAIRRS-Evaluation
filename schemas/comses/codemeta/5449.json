@@ -1,0 +1,134 @@
+{
+    "@id": "https://doi.org/10.25937/5j66-e528",
+    "url": "https://doi.org/10.25937/5j66-e528",
+    "name": "ana-wag",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-7325-0495",
+            "@type": "Person",
+            "email": "bruno.bonte@inrae.fr",
+            "givenName": "Bruno",
+            "familyName": "Bont\u00e9",
+            "affiliation": {
+                "url": "https://www.inrae.fr",
+                "name": "Inrae",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Stefano",
+            "familyName": "Farolfi"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Wanda",
+            "familyName": "Gaudi"
+        },
+        {
+            "@id": "https://www.comses.net/users/1644/",
+            "@type": "Person",
+            "email": "mciss@outlook.com",
+            "givenName": "Mamadou",
+            "familyName": "Diallo",
+            "affiliation": {
+                "url": "https://www.ummisco.fr",
+                "name": "UMMISCO",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Person",
+            "givenName": "G\u00e9raldine",
+            "familyName": "Abrami"
+        },
+        {
+            "@id": "_:author_6",
+            "@type": "Person",
+            "givenName": "Nils",
+            "familyName": "Ferrand"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-7325-0495",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://www.comses.net/users/1644/",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_6",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_6",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.7.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/5j66-e528",
+        "https://doi.org/10.25937/5j66-e528"
+    ],
+    "dateCreated": "2017-08-02",
+    "description": "The ana-wag model, for Analyse Wat-A-Game (WAG), is a NetLogo version of the WAG role playing game. It enables to model a river catchment with the graphical modelling language WAG and to play it as a network-game (each player is a water user).",
+    "downloadUrl": "https://www.comses.net/codebases/5449/releases/1.7.0/download/",
+    "dateModified": "2019-05-10",
+    "releaseNotes": "This is the first publish version of AnaWAG. \nIt allows to:\n1. Build up a Wat-A-Game model representing a watershed (that may also be seen as an irrigated scheme).\n2. Simulate the model by playing it as a network-game in an experimental design.\n3. Simulate the model with computer agents instead of players.\n\nThe aim is to make possible to perform experiments in the understanding of contextualized experimental economics, in which subjects can build \"role playing game\" models as the one built during participatory processes and then play to the model they built. This version of AnaWAG was designed to realize the specific experiment presented in a scientific paper under review in the review \"Envrionment modelling and Software. However it can be easily reused to design other experiments.",
+    "copyrightYear": 2019,
+    "datePublished": "2019-05-10",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo",
+        "NetLogo",
+        "R"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "https://doi.org/10.1016/j.envsoft.2019.07.011"
+}

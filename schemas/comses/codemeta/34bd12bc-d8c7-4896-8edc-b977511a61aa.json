@@ -1,0 +1,137 @@
+{
+    "@id": "https://doi.org/10.25937/fqah-sj53",
+    "url": "https://doi.org/10.25937/fqah-sj53",
+    "name": "CHIME ABM of Hurricane Evacuation",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-9576-7914",
+            "@type": "Person",
+            "email": "sean.bergin@asu.edu",
+            "givenName": "Sean",
+            "familyName": "Bergin",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "School of Complex Adaptive Systems, Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-2561-1927",
+            "@type": "Person",
+            "email": "michael.barton@asu.edu",
+            "givenName": "C Michael",
+            "familyName": "Barton",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1394/",
+            "@type": "Person",
+            "email": "jswatts@asu.edu",
+            "givenName": "Joshua",
+            "familyName": "Watts",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "email": "jalland@ucar.edu",
+            "givenName": "Joshua",
+            "familyName": "Alland",
+            "affiliation": {
+                "@id": "https://ror.org/05cvfcr44",
+                "url": "https://ncar.ucar.edu/",
+                "name": "National Center for Atmospheric Research",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05cvfcr44"
+            }
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Person",
+            "email": "morss@ucar.edu",
+            "givenName": "Rebecca",
+            "familyName": "Morss",
+            "affiliation": {
+                "@id": "https://ror.org/05cvfcr44",
+                "url": "https://ncar.ucar.edu/",
+                "name": "National Center for Atmospheric Research",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05cvfcr44"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-2561-1927",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "2.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "https://doi.org/10.25937/hbnh-af93",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "decision model",
+        "hurricanes",
+        "risk"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/fqah-sj53",
+        "https://doi.org/10.25937/fqah-sj53"
+    ],
+    "dateCreated": "2021-10-15",
+    "description": "The **Communicating Hazard Information in the Modern Environment** (CHIME) agent-based model (ABM) is a Netlogo program that facilitates the analysis of information flow and protective decisions across space and time during hazardous weather events. CHIME ABM provides a platform for testing hypotheses about collective human responses to weather forecasts and information flow, using empirical data from historical hurricanes. The model uses real world geographical and hurricane data to set the boundaries of the simulation, and it uses historical hurricane forecast information from the National Hurricane Center to initiate forecast information flow to citizen agents in the model.",
+    "downloadUrl": "https://www.comses.net/codebases/34bd12bc-d8c7-4896-8edc-b977511a61aa/releases/2.1.0/download/",
+    "dateModified": "2022-01-06",
+    "releaseNotes": "This release is an updated version of the CHIME ABM previously published by Joshua Watts and available here: https://doi.org/10.25937/hbnh-af93\n\n\nThis version has a wide array of small and large differences which include:\n- New Hurricanes\n- A procedure to read in the new hurricane forecast format from the National Hurricane Center\n- The inclusion of census data for Florida which can be used to modify the behavior of agents\n- A detailed code documentation and optimization",
+    "copyrightYear": 2022,
+    "datePublished": "2022-01-04",
+    "codeRepository": "https://github.com/comses/chime-abm",
+    "embargoEndDate": "2021-10-09",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Morss, R. E. et al. Hazardous Weather Prediction and Communication in the Modern Information Environment. Bulletin of the American Meteorological Society 98, 2653\u20132674 (2017).\n\nWatts, J., Morss, R. E., Barton, C. M. & Demuth, J. L. Conceptualizing and implementing an agent-based model of information flow and decision making during hurricane threats. Environmental Modelling & Software 122, 104524 (2019)."
+}

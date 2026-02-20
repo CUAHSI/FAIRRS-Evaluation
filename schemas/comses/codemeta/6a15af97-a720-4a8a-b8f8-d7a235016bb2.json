@@ -1,0 +1,64 @@
+{
+    "@id": "https://www.comses.net/codebases/6a15af97-a720-4a8a-b8f8-d7a235016bb2/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/6a15af97-a720-4a8a-b8f8-d7a235016bb2/releases/1.0.0/",
+    "name": "Policies to reconnect a city and the countryside",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1732/",
+            "@type": "Person",
+            "email": "d.verwaart@xs4all.nl",
+            "givenName": "Tim",
+            "familyName": "Verwaart",
+            "affiliation": {
+                "url": "http://www.wur.nl",
+                "name": "Wageningen UR",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-6100-4660",
+            "@type": "Person",
+            "email": "gertjan.hofstede@wur.nl",
+            "givenName": "Gert",
+            "familyName": "Hofstede",
+            "affiliation": {
+                "url": "http://www.wageningenur.nl",
+                "name": "Wageningen University",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/6a15af97-a720-4a8a-b8f8-d7a235016bb2/releases/1.0.0/",
+    "dateCreated": "2019-09-23",
+    "description": "The agent-based model captures the spatio-temporal institutional dynamics of the economy over the years at the level of a Dutch province. After 1945, Noord-Brabant in the Netherlands has been subject to an active program of economic development through the stimulation of pig husbandry. This has had far-reaching effects on its economy, landscape, and environment. The agents are households. The simulation is at institutional level, with typical stakeholder groups, lobbies, and political parties playing a role in determining policies that in turn determine economic, spatial and ecological outcomes. It allows to experiment with alternative scenarios based on two political dimensions: local versus global issues, and economic versus social responsibilitypriorities. The model shows very strong sensitivity to political context. It can serve as a reference model for other cases where \"artificial institutional economics\" is attempted.",
+    "downloadUrl": "https://www.comses.net/codebases/6a15af97-a720-4a8a-b8f8-d7a235016bb2/releases/1.0.0/download/",
+    "dateModified": "2019-09-23",
+    "releaseNotes": "The present release is presented in the Social Simulation Conference SSC19:\nVerwaart, T., van Wassenaer, L., Hofstede, G.J.: Agent-based Simulation of Policies to Reconnect a City and the Countryside. Paper presented in the Social Simulation Conference 2019, Mainz, 23 -- 27 September 2019 (2019)",
+    "copyrightYear": 2019,
+    "datePublished": "2019-09-23",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "@id": "https://www.comses.net/codebases/4716/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4716/releases/1.0.0/",
+    "name": "Intra-Organizational Bandwagon",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-6677-8689",
+            "@type": "Person",
+            "email": "secchi.davi@gmail.com",
+            "givenName": "Davide",
+            "familyName": "Secchi",
+            "affiliation": {
+                "url": "https://www.sdu.dk/en/om_sdu/institutter_centre/c_comac",
+                "name": "Research Centre for Computational & Organisational Cognition, University of Southern Denmark",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-6677-8689",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "bandwagon",
+        "conformity",
+        "cultural conformity",
+        "Diffusion",
+        "diffusion processes",
+        "distributed cognition",
+        "hierarchy",
+        "management-employee relations"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4716/releases/1.0.0/",
+    "dateCreated": "2015-10-18",
+    "description": "The model simulates the process of widespread diffusion (i.e., bandwagon) within an organization. Agents are subject to conformity and peer pressure as well as to a two-level organizational hierarchy. In the model, perceptions of the surrounding environment depend on individual cognitive attitudes (or `tolerance' to bandwagons), the level of ambiguity attached to social relationships, and organization size.",
+    "downloadUrl": "https://www.comses.net/codebases/4716/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "The model is fully described in the related article that will appear shortly in CMOT. Also, this simulation was originally coded in 3D.",
+    "copyrightYear": 2015,
+    "datePublished": "2015-10-18",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Secchi, D. & Gullekson, N. 2015. Individual and organizational conditions for the emergence and evolution of bandwagons. Computational and Mathematical Organization Theory.\r\n\r\nhttp://link.springer.com/article/10.1007/s10588-015-9199-4?wt_mc=internal.event.1.SEM.ArticleAuthorOnlineFirst"
+}

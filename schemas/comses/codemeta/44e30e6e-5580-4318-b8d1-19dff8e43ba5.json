@@ -1,0 +1,81 @@
+{
+    "@id": "https://www.comses.net/codebases/44e30e6e-5580-4318-b8d1-19dff8e43ba5/releases/0.1.0/",
+    "url": "https://www.comses.net/codebases/44e30e6e-5580-4318-b8d1-19dff8e43ba5/releases/0.1.0/",
+    "name": "epiworldR Type: Fast Agent-Based Epi Models",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/4930/",
+            "@type": "Person",
+            "email": "g.vegayon@gmail.com",
+            "givenName": "George",
+            "familyName": "G. Vega Yon"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "derekmeyer37@gmail.com",
+            "givenName": "Derek",
+            "familyName": "Meyer",
+            "affiliation": {
+                "@id": "https://ror.org/03r0ha626",
+                "url": "http://www.utah.edu/",
+                "name": "University of Utah",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03r0ha626"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "0.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "ABM",
+        "agent-based complex systems",
+        "Agent-Based Modelling - Software engineering - Information Systems and Social Networks",
+        "epidemic",
+        "epidemiology",
+        "SIR",
+        "sna"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/44e30e6e-5580-4318-b8d1-19dff8e43ba5/releases/0.1.0/",
+    "dateCreated": "2024-08-26",
+    "description": "A flexible framework for Agent-Based Models (ABM), the 'epiworldR' package provides methods for prototyping disease outbreaks and transmission models using a 'C++' backend, making it very fast. It supports multiple epidemiological models, including the Susceptible-Infected-Susceptible (SIS), Susceptible-Infected-Removed (SIR), Susceptible-Exposed-Infected-Removed (SEIR), and others, involving arbitrary mitigation policies and multiple-disease models. Users can specify infectiousness/susceptibility rates as a function of agents' features, providing great complexity for the model dynamics. Furthermore, 'epiworldR' is ideal for simulation studies featuring large populations.",
+    "downloadUrl": "https://www.comses.net/codebases/44e30e6e-5580-4318-b8d1-19dff8e43ba5/releases/0.1.0/download/",
+    "dateModified": "2024-08-26",
+    "releaseNotes": "See the file under <https://github.com/UofUEpiBio/epiworldR/blob/main/NEWS.md>",
+    "copyrightYear": 2024,
+    "datePublished": "2024-08-26",
+    "codeRepository": "https://github.com/UofUEpiBio/epiworldR",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "epiworld"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "C++",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "R",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "10.21105/joss.05781\n10.32614/CRAN.package.epiworldR"
+}

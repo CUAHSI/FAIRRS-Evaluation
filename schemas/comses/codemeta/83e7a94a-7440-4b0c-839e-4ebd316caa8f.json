@@ -1,0 +1,75 @@
+{
+    "@id": "https://www.comses.net/codebases/83e7a94a-7440-4b0c-839e-4ebd316caa8f/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/83e7a94a-7440-4b0c-839e-4ebd316caa8f/releases/1.0.0/",
+    "name": "Biodiversity and Adoption of Small-scale Agroforestry in Rwanda (BASAR)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-2945-2396",
+            "@type": "Person",
+            "email": "noeldeke@iuw.uni-hannover.de",
+            "givenName": "Beatrice",
+            "familyName": "N\u00f6ldeke"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "winter@iuw.uni-hannover.de",
+            "givenName": "Etti",
+            "familyName": "Winter",
+            "affiliation": {
+                "@id": "https://ror.org/0304hq317",
+                "url": "https://www.uni-hannover.de",
+                "name": "Leibniz University Hannover",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0304hq317"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "B.N.Elisee@cgiar.org",
+            "givenName": "Elis\u00e9e Bahati",
+            "familyName": "Ntawuhiganayo",
+            "affiliation": {
+                "@id": "https://ror.org/01kmz4383",
+                "url": "http://www.worldagroforestry.org/",
+                "name": "World Agroforestry Centre",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01kmz4383"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/83e7a94a-7440-4b0c-839e-4ebd316caa8f/releases/1.0.0/",
+    "dateCreated": "2021-09-20",
+    "description": "The BASAR model aims to investigate different approaches to describe small-scale farmers\u2019 decision-making in the context of diversified agroforestry adoption in rural Rwanda. Thereby, it compares random behaviour with perfect rationality (non-discounted and discounted utility maximization), bounded rationality (satisficing and fast and frugal decision tree heuristics), Theory of Planned Behaviour, and a probabilistic regression-based approach. It is aimed at policy-makers, extension agents, and cooperatives to better understand how rural farmers decide about implementing innovative agricultural practices such as agroforestry and at modelers to support them in selecting an approach to represent human decision-making in ABMs of Social-Ecological Systems. The overall objective is to identify a suitable approach to describe human decision-making and therefore improve forecasts of adoption rates and support the development and implementation of interventions that aim to raise low adoption rates.",
+    "downloadUrl": "https://www.comses.net/codebases/83e7a94a-7440-4b0c-839e-4ebd316caa8f/releases/1.0.0/download/",
+    "dateModified": "2022-07-15",
+    "releaseNotes": "This model is created in NetLogo 6.1.1. It uses the csv and nw extensions. The model requires .csv files as inut that contain information on the households as well as a validation data.",
+    "copyrightYear": 2022,
+    "datePublished": "2022-07-15",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

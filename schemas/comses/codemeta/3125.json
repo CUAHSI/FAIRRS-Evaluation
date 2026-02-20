@@ -1,0 +1,72 @@
+{
+    "@id": "https://www.comses.net/codebases/3125/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/3125/releases/1.1.0/",
+    "name": "Homophily and Distance Depending Network Generation for Modelling Opinion Dynamics",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/538/",
+            "@type": "Person",
+            "email": "holzhauer@usf.uni-kassel.de",
+            "givenName": "Sascha",
+            "familyName": "Holzhauer",
+            "affiliation": {
+                "url": "http://www.cesr.de",
+                "name": "Center for Environmental Systems Research",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/538/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Deffuant, G. Comparing Extremism Propagation Patterns in Continuous Opinion Models. Journal of Artificial Societies and Social Simulation, 2006, 9",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "distance dependence",
+        "dynamic network",
+        "dynamics opinion",
+        "homophily",
+        "replication",
+        "social network",
+        "spatial agent-based model"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3125/releases/1.1.0/",
+    "dateCreated": "2013-06-18",
+    "description": "The model is an replicated and extended version of the opinion dynamics model of Deffuant et. al. 2006. It is implemented using Repast Simphony and applied the MORe library to generate and analyse the social network.",
+    "downloadUrl": "https://www.comses.net/codebases/3125/releases/1.1.0/download/",
+    "dateModified": "2018-02-19",
+    "releaseNotes": "Sonomode Model Version 1.1 / Revision 257",
+    "copyrightYear": 2013,
+    "datePublished": "2013-06-18",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Repast"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

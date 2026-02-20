@@ -1,0 +1,58 @@
+{
+    "@id": "https://www.comses.net/codebases/fedf4785-96fd-4c2a-8a64-848d07fcf943/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/fedf4785-96fd-4c2a-8a64-848d07fcf943/releases/1.0.0/",
+    "name": "Design principles for a redistributive collective action institution in times of crisis",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/3040/",
+            "@type": "Person",
+            "email": "aashis.r.joshi@gmail.com",
+            "givenName": "Aashis",
+            "familyName": "Joshi"
+        }
+    ],
+    "license": {
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.html",
+        "name": "Apache-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "climate adaptation",
+        "climate change adaptation",
+        "climate policy",
+        "collective action",
+        "equity",
+        "institutional modelling",
+        "political participation",
+        "redistribution"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/fedf4785-96fd-4c2a-8a64-848d07fcf943/releases/1.0.0/",
+    "dateCreated": "2023-09-15",
+    "description": "What policy measures are effective in redistributing essential resources during crisis situations such as climate change impacts? We model a collective action institution with different rules for designing and organizing it, and make our analysis specific to various societal contexts. \n\nOur model captures a generic societal context of unequal vulnerability and climate change impact in a stylized form. We represent a community of people who harvest and consume an essential resource to maintain their well-being. However, their ability to harvest the resource is not equal; people are characterized by a \u2018resource access\u2019 attribute whose values are uniformly distributed from 0 to 1 in the population. A person\u2019s resource access value determines the amount of resource units they are able to harvest, and therefore the welfare levels they are able to attain. People travel to the centralized resource region and derive well-being or welfare, represented as an energy gain, by harvesting and consuming resource units. \n\nThe community is subject to a climate change impact event that occurs with a certain periodicity and over a certain duration. The capacity of resource units to regenerate diminishes during the impact events. Unequal capacities to access the essential resource results in unequal vulnerability among people with regards to their ability to maintain a sufficient welfare level, especially during impact events. \n\nTo help people maintain their welfare above the sufficiency threshold, the community can set up and operate a \u2018resource bank\u2019, which represents a collective action institution that facilitates the redistribution of essential resources in communities. The key characteristics of this institution that we stylize are the cost of setting it up and operating it, its operational lifetime, and the aggregation technology it functions as. In addition, we also seek to represent policy instruments relevant to the institution, viz. different tax policies to fund the collective action institution, and the urgency of this adaptive action, i.e. the level of societal impact needed to motivate it. \n\nIn particular, we are interested in evaluating the effects of the following conditions and policies (or rules):\n1.\tThe social and political barriers to equitable participation (or inclusion) in decision-making (re. operating the collective action institution); \n2.\tThe urgency of the decision-making process, i.e. the level of societal impact or damage needed to motivate it; the impact of the tax policy that funds the collective action institution, as well as the nature of the institution in terms of how it can translate individual contributions to public benefits; and\n3.\tThe operational lifetime of the collective action institution, which determines its overall cost, the time period for which it is accessible to those in need, and the frequency with which the decision to set up the institution is made. \n\n",
+    "downloadUrl": "https://www.comses.net/codebases/fedf4785-96fd-4c2a-8a64-848d07fcf943/releases/1.0.0/download/",
+    "dateModified": "2023-09-15",
+    "releaseNotes": "Version 1.0.0 is the first release of this model. ",
+    "copyrightYear": 2023,
+    "datePublished": "2023-09-15",
+    "codeRepository": "https://github.com/aashisjoshi/collective-action-institution-principles-ABM",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetlLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,99 @@
+{
+    "@id": "https://doi.org/10.25937/b356-wh64",
+    "url": "https://doi.org/10.25937/b356-wh64",
+    "name": "Agriculture.Grape.yield.Evaluation.using.NetLogo.based.Technology.Simulation (AGENTS): A NetLogo agent-based model developed to assess viticulture efficiency in Byzantine Shivta.",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/5041/",
+            "@type": "Person",
+            "email": "bargarty@gmail.com",
+            "givenName": "Barak",
+            "familyName": "Garty",
+            "affiliation": {
+                "@id": "https://ror.org/02f009v59",
+                "url": "http://www.haifa.ac.il/index.php/en/",
+                "name": "University of Haifa",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02f009v59"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "guybar@research.haifa.ac.il",
+            "givenName": "Guy",
+            "familyName": "BarOz"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "ggambash@univ.haifa.ac.il",
+            "givenName": "Gil",
+            "familyName": "Gambash"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "email": "stlevy@edu.haifa.ac.il",
+            "givenName": "Sharona",
+            "familyName": "Levy"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.1",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Cite this work:\nBarak Garty, Guy BarOz, Gil Gambash and Sharona T. Levy (2024). Agriculture.Grape.yield.Evaluation.using.NetLogo.based.Technology.Simulation (AGENTS): A NetLogo agent-based model developed to assess viticulture efficiency in Byzantine Shivta. Systems Learning & Development Lab, University of Haifa, Israel. (Version 1.0.1). CoMSES Computational Model Library. Retrieved from: https://doi.org/10.25937/b356-wh64",
+            "@type": "CreativeWork"
+        },
+        {
+            "text": "No",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "ABM",
+        "agent-based model",
+        "Agricultural land use",
+        "agricultural modeling",
+        "farmer decision making",
+        "NetlLogo",
+        "viticulture"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/b356-wh64",
+        "https://doi.org/10.25937/b356-wh64"
+    ],
+    "dateCreated": "2024-11-27",
+    "description": "AGENTS model is an agent-based computational framework designed to explore the socio-ecological and economic dynamics of agricultural production in the Byzantine Negev Highlands, with a focus on viticulture. It integrates historical, environmental, and social factors to simulate settlement sustainability, crop yields, and the impacts of varying climate conditions. The model is built in NetLogo and incorporates GIS-based topographical and hydrological data. Key features include the ability to assess climate impacts on crop profitability and settlement strategies, evaluate economic outputs of ancient vineyards, and simulate agent decision-making processes under diverse scenarios.\n\nThe AGENTS model is highly flexible, enabling users to simulate agricultural regimes with any two crops: one cash crop (a crop grown for profit, e.g., grapevines) and one staple crop (a crop grown for subsistence, e.g., wheat). While the default setup models viticulture and wheat cultivation in the Byzantine Negev Highlands, users can adapt the model to different environmental and socio-ecological contexts worldwide\u2014both past and present.\n\nUsers can load external files to customize precipitation, evaporation, topography, and labor costs (measured as man-days per 0.1ha, converted to kg of wheat per model patch size area), and can also edit key parameters related to yield calculations. This includes modifying crop-specific yield formulas, soil and runoff indices, and any factors influencing crop performance. The model inherently simulates cash crops grown in floodplain regions and staple crops cultivated along riverbanks, providing a powerful tool to investigate societal resilience and responses to climate stressors across diverse environments.\n\nTo support these adaptations, the model includes a comprehensive set of guides (in PDF format) that detail how to make these changes, ensuring that users can effectively customize the model for their research needs.\n\n",
+    "downloadUrl": "https://www.comses.net/codebases/7bb05db7-666d-456c-a354-adeef2d36be4/releases/1.0.1/download/",
+    "dateModified": "2025-12-31",
+    "releaseNotes": "This is the first official release version of the AGENTS model. All features, functionalities, and datasets included in this version are entirely new, with no prior versions for comparison.",
+    "copyrightYear": 2024,
+    "datePublished": "2024-12-06",
+    "codeRepository": "https://github.com/BarakGarty/AGENTS",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Netlogo 6.4.0"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Wine economy in Byzantine Shivta (Negev, Israel): Exploring the role of runoff agriculture and droughts through Agent-Based Modeling\nhttps://journals.plos.org/plosone/article?id=10.1371/journal.pone.0325204"
+}

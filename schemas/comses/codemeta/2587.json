@@ -1,0 +1,60 @@
+{
+    "@id": "https://www.comses.net/codebases/2587/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/2587/releases/1.1.0/",
+    "name": "Nudging agents in social networks for collective action",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Person",
+            "email": "marco.janssen@asu.edu",
+            "givenName": "Marco",
+            "familyName": "Janssen",
+            "affiliation": {
+                "url": "https://schoolofsustainability.asu.edu/",
+                "name": "School of Sustainability",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "social network"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2587/releases/1.1.0/",
+    "dateCreated": "2011-08-14",
+    "description": "To increase the level of collective action to solve problems related to sustainability and public health behavioral scientists have shown that the use of social influence and peer pressure can be effective. How to nudge a small set of individuals to generate cascades of cooperation? Using a stylized agent-based model we explore how different assumptions on network structure and attributes of agents, as well as forms of feedback will influence the level of adaptation. Our analysis shows that targeting those who are most socially influenceable is more effective than those who are most or best connected in social networks.",
+    "downloadUrl": "https://www.comses.net/codebases/2587/releases/1.1.0/download/",
+    "dateModified": "2019-03-17",
+    "releaseNotes": "Updated ODD and upgraded model to Netlogo 6",
+    "copyrightYear": 2019,
+    "datePublished": "2019-03-17",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

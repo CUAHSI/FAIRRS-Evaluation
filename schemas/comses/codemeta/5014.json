@@ -1,0 +1,79 @@
+{
+    "@id": "https://www.comses.net/codebases/5014/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5014/releases/1.0.0/",
+    "name": "Modeling Asian-Papuan Admixture during the Neolithic Expansion across Island Southeast Asia",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "givenName": "Fran\u00e7ois",
+            "familyName": "Vall\u00e9e"
+        },
+        {
+            "@id": "https://www.comses.net/users/1699/",
+            "@type": "Person",
+            "email": "murray.p.cox@gmail.com",
+            "givenName": "Murray",
+            "familyName": "Cox",
+            "affiliation": {
+                "@id": "https://ror.org/052czxv31",
+                "url": "http://www.massey.ac.nz/",
+                "name": "Massey University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/052czxv31"
+            }
+        },
+        {
+            "@id": "_:author_1",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://www.comses.net/users/1699/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "asian",
+        "demographic expansion",
+        "island southeast asia",
+        "neolithic",
+        "papuan",
+        "population genetics"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5014/releases/1.0.0/",
+    "dateCreated": "2016-12-09",
+    "description": "Genetic studies have revealed a cline between Asian and Papuan genetic ancestry across Island Southeast Asia, with most change occurring abruptly in eastern Indonesia. Evidence suggests that this pattern is the joint outcome of geographic, demographic and social features. This agent-based model simulates social behavior, technological advantages and demography within an explicit geographical framework to determine how these factors influenced prehistoric human movements, and hence, modern patterns of genetic diversity.\r\n\r\nIn brief, a network of populations is laid across Southeast Asia, with connections only allowed within a defined radius.  All humans within a population are initially assigned to one of two ancestries: Asian or Papuan. The model allows different Asian starting distributions, ranging from Asian groups being restricted to mainland Asia, or instead distributed across parts of western Island Southeast Asia (such as Taiwan, Sumatra and Borneo). The remaining populations are initiated as Papuan. Individuals then migrate and mix during a simulated Neolithic farming expansion, beginning 4500 years ago. Agents can be unmarried (allowing them to migrate and/or marry), and once married, family agents can have children, but can no longer move.\r\n\r\nSix parameters are explored: the fecundity of Asian agents, the fecundity of Papuan agents, the migration probability of Asian agents, the migration probability of Papuan agents, preferential marriage between Asian women and Papuan men, and the initial distribution of Asian populations. The patterns of Asian-Papuan mixture created by these processes are compared with those found in  real genomic data using standard statistical inference methods.\r\n\r\nVall\u00e9e, F., A. Luciani and M.P. Cox. 2016. [Reconstructing demography and social behavior during the Neolithic expansion from genomic diversity across Island Southeast Asia](http://doi.org/10.1534/genetics.116.191379). *Genetics* 204:1495\u20131506.",
+    "downloadUrl": "https://www.comses.net/codebases/5014/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "Version 1",
+    "copyrightYear": 2016,
+    "datePublished": "2016-12-09",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Repast"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Vall\u00e9e, F., A. Luciani and M.P. Cox. 2016. Reconstructing demography and social behavior during the Neolithic expansion from genomic diversity across Island Southeast Asia. Genetics 204:1495\u20131506.\r\nhttp://doi.org/10.1534/genetics.116.191379"
+}

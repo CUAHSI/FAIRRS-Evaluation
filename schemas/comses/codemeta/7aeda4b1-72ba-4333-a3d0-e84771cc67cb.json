@@ -1,0 +1,73 @@
+{
+    "@id": "https://doi.org/10.25937/dwed-c953",
+    "url": "https://doi.org/10.25937/dwed-c953",
+    "name": "Social Consequences of Past Compound Events - Laacher See Eruption",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/3136/",
+            "@type": "Person",
+            "email": "kevinsu997@gmail.com",
+            "givenName": "Kevin",
+            "familyName": "Su"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "newbing@live.nl",
+            "givenName": "Brennen",
+            "familyName": "Bouwmeester"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Riede, F., (2009) The loss and re-introduction of bow-and-arrow technology: a case study from the Southern Scandinavian Late Palaeolithic. Lithic Technology 34, 27\u201345\n\nRiede, F.,  (2014) Eruptions and ruptures \u2013 a social network perspective on vulnerability and impact of the Laacher See eruption (c. 13,000 BP) on Late Glacial hunter-gatherers in northern Europe. Archaeological Review from Cambridge 29, 67\u2013102.\n\nRiede, F., (2017) Splendid isolation. The eruption of the Laacher See volcano and southern Scandinavian Late Glacial hunter-gatherers. (Aarhus University Press)",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "adaption",
+        "archeology",
+        "Climate Change",
+        "compound event",
+        "hunter-gatherer",
+        "resilience",
+        "volcano eruption"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/dwed-c953",
+        "https://doi.org/10.25937/dwed-c953"
+    ],
+    "dateCreated": "2021-03-16",
+    "description": "Resilience of humans in the Upper Paleolithic could provide insights in how to defend against today's environmental threats. Approximately 13,000 years ago, the Laacher See volcano located in present-day western Germany erupted cataclysmically. Archaeological evidence suggests that this is eruption \u2013 potentially against the background of a prolonged cold spell \u2013 led to considerable culture change, especially at some distance from the eruption (Riede, 2017). Spatially differentiated and ecologically mediated effects on contemporary social networks as well as social transmission effects mediated by demographic changes in the eruption\u2019s wake have been proposed as factors that together may have led to, in particular, the loss of complex technologies such as the bow-and-arrow (Riede, 2014; Riede, 2009).\n\nThis model looks at  the impact of the interaction between climate change trajectory and an extreme event, such as the Laacher See eruption, on the generational development of hunter-gatherer bands. Historic data is used to model the distribution and population dynamics of hunter-gatherer bands during these circumstances. ",
+    "downloadUrl": "https://www.comses.net/codebases/7aeda4b1-72ba-4333-a3d0-e84771cc67cb/releases/1.0.0/download/",
+    "dateModified": "2024-12-05",
+    "releaseNotes": "Fixed pathing of the data folder to \"../data\"\nMoved the startup button out of the initial sight as it does not need to be pressed. ",
+    "copyrightYear": 2021,
+    "datePublished": "2021-05-17",
+    "codeRepository": "https://github.com/WKSu/compound-events",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

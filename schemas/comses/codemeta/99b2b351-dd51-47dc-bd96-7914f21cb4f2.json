@@ -1,0 +1,59 @@
+{
+    "@id": "https://www.comses.net/codebases/99b2b351-dd51-47dc-bd96-7914f21cb4f2/releases/0.5.9/",
+    "url": "https://www.comses.net/codebases/99b2b351-dd51-47dc-bd96-7914f21cb4f2/releases/0.5.9/",
+    "name": "MUGS - Model of Urban Green Spaces",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-5070-5824",
+            "@type": "Person",
+            "email": "stefano.picascia@glasgow.ac.uk",
+            "givenName": "Stefano",
+            "familyName": "Picascia",
+            "affiliation": {
+                "url": "https://sphsu.gla.ac.uk",
+                "name": "MRC/CSO, University of Glasgow Social and Public Health Science Unit",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-sa/4.0/",
+        "name": "CC-BY-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "0.5.9",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "green space",
+        "Inequality",
+        "PHASE",
+        "segregation"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/99b2b351-dd51-47dc-bd96-7914f21cb4f2/releases/0.5.9/",
+    "dateCreated": "2021-09-17",
+    "description": "Abstract model investigating the determinants of inter- and intra-urban inequality in contact with nature. We explore the plausibility of a social integration hypothesis - whereby the primary factor in decisions to visit Urban Green Spaces (UGS) is an assessment of who else is likely to be using the space at the same time, and the assessment runs predominantly along class lines. The model simulates four cities in Scotland and shows the conditions under which the mechanisms theorised are sufficient to reproduce observed inequalities in UGS usage.",
+    "downloadUrl": "https://www.comses.net/codebases/99b2b351-dd51-47dc-bd96-7914f21cb4f2/releases/0.5.9/download/",
+    "dateModified": "2021-09-28",
+    "releaseNotes": "Initial release",
+    "copyrightYear": 2021,
+    "datePublished": "2021-09-17",
+    "codeRepository": "https://github.com/harrykipper/MUGS",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

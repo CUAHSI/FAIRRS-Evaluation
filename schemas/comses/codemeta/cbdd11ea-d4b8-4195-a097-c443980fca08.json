@@ -1,0 +1,55 @@
+{
+    "@id": "https://www.comses.net/codebases/cbdd11ea-d4b8-4195-a097-c443980fca08/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/cbdd11ea-d4b8-4195-a097-c443980fca08/releases/1.0.0/",
+    "name": "Behavioural parallel trading systems",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-8858-4615",
+            "@type": "Person",
+            "email": "czuprynm@uek.krakow.pl",
+            "givenName": "Marcin",
+            "familyName": "Czupryna",
+            "affiliation": {
+                "@id": "https://ror.org/0262te083",
+                "url": "http://www.uek.krakow.pl/",
+                "name": "Cracow University of Economics",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0262te083"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nd/4.0",
+        "name": "CC-BY-ND-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/cbdd11ea-d4b8-4195-a097-c443980fca08/releases/1.0.0/",
+    "dateCreated": "2019-04-06",
+    "description": "This model simulates the behaviour of the agents in 3 wine markets parallel trading systems: Liv-ex, Auctions and additionally OTC market (finally not used). Behavioural aspects (impatience) is additionally modeled. This is an extention of parallel trading systems model with technical trading (momentum and contrarian) and noise trading.",
+    "downloadUrl": "https://www.comses.net/codebases/cbdd11ea-d4b8-4195-a097-c443980fca08/releases/1.0.0/download/",
+    "dateModified": "2020-06-26",
+    "releaseNotes": "First release.",
+    "copyrightYear": 2020,
+    "datePublished": "2020-06-26",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Mason"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Czupryna M., Jakubczyk M., Oleksy P. , Price Formation in Parallel Trading Systems:\nEvidence from the Fine Wine Market , Journal of Artificial Societies and Social Simulation 23 (3) 11, http://jasss.soc.surrey.ac.uk/23/3/11.html,  DOI: 10.18564/jasss.4349"
+}

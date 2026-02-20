@@ -1,0 +1,61 @@
+{
+    "@id": "https://www.comses.net/codebases/95458b8b-fa19-453d-b9ab-b97dc3bb09ed/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/95458b8b-fa19-453d-b9ab-b97dc3bb09ed/releases/1.0.0/",
+    "name": "The Thin Blue Line Between Protesters and Their Counter-Protesters",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2067/",
+            "@type": "Person",
+            "email": "tamsin.e.lee@gmail.com",
+            "givenName": "Tamsin",
+            "familyName": "Lee",
+            "affiliation": {
+                "@id": "https://ror.org/00vsg3p53",
+                "url": "http://im.bas-net.by/",
+                "name": "Institute of Mathematics, University of Oxford",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00vsg3p53"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based computational modelling in social sciences",
+        "NetLogo",
+        "NetLogo",
+        "social protests"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/95458b8b-fa19-453d-b9ab-b97dc3bb09ed/releases/1.0.0/",
+    "dateCreated": "2018-03-26",
+    "description": "More frequently protests are accompanied by an opposing group performing a counter protest. This phenomenon can increase tension such that police must try to keep the two groups separated. However, what is the best strategy for police? This paper uses a simple agent-based model to determine the best strategy for keeping the two groups separated. The 'thin blue line' varies in density (number of police), width and the keenness of police to approach protesters. Three different groups of protesters are modelled to mimic peaceful, average and volatile protests. In most cases, a few police forming a single-file 'thin blue line' separating the groups is very effective. However, when the protests are more volatile, it is more effective to have many police occupying a wide 'thin blue line', and police being keen to approach protesters. To the authors knowledge, this is the first paper to model protests and counter-protests. ",
+    "downloadUrl": "https://www.comses.net/codebases/95458b8b-fa19-453d-b9ab-b97dc3bb09ed/releases/1.0.0/download/",
+    "dateModified": "2018-03-26",
+    "releaseNotes": "Two opposing protest groups. Each protester has an \u2018aversion\u2019 rating that varies normally. They all want to make it to the other side, but some are more adverse to police than others. Police have the same keeness. They will be collect towards protesters.",
+    "copyrightYear": 2018,
+    "datePublished": "2018-03-26",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "ubuntu",
+        "Windows"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,111 @@
+{
+    "@id": "https://www.comses.net/codebases/5b042030-623f-4a19-9ff3-0dbc201dd94d/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5b042030-623f-4a19-9ff3-0dbc201dd94d/releases/1.0.0/",
+    "name": "3spire: an agent-based model for exploring aspiration adaptation theory and its implications on smallholder farmers in Ethiopia",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/3061/",
+            "@type": "Person",
+            "email": "aleid1993@yahoo.no"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "yue.dou@utwente.nl",
+            "givenName": "Yue",
+            "familyName": "Dou",
+            "affiliation": {
+                "@id": "https://ror.org/006hf6230",
+                "url": "https://www.utwente.nl",
+                "name": "University of Twente",
+                "@type": "Organization",
+                "identifier": "https://ror.org/006hf6230"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/3393/",
+            "@type": "Person",
+            "email": "markus.meyer@hs-anhalt.de",
+            "givenName": "Markus",
+            "familyName": "Meyer",
+            "affiliation": {
+                "@id": "https://ror.org/0076zct58",
+                "url": "https://www.hs-anhalt.de/en/start-page.html",
+                "name": "Anhalt University of Applied Sciences",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0076zct58"
+            }
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "email": "a.nelson@utwente.nl",
+            "givenName": "Andrew",
+            "familyName": "Nelson",
+            "affiliation": {
+                "@id": "https://ror.org/006hf6230",
+                "url": "https://www.utwente.nl",
+                "name": "University of Twente",
+                "@type": "Organization",
+                "identifier": "https://ror.org/006hf6230"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "https://www.comses.net/users/3393/",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "No",
+            "@type": "CreativeWork"
+        }
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5b042030-623f-4a19-9ff3-0dbc201dd94d/releases/1.0.0/",
+    "dateCreated": "2024-10-24",
+    "description": "3spire is an ABM where farming households make management decisions aimed at satisficing along the aspirational dimensions: food self-sufficiency, income, and leisure. Households decision outcomes depend on their social networks, knowledge, assets, household needs, past management, and climate/market trends",
+    "downloadUrl": "https://www.comses.net/codebases/5b042030-623f-4a19-9ff3-0dbc201dd94d/releases/1.0.0/download/",
+    "dateModified": "2025-02-16",
+    "releaseNotes": "A previous version of this model was used for an article published in the conference proceedings of the social simulation conference 2023. That version can be found here: https://github.com/ateeuw/3spire_socialsimulationconference ",
+    "copyrightYear": 2025,
+    "datePublished": "2025-02-16",
+    "codeRepository": "https://github.com/ateeuw/3spire_GSA",
+    "embargoEndDate": "2025-03-19",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Netlog0 6.2.2"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo 6.2.2",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Teeuwen, A.S. et al. (2024). Aspiration Adaptation, Poverty, and Agricultural Management: An Agent-Based Modelling Study. In: Elsenbroich, C., Verhagen, H. (eds) Advances in Social Simulation. ESSA 2023. Springer Proceedings in Complexity. Springer, Cham. https://doi.org/10.1007/978-3-031-57785-7_17"
+}

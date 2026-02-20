@@ -1,0 +1,59 @@
+{
+    "@id": "https://www.comses.net/codebases/537b40cf-e300-4245-bcc6-427b53515bf6/releases/0.3.0/",
+    "url": "https://www.comses.net/codebases/537b40cf-e300-4245-bcc6-427b53515bf6/releases/0.3.0/",
+    "name": "A data-informed bounded-confidence opinion dynamics model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-3903-2507",
+            "@type": "Person",
+            "email": "bruce@edmonds.name",
+            "givenName": "Bruce",
+            "familyName": "Edmonds",
+            "affiliation": {
+                "url": "http://mmu.ac.uk",
+                "name": "Centre for Policy Modelling",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "0.3.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "behavioural experiments",
+        "dynamics opinion",
+        "social influence",
+        "ToRealSim"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/537b40cf-e300-4245-bcc6-427b53515bf6/releases/0.3.0/",
+    "dateCreated": "2021-03-10",
+    "description": "The simulation is a variant of the \u201cToRealSim OD variants - base v2.7\u201d base model, which is based on the standard DW opinion dynamics model (but with the differences that rather than one agent per tick randomly influencing another, all agents randomly influence one other per tick - this seems to make no difference to the outcomes other than to scale simulation time). Influence can be made one-way by turning off the *two-way?* switch\n\nVarious additional variations and sources of noise are possible to test robustness of outcomes to these (compared to DW model).\nIn this version agent opinions change following the empirical data collected in some experiments (Tak\u00e1cs et al 2016).\n\nSuch an algorithm leaves no role for the uncertainties in other OD models. [Indeed the data from (Tak\u00e1cs et al 2016) indicates that there can be influence even when opinion differences are large - which violates a core assumption of these]. However to allow better comparison with other such models there is a with-un? switch which allows uncertainties to come into play. If this is on, then influence (according to above algorithm) is only calculated if the opinion difference is less than the uncertainty. If an agent is influenced uncertainties are modified in the same way as standard DW models.",
+    "downloadUrl": "https://www.comses.net/codebases/537b40cf-e300-4245-bcc6-427b53515bf6/releases/0.3.0/download/",
+    "dateModified": "2021-03-10",
+    "releaseNotes": "To run this model you need the file \u201cprobs10.csv\u201d to be in the same directory as this code to work. Otherwise it uses standard NetLogo 6.* extensions so none extra need installing.",
+    "copyrightYear": 2021,
+    "datePublished": "2021-03-10",
+    "embargoEndDate": "2021-03-10",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

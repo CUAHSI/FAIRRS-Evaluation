@@ -1,0 +1,77 @@
+{
+    "@id": "https://www.comses.net/codebases/5227/releases/1.2.0/",
+    "url": "https://www.comses.net/codebases/5227/releases/1.2.0/",
+    "name": "Urban-Dynamics-2017",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1763/",
+            "@type": "Person",
+            "email": "s1530156@u.tsukuba.ac.jp",
+            "givenName": "Hideyuki",
+            "familyName": "Nagai",
+            "affiliation": {
+                "@id": "https://ror.org/02956yf07",
+                "url": "http://www.tsukuba.ac.jp/english/",
+                "name": "University of Tsukuba",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02956yf07"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Setsuya",
+            "familyName": "Kurahashi"
+        },
+        {
+            "@id": "https://www.comses.net/users/1763/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based model",
+        "compact city",
+        "optimal location",
+        "policy evaluation",
+        "urban sprawl"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5227/releases/1.2.0/",
+    "dateCreated": "2016-10-06",
+    "description": "This model is designed to observe a change of an urban structure through daily transportation behavior and residence selection of residents.\r\nBy using this model, we can estimate measures to allocate a facility for stopping off and promote bustle around it, and some policies on transportation.",
+    "downloadUrl": "https://www.comses.net/codebases/5227/releases/1.2.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "",
+    "copyrightYear": 2016,
+    "datePublished": "2016-10-06",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

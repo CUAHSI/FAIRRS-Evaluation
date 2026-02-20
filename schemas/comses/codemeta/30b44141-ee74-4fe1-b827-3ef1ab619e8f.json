@@ -1,0 +1,60 @@
+{
+    "@id": "https://www.comses.net/codebases/30b44141-ee74-4fe1-b827-3ef1ab619e8f/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/30b44141-ee74-4fe1-b827-3ef1ab619e8f/releases/1.0.0/",
+    "name": "Schelling Model of the City of Salzburg",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/3674/",
+            "@type": "Person",
+            "email": "andreas-schlagbauer@web.de",
+            "givenName": "Andreas",
+            "familyName": "Schlagbauer"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Benenson, I. (1998). Multi-Agent Simulations of Residential Dynamics in the City. Computers, Environment and Urban Systems, 22(1), 25-42. doi:https://doi.org/10.1016/S0198-9715(98)00017-9\nBenenson, I., & Hatna, E. (2011). Minority\u2013Majority Relations in the Schelling Model of Residential Dynamics. \u4f4f\u5b85\u52a8\u6001\u8fc1\u79fbSchelling\u6a21\u578b\u4e2d\u7684\u5c11\u6570-\u591a\u6570\u5173\u7cfb. Geographical Analysis, 43(3), 287-305. doi:https://doi.org/10.1111/j.1538-4632.2011.00820.x\nBenenson, I., Omer, I., & Hatna, E. (2002). Entity-Based Modeling of Urban Residential Dynamics: The Case of Yaffo, Tel Aviv. Environment and Planning B: Planning and Design, 29(4), 491-512. doi:https://doi.org/10.1068/b1287\nHuang, Q., Parker, D. C., Filatova, T., & Sun, S. (2014). A Review of Urban Residential Choice Models Using Agent-Based Modeling. Environment and Planning B: Planning and Design, 41(4), 661-689. doi:https://doi.org/10.1068/b120043p\nSahasranaman, A., & Jensen, H. J. (2016). Dynamics of Transformation from Segregation to Mixed Wealth Cities. PLOS ONE, 11(11), e0166960. doi:https://doi.org/10.1371/journal.pone.0166960\nSahasranaman, A., & Jensen, H. J. (2018). Ethnicity and Wealth: The Dynamics of Dual Segregation. PLOS ONE, 13(10), e0204307. doi:https://doi.org/10.1371/journal.pone.0204307\nSchelling, T. C. (1969). Models of Segregation. Santa Monica, CA: RAND Corporation.\nSchelling, T. C. (1971). Dynamic Models of Segregation. Journal of Mathematical Sociology, 1(2), 143-186. doi:https://doi.org/10.1080/0022250X.1971.9989794\nYin, L. (2009). The Dynamics of Residential Segregation in Buffalo: An Agent-based Simulation. Urban Studies, 46(13), 2749-2770. Retrieved from http://www.jstor.org/stable/43197939",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "GAMA",
+        "Schelling",
+        "University of Salzburg"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/30b44141-ee74-4fe1-b827-3ef1ab619e8f/releases/1.0.0/",
+    "dateCreated": "2022-12-05",
+    "description": "The purpose of the model is to better understand, how different factors for human residential choices affect the city\u2019s segregation pattern. Therefore, a Schelling (1971) model was extended to include ethnicity, income, and affordability and applied to the city of Salzburg. So far, only a few studies have tried to explore the effect of multiple factors on the residential pattern (Sahasranaman & Jensen, 2016, 2018; Yin, 2009). Thereby, models using multiple factors can produce more realistic results (Benenson et al., 2002). This model and the corresponding thesis aim to fill that gap.  ",
+    "downloadUrl": "https://www.comses.net/codebases/30b44141-ee74-4fe1-b827-3ef1ab619e8f/releases/1.0.0/download/",
+    "dateModified": "2022-12-05",
+    "releaseNotes": "Version for the submission of the master thesis",
+    "copyrightYear": 2022,
+    "datePublished": "2022-12-05",
+    "codeRepository": "https://git.sbg.ac.at/s1068210/salzburg-segregation-model",
+    "embargoEndDate": "2022-12-06",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "GAMA"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "gaml",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "@id": "https://doi.org/10.25937/b454-rq57",
+    "url": "https://doi.org/10.25937/b454-rq57",
+    "name": "MigrAgent",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-9816-5839",
+            "@type": "Person",
+            "email": "rpaolillo@bigsss-bremen.de",
+            "givenName": "Rocco",
+            "familyName": "Paolillo",
+            "affiliation": {
+                "name": "Bremen International Graduate School of Social Sciences",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/53/",
+            "@type": "Person",
+            "email": "w.jager@rug.nl",
+            "givenName": "Wander",
+            "familyName": "Jager",
+            "affiliation": {
+                "@id": "https://ror.org/012p63287",
+                "url": "http://www.rug.nl/",
+                "name": "University of Groningen",
+                "@type": "Organization",
+                "identifier": "https://ror.org/012p63287"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc/4.0",
+        "name": "CC-BY-NC-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/b454-rq57",
+        "https://doi.org/10.25937/b454-rq57"
+    ],
+    "dateCreated": "2018-09-24",
+    "description": "MigrAgent simulates migration flows of a population from a home country to a host country and mutual adaptation of a migrant and local population post-migration. Agents accept interactions in intercultural networks depending on their degree of conservatism. Conservatism is a group-level parameter normally distributed within each ethnic group. Individual conservatism changes as function of reciprocity of interaction in intergroup experiences of acceptance or rejection.\n\nThe aim of MigrAgent is  to unfold different outcomes of integration, assimilation, separation and marginalization in terms of networks as effect of different degrees of conservatism in each group and speed of migration flows.",
+    "downloadUrl": "https://www.comses.net/codebases/a6fc3cc6-bd5b-4cd6-8300-75978ea1e362/releases/1.2.0/download/",
+    "dateModified": "2021-01-04",
+    "releaseNotes": "Sliders:\n- number_local [0,1000]: number local agents\n- conservatism_local [-1, +1]: mean normal distribution of conservatism agents (fixed standard deviation 0.45)\n- number_migrant [0,1000]\n- conservatism_migrant [-1, +1]: mean normal distribution of conservatism agents (fixed standard deviation 0.45)\n- speed_intake [0, 100]: percentage of migrant agents moving together to host country",
+    "copyrightYear": 2018,
+    "datePublished": "2018-11-28",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Paolillo, R., & Jager, W. (2019). Simulating Acculturation Dynamics Between Migrants and Locals in Relation to Network Formation. Social Science Computer Review. https://doi.org/10.1177/0894439318821678"
+}

@@ -1,0 +1,64 @@
+{
+    "@id": "https://www.comses.net/codebases/89a72b47-849e-4f1e-8e4d-c887f88388b9/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/89a72b47-849e-4f1e-8e4d-c887f88388b9/releases/1.0.0/",
+    "name": "ABM Household Decision Making on Solar Energy using Theory of Planned Behaviour",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2293/",
+            "@type": "Person",
+            "email": "h.m.mulder-1@alumnus.utwente.nl",
+            "givenName": "Hannah",
+            "familyName": "Muelder"
+        },
+        {
+            "@id": "https://www.comses.net/users/651/",
+            "@type": "Person",
+            "email": "t.filatova@tudelft.nl",
+            "givenName": "Tatiana",
+            "familyName": "Filatova",
+            "affiliation": {
+                "url": "https://www.tudelft.nl/",
+                "name": "TU Delft",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/651/",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/89a72b47-849e-4f1e-8e4d-c887f88388b9/releases/1.0.0/",
+    "dateCreated": "2018-08-25",
+    "description": "The model aims at estimating household energy consumption and the related greenhouse gas (GHG) emissions reduction based on the behavior of the individual household under different operationalizations of the Theory of Planned Behaviour (TPB). \nThe original model is developed as a tool to explore households decisions regarding solar panel investments and cumulative consequences of these individual choices (i.e. diffusion of PVs, regional emissions savings, monetary savings). We extend the model to explore a methodological question regarding an interpretation of qualitative concepts from social science theories, specifically Theory of Planned Behaviour in a formal code of quantitative agent-based models (ABMs). We develop 3 versions of the model: one TPB-based ABM designed by the authors and two alternatives inspired by the TPB-ABM of [Schwarz and Ernst (2009)](https://www.sciencedirect.com/science/article/pii/S0040162508000875) and the TPB-ABM of [Rai and Robinson (2015)](https://www.sciencedirect.com/science/article/pii/S1364815215001231).  The model is implemented in NetLogo. ",
+    "downloadUrl": "https://www.comses.net/codebases/89a72b47-849e-4f1e-8e4d-c887f88388b9/releases/1.0.0/download/",
+    "dateModified": "2019-05-24",
+    "releaseNotes": "All instructions on how to run the model including setup of the variables are given in the Netlogo Information Tab, when opening the model in Netlogo. The data is currently not available due to privacy reasons and a model description is provided in ODD. The model is the base for the research conducted in the following paper:\n\nMuelder, Hannah and Filatova, Tatiana (2018). One Theory - Many Formalizations: Testing Different Code Implementations of the Theory of Planned Behaviour in Energy Agent-Based Models. *Journal of Artificial Societies and Social Simulation 21 (4) 5*. <http://jasss.soc.surrey.ac.uk/21/4/5.html>. doi: 10.18564/jasss.3855",
+    "copyrightYear": 2019,
+    "datePublished": "2019-05-21",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

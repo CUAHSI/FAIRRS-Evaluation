@@ -1,0 +1,101 @@
+{
+    "@id": "https://www.comses.net/codebases/4998/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/4998/releases/1.1.0/",
+    "name": "SimPLS - The PLS Agent",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1736/",
+            "@type": "Person",
+            "email": "iris.lorscheid@tuhh.de",
+            "givenName": "Iris",
+            "familyName": "Lorscheid",
+            "affiliation": {
+                "@id": "https://ror.org/04bs1pb34",
+                "url": "http://www.tuhh.de/",
+                "name": "Institute of Management Accounting and Simulation, Hamburg University of Technology",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04bs1pb34"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Sandra",
+            "familyName": "Schubring"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Matthias",
+            "familyName": "Meyer"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "givenName": "Christian",
+            "familyName": "Ringle"
+        },
+        {
+            "@id": "https://www.comses.net/users/1736/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent validation",
+        "Diffusion",
+        "innovation",
+        "pls path model",
+        "structural equation modeling",
+        "technology acceptance"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4998/releases/1.1.0/",
+    "dateCreated": "2016-05-17",
+    "description": "Methods are required to establish empirical links and support the implementation of valid agent models. This model contributes to this, by introducing the PLS agent concept. This approach shows a way to transfer results about individual preferences and decision criteria from empirical surveys into an agent decision model. The network of latent variables and their total effects on target constructs from the PLS path model are the basis for agent decision criteria and their effect strengths. \r\nThe simulation model SimPLS shows an application of the PLS agent concept and its added value through its consideration in a dynamic context. The simulation model implements the PLS path model TAM about the decision of using innovative products. Simulation experiments analyze the diffusion of innovative products under demographically varying populations consisting of young and aged consumers.",
+    "downloadUrl": "https://www.comses.net/codebases/4998/releases/1.1.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2016,
+    "datePublished": "2016-05-17",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Schubring, S. and Lorscheid, I. and Meyer, M. and Ringle, C. M. (2016). The PLS Agent: Predictive Modeling with PLS-SEM and Agent-based Simulation. Journal of Business Research. (Special Issue on Predictive Modelling)\r\nhttp://dx.doi.org/10.1016/j.jbusres.2016.03.052"
+}

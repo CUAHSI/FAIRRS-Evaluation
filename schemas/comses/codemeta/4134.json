@@ -1,0 +1,94 @@
+{
+    "@id": "https://www.comses.net/codebases/4134/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4134/releases/1.0.0/",
+    "name": "Ant Colony Optimization for infrastructure routing",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "givenName": "P",
+            "familyName": "Heijnen"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-8529-4241",
+            "@type": "Person",
+            "email": "e.j.l.chappin@tudelft.nl",
+            "givenName": "Emile",
+            "familyName": "Chappin",
+            "affiliation": {
+                "@id": "https://ror.org/02e2c7k09",
+                "url": "http://www.tudelft.nl/en/",
+                "name": "Delft University of Technology",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02e2c7k09"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1211/",
+            "@type": "Person",
+            "email": "i.nikolic@tudelft.nl",
+            "givenName": "Igor",
+            "familyName": "Nikolic",
+            "affiliation": {
+                "@id": "https://ror.org/02e2c7k09",
+                "url": "http://www.tudelft.nl/en/",
+                "name": "Delft University of Technology",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02e2c7k09"
+            }
+        },
+        {
+            "@id": "_:author_1",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-8529-4241",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "https://www.comses.net/users/1211/",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "https://www.comses.net/users/1211/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4134/releases/1.0.0/",
+    "dateCreated": "2014-03-05",
+    "description": "As is usual in an ACO, the agents are the ants looking for food sources (the consumer nodes) by a semi-random walk. If they have reached a food source, they are allowed to return to the nest (the source node) immediately. On their return they are attracted by the scent spread by the nest, and the pheromone that fixed network paths emit. When ants reach the existing network, they will only follow existing network patches until they reach the nest. The ant keeps track of the patches it follows back to the nest. When an ant returns to the nest, the observer calculates the additional costs of adding this path to the existing network  and the observer stores the path if it is the cheapest so far. \r\n\r\nThe network connection between the nest and this food source is built when a specified number of ants have returned from the same food source without finding a cheaper alternative. When a network connection is built, the patches that are part of the new connection store the network capacity for this food source. If the patch was already part of the network, the capacity is increased accordingly. After this, the ant will look for food again. The pheromones that the network emits evaporates and diffuses according to the respective parameter settings. Even though the ants are allowed to walk through the no-go area, the no-go area is not attractive for various reasons. \r\n\r\nThere the evaporation rate of pheromones is immediate and the building cost for a no-go patch is one thousand times higher than on an allowed patch. Therefore, when the ant returns to the nest it is unlikely to follow a pheromone scent across a no-go area and any path containing a no-go patch is very unlikely to be the cheapest. The run stops when all consuming nodes, i.e. the food sources, are connected to the source (the ant nest).",
+    "downloadUrl": "https://www.comses.net/codebases/4134/releases/1.0.0/download/",
+    "dateModified": "2018-03-24",
+    "releaseNotes": "Version used to accompany publication in JASSS",
+    "copyrightYear": 2018,
+    "datePublished": "2018-03-24",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

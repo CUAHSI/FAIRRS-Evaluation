@@ -1,0 +1,72 @@
+{
+    "@id": "https://www.comses.net/codebases/929f4083-af57-45bd-a984-88292ac71be6/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/929f4083-af57-45bd-a984-88292ac71be6/releases/1.0.0/",
+    "name": "TRUE GRASP",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2128/",
+            "@type": "Person",
+            "email": "marcobraasch@gmail.com",
+            "givenName": "Marco",
+            "familyName": "Braasch",
+            "affiliation": {
+                "url": "https://www.ecosur.mx/",
+                "name": "ECOSUR",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/359/",
+            "@type": "Person",
+            "email": "luis.garciabarrios@gmail.com",
+            "givenName": "Luis",
+            "familyName": "Garc\u00eda-Barrios",
+            "affiliation": {
+                "@id": "https://ror.org/05bpb0y22",
+                "url": "http://www.ecosur.mx/",
+                "name": "El Colegio de la Frontera Sur",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05bpb0y22"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/359/",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/929f4083-af57-45bd-a984-88292ac71be6/releases/1.0.0/",
+    "dateCreated": "2018-03-13",
+    "description": "TRUE GRASP (Tree Recruitment Under Exotic GRAsses in a Savanna-Pineland)\nis a socio-ecological agent-based model (ABM) and role playing game (RPG) for farmers and other stakeholders involved in rural landscape planning.\n\nThe purpose of this model is to allow actors to explore the individual and combined effects - as well as tradeoffs - of three methods of controlling exotic grasses in pine savannas: fire, weeding, and grazing cattle.\n\nDesign of TRUE GRASP is based on 3 years of socio-ecological fieldwork in a human-induced pine savanna in La Sepultura Biosphere Reserve (SBR) in the Mexican state of Chiapas. In this savanna, farmers harvest resin from *Pinus oocarpa*, which is used to produce turpentine and other products. However, long term persistence of this activity  is jeopardized by low tree recruitment due to exotic tall grass cover in the forest understory (see Braasch et al., 2017). The TRUE GRASP model provides the user with different management strategies for controlling exotic grass cover and avoiding possible regime shifts, which in the case of the SBR would jeopardize resin harvesting.",
+    "downloadUrl": "https://www.comses.net/codebases/929f4083-af57-45bd-a984-88292ac71be6/releases/1.0.0/download/",
+    "dateModified": "2018-04-03",
+    "releaseNotes": "True Grasp v.1.0.0",
+    "copyrightYear": 2018,
+    "datePublished": "2018-04-03",
+    "embargoEndDate": "2018-04-30",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

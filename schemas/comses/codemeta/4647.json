@@ -1,0 +1,98 @@
+{
+    "@id": "https://www.comses.net/codebases/4647/releases/1.2.0/",
+    "url": "https://www.comses.net/codebases/4647/releases/1.2.0/",
+    "name": "An Agent-Based Model of Flood Risk and Insurance",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1524/",
+            "@type": "Person",
+            "email": "katie.jenkins@eci.ox.ac.uk",
+            "givenName": "J",
+            "familyName": "Dubbelboer",
+            "affiliation": {
+                "url": "http://www.eci.ox.ac.uk/",
+                "name": "Environmental Change Institute (ECI) - Oxford University",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "I",
+            "familyName": "Nikolic"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "K",
+            "familyName": "Jenkins"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "givenName": "J",
+            "familyName": "Hall"
+        },
+        {
+            "@id": "https://www.comses.net/users/1524/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "flood",
+        "flood",
+        "flood insurance",
+        "london",
+        "united kingdom"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4647/releases/1.2.0/",
+    "dateCreated": "2016-10-03",
+    "description": "The purpose of the model is to investigate the role of flood protection measures in risk reduction; the working of the existing public-private flood insurance partnership in the UK; the proposed insurance scheme \u2018Flood Re\u2019; and how these schemes can be used to incentivize flood risk management.\r\nTo do this the model simulates a housing market in an area at risk of surface water flooding in London, UK. The model is specifically set-up for the London Borough of Camden, but is also able to simulate a ward in the London borough of Bromley and the London borough of Croydon. The housing market is modelled using a double auction market and reacts to flood events in the area. By giving a person the ability to invest in property level protection measures and the local government the ability to invest in the building of flood defences, the role of flood protection measures in flood risk reduction can be investigated.\r\nThis can initially be done under the influence of the current public-private partnership between the government and the insurers in the UK. Secondly, the working and the influence of the proposed \u2018Flood Re\u2019 system can be investigated.",
+    "downloadUrl": "https://www.comses.net/codebases/4647/releases/1.2.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "Originally this model was created within the graduation thesis of Jan Dubbelboer. Documentation on this can be found in the attached document \u2018Graduation thesis - Jan Dubbelboer.pdf\u2019. However after the graduation thesis was made, the model has seen several improvements. These changes can be found in the document \u2018Changes made to the model after graduation thesis.pdf'.",
+    "copyrightYear": 2016,
+    "datePublished": "2016-10-03",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Dubbelboer,J., Nikolic, J., Jenkins, K., Hall, J.(2016) An Agent-Based Model of Flood Risk and Insurance. Journal of Artificial Societies and Social Simulation. Accepted, In Press."
+}

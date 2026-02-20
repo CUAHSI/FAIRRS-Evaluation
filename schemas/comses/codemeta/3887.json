@@ -1,0 +1,103 @@
+{
+    "@id": "https://www.comses.net/codebases/3887/releases/1.2.0/",
+    "url": "https://www.comses.net/codebases/3887/releases/1.2.0/",
+    "name": "Evolution of Conditional Cooperation",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Person",
+            "email": "marco.janssen@asu.edu",
+            "givenName": "Marco",
+            "familyName": "Janssen",
+            "affiliation": {
+                "url": "https://schoolofsustainability.asu.edu/",
+                "name": "School of Sustainability",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1980/",
+            "@type": "Person",
+            "email": "mmannin5@asu.edu",
+            "givenName": "M",
+            "familyName": "Manning",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/977/",
+            "@type": "Person",
+            "email": "oudiani@asu.edu",
+            "givenName": "Oyita",
+            "familyName": "Udiani",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://www.comses.net/users/1980/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://www.comses.net/users/977/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "cultural group selection",
+        "evolution of cooperation",
+        "other regarding preferences",
+        "public good",
+        "punishment"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3887/releases/1.2.0/",
+    "dateCreated": "2013-12-06",
+    "description": "Human societies are unique in the level of cooperation among non-kin. Evolutionary models explaining this behavior typically assume pure strategies of cooperation and defection. Behavioral experiments, however, demonstrate that humans are typically conditional co-operators who have other-regarding preferences. Building on existing models on the evolution of cooperation and costly punishment, we use a utilitarian formulation of agent decision making to explore conditions that support the emergence of cooperative behavior. Our results indicate that cooperation levels are significantly lower for larger groups in contrast to the original pure strategy model. Here, defection behavior not only diminishes the public good, but also affects the expectations of group members leading conditional co-operators to change their strategies. Hence defection has a more damaging effect when decisions are based on expectations and not only pure strategies.",
+    "downloadUrl": "https://www.comses.net/codebases/3887/releases/1.2.0/download/",
+    "dateModified": "2022-05-13",
+    "releaseNotes": "The NetLogo 5 version is updated to a NetLogo 6 version.",
+    "copyrightYear": 2022,
+    "datePublished": "2022-05-13",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo 6.2.2",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "M.A. Janssen, M. Manning, and O. Udiani (2014) The effect social preferences on the evolution of cooperation in public good games, Advances in Complex Systems 17(3/4): 1450015, DOI: 10.1142/S0219525914500155"
+}

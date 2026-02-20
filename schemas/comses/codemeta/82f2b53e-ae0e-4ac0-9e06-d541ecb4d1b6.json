@@ -1,0 +1,115 @@
+{
+    "@id": "https://www.comses.net/codebases/82f2b53e-ae0e-4ac0-9e06-d541ecb4d1b6/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/82f2b53e-ae0e-4ac0-9e06-d541ecb4d1b6/releases/1.0.0/",
+    "name": "Classical Swine Fever in wild boars",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-0465-2543",
+            "@type": "Person",
+            "email": "cedricphilippscherer@gmail.com",
+            "givenName": "C\u00e9dric",
+            "familyName": "Scherer",
+            "affiliation": {
+                "@id": "https://ror.org/05nywn832",
+                "url": "http://www.izw-berlin.de/welcome.html",
+                "name": "Leibniz Institute for Zoo and Wildlife Research",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05nywn832"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/458/",
+            "@type": "Person",
+            "email": "martin.lange@ufz.de",
+            "givenName": "Martin",
+            "familyName": "Lange",
+            "affiliation": {
+                "@id": "https://ror.org/000h6jb29",
+                "url": "http://www.ufz.de/index.php?de=11385",
+                "name": "Helmholtz Centre for Environmental Research",
+                "@type": "Organization",
+                "identifier": "https://ror.org/000h6jb29"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/14/",
+            "@type": "Person",
+            "email": "volker.grimm@ufz.de",
+            "givenName": "Volker",
+            "familyName": "Grimm",
+            "affiliation": {
+                "url": "http://www.ufz.de",
+                "name": "Helmholtz Center for Environmental Research - UFZ",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "email": "hans.thulke@ufz.de",
+            "givenName": "Hans-Hermann",
+            "familyName": "Thulke",
+            "affiliation": {
+                "@id": "https://ror.org/000h6jb29",
+                "url": "http://www.ufz.de/index.php?de=11385",
+                "name": "Helmholtz Centre for Environmental Research",
+                "@type": "Organization",
+                "identifier": "https://ror.org/000h6jb29"
+            }
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Person",
+            "email": "kramer@izw-berlin.de",
+            "givenName": "Stephanie",
+            "familyName": "Kramer-Schadt",
+            "affiliation": {
+                "@id": "https://ror.org/05nywn832",
+                "url": "http://www.izw-berlin.de/welcome.html",
+                "name": "Leibniz Institute for Zoo and Wildlife Research",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05nywn832"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "coexistence",
+        "disease transmission",
+        "epidemiology",
+        "host-pathogen interactions",
+        "persistence"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/82f2b53e-ae0e-4ac0-9e06-d541ecb4d1b6/releases/1.0.0/",
+    "dateCreated": "2019-09-06",
+    "description": "The model is a combination of a spatially explicit, stochastic, agent-based model for wild boars (*Sus scrofa* L.) and an epidemiological model for the Classical Swine Fever (CSF) virus infecting the wild boars.\n\nThe original model (Kramer-Schadt et al. 2009) was used to assess intrinsic (system immanent host-pathogen interaction and host life-history) and extrinsic (spatial extent and density) factors contributing to the long-term persistence of the disease and has further been used to assess the effects of intrinsic dynamics (Lange et al. 2012a) and indirect transmission (Lange et al. 2016) on the disease course. In an applied context, the model was used to test the efficiency of spatiotemporal vaccination regimes (Lange et al. 2012b) as well as the risk of disease spread in the country of Denmark (Alban et al. 2005). \n\nReferences: See ODD model description.\n\n",
+    "downloadUrl": "https://www.comses.net/codebases/82f2b53e-ae0e-4ac0-9e06-d541ecb4d1b6/releases/1.0.0/download/",
+    "dateModified": "2019-09-06",
+    "releaseNotes": "The program was developed with NetLogo 6.0.4, the uploaded version was saved with NetLogo 6.1.\n\nThe model is run via the setup and run buttons, observed via various outputs on the interface. Model analysis was entirely performed with BehaviorSpace experiments. \n\nPlease contact C\u00e9dric Scherer (scherer@izw-berlin.de) if you need assistance for running the model, or want copies of the articles in which this or earlier verisons of this model were used.",
+    "copyrightYear": 2019,
+    "datePublished": "2019-09-06",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "@id": "https://www.comses.net/codebases/89291e65-f4fc-4adc-8654-b4fc5163128a/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/89291e65-f4fc-4adc-8654-b4fc5163128a/releases/1.0.0/",
+    "name": "AIforGoodSimulator - Modeling Covid-19 Spread and Potential Interventions in Refugee Camps",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2213/",
+            "@type": "Person",
+            "email": "shyaam.ramkumar@gmail.com",
+            "givenName": "Shyaam",
+            "familyName": "Ramkumar"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "w.oh@ufl.edu",
+            "givenName": "Woi",
+            "familyName": "Oh",
+            "affiliation": {
+                "@id": "https://ror.org/02y3ad647",
+                "url": "http://www.ufl.edu/",
+                "name": "University of Florida",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02y3ad647"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Dignum, F., Dignum, V., Davidsson, P. et al. Analysing the Combined Health, Social and Economic Impacts of the Corovanvirus Pandemic Using Agent-Based Social Simulation. Minds & Machines 30, 177\u2013194 (2020). [https://doi.org/10.1007/s11023-020-09527-6](https://doi.org/10.1007/s11023-020-09527-6)\nGilman RT, Mahroof-Sha S, Harkensee C, et al. Modelling interventions to control COVID-19outbreaks in a refugee camp. BMJ Glob Health. 2020;5:e003727.\nGrant, H. 'Moria is a hell': new arrivals describe life in a Greek refugee camp. 17 January 2020. Available at: [https://www.theguardian.com/global-development/2020/jan/17/moria-is-a-hell-new-arrivals-describe-life-in-a-greek-refugee-camp](https://www.theguardian.com/global-development/2020/jan/17/moria-is-a-hell-new-arrivals-describe-life-in-a-greek-refugee-camp). Accessed June 2020.\nHofstede Insights. Available at: [https://www.hofstede-insights.com/product/compare-countries/](https://www.hofstede-insights.com/product/compare-countries/). Accessed June 2020.\nMercy Corps. Life as a refugee: Spend the day with Nour. 28 April 2018. Available at: [https://www.mercycorps.org/blog/day-life-refugee](https://www.mercycorps.org/blog/day-life-refugee). Accessed June 2020.\nSnowdon, G. A day in the life of a refugee child. 30 December 2018. Available at: [https://medium.com/world-food-programme-insight/a-day-in-the-life-of-a-refugee-child-42e142336c15](https://medium.com/world-food-programme-insight/a-day-in-the-life-of-a-refugee-child-42e142336c15). Accessed June 2020.\nTuite AR, Fisman DN, Greer AL. Mathematical modelling of COVID-19 transmission and mitigation strategies in the population of Ontario, Canada. CMAJ. 2020; 192(19): E497-E505.\nUNHCR. Refugees speak of dreadful reality inside Lesvos\u2019 Moria camp. 19 February 2020. Available at: [https://www.youtube.com/watch?v=z5Xv5e-35Io](https://www.youtube.com/watch?v=z5Xv5e-35Io). Accessed June 2020.\nVerity R, Okell LC, Dorigatti I, Winskill P, Whittaker C, Imai N, et al. Estimates of the severity of coronavirus disease 2019: a model-based analysis. Lancet Infect Dis. 2020; 60(6): P669-77.\nUnited Nations. Household Size and Composition Around the World 2017.  Available at: [https://www.un.org/en/development/desa/population/publications/pdf/ageing/household_size_and_composition_around_the_world_2017_data_booklet.pdf](https://www.un.org/en/development/desa/population/publications/pdf/ageing/household_size_and_composition_around_the_world_2017_data_booklet.pdf). Accessed June 2020.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "COVID-19",
+        "disease transmission",
+        "epidemiology",
+        "interventions",
+        "refugee camps"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/89291e65-f4fc-4adc-8654-b4fc5163128a/releases/1.0.0/",
+    "dateCreated": "2021-03-17",
+    "description": "The Netlogo model is a conceptualization of the Moria refugee camp, capturing the household demographics of refugees in the camp, a theoretical friendship network based on values, and an abstraction of their daily activities. The model then simulates how Covid-19 could spread through the camp if one refugee is exposed to the virus, utilizing transmission probabilities and the stages of disease progression of Covid-19 from susceptible to exposed to asymptomatic / symptomatic to mild / severe to recovered from literature. The model also incorporates various interventions - PPE, lockdown, isolation of symptomatic refugees - to analyze how they could mitigate the spread of the virus through the camp.",
+    "downloadUrl": "https://www.comses.net/codebases/89291e65-f4fc-4adc-8654-b4fc5163128a/releases/1.0.0/download/",
+    "dateModified": "2021-03-18",
+    "releaseNotes": "The required GIS files to run the model can be downloaded from https://github.com/AIforGoodSimulator/agentbased-model-Netlogo/blob/master/gismoria.zip",
+    "copyrightYear": 2021,
+    "datePublished": "2021-03-18",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

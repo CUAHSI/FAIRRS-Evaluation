@@ -1,0 +1,90 @@
+{
+    "@id": "https://www.comses.net/codebases/5110d66a-78a7-400b-aa0c-a75b1cb95efa/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5110d66a-78a7-400b-aa0c-a75b1cb95efa/releases/1.0.0/",
+    "name": "Managing networked landscapes: conservation in fragmented, regionally connected world",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-9616-4143",
+            "@type": "Person",
+            "email": "jacopo.baggio@ucf.edu",
+            "givenName": "Jacopo A.",
+            "familyName": "Baggio",
+            "affiliation": {
+                "@id": "https://ror.org/036nfer12",
+                "url": "http://www.ucf.edu/",
+                "name": "School of Politics, Security, and International Affairs, National Center for Integrated Coastal Research, Sustainable Coastal Systems Cluster, University of Central Florida",
+                "@type": "Organization",
+                "identifier": "https://ror.org/036nfer12"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "michael.schoon@asu.edu",
+            "givenName": "Michael",
+            "familyName": "Schoon",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "sechindra.vallury@duke.edu",
+            "givenName": "Sechindra",
+            "familyName": "Vallury",
+            "affiliation": {
+                "@id": "https://ror.org/00py81415",
+                "url": "http://www.duke.edu/",
+                "name": "Duke University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00py81415"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent based model (abm)",
+        "biodiversity",
+        "biodiversity management",
+        "social-ecological networks",
+        "species migration"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5110d66a-78a7-400b-aa0c-a75b1cb95efa/releases/1.0.0/",
+    "dateCreated": "2019-03-12",
+    "description": "Exploring how learning and social-ecological networks influence management choice set and their ability to increase the likelihood of species coexistence (i.e. biodiversity) on a fragmented landscape controlled by different managers.",
+    "downloadUrl": "https://www.comses.net/codebases/5110d66a-78a7-400b-aa0c-a75b1cb95efa/releases/1.0.0/download/",
+    "dateModified": "2019-12-09",
+    "releaseNotes": "This model was implemented to assess how manager may alter a landscape to facilitate/hinder species migration. The analysis in the compatnion paper is limited to a specific type of network, but the model allows for different classess of network both social and ecological, to be explored.",
+    "copyrightYear": 2019,
+    "datePublished": "2019-12-09",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Baggio,J.A., Schoon, M., Vallury, S. Managing Networked Landscapes: Conservation in a fragmented, regionally connected world, Regional Environmental Change (forthcoming): https://doi.org/10.1007/s10113-019-01567-8"
+}

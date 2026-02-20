@@ -1,0 +1,100 @@
+{
+    "@id": "https://www.comses.net/codebases/6b77a08b-7e60-4f47-9ebb-6a8a2e87f486/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/6b77a08b-7e60-4f47-9ebb-6a8a2e87f486/releases/1.0.0/",
+    "name": "Peer Review Game",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-7473-1928",
+            "@type": "Person",
+            "email": "federico.bianchi1@unimi.it",
+            "givenName": "Federico",
+            "familyName": "Bianchi",
+            "affiliation": {
+                "@id": "https://ror.org/00wjc7c48",
+                "url": "http://www.unimi.it/ENG/",
+                "name": "Department of Social and Political Sciences, University of Milan (Italy)",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00wjc7c48"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1151/",
+            "@type": "Person",
+            "email": "francisco.grimaldo@uv.es",
+            "givenName": "Francisco",
+            "familyName": "Grimaldo",
+            "affiliation": {
+                "@id": "https://ror.org/043nxc105",
+                "url": "http://www.uv.es/",
+                "name": "Universitat de Val\u00e8ncia",
+                "@type": "Organization",
+                "identifier": "https://ror.org/043nxc105"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/496/",
+            "@type": "Person",
+            "email": "giangiacomo.bravo@unito.it",
+            "givenName": "Giangiacomo",
+            "familyName": "Bravo",
+            "affiliation": {
+                "name": "Department of Economics and Statistics, University of Torino",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-6503-6077",
+            "@type": "Person",
+            "email": "flaminio.squazzoni@unimi.it",
+            "givenName": "Flaminio",
+            "familyName": "Squazzoni",
+            "affiliation": {
+                "@id": "https://ror.org/00wjc7c48",
+                "url": "http://www.unimi.it/ENG/",
+                "name": "University of Milan",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00wjc7c48"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "computational social science",
+        "peer review",
+        "social science",
+        "sociology of science",
+        "sociology of scientific knowledge"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/6b77a08b-7e60-4f47-9ebb-6a8a2e87f486/releases/1.0.0/",
+    "dateCreated": "2018-04-30",
+    "description": "NetLogo software for the Peer Review Game model. It represents a population of scientists endowed with a proportion of a fixed pool of resources. At each step scientists decide how to allocate their resources between submitting manuscripts and reviewing others' submissions. Quality of submissions and reviews depend on the amount of allocated resources and biased perception of submissions' quality. Scientists can behave according to different allocation strategies by simply reacting to the outcome of their previous submission process or comparing their outcome with published papers' quality. Overall bias of selected submissions and quality of published papers are computed at each step.",
+    "downloadUrl": "https://www.comses.net/codebases/6b77a08b-7e60-4f47-9ebb-6a8a2e87f486/releases/1.0.0/download/",
+    "dateModified": "2018-04-30",
+    "releaseNotes": "No release notes were entered with this release.",
+    "copyrightYear": 2018,
+    "datePublished": "2018-04-30",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "@id": "https://www.comses.net/codebases/2223/releases/1.2.0/",
+    "url": "https://www.comses.net/codebases/2223/releases/1.2.0/",
+    "name": "Evolution of altruistic punishment",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Person",
+            "email": "marco.janssen@asu.edu",
+            "givenName": "Marco",
+            "familyName": "Janssen",
+            "affiliation": {
+                "url": "https://schoolofsustainability.asu.edu/",
+                "name": "School of Sustainability",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Boyd, R., Gintis, H., Bowles, S. & Richerson, P. J. (2003) The evolution of altruistic punishment, Proceedings of the National Academy of Science of the United States of America 100(6): 3531-3535",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "altruism",
+        "evolution of cooperation",
+        "public good game",
+        "punishment"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2223/releases/1.2.0/",
+    "dateCreated": "2014-11-06",
+    "description": "In the model agents make decisions to contribute of not to the public good of a group, and cooperators may punish, at a cost, defectors. The model is based on group selection, and is used to understand for which condictions (cost of punishment, group size, etc) altruistic punishment evolve.",
+    "downloadUrl": "https://www.comses.net/codebases/2223/releases/1.2.0/download/",
+    "dateModified": "2019-03-09",
+    "releaseNotes": "Updated to Netlogo 6",
+    "copyrightYear": 2019,
+    "datePublished": "2019-03-09",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

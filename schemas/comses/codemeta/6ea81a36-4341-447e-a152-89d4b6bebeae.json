@@ -1,0 +1,80 @@
+{
+    "@id": "https://www.comses.net/codebases/6ea81a36-4341-447e-a152-89d4b6bebeae/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/6ea81a36-4341-447e-a152-89d4b6bebeae/releases/1.0.0/",
+    "name": "Multi-agent model of the spread of climate change denial",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/5130/",
+            "@type": "Person",
+            "email": "kalinapiskorska@gmail.com",
+            "givenName": "Kalina Maria",
+            "familyName": "Piskorska",
+            "affiliation": {
+                "@id": "https://ror.org/03prydq77",
+                "url": "https://www.univie.ac.at",
+                "name": "University of Vienna",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03prydq77"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "martin.takac@fmph.uniba.sk",
+            "givenName": "Martin",
+            "familyName": "Tak\u00e1\u010d",
+            "affiliation": {
+                "@id": "https://ror.org/0587ef340",
+                "url": "https://uniba.sk/",
+                "name": "Comenius University Bratislava",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0587ef340"
+            }
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Wilensky, U. (1999). NetLogo. Center for Connected Learning and Computer-Based Modeling, Northwestern University. http://ccl.northwestern.edu/netlogo/",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "agent-based",
+        "belief dynamics",
+        "Climate Change"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/6ea81a36-4341-447e-a152-89d4b6bebeae/releases/1.0.0/",
+    "dateCreated": "2025-03-03",
+    "description": "This NetLogo model simulates the spread of climate change beliefs within a population of individuals. Each believer has an initial belief level, which changes over time due to interactions with other individuals and exposure to media. The aim of the model is to identify possible methods for reducing climate change denial.",
+    "downloadUrl": "https://www.comses.net/codebases/6ea81a36-4341-447e-a152-89d4b6bebeae/releases/1.0.0/download/",
+    "dateModified": "2025-03-03",
+    "releaseNotes": "First version of the model.",
+    "copyrightYear": 2025,
+    "datePublished": "2025-03-03",
+    "codeRepository": "https://github.com/kalina-piskorska/climate-change-belief-model",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetlLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

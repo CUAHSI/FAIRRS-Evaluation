@@ -1,0 +1,60 @@
+{
+    "@id": "https://www.comses.net/codebases/3175/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/3175/releases/1.0.0/",
+    "name": "Mobility, Resource Harvesting and Robustness of Social-Ecological Systems",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/239/",
+            "@type": "Person",
+            "email": "ire.perezi@gmail.com",
+            "givenName": "Irene",
+            "familyName": "Perez Ibarra",
+            "affiliation": {
+                "url": "http://csid.asu.edu/",
+                "name": "Center for the Study of Institutional Diversity",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/239/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "globalization",
+        "MOBIL",
+        "social-ecological system"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3175/releases/1.0.0/",
+    "dateCreated": "2012-09-24",
+    "description": "The model is a stylized representation of a social-ecological system of agents moving and harvesting a renewable resource. The purpose is to analyze how mobility affects sustainability. Experiments changing agents\u2019 mobility, landscape and information governments have can be run.\r\n\r\nEach time step, agents move, harvest and store energy, may reproduce or die, and may imitate other agents\u2019 attributes; also during the time step the resource grows and governments collect fines from cheaters and may imitate neighbors. Agents move if they think the resource level won\u2019t satisfy them. How far they can move is a parameter set by the modeler. Each agent has a different desired amount of resource to be harvested. Agents can change this attribute by imitating more satisfied agents in their same location. Agents store the energy obtained from harvesting not used for metabolism. Movement and reproduction also cost energy to agents. If the energy stored by an agent became 0, the agent will die. Reproduction is asexual, with each agent producing one offspring, which is a copy of its parent. Each location represents a government. Governments differ in their enforcement level that is determined by an attribute that increases the probabilities of detecting cheaters and the amount paid by cheaters. This attribute of governments may change if governments copy the enforcement level of neighbors with higher fitness (i.e., higher population level). Governments encourage agents to harvest a certain amount of resource in order not to deplete it. Agents may ignore sustainable practices and harvest more resource. If a government catches a cheater, the agent will have to pay a fine. Each simulation ends after 5000 time steps or when population or resource becomes 0.",
+    "downloadUrl": "https://www.comses.net/codebases/3175/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    },
+    "referencePublication": "P\u00e9rez I and Janssen MA. Mobility, Resource Harvesting and Robustness of Social-Ecological Systems. Submitted."
+}

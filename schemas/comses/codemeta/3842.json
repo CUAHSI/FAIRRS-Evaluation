@@ -1,0 +1,60 @@
+{
+    "@id": "https://www.comses.net/codebases/3842/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/3842/releases/1.0.0/",
+    "name": "From Schelling to Schools",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1078/",
+            "@type": "Person",
+            "email": "v.i.stoica@rug.nl",
+            "givenName": "V",
+            "familyName": "Stoica"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "A",
+            "familyName": "Flache"
+        },
+        {
+            "@id": "https://www.comses.net/users/1078/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3842/releases/1.0.0/",
+    "dateCreated": "2013-06-23",
+    "description": "We propose here a computational model of school segregation that is based on an ABM model of Schelling-type for residential segregation.\r\n\r\nModel description\r\n\r\nOur world consists of agents, resources, and locations. The locations are defined by a two dimensional grid with 100x100 locations, embedded on a torus. Each location can hold a household (an agent) or a school (a resource), but some locations are left empty to allow for movement across neighborhoods or schools.\r\nThe geographical space is divided into Voronoi cells. To generate the Voronoi diagram we use randomly assigned locations for the schools as so-called \u201cgenerator\u201d points. Each cell contains exactly one school, located at its generator point. Each school has a maximum number of students, equal to the number of locations in its corresponding cell. Because each cell actually defines the geographic region that is nearer to the focal school than to any other school, we call it school neighborhood or school \u2018catchment area\u2019. \r\nThe model allows for two types of dynamical evolutions, which we call residential model and school model, respectively. In the residential model, each location defines a local residential neighborhood, modeled as a diamond-shaped neighborhood, approximating a circular region around the residential location. We consider that a location belongs to the local residential region if the distance between its location and the center of the local residential region is smaller or equal to the radius. When using a radius r = 1.5 location sizes, one finds the classical Moore neighborhood with exactly eight locations.  \r\nEach household belongs to one ethnic group and has exactly one child of school age. A household has an ethnic preference for the ethnic composition of its school or residential neighborhood. We use for the ethnic preference a single-peaked linear function that maps the local proportion of members of the same group on the attractiveness of the school or residential location for an agent. The ethnic preference is considered to be the same for all agents belonging to a specific ethnic group.\r\nAgents can evaluate a school not only in terms of its ethnic composition, but also in terms of the distance between their residential location and the school\u2019s location. The distance preference (D) represents the \u201cnearness\u201d of the school, implemented as the mirror image of the geographical distance between residential location of the household and the school.  The distance preference is modeled as a linear falling function with its maximum value 1 at the agent\u2019s residential location and minimum value 0 at a maximum distance, after which the function value remains null.  \r\nAn agent\u2019s utility U for the school chosen is obtained from a Cobb-Douglas utility function. Technically,\r\n\tU = P^\u03b1 * D^(1-\u03b1)\t\t\r\nwhere \u03b1 is a parameter which controls how much weight is put on the ethnicity preference (P) relative to the distance preference (D). \r\nIn the residential model, agents can change where they live and can choose between a set of available residential locations with known location and local ethnic composition. Each evolution cycle, a given number of agents are tested whether their satisfaction with respect to their local neighborhood is smaller than a given threshold (T). If their level of satisfaction is smaller than the given threshold, the agents will move to the first available location where their level of satisfaction with respect to the location\u2019s local neighborhood is above a threshold. If no suitable location has been found within a maximum of tries, the agent will move to the first location where his satisfaction level becomes larger than his current satisfaction level. \r\nIn the school-choice model, the residential location is fixed and agents face the choice of sending their child to one out of a set of available schools with a known location and ethnic composition. The evolution of the system takes place in a similar way as for the residential model. If the agent\u2019s level of satisfaction is smaller than the given threshold, the agent will move its child to the first schools with an available spot, where their level of satisfaction with respect to the distance and ethnic composition is above a threshold. If no suitable school has been found within the available schools, the agent will move its child to the first school where his level of satisfaction increases.\r\nSource code\r\nThe model is provided in the form a Visual Studio Project created using Microsoft Visual C++ Express 2010. The entry point for the console application is schelling_model2.cpp.",
+    "downloadUrl": "https://www.comses.net/codebases/3842/releases/1.0.0/download/",
+    "dateModified": "2018-02-24",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-06-23",
+    "operatingSystem": "windows",
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "C++",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

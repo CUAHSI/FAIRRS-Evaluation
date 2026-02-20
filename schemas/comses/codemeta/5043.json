@@ -1,0 +1,59 @@
+{
+    "@id": "https://www.comses.net/codebases/5043/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5043/releases/1.0.0/",
+    "name": "Agent-based simulation of small group decision-making under no communication",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1766/",
+            "@type": "Person",
+            "email": "poile@edwards.usask.ca",
+            "givenName": "Christopher",
+            "familyName": "Poile",
+            "affiliation": {
+                "url": "http://www.edwards.usask.ca/index.aspx",
+                "name": "Edwards School of Business",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1766/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent based",
+        "decision-making",
+        "small group"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5043/releases/1.0.0/",
+    "dateCreated": "2016-05-26",
+    "description": "This is a computational model of a classic small group study by Alex Bavelas. \r\n\r\nIn this experiment, Bavelas took five participants, constrained their communication to zero and gave them a group goal: a target number, 17. In round one, the group members individually picked a number (their choice for that round) and submitted their choice in secret to the experimenter. The sum of the choices was the group's collective guess for the round. If the group did not reach the goal, they were told they were incorrect and given another round. \r\n\r\nFor example, suppose the five members chose 3, 4, 3, 4, and 4 (for a sum of 18). They would have been given another round. Suppose then they chose 3, 4, 2, 5 and 3 (for a sum of 17). In this case the goal would have been reached in two rounds. The experiment was designed to study group decision making ability under different conditions of information.\r\n\r\nWe chose to build a computational model of the \u201cno communication\u201d condition of this experiment. With no communication, the participants could be modeled as simple decision-making agents. A game runner would collect the agent guesses, sum the answer, and start a new round if the group failed to meet its goal. \r\n\r\nThe output of the simulation for one game was the number of rounds it took to reach the target. If the simulation was run 10 times (10 runs) there would be 10 data points representing the simulation\u2019s output distribution, which could then be compared to a target output distribution.",
+    "downloadUrl": "https://www.comses.net/codebases/5043/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2016,
+    "datePublished": "2016-05-26",
+    "operatingSystem": "platform_independent",
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "C++",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

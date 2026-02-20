@@ -1,0 +1,53 @@
+{
+    "@id": "https://www.comses.net/codebases/08a0a789-07ac-45b7-ba61-5e522c9c3557/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/08a0a789-07ac-45b7-ba61-5e522c9c3557/releases/1.0.0/",
+    "name": "Gentrilab",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2377/",
+            "@type": "Person",
+            "email": "adrian.lara08@gmail.com",
+            "givenName": "Adrian",
+            "familyName": "Lara"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc/4.0",
+        "name": "CC-BY-NC-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based social simulation",
+        "gentrification",
+        "NetLogo"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/08a0a789-07ac-45b7-ba61-5e522c9c3557/releases/1.0.0/",
+    "dateCreated": "2018-12-11",
+    "description": "Development of a Multiagent System for the Analysis of Gentrification in Latin America, an Agent-Based Model",
+    "downloadUrl": "https://www.comses.net/codebases/08a0a789-07ac-45b7-ba61-5e522c9c3557/releases/1.0.0/download/",
+    "dateModified": "2018-12-17",
+    "releaseNotes": "The **inmuebles_ini** slider allows you to configure the geographical space with the initial properties (residences and / or commerces). Supports integer values between 1 and 100.\nThe **nivel_vida** slider allows you to assign the initial inhabitants life level. It allows controlling integer values between 1 and 100.\nThe slider **distribucion** refers to the distribution of the properties according to their type (residential / commercial).\nThe **interes_privado** slider allows you to simulate the presence or not of private investment. You can assign values in the interval [0,1]\nOnce the desired initial values are configured, we click on SET and then Go to visualize the emerging results.",
+    "copyrightYear": 2018,
+    "datePublished": "2018-12-17",
+    "codeRepository": "https://github.com/AdrianLara/Gentrilab.git",
+    "operatingSystem": "linux",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

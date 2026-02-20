@@ -1,0 +1,92 @@
+{
+    "@id": "https://www.comses.net/codebases/5734/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/5734/releases/1.1.0/",
+    "name": "OMOLAND-CA: An Agent-Based Modeling of Rural Households\u2019 Adaptation to Climate Change",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1953/",
+            "@type": "Person",
+            "email": "atesbiz@gmail.com",
+            "givenName": "Atesmachew",
+            "familyName": "Hailegiorgis"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Claudio",
+            "familyName": "Cioffi-Revilla"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-5034-6654",
+            "@type": "Person",
+            "email": "acrooks77@gmail.com",
+            "givenName": "Andrew",
+            "familyName": "Crooks",
+            "affiliation": {
+                "@id": "https://ror.org/02jqj7156",
+                "url": "https://www.gmu.edu/",
+                "name": "George Mason University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02jqj7156"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1953/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-5034-6654",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent based model (abm)",
+        "climate change adaptation",
+        "east africa",
+        "GIS"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5734/releases/1.1.0/",
+    "dateCreated": "2017-07-25",
+    "description": "Future climate change is expected to have greater impacts on societies whose livelihoods rely on subsistence agricultural systems. Adaptation is essential for the adverse effects of climate change to be mitigated, to sustain rural livelihoods and to ensure future food security. Within this paper, we present an agent-based model, OMOLAND-CA, that explores the impact of climate change on the adaptive capacity of rural communities in the South Omo Zone of Ethiopia (i.e., the study area). The main aim of this modeling effort is to gain basic understanding of the resilience and adaptive capacity of rural households with respect to variations in climate, socioeconomic factors, and land use at the local level. Our model explicitly represents the socio-cognitive behavior of rural households toward climate change and resource flows which allows for agents to diversify their production strategy under different climatic situations. The model has been designed for scientists, lands managers, and policymakers particularly those interested in understanding the coupled natural and human systems, and evaluating the impacts of climate change on the rural system and how rural households\u2019 choice of livelihood affect their adaptive capacity.\n\nTo view a simulation run please see: https://youtu.be/sbAUPhOe3fk",
+    "downloadUrl": "https://www.comses.net/codebases/5734/releases/1.1.0/download/",
+    "dateModified": "2018-07-10",
+    "releaseNotes": "",
+    "copyrightYear": 2018,
+    "datePublished": "2018-07-10",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Mason"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "JDK 8",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

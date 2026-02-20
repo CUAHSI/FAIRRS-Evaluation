@@ -1,0 +1,101 @@
+{
+    "@id": "https://www.comses.net/codebases/5425/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5425/releases/1.0.0/",
+    "name": "Mesoscopic Effects in an Agent-Based Bargaining Model in Regular Lattices",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "givenName": "David",
+            "familyName": "Poza"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-6653-043X",
+            "@type": "Person",
+            "email": "jismartin@gmail.com",
+            "givenName": "Jos\u00e9",
+            "familyName": "Santos",
+            "affiliation": {
+                "@id": "https://ror.org/049da5t36",
+                "url": "https://www.ubu.es/english-version",
+                "name": "University of Burgos (Spain)",
+                "@type": "Organization",
+                "identifier": "https://ror.org/049da5t36"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "jmgalan@ubu.es",
+            "givenName": "Jos\u00e9 Manuel",
+            "familyName": "Gal\u00e1n Ordax",
+            "affiliation": {
+                "@id": "https://ror.org/049da5t36",
+                "url": "https://www.ubu.es",
+                "name": "Universidad de Burgos",
+                "@type": "Organization",
+                "identifier": "https://ror.org/049da5t36"
+            }
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "givenName": "Adolfo",
+            "familyName": "L\u00f3pez-Paredes"
+        },
+        {
+            "@id": "_:author_1",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-6653-043X",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5425/releases/1.0.0/",
+    "dateCreated": "2017-02-02",
+    "description": "This is an agent-based model of bargaining in regular lattices based on the original tag model proposed by Axtell et al. [1]. Our model introduces a spatial restriction in the structure of interactions: agents are embedded on a regular lattice and they can only bargain with their spatial neighbours. In each time period of the model, each agent selects one of her neighbours at random to play the Nash demand game. When playing the game, each agent considers three possible demands of a pie (which is a metaphor of something that is going to be shared between two persons), i.e. low (L) or 30%, medium (M) or 50% and high (H) or 70%. The agents get the chosen demand if the sum of their demands does not exceed 100 percent of the pie; otherwise they both get nothing.\r\n\r\n[1] Bargaining Model. In: Durlauf SN, Young HP, editors. Social Dynamics. Cambridge, Mass./Washington, D.C.: MIT Press. pp. 191\u2013211.",
+    "downloadUrl": "https://www.comses.net/codebases/5425/releases/1.0.0/download/",
+    "dateModified": "2018-04-25",
+    "releaseNotes": "",
+    "copyrightYear": 2018,
+    "datePublished": "2018-04-25",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Mesoscopic Effects in an Agent-Based Bargaining Model in Regular Lattices\r\nPoza, D.J., Santos, J.I., Gal\u00e1n, J.M., L\u00f3pez-Paredes, A. (2011) PLoS ONE 6(3): e17661\r\nhttp://dx.doi.org/10.1371/journal.pone.0017661"
+}

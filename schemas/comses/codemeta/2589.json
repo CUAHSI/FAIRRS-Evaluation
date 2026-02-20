@@ -1,0 +1,52 @@
+{
+    "@id": "https://www.comses.net/codebases/2589/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/2589/releases/1.0.0/",
+    "name": "CITMOD A Tax-Benefit Modeling System for the average citizen",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/633/",
+            "@type": "Person",
+            "email": "philip.david.truscott@gmail.com",
+            "givenName": "Philip",
+            "familyName": "Truscott"
+        },
+        {
+            "@id": "https://www.comses.net/users/633/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "microsimulation",
+        "policy",
+        "social security",
+        "tax"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2589/releases/1.0.0/",
+    "dateCreated": "2011-08-15",
+    "description": "Governments and research institutes often create computer models to play \u201cwhat if\u201d games with tax and social benefit policy.  Typically, a major survey of income and expenditure, such as the Philippine Family Income and Expenditure Survey, is used.  The computer models calculate the effect of policy change at the level of individual household.  The thousands of households in the survey are then \u201cmultiplied up\u201d to the millions in the national population.  Usually the people able to use these models constitute a tiny technocracy of computer programmers.  \r\n\r\nThis document explains the creation of a different type of computer model. The overwhelming majority of computer programming investment goes into creating information tools to simplify the process of tax-benefit modeling rather than creating a specific tax-benefit model.  It involves a Policy Simulation Toolkit.  This toolkit creates a more user-friendly Model Creator program.  The Model Creator program requires at the skill level of an intelligent layman/woman.  The program\u2019s users can access a computer language, the Policy Simulation Language that is a midway stage between natural language and a programming language. The Model Creator then converts the tax-benefit rules into the simplest software output: the Citizen Model. This allows end users to select or de-select various taxes and benefits.  The Citizen Model does not involve any programming but users can change numeric parameters such as the percentage rates of tax or weekly benefit amounts.   They can also select or de-select major policy options such as entire new taxes or benefits.  The fact that the Model Creator and the Citizen Model are designed for non-computer programmers represents a decentralization of power and is the justification for the title \u201cDemocratic Tax-Benefit Model.\u201d",
+    "downloadUrl": "https://www.comses.net/codebases/2589/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "This is designed to run on Windows XP.",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "windows",
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    }
+}

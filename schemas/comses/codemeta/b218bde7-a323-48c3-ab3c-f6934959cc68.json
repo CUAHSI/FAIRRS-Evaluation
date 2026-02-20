@@ -1,0 +1,96 @@
+{
+    "@id": "https://www.comses.net/codebases/b218bde7-a323-48c3-ab3c-f6934959cc68/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/b218bde7-a323-48c3-ab3c-f6934959cc68/releases/1.0.0/",
+    "name": "Cetina ABM",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "email": "maja.gori@cnr.it",
+            "givenName": "Maja",
+            "familyName": "Gori",
+            "affiliation": {
+                "@id": "https://ror.org/02eq2w707",
+                "url": "https://www.nationalacademies.org/",
+                "name": "National Academies of Sciences, Engineering, and Medicine",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02eq2w707"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "frederik.schaff@rub.de",
+            "givenName": "Frederik",
+            "familyName": "Schaff",
+            "affiliation": {
+                "@id": "https://ror.org/04tsk2644",
+                "url": "https://www.ruhr-uni-bochum.de",
+                "name": "Ruhr University Bochum",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04tsk2644"
+            }
+        },
+        {
+            "@id": "_:author_1",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "BOURDIEU P. 1986, The forms of capital, in Handbook of theory and research for the sociology of education, J.G. Richardson ed., Greenwood, New York: 241-258.\nBRANTINGHAM, P. J. A. 2003. Neutral Model of Stone Raw Material Procurement, American Antiquity 68(3): 487-509. \nPEREIRA M., SCHAFF, F, VALENTE M., OO L.K. 2020. FrederikSchaff/Lsd. LSD-GIS - Agent-based Modelling Framework with GIS. https://zenodo.org/record/3890417#.Xw9mVi17H_Q\nSCHAFF F. 2016. Pure Agent-based Computational Economics of Time, Knowledge and Procedural Rationality with an Application to Environmental Economics. Dissertation. FernUniversit\u00e4t in Hagen, Hagen. Fakult\u00e4t f\u00fcr Wirtschaftswissenschaft. Available online at http://nbn-resolving.org/urn:nbn:de:hbz:708-dh196, checked on 9/20/2016.",
+            "@type": "CreativeWork"
+        },
+        {
+            "text": "The model of Brantingham (2003, Neutral Model of Stone Raw Material Procurement, American Antiquity 68(3): 487-509.) serves as a basis and inspiration. The idea and implementation of a Myopic Knowledge Representation follows Schaff (2016).",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "agent-based model (abm)",
+        "archaeology",
+        "geography",
+        "migration",
+        "social network"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/b218bde7-a323-48c3-ab3c-f6934959cc68/releases/1.0.0/",
+    "dateCreated": "2023-12-03",
+    "description": "We provide a theory-grounded, socio-geographic agent-based model to present a possible explanation for human movement in the Adriatic region within the Cetina phenomenon. \n\nFocusing on ideas of social capital theory from Piere Bordieu (1986), we implement agent mobility in an abstract geography based on cultural capital (prestige) and social capital (social position). Agents hold myopic representations of social (Schaff, 2016) and geographical networks and decide in a heuristic way on moving (and where) or staying.\n\nThe model is implemented in a fork of the Laboratory for Simulation Development (LSD), appended with GIS capabilities (Pereira et. al. 2020).",
+    "downloadUrl": "https://www.comses.net/codebases/b218bde7-a323-48c3-ab3c-f6934959cc68/releases/1.0.0/download/",
+    "dateModified": "2025-02-16",
+    "releaseNotes": "v1.2_origini_rev2 contributed here as version 1.0.0\n\nrequires LSD in the mentioned version [LSD-GIS-v0.21](https://github.com/FrederikSchaff/Lsd/releases/tag/LSD-GIS-v0.21).",
+    "copyrightYear": 2025,
+    "datePublished": "2025-02-16",
+    "codeRepository": "https://github.com/FrederikSchaff/CetinaModel",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "lsd"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "C++",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "lsd",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "M Gori & F Schaff \"Migration in the Cetina Phenomenon? An Agent Based Modelling Approach to Reasons for Mobility in the Adriatic Area between 2500 and 2000 BC.\", forthcoming."
+}

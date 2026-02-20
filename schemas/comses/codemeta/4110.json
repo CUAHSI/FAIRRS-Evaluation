@@ -1,0 +1,60 @@
+{
+    "@id": "https://www.comses.net/codebases/4110/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4110/releases/1.0.0/",
+    "name": "AMMA: Agent-based Model of the Media Arena",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1193/",
+            "@type": "Person",
+            "email": "annie.waldherr@googlemail.com",
+            "givenName": "Annie",
+            "familyName": "Waldherr",
+            "affiliation": {
+                "@id": "https://ror.org/046ak2485",
+                "url": "http://www.fu-berlin.de/en/",
+                "name": "Free University of Berlin, Department of Political and Social Sciences",
+                "@type": "Organization",
+                "identifier": "https://ror.org/046ak2485"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1193/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-sa/4.0/",
+        "name": "CC-BY-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4110/releases/1.0.0/",
+    "dateCreated": "2014-02-11",
+    "description": "The AMMA simulates how news waves emerge in the mass media. It represents fundamental principles of public communication in a virtual media system: Drawing on the ideas of public arena models, the mass media are modelled as a public space, in which journalists report occurring events belonging to topics. Strategic issue sponsors initiate events for their favorite topics and compete for the attention of the mass media. The model helps to explore main drivers and mechanisms for the emergence of news waves and the resulting patterns of issue development. Four model scenarios are provided that each lead to different patterns of media attention. Scenario 2 produces the ideal-type of issue-attention cycle as proposed by Luhmann (1970) and Downs (1972).",
+    "downloadUrl": "https://www.comses.net/codebases/4110/releases/1.0.0/download/",
+    "dateModified": "2018-02-19",
+    "releaseNotes": "",
+    "copyrightYear": 2014,
+    "datePublished": "2014-02-11",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Waldherr, A. (2012). Die Dynamik der Medienaufmerksamkeit: Ein Simulationsmodell [Dynamics of media attention: A simulation model]. Baden-Baden: Nomos."
+}

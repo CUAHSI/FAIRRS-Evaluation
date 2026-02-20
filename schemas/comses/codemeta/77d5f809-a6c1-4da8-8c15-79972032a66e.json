@@ -1,0 +1,65 @@
+{
+    "@id": "https://doi.org/10.25937/xmgx-e069",
+    "url": "https://doi.org/10.25937/xmgx-e069",
+    "name": "AUTOMATION-INDUCED RESHORING: An Agent-based Model of the German Manufacturing Industry",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-7648-7802",
+            "@type": "Person",
+            "email": "laura.merz@posteo.de",
+            "givenName": "Laura",
+            "familyName": "Merz",
+            "affiliation": {
+                "url": "https://escp.eu/",
+                "name": "ESCP Berlin, Germany",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "ABM",
+        "agent-based computational economics",
+        "agent-based model",
+        "applied microeconomics",
+        "socio-technical system",
+        "sustainability"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/xmgx-e069",
+        "https://doi.org/10.25937/xmgx-e069"
+    ],
+    "dateCreated": "2019-06-07",
+    "description": "The agent-based perspective allows insights on how behaviour of firms, guided by simple economic rules on the micro-level, is dynamically influenced by a complex environment in regard to the assumed relocation, decision-making hypotheses. Testing various variables sensitive to initial conditions, increased environmental regulations targeting global trade and upward shifting wage levels in formerly offshore production locations have shown to be driving and inhibiting mechanisms of this socio-technical system. The dynamic demonstrates a shift from predominantly cited economic reasoning for relocation strategies towards sustainability aspects, pressingly changing these realities on an environmental and social dimension. The popular debate is driven by increased environmental awareness and the proclaimed fear of robots killing jobs. In view of reshoring shaping the political agenda, interest in the phenomenon has recently been fuelled by the rise of populism and protectionism.",
+    "downloadUrl": "https://www.comses.net/codebases/77d5f809-a6c1-4da8-8c15-79972032a66e/releases/1.0.0/download/",
+    "dateModified": "2020-11-20",
+    "releaseNotes": "When opening the model, it is set in its initial state, using parameter values which endeavour to replicate the current system. Most of the parameter's can be altered on the model's interface and accept any input. The ones which are in opposition to or complementary to another only allow to change one of them, whereas the other one changes accordingly. The model runs successfully for the 100 ticks that the default settings suggest. When a larger number of ticks are specified though, an error appears as values in the model reach numbers NetLogo cannot deal with in the equation revenue output * sales-price-per-product. This addmittedly makes the model rather volatile and further revisions should consider adding guards in order to handle this shortcoming of running the model with larger parameters.\n\nThe expected output I was aiming for during simulation runs was the search for basins of attraction or sort of equilibria in which the firms would relocate to the production location most benefitial to them. \n\nThe installed monitors allow for a quick overview when running simulations. The colourful paints of the firms in the visualisation screen, representing the German manufacturing industry as a whole, simply indicate their heterogeneity and diversity.",
+    "copyrightYear": 2020,
+    "datePublished": "2020-11-20",
+    "codeRepository": "https://github.com/LMerzInTech/Master-thesis-project/blob/master/Automation-induced%20Reshoring%20-%20An%20Agent-based%20Model%20of%20the%20German%20Manufacturing%20Industry_Laura%20Merz.nlogo",
+    "embargoEndDate": "2019-07-31",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

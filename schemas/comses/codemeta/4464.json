@@ -1,0 +1,64 @@
+{
+    "@id": "https://www.comses.net/codebases/4464/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4464/releases/1.0.0/",
+    "name": "Life Cycle Cost of Military Manpower Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "givenName": "Todd",
+            "familyName": "Combs"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-3495-6735",
+            "@type": "Person",
+            "email": "jozik@anl.gov",
+            "givenName": "Jonathan",
+            "familyName": "Ozik"
+        },
+        {
+            "@id": "_:author_1",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-3495-6735",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://opensource.org/licenses/BSD-2-Clause",
+        "name": "BSD-2-Clause",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4464/releases/1.0.0/",
+    "dateCreated": "2015-01-05",
+    "description": "In an overview of its Fiscal Year 2014 budget request, the U. S. Department of Defense (DoD) reports that \u201cThe cost of military pay and allowances, combined with military health care, comprises about one-third of the Department\u2019s budget. These costs have been growing rapidly in recent years \u2014 up almost 90 percent since FY 2001 (about 30 percent more than growth in inflation), while active duty end strength has grown by less than 3 percent\u201d (Office of the Under Secretary of Defense 2013, pg. 1-2, http://www.webcitation.org/6OdX1HrAM). Interestingly, DoD currently has no analytical framework that supports estimation the life cycle costs of each individual service member (Reserve Forces Policy Board 2013, http://www.webcitation.org/6OdXUmGcq), yet this type of analysis is critical to senior decision making on issues such as the future composition of the military force (e.g., the number of active-duty personnel versus reservists and guardsmen). This case study shows how the new Repast Simphony statecharts capability can be used to create a military manpower life cycle cost analysis model, focusing particularly on United States Air Force (USAF) service members.",
+    "downloadUrl": "https://www.comses.net/codebases/4464/releases/1.0.0/download/",
+    "dateModified": "2018-02-19",
+    "releaseNotes": "Initial OpenABM submission.",
+    "copyrightYear": 2015,
+    "datePublished": "2015-01-05",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Repast"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Ozik, J., N. Collier, T. Combs, C.M. Macal, and M.J. North. 2015. \"Repast Simphony Statecharts.\" Journal of Artificial Societies and Social Simulation (in press)."
+}

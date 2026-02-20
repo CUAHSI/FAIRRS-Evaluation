@@ -1,0 +1,55 @@
+{
+    "@id": "https://doi.org/10.25937/tp4s-wx39",
+    "url": "https://doi.org/10.25937/tp4s-wx39",
+    "name": "OfficeMoves: Personalities and Performance in an Interdependent Environment",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0009-0007-3257-2651",
+            "@type": "Person",
+            "email": "akdugger@gmail.com",
+            "givenName": "Alan",
+            "familyName": "Dugger"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "homophily",
+        "norm",
+        "Organizational behavior"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/tp4s-wx39",
+        "https://doi.org/10.25937/tp4s-wx39"
+    ],
+    "dateCreated": "2020-05-16",
+    "description": "After a little work experience, we realize that different kinds of people prefer different work environments: some enjoy a fast-paced challenge; some want to get by; and, others want to show off.\n\nFrom that experience, we also realize that different kinds of people affect their work environments differently: some increase the pace; some slow it down; and, others make it about themselves.\n\nThis model concerns how three different kinds of people affect their work environment and how that work environment affects them in return. The model explores how this circular relation between people's preferences and their environment creates patterns of association and performance over time.\n\nThe purpose of this model is to study the interaction of different agent strategies and their effects on the performance environment. By doing so, the model helps the user build theories about homophily, office place norms, and organizational patterns.",
+    "downloadUrl": "https://www.comses.net/codebases/df924b19-586d-4256-ba89-7fa59034720f/releases/1.0.0/download/",
+    "dateModified": "2020-06-11",
+    "releaseNotes": "This model supports theory building concerning homophily and workplace norms. It accomplishes this through the interaction of three different personalities - defined by the performance effects and performance preferences - in a finite space and over time. The fundamental parameters for these thought experiments are the population density, the distribution of personalities, and the decision rules.\n\nThe population density and distribution of personalities should be straight forward. The decision rules require some explanation. There are four sets of decision rules. The primary set follows from the abstract personality descriptions above and it is the set intended for theory building. The set uses a moving average of the change in neighborhood performance or neighborhood performance. The length of the moving average's window is set by the user. This allows the user to explore the differences between the effects of short-term change and long-term change. Using the moving average, agent happiness is determined as follows.\n\n* The worker is unhappy if the rate of change in its neighborhood's performance is negative.\n* The shirker is unhappy if the rate of change in its neighborhood's performance is positive.\n* The poser is unhappy if its neighborhood performance is less than the mean of the potential neighborhood performance of the vacant patches.",
+    "copyrightYear": 2020,
+    "datePublished": "2020-06-11",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

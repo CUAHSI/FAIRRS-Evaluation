@@ -1,0 +1,61 @@
+{
+    "@id": "https://www.comses.net/codebases/c913254a-0fdc-4298-b304-13890c6049ab/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/c913254a-0fdc-4298-b304-13890c6049ab/releases/1.1.0/",
+    "name": "The PRIF Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-6677-8689",
+            "@type": "Person",
+            "email": "secchi.davi@gmail.com",
+            "givenName": "Davide",
+            "familyName": "Secchi",
+            "affiliation": {
+                "url": "https://www.sdu.dk/en/om_sdu/institutter_centre/c_comac",
+                "name": "Research Centre for Computational & Organisational Cognition, University of Southern Denmark",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based model",
+        "decision making",
+        "impact factor",
+        "individual decision making",
+        "peer review",
+        "socially-based decision making"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/c913254a-0fdc-4298-b304-13890c6049ab/releases/1.1.0/",
+    "dateCreated": "2019-11-08",
+    "description": "This model takes into consideration Peer Reviewing under the influence of Impact Factor (PRIF) and it has the purpose to explore whether the infamous metric affects assessment of papers under review. The idea is to consider to types of reviewers, those who are agnostic towards IF (IU1) and those that believe that it is a measure of journal (and article) quality (IU2). This perception is somehow reflected in the evaluation, because the perceived scientific value of a paper becomes a function of the journal in which an article has been submitted. Various mechanisms to update reviewer preferences are also implemented.",
+    "downloadUrl": "https://www.comses.net/codebases/c913254a-0fdc-4298-b304-13890c6049ab/releases/1.1.0/download/",
+    "dateModified": "2020-06-02",
+    "releaseNotes": "The Peer Reviewing under the lenses of Impact Factor (PRIF) is an agent-based model that studies possible decision making and biases in the assessment of an article submitted to an academic journal. In this simulation, reviewers belong to two types, those who believe that IF is a measure of journal/article quality and those who are agnostic about it. Consistently with the literature, the model assumes that there is no relation between the scientific value of an article (i.e. its quality) and the IF of the journal in which it is published. For this reason, the article studies cognitive biases inherent in a system that fosters this common false belief. \n\nAs described in the related publication and in the Supplementary Materials (attached), the PRIF model allows for two types of judgment updates. One happens when reviewers second-judge themselves on what they have written (under circumstances that allow them to do so), while another is more socially-oriented and depends on the beliefs on IF held by the academic group they are affiliated with. The underlying mechanism for these two updates is based on *docility*, a concept introduced by Herbert Simon in 1947 and specified further in 1993, and developed by Emanuele Bardone and I further (since our IJOTB pulication in 2009). According to this cognitive social orientation, an \"docile\" individual makes decisions on the basis of suggestions, recommendations, advice and, broadly speaking, information coming from others. Individuals from the same social group (affiliation in the PRIF model) are more likely to be listened to, hence to affect decision making.",
+    "copyrightYear": 2019,
+    "datePublished": "2019-11-08",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Secchi, D., & Cowley S. J. (2019). Improbable Fairness: Reviewing under the lenses of Impact Factor. RASK, forthcoming."
+}

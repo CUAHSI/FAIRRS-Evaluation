@@ -1,0 +1,118 @@
+{
+    "@id": "https://www.comses.net/codebases/2cbf3e1d-b72f-4602-9f75-c5b0bdb7418f/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/2cbf3e1d-b72f-4602-9f75-c5b0bdb7418f/releases/1.0.0/",
+    "name": "A Simple Agent Based Modeling Tool for Plastic and Debris Tracking in Oceans",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-6477-9426",
+            "@type": "Person",
+            "email": "koushiksura@gmail.com",
+            "givenName": "Koushik",
+            "familyName": "Sura Bhaskar"
+        },
+        {
+            "@id": "https://www.comses.net/users/2622/",
+            "@type": "Person",
+            "email": "subu.k@iiits.in",
+            "givenName": "Subu",
+            "familyName": "Kandaswamy",
+            "affiliation": {
+                "@id": "https://ror.org/026873d40",
+                "url": "https://iiits.in",
+                "name": "Indian Institute of Information Technology Sri City",
+                "@type": "Organization",
+                "identifier": "https://ror.org/026873d40"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-0821-2430",
+            "@type": "Person",
+            "email": "amulya.murukutla@gmail.com",
+            "givenName": "Sai Amulya",
+            "familyName": "Murukutla",
+            "affiliation": {
+                "@id": "https://ror.org/026873d40",
+                "url": "https://iiits.in",
+                "name": "Indian Institute of Information Technology Sri City",
+                "@type": "Organization",
+                "identifier": "https://ror.org/026873d40"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/3328/",
+            "@type": "Person",
+            "email": "pranay26.c@gmail.com",
+            "givenName": "Sai Pranay Raju",
+            "familyName": "Chinthala",
+            "affiliation": {
+                "@id": "https://ror.org/026873d40",
+                "url": "https://iiits.in",
+                "name": "Indian Institute of Information Technology Sri City",
+                "@type": "Organization",
+                "identifier": "https://ror.org/026873d40"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-2139-7540",
+            "@type": "Person",
+            "email": "abhishek.b17@iiits.in",
+            "givenName": "Abhishek",
+            "familyName": "Bobbillapati",
+            "affiliation": {
+                "@id": "https://ror.org/026873d40",
+                "url": "https://iiits.in",
+                "name": "Indian Institute of Information Technology Sri City",
+                "@type": "Organization",
+                "identifier": "https://ror.org/026873d40"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/2622/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.html",
+        "name": "Apache-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "Agent based modelling",
+        "Agent based simulation and prediction",
+        "NetLogo",
+        "oceans",
+        "Plastic movement",
+        "Plastics in oceans",
+        "plastic waste"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2cbf3e1d-b72f-4602-9f75-c5b0bdb7418f/releases/1.0.0/",
+    "dateCreated": "2021-10-04",
+    "description": "Plastics and the pollution caused by their waste have always been a menace to both nature and humans. With the continual increase in plastic waste, the contamination due to plastic has stretched to the oceans. Many plastics are being drained into the oceans and rose to accumulate in the oceans. These plastics have seemed to form large patches of debris that keep floating in the oceans over the years. Identification of the plastic debris in the ocean is challenging and it is essential to clean plastic debris from the ocean. We propose a simple tool built using the agent-based modeling framework NetLogo. The tool uses ocean currents data and plastic data both being loaded using GIS (Geographic Information System) to simulate and visualize the movement of floatable plastic and debris in the oceans. The tool can be used to identify the plastic debris that has been piled up in the oceans. The tool can also be used as a teaching aid in classrooms to bring awareness about the impact of plastic pollution. This tool could additionally assist people to realize how a small plastic chunk discarded can end up as large debris drifting in the oceans. The same tool might help us narrow down the search area while looking out for missing cargo and wreckage parts of ships or flights. Though the tool does not pinpoint the location, it might help in reducing the search area and might be a rudimentary alternative for more computationally expensive models.",
+    "downloadUrl": "https://www.comses.net/codebases/2cbf3e1d-b72f-4602-9f75-c5b0bdb7418f/releases/1.0.0/download/",
+    "dateModified": "2021-10-04",
+    "releaseNotes": "A simple agent based modeling tool to track plastic debris in oceans built using NetLogo",
+    "copyrightYear": 2021,
+    "datePublished": "2021-10-04",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Murukutla S.A., Koushik S.B., Chinthala S.P.R., Bobbillapati A., Kandaswamy S. (2021) A Simple Agent Based Modeling Tool for Plastic and Debris Tracking in Oceans. In: Dignum F., Corchado J.M., De La Prieta F. (eds) Advances in Practical Applications of Agents, Multi-Agent Systems, and Social Good. The PAAMS Collection. PAAMS 2021. Lecture Notes in Computer Science, vol 12946. Springer, Cham. https://doi.org/10.1007/978-3-030-85739-4_12"
+}

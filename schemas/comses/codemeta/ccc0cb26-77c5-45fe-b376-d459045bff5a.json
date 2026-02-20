@@ -1,0 +1,62 @@
+{
+    "@id": "https://doi.org/10.25937/4hzg-xc55",
+    "url": "https://doi.org/10.25937/4hzg-xc55",
+    "name": "Personnel decisions in the hierarchy",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-5279-7627",
+            "@type": "Person",
+            "email": "ivsmrudn@yandex.ru",
+            "givenName": "Smarzhevskiy",
+            "familyName": "Ivan"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "New model",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "decision making",
+        "hierarchy",
+        "perception"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/4hzg-xc55",
+        "https://doi.org/10.25937/4hzg-xc55"
+    ],
+    "dateCreated": "2022-08-15",
+    "description": "This is a model of organizational behavior in the hierarchy in which personnel decisions are made.\nThe idea of the model is that the hierarchy, busy with operations, is described by such characteristics as structure (number and interrelation of positions) and material, filling these positions (persons with their individual performance). A particular hierarchy is under certain external pressure (performance level requirement) and is characterized by the internal state of the material (the distribution of the perceptions of others over the ensemble of persons).\nThe World of the model is a four-level hierarchical structure, consisting of shuff positions of the top manager (zero level of the hierarchy), first-level managers who are subordinate to the top manager, second-level managers (subordinate to the first-level managers) and positions of employees (the third level of the hierarchy). ) subordinated to the second-level managers. Such a hierarchy is a tree, i.e. each position, with the exception of the position of top manager, has a single boss.\nAgents in the model are persons occupying the specified positions, the number of persons is set by the slider (HumansQty). Personas have some operational performance (harisma, an unfortunate attribute name left over from the first edition of the model)) and a sense of other personas\u2019 own perceptions. Performance values are distributed over the ensemble of persons according to the normal law with some mean value and variance.\nThe value of perception by agents of each other is positive or negative (implemented in the model as numerical values equal to +1 and -1). The distribution of perceptions over an ensemble of persons is implemented as a random variable specified by the probability of negative perception, the value of which is set by the control elements of the model interface. The numerical value of the probability equal to 0 corresponds to the case in which all persons positively perceive each other (the numerical value of the random variable is equal to 1, which corresponds to the positive perception of the other person by the individual).\nThe hierarchy is occupied with operational activity, the degree of intensity of which is set by the external parameter Difficulty. The level of productivity of each manager OAIndex is equal to the level of productivity of the department he leads and is the ratio of the sum of productivity of employees subordinate to the head to the level of complexity of the work Difficulty. An increase in the numerical value of Difficulty leads to a decrease in the OAIndex for all subdivisions of the hierarchy. The managerial meaning of the OAIndex indicator is the percentage of completion of the load specified for the hierarchy as a whole, i.e. the ratio of the actual performance of the structural subdivisions of the hierarchy to the required performance, the level of which is specified by the value of the Difficulty parameter.\nA specific hierarchy, the behavior of which is investigated in the course of a simulation experiment, is characterized by the following parameters: \u2022 number of persons and positions (hierarchy structure is set by sliders (Lev1Units, Lev1Units etc.)); \u2022 the value of positions (increases linearly with a decrease in the level from the third to zero), which is the amount of remuneration for the work of a person in this position, and thus the value of a particular position for a person; \u2022 percentage of positions occupied by persons at the initial moment of the experiment (FirstDistrDensity); \u2022 probability of negative perception of other persons by persons (ProbNegPercept); \u2022 individual performance of persons; \u2022 prohibition or absence of a prohibition on repeated (after release) occupation of positions by persons.\nDecisions are:\nD_VoluntaryDismisial (mutual perception influences the decision)\nDecision_EU_IB_FH (mutual perception influences the decision)\nDecision_EU_IB_BH (mutual perception influences the decision)\nD_DismissWorst\nD_GetAnySuborder4L3\nD_GetGoodSuborder4L3 (mutual perception influences the decision)\nD_ReplaceSuborder4L3onFreeHuman (mutual perception influences the decision)\nD_Pass2NoBossUnit\nD_Pass2FrendLev3 (mutual perception influences the decision)\nD_Pass2FrendSameLevel (mutual perception influences the decision)\nD_DownGradeOrDismiss (mutual perception influences the decision)\nD_DownGradeWorstBoss\nD_UpGradeBestBoss\nLet some types of personnel decisions be allowed and the rules for their adoption are indicated (availability of solutions for positions of one level or another, performance criteria, local distribution of perceptions). Let\u2019s call a control scenario a set of personnel decisions together with the regulations for their adoption.\nKey Scenarios (set by change ScreenPlay): \u2022 \u201cInaction\u201d (\u201cSP5 No Control\u201d). Only individual solutions are allowed (## 1-3). Managers do not make decisions about subordinates. \u2022 \u201cChaos\u201d (\u201cSP4 (Random)\u201d). Individual decisions ## 1-3 are allowed, in addition, managers randomly, with equal probability, make one of the decisions ## 4-13. \u2022 \u201cDictatorship\u201d (\u201cSP2 (3 Points Ctrl)\u201d). Individual decisions ## 1-3 are allowed, in addition, managers make one of the decisions ## 4-13, depending on whether the current value of the OAIndex performance index falls into one or another range of values specified by the GradeL < GradeM < GradeH parameters. Thus, depending on the current value of OAIndex, managers vacate positions from less productive performers and replace them with more productive ones, guided, among other things, by the personal perception of subordinates. The intervals of performance values are set by the GradeL, GradeM,GradeH sliders.\nA series of simulation experiments (see BehaviorSpace) is designed to give an answer about the influence of the control scenario on the performance of certain types of hierarchy under various initial conditions.\nYou can create a coalition - a group of people in which mutual perceptions are positive. The number of coalitions is set by the CoalitionsQty slider.\nThe model allows you to collect statistics on the number of decisions made, on the performance of individual groups of agents, track the career path of any agent (positions occupied by him during the experiment and the time spent in positions), the number and types of decisions made at different levels of the hierarchy, etc.",
+    "downloadUrl": "https://www.comses.net/codebases/ccc0cb26-77c5-45fe-b376-d459045bff5a/releases/1.0.0/download/",
+    "dateModified": "2023-02-24",
+    "releaseNotes": "First edition",
+    "copyrightYear": 2022,
+    "datePublished": "2022-08-19",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo 6.2.2"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo 6.2.2",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "1. Ivan Smarzhevskiy. The concept of mutual perception of persons in a hierarchy. Journal of Economy and entrepreneurship, 2018, Vol. 12, Nom. 12, p. 1120-1124. (\u0418.\u0410. \u0421\u043c\u0430\u0440\u0436\u0435\u0432\u0441\u043a\u0438\u0439, \u041a\u043e\u043d\u0446\u0435\u043f\u0446\u0438\u044f \u0432\u0437\u0430\u0438\u043c\u043d\u043e\u0433\u043e \u0432\u043e\u0441\u043f\u0440\u0438\u044f\u0442\u0438\u044f \u043f\u0435\u0440\u0441\u043e\u043d, \u0437\u0430\u043d\u0438\u043c\u0430\u044e\u0449\u0438\u0445 \u043f\u043e\u0437\u0438\u0446\u0438\u0438 \u0432 \u0438\u0435\u0440\u0430\u0440\u0445\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u0435. // \u042d\u043a\u043e\u043d\u043e\u043c\u0438\u043a\u0430 \u0438 \u043f\u0440\u0435\u0434\u043f\u0440\u0438\u043d\u0438\u043c\u0430\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u043e. 2018. \u2116 12. \u0421.1120-1124). 2. Ivan Smarzhevskiy. The development of the concept of mutual perception of persons in a hierarchy: the dynamics of perceptions. Journal of Economy and entrepreneurship, 2019, Vol. 13, Nom. 1, p. 830-833 (\u0418.\u0410. \u0421\u043c\u0430\u0440\u0436\u0435\u0432\u0441\u043a\u0438\u0439, \u0420\u0430\u0437\u0432\u0438\u0442\u0438\u0435 \u043a\u043e\u043d\u0446\u0435\u043f\u0446\u0438\u0438 \u0432\u0437\u0430\u0438\u043c\u043d\u043e\u0433\u043e \u0432\u043e\u0441\u043f\u0440\u0438\u044f\u0442\u0438\u044f \u043f\u0435\u0440\u0441\u043e\u043d \u0432 \u0438\u0435\u0440\u0430\u0440\u0445\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u0435: \u0434\u0438\u043d\u0430\u043c\u0438\u043a\u0430 \u0432\u043e\u0441\u043f\u0440\u0438\u044f\u0442\u0438\u0439 // \u042d\u043a\u043e\u043d\u043e\u043c\u0438\u043a\u0430 \u0438 \u043f\u0440\u0435\u0434\u043f\u0440\u0438\u043d\u0438\u043c\u0430\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u043e. 2019. \u2116 1. \u0421. 830-833.)"
+}

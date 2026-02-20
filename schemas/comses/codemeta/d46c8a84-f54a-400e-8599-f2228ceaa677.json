@@ -1,0 +1,61 @@
+{
+    "@id": "https://www.comses.net/codebases/d46c8a84-f54a-400e-8599-f2228ceaa677/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/d46c8a84-f54a-400e-8599-f2228ceaa677/releases/1.0.0/",
+    "name": "Mismatch",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2973/",
+            "@type": "Person",
+            "email": "omid.roozmand@inrae.fr",
+            "givenName": "Omid",
+            "familyName": "Roozmand"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "guiguillaume.deffuant@inrae.fr",
+            "givenName": "Guillaume",
+            "familyName": "Deffuant",
+            "affiliation": {
+                "@id": "https://ror.org/027nk1z82",
+                "url": "https://www.inradinc.com/",
+                "name": "INRAD (United States)",
+                "@type": "Organization",
+                "identifier": "https://ror.org/027nk1z82"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/d46c8a84-f54a-400e-8599-f2228ceaa677/releases/1.0.0/",
+    "dateCreated": "2020-09-18",
+    "description": "This model investigates how anti-conformist intentions could be related to some biases on the perception of attitudes. It starts from two case studies, related to the adoption of organic farming, that show anti-conformist intentions. It proposes an agent-based model which computes an intention based on the Theory of Reasoned Action and assumes some biases in the perception of others' attitudes according to the Social Judgement Theory. \nIt investigates the conditions on the model parameter values for which the simulations reproduce the features observed in the case studies. The results suggest that perception biases are indeed likely to contribute to anti-conformist intentions.",
+    "downloadUrl": "https://www.comses.net/codebases/d46c8a84-f54a-400e-8599-f2228ceaa677/releases/1.0.0/download/",
+    "dateModified": "2020-09-18",
+    "releaseNotes": "Using social judgment theory to explain biases in perception of attitudes to investigate anti-conformism behavior which means the negative correlation between intention and perceived group norm.",
+    "copyrightYear": 2020,
+    "datePublished": "2020-09-18",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "agent-based model (abm)"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "R",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

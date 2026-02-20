@@ -1,0 +1,53 @@
+{
+    "@id": "https://www.comses.net/codebases/8db2d668-eef8-4b2b-92bf-846710fdb731/releases/0.3.14/",
+    "url": "https://www.comses.net/codebases/8db2d668-eef8-4b2b-92bf-846710fdb731/releases/0.3.14/",
+    "name": "Ornstein-Uhlenbeck Pandemic package",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2866/",
+            "@type": "Person",
+            "email": "pcotton@intechinvestments.com",
+            "givenName": "Peter",
+            "familyName": "Cotton"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "0.3.14",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based model",
+        "COVID-19"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/8db2d668-eef8-4b2b-92bf-846710fdb731/releases/0.3.14/",
+    "dateCreated": "2020-04-24",
+    "description": "Pandemic  (pip install pandemic)\n\nAn agent model in which commuting, compliance, testing and contagion parameters drive infection in a population of thousands of millions. Agents follow Ornstein-Uhlenbeck processes in the plane and collisions drive transmission. Results are stored at [SwarmPrediction.com](http://www.swarmprediction.com) for further analysis, and can be retrieved by anyone.\n\nThis is a very simple simulation that in a special case can be shown to be approximated by a compartmental model with time varying infection rate. \n",
+    "downloadUrl": "https://www.comses.net/codebases/8db2d668-eef8-4b2b-92bf-846710fdb731/releases/0.3.14/download/",
+    "dateModified": "2020-05-08",
+    "releaseNotes": "[PyPi](https://pypi.org/project/pandemic/) package. \n\npip install pandemic",
+    "copyrightYear": 2020,
+    "datePublished": "2020-05-08",
+    "codeRepository": "https://github.com/microprediction/pandemic",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "None"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "https://www.linkedin.com/pulse/dear-new-zealand-heres-how-simulate-covid-19-all-your-cotton-phd"
+}

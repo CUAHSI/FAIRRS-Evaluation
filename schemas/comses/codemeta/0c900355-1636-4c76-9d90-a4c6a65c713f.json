@@ -1,0 +1,75 @@
+{
+    "@id": "https://www.comses.net/codebases/0c900355-1636-4c76-9d90-a4c6a65c713f/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/0c900355-1636-4c76-9d90-a4c6a65c713f/releases/1.0.0/",
+    "name": "Artificial Long House Valley-Black Mesa",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-4766-5264",
+            "@type": "Person",
+            "email": "alwarren@uark.edu",
+            "givenName": "Amy",
+            "familyName": "Warren"
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-4534-3392",
+            "@type": "Person",
+            "email": "sattenspiell@missouri.edu",
+            "givenName": "Lisa",
+            "familyName": "Sattenspiel",
+            "affiliation": {
+                "@id": "https://ror.org/02ymw8z06",
+                "url": "http://missouri.edu/",
+                "name": "University of Missouri",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02ymw8z06"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.html",
+        "name": "Apache-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Axtell, Robert L., Joshua M. Epstein, Jeffrey S. Dean, George J. Gumerman, Alan C. Swedlund, Jason Harburger, Shubha Chakravarty, Ross Hammond, Jon Parker, and Miles Parker. (2002) Population growth and collapse in a multiagent model of the Kayenta Anasazi in Long House Valley. Proceedings of the National Academy of Sciences, USA 99(3):7275\u20137279.\n\nDean, Jeffrey S. (2010) The environmental, demographic, and behavioral context of the 13th century depopulation of the northern Southwest. In: Kohler, Timothy A., Varien MD, Wright Aaron M., editors. Leaving Mesa Verde: Peril and change in the 13th century Southwest. Tucson: The University of Arizona Press. p. 34-52.\n\nDean Jeffrey S., George J. Gumerman, Joshua M. Epstein, Robert Axtell, Alan Swedlund, Miles Parker, and Steve McCarroll. (2000) Understanding Anasazi Culture Change Through Agent-Based Modeling. In Kohler ,Timothy A., Gumerman, George J., editors. Dynamics in human and primate societies . New York: Oxford University Press. p. 179-206.\n\nJanssen, Marco A. (2009) Understanding Artificial Anasazi. Journal of Artificial Societies and Social Simulation 12(4):13. <http://jasss.soc.surrey.ac.uk/12/4/13.html>\n\nKohler, Timothy A. (2012) Modeling agricultural productivity and farming effort. In Kohler, Timothy A, Varien, Mark D, editors. Emergence and Collapse of Early Villages: Models of Central Mesa Verde Archaeology. Berkeley: University of California Press.\n\nKowalewski, Stephen A. (1982) Population and agricultural potential: Early I through V. In: Monte Alban hinterlands, Part I. The Prehispanic Settlement Patterns of the Central and Southern Parts of the Valley of Oaxaca, Mexico. Memoirs No. 23. Museum of Anthropology. University of Michigan, Ann Arbor. pp. 149-180.\n\nLayhe, Robert W. (1981) A locational model for demographic and settlement system change: an example from the American Southwest. PhD dissertation. Southern Illinois University: Carbondale, IL. \n\nStonedahl, F., & Wilensky, U. (2010). Evolutionary Robustness Checking in the Artificial Anasazi Model. Proceedings of the AAAI Fall Symposium on Complex Adaptive Systems: Resilience, Robustness, and Evolvability. November 11-13, 2010. Arlington, VA.(Available:  http://ccl.northwestern.edu/papers/2010/Stonedahl%20and%20Wilensky.pdf)\n\nWeiss, Kenneth M. and Wobst, H. Martin. (1973) Demographic models for anthropology. Memoirs of the Society for American Archaeology, No. 27. p. i-ix, 1-186.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "archaeology",
+        "Artificial Anasazi",
+        "Artificial Long House Valley",
+        "demography",
+        "paleodemography"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/0c900355-1636-4c76-9d90-a4c6a65c713f/releases/1.0.0/",
+    "dateCreated": "2020-03-19",
+    "description": "This model is an extension of the Artificial Long House Valley (ALHV) model developed by the authors (Swedlund et al. 2016; Warren and Sattenspiel 2020). The ALHV model simulates the population dynamics of individuals within the Long House Valley of Arizona from AD 800 to 1350. Individuals are aggregated into households that participate in annual agricultural and demographic cycles. The present version of the model incorporates features of the ALHV model including realistic age-specific fertility and mortality and, in addition, it adds the Black Mesa environment and population, as well as additional methods to allow migration between the two regions.  \n\nAs is the case for previous versions of the ALHV model as well as the Artificial Anasazi (AA) model from which the ALHV model was derived (Axtell et al. 2002; Janssen 2009), this version makes use of detailed archaeological and paleoenvironmental data from the Long House Valley and the adjacent areas in Arizona. It also uses the same methods as the original AA model to estimate annual maize productivity of various agricultural zones within the Long House Valley. A new environment and associated methods have been developed for Black Mesa. Productivity estimates from both regions are used to determine suitable locations for households and farms during each year of the simulation.\n",
+    "downloadUrl": "https://www.comses.net/codebases/0c900355-1636-4c76-9d90-a4c6a65c713f/releases/1.0.0/download/",
+    "dateModified": "2020-03-19",
+    "releaseNotes": "Initial release of Artificial Long House Valley-Black Mesa model. ",
+    "copyrightYear": 2020,
+    "datePublished": "2020-03-19",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Swedlund, Alan, Lisa Sattenspiel, Amy Warren, and George Gumerman (2014) Modelling archaeology: 20 years after Artificial Anasazi. In Agent-based Modeling and Archaeology, Gabriel Wurzer, Kerstin Kowarik, and Hans Reschreiter (eds.) Berlin: Springer, pp. 37-50.\n\nSwedlund, Alan C, Lisa Sattenspiel, Amy Warren, Richard S Meindl, and George J Gumerman III (2016) Explorations in paleodemography: an overview of the Artificial Long House Valley agent-based modeling project, with new observations on demographic estimation. In New Directions in Biocultural Anthropology, Molly K Zuckerman and Deborah Martin (eds.) New York: Wiley-Blackwell, pp. 403-426."
+}

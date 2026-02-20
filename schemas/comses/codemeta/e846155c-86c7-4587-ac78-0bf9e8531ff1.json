@@ -1,0 +1,112 @@
+{
+    "@id": "https://www.comses.net/codebases/e846155c-86c7-4587-ac78-0bf9e8531ff1/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/e846155c-86c7-4587-ac78-0bf9e8531ff1/releases/1.0.0/",
+    "name": "Contact Tracing agent model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-0784-7138",
+            "@type": "Person",
+            "email": "amoreno@euss.cat",
+            "givenName": "Andreu",
+            "familyName": "Moreno Vendrell",
+            "affiliation": {
+                "@id": "https://ror.org/01n002310",
+                "url": "https://www.ieee.org",
+                "name": "Institute of Electrical and Electronics Engineers",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01n002310"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-9729-8557",
+            "@type": "Person",
+            "email": "eduardo.cesar@uab.cat",
+            "givenName": "Eduardo",
+            "familyName": "C\u00e9sar",
+            "affiliation": {
+                "@id": "https://ror.org/052g8jq94",
+                "url": "https://www.uab.cat",
+                "name": "Universitat Aut\u00f2noma de Barcelona",
+                "@type": "Organization",
+                "identifier": "https://ror.org/052g8jq94"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-0090-4109",
+            "@type": "Person",
+            "email": "anna.sikora@uab.cat",
+            "givenName": "Anna",
+            "familyName": "Sikora",
+            "affiliation": {
+                "@id": "https://ror.org/052g8jq94",
+                "url": "https://www.uab.cat",
+                "name": "Universitat Aut\u00f2noma de Barcelona",
+                "@type": "Organization",
+                "identifier": "https://ror.org/052g8jq94"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-5810-4748",
+            "@type": "Person",
+            "email": "jjorbae@uoc.edu",
+            "givenName": "Josep",
+            "familyName": "Jorba",
+            "affiliation": {
+                "@id": "https://ror.org/01f5wp925",
+                "url": "https://www.uoc.edu",
+                "name": "Universitat Oberta de Catalunya",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01f5wp925"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-9729-8557",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-0090-4109",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-5810-4748",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/LGPL-3.0",
+        "name": "LGPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/e846155c-86c7-4587-ac78-0bf9e8531ff1/releases/1.0.0/",
+    "dateCreated": "2024-11-22",
+    "description": "Contact Tracing Repast HPC agent model",
+    "downloadUrl": "https://www.comses.net/codebases/e846155c-86c7-4587-ac78-0bf9e8531ff1/releases/1.0.0/download/",
+    "dateModified": "2024-11-22",
+    "releaseNotes": "First release Contact Tracing RepastHPC agent model",
+    "copyrightYear": 2024,
+    "datePublished": "2024-11-22",
+    "codeRepository": "https://github.com/HPCA4SE-UAB/ABMS-contact_tracing-Repast",
+    "operatingSystem": "linux",
+    "runtimePlatform": [
+        "Repast"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "C++",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

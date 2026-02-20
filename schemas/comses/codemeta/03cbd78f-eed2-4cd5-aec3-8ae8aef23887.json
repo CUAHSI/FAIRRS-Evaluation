@@ -1,0 +1,57 @@
+{
+    "@id": "https://doi.org/10.25937/ekfp-tt41",
+    "url": "https://doi.org/10.25937/ekfp-tt41",
+    "name": "A Computational Simulation for Task Allocation Influencing Performance in the Team System",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/3330/",
+            "@type": "Person",
+            "email": "shaoniwang530@gmail.com",
+            "givenName": "Shaoni",
+            "familyName": "Wang"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "complex adaptive system",
+        "group dynamics",
+        "task allocation",
+        "team performance"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/ekfp-tt41",
+        "https://doi.org/10.25937/ekfp-tt41"
+    ],
+    "dateCreated": "2022-11-10",
+    "description": "This model system aims to simulate the whole process of task allocation, task execution and evaluation in the team system through a feasible method.  On the basis of Complex Adaptive Systems (CAS) theory and Agent-based Modelling (ABM) technologies and tools, this simulation system attempts to abstract real-world teams into MAS models. The author designs various task allocation strategies according to different perspectives, and the interaction among members is concerned during the task-performing process. Additionally, knowledge can be acquired by such an interaction process if members encounter tasks they cannot handle directly. An artificial computational team is constructed through ABM in this simulation system, to replace real teams and carry out computational experiments. In all, this model system has great potential for studying team dynamics, and model explorers are encouraged to expand on this to develop richer models for research.",
+    "downloadUrl": "https://www.comses.net/codebases/03cbd78f-eed2-4cd5-aec3-8ae8aef23887/releases/1.1.0/download/",
+    "dateModified": "2024-12-05",
+    "releaseNotes": "This simulation system is based on a preliminary model to explore the relationship between individual components and group level of performance. This system aims to focus on the impact of interaction among members on group performance under different task allocation strategies, and mainly pay attention to the influence of a single allocation outcome on interpersonal interactions and group performance.",
+    "copyrightYear": 2023,
+    "datePublished": "2023-04-06",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo 6.1.1"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Nelogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "(1) Wang, S., Dang, Y. & Wu, J. How Task Allocation Strategy Affects Team Performance: A Computational Experiment. J. Syst. Sci. Syst. Eng. 27, 656\u2013676 (2018). https://doi.org/10.1007/s11518-018-5387-3\n(2) Wang, S., Dang, Y., Wu, J. (2017). The Effect of Task Allocation Strategy on Knowledge Intensive Team Performance Based on Computational Experiment. In: Chen, J., Theeramunkong, T., Supnithi, T., Tang, X. (eds) Knowledge and Systems Sciences. KSS 2017. Communications in Computer and Information Science, vol 780. Springer, Singapore. https://doi.org/10.1007/978-981-10-6989-5_19"
+}

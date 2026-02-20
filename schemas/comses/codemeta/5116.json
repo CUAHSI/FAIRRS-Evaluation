@@ -1,0 +1,64 @@
+{
+    "@id": "https://www.comses.net/codebases/5116/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/5116/releases/1.1.0/",
+    "name": "A Model of Social and Cognitive Coherence",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-3903-2507",
+            "@type": "Person",
+            "email": "bruce@edmonds.name",
+            "givenName": "Bruce",
+            "familyName": "Edmonds",
+            "affiliation": {
+                "url": "http://mmu.ac.uk",
+                "name": "Centre for Policy Modelling",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-3903-2507",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc/4.0",
+        "name": "CC-BY-NC-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent based model",
+        "beliefs",
+        "coherence",
+        "dynamics opinion",
+        "social network"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5116/releases/1.1.0/",
+    "dateCreated": "2016-07-09",
+    "description": "This is a model of coherency based belief within a dynamic network of individuals. Here beliefs might be copied (or discarded) by an individual based upon the change in coherence it causes with its other beliefs, but also that an individual will change their social connections based upon the the coherence of their beliefs with those they socially interact with.\r\n\r\nSee slides at http://slidehare.org/BruceEdmonds",
+    "downloadUrl": "https://www.comses.net/codebases/5116/releases/1.1.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "",
+    "copyrightYear": 2016,
+    "datePublished": "2016-07-09",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

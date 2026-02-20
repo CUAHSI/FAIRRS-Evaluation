@@ -1,0 +1,79 @@
+{
+    "@id": "https://doi.org/10.25937/f0hn-qq83",
+    "url": "https://doi.org/10.25937/f0hn-qq83",
+    "name": "SWIRS Spread of a woody invader in riparian systems",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-9259-0516",
+            "@type": "Person",
+            "email": "beatrizsnap@gmail.com",
+            "givenName": "Beatriz",
+            "familyName": "Sosa"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-4111-3357",
+            "@type": "Person",
+            "email": "m.zellner@northeastern.edu",
+            "givenName": "Moira",
+            "familyName": "Zellner",
+            "affiliation": {
+                "url": "https://www.northeastern.edu/",
+                "name": "Northeastern University",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0009-0005-6654-3678",
+            "@type": "Person",
+            "email": "cchiale@fing.edu.uy",
+            "givenName": "Carlos Andr\u00e9s",
+            "familyName": "Chiale"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "Biological invasions",
+        "Gleditsia triacanthos",
+        "management of biological invasions",
+        "Riparian forest",
+        "South America",
+        "Uruguay"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/f0hn-qq83",
+        "https://doi.org/10.25937/f0hn-qq83"
+    ],
+    "dateCreated": "2022-07-20",
+    "description": "Riparian forests are one of the most vulnerable ecosystems to the development of biological invasions, therefore limiting their spread is one of the main challenges for conservation. The main factors that explain plant invasions in these ecosystems are the capacity for both short- and long-distance seed dispersion, and the occurrence of suitable habitats that facilitate the establishment of the invasive species. Large floods constitute an abiotic filter   for invasion.\n\nThis model simulates the spatio-temporal spread of the woody invader Gleditsia. triacanthos in the riparian forest of the National Park Esteros de Farrapos e Islas del R\u00edo Uruguay, a riparian system in the coast of the Uruguay river (South America). In this model, we represent different environmental conditions for the development of G. triacanthos, long- and short-distance spread of its fruits, and large floods as the main factor of mortality for fruit and early stages. \n\nField results show that the distribution pattern of this invasive species is limited by establishment, i.e. it spreads locally through the expansion of small areas, and remotely through new invasion foci. This model recreates this dispersion pattern. We use this model to derive management implications to control the spread of G. triacanthos\n",
+    "downloadUrl": "https://www.comses.net/codebases/dbe20cf9-d1ad-49b9-ac5b-481dbde4a13a/releases/1.0.0/download/",
+    "dateModified": "2023-05-09",
+    "releaseNotes": "Open the code in Netlogo, setup the variables, click Setup to initialize, then Go to can run the model. \nTo better run the model you should increase the memory amount see tutorial in\n(https://ccl.northwestern.edu/netlogo/docs/faq.html#how-big-can-my-model-be-how-many-turtles-patches-procedures-buttons-and-so-on-can-my-model-contain)\n",
+    "copyrightYear": 2023,
+    "datePublished": "2023-05-09",
+    "embargoEndDate": "2023-06-15",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Net Logo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Sosa, B.; Zellner, M.; Chiale, C.; in preparation. \u201cWoody invasions in riparian systems. The spread of Gleditsia triacanthos in riparian forest of the National Park Esteros de Farrapos e Islas del R\u00edo Uruguay.\u201d"
+}

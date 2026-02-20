@@ -1,0 +1,104 @@
+{
+    "@id": "https://www.comses.net/codebases/5836/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/5836/releases/1.1.0/",
+    "name": "ACT: Agent-based model of Critical Transitions",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1874/",
+            "@type": "Person",
+            "email": "oscar.kraan@gmail.com",
+            "givenName": "Oscar",
+            "familyName": "Kraan",
+            "affiliation": {
+                "url": "https://www.uu.nl/en/research/copernicus-institute-of-sustainable-development",
+                "name": "Copernicus Institute of Sustainable Development",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Steven",
+            "familyName": "Dalderop"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Gert Jan",
+            "familyName": "Kramer"
+        },
+        {
+            "@id": "https://www.comses.net/users/1210/",
+            "@type": "Person",
+            "email": "nikolic.igor@tudelft.nl",
+            "givenName": "Igor",
+            "familyName": "Nikolic",
+            "affiliation": {
+                "@id": "https://ror.org/02e2c7k09",
+                "url": "http://www.tudelft.nl/en/",
+                "name": "Delft University of Technology",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02e2c7k09"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1874/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://www.comses.net/users/1210/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Scheffer M, Westley F, Brock W. Slow response of society to new problems: causes and costs. Ecosystems. 2003;(October 2003).",
+            "@type": "CreativeWork"
+        }
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5836/releases/1.1.0/",
+    "dateCreated": "2017-12-22",
+    "description": "More realistic simulating of the energy transition requires the integration of human behaviour in energy system models. In this study we reflect on the use of conceptual models of human behaviour to support discussion on the evolution of the energy system. We present a simple agent-based model inspired by an existing conceptualisation based on the concept of critical transitions. The concept has been implemented in an agent-based model (ACT: Agent-Based Model of Critical Transitions) to be able to analyse the effect of actor behaviour on the energy transition. With ACT we could depart from a mean-field approach and explore the effect of leaders, social norms and interaction networks. Results from ACT show that the effect of leaders is more nuanced that what is assumed in existing literature on critical transitions; leaders can encourage a transition but can also try to stall any development till a critical transition is inevitable. We conclude with a reflection on the use of conceptual models in general in which we argue that the application of the concept of critical transitions and conceptual modelling in general has a role to play in understanding, discussing and communicating about the energy transition.",
+    "downloadUrl": "https://www.comses.net/codebases/5836/releases/1.1.0/download/",
+    "dateModified": "2018-08-27",
+    "releaseNotes": "",
+    "copyrightYear": 2018,
+    "datePublished": "2018-08-27",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

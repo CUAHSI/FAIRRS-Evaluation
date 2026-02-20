@@ -1,0 +1,67 @@
+{
+    "@id": "https://www.comses.net/codebases/8b1e1acb-5010-4faa-a3f6-30edf4252ada/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/8b1e1acb-5010-4faa-a3f6-30edf4252ada/releases/1.0.0/",
+    "name": "Shellmound Mobility",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-0853-072X",
+            "@type": "Person",
+            "email": "kozlowski.henrique@gmail.com",
+            "givenName": "Henrique",
+            "familyName": "de Sena Kozlowski",
+            "affiliation": {
+                "@id": "https://ror.org/036rp1748",
+                "url": "https://www5.usp.br",
+                "name": "Universidade de S\u00e3o Paulo",
+                "@type": "Organization",
+                "identifier": "https://ror.org/036rp1748"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "This model was inspired by the Least Cost Path Mobility model (Gravel-Miguel, C., Wren, C., 2018). The export paths procedure was adapted from the Least Cost Path Mobility Model. This model also uses the reporter procedure to find the best path based on the Paths model available in the NetLogo Model Library.\n\n\nGrider, R., and Uri Wilensky. 2015. NetLogo Paths model. http://ccl.northwestern.edu/netlogo/models/Paths. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.\n\nGravel-Miguel, and Colin Wren. 2018. Agent-based least-cost path analysis and the diffusion of Cantabrian Lower Magdalenian engraved scapulae. Journal of Archaeological Science. 99, p.1-9. doi: https://doi.org/10.1016/j.jas.2018.08.014",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "archaeology",
+        "Brazil",
+        "mobility",
+        "shellmounds"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/8b1e1acb-5010-4faa-a3f6-30edf4252ada/releases/1.0.0/",
+    "dateCreated": "2024-06-15",
+    "description": "Least Cost Path (LCP) analysis is a recurrent theme in spatial archaeology. Based on a cost of movement image, the user can interpret how difficult it is to travel around in a landscape. This kind of analysis frequently uses GIS tools to assess different landscapes. This model incorporates some aspects of the LCP analysis based on GIS with the capabilities of agent-based modeling, such as the possibility to simulate random behavior when moving. In this model the agent will travel around the coastal landscape of Southern Brazil, assessing its path based on the different cost of travel through the patches. The agents represent shellmound builders (sambaquieiros), who will travel mainly through the use of canoes around the lagoons.\n\nHow it works?\nWhen the simulation starts the hiker agent moves around the world, a representation of the lagoon landscape of the Santa Catarina state in Southern Brazil. The agent movement is based on the travel cost of each patch. This travel cost is taken from a cost surface raster created in ArcMap to represent the different cost of movement around the landscape. Each tick the agent will have a chance to select the best possible patch to move in its Field of View (FOV) that will take it towards its target destination. If it doesn\u2019t select the best possible patch, it will randomly choose one of the patches to move in its FOV. The simulation stops when the hiker agent reaches the target destination. The elevation raster file and the cost surface map are based on a 1 Arc-second (30m) resolution SRTM image, scaled down 5 times. Each patch represents a square of 150m, with an area of 0,0225km\u00b2. The dataset uses a UTM Sirgas 2000 22S projection system. There are four different cost functions available to use. They change the cost surface used by the hikers to navigate around the world.",
+    "downloadUrl": "https://www.comses.net/codebases/8b1e1acb-5010-4faa-a3f6-30edf4252ada/releases/1.0.0/download/",
+    "dateModified": "2024-06-15",
+    "releaseNotes": "Reviewed version after thesis defense.",
+    "copyrightYear": 2024,
+    "datePublished": "2024-06-15",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "computational experiments by using netlogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "https://doi.org/10.11606/T.71.2023.tde-18012024-102858"
+}

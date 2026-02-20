@@ -1,0 +1,47 @@
+{
+    "@id": "https://www.comses.net/codebases/3b6de0ff-4361-42a0-9fa8-33b5626276e2/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/3b6de0ff-4361-42a0-9fa8-33b5626276e2/releases/1.1.0/",
+    "name": "Multi-agent modeling and analysis of the knowledge learning of a human-machine hybrid intelligent organization with human-machine trust",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/4017/",
+            "@type": "Person",
+            "email": "hxzhang85430@163.com",
+            "givenName": "Haoxiang",
+            "familyName": "Zhang"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3b6de0ff-4361-42a0-9fa8-33b5626276e2/releases/1.1.0/",
+    "dateCreated": "2023-04-24",
+    "description": "Machine learning technologies have changed the paradigm of knowledge discovery in organizations and transformed traditional organizational learning to human-machine hybrid intelligent organizational learning. However, it remains unclear how human-machine trust, which is an important factor that influences human-machine knowledge exchange, affects the effectiveness of human-machine hybrid intelligent organizational learning. To explore this issue, we used multi-agent simulation to construct a knowledge learning model of a human-machine hybrid intelligent organization with human-machine trust.",
+    "downloadUrl": "https://www.comses.net/codebases/3b6de0ff-4361-42a0-9fa8-33b5626276e2/releases/1.1.0/download/",
+    "dateModified": "2023-04-24",
+    "releaseNotes": "A multi-agent simulation model was constructed by March (1991) to simulate the learning process in an organization. In this process, humans identify the optimal knowledge to be stored in the organization and organizational knowledge is then used by humans. The continuous mutual interaction between members\u2019 knowledge and organizational knowledge promotes the improvement of organizational knowledge. Organizational learning is distinguished as exploration learning and exploitation learning, depending on the human agents\u2019 learning rate for adopting beliefs from the organizational code ( ). \nTo model HMHI organizational learning, Sturm et al. (2021) extended March\u2019s model by including ML agents. In Sturm\u2019s model, ML accepts knowledge input by humans and learns independently, and then deposits the learned knowledge into the organization continuously to form organizational knowledge. The addition of ML allows organizational knowledge to be generated not only by humans but also by humans and ML together.\nMarch and Sturm\u2019s models construct a basic framework for collaborative human-machine organizational learning, which facilitates our study of organizational learning with the consideration of human-machine trust. Therefore, based on their models, we construct the HMHI organizational learning model considering human-machine trust.\n",
+    "copyrightYear": 2023,
+    "datePublished": "2023-04-24",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "MatLab"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "ABM",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

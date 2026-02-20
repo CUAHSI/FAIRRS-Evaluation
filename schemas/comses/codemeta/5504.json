@@ -1,0 +1,67 @@
+{
+    "@id": "https://doi.org/10.25937/hbnh-af93",
+    "url": "https://doi.org/10.25937/hbnh-af93",
+    "name": "CHIME ABM Hurricane Evacuation Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1394/",
+            "@type": "Person",
+            "email": "jswatts@asu.edu",
+            "givenName": "Joshua",
+            "familyName": "Watts",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1394/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.4.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "decision model",
+        "extreme weather",
+        "hurricanes"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/hbnh-af93",
+        "https://doi.org/10.25937/hbnh-af93"
+    ],
+    "dateCreated": "2018-01-02",
+    "description": "The CHIME ABM was designed to investigate the dynamics of hazardous weather communication and decision making, in the context of evolving hazard forecasts and the complex modern information environment. To ensure that the model included important elements, dynamics, and interactions needed to address the questions of interest, it was conceptualized and implemented through interdisciplinary collaboration incorporating in-depth knowledge about key aspects of the system. Areas of expertise involved include hazardous weather and weather forecasting as well as hazard risk communication, information networks, vulnerability, and protective decision making. This knowledge was incorporated through interactions between the ABM research and the larger research project discussed in Morss et al. (BAMS 2017) and review of relevant literature.\n\nCHIME ABM V1 includes a modeled world consisting of a spatially explicit geographical area of interest (e.g., the US state of Florida), a dynamic hazard that moves through that world (a hurricane), evolving forecast information about that hazard, and a multi-agent model in which different types of information related to the hazard are communicated among agents and used in protective decision making. \n\nThe version of the model described here has been developed and tested in the NetLogo modeling environment. Most of the past and current code development was done in NetLogo 5x, relying heavily on the GIS extension and maps or spatial data imported from several sources (described in the supporting documentation). V1.4 is compatible with NetLogo 6x, includes a new geographic region, and includes options for recent major hurricanes.",
+    "downloadUrl": "https://www.comses.net/codebases/5504/releases/1.4.0/download/",
+    "dateModified": "2019-07-09",
+    "releaseNotes": "**** Minor refinements to code and documentation per feedback from reviewers.****\n\nNote that this version uses relative paths to input files; .nlogo file should be placed in the same location as the /data folder. ",
+    "copyrightYear": 2019,
+    "datePublished": "2019-05-29",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

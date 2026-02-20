@@ -1,0 +1,103 @@
+{
+    "@id": "https://www.comses.net/codebases/a1667c67-6473-4d4c-9322-2ac5a5053551/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/a1667c67-6473-4d4c-9322-2ac5a5053551/releases/1.0.0/",
+    "name": "COVID-19 SIR with Public Health Interventions",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-2122-8026",
+            "@type": "Person",
+            "email": "kitcmartin@gmail.com",
+            "givenName": "Kit",
+            "familyName": "Martin",
+            "affiliation": {
+                "url": "https://www.csats.psu.edu/",
+                "name": "Penn State",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "ams5306@psu.edu",
+            "givenName": "Amber",
+            "familyName": "Cesare",
+            "affiliation": {
+                "@id": "https://ror.org/04p491231",
+                "url": "http://www.psu.edu/",
+                "name": "Pennsylvania State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04p491231"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "mattjohnson@psu.edu",
+            "givenName": "Matthew",
+            "familyName": "Johnson",
+            "affiliation": {
+                "@id": "https://ror.org/04p491231",
+                "url": "http://www.psu.edu/",
+                "name": "Pennsylvania State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04p491231"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "collaborator"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "No",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "COVID-19",
+        "NetLogo",
+        "public health",
+        "SIR"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/a1667c67-6473-4d4c-9322-2ac5a5053551/releases/1.0.0/",
+    "dateCreated": "2021-09-28",
+    "description": "This is an extension of the  basic [Suceptible, Infected, Recovered (SIR) model](https://www.comses.net/codebases/c616b4e0-cbcf-4ce8-a115-9536d169217c/releases/1.0.0/). This model explores the spread of disease in two spaces, one a treatment, and one a control. Through the modeling options, one can explore how changing assumptions about the number of susceptible people, starting number of infected people, the disease's infection probability, and average duration impacts the outcome. In addition, this version allows users to explore how public health interventions like social distancing, masking, and isolation can affect the number of people infected. The model shows that the interactions of agents, and the interventions can drastically affect the results of the model.\n\nWe used the model in our course about COVID-19: https://www.csats.psu.edu/science-of-covid19",
+    "downloadUrl": "https://www.comses.net/codebases/a1667c67-6473-4d4c-9322-2ac5a5053551/releases/1.0.0/download/",
+    "dateModified": "2021-09-28",
+    "releaseNotes": "This is the second model in our COVID-19 course.",
+    "copyrightYear": 2021,
+    "datePublished": "2021-09-28",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Agent-based modelling"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "The Science of COVID-19\u2014CSATS: Center for Science and the Schools | Penn State. (2020.). Retrieved September 28, 2021, from https://www.csats.psu.edu/science-of-covid19"
+}

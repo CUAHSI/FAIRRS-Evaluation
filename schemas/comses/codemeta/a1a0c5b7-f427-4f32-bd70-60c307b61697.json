@@ -1,0 +1,74 @@
+{
+    "@id": "https://doi.org/10.25937/7jky-0a26",
+    "url": "https://doi.org/10.25937/7jky-0a26",
+    "name": "An extended replication of Abelson's and Bernstein's community referendum simulation",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-6266-4337",
+            "@type": "Person",
+            "email": "klaus.g.troitzsch@bluewin.ch",
+            "givenName": "Klaus G.",
+            "familyName": "Troitzsch",
+            "affiliation": {
+                "@id": "https://ror.org/01j9f6752",
+                "url": "http://www.uni-koblenz-landau.de/en",
+                "name": "University of Koblenz and Landau",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01j9f6752"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "2.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "doi 10.1086/267152",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "agent-based computational model",
+        "dynamics opinion",
+        "formal modeling",
+        "referendum"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/7jky-0a26",
+        "https://doi.org/10.25937/7jky-0a26"
+    ],
+    "dateCreated": "2019-10-25",
+    "description": "This is an extended replication of Abelson's and Bernstein's early computer simulation model of community referendum controversies which was originally published in 1963 and often cited, but seldom analysed in detail. This replication is in NetLogo 6.3.0, accompanied with an ODD+D protocol and class and sequence diagrams.\n\nThis replication replaces the original scales for attitude position and interest in the referendum issue which were distributed between 0 and 1 with values that are initialised according to a normal distribution with mean 0 and variance 1 to make simulation results easier compatible with scales derived from empirical data collected in surveys such as the European Value Study which often are derived via factor analysis or principal component analysis from the answers to sets of questions. \n\nAnother difference is that this model is not only run for Abelson\u2019s and Bernstein\u2019s ten week referendum campaign but for an arbitrary time in order that one can find out whether the distributions of attitude position and interest in the (still one-dimensional) issue stabilise in the long run.",
+    "downloadUrl": "https://www.comses.net/codebases/a1a0c5b7-f427-4f32-bd70-60c307b61697/releases/2.1.0/download/",
+    "dateModified": "2024-12-05",
+    "releaseNotes": "The model is written in NetLogo 6.3.0. The scale of the \"interest-in-the-issue\" and the \"attitude-position\" were changed from a uniform random initialisation between 0 and 1 to a random normal initialisation with mean 0 and variance 1. Some bugs were fixed, and the anonymous procedure feature of NetLogo 6 was applied.\nThis version followed all comments of the reviewer with respect to the former version 2.0.0 and added a couple of widgets for controlling the model and for showing more frequency distributions and their parameters. Some more bugs were fixed.",
+    "copyrightYear": 2023,
+    "datePublished": "2023-08-25",
+    "supportingData": {
+        "url": "https://kgtcss.work/abelson-and-bernstein-revisited",
+        "@type": "DataFeed"
+    },
+    "operatingSystem": "linux",
+    "runtimePlatform": [
+        "NetLogo 6.3.0"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo 6.3.0",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Formal design methods and the relation between simulation models and theory: A philosophy of science point of view, to appear as a chapter in Rud\u00e1s, T. & P\u00e9li, G. (Eds.) Pathways between Social Science and Computational Social Science: Theories, Methods and Interpretations Springer, 2020"
+}

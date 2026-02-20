@@ -1,0 +1,91 @@
+{
+    "@id": "https://www.comses.net/codebases/5331/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/5331/releases/1.1.0/",
+    "name": "Active Shooter:  An Agent-Based Model of Unarmed Resistance",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-7462-6426",
+            "@type": "Person",
+            "email": "twbriggs@gmail.com",
+            "givenName": "Tom",
+            "familyName": "Briggs",
+            "affiliation": {
+                "@id": "https://ror.org/02jqj7156",
+                "url": "https://www.gmu.edu/",
+                "name": "George Mason University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02jqj7156"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-9238-1215",
+            "@type": "Person",
+            "email": "wkennedy@gmu.edu",
+            "givenName": "William",
+            "familyName": "Kennedy",
+            "affiliation": {
+                "@id": "https://ror.org/02jqj7156",
+                "url": "https://www.gmu.edu/",
+                "name": "George Mason University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02jqj7156"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-7462-6426",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-9238-1215",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.html",
+        "name": "Apache-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "active shooter",
+        "firearms",
+        "gun",
+        "law enforcement",
+        "leo",
+        "mass shooter",
+        "military",
+        "security",
+        "terrorism",
+        "violence"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5331/releases/1.1.0/",
+    "dateCreated": "2017-04-04",
+    "description": "Mass shootings unfold quickly and are rarely foreseen by victims. Increasingly, training is provided to increase chances of surviving active shooter scenarios, usually emphasizing \u201cRun, Hide, Fight.\u201d Evidence from prior mass shootings suggests that casualties may be limited should the shooter encounter unarmed resistance prior to the arrival of law enforcement officers (LEOs). An agent-based model (ABM) explored the potential for limiting casualties should a small proportion of potential victims swarm a gunman, as occurred on a train from Amsterdam to Paris in 2015. Results suggest that even with a miniscule probability of overcoming a shooter, fighters may save lives but put themselves at increased risk. While not intended to prescribe a course of action, the model suggests the potential for a reduction in casualties in active shooter scenarios.",
+    "downloadUrl": "https://www.comses.net/codebases/5331/releases/1.1.0/download/",
+    "dateModified": "2018-10-11",
+    "releaseNotes": "",
+    "copyrightYear": 2017,
+    "datePublished": "2017-04-04",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Briggs, T. W., & Kennedy, W. G. (2016). Active shooter: An agent-based model of unarmed resistance. In Proceedings of the 2016 Winter Simulation Conference (WSC), 3521\u20133531. https://doi.org/10.1109/WSC.2016.7822381"
+}

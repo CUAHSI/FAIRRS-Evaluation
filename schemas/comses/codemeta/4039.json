@@ -1,0 +1,86 @@
+{
+    "@id": "https://www.comses.net/codebases/4039/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/4039/releases/1.1.0/",
+    "name": "Gunpowder battle tactics",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1161/",
+            "@type": "Person",
+            "email": "xavier.rubio@bsc.es",
+            "givenName": "Xavier",
+            "familyName": "Rubio-Campillo",
+            "affiliation": {
+                "url": "http://www.bsc.es",
+                "name": "Barcelona Supercomputing Centre",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Jose Mar\u00eda",
+            "familyName": "Cela"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Francesc Xavier",
+            "familyName": "Hern\u00e0ndez"
+        },
+        {
+            "@id": "https://www.comses.net/users/1161/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "armed conflict",
+        "high-performance computing",
+        "military history",
+        "modern history"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4039/releases/1.1.0/",
+    "dateCreated": "2013-11-26",
+    "description": "Computational models have been extensively used in military operations research, but they are rarely seen in military history studies. The introduction of this technique has potential benefits for the study of past conflicts. This model was developed to help understand European military tactics during the eighteenth century, in particular during the War of the Spanish Succession.\r\nThe computer simulation is useful to test the significance of the different parameters that affected infantry performance in the battlefield, according to a variety of primary sources and research hypotheses.\r\n\r\nThe model has been developed using the [Pandora ABM framework](http://www.bsc.es/computer-applications/pandora-hpc-agent-based-modelling-framework).",
+    "downloadUrl": "https://www.comses.net/codebases/4039/releases/1.1.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-11-26",
+    "operatingSystem": "linux",
+    "runtimePlatform": [
+        "Pandora"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "C++",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Rubio-Campillo, X.; Cela, J.M.; Hern\u00e0ndez, F.X. (2013). \u201cThe development of new infantry tactics during the early eighteenth century: a computer simulation approach to modern military history\u201d, Journal of Simulation, 7, pp. 170-182."
+}

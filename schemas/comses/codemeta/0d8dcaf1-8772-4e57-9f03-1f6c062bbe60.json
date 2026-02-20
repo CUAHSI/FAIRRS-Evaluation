@@ -1,0 +1,103 @@
+{
+    "@id": "https://www.comses.net/codebases/0d8dcaf1-8772-4e57-9f03-1f6c062bbe60/releases/1.2.0/",
+    "url": "https://www.comses.net/codebases/0d8dcaf1-8772-4e57-9f03-1f6c062bbe60/releases/1.2.0/",
+    "name": "WatASit",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "email": "bastien.richard@inrae.fr",
+            "givenName": "Bastien",
+            "familyName": "Richard",
+            "affiliation": {
+                "@id": "https://ror.org/003vg9w96",
+                "url": "https://www.inrae.fr/",
+                "name": "National Research Institute for Agriculture, Food and Environment",
+                "@type": "Organization",
+                "identifier": "https://ror.org/003vg9w96"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-7325-0495",
+            "@type": "Person",
+            "email": "bruno.bonte@inrae.fr",
+            "givenName": "Bruno",
+            "familyName": "Bont\u00e9",
+            "affiliation": {
+                "url": "https://www.inrae.fr",
+                "name": "Inrae",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "olivier.barreteau@inrae.fr",
+            "givenName": "Olivier",
+            "familyName": "Barreteau",
+            "affiliation": {
+                "@id": "https://ror.org/003vg9w96",
+                "url": "https://www.inrae.fr/",
+                "name": "National Research Institute for Agriculture, Food and Environment",
+                "@type": "Organization",
+                "identifier": "https://ror.org/003vg9w96"
+            }
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "email": "isabelle.braud@inrae.fr",
+            "givenName": "Isabelle",
+            "familyName": "Braud",
+            "affiliation": {
+                "@id": "https://ror.org/003vg9w96",
+                "url": "https://www.inrae.fr/",
+                "name": "National Research Institute for Agriculture, Food and Environment",
+                "@type": "Organization",
+                "identifier": "https://ror.org/003vg9w96"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "ABM"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/0d8dcaf1-8772-4e57-9f03-1f6c062bbe60/releases/1.2.0/",
+    "dateCreated": "2019-12-20",
+    "description": "WatASit is an agent-based model implemented in the CORMAS plateform. The model is developped to simulate irrigation situations at the operational level during a collective irrigation campaign.",
+    "downloadUrl": "https://www.comses.net/codebases/0d8dcaf1-8772-4e57-9f03-1f6c062bbe60/releases/1.2.0/download/",
+    "dateModified": "2020-10-28",
+    "releaseNotes": "Model description\n1. Structure: The structure of the model is based on the distinction between the elements that are involved in operations (called operational entities) such as the irrigators, and the areas over which operational entities can operate (called spatial entities) such as the plots, the farms and the network area. The artifact entities explicitely represent the abstract possibilities of irrigation. \n2. Sequencing: Each day, there is first an initialization of the current and forthcoming precipitation conditions, and also of the irrigation status of the plots i.e. the number of days since they have not been irrigated. Then, every hour, all irrigation possibilities are generated  and on each farm according to the operational entities localization and constraints. At the end of the day, daily irrigation doses are calculated on each plot of the network.\n3. Objectives: Agents in the model are goal-oriented as they are provided with an operational irigation strategy that allows them to choose between the simultaneous irrigation possibilities.\n4. Adaptation: As water at the floodgate is not always sufficiently available to irrigate a plot, irrigator agents have 3 possibilities: (1) irrigate an other plot with crop needing water and having an irrigation possibility, (2) ask for more water in the canal by rising the flow at the canal water intake if maximum flow at intake is not yet reached, and (3) do no irrigate during this time step.\n5. Interactions: WatASit allows direct interactions between the operators (i.e. the irrigator agents) and the passive objects of their spatial environnement (e.g. the floodgates to deliver water to their plot from the gravity-fed canal). By openning or closing the floodgates, irrigator agents thus also interact indirectly with each other by reducing the amount of water available for the irrigators located downstream of the network.\nMore description is available in the associated \"model_description\" file. The READ_ME file also provides instructions for running the model.",
+    "copyrightYear": 2020,
+    "datePublished": "2020-10-28",
+    "operatingSystem": "linux",
+    "runtimePlatform": [
+        "Cormas",
+        "R"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "R",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "Smalltalk",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "https://doi.org/10.1051/lhb/2020033"
+}

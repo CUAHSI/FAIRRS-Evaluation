@@ -1,0 +1,57 @@
+{
+    "@id": "https://www.comses.net/codebases/4428/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4428/releases/1.0.0/",
+    "name": "Societal Simulator v203 fertility graph fix",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "givenName": "Tim",
+            "familyName": "Gooding"
+        },
+        {
+            "@id": "_:author_1",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Gooding, T (2014), Modelling Society\u2019s Evolutionary Forces, Journal of Artificial Society\u2019s and Social Simulation, 17 (3) 3, http://jasss.soc.surrey.ac.uk/JASSS.html.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4428/releases/1.0.0/",
+    "dateCreated": "2014-11-26",
+    "description": "This is the same model as used in the article 'Modelling Society's Evolutionary Forces' except the Fertility graph has been corrected. The Fertility graph was not used in the published article.\r\n\r\nThis is the evolutionary multi-agent model designed to capture the key forces in global society. Specifically, it allows the agents to grow more powerful with wealth which creates a wealth aggregation evolutionary imperative.\r\n\r\nA more detailed description of how the model works is available under the 'Info' tab in the model itself.",
+    "downloadUrl": "https://www.comses.net/codebases/4428/releases/1.0.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "",
+    "copyrightYear": 2014,
+    "datePublished": "2014-11-26",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

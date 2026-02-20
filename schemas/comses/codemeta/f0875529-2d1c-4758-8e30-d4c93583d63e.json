@@ -1,0 +1,58 @@
+{
+    "@id": "https://doi.org/10.25937/y1pm-bs84",
+    "url": "https://doi.org/10.25937/y1pm-bs84",
+    "name": "ABM Overtourism Santa Marta",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-9145-6470",
+            "@type": "Person",
+            "email": "janwarlab@gmail.com",
+            "givenName": "Janwar",
+            "familyName": "Moreno",
+            "affiliation": {
+                "@id": "https://ror.org/04dfr7a85",
+                "url": "http://www.unipamplona.edu.co/",
+                "name": "University of Pamplona",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04dfr7a85"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/y1pm-bs84",
+        "https://doi.org/10.25937/y1pm-bs84"
+    ],
+    "dateCreated": "2023-07-31",
+    "description": "This model presents the simulation model of a city in the context of overtourism. The study area is the city of Santa Marta in Colombia. The purpose is to illustrate the spatial and temporal distribution of population and tourists in the city. The simulation analyzes emerging patterns that result from the interaction between critical components in the touristic urban system: residents, urban space, touristic sites, and tourists. The model is an Agent-Based Model (ABM) with the GAMA software. Also, it used public input data from statistical centers, geographical information systems, tourist websites, reports, and academic articles. The ABM includes assessing some measures used to address overtourism. This is a field of research with a low level of analysis for destinations with overtourism, but the ABM model allows it. The results indicate that the city has a high risk of overtourism, with spatial and temporal differences in the population distribution, and it illustrates the effects of two management measures of the phenomenon on different scales. Another interesting result is the proposed tourism intensity indicator (OVsm), taking into account that the tourism intensity indicators used by the literature on overtourism have an overestimation of tourism pressures.",
+    "downloadUrl": "https://www.comses.net/codebases/f0875529-2d1c-4758-8e30-d4c93583d63e/releases/1.0.0/download/",
+    "dateModified": "2023-11-04",
+    "releaseNotes": "The model proceeds with time intervals of one hour (step) (t), its start date is 01/01/2018 at 00:00 hours. All entities initialize with related attributes in state variables and parameters. Agents are shown on the map with circles representing the travel group size. Residents are shown in red circles, they are initially located in the home MZ. There is a percentage of residents who move for recreation (TR) and that determines the resident population that will move for recreation. Tourists are shown by blue circles, they initialize at the entry MZ. There is a minimum (Vmin), maximum (Vmax), and average (Vmedia) speed for agents to move within the destination, where all agents randomly select the speed at which they expect to move within the world, taking into account the speed parameters mentioned. There is a road network that joins the MZs, through which the agents will move.\n\nConsecutively, agents move between MZs to accomplish different objectives. Tourists move to touristic sites (SIT) block if they are willing to spend more than 24 hours in the city; then, they will move to a lodging MZ at the time of entry to the lodging area, otherwise, they will move to the entry-exit MZ to leave the world, an action that is repeated every day. In each step, one hour is subtracted from the variable hours of stay in Santa Marta. When this counter reaches zero, it is the moment when the tourist leaves the world. Every day, new tourist agents are generated randomly, in an interval defined in the global environment state variable: Minimum number of tourists in the world (lower limit) and Maximum number of tourists in the world (upper limit). In the case of residents, only those who have recreation as their objective will move, and they will move to MZ SIT at the time established for this activity for each agent, and afterward, they will return to the MZ Home at the established return time.\n\n",
+    "copyrightYear": 2023,
+    "datePublished": "2023-10-23",
+    "codeRepository": "https://github.com/Janwarlab/Overtourism_SM.git",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "GAMA"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "gaml",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

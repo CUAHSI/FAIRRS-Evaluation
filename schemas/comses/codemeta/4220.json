@@ -1,0 +1,93 @@
+{
+    "@id": "https://www.comses.net/codebases/4220/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4220/releases/1.0.0/",
+    "name": "Agent-based Simulation Models of the College Sorting Process",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "givenName": "Sean",
+            "familyName": "Reardon"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Matt",
+            "familyName": "Kasman"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Daniel",
+            "familyName": "Klasik"
+        },
+        {
+            "@id": "https://www.comses.net/users/1248/",
+            "@type": "Person",
+            "email": "rbbaker@stanford.edu",
+            "givenName": "Rachel",
+            "familyName": "Baker",
+            "affiliation": {
+                "@id": "https://ror.org/00f54p054",
+                "url": "http://www.stanford.edu/",
+                "name": "Stanford University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00f54p054"
+            }
+        },
+        {
+            "@id": "_:author_1",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://www.comses.net/users/1248/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "college sorting",
+        "education"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4220/releases/1.0.0/",
+    "dateCreated": "2014-05-23",
+    "description": "We explore how dynamic processes related to socioeconomic inequality operate to sort students into, and create stratification among, colleges. We use an agent-based model to simulate a stylized version of this sorting processes in order to explore how factors related to family resources might influence college application choices and college enrollment. We include two types of \u201cagents\u201d\u2014students and colleges\u2014to simulate a two-way matching process that iterates through three stages: application, admission, and enrollment. Within this model, we examine how five mechanisms linking students\u2019 socioeconomic background to college sorting might influence socioeconomic stratification between colleges including relationships between student resources and: achievement; the quality of information used in the college selection process; the number of applications students submit; how students value college quality; and the students\u2019 ability to enhance their apparent caliber. We find that the resources-achievement relationship explains much of the student sorting by resources but that other factors also have non-trivial influences.",
+    "downloadUrl": "https://www.comses.net/codebases/4220/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2014,
+    "datePublished": "2014-05-23",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Stata"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    }
+}

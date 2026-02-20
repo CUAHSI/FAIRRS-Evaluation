@@ -1,0 +1,77 @@
+{
+    "@id": "https://doi.org/10.25937/cym5-w413",
+    "url": "https://doi.org/10.25937/cym5-w413",
+    "name": "Hydroman",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/678/",
+            "@type": "Person",
+            "email": "dmasse2@uic.edu",
+            "givenName": "Dean",
+            "familyName": "Massey",
+            "affiliation": {
+                "@id": "https://ror.org/02mpq6x41",
+                "url": "http://www.uic.edu/uic/",
+                "name": "University of Illinois at Chicago",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02mpq6x41"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-4111-3357",
+            "@type": "Person",
+            "email": "m.zellner@northeastern.edu",
+            "givenName": "Moira",
+            "familyName": "Zellner",
+            "affiliation": {
+                "url": "https://www.northeastern.edu/",
+                "name": "Northeastern University",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "Natural-human systems modelling",
+        "pampas",
+        "rural decision-making",
+        "water risk management",
+        "water table"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/cym5-w413",
+        "https://doi.org/10.25937/cym5-w413"
+    ],
+    "dateCreated": "2019-08-01",
+    "description": "Hydroman is a flexible spatially explicit model coupling human and hydrological processes to explore shallow water tables and land cover interactions in flat agricultural landscapes, modeled after the Argentine Pampas. Hydroman aligned well with established hydrological models, and was validated with water table patterns and crop yield observed in the study area.",
+    "downloadUrl": "https://www.comses.net/codebases/e76622f3-4332-4cdd-ab84-6c25ee17d78d/releases/1.0.0/download/",
+    "dateModified": "2024-12-05",
+    "releaseNotes": "Zellner, M., Garcia, G., Bert, F., Massey, D., Nosetto, M. 2020. \u201cExploring reciprocal interactions between groundwater and land cover decisions in flat agricultural areas and variable climate.\u201d Environmental Modelling and Software. https://doi.org/10.1016/j.envsoft.2020.104641",
+    "copyrightYear": 2020,
+    "datePublished": "2020-05-16",
+    "embargoEndDate": "2021-01-01",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

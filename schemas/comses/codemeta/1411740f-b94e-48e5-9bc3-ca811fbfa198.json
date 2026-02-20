@@ -1,0 +1,54 @@
+{
+    "@id": "https://www.comses.net/codebases/1411740f-b94e-48e5-9bc3-ca811fbfa198/releases/0.1.0/",
+    "url": "https://www.comses.net/codebases/1411740f-b94e-48e5-9bc3-ca811fbfa198/releases/0.1.0/",
+    "name": "Oneshot negotiation in Colored Trails",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-9076-0606",
+            "@type": "Person",
+            "email": "hdeweerd@gmail.com",
+            "givenName": "Harmen",
+            "familyName": "de Weerd"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "0.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "Coloured Trails",
+        "Java",
+        "negotiation",
+        "theory of mind"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/1411740f-b94e-48e5-9bc3-ca811fbfa198/releases/0.1.0/",
+    "dateCreated": "2019-04-04",
+    "description": "This model allows for oneshot negotiations in the Colored Trails setting. Two *allocator* agents simultaneously make an offer to a *responder* agent, who chooses which of these offers to accept, or to reject both offers. The code allows for allocator allocator agents of different orders of theory of mind reasoning to play against one another.",
+    "downloadUrl": "https://www.comses.net/codebases/1411740f-b94e-48e5-9bc3-ca811fbfa198/releases/0.1.0/download/",
+    "dateModified": "2019-04-09",
+    "releaseNotes": "Java sources.",
+    "copyrightYear": 2019,
+    "datePublished": "2019-04-09",
+    "codeRepository": "https://github.com/hdeweerd/oneshotCT",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Java"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,130 @@
+{
+    "@id": "https://www.comses.net/codebases/a6160a80-0c4d-492a-bbb3-cd08964b18ff/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/a6160a80-0c4d-492a-bbb3-cd08964b18ff/releases/1.0.0/",
+    "name": "ReMoTe-S. Residential Mobility of Tenants in Switzerland: an agent-based model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-5370-5595",
+            "@type": "Person",
+            "email": "anna.pagani@epfl.ch",
+            "givenName": "Anna",
+            "familyName": "Pagani",
+            "affiliation": {
+                "@id": "https://ror.org/02s376052",
+                "url": "http://www.epfl.ch/index.en.html",
+                "name": "\u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02s376052"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "francesco.ballestrazzi@epfl.ch",
+            "givenName": "Francesco",
+            "familyName": "Ballestrazzi",
+            "affiliation": {
+                "@id": "https://ror.org/02s376052",
+                "url": "http://www.epfl.ch",
+                "name": "\u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02s376052"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "Emanuele.MASSARO@ec.europa.eu",
+            "givenName": "Emanuele",
+            "familyName": "Massaro",
+            "affiliation": {
+                "@id": "https://ror.org/05gm41t98",
+                "url": "http://www.jcrc.org.ug/",
+                "name": "Joint Clinical Research Centre",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05gm41t98"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1254/",
+            "@type": "Person",
+            "email": "claudia.binder@lmu.de",
+            "givenName": "Claudia",
+            "familyName": "Binder",
+            "affiliation": {
+                "url": "http://eographie.uni-muenchen.de/department/fiona/personen/index.php?personen_details=1&user_id=197",
+                "name": "Prof. Dr.",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-5370-5595",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "https://www.comses.net/users/1254/",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Pagani, A., & Binder, C. R. (2021). A systems perspective for residential preferences and dwellings: housing functions and their role in Swiss residential mobility. Housing Studies. https://doi.org/10.1080/02673037.2021.1900793\n\nPagani, A., Baur, I., & Binder, C. R. (2021). Tenants\u2019 residential mobility in Switzerland : the role of housing functions. Journal of Housing and the Built Environment, 36(4), 1417\u20131456. https://doi.org/10.1007/s10901-021-09874-5\n\nKarlen, C., Pagani, A., & Binder, C. R. (2021). Obstacles and opportunities for reducing dwelling size to shrink the environmental footprint of housing: tenants\u2019 residential preferences and housing choice. Journal of Housing and the Built Environment. https://doi.org/10.1007/s10901-021-09884-3\n\nPagani, A., Ballestrazzi, F., Binder, C.R. (2022). Shrinking Housing\u2019s Size: Using Agent-Based Modelling to Explore Measures for a Reduction of Floor Area Per Capita. In: Czupryna, M., Kami\u0144ski, B. (eds) Advances in Social Simulation. Springer Proceedings in Complexity. Springer, Cham. https://doi.org/10.1007/978-3-030-92843-8_21",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "agent based model (abm)",
+        "household relocation",
+        "human-environment systems",
+        "residential mobility",
+        "sustainability",
+        "switzerland"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/a6160a80-0c4d-492a-bbb3-cd08964b18ff/releases/1.0.0/",
+    "dateCreated": "2021-03-10",
+    "description": "ReMoTe-S is an agent-based model of the residential mobility of Swiss tenants. Its goal is to foster a holistic understanding of the reciprocal influence between households and dwellings and thereby inform a sustainable management of the housing stock. The model is based on assumptions derived from empirical research conducted with three housing providers in Switzerland and can be used mainly for two purposes: (i) the exploration of* what if* scenarios that target a reduction of the housing footprint while accounting for households\u2019 preferences and needs; (ii) knowledge production in the field of residential mobility and more specifically on the role of *housing functions* as orchestrators of the relocation process.",
+    "downloadUrl": "https://www.comses.net/codebases/a6160a80-0c4d-492a-bbb3-cd08964b18ff/releases/1.0.0/download/",
+    "dateModified": "2022-04-01",
+    "releaseNotes": "V1.0.0\n\nIn the folder 'results', we uploaded the outputs of the baseline scenario and the jupyter used to analyse several experiments.",
+    "copyrightYear": 2022,
+    "datePublished": "2022-04-01",
+    "codeRepository": "https://github.com/freballe/ABM",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "mesa"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Pagani, A., Ballestrazzi, F., Massaro, E., & Binder, C. R. (2022) ReMoTe-S. Residential Mobility of Tenants in Switzerland: An Agent-Based Model. Journal of Artificial Societies and Social Simulation 25 (2) 4 <http://jasss.soc.surrey.ac.uk/25/2/4.html>. [doi:10.18564/jasss.4752]"
+}

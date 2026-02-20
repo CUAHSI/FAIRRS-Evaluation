@@ -1,0 +1,53 @@
+{
+    "@id": "https://www.comses.net/codebases/5871acf7-54c0-426a-bc17-04876f5e3606/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5871acf7-54c0-426a-bc17-04876f5e3606/releases/1.0.0/",
+    "name": "Human Environment Estuarine Systems Investigator",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-2192-1429",
+            "@type": "Person",
+            "email": "a.e.f.allison@gmail.com",
+            "givenName": "Andrew",
+            "familyName": "Allison"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based model",
+        "human-environment systems",
+        "social-ecological system"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5871acf7-54c0-426a-bc17-04876f5e3606/releases/1.0.0/",
+    "dateCreated": "2020-05-19",
+    "description": "This model simulates the form and function of an idealised estuary with associated barrier-spit complex on the north east coast of New Zealand\u2019s North Island (from Bream Bay to central Bay of Plenty) during the years 2010 - 2050 CE. It combines variables from social, ecological and geomorphic systems to simulate potential directions of change in shallow coastal systems in response to external forcing from land use, climate, pollution, population density, demographics, values and beliefs. The estuary is over 1000Ha, making it a large estuary according to Hume et al. (2007) - there are 12 large estuaries in the Auckland region alone (Suyadi et al., 2019). The model was developed as part of Andrew Allison\u2019s PhD Thesis in Geography from the School of Environment and Institute of Marine Science, University of Auckland, New Zealand. The model setup allows for alteration of geomorphic, ecological and social variables to suit the specific conditions found in various estuaries along the north east coast of New Zealand\u2019s North Island.\nThis model is not a predictive or forecasting model. It is designed to investigate potential directions of change in complex shallow coastal systems. This model must not be used for any purpose other than as a heuristic to facilitate researcher and stakeholder learning and for developing system understanding (as per Allison et al., 2018).",
+    "downloadUrl": "https://www.comses.net/codebases/5871acf7-54c0-426a-bc17-04876f5e3606/releases/1.0.0/download/",
+    "dateModified": "2021-02-26",
+    "releaseNotes": "PRE-SETUP\nThe RCP dropdown gives four choices of potential climate change scenarios developed by the Intergovernmental Panel on Climate Change for their 2014 synthesis report (2.6; 4.5; 6.0; 8.5), one option (sanford-extrapolated) using observations that emissions are tracking above RCP 8.5, and one option of no climate change.\nThe Legislation? dropdown menu allows the user to decide whether to use 2018 NZ Planning legislation - Resource Management Act, Building Act, New Zealand Coastal Policy Statement and Lemire (2017) or have a \u2018libertarian\u2019 free-for-all planning regime. \n\nSETUP\nThree buttons need to be pushed to setup the model before operation to create 1) the geomorphology, 2) the ecology, and 3) the community.",
+    "copyrightYear": 2021,
+    "datePublished": "2021-02-26",
+    "embargoEndDate": "2021-05-20",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "scala",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

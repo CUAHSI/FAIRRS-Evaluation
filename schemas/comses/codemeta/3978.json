@@ -1,0 +1,66 @@
+{
+    "@id": "https://www.comses.net/codebases/3978/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/3978/releases/1.1.0/",
+    "name": "ForagerNet3_Demography: A Non-Spatial Model of Hunter-Gatherer Demography",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-4419-3903",
+            "@type": "Person",
+            "email": "andy.white.zpm@gmail.com",
+            "givenName": "Andrew",
+            "familyName": "White",
+            "affiliation": {
+                "url": "https://www.isas.illinois.edu/",
+                "name": "Illinois State Archaeological Survey",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-4419-3903",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based computational model",
+        "demography",
+        "fertility",
+        "forage",
+        "hunter-gatherer",
+        "paleodemography",
+        "reproduction"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3978/releases/1.1.0/",
+    "dateCreated": "2013-10-17",
+    "description": "The ForagerNet3_Demography (FN3_D) model is a non-spatial ABM for exploring:\r\n\r\n*   How demographically-relevant behaviors at the person- and household-levels are related to one another in hunter-gatherer systems;\r\n\r\n*   How those lower-level behaviors are related to system-level demography;\r\n\r\n*   How the characteristics of assemblages of dead individuals are related to the demographic characteristics of the living population from which those assemblages were drawn.  \r\n\r\nThe model has three main levels: person, household, and system.  Inter-related methods represent birth, death, and pair bonding (marriage). Many parameters in the model are continuously variable. The dependency ratio (the ratio of consumers to producers in a household) is a key variable in many economic decisions embedded in the methods.\r\n\r\nThe FN3_D model is not intended to represent all details of any particular hunter-gatherer system.  This was a purposeful strategy to aid in constructing a model whose structure and behavior are understandable and applicable to a range of circumstances.  \r\n\r\nThe FN3_D model is explicitly non-spatial. Investigating the effects of the spatial distribution of population on demography will be the focus of a later version of the ForagerNet3 model. The FN3_D model can be used to explore aspects of hunter-gatherer demography in the absence of spatial effects (and without assuming or accounting for any particular spatial configuration of the population).\r\n\r\nFN3_D was built using Repast J. The code for the model is supplied as a text file.\r\n\r\nThe documentation provides (1) a description of the representations of time and the entities (persons, households, social links) in the model; (2) a brief overview of the major groups of methods in the model (pair bond, reproduction, and mortality); (3) model-level variables, parameters, and lists; and (4) a detailed description of the \u201crules\u201d and the operations of the model with specific numeric reference to sections of the code.",
+    "downloadUrl": "https://www.comses.net/codebases/3978/releases/1.1.0/download/",
+    "dateModified": "2018-02-16",
+    "releaseNotes": "ForagerNet3_Demography_V1: October 17, 2013",
+    "copyrightYear": 2013,
+    "datePublished": "2013-10-17",
+    "operatingSystem": "linux",
+    "runtimePlatform": [
+        "Repast"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

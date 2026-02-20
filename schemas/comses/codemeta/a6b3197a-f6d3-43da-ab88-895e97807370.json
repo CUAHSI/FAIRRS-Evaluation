@@ -1,0 +1,84 @@
+{
+    "@id": "https://www.comses.net/codebases/a6b3197a-f6d3-43da-ab88-895e97807370/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/a6b3197a-f6d3-43da-ab88-895e97807370/releases/1.0.0/",
+    "name": "An Agent-Based Model to Assess Possible Interventions for Large Shigellosis Outbreaks",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-8934-0057",
+            "@type": "Person",
+            "email": "erezh51@gmail.com",
+            "givenName": "Erez",
+            "familyName": "Hatna"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "js10238@nyu.edu",
+            "givenName": "Jeewoen",
+            "familyName": "Shin"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "sgreene4@health.nyc.gov",
+            "givenName": "Sharon",
+            "familyName": "Greene",
+            "affiliation": {
+                "@id": "https://ror.org/01gst4g14",
+                "url": "http://www.nyc.gov/html/doh/html/home/home.shtml",
+                "name": "New York City Department of Health and Mental Hygiene",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01gst4g14"
+            }
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "https://www.jasss.org/27/3/2.html",
+            "@type": "CreativeWork"
+        },
+        {
+            "text": "No",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "agent-based model (abm)",
+        "disease transmission",
+        "Shigellosis"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/a6b3197a-f6d3-43da-ab88-895e97807370/releases/1.0.0/",
+    "dateCreated": "2023-09-23",
+    "description": "Large outbreaks of Shigella sonnei among children in Haredi Jewish (ultra-Orthodox) communities in Brooklyn, New York have occurred every 3\u20135 years since at least the mid-1980s. These outbreaks are partially attributable to large numbers of young children in these communities, with transmission highest in child care and school settings, and secondary transmission within households. As these outbreaks have been prolonged and difficult to control, we developed an agent-based model of shigellosis transmission among children in these communities to support New York City Department of Health and Mental Hygiene staff. Simulated children were assigned an initial susceptible, infectious, or recovered (immune) status and interacted and moved between their home, child care program or school, and a community site. We calibrated the model according to observed case counts as reported to the Health Department. Our goal was to better understand the efficacy of existing interventions and whether limited outreach resources could be focused more effectively.",
+    "downloadUrl": "https://www.comses.net/codebases/a6b3197a-f6d3-43da-ab88-895e97807370/releases/1.0.0/download/",
+    "dateModified": "2024-06-12",
+    "releaseNotes": "The plots work best on NetLogo 6.3.0",
+    "copyrightYear": 2024,
+    "datePublished": "2024-06-12",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo 6.3.0"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo 6.3.0",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Under Review"
+}

@@ -1,0 +1,76 @@
+{
+    "@id": "https://www.comses.net/codebases/4975/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4975/releases/1.0.0/",
+    "name": "An Agent-based Model of Collective Self-organisation in Irrigation Management",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-4949-2777",
+            "@type": "Person",
+            "email": "hang.xiong@outlook.com",
+            "givenName": "Hang",
+            "familyName": "Xiong",
+            "affiliation": {
+                "@id": "https://ror.org/05a28rw58",
+                "url": "https://ethz.ch",
+                "name": "ETH Zurich",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05a28rw58"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Jingjing",
+            "familyName": "Cai"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-4949-2777",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "collective self-organization",
+        "common pool resource",
+        "irrigation"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4975/releases/1.0.0/",
+    "dateCreated": "2016-04-06",
+    "description": "This model simulates how collective self-organisation among individuals that manage irrigation resource collectively.Collective self-organisation is formed when the majority of the population (80% of the owners of the resource, in our case) participates the cooperation that aims at sustainable use of the irrigation resource. Whether an owner participates the cooperation depends on not only on his social economic characteristics, but also the proportion of his neighbours that have participated the cooperation. To investigate the influence of social structure, the social network in which owners interact is modelled as random network, small-world network and scale-free network separately.",
+    "downloadUrl": "https://www.comses.net/codebases/4975/releases/1.0.0/download/",
+    "dateModified": "2018-02-19",
+    "releaseNotes": "",
+    "copyrightYear": 2016,
+    "datePublished": "2016-04-06",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Cai, Jingjing and Xiong, Hang, \u57fa\u4e8e\u4e3b\u4f53\u7684\u704c\u6e89\u96c6\u4f53\u81ea\u7ec4\u7ec7\u5f62\u6210\u673a\u5236\u7814\u7a76 An Agent-based Simulation of Collective Self-organisation in Irrigation Management (January 8, 2016). Available at SSRN: http://ssrn.com/abstract=2755539"
+}

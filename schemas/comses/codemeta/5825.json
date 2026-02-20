@@ -1,0 +1,78 @@
+{
+    "@id": "https://www.comses.net/codebases/5825/releases/1.4.0/",
+    "url": "https://www.comses.net/codebases/5825/releases/1.4.0/",
+    "name": "The Informational Dynamics of Regime Change",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1952/",
+            "@type": "Person",
+            "email": "dominik.klein@uni-bamberg.de",
+            "givenName": "Dominik",
+            "familyName": "Klein",
+            "affiliation": {
+                "@id": "https://ror.org/01c1w6d29",
+                "url": "https://www.uni-bamberg.de/",
+                "name": "University of Bamberg",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01c1w6d29"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Johannes",
+            "familyName": "Marx"
+        },
+        {
+            "@id": "https://www.comses.net/users/1952/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-sa/4.0/",
+        "name": "CC-BY-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.4.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "collective action",
+        "political science",
+        "political theory",
+        "regime change",
+        "revolution"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5825/releases/1.4.0/",
+    "dateCreated": "2018-01-12",
+    "description": "This model studies the informational dynamics preceding political uprising in authoritarian regimes. Before deciding whether or not to start protests, agents need to estimate how widespread discontent with the regime is. This model simulates the information dynamics occurring when agents attempt to elicit the level of general discontent without exposing themselves too much. They do so in personal communication. In talking to a stranger, an agent needs to decide whether to bring the conversation to this topic. She will only do so if she judges the chance of upheaval as high enough that it's worth asking. Her communication partner will then reveal her personal attitude (in a not-necessarily truthful way). Between such conversations, agent move around in a speed determined by the society's mobility. We study the influence of said mobility, the actual number of discontent agents, the initial estimate of this number and the learning rule employed on whether agents will, in the long run, assess regime change as possible or not. Moreover, we study whether informational shocks (short term events impacting every agents' assessment, such as a prevalent rumor or a violent police campaign) can impact overall attitudes in the long run.",
+    "downloadUrl": "https://www.comses.net/codebases/5825/releases/1.4.0/download/",
+    "dateModified": "2020-01-14",
+    "releaseNotes": "Version 1.0",
+    "copyrightYear": 2020,
+    "datePublished": "2020-01-14",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Klein, Dominik and Johannes Marx, Wenn Du gehst, geh ich auch! Die Rolle von Informationskaskaden bei der Entstehung von Massenbewegungen, Politische Vierteljahresschrift 2017 48(4) 560-592"
+}

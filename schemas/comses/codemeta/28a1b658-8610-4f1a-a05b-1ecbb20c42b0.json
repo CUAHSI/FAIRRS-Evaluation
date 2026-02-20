@@ -1,0 +1,60 @@
+{
+    "@id": "https://www.comses.net/codebases/28a1b658-8610-4f1a-a05b-1ecbb20c42b0/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/28a1b658-8610-4f1a-a05b-1ecbb20c42b0/releases/1.0.0/",
+    "name": "Lake Anderson Revisited II",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-6266-4337",
+            "@type": "Person",
+            "email": "klaus.g.troitzsch@bluewin.ch",
+            "givenName": "Klaus G.",
+            "familyName": "Troitzsch",
+            "affiliation": {
+                "@id": "https://ror.org/01j9f6752",
+                "url": "http://www.uni-koblenz-landau.de/en",
+                "name": "University of Koblenz and Landau",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01j9f6752"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Anderson, J.M. (1973). The eutrophication of lakes. D. Meadows & D. Mead- ows (Eds.), Toward global equilibrium (pp. 171\u2013140). Cambridge MA: Wright Allen.\n\nM\u00f6hring, M., & Troitzsch, K.G. (2001). Lake Anderson revisited. Jour- nal of Arti\ufb01cial Societies and Social Simulation, 4/3/1 . Retrieved from http://jasss.soc.surrey.ac.uk/4/3/1.html",
+            "@type": "CreativeWork"
+        }
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/28a1b658-8610-4f1a-a05b-1ecbb20c42b0/releases/1.0.0/",
+    "dateCreated": "2021-06-28",
+    "description": "The purpose of this study is another agent-based replication of a System Dynamics model (Anderson,1973) where he analysed the dynamics of nutrient, biomass, oxygen and detritus in a model lake under conditions of arti\ufb01cial fertilising and policies to deal with the consequences of arti\ufb01cial fertilising.. A \ufb01rst replication (M\u00f6hring & Troitzsch,2001) added those agents to the original model that were necessary to move the role of the experimenter into the model, whereas this replication replaces the original lake with a collection of small elements between which biomass, nurtrents and oxygen are exchanged, adds rivers upstream and downstream as well as adjacent land divided into villages and populated with farms and industrial plants run by individual persons.",
+    "downloadUrl": "https://www.comses.net/codebases/28a1b658-8610-4f1a-a05b-1ecbb20c42b0/releases/1.0.0/download/",
+    "dateModified": "2021-06-28",
+    "releaseNotes": "This is a preliminary version with all important features. Updates will follow.",
+    "copyrightYear": 2021,
+    "datePublished": "2021-06-28",
+    "operatingSystem": "linux",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

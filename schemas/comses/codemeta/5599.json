@@ -1,0 +1,73 @@
+{
+    "@id": "https://www.comses.net/codebases/5599/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5599/releases/1.0.0/",
+    "name": "01b ModEco NLG V1.39 \u2013 Model Economies \u2013 The PMM",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1014/",
+            "@type": "Person",
+            "email": "orrery@rogers.com",
+            "givenName": "Garvin",
+            "familyName": "Boyle",
+            "affiliation": {
+                "url": "http://modeco-software.webs.com",
+                "name": "Retired High School Teacher",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1014/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Boyle, Garvin H (2017, April 13). \"01a ModEco V2.05 \u2013 Model Economies \u2013 In C++\" (Version 3). CoMSES Computational Model Library. Retrieved from: https://www.openabm.org/model/3613/version/3",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "biophysical economics",
+        "ecological economics",
+        "physically conservative",
+        "sustainability"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5599/releases/1.0.0/",
+    "dateCreated": "2017-04-14",
+    "description": "It is extremely difficult to build an intergenerational model of an economy which adheres to the laws of physics (e.g. conservation of mass and energy) and also the laws of finance (e.g. conservation of money).  Such a model economy is a hybrid, having both a biophysical base system, and a financial system as an attached cap.  In ModEco, at the biophysical level, agents are born, live, work, eat and reproduce from generation to generation.  But, at the financial level, every transfer of goods and services (mass and energy) is reciprocated with a transfer of cash.  To my knowledge ModEco is the only economic model that attempts such a hybrid model with intergenerational continuity.  But, there is a paradox, it seems, on which all such models founder \u2013 the diamond-water paradox, perhaps, or the Jevons paradox, or the problem of the price/value gap.\r\n\r\n01a ModEco C++ is the older, wiser, more sophisticated sister of this model.  It has more optional features, and lots of associated documentation.  However, with all of that sophistication, I was only able to produce a single type of sustainable economy which I called the PMM.  PMM stands for Perpetual Motion Machine.  01b ModEco NLG is a re-implementation of that model, but using the NetLogo platform, and focusing on that single scenario \u2013 the PMM.  The PMM achieves sustainability by balancing on the knife edge of an unstable point of equilibrium.  In the PMM, a central government redistributes wealth, manages waste, and manages the estates of dead agents.  Prices are strictly controlled.  Most agents can expect a life of poverty and starvation.  This would seem to be the nature of a sustainable economy.  The challenge is to find out why.\r\n\r\nModEco NLG is one of a series of models exploring the dynamics of sustainable economics \u2013 PSoup, ModEco, EiLab, OamLab, MppLab, TpLab, CmLab.",
+    "downloadUrl": "https://www.comses.net/codebases/5599/releases/1.0.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "This is a re-implementation of model \u201c01a ModEco C++\u201d but using the NetLogo language.  In both cases, the key scenario is called the Perpetual Motion Machine (PMM), and that scenario is described using the ODD protocol.  This implementation is a test of the validity of the ODD description.",
+    "copyrightYear": 2017,
+    "datePublished": "2017-04-14",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

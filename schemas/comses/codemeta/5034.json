@@ -1,0 +1,64 @@
+{
+    "@id": "https://www.comses.net/codebases/5034/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5034/releases/1.0.0/",
+    "name": "Effective population size and cultural evolution",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-3945-0773",
+            "@type": "Person",
+            "email": "premo@fastmail.net",
+            "givenName": "Luke",
+            "familyName": "Premo"
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-3945-0773",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-nd/4.0",
+        "name": "CC-BY-NC-ND-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "cultural evolution",
+        "cultural transmission",
+        "demography",
+        "drift",
+        "population size effects",
+        "selection",
+        "skill level",
+        "social learning",
+        "technological complexity"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5034/releases/1.0.0/",
+    "dateCreated": "2016-05-17",
+    "description": "The model was designed to investigate (1) to what extent the effective population size of a cultural trait departs from the cultural equivalent _N_ under non-ideal conditions, and (2) how the differences between Shennan\u2019s (2001) and Henrich\u2019s (2004) model assumptions influence the effect of demography on the rate of change in the mean skill level of a cultural trait. The model was programmed and run in NetLogo 5.1. The source code may need to be modified to run in later versions of NetLogo.\r\n\r\nThe model shows how natural selection and cultural selection affect the effective population size of a cultural trait, in many cases causing it to depart not only from census population size but also from the number of potential (and even actual) teachers in the population. Although Shennan (2001) is correct that the positive nonlinear effect of _N_ on equilibrium mean fitness is explained by the fact that the relative strength of drift is a function of _N_, _N_ does not \u201crepresent\u201d _Ne_ under non-ideal conditions. The results of this model show that the two are not equivalent under the conditions of Shennan's model due to the fact that natural selection and directly biased oblique cultural transmission both drive down _Ne_. \r\n\r\nThe observation that increasing the probability of learning from the most skilled member of one's subset of potential teachers increases _Ne_ under Shennan\u2019s model conditions but decreases _Ne_ under Henrich\u2019s model conditions reflects the fact that Shennan\u2019s and Henrich\u2019s models showcase different demographic effects. The effect of _N_ on the rate of change in mean skill level in Henrich\u2019s model is driven by the absolute number of oblique learners who attempt to copy the most skilled member of the parental generation.",
+    "downloadUrl": "https://www.comses.net/codebases/5034/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "This is Version 1.0. It was programmed during the spring of 2015 and the results were published in the fall of 2016.",
+    "copyrightYear": 2016,
+    "datePublished": "2016-05-17",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Premo, L. S. (2016) Effective population size and the effects of demography on cultural diversity and technological complexity. American Antiquity, in press."
+}

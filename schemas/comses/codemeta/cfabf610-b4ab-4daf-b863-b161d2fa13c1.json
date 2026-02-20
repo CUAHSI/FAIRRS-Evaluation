@@ -1,0 +1,52 @@
+{
+    "@id": "https://www.comses.net/codebases/cfabf610-b4ab-4daf-b863-b161d2fa13c1/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/cfabf610-b4ab-4daf-b863-b161d2fa13c1/releases/1.0.0/",
+    "name": "Status hierarchies and the emergence of cooperation in task groups",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/5070/",
+            "@type": "Person",
+            "email": "waynelee1217@gmail.com",
+            "givenName": "Hsuan-Wei",
+            "familyName": "Lee"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "collaboration",
+        "evolutionary games",
+        "status cooperation"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/cfabf610-b4ab-4daf-b863-b161d2fa13c1/releases/1.0.0/",
+    "dateCreated": "2025-01-02",
+    "description": "This repository contains an agent-based simulation model exploring how status hierarchies influence the emergence and sustainability of cooperation in task-oriented groups. The model builds on evolutionary game theory to examine the dynamics of cooperation under single-leader and multi-leader hierarchies, investigating factors such as group size, assortativity, and hierarchical clarity. Key findings highlight the trade-offs between different leadership structures in fostering group cooperation and reveal the conditions under which cooperation is most stable.\n\nThe repository includes code for simulations, numerical analysis scripts, and visualization tools to replicate the results presented in the manuscript titled \"Status hierarchies and the emergence of cooperation in task groups.\"\n\nFeel free to explore, reproduce the findings, or adapt the model for further research!",
+    "downloadUrl": "https://www.comses.net/codebases/cfabf610-b4ab-4daf-b863-b161d2fa13c1/releases/1.0.0/download/",
+    "dateModified": "2025-01-02",
+    "releaseNotes": "This repository contains the Agent-Based Simulation for Status Hierarchies and Cooperation in Task Groups, developed to explore how status hierarchies influence the emergence and sustainability of cooperation in task-oriented groups.\n\nKey Features:\n\nPurpose: Investigate cooperation dynamics under single-leader and multi-leader hierarchies using evolutionary game theory.\nParameters: Group size, assortativity levels, and hierarchical clarity.\nSimulation Outputs: Metrics on cooperation levels, leadership distribution, and evolutionary stability of different strategies.\nVisualization Tools: Graphs and plots representing simulation outcomes across varying parameters.",
+    "copyrightYear": 2025,
+    "datePublished": "2025-01-02",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "ABM"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "MatLab",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

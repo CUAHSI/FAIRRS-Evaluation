@@ -1,0 +1,76 @@
+{
+    "@id": "https://doi.org/10.25937/y0z7-c733",
+    "url": "https://doi.org/10.25937/y0z7-c733",
+    "name": "The foraging potential of the Holocene Cape South Coast of South Africa without the Palaeo-Agulhas Plain",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-4940-3997",
+            "@type": "Person",
+            "email": "cwren@uccs.edu",
+            "givenName": "Colin",
+            "familyName": "Wren",
+            "affiliation": {
+                "@id": "https://ror.org/054spjc55",
+                "url": "http://www.uccs.edu/",
+                "name": "University of Colorado Colorado Springs",
+                "@type": "Organization",
+                "identifier": "https://ror.org/054spjc55"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Person",
+            "email": "marco.janssen@asu.edu",
+            "givenName": "Marco",
+            "familyName": "Janssen",
+            "affiliation": {
+                "url": "https://schoolofsustainability.asu.edu/",
+                "name": "School of Sustainability",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "african later stone age",
+        "archaeology",
+        "hunter-gatherer",
+        "optimal foraging theory",
+        "south africa"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/y0z7-c733",
+        "https://doi.org/10.25937/y0z7-c733"
+    ],
+    "dateCreated": "2018-11-19",
+    "description": "The Palaeo-Agulhas Plain formed an important habitat exploited by Pleistocene hunter-gatherer populations during periods of lower sea level. This productive, grassy habitat would have supported numerous large-bodied ungulates accessible to a population of skilled hunters with the right hunting technology. It also provided a potentially rich location for plant food collection, and along its shores a coastline that moved with the rise and fall of sea levels. The rich archaeological and paleontological records of Pleistocene sites along the modern Cape south coast of South Africa, which would have overlooked the Palaeo-Agulhas Plain during Pleistocene times of lower sea level, provides a paleoarchive of this extinct ecosystem. In this paper, we present a first order illustration of the \u201cpalaeoscape modeling\u201d approach advocated by Marean et al. (2015).  We use a resourcescape model created from modern studies of habitat productivity without the Palaeo-Agulhas Plain. This is equivalent to predominant Holocene conditions.  We then run an agent-based model of the human foraging system to investigate several research questions. Our agent-based approach uses the theoretical framework of optimal foraging theory to model human foraging decisions designed to optimize the net caloric gains within a complex landscape of spatially and temporally variable resources. We find that during the high sea-levels of MIS 5e (+5-6 m asl) and the Holocene, the absence of the Plain left a relatively poor food base supporting a much smaller population relying heavily on edible plant resources from the current Cape flora. Despite high species diversity of plants with edible storage organs, and marine invertebrates, encounter rates with highly profitable resources were low.  We demonstrate that without the Palaeo-Agulhas Plain, human populations must have been small and low density, and exploited plant, mammal, and marine resources with relatively low caloric returns.  The exposure and contraction of the Palaeo-Agulhas Plain was likely the single biggest driver of behavioral change during periods of climate change through the Pleistocene and into the transition to the Holocene.",
+    "downloadUrl": "https://www.comses.net/codebases/2d6a597a-76af-4ee8-bf90-0ba8c531b686/releases/1.0.0/download/",
+    "dateModified": "2019-08-12",
+    "releaseNotes": "Put the map files in a ./data sub-folder before running the model. Note that the experiments used in the article are included in BehaviorSpace in the Tools menu. Output images from each run are placed in a ./stills sub-folder that needs to be created before running the included BehaviorSpace experiments.\n\nSee repository on socarxiv for analysis and visualisation R scripts, and model ouputs used in the article.",
+    "copyrightYear": 2019,
+    "datePublished": "2019-08-12",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

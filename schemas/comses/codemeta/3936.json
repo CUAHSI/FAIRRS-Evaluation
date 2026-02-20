@@ -1,0 +1,83 @@
+{
+    "@id": "https://www.comses.net/codebases/3936/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/3936/releases/1.1.0/",
+    "name": "Endogenous Dynamics of Housing Market Cycles",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "givenName": "Birnur",
+            "familyName": "\u00d6zba\u015f"
+        },
+        {
+            "@id": "https://www.comses.net/users/1117/",
+            "@type": "Person",
+            "email": "onurozgun@gmail.com",
+            "givenName": "Onur",
+            "familyName": "\u00d6zg\u00fcn",
+            "affiliation": {
+                "url": "http://www.neu.edu",
+                "name": "Northeastern University",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Yaman",
+            "familyName": "Barlas"
+        },
+        {
+            "@id": "_:author_1",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://www.comses.net/users/1117/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "dynamic systems",
+        "housing cycles",
+        "real estate",
+        "socio-economic simulation"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3936/releases/1.1.0/",
+    "dateCreated": "2014-01-08",
+    "description": "The model includes the following elements; the houses under construction, for sale, and sold; the demand for houses; the price, and the profit. The city population continuously increases with immigration and births, which is taken as an external input to the model. The cost of building houses is also modeled as an input that changes over time. The effect of national economy on the construction companies is not considered. We also assumed that there is practically no land limitation for building new houses. There is an upper bound for the construction rate, which reflects the constraints on the labor, capital and other resource limitations for the constructors. The time horizon is 60 years between 1970 and 2030.\r\nThree major balancing (negative) feedback loops govern the behavior of the system: demand-price, supply-price and supply-demand loops. Demand-price loop reflects the classical balancing process of demand through price. Supply-Demand loop represents the balancing process between supply and demand, through sales and price. The supply-price feedback loop represent the fact that eventually any price change is compensated by the effect of new constructions, but the delays slow down the process and cause the price to oscillate.\r\nIn the model outputs, price exhibits oscillations with an average period of 7 years. The main reason behind this oscillation are the negative loops and the delays between demand creation and new house construction. This delay includes the time spent in starting new projects as well as the construction duration. During this period, due to shortage of supply, price increases. The construction firms do not take into account the constructions in progress and continue to start new projects in order to benefit from the high profits in the market. As the constructions are completed, the demand has already been met, and an excess supply emerges, which causes a decrease in price.",
+    "downloadUrl": "https://www.comses.net/codebases/3936/releases/1.1.0/download/",
+    "dateModified": "2018-02-16",
+    "releaseNotes": "",
+    "copyrightYear": 2014,
+    "datePublished": "2014-01-08",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Stella"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    },
+    "referencePublication": "\u00d6zba\u015f, Birnur, \u00d6zg\u00fcn, Onur and Barlas, Yaman (2014) 'Modeling and Simulation of the Endogenous Dynamics of Housing Market Cycles' Journal of Artificial Societies and Social Simulation 17 (1) 19 <http://jasss.soc.surrey.ac.uk/17/1/19.html>."
+}

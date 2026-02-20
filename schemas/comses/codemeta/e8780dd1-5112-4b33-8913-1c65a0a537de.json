@@ -1,0 +1,65 @@
+{
+    "@id": "https://www.comses.net/codebases/e8780dd1-5112-4b33-8913-1c65a0a537de/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/e8780dd1-5112-4b33-8913-1c65a0a537de/releases/1.1.0/",
+    "name": "MIXTRUST - crop-livestock interactions at regional level",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1945/",
+            "@type": "Person",
+            "email": "myriam.grillot@gmail.com",
+            "givenName": "Myriam",
+            "familyName": "Grillot",
+            "affiliation": {
+                "url": "https://agir.toulouse.hub.inrae.fr/",
+                "name": "INRAE - UMR AGIR",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "aurelienpeter1@gmail.com",
+            "givenName": "Aur\u00e9lien",
+            "familyName": "Peter"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based model",
+        "agriculture",
+        "landscape"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/e8780dd1-5112-4b33-8913-1c65a0a537de/releases/1.1.0/",
+    "dateCreated": "2025-09-01",
+    "description": "The basic idea behind developing MIXTRUST was to represent a network of agricultural stakeholders composed of farmers and a cooperative in a mixed landscape to test its performances in response to risks. A mixed landscape here is a landscape where crop and livestock systems interact by the intermediary of material flows of agricultural products. It can be within mixed farms, or between farms, often specialized, (e.g. straw-manure).",
+    "downloadUrl": "https://www.comses.net/codebases/e8780dd1-5112-4b33-8913-1c65a0a537de/releases/1.1.0/download/",
+    "dateModified": "2025-09-01",
+    "releaseNotes": "Fig bug with fertilization (manure conversion, field requirements) and division of grain for human and livestock consumption\nRemoved unused threshold",
+    "copyrightYear": 2025,
+    "datePublished": "2025-09-01",
+    "embargoEndDate": "2025-11-29",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "GAMA"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "gaml",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

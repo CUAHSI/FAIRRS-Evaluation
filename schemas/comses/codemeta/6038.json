@@ -1,0 +1,66 @@
+{
+    "@id": "https://www.comses.net/codebases/6038/releases/1.0.1/",
+    "url": "https://www.comses.net/codebases/6038/releases/1.0.1/",
+    "name": "COOPER - Flood impacts over Cooperative Winemaking Systems",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-0711-5885",
+            "@type": "Person",
+            "email": "davidnortes@gmail.com",
+            "givenName": "David",
+            "familyName": "Nortes Martinez",
+            "affiliation": {
+                "url": "https://www.inrae.fr",
+                "name": "INRAE",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-0711-5885",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-0711-5885",
+            "@type": "Role",
+            "roleName": "maintainer"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.1",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/6038/releases/1.0.1/",
+    "dateCreated": "2018-02-08",
+    "description": "COOPER is a model that simulates flood damages and its propagation through a cooperative, productive farming system. \n\nIt is conceptualized as an interaction of two different environments: i) biophysical --responsible for plant cycles, soil productivity, yield growth and floods-- and ii) productive --which uses said yield as input and deals with the social, productive and economic functioning\u2013 bridged by a cooperative productive system composed by three main elements: vineyards, vine-growing farms and cooperative wineries. \n\nThe productive process is actively conducted by both farms and cooperative wineries. Farms perform year round grape-growing tasks on their vineyards, according to a seasonal schedule. Farms replant their vineyards every certain time, which results in two different consequences for the productive process: i) there is rotation in crops; and ii) due to rotation, annual individual \u2013hence global-- productions are variable and lower than the potential. Each farm is associated with one cooperative winery, which is in charge of wine production and commercialization of all its associated farms. Benefits are then shared, according a predetermined rule.\n\nThe territory is divided in two areas : one subject to floods, one not. Each area is divided in cells, and each cell can host only one element. Floods come defined by two parameters: season and territory extent; and can affect simultaneously plots, farms and wineries.\n\nImpacts are calculated in relation to a referential scenario. They i) depend on each element\u2019s damage function; ii) materialize over either production,  revenues, production costs and investments (model\u2019s economic flows); and iii) can have a twofold nature: material and non-material (those that imply disturbance of the normal process). Agents are assumed to be motivated to preserve their statu quo, ergo, in absence of constraints, the default behavior is to repair/reinvest right away so the farm is fully operational next season",
+    "downloadUrl": "https://www.comses.net/codebases/6038/releases/1.0.1/download/",
+    "dateModified": "2019-03-22",
+    "releaseNotes": "Fixed topology: Tree-type\nFull interaction\nOnly economic effects. \nAgent\u2019s behavior: reactive",
+    "copyrightYear": 2019,
+    "datePublished": "2019-03-22",
+    "operatingSystem": "linux",
+    "runtimePlatform": [
+        "agent based model"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "R",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,100 @@
+{
+    "@id": "https://www.comses.net/codebases/3f15f4fa-aa47-4ffe-8c87-7a96505e47c0/releases/1.2.0/",
+    "url": "https://www.comses.net/codebases/3f15f4fa-aa47-4ffe-8c87-7a96505e47c0/releases/1.2.0/",
+    "name": "Individual-based modelling as a tool for elephant poaching mitigation",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2231/",
+            "@type": "Person",
+            "email": "emjneil@gmail.com",
+            "givenName": "Emily",
+            "familyName": "Neil"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "jens.madsen@ouce.ox.ac.uk",
+            "givenName": "Jens",
+            "familyName": "Madsen",
+            "affiliation": {
+                "@id": "https://ror.org/052gg0110",
+                "url": "http://www.ox.ac.uk/",
+                "name": "University of Oxford",
+                "@type": "Organization",
+                "identifier": "https://ror.org/052gg0110"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1153/",
+            "@type": "Person",
+            "email": "carrknight@gmail.com",
+            "givenName": "Ernesto",
+            "familyName": "Carrella"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "email": "nicolaspayette@gmail.com",
+            "givenName": "Nicolas",
+            "familyName": "Payette",
+            "affiliation": {
+                "@id": "https://ror.org/052gg0110",
+                "url": "http://www.ox.ac.uk/",
+                "name": "University of Oxford",
+                "@type": "Organization",
+                "identifier": "https://ror.org/052gg0110"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1452/",
+            "@type": "Person",
+            "email": "richard.bailey@ouce.ox.ac.uk",
+            "givenName": "Richard",
+            "familyName": "Bailey",
+            "affiliation": {
+                "@id": "https://ror.org/052gg0110",
+                "url": "http://www.ox.ac.uk/",
+                "name": "University of Oxford",
+                "@type": "Organization",
+                "identifier": "https://ror.org/052gg0110"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "adaptive agents",
+        "agent-based complex systems",
+        "agent-based model",
+        "elephant",
+        "poaching",
+        "wildlife",
+        "wildlife crime"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3f15f4fa-aa47-4ffe-8c87-7a96505e47c0/releases/1.2.0/",
+    "dateCreated": "2018-10-21",
+    "description": "We develop an IBM that predicts how interactions between elephants, poachers, and law enforcement affect poaching levels within a virtual protected area. The model is theoretical at this stage and is not meant to provide a realistic depiction of poaching, but instead to demonstrate how IBMs can expand upon the existing modelling work done in this field, and to provide a framework for future research. The model could be further developed into a useful management support tool to predict the outcomes of various poaching mitigation strategies at real-world locations. The model was implemented in NetLogo version 6.1.0.\n\nWe first compared a scenario in which poachers have prescribed, non-adaptive decision-making and move randomly across the landscape, to one in which poachers adaptively respond to their memories of elephant locations and where other poachers have been caught by law enforcement. We then compare a situation in which ranger effort is distributed unevenly across the protected area to one in which rangers patrol by adaptively following elephant matriarchal herds. ",
+    "downloadUrl": "https://www.comses.net/codebases/3f15f4fa-aa47-4ffe-8c87-7a96505e47c0/releases/1.2.0/download/",
+    "dateModified": "2019-08-01",
+    "releaseNotes": "None",
+    "copyrightYear": 2019,
+    "datePublished": "2019-08-01",
+    "embargoEndDate": "2019-08-01",
+    "operatingSystem": "macos",
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    }
+}

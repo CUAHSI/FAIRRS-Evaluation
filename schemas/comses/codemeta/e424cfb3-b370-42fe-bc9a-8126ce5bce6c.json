@@ -1,0 +1,64 @@
+{
+    "@id": "https://www.comses.net/codebases/e424cfb3-b370-42fe-bc9a-8126ce5bce6c/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/e424cfb3-b370-42fe-bc9a-8126ce5bce6c/releases/1.0.0/",
+    "name": "Model for decision making of farmers to vaccinate against blue tongue virus",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1871/",
+            "@type": "Person",
+            "email": "e.a.j.fischer@uu.nl",
+            "givenName": "Egil",
+            "familyName": "Fischer",
+            "affiliation": {
+                "@id": "https://ror.org/04pp8hn57",
+                "url": "http://www.uu.nl/en",
+                "name": "Utrecht University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04pp8hn57"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "blue tongue",
+        "NetLogo",
+        "Universiteit Utrecht",
+        "vaccination",
+        "virus",
+        "Wageningen University & Research"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/e424cfb3-b370-42fe-bc9a-8126ce5bce6c/releases/1.0.0/",
+    "dateCreated": "2019-04-24",
+    "description": "This model combines decision making models of individual farmers with a model of the spatial spread between farms of blue tongue virus.\n",
+    "downloadUrl": "https://www.comses.net/codebases/e424cfb3-b370-42fe-bc9a-8126ce5bce6c/releases/1.0.0/download/",
+    "dateModified": "2019-04-24",
+    "releaseNotes": "This version is authored by Jaap Sok and Egil A.J. Fischer and describes the decission making of farmers on vaccination given the spread of blue tongue virus. \nThe data provided is mock data, because the real data contains privacy sensitive information. Data used in Sok & Fischer 2019 can be obtained from the authors. ",
+    "copyrightYear": 2019,
+    "datePublished": "2019-04-24",
+    "codeRepository": "https://github.com/EgilFischer/Bluetongue",
+    "embargoEndDate": "2019-04-25",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "agent-based model"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

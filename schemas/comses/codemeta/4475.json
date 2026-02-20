@@ -1,0 +1,71 @@
+{
+    "@id": "https://www.comses.net/codebases/4475/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4475/releases/1.0.0/",
+    "name": "Homophily-driven Network Evolution and Diffusion",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "givenName": "Mustafa",
+            "familyName": "Yava\u015f"
+        },
+        {
+            "@id": "https://www.comses.net/users/262/",
+            "@type": "Person",
+            "email": "gonenc.yucel@boun.edu.tr",
+            "givenName": "G\u00f6nen\u00e7",
+            "familyName": "Y\u00fccel",
+            "affiliation": {
+                "@id": "https://ror.org/03z9tma90",
+                "url": "http://www.boun.edu.tr/en_US",
+                "name": "Bo\u011fazi\u00e7i University, \u0130stanbul",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03z9tma90"
+            }
+        },
+        {
+            "@id": "_:author_1",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://www.comses.net/users/262/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4475/releases/1.0.0/",
+    "dateCreated": "2015-01-08",
+    "description": "The two key processes included in the model are network evolution and diffusion. The evolution process of the homophilious network is inspired by the famous \u201cSegregation Model\u201d (Schelling 1971). The process starts with a small-world network (Watts 1999; Wilensky 2005). In our network, each agent has a threshold value for her \u201chappiness level\u201d. This level is related to the fraction of the friends with the same status in the agent\u2019s network neighborhood, as in Schelling\u2019s model. \u201cUnhappy\u201d agents (i.e. agents with fewer neighbors of their own status than what is desired according to the agent\u2019s happiness threshold) form ties with agents alike, and break ties with others.   %-similar-wanted is the model parameter that represents this personal threshold. \r\n \r\nHomophily, besides its indirect role through shaping the network structure on which the diffusion takes place, also has a direct influence on the diffusion processes in the model via information flows. The network structure stays intact during the diffusion phase. In other words, we assume that the adopted behavior does not lead to homophilious tie formation or dissolution.\r\n\r\nDiffusion starts with the initiation of the early adopters and takes off as people make decisions via social influence whether to adopt the innovation or not. The adoption mechanism in this study is an example of threshold models (Granovetter 1978). The most important factor in adoption decisions is the \u201cadoption threshold\u201d. An agent adopts the innovation if the number of same status friends in the network neighborhood who adopted the innovation is more than the \u201cadoption threshold\u201d. There are two ways of expressing the threshold, as an absolute number or as a fraction. Since our diffusion process includes making a decision about whether to adopt or not, expressing it as a fraction is preferred (Watts 2002).",
+    "downloadUrl": "https://www.comses.net/codebases/4475/releases/1.0.0/download/",
+    "dateModified": "2018-02-19",
+    "releaseNotes": "",
+    "copyrightYear": 2015,
+    "datePublished": "2015-01-08",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Yava\u015f, Mustafa, and G\u00f6nen\u00e7 Y\u00fccel (2014) \"Impact of Homophily on Diffusion Dynamics Over Social Networks\",  Social Science Computer Review, Volume 32, Number 3."
+}

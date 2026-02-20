@@ -1,0 +1,54 @@
+{
+    "@id": "https://www.comses.net/codebases/4447f038-0173-4d91-bdf5-e8c3e1032d8b/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4447f038-0173-4d91-bdf5-e8c3e1032d8b/releases/1.0.0/",
+    "name": "Adaptive model of a consumer advice network",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1633/",
+            "@type": "Person",
+            "email": "shaopengde@sohu.com",
+            "givenName": "Peng",
+            "familyName": "Shao",
+            "affiliation": {
+                "@id": "https://ror.org/017zhmm22",
+                "url": "http://en.xjtu.edu.cn/",
+                "name": "School of management in Xi\u2019an Jiaotong University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/017zhmm22"
+            }
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4447f038-0173-4d91-bdf5-e8c3e1032d8b/releases/1.0.0/",
+    "dateCreated": "2018-05-14",
+    "description": "In the consumer advice network, users with connections can interact with each other, and the network topology will change during the opinion interaction.  When the opinion distance from i to j is greater than the confidence threshold, the two consumers cannot exchange opinions, and the link between them will disconnect with probability DE. Then, a link from node i to node k is established with probability CE and node i learning opinion from node k.",
+    "downloadUrl": "https://www.comses.net/codebases/4447f038-0173-4d91-bdf5-e8c3e1032d8b/releases/1.0.0/download/",
+    "dateModified": "2018-05-14",
+    "releaseNotes": "The current network structure forms the basis of future network evolution, and the opinion difference between users in the network affects the network evolution strategy. This study focuses on the impact of opinion differences (opinion distances) and influence differences (in-degree centrality) on the network structure. The adaptive process of the consumer advice network includes two types of activities: disconnect edge (DE) and connect edge (CE). In the disconnect and connect process of the consumer advice network, DE and CE strategies are based on opinion distance and node influence",
+    "copyrightYear": 2018,
+    "datePublished": "2018-05-14",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "MatLab"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "MatLab",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

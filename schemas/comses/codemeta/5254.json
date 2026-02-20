@@ -1,0 +1,71 @@
+{
+    "@id": "https://www.comses.net/codebases/5254/releases/1.2.0/",
+    "url": "https://www.comses.net/codebases/5254/releases/1.2.0/",
+    "name": "Hybrid fish-plankton model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-3845-7685",
+            "@type": "Person",
+            "email": "gudrun.wallentin@sbg.ac.at",
+            "givenName": "Gudrun",
+            "familyName": "Wallentin",
+            "affiliation": {
+                "@id": "https://ror.org/05gs8cd61",
+                "url": "https://www.plus.ac.at/",
+                "name": "Department of Geoinformatics - Z_GIS, University of Salzburg",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05gs8cd61"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Christian",
+            "familyName": "Neuwirth"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-3845-7685",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5254/releases/1.2.0/",
+    "dateCreated": "2017-01-29",
+    "description": "This model comes in six alternative designs, where Design 4 was shown to be most adequate in representing the spatially explicit fish-plankton system.\r\n\r\n\r\n*   Design 1: Agent (fish) \u2013 stock (plankton) \u2194 school-agent (fish) \u2013 stock (plankton)\r\n*   Design 2: Agent (fish) \u2013 stock (plankton) \u2194 spatial stock (fish) \u2013 stock (plankton)\r\n*   Design 3: Agent (fish) \u2013 stock (plankton) \u2194 stock (fish) \u2013 stock (plankton)\r\n*   Design 4: Agent (fish) \u2013 spatial stock (plankton) \u2194 school-agent (fish) \u2013 spatial stock (plankton)\r\n*   Design 5: Agent (fish) \u2013 spatial stock (plankton) \u2194 spatial stock (fish) \u2013 spatial stock (plankton)\r\n*   Design 6: Agent (fish) \u2013 spatial stock (plankton) \u2194 agent (fish) \u2013 stock (plankton)",
+    "downloadUrl": "https://www.comses.net/codebases/5254/releases/1.2.0/download/",
+    "dateModified": "2018-02-19",
+    "releaseNotes": "final version 1.0; improved documentation",
+    "copyrightYear": 2017,
+    "datePublished": "2017-01-29",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Wallentin, G., Neuwirth, C., Dynamic hybrid modelling: Switching between AB and SD designs of a predator-prey model. Ecol. Model. (2016), http://dx.doi.org/10.1016/j.ecolmodel.2016.11.007"
+}

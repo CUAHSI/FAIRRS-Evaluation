@@ -1,0 +1,81 @@
+{
+    "@id": "https://www.comses.net/codebases/a7827ec7-4b25-43db-91b1-80bc1f37a0dc/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/a7827ec7-4b25-43db-91b1-80bc1f37a0dc/releases/1.0.0/",
+    "name": "Finance and Market Concentration Using Agent-Based Modeling: Evidence from South Korea",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/5162/",
+            "@type": "Person",
+            "email": "tjdbsrud@alumni.kaist.ac.kr",
+            "givenName": "Yunkyeong",
+            "familyName": "Seo"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "zaltiner@kaist.ac.kr",
+            "givenName": "Zeynep",
+            "familyName": "Altiner"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "sumlee@kaist.ac.kr",
+            "givenName": "Sumin",
+            "familyName": "Lee"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "email": "icmoon@kaist.ac.kr",
+            "givenName": "Ilchul",
+            "familyName": "Moon"
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Person",
+            "email": "andy2402@korea.ac.kr",
+            "givenName": "Taesub",
+            "familyName": "Yun"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "No. This is the initial code for an original model.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/a7827ec7-4b25-43db-91b1-80bc1f37a0dc/releases/1.0.0/",
+    "dateCreated": "2025-03-28",
+    "description": "Amidst the global trend of increasing market concentration, this paper examines the role of finance\nin shaping it. Using Agent-Based Modeling (ABM), we analyze the impact of financial policies on market concentration\nand its closely related variables: economic growth and labor income share. We extend the Keynes\nmeets Schumpeter (K+S) model by incorporating two critical assumptions that influence market concentration.\nPolicy experiments are conducted with a model validated against historical trends in South Korea. For policy\nvariables, the Debt-to-Sales Ratio (DSR) limit and interest rate are used as levers to regulate the quantity and\ncost of finance, respectively. Simulation results show that lowering interest rates alleviates market concentration,\npromotes economic growth, and increases the labor income share. In contrast, DSR regulation exhibits\nnon-linear effects on these variables. Easing DSR regulations, similar to lowering interest rates, reduces market\nconcentration, fosters growth, and increases the labor income share. However, if the regulations are excessively\nrelaxed, market concentration rises again, and the labor income share declines. Firm-level analyses reveal that\nlarge firms dominate financial resources, leaving insufficient financing for small firms and exacerbating market\nconcentration when DSR regulation is excessively loosened. These findings underscore the value of ABM in addressing\nthis complex issue at both micro and macro perspectives. Additionally, this study highlights that the\nimpact on market concentration varies based on the nature of financial policies and suggest that DSR regulatory\npolicies, in coordination with monetary policies such as interest rates, can play a role in managing market\nconcentration.",
+    "downloadUrl": "https://www.comses.net/codebases/a7827ec7-4b25-43db-91b1-80bc1f37a0dc/releases/1.0.0/download/",
+    "dateModified": "2025-03-28",
+    "releaseNotes": "- Initial release of the simulation code for 'Finance and Market Concentration Using Agent-Based Modeling: Evidence from South Korea'",
+    "copyrightYear": 2025,
+    "datePublished": "2025-03-28",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "ABM"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

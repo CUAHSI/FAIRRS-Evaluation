@@ -1,0 +1,65 @@
+{
+    "@id": "https://www.comses.net/codebases/4966/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4966/releases/1.0.0/",
+    "name": "Simulation of Self-enforcing Agreement in Cooperative Teams",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-4949-2777",
+            "@type": "Person",
+            "email": "hang.xiong@outlook.com",
+            "givenName": "Hang",
+            "familyName": "Xiong",
+            "affiliation": {
+                "@id": "https://ror.org/05a28rw58",
+                "url": "https://ethz.ch",
+                "name": "ETH Zurich",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05a28rw58"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-4949-2777",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "behavioral game theory",
+        "cooperative team",
+        "self-enforcing agreement"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4966/releases/1.0.0/",
+    "dateCreated": "2016-04-01",
+    "description": "This study develops a simulation model to test two typical hypotheses in the theory of self-enforcing agreements. In cooperative teams (such as agricultural cooperatives), a self-enforcing agreement plays a critical role to guarantee members\u2019 work incentives when the monitoring from a third party is absent. In order to provide effective sanction to the violators so as to maintain the agreement, two seemly conflicting strategies are proposed. One is allowing the members to exit the team freely, while the other is imposing a high exit cost to restrict members from leaving the team. The views upholding each of the two strategies are elaborated in Lin (1993) and Dong and Dow (1993), respectively. We summarise the views as two hypotheses for a test using an agent-based model. The model incorporates factors that were not explicitly examined in previous discussions, such as the heterogeneity of households in terms of leisure preference and its distributions amongst team members.",
+    "downloadUrl": "https://www.comses.net/codebases/4966/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2016,
+    "datePublished": "2016-04-01",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Xiong, Hang and Payne, Diane and Kinsella, Stephen, The Self-Enforcing Agreement in Cooperative Teams: An Agent-Based Modelling Approach (April 25, 2013). Available at SSRN: http://ssrn.com/abstract=2621606 or http://dx.doi.org/10.2139/ssrn.2621606"
+}

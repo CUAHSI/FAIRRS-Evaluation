@@ -1,0 +1,66 @@
+{
+    "@id": "https://www.comses.net/codebases/2220/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/2220/releases/1.1.0/",
+    "name": "Swidden farming by individual households",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-2561-1927",
+            "@type": "Person",
+            "email": "michael.barton@asu.edu",
+            "givenName": "C Michael",
+            "familyName": "Barton",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-2561-1927",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agriculture",
+        "farms",
+        "neolithic",
+        "shifting",
+        "swidden"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2220/releases/1.1.0/",
+    "dateCreated": "2008-06-27",
+    "description": "Swidden Farming is designed to explore the dynamics of agricultural land management strategies. Specifically, the model is designed to explore some of the factors affecting swidden (sometimes called slash-and-burn) agriculture. Agricultural households take control of the land around them and rotate agricultural fields within this area. Field fertility decreases if a patch is used, and the patch with the highest potential net return is chosen to farm during each time step. The model explores the importance of soil fertility upon swidden strategies as well as issues of land ownership. In addition, the model also explores the effects of swidden agriculture on vegetation communities.",
+    "downloadUrl": "https://www.comses.net/codebases/2220/releases/1.1.0/download/",
+    "dateModified": "2024-05-24",
+    "releaseNotes": "Added visualization to entry",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

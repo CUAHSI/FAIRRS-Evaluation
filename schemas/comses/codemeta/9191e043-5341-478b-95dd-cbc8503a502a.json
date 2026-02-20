@@ -1,0 +1,65 @@
+{
+    "@id": "https://www.comses.net/codebases/9191e043-5341-478b-95dd-cbc8503a502a/releases/1.1.1/",
+    "url": "https://www.comses.net/codebases/9191e043-5341-478b-95dd-cbc8503a502a/releases/1.1.1/",
+    "name": "Prisoner's Tournament",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-4878-7477",
+            "@type": "Person",
+            "email": "crou0048@umn.edu",
+            "givenName": "Kristin",
+            "familyName": "Crouse",
+            "affiliation": {
+                "@id": "https://ror.org/017zqws13",
+                "url": "http://twin-cities.umn.edu/",
+                "name": "University of Minnesota",
+                "@type": "Organization",
+                "identifier": "https://ror.org/017zqws13"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.html",
+        "name": "Apache-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.1",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Axelrod, R., & Hamilton, W. D. (1981). The evolution of cooperation. science, 211(4489), 1390-1396.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "axelrodmodel",
+        "prisoner's dilemma",
+        "strategies"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/9191e043-5341-478b-95dd-cbc8503a502a/releases/1.1.1/",
+    "dateCreated": "2019-11-06",
+    "description": "This model replicates the Axelrod prisoner's dilemma tournaments. The model takes as input a file of strategies and pits them against each other to see who achieves the best payoff in the end. Change the payoff structure to see how it changes the tournament outcome!",
+    "downloadUrl": "https://www.comses.net/codebases/9191e043-5341-478b-95dd-cbc8503a502a/releases/1.1.1/download/",
+    "dateModified": "2021-12-15",
+    "releaseNotes": "Minor code fixes.",
+    "copyrightYear": 2021,
+    "datePublished": "2021-12-15",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

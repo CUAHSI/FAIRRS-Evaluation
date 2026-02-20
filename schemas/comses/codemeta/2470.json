@@ -1,0 +1,66 @@
+{
+    "@id": "https://www.comses.net/codebases/2470/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/2470/releases/1.0.0/",
+    "name": "Citation Agents: A model of collective learning through scientific publication",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-0861-9815",
+            "@type": "Person",
+            "email": "cjwatts1007@gmail.com",
+            "givenName": "Christopher",
+            "familyName": "Watts",
+            "affiliation": {
+                "@id": "https://ror.org/01v29qb04",
+                "url": "https://www.dur.ac.uk/",
+                "name": "Durham University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01v29qb04"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-0861-9815",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based model",
+        "fitness landscape",
+        "heuristic search",
+        "power law",
+        "science model"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2470/releases/1.0.0/",
+    "dateCreated": "2015-07-31",
+    "description": "Simulates the construction of scientific journal publications, including authors, references, contents and peer review. Also simulates collective learning on a fitness landscape.\r\n\r\nGenerates distributions, including power law distributions for papers per author and citations per paper, as seen in bibliometric data. Generates networks, including co-authorship and collaboration. Performs heuristic search on a Kauffman NK fitness landscape, effectively making the scientist authors a form of swarm optimisation.\r\n\r\nDescribed in the paper:\r\n\r\nWatts, Christopher & Nigel Gilbert (forthcoming) \"Does cumulative advantage affect collective learning in science? An agent-based simulation\", Scientometrics.",
+    "downloadUrl": "https://www.comses.net/codebases/2470/releases/1.0.0/download/",
+    "dateModified": "2018-02-19",
+    "releaseNotes": "This version was used to generate the data behind all charts included in the Scientometrics paper.\r\n\r\nA later version, which runs in Netlogo 5.1, was developed for our 2014 book, \"Simulating Innovation\". Download it from here:\r\n[http://www.simian.ac.uk/resources/models/simulating-innovation](http://www.simian.ac.uk/resources/models/simulating-innovation)\r\nA version in Excel 2003/VBA is also available from the book's site.",
+    "copyrightYear": 2015,
+    "datePublished": "2015-07-31",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

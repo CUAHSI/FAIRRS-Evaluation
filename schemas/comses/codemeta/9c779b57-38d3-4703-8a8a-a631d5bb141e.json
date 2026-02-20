@@ -1,0 +1,61 @@
+{
+    "@id": "https://www.comses.net/codebases/9c779b57-38d3-4703-8a8a-a631d5bb141e/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/9c779b57-38d3-4703-8a8a-a631d5bb141e/releases/1.1.0/",
+    "name": "NeoCOOP: The Neolithic Cooperation Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/3632/",
+            "@type": "Person",
+            "email": "gwrbra001@myuct.ac.za",
+            "givenName": "Brandon",
+            "familyName": "Gower-Winter"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "archaeology",
+        "cooperation",
+        "cultural evolution",
+        "evolution of cooperation",
+        "genetic algorithm",
+        "reinforcement learning"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/9c779b57-38d3-4703-8a8a-a631d5bb141e/releases/1.1.0/",
+    "dateCreated": "2022-07-13",
+    "description": "NeoCOOP is an iteration-based ABM that uses Reinforcement Learning and Artificial Evolution as adaptive-mechanisms to simulate the emergence of resource trading beliefs among Neolithic-inspired households.",
+    "downloadUrl": "https://www.comses.net/codebases/9c779b57-38d3-4703-8a8a-a631d5bb141e/releases/1.1.0/download/",
+    "dateModified": "2023-02-11",
+    "releaseNotes": "NeoCOOP Comses v1.1.",
+    "copyrightYear": 2023,
+    "datePublished": "2023-02-11",
+    "codeRepository": "https://github.com/BrandonGower-Winter/NeoCOOP",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "ECAgent"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Cython",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "Python 3",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "https://doi.org/10.1145/3520304.3528790\nB. Gower-Winter and G. Nitschke, \u201cSocieties prefer the middle-ground between selfishness and cooperation,\u201d in 4th International Workshop on Agent-Based Modelling of Human Behaviour (ABMHuB\u201922), 2022."
+}

@@ -1,0 +1,128 @@
+{
+    "@id": "https://doi.org/10.25937/n9z9-8n29",
+    "url": "https://doi.org/10.25937/n9z9-8n29",
+    "name": "Small-Trade Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-1546-0934",
+            "@type": "Person",
+            "email": "emilie.lindkvist@su.se",
+            "givenName": "Emilie",
+            "familyName": "Lindkvist",
+            "affiliation": {
+                "@id": "https://ror.org/0145rpw38",
+                "url": "http://www.stockholmresilience.org",
+                "name": "Stockholm University, Stockholm Resilience Centre",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0145rpw38"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "blanca.gonzalez@su.se",
+            "givenName": "Blanca",
+            "familyName": "Gonzalez-Mon",
+            "affiliation": {
+                "@id": "https://ror.org/0145rpw38",
+                "url": "http://www.stockholmresilience.org",
+                "name": "Stockholm Resilience Centre",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0145rpw38"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "orjan.bodin@su.se",
+            "givenName": "\u00d6rjan",
+            "familyName": "Bodin",
+            "affiliation": {
+                "@id": "https://ror.org/0145rpw38",
+                "url": "http://www.stockholmresilience.org",
+                "name": "Stockholm Resilience Centre",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0145rpw38"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-7780-1039",
+            "@type": "Person",
+            "email": "maja.schlueter@su.se",
+            "givenName": "Maja",
+            "familyName": "Schl\u00fcter",
+            "affiliation": {
+                "@id": "https://ror.org/0145rpw38",
+                "url": "http://www.stockholmresilience.org",
+                "name": "Stockholm Resilience Centre, Stockholm University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0145rpw38"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-7780-1039",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "This is a distant friend model to: Lindkvist, Emilie (2020, June 23). \u201cFishMob: Interactions between fisher mobility and spatial resource heterogeneity\u201d (Version 1.0.0). CoMSES Computational Model Library. Retrieved from: https://doi.org/10.25937/k7fx-cj36",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "cross-scale interactions",
+        "fisheries management",
+        "fisheries modeling",
+        "fish provision",
+        "resilience",
+        "small-scale fisheries",
+        "social network analysis",
+        "trade",
+        "trade networks",
+        "value chain"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/n9z9-8n29",
+        "https://doi.org/10.25937/n9z9-8n29"
+    ],
+    "dateCreated": "2020-07-09",
+    "description": "The purpose of this model is to understand the role of trade networks and their interaction with different fish resources, for fish provision. The model is developed based on a multi-methods approach, combining agent-based modeling, network analysis and qualitative data based on a small-scale fisheries study case. The model can be used to investigate both how trade network structures are embedded in a social-ecological context and the trade processes that occur within them, to analyze how they lead to emergent outcomes related to the resilience of fish provision. The model processes are informed by qualitative data analysis, and the social network analysis of an empirical fish trade network. The network analysis can be used to investigate diverse network structures to perform model experiments, and their influence on model outcomes. \n\nThe main outcomes we study are 1) the overexploitation of fish resources and 2) the availability and variability of fish provision to satisfy different market demands, and 3) individual traders' fish supply at the micro-level. The model has two types of trader agents, seller and dealer. The model reveals that the characteristics of the trade networks, linked to different trader types (that have different roles in those networks), can affect the resilience of fish provision. ",
+    "downloadUrl": "https://www.comses.net/codebases/0671a0f5-7931-498f-885a-a6a388716c82/releases/1.1.0/download/",
+    "dateModified": "2021-07-28",
+    "releaseNotes": "V 1.1.0, the Small-Trade Model associated with Gonzalez-Mon, B., Lindkvist, E., Bodin, \u00d6., Zepeda-Dom\u00ednguez, J. A., & Schluter, M. (In press). Fish provision in a changing environment: The buffering effect of regional trade networks.\n\n",
+    "copyrightYear": 2021,
+    "datePublished": "2021-07-28",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Gonzalez-Mon, B., Lindkvist, E., Bodin, \u00d6., Zepeda-Dom\u00ednguez, J. A., & Schluter, M. (In press). Fish provision in a changing environment: The buffering effect of regional trade networks."
+}

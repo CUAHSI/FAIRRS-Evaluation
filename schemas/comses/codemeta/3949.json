@@ -1,0 +1,86 @@
+{
+    "@id": "https://www.comses.net/codebases/3949/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/3949/releases/1.0.0/",
+    "name": "Formation of Lithic Assemblages v. 1",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-2561-1927",
+            "@type": "Person",
+            "email": "michael.barton@asu.edu",
+            "givenName": "C Michael",
+            "familyName": "Barton",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Julien",
+            "familyName": "Riel-Salvatore"
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-2561-1927",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "archaeology",
+        "forage",
+        "formation processes",
+        "human ecology",
+        "hunter-gatherer",
+        "lithics",
+        "lithic technology",
+        "stone artifacts",
+        "technology"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3949/releases/1.0.0/",
+    "dateCreated": "2014-09-04",
+    "description": "This model serves as an experimental environment to examine processes that form the archaeological record of chipped stone (lithic) artifact assemblages. It is designed to carry out systematic experiments in the effects of social and environmental parameters on the formation of lithic (chipped stone artifact) assemblages in archaeological sites. This is especially important for lithics as it is a largely extinct technology and we cannot directly observe the accumulation of lithic assemblages over time frames comparable to those represented in the archaeological record. Agents represent hunter-gather groups who move, collect, and use resources within a territory. The model allows for systematic evaluation of the individual and combined effects of the length of stay at camp sites, lithic raw material distribution, differences in activities performed at camps, and land-use strategies of hunter-gatherers on lithic assemblages that accumulate over different time intervals.",
+    "downloadUrl": "https://www.comses.net/codebases/3949/releases/1.0.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "Added movie for library page",
+    "copyrightYear": 2014,
+    "datePublished": "2014-09-04",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Barton, C. M., & Riel-Salvatore, J. (2014). The formation of lithic assemblages. Journal of Archaeological Science, 46: 334-352."
+}

@@ -1,0 +1,114 @@
+{
+    "@id": "https://doi.org/10.25937/zre0-r244",
+    "url": "https://doi.org/10.25937/zre0-r244",
+    "name": "ELTAP-Egy model (Energy Landscape Transition Analysis and Planning in Egypt)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2278/",
+            "@type": "Person",
+            "email": "moustafasha3ban@gmail.com",
+            "givenName": "Mostafa",
+            "familyName": "Shaaban",
+            "affiliation": {
+                "@id": "https://ror.org/00g30e956",
+                "url": "http://www.uni-hamburg.de",
+                "name": "Universit\u00e4t Hamburg",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00g30e956"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "juergen.scheffran@uni-hamburg.de",
+            "givenName": "J\u00fcrgen",
+            "familyName": "Scheffran",
+            "affiliation": {
+                "@id": "https://ror.org/00g30e956",
+                "url": "http://www.uni-hamburg.de",
+                "name": "Universit\u00e4t Hamburg",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00g30e956"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "juergen.boehner@uni-hamburg.de",
+            "givenName": "J\u00fcrgen",
+            "familyName": "B\u00f6hner",
+            "affiliation": {
+                "@id": "https://ror.org/00g30e956",
+                "url": "http://www.uni-hamburg.de",
+                "name": "Universit\u00e4t Hamburg",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00g30e956"
+            }
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "email": "sobki54-2@hotmail.com",
+            "givenName": "Mohamed",
+            "familyName": "Elsobki",
+            "affiliation": {
+                "@id": "https://ror.org/03q21mh05",
+                "url": "http://cu.edu.eg/Home",
+                "name": "Cairo University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03q21mh05"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/zre0-r244",
+        "https://doi.org/10.25937/zre0-r244"
+    ],
+    "dateCreated": "2018-07-31",
+    "description": "The model investigates conditions, scenarios and strategies for future planning of energy in Egypt, with an emphasis on alternative energy pathways and a sustainable electricity supply mix as part of an energy roadmap till the year 2100. It combines the multi-criteria decision analysis (MCDA) with agent-based modeling (ABM) and Geographic Information Systems (GIS) visualization to integrate the interactions of the decisions of multi-agents, the multi-criteria evaluation of sustainability, the time factor and the site factors to assess the transformation of energy landscapes.  \n",
+    "downloadUrl": "https://www.comses.net/codebases/4881b53f-34a4-4759-8b32-655609a8c671/releases/1.0.0/download/",
+    "dateModified": "2019-01-07",
+    "releaseNotes": "The model is linked to the following paper: \nShaaban, Mostafa, Scheffran, J\u00fcrgen, B\u00f6hner, J\u00fcrgen and Elsobki, Mohamed S. (2019) 'A Dynamic Sustainability Analysis of Energy Landscapes in Egypt: A Spatial Agent-Based Model Combined with Multi-Criteria Decision Analysis' Journal of Artificial Societies and Social Simulation 22 (1) 4 . doi: 10.18564/jasss.3906\n\nNormally when you download the model, it will operate without any error message. In case you receive an error message that it is unable to import the data due to incorrect path, please be sure that the **Netlogo file** and the **folder containing the GIS data files** are in the same folder so that the Netlogo file can address the correct path of the GIS folder to upload the data. ",
+    "copyrightYear": 2018,
+    "datePublished": "2018-12-29",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Windows 7"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

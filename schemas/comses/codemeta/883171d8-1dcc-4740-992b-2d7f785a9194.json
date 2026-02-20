@@ -1,0 +1,66 @@
+{
+    "@id": "https://www.comses.net/codebases/883171d8-1dcc-4740-992b-2d7f785a9194/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/883171d8-1dcc-4740-992b-2d7f785a9194/releases/1.0.0/",
+    "name": "The Targeted Subsidies Plan Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-5429-5375",
+            "@type": "Person",
+            "email": "bashiri@gmail.com",
+            "givenName": "Hassan",
+            "familyName": "Bashiri",
+            "affiliation": {
+                "@id": "https://ror.org/01hgb6e08",
+                "url": "http://en.hut.ac.ir/",
+                "name": "Hamedan University of Technology",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01hgb6e08"
+            }
+        }
+    ],
+    "license": {
+        "name": "None",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "www.ai-fora.de",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "agent based model (abm)",
+        "household decile ranking",
+        "Households",
+        "Targeted Subsidies Plan"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/883171d8-1dcc-4740-992b-2d7f785a9194/releases/1.0.0/",
+    "dateCreated": "2023-09-21",
+    "description": "The targeted subsidies plan model is based on the economic concept of targeted subsidies.\n\nThe targeted subsidies plan model simulates the distribution of subsidies among households in a community over several years. The model assumes that the government allocates a fixed amount of money each year for the purpose of distributing cash subsidies to eligible households. The eligible households are identified by dividing families into 10 groups based on their income, property, and wealth. The subsidy is distributed to the first four groups, with the first group receiving the highest subsidy amount. The model simulates the impact of the subsidy distribution process on the income and property of households in the community over time.\n\nThe model simulates a community of 230 households, each with a household income and wealth that follows a power-law distribution. The number of household members is modeled by a normal distribution. The model allocates a fixed amount of money each year for the purpose of distributing cash subsidies among eligible households. The eligible households are identified by dividing families into 10 groups based on their income, property, and wealth. The subsidy is distributed to the first four groups, with the first group receiving the highest subsidy amount.\nThe model runs for a period of 10 years, with the subsidy distribution process occurring every month. The subsidy received by each household is assumed to be spent, and a small portion may be saved and added to the household's property. At the end of each year, the grouping of households based on income and assets is redone, and a number of families may be moved from one group to another based on changes in their income and property.\n\nOnce the code is executed, the simulation model runs automatically for 10 years. The user can adjust the subsidy allocation amount, the subsidy amount for each group, and the number of households in the community.\n\n\nWhile running the model, users can notice the change in the status of households in ten groups at the end of each year. The model provides outputs on the amount paid as a subsidy per month, the amount of the targeted subsidy budget remaining until the end of the year, and the groups that have received subsidies. The simulation process also enables users to observe the impact of the subsidy payment process on the income and property of households in the community.\n\n\nUsers can try adjusting the subsidy allocation amount, the subsidy amount for each group, and the number of households in the community. They can also try changing the distribution patterns of household income and wealth to observe the impact of these changes on the subsidy distribution process.\n\n\nTo make the model more detailed, accurate and complicated, users can add features such as different subsidy distribution policies, more households in the community, different distribution patterns of household income and wealth, and the impact of subsidy distribution on the wider economy.\n\n",
+    "downloadUrl": "https://www.comses.net/codebases/883171d8-1dcc-4740-992b-2d7f785a9194/releases/1.0.0/download/",
+    "dateModified": "2023-11-02",
+    "releaseNotes": "This model is created as a component of the AI-FORA research project. Within the AI-FORA project, there are several case studies dedicated to researching Artificial Intelligence for assessment purposes. In Iran, AI is being actively applied to categorize households according to their economic status, with the aim of providing assistance to low-income households. The model we've developed is designed to simulate this assessment process.",
+    "copyrightYear": 2023,
+    "datePublished": "2023-09-21",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo 6.2.2"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo 6.2.2",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "This model is developed as a part of AI-FORA research project. (www.ai-fora.de)"
+}

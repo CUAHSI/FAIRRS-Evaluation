@@ -1,0 +1,77 @@
+{
+    "@id": "https://www.comses.net/codebases/6042/releases/1.2.0/",
+    "url": "https://www.comses.net/codebases/6042/releases/1.2.0/",
+    "name": "Dawkins Weasel",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-4878-7477",
+            "@type": "Person",
+            "email": "crou0048@umn.edu",
+            "givenName": "Kristin",
+            "familyName": "Crouse",
+            "affiliation": {
+                "@id": "https://ror.org/017zqws13",
+                "url": "http://twin-cities.umn.edu/",
+                "name": "University of Minnesota",
+                "@type": "Organization",
+                "identifier": "https://ror.org/017zqws13"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-4878-7477",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.html",
+        "name": "Apache-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Dawkins, R. (1986). *The Blind Watchmaker: Why the Evidence of Evolution Reveals a Universe Without Design*. New York, NY: W. W. Norton & Company.",
+            "@type": "CreativeWork"
+        },
+        {
+            "text": "This model is an independent implementation of Richard Dawkins\u2019s \u201cWeasel\u201d thought experiment described in The Blind Watchmaker (1986). While many implementations of this thought experiment exist, this model was written from scratch for instructional use and is not a replication of a specific previously published computational model.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "cumulative selection",
+        "dawkins",
+        "education",
+        "evolution",
+        "natural selection"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/6042/releases/1.2.0/",
+    "dateCreated": "2026-01-28",
+    "description": "Dawkins Weasel is a NetLogo model that illustrates the principle of cumulative selection. Inspired by Richard Dawkins\u2019s thought experiment in The Blind Watchmaker (1986), the model contrasts random change with selection that preserves partial improvements. \n\nThe model evolves a string of characters toward a user-defined target phrase, allowing users to explore how mutation rate, number of offspring, and the presence or absence of selection affect the speed and likelihood of convergence. It was created for use in biology classrooms to support instruction on evolutionary mechanisms and common misconceptions about randomness and selection.",
+    "downloadUrl": "https://www.comses.net/codebases/6042/releases/1.2.0/download/",
+    "dateModified": "2026-01-28",
+    "releaseNotes": "### What\u2019s new in this release\n\n- Major documentation update: The Info tab and ODD protocol have been substantially revised to clearly and explicitly frame the model as an illustration of cumulative selection, using Dawkins\u2019s original terminology and intent. Explanations of all parameters and processes have been expanded for instructional clarity.\n- Code refactoring for clarity (no behavior change): Internal control flow has been refactored to improve readability and maintainability, including clearer separation between per-generation stepping and stopping conditions. The underlying evolutionary mechanism and outcomes are unchanged.\n- Improved run summary: When the target phrase is reached, the final summary now reports all relevant simulation settings, including: target phrase, mutation rate, offspring per generation, whether selection was on or off.\n- NetLogo 6 and NetLogo 7 support: This release includes both a .nlogo (NetLogo 6) and .nlogox (NetLogo 7) version of the model. The two files are behavior-identical; the file extension indicates the intended NetLogo version.\n\n### What did not change\n\n- The Dawkins Weasel mechanism and pedagogical intent\n- Output behavior (generation-by-generation log plus final summary)\n- Suitability for introductory and upper-level evolution instruction",
+    "copyrightYear": 2026,
+    "datePublished": "2026-01-28",
+    "codeRepository": "https://github.com/kncrouse/DawkinsWeasel",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

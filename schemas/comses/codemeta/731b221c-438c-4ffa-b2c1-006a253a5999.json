@@ -1,0 +1,63 @@
+{
+    "@id": "https://www.comses.net/codebases/731b221c-438c-4ffa-b2c1-006a253a5999/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/731b221c-438c-4ffa-b2c1-006a253a5999/releases/1.0.0/",
+    "name": "Models associated with paper entitled \"Polarization in Social Media: A Virtual Worlds-Based Approach\"",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/3643/",
+            "@type": "Person",
+            "email": "dennisjacob@icloud.com",
+            "givenName": "Dennis",
+            "familyName": "Jacob"
+        },
+        {
+            "@id": "https://www.comses.net/users/1760/",
+            "@type": "Person",
+            "email": "sven.banisch@universecity.de",
+            "givenName": "Sven",
+            "familyName": "Banisch",
+            "affiliation": {
+                "@id": "https://ror.org/00ez2he07",
+                "url": "http://www.mis.mpg.de/index.html",
+                "name": "Max Planck Institute for Mathematics in the Sciences",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00ez2he07"
+            }
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/731b221c-438c-4ffa-b2c1-006a253a5999/releases/1.0.0/",
+    "dateCreated": "2022-08-06",
+    "description": "This model contains MATLAB code describing the virtual worlds framework used in the paper entitled \"Polarization in Social Media: A Virtual Worlds-Based Approach.\" The parent directory contains driver code for replicating results from the paper. Additionally, the source code is structured by three directories:\n\n- Data Structures: Contains classes and objects used in the code, such as the virtualWorlds.m\n- Metrics: Contains code which computes metrics, such as congruentLinks.m\n- Visualization: Contains code for generating pictures and plots, such as drawSystemState.m\n\nPlease see the README file within the source code for more information.",
+    "downloadUrl": "https://www.comses.net/codebases/731b221c-438c-4ffa-b2c1-006a253a5999/releases/1.0.0/download/",
+    "dateModified": "2023-06-22",
+    "releaseNotes": "Initial release",
+    "copyrightYear": 2023,
+    "datePublished": "2023-06-22",
+    "codeRepository": "https://github.com/djapp18/VirtualWorlds-ABM/tree/main",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "MatLab"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "MatLab",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Source code for the paper \"Polarization in Social Media: A Virtual Worlds-Based Approach\" in Journal of Artificial Societies and Social Simulation 26 (3) 11. The URL link is the following: https://www.jasss.org/26/3/11.html"
+}

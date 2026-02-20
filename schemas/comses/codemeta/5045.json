@@ -1,0 +1,82 @@
+{
+    "@id": "https://www.comses.net/codebases/5045/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5045/releases/1.0.0/",
+    "name": "Peter Diamond's Coconut Model (Heterogeneity and Learning)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1760/",
+            "@type": "Person",
+            "email": "sven.banisch@universecity.de",
+            "givenName": "Sven",
+            "familyName": "Banisch",
+            "affiliation": {
+                "@id": "https://ror.org/00ez2he07",
+                "url": "http://www.mis.mpg.de/index.html",
+                "name": "Max Planck Institute for Mathematics in the Sciences",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00ez2he07"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Eckehard",
+            "familyName": "Olbrich"
+        },
+        {
+            "@id": "https://www.comses.net/users/1760/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "The ABM relates to the theoretical model proposed in: \r\n\r\nDiamond, P. A. Aggregate demand management in search equilibrium, The Journal of Political Economy, JSTOR, 1982, 881-894. | Diamond, P. & Fudenberg, D. Rational expectations business cycles in search equilibrium, Journal of political Economy, JSTOR, 1989, 606-619.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "adaptive agents",
+        "agent based model",
+        "agent heterogeneity",
+        "model alignment",
+        "search equilibrium model",
+        "temporal difference learning"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5045/releases/1.0.0/",
+    "dateCreated": "2016-05-30",
+    "description": "An agent-based version of a simple search and barter economy conceived by Peter Diamond in 1982 is presented. The model is also known as Coconut Model. Two MatLab-Scripts provide implementations with heterogeneous and adaptive strategies (learning). \r\n\r\nIn the model, agents are faced with production decisions that have to be evaluated based on their expectations about the future utility of the produced entity which in turn depends on the global production level via a trading mechanism. While the original dynamical systems formulation assumes an infinite number of homogeneously adapting agents obeying strong rationality conditions, the agent-based setting allows to discuss the effects of heterogeneous and adaptive expectations and enables the analysis of non-equilibrium trajectories.\r\n\r\nAll model details, mathematical discussions about how the ABM relates to the original Diamond model as well as a series of computational experiments are presented in \"Banisch/Olbrich (2016): The Coconut Model with Heterogeneous Strategies and Learning\" which is currently under revision for the JASSS special section for Artificial Economics 2015 (AE15).",
+    "downloadUrl": "https://www.comses.net/codebases/5045/releases/1.0.0/download/",
+    "dateModified": "2018-02-16",
+    "releaseNotes": "",
+    "copyrightYear": 2016,
+    "datePublished": "2016-05-30",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "MatLab"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    },
+    "referencePublication": "Banisch/Olbrich (forthcoming): The Coconut Model with Heterogeneous Strategies and Learning, submitted to JASSS."
+}

@@ -1,0 +1,66 @@
+{
+    "@id": "https://www.comses.net/codebases/4795/releases/1.6.0/",
+    "url": "https://www.comses.net/codebases/4795/releases/1.6.0/",
+    "name": "Charcoal Record Simulation Model (CharRec)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1235/",
+            "@type": "Person",
+            "email": "gsnitker@newmexicoconsortium.org",
+            "givenName": "Grant",
+            "familyName": "Snitker",
+            "affiliation": {
+                "@id": "https://ror.org/01qnpp968",
+                "url": "http://newmexicoconsortium.org/",
+                "name": "New Mexico Consortium",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01qnpp968"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1235/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.6.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agriculture",
+        "anthropogenic fire",
+        "charcoal records",
+        "neolithic",
+        "spain"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4795/releases/1.6.0/",
+    "dateCreated": "2018-02-03",
+    "description": "CharRec simulates the formation of long-term sedimentary charcoal records based on empirically supported models of charcoal dispersion and deposition, physical landscape parameters, and user-defined ignition scenarios. The model provides an exploratory tool to examine the relationship between natural (i.e., lightning caused) and anthropogenic ignition patterns, frequencies, and intensities of landscape fires, and characteristics of the charcoal record produced under different combinations of these parameters. Simulated charcoal records are statistically compared to empirical case studies to determine which ignition scenarios most likely contributed to the formation of a sedimentary record over time. CharRec simulates a suite of processes that impact the generation of the charcoal record, including characteristics of the biophysical landscape such as terrain and wind; fire ignition and charcoal production; and the aerial dispersal of charcoal and its deposition within an accumulating body of sediment.",
+    "downloadUrl": "https://www.comses.net/codebases/4795/releases/1.6.0/download/",
+    "dateModified": "2021-09-30",
+    "releaseNotes": "Version 1.6.0:\n\n1. Correction of example raster inputs extents\n2. Further cleaning of code\n3. Extended instructions for installing R extension for Windows users",
+    "copyrightYear": 2021,
+    "datePublished": "2021-09-30",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

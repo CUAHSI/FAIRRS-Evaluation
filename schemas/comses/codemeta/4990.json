@@ -1,0 +1,63 @@
+{
+    "@id": "https://www.comses.net/codebases/4990/releases/1.7.0/",
+    "url": "https://www.comses.net/codebases/4990/releases/1.7.0/",
+    "name": "An Agent-based model of the economy with consumer credit",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "givenName": "Paola",
+            "familyName": "D'Orazio"
+        },
+        {
+            "@id": "https://www.comses.net/users/1731/",
+            "@type": "Person",
+            "email": "gianfranco.giulioni@unich.it",
+            "givenName": "Gianfranco",
+            "familyName": "Giulioni"
+        },
+        {
+            "@id": "_:author_1",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://www.comses.net/users/1731/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.7.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4990/releases/1.7.0/",
+    "dateCreated": "2016-08-26",
+    "description": "The model was built to study the links between consumer credit, wealth distribution and aggregate demand in a complex macroeconomics system.\r\nIt is populated by heterogeneous consumers, a productive sector and a banking sector.\r\nThe model has a number of parameters such as the agents productivity distribution, the distribution of their willingness to borrow, the propensity to consume out of wealth, the wage setting rule and many other.  They can be changed to evaluate their effect on the aggregate outcome of the economy and to perform sensitivity analysis.",
+    "downloadUrl": "https://www.comses.net/codebases/4990/releases/1.7.0/download/",
+    "dateModified": "2019-03-07",
+    "releaseNotes": "",
+    "copyrightYear": 2019,
+    "datePublished": "2019-03-07",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Repast"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

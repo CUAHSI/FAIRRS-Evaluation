@@ -1,0 +1,66 @@
+{
+    "@id": "https://www.comses.net/codebases/3039b5b4-9a52-4195-a444-0a3a87ef229d/releases/2.5.1/",
+    "url": "https://www.comses.net/codebases/3039b5b4-9a52-4195-a444-0a3a87ef229d/releases/2.5.1/",
+    "name": "Human-in-the-loop Experiment of the Strategic Coalition Formation using the glove game",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-8012-2272",
+            "@type": "Person",
+            "email": "dr.a.collins@gmail.com",
+            "givenName": "Andrew",
+            "familyName": "Collins",
+            "affiliation": {
+                "@id": "https://ror.org/04zjtrb98",
+                "url": "http://www.odu.edu/#prospective",
+                "name": "Old Dominion University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04zjtrb98"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "2.5.1",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Vernon-Bido, Daniele and Collins, Andrew (2021) \u2018Finding Core Members of Cooperative Games Using Agent-Based Modeling\u2019 Journal of Artificial Societies and Social Simulation 24 (1) 6 http://jasss.soc.surrey.ac.uk/24/1/6.html. doi: 10.18564/jasss.4457\n\nCollins, A.J. and E. Frydenlund, Strategic Group Formation in Agent-based Simulation. Simulation. 94 (2018) 179-193",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "cooperative game theory",
+        "human-in-the-loop",
+        "human subject experiment"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3039b5b4-9a52-4195-a444-0a3a87ef229d/releases/2.5.1/",
+    "dateCreated": "2020-11-23",
+    "description": "The purpose of the model is to collect information on human decision-making in the context of coalition formation games. The model uses a human-in-the-loop approach, and a single human is involved in each trial. All other agents are controlled by the ABMSCORE algorithm (Vernon-Bido and Collins 2020), which is an extension of the algorithm created by Collins and Frydenlund (2018). The glove game, a standard cooperative game, is used as the model scenario.\n\nThe intent of the game is to collection information on the human players behavior and how that compares to the computerized agents behavior. The final coalition structure of the game is compared to an ideal output (the core of the games).",
+    "downloadUrl": "https://www.comses.net/codebases/3039b5b4-9a52-4195-a444-0a3a87ef229d/releases/2.5.1/download/",
+    "dateModified": "2022-06-22",
+    "releaseNotes": "Only update is that questionnaires used are now enclosed.",
+    "copyrightYear": 2022,
+    "datePublished": "2022-06-22",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Collins, A. J., and S. Etemadidavan (2021). \u201cHuman Decision-making of Coalition Formation: An Experiment Using a Hybrid Agent-Based Model.\u201d MDPI Modeling, 2(4), 425-447.\n\nEtemadidavan, S., and A. J. Collins (2021). Human Characteristics Impact on Strategic Decisions in a Human-in-the-Loop Simulation. Proceedings of the 2021 IISE Annual Conference,  Virtual, May 22-25.\n\nCollins, A. J., S. Etemadidavan, and P. Pazos-Lago (2020) Human Experiment using a Hybrid Agent-Based Model. Winter Simulation Conference 2020, virtual, December 13-16."
+}

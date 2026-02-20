@@ -1,0 +1,66 @@
+{
+    "@id": "https://www.comses.net/codebases/4520/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/4520/releases/1.1.0/",
+    "name": "An Agent-Based Model of Corruption: Micro Approach",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-1610-6585",
+            "@type": "Person",
+            "email": "vdzutsati@asu.edu",
+            "givenName": "Valery",
+            "familyName": "Dzutsati",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1610-6585",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Ross Hammond. Endogenous transition dynamics in corruption: An agent-based computer model. 2009.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "corruption",
+        "social transition"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4520/releases/1.1.0/",
+    "dateCreated": "2015-09-27",
+    "description": "The model explores the conditions for an endogenous social transition from a high-corruption state to a low-corruption state. The majority of researchers focus on the effects on corrup- tion, while this model specifically addresses the issue of dynamics of corruption. In par- ticular, the model shows that \u201cstable corrupt system\u201d may be quite unstable and transition\r\nto lower level of corruption under certain conditions. The change happens endogenously, without any change in the system and its structure.",
+    "downloadUrl": "https://www.comses.net/codebases/4520/releases/1.1.0/download/",
+    "dateModified": "2018-02-19",
+    "releaseNotes": "Added more descriptive comments in the code. Clarified parameters and switches in the description. Provided shorter and longer version of the model description and experiments.",
+    "copyrightYear": 2015,
+    "datePublished": "2015-09-27",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    }
+}

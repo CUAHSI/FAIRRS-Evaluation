@@ -1,0 +1,98 @@
+{
+    "@id": "https://www.comses.net/codebases/4466/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4466/releases/1.0.0/",
+    "name": "CA-MRSA Demonstration Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-3495-6735",
+            "@type": "Person",
+            "email": "jozik@anl.gov",
+            "givenName": "Jonathan",
+            "familyName": "Ozik"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Charles",
+            "familyName": "Macal"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Kenneth",
+            "familyName": "Letendre"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "givenName": "Irene",
+            "familyName": "Lee"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-3495-6735",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://opensource.org/licenses/BSD-2-Clause",
+        "name": "BSD-2-Clause",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based model",
+        "epidemiology",
+        "mrsa",
+        "ReLogo",
+        "Repast",
+        "statecharts"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4466/releases/1.0.0/",
+    "dateCreated": "2015-01-06",
+    "description": "The University of Chicago and Argonne National Laboratory, in collaboration with Santa Fe Institute\u2019s Project GUTS (\u201cGrowing Up Thinking Scientifically\u201d), designed, developed, and field-tested a curriculum and interactive learning experience to teach students the essential elements of infectious disease transmission (available at http://nih-midasedu.santafe.edu). This is the Repast Simphony statecharts-based model of CA-MRSA that was developed as part of the curriculum. The model demonstrates the benefits of coupling state-based logic with the simplicity of Repast Simphony ReLogo.",
+    "downloadUrl": "https://www.comses.net/codebases/4466/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "Initial OpenABM submission.",
+    "copyrightYear": 2015,
+    "datePublished": "2015-01-06",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Repast"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "ReLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Ozik, J., N. Collier, T. Combs, C.M. Macal, and M.J. North. 2015. \"Repast Simphony Statecharts.\" Journal of Artificial Societies and Social Simulation (in press)."
+}

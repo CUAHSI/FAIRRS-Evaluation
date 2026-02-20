@@ -1,0 +1,61 @@
+{
+    "@id": "https://www.comses.net/codebases/2682/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/2682/releases/1.0.0/",
+    "name": "9 Maturity levels in Empirical Validation - An innovation diffusion example",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/634/",
+            "@type": "Person",
+            "email": "martin.rixen@whu.edu",
+            "givenName": "Martin",
+            "familyName": "Rixin"
+        },
+        {
+            "@id": "https://www.comses.net/users/634/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "calibration",
+        "cournot",
+        "empirical model",
+        "empirical validation",
+        "innovation adoption",
+        "innovation diffusion",
+        "validation"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2682/releases/1.0.0/",
+    "dateCreated": "2011-10-19",
+    "description": "The model integrates both demand and supply in a single model. The underlying demand function links both sides. It is determined by consumer\u00b4s learning status, the awareness for the new technology, and consumer\u00b4s individual price thresholds \u2013 their willingness-to-pay. In brief, diffusion proceeds in our model if awareness spreads due to interactions and firm\u00b4s rivalry reduces the market price. Endogeneity begins when consumer\u00b4s awareness and willingness-to-pay (demand function) drives supply-side rivalry. Market entry and exit decisions as well as quantity and price settings are completely determined by the underlying demand function. We utilize Cournot competition to calculate competitive dynamics within our model. It is a widely accepted economic theory that explains an oligopolistic industry structure in which companies compete on the quantity of output they will produce.\r\n\r\nKey functionality of the model is the option to select different ways to (empirically) calibrate and validate Agents. Based on a 9-stage maturity matrix, the validity of the model can be changed. Huge deviations occur with \"no\" or \"random-normal\" validation, while only small deviations occur between \"aggregated-microdata\" and both \"microdata\" validation taxonomies.\r\n\r\nParameters:\r\nM is the number of periodic mass media interactions, H is the probability for word-of-mouth interactions. Both variables can be adjusted to simulate shifts in Innovation and Imitation ratios. Furthemrore, the input-validation dropdown selection determines the way consumers are calibrated. In case of microdata validation, each consumer receives 16 parameters including INCOME. The INCOME is the primary parameter that determines Willingness-to-Pay.\r\n\r\nVideo documentation with better Quality: http://www.youtube.com/watch?v=qa8KFSKggH4",
+    "downloadUrl": "https://www.comses.net/codebases/2682/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

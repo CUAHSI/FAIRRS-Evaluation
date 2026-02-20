@@ -1,0 +1,59 @@
+{
+    "@id": "https://www.comses.net/codebases/4159/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4159/releases/1.0.0/",
+    "name": "A model of urban expansion policy scenarios using an agent-based approach\u2014a case of  the Guangzhou Metropolitan Region of China",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "givenName": "Guangjin",
+            "familyName": "Tian"
+        },
+        {
+            "@id": "_:author_1",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based model",
+        "analytical hierarchy process",
+        "ca",
+        "logistic regression",
+        "scenario analysis"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4159/releases/1.0.0/",
+    "dateCreated": "2014-03-21",
+    "description": "The model integrates an ABM (agent-based model) with AHP and CA (cellular automata) to investigate a complex decision-making process and future urban dynamic processes. Three policy scenarios for baseline development, rapid development and green land protection under the influences of the behaviours and decision modes of regional authority agents, real estate developer agents, resident agents and farmer agents and their interactions have been applied to predict the future development patterns of the Guangzhou metropolitan region. The behaviours and interactions of the four agents impact the urban dynamic pattern by adjusting parameter weights and can be simulated by the AHP (analytical hierarchy process) method using SPSS (Statistical Product and Service Solutions) and DPS (Data Processing System) software. The spatial distributions of urban expansion were simulated through the uploaded code on the Arc/Info platform. A future policy scenario analysis can help policy makers to understand the possible results. These individuals can adjust their policies and decisions according to their different objectives.",
+    "downloadUrl": "https://www.comses.net/codebases/4159/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2014,
+    "datePublished": "2014-03-21",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "arc/info workstation"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "AML(Arc Macro Language)",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Guangjin Tian, Zhi Qiao. 2014. Modeling urban expansion policy scenarios using an agent-based approach for the Guangzhou metropolitan region of China. Ecology and Society."
+}

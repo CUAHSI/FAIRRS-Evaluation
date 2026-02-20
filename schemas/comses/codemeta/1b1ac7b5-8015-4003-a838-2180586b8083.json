@@ -1,0 +1,60 @@
+{
+    "@id": "https://www.comses.net/codebases/1b1ac7b5-8015-4003-a838-2180586b8083/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/1b1ac7b5-8015-4003-a838-2180586b8083/releases/1.1.0/",
+    "name": "SESPES: socio-ecological systems and payment for ecosystem services model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-9934-1531",
+            "@type": "Person",
+            "email": "eulalia.baulenas@gmail.com",
+            "givenName": "Eul\u00e0lia",
+            "familyName": "Baulenas"
+        }
+    ],
+    "license": {
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.html",
+        "name": "Apache-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "See ODD protocol.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "conservation management",
+        "forest owners",
+        "payment for ecosystem services",
+        "policy design"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/1b1ac7b5-8015-4003-a838-2180586b8083/releases/1.1.0/",
+    "dateCreated": "2020-12-20",
+    "description": "The purpose of this spatially-explicit agent-based model is to intervene in the debate about PES policy design, implementation and context. We use the case for a woodland-for-water payment for ecosystem services (PES) and model its implementation in a local area of Catalonia (NE Spain). The model is based on three sub-models. The structural contains four different designs of a PES policy. The social sub-model includes agent-based factors, by having four types of landowner categories managing or not the forests. This sub-model is based on behavioral studies and assumptions about reception and reaction to incentive policies from European-focused studies. The ecological sub-model is based on climate change data for the area. The output are the evolution of the ecological and social goals of the policy under different policy design scenarios. Our focus in Europe surges from the general context of land abandonment that many Mediterranean areas and Eastern countries are experiencing, and the growing interest from policy-makers and practitioners on the implementation of PES schemes to ameliorate this situation.",
+    "downloadUrl": "https://www.comses.net/codebases/1b1ac7b5-8015-4003-a838-2180586b8083/releases/1.1.0/download/",
+    "dateModified": "2020-12-20",
+    "releaseNotes": "This version adds improved calibration of the parameters.",
+    "copyrightYear": 2020,
+    "datePublished": "2020-12-20",
+    "embargoEndDate": "2021-01-31",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

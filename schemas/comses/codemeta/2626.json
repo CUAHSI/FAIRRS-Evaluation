@@ -1,0 +1,60 @@
+{
+    "@id": "https://www.comses.net/codebases/2626/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/2626/releases/1.0.0/",
+    "name": "Hohokam Water Management Simulation (HWM)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/642/",
+            "@type": "Person",
+            "email": "jtmurphy@anl.gov",
+            "givenName": "John",
+            "familyName": "Murphy",
+            "affiliation": {
+                "@id": "https://ror.org/05gvnxz63",
+                "url": "http://www.anl.gov/",
+                "name": "Argonne National Laboratory",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05gvnxz63"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/642/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "archaeology",
+        "irrigation"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2626/releases/1.0.0/",
+    "dateCreated": "2011-08-31",
+    "description": "Allows simulation of irrigation management along a canal system. Flexible simulation framework allows variety of simulation scenarios to be constructed. Plant data, streamflow data, canal structure, and other parameters can be adjusted. Agents participate in irrigation management by planting and harvesting and by opening and closing gates to the canal system.\r\n\r\nFor full documentation see Murphy, John T. (2009): Exploring Complexity in the Past: The Hohokam Water Management Simulation. PhD thesis, Department of Anthropology, University of Arizona.\r\n\r\nSimulation funded by McDonnell Foundation and written at Arizona State University. See individual files for details and licensing.",
+    "downloadUrl": "https://www.comses.net/codebases/2626/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "Current version as of 8/31/2011.",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "platform_independent",
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

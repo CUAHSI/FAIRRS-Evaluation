@@ -1,0 +1,74 @@
+{
+    "@id": "https://www.comses.net/codebases/6f67f29e-7538-4e3e-a95f-53801b2efb70/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/6f67f29e-7538-4e3e-a95f-53801b2efb70/releases/1.0.0/",
+    "name": "Agent based modeling of the effects of carbon payments and forest owner cooperatives on carbon storage and revenue in Pacific Northwest forestlands.",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/4026/",
+            "@type": "Person",
+            "email": "roychowdhury.pranabk@gmail.com",
+            "givenName": "Pranab",
+            "familyName": "Roy Chowdhury"
+        },
+        {
+            "@id": "https://www.comses.net/users/22/",
+            "@type": "Person",
+            "email": "danbrown@umich.edu",
+            "givenName": "Dan",
+            "familyName": "Brown",
+            "affiliation": {
+                "@id": "https://ror.org/00jmfr291",
+                "url": "https://www.umich.edu/",
+                "name": "University of Michigan",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00jmfr291"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/22/",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "carbon",
+        "ecosystem services",
+        "equity",
+        "forest management",
+        "Netlogo"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/6f67f29e-7538-4e3e-a95f-53801b2efb70/releases/1.0.0/",
+    "dateCreated": "2023-05-05",
+    "description": "The Olympic Peninsula ABM works as a virtual laboratory to simulate the existing forestland management practices as followed by different forestland owner groups in the Olympic Peninsula, Washington, and explore how they could shape the future provisions of multifunctional ecosystem services such as Carbon storage and revenue generation under the business-as-usual scenario as well as by their adaptation to interventions. Forestlands are socio-ecological systems that interact with economic, socio-cultural, and policy systems. Two intervention scenarios were introduced in this model to simulate the adaptation of landowner behavior and test the efficacy of policy instruments in promoting sustainable forest practices and fostering Carbon storage and revenue generation. (1) A market-linked carbon offset scheme that pays the forestland owners a financial incentive in the form of a yearly carbon rent. (2) An institutional intervention policy that allows small forest owners (SFLO) to cooperate for increased market access and benefits under carbon rent scenario. The model incorporates the heterogeneous contexts within which the forestland owners operate and make their forest management decisions by parameterizing relevant agent attributes and contextualizing their unique decision-making processes. ",
+    "downloadUrl": "https://www.comses.net/codebases/6f67f29e-7538-4e3e-a95f-53801b2efb70/releases/1.0.0/download/",
+    "dateModified": "2023-05-09",
+    "releaseNotes": "Initial release",
+    "copyrightYear": 2023,
+    "datePublished": "2023-05-09",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Netlogo 6.0.2"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Netlogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Roy Chowdhury, P. K., & Brown, D. G. (2023). Modeling the effects of carbon payments and forest owner cooperatives on carbon storage and revenue in Pacific Northwest forestlands. Land Use Policy, 131, 106725."
+}

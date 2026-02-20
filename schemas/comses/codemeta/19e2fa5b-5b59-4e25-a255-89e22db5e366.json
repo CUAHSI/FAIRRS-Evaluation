@@ -1,0 +1,59 @@
+{
+    "@id": "https://doi.org/10.25937/818x-hb17",
+    "url": "https://doi.org/10.25937/818x-hb17",
+    "name": "Monogamous Reproduction in Small Populations and the Enforcement of the Incest Taboo",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/3081/",
+            "@type": "Person",
+            "email": "ianstuart1337@outlook.com",
+            "givenName": "Ian",
+            "familyName": "Stuart"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "anthropology",
+        "Incest Taboo",
+        "monogamous reproduction",
+        "monogamy",
+        "NetLogo",
+        "NetLogo 6.3.0",
+        "reproduction"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/818x-hb17",
+        "https://doi.org/10.25937/818x-hb17"
+    ],
+    "dateCreated": "2022-12-05",
+    "description": "This program was developed to simulate monogamous reproduction in small populations (and the enforcement of the incest taboo). \n\nEvery tick is a year. Adults can look for a mate and enter a relationship. Adult females in a Relationship (under the age of 52) have a chance to become pregnant. Everyone becomes not alive at 77 (at which point people are instead displayed as flowers).\n\nUser can select a starting-population. The starting population will be adults between the ages of 18 and 42.\n\nUser can determine if the model should enforce the basic incest taboo (enforce-basic-incest-taboo). Selecting true prevents basic incest among the population.\n\nUser can select chance-to-find-mate-if-available to determine the chance of a single adult finding a mate in a given year (if available; note that the model also enforces a maximum age difference of 12 years for couples).\n\nUser can select chance-of-pregnancy-if-in-relationship to determine chance of a female in a relationship becoming pregnant in a given year.\n\nTo start click \u2018setup\u2019. Setup initializes the population. Each person will appear as a circle that is either blue (if male) or pink (if female). A persons vertical position is determined by their age. A person\u2019s horizontal position is initially random (but a mate-seeker will align with their mate when found).\n\nUser should consider selecting a slow speed.\n\nClicking 'go' will start the simulation. \n\nPeople will move up as they age (and newborns will appear at the bottom). People will instead appear as flowers after they \u201cdie\u201d (note that an \u2018alive\u2019 variable is used to determine if a person is alive; they do not cease to exist to netlogo until after 400 years).\n\nPeople who are in a relationship will have a red line drawn between them.\n\nDads will have a blue line drawn to each of their children.\n\nThe model will stop when nobody is left alive or the population reaches 500.",
+    "downloadUrl": "https://www.comses.net/codebases/19e2fa5b-5b59-4e25-a255-89e22db5e366/releases/1.0.0/download/",
+    "dateModified": "2024-12-05",
+    "releaseNotes": "First release. ",
+    "copyrightYear": 2023,
+    "datePublished": "2023-01-18",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo 6.3.0"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo 6.3.0",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

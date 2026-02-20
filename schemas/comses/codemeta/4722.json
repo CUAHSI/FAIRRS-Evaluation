@@ -1,0 +1,64 @@
+{
+    "@id": "https://www.comses.net/codebases/4722/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/4722/releases/1.1.0/",
+    "name": "Stylized agricultural land-use model for resilience exploration",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-2715-606X",
+            "@type": "Person",
+            "email": "patrick.bitterman@uvm.edu",
+            "givenName": "Patrick",
+            "familyName": "Bitterman",
+            "affiliation": {
+                "@id": "https://ror.org/0155zta11",
+                "url": "http://www.uvm.edu/",
+                "name": "University of Vermont",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0155zta11"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-2715-606X",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4722/releases/1.1.0/",
+    "dateCreated": "2016-08-22",
+    "description": "This agent-based model is a stylized model of farmer land use in the Clear Creek Watershed (CCW) in eastern Iowa. Farmers make land use (e.g., crop) decisions for each of their land parcels at an annual time step. Farmers generally optimize income under parameterized policy and climate scenarios. Spatially explicit perturbations simulating drought act upon the landscape, and farmer agents cope via crop insurance. Generalized models of biophysical processes (e.g., run-off, soil loss) are included to estimate environmental impacts of land use. The primary purpose of this model is provide output data used to generate stability landscapes under the resilience paradigm, and is **not** intended to be prescriptive or predictive. These state spaces can be used to diagnose model processes and the impacts of scenarios.",
+    "downloadUrl": "https://www.comses.net/codebases/4722/releases/1.1.0/download/",
+    "dateModified": "2019-04-08",
+    "releaseNotes": "v2. updated with sample input files",
+    "copyrightYear": 2019,
+    "datePublished": "2019-04-08",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Java"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "JDK 1.7",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Bitterman, P., and D. A. Bennett. 2016. Constructing stability landscapes to identify alternative states in coupled social-ecological agent-based models. Ecology and Society 21(3):2. doi: 10.5751/ES-08677-210321\r\n\r\nhttp://www.ecologyandsociety.org/vol21/iss3/art21/"
+}

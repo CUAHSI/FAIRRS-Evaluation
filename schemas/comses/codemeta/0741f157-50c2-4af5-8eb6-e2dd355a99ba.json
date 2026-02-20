@@ -1,0 +1,65 @@
+{
+    "@id": "https://doi.org/10.25937/q2xt-rj46",
+    "url": "https://doi.org/10.25937/q2xt-rj46",
+    "name": "Dynamic Equilibria Prediction: Experience-Weighted Attraction (EWA), Python Implementation",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-3680-9613",
+            "@type": "Person",
+            "email": "visferraz@gmail.com",
+            "givenName": "Vinicius",
+            "familyName": "Ferraz",
+            "affiliation": {
+                "url": "https://www.uni-heidelberg.de/fakultaeten/wiso/awi/index_en.html",
+                "name": "Alfred Weber Institute of Economics, University of Heidelberg",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "https://doi.org/10.1111/1468-0262.00054",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "Agent based social simulation",
+        "game theory"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/q2xt-rj46",
+        "https://doi.org/10.25937/q2xt-rj46"
+    ],
+    "dateCreated": "2022-06-09",
+    "description": "This project is based on a Jupyter Notebook that describes the stepwise implementation of the EWA model in bi-matrix ( 2\u00d72 ) strategic-form games for the simulation of economic learning processes. The output is a dataset with the simulated values of Attractions, Experience, selected strategies, and payoffs gained for the desired number of rounds and periods. The notebook also includes exploratory data analysis over the simulated output based on equilibrium, strategy frequencies, and payoffs.",
+    "downloadUrl": "https://www.comses.net/codebases/0741f157-50c2-4af5-8eb6-e2dd355a99ba/releases/1.0.0/download/",
+    "dateModified": "2022-12-22",
+    "releaseNotes": "First version - model implementation and exploratory data analysis",
+    "copyrightYear": 2022,
+    "datePublished": "2022-12-02",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "Jupyter Notebook"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python 3",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

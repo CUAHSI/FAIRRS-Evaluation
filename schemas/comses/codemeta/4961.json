@@ -1,0 +1,142 @@
+{
+    "@id": "https://www.comses.net/codebases/4961/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4961/releases/1.0.0/",
+    "name": "FEARLUS-SPOMM",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/843/",
+            "@type": "Person",
+            "email": "gary.polhill@hutton.ac.uk",
+            "givenName": "Gary",
+            "familyName": "Polhill",
+            "affiliation": {
+                "@id": "https://ror.org/03rzp5127",
+                "url": "http://www.hutton.ac.uk/",
+                "name": "The James Hutton Institute",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03rzp5127"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Nick",
+            "familyName": "Gotts"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Alistair",
+            "familyName": "Law"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "givenName": "Luis",
+            "familyName": "Izquierdio"
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Person",
+            "givenName": "Alessandro",
+            "familyName": "Gimona"
+        },
+        {
+            "@id": "_:author_6",
+            "@type": "Person",
+            "givenName": "Lee-Ann",
+            "familyName": "Sutherland"
+        },
+        {
+            "@id": "https://www.comses.net/users/663/",
+            "@type": "Person",
+            "email": "dcparker@uwaterloo.ca",
+            "givenName": "Dawn",
+            "familyName": "Parker",
+            "affiliation": {
+                "@id": "https://ror.org/01aff2v68",
+                "url": "https://uwaterloo.ca/",
+                "name": "University of Waterloo",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01aff2v68"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/843/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_6",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://www.comses.net/users/663/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "coupled human and natural systems",
+        "farmer decision making",
+        "land market",
+        "land use",
+        "land use change",
+        "payment for ecosystem services"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4961/releases/1.0.0/",
+    "dateCreated": "2016-03-25",
+    "description": "FEARLUS-SPOMM is a coupled agent-based model of land use decision-making and stochastic patch occupancy metacommunity model. It is written in Obj-C Swarm. Accompanying the upload are various scripts needed to replicate the work done in papers that have used the model. The code provides options to compile FEARLUS and SPOMM separately from FEARLUS-SPOMM.",
+    "downloadUrl": "https://www.comses.net/codebases/4961/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "This is version 1.1.5 of FEARLUS and 2.3 of SPOMM\r\n\r\nYou can see a video of the model at ",
+    "copyrightYear": 2016,
+    "datePublished": "2016-03-25",
+    "operatingSystem": "linux",
+    "runtimePlatform": [
+        "Swarm"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Objective-C",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "http://dx.doi.org/10.1016/j.envsoft.2012.11.011\r\nhttp://dx.doi.org/10.1080/1747423X.2011.558601"
+}

@@ -1,0 +1,82 @@
+{
+    "@id": "https://doi.org/10.25937/pcw6-s385",
+    "url": "https://doi.org/10.25937/pcw6-s385",
+    "name": "A Picit Jeu: an Agent-Based Model for role-playing game",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-4530-7386",
+            "@type": "Person",
+            "email": "ingridv@met.no",
+            "givenName": "Ingrid",
+            "familyName": "Vigna",
+            "affiliation": {
+                "@id": "https://ror.org/001n36p86",
+                "url": "http://met.no",
+                "name": "Norwegian Meteorological Institute",
+                "@type": "Organization",
+                "identifier": "https://ror.org/001n36p86"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-5099-0001",
+            "@type": "Person",
+            "email": "james.millington@kcl.ac.uk",
+            "givenName": "James",
+            "familyName": "Millington",
+            "affiliation": {
+                "@id": "https://ror.org/0220mzb33",
+                "url": "http://www.kcl.ac.uk/index.aspx",
+                "name": "King's College London",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0220mzb33"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-4530-7386",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agroforestry",
+        "role-playing games",
+        "stakeholders",
+        "wildfire"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/pcw6-s385",
+        "https://doi.org/10.25937/pcw6-s385"
+    ],
+    "dateCreated": "2024-02-21",
+    "description": "A Picit Jeu is an agent-based model (ABM) developed as a supporting tool for a role-playing game of the same name. The game is intended for stakeholders involved in land management and fire prevention at a municipality level. It involves four different roles: farmers, forest technicians, municipal administrators and forest private owners. The model aims to show the long-term effects of their different choices about forest and pasture management on fire hazard, letting them test different management strategies in an economically constraining context. It also allows the players to explore different climatic and economic scenarios. A Picit Jeu ABM reproduces the ecological, social and economic characteristics and dynamics of an Alpine valley in north-west Italy. The model should reproduce a primary general pattern: the less players undertake landscape management actions, by thinning and cutting forests or grazing pastures, the higher the probability that a fire will burn a large area of land. \n",
+    "downloadUrl": "https://www.comses.net/codebases/50849361-642c-48ed-b8b5-48e0d9344228/releases/1.0.0/download/",
+    "dateModified": "2024-12-05",
+    "releaseNotes": "Initial release.\n\nThe model is supposed to be managed by the game master during A Picit Jeu game sessions, according to the decisions of the players. A number of buttons and a guideline of the game session procedures that the master has to carry on during the simulation are displayed on the Interface tab.",
+    "copyrightYear": 2024,
+    "datePublished": "2024-05-24",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo 6.3"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo 6.3",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

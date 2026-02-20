@@ -1,0 +1,53 @@
+{
+    "@id": "https://www.comses.net/codebases/cfec5378-1a38-48e1-80e3-b9f86990bcff/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/cfec5378-1a38-48e1-80e3-b9f86990bcff/releases/1.0.0/",
+    "name": "Soy2Grow-ABM-V1",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2829/",
+            "@type": "Person",
+            "email": "siavash.farahbakhsh@gmail.com",
+            "givenName": "Siavash",
+            "familyName": "Farahbakhsh"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Farahbakhsh, S., Peeters, K., Pannecoucque, J., Tavernier, G., Vanden Berghen, B., & Van Meensel, J. (2025). The uptake of European soy production: Insights from a participatory agent-based model. Agricultural Systems, 224, 104264. https://doi.org/https://doi.org/10.1016/j.agsy.2025.104264",
+            "@type": "CreativeWork"
+        }
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/cfec5378-1a38-48e1-80e3-b9f86990bcff/releases/1.0.0/",
+    "dateCreated": "2025-01-20",
+    "description": "The Soy2Grow ABM aims to simulate the adoption of soybean production in Flanders, Belgium. The model primarily considers two types of agents as farmers: 1) arable and 2) dairy farmers. Each farmer, based on its type, assesses the feasibility of adopting soybean cultivation. The feasibility assessment depends on many interrelated factors, including price, production costs, yield, disease, drought (i.e., environmental stress), social pressure, group formations, learning and skills, risk-taking, subsidies, target profit margins, tolerance to bad experiences, etc. Moreover, after adopting soybean production, agents will reassess their performance. If their performance is unsatisfactory, an agent may opt out of soy production. Therefore, one of the main outcomes to look for in the model is the number of adopters over time. \n\nThe main agents are farmers. Generally, factors influencing farmers' decision-making are divided into seven main areas: 1) external environmental factors, 2) cooperation and learning (with slight differences depending on whether they are arable or dairy farmers), 3) crop-specific factors, 4) economics, 5) support frameworks, 6) behavioral factors, and 7) the role of mobile toasters (applicable only to dairy farmers).\nMoreover, factors not only influence decision-making but also interact with each other. Specifically, external environmental factors (i.e., stress) will result in lower yield and quality (protein content). The reducing effect, identified during participatory workshops, can reach 50 %. Skills can grow and improve yield; however, their growth has a limit and follows different learning curves depending on how individualistic a farmer is. During participatory workshops, it was identified that, contrary to cooperative farmers, individualistic farmers may learn faster and reach their limits more quickly. Furthermore, subsidies directly affect revenues and profit margins; however, their impact may disappear when they are removed. In the case of dairy farmers, mobile toasters play an important role, adding toasting and processing costs to those producing soy for their animal feed consumption.\nLast but not least, behavioral factors directly influence the final adoption decision. For example, high risk-taking farmers may adopt faster, whereas more conservative farmers may wait for their neighbors to adopt first. Farmers may evaluate their success based on their own targets and may also consider other crops rather than soy.",
+    "downloadUrl": "https://www.comses.net/codebases/cfec5378-1a38-48e1-80e3-b9f86990bcff/releases/1.0.0/download/",
+    "dateModified": "2025-01-20",
+    "releaseNotes": "The model is coded in Julia programming language and different packages are used. Please make sure to adapt the code if you are using different versions of Julia programming languages and its packages. It can happen that you cannot run the model given different versions in place. An explanation on each procedure is provided to help the modeler understand the intentions behind each procedure.  ",
+    "copyrightYear": 2025,
+    "datePublished": "2025-01-20",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Julia"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Julia",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

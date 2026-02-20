@@ -1,0 +1,63 @@
+{
+    "@id": "https://www.comses.net/codebases/4746/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/4746/releases/1.1.0/",
+    "name": "Micro-level Adaptation, Macro-level Selection, and the Dynamics of Market Partitioning",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-5395-5324",
+            "@type": "Person",
+            "email": "c.e.garcia.diaz@gmail.com",
+            "givenName": "C\u00e9sar",
+            "familyName": "Garc\u00eda-D\u00edaz",
+            "affiliation": {
+                "url": "http://www.javeriana.edu.co",
+                "name": "School of Economics and Business, Pontificia Universidad Javeriana (Colombia)",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-5395-5324",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "dual market structures",
+        "industry dynamics",
+        "organizational ecology",
+        "sunk costs"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4746/releases/1.1.0/",
+    "dateCreated": "2015-10-19",
+    "description": "This model provides a micro-foundation for dual market structure formation through partitioning processes in marketplaces by developing a computational model of interacting economic agents. We propose an agent-based modeling approach, where firms are adaptive and profit-seeking agents entering into and exiting from the market according to their (lack of) profitability. Our firms are characterized by large and small sunk costs, respectively. They locate their offerings along a unimodal demand distribution over a one-dimensional product variety, with the distribution peak constituting the center and the tails standing for the peripheries.  We found that large firms may first advance toward the most abundant demand spot, the market center, and release peripheral positions as predicted by extant dual market explanations. However, we also observed that large firms may then move back toward the market fringes to reduce competitive niche overlap in the center, triggering nonlinear resource occupation behavior. Novel results indicate that resource release dynamics depend on firm-level adaptive capabilities, and that a minimum scale of production for low sunk cost firms is key to the formation of the dual structure.",
+    "downloadUrl": "https://www.comses.net/codebases/4746/releases/1.1.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "",
+    "copyrightYear": 2015,
+    "datePublished": "2015-10-19",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "MatLab"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "MatLab",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

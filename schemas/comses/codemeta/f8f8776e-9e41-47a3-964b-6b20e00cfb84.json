@@ -1,0 +1,74 @@
+{
+    "@id": "https://www.comses.net/codebases/f8f8776e-9e41-47a3-964b-6b20e00cfb84/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/f8f8776e-9e41-47a3-964b-6b20e00cfb84/releases/1.0.0/",
+    "name": "IUCM - The Integrated Urban Complexity Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-4514-2462",
+            "@type": "Person",
+            "email": "roger.cremades@wur.nl",
+            "givenName": "Roger",
+            "familyName": "Cremades",
+            "affiliation": {
+                "@id": "https://ror.org/04qw24q55",
+                "url": "https://www.wur.nl/",
+                "name": "Wageningen University & Research",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04qw24q55"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "philipp.sommer@hereon.de",
+            "givenName": "Philipp",
+            "familyName": "Sommer"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "cellular automata",
+        "energy",
+        "entropy",
+        "fractal",
+        "simulation modelling of geographical phenomena"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/f8f8776e-9e41-47a3-964b-6b20e00cfb84/releases/1.0.0/",
+    "dateCreated": "2023-12-14",
+    "description": "We present the Integrated Urban Complexity model (IUCm 1.0) that computes \u201cclimate-smart urban forms\u201d, which are able to cut emissions related to energy consumption from urban mobility in half. Furthermore, we show the complex features that go beyond the normal debates about urban sprawl vs. compactness. Our results show how to reinforce fractal hierarchies and population density clusters within climate risk constraints to significantly decrease the energy consumption of urban mobility. The new model that we present aims to produce new advice about how cities can combat climate change. From a technical angle, this model is a geographical automaton, conceptually interfacing between cellular automata and spatial explicit optimisation to achieve normative sustainability goals related to low energy. See a complete user guide at https://iucm.readthedocs.io/en/latest/ .",
+    "downloadUrl": "https://www.comses.net/codebases/f8f8776e-9e41-47a3-964b-6b20e00cfb84/releases/1.0.0/download/",
+    "dateModified": "2023-12-14",
+    "releaseNotes": "The output for the linked article was produced in a HPC linux machine, we recommend potential users to follow the abundant documentation we created (see links within this record).",
+    "copyrightYear": 2023,
+    "datePublished": "2023-12-14",
+    "codeRepository": "https://github.com/Chilipp/iucm/blob/master/docs/index.rst",
+    "supportingData": {
+        "url": "https://gmd.copernicus.org/articles/12/525/2019/gmd-12-525-2019-supplement.pdf",
+        "@type": "DataFeed"
+    },
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Python"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Cremades, R., & Sommer, P. S. (2019). Computing climate-smart urban land use with the Integrated Urban Complexity model (IUCm 1.0). Geoscientific Model Development, 12(1), 525-539. https://doi.org/10.5194/gmd-12-525-2019"
+}

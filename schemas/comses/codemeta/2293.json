@@ -1,0 +1,49 @@
+{
+    "@id": "https://www.comses.net/codebases/2293/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/2293/releases/1.0.0/",
+    "name": "SBH trust model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/546/",
+            "@type": "Person",
+            "email": "di.wang@mbs.ac.uk",
+            "givenName": "Di",
+            "familyName": "Wang"
+        },
+        {
+            "@id": "https://www.comses.net/users/546/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2293/releases/1.0.0/",
+    "dateCreated": "2010-12-14",
+    "description": "This is a computational model to articulate the theory and test some assumption and axioms for the trust model and its relationship to SBH.\r\n\r\nThe algorithm for the model has two cycles, the first powers the simulation for the desired set of runs, in the simulations is set as 3000. The second cycle gives each focal agent a turn within a run for either foraging or social token. If a foraging token is got, this ego will eat once, else if a social token is got, this ego will select an alter ego for interaction based on its alter ego selection strategy. In this simulation we set the population as 300, half with stage alter ego selection strategy and the other half with strong ties preferred alter ego selection strategy.  This can be changed be changing the parameters in the file of class of Society: population as the total population, and g1[0], g2[0], g3[0], g4[0] as population for stage, strong tie preferred, weak tie preferred, medium tie preferred respectively. \r\n\r\nRun the main class MainClass.java to get the results and resulting log files.",
+    "downloadUrl": "https://www.comses.net/codebases/2293/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "other",
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

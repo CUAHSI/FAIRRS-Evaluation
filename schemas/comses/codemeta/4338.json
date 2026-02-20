@@ -1,0 +1,67 @@
+{
+    "@id": "https://www.comses.net/codebases/4338/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4338/releases/1.0.0/",
+    "name": "FlowLogo: An agent-based platform for simulating complex human-aquifer interactions in managed groundwater systems",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1236/",
+            "@type": "Person",
+            "email": "juan.castilla@csiro.au",
+            "givenName": "Juan",
+            "familyName": "Castilla-Rho",
+            "affiliation": {
+                "url": "http://www.csiro.au",
+                "name": "CSIRO Land & Water",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1236/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based model",
+        "bottom-up",
+        "complex adaptive social system",
+        "coupled socio-environmental system",
+        "groundwater management",
+        "hydrogeology",
+        "modflow"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4338/releases/1.0.0/",
+    "dateCreated": "2015-08-30",
+    "description": "We developed a platform integrating a 2D, finite-difference solution of the governing equations of groundwater flow with agent-based simulation. It allows both steady-state and transient simulations and it contains a basic toolbox to represent boundary conditions (fixed-head, constant flux, no-flow), wells (recharge, discharge), evapotranspiration (fixed or head-dependent rate), recharge (lateral or areal), drains, springs and rivers (fixed stage, losing or gaining). This set of features can be expanded and customized. Although developed in Netlogo and limited to 2D problems, FlowLogo can be re-implemented in any ABM platform and extended for 3D problems involving multiple aquifers.",
+    "downloadUrl": "https://www.comses.net/codebases/4338/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2015,
+    "datePublished": "2015-08-30",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Castilla-Rho et al. 2015. An agent-based modelling platform for simulating complex human-aquifer interaction in managed groundwater systems, Environmental Modelling and Software (in press)"
+}

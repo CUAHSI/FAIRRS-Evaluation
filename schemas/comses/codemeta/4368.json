@@ -1,0 +1,89 @@
+{
+    "@id": "https://www.comses.net/codebases/4368/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/4368/releases/1.1.0/",
+    "name": "A Complex Model of Voter Turnout",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-3903-2507",
+            "@type": "Person",
+            "email": "bruce@edmonds.name",
+            "givenName": "Bruce",
+            "familyName": "Edmonds",
+            "affiliation": {
+                "url": "http://mmu.ac.uk",
+                "name": "Centre for Policy Modelling",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Laurence",
+            "familyName": "Lessard-Phillips"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Ed",
+            "familyName": "Fieldhouse"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-3903-2507",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "civic duty",
+        "ethnicity",
+        "habit",
+        "kids",
+        "politics",
+        "social influence",
+        "social network",
+        "voting behavior"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4368/releases/1.1.0/",
+    "dateCreated": "2015-08-18",
+    "description": "This is intended as a \u201cData Integration Model\u201d (Edmonds 2010b). That is a consistent, detailed and dynamic description, in the form of an agent-based simulation, of the available evidence concerning the question of why people bother to vote. This integrates a variety of kinds and qualities of evidence. Thus it follows a \u201cKIDS\u201d rather than a \u201cKISS\u201d methodology - it aims to be more guided by the available evidence rather than simplicity (Edmonds & Moss 2005).\r\n\r\nThus this is a complex model, with many different social processes interweaving. Although not specifically designed as such, it turns out that the model has distinct \u201clayers\u201d. These are:\r\n*   The input data which initialises the agents in new households (at the start or in-coming households)\r\n*   The demographic processes: immigration, emmigration, partnering, birth, death, ageing etc.\r\n*   The social network that develops and changes between agents (representing a relationship that would allow a political discussion if the agents were so minded)\r\n*   The social influence via political discussions that can occur over the network\r\n*   The decisions and processes which determine whether agents vote or not\r\n\r\nThe purpose of this model is to enable the exploration of some social processes behind voter turnout, including demographic trends in household size and composition, social influence via the social networks the individuals are embedded within, wider social norms such as civic duty, personal habit and identity, as well as individual rationality. Thus this model is an explanatory model - it demonstrates the plausibility of (complicated) explanations of outcomes from the initial set-up.\r\n\r\nIt is important to understand that this is NOT a simulation with free-parameters that are conditioned on some \u201cin-sample\u201d data. It does have a lot of parameters, but these are set (or could be set) from empirical data.",
+    "downloadUrl": "https://www.comses.net/codebases/4368/releases/1.1.0/download/",
+    "dateModified": "2018-02-19",
+    "releaseNotes": "Version 2 fixes some minor bugs, the most important of which scales the effect of the critical influence rate parameter. It also has a slightly different selection of parameters (a few extra) and some new outputs in the statistics.",
+    "copyrightYear": 2015,
+    "datePublished": "2015-08-18",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

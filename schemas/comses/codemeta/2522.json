@@ -1,0 +1,64 @@
+{
+    "@id": "https://www.comses.net/codebases/2522/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/2522/releases/1.0.0/",
+    "name": "NetCommons",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-0720-4180",
+            "@type": "Person",
+            "email": "miguel.quesada@uab.cat",
+            "givenName": "Francisco",
+            "familyName": "Miguel Quesada",
+            "affiliation": {
+                "@id": "https://ror.org/021018s57",
+                "url": "http://www.ub.edu/web/ub/en/",
+                "name": "Dept. Sociology, Aut\u00f2noma University of Barcelona",
+                "@type": "Organization",
+                "identifier": "https://ror.org/021018s57"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-0720-4180",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "public good game",
+        "social dilemma",
+        "social network"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2522/releases/1.0.0/",
+    "dateCreated": "2011-05-18",
+    "description": "Netcommons could load any DL network (or generate random networks of N size) and then run an arbitrary number of replications of decision process about to cooperate or not to a step-level public good. Agents are strictly utility maximizers and make decisions following rules triggered by a combination of a) their available neighbor-local information and b) their position into the decision order sequence, after compute the \"criticality\" of their own decision into the group. NetCommons lets you change and explore the setup parameters of the experimental case and plots the evolution of the success ratio for each network. Furthermore, NetCommons could record any decision of any agent, together with the context, the individual behavior and the related aggregate outcomes after each round. This event history database could be exported to a CSV file in order to be explored and analyzed with standard tools like SPSS or any spreadsheet.",
+    "downloadUrl": "https://www.comses.net/codebases/2522/releases/1.0.0/download/",
+    "dateModified": "2018-02-16",
+    "releaseNotes": "First public version.",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

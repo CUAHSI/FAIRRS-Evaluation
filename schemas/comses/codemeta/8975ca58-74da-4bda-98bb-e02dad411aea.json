@@ -1,0 +1,59 @@
+{
+    "@id": "https://www.comses.net/codebases/8975ca58-74da-4bda-98bb-e02dad411aea/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/8975ca58-74da-4bda-98bb-e02dad411aea/releases/1.0.0/",
+    "name": "An Agent-Based Simple Economy Model With Taxation And Almsgiving For Social Justice",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-0739-7488",
+            "@type": "Person",
+            "email": "ersantasan@gmail.com",
+            "givenName": "Er\u015fan",
+            "familyName": "Ta\u015fan"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "almsgiving",
+        "economy",
+        "Inequality",
+        "social justice",
+        "tax",
+        "taxation",
+        "wealth inequality",
+        "zakat"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/8975ca58-74da-4bda-98bb-e02dad411aea/releases/1.0.0/",
+    "dateCreated": "2018-12-17",
+    "description": "An agent based simple economy model that examines the effect of taxation and almsgiving (particularly Islamic almsgiving - zakat) for ameliorating wealth inequality.",
+    "downloadUrl": "https://www.comses.net/codebases/8975ca58-74da-4bda-98bb-e02dad411aea/releases/1.0.0/download/",
+    "dateModified": "2018-12-17",
+    "releaseNotes": "The agent-based model's code in Netlogo programming language (for Netlogo simulation software). Some lines of the code are commented out but they can be re-included in order to try different variations of the model. That is, taxation (line 33) may be added to the model and re-adjusted for percentage (originally 10%), and almsgiving percentage may be altered (originally 1/40 - 2.5%, in order to simulate \u0130slamic almsgiving - zakat)",
+    "copyrightYear": 2018,
+    "datePublished": "2018-12-17",
+    "codeRepository": "https://github.com/ersantasan/Agent-Based-Taxation-And-Almsgiving-Model-For-Social-Justice",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo",
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

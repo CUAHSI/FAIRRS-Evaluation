@@ -1,0 +1,56 @@
+{
+    "@id": "https://www.comses.net/codebases/3274/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/3274/releases/1.1.0/",
+    "name": "A land-use model to illustrate ambiguity in design",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/248/",
+            "@type": "Person",
+            "email": "juliaschindler@gmx.net",
+            "givenName": "Julia",
+            "familyName": "Schindler"
+        },
+        {
+            "@id": "https://www.comses.net/users/248/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "ambiguity",
+        "design",
+        "empirical model",
+        "justification",
+        "land-use change"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3274/releases/1.1.0/",
+    "dateCreated": "2017-01-13",
+    "description": "In the GH-LUDAS model, household agents are represented by attributes and by an annual decision-making module. Landscape agents (square patches) are represented by attributes and ecological sub-models. The two types of agents are linked by tenure relations and feedback. The basic feedback loop between household agents and patches takes the form of land-use choices and subsequent ecological returns affecting household livelihood assets and thus choices. This is implemented by household agents running a land-use choice phase, in which patches are selected for use, as long as the agent's labor budget is positive. In particular, the location, land-use type, and management mode of patches is selected. These choices depend on household characteristics and assets, environmental attributes, and the livelihood strategy. Crop return is finally calculated for each patch depending on these choices.\r\n\r\nDuring the land-use choice phase, patches that are assigned to the agent as owned are first cultivated. Then a search routine for rental land starts. The search for suitable patches to rent occurs within an aggregate of search radii, called the Landscape Vision. The evaluation of patches is achieved via comparison of utilities. These are calculated via multinomial or binary logistic regression models, whereby coefficients are specific to the livelihood class of the human agent (see below). The choice among land-use types for a patch follows the ordered choice principle among utilities. The mode of management is modelled via assignment of constants with uncertainty ranges, in dependence of relevant policy, household or environmental variable values. Given these choices, ecological returns from patches are calculated. These are modelled by a crop production model. This crop production model calculates crop return dependent on the management decisions and natural factors for each land-use type. Aside from land-use returns also non-land-use related benefits are calculated, in dependence of the livelihood class of the agent. \r\n\r\nAfter this basic feedback loop, model variables are updated. Given these updates, the most typical livelihood class is finally selected for the household. The livelihood classes were determined by applying Principle Component Analysis and k-mean Cluster Analysis to a range of explanatory variables using the widely used livelihood asset framework by Ashley and Carney.",
+    "downloadUrl": "https://www.comses.net/codebases/3274/releases/1.1.0/download/",
+    "dateModified": "2018-02-16",
+    "releaseNotes": "",
+    "copyrightYear": 2017,
+    "datePublished": "2017-01-13",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    }
+}

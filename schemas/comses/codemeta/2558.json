@@ -1,0 +1,52 @@
+{
+    "@id": "https://www.comses.net/codebases/2558/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/2558/releases/1.0.0/",
+    "name": "BN intervention model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/546/",
+            "@type": "Person",
+            "email": "di.wang@mbs.ac.uk",
+            "givenName": "Di",
+            "familyName": "Wang"
+        },
+        {
+            "@id": "https://www.comses.net/users/546/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2558/releases/1.0.0/",
+    "dateCreated": "2011-07-13",
+    "description": "Bayesian network intervention model\r\nInitialise\r\n\tGenerate memes (HAdv meme and Ad meme) and its initial energy;\r\n\tAssign memes to selected agents randomly based on the number of seed agents\r\nFor (1) each generation\r\n\tFor (2) each iteration\r\n\t\tFor (3) each agent\r\nIf this agent has memes, then diffuse its memes (HAdv meme and Ad meme) to its neighbouring agents and change the energy level of their memes\r\nReact and action based on its internal character and memes (HAdv meme and Ad meme)\r\n\t\tEnd (3)\r\n\t\tFor (4) each agent\r\n\t\t\tDecay the energy rate for its memes (HAdv meme and Ad meme)\r\n\t\tEnd (4)\r\n\tEnd (2)\r\nEnd (1)",
+    "downloadUrl": "https://www.comses.net/codebases/2558/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "eclipse"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

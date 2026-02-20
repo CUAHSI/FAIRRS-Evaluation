@@ -1,0 +1,63 @@
+{
+    "@id": "https://www.comses.net/codebases/50cf5d2a-0f37-4d4d-84e0-715e641180d9/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/50cf5d2a-0f37-4d4d-84e0-715e641180d9/releases/1.0.0/",
+    "name": "AncientS-ABM: Agent-Based Modeling of Past Societies Social Organization",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2835/",
+            "@type": "Person",
+            "email": "angelos@ims.forth.gr",
+            "givenName": "Angelos",
+            "familyName": "Chliaoutakis",
+            "affiliation": {
+                "url": "https://www.ims.forth.gr/en/department/view?id=7",
+                "name": "Laboratory of Geophysical - Satellite Remote Sensing and Archaeo-environment, IMS-FORTH",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc/4.0",
+        "name": "CC-BY-NC-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based model",
+        "archaeological computing",
+        "evolutionary game theory",
+        "Minoan civilization",
+        "self-organization",
+        "social archaeology",
+        "spatial interaction models",
+        "spatial model"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/50cf5d2a-0f37-4d4d-84e0-715e641180d9/releases/1.0.0/",
+    "dateCreated": "2020-03-26",
+    "description": "AncientS-ABM is an agent-based model for simulating and evaluating the potential social organization of an artificial past society, configured by available archaeological data. Unlike most existing agent-based models used in archaeology, our ABM framework includes completely autonomous, *utility-based* agents. It also incorporates different social organization paradigms, different decision-making processes, and also different cultivation technologies used in ancient societies. Equipped with such paradigms, the model allows us to explore the transition from a simple to a more complex society by focusing on the historical social dynamics; and to assess the influence of social organization on agents' population growth, agent community numbers, sizes and distribution. \n\nAncientS-ABM also blends ideas from evolutionary game theory with multi-agent systems' self-organization. We model the evolution of social behaviours in a population of strategically interacting agents in repeated games where they exchange resources (utility) with others. The results of the games contribute to both the continuous re-organization of the social structure, and the progressive adoption of the most successful agent strategies. Agent population is not fixed, but fluctuates over time, while agents in stage games also receive non-static payoffs, in contrast to most games studied in the literature. To tackle this, we defined a novel formulation of the evolutionary dynamics via assessing agents' rather than strategies' fitness.  \n\nAs a case study, we employ AncientS-ABM to evaluate the impact of the implemented social organization paradigms on an artificial *Bronze Age \"Minoan\" society*, located at different geographical parts of the island of Crete, Greece. Model parameter choices are based on archaeological evidence and studies, but are not biased towards any specific assumption. Results over a number of different simulation scenarios demonstrate better sustainability for settlements consisting of and adopting a socio-economic organization model based on self-organization, where a \"heterarchical\" social structure emerges. Results also demonstrate that successful agent societies adopt an evolutionary approach where cooperation is an emergent strategic behaviour. In simulation scenarios where the natural disaster module was enabled, we observe noticeable changes in the settlements' distribution, relating to significantly higher migration rates immediately after the modeled Theran eruption. In addition, the initially cooperative behaviour is transformed to a non-cooperative one, thus providing support for archaeological theories suggesting that the volcanic eruption led to a clear breakdown of the Minoan socio-economic system. \n\nFinally, we observe that modeling a trading network that favours settlements' importance rather than distance between settlement locations, can produce settlement patterns similar to the one that exist in archaeological record. The existence of some important resource-distribution centers, with possibly a strong hierarchy during the Early and Middle Minoan period, as well as significant resource-aggregation centers during the Late Minoan period, also arise as plausible possibilities via our agent-based model. ",
+    "downloadUrl": "https://www.comses.net/codebases/50cf5d2a-0f37-4d4d-84e0-715e641180d9/releases/1.0.0/download/",
+    "dateModified": "2020-04-09",
+    "releaseNotes": "**-- An agent-based model for simulating *inter-settlement* trade in past societies**\nIn this version of AncientS-ABM, we are modeling the exchange and distribution across agent communities, by incorporating a trading sub-model which enables two different *spatial interaction models* . As such, the model allow us to explore the resulting trading network\u2019s efficiency and its evolution at different points in time. We further utilize ideas from *graph theory* to analyze the trading network's structure, seeking to provide insights on the artificial society's organization on a higher level. Finally, we also enable the *natural disaster* sub-model, for studying the impact of the volcanic eruption of Thera (Santorini) at the organization of an artificial Minoan society, located at the wider area of Knossos, Crete, Greece. ",
+    "copyrightYear": 2020,
+    "datePublished": "2020-04-09",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Chliaoutakis A., Chalkiadakis G., AncientS-ABM: A Novel Tool for Simulating Ancient Societies, In: Demazeau Y., Matson E., Corchado J., De la Prieta F. (eds) Advances in Practical Applications of Survivable Agents and Multi-Agent Systems: The PAAMS Collection. PAAMS 2019. Lecture Notes in Computer Science, vol 11523. Springer\n\nChliaoutakis A. , Chalkiadakis G. and Sarris A., Employing Agent-based Modeling to Study the Impact of the Theran Eruption on Minoan Society, In Proceedings of the 3rd Conference on Computer Applications and Quantitative Methods in Archaeology - Creece (CAA-GR'18), Spreading Excellence in Computer Applications for Archaeology and Cultural Heritage, Limassol, Cyprus, pp. 139-148, June 2018\n\nAngelos Chliaoutakis and Georgios Chalkiadakis, Evolutionary Game-theoretic Modeling of Past Societies' Social Organization, In Proc. of the 14th European Conference on Artificial Life (ECAL-2017), Lyon, France, pp. 98-105, September 2017\n\nAngelos Chliaoutakis and Georgios Chalkiadakis, Agent-Based Modeling of Ancient Societies and their Organization Structure, Journal of Autonomous Agents and Multi-Agent Systems (JAAMAS), 2016, Volume 30, Issue 6, pp. 1072-1116\n\nChliaoutakis A., Chalkiadakis G. and Sarris A., An Application of Agent-Based Modelling and GIS in Minoan Crete, In Proceedings of the 43rd Annual Conference on Computer Applications and Quantitative Methods in Archaeology, pp. 479-489, March 2015"
+}

@@ -1,0 +1,63 @@
+{
+    "@id": "https://www.comses.net/codebases/553e8c66-1a3f-48f6-9420-be80c66e0398/releases/1.1.1/",
+    "url": "https://www.comses.net/codebases/553e8c66-1a3f-48f6-9420-be80c66e0398/releases/1.1.1/",
+    "name": "MCA-SdA (ABM of mining-community-aquifer interactions in Salar de Atacama, Chile)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-2857-3102",
+            "@type": "Person",
+            "email": "wliu125@asu.edu",
+            "givenName": "Wenjuan",
+            "familyName": "Liu"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.1",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Castilla-Rho, J. C., Mariethoz, G., Rojas, R., Andersen, M. S., & Kelly, B. F. J., 2015. An agent-based platform for simulating complex human-aquifer interactions in managed groundwater systems. Environ. Model. Softw. 73(C), 305\u2013323. http://doi.org/10.1016/j.envsoft.2015.08.018 \n\nBabidge, S., 2020. Consultation's overburden: Indigenous participation in the extractive industry in the Salar de Atacama, Chile. Transform. 33, 48-63. \n\nBabidge, S., Kalazich, F., Prieto, M., & Yager, K., 2019. 'That's the problem with that lake; it changes sides': mapping extraction and ecological exhaustion in the Atacama. J. Polit. Ecol. 26(3169), 738-760. https://doi.org/10.2458/v26i1.23169",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "groundwater management",
+        "groundwater management",
+        "lithium mining",
+        "lithium mining",
+        "mining-community",
+        "mining-community"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/553e8c66-1a3f-48f6-9420-be80c66e0398/releases/1.1.1/",
+    "dateCreated": "2020-12-01",
+    "description": "This model represnts an unique human-aquifer interactions model for the Li-extraction in Salar de Atacama, Chile. It describes the local actors\u2019 experience of mining-induced changes in the socio-ecological system, especially on groundwater changes and social stressors. Social interactions are designed specifically according to a long-term local fieldwork by Babidge et al. (2019, 2020). The groundwater system builds on the FlowLogo model by Castilla-Rho et al. (2015), which was then parameterized and calibrated with local hydrogeological inputs in Salar de Atacama, Chile. The social system of the ABM is defined and customozied based on empirical studies to reflect three major stressors:  drought stress, population stress, and mining stress. The model reports evolution of groundwater changes and associated social stress dynamics within the modeled time frame.",
+    "downloadUrl": "https://www.comses.net/codebases/553e8c66-1a3f-48f6-9420-be80c66e0398/releases/1.1.1/download/",
+    "dateModified": "2021-11-04",
+    "releaseNotes": "",
+    "copyrightYear": 2021,
+    "datePublished": "2021-11-04",
+    "embargoEndDate": "2020-12-01",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "Agent based modelling"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo v6.0.4",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Liu, W., & Agusdinata, D. B., 2020. Scenarios of lithium mining-community-aquifer interactions in Salar de Atacama, Chile: An agent-based modeling approach. Environ. Model. Softw. (in review)."
+}

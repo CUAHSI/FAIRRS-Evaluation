@@ -1,0 +1,54 @@
+{
+    "@id": "https://www.comses.net/codebases/4d1f4e92-dfd9-488d-8109-b93c896a6ac4/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4d1f4e92-dfd9-488d-8109-b93c896a6ac4/releases/1.0.0/",
+    "name": "Stoplight parrotfish population model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2163/",
+            "@type": "Person",
+            "email": "tpavlowich@gmail.com",
+            "givenName": "Tyler",
+            "familyName": "Pavlowich",
+            "affiliation": {
+                "@id": "https://ror.org/00w5xhg82",
+                "url": "http://www.ainfosec.com/",
+                "name": "Assured Information Security (United States)",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00w5xhg82"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4d1f4e92-dfd9-488d-8109-b93c896a6ac4/releases/1.0.0/",
+    "dateCreated": "2018-04-02",
+    "description": "This agent-based model simulates a stoplight parrotfish population in a heavily-fished Caribbean coral reef. The model allows for the simulation of various fishing regulations and observation of population and catch outcomes. It was built using the structure and equations from several previously published models, including the work of Bozec et al. (2016) and Alonzo and Mangel (2004 and 2005). The initial model conditions are parameterized to population and fishing data collected in Buen Hombre, Dominican Republic by Tyler Pavlowich.",
+    "downloadUrl": "https://www.comses.net/codebases/4d1f4e92-dfd9-488d-8109-b93c896a6ac4/releases/1.0.0/download/",
+    "dateModified": "2018-04-02",
+    "releaseNotes": "This model was used as a part of my dissertation research. Papers using it are under review (as of 4/2/2018) at Elementa: Science of the Anthropocene - Ocean Sciences domain and Ecology and Society.",
+    "copyrightYear": 2018,
+    "datePublished": "2018-04-02",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

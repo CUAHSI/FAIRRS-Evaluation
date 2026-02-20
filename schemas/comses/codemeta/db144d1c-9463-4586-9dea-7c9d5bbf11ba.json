@@ -1,0 +1,67 @@
+{
+    "@id": "https://doi.org/10.25937/8sxg-1b93",
+    "url": "https://doi.org/10.25937/8sxg-1b93",
+    "name": "Behavior changes through influence",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-2243-8383",
+            "@type": "Person",
+            "email": "daria.soboleva@wmich.edu",
+            "givenName": "Daria",
+            "familyName": "Soboleva",
+            "affiliation": {
+                "@id": "https://ror.org/00py81415",
+                "url": "http://www.duke.edu/",
+                "name": "Duke University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00py81415"
+            }
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "ABM",
+        "agent-based computational model",
+        "agent-based computational modelling in social sciences",
+        "agent based model (abm)",
+        "behavior change",
+        "complex systems",
+        "complex systems modeling",
+        "NetLogo 6.3.0"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/8sxg-1b93",
+        "https://doi.org/10.25937/8sxg-1b93"
+    ],
+    "dateCreated": "2024-08-09",
+    "description": "The model is designed to simulate the behavior and decision-making processes of individuals (agents) in a social network. It aims to represent the changes in individual probability to take any action based on changes in attributes. The action is anything that can be reasonably influenced by the three influencing methods implemented in this model: peer pressure, social media, and state campaigns, and for which the user has a decision-making model. The model is implemented in the multi-agent programmable environment NetLogo 6.3.0. ",
+    "downloadUrl": "https://www.comses.net/codebases/db144d1c-9463-4586-9dea-7c9d5bbf11ba/releases/1.0.0/download/",
+    "dateModified": "2024-12-05",
+    "releaseNotes": "This model is designed to simulate the behavior and decision-making processes of individuals (agents) in a social network. It aims to represent the changes in individual probability to take any action based on changes in attributes. The action is anything that can be reasonably influenced by the three influencing methods implemented in this model: peer pressure, social media, and state campaigns, and for which the user has a decision-making model. The model is implemented in the multi-agent programmable environment NetLogo 6.3.0.  ",
+    "copyrightYear": 2024,
+    "datePublished": "2024-08-30",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo 6.3.0"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo 6.3.0",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "@id": "https://www.comses.net/codebases/4774/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4774/releases/1.0.0/",
+    "name": "Agent-based model for centralized student admission process",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/581/",
+            "@type": "Person",
+            "email": "wang.connie.h@gmail.com",
+            "givenName": "Connie",
+            "familyName": "Wang"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Bin-Tzong",
+            "familyName": "Chi"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Shu-Heng",
+            "familyName": "Chen"
+        },
+        {
+            "@id": "https://www.comses.net/users/581/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4774/releases/1.0.0/",
+    "dateCreated": "2015-11-04",
+    "description": "## Purpose  \r\n\r\nThe purpose of this agent-based student admission model is to understand how each student admission mechanism affects the admissions of students in comparison with deferred acceptance under different levels of performance information released and number of choices allowed.  \r\n\r\n## Entities, State Variables and Scales \r\n\r\nThree types of entities are in the model: schools, students, and a central clearinghouse.  Each school has the state variables of admission capacities, the lowest admission scores, and the lowest ranks of the students admitted.  Each student has the attributes of score, school preference list, and school choice list.  The central clearinghouse is represented by the admission policy, which regulates the matching mechanism used, the level of information to be released, and the number of school choices allowed.  The admission policy is exogenously determined at the beginning of each run and remains constant throughout the run. Space in the model only represents student\u2019 admission statuses.  Admitted students move into the space of schools, while others stay outside of the schools.  Each simulation step represents one year, and there are 30 years in each simulation run. \r\n\r\n## Process Overview and Scheduling \r\n\r\nEach year, a set of admission candidates enters the system and stays outside of the 10 schools.  Each candidate receives a score from a normal distribution and a true school preference list generated from a Zipf distribution.  Each candidate then makes a decision to form a school-choice list.  The central clearinghouse prioritizes the students and matches the students and the schools according to the admission mechanism.  The admitted students move to the schools they are admitted to.  After that, the schools update their lowest admission scores and the lowest ranks of the students they admitted.  At the end of each year, the mismatch indexes are collected all students leave the system.",
+    "downloadUrl": "https://www.comses.net/codebases/4774/releases/1.0.0/download/",
+    "dateModified": "2019-03-06",
+    "releaseNotes": "This is an extension of the model at https://www.openabm.org/model/4407/version/1/view",
+    "copyrightYear": 2019,
+    "datePublished": "2019-03-06",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

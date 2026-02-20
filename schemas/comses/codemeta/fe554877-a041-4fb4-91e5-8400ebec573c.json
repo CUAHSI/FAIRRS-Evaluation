@@ -1,0 +1,55 @@
+{
+    "@id": "https://www.comses.net/codebases/fe554877-a041-4fb4-91e5-8400ebec573c/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/fe554877-a041-4fb4-91e5-8400ebec573c/releases/1.0.0/",
+    "name": "ACTING (Affect Control Theory based simulation of Interaction in Networked Groups)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/3058/",
+            "@type": "Person",
+            "email": "zoeller@fh-potsdam.de"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "affect control theory",
+        "Cooperative Networks",
+        "expectation states framework",
+        "group dynamics",
+        "group identity",
+        "role expectations",
+        "task focused groups"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/fe554877-a041-4fb4-91e5-8400ebec573c/releases/1.0.0/",
+    "dateCreated": "2020-12-09",
+    "description": "This agent-based simulation model for group interaction is rooted in social psychological theory. The\nmodel integrates affect control theory with networked interaction structures and sequential behavior protocols as they are often encountered in task groups. By expressing status hierarchy through network structure we build a bridge between expectation states theory and affect control theory, and are able to reproduce central results from the expectation states research program in sociological social psychology. Furthermore, we demonstrate how the model can be applied to analyze specialized task groups or sub-cultural domains by combining it with empirical data sources. As an example, we simulate groups of open-source software developers and analyze how cultural expectations influence the occupancy of high status positions in these groups.",
+    "downloadUrl": "https://www.comses.net/codebases/fe554877-a041-4fb4-91e5-8400ebec573c/releases/1.0.0/download/",
+    "dateModified": "2021-08-19",
+    "releaseNotes": "This is the initial release.",
+    "copyrightYear": 2021,
+    "datePublished": "2021-08-19",
+    "codeRepository": "https://github.com/nikozoe/ACTING",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Jupyter Notebook"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

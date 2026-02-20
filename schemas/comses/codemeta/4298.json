@@ -1,0 +1,62 @@
+{
+    "@id": "https://www.comses.net/codebases/4298/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4298/releases/1.0.0/",
+    "name": "IDEAL",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/57/",
+            "@type": "Person",
+            "email": "ligmannz@msu.edu",
+            "givenName": "Arika",
+            "familyName": "Ligmann-Zielinska",
+            "affiliation": {
+                "@id": "https://ror.org/05hs6h993",
+                "url": "https://msu.edu/",
+                "name": "Michigan State University, Geography",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05hs6h993"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/57/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc/4.0",
+        "name": "CC-BY-NC-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "ideal point decision rule",
+        "land use change",
+        "spatial"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4298/releases/1.0.0/",
+    "dateCreated": "2014-08-07",
+    "description": "**IDEAL** is a land use change ABM in which developer agents make decisions on where to locate new residential land. The agent operate on a lattice of grid cells with up-to-three landscape characteristics: scenic beauty, accessibility, and land value. At each simulation step, all agents investigate available land parcels and make up a preference list, which depends upon land characteristics, their own demands, and their *attitude toward risk represented using gains and losses*. The agents evaluate available land parcels using the ideal point decision rule. Agents compare available lands against the best and worst cases in the landscape and, according to their own attitude toward risk, reassess\r\nland drivers and assign weights to the parcels. Conflicts are resolved by assigning that parcel to the agent who has highest preference order, and ties is resolved randomly.",
+    "downloadUrl": "https://www.comses.net/codebases/4298/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "Version 01 with GUI.\r\nSimplified model (two criteria and three agents) with feedbacks.",
+    "copyrightYear": 2014,
+    "datePublished": "2014-08-07",
+    "operatingSystem": "platform_independent",
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Ligmann-Zielinska A (2013) Spatially-Explicit Sensitivity Analysis of an Agent-Based Model of Land Use Change, International Journal of Geographical Information Science, Special Issue on Land change modelling: moving beyond projections, 27 (9), 1764-1781 AND\r\n\r\n\r\nLigmann-Zielinska A (2009) The impact of risk-taking attitudes on a land use pattern: an agent-based model of residential development, Journal of Land Use Science, 4 (4), 215-32"
+}

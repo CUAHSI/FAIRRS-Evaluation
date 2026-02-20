@@ -1,0 +1,65 @@
+{
+    "@id": "https://www.comses.net/codebases/2661/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/2661/releases/1.1.0/",
+    "name": "Friendship Games Rev 1.0",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/541/",
+            "@type": "Person",
+            "email": "ddixon@unm.edu",
+            "givenName": "David",
+            "familyName": "Dixon",
+            "affiliation": {
+                "name": "Visiting Assistant Professor of Economics",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/541/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Lamberson, PJ (2011). \"'Friendship-based' Games\". Presented at the 37th Annual Conference of the Eastern Economics Association , New York, NY. 25 February 2011.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "friendshipgames",
+        "gametheory",
+        "NetLogo",
+        "networkgames"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2661/releases/1.1.0/",
+    "dateCreated": "2011-10-14",
+    "description": "This is a friendship game NetLogo game model. A friendship game is a kind of network game: a game theory model on a network. A game starts with a model of a network of turtles. Each turtle considers as its friends every other turtle that is linked directly on the network. Each turtle decides what strategy to play, x or y, based on the choices made by its friends. How the friends influence the choice depends on whether the game is one of strategic substitutes or strategic complements.\r\n\r\nA strategic substitute is something that, if one of its friends is already doing it, a turtle has no reason to also do it. For example, if a turtle gets a pickup truck, all its friends can borrow it, so they have no need to buy one, too.\r\n\r\nA strategic complement is something that, if a majority of its friends are doing it, a turtle will also do it. For example, if the majority of a turtles friends are using NetLogo, then the turtle has an incentive to also use NetLogo.\r\n\r\nThis project is based on friendhip game models introduced by PJ Lamberson in a presentation in the Agent-based Computation Economics sessions  of the Eastern Economics Association conference in February 2011.",
+    "downloadUrl": "https://www.comses.net/codebases/2661/releases/1.1.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "Revision 1.0.25",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    }
+}

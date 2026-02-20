@@ -1,0 +1,56 @@
+{
+    "@id": "https://www.comses.net/codebases/768c22e8-5e98-4bf5-9d15-13309ca5ea0a/releases/1.5.1/",
+    "url": "https://www.comses.net/codebases/768c22e8-5e98-4bf5-9d15-13309ca5ea0a/releases/1.5.1/",
+    "name": "Root disease model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2323/",
+            "@type": "Person",
+            "email": "adam.bouche@gmail.com",
+            "givenName": "Adam",
+            "familyName": "Bouche"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.5.1",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "disease ecology",
+        "forest management",
+        "forestry",
+        "landscape ecology",
+        "NetLogo",
+        "root disease"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/768c22e8-5e98-4bf5-9d15-13309ca5ea0a/releases/1.5.1/",
+    "dateCreated": "2018-09-30",
+    "description": "This is a model of root disease spread between trees in the landscape. The disease spreads via two transmission processes: (a) root contact/root graft transmission between adjacent trees and (b) insect vectors that carry spores between trees. Full details can be found in the \"Info\" tab in the model and in the readme file in the GitHub repository.",
+    "downloadUrl": "https://www.comses.net/codebases/768c22e8-5e98-4bf5-9d15-13309ca5ea0a/releases/1.5.1/download/",
+    "dateModified": "2018-09-30",
+    "releaseNotes": "This is a very early version that only includes the conceptual model for a root disease. Later versions will include realistic parameter values quantified from data and literature.",
+    "copyrightYear": 2018,
+    "datePublished": "2018-09-30",
+    "codeRepository": "https://github.com/flowbouche/abm-test",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "@id": "https://www.comses.net/codebases/b06229d7-52c5-4941-befa-b5db16646989/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/b06229d7-52c5-4941-befa-b5db16646989/releases/1.0.0/",
+    "name": "Covid-19-Belief-network-Hybrid-Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-2811-0060",
+            "@type": "Person",
+            "email": "mrtzmahmood@gmail.com",
+            "givenName": "Morteza",
+            "familyName": "Mahmoudzadeh"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/b06229d7-52c5-4941-befa-b5db16646989/releases/1.0.0/",
+    "dateCreated": "2021-09-05",
+    "description": "Digital social networks facilitate the opinion dynamics and idea flow and also provide reliable data to understand these dynamics. Public opinion and cooperation behavior are the key factors to determine the capacity of a successful and effective public policy. In particular, during the crises, such as the Corona virus pandemic, it is necessary to understand the people\u2019s opinion toward a policy and the performance of the governance institutions. The problem of the mathematical explanation of the human behaviors is to simplify and bypass some of the essential process. To tackle this problem, we adopted a data-driven strategy to extract opinion and behavioral patterns from social media content to reflect the dynamics of society\u2019s average beliefs toward different topics. We extracted important subtopics from social media contents and analyze the sentiments of users at each subtopic. Subsequently, we structured a Bayesian belief network to demonstrate the macro patters of the beliefs, opinions, information and emotions which trigger the response toward a prospective policy. We aim to understand the factors and latent factors which influence the opinion formation in the society. Our goal is to enhance the reality of the simulations. To capture the dynamics of opinions at an artificial society we apply agent-based opinion dynamics modeling. We intended to investigate practical implementation scenarios of this framework for policy analysis during Corona Virus Pandemic Crisis. The implemented modular modeling approach could be used as a flexible data-driven policy making tools to investigate public opinion in social media. The core idea is to put the opinion dynamics in the wider contexts of the collective decision-making, data-driven policy-modeling and digital democracy. We intended to use data-driven agent-based modeling as a comprehensive analysis tools to understand the collective opinion dynamics and decision making process on the social networks and uses this knowledge to utilize network-enabled policy modeling and collective intelligence platforms.",
+    "downloadUrl": "https://www.comses.net/codebases/b06229d7-52c5-4941-befa-b5db16646989/releases/1.0.0/download/",
+    "dateModified": "2021-09-21",
+    "releaseNotes": "agent-based Opinion Dynamics\nbayesian belief network \nhybrid system dynamics and agent-based model\nData driven Simulation\nMesa Agent-based modeling \nPySD System Dynamics modeling",
+    "copyrightYear": 2021,
+    "datePublished": "2021-09-05",
+    "embargoEndDate": "2021-09-01",
+    "operatingSystem": "linux",
+    "runtimePlatform": [
+        "Jupyter Notebook"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

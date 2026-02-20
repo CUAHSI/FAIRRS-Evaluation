@@ -1,0 +1,70 @@
+{
+    "@id": "https://www.comses.net/codebases/f65e83f4-23f8-4236-ba37-6da5d7a661b1/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/f65e83f4-23f8-4236-ba37-6da5d7a661b1/releases/1.0.0/",
+    "name": "Exploring the Effects of Link Recommendations on Social Networks",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2565/",
+            "@type": "Person",
+            "email": "ciaramsibley@gmail.com",
+            "givenName": "Ciara",
+            "familyName": "Sibley"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-5034-6654",
+            "@type": "Person",
+            "email": "acrooks77@gmail.com",
+            "givenName": "Andrew",
+            "familyName": "Crooks",
+            "affiliation": {
+                "@id": "https://ror.org/02jqj7156",
+                "url": "https://www.gmu.edu/",
+                "name": "George Mason University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02jqj7156"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based model",
+        "online social network",
+        "power-law analysis",
+        "recommender systems",
+        "scale-free network",
+        "social contact link recommendation"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/f65e83f4-23f8-4236-ba37-6da5d7a661b1/releases/1.0.0/",
+    "dateCreated": "2019-08-05",
+    "description": "The purpose of this model is explore how \u201cfriend-of-friend\u201d link recommendations, which are commonly used on social networking sites, impact online social network structure. Specifically, this model generates online social networks, by connecting individuals based upon varying proportions of a) connections from the real world and b) link recommendations. Links formed by recommendation mimic mutual connection, or friend-of-friend algorithms. Generated networks can then be analyzed, by the included scripts, to assess the influence that different proportions of link recommendations have on network properties, specifically: clustering, modularity, path length, eccentricity, diameter, and degree distribution. ",
+    "downloadUrl": "https://www.comses.net/codebases/f65e83f4-23f8-4236-ba37-6da5d7a661b1/releases/1.0.0/download/",
+    "dateModified": "2020-03-19",
+    "releaseNotes": "Please see ODD document.",
+    "copyrightYear": 2020,
+    "datePublished": "2020-03-19",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetworkX"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Sibley, C. and Crooks, A.T. (2020), Exploring the Effects of Link Recommendations on Social Networks: An Agent-Based Modeling Approach, Spring Simulation Conference (SpringSim\u201920), Fairfax, VA."
+}

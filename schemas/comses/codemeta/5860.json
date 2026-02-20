@@ -1,0 +1,76 @@
+{
+    "@id": "https://www.comses.net/codebases/5860/releases/2.0.0/",
+    "url": "https://www.comses.net/codebases/5860/releases/2.0.0/",
+    "name": "RaMDry - Rangeland Model in Drylands",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2040/",
+            "@type": "Person",
+            "email": "pascal.fust@gmail.com",
+            "givenName": "Pascal",
+            "familyName": "Fust"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Eva",
+            "familyName": "Schlecht"
+        },
+        {
+            "@id": "https://www.comses.net/users/2040/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "2.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "forage",
+        "herbivore",
+        "pasture",
+        "ressource management",
+        "ruminant",
+        "savanna"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5860/releases/2.0.0/",
+    "dateCreated": "2018-01-05",
+    "description": "*RaMDry* (Rangeland Model in Drylands) has been developped to study the dynamic use of forage ressources by ruminant herbivores in arid/semi-arid savanna rangelands with particular emphasis on **effects of change of climate and management**.\nThe model simulates the foraging activitives of herbivore (in its initial version only zebu cattle) herds in a **heterogeneous** environment consisting of several forms of land use and grasslands of two different grass species compositions over the run of the years.\nSeasonal dynamics thereby affects the **amount and the nutritional values** of the available grass biomass.\nA link of the vegetation regrowth with climatic data (daily precipitation and temperature) supports the study of effects of climatic change on the sustainability of rangeland management practices. \n\n---------\nA detailed description of the model and the simulated processes (including the ODD protocol) can be found in the following publication: \nFust & Schlecht (2018) Integrating spatio-temporal variation in resource availability and herbivore movements into rangeland management: RaMDry - an agent-based model on livestock feeding ecology in a dynamic, heterogeneous, semi-arid environment, *Ecological Modelling*",
+    "downloadUrl": "https://www.comses.net/codebases/5860/releases/2.0.0/download/",
+    "dateModified": "2022-04-01",
+    "releaseNotes": "V2 - Second version: updated climate and plant growth module to accommodate the effects of daily resolution in precipitation data. For details of the new version and the changes, please refer to the linked publication. ",
+    "copyrightYear": 2022,
+    "datePublished": "2022-04-01",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Netlogo 6.0.2"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Netlogo 6.0.2",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "R",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Fust & Schlecht (2018) Integrating spatio-temporal variation in resource availability and herbivore movements into rangeland management: RaMDry - an agent-based model on livestock feeding ecology in a dynamic, heterogeneous, semi-arid environment, Ecological Modelling, 369, pp. 13-41\n\nFust & Schlecht (2022) Importance of timing: Vulnerability of semi-arid rangeland systems to increased variability in temporal distribution of rainfall events as predicted by future climate change, Ecological Modelling, 468, 109961, ISSN 0304-3800, https://doi.org/10.1016/j.ecolmodel.2022.109961."
+}

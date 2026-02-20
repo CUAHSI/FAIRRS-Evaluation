@@ -1,0 +1,48 @@
+{
+    "@id": "https://www.comses.net/codebases/c1c11248-6903-4d9c-a403-ed0ad35e8bab/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/c1c11248-6903-4d9c-a403-ed0ad35e8bab/releases/1.0.0/",
+    "name": "Competitive Arousal Agent Based Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-8284-532X",
+            "@type": "Person",
+            "email": "zoe.chollet@edu.escp.eu",
+            "givenName": "Zo\u00e9",
+            "familyName": "Chollet"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/c1c11248-6903-4d9c-a403-ed0ad35e8bab/releases/1.0.0/",
+    "dateCreated": "2022-05-13",
+    "description": "What is it?\n\nThis model demonstrates a very simple bidding market where buyers try to acquire a desired item at the best price in a competitive environment\n\n \n\nHow it works\n\nThe idea would be to have a bidder market with the following characteristics:\n\n-       1 Seller or auctioneer who brings a good with identified characteristics: high and low pre-sale estimate\n\n-       Bidders with different propensity to pay for the artwork (value-assessment)\n\n \n\nEach Round (tick), the buyers decide to bid a higher amount or drop out. If the asked amount is below the bidder\u2019s value assessment, they\u2019ll bid. If it\u2019s higher, the decision depends on their desire-to-win, if it goes beyond their max bidding amount (value-assessment + desire-to-win), they drop out. Then each bidder individually decides to either raise or not their desire-to-win according to the position of the current asked price in their value assessment (chance of winning) and the remaining competition. For instance, if there are 8 bidders remaining (small competitive arousal), they are unlikely to up their desire-to-win. But if there are only 2 bidders left, they are more likely to enter a bidding war and up their desire-to-win.\n\n \n\nThe market will run through rounds until only one bidder remains. The sale value of the Item is the last bidded amount.",
+    "downloadUrl": "https://www.comses.net/codebases/c1c11248-6903-4d9c-a403-ed0ad35e8bab/releases/1.0.0/download/",
+    "dateModified": "2022-05-13",
+    "releaseNotes": "\nThe generated ABM tries to provide insights on the following question: How are art prices affected by the competitive arousal levels of multiple individuals interacting and competing in an auction sale? ",
+    "copyrightYear": 2022,
+    "datePublished": "2022-05-13",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo 6.2.0",
+        "NetLogo 6.2.1"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

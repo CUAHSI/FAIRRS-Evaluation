@@ -1,0 +1,65 @@
+{
+    "@id": "https://www.comses.net/codebases/61faf9c9-3e93-44af-be74-2a60e8b3360e/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/61faf9c9-3e93-44af-be74-2a60e8b3360e/releases/1.0.0/",
+    "name": "Communication and Trust in a Commons Dilemma Experiment",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Person",
+            "email": "marco.janssen@asu.edu",
+            "givenName": "Marco",
+            "familyName": "Janssen",
+            "affiliation": {
+                "url": "https://schoolofsustainability.asu.edu/",
+                "name": "School of Sustainability",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "DeCaro, D.A., M.A. Janssen and A. Lee (2021) Motivational Foundations of Communication, Voluntary Cooperation, and Self-Governance in a Common-Pool Resource Dilemma, Current Research in Ecological and Social Psychology, https://doi.org/10.1016/j.cresp.2021.100016",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "behavioural experiments",
+        "common pool resource",
+        "communication",
+        "trust"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/61faf9c9-3e93-44af-be74-2a60e8b3360e/releases/1.0.0/",
+    "dateCreated": "2022-02-24",
+    "description": "An agent model is presented that aims to capture the impact of cheap talk on collective action in a commons dilemma. The commons dilemma is represented as a spatially explicit renewable resource. Agent\u2019s trust in others impacts the speed and harvesting rate, and trust is impacted by observed harvesting behavior and cheap talk. We calibrated the model using experimental data (DeCaro et al. 2021). The best fit to the data consists of a population with a small frequency of altruistic and selfish agents, and mostly conditional cooperative agents sensitive to inequality and cheap talk. This calibrated model provides an empirical test of the behavioral theory of collective action of Elinor Ostrom and Humanistic Rational Choice Theory.",
+    "downloadUrl": "https://www.comses.net/codebases/61faf9c9-3e93-44af-be74-2a60e8b3360e/releases/1.0.0/download/",
+    "dateModified": "2022-10-02",
+    "releaseNotes": "This model runs without any input files. It has been used with BehaviorSearch to calibrate with experimental data",
+    "copyrightYear": 2022,
+    "datePublished": "2022-10-02",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo 6.2.2"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "paper submitted to a journal"
+}

@@ -1,0 +1,64 @@
+{
+    "@id": "https://doi.org/10.25937/zbdy-qg74",
+    "url": "https://doi.org/10.25937/zbdy-qg74",
+    "name": "Gender desegregation in German high schools",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-6266-4337",
+            "@type": "Person",
+            "email": "klaus.g.troitzsch@bluewin.ch",
+            "givenName": "Klaus G.",
+            "familyName": "Troitzsch",
+            "affiliation": {
+                "@id": "https://ror.org/01j9f6752",
+                "url": "http://www.uni-koblenz-landau.de/en",
+                "name": "University of Koblenz and Landau",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01j9f6752"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.1",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "axiomatisation",
+        "desegregation",
+        "replication",
+        "verification",
+        "verificationcalibration"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/zbdy-qg74",
+        "https://doi.org/10.25937/zbdy-qg74"
+    ],
+    "dateCreated": "2018-12-12",
+    "description": "The study goes back to a model created in the 1990s which successfully tried to replicate the changes of the percentages of female teachers among the teaching staff in high schools (\"Gymnasien\") in the German federal state of Rheinland-Pfalz. The current version allows for additional validation and calibration of the model and is accompanied with the empirical data against which the model is tested and with an analysis program especially designed to perform the analyses in the most recent journal article.",
+    "downloadUrl": "https://www.comses.net/codebases/7220b8df-b820-4853-a5c8-903933b04b8a/releases/1.1.1/download/",
+    "dateModified": "2021-03-07",
+    "releaseNotes": "Both NetLogo programs --- the original long version and a reduced version with only schools and teachers, but without pupils --- were written under version 5.3.1 but run also under version 6.1. Both need two files: a txt file for initialising the schools and a png file for placing schools, teachers and (only for the long version) pupils on a map of Rhineland-Palatinate. These can be found at ../data/Rheinland-Pfalz.png and at ../data/schools.txt\nThe analysis program koed can be built from koed.c, koedplot.c and splines.c using the makefile. Success can only be guaranteed under Ubuntu 18.04.1 LTS. If executed without arguments it gives a hint how to use it. For comparing empirical and simulated data the last two options are sufficient. Two files serving as compare-filename and observed-filename are attached in the results and data sections, respectively, to show their format. Both are CSV files with eleven columns: school, run number (0 for the empirical data), kappa, delta, school name, year, school year, boys, girls, men, women.\nThe documentation currently consists of a copy of the NetLogo Info tab and of an article using the model and describing it formally along the lines of the structuralist program of the philosophy of science. The article was published in Information in February 2019 (https://doi.org/10.3390/info10020053).",
+    "copyrightYear": 2020,
+    "datePublished": "2020-11-08",
+    "operatingSystem": "linux",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

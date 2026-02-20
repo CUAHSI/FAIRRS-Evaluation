@@ -1,0 +1,59 @@
+{
+    "@id": "https://www.comses.net/codebases/5120/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5120/releases/1.0.0/",
+    "name": "Social norms and the dominance of Low-doers",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1784/",
+            "@type": "Person",
+            "email": "antonio.franco@eit.lth.se",
+            "givenName": "Antonio",
+            "familyName": "Franco",
+            "affiliation": {
+                "@id": "https://ror.org/012a77v79",
+                "url": "http://www.lunduniversity.lu.se/",
+                "name": "Lund University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/012a77v79"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1784/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5120/releases/1.0.0/",
+    "dateCreated": "2016-07-13",
+    "description": "Social norms play a fundamental role in holding groups together. The rationale behind most of them is to coordinate individual actions into a beneficial societal outcome. However, there are cases where pro-social behavior within a community seems, to the contrary, to cause inefficiencies and suboptimal collective outcomes. An explanation for this is that individuals in a society are of different types and their type determines the norm of fairness they adopt. Not all such norms are bound to be beneficial at the societal level. When individuals of different types meet a clash of norms can arise. This, in turn, can determine an advantage for the \u201cwrong\u201d type. We show this by a game-theoretic analysis in a very simple setting. To test this result - as well as its possible remedies - we also devise a specific simulation model. Our model is written in NETLOGO and is a first attempt to study our problem within an artificial environment that simulates the evolution of a society over time.",
+    "downloadUrl": "https://www.comses.net/codebases/5120/releases/1.0.0/download/",
+    "dateModified": "2018-12-02",
+    "releaseNotes": "",
+    "copyrightYear": 2018,
+    "datePublished": "2018-12-02",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

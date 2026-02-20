@@ -1,0 +1,92 @@
+{
+    "@id": "https://www.comses.net/codebases/5395/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5395/releases/1.0.0/",
+    "name": "Impact of Seasonal Forecast Use on Agricultural Income in a System with Varying Crop Costs and Returns",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1879/",
+            "@type": "Person",
+            "email": "tgunda@gmail.com",
+            "givenName": "Thushara",
+            "familyName": "Gunda",
+            "affiliation": {
+                "url": "http://www.vanderbilt.edu/viee/profiles/thushara_gunda.php",
+                "name": "PhD Candidate",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Josh",
+            "familyName": "Bazuin"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "John",
+            "familyName": "Nay"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "givenName": "Kam",
+            "familyName": "Yeung"
+        },
+        {
+            "@id": "https://www.comses.net/users/1879/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "climate change adaptation",
+        "farmer decision making"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5395/releases/1.0.0/",
+    "dateCreated": "2017-02-07",
+    "description": "The modeling effort is centered on a simplified representation of an individual farmer living in System MH, in Sri Lanka. The model is built on a system dynamics platform (specifically Powersim Studio 10 Expert) with a seasonal time step for a period of 64 dry seasons, which occur once per year. The model includes hydrological, economic, and behavioral components but not interactions between individuals or extreme weather events. Interactions between individuals (i.e., social components) and extreme weather events were outside the scope of the model. The model includes 3 climate scenarios (historical conditions, drier, wetter) as well as 3 farmer behaviors (an adaptive farmer that uses forecasts, a baseline farmer that uses average climate information, and a baseline farmer that only plants rice). The model structure and parameters are based on empirical data and findings obtained as part of the ADAPT-SL effort: https://my.vanderbilt.edu/srilankaproject/.",
+    "downloadUrl": "https://www.comses.net/codebases/5395/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2017,
+    "datePublished": "2017-02-07",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Powersim Studio"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    },
+    "referencePublication": "Gunda, T., J.T. Bazuin, J. Nay, and K.L. Yeung, Impact of Seasonal Forecast Use on Agricultural Income in a System with Varying Crop Costs and Returns: An Empirically-Grounded Simulation, Environmental Research Letters, DOI: 10.1088/1748-9326/aa5ef7."
+}

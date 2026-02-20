@@ -1,0 +1,104 @@
+{
+    "@id": "https://www.comses.net/codebases/5246/releases/1.2.0/",
+    "url": "https://www.comses.net/codebases/5246/releases/1.2.0/",
+    "name": "Simulating the Economic Impact of Boko Haram on a Cameroonian Floodplain",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1836/",
+            "@type": "Person",
+            "email": "henry.557@osu.edu",
+            "givenName": "Nathaniel",
+            "familyName": "Henry",
+            "affiliation": {
+                "@id": "https://ror.org/00rs6vg23",
+                "url": "http://www.osu.edu/",
+                "name": "The Ohio State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00rs6vg23"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Sarah",
+            "familyName": "Laborde"
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-0644-0069",
+            "@type": "Person",
+            "email": "mark.moritz@gmail.com",
+            "givenName": "Mark",
+            "familyName": "Moritz",
+            "affiliation": {
+                "@id": "https://ror.org/00rs6vg23",
+                "url": "http://www.osu.edu/",
+                "name": "The Ohio State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00rs6vg23"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1836/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-0644-0069",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-sa/4.0/",
+        "name": "CC-BY-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based computational demography",
+        "boko haram",
+        "cameroon",
+        "coupled systems",
+        "demography",
+        "economics",
+        "shock",
+        "social-ecological system"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5246/releases/1.2.0/",
+    "dateCreated": "2017-06-07",
+    "description": "The agent-based model presented here simulates demographic change and economic activity on the Logone floodplain in Cameroon at the level of individual households. Under default conditions, the model demonstrates how the changing relationship between household livelihood, family size, and wealth can explain floodplain-wide economic trends since 1980. Critical decisions about household spending are based on a rational-choice model that links income, investment, and the household head\u2019s marriage prospects. Additionally, household members give birth, leave the household, and die in accordance with known demographic and survey data from the floodplain.\r\n\r\nThe model also simulates the economic impact of the extremist group Boko Haram on the Logone floodplain. Since 2014, Boko Haram has expanded from northeast Nigeria into the Far North region of Cameroon, threatening the security of Cameroonian and provoking a military response. While the direct threat of Boko Haram attacks remains low on the Logone floodplain, residents face new social and economic pressures related to the disruption of the northeast Nigerian economy and increased military activity in the region. This model was used to conduct in-silico experiments about the magnitude of these pressures on floodplain residents; identify which groups are most vulnerable to the current crisis; and determine whether the short-term disruption facilitated by Boko Haram could precipitate long-term changes to social and economic trends on the floodplain.",
+    "downloadUrl": "https://www.comses.net/codebases/5246/releases/1.2.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "This model version was updated to represent the entire study area and to incorporate new population data from the 2005 Cameroonian census.",
+    "copyrightYear": 2017,
+    "datePublished": "2017-06-07",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Henry, Nathaniel. Predicting Boko Haram\u2019s Impact on the Logone Floodplain in Cameroon: An Agent-Based Simulation Approach. Undergraduate Thesis. The Ohio State University, 2016. http://bit.ly/29eWj6p"
+}

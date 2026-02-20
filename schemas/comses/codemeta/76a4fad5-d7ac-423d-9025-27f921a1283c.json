@@ -1,0 +1,57 @@
+{
+    "@id": "https://doi.org/10.25937/0psn-7a52",
+    "url": "https://doi.org/10.25937/0psn-7a52",
+    "name": "Modern Wage Dynamics",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-9052-7126",
+            "@type": "Person",
+            "email": "jmappleg@asu.edu",
+            "givenName": "J M",
+            "familyName": "Applegate",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/0psn-7a52",
+        "https://doi.org/10.25937/0psn-7a52"
+    ],
+    "dateCreated": "2022-06-05",
+    "description": "The Modern Wage Dynamics Model is a generative model of coupled economic production and allocation systems. Each simulation describes a series of interactions between a single aggregate firm and a set of households through both labour and goods markets. The firm produces a representative consumption good using labour provided by the households, who in turn purchase these goods as desired using wages earned, thus the coupling. \n\nEach model iteration the firm decides wage, price and labour hours requested. Given price and wage, households decide hours worked based on their utility function for leisure and consumption. A labour market construct chooses the minimum of hours required and aggregate hours supplied. The firm then uses these inputs to produce goods. Given the hours actually worked, the households decide actual consumption and a  market chooses the minimum of goods supplied and aggregate demand. The firm uses information gained through observing market transactions about consumption demand to refine their conceptions of the population's demand. \n\nThe purpose of this model is to explore the general behaviour of an economy with coupled production and allocation systems, as well as to explore the effects of various policies on wage and production, such as minimum wage, tax credits, unemployment benefits, and universal income. \n\nThe purpose of this model is to explore the general behaviour of an economy with coupled production and allocation systems, directly addressing the opposing dynamics of higher wages suppressing labour hours but increasing demand for goods produced by that labour.",
+    "downloadUrl": "https://www.comses.net/codebases/76a4fad5-d7ac-423d-9025-27f921a1283c/releases/1.0.0/download/",
+    "dateModified": "2024-12-05",
+    "releaseNotes": "Modern Wage Dynamics\nversion 1.0.0 prepared for Summer School 2022: \"Mathematics of Complex Social Systems\", June 9-17, 2022, at Zuse Institute, Berlin, Germany.\n\nRun the model from the command line by calling the main.py script without arguments. Edit the series_parameters.py file to set output file location and parameter values. Default output file location is '../results/'.\n\nv1.0.0 dependencies:\nPython 3.8 (scikit-learn 1.0.2, numpy 1.22.3, pandas 1.4.1)",
+    "copyrightYear": 2022,
+    "datePublished": "2022-06-05",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "None"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python 3",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "@id": "https://doi.org/10.25937/snzp-vv60",
+    "url": "https://doi.org/10.25937/snzp-vv60",
+    "name": "The Archaeological Sampling Experimental Laboratory (tASEL)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1937/",
+            "@type": "Person",
+            "email": "iullah@sdsu.edu",
+            "givenName": "Isaac",
+            "familyName": "Ullah",
+            "affiliation": {
+                "@id": "https://ror.org/0264fdx42",
+                "url": "http://www.sdsu.edu/",
+                "name": "San Diego State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0264fdx42"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.1",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Ullah, I.I. 2022 \"Virtual sampling simulation experiments for training and planning for field-collection of microrefuse samples.\" Paper presented in the symposium, \u201cNew directions in microdebitage analysis.\u201d 2022 Society for American Archaeology Meeting. March 30 \u2013 April 3, 2022, Chicago, IL",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "archaeological assemblage formation",
+        "archaeological computing",
+        "archaeology",
+        "excavation",
+        "geoarchaeology",
+        "prospection",
+        "quantitative methods in archaeology",
+        "sample size",
+        "sampling",
+        "sampling bias",
+        "sampling methods",
+        "survey"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/snzp-vv60",
+        "https://doi.org/10.25937/snzp-vv60"
+    ],
+    "dateCreated": "2022-03-11",
+    "description": "The Archaeological Sampling Experimental Laboratory (tASEL) is an interactive tool for setting up and conducting experiments about sampling strategies for archaeological excavation, survey, and prospection.",
+    "downloadUrl": "https://www.comses.net/codebases/addd3c54-d89a-4773-a639-8bf19bcf59ea/releases/1.1.1/download/",
+    "dateModified": "2024-02-27",
+    "releaseNotes": "## Version 1.1.1\n\n### Enhancements and Changes\n\n- Addition code comments and comment styling\n\n### Bug fixes:\n\n- Fixed divide by zero error from the \"countup\" procedure. \"Countup\" now also shows the current sample size (coverage percentage) when clicked.\n\n## Version 1.1.0\n\n### Additions:\n\n- Added a \"square_grid\" switch, allowing iteration of grid size and/or offset whilst keeping a square grid aspect ratio. If checked, the square grid spacing is determined using only the \"grid_x\" variable.\n\n- Added a \"shuffle_artifacts\" button, that will randomly \"shuffle,\" or \"jitter,\" the current artifact distribution using a 20-tick \"random walk\" for all artifact agents. This is useful for converting initially square-shaped clusters of artifacts into more realistic concentrations.\n\n### Enhancements and Changes\n\n- The \"additive_iterations\" switch name and function is now changed. It is now called \"random_n,\" and instead of allowing sequential increase in the number \"n\" of random sampling patches, it now allows for a random number of patches (randomly chosen between 1 and the value of \"n\" set by the \"n\" slider) to be selected at each tick during iterative use of the model. When unchecked, the number \"n\" is fixed at the value set by the slider \"n\" so that a fixed number \"n\" of random patches is selected at each tick during iterative use of the model. This behavior is more understandable, and provides more robust statistical output for analyzing the effect of different values of \"n\" in random sampling.\n\n- The maximum value of \"n\" in the \"n\" slider is now set to the total number of patches (2500)\n\n- Code comments added throughout\n\n\n### Bug fixes:\n\n- Changed world size to 49x49, since world dimensions are inclusive of 0,0. World is now truly 50 patches on each side for a total of 2500 cells. This affected the statistics in the previous version of the model. \n\n- Fixed fatal error when mean density was 0\n\n## Version 1.0\n\nInitial release!",
+    "copyrightYear": 2022,
+    "datePublished": "2022-06-01",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo 6.1.1"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo 6.1.1",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

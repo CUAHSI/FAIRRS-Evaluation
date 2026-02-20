@@ -1,0 +1,59 @@
+{
+    "@id": "https://www.comses.net/codebases/3582/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/3582/releases/1.0.0/",
+    "name": "Forager mobility and interaction",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "givenName": "L",
+            "familyName": "Premo"
+        },
+        {
+            "@id": "_:author_1",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "effectiveforagingradius",
+        "foragerinteraction",
+        "logisticmobility",
+        "MOBIL",
+        "residentialmobility"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3582/releases/1.0.0/",
+    "dateCreated": "2013-01-10",
+    "description": "## WHAT IS IT?\r\n\r\nThis is a relatively simple foraging-radius model, as described first by Robert Kelly, that allows one to quantify the effect of increased logistical mobility (as represented by increased effective foraging radius, r_e) on the likelihood that 2 randomly placed central place foragers will encounter one another within 5000 time steps. The foragers employ a correlated random walk when moving their residential base camps.  Interaction is defined in a couple of different ways, but in all cases it requires that foragers are within each others' interaction radius (r_i).  The results of this model are reported in Premo (2012) (see below for full citation information).\r\n\r\nVersion 1.0 (Spring 2012)\r\nThis model was originally developed to run in NetLogo 5.0.1.  Note that the code may need to be modified to run correctly in later versions. Because it is so simple, I have not provided a full-blown ODD protocol model description below.  Please let me know if anything is unclear and I will be happy to clarify.\r\n\r\nThis model was programmed by L. S. Premo, Department of Anthropology, Washington State University.  Any and all feedback/comments/critiques are always welcome.\r\n\r\n## HOW IT WORKS\r\n\r\nI. Setup\r\nSet random seed.\r\nSeed the landscape with (d * w^2) cells of food resources.\r\nCreate 2 foragers and randomly place them in the landscape.\r\nEach forager's foragingArea is defined as the cells within a radius of r_e.\r\n\r\n\r\nII. Step (each forager goes through this procedure during each time step)\r\nIf there is food in the foragingArea, then procure food from a patch chosen randomly from those within the foragingArea that still have food (i.e., pcolor=green).  The patch that is chosen becomes the forager's logistic camp for the remainder of the step.  If logisticCamps=TRUE, then each forager on logistic foray checks to see if the other forager's residential camp is located within a distance r_i of its logistic camp.\r\n\r\nIf there is no more food in the foragingArea, then move the residential base camp to a new patch. Residential mobility follows a correlated random walk. NOTE: There was a typo in the paper that did not get corrected.  The random walk of residential mobility is correlated within +-45 degrees of the forager's previous heading, not within +-90 degrees of the forager's previous heading, as incorrectly stated in the paper.  The code and the results are correct; the paper just incorrectly states 90 rather than 45.\r\n\r\nAny patches that contained food resources that were procured regenRate time steps in the past, regenerate (i.e., their pcolor is set from white to green).\r\n\r\nEach forager checks to see if the other forager's residential base camp is located within a distance of r_i of its residential base camp.\r\n\r\nIf logisticCamps=TRUE, ask patches if the foraging parties would have seen each other during this time step given the locations of their logistic camps.\r\n\r\n\r\nIII. Data collection\r\nAny case of forager interaction sets the \"found\" global variable from 0 to 1.  This serves as a flag to let BehaviorSpace know that the simulation run should be stopped.\r\n\r\nData can be collected in a table, spreadsheet, or textfile by BehaviorSpace (this needs to be designated at the time of initializing the experiment).  Be forewarned that if you run the model in the interface, no data are collected and the model will continue to run even after there has been a forager interaction.  To modify this so the simulation will stop as soon as their is an interaction when run from the interface, simply UNcomment the code that is currently commented out at the end of the \"go\" method.  Data can be collected only by using BehaviorSpace.\r\n\r\n\r\n## HOW TO USE IT\r\n\r\nDefinition of global variables on the interface:\r\n\r\nseed = This is the number that the pseudo-random number generator is seeded with at the beginning of the simulation run.\r\n\r\nd = density of food resources.  This is the proportion of patches that will contain food.  The patches are chosen randomly.\r\n\r\nr_e = effective foraging radius.  This radius defines the foraging area for each forager.\r\n\r\nr_i = interaction radius.  Forager interaction occurs if two groups find themselves within this distance of one another (see paper for more details).\r\n\r\nlogisticCamps = If this switch is set to \"On\", then foragers can interact while on logistical forays.  If this swith is set to \"Off\", then forager interaction only occurs between residential camps.\r\n\r\nregenRate = This is the number of time steps needed for food resources to regenerate after they have been consumed by a forager. Note that if this value is less than the number of patches in the foraging area, foragers will never move their residential camp. I have included a custom run-time error message to warn the user if the regenRate has been set too low given the values of r_e and d. \r\n\r\n\r\nHow to initiate and run the simulation:\r\nI. Choose values for the global variables defined above.  Change the worldsize if you wish, but keep it set to a torus.\r\n\r\nII. Push the \"setup\" button.\r\n\r\nIII. Push the \"go\" button.  Or, if you would just like to see what happens during the course of a single time step, hit the \"step\" button.\r\n\r\nIV. The integer in the monitor window named \"found\" will change from a 0 to a 1 once a forager interaction has occurred.  The simulation will not stop at that point, however, unless you UNcomment the last line of code in the \"go\" procedure.  That line should remain commented out while running the experiments in BehaviorSpace.\r\n\r\n\r\n## THINGS TO TRY\r\n\r\nThe experiments used to collect the data analyzed in the paper cited below can be found in BehaviorSpace.  Note that one must change the size of the world (this was the variable, w, in the paper) \"by hand\"--that is, one must \"edit\" the world size in the interface by right clicking on the spatial display and changing the max-xcor and max-ycor variables from 199 to 399--before running the experiments.\r\n\r\n\r\n## THINGS TO NOTE\r\n\r\nThere was a typo in the published paper that did not get corrected.  The random walk of residential mobility is correlated within +-45 degrees of the forager's previous heading, not within +-90 degrees of the forager's previous heading, as incorrectly stated in the paper.  The code and the results are correct, the paper just incorrectly states 90 instead of 45.\r\n\r\n\r\n## PUBLICATION INFORMATION\r\n\r\nPremo, L.S. (2012) The shift to a predominantly logistical mobility strategy can inhibit rather than enhance forager interaction. *Human Ecology* 40:647-649.\r\n\r\nAs plainly stated in the acknowledgments of the published paper, this model has always been (and remains) freely available upon request of the author.",
+    "downloadUrl": "https://www.comses.net/codebases/3582/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Premo, L.S. (2012) The shift to a predominantly logistical mobility strategy can inhibit rather than enhance forager interaction. *Human Ecology* 40:647-649."
+}

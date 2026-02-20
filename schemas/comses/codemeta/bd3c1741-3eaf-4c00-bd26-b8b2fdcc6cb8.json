@@ -1,0 +1,86 @@
+{
+    "@id": "https://www.comses.net/codebases/bd3c1741-3eaf-4c00-bd26-b8b2fdcc6cb8/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/bd3c1741-3eaf-4c00-bd26-b8b2fdcc6cb8/releases/1.0.0/",
+    "name": "The Strength of Weak Bots",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-7585-062X",
+            "@type": "Person",
+            "email": "marijn.a.keijzer@gmail.com",
+            "givenName": "Marijn",
+            "familyName": "Keijzer",
+            "affiliation": {
+                "@id": "https://ror.org/03fg2km54",
+                "url": "https://www.iast.fr/",
+                "name": "Institute for Advanced Study in Toulouse",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03fg2km54"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-9416-3211",
+            "@type": "Person",
+            "email": "m.maes@rug.nl",
+            "givenName": "Michael",
+            "familyName": "Maes",
+            "affiliation": {
+                "@id": "https://ror.org/04t3en479",
+                "url": "http://www.kit.edu/english/",
+                "name": "Karlsruhe Institute of Technology",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04t3en479"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-9416-3211",
+            "@type": "Role",
+            "roleName": "collaborator"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Keijzer, M. A., & M\u00e4s, M. (2021). The strength of weak bots. Online Social Networks and Media. doi: https://doi.org/10.1016/j.osnem.2020.100106",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "axelrodmodel",
+        "bot influence",
+        "culture",
+        "misinformation",
+        "social media"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/bd3c1741-3eaf-4c00-bd26-b8b2fdcc6cb8/releases/1.0.0/",
+    "dateCreated": "2024-06-07",
+    "description": "How do bots influence beliefs on social media? Why do beliefs propagated by social bots spread far and wide, yet does their direct influence appear to be limited?\n\nThis model extends Axelrod\u2019s model for the dissemination of culture (1997), with a social bot agent--an agent who only sends information and cannot be influenced themselves. The basic network is a ring network with N agents connected to k nearest neighbors. The agents have a cultural profile with F features and Q traits per feature. When two agents interact, the sending agent sends the trait of a randomly chosen feature to the receiving agent, who adopts this trait with a probability equal to their similarity. To this network, we add a bot agents who is given a unique trait on the first feature and is connected to a proportion of the agents in the model equal to \u2018bot-connectedness\u2019. At each timestep, the bot is chosen to spread one of its traits to its neighbors with a probility equal to \u2018bot-activity\u2019. \n\nThe main finding in this model is that, generally, bot activity and bot connectedness are both negatively related to the success of the bot in spreading its unique message, in equilibrium. The mechanism is that very active and well connected bots quickly influence their direct contacts, who then grow too dissimilar from the bot's indirect contacts to quickly, preventing indirect influence. A less active and less connected bot leaves more space for indirect influence to occur, and is therefore more successful in the long run.",
+    "downloadUrl": "https://www.comses.net/codebases/bd3c1741-3eaf-4c00-bd26-b8b2fdcc6cb8/releases/1.0.0/download/",
+    "dateModified": "2024-06-10",
+    "releaseNotes": "Original contribution",
+    "copyrightYear": 2024,
+    "datePublished": "2024-06-10",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

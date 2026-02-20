@@ -1,0 +1,73 @@
+{
+    "@id": "https://www.comses.net/codebases/59dda8fe-b0c0-4703-ac95-c0fc57bd48d3/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/59dda8fe-b0c0-4703-ac95-c0fc57bd48d3/releases/1.0.0/",
+    "name": "Heuristic Algorithm for Generating Strategic Coalition Structures",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-8012-2272",
+            "@type": "Person",
+            "email": "dr.a.collins@gmail.com",
+            "givenName": "Andrew",
+            "familyName": "Collins",
+            "affiliation": {
+                "@id": "https://ror.org/04zjtrb98",
+                "url": "http://www.odu.edu/#prospective",
+                "name": "Old Dominion University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04zjtrb98"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "dvern001@odu.edu",
+            "givenName": "Daniele",
+            "familyName": "Vernon-Bido",
+            "affiliation": {
+                "@id": "https://ror.org/04zjtrb98",
+                "url": "http://www.odu.edu",
+                "name": "Old Dominion University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04zjtrb98"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "cooperative game theory",
+        "hedonic"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/59dda8fe-b0c0-4703-ac95-c0fc57bd48d3/releases/1.0.0/",
+    "dateCreated": "2020-10-12",
+    "description": "The purpose of the model is to generate coalition structures of different glove games, using a specially designed algorithm. The coalition structures can be are later analyzed by comparing them to core partitions of the game used. Core partitions are coalition structures where no subset of players has an incentive to form a new coalition. \n\nThe algorithm used in this model is an advancement of the algorithm found in Collins & Frydenlund (2018). It was used used to generate the results in Vernon-Bido & Collins (2021).\n",
+    "downloadUrl": "https://www.comses.net/codebases/59dda8fe-b0c0-4703-ac95-c0fc57bd48d3/releases/1.0.0/download/",
+    "dateModified": "2021-01-11",
+    "releaseNotes": "Initial Release",
+    "copyrightYear": 2020,
+    "datePublished": "2020-10-12",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Vernon-Bido, Daniele and Collins, Andrew (2021) 'Finding Core Members of Cooperative Games Using Agent-Based Modeling' Journal of Artificial Societies and Social Simulation 24 (1) 6 <http://jasss.soc.surrey.ac.uk/24/1/6.html>. doi: 10.18564/jasss.4457\n\nCollins, A. J., & Frydenlund, E. (2018). Strategic Group Formation in Agent-based Simulation. Simulation, 94(3), 179-193."
+}

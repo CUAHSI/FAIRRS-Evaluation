@@ -1,0 +1,63 @@
+{
+    "@id": "https://doi.org/10.25937/6t61-qm82",
+    "url": "https://doi.org/10.25937/6t61-qm82",
+    "name": "Emergent Firms Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-9052-7126",
+            "@type": "Person",
+            "email": "jmappleg@asu.edu",
+            "givenName": "J M",
+            "familyName": "Applegate",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "debt",
+        "endogenous firms",
+        "firm dynamics",
+        "microfoundations",
+        "population dynamics",
+        "productivity",
+        "wealth distribution"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/6t61-qm82",
+        "https://doi.org/10.25937/6t61-qm82"
+    ],
+    "dateCreated": "2018-06-01",
+    "description": "The Emergent Firm (EF) model is based on the premise that firms arise out of individuals choosing to work together to advantage themselves of the benefits of returns-to-scale and coordination. The Emergent Firm (EF) model is a new implementation and extension of Rob Axtell's Endogenous Dynamics of Multi-Agent Firms model. Like the Axtell model, the EF model describes how economies, composed of firms, form and evolve out of the utility maximizing activity on the part of individual agents. The EF model includes a cash-in-advance constraint on agents changing employment, as well as a universal credit-creating lender to explore how costs and access to capital affect the emergent economy and its macroeconomic characteristics such as firm size distributions, wealth, debt, wages and productivity.",
+    "downloadUrl": "https://www.comses.net/codebases/9e802c7e-20e5-4448-bb24-12e1b019ea98/releases/1.0.0/download/",
+    "dateModified": "2018-12-13",
+    "releaseNotes": "version 1.0\nRequires the following python modules as dependencies:\nnumpy 1.15.3\nnetworkx 2.2\npandas 0.23.4\nscipy 1.1.0",
+    "copyrightYear": 2018,
+    "datePublished": "2018-07-13",
+    "operatingSystem": "platform_independent",
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

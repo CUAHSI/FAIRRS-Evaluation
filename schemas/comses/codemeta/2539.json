@@ -1,0 +1,59 @@
+{
+    "@id": "https://www.comses.net/codebases/2539/releases/1.3.0/",
+    "url": "https://www.comses.net/codebases/2539/releases/1.3.0/",
+    "name": "A Multi-Agent Simulation Approach to Farmland Auction Markets",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/612/",
+            "@type": "Person",
+            "email": "james.nolan@usask.ca",
+            "givenName": "James",
+            "familyName": "Nolan"
+        },
+        {
+            "@id": "https://www.comses.net/users/612/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.3.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "auction",
+        "farms",
+        "feedback",
+        "investment",
+        "learning"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2539/releases/1.3.0/",
+    "dateCreated": "2011-06-22",
+    "description": "Farmers are the first breed of agents. Farm agents are assumed to produce crops on their land and sell them at market price. All farmers under a threshold age are assumed to want to expand their farm size by purchasing land from farmers who are exiting the market. Unlike some other related models, this model does not assume any leased land or a leasing market. Farmers seek to invest positive income streams by purchasing land at the lowest price possible, farming it until they exit, and then selling their land at the highest price possible through specified auction markets. Farm agents farm all the land they own in each period until they are either forced out of the market for credit reasons, equity protection, or old age. A random percentage of farmers pass down their land to an heir if the farm is financially viable. Furthermore, farm agents are assumed to be rational and act upon the best information available to them.",
+    "downloadUrl": "https://www.comses.net/codebases/2539/releases/1.3.0/download/",
+    "dateModified": "2018-02-19",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

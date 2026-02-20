@@ -1,0 +1,56 @@
+{
+    "@id": "https://www.comses.net/codebases/f8013cc7-d12f-4621-9d8a-a5fc3cf4ebc9/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/f8013cc7-d12f-4621-9d8a-a5fc3cf4ebc9/releases/1.0.0/",
+    "name": "Location Analysis Hybrid ABM",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1860/",
+            "@type": "Person",
+            "email": "lukaszkowalski2013@gmail.com",
+            "givenName": "Lukasz",
+            "familyName": "Kowalski"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based model",
+        "hybrid model",
+        "Java",
+        "Location analysis",
+        "location of services",
+        "Repast"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/f8013cc7-d12f-4621-9d8a-a5fc3cf4ebc9/releases/1.0.0/",
+    "dateCreated": "2019-02-08",
+    "description": "The purpose of this hybrid ABM is to answer the question: where is the best place for a new swimming pool in a region of Krakow (in Poland)?\n\nThe model is well described in ODD protocol, that can be found in the end of my article published in JASSS journal (available online: http://jasss.soc.surrey.ac.uk/22/1/1.html ). Comparison of this kind of models with spatial interaction ones, is presented in the article. Before developing the model for different purposes, area of interest or services, I recommend reading ODD protocol and the article.\n\nI published two films on YouTube that present the model: https://www.youtube.com/watch?v=iFWG2Xv20Ss , https://www.youtube.com/watch?v=tDTtcscyTdI&t=1s\n\nThis ABM model was designed for the purpose of my Ph.D. thesis: Modelling the best location for sport facilities in the region of Krakow (written in Polish; available online at ResearchGate: https://www.researchgate.net/publication/317779856_Modelowanie_optymalnej_lokalizacji_dla_dzialalnosci_sportowo-rekreacyjnej_w_regionie_miejskim_Krakowa_en_Modelling_the_best_location_for_sport_facilities_in_the_region_of_Krakow). It was written in Polish and it was mainly about comparison agent-based modelling and spatial interaction model approaches. The models were based on fitness and swimming pool's clients behaviour, as an example for other services. The default parameters are set for swimming pool version, but in this document I also provide final version of parameters for fitness clubs (more information about parameterization of this services is described in my Ph.D. thesis). Similarly \u2013 in the Java code, input and outputs for this model fitness clubs option is present.\n\nThe code of this model was based on Nicolas Malleson model, available here: https://github.com/nickmalleson/repastcity/tree/master/repastcity3 ",
+    "downloadUrl": "https://www.comses.net/codebases/f8013cc7-d12f-4621-9d8a-a5fc3cf4ebc9/releases/1.0.0/download/",
+    "dateModified": "2019-02-08",
+    "releaseNotes": "The purpose of this hybrid ABM is to answer the question: where is the best place for a new swimming pool in a region of Krakow (in Poland)?\n\nThe model is well described in ODD protocol, that can be found in the end of my article published in JASSS journal (available online: http://jasss.soc.surrey.ac.uk/22/1/1.html ). Comparison of this kind of models with spatial interaction ones, is presented in the article. Before developing the model for different purposes, area of interest or services, I recommend reading ODD protocol and the article.\n\nThis ABM model was designed for the purpose of my Ph.D. thesis: Modelling the best location for sport facilities in the region of Krakow (written in Polish; available online at ResearchGate: https://www.researchgate.net/publication/317779856_Modelowanie_optymalnej_lokalizacji_dla_dzialalnosci_sportowo-rekreacyjnej_w_regionie_miejskim_Krakowa_en_Modelling_the_best_location_for_sport_facilities_in_the_region_of_Krakow). It was written in Polish and it was mainly about comparison agent-based modelling and spatial interaction model approaches. The models were based on fitness and swimming pool's clients behaviour, as an example for other services. The default parameters are set for swimming pool version, but in this document I also provide final version of parameters for fitness clubs (more information about parameterization of this services is described in my Ph.D. thesis). Similarly \u2013 in the Java code, input and outputs for this model fitness clubs option is present.\n\n(...) Full version of this readme file is present in README.odt & in README.xlsx (see: https://github.com/LukaszKowalski2013/location_analysis_ABM )",
+    "copyrightYear": 2019,
+    "datePublished": "2019-02-08",
+    "codeRepository": "https://github.com/LukaszKowalski2013/location_analysis_ABM",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Repast"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,162 @@
+{
+    "@id": "https://www.comses.net/codebases/4faf2984-7b50-4641-9585-d0ffd8b25ca2/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4faf2984-7b50-4641-9585-d0ffd8b25ca2/releases/1.0.0/",
+    "name": "WEEM (Woodlot Establishment and Expansion Model)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-5095-6906",
+            "@type": "Person",
+            "email": "ahvianny@gmail.com",
+            "givenName": "Vianny",
+            "familyName": "Ahimbisibwe"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "juergen.groeneveld@tu-dresden.de",
+            "givenName": "J\u00fcrgen",
+            "familyName": "Groeneveld",
+            "affiliation": {
+                "@id": "https://ror.org/042aqky30",
+                "url": "https://tu-dresden.de",
+                "name": "TU Dresden",
+                "@type": "Organization",
+                "identifier": "https://ror.org/042aqky30"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "melvin.lippe@thuenen.de",
+            "givenName": "Melvin",
+            "familyName": "Lippe",
+            "affiliation": {
+                "name": "Th\u00fcnen Institute of International Forestry and Forest Economics, 21031 Hamburg, Germany",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "email": "susantumwebaze@gmail.com",
+            "givenName": "Susan",
+            "familyName": "Tumwebaze",
+            "affiliation": {
+                "@id": "https://ror.org/03dmz0111",
+                "url": "http://mak.ac.ug/",
+                "name": "Makerere University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03dmz0111"
+            }
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Person",
+            "email": "eckhard.auch@tu-dresden.de",
+            "givenName": "Eckhard",
+            "familyName": "Auch",
+            "affiliation": {
+                "@id": "https://ror.org/042aqky30",
+                "url": "https://tu-dresden.de",
+                "name": "TU Dresden",
+                "@type": "Organization",
+                "identifier": "https://ror.org/042aqky30"
+            }
+        },
+        {
+            "@id": "_:author_6",
+            "@type": "Person",
+            "email": "uta.berger@tu-dresden.de",
+            "givenName": "Uta",
+            "familyName": "Berger",
+            "affiliation": {
+                "@id": "https://ror.org/042aqky30",
+                "url": "https://tu-dresden.de",
+                "name": "TU Dresden",
+                "@type": "Organization",
+                "identifier": "https://ror.org/042aqky30"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "maintainer"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "collaborator"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "collaborator"
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Role",
+            "roleName": "collaborator"
+        },
+        {
+            "@id": "_:author_6",
+            "@type": "Role",
+            "roleName": "resourceProvider"
+        },
+        {
+            "@id": "_:author_6",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent based model (abm)",
+        "agent based modeling and simulation",
+        "Agent-Based Modelling - Software engineering - Information Systems and Social Networks",
+        "agent behavior",
+        "ecological restoration",
+        "environmental restoration",
+        "household",
+        "land use change",
+        "woodland restoration"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4faf2984-7b50-4641-9585-d0ffd8b25ca2/releases/1.0.0/",
+    "dateCreated": "2021-09-25",
+    "description": "The agent-based model WEEM (Woodlot Establishment and Expansion Model) as described in the journal article, has been designed to make use of household socio-demographics (household status, birth, and death events of households), to better understand the temporal dynamics of woodlot in the buffer zones of Budongo protected forest reserve, Masindi district, Uganda. The results contribute to a mechanistic understanding of what determines the current gap between intention and actual behavior in forest land restoration at farm level.",
+    "downloadUrl": "https://www.comses.net/codebases/4faf2984-7b50-4641-9585-d0ffd8b25ca2/releases/1.0.0/download/",
+    "dateModified": "2021-09-27",
+    "releaseNotes": "First version of the WEEM model, which simulates the household decision making behavior through number of established woodlots.\nThe model builds on the assumption of theory of planned behavior focusing on household intention and actual behavior in woodlot establishment.",
+    "copyrightYear": 2021,
+    "datePublished": "2021-09-27",
+    "embargoEndDate": "2021-09-30",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "scala",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Ahimbisibwe et al 2021. Understanding Smallholder Farmer Decision Making in Forest Land Restoration Using Agent-Based Modeling, submitted for publication in SESMO."
+}

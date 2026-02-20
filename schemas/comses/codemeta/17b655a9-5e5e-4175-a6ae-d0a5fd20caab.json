@@ -1,0 +1,47 @@
+{
+    "@id": "https://www.comses.net/codebases/17b655a9-5e5e-4175-a6ae-d0a5fd20caab/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/17b655a9-5e5e-4175-a6ae-d0a5fd20caab/releases/1.0.0/",
+    "name": "Opinion dynamics and collective risk perception: An ABM model of institutional and media communication about disasters - Code and Datasets",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-3485-9249",
+            "@type": "Person",
+            "email": "daniele.vilone@gmail.com"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/17b655a9-5e5e-4175-a6ae-d0a5fd20caab/releases/1.0.0/",
+    "dateCreated": "2020-10-06",
+    "description": "The O.R.E. (Opinions on Risky Events) model describes how a population of interacting individuals process information about a risk of natural catastrophe. The institutional information gives the official evaluation of the risk; the agents receive this communication, process it and also speak to each other processing further the information. The description of the algorithm (as it appears also in the paper) can be found in the attached file OREmodel_description.pdf. \nThe code (ORE_model.c), written in C, is commented. Also the datasets (inputFACEBOOK.txt and inputEMAILs.txt) of the real networks utilized with this model are available.\n\nFor any questions/requests, please write me at daniele.vilone@gmail.com\n",
+    "downloadUrl": "https://www.comses.net/codebases/17b655a9-5e5e-4175-a6ae-d0a5fd20caab/releases/1.0.0/download/",
+    "dateModified": "2020-10-06",
+    "releaseNotes": "The code ORE_model.c cab be run in Linux environment with gcc. The datasets give the list of connection (in each line, the numbers in the two columns are the nodes connected by a link).",
+    "copyrightYear": 2020,
+    "datePublished": "2020-10-06",
+    "codeRepository": "https://drive.google.com/drive/folders/1P_RP_05vwkEh7Pe1ZYSrhoUxAP5mmUG7?usp=sharing",
+    "embargoEndDate": "2020-10-06",
+    "operatingSystem": "linux",
+    "runtimePlatform": [
+        ".NET Core"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "C",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

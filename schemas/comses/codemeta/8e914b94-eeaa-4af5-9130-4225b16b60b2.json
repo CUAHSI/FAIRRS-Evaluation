@@ -1,0 +1,71 @@
+{
+    "@id": "https://www.comses.net/codebases/8e914b94-eeaa-4af5-9130-4225b16b60b2/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/8e914b94-eeaa-4af5-9130-4225b16b60b2/releases/1.1.0/",
+    "name": "Social Closure and the Evolution of Cooperation via Indirect Reciprocity",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-9821-8451",
+            "@type": "Person",
+            "email": "righi.simone@gmail.com",
+            "givenName": "Simone",
+            "familyName": "Righi",
+            "affiliation": {
+                "@id": "https://ror.org/02jx3x895",
+                "url": "http://www.ucl.ac.uk/",
+                "name": "University College London",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02jx3x895"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1392/",
+            "@type": "Person",
+            "email": "takacs.karoly@tk.mta.hu",
+            "givenName": "K\u00e1roly",
+            "familyName": "Tak\u00e1cs",
+            "affiliation": {
+                "url": "http://recens.tk.mta.hu/en",
+                "name": "MTA TK \"Lend\u00fclet\" Research Center for Educational and Network Studies (RECENS), Budapest",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "evolution of cooperation",
+        "social capital"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/8e914b94-eeaa-4af5-9130-4225b16b60b2/releases/1.1.0/",
+    "dateCreated": "2018-06-08",
+    "description": "Righi S., Takacs K., Social Closure and the Evolution of Cooperation via Indirect Reciprocity, Resubmitted after Revisions to Scientific Reports",
+    "downloadUrl": "https://www.comses.net/codebases/8e914b94-eeaa-4af5-9130-4225b16b60b2/releases/1.1.0/download/",
+    "dateModified": "2018-06-09",
+    "releaseNotes": "This project contains the script and data to reproduce the results of model discussed in Righi S., Takacs K. (2018) \"Social Closure and the Evolution of Cooperation via Indirect Reciprocity\", Scientific Reports.\n\nIt is possible to re-run all the simulations used in the paper launching RUN_ALL_SIMULATIONS.m . Be advised however that the involved simulations may take very long to run (in the order of few months), especially on non massively multi-core machines. \n\nIf you reproduced the simulations with RUN_ALL_SIMULATIONS.m or you just want to reproduce the graphics you should:\n(1)- put all .m files in the same folder\n(2)- in the same folder place all .mat files of this project.\n(3)- launch:\n\t(3a) Figures_MainText to reproduce all the figures in the main text of  Righi, Takacs 2018, Scientific Reports.\n\t(3b) SI_Figures_All.m to reproduce all the figures in the supplementary information of  Righi, Takacs 2018, Scientific Reports.\n\nThe model detailed description is contained in the article Righi S., Takacs K. (2018) \"Social Closure and the Evolution of Cooperation via Indirect Reciprocity\", Scientific Reports.",
+    "copyrightYear": 2018,
+    "datePublished": "2018-06-09",
+    "codeRepository": "https://github.com/simonerighi/RighiTakacs_ScientificReports2018",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "MatLab"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "MatLab",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

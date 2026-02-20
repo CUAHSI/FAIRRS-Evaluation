@@ -1,0 +1,63 @@
+{
+    "@id": "https://www.comses.net/codebases/742d9eb6-4b99-46a8-8eef-e5939a2ea442/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/742d9eb6-4b99-46a8-8eef-e5939a2ea442/releases/1.0.0/",
+    "name": "Jasss City-states 1.0",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/4895/",
+            "@type": "Person",
+            "email": "andrea.piras1705@gmail.com",
+            "givenName": "Andrea",
+            "familyName": "Piras"
+        },
+        {
+            "@id": "https://www.comses.net/users/2458/",
+            "@type": "Person",
+            "email": "fbertolotti92@gmail.com",
+            "givenName": "Francesco",
+            "familyName": "Bertolotti",
+            "affiliation": {
+                "name": "LIUC",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/2458/",
+            "@type": "Role",
+            "roleName": "editor"
+        }
+    ],
+    "license": {
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.html",
+        "name": "Apache-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/742d9eb6-4b99-46a8-8eef-e5939a2ea442/releases/1.0.0/",
+    "dateCreated": "2024-07-18",
+    "description": "This paper presents an agent-based model to study the dynamics of city-state systems in a constrained environment with limited space and resources. The model comprises three types of agents: city-states, villages, and battalions, where city-states, the primary decision-makers, can build villages for food production and recruit battalions for defense and aggression. In this setting, simulation results, generated through a multi-parameter grid sampling, suggest that risk-seeking strategies are more effective in high-cost scenarios, provided that the production rate is sufficiently high. Also, the model highlights the role of output productivity in defining which strategic preferences are successful in a long-term scenario, with higher outputs supporting more aggressive expansion and military actions, while resource limitations compel more conservative strategies focused on survival and resource conservation. Finally, the results suggest the existence of a non-linear effect of diminishing returns in strategic investments on successful strategies, emphasizing the need for careful resource allocation in a competitive environment.",
+    "downloadUrl": "https://www.comses.net/codebases/742d9eb6-4b99-46a8-8eef-e5939a2ea442/releases/1.0.0/download/",
+    "dateModified": "2024-07-18",
+    "releaseNotes": "NetLogo code ",
+    "copyrightYear": 2024,
+    "datePublished": "2024-07-18",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

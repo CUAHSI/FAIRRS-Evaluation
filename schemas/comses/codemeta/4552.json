@@ -1,0 +1,65 @@
+{
+    "@id": "https://www.comses.net/codebases/4552/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/4552/releases/1.1.0/",
+    "name": "A Model of Iterated Ultimatum game",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1471/",
+            "@type": "Person",
+            "email": "andrea.scalco@univr.it",
+            "givenName": "Andrea",
+            "familyName": "Scalco",
+            "affiliation": {
+                "@id": "https://ror.org/039bp8j42",
+                "url": "http://www.univr.it/jsp/index.jsp",
+                "name": "University of Verona",
+                "@type": "Organization",
+                "identifier": "https://ror.org/039bp8j42"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1471/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "altruism",
+        "selfishness",
+        "ultimatum game"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4552/releases/1.1.0/",
+    "dateCreated": "2015-03-09",
+    "description": "The agents implemented into the simulation are divided into two groups according to their behavior. The amount of money to divide inside the ultimatum game is fixed at 100.00 \u20ac. The first group acts in a selfish way, that is, their proposals are always generated randomly under the 50% of the amount of money to split (more in detail, their proposals range from 35.00\u20ac to 45.00\u20ac). Conversely, the second group behaves in the opposite way: in-deed, altruistic agents bid higher, even over the half of initial amount of money (par-ticularly, proposals randomly range from 45.00\u20ac to 55.00\u20ac). Each agent is endowed with: a random willingness to pay (WTP), accordingly to the behavior of the agent; a minimum of money that the agent would accept in the ulti-matum game (willingness to accept; WTA). The latter is fixed equally for all agents and it is alterable by the user through the interface tab of the program. The interface tab allows also to change the percentage of altruistic agents to be generated (from 0% to 100%). \r\nThe program does not taken into account learning behaviors based on players experience or the changing of the initial amount of money to split, given that, as reported by Camerer (2003), the studies which exploited the UG showed only small effects for these factors. However, the agents' behavior could be retrieved inside the procedure called \u201c*initBehav*\u201d: this is the part of the program that (more than others) could be rewritten in order to provide different and complex behaviors to agents, leaving unaltered the \u201c*engine*\u201d of the simulation which works on the iteration of the ultimatum game.",
+    "downloadUrl": "https://www.comses.net/codebases/4552/releases/1.1.0/download/",
+    "dateModified": "2018-02-19",
+    "releaseNotes": "1.4 [Latest]",
+    "copyrightYear": 2015,
+    "datePublished": "2015-03-09",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Camerer, C.F.: Behavioral game theory: Experiments in strategic interaction. Russel Sage Fondation, New York, NY (2003)."
+}

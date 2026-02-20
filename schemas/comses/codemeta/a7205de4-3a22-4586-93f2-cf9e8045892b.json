@@ -1,0 +1,58 @@
+{
+    "@id": "https://www.comses.net/codebases/a7205de4-3a22-4586-93f2-cf9e8045892b/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/a7205de4-3a22-4586-93f2-cf9e8045892b/releases/1.0.0/",
+    "name": "Social identity approach in a data-driven Axelrod model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2951/",
+            "@type": "Person",
+            "email": "alejandro.dinkelberg@gmail.com"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Based on the multi-feature Axelrod model (Axelrod, 1997) and an agreement threshold extension from MacCarron et al (2020)",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "agreement threshold",
+        "Data",
+        "feature prediction"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/a7205de4-3a22-4586-93f2-cf9e8045892b/releases/1.0.0/",
+    "dateCreated": "2022-03-22",
+    "description": "\nSimulations based on the Axelrod model and extensions to inspect the volatility of the features over time (AXELROD MODEL & Agreement threshold & two model variations based on the Social identity approach)\nThe Axelrod model is used to predict the number of changes per feature in comparison to the datasets and is used to compare different model variations and their performance.\n\nInput: Real data\n\n--take the number of change per step and not the distance fucntion between the feature vectors as a break criteria\nvector-version of axelrod --\n\nDescription:\nThe Axelrod model depicts convergence and diversity on a macro level, driven by local agent-based interaction mechanisms. The agreement-threshold model (MacCarron et al. 2020), an extension of the Axelrod model, acts as a multi-dimensional opinion dynamics model. We extend these agent-based models by explicit aspects of the social identity approach to recover real-world dynamics better and to assess the prediction performance of data simulations. We newly introduce mechanisms on in- and out-group interaction. \n\nModel variations:\nParameter: Group-dependent preference\n    - Interaction within a group takes place without the limitation of the agreement threshold\n    - Interaction between groups involves an agreement threshold\n    - Group parameter needed\n\nParameter: In-group preference\n    - Integrates an interaction preference towards in-group members\n    - Reduced interaction probability with an out-group members\n    - Inter-group interaction still possible, but unlikely\n    - Group parameter needed\n\n\nauthor: alejandro dinkelberg\ndate: 12.01.2022",
+    "downloadUrl": "https://www.comses.net/codebases/a7205de4-3a22-4586-93f2-cf9e8045892b/releases/1.0.0/download/",
+    "dateModified": "2022-07-28",
+    "releaseNotes": "First commit",
+    "copyrightYear": 2022,
+    "datePublished": "2022-07-28",
+    "embargoEndDate": "2022-03-23",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetworkX"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "https://doi.org/10.1177/0022002797041002001,\nhttps://doi.org/10.1371/journal.pone.0233995"
+}

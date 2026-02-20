@@ -1,0 +1,87 @@
+{
+    "@id": "https://doi.org/10.25937/cs13-mr12",
+    "url": "https://doi.org/10.25937/cs13-mr12",
+    "name": "AgentEx-Meta",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-4636-315X",
+            "@type": "Person",
+            "email": "nwijermans@gmail.com",
+            "givenName": "Nanda",
+            "familyName": "Wijermans",
+            "affiliation": {
+                "@id": "https://ror.org/05f0yaq80",
+                "url": "http://www.su.se/english/",
+                "name": "Stockholm Resilience Center, Stockholm University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05f0yaq80"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "helen.fischer@posteo.de",
+            "givenName": "Helen",
+            "familyName": "Fischer",
+            "affiliation": {
+                "@id": "https://ror.org/02pp7px91",
+                "url": "https://www.mpib-berlin.mpg.de/en",
+                "name": "Max Planck Institute for Human Development",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02pp7px91"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based social simulation",
+        "agentex",
+        "cognition",
+        "cognitive psychology",
+        "common pool resource",
+        "psychology",
+        "social simulation",
+        "sustainability science"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/cs13-mr12",
+        "https://doi.org/10.25937/cs13-mr12"
+    ],
+    "dateCreated": "2020-07-20",
+    "description": "The purpose of the study is to unpack and explore a potentially beneficial role of sharing metacognitive information within a group when making repeated decisions about common pool resource (CPR) use. \n\nWe explore the explanatory power of sharing metacognition by varying (a) the individual errors in judgement (myside-bias); (b) the ways of reaching a collective judgement (metacognition-dependent),  (c) individual knowledge updating (metacognition- dependent) and d) the decision making context.\n\nThe model (AgentEx-Meta) represents an extension to an existing and validated model reflecting behavioural CPR laboratory experiments (Schill, Lindahl & Cr\u00e9pin, 2015; Lindahl, Cr\u00e9pin & Schill, 2016). AgentEx-Meta allows us to systematically vary the extent to which metacognitive information is available to agents, and to explore the boundary conditions of group benefits of metacognitive information. \n",
+    "downloadUrl": "https://www.comses.net/codebases/5f7dd3bd-aa03-4c86-92bd-8458e210c49a/releases/1.0.0/download/",
+    "dateModified": "2022-10-28",
+    "releaseNotes": "This is a reviewer version to accompany a paper submission.",
+    "copyrightYear": 2022,
+    "datePublished": "2022-10-28",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo",
+        "R"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo 6.2.2",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "R",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Fischer, H., Wijermans, N., & Schl\u00fcter, M. (2023). Testing the Social Function of Metacognition for Common\u2010Pool Resource Use. Cognitive science, 47(3), e13212."
+}

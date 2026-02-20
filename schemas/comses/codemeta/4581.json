@@ -1,0 +1,105 @@
+{
+    "@id": "https://www.comses.net/codebases/4581/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4581/releases/1.0.0/",
+    "name": "Environmental uncertainty affects the optimal structure of information-sharing networks",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1490/",
+            "@type": "Person",
+            "email": "takao0514@gmail.com",
+            "givenName": "Takao",
+            "familyName": "Sasaki",
+            "affiliation": {
+                "@id": "https://ror.org/052gg0110",
+                "url": "http://www.ox.ac.uk/",
+                "name": "University of Oxford",
+                "@type": "Organization",
+                "identifier": "https://ror.org/052gg0110"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Person",
+            "email": "marco.janssen@asu.edu",
+            "givenName": "Marco",
+            "familyName": "Janssen",
+            "affiliation": {
+                "url": "https://schoolofsustainability.asu.edu/",
+                "name": "School of Sustainability",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Stephen",
+            "familyName": "Pratt"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "givenName": "Zachary",
+            "familyName": "Shaffer"
+        },
+        {
+            "@id": "https://www.comses.net/users/1490/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-nd/4.0",
+        "name": "CC-BY-NC-ND-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Goldstone RL, Roberts ME, Mason W, Gureckis T (2008) Collective search in concrete and abstract spaces. In: Decision modeling and behavior in complex and uncertain environments. Springer New York, New York, NY, pp 277\u2013308\r\n\r\nMason W, Jones A, Goldstone R (2008) Propagation of innovations in networked groups. J Exp Psychol 137:422\u2013433.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4581/releases/1.0.0/",
+    "dateCreated": "2015-03-16",
+    "description": "The purpose of this study is to explore optimal network structures in situations where group members receive unreliable information about their environment. Our model is based on the SSEC (self-, social-, and exploration-based choices) model developed by Goldstone et al 2008 & Mason et al., 2008. In short, we measured how well different network structures (fully connected, small world, lattice, and random) find and exploit resource peaks in a variable environment. We found that a fully connected network outperformed other structures when resource quality was predictable. When resource quality showed random variation, however, the small world network was better than the fully connected one at avoiding extremely poor outcomes.",
+    "downloadUrl": "https://www.comses.net/codebases/4581/releases/1.0.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "",
+    "copyrightYear": 2015,
+    "datePublished": "2015-03-16",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "TBA"
+}

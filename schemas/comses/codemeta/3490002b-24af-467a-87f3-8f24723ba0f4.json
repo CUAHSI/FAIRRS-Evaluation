@@ -1,0 +1,58 @@
+{
+    "@id": "https://www.comses.net/codebases/3490002b-24af-467a-87f3-8f24723ba0f4/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/3490002b-24af-467a-87f3-8f24723ba0f4/releases/1.0.0/",
+    "name": "LaMEStModel",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-3936-2565",
+            "@type": "Person",
+            "email": "ruth@cfpm.org",
+            "givenName": "Ruth",
+            "familyName": "Meyer",
+            "affiliation": {
+                "url": "http://mmu.ac.uk",
+                "name": "Centre for Policy Modelling",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based social simulation",
+        "immigration",
+        "labour market segmentation",
+        "social network"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3490002b-24af-467a-87f3-8f24723ba0f4/releases/1.0.0/",
+    "dateCreated": "2018-10-12",
+    "description": "The Labour Markets and Ethnic Segmentation (LaMESt) Model is a model of a simplified labour market, where only jobs of the lowest skill level are considered. Immigrants of two different ethnicities (\u201cLatino\u201d, \u201cAsian\u201d) compete with a majority (\u201cWhite\u201d) and minority (\u201cBlack\u201d) native population for these jobs. The model\u2019s purpose is to investigate the effect of ethnically homogeneous social networks on the emergence of ethnic segmentation in such a labour market. It is inspired by Waldinger & Lichter\u2019s study of immigration and the social organisation of labour in 1990\u2019s Los Angeles.",
+    "downloadUrl": "https://www.comses.net/codebases/3490002b-24af-467a-87f3-8f24723ba0f4/releases/1.0.0/download/",
+    "dateModified": "2018-10-12",
+    "releaseNotes": "This model is developed in NetLogo 5.3.1 and makes use of the '?' syntax for functions like map and filter, so will not automatically convert to NetLogo 6.x.\n\nThe model does not need any input data unless you switch the parameter 'use-employer-file?' on. Then you will need to specify the name of a text file to use in the 'employer-file' input box. Three such files (employer-11.txt, employer-46.txt, employer-100.txt) are provided with the code. They contain the specification of 11/46/100 firms to make up the modelled labour market.",
+    "copyrightYear": 2018,
+    "datePublished": "2018-10-12",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

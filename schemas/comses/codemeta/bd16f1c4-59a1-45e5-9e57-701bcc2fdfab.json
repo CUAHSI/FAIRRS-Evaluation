@@ -1,0 +1,62 @@
+{
+    "@id": "https://www.comses.net/codebases/bd16f1c4-59a1-45e5-9e57-701bcc2fdfab/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/bd16f1c4-59a1-45e5-9e57-701bcc2fdfab/releases/1.0.0/",
+    "name": "A network agent-based model of ethnocentrism and intergroup cooperation",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2717/",
+            "@type": "Person",
+            "email": "ross.gore@gmail.com",
+            "givenName": "Ross",
+            "familyName": "Gore"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "https://doi.org/10.1007/s11135-019-00856-y",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "agent-based model",
+        "cooperation",
+        "ethnocentrism",
+        "game theory",
+        "intergroup"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/bd16f1c4-59a1-45e5-9e57-701bcc2fdfab/releases/1.0.0/",
+    "dateCreated": "2019-10-27",
+    "description": "We present a network agent-based model of ethnocentrism and intergroup cooperation in which agents from two groups (majority and minority) change their communality (feeling of group solidarity), cooperation strategy and social ties, depending on a barrier of \u201clikeness\u201d (affinity). Our purpose was to study the model\u2019s capability for describing how the mechanisms of preexisting markers (or \u201ctags\u201d) that can work as cues for inducing in-group bias, imitation, and reaction to non-cooperating agents, lead to ethnocentrism or intergroup cooperation and influence the formation of the network of mixed ties between agents of different groups. We explored the model\u2019s behavior via four experiments in which we studied the combined effects of \u201clikeness,\u201d relative size of the minority group, degree of connectivity of the social network, game difficulty (strength) and relative frequencies of strategy revision and structural adaptation. The parameters that have a stronger influence on the emerging dominant strategies and the formation of mixed ties in the social network are the group-tag barrier, the frequency with which agents react to adverse partners, and the game difficulty. The relative size of the minority group also plays a role in increasing the percentage of mixed ties in the social network. This is consistent with the intergroup ties being dependent on the \u201carena\u201d of contact (with progressively stronger barriers from e.g. workmates to close relatives), and with measures that hinder intergroup contact also hindering mutual cooperation.",
+    "downloadUrl": "https://www.comses.net/codebases/bd16f1c4-59a1-45e5-9e57-701bcc2fdfab/releases/1.0.0/download/",
+    "dateModified": "2019-10-27",
+    "releaseNotes": "The model was built using netlogo and developed on the windows platform. It has been tested using NetLogo 5 and 6.",
+    "copyrightYear": 2019,
+    "datePublished": "2019-10-27",
+    "codeRepository": "https://github.com/rossgore/ABM_Ethnocentrism_Intergroup_Cooperation",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Lemos, C. M., Gore, R. J., Lessard-Phillips, L., & Shults, F. L. (2019). A network agent-based model of ethnocentrism and intergroup cooperation. Quality & Quantity, 1-27."
+}

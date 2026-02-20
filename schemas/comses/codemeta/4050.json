@@ -1,0 +1,81 @@
+{
+    "@id": "https://www.comses.net/codebases/4050/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4050/releases/1.0.0/",
+    "name": "Battle of Perspectives",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Person",
+            "email": "marco.janssen@asu.edu",
+            "givenName": "Marco",
+            "familyName": "Janssen",
+            "affiliation": {
+                "url": "https://schoolofsustainability.asu.edu/",
+                "name": "School of Sustainability",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Bert",
+            "familyName": "Devries"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Janssen, M.A. (1996) Meeting targets: tools to support integrated assessment modelling of global change, ISBN 90-9009908-5, PhD Dissertation, Maastricht University \r\nJanssen, M.A. and H.J.M. de Vries (1998) The battle of perspectives: a multi-agent model with adaptive responses to climate change, Ecological Economics 26(1): 43-65.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "adaption",
+        "Climate Change",
+        "cultural perspectives",
+        "mental models",
+        "policy"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4050/releases/1.0.0/",
+    "dateCreated": "2013-12-02",
+    "description": "To evaluate possible futures with regard to economy, energy and climate, an agent-based model is developed. Agents hold different perspectives on how the world functions (worldview) and how it should be managed (management style) and this is implemented in a simple dynamic model of the economy-energy-climate system. Each\r\nperspective is supported by a proportion of the agents, but this proportion changes in response to observations about the real world. In this way the totality of agents learn from their observations. It is concluded that this approach is a good illustration of how adaptive behavior can be included in global change modelling. Some exploratory experiments are done to address the consequences of surprises.",
+    "downloadUrl": "https://www.comses.net/codebases/4050/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-12-02",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

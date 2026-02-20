@@ -1,0 +1,118 @@
+{
+    "@id": "https://doi.org/10.25937/qjyx-m734",
+    "url": "https://doi.org/10.25937/qjyx-m734",
+    "name": "Gregarious Behavior, Human Colonization and Social Differentiation Agent-Based Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2873/",
+            "@type": "Person",
+            "email": "s.d.fajardobernal@tudelft.nl",
+            "givenName": "Sebastian",
+            "familyName": "Fajardo",
+            "affiliation": {
+                "@id": "https://ror.org/02e2c7k09",
+                "url": "http://www.tudelft.nl/en/",
+                "name": "Delft University of Technology",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02e2c7k09"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "andresf.bernale@utadeo.edu.co",
+            "givenName": "Andr\u00e9s",
+            "familyName": "Bernal",
+            "affiliation": {
+                "@id": "https://ror.org/04wbzgn90",
+                "url": "https://www.utadeo.edu.co/es",
+                "name": "Universidad de Bogot\u00e1 Jorge Tadeo Lozano",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04wbzgn90"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-6100-4660",
+            "@type": "Person",
+            "email": "gertjan.hofstede@wur.nl",
+            "givenName": "Gert",
+            "familyName": "Hofstede",
+            "affiliation": {
+                "url": "http://www.wageningenur.nl",
+                "name": "Wageningen University",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "email": "mark.kramer@wur.nl",
+            "givenName": "Mark",
+            "familyName": "Kramer",
+            "affiliation": {
+                "@id": "https://ror.org/05eqt7s39",
+                "url": "http://www.ait.gr/",
+                "name": "Athens Information Technology",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05eqt7s39"
+            }
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Person",
+            "email": "martijn.devries@wur.nl",
+            "givenName": "Martijn",
+            "familyName": "de Vries",
+            "affiliation": {
+                "@id": "https://ror.org/05eqt7s39",
+                "url": "http://www.ait.gr/",
+                "name": "Athens Information Technology",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05eqt7s39"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc/4.0",
+        "name": "CC-BY-NC-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "Agent-Based Modelling - Software engineering - Information Systems and Social Networks",
+        "archaeological computing",
+        "colonization",
+        "human community",
+        "Social Differentiation"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/qjyx-m734",
+        "https://doi.org/10.25937/qjyx-m734"
+    ],
+    "dateCreated": "2020-05-18",
+    "description": "Studies of colonization processes in past human societies often use a standard population model in which population is represented as a single quantity. Real populations in these processes, however, are structured with internal classes or stages, and classes are sometimes created based on social differentiation. In this present work, information about the colonization of old Providence Island was used to create an agent-based model of the colonization process in a heterogeneous environment for a population with social differentiation. Agents were socially divided into two classes and modeled with dissimilar spatial clustering preferences. The model and simulations assessed the importance of gregarious behavior for colonization processes conducted in heterogeneous environments by socially-differentiated populations. Results suggest that in these conditions, the colonization process starts with an agent cluster in the largest and most suitable area. The spatial distribution of agents maintained a tendency toward randomness as simulation time increased, even when gregariousness values increased. The most conspicuous effects in agent clustering were produced by the initial conditions and behavioral adaptations that increased the agent capacity to access more resources and the likelihood of gregariousness. The approach presented here could be used to analyze past human colonization events or support long-term conceptual design of future human colonization processes with small social formations into unfamiliar and uninhabited environments.",
+    "downloadUrl": "https://www.comses.net/codebases/d5cfd5b6-6cfe-4dbc-ab9c-6fadb3ed688a/releases/1.1.0/download/",
+    "dateModified": "2024-12-05",
+    "releaseNotes": "* The textbox entry \"world\" in the nlogo file interface has now the png filename used for the Old Providence model.\n* The png file used for the Old Providence model is now located in the \\code folder.\n* The name of png file used for the Old Providence model was changed to \"Old Providence Colonization v3.nlogo\". This change was also included in the nlogo file.\n* Simulation experiments are included in the behavior space interface. The seeds to replicate the experiments can be found in the input data file.\n* The documentation of how it works was extended in the info tab of the net logo file.\n* Peer reviewed publication can be found in <http://jasss.soc.surrey.ac.uk/23/4/11.html> \n\n* The model can run with different environment (e.g. a different geographical place represented as raster file).  If you want to use a different environment please follow these steps:\n1. Save a png file that you want to use as environment in the same folder where you saved the netlogo file (Old Providence Colonization v3.nlogo).\n2. The current png file used by the model is \u201cprovidence_island_V3.png\u201d. This file can be found in the folder \\code.\n3. Insert in the textbox entry  \u201cworld\u201d of the net logo interface tab the name of the png file you want to use.\n4. Choose your preferred values and push the \u201cgo forever\u201d button.",
+    "copyrightYear": 2020,
+    "datePublished": "2020-10-29",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

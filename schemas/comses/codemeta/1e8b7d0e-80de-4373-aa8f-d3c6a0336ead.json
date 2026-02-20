@@ -1,0 +1,78 @@
+{
+    "@id": "https://www.comses.net/codebases/1e8b7d0e-80de-4373-aa8f-d3c6a0336ead/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/1e8b7d0e-80de-4373-aa8f-d3c6a0336ead/releases/1.0.0/",
+    "name": "SimPioN - Simulating Path dependence in inter-organisational Networks",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-4124-4189",
+            "@type": "Person",
+            "email": "stoppler.f@gmail.com",
+            "givenName": "Frithjof",
+            "familyName": "St\u00f6ppler",
+            "affiliation": {
+                "@id": "https://ror.org/05f0yaq80",
+                "url": "http://www.su.se/english/",
+                "name": "Stockholm University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05f0yaq80"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-4636-315X",
+            "@type": "Person",
+            "email": "nwijermans@gmail.com",
+            "givenName": "Nanda",
+            "familyName": "Wijermans",
+            "affiliation": {
+                "@id": "https://ror.org/05f0yaq80",
+                "url": "http://www.su.se/english/",
+                "name": "Stockholm Resilience Center, Stockholm University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05f0yaq80"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "cooperation",
+        "dynamic network",
+        "firms",
+        "interorganisational networks",
+        "lock-in",
+        "network",
+        "path dependence"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/1e8b7d0e-80de-4373-aa8f-d3c6a0336ead/releases/1.0.0/",
+    "dateCreated": "2021-01-11",
+    "description": "The SimPioN model aims to abstractly reproduce and experiment with the conditions under which a path-dependent process may lead to a (structural) network lock-in in interorganisational networks. \n\nPath dependence theory is constructed around a process argumentation regarding three main elements: a situation of (at least) initially non-ergodic (unpredictable with regard to outcome) starting conditions in a social setting; these become reinforced by the workings of (at least) one positive feedback mechanism that increasingly reduces the scope of conceivable alternative choices; and that process finally results in a situation of lock-in, where any alternatives outside the already adopted options become essentially impossible or too costly to pursue despite (ostensibly) better options theoretically being available.\n\nThe purpose of SimPioN is to advance our understanding of lock-ins arising in interorganisational networks based on the network dynamics involving the mechanism of social capital. This mechanism and the lock-ins it may drive have been shown above to produce problematic consequences for firms in terms of a loss of organisational autonomy and strategic flexibility, especially in high-tech knowledge-intensive industries that rely heavily on network organising.\n\nThe model aims to explore the workings of this social mechanism and the way in which the structural dynamics unfold over time, thereby allowing for an exploration of the conditions under which firms become locked-in in consequence of a path dependence process driven by social capital and starting from an (at least initially) non-locked-in situation.",
+    "downloadUrl": "https://www.comses.net/codebases/1e8b7d0e-80de-4373-aa8f-d3c6a0336ead/releases/1.0.0/download/",
+    "dateModified": "2021-01-11",
+    "releaseNotes": "Version 1.0.0",
+    "copyrightYear": 2021,
+    "datePublished": "2021-01-11",
+    "embargoEndDate": "2021-02-04",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "@id": "https://www.comses.net/codebases/a5e34ca9-147d-4f9d-aaf7-849a20176946/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/a5e34ca9-147d-4f9d-aaf7-849a20176946/releases/1.0.0/",
+    "name": "Spread of COVID-19 in University Dormitory Setting",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2958/",
+            "@type": "Person",
+            "email": "sunnyx@berkeley.edu"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/a5e34ca9-147d-4f9d-aaf7-849a20176946/releases/1.0.0/",
+    "dateCreated": "2020-08-16",
+    "description": "NetLogo agent-based model to simulate the transmission of COVID-19 in a university dormitory. User can set the number of initial students, buildings, floors, rooms, number of initially infected, and transmission rate. They can also test the effect of masks, sanitizations, elevator allowance, and visits on the effect of the SEIR curve.",
+    "downloadUrl": "https://www.comses.net/codebases/a5e34ca9-147d-4f9d-aaf7-849a20176946/releases/1.0.0/download/",
+    "dateModified": "2020-08-16",
+    "releaseNotes": "Version 1.0",
+    "copyrightYear": 2020,
+    "datePublished": "2020-08-16",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "This model is used in the manuscript named Modeling and Evaluating COVID-19 Internal Intervention Strategies in a University Dormitory Setting"
+}

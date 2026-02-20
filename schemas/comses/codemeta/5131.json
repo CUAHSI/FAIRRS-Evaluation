@@ -1,0 +1,75 @@
+{
+    "@id": "https://www.comses.net/codebases/5131/releases/2.0.0/",
+    "url": "https://www.comses.net/codebases/5131/releases/2.0.0/",
+    "name": "MCR Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-6677-8689",
+            "@type": "Person",
+            "email": "secchi.davi@gmail.com",
+            "givenName": "Davide",
+            "familyName": "Secchi",
+            "affiliation": {
+                "url": "https://www.sdu.dk/en/om_sdu/institutter_centre/c_comac",
+                "name": "Research Centre for Computational & Organisational Cognition, University of Southern Denmark",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Nuno",
+            "familyName": "Barros De Oliveira"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-6677-8689",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "2.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "case dependence",
+        "innovation diffusion",
+        "multiple case research",
+        "qualitative methods"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5131/releases/2.0.0/",
+    "dateCreated": "2017-07-28",
+    "description": "This model was originally created to study independence or dependence in multiple case study analysis. The aim of the model is to define when the researcher's assumptions of dependence or independence on the cases selected for the study affect the understanding of these cases.\nThe example that is featured in the model is that of the diffusion of innovation. In fact, the model is actually about firms that create and/or adopt a --- not better specified --- innovation. The assumptions on dependence or independence of cases should have an impact on the study of how innovation diffuses. Under what circumstances the assumptions of the researcher affect the analysis of the selected cases is the aim of this simulation.\n\nThis new version of the model includes additional lines of code to test what happens to the diffusion of innovation among agents when the links are indirect such as in the case of exposure to advertising.\n\nBesides the model (NetLogo, v6.1), the files attached include sample output data (csv), a document with detailed information on the model with graphs and regression models based on a specified configuration of parameters, and an image. ",
+    "downloadUrl": "https://www.comses.net/codebases/5131/releases/2.0.0/download/",
+    "dateModified": "2021-01-23",
+    "releaseNotes": "This is version 3.2.0, updated using NetLogo 6.1 (The original model 3.0 uses NetLogo 3D).",
+    "copyrightYear": 2021,
+    "datePublished": "2021-01-23",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "This model refers to the article ``Dependence in Case Study Comparative Research: Theory building, degree of dependence, and validity'' that has been accepted for publication in Sociological Methods & Research."
+}

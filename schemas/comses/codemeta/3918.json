@@ -1,0 +1,68 @@
+{
+    "@id": "https://www.comses.net/codebases/3918/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/3918/releases/1.0.0/",
+    "name": "Income Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/653/",
+            "@type": "Person",
+            "email": "tlawso@essex.ac.uk",
+            "givenName": "Tony",
+            "familyName": "Lawson",
+            "affiliation": {
+                "@id": "https://ror.org/02nkf1q06",
+                "url": "http://www.essex.ac.uk/",
+                "name": "University of Essex",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02nkf1q06"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/653/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "from=from||0",
+        "from){var len=this",
+        "function(obj",
+        "if(from<0){from+=len}for(",
+        "length>>>0",
+        "NetLogo"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3918/releases/1.0.0/",
+    "dateCreated": "2013-08-26",
+    "description": "This model demonstrates the use of a random assignment approach to determining how spending patterns vary in response to changes in household income. It is based on the principle that when income changes, the household will respond by adjusting its spending in a way that is similar to a household that has had the new income for some time. This is implemented by copying the spending pattern of a similar household.",
+    "downloadUrl": "https://www.comses.net/codebases/3918/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-08-26",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Lawson, T. (2013) 'Modelling Household Spending Using a Random Assignment Scheme', International Journal of Microsimulation, 6(2) 56-75."
+}

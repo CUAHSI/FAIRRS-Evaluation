@@ -1,0 +1,73 @@
+{
+    "@id": "https://www.comses.net/codebases/5419/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/5419/releases/1.1.0/",
+    "name": "TransportVarese",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "givenName": "Elena",
+            "familyName": "Maggi"
+        },
+        {
+            "@id": "https://www.comses.net/users/783/",
+            "@type": "Person",
+            "email": "elena.vallino@unito.it",
+            "givenName": "Elena",
+            "familyName": "Vallino"
+        },
+        {
+            "@id": "_:author_1",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://www.comses.net/users/783/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Natalini, Davide; Bravo, Giangiacomo. 2014. \"Encouraging Sustainable Transport Choices in American Households: Results from an Empirically Grounded Agent-Based Model.\" Sustainability 6, no. 1: 50-69.\r\n\r\nhttps://www.openabm.org/model/4061/version/2",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "sustainable urban mobility policies",
+        "urban passenger transport"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5419/releases/1.1.0/",
+    "dateCreated": "2017-08-04",
+    "description": "We present an agent-based model which reproduces transport choices of a sample of citizens of the city of Varese (Northern Italy) and the corresponding PM emissions of their daily commutes. The aim of the model is testing the impact of public policies willing to foster commuting choices with lower PM emissions. The model considers the commuters\u2018 decisions on the transport mode to be used.  A set of preferences, one for each transport mode - private car, bicycle, public transport - is assigned to every agent. Throughout the process, agents decide about the means for commuting on the basis of the relative price of the different means of transport, of the social influence and of the intensity of the policies applied. The initial distribution of preferences for each transport mode are inspired to empirical data on Varese commuters.",
+    "downloadUrl": "https://www.comses.net/codebases/5419/releases/1.1.0/download/",
+    "dateModified": "2018-02-19",
+    "releaseNotes": "",
+    "copyrightYear": 2017,
+    "datePublished": "2017-08-04",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

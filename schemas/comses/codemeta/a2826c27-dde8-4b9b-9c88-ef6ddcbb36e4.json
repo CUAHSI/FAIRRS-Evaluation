@@ -1,0 +1,54 @@
+{
+    "@id": "https://www.comses.net/codebases/a2826c27-dde8-4b9b-9c88-ef6ddcbb36e4/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/a2826c27-dde8-4b9b-9c88-ef6ddcbb36e4/releases/1.0.0/",
+    "name": "Sea Bright, NJ Reconstruction of Hurricane Sandy",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2506/",
+            "@type": "Person",
+            "email": "kmceligo@gmu.edu",
+            "givenName": "Kim",
+            "familyName": "McEligot"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "ABM",
+        "Coast Flooding",
+        "Mason",
+        "natural hazards"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/a2826c27-dde8-4b9b-9c88-ef6ddcbb36e4/releases/1.0.0/",
+    "dateCreated": "2019-04-09",
+    "description": "![](http://) This model implements a combined Protective Action Decision Model (PADM) and Protection Motivation Theory (PAM) model for human decision making regarding hazard mitigations. The model is developed and integrated into the MASON modeling framework. The ABM implements a hind-cast of Hurricane Sandy\u2019s  damage to Sea Bright, NJ and homeowner post-flood reconstruction decisions. It was validated against FEMA damage assessments and post-storm surveys (O'Neil 2017).",
+    "downloadUrl": "https://www.comses.net/codebases/a2826c27-dde8-4b9b-9c88-ef6ddcbb36e4/releases/1.0.0/download/",
+    "dateModified": "2021-03-20",
+    "releaseNotes": "The model requires the MASON java framework. It is run from the ABM.java or SandyFloodWithUI.java files with the input folders under an input/ subfolder. Outputs are sent to files in an output/ subfolder. The outputsummary.txt file is appended on each run.  All attached input files are required to execute:  Lot, Structure and homeowners (SBResidentialUpdateIncomeBenefit25.csv), flood gauge locations (gaugelocationsFEMA.csv), flood height information (floodUSGSFEMA.csv) and depth damage functions  (DDF.csv).  The code is not clean, elegant, or efficient, but it is functional.",
+    "copyrightYear": 2021,
+    "datePublished": "2021-03-20",
+    "embargoEndDate": "2019-06-30",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Mason"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

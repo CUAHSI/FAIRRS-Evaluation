@@ -1,0 +1,102 @@
+{
+    "@id": "https://www.comses.net/codebases/e6edc29f-2f06-4fed-acc3-2b24df0cdd83/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/e6edc29f-2f06-4fed-acc3-2b24df0cdd83/releases/1.0.0/",
+    "name": "Agent-based Model of Industrial Evolution",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-0535-7928",
+            "@type": "Person",
+            "email": "zoricakmartin@gmail.com",
+            "givenName": "Martin",
+            "familyName": "Zori\u010dak",
+            "affiliation": {
+                "@id": "https://ror.org/05xm08015",
+                "url": "https://www.tuke.sk/tuke/university",
+                "name": "Technical University of Ko\u0161ice",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05xm08015"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "denis.horvath@upjs.sk",
+            "givenName": "Denis",
+            "familyName": "Horvath",
+            "affiliation": {
+                "@id": "https://ror.org/039965637",
+                "url": "http://www.upjs.sk/",
+                "name": "University of Pavol Jozef \u0160af\u00e1rik",
+                "@type": "Organization",
+                "identifier": "https://ror.org/039965637"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "vladimir.gazda@tuke.sk",
+            "givenName": "Vladimir",
+            "familyName": "Gazda",
+            "affiliation": {
+                "@id": "https://ror.org/05xm08015",
+                "url": "https://www.tuke.sk/tuke/university",
+                "name": "Technical University of Ko\u0161ice",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05xm08015"
+            }
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "email": "oto.hudec@tuke.sk",
+            "givenName": "Oto",
+            "familyName": "Hudec",
+            "affiliation": {
+                "@id": "https://ror.org/05xm08015",
+                "url": "https://www.tuke.sk/tuke/university",
+                "name": "Technical University of Ko\u0161ice",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05xm08015"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based computational economics",
+        "cellular automata",
+        "NetLogo"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/e6edc29f-2f06-4fed-acc3-2b24df0cdd83/releases/1.0.0/",
+    "dateCreated": "2019-07-10",
+    "description": "This is a conceptual model of underlying forces creating industrial clusters. There are two contradictory forces - attraction and repulsion. Firms within the same Industry are attracted to each other and on the other hand, firms with the same Activity are repulsed from each other. In each round firm with the lowest fitness is selected to change its profile of Industries and Activities. Based on these simple rules interesting patterns emerge.",
+    "downloadUrl": "https://www.comses.net/codebases/e6edc29f-2f06-4fed-acc3-2b24df0cdd83/releases/1.0.0/download/",
+    "dateModified": "2019-07-10",
+    "releaseNotes": "Model was constructed and simulations run on NetLogo version 3.5.1. \nNewer versions of NetLogo may also work, however they were not tested.\nModel may be run directly within the NetLogo or custom scripts written in different languages may be used to run headless NetLogo model.\nFor more reproducable results, we recomand to run simulations by R script using package RNetLogo.",
+    "copyrightYear": 2019,
+    "datePublished": "2019-07-10",
+    "codeRepository": "https://bitbucket.org/ZoMartin/industriesabm.git",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

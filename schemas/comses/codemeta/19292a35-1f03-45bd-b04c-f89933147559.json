@@ -1,0 +1,64 @@
+{
+    "@id": "https://www.comses.net/codebases/19292a35-1f03-45bd-b04c-f89933147559/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/19292a35-1f03-45bd-b04c-f89933147559/releases/1.0.0/",
+    "name": "The Effect of Different Governmental Pandemic Control Measures on the Spread of a Virus Disease",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2372/",
+            "@type": "Person",
+            "email": "cupcakemonster@gmx.at",
+            "givenName": "Chiara",
+            "familyName": "Letter"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "The framework of the network is based on the network of the NetLogo model Virus on a Network by Stonedahl Forrest & Wilensky Uri, although several modifications have been made.\nStonedahl, F. and Wilensky, U. (2008). NetLogo Virus on a Network model. http://ccl.northwestern.edu/netlogo/models/VirusonaNetwork. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "ABM",
+        "Agent-based modelling",
+        "COVID-19",
+        "NetLogo",
+        "network simulation",
+        "pandemic",
+        "pandemic control",
+        "SARS-CoV-2",
+        "virus"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/19292a35-1f03-45bd-b04c-f89933147559/releases/1.0.0/",
+    "dateCreated": "2022-01-26",
+    "description": "In this model, the spread of a virus disease in a network consisting of school pupils, employed, and umemployed people is simulated. The special feature in this model is the distinction between different types of links: family-, friends-, school-, or work-links. In this way, different governmental measures can be implemented in order to decelerate or stop the transmission.",
+    "downloadUrl": "https://www.comses.net/codebases/19292a35-1f03-45bd-b04c-f89933147559/releases/1.0.0/download/",
+    "dateModified": "2022-01-26",
+    "releaseNotes": "Initial Release",
+    "copyrightYear": 2022,
+    "datePublished": "2022-01-26",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo 6.2.0"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

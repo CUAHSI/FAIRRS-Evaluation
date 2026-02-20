@@ -1,0 +1,102 @@
+{
+    "@id": "https://www.comses.net/codebases/c17aec93-5f13-42da-9ea5-1a501d2df354/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/c17aec93-5f13-42da-9ea5-1a501d2df354/releases/1.0.0/",
+    "name": "MEGADAPT -  Socio-hydrological risk model - Theoretical (no data) implementation",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2051/",
+            "@type": "Person",
+            "email": "andres.baeza@gmail.com",
+            "givenName": "Andres",
+            "familyName": "Baeza-Castro",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/2447/",
+            "@type": "Person",
+            "email": "bojorquez@ecologia.unam.mx",
+            "givenName": "Luis",
+            "familyName": "Bojorquez",
+            "affiliation": {
+                "@id": "https://ror.org/004fan886",
+                "url": "http://unamcr.com/",
+                "name": "Universidad Aut\u00f3noma Monterrey",
+                "@type": "Organization",
+                "identifier": "https://ror.org/004fan886"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Person",
+            "email": "marco.janssen@asu.edu",
+            "givenName": "Marco",
+            "familyName": "Janssen",
+            "affiliation": {
+                "url": "https://schoolofsustainability.asu.edu/",
+                "name": "School of Sustainability",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "email": "Hallie.Eakin@asu.edu",
+            "givenName": "Hallie",
+            "familyName": "Eakin",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "flood",
+        "MCDA",
+        "Mexico",
+        "socio-technical system",
+        "water scarcity"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/c17aec93-5f13-42da-9ea5-1a501d2df354/releases/1.0.0/",
+    "dateCreated": "2019-02-06",
+    "description": "The model simulates the decisions of residents and a water authority to respond to socio-hydrological hazards. Residents from neighborhoods are located in a landscape with topographic complexity and two problems: water scarcity in the peripheral neighborhoods at high altitude and high risk of flooding in the lowlands, at the core of the city. The role of the water authority is to decide where investments in infrastructure should be allocated to reduce the risk to water scarcity and flooding events in the city, and these decisions are made via a multi-objective site selection procedure. This procedure accounts for the interdependencies and feedback between the urban landscape and a policy scenario that defines the importance, or priorities, that the authority places on four criteria.\nNeighborhoods respond to the water authority decisions by protesting against the lack of investment and the level of exposure to water scarcity and flooding. Protests thus simulate a form of feedback between local-level outcomes (flooding and water scarcity) and higher-level decision-making. Neighborhoods at high altitude are more likely to be exposed to water scarcity and lack infrastructure, whereas neighborhoods in the lowlands tend to suffer from recurrent flooding. The frequency of flooding is also a function of spatially uniform rainfall events. Likewise, neighborhoods at the periphery of the urban landscape lack infrastructure and suffer from chronic risk of water scarcity. \nThe model simulates the coupling between the decision-making processes of institutional actors, socio-political processes and infrastructure-related hazards. In the documentation, we describe details of the implementation in NetLogo, the description of the procedures, scheduling, and the initial conditions of the landscape and the neighborhoods. \nThis work was supported by the National Science Foundation under Grant No. 1414052, CNH: The Dynamics of Multi-Scalar Adaptation in Megacities (PI Hallie Eakin).",
+    "downloadUrl": "https://www.comses.net/codebases/c17aec93-5f13-42da-9ea5-1a501d2df354/releases/1.0.0/download/",
+    "dateModified": "2019-02-12",
+    "releaseNotes": "a",
+    "copyrightYear": 2019,
+    "datePublished": "2019-02-06",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Baeza, A., Bojorquez-Tapia, L.A., Janssen, M.A. & Eakin, H. (2019). Operationalizing the feedback between institutional decision-making, socio-political infrastructure, and environmental risk in urban vulnerability analysis. J. Environ. Manage., 241, 407\u2013417. DOI: 10.1016/J.JENVMAN.2019.03.138"
+}

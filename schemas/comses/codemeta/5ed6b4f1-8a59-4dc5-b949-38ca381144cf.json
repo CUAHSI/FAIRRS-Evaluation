@@ -1,0 +1,64 @@
+{
+    "@id": "https://doi.org/10.25937/jsx3-0q88",
+    "url": "https://doi.org/10.25937/jsx3-0q88",
+    "name": "Deforestation",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0009-0009-0823-5422",
+            "@type": "Person",
+            "email": "m_a.aghajani@yahoo.com",
+            "givenName": "MohammadAli",
+            "familyName": "Aghajani",
+            "affiliation": {
+                "url": "https://kayson-ir.com",
+                "name": "Kayson",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.4.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "Deforest",
+        "GIS",
+        "Netlogo"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/jsx3-0q88",
+        "https://doi.org/10.25937/jsx3-0q88"
+    ],
+    "dateCreated": "2025-07-02",
+    "description": "#Deforestation Simulation Model in NetLogo with GIS Layers\n**This model has developed in Netlogo software and utilizes \nthe GIS extension.**\nThis NetLogo-based agent-based model (ABM) simulates deforestation dynamics using the GIS extension. It incorporates parameters like wood extraction, forest regeneration, agricultural expansion, and livestock impact. The model integrates spatial layers, including forest areas, agriculture zones, rural settlements, elevation, slope, and livestock distribution. Outputs include real-time graphical representations of forest loss, regeneration, and land-use changes. This model helps analyze deforestation patterns and conservation strategies using ABM and GIS.",
+    "downloadUrl": "https://www.comses.net/codebases/5ed6b4f1-8a59-4dc5-b949-38ca381144cf/releases/1.4.0/download/",
+    "dateModified": "2025-08-14",
+    "releaseNotes": "This model has developed in Netlogo software and utilizes \nthe GIS extension.\n\nIt simulates deforestation with parameters such as the number of animals,\npercentage of cut wood ,forest regeneration percentage ,\nexpansion of agriculture land percentage ,and the forest regeneration percentage \nin the sanctuary. \nIt also includes spatial layers like forest area, agriculture zone in \nand rural area, livestock points, distance to livestock ,\nelevation , and slope.\nThis model was developed in 2017.\n\nThe model's output includes a dynamic representation of the \nforest destruction and regeneration percentages, displayed graphically in real-time.",
+    "copyrightYear": 2025,
+    "datePublished": "2025-08-14",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "Netlogo 6",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "@id": "https://www.comses.net/codebases/3105/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/3105/releases/1.0.0/",
+    "name": "Hominin Ecodynamics v.1.1 (update for perception and interaction)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-2561-1927",
+            "@type": "Person",
+            "email": "michael.barton@asu.edu",
+            "givenName": "C Michael",
+            "familyName": "Barton",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-2561-1927",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "bioculturalevolution",
+        "eurasia",
+        "evolution",
+        "forage",
+        "humanevolution",
+        "interaction",
+        "neanderthal",
+        "perception"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3105/releases/1.0.0/",
+    "dateCreated": "2012-08-15",
+    "description": "hominin_ecodynamics1.1.nlogo is based on hominin_ecodynamics1.0.nlogo. It is designed as an experimental laboratory to explore the dynamics of biobehavioral interactions between two populations, and their genetic and demographic consequences. Specifically, the model is designed to study the effects of differing initial population sizes, different interaction distances, and different fitness on the demography and spatial distributions of the original two populations and hybrids. Version 1.1 is updated to allow the researcher to vary the way in which an agent can perceive another agent as a potential mate, and to measure the rate of interaction between agents under variable parameter settings.",
+    "downloadUrl": "https://www.comses.net/codebases/3105/releases/1.0.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "This is an enhancement of hominin_ecodynamics1.0",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    },
+    "referencePublication": "Barton, C. M., & Riel-Salvatore, J. (2012). Perception, Interaction, and Extinction: a Reply to Premo. Human Ecology. doi:10.1007/s10745-012-9530-3"
+}

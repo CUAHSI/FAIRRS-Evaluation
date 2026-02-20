@@ -1,0 +1,58 @@
+{
+    "@id": "https://www.comses.net/codebases/b9335c92-f29e-42cf-aac8-712f6c587aad/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/b9335c92-f29e-42cf-aac8-712f6c587aad/releases/1.1.0/",
+    "name": "CHAAHK: a Spatial Simulation of the Maya Elevated Core Region",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2388/",
+            "@type": "Person",
+            "email": "alexaugustuskara@gmail.com",
+            "givenName": "Alex",
+            "familyName": "Kara"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "archaeology",
+        "geoarchaeology",
+        "maya",
+        "mesoamerica",
+        "resilience",
+        "simulator",
+        "spatial",
+        "sustainability"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/b9335c92-f29e-42cf-aac8-712f6c587aad/releases/1.1.0/",
+    "dateCreated": "2018-12-04",
+    "description": "This thesis presents an abstract spatial simulation model of the Maya Central Lowlands coupled human and natural system from 1000 BCE to the present day. It's name is the Climatically Heightened but Anothropogenically Achieved Historical Kerplunk model (CHAAHK). The simulation features features virtual human groups, population centers, transit routes, local resources, and imported resources. Despite its embryonic state, the model demonstrates how certain anthropogenic characteristics of a landscape can interact with externally induced trauma and result in a prolonged period of relative sociopolitical uncomplexity. Analysis of batch simulation output suggests decreasing empirical uncertainties about ancient wetland modification warrants more investment. This first submission of CHAAHK's code represents the simulation's implementation that was featured in the author's master's thesis.",
+    "downloadUrl": "https://www.comses.net/codebases/b9335c92-f29e-42cf-aac8-712f6c587aad/releases/1.1.0/download/",
+    "dateModified": "2019-09-26",
+    "releaseNotes": "CHAAHK release 1.0 included a downloadable directory including the model\u2019s source code and a large collection of R scripts diverse in relevance and quality. These files were intended as a time capsule: a perfect representation of the working directory associated with CHAAHK at the time that my thesis was submitted.  Things were not changed from their original state to render my thesis research transparent and in theory reproducible.  However, user-friendliness became something of a casualty in the process.  Most critically, the uploaded directory was an Eclipse \u201cproject\u201d directory, so the simulation itself could not be easily run without having both Eclipse and Repast installed locally.  This document accompanies a newer (1.1.0) release of CHAAHK, which (optionally) comes [packaged as an executable installer](https://mega.nz/#!t0ggBShL!e-a94-fKHyNWI2nGAbyHy64WZzO9-YV1UIU_HqXfM1c) that only requires a Java installation.  On my website there are tutorials for both [installing Repast models](https://spatialawareness.blog/2019/06/08/installing-repast-simulation-models-and-how-to-make-your-own-installer/) and [running them in a GUI](https://spatialawareness.blog/2019/06/28/running-repast-simulation-models-from-the-repast-gui/). This update's purpose was to finalize CHAAHK as a deliverable while changing as little about the simulation\u2019s actual behavior as possible, as to provide a more approachable lens to judge my original thesis for what it\u2019s worth.\n\nI also reorganized my R scripts, which here are included in the \"data\" folder of the .zip download. Compared to before, the scripts feature more deliberate variable names, less redundant code, and improved readability. The attached documentation for 1.1 illustrates the results of a new series of CHAAHK runs using this updated implementation. There  are  differences  between  the  original  and  updated  model  outputs,  but the  original  synthesis  still  applies  to  this  newer  set  of  data  just  the  same. ",
+    "copyrightYear": 2019,
+    "datePublished": "2019-09-26",
+    "codeRepository": "https://github.com/ak202/Mayagrations",
+    "operatingSystem": "linux",
+    "runtimePlatform": [
+        "Repast"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

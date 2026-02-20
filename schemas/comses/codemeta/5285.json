@@ -1,0 +1,59 @@
+{
+    "@id": "https://www.comses.net/codebases/5285/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5285/releases/1.0.0/",
+    "name": "Dynamic Interbank Network Simulator",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1858/",
+            "@type": "Person",
+            "email": "valentina.gul.va@gmail.com",
+            "givenName": "Valentina",
+            "familyName": "Guleva",
+            "affiliation": {
+                "@id": "https://ror.org/04txgxn49",
+                "url": "http://en.ifmo.ru/",
+                "name": "ITMO University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04txgxn49"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1858/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5285/releases/1.0.0/",
+    "dateCreated": "2016-11-23",
+    "description": "The basis of the implementation is the classes of banks, customers, and network (which contains the list of banks, the list of customers, and list of edges collected over all simulation period). Edges are attributed with source and target node IDs, iterations of initialization, weights (corresponding to exposure size), maturities (their life times). Initial interbank networks are created with *NetworkX* generative models. Dynamics may be determined with customers actions (request for deposit, e.g.) and bank actions (interaction with other banks). Conditions for interbank interaction can be tuned; the resulting parameters of all interactions are tuned either. The shock propagation algorithm is implemented iterationally, therefore its effect can be aggravated by customers activity. \r\n\r\nThe multiplex representation of a network is available according to edges maturity. Several bank regulatory characteristics in terms of Russian CB requirements (consistent to Basel III) are available. The network analysis is available via *NetworkX* opportunities, in addition, thermodynamic and node-based features are implemented.\r\nSimulation can be drived by several mechanisms, which is able to be changed over iterations. The results can be analysed on each iteration or be aggregated for furher analysis.\r\n\r\nThe simulator allows to study multi-factor influence on the interbank network formation.",
+    "downloadUrl": "https://www.comses.net/codebases/5285/releases/1.0.0/download/",
+    "dateModified": "2020-04-13",
+    "releaseNotes": "",
+    "copyrightYear": 2020,
+    "datePublished": "2020-04-13",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        ".net framework 4"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "C#",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

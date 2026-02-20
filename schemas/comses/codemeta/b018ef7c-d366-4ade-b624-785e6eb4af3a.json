@@ -1,0 +1,52 @@
+{
+    "@id": "https://www.comses.net/codebases/b018ef7c-d366-4ade-b624-785e6eb4af3a/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/b018ef7c-d366-4ade-b624-785e6eb4af3a/releases/1.1.0/",
+    "name": "Aqua.MORE",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2493/",
+            "@type": "Person",
+            "email": "lisa.ambrosi@uibk.ac.at",
+            "givenName": "Lisa",
+            "familyName": "Ambrosi"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc/4.0",
+        "name": "CC-BY-NC-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "NetLogo",
+        "socio-hydrology",
+        "water management"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/b018ef7c-d366-4ade-b624-785e6eb4af3a/releases/1.1.0/",
+    "dateCreated": "2019-03-29",
+    "description": "Aqua.MORE (Agent-based MOdelling of REsources in Socio-Hydrological Systems) is an agent based modelling (ABM) approach to simulate the resource flow and social interaction in a coupled natural and social system of water supply and demand. The model is able to simulate the two-way feedback as socio-economic agents influence the natural resource flow and the availability of this resource influences the agents in their behaviour.",
+    "downloadUrl": "https://www.comses.net/codebases/b018ef7c-d366-4ade-b624-785e6eb4af3a/releases/1.1.0/download/",
+    "dateModified": "2021-07-03",
+    "releaseNotes": "Version 1.1.0 covers the application of Aqua.MORE to the Matsch Valley.\n\nDownload the model via the button 'Download for Review'. Unzip dataset file. Put csv files from the data folder in same folder as netlogo model. Run the models. If you want to reconstruct the simulation experiments described in the manuscript, please open 'Tools' -> 'Behaviorspace' -> choose the scenario and run it. \nThe updated ODD protocol can be found in the subfolder 'docs'.",
+    "copyrightYear": 2021,
+    "datePublished": "2021-07-03",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

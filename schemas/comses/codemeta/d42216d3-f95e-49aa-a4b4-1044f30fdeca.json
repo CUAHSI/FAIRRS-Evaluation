@@ -1,0 +1,70 @@
+{
+    "@id": "https://www.comses.net/codebases/d42216d3-f95e-49aa-a4b4-1044f30fdeca/releases/1.3.0/",
+    "url": "https://www.comses.net/codebases/d42216d3-f95e-49aa-a4b4-1044f30fdeca/releases/1.3.0/",
+    "name": "The PARSO_demo Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-6677-8689",
+            "@type": "Person",
+            "email": "secchi.davi@gmail.com",
+            "givenName": "Davide",
+            "familyName": "Secchi",
+            "affiliation": {
+                "url": "https://www.sdu.dk/en/om_sdu/institutter_centre/c_comac",
+                "name": "Research Centre for Computational & Organisational Cognition, University of Southern Denmark",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.3.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based model",
+        "democracy",
+        "demographics",
+        "housing policy",
+        "residential status",
+        "Schelling",
+        "segregation",
+        "social/public housing",
+        "society formation",
+        "values"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/d42216d3-f95e-49aa-a4b4-1044f30fdeca/releases/1.3.0/",
+    "dateCreated": "2018-11-28",
+    "description": "This model explores different aspects of the formation of urban neighbourhoods where residents believe in values distant from those dominant in society. Or, at least, this is what the Danish government beliefs when they discuss their politics about *parallel societies*. This simulation is set to understand (a) whether these alternative values areas form and what determines their formation, (b) if they are linked to low or no income residents, and (c) what happens if they disappear from the map. All these three points are part of the Danish government policy. This agent-based model is set to understand the boundaries and effects of this policy.",
+    "downloadUrl": "https://www.comses.net/codebases/d42216d3-f95e-49aa-a4b4-1044f30fdeca/releases/1.3.0/download/",
+    "dateModified": "2019-11-05",
+    "releaseNotes": "This release of the PARSO_demo Model has been used to explore whether so-called *parallel societies* may form and whether they are connected to low income residents (and social/public housing). Preliminary results show that these claims are unwarranted, hence policy making should take a different direction.",
+    "copyrightYear": 2019,
+    "datePublished": "2019-11-05",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "Abacus 2.0",
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Secchi, D., & Herath, G. B. (2019). Parallel society: Myth or reality? A question for policy makers. Journal of Simulation, 1-11. https://doi.org/10.1080/17477778.2019.1664265"
+}

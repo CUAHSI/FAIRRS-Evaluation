@@ -1,0 +1,54 @@
+{
+    "@id": "https://www.comses.net/codebases/70bcd53b-b371-4eec-913b-44ed3fdfe707/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/70bcd53b-b371-4eec-913b-44ed3fdfe707/releases/1.0.0/",
+    "name": "Evolutionary Model of Subculture Choice",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2975/",
+            "@type": "Person",
+            "email": "dialves@yahoo.com",
+            "givenName": "Diogo",
+            "familyName": "Alves"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MPL-2.0",
+        "name": "MPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "Agent based social simulation",
+        "cultural evolution",
+        "cultural group selection",
+        "group dynamics"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/70bcd53b-b371-4eec-913b-44ed3fdfe707/releases/1.0.0/",
+    "dateCreated": "2022-12-17",
+    "description": "This is an original model of (sub)culture diffusion. \nIt features a set of agents (dubbed \"partygoers\") organized initially in clusters, having properties such as age and a chromosome of opinions about 6 different topics. The partygoers interact with a set of cultures (also having a set of opinions subsuming those of its members), in the sense of refractory or unhappy members of each setting about to find a new culture and trading information encoded in the genetic string (originally encoded as -1, 0, and 1, resp. a negative, neutral, and positive opinion about each of the 6 traits/aspects, e.g. the use of recreational drugs). There are 5 subcultures that both influence (through the aforementioned genetic operations of mutation and recombination of chromosomes simulating exchange of opinions) and are influenced by its members (since a group is a weighted average of the opinions and actions of its constituents). The objective of this feedback loop is to investigate under which conditions certain subculture sizes emerge, but the model is open to many other kinds of explorations as well.",
+    "downloadUrl": "https://www.comses.net/codebases/70bcd53b-b371-4eec-913b-44ed3fdfe707/releases/1.0.0/download/",
+    "dateModified": "2022-12-19",
+    "releaseNotes": "\nThis is an original model of (sub)culture diffusion. \nIt features a set of agents (dubbed \"partygoers\") organized initially in clusters, having properties such as age and a chromosome of opinions about 6 different topics. The partygoers interact with a set of cultures (also having a set of opinions subsuming those of its members), in the sense of refractory or unhappy members of each setting about to find a new culture and trading information encoded in the genetic string (originally encoded as -1, 0, and 1, resp. a negative, neutral, and positive opinion about each of the 6 traits/aspects, e.g. the use of recreational drugs). There are 5 subcultures that both influence (through the aforementioned genetic operations of mutation and recombination of chromosomes simulating exchange of opinions) and are influenced by its members (since a group is a weighted average of the opinions and actions of its constituents). The objective of this feedback loop is to investigate under which conditions certain subculture sizes emerge, but the model is open to many other kinds of explorations as well.",
+    "copyrightYear": 2022,
+    "datePublished": "2022-12-19",
+    "embargoEndDate": "2022-12-26",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo 6.2.2"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo 6.2.2",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

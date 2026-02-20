@@ -1,0 +1,63 @@
+{
+    "@id": "https://www.comses.net/codebases/2870/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/2870/releases/1.1.0/",
+    "name": "Alpine land-use allocation model - ALUAM-AB",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/724/",
+            "@type": "Person",
+            "email": "briners@ethz.ch",
+            "givenName": "Simon",
+            "familyName": "Briner",
+            "affiliation": {
+                "@id": "https://ror.org/05a28rw58",
+                "url": "https://ethz.ch",
+                "name": "ETH Zurich; Agri- food & Agri- environmental Economics Group",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05a28rw58"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/724/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agriculture",
+        "ecosystemservices",
+        "farms",
+        "land-use"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2870/releases/1.1.0/",
+    "dateCreated": "2012-08-23",
+    "description": "The purpose of ALUAM-AB is to understand agricultural land-use changes triggered by\r\nmarket and policy changes considering individual preferences of the farmers. The\r\nconsequences of changes in prices and policy measures relating to agricultural land-use\r\nactivities can be simulated. With respect to the respective study area, spatially explicit\r\ninformation on agricultural activities (spatially explicit grassland and forest yields) allows for\r\na viable linkage with the ecological model WoodPaM (Peringer et al. 2012). Subsequently the the impact of farmers decision on the provision of different ecosystem services is assessed.",
+    "downloadUrl": "https://www.comses.net/codebases/2870/releases/1.1.0/download/",
+    "dateModified": "2018-02-19",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "windows",
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "LPL 5.55",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Briner, S., R. Huber, C. Elkin, and A. Gr\u00eat-Regamey. 2012. Assessing the impacts of\r\neconomic and climate changes on land-use in mountain regions: A spatial dynamic\r\nmodeling approach. Agriculture, Ecosystems & Environment (accepted)."
+}

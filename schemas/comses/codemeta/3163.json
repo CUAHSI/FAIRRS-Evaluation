@@ -1,0 +1,73 @@
+{
+    "@id": "https://doi.org/10.25937/7r7t-6v67",
+    "url": "https://doi.org/10.25937/7r7t-6v67",
+    "name": "Torsten H\u00e4gerstrand\u2019s Spatial Innovation Diffusion Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-9576-7914",
+            "@type": "Person",
+            "email": "sean.bergin@asu.edu",
+            "givenName": "Sean",
+            "familyName": "Bergin",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "School of Complex Adaptive Systems, Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-9576-7914",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "H\u00e4gerstrand, Torsten (1965) \u2018A Monte Carlo Approach to Diffusion\u2019, Archives Europ\u00e9ennes de Sociologie, 6(1), pp. 43-67.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "replication",
+        "social network",
+        "spread of innovation"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/7r7t-6v67",
+        "https://doi.org/10.25937/7r7t-6v67"
+    ],
+    "dateCreated": "2012-10-02",
+    "description": "The purpose of this model is to understand the processes which create a \u201cnebula-distribution,\u201d a common spatial pattern. This model explores the way that the diffusion of ideas across a social network might produce this pattern. The model attempts to recreate the chronologic and geographic patterns produced in a historical example, the diffusion of the adoption of government subsidies for improved pasture on farms in Sweden. Two related models were outlined and studied by the author. The first model, referred to as the isotropic model, begins with a uniform population number and a 5x5 grid. This model is designed to show how innovation might spread on a limited scale. The second model, the anisotropic model, initializes with different numbers of agents on each patch, a larger more complex spatial area and is intended to recreate a specific case study. The models rely on real-world data to create some of the models\u2019 parameters (e.g. probability distributions used in the model are calculated from actual migration data and telephone call data) and attempt to compare real world distributions of the spread of ideas with those predicted by the model.",
+    "downloadUrl": "https://www.comses.net/codebases/3163/releases/1.1.0/download/",
+    "dateModified": "2024-12-05",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

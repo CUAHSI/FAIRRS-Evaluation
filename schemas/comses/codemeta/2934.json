@@ -1,0 +1,49 @@
+{
+    "@id": "https://www.comses.net/codebases/2934/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/2934/releases/1.0.0/",
+    "name": "Social Nets Emergence Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/546/",
+            "@type": "Person",
+            "email": "di.wang@mbs.ac.uk",
+            "givenName": "Di",
+            "familyName": "Wang"
+        },
+        {
+            "@id": "https://www.comses.net/users/546/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2934/releases/1.0.0/",
+    "dateCreated": "2012-03-21",
+    "description": "Please look at the MainClass.java. The method of run(Sociaty society, double resourceWeight, double wellBeingWeight, double allianceWeight, double riskWeight, double stressWeight, boolean crossoverST, boolean crossoverEM, boolean crossoverDe) is the functionality method to run the model. This model considers 5 weights: resource-wellBeing-alliance-risk-stress. For those who are only interested in resource v.s. well-being, please set alliance, risk and stress as zeros.",
+    "downloadUrl": "https://www.comses.net/codebases/2934/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "version 1.0",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "windows",
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

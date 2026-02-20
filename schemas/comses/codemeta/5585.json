@@ -1,0 +1,94 @@
+{
+    "@id": "https://www.comses.net/codebases/5585/releases/2.3.0/",
+    "url": "https://www.comses.net/codebases/5585/releases/2.3.0/",
+    "name": "MOOvPOP",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-4651-0116",
+            "@type": "Person",
+            "email": "anyadoc@gmail.com",
+            "givenName": "Aniruddha",
+            "familyName": "Belsare",
+            "affiliation": {
+                "url": "https://cfwe.auburn.edu/",
+                "name": "Auburn University",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "gompperm@missouri.edu",
+            "givenName": "Matthew",
+            "familyName": "Gompper",
+            "affiliation": {
+                "@id": "https://ror.org/02ymw8z06",
+                "url": "http://missouri.edu/",
+                "name": "University of Missouri",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02ymw8z06"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Joshua",
+            "familyName": "Millspaugh"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-4651-0116",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-nd/4.0",
+        "name": "CC-BY-NC-ND-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "2.3.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "chronic wasting disease",
+        "missouri",
+        "population dynamics",
+        "white-tailed deer"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5585/releases/2.3.0/",
+    "dateCreated": "2017-11-27",
+    "description": "MO*Ov*POP is designed to simulate population dynamics (abundance, sex-age composition and distribution in the landscape) of white-tailed deer (*Odocoileus virginianus*) for a selected Missouri counties. Outputs can be processed by Shomy OvCWD.",
+    "downloadUrl": "https://www.comses.net/codebases/5585/releases/2.3.0/download/",
+    "dateModified": "2025-04-19",
+    "releaseNotes": "Model code updated",
+    "copyrightYear": 2025,
+    "datePublished": "2025-04-19",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Belsare, A.V., Gompper, M.E., Keller, B.J., Sumners, J.A., Hansen, L.P., and Millspaugh, J.J. An agent-based framework for improving wildlife disease surveillance: A case study of chronic wasting disease in Missouri white-tailed deer. 2020. Ecological Modelling 417 (108919)\n\nBelsare, A.V., Gompper, M.E., Keller, B.J., Sumners, J.A., Hansen, L.P.,  & Millspaugh, J.J. Size matters: Sample size assessments for chronic wasting disease surveillance using an agent-based modeling framework. MethodsX. 7, 100953 (2020)."
+}

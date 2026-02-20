@@ -1,0 +1,98 @@
+{
+    "@id": "https://doi.org/10.25937/kmmt-hz39",
+    "url": "https://doi.org/10.25937/kmmt-hz39",
+    "name": "Multilevel Group Selection I",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-2422-1110",
+            "@type": "Person",
+            "email": "gsotnik@gmail.com",
+            "givenName": "Garry",
+            "familyName": "Sotnik",
+            "affiliation": {
+                "@id": "https://ror.org/00f54p054",
+                "url": "http://www.stanford.edu/",
+                "name": "Stanford University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00f54p054"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "tadslx@gmail.com",
+            "givenName": "Thaddeus",
+            "familyName": "Shannon",
+            "affiliation": {
+                "@id": "https://ror.org/002xn4752",
+                "url": "http://www.wou.edu/",
+                "name": "Western Oregon University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/002xn4752"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "wakeland@pdx.edu",
+            "givenName": "Wayne",
+            "familyName": "Wakeland",
+            "affiliation": {
+                "@id": "https://ror.org/00yn2fy02",
+                "url": "https://www.pdx.edu/",
+                "name": "Portland State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00yn2fy02"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.html",
+        "name": "Apache-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "2.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "adaption",
+        "agent-based model",
+        "collective action",
+        "multilevel selection",
+        "social change"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/kmmt-hz39",
+        "https://doi.org/10.25937/kmmt-hz39"
+    ],
+    "dateCreated": "2020-04-20",
+    "description": "New theoretical agent-based model of population-wide adoption of prosocial common-pool behavior with four parameters (initial percent of adopters, pressure to change behavior, synergy from behavior, and population density); dynamics in behavior, movement, freeriding, and group composition and size; and emergence of multilevel group selection. Theoretical analysis of model\u2019s dynamics identified six regions in model\u2019s parameter space, in which pressure-synergy combinations lead to different outcomes: extinction, persistence, and full adoption. Simulation results verified the theoretical analysis and demonstrated that increases in density reduce number of pressure-synergy combinations leading to population-wide adoption; initial percent of contributors affects underlying behavior and final outcomes, but not size of regions or transition zones between them; and random movement assists adoption of prosocial common-pool behavior.",
+    "downloadUrl": "https://www.comses.net/codebases/d2011a12-f791-45aa-9f22-6a535dac3310/releases/2.0.0/download/",
+    "dateModified": "2024-12-05",
+    "releaseNotes": "A simplified version that is intended to serve as the base for future variants. ",
+    "copyrightYear": 2021,
+    "datePublished": "2021-07-03",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "https://doi.org/10.1080/0022250X.2021.2021513"
+}

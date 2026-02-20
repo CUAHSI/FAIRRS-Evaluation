@@ -1,0 +1,70 @@
+{
+    "@id": "https://www.comses.net/codebases/3359/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/3359/releases/1.0.0/",
+    "name": "The effect of error on cultural transmission",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-1324-7937",
+            "@type": "Person",
+            "email": "cgravelm@asu.edu",
+            "givenName": "Claudine",
+            "familyName": "Gravel-Miguel",
+            "affiliation": {
+                "@id": "https://ror.org/00d9ah105",
+                "url": "http://www.ucmerced.edu/",
+                "name": "University of California, Merced",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00d9ah105"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-1324-7937",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Eerkens, J.W. and C.P. Lipo, 2005. Cultural transmission, copying errors, and the generation of variation in material culture and the archaeological record, Journal of Anthropological Archaeology, 24(4):316-34",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "copy error",
+        "cultural transmission",
+        "variability"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3359/releases/1.0.0/",
+    "dateCreated": "2012-11-01",
+    "description": "This model contains three states. The main output of all three states is the change in the level of variability of specific traits over time. The first state simply looks at the effect of copying error during trait transmission over several generations. The second state integrates the possibility for agents to conform to the main trait pattern seen in previous generation, and the third state looks at agents' choice to copy a prestigious individual instead of their parents. Comparing the outcomes of all states shows that the level of variability in the transmitted decreases when conformism or prestige is added to copying error.",
+    "downloadUrl": "https://www.comses.net/codebases/3359/releases/1.0.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

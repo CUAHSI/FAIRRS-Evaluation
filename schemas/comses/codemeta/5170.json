@@ -1,0 +1,75 @@
+{
+    "@id": "https://www.comses.net/codebases/5170/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/5170/releases/1.1.0/",
+    "name": "A Model to Unravel the Complexity of Rural Food Security",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1060/",
+            "@type": "Person",
+            "email": "s.dobbie@soton.ac.uk",
+            "givenName": "Samantha",
+            "familyName": "Dobbie",
+            "affiliation": {
+                "@id": "https://ror.org/01ryk1543",
+                "url": "http://www.southampton.ac.uk/",
+                "name": "The University of Southampton ",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01ryk1543"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/224/",
+            "@type": "Person",
+            "email": "stef.balbi@gmail.com",
+            "givenName": "Stefano",
+            "familyName": "Balbi",
+            "affiliation": {
+                "name": "Ca' Foscari University",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1060/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://www.comses.net/users/224/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5170/releases/1.1.0/",
+    "dateCreated": "2017-01-21",
+    "description": "Food security remains a deep seated issue, particulary within low income countries. Models of food security usually focus on the farming components (availability) and neglect to fully incorporate its complex, multi-dimensional nature: including access, utilization and stability (of food). The empirical agent-based model presented here draws upon the sustainable livelihoods framework to consider food security outcomes of different livelihood strategies. It represents the behaviour of rural households within Southern Malawi and the emergence of food availability, access, utilisation and stability. While the general structure can be customized and replicated for other contexts, the agents\u2019 characterisation is based on national survey data. The model has been applied to explore the effect of population growth, changing market prices and increased rainfall variability upon the food security status of households. Pathways to alleviate food insecurity by 2030 have also been explored in order to meet the Sustainable Development Goal to: \"end hunger, achieve food security and adequate nutrition for all, and promote sustainable agriculture\".",
+    "downloadUrl": "https://www.comses.net/codebases/5170/releases/1.1.0/download/",
+    "dateModified": "2018-12-02",
+    "releaseNotes": "",
+    "copyrightYear": 2018,
+    "datePublished": "2018-12-02",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "@id": "https://www.comses.net/codebases/6f1b45d2-7fc3-491c-9d73-44b6c1f32fa7/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/6f1b45d2-7fc3-491c-9d73-44b6c1f32fa7/releases/1.0.0/",
+    "name": "Hierarchy and War",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/3846/",
+            "@type": "Person",
+            "email": "mael.vanbeek@gmail.com",
+            "givenName": "Alan",
+            "familyName": "van Beek"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "lopate.3@osu.edu",
+            "givenName": "Michael",
+            "familyName": "Lopate",
+            "affiliation": {
+                "@id": "https://ror.org/00rs6vg23",
+                "url": "http://www.osu.edu/",
+                "name": "The Ohio State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00rs6vg23"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "collaborator"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/6f1b45d2-7fc3-491c-9d73-44b6c1f32fa7/releases/1.0.0/",
+    "dateCreated": "2023-01-27",
+    "description": "Scholars have written extensively about hierarchical international order, on the one hand, and war on the other, but surprisingly little work systematically explores the connection between the two. This disconnect is all the more striking given that empirical studies have found a strong relationship between the two. We provide a generative computational network model that explains hierarchy and war as two elements of a larger recursive process: The threat of war drives the formation of hierarchy, which in turn shapes states' incentives for war. Grounded in canonical theories of hierarchy and war, the model explains an array of known regularities about hierarchical order and conflict. Surprisingly, we also find that many traditional results of the IR literature---including institutional persistence, balancing behavior, and systemic self-regulation---emerge from the interplay between hierarchy and war.",
+    "downloadUrl": "https://www.comses.net/codebases/6f1b45d2-7fc3-491c-9d73-44b6c1f32fa7/releases/1.0.0/download/",
+    "dateModified": "2023-04-06",
+    "releaseNotes": "First upload",
+    "copyrightYear": 2023,
+    "datePublished": "2023-04-06",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "n/a"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Julia",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Beek, Ma\u00ebl van; Lopate, Michael Z.; Goodhart, Andrew; Peterson, David A.; Edgerton, Jared; Xiong, Haoming; Alam, Maryum; Tiglay, Leyla; Kent, Daniel; Braumoeller, Bear F., 2023, \"Hierarchy and War,\" forthcoming at AJPS."
+}

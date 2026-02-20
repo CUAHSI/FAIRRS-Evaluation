@@ -1,0 +1,68 @@
+{
+    "@id": "https://www.comses.net/codebases/1dd9e993-6db0-4421-8aac-226825e65cab/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/1dd9e993-6db0-4421-8aac-226825e65cab/releases/1.0.0/",
+    "name": "A replication and extension of the Taylor's Simulation Model of Insurance Market Dynamics in C#",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-6530-6527",
+            "@type": "Person",
+            "email": "solitude_saiyajin@hotmail.com",
+            "givenName": "Rei",
+            "familyName": "England",
+            "affiliation": {
+                "@id": "https://ror.org/02nwg5t34",
+                "url": "http://www.uwe.ac.uk/",
+                "name": "University of the West of England",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02nwg5t34"
+            }
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "G. Taylor. A simple model of insurance market dynamics. North American Actuarial Journal,\n12(3):242\u2013262, 2008.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "Agent based modelling",
+        "Extension",
+        "insurance",
+        "market dynamics",
+        "model replication",
+        "pricing"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/1dd9e993-6db0-4421-8aac-226825e65cab/releases/1.0.0/",
+    "dateCreated": "2022-12-15",
+    "description": "A simple model is constructed using C\\# in order to to capture key features of market dynamics, while also producing reasonable results for the individual insurers. A replication of Taylor's model is also constructed in order to compare results with the new premium setting mechanism. To enable the comparison of the two premium mechanisms, the rest of the model set-up is maintained as in the Taylor model. As in the Taylor example, homogeneous customers represented as a total market exposure which is allocated amongst the insurers.\n\nIn each time period, the model undergoes the following steps:\n1. Insurers set competitive premiums per exposure unit\n2. Losses are generated based on each insurer's share of the market exposure\n3. Accounting results are calculated for each insurer\n4. Insurers enter or exit the market based on the accounting results\n5. Exposure is reallocated among the insurers based on their competitive premiums",
+    "downloadUrl": "https://www.comses.net/codebases/1dd9e993-6db0-4421-8aac-226825e65cab/releases/1.0.0/download/",
+    "dateModified": "2023-09-24",
+    "releaseNotes": "Initial release",
+    "copyrightYear": 2023,
+    "datePublished": "2023-09-24",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        ".net framework 4.7.2"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "C#",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

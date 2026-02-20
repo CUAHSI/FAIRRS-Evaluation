@@ -1,0 +1,64 @@
+{
+    "@id": "https://www.comses.net/codebases/5853/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5853/releases/1.0.0/",
+    "name": "cluster analysis",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1935/",
+            "@type": "Person",
+            "email": "lgspang@outlook.com",
+            "givenName": "Lars",
+            "familyName": "Sp\u00e5ng",
+            "affiliation": {
+                "@id": "https://ror.org/05kb8h459",
+                "url": "http://www.umu.se/english",
+                "name": "Ume\u00e5 University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05kb8h459"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1935/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "archaeology",
+        "cluster analysis",
+        "spatial analysis"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5853/releases/1.0.0/",
+    "dateCreated": "2017-11-07",
+    "description": "SETUP creates the defined amount of turtles located at origo\r\nGO causes a random distribution of the turtles each tick\r\nCLUSTER MAP shows the result of a cluster analysis with the specified search radius.\r\nBASE COLOR and COLOR SCALE changes the look of the cluster result",
+    "downloadUrl": "https://www.comses.net/codebases/5853/releases/1.0.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "",
+    "copyrightYear": 2017,
+    "datePublished": "2017-11-07",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

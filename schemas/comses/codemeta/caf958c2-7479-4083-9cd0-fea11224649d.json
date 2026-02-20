@@ -1,0 +1,67 @@
+{
+    "@id": "https://www.comses.net/codebases/caf958c2-7479-4083-9cd0-fea11224649d/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/caf958c2-7479-4083-9cd0-fea11224649d/releases/1.0.0/",
+    "name": "The Urban Drought Nexus Tool",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-4514-2462",
+            "@type": "Person",
+            "email": "roger.cremades@wur.nl",
+            "givenName": "Roger",
+            "familyName": "Cremades",
+            "affiliation": {
+                "@id": "https://ror.org/04qw24q55",
+                "url": "https://www.wur.nl/",
+                "name": "Wageningen University & Research",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04qw24q55"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "mkhairulbahribr@gmail.com",
+            "givenName": "Muhamad",
+            "familyName": "Khairulbahri"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "municipal water systems",
+        "system dynamics modeling",
+        "water scarcity"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/caf958c2-7479-4083-9cd0-fea11224649d/releases/1.0.0/",
+    "dateCreated": "2023-12-14",
+    "description": "The \u201cUrban Drought Nexus Tool\u201d is a system dynamics model, aiming to facilitate the co-development of climate services for cities under increasing droughts. The tool integrates multiple types of information and still can be applied to other case studies with minimal adjustments on the parameters of land use, water consumption and energy use in the water sector. The tool needs hydrological projections under climate scenarios to evaluate climatic futures, and requires the co-creation of socio-economic future scenarios with local stakeholders. Thus it is possible to provide specific information about droughts taking into account future water availability and future water consumption. Ultimately, such complex system as formed by the water-energy-land nexus can be reduced to single variables of interest, e.g. the number of events with no water available in the future and their length, so that the complexities are reduced and the results can be conveyed to society in an understandable way, including the communication of uncertainties. The tool and an explanatory guide in pdf format are included. Planned further developments include calibrating the system dynamics model with the social dynamics behind each flow with agent-based models.\n\n",
+    "downloadUrl": "https://www.comses.net/codebases/caf958c2-7479-4083-9cd0-fea11224649d/releases/1.0.0/download/",
+    "dateModified": "2023-12-14",
+    "releaseNotes": "The current version is tailored to a specific regional context, which can be adjusted to other regions with relative ease.",
+    "copyrightYear": 2023,
+    "datePublished": "2023-12-14",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "vensim"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "vensim",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Bahri, M. & Cremades, R. (2020). Integrated Urban Planning Tool for the Water Sector. Deliverable 4.1. CLISWELN project."
+}

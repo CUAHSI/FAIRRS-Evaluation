@@ -1,0 +1,52 @@
+{
+    "@id": "https://www.comses.net/codebases/528f9fea-a3e2-4ad7-a8bc-9d9c77ac03ea/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/528f9fea-a3e2-4ad7-a8bc-9d9c77ac03ea/releases/1.0.0/",
+    "name": "An agent-based model of school enrollment process under educational competition",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/4897/",
+            "@type": "Person",
+            "email": "yaotong_soc@outlook.com",
+            "givenName": "Yao",
+            "familyName": "Tong"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "education",
+        "educational competition",
+        "school enrollment"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/528f9fea-a3e2-4ad7-a8bc-9d9c77ac03ea/releases/1.0.0/",
+    "dateCreated": "2024-07-29",
+    "description": "Due to the role of education in promoting social status and facilitating upward social mobility, individuals and their families spare no effort to pursue better educational opportunities, especially in countries where education is highly competitive.\n\nIn China, the enrollment of senior high schools and universities mainly follows a ranking system based on students' scores in national entrance exams (Zhongkao and Gaokao). Typically, students with higher scores have priority in choosing schools and endeavor to get into better senior high schools to increase their chances of entering a prestigious university.\n\nHowever, students can only select \"better\" senior high schools based on their average Gaokao grades, which are strongly influenced by the initial performance (Zhongkao grades) of enrolled students. The true quality indicator of school education (schooling effect, defined as the grade improvement achieved through education at the senior high school) is unknowable. This raises the first question: will school rankings reflect the real educational quality of schools over decades of educational competition, or merely the initial quality of the students they enroll?\n\nThis agent-based model provides a prototypical simulation of the competitive education process. Each year is represented as one \"tick,\" including school enrollment, progression, and graduation. The distribution and changes in School Scores (the knowable school rankings) are visualized and can be compared with School Effects (the real indicators of school educational quality).\n\nFurthermore, some schools take actions in the enrollment process to attract better students, thereby disrupting the normal enrollment process. These actions, known as \"pinching\" (Qiajian), are usually conducted by \"super schools\", who entice students with the possibility to attend higher-ranking schools by offering special treatment, such as scholarships, tuition waivers, and preferential treatment. The public has complained about how these super schools rely on economic rather than educational resources to recruit students, which exacerbates educational inequality.\n\nSo the second question is: what influence will the pinching actions of super schools have on the distribution of school rankings? Will it artificially elevate a poor-performing school to a level it does not deserve?",
+    "downloadUrl": "https://www.comses.net/codebases/528f9fea-a3e2-4ad7-a8bc-9d9c77ac03ea/releases/1.0.0/download/",
+    "dateModified": "2024-08-04",
+    "releaseNotes": "This is 1.0.0 version of Model \"School Enrollment under Education Competition\". NetLogo code and ODD protocol are uploaded.",
+    "copyrightYear": 2024,
+    "datePublished": "2024-08-04",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Netlogo 6.4.0",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,86 @@
+{
+    "@id": "https://www.comses.net/codebases/626da273-0600-4622-a4c6-80a40e61ddc5/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/626da273-0600-4622-a4c6-80a40e61ddc5/releases/1.0.0/",
+    "name": "Simulating Components of the Reinforcing Spirals Model and Spiral of Silence",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-9495-1602",
+            "@type": "Person",
+            "email": "kalvas@kss.zcu.cz",
+            "givenName": "Franti\u0161ek",
+            "familyName": "Kalvas"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "sande411@msu.edu",
+            "givenName": "Ashley",
+            "familyName": "Sanders-Jackson",
+            "affiliation": {
+                "@id": "https://ror.org/05hs6h993",
+                "url": "https://msu.edu/",
+                "name": "Michigan State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05hs6h993"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "Slater.59@osu.edu",
+            "givenName": "Michael",
+            "familyName": "Slater",
+            "affiliation": {
+                "@id": "https://ror.org/00rs6vg23",
+                "url": "http://www.osu.edu/",
+                "name": "The Ohio State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00rs6vg23"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc/4.0",
+        "name": "CC-BY-NC-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Hegselmann-Krause (2002)",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "consensus",
+        "public opinion"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/626da273-0600-4622-a4c6-80a40e61ddc5/releases/1.0.0/",
+    "dateCreated": "2021-11-05",
+    "description": "Communication processes occur in complex dynamic systems impacted by person attitudes and beliefs, environmental affordances, interpersonal interactions and other variables that all change over time. Many of the current approaches utilized by Communication researchers are unable to consider the full complexity of communication systems or the over time nature of our data. We apply agent-based modeling to the Reinforcing Spirals Model and the Spiral of Silence to better elucidate the complex and dynamic nature of this process. Our preliminary results illustrate how environmental affordances (i.e. social media), closeness of the system and probability of outspokenness may impact how attitudes change over time. Additional analyses are also proposed.",
+    "downloadUrl": "https://www.comses.net/codebases/626da273-0600-4622-a4c6-80a40e61ddc5/releases/1.0.0/download/",
+    "dateModified": "2021-11-05",
+    "releaseNotes": "We started our effort with the classical version of Hegselmann-Krause bounded confidence model of opinion dynamics (HK, 2002) and advance it in several ways. HK captures dynamics of reaching group consensus and supposes that: (1) all agents have one opinion on the continuous scale, (2) all agents always share their opinion with all other agents, (3) all agents have boundary given by their own opinion and +/- parameter \u03b5, (4) parameter \u03b5 is same for all agents in simulation, (5) in each step of simulation all agents take into account opinions of all agents inside their boundary, then compute average of these inside-boundary opinions and take this average as their new opinion. this average as their new opinion.\nWe propose four. (1) We propose not to let agents interact in full network, i.e. each agent with all other agents, but we introduced small-world network (Watts-Strogatz algorithm) and let agents interact only with their neighbors in this network. (2) We propose not one opinion as HK, but several opinions as dimensions of opinion space, where the boundary is Euclidean distance in this n-dimensional space. For comparability of results from simulations with different number of opinion dimensions we understand parameter \u03b5 as fraction of theoretically maximal distance in given n-dimensional space given by \u2018n\u2019 opinions. (3) We propose a diversity of parameter \u03b5. In some simulations we sharply follow HK model, but in some simulations we assign each agent its own value from randomly uniform distribution, but with same population average (i.e. when \u03b5 parameter for simulation is 0.3, then we draw for each agent its own value from interval <0, 0.6>). (4) We allow agents to not speak at every step of the simulation. We introduced parameter \u2018p\u2019 what is probability that the agent will speak its opinion at given step, then only agents that succeed in probability check speak their opinion at given step, but all agents update their opinions every step regardless their outspokenness.",
+    "copyrightYear": 2021,
+    "datePublished": "2021-11-05",
+    "codeRepository": "https://github.com/frantisek901/Spirals",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "@id": "https://www.comses.net/codebases/2592/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/2592/releases/1.0.0/",
+    "name": "A consumer-demand simulation for Smart Metering tariffs (Innovation Diffusion)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/634/",
+            "@type": "Person",
+            "email": "martin.rixen@whu.edu",
+            "givenName": "Martin",
+            "familyName": "Rixin"
+        },
+        {
+            "@id": "https://www.comses.net/users/634/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "consumer choice",
+        "consumer demand",
+        "empirical model",
+        "innovation",
+        "innovation adoption",
+        "innovation diffusion",
+        "NetLogo",
+        "policy",
+        "validation"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2592/releases/1.0.0/",
+    "dateCreated": "2011-08-18",
+    "description": "An Agent-based model simulates consumer demand for Smart Metering tariffs. It utilizes the Bass Diffusion Model and Rogers\u00b4s adopter categories to locate demand-side barriers and drivers. Integration of empirical census microdata enables a validated socio-economic background for each consumer. The key performance indicators diffusion-speed and diffusion-level measure the effectiveness of regulatory interventions to induce diffusion. Pricing, promotion and quantity-regulation policies are tested. Scenario results emphasize the impact of both epidemic and probit effects. Speed of adoption is mainly triggered via interactions and consumer awareness. Level of diffusion primarily depends on pricing, willingness-to-pay and cost-benefit-thresholds.",
+    "downloadUrl": "https://www.comses.net/codebases/2592/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "English",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

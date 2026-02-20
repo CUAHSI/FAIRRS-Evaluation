@@ -1,0 +1,60 @@
+{
+    "@id": "https://doi.org/10.25937/04ee-e565",
+    "url": "https://doi.org/10.25937/04ee-e565",
+    "name": "HyperMu\u2019NmGA - Effect of Hypermutation Cycles in a NetLogo Minimal Genetic Algorithm",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2589/",
+            "@type": "Person",
+            "email": "cleuci@alice.it",
+            "givenName": "Cosimo",
+            "familyName": "Leuci"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "evolvability",
+        "genetic algorithm",
+        "genetic recombination",
+        "hypermutation",
+        "mutator gene",
+        "oncogenesis",
+        "sexual reproduction"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/04ee-e565",
+        "https://doi.org/10.25937/04ee-e565"
+    ],
+    "dateCreated": "2020-10-02",
+    "description": "A minimal genetic algorithm was previously developed in order to solve an elementary arithmetic problem. It has been modified to explore the effect of a mutator gene and the consequent entrance into a hypermutation state. The phenomenon seems relevant in some types of tumorigenesis and in a more general way, in cells and tissues submitted to chronic sublethal environmental or genomic stress. \nFor a long time, some scholars suppose that organisms speed up their own evolution by varying mutation rate, but evolutionary biologists are not convinced that evolution can select a mechanism promoting more (often harmful) mutations looking forward to an environmental challenge. \nThe model aims to shed light on these controversial points of view and it provides also the features required to check the role of sex and genetic recombination in the mutator genes diffusion.",
+    "downloadUrl": "https://www.comses.net/codebases/bd4d9bb7-5b2b-4a12-a3e6-49747363e536/releases/1.2.0/download/",
+    "dateModified": "2023-10-24",
+    "releaseNotes": "For the purpose of demonstration, a web-app version of the model can be accessed via the following URL:\nhttp://modelingcommons.org/browse/one_model/6451#model_tabs_browse_nlw\nA preliminary characterization of the model is downloadable here: https://www.academia.edu/88896260/Effects_of_Mutator_Genes_in_a_Minimal_Genetic_Agorithm",
+    "copyrightYear": 2022,
+    "datePublished": "2022-07-31",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo 6.2.2"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo 6.2.2",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "doi.org/10.25937/db7w-zt41"
+}

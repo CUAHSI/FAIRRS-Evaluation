@@ -1,0 +1,92 @@
+{
+    "@id": "https://www.comses.net/codebases/5146/releases/1.6.0/",
+    "url": "https://www.comses.net/codebases/5146/releases/1.6.0/",
+    "name": "Multistate modeling extended by behavioral rules",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "givenName": "Anna",
+            "familyName": "Klabunde"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-8093-086X",
+            "@type": "Person",
+            "email": "szinn@diw.de",
+            "givenName": "Sabine",
+            "familyName": "Zinn",
+            "affiliation": {
+                "@id": "https://ror.org/0050vmv35",
+                "url": "http://www.diw.de/en",
+                "name": "German Institute for Economic Research",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0050vmv35"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Frans",
+            "familyName": "Willekens"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "givenName": "Matthias",
+            "familyName": "Leuchter"
+        },
+        {
+            "@id": "_:author_1",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-8093-086X",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.6.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5146/releases/1.6.0/",
+    "dateCreated": "2017-03-20",
+    "description": "We propose to extend demographic multistate models with a behavioural element linking intentions to behaviour. Concretely, behavioral rules explain intentions and thus transitions. Our framework is inspired by the Theory of Planned Behaviour. Model parameters are determined using empirical data if available. We exemplify our approach with a model of migration from Senegal to Southern Europe. Our approach adds to the toolkit of demographic projection by allowing for shocks and social influence which alter behaviour in nonlinear ways, while sticking to the general framework of multistate modelling.",
+    "downloadUrl": "https://www.comses.net/codebases/5146/releases/1.6.0/download/",
+    "dateModified": "2018-03-13",
+    "releaseNotes": "Add input data.",
+    "copyrightYear": 2018,
+    "datePublished": "2018-03-13",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

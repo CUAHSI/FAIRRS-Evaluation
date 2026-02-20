@@ -1,0 +1,69 @@
+{
+    "@id": "https://www.comses.net/codebases/4706/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4706/releases/1.0.0/",
+    "name": "Walk This Way",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "givenName": "Crooks",
+            "familyName": "Andrew"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Sarah",
+            "familyName": "Wise"
+        },
+        {
+            "@id": "_:author_1",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "activity monitoring",
+        "agent-based model",
+        "pedestrian modeling",
+        "spatiotemporal trajectories"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4706/releases/1.0.0/",
+    "dateCreated": "2015-08-27",
+    "description": "Pedestrian movement is woven into the fabric of urban regions. With more people living in cities than ever before, there is an increased need to understand and model how pedestrians utilize and move through space for a variety of applications, ranging from urban planning and architecture to security. Pedestrian modeling has been traditionally faced with the challenge of collecting data to calibrate and validate such models of pedestrian movement. With the increased availability of mobility datasets from video surveillance and enhanced geolocation capabilities in consumer mobile devices we are now presented with the opportunity to change the way we build pedestrian models. Within this model we explore the potential that such information offers for the improvement of agent-based pedestrian models.",
+    "downloadUrl": "https://www.comses.net/codebases/4706/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2015,
+    "datePublished": "2015-08-27",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Mason"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Crooks, A.T., Croitoru, A., Lu, X., Wise, S., Irvine , J.M. and Stefanidis, A. (in press), 'Walk this Way: Improving Pedestrian Agent-Based Models through Scene Activity Analysis', ISPRS International Journal of Geo-Information."
+}

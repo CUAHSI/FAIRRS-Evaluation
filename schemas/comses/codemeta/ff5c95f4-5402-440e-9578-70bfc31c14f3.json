@@ -1,0 +1,65 @@
+{
+    "@id": "https://www.comses.net/codebases/ff5c95f4-5402-440e-9578-70bfc31c14f3/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/ff5c95f4-5402-440e-9578-70bfc31c14f3/releases/1.0.0/",
+    "name": "The Hawk-Dove Game",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-4878-7477",
+            "@type": "Person",
+            "email": "crou0048@umn.edu",
+            "givenName": "Kristin",
+            "familyName": "Crouse",
+            "affiliation": {
+                "@id": "https://ror.org/017zqws13",
+                "url": "http://twin-cities.umn.edu/",
+                "name": "University of Minnesota",
+                "@type": "Organization",
+                "identifier": "https://ror.org/017zqws13"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.html",
+        "name": "Apache-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Dawkins, R. (1976). The selfish gene.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "evolutionarily stable strategy",
+        "game theory",
+        "hawk-dove game"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/ff5c95f4-5402-440e-9578-70bfc31c14f3/releases/1.0.0/",
+    "dateCreated": "2019-11-05",
+    "description": "This model simulates the Hawk-Dove game as first described by John Maynard Smith, and further elaborated by Richard Dawkins in \"The Selfish Gene\". In the game, two strategies, Hawks and Doves, compete against each other, and themselves, for reproductive benefits. A third strategy can be introduced, Retaliators, which act like either Hawks or Doves, depending on the context.",
+    "downloadUrl": "https://www.comses.net/codebases/ff5c95f4-5402-440e-9578-70bfc31c14f3/releases/1.0.0/download/",
+    "dateModified": "2021-12-15",
+    "releaseNotes": "Compatible with NetLogo 6.1.1.",
+    "copyrightYear": 2019,
+    "datePublished": "2019-11-05",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

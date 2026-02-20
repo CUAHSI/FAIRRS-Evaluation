@@ -1,0 +1,100 @@
+{
+    "@id": "https://www.comses.net/codebases/bcf9b1fd-ad63-4add-a03d-340b370ec888/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/bcf9b1fd-ad63-4add-a03d-340b370ec888/releases/1.0.0/",
+    "name": "Evacuation of the city of Rouen using the GAMA advanced driving skill",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1129/",
+            "@type": "Person",
+            "email": "patrick.taillandier@gmail.com",
+            "givenName": "Patrick",
+            "familyName": "Taillandier",
+            "affiliation": {
+                "url": "http://www.inra.fr",
+                "name": "INRA",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/11/",
+            "@type": "Person",
+            "email": "vanderle@asu.edu",
+            "givenName": "Guillaume",
+            "familyName": "Czura",
+            "affiliation": {
+                "@id": "https://ror.org/03nhjew95",
+                "url": "https://www.univ-rouen.fr",
+                "name": "Universit\u00e9 de Rouen Normandie",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03nhjew95"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "Pierrick.Tranouez@univ-rouen.fr",
+            "givenName": "Pierrick",
+            "familyName": "Tranouez",
+            "affiliation": {
+                "@id": "https://ror.org/03nhjew95",
+                "url": "https://www.univ-rouen.fr",
+                "name": "Universit\u00e9 de Rouen Normandie",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03nhjew95"
+            }
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "email": "eric.daude@cnrs.fr",
+            "givenName": "Eric",
+            "familyName": "Daud\u00e9",
+            "affiliation": {
+                "@id": "https://ror.org/00x9ewr78",
+                "url": "http://www.cnrs.edu.lb/",
+                "name": "National Council for Scientific Research",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00x9ewr78"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "evacuation dynamics",
+        "GAMA",
+        "multiagent traffic simulation"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/bcf9b1fd-ad63-4add-a03d-340b370ec888/releases/1.0.0/",
+    "dateCreated": "2019-04-25",
+    "description": "Model that illustrates the use of the GAMA advanced driving skill through a case study concerning the evacuation of the city of Rouen (France).",
+    "downloadUrl": "https://www.comses.net/codebases/bcf9b1fd-ad63-4add-a03d-340b370ec888/releases/1.0.0/download/",
+    "dateModified": "2019-04-25",
+    "releaseNotes": "Two models are provided: one for comparing the advanced driving skill with a macro LWR model on a simple circuit, and another one concerning the evacuation of the city of Rouen. The data of Rouen comes from OSM.",
+    "copyrightYear": 2019,
+    "datePublished": "2019-04-25",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "GAMA",
+        "GAMA"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "GAMA",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

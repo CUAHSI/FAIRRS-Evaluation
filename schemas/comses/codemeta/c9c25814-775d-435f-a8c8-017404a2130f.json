@@ -1,0 +1,149 @@
+{
+    "@id": "https://www.comses.net/codebases/c9c25814-775d-435f-a8c8-017404a2130f/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/c9c25814-775d-435f-a8c8-017404a2130f/releases/1.0.0/",
+    "name": "Socio-hydrologicalModel_version_SESMO",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2051/",
+            "@type": "Person",
+            "email": "andres.baeza@gmail.com",
+            "givenName": "Andres",
+            "familyName": "Baeza-Castro",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/2447/",
+            "@type": "Person",
+            "email": "bojorquez@ecologia.unam.mx",
+            "givenName": "Luis",
+            "familyName": "Bojorquez",
+            "affiliation": {
+                "@id": "https://ror.org/004fan886",
+                "url": "http://unamcr.com/",
+                "name": "Universidad Aut\u00f3noma Monterrey",
+                "@type": "Organization",
+                "identifier": "https://ror.org/004fan886"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Person",
+            "email": "marco.janssen@asu.edu",
+            "givenName": "Marco",
+            "familyName": "Janssen",
+            "affiliation": {
+                "url": "https://schoolofsustainability.asu.edu/",
+                "name": "School of Sustainability",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "email": "Hallie.Eakin@asu.edu",
+            "givenName": "Hallie",
+            "familyName": "Eakin",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/2443/",
+            "@type": "Person",
+            "email": "serranoycandela@iecologia.unam.mx",
+            "givenName": "Fidel",
+            "familyName": "Serrano-Candela",
+            "affiliation": {
+                "@id": "https://ror.org/004fan886",
+                "url": "http://unamcr.com/",
+                "name": "Universidad Aut\u00f3noma Monterrey",
+                "@type": "Organization",
+                "identifier": "https://ror.org/004fan886"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/2445/",
+            "@type": "Person",
+            "email": "pgomez@iecologia.unam.mx",
+            "givenName": "Paola",
+            "familyName": "Gomez",
+            "affiliation": {
+                "@id": "https://ror.org/004fan886",
+                "url": "http://unamcr.com/",
+                "name": "Universidad Aut\u00f3noma Monterrey",
+                "@type": "Organization",
+                "identifier": "https://ror.org/004fan886"
+            }
+        },
+        {
+            "@id": "_:author_7",
+            "@type": "Person",
+            "email": "minta79@gmail.com",
+            "givenName": "Yosune",
+            "familyName": "Miquelajauregui",
+            "affiliation": {
+                "@id": "https://ror.org/004fan886",
+                "url": "http://unamcr.com/",
+                "name": "Universidad Aut\u00f3noma Monterrey",
+                "@type": "Organization",
+                "identifier": "https://ror.org/004fan886"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-7972-5746",
+            "@type": "Person",
+            "email": "rgarcia@iecologia.unam.mx",
+            "givenName": "Rodrigo",
+            "familyName": "Garcia-Herrera",
+            "affiliation": {
+                "@id": "https://ror.org/01tmp8f25",
+                "url": "http://www.unam.mx/index/en",
+                "name": "National Autonomous University of Mexico",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01tmp8f25"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/c9c25814-775d-435f-a8c8-017404a2130f/releases/1.0.0/",
+    "dateCreated": "2019-02-04",
+    "description": "We present here MEGADAPT_SESMO model. A hybrid, dynamic, spatially explicit, integrated model to simulate the vulnerability of urban coupled socio-ecological systems \u2013 in our case, the vulnerability of Mexico City to socio-hydrological risk. ",
+    "downloadUrl": "https://www.comses.net/codebases/c9c25814-775d-435f-a8c8-017404a2130f/releases/1.0.0/download/",
+    "dateModified": "2019-02-05",
+    "releaseNotes": "This model version describes the implementation of the agent-based model of the MEGADAPT project (adaptation in a megacity) in the context of the paper submitted to the journal of Socio-Environmental System Modeling (SESMO)  (Bojorquez-tapia et al., *in review* 2019) . The full MEGADAPT model simulates the coupling between biophysical processes and the decisions of residents and the water authority of Mexico City. The aim of this version of the model is to illustrate the modeling approach and the use of the Analytic Network Process (ANP) to synthesize the dynamic feedback between mental models and conditions of geographic automata. \nThe agent-based model presented here simulates decisions regarding investments in infrastructure by the water authority of Mexico City, SACMEX. These investments in turn trigger actions in selected census blocks. These actions then influence the attributes in the landscape, which in turn modify the condition of infrastructure systems, and subsequency the risk of infrastructure \u2013related hazards and exposure to ponding. The decision-making process of SACMEX includes evaluating the condition of the landscape across the census blocks of Mexico City. The current version of the model incorporates stochastic simulation of annual ponding events. The model was constructed using available empirical observations. ",
+    "copyrightYear": 2019,
+    "datePublished": "2019-02-05",
+    "embargoEndDate": "2019-06-30",
+    "operatingSystem": "windows",
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Boj\u00f3rquez-Tapia, L.A., Janssen, M., Eakin, H., Baeza, A., Serrano-Candela, F., G\u00f3mez-Priego, P., et al. (2019). Spatially-explicit simulation of two-way coupling of complex socio-environmental systems: Socio-hydrological risk and decision making in Mexico City. Socio-Environmental Systems Modelling. 1. DOI: 10.18174/sesmo.2019a16129"
+}

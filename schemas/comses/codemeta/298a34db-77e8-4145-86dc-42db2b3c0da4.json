@@ -1,0 +1,74 @@
+{
+    "@id": "https://www.comses.net/codebases/298a34db-77e8-4145-86dc-42db2b3c0da4/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/298a34db-77e8-4145-86dc-42db2b3c0da4/releases/1.0.0/",
+    "name": "ABWiSE",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/3422/",
+            "@type": "Person",
+            "email": "jeffrey.katan@umontreal.ca"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-6599-9893",
+            "@type": "Person",
+            "email": "l.perez@umontreal.ca",
+            "givenName": "Liliana",
+            "familyName": "Perez",
+            "affiliation": {
+                "@id": "https://ror.org/0161xgx34",
+                "url": "http://www.umontreal.ca/english/",
+                "name": "University of Montreal",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0161xgx34"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-6599-9893",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent based model (abm)",
+        "fire",
+        "forest disturbance",
+        "landscape ecology",
+        "wildfire"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/298a34db-77e8-4145-86dc-42db2b3c0da4/releases/1.0.0/",
+    "dateCreated": "2021-12-20",
+    "description": "The Agent-Based Wildfire Simulation Environment (ABWiSE) translates the concept of a moving fire front as a set of mobile fire agents that respond to, and interact with, vegetation, wind, and terrain. Presently, the purpose of ABWiSE is to explore how ABM, using simple interactions between agents and a simple atmospheric feedback model, can simulate emergent fire spread patterns.",
+    "downloadUrl": "https://www.comses.net/codebases/298a34db-77e8-4145-86dc-42db2b3c0da4/releases/1.0.0/download/",
+    "dateModified": "2021-12-20",
+    "releaseNotes": "ABWiSE V1.0 was created by Jeffrey Katan with contributions from Dr. Liliana Perez. The authors are members of the Laboratory of Environmental Geosimulation at the University of Montreal.\n This research has been supported by the Natural Sciences and Engineering Research Council of Canada (grant no. RGPIN/05396-201), awarded to Dr. Perez.",
+    "copyrightYear": 2021,
+    "datePublished": "2021-12-20",
+    "codeRepository": "https://github.com/JeffLEDGE/ABWiSE-Fire-spread-model",
+    "embargoEndDate": "2021-12-20",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Netlogo v6.1.1"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Netlogo v6.1.1",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Katan, J. and Perez, L.: ABWiSE v1.0: toward an agent-based approach to simulating wildfire spread, Nat. Hazards Earth Syst. Sci., 21, 3141\u20133160, https://doi.org/10.5194/nhess-21-3141-2021, 2021."
+}

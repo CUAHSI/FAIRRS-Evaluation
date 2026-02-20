@@ -1,0 +1,88 @@
+{
+    "@id": "https://www.comses.net/codebases/ab858bad-0a03-4935-9abd-6744821241b5/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/ab858bad-0a03-4935-9abd-6744821241b5/releases/1.0.0/",
+    "name": "An Agent-Based Model of Insurance Customer Behaviour with Word of Mouth Network in C#",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-6530-6527",
+            "@type": "Person",
+            "email": "solitude_saiyajin@hotmail.com",
+            "givenName": "Rei",
+            "familyName": "England",
+            "affiliation": {
+                "@id": "https://ror.org/02nwg5t34",
+                "url": "http://www.uwe.ac.uk/",
+                "name": "University of the West of England",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02nwg5t34"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "m.i.owadally@city.ac.uk",
+            "givenName": "Iqbal",
+            "familyName": "Owadally",
+            "affiliation": {
+                "@id": "https://ror.org/02jx3x895",
+                "url": "http://www.ucl.ac.uk/",
+                "name": "University College London",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02jx3x895"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "dwright@city.ac.uk",
+            "givenName": "Douglas",
+            "familyName": "Wright",
+            "affiliation": {
+                "@id": "https://ror.org/02jx3x895",
+                "url": "http://www.ucl.ac.uk/",
+                "name": "University College London",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02jx3x895"
+            }
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "Agent based modelling",
+        "customer preferences",
+        "insurance",
+        "word of mouth"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/ab858bad-0a03-4935-9abd-6744821241b5/releases/1.0.0/",
+    "dateCreated": "2021-12-15",
+    "description": "This is an agent-based model with two types of agents: customers and insurers. Insurers are price-takers who choose how much to spend on their service quality, and customers evaluate insurers based on premium, brand preference, and their perceived service quality. Customers are also connected in a small-world network and may share their opinions with their network.\n\nThe ABM contains two types of agents: insurers and customers. These act within the environment of a motor insurance market. At each simulation, the model undergoes the following steps:\n<ol>\n\t<li>Network generation: At the start of the simulation, the model generates a small world network of social links between the customers, and randomly assigns each customer to an initial insurer</li>\n\nThen in each timestep:\n\t\n<li>Insurer spending: Insurers spend an amount per customer on their level of customer service up to some maximum level. The more they spend, the greater the chance that any given customer interaction will be a positive and not a negative experience for the customer.</li>\n<li>Insurer premium: The market premium is set exogenously and follows a simple AR2 pattern, with a stochastic error term. Insurers will also add a margin to cover their spending cost and profit markup. Prices for new customers are discounted relative to prices for renewing customers.</li>\n<li> Customer purchases: Customers decide whether to renew based on a logit probability function based on the change in cost over the previous year. If they do not renew, they will purchase from the insurer that offers them the lowest total cost. Cost includes a term for perceived customer service quality and the distance on a brand preference location space.</li>\n<li>Claims: Loss events are modelled probabilistically using a Poisson frequency and Gamma severity. If a customer experiences a loss, they make an insurance claim. Their interaction with their insurer's customer service which may generate a good or bad experience with probability based on the amount spent on customer service.</li>\n<li>Customer word-of-mouth information sharing: Customer service experiences spread across networks as customers tell their friends of their experiences or experiences they've heard about. The influence of these opinions is calculated as a weighted average and integrated into each customer's opinions.</li>\n</ol>",
+    "downloadUrl": "https://www.comses.net/codebases/ab858bad-0a03-4935-9abd-6744821241b5/releases/1.0.0/download/",
+    "dateModified": "2022-03-04",
+    "releaseNotes": "Initial release",
+    "copyrightYear": 2022,
+    "datePublished": "2022-03-04",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        ".Net 4.6.1"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "C#",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

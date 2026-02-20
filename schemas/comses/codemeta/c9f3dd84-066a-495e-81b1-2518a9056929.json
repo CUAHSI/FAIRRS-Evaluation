@@ -1,0 +1,66 @@
+{
+    "@id": "https://www.comses.net/codebases/c9f3dd84-066a-495e-81b1-2518a9056929/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/c9f3dd84-066a-495e-81b1-2518a9056929/releases/1.0.0/",
+    "name": "07 EffLab_V5.07 NL",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1014/",
+            "@type": "Person",
+            "email": "orrery@rogers.com",
+            "givenName": "Garvin",
+            "familyName": "Boyle",
+            "affiliation": {
+                "url": "http://modeco-software.webs.com",
+                "name": "Retired High School Teacher",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Boyle, Garvin (2019, October 05). \u201c00b SimEvo_V5.08 NetLogo\u201d (Version 1.0.0). CoMSES Computational Model Library. Retrieved from: https://www.comses.net/codebases/b196ebb8-bae0-47dd-9e49-f2b3c766681e/releases/1.0.0/",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "biophysical economics",
+        "ecological economics",
+        "entropic index",
+        "Entropy in Agent-Based Models",
+        "maximum power principle",
+        "sustainability"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/c9f3dd84-066a-495e-81b1-2518a9056929/releases/1.0.0/",
+    "dateCreated": "2019-10-07",
+    "description": "**EffLab** was built to support the study of the efficiency of agents in an evolving complex adaptive system.  In particular:\n-   There is a definition of efficiency used in ecology, and an analogous definition widely used in business.  In ecological studies it is called EROEI (energy returned on energy invested), or, more briefly, EROI (pronounced E-Roy).  In business it is called ROI (dollars returned on dollars invested).  \n-   In addition, there is the more well-known definition of efficiency first described by Sadi Carnot, and widely used by engineers.  It is usually represented by the Greek letter \u2018h\u2019 (pronounced as ETA).  These two measures of efficiency bear a peculiar relationship to each other: EROI = 1 / ( 1 - ETA ) \n\nIn **EffLab**, blind seekers wander through a forest looking for energy-rich food.  In this multi-generational world, they live and reproduce, or die, depending on whether they can find food more effectively than their contemporaries.  Data is collected to measure their efficiency as they evolve more effective search patterns.\n\nThis model demonstrates such econodynamic phenomena as Jevon's paradox, the Maximum Power Principle (MPP), and the rold of EROI.  It also some experimental code for calculating the entropic index of two conserved quantities in a non-isolated open system.\n",
+    "downloadUrl": "https://www.comses.net/codebases/c9f3dd84-066a-495e-81b1-2518a9056929/releases/1.0.0/download/",
+    "dateModified": "2019-10-07",
+    "releaseNotes": "To run this model you first must download a copy of the NetLogo ADE from NorthWestern University.  It was written for the platform NetLogo 5.0.5.  ( https://ccl.northwestern.edu/netlogo/5.0.5/ )  Then, to run the model, simply press the \"Setup\" button, and watch it run.  \n\nThe design/user documentation is fairly complete.  This is a bench tool, and not made to be unbreakable.  There are a variety of sliders and switches that can be used to test different scenarios, or to collect data of different kinds.  If you  happen to select a set of slider values that do not work, there is a \"Reset Defaults\" switch.\n",
+    "copyrightYear": 2019,
+    "datePublished": "2019-10-07",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

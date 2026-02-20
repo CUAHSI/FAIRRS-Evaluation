@@ -1,0 +1,58 @@
+{
+    "@id": "https://www.comses.net/codebases/8f1d300e-6333-4b36-820f-c414016ea395/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/8f1d300e-6333-4b36-820f-c414016ea395/releases/1.0.0/",
+    "name": "RecovUS: An Agent-Based Model of Post-Disaster Household Recovery",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-6163-968X",
+            "@type": "Person",
+            "email": "saeed.moradi@ttu.edu",
+            "givenName": "Saeed",
+            "familyName": "Moradi"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "1. Moradi, S., & A. Nejat. (2020). RecovUS: An agent-based model of post-disaster household recovery.  Journal of Artificial Societies and Social Simulation. Under Review.\n\n2. Moradi, S. (2020). RecovUS: An Agent-Based Model of Post-Disaster Household Recovery. (Ph.D.), Texas Tech University, Lubbock, TX.\n\n3. Moradi, S., & Nejat, A. (2020). Post-disaster housing recovery: The case of Staten Island after Hurricane Sandy.\n\n4. Moradi, S., Nejat, A., Hu, D., & Ghosh, S. (2020). Perceived neighborhood: Preferences versus actualities. International Journal of Disaster Risk Reduction. \n\n5. Nejat, A., Moradi, S., & Ghosh, S. (2019). Anchors of social network awareness index: A key to modeling postdisaster housing recovery. Journal of Infrastructure Systems, 25(2), 04019004. doi:https://doi.org/10.1061/(ASCE)IS.1943-555X.0000471",
+            "@type": "CreativeWork"
+        },
+        {
+            "text": "No",
+            "@type": "CreativeWork"
+        }
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/8f1d300e-6333-4b36-820f-c414016ea395/releases/1.0.0/",
+    "dateCreated": "2020-06-04",
+    "description": "The purpose of this model is to explain the post-disaster recovery of households residing in their own single-family homes and to predict households\u2019 recovery decisions from drivers of recovery. Herein, a household\u2019s recovery decision is repair/reconstruction of its damaged house to the pre-disaster condition, waiting without repair/reconstruction, or selling the house (and relocating). Recovery drivers include financial conditions and functionality of the community that is most important to a household. Financial conditions are evaluated by two categories of variables: costs and resources. Costs include repair/reconstruction costs and rent of another property when the primary house is uninhabitable. Resources comprise the money required to cover the costs of repair/reconstruction and to pay the rent (if required). The repair/reconstruction resources include settlement from the National Flood Insurance (NFI), Housing Assistance provided by the Federal Emergency Management Agency (FEMA-HA), disaster loan offered by the Small Business Administration (SBA loan), a share of household liquid assets, and Community Development Block Grant Disaster Recovery (CDBG-DR) fund provided by the Department of Housing and Urban Development (HUD). Further, household income determines the amount of rent that it can afford. Community conditions are assessed for each household based on the restoration of specific anchors. ASNA indexes (Nejat, Moradi, & Ghosh 2019) are used to identify the category of community anchors that is important to a recovery decision of each household. Accordingly, households are indexed into three classes for each of which recovery of infrastructure, neighbors, or community assets matters most. Further, among similar anchors, those anchors are important to a household that are located in its perceived neighborhood area (Moradi, Nejat, Hu, & Ghosh 2020).",
+    "downloadUrl": "https://www.comses.net/codebases/8f1d300e-6333-4b36-820f-c414016ea395/releases/1.0.0/download/",
+    "dateModified": "2020-07-30",
+    "releaseNotes": "This is an original release.",
+    "copyrightYear": 2020,
+    "datePublished": "2020-07-30",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Moradi, S., & A. Nejat. (2020). RecovUS: An agent-based model of post-disaster household recovery.  Journal of Artificial Societies and Social Simulation. Under Review."
+}

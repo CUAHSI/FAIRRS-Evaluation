@@ -1,0 +1,62 @@
+{
+    "@id": "https://doi.org/10.25937/mr4a-c334",
+    "url": "https://doi.org/10.25937/mr4a-c334",
+    "name": "COMMAND-AND-CONTROL",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2352/",
+            "@type": "Person",
+            "email": "farzaneh.davari@gmail.com",
+            "givenName": "Farzaneh",
+            "familyName": "Davari",
+            "affiliation": {
+                "@id": "https://ror.org/02jqj7156",
+                "url": "https://www.gmu.edu/",
+                "name": "George Mason University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02jqj7156"
+            }
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based model (abm)",
+        "Comamand and control",
+        "social-ecological system"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/mr4a-c334",
+        "https://doi.org/10.25937/mr4a-c334"
+    ],
+    "dateCreated": "2019-08-29",
+    "description": "The command and control policy in natural resource management, including water resources, is a longstanding established policy that has been theoretically and practically argued from the point of view of social-ecological complex systems. With the intention of making a system ecologically resilient, these days, policymakers apply the top-down policies of controlling communities through regulations. To explore how these policies may work and to understand whether the ecological goal can be achieved via command and control policy, this research uses the capacity of Agent-Based Modeling (ABM) as an experimental platform in the Urmia Lake Basin (ULB) in Iran, which is a social-ecological complex system and has gone through a drought process.\n\nDespite the uncertainty of the restorability capacity of the lake, there has been a consensus on the possibility to artificially restore the lake through the nationally managed Urmia Lake Restoratoin Program (ULRP). To reduce water consumption in the Basin, the ULRP widely targets the agricultural sector and proposes the project of changing crop patterns from high-water-demand (HWD) to low-water-demand (LWD), which includes a component to control water consumption by establishing water-police forces.\n\nUsing a wide range of multidisciplinary studies about Urmia Lake at the Basin and sub-basins as well as qualitative information at micro-level as the main conceptual sources for the ABM, the findings under different strategies indicate that targeting crop patterns change by legally limiting farmers\u2019 access to water could force farmers to change their crop patterns for a short period of time as long as the number of police constantly increases. However, it is not a sustainable policy for either changing the crop patterns nor restoring the lake. \n",
+    "downloadUrl": "https://www.comses.net/codebases/d376c1db-453c-46a9-9764-26d285b26e80/releases/1.1.0/download/",
+    "dateModified": "2019-10-03",
+    "releaseNotes": "The COMMAND-AND-CONTROL ABM model is programed in NetLogo 5.3.1 for Mac. All required information to run the model is documented in the INFO section of the model. ",
+    "copyrightYear": 2019,
+    "datePublished": "2019-09-12",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

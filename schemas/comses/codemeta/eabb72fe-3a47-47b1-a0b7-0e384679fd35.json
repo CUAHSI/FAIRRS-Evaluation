@@ -1,0 +1,55 @@
+{
+    "@id": "https://www.comses.net/codebases/eabb72fe-3a47-47b1-a0b7-0e384679fd35/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/eabb72fe-3a47-47b1-a0b7-0e384679fd35/releases/1.0.0/",
+    "name": "Construction and Demolition model to track material flows and embodied carbon",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-5252-6504",
+            "@type": "Person",
+            "email": "edgardo@chalmers.se",
+            "givenName": "Jonathan Edgardo",
+            "familyName": "Cohen"
+        }
+    ],
+    "license": {
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.html",
+        "name": "Apache-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "Circular Economy",
+        "construction and demolition",
+        "embodied carbon",
+        "industrial ecology",
+        "MATERIAL FLOW ANALYSIS",
+        "mfa"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/eabb72fe-3a47-47b1-a0b7-0e384679fd35/releases/1.0.0/",
+    "dateCreated": "2024-09-30",
+    "description": "Reusing existing material stocks in developed built environments can significantly reduce the environmental footprint of the construction and demolition sector. However, material reuse in urban areas presents technical, temporal, and geographical challenges. Although a better understanding of spatial and temporal changes in material stocks could improve city resource management, limited scientific contributions have addressed this challenge. \nThis study details the steps followed in developing a spatially explicit rule-based simulation of materials stock. The simulation provides a proof of concept by incorporating the spatial and temporal dimensions of construction and demolition activities to analyse how various urban parameters determine material flows and embodied carbon in urban areas. The model explores the effects of 1) re-using recycled materials, 2) demolitions, 3) renovations and 4) various building typologies. \nTo showcase the model's capabilities, the residential building stock of Gothenburg City is used as a case study, and eight building materials are tracked. Environmental impacts (A1-A3) are calculated with embodied carbon factors. The main parameters are explored in a baseline scenario. Then, a second scenario focuses on a hypothetical policy that promotes improvements in building energy performance. \nThe simulation can be expanded to include more materials and built environment assets and allows for future explorations on, for example, the role of logistics, the implementation of recycling or reuse stations, and, in general, supporting sustainable and circular strategies from the construction sector.\n",
+    "downloadUrl": "https://www.comses.net/codebases/eabb72fe-3a47-47b1-a0b7-0e384679fd35/releases/1.0.0/download/",
+    "dateModified": "2024-09-30",
+    "releaseNotes": "import the project in GAMA",
+    "copyrightYear": 2024,
+    "datePublished": "2024-09-30",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "GAMA"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "gamal",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

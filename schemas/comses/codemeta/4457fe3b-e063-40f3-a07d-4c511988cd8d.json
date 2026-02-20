@@ -1,0 +1,61 @@
+{
+    "@id": "https://www.comses.net/codebases/4457fe3b-e063-40f3-a07d-4c511988cd8d/releases/1.0.1/",
+    "url": "https://www.comses.net/codebases/4457fe3b-e063-40f3-a07d-4c511988cd8d/releases/1.0.1/",
+    "name": "COVID-19 ABM",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-3845-7685",
+            "@type": "Person",
+            "email": "gudrun.wallentin@sbg.ac.at",
+            "givenName": "Gudrun",
+            "familyName": "Wallentin",
+            "affiliation": {
+                "@id": "https://ror.org/05gs8cd61",
+                "url": "https://www.plus.ac.at/",
+                "name": "Department of Geoinformatics - Z_GIS, University of Salzburg",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05gs8cd61"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.1",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "Corona",
+        "COVID-19",
+        "epidemic",
+        "GAMA"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4457fe3b-e063-40f3-a07d-4c511988cd8d/releases/1.0.1/",
+    "dateCreated": "2020-04-20",
+    "description": "Model of the Corona pandemic outbreak \n\nThe COVID-19 ABM aims to predict the qualitative behaviour of the CoViD-19 epidemic dynamics for the greater region of Salzburg City. Specifically, by means of scenario testing, it aims to help assessing how containment interventions can allow a stepwise relaxation of the lockdown without risking a new outbreak. ",
+    "downloadUrl": "https://www.comses.net/codebases/4457fe3b-e063-40f3-a07d-4c511988cd8d/releases/1.0.1/download/",
+    "dateModified": "2020-06-20",
+    "releaseNotes": "## Overview \nThis is a bug-fix for the first release of the model \"COVID-19 ABM\" v 1.0.0. \n\n## Issues solved\n* the relative paths for two datasets (dem.tif and work_places.shp) were corrected. Now the simulation can be executed without errors \n\n## Steps to use \n* Download the model files in the given structure and save it on your computer\n* open GAMA v 1.8 (https://gama-platform.github.io/) and create a ```new``` -> ```GAMA project``` in the User Models\n* import ````external files from disk````, navigate to the downloaded model files and select the ```/code``` folder\n* open the CoronaABM.gaml and execute the \"simulate_ABM experiment\"\n\nAll necessary data are included in the file structure under the Corona/inclues folder and can be replaced by your own data.\n\nThe model is published under the open cc-by-nc-sa license. If you plan to use it for your region or develop it further, please drop me an email: gudrun.wallentin@sbg.ac.at.",
+    "copyrightYear": 2020,
+    "datePublished": "2020-04-21",
+    "codeRepository": "https://github.com/gwallentin/COVID-19-ABM",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "GAMA"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "GAMA",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

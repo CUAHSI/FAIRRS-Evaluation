@@ -1,0 +1,72 @@
+{
+    "@id": "https://www.comses.net/codebases/485e19db-7634-42b7-bf80-f5f0db39d46d/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/485e19db-7634-42b7-bf80-f5f0db39d46d/releases/1.1.0/",
+    "name": "Modelling value change; An exploratory approach",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-6137-6621",
+            "@type": "Person",
+            "email": "t.e.dewildt-1@tudelft.nl",
+            "givenName": "Tristan",
+            "familyName": "de Wildt"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "i.r.vandepoel@tudelft.nl",
+            "givenName": "Ibo",
+            "familyName": "van de Poel",
+            "affiliation": {
+                "@id": "https://ror.org/02e2c7k09",
+                "url": "http://www.tudelft.nl/en/",
+                "name": "Delft University of Technology",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02e2c7k09"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc/4.0",
+        "name": "CC-BY-NC-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "Ethics of technology",
+        "exploratory modeling",
+        "Value change",
+        "values"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/485e19db-7634-42b7-bf80-f5f0db39d46d/releases/1.1.0/",
+    "dateCreated": "2023-06-20",
+    "description": "This model has been developed together with the publication \u2018Modelling Value Change - An Exploratory Approach\u2019\n\nValue change and moral change have increasingly become topics of interest in the philosophical literature. Several theoretical accounts have been proposed. Such accounts are usually based on certain theoretical and conceptual assumptions and their strengths and weaknesses are often hard to determine and compare, also because they are based on limited empirical evidence.\n\nWe propose that a step forward can be made with the help of agent-based modelling (ABM). ABM can be used to investigate whether a simulation model based on a specific account of value change can reproduce relevant phenomena. To illustrate this approach, we built a model based on the pragmatist account of value change proposed in van de Poel and Kudina (2022). We show that this model can reproduce four relevant phenomena, namely 1) the inevitability and stability of values, 2) how different societies may react differently to external shocks, 3) moral revolutions, and 4) lock-in.",
+    "downloadUrl": "https://www.comses.net/codebases/485e19db-7634-42b7-bf80-f5f0db39d46d/releases/1.1.0/download/",
+    "dateModified": "2023-12-12",
+    "releaseNotes": "We have improved the description of variables and procedures in the model code.",
+    "copyrightYear": 2023,
+    "datePublished": "2023-12-12",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Netlogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Netlogo",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "Python 3",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Modelling Value Change - An Exploratory Approach (JASSS) - Manuscript in revision"
+}

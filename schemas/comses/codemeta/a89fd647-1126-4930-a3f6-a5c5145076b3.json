@@ -1,0 +1,71 @@
+{
+    "@id": "https://www.comses.net/codebases/a89fd647-1126-4930-a3f6-a5c5145076b3/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/a89fd647-1126-4930-a3f6-a5c5145076b3/releases/1.0.0/",
+    "name": "Auctionsimulation",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2275/",
+            "@type": "Person",
+            "email": "deniz.kayar@hochschule-rhein-waal.de",
+            "givenName": "Deniz",
+            "familyName": "Kayar",
+            "affiliation": {
+                "@id": "https://ror.org/04wdt0z89",
+                "url": "https://www.hochschule-rhein-waal.de/en",
+                "name": "Rhine Waal University of Applied Sciences",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04wdt0z89"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/2275/",
+            "@type": "Role",
+            "roleName": "publisher"
+        },
+        {
+            "@id": "https://www.comses.net/users/2275/",
+            "@type": "Role",
+            "roleName": "maintainer"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "auction",
+        "Java",
+        "market",
+        "multi-agent simulation",
+        "reinforcement learning"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/a89fd647-1126-4930-a3f6-a5c5145076b3/releases/1.0.0/",
+    "dateCreated": "2018-07-24",
+    "description": "This repository the multi-agent simulation software for the paper \"Comparison of Competing Market Mechanisms with Reinforcement Learning in a CarPooling Scenario\". It's a mutlithreaded Javaapplication.",
+    "downloadUrl": "https://www.comses.net/codebases/a89fd647-1126-4930-a3f6-a5c5145076b3/releases/1.0.0/download/",
+    "dateModified": "2020-08-12",
+    "releaseNotes": "First review release.",
+    "copyrightYear": 2020,
+    "datePublished": "2020-08-12",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "None"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

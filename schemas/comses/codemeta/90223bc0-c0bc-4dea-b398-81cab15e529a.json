@@ -1,0 +1,53 @@
+{
+    "@id": "https://www.comses.net/codebases/90223bc0-c0bc-4dea-b398-81cab15e529a/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/90223bc0-c0bc-4dea-b398-81cab15e529a/releases/1.0.0/",
+    "name": "ABM thesis",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-9310-5423",
+            "@type": "Person",
+            "email": "lucas.sage@etu.sorbonne-universite.fr",
+            "givenName": "Lucas",
+            "familyName": "Sage"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Partial replication of the Schumpeter meeting Keynes model",
+            "@type": "CreativeWork"
+        }
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/90223bc0-c0bc-4dea-b398-81cab15e529a/releases/1.0.0/",
+    "dateCreated": "2022-05-06",
+    "description": "Netlogo model used to produce the results in my doctoral thesis",
+    "downloadUrl": "https://www.comses.net/codebases/90223bc0-c0bc-4dea-b398-81cab15e529a/releases/1.0.0/download/",
+    "dateModified": "2022-05-06",
+    "releaseNotes": "I did not obtain the authorization to upload the network data used to construct the network in which agents are embedded. Yet I publish the code that uses these (missing) raw data to create the artificial social network",
+    "copyrightYear": 2022,
+    "datePublished": "2022-05-06",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo 6.1.1"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo 6.1.1",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

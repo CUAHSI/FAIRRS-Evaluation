@@ -1,0 +1,75 @@
+{
+    "@id": "https://www.comses.net/codebases/4407/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4407/releases/1.0.0/",
+    "name": "An Agent-Based School Choice Matching Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/581/",
+            "@type": "Person",
+            "email": "wang.connie.h@gmail.com",
+            "givenName": "Connie",
+            "familyName": "Wang"
+        },
+        {
+            "@id": "https://www.comses.net/users/1192/",
+            "@type": "Person",
+            "email": "nkcweikai@gmail.com",
+            "givenName": "Weikai",
+            "familyName": "Chen"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Shu-Heng",
+            "familyName": "Chen"
+        },
+        {
+            "@id": "https://www.comses.net/users/581/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://www.comses.net/users/1192/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4407/releases/1.0.0/",
+    "dateCreated": "2015-02-01",
+    "description": "**Purpose**\r\n\r\nThis NetLogo model, a major revision of the \u201cAgent-Based Modeling of School Admission Systems\u201d model, is to simulate student admissions under different matching mechanisms (serial dictatorship, Boston mechanism, and Chinese Parallel), amount of information released, and strategies used to make school choices.  The controlled information is students\u2019 own scores and score ranks.  \r\n\r\n**State Variables and Scales** \r\n\r\nThe 10 schools, represented by their locations, are of the same admission capacities.  Each student agent has a score and a preference list.  Student agents\u2019 spatial locations are not considered.  \r\n\r\n**Process Overview**\r\n\r\nDepending on the initial setting, student scores are generated either randomly or from a normal distribution, of which the mean and standard deviation are from a normal distribution and a Chi-square distribution, respectively.  Under the assumption of most students having similar school preferences, student preference lists are from a distribution similar to Zipf distribution.  Student school choice lists are generated based on the strategy, number of choices allowed, matching mechanism, and information released.  All students use the same school choice strategy.  Three strategies are in the model and applied according to the amount of information released: to select schools randomly and sort them according to preference list, to select schools by reference to each school\u2019s minimum score required for admission in previous year, and to select schools by reference to the lowest score ranks of the students admitted to each school last year.  Then the model assigns the student agents to the schools based on matching mechanism and calculate mismatch index at the end of each run.  Mismatch index is the average mismatch of the students, which is the difference between the actual school assigned and the school assigned to the student under serial dictatorship without school choice limitation.",
+    "downloadUrl": "https://www.comses.net/codebases/4407/releases/1.0.0/download/",
+    "dateModified": "2019-03-06",
+    "releaseNotes": "",
+    "copyrightYear": 2019,
+    "datePublished": "2019-03-06",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "@id": "https://www.comses.net/codebases/4327/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4327/releases/1.0.0/",
+    "name": "Activation Regimes in Opinion Dynamics",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/756/",
+            "@type": "Person",
+            "email": "alizadeh.meysam@gmail.com",
+            "givenName": "Meysam",
+            "familyName": "Alizadeh",
+            "affiliation": {
+                "@id": "https://ror.org/02k40bc56",
+                "url": "http://www.indiana.edu/",
+                "name": "Indiana University Bloomington",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02k40bc56"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Claudio",
+            "familyName": "Cioffi-Revilla"
+        },
+        {
+            "@id": "https://www.comses.net/users/756/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "activation regime",
+        "dynamics opinion",
+        "extremism",
+        "updating scheme"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4327/releases/1.0.0/",
+    "dateCreated": "2015-09-01",
+    "description": "In this paper we want to investigate how applying different agent activation orders may affect the behavior and final output of an opinion dynamics model. In doing so, we apply four different asynchronous activation regimes on the 2-dimensional opinion dynamics model proposed by Huet et al (2008) and compute the appropriate quantitative measures of opinions. It is important to quantitatively compare the effect of different timing orders because in some cases the qualitative results might be indistinguishable at aggregate level. Number of the emergent opinion clusters is a common measure in this sense and have been used by many opinion dynamics researchers (Urbig 2003; Urbig et al 2008; Huet et al 2008; M\u00e4s et al 2014). We also compute and report the maximum cluster size and the number of minority clusters.Our forth measure of interest is the phenomenon of drifting toward opinion extremes called Radicalization.",
+    "downloadUrl": "https://www.comses.net/codebases/4327/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2015,
+    "datePublished": "2015-09-01",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Python"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Meysam Alizadeh, Claudio Cioffi-Revilla (2015) Activation Regimes in Opinion Dynamics: Analyzing Asynchronous Updating Schemes. Journal of Artificial Societies and Social Simulation 18 (3) 8."
+}

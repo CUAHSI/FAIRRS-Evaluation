@@ -1,0 +1,66 @@
+{
+    "@id": "https://www.comses.net/codebases/ee47544a-7eb0-4482-8967-42d6b0c05060/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/ee47544a-7eb0-4482-8967-42d6b0c05060/releases/1.0.0/",
+    "name": "SMASH: Stylized Model of Agricultural Smallholder Households",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-5642-728X",
+            "@type": "Person",
+            "email": "tgw@umich.edu",
+            "givenName": "Tim",
+            "familyName": "Williams",
+            "affiliation": {
+                "@id": "https://ror.org/008xxew50",
+                "url": "https://vu.nl/",
+                "name": "Environmental Geography Department, Vrije Universiteit Amsterdam",
+                "@type": "Organization",
+                "identifier": "https://ror.org/008xxew50"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agriculture",
+        "cover crop",
+        "insurance",
+        "resilience",
+        "smallholder"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/ee47544a-7eb0-4482-8967-42d6b0c05060/releases/1.0.0/",
+    "dateCreated": "2020-02-27",
+    "description": "The SMASH model is an agent-based model of rural smallholder households. It models households' evolving income and wealth, which they earn through crop sales. Wealth is carried in the form of livestock, which are grazed on an external rangeland (exogenous) and can be bought/sold as investment/coping mechanisms. The model includes a stylized representation of soil nutrient dynamics, modeling the inflows and outflows of organic and inorganic nitrogen from each household's field.\n\nThe model has been applied to assess the resilience-enhancing effects of two different farm-level adaptation strategies: legume cover cropping and crop insurance. These two strategies interact with the model through different mechanims - legume cover cropping through ecological mechanisms and crop insurance through financial mechanisms. The model can be used to investigate the short- and long-term effects of these strategies, as well as how they may differently benefit different types of household.",
+    "downloadUrl": "https://www.comses.net/codebases/ee47544a-7eb0-4482-8967-42d6b0c05060/releases/1.0.0/download/",
+    "dateModified": "2020-12-08",
+    "releaseNotes": "Please see the details in the README.md file.",
+    "copyrightYear": 2020,
+    "datePublished": "2020-12-08",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Python"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Jupyter Notebook",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Williams, T. G., G. Dre\u00dfler, A. E. Stratton, and B. M\u00fcller. 2020 \u201cEcological and Financial Strategies Provide Complementary Benefits for Smallholder Climate Resilience: Insights from a Simulation Model.\u201d Ecology and Society 26 (2). https://doi.org/10.5751/ES-12207-260214."
+}

@@ -1,0 +1,116 @@
+{
+    "@id": "https://www.comses.net/codebases/6fdde22e-346c-4c61-bee7-786d65ba1a22/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/6fdde22e-346c-4c61-bee7-786d65ba1a22/releases/1.0.0/",
+    "name": "TIP TOP Landscape",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1129/",
+            "@type": "Person",
+            "email": "patrick.taillandier@gmail.com",
+            "givenName": "Patrick",
+            "familyName": "Taillandier",
+            "affiliation": {
+                "url": "http://www.inra.fr",
+                "name": "INRA",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "nesrine.ayari25@hotmail.fr",
+            "givenName": "Nesrine",
+            "familyName": "Ayari",
+            "affiliation": {
+                "@id": "https://ror.org/05s3rgw55",
+                "url": "http://www.witu.mil.pl/www/witu_en.htm",
+                "name": "Military Institute of Armament Technology",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05s3rgw55"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "claude.janin@vernand.fr",
+            "givenName": "Claude",
+            "familyName": "Janin",
+            "affiliation": {
+                "@id": "https://ror.org/026j45x50",
+                "url": "https://www.pacte-grenoble.fr",
+                "name": "Laboratoire Pacte",
+                "@type": "Organization",
+                "identifier": "https://ror.org/026j45x50"
+            }
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "email": "bsarrazin@isara.fr",
+            "givenName": "Benoit",
+            "familyName": "Sarrazin",
+            "affiliation": {
+                "@id": "https://ror.org/03xsqa235",
+                "url": "http://www.isara.fr/",
+                "name": "Institut Sup\u00e9rieur d'Agriculture Rh\u00f4ne-Alpes",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03xsqa235"
+            }
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Person",
+            "email": "dominique.trevisan@inra.fr",
+            "givenName": "Dominique",
+            "familyName": "Tr\u00e9visan",
+            "affiliation": {
+                "@id": "https://ror.org/037vdeb02",
+                "url": "http://www.thonon.inra.fr",
+                "name": "Centre Alpin sur les R\u00e9seaux Trophiques et Ecosyst\u00e8mes Lacustre",
+                "@type": "Organization",
+                "identifier": "https://ror.org/037vdeb02"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agricultural modeling",
+        "GAMA",
+        "GAMA",
+        "landscape",
+        "landuse"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/6fdde22e-346c-4c61-bee7-786d65ba1a22/releases/1.0.0/",
+    "dateCreated": "2019-09-03",
+    "description": "The model aims at reproducing the evolution of the land-use in an agricultural territory at the plot scale. It enables to simulate the affectation of land-use, the crop rotation and technical operations for each plot of the different farms of the territory. It allows as well for crop farms to simulate the daily state of plots (sowed, plowed, harvested, biomass indicator). The model is used as an input for the water pollution model allowing to determine the flow of nitrate, phosphorus and suspended matter in the territory according to the landscape configuration.",
+    "downloadUrl": "https://www.comses.net/codebases/6fdde22e-346c-4c61-bee7-786d65ba1a22/releases/1.0.0/download/",
+    "dateModified": "2019-09-04",
+    "releaseNotes": "Tested with GAMA 1.8 official Release.",
+    "copyrightYear": 2019,
+    "datePublished": "2019-09-04",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "GAMA",
+        "GAMA"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "GAMA",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

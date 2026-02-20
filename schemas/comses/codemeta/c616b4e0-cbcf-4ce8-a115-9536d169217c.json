@@ -1,0 +1,113 @@
+{
+    "@id": "https://www.comses.net/codebases/c616b4e0-cbcf-4ce8-a115-9536d169217c/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/c616b4e0-cbcf-4ce8-a115-9536d169217c/releases/1.0.0/",
+    "name": "Introductory SIR Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-2122-8026",
+            "@type": "Person",
+            "email": "kitcmartin@gmail.com",
+            "givenName": "Kit",
+            "familyName": "Martin",
+            "affiliation": {
+                "url": "https://www.csats.psu.edu/",
+                "name": "Penn State",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "ams5306@psu.edu",
+            "givenName": "Amber",
+            "familyName": "Cesare",
+            "affiliation": {
+                "@id": "https://ror.org/04p491231",
+                "url": "http://www.psu.edu/",
+                "name": "Pennsylvania State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04p491231"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "mattjohnson@psu.edu",
+            "givenName": "Matthew",
+            "familyName": "Johnson",
+            "affiliation": {
+                "@id": "https://ror.org/04p491231",
+                "url": "http://www.psu.edu/",
+                "name": "Pennsylvania State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04p491231"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "collaborator"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "collaborator"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "The Science of COVID-19\u2014CSATS: Center for Science and the Schools | Penn State. (2020.). Retrieved September 28, 2021, from https://www.csats.psu.edu/science-of-covid19",
+            "@type": "CreativeWork"
+        },
+        {
+            "text": "No",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "COVID-19",
+        "NetLogo"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/c616b4e0-cbcf-4ce8-a115-9536d169217c/releases/1.0.0/",
+    "dateCreated": "2021-09-28",
+    "description": "This is a basic Susceptible, Infected, Recovered (SIR) model. This model explores the spread of disease in a space. In particular, it explores how changing assumptions about the number of susceptible people, starting number of infected people, as well as the disease's infection probability, and average duration of infection. The model shows that the interactions of agents can drastically affect the results of the model.\n\nWe used it in our course on COVID-19: https://www.csats.psu.edu/science-of-covid19",
+    "downloadUrl": "https://www.comses.net/codebases/c616b4e0-cbcf-4ce8-a115-9536d169217c/releases/1.0.0/download/",
+    "dateModified": "2021-09-28",
+    "releaseNotes": "This is the base model",
+    "copyrightYear": 2021,
+    "datePublished": "2021-09-28",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "ABM",
+        "Agent-based modelling",
+        "Agent-Based Modelling - Software engineering - Information Systems and Social Networks",
+        "sir model"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "https://www.csats.psu.edu/science-of-covid19"
+}

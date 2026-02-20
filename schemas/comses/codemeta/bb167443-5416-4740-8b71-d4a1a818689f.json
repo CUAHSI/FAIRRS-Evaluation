@@ -1,0 +1,62 @@
+{
+    "@id": "https://www.comses.net/codebases/bb167443-5416-4740-8b71-d4a1a818689f/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/bb167443-5416-4740-8b71-d4a1a818689f/releases/1.0.0/",
+    "name": "Non-attentional visual information transmission in groups under predation",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-3615-594X",
+            "@type": "Person",
+            "email": "j.f.van.weerden@rug.nl",
+            "givenName": "J. Fransje",
+            "familyName": "Weerden, van"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Van der Post, D. J., de Weerd, H., Verbrugge, R., & Hemelrijk, C. K. (2013). A novel mechanism for a survival advantage of vigilant individuals in groups. The American Naturalist, 182(5), 682-688. https://doi.org/1010.1086/673298\nVan der Post, D. J., Verbrugge, R., & Hemelrijk, C. K. (2015). The evolution of different forms of sociality: Behavioral mechanisms and eco-evolutionary feedback. PloS ONE, 10(1), e0117027.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "group living",
+        "indirect information reception",
+        "non-attentional information reception",
+        "social",
+        "vigilance",
+        "visual fields"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/bb167443-5416-4740-8b71-d4a1a818689f/releases/1.0.0/",
+    "dateCreated": "2020-03-25",
+    "description": "Our aim is to show effects of group living when only low-level cognition is assumed, such as pattern recognition needed for normal functioning, without assuming individuals have knowledge about others around them or warn them actively.\nThe model is of a group of vigilant foragers staying within a patch, under attack by a predator. The foragers use attentional scanning for predator detection, and flee after detection. This fleeing action constitutes a visual cue to danger, and can be received non-attentionally by others if it occurs within their limited visual field. The focus of this model is on the effectiveness of this non-attentional visual information reception. \nA blind angle obstructing cue reception caused by behaviour can exist in front, morphology causes a blind angle in the back. These limitations are represented by two visual field shapes. The scan for predators is all-around, with distance-dependent detection; reception of flight cues is limited by visual field shape. \nInitial parameters for instance: group sizes, movement, vision characteristics for predator detection and for cue reception. Captures (failure), number of times the information reached all individuals at the same time (All-fled, success), and several other effects of the visual settings are recorded.",
+    "downloadUrl": "https://www.comses.net/codebases/bb167443-5416-4740-8b71-d4a1a818689f/releases/1.0.0/download/",
+    "dateModified": "2020-03-25",
+    "releaseNotes": "Model is built in Netlogo 6.0 and 6.1",
+    "copyrightYear": 2020,
+    "datePublished": "2020-03-25",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "van Weerden, J. F., Verbrugge, R., & Hemelrijk, C. K. (2020). Modelling non-attentional visual information transmission in groups under predation. Ecological Modelling, 431, 109073. https://doi.org/10.1016/j.ecolmodel.2020.109073"
+}

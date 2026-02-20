@@ -1,0 +1,63 @@
+{
+    "@id": "https://www.comses.net/codebases/3551/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/3551/releases/1.1.0/",
+    "name": "Feedback Loop Example: Vegetation Patch Growth",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-5099-0001",
+            "@type": "Person",
+            "email": "james.millington@kcl.ac.uk",
+            "givenName": "James",
+            "familyName": "Millington",
+            "affiliation": {
+                "@id": "https://ror.org/0220mzb33",
+                "url": "http://www.kcl.ac.uk/index.aspx",
+                "name": "King's College London",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0220mzb33"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-5099-0001",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "eschansfeedback",
+        "feedback",
+        "soil",
+        "spatial",
+        "vegetation"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3551/releases/1.1.0/",
+    "dateCreated": "2012-12-21",
+    "description": "This model illustrates a positive \u2018growth\u2019 feedback loop described in which the areal extent of an entity increases through time. In this case the entity is a patch of vegetation. Growth of plants is controlled by the availability of water in the soil. In turn, the availability of water in the soil is determined by the density of plants nearby, as plants facilitate infiltration. Consequently, conditions for plant establishment are better near existing patches of vegetation, leading to the growth of the vegetation patch.",
+    "downloadUrl": "https://www.comses.net/codebases/3551/releases/1.1.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    }
+}

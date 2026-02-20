@@ -1,0 +1,71 @@
+{
+    "@id": "https://www.comses.net/codebases/3154/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/3154/releases/1.0.0/",
+    "name": "Mast seeding model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "givenName": "Lucia",
+            "familyName": "Tamburino"
+        },
+        {
+            "@id": "https://www.comses.net/users/496/",
+            "@type": "Person",
+            "email": "giangiacomo.bravo@unito.it",
+            "givenName": "Giangiacomo",
+            "familyName": "Bravo",
+            "affiliation": {
+                "name": "Department of Economics and Statistics, University of Torino",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_1",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://www.comses.net/users/496/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "ecology"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3154/releases/1.0.0/",
+    "dateCreated": "2012-09-08",
+    "description": "Authors: Lucia Tamburino and Giangiacomo Bravo\r\n\r\nMasting (or mast seeding) can be defined as the synchronous production of large amounts of\r\nseeds at long intervals of time by a plant population (Janzen 1976) and it is observed in several\r\ngenera. According to predator satiation hypothesis, plants would have evolved this synchroniza-\r\ntion ability to keep in check seed predators: large crops satiate seed predators that consequently\r\ndestroy only a lower proportion of seeds (Silvertown 1980).\r\n\r\nWe developed a model reproducing the interactions between trees, seeds and seed predators\r\nsimulating two forests: a realistic forest, where the masting phenomenon occurs, and an imaginary\r\ncontrol one, without it.  Such a comparison, that would have been impossible in the field,allows\r\na check of the validity of the predator satiation mechanism and, more generally, a comprehensive\r\nexploration of the effects of masting on both tree and seed predator populations.\r\n\r\nA full description of the model following the ODD protocol is enclosed.",
+    "downloadUrl": "https://www.comses.net/codebases/3154/releases/1.0.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Tamburino, L. and Bravo, G. (2013), Mice in Wonderforest: Understanding mast seeding through individual-based  modelling.Ecological Modelling, 250: 34\u201344."
+}

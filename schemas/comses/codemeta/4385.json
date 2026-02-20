@@ -1,0 +1,62 @@
+{
+    "@id": "https://doi.org/10.25937/s81r-8449",
+    "url": "https://doi.org/10.25937/s81r-8449",
+    "name": "Hohokam Trade Networks Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1394/",
+            "@type": "Person",
+            "email": "jswatts@asu.edu",
+            "givenName": "Joshua",
+            "familyName": "Watts",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1394/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/s81r-8449",
+        "https://doi.org/10.25937/s81r-8449"
+    ],
+    "dateCreated": "2014-10-26",
+    "description": "The origins and evolution of market-based economies remain poorly understood in large part because both the data from nascent markets are scarce and methods available to archaeologists are underdeveloped. Understanding how markets evolve, though, is incredibly important for understanding the origins of a process that dominates modern economies worldwide and has policy implications within developmental economics and other academic and applied disciplines. In order to collect and reliably interpret archaeological data relevant to this topic we must adopt new analytical approaches. The Hohokam Trade Networks Model was developed (and implemented in NetLogo) to refine conceptual models of economic exchange networks using a computational agent-based model. The Hohokam of central Arizona, for at least part of their long sequence (circa A.D. 200-1450), have been identified as a middle-range society that probably traded pottery in a market-based economy, but the structure of their trade networks is not well understood. Agents in the Hohokam Trade Networks Model produce pottery (specialist producers) and trade that pottery to farmers within open, scale-free, or spatially-restricted scale-free networks. As in the real world, that pottery is eventually broken and discarded, becoming part of a virtual archaeological record. At the end of a simulation, the accumulated broken pottery can be easily compared to published ceramic data from archaeological sites in the Phoenix Basin to assess which model configurations are able to generate patterns like those observed in the empirical data.",
+    "downloadUrl": "https://www.comses.net/codebases/4385/releases/1.0.0/download/",
+    "dateModified": "2018-12-30",
+    "releaseNotes": "",
+    "copyrightYear": 2014,
+    "datePublished": "2014-10-26",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

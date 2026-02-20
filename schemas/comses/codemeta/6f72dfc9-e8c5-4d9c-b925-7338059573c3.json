@@ -1,0 +1,62 @@
+{
+    "@id": "https://www.comses.net/codebases/6f72dfc9-e8c5-4d9c-b925-7338059573c3/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/6f72dfc9-e8c5-4d9c-b925-7338059573c3/releases/1.1.0/",
+    "name": "Sugarscape with spice",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Person",
+            "email": "marco.janssen@asu.edu",
+            "givenName": "Marco",
+            "familyName": "Janssen",
+            "affiliation": {
+                "url": "https://schoolofsustainability.asu.edu/",
+                "name": "School of Sustainability",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-sa/4.0/",
+        "name": "CC-BY-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Model is based on Epstein and Axtell (1996) Growing Artificial Societies, MIT Press;ihttps://mitpress.mit.edu/books/growing-artificial-societies",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "sugarscape",
+        "trade"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/6f72dfc9-e8c5-4d9c-b925-7338059573c3/releases/1.1.0/",
+    "dateCreated": "2019-05-01",
+    "description": "This is a variation of the Sugarspace model of Axtell and Epstein (1996) with spice and trade of sugar and spice. The model is not an exact replication since we have a somewhat simpler landscape of sugar and spice resources included, as well as a simple reproduction rule where agents with a certain accumulated wealth derive an offspring (if a nearby empty patch is available). \nThe model is discussed in Introduction to Agent-Based Modeling by Marco Janssen. For more information see https://intro2abm.com/",
+    "downloadUrl": "https://www.comses.net/codebases/6f72dfc9-e8c5-4d9c-b925-7338059573c3/releases/1.1.0/download/",
+    "dateModified": "2020-09-18",
+    "releaseNotes": "The model is part of the textbook Introduction to Agent-Based modeling by Marco Janssen: https://intro2abm.com/",
+    "copyrightYear": 2020,
+    "datePublished": "2020-09-18",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

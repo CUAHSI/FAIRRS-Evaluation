@@ -1,0 +1,73 @@
+{
+    "@id": "https://doi.org/10.25937/pqm3-w923",
+    "url": "https://doi.org/10.25937/pqm3-w923",
+    "name": "An Agent Based Model to assess resilience and efficiency of food supply chains",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2433/",
+            "@type": "Person",
+            "email": "geerten.hengeveld@wur.nl",
+            "givenName": "Geerten",
+            "familyName": "Hengeveld",
+            "affiliation": {
+                "url": "http://www.wur.nl",
+                "name": "Wageningen University & Research",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "George",
+            "familyName": "Van Voorn"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "efficiency",
+        "food security",
+        "food supply chain",
+        "resilience"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/pqm3-w923",
+        "https://doi.org/10.25937/pqm3-w923"
+    ],
+    "dateCreated": "2020-11-05",
+    "description": "This is an Agent Based Model of a generic food chain network consisting of stylized individuals representing producers, traders, and consumers. It is developed to: 1/ to describe the dynamically changing disaggregated flows of crop items between these agents, and 2/ to be able to explicitly consider agent behavior. The agents have implicit personal objectives for trading. Resilience and efficiency are quantified using the ascendency concept by linking these to the fraction of fulfillment of the overall explicit objective to have all consumers meet their food requirement. Different types of network structures in combination with different agent interaction types under different types of stylized shocks can be simulated.",
+    "downloadUrl": "https://www.comses.net/codebases/05f6bc80-f79e-4850-9066-ffd914395aa4/releases/1.0.0/download/",
+    "dateModified": "2023-10-30",
+    "releaseNotes": "This model was developed to test resilience metrics for food systems analysis.\nnote: the model expects the results folder to exist, this should be added manually",
+    "copyrightYear": 2020,
+    "datePublished": "2020-11-05",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Van Voorn et al. in press, An Agent Based Model representation to assess resilience and efficiency of food supply chains, Plos One"
+}

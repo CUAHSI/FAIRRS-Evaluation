@@ -1,0 +1,97 @@
+{
+    "@id": "https://www.comses.net/codebases/5266/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/5266/releases/1.1.0/",
+    "name": "Urban Sprawl and Income segregation with effect from income level and inequality",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1848/",
+            "@type": "Person",
+            "email": "cheng.guo@ufz.de",
+            "givenName": "Cheng",
+            "familyName": "Guo",
+            "affiliation": {
+                "@id": "https://ror.org/000h6jb29",
+                "url": "http://www.ufz.de/index.php?de=11385",
+                "name": "Helmholtz Centre for Environmental Research",
+                "@type": "Organization",
+                "identifier": "https://ror.org/000h6jb29"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-4624-488X",
+            "@type": "Person",
+            "email": "n.schwarz@utwente.nl",
+            "givenName": "Nina",
+            "familyName": "Schwarz",
+            "affiliation": {
+                "@id": "https://ror.org/000h6jb29",
+                "url": "http://www.ufz.de/index.php?de=11385",
+                "name": "Helmholtz Centre for Environmental Research \u2013 UFZ",
+                "@type": "Organization",
+                "identifier": "https://ror.org/000h6jb29"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "carsten.buchmann@uni-hohenheim.de",
+            "givenName": "Carsten",
+            "familyName": "Buchmann",
+            "affiliation": {
+                "@id": "https://ror.org/00b1c9541",
+                "url": "https://www.uni-hohenheim.de/english",
+                "name": "University of Hohenheim",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00b1c9541"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1848/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-4624-488X",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5266/releases/1.1.0/",
+    "dateCreated": "2017-05-26",
+    "description": "Urban sprawl and income segregation are two undesired urban patterns that occur during urban development. Empirical studies show that income level and inequality are positively correlated with urban sprawl and income segregation, respectively. However, the relationship between urban sprawl and income segregation is not only rarely investigated but also shows ambiguous empirical results when it is. Therefore, we built a stylized agent-based model with individual behaviours based on Alonso\u2019s bid rent theory and ran simulations with different combinations of income level and income inequality. We measured the overall emergent patterns with indicators for urban sprawl and income segregation. The model confirms the established positive correlations between income level and urban sprawl and between income inequality and segregation. Furthermore, the model shows a negative correlation between urban sprawl and income segregation under free market conditions. The model indicates that without any policy implementation, a city will either suffer from urban sprawl or income segregation.",
+    "downloadUrl": "https://www.comses.net/codebases/5266/releases/1.1.0/download/",
+    "dateModified": "2018-02-19",
+    "releaseNotes": "",
+    "copyrightYear": 2017,
+    "datePublished": "2017-05-26",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

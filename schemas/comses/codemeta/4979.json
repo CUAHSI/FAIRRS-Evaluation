@@ -1,0 +1,87 @@
+{
+    "@id": "https://www.comses.net/codebases/4979/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4979/releases/1.0.0/",
+    "name": "Segregation and Opinion Polarization",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-4977-0877",
+            "@type": "Person",
+            "email": "thomas.feliciani@gmail.com",
+            "givenName": "Thomas",
+            "familyName": "Feliciani",
+            "affiliation": {
+                "@id": "https://ror.org/041vb4f30",
+                "url": "https://www.ucd.ie/cvera/",
+                "name": "UCD Centre for Veterinary Epidemiology and Risk Analysis",
+                "@type": "Organization",
+                "identifier": "https://ror.org/041vb4f30"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Andreas",
+            "familyName": "Flache"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Jochem",
+            "familyName": "Tolsma"
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-4977-0877",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "dynamics opinion",
+        "polarization",
+        "segregation",
+        "social influence"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4979/releases/1.0.0/",
+    "dateCreated": "2016-04-13",
+    "description": "This model works in two steps. First, agents are divided into two groups, and the two groups are spatially segregated by means of a Schelling-type ABM of residential segregation. Once groups are spatially segregated, the model plays the opinion formation processes. The user can define which of the two processes to run:\r\n\r\nNegative influence\r\nAccording to this process, agents who are similar (in terms of group identification and opinion) average their opinion; conversely, dissimilar agents \u00b4reject\u00b4 each other and further diverge their opinion.\r\n\r\nPersuasive arguments\r\nThis process assumes that individuals exchanging opinions also share arguments supporting such opinions. Two interacting agents with similar opinions keep on providing each other new arguments supporting their initial tendencies. Previous modelling work showed how this results in their opinions slowly shifting towards the extreme end of the opinion scale they initially leaned to. Conversely, when interacting with a dissimilar alter, the agent is likely to gather an argument of the opposite sign - thus, an argument which moderates the agent\u00b4s opinion.\r\n\r\nSimulations show three main results. First, we observe that the negative influence process generates the strongest polarization regardless of the level of segregation. Secondly, the negative influence process shows a negative relationship between group segregation and opinion polarization (that is, stronger segregation leads to less opinion polarization) - conversely, the persuasive argument process shows a mildly positive relationship between segregation and polarization: stronger segregation leads to mildly more opinion polarization. Thirdly, spatial group boundaries show to play a bigger role for the negative influence process than for persuasive arguments, as they tend to overlap with the boundaries of the emerging opinion clusters.",
+    "downloadUrl": "https://www.comses.net/codebases/4979/releases/1.0.0/download/",
+    "dateModified": "2018-02-16",
+    "releaseNotes": "",
+    "copyrightYear": 2016,
+    "datePublished": "2016-04-13",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

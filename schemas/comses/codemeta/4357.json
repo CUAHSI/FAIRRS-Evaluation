@@ -1,0 +1,65 @@
+{
+    "@id": "https://www.comses.net/codebases/4357/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/4357/releases/1.1.0/",
+    "name": "Simulation model for compliance behaviour",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1351/",
+            "@type": "Person",
+            "email": "esther.vanasselt@wur.nl",
+            "givenName": "Esther",
+            "familyName": "Van Asselt"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Sjoukje",
+            "familyName": "Osinga"
+        },
+        {
+            "@id": "https://www.comses.net/users/1351/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "compliance",
+        "food safety",
+        "inspection strategy"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4357/releases/1.1.0/",
+    "dateCreated": "2015-12-08",
+    "description": "The model simulates compliance behaviour of entrepreneurs. Compliance depends on economic, psychological, sociological and institutional factors. These factors have been incorporated in the so-called Table of Eleven (T11), a collection of 11 factors that may influence compliance. The developed ABM is based on this T11. The model has been applied on  compliance of pig farmers with antibiotics legislation in the Netherlands, but can also be used for compliance to food safety legislation. It is a first attempt in simulation such compliance behaviour.  Further expansion of the model may be necessary to reflect real-life situations more closely.",
+    "downloadUrl": "https://www.comses.net/codebases/4357/releases/1.1.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "",
+    "copyrightYear": 2015,
+    "datePublished": "2015-12-08",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    }
+}

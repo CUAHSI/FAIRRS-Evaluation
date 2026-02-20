@@ -1,0 +1,93 @@
+{
+    "@id": "https://doi.org/10.25937/a7fz-tw30",
+    "url": "https://doi.org/10.25937/a7fz-tw30",
+    "name": "BHSPopDy (Bighorn sheep population dynamics)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-4651-0116",
+            "@type": "Person",
+            "email": "anyadoc@gmail.com",
+            "givenName": "Aniruddha",
+            "familyName": "Belsare",
+            "affiliation": {
+                "url": "https://cfwe.auburn.edu/",
+                "name": "Auburn University",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "ralong@uidaho.edu",
+            "givenName": "Ryan",
+            "familyName": "Long",
+            "affiliation": {
+                "@id": "https://ror.org/03hbp5t65",
+                "url": "http://www.uidaho.edu/",
+                "name": "University of Idaho",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03hbp5t65"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "frances.cassirer@idfg.idaho.gov",
+            "givenName": "E",
+            "familyName": "Cassirer",
+            "affiliation": {
+                "@id": "https://ror.org/03fcx9267",
+                "url": "https://idfg.idaho.gov/",
+                "name": "Idaho Department of Fish and Game",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03fcx9267"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/a7fz-tw30",
+        "https://doi.org/10.25937/a7fz-tw30"
+    ],
+    "dateCreated": "2019-02-13",
+    "description": "This is an agent-based model coded in NetLogo. The model simulates population dynamics of bighorn sheep population in the Hell's Canyon region of Idaho and will be used to develop a better understanding of pneumonia dynamics in bighorn sheep populations. The overarching objective is to provide a decision-making context for effective management of pneumonia in wild populations of bighorn sheep. ",
+    "downloadUrl": "https://www.comses.net/codebases/7facda08-dbef-4ceb-b069-17b3cd964cee/releases/1.2.0/download/",
+    "dateModified": "2019-11-07",
+    "releaseNotes": " We have updated the age-classes in BHS_POPDY_1.0.2. Also, the user can now specify mortality rates for each age-sex class.\n",
+    "copyrightYear": 2019,
+    "datePublished": "2019-11-05",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "@id": "https://www.comses.net/codebases/60992b0b-8a69-4fd0-9658-cd8b6e2cbb90/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/60992b0b-8a69-4fd0-9658-cd8b6e2cbb90/releases/1.1.0/",
+    "name": "Agent-Based Model for Multiple Team Membership (ABMMTM)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-8012-2272",
+            "@type": "Person",
+            "email": "dr.a.collins@gmail.com",
+            "givenName": "Andrew",
+            "familyName": "Collins",
+            "affiliation": {
+                "@id": "https://ror.org/04zjtrb98",
+                "url": "http://www.odu.edu/#prospective",
+                "name": "Old Dominion University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04zjtrb98"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Grogan, P. T. and O. L. de Weck (2016). \"Collaboration and complexity: an experiment on the effect of multi-actor coupled design.\" Research in Engineering Design 27(3): 221-235.\n\nLapp, S., et al. (2019). \"KABOOM: an agent-based model for simulating cognitive style in team problem solving.\" Design Science 5(E13): 1-34.",
+            "@type": "CreativeWork"
+        },
+        {
+            "text": "N/A",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "computational organization theory",
+        "multi-team member",
+        "multi-team system",
+        "organizational design",
+        "small group"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/60992b0b-8a69-4fd0-9658-cd8b6e2cbb90/releases/1.1.0/",
+    "dateCreated": "2025-04-03",
+    "description": "The Agent-Based Model for Multiple Team Membership (ABMMTM) simulates design teams searching for viable design solutions, for a large design project that requires multiple design teams that are working simultaneously, under different organizational structures; specifically, the impact of multiple team membership (MTM). The key mechanism under study is how individual agent-level decision-making impacts macro-level project performance, specifically, wage cost. Each agent follows a stochastic learning approach, akin to simulated annealing or reinforcement learning, where they iteratively explore potential design solutions. The agent evaluates new solutions based on a random-walk exploration, accepting improvements while rejecting inferior designs. This iterative process simulates real-world problem-solving dynamics where designers refine solutions based on feedback.\n\nAs a proof-of-concept demonstration of assessing the macro-level effects of MTM in organizational design, we developed this agent-based simulation model which was used in a simulation experiment. The scenario is a system design project involving multiple interdependent teams of engineering designers. In this scenario, the required system design is split into three separate but interdependent systems, e.g., the design of a satellite could (trivially) be split into three components: power source, control system, and communication systems; each of three design team is in charge of a design of one of these components. A design team is responsible for ensuring its proposed component\u2019s design meets the design requirement; they are not responsible for the design requirements of the other components. If the design of a given component does not affect the design requirements of the other components, we call this the uncoupled scenario; otherwise, it is a coupled scenario.\n",
+    "downloadUrl": "https://www.comses.net/codebases/60992b0b-8a69-4fd0-9658-cd8b6e2cbb90/releases/1.1.0/download/",
+    "dateModified": "2025-04-03",
+    "releaseNotes": "This is the first release version.",
+    "copyrightYear": 2025,
+    "datePublished": "2025-04-03",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Collins, A. J. and S. Etemadidavan (2022). A Hybrid Model of Multiple Team Membership and Its Impacts on System Design. 2022 Winter Simulation Conference (WSC), IEEE.\n\nEtemadidavan, S., and A. J. Collins, A. J. Agent-Based Model for Multiple Team Membership: Implications for System Design. Working paper."
+}

@@ -1,0 +1,59 @@
+{
+    "@id": "https://www.comses.net/codebases/3915/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/3915/releases/1.0.0/",
+    "name": "Network-Based Trust Games",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1057/",
+            "@type": "Person",
+            "email": "brian.chih@gmail.com",
+            "givenName": "Bin-Tzong",
+            "familyName": "Chie",
+            "affiliation": {
+                "@id": "https://ror.org/04tft4718",
+                "url": "http://english.tku.edu.tw/",
+                "name": "Department of Industrial Economics, Tamkang University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04tft4718"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1057/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3915/releases/1.0.0/",
+    "dateCreated": "2013-08-22",
+    "description": "The original version of the trust game (Berg, Dickhaut, and McCabe, 1995) has three essences: two persons, each person taking one role (either trustor or trustee), and a \ufb01xed multiplier. In our extended version, we consider N persons, each taking a dual role, and a state-dependent multiplier.\r\n\r\nThe network-based trust game is a hybridization of both the repeated trust games and the network games. It is outlined as follows. N agents engage in a repeated trust game with T repetitions (T rounds). In each round, each agent has to make a two-stage decision: networking and investment.",
+    "downloadUrl": "https://www.comses.net/codebases/3915/releases/1.0.0/download/",
+    "dateModified": "2020-04-15",
+    "releaseNotes": "",
+    "copyrightYear": 2020,
+    "datePublished": "2020-04-15",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

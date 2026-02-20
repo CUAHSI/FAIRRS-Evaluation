@@ -1,0 +1,69 @@
+{
+    "@id": "https://www.comses.net/codebases/4525/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/4525/releases/1.1.0/",
+    "name": "02 OamLab V1.10 - Open Atwood Machine Laboratory",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1014/",
+            "@type": "Person",
+            "email": "orrery@rogers.com",
+            "givenName": "Garvin",
+            "familyName": "Boyle",
+            "affiliation": {
+                "url": "http://modeco-software.webs.com",
+                "name": "Retired High School Teacher",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1014/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "atwood's machine",
+        "biophysical economics",
+        "ecological economics",
+        "fourth law of thermodynamics",
+        "maximum power principle",
+        "sustainable economics"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4525/releases/1.1.0/",
+    "dateCreated": "2017-04-13",
+    "description": "In 1922 A.J. Lotka proposed that there was a fundamental phenomenon operating in both ecological and economic systems that caused them to evolve to capture and use energy at the highest rates possible. He identified natural selection as the general causative process. In 1955 H.T. Odum and R.C. Pinkerton expanded on that idea and, using Atwood\u2019s machine as one example, proposed the existence of a principle that could explain the dynamics of open systems of many kinds.\r\nOdum subsequently called that principle the Maximum Power Principle (MPP), and advocated that it be considered the fourth law of thermodynamics. In short, the MPP says (my words) that any system that is non-isolated with respect to energy flows will, through a process of natural selection, evolve such that (a) the system as-a-whole will capture and degrade energy at maximum power (maximum production of entropy); while (b) each component energy transformation will evolve to function at minimum power (minimum production of entropy) but at some intermediate efficiency.  That is, within the system the components transfer still-useful energy at maximum power, while the system as-a-whole degrades that energy at a maximum rate, thereby generating complexity.\r\n\r\nIn a diary note available with this model, I have developed the concept of an abstract Open Atwood\u2019s Machine (OAM) which can be formed into linked chains of OAMs. In a quasi-Darwinian competition for a scarce resource, these chains capture and expend energy, reproduce via fission, mutate, and the fitness of each chain is computed.  The less fit chains are selected out.  The main tenet of the MPP is exhibited: when fitness is based on both time to reproduce and efficiency of energy use, maximum power is achieved at an efficiency of ~62%, and the efficiency of the components of the system (the OAMs) converges to that common value.\r\n\r\nI believe that ABMs offer an excellent class of systems in which the MPP can be studied.",
+    "downloadUrl": "https://www.comses.net/codebases/4525/releases/1.1.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "V1.10 is a more polished version than V1.07.  The included change log provides details.  The most significant change is in method for calculating average efficiency along a chain and across all chains.  New graphs have been added accordingly.  A revised User Document is available.",
+    "copyrightYear": 2017,
+    "datePublished": "2017-04-13",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

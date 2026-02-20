@@ -1,0 +1,59 @@
+{
+    "@id": "https://www.comses.net/codebases/4ec9835f-1d89-4948-82cd-8426c05f2659/releases/2.0.0/",
+    "url": "https://www.comses.net/codebases/4ec9835f-1d89-4948-82cd-8426c05f2659/releases/2.0.0/",
+    "name": "Bayesian Updating Opinion Shared Uncertainty Model.",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-8858-9504",
+            "@type": "Person",
+            "email": "johnathan.adams@hdr.qut.edu.au",
+            "givenName": "Johnathan",
+            "familyName": "Adams"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "2.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "DOI: 10.1088/1742-5468/2009/02/p02017",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "Agent-Based Modelling - Software engineering - Information Systems and Social Networks",
+        "bayesian updating",
+        "dynamics opinion",
+        "MatLab"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4ec9835f-1d89-4948-82cd-8426c05f2659/releases/2.0.0/",
+    "dateCreated": "2020-11-16",
+    "description": "This is an opinion dynamics model which extends the model found in (Martins 2009). The previous model had an unshared uncertainty assumption in agent-to-agent interaction this model relaxes that assumption. The model only supports a fully connect network where every agent has an equal likelihood of interacting with every other agent at any given time step. The model is highly modular so different social network paradigm can easier be implemented.",
+    "downloadUrl": "https://www.comses.net/codebases/4ec9835f-1d89-4948-82cd-8426c05f2659/releases/2.0.0/download/",
+    "dateModified": "2021-05-14",
+    "releaseNotes": "A complete over hall of the core functionality of the model.\n\n* The networks model pairing algorithm is more efficient and can pair more than one agent up if desired\n* Agents will different state values can be created (Can create extreme agent)\n* Streamlined evaluations in agent interaction to be faster\n* Interaction functions for the original martins model are included",
+    "copyrightYear": 2021,
+    "datePublished": "2021-05-14",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "MatLab"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "MatLab",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "@id": "https://www.comses.net/codebases/2791/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/2791/releases/1.0.0/",
+    "name": "FLOSSSim: An Agent-Based Model of the Free/Libre Open Source Software (FLOSS) Development Process",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/235/",
+            "@type": "Person",
+            "email": "radtken@aztecfreenet.org",
+            "givenName": "Nicholas",
+            "familyName": "Radtke",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/235/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://opensource.org/licenses/BSD-2-Clause",
+        "name": "BSD-2-Clause",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "floss",
+        "freelibreopensourcesoftware",
+        "opensourcesoftware"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2791/releases/1.0.0/",
+    "dateCreated": "2011-12-31",
+    "description": "The purpose of FLOSSSim is to gain a better understanding of the Free/Libre Open Source Software (FLOSS) development process through simulation.  In particular, the goals of this model are to:\n\nDemonstrate that it is possible to develop an empirically-grounded agent-based model that can explain historical patterns present in the FLOSS ecosystem.\r\n\r\nGain insight into components of the FLOSS development process, such as how developers select projects and why some projects are successful.\r\n\r\nExplore what it means for a project to be successful in the FLOSS domain.\r\n\r\nDemonstrate that with sufficient calibration, modeling can be used to accurately predict components of the FLOSS ecosystem.\r\n\r\n",
+    "downloadUrl": "https://www.comses.net/codebases/2791/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Mason"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

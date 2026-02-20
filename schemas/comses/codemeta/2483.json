@@ -1,0 +1,57 @@
+{
+    "@id": "https://www.comses.net/codebases/2483/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/2483/releases/1.0.0/",
+    "name": "Firm explore-exploit of knowledge",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/374/",
+            "@type": "Person",
+            "email": "follypoint@gmail.com",
+            "givenName": "Rosanna",
+            "familyName": "Garcia",
+            "affiliation": {
+                "name": "Northeastern Univerity",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/374/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "exploitation",
+        "exploration"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2483/releases/1.0.0/",
+    "dateCreated": "2011-03-28",
+    "description": "The NetLogo Exploration / Exploitation agent-based model has been designed for the observation of how different resource allocation strategies can affect performance and market share in differing consumer markets and competition environments.  The agent-based model approach to the exploration / exploitation dilemma allows for a massively complex model to be developed through relatively simple programming.  This simple agent-based model has 16 settable parameters.  The \u2018Behavior Space\u2019 feature of NetLogo allows the user to map performance and market share in space of all 16 control \u2018dimensions\u2019.  This feature coupled with any statistical package provides for a potentially extremely effective modeling technique for this very complex issue.\r\n\r\nThe NetLogo agent-based modeling tool was chosen because it is easy to program, well documented and available for free download from: http://ccl.northwestern.edu/netlogo/.  It is Java based and thus takes advantage of the programming ease of an interpreted language and the speed of a compiled language.  Any created model can be easily distributed for use without the need of end-users downloading the NetLogo tool itself.\r\n\r\nThis model is not intended to represent any specific market or to validate any existing theory.  It is a \u2018general purpose\u2019 example of how an agent-based model can be used to investigate a complex problem such as the difficulty in the allocation of resources for exploration or exploitation.  It is certainly the goal of agent-based modelers in general that, given a sufficient set of agent rules, any complex system can be modeled or at least accurately mimicked.  The following will be a description of how this model operates along with suggestions as to how it might be set-up, modified or extended to better portray a particular market.",
+    "downloadUrl": "https://www.comses.net/codebases/2483/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    }
+}

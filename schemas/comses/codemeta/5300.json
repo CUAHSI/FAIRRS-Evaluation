@@ -1,0 +1,65 @@
+{
+    "@id": "https://www.comses.net/codebases/5300/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5300/releases/1.0.0/",
+    "name": "ForagerNet3_Demography_V3",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-4419-3903",
+            "@type": "Person",
+            "email": "andy.white.zpm@gmail.com",
+            "givenName": "Andrew",
+            "familyName": "White",
+            "affiliation": {
+                "url": "https://www.isas.illinois.edu/",
+                "name": "Illinois State Archaeological Survey",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-4419-3903",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "demography",
+        "fertility",
+        "hunter-gatherer",
+        "mortality",
+        "paleodemography"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5300/releases/1.0.0/",
+    "dateCreated": "2016-11-29",
+    "description": "\u200bThe FN3D_V3 model has three main levels: person, household, and system.  Inter-related person- and household-level methods represent birth, death, and the creation/dissolution of male-female pair bonds (note: the terms \u201cpair bond\u201d and \u201cmarriage\u201d are used inter-changeably in this description and denote the same behavior in the model).  These methods and their inter-relationships were informed by data from ethnographic hunter-gatherers. \r\n\r\nMany parameters in the model are continuously variable, allowing the model to be used to \u201csweep\u201d through a range of values and observe how differences in parameters are related to model behavior.  The dependency ratio (the ratio of consumers to producers in a household) is a key variable in many economic decisions embedded in the methods.\r\n\r\nThis model is not intended to represent all details of any particular hunter-gatherer system.  The exclusion of extraneous detail is a purposeful strategy to aid in constructing a model whose structure and behavior are understandable.  The representations in the model are generic and broadly applicable to a variety of hunter-gatherer systems.  \r\n\r\nFN3D_V3 is an altered version of the FN3D_V2 model described by White (2014). \r\n\r\nFN3D_V3 was built using Repast Simphony. \r\n\r\nThe documentation provides (1) a description of the representations of time and the entities (persons, households, social links) in the model; (2) a brief overview of the major groups of methods in the model (pair bond, reproduction, and mortality); (3) model-level variables, parameters, and lists; and (4) a detailed description of the \u201crules\u201d and the operations of the model with specific numeric reference to sections of the code.",
+    "downloadUrl": "https://www.comses.net/codebases/5300/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2016,
+    "datePublished": "2016-11-29",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Repast"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "This version of the ForagerNet3_Demography model was used for a paper titled \"The Sensitivity of Demographic Characteristics to the Strength of the Population Stabilizing Mechanism in a Model Hunter-Gatherer System\" in Uncertainty and Sensitivity Analysis in Archaeological Computational Modeling, edited by Marieka Brouwer Burg, Hans Peeters, and William Lovis, pp. 113-130. Switzerland: Springer International."
+}

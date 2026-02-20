@@ -1,0 +1,67 @@
+{
+    "@id": "https://www.comses.net/codebases/9270cbbb-4fe3-4173-8a07-1209fa0e17f8/releases/8.3.0/",
+    "url": "https://www.comses.net/codebases/9270cbbb-4fe3-4173-8a07-1209fa0e17f8/releases/8.3.0/",
+    "name": "GODS: Gossip-Oriented Dilemma Simulator",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-6815-6154",
+            "@type": "Person",
+            "email": "jan.majewski.science@pm.me",
+            "givenName": "Jan",
+            "familyName": "Majewski",
+            "affiliation": {
+                "@id": "https://ror.org/039bjqg32",
+                "url": "http://en.uw.edu.pl/",
+                "name": "University of Warsaw",
+                "@type": "Organization",
+                "identifier": "https://ror.org/039bjqg32"
+            }
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MPL-2.0",
+        "name": "MPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "8.3.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based model (abm)",
+        "cooperation",
+        "evolution",
+        "games",
+        "gossip",
+        "gossip and reputation",
+        "networks",
+        "social dilemma",
+        "social network analysis",
+        "trust"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/9270cbbb-4fe3-4173-8a07-1209fa0e17f8/releases/8.3.0/",
+    "dateCreated": "2025-09-29",
+    "description": "Model of influence of access to social information spread via social network on decisions in a two-person game.",
+    "downloadUrl": "https://www.comses.net/codebases/9270cbbb-4fe3-4173-8a07-1209fa0e17f8/releases/8.3.0/download/",
+    "dateModified": "2025-09-29",
+    "releaseNotes": "Please use BehaviorSpace function (click on Tools and choose from list) to run experiments. As of now, the model has a layered interface that is not easy for custom experimentation - this will change in the near future. Remember to put data files in the same repository as .nlogo file.",
+    "copyrightYear": 2025,
+    "datePublished": "2025-09-29",
+    "embargoEndDate": "2025-10-01",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo 6.2.2"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

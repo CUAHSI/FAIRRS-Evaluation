@@ -1,0 +1,85 @@
+{
+    "@id": "https://www.comses.net/codebases/dadb4b86-f4ce-4701-ae54-bc4110315757/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/dadb4b86-f4ce-4701-ae54-bc4110315757/releases/1.0.0/",
+    "name": "Wildlife-Human Interactions in Shared Landscapes (WHISL)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2051/",
+            "@type": "Person",
+            "email": "andres.baeza@gmail.com",
+            "givenName": "Andres",
+            "familyName": "Baeza-Castro",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1833/",
+            "@type": "Person",
+            "email": "neilcarter@boisestate.edu",
+            "givenName": "Neil",
+            "familyName": "Carter",
+            "affiliation": {
+                "@id": "https://ror.org/02e3zdp86",
+                "url": "https://www.boisestate.edu/",
+                "name": "Boise State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02e3zdp86"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/564/",
+            "@type": "Person",
+            "email": "nrmagliocca@ua.edu",
+            "givenName": "Nicholas",
+            "familyName": "Magliocca",
+            "affiliation": {
+                "@id": "https://ror.org/02qskvh78",
+                "url": "http://www.umbc.edu/",
+                "name": "University of Maryland, Baltimore County",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02qskvh78"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/dadb4b86-f4ce-4701-ae54-bc4110315757/releases/1.0.0/",
+    "dateCreated": "2019-04-19",
+    "description": "This model simulates a group of farmers that have encounters with individuals of a wildlife population. Each farmer owns a set of cells that represent their farm. Each farmer must decide what cells inside their farm will be used to produce an agricultural good that is self in an external market at a given price. The farmer must decide to protect the farm from potential encounters with individuals of the wildlife population. This decision in the model is called \"fencing\". Each time that a cell is fenced, the chances of a wildlife individual to move to that cell is reduced. Each encounter reduces the productive outcome obtained of the affected cell. Farmers, therefore, can reduce the risk of encounters by exclusion. The decision of excluding wildlife is made considering the perception of risk of encounters. In the model, the perception of risk is subjective, as it depends on past encounters and on the perception of risk from other farmers in the community. The community of farmers passes information about this risk perception through a social network. The user (observer) of the model can control the importance of the social network on the individual perception of risk. ",
+    "downloadUrl": "https://www.comses.net/codebases/dadb4b86-f4ce-4701-ae54-bc4110315757/releases/1.0.0/download/",
+    "dateModified": "2020-05-22",
+    "releaseNotes": "Th version of the code was used as part the publication attached. ",
+    "copyrightYear": 2020,
+    "datePublished": "2020-05-22",
+    "codeRepository": "https://github.com/abaezacastro/WHISL",
+    "embargoEndDate": "2020-03-31",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Carter, N.H., Baeza, A. & Magliocca, N.R. (2020). Emergent conservation outcomes of shared risk perception in human-wildlife systems. Conservation Biology. DOI: 10.1111/cobi.13473"
+}

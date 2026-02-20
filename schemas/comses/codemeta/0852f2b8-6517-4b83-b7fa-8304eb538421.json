@@ -1,0 +1,69 @@
+{
+    "@id": "https://www.comses.net/codebases/0852f2b8-6517-4b83-b7fa-8304eb538421/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/0852f2b8-6517-4b83-b7fa-8304eb538421/releases/1.1.0/",
+    "name": "FNNR-ABM",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2467/",
+            "@type": "Person",
+            "email": "jmak@sdsu.edu",
+            "givenName": "Judy",
+            "familyName": "Mak"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "ABM",
+        "agent based",
+        "agent based model",
+        "agent-based model",
+        "agent based model (abm)",
+        "biological models",
+        "demographic processes",
+        "demographics",
+        "grid",
+        "human-environment interactions",
+        "mesa",
+        "movement",
+        "payment for ecosystem services",
+        "payment for ecosystem services",
+        "PES",
+        "Python",
+        "San Diego State University",
+        "visualization"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/0852f2b8-6517-4b83-b7fa-8304eb538421/releases/1.1.0/",
+    "dateCreated": "2019-02-28",
+    "description": "FNNR-ABM is an agent-based model that simulates human activity, Guizhou snub-nosed monkey movement, and GTGP-enrolled land parcel conversion in the Fanjingshan National Nature Reserve in Guizhou, China.\n\nQuick-start guide:\n1. Install Python and set environmental path variables.\n2. Install the mesa, matplotlib (optional), and pyshp (optional) Python libraries.\n3. Configure fnnr_config_file.py.\n4. Run either server.py (for a web-based browser visualization) or graph.py (for generating data outputs).\n5. Analyze the data; more information and documentation on this is available in the model's Github repository at https://github.com/jrmak/FNNR-ABM-Primate.",
+    "downloadUrl": "https://www.comses.net/codebases/0852f2b8-6517-4b83-b7fa-8304eb538421/releases/1.1.0/download/",
+    "dateModified": "2019-12-07",
+    "releaseNotes": "Welcome! This project seeks to understand population demographics and factors affecting the movement of Guizhou snub-nosed (\"golden\") monkeys endemic to the Fanjingshan National Nature Reserve in Guizhou, China. It uses Mesa, a library framework with tools designed to support agent-based modeling in Python 3.X.\n\nAn overview of Mesa can be found at: https://mesa.readthedocs.io/en/master/overview.html A more thorough doc can be found at: https://media.readthedocs.org/pdf/mesa/latest/mesa.pdf\n\nDocumentation for this project--as well as the source code available for download--can be found in the Github repository. Please refer to the User's Manual.\n\nInstructions for Running the Code:\n\n1. Have Python 3.X installed and added to your Windows PATH, as well as the Mesa library (which comes with dependencies such as numpy, pandas, and tornado).\n*****If you have errors running the code, make sure Mesa's edition is 0.8.3, and tornado's edition is 4.5.2.\n\n2. Download the code.\n\n3. Run 'gui.py'. \n\nCheck the model's Github repo for documentation and more information: **https://github.com/jrmak/FNNR-ABM-Primate/**",
+    "copyrightYear": 2019,
+    "datePublished": "2019-12-07",
+    "codeRepository": "https://github.com/jrmak/FNNR-ABM-Primate",
+    "embargoEndDate": "2019-03-02",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "mesa"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

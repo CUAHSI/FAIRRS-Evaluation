@@ -1,0 +1,58 @@
+{
+    "@id": "https://www.comses.net/codebases/2746/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/2746/releases/1.1.0/",
+    "name": "Prisoner's Dilemma Game on Complex Networks with Agents' Adaptive Expectations",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/175/",
+            "@type": "Person",
+            "email": "xianyubo@gmail.com",
+            "givenName": "Bo",
+            "familyName": "Xianyu"
+        },
+        {
+            "@id": "https://www.comses.net/users/175/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "complex networks",
+        "expectations",
+        "gametheory",
+        "prisoners dilemma"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2746/releases/1.1.0/",
+    "dateCreated": "2011-11-16",
+    "description": "The purpose of this model is study the effect of agent expectation on the cooperation emergence on the complex network. As usual, agent play the PDG with his neighboring agents. However, agents make decision according to the expectation of his neighboring agent's strategy. It should be noted that agents are adaptive, that is ,agent will adjust his expectation in the evolution process.  The simulations carried on the BA networks. Through this model, we can study whether cooperation strategy can emerge from the agents' interaction and learning algorithm the effect of expectation adjustment speed and the network degree.\r\n\r\nThe model is programmed in JAVA on the platform of Repast Simphony 1.2.",
+    "downloadUrl": "https://www.comses.net/codebases/2746/releases/1.1.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Repast"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

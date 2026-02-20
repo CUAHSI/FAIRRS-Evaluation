@@ -1,0 +1,86 @@
+{
+    "@id": "https://www.comses.net/codebases/ee347ebc-a692-4136-9e05-491fb044502d/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/ee347ebc-a692-4136-9e05-491fb044502d/releases/1.0.0/",
+    "name": "Retention in Higher Education: An Agent-Based Model of Social Interactions and Motivated Agent Behavior",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-4879-9857",
+            "@type": "Person",
+            "email": "amiraystine@gmail.com",
+            "givenName": "Amira",
+            "familyName": "Al-Khulaidy Stine"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-5034-6654",
+            "@type": "Person",
+            "email": "acrooks77@gmail.com",
+            "givenName": "Andrew",
+            "familyName": "Crooks",
+            "affiliation": {
+                "@id": "https://ror.org/02jqj7156",
+                "url": "https://www.gmu.edu/",
+                "name": "George Mason University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02jqj7156"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-4879-9857",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-4879-9857",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-5034-6654",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based computational model",
+        "agent-based modeling",
+        "complex systems",
+        "environment",
+        "higher education",
+        "NetLogo",
+        "simulation of social networks",
+        "Social Networks"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/ee347ebc-a692-4136-9e05-491fb044502d/releases/1.0.0/",
+    "dateCreated": "2024-06-04",
+    "description": "Educational attainment and student retention in higher education are two of the main focuses of higher education research. Institutions in the U.S. are constantly looking for ways to identify areas of improvement across different aspects of the student experience on university campuses. This paper combines Department of Education data, U.S. Census data, and higher education theory on student retention, to build an agent-based model of student behavior. ",
+    "downloadUrl": "https://www.comses.net/codebases/ee347ebc-a692-4136-9e05-491fb044502d/releases/1.0.0/download/",
+    "dateModified": "2025-09-05",
+    "releaseNotes": "ABM of retention",
+    "copyrightYear": 2024,
+    "datePublished": "2024-10-23",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Netlogo 6.4"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

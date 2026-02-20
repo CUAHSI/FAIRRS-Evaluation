@@ -1,0 +1,84 @@
+{
+    "@id": "https://doi.org/10.25937/6y3b-3k54",
+    "url": "https://doi.org/10.25937/6y3b-3k54",
+    "name": "A Model of Global Diversity and Local Consensus in Status Beliefs",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1147/",
+            "@type": "Person",
+            "email": "grow.andre@gmail.com",
+            "givenName": "Andr\u00e9",
+            "familyName": "Grow"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Andreas",
+            "familyName": "Flache"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Rafael",
+            "familyName": "Wittek"
+        },
+        {
+            "@id": "https://www.comses.net/users/1147/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based computational model",
+        "network clustering",
+        "status beliefs",
+        "status construction theory"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/6y3b-3k54",
+        "https://doi.org/10.25937/6y3b-3k54"
+    ],
+    "dateCreated": "2017-10-25",
+    "description": "Formal models of status construction theory (SCT) suggest that beliefs about the relative social worth and competence of members of different social groups can emerge from face-to-face interactions in task-focused groups and eventually become consensual in large populations. Our model makes it possible to assess how two extensions of existing models, one at the microlevel and one at the macrolevel, affect this outcome. First, our model incorporates the microlevel behavioral assumption of status construction theory that people can become resistant to belief change, when a belief appears consensual in their local social environment. Second, it integrates the insight that the macrolevel social structure of face-to-face interactions in large populations often is a clustered network structure. We suggest that the combination of network clustering at the macrolevel and resistance to belief change at the microlevel can constrain the diffusion of status beliefs and generate regional variation in status beliefs. The model makes it possible to assess whether this implication follows logically from our theoretical argument.",
+    "downloadUrl": "https://www.comses.net/codebases/5493/releases/1.2.0/download/",
+    "dateModified": "2024-12-05",
+    "releaseNotes": "",
+    "copyrightYear": 2017,
+    "datePublished": "2017-10-25",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Grow, Andr\u00e9, Andreas Flache, and Rafael P. M. Wittek. 2017. \u201cGlobal Diversity and Local Consensus in Status Beliefs: The Role of Network Clustering and Resistance to Belief Change.\u201d Sociological Science 4."
+}

@@ -1,0 +1,85 @@
+{
+    "@id": "https://www.comses.net/codebases/3368/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/3368/releases/1.1.0/",
+    "name": "Coupled Housing and Land Markets (CHALMS)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/564/",
+            "@type": "Person",
+            "email": "nrmagliocca@ua.edu",
+            "givenName": "Nicholas",
+            "familyName": "Magliocca",
+            "affiliation": {
+                "@id": "https://ror.org/02qskvh78",
+                "url": "http://www.umbc.edu/",
+                "name": "University of Maryland, Baltimore County",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02qskvh78"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Virginia",
+            "familyName": "Mcconnell"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Margaret",
+            "familyName": "Walls"
+        },
+        {
+            "@id": "https://www.comses.net/users/564/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "housingmarket",
+        "landmarket",
+        "land-use change",
+        "priceexpectations"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3368/releases/1.1.0/",
+    "dateCreated": "2014-10-27",
+    "description": "CHALMS is a spatially disaggregated, economic agent-based model of linked land and housing markets in a stylized, growing ex-urban area. The primary purpose of CHALMS is to explore general theoretical insights into the individual-level processes that drive regional development patterns.Three types of agents\u2014consumer, farmer, and developer\u2014all make decisions based on underlying economic principles, and heterogeneity of both individuals and the landscape is represented. CHALMS simulates the conversion of farmland to housing development over time, through the actions of the agents in the land and housing markets. Land and building structures in the housing bundle are treated explicitly, so the model can represent the effects of land and housing prices on housing density over time. CHALMS is unique among ABMs of land-use for its integration of: 1) microeconomic decision-making rules for consumer, farmer, and developer agents in a spatially explicit framework; 2) representation of heterogeneous agent characteristics and spatial goods (e.g. land productivity and housing sizes and densities); and 3) direct linkages between adaptive price expectations and demand and supply decisions of developer and farmer agents through housing and land markets. A full model description is available in Magliocca et al. (2011), which can be found at http://www.sciencedirect.com/science/article/pii/S0198971511000056 or the lead author's personal website.",
+    "downloadUrl": "https://www.comses.net/codebases/3368/releases/1.1.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "Baseline version with no zoning restrictions implemented.",
+    "copyrightYear": 2014,
+    "datePublished": "2014-10-27",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "MatLab"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    },
+    "referencePublication": "Magliocca, N.R., Safirova, E., McConnell, V., and Walls, M. (2011). An economic agent-based model of coupled housing and land markets (CHALMS). Computers, Environment, and Urban Systems, 35(3): 183-191."
+}

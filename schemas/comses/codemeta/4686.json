@@ -1,0 +1,88 @@
+{
+    "@id": "https://www.comses.net/codebases/4686/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4686/releases/1.0.0/",
+    "name": "A Simplified Model of Voter Turnout",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1576/",
+            "@type": "Person",
+            "email": "luis.fernandezlafuerza@manchester.ac.uk",
+            "givenName": "Luis",
+            "familyName": "Lafuerza"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Louise",
+            "familyName": "Dyson"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-3903-2507",
+            "@type": "Person",
+            "email": "bruce@edmonds.name",
+            "givenName": "Bruce",
+            "familyName": "Edmonds",
+            "affiliation": {
+                "url": "http://mmu.ac.uk",
+                "name": "Centre for Policy Modelling",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "givenName": "Alan",
+            "familyName": "Mckane"
+        },
+        {
+            "@id": "https://www.comses.net/users/1576/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-3903-2507",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4686/releases/1.0.0/",
+    "dateCreated": "2015-07-30",
+    "description": "This is a simplified version of Edmonds, Bruce, Lessard-Phillips, Laurence, Fieldhouse, Ed (2014, October 13). \"A Complex Model of Voter Turnout\" (Version 1). CoMSES Computational Model Library. Retrieved from: https://www.openabm.org/model/4368/version/1, developed to better understand the mechanisms at play on that model.  \r\nIt is a model of social influence in voting. It consists on a population of agents that age, emigrate, immigrate, give birth and die. They are embedded in a social network through which they carry out political conversations that affect their propensity to vote in a series of periodic elections.",
+    "downloadUrl": "https://www.comses.net/codebases/4686/releases/1.0.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "",
+    "copyrightYear": 2015,
+    "datePublished": "2015-07-30",
+    "operatingSystem": "linux",
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "C",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "@id": "https://www.comses.net/codebases/8a567240-f644-4574-9c1d-40f2ee67add0/releases/0.9.1/",
+    "url": "https://www.comses.net/codebases/8a567240-f644-4574-9c1d-40f2ee67add0/releases/0.9.1/",
+    "name": "Simulating the cost of social care in an ageing population",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-0147-6118",
+            "@type": "Person",
+            "email": "thorsilver@gmail.com",
+            "givenName": "Eric",
+            "familyName": "Silverman",
+            "affiliation": {
+                "@id": "https://ror.org/00vtgdb53",
+                "url": "http://www.gla.ac.uk/",
+                "name": "University of Glasgow",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00vtgdb53"
+            }
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "0.9.1",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Silverman, E. , Hilton, J., Noble, J. and Bijak, J. (2013) Simulating the Cost of Social Care in an Ageing Population. In: 27th European Conference on Modelling and Simulation ECMS 2013., Aalesund, Norway, 27-30 May 2013, ISBN 9780956494467 (doi:10.7148/2013-0689)\n\nNoble, J., Silverman, E. , Bijak, J., Rossiter, S., Evandrou, M., Bullock, S., Vlachantoni, A. and Falkingham, J. (2012) Linked lives: The Utility of an Agent-Based Approach to Modeling Partnership and Household Formation in the Context of Social Care. Proceedings of the 2012 Winter Simulation Conference (WSC), 9-12 Dec 2012. pp. 1-12. (doi:10.1109/WSC.2012.6465264)",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "ageing society",
+        "PHASE",
+        "social care"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/8a567240-f644-4574-9c1d-40f2ee67add0/releases/0.9.1/",
+    "dateCreated": "2021-09-16",
+    "description": "This model is an agent-based simulation written in Python 2.7, which simulates the cost of social care in an ageing UK population.  The simulation incorporates processes of population change which affect the demand for and supply of social care, including health status, partnership formation, fertility and mortality.  Fertility and mortality rates are drawn from UK population data, then projected forward to 2050 using the methods developed by Lee and Carter 1992.  \n\nThe model demonstrates that rising life expectancy combined with lower birthrates leads to growing social care costs across the population.  More surprisingly, the model shows that the oft-proposed intervention of raising the retirement age has limited utility; some reductions in costs are attained initially, but these reductions taper off beyond age 70.  Subsequent work has enhanced and extended this model by adding more detail to agent behaviours and familial relationships.\n\nThe version of the model provided here produces outputs in a format compatible with the GEM-SA uncertainty quantification software by Kennedy and O'Hagan.  This allows sensitivity analyses to be performed using Gaussian Process Emulation.",
+    "downloadUrl": "https://www.comses.net/codebases/8a567240-f644-4574-9c1d-40f2ee67add0/releases/0.9.1/download/",
+    "dateModified": "2021-09-16",
+    "releaseNotes": "This latest release reformats simulation outputs for use with the GEM-SA uncertainty quantification software (http://www.tonyohagan.co.uk/academic/GEM/).",
+    "copyrightYear": 2021,
+    "datePublished": "2021-09-16",
+    "codeRepository": "https://github.com/thorsilver/Social-Care-ABM-for-UQ",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "None"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "http://dx.doi.org/10.7148/2013-0689"
+}

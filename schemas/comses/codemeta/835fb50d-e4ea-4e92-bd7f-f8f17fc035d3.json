@@ -1,0 +1,55 @@
+{
+    "@id": "https://doi.org/10.25937/v8n4-rr69",
+    "url": "https://doi.org/10.25937/v8n4-rr69",
+    "name": "Theoretical Model of Oak Persistence Under Competition and Herbivory",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1957/",
+            "@type": "Person",
+            "email": "mveitzel@gmail.com",
+            "givenName": "MV",
+            "familyName": "Eitzel Solera",
+            "affiliation": {
+                "url": "https://education.ucdavis.edu/center-community-and-citizen-science",
+                "name": "Center for Community and Citizen Science & Feminist Research Institute, University of California, Davis",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc/4.0",
+        "name": "CC-BY-NC-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/v8n4-rr69",
+        "https://doi.org/10.25937/v8n4-rr69"
+    ],
+    "dateCreated": "2022-09-26",
+    "description": "This model is intended to support oak tree management by representing the dynamics of oaks in multiple life stages and their competitors and consumers.  This is implemented using a differential equation-based theoretical model representing three life stages of oaks: seedlings, juveniles, and adults.  It includes the population dynamics of seedlings transitioning to juveniles, juveniles to adults, and adults producing new seedlings, as well as survival rates for each of the stages.  It also includes a model of competition for light and water within seedlings and between seedlings and annual grasses.  Finally, there is a predation term representing herbivores eating seedlings and grasses, using a Holling Type II (satiating) response with interference for predators and a death rate which depends on the resource extraction rate.",
+    "downloadUrl": "https://www.comses.net/codebases/835fb50d-e4ea-4e92-bd7f-f8f17fc035d3/releases/1.0.0/download/",
+    "dateModified": "2022-10-25",
+    "releaseNotes": "The initial release includes the conference paper based on the model, the R code implementing and exploring the model, some additional results tables, and a set of 10,000 runs of the sensitivity analysis that underlies the results given in the paper.  Note that the parameters in this version of the model are abstract, and future work/releases could involve calibrating them to experimental/field data to improve the model's usefulness for management planning of oaks.\n\nThis model should run without problems on either Windows or Linux (Ubuntu).",
+    "copyrightYear": 2022,
+    "datePublished": "2022-10-25",
+    "operatingSystem": "linux",
+    "runtimePlatform": [
+        "#R"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "#R",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

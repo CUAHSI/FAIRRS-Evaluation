@@ -1,0 +1,52 @@
+{
+    "@id": "https://www.comses.net/codebases/62b474c3-9247-4265-88d7-ea7472d5e1ab/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/62b474c3-9247-4265-88d7-ea7472d5e1ab/releases/1.0.0/",
+    "name": "DARTS: an agent-based model of the global food system for studying its resilience to shocks",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/3925/",
+            "@type": "Person",
+            "email": "hubert.fonteijn@wur.nl",
+            "givenName": "Hubert",
+            "familyName": "Fonteijn"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-nd/4.0",
+        "name": "CC-BY-NC-ND-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "food security",
+        "resilience",
+        "trade networks"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/62b474c3-9247-4265-88d7-ea7472d5e1ab/releases/1.0.0/",
+    "dateCreated": "2023-04-13",
+    "description": "DARTS simulates food systems in which agents produce, consume and trade food. Here, food is a summary item that roughly corresponds to commodity food types (e.g. rice). No other food types are taken into account. Each food system (World) consists of its own distribution of agents, regions and connections between agents. Agents differ in their ability to produce food, earn off-farm income and trade food. The agents aim to satisfy their food requirements (which are fixed and equal across agents) by either their own food production or by food purchases. Each simulation step represents one month, in which agents can produce (if they have productive capacity and it is a harvest month for their region), earn off-farm income, trade food (both buy and sell) and consume food. We evaluate the performance of the food system by averaging the agents\u2019 food satisfaction, which is defined as the ratio of the food consumed by each agent at the end of each month divided by her food requirement. At each step, any of the abovementioned attributes related to the agents\u2019 ability to satisfy their food requirement can (temporarily) be shocked. These shocks include reducing the amount of food they produce, removing their ability to trade locally or internationally and reducing their cash savings. Food satisfaction is quantified (both immediately after the shock and in the year following the shock) to evaluate food security of a particular food system, both at the level of agent types (e.g. the urban poor and the rural poor) and at the systems level. Thus, the effects of shocks on food security can be related to the food system\u2019s structure. ",
+    "downloadUrl": "https://www.comses.net/codebases/62b474c3-9247-4265-88d7-ea7472d5e1ab/releases/1.0.0/download/",
+    "dateModified": "2023-11-22",
+    "releaseNotes": "This is version 1.0.0 of the DARTS model.",
+    "copyrightYear": 2023,
+    "datePublished": "2023-11-22",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo 6.2.0"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo 6.2.0",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

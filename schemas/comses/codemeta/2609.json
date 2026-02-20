@@ -1,0 +1,66 @@
+{
+    "@id": "https://www.comses.net/codebases/2609/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/2609/releases/1.1.0/",
+    "name": "(Policy induced) Diffusion of Innovations - An integrated demand-supply Model based on Cournot Competition",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/634/",
+            "@type": "Person",
+            "email": "martin.rixen@whu.edu",
+            "givenName": "Martin",
+            "familyName": "Rixin"
+        },
+        {
+            "@id": "https://www.comses.net/users/634/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "competitive dynamics",
+        "cournot",
+        "epidemic",
+        "induced diffusion",
+        "innovation adoption",
+        "innovation diffusion",
+        "liberalization",
+        "market entry",
+        "market exit",
+        "policy",
+        "probit",
+        "product diffusion"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2609/releases/1.1.0/",
+    "dateCreated": "2011-09-19",
+    "description": "HD Video: http://www.youtube.com/watch?v=9jNTl7TloLM\nThe model integrates both demand and supply in a single model. The underlying demand function is the crucial element that links both sides. It is determined by consumer\u00b4s learning status, the awareness for the new technology, and consumer\u00b4s individual price thresholds, their willingness-to-pay. Diffusion proceeds in our model, if interactions distribute awareness (Epidemic effect) and rivalry reduces the market price (Probit effect). Endogeneity is given due to the fact that consumer awareness as well as their willingness-to-pay drives supply-side rivalry. Vice versa, rivalry determines pricing and therefore consumer adoption and awareness. Market entry and exit decisions as well as quantity and price settings are driven by the underlying demand function. We utilize Cournot competition to calculate competitive dynamics. Suppliers compete on the quantity of output they will produce. Firms ...produce a homogeneous product, there is no product differentiation.do not cooperate, there is no collusion.have market power, each output decision affects market price.define their output quantity simultaneously.try to maximize profits.have the same prerequisites, e.g. cost structures (variable and fixed costs).12 sub-processes sequentially divide the simulation procedure. Policy outcomes are evaluated in terms of effectiveness and efficiency. Effectiveness is primarily measured via acceleration (adoption-speed) and saturation effects (adoption-level). An effective policy initiates consumers to adopt earlier and/or induces consumers to adopt who would not adopt without the intervention(s). On the contrary, efficiency measures the trade-off between policy effectiveness and associated costs. For instance, policies may boost adoption-speed and -level remarkably, but produce extraordinary additional costs. Direct policy costs (e.g. monetary grant) as well as welfare effects in terms of consumer surplus and supplier surplus are evaluated.",
+    "downloadUrl": "https://www.comses.net/codebases/2609/releases/1.1.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

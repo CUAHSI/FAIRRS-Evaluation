@@ -1,0 +1,65 @@
+{
+    "@id": "https://www.comses.net/codebases/d57eded8-0513-43a1-9842-7a8404c32472/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/d57eded8-0513-43a1-9842-7a8404c32472/releases/1.0.0/",
+    "name": "Geographic Expansion Model (GEM)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-9576-7914",
+            "@type": "Person",
+            "email": "sean.bergin@asu.edu",
+            "givenName": "Sean",
+            "familyName": "Bergin",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "School of Complex Adaptive Systems, Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Bergin, Sean (2020, In Review). The Essential Geography of the Impresso-Cardial Spread: the development and application of a chronosurface to the spread of agriculture in the west Mediterranean. In Simulating the Transition to Agriculture and Its Ecological and Cultural Consequences, edited by Sean M. Bergin and Salvador Pardo-Gord\u00f3. Springer, New York.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "archaeological computing",
+        "human migration",
+        "neolithic"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/d57eded8-0513-43a1-9842-7a8404c32472/releases/1.0.0/",
+    "dateCreated": "2020-02-28",
+    "description": "The purpose of this model is to explore the importance of geographic factors to the settlement choices of early Neolithic agriculturalists. In the model, each agriculturalist spreads to one of the best locations within a modeler specified radius. The best location is determined by choosing either one factor such as elevation or slope; or by ranking geographic factors in order of importance.",
+    "downloadUrl": "https://www.comses.net/codebases/d57eded8-0513-43a1-9842-7a8404c32472/releases/1.0.0/download/",
+    "dateModified": "2020-02-28",
+    "releaseNotes": "The model uses GIS files that are located in a folder called maps and data. Also included, is a raster, gis file, that as used to evaluate the results from the model. An excel file contains the Neolithic sites used to create the chronosurface.",
+    "copyrightYear": 2020,
+    "datePublished": "2020-02-28",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

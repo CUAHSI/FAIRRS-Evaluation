@@ -1,0 +1,72 @@
+{
+    "@id": "https://doi.org/10.25937/mvxh-kk58",
+    "url": "https://doi.org/10.25937/mvxh-kk58",
+    "name": "Simple Coastal Exploitation in the American Samoa",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1305/",
+            "@type": "Person",
+            "email": "chloe.atwater@asu.edu",
+            "givenName": "Chloe",
+            "familyName": "Atwater",
+            "affiliation": {
+                "@id": "https://ror.org/05rrcem69",
+                "url": "http://ucdavis.edu/",
+                "name": "UC Davis",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05rrcem69"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1305/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Morrison, Alex E., and David J. Addison. \"Assessing the role of climate change and human predation on marine resources at the Fatu\u2010ma\u2010Futi site, Tutuila Island, American Samoa: an agent based model.\" Archaeology in Oceania 43.1 (2008): 22-34.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "coastal exploitation",
+        "optimal foraging theory"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/mvxh-kk58",
+        "https://doi.org/10.25937/mvxh-kk58"
+    ],
+    "dateCreated": "2014-11-05",
+    "description": "This purpose of this model is to distinguish between anthropogenic and climate-driven patterns of shellfish exploitation over the last 1500 years at Tutuila Island, American Samoa. The model employs optimal foraging theory principles to generate predictions of which habitats are exploited in climatically stable versus variable environments. Results imply that the radius of foragers' ability to sense the quality of their environment determines which habitats they spend most of their time in. These predictions are applied to archaeological data excavated from the Fatu-Ma-Futi site to infer which habitats humans who created these archaeological sites were exploiting over time (Morrison and Addison 2008).",
+    "downloadUrl": "https://www.comses.net/codebases/4409/releases/1.0.0/download/",
+    "dateModified": "2024-12-05",
+    "releaseNotes": "",
+    "copyrightYear": 2014,
+    "datePublished": "2014-11-05",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

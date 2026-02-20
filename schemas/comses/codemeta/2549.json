@@ -1,0 +1,63 @@
+{
+    "@id": "https://www.comses.net/codebases/2549/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/2549/releases/1.0.0/",
+    "name": "A model of groundwater usage by farmers in the Upper Guadiana, Spain",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/614/",
+            "@type": "Person",
+            "email": "gholtz@uos.de",
+            "givenName": "Georg",
+            "familyName": "Holtz",
+            "affiliation": {
+                "url": "http://www.usf.uos.de",
+                "name": "Institute of Environmental Systems Research",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/614/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agentbasedmodel",
+        "agriculture",
+        "farms",
+        "groundwater"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2549/releases/1.0.0/",
+    "dateCreated": "2011-06-30",
+    "description": "An agent-based model to investigate the history of irrigated agriculture in the\r\nUpper Guadiana Basin, Spain, in order to learn about the influence of farmers' characteristics (inter alia profit orientation, risk aversion, skills, available labour force and farm size) on land-use change and associated groundwater over-use in this region. \r\n\r\nThe model has been published as Georg Holtz and Claudia Pahl-Wostl, \"An agent-based model of groundwater over-exploitation in the Upper Guadiana,Spain\", Reg Environ Change\r\nDOI 10.1007/s10113-011-0238-5\r\n\r\nSee ODD protocol for a complete description.",
+    "downloadUrl": "https://www.comses.net/codebases/2549/releases/1.0.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Repast"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

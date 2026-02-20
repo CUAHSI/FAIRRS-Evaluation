@@ -1,0 +1,77 @@
+{
+    "@id": "https://www.comses.net/codebases/1adc39e5-344c-428c-9a20-fd53d791709b/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/1adc39e5-344c-428c-9a20-fd53d791709b/releases/1.1.0/",
+    "name": "Homophily as a process generating social networks: insights from Social Distance Attachment model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-2699-2856",
+            "@type": "Person",
+            "email": "stalaga@protonmail.com",
+            "givenName": "Szymon",
+            "familyName": "Talaga",
+            "affiliation": {
+                "url": "http://iss.uw.edu.pl",
+                "name": "The Robert Zajonc Institute for Social Studies",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "andrzejn232@gmail.com",
+            "givenName": "Andrzej",
+            "familyName": "Nowak",
+            "affiliation": {
+                "@id": "https://ror.org/039bjqg32",
+                "url": "http://en.uw.edu.pl/",
+                "name": "University of Warsaw",
+                "@type": "Organization",
+                "identifier": "https://ror.org/039bjqg32"
+            }
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "network science",
+        "social network",
+        "sociology"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/1adc39e5-344c-428c-9a20-fd53d791709b/releases/1.1.0/",
+    "dateCreated": "2019-07-16",
+    "description": "This is code repository for the paper \"Homophily as a process generating social networks: insights from Social Distance Attachment model\".\nIt provides all information, code and data necessary to replicate all the simulations and analyses presented in the paper.\nThis document contains the overall instruction as well as description of the content of the repository.\nDetails regarding particular stages are documented within source files as comments.",
+    "downloadUrl": "https://www.comses.net/codebases/1adc39e5-344c-428c-9a20-fd53d791709b/releases/1.1.0/download/",
+    "dateModified": "2019-09-17",
+    "releaseNotes": "The second release. Documented in the `README` file.",
+    "copyrightYear": 2019,
+    "datePublished": "2019-09-17",
+    "codeRepository": "https://github.com/sztal/sda-model",
+    "embargoEndDate": "2020-01-01",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Information Systems and Social Networks"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "R",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

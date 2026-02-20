@@ -1,0 +1,79 @@
+{
+    "@id": "https://www.comses.net/codebases/6c2286dd-5a23-4658-bbb0-47af6c686f7b/releases/2.0.0/",
+    "url": "https://www.comses.net/codebases/6c2286dd-5a23-4658-bbb0-47af6c686f7b/releases/2.0.0/",
+    "name": "Pedestrian Scramble",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/3386/",
+            "@type": "Person",
+            "email": "z1916658@students.niu.edu",
+            "givenName": "Sho",
+            "familyName": "Takami",
+            "affiliation": {
+                "@id": "https://ror.org/012wxa772",
+                "url": "http://www.niu.edu/index.shtml",
+                "name": "Northern Illinois University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/012wxa772"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/3386/",
+            "@type": "Role",
+            "roleName": "publisher"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "2.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "McMahon, M. (2024, May 23). What is a Pedestrian Scramble? WikiMotors. https://www.wikimotors.org/what-is-the-pedestrian-scramble.html\n\nRasmussen, L. and Wilensky, U. (2019). NetLogo Braess Paradox model. http://ccl.northwestern.edu/netlogo/models/BraessParadox. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.\n\nRyota. (2023, June 12). Shibuya Crossing (Shibuya Scramble Crossing). Traveling Japan. https://www.travelingjapan.net/tokyo/shibuya-crossing/\n\nTakami, Sho, \"Estimating Pedestrian Crossing Times at Scramble Crossings via Machine Learning and Agent-Based Modeling\" (2025). CURE Proceedings. 18. https://huskiecommons.lib.niu.edu/studentengagement-cureposters/18\n\nTakami, Sho, \"Estimating Pedestrian Crossing Times at Scramble Crossings via Machine Learning and Agent-Based Modeling\" (2025). Honors Capstones. 1561. https://huskiecommons.lib.niu.edu/studentengagement-honorscapstones/1561\n\nWilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.",
+            "@type": "CreativeWork"
+        },
+        {
+            "text": "Inspired by the Braess Paradox model in NetLogo.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "pedestrian dynamics",
+        "pedestrian modeling"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/6c2286dd-5a23-4658-bbb0-47af6c686f7b/releases/2.0.0/",
+    "dateCreated": "2024-12-23",
+    "description": "This is a model intended to demonstrate the function of scramble crossings and a more efficient flow of pedestrian traffic with the presence of diagonal crosswalks.",
+    "downloadUrl": "https://www.comses.net/codebases/6c2286dd-5a23-4658-bbb0-47af6c686f7b/releases/2.0.0/download/",
+    "dateModified": "2025-06-10",
+    "releaseNotes": "v2.0.0 serves as the full release of the Pedestrian Scramble model. This expands on v1.0.0 of the model by addressing a few major items from the \"EXTENDING THE MODEL\" section in the narrative documentation, like the ability for agents to change between walking types and the presence of intermediate travelling when the diagonals are enabled. While I do list one more way to extend the model further, your input on other ways to improve is much appreciated! ",
+    "copyrightYear": 2025,
+    "datePublished": "2025-06-10",
+    "embargoEndDate": "2025-06-11",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo 6.3.0"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo 6.3.0",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "scala",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Takami, Sho, \"Estimating Pedestrian Crossing Times at Scramble Crossings via Machine Learning and Agent-Based Modeling\" (2025). CURE Proceedings. 18. https://huskiecommons.lib.niu.edu/studentengagement-cureposters/18\n\nTakami, Sho, \"Estimating Pedestrian Crossing Times at Scramble Crossings via Machine Learning and Agent-Based Modeling\" (2025). Honors Capstones. 1561. https://huskiecommons.lib.niu.edu/studentengagement-honorscapstones/1561"
+}

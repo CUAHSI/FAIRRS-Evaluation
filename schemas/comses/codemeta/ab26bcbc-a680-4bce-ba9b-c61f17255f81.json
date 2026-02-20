@@ -1,0 +1,63 @@
+{
+    "@id": "https://doi.org/10.25937/y4s3-m411",
+    "url": "https://doi.org/10.25937/y4s3-m411",
+    "name": "Street Dog Sim - An agent based model for investigating strategies of free roaming dog control.",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-4917-0804",
+            "@type": "Person",
+            "email": "yoak1@otterbein.edu",
+            "givenName": "Andrew",
+            "familyName": "Calinger-yoak",
+            "affiliation": {
+                "url": "https://www.otterbein.edu/",
+                "name": "Otterbein University",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent based",
+        "NetLogo",
+        "NetLogo 6.2.2",
+        "population dynamics"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/y4s3-m411",
+        "https://doi.org/10.25937/y4s3-m411"
+    ],
+    "dateCreated": "2023-05-29",
+    "description": "This is an agent-based model constructed in Netlogo v6.2.2 which seeks to provide a simple but flexible tool for researchers and dog-population managers to help inform management decisions. \n\nIt replicates the basic demographic processes including:\n* reproduction\n* natural death\n* dispersal\n* carrying capacities\n\nAnd enables modification of the system through several management schemes:\n* vaccination\n* sterilization\n* lethal culling\n",
+    "downloadUrl": "https://www.comses.net/codebases/ab26bcbc-a680-4bce-ba9b-c61f17255f81/releases/1.1.0/download/",
+    "dateModified": "2024-12-05",
+    "releaseNotes": "This is the first public version. ",
+    "copyrightYear": 2023,
+    "datePublished": "2023-07-19",
+    "embargoEndDate": "2023-09-02",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo",
+        "NetLogo 6.2.2"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

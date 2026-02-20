@@ -1,0 +1,55 @@
+{
+    "@id": "https://www.comses.net/codebases/2717/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/2717/releases/1.0.0/",
+    "name": "Spatiotemporal Visualization of Emotional and Emotional-related Mental States",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/669/",
+            "@type": "Person",
+            "email": "macedo@dei.uc.pt",
+            "givenName": "Luis",
+            "familyName": "Macedo"
+        },
+        {
+            "@id": "https://www.comses.net/users/669/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "emotion and motivation",
+        "jadex",
+        "qt",
+        "visualization"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2717/releases/1.0.0/",
+    "dateCreated": "2011-11-07",
+    "description": "A system that receives from an agent-based social simulation the agent\u2019s emotional data (type of emotion and intensity), their emotional-related data such as motivations and beliefs, as well as their location, and allows the visualization of all this information in a two dimensional map of the geographic region the agents inhabit as well as on graphs along the time dimension. We argue that by gathering and visualizing this emotional data, an agent-based simulation system becomes more informative as it takes advantage of the informational function of the emotions resulting from the interaction between the agents and between these and the environment they inhabit. In order to illustrate the use of the system, we include an agent-based simulation system that we developed in the JADEX platform in which each agent exhibits an emotional module that relies on the belief-desire theory of emotion. We illustrate the informativeness of the visualization system with simulations of a simple emergency situation.",
+    "downloadUrl": "https://www.comses.net/codebases/2717/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "windows",
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

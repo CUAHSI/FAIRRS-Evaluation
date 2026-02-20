@@ -1,0 +1,66 @@
+{
+    "@id": "https://www.comses.net/codebases/5051/releases/1.2.1/",
+    "url": "https://www.comses.net/codebases/5051/releases/1.2.1/",
+    "name": "Evolution of Sex",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-4878-7477",
+            "@type": "Person",
+            "email": "crou0048@umn.edu",
+            "givenName": "Kristin",
+            "familyName": "Crouse",
+            "affiliation": {
+                "@id": "https://ror.org/017zqws13",
+                "url": "http://twin-cities.umn.edu/",
+                "name": "University of Minnesota",
+                "@type": "Organization",
+                "identifier": "https://ror.org/017zqws13"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-4878-7477",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.html",
+        "name": "Apache-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.1",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "evolution",
+        "parasites",
+        "red queen hypothesis",
+        "sex"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5051/releases/1.2.1/",
+    "dateCreated": "2026-02-18",
+    "description": "Evolution of Sex is a NetLogo model that illustrates the advantages and disadvantages of sexual and asexual reproductive strategies. It seeks to demonstrate the answer to the question: \u201cWhy do we have sex?\u201d After all, wouldn\u2019t it be a better strategy to simply clone yourself? There are many advantages to asexual reproduction:\n\n- Your offspring possess all of your own genetic material.\n- You get to make a copy of 100% of your genes.\n- You don\u2019t have to worry about finding a mate.\n\nConversely, there are many disadvantages to sexual reproduction:\n\n- You have to share your genetic material with an unrelated individual.\n- You get to make a copy of only 50% of your genes.\n- You have to expend time and energy looking for and obtaining a mate.\n\nFrom this, it may seem like sexual reproduction is an evolutionary puzzle as it appears too costly to ever be advantageous. However, as this model shows, under certain conditions, a sexual reproductive strategy can win out over an asexual strategy. By introducing parasites to the environment, it creates a selective pressure that makes it more advantageous NOT to simply make a clone of yourself! The reason is simple: if a parasite can infect you, it can also infect all of your clones. However, if your offspring only obtain 50% of their genetic material from you, they are less likely to be susceptible to the same parasite that can infect you. Sexual reproducers are able to mix their genetic material in ways that produce new combinations that parasites have not yet evolved to attack. In short, in the arms race between the hosts and the parasites, sexually reproducing hosts are able to keep up much better than asexually reproducing hosts can.",
+    "downloadUrl": "https://www.comses.net/codebases/5051/releases/1.2.1/download/",
+    "dateModified": "2026-02-18",
+    "releaseNotes": "# Evolution of Sex \u2013 Release Notes  \n## Version 1.2.1\n\nThis patch release includes three behavioral refinements:\n\n### 1. Spatially Enforced Mating\nSexual reproduction now strictly enforces spatial constraints. Females can only mate with males located within the specified `sexual-mating-radius`. \n\n### 2. Hard Carrying Capacity Cap\nSnail population size is now capped at `snail-carrying-capacity` after reproduction each tick. Density-dependent fertility remains in place, but excess individuals are removed if the population exceeds carrying capacity. This prevents runaway growth in parasite-free environments while preserving ongoing turnover.\n\n### 3. Exact Initial Sexual Ratio\nThe parameter `initial-percent-sexual` now produces an exact initial ratio (subject to rounding) of sexual and asexual Snails at setup. Previous versions used probabilistic assignment, which produced binomial variation around the target percentage.\n\nNo other model logic or parameters were changed.\n",
+    "copyrightYear": 2026,
+    "datePublished": "2026-02-18",
+    "codeRepository": "https://github.com/kncrouse/EvolutionOfSex",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

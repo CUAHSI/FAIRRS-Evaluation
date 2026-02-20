@@ -1,0 +1,64 @@
+{
+    "@id": "https://www.comses.net/codebases/251b6bf1-d1bb-47a8-b97d-f56877b86d4d/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/251b6bf1-d1bb-47a8-b97d-f56877b86d4d/releases/1.0.0/",
+    "name": "ICARUS - a multi-agent compliance inspection model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-6669-0188",
+            "@type": "Person",
+            "email": "slaven.smojver@gmail.com",
+            "givenName": "Slaven",
+            "familyName": "Smojver"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc/4.0",
+        "name": "CC-BY-NC-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Smojver, Slaven, doctoral dissertation (in Croatian): \"Vi\u0161eagentni model centralno koordinirane inspekcije uskla\u0111enosti\", 2018, https://urn.nsk.hr/urn:nbn:hr:211:152377\n\nSmojver, Slaven: \"INSPECTING COMPLIANCE TO MANY RULES: AN AGENT-BASED MODEL\", \nINDECS 14(3), 277-295, 2016, https://doi.org/10.7906/indecs.14.3.1",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "#compliance",
+        "game theory",
+        "inspection",
+        "inspection strategy",
+        "NetLogo",
+        "norm violation",
+        "regulatory compliance"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/251b6bf1-d1bb-47a8-b97d-f56877b86d4d/releases/1.0.0/",
+    "dateCreated": "2022-05-09",
+    "description": "ICARUS is a multi-agent compliance inspection model (ICARUS - Inspecting Compliance to mAny RUleS). The model is applicable to environments where an inspection agency, via centrally coordinated inspections, examines compliance in organizations which must comply with multiple provisions (rules). The model (ICARUS) contains 3 types of agents: entities, inspection agency and inspectors / inspections. ICARUS describes a repeated, simultaneous, non-cooperative game of pure competition. Agents have imperfect, incomplete, asymmetric information. Entities in each move (tick) choose a pure strategy (comply/violate) for each rule, depending on their own subjective assessment of the probability of the inspection. The Inspection Agency carries out the given inspection strategy.\n\nA more detailed description of the model is available in the .nlogo file.\nFull description of the model (in line with the ODD+D protocol) and the analysis of the model (including verification, validation and sensitivity analysis) can be found in the attached documentation.",
+    "downloadUrl": "https://www.comses.net/codebases/251b6bf1-d1bb-47a8-b97d-f56877b86d4d/releases/1.0.0/download/",
+    "dateModified": "2022-05-09",
+    "releaseNotes": "ICARUS is was developed in NetLogo 5.3.1 (download: https://ccl.northwestern.edu/netlogo/5.3.1/). This is the first version of the model. (V.1.0.0). The model can be automatically migrated to NetLogo v. 6.x\n",
+    "copyrightYear": 2022,
+    "datePublished": "2022-05-09",
+    "codeRepository": "https://github.com/ssmojver/DS",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Smojver, Slaven: \"Multi-Agent Model of Centrally Coordinated Compliance Inspections (ICARUS)\" (October 25, 2018). Available at SSRN: https://ssrn.com/abstract=4019714"
+}

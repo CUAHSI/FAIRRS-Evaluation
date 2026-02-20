@@ -1,0 +1,58 @@
+{
+    "@id": "https://www.comses.net/codebases/2623/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/2623/releases/1.0.0/",
+    "name": "The Evolution of Multiple Resistant Strains: An Abstract Model of Systemic Treatment and Accumulated Resistance",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/641/",
+            "@type": "Person",
+            "email": "benjamid@seas.upenn.edu",
+            "givenName": "Benjamin",
+            "familyName": "Nye"
+        },
+        {
+            "@id": "https://www.comses.net/users/641/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "adaption",
+        "agent-based model",
+        "evolution",
+        "resistance"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2623/releases/1.0.0/",
+    "dateCreated": "2011-08-31",
+    "description": "This model is intended to explore the effectiveness of different courses of interventions on an abstract population of infections.  Illustrative findings highlight the importance of the mechanisms for variability and mutation on the effectiveness of different interventions.  The results of these simulations have parallels in public health research on drug resistant strains and trends in criminal activity.  Simulation was performed using the PS-I cellular automata system.\r\n\r\nFor those who are familiar with PS-I, his model is a departure from the traditional usage of the PS-I agent-based model, for those who are familiar with this software.  Rather than using the repertoire system to manage and represent political identities, the system has been adapted to store and update resistances against systemic treatments that are intended to remove certain agents from the system.\r\n\r\nThe model design is an agent-based model, represented as simple agents on a 2-D toroid cellular automata grid.  This grid updates using discrete update steps.  Agents can be either healthy (desirable) or infections (undesirable).  Infections have an additional set of properties that designate the treatments that they are resistant to.  A treatment is represented by a system-wide setting that makes all unresistant infections more likely to die out on any given step.  Initially, all infections have no resistances.  However, the resistances for any given infection agent undergo random variation at any given time by either a random walk or purely random paradigm (also a system-wide flag).  This random variation allows the infections to evolve in response to the selection pressure applied by the treatments active in the model.\r\n\r\nThe goal of this model is to explore the effectiveness of different interventions on controlling the infection population and resistances.  In this model, an intervention refers to the vector of treatments over time.  This allows testing interventions such as overkill treatment (multiple different treatments simultaneously), cycling treatments (alternating between treatments), or inconsistent treatment (alternating one or more treatments with no treatment).  This allows the model to work at an abstract level to look at the impact of these treatments on the resistances that are prevalent in the infection population.\r\n\r\nIn addition to including the model file, this model also comes accompanied by a script that allows running one of ten different types of interventions (e.g. two treatment overkill, 3 treatment cycling, etc).  It also includes the results from 100 runs under each treatment type that all start from the same set of 100 initial states.",
+    "downloadUrl": "https://www.comses.net/codebases/2623/releases/1.0.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "Last run on PS-I version 5.  PS-I is built on C, but also utilizes TCL scripting for GUI components and to apply scripting to model runs in progress.",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "ps-i v5"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "C",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

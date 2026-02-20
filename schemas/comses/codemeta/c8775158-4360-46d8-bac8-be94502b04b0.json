@@ -1,0 +1,76 @@
+{
+    "@id": "https://doi.org/10.25937/baja-9n58",
+    "url": "https://doi.org/10.25937/baja-9n58",
+    "name": "PolicySpace2: modeling markets and endogenous public policies",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-1545-8490",
+            "@type": "Person",
+            "email": "bernardo.furtado@ipea.gov.br",
+            "givenName": "Bernardo",
+            "familyName": "Furtado",
+            "affiliation": {
+                "@id": "https://ror.org/013wyvt46",
+                "url": "http://www.iaw.edu/",
+                "name": "Institute for Applied Economic Research",
+                "@type": "Organization",
+                "identifier": "https://ror.org/013wyvt46"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Furtado, Bernardo Alves (2018). PolicySpace: agent-based modeling Publisher: Ipea, Bras\u00edlia. ISBN: 978-85-7811-326-1",
+            "@type": "CreativeWork"
+        },
+        {
+            "text": "Extensive adaptation of PolicySpace",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "agent-based model",
+        "agent based modeling and simulation",
+        "Housing",
+        "labor market",
+        "Metropolises"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/baja-9n58",
+        "https://doi.org/10.25937/baja-9n58"
+    ],
+    "dateCreated": "2021-02-25",
+    "description": "Policymakers decide on alternative policies facing restricted budgets and uncertain future. Designing public policies is further difficult due to the need to decide on priorities and handle effects across policies. Housing policies, specifically, involve heterogeneous characteristics of properties themselves and the intricacy of housing markets and the spatial context of cities. We propose PolicySpace2 (PS2) as an adapted and extended version of the open source PolicySpace agent-based model. PS2 is a computer simulation that relies on empirically detailed spatial data to model real estate, along with labor, credit, and goods and services markets. Interaction among workers, firms, a bank, households and municipalities follow the literature benchmarks to integrate economic, spatial and transport scholarship. PS2 is applied to a comparison among three competing public policies aimed at reducing inequality and alleviating poverty: (a) house acquisition by the government and distribution to lower income households, (b) rental vouchers, and (c) monetary aid. Within the model context, the monetary aid, that is, smaller amounts of help for a larger number of households, makes the economy perform better in terms of production, consumption, reduction of inequality, and maintenance of financial duties. PS2 as such is also a framework that may be further adapted to a number of related research questions.",
+    "downloadUrl": "https://www.comses.net/codebases/c8775158-4360-46d8-bac8-be94502b04b0/releases/1.2.0/download/",
+    "dateModified": "2024-12-05",
+    "releaseNotes": "Please refer to [README.MD] for an extensive list of changes applied (relative to the original model) and details on how to run the model.",
+    "copyrightYear": 2022,
+    "datePublished": "2022-01-14",
+    "codeRepository": "https://github.com/BAFurtado/PolicySpace2/releases/tag/1.2",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "ABM"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "forthcoming JASSS"
+}

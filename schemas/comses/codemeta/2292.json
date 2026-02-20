@@ -1,0 +1,58 @@
+{
+    "@id": "https://www.comses.net/codebases/2292/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/2292/releases/1.0.0/",
+    "name": "A preliminary extension of the Hemelrijk 1996 model of reciprocal behavior to include feeding",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/548/",
+            "@type": "Person",
+            "email": "sbarton1@asu.edu",
+            "givenName": "Sean",
+            "familyName": "Barton"
+        },
+        {
+            "@id": "https://www.comses.net/users/548/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Hemelrijk, C. (1996). Dominance interactions, spatial dynamics and emergent reciprocity in a virtual world. From animals to animats 4: Proceedings of the Fourth International Conference on Simulation of Adaptive Behavior, 4.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2292/releases/1.0.0/",
+    "dateCreated": "2010-12-13",
+    "description": "A more complete description of the model can be found in Appendix I as an ODD protocol. This model is an expansion of the Hemelrijk (1996) that was expanded to include a simple food seeking behavior. The intent was to see what effects the parameters of the Hemelrijk model would have on other types of behaviors associated with organisms, such as food gathering. Agents compete with one another for dominance in the model space, but at the same time have an energy level that they must maintain. This energy level can be replenished by moving onto a food patch and acquiring food. Energy can also be stolen during a dominance competition. Agents who win a dominance competition get a random portion of the losers energy added to their own energy levels. Thus, agents who consistently win dominance interactions will get consistent energy from the agents around them. Agents that lose consistently will need more food to replenish their losses. Agents whose energy levels are below a set starvation threshold will not be able to initiate a dominance competition until they replenish their energy supplies. Therefore, when energy levels fall below the starvation threshold, behaviors change from dominance and group seeking behaviors described in Hemelrijk (1996) to food seeking behaviors that require the agent to move towards the nearest patch with food. The agent based model was implemented using NetLogo.",
+    "downloadUrl": "https://www.comses.net/codebases/2292/releases/1.0.0/download/",
+    "dateModified": "2018-02-17",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

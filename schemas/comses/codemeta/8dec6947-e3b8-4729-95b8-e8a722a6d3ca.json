@@ -1,0 +1,48 @@
+{
+    "@id": "https://www.comses.net/codebases/8dec6947-e3b8-4729-95b8-e8a722a6d3ca/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/8dec6947-e3b8-4729-95b8-e8a722a6d3ca/releases/1.0.0/",
+    "name": "An agent-based simulation model simulating the problem solving process of tournament-based crowdsourcing",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-7211-5566",
+            "@type": "Person",
+            "email": "wiseyanjie@foxmail.com"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "crowdsourcing; task structure; bounded rationality; TCPE framework; NK model"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/8dec6947-e3b8-4729-95b8-e8a722a6d3ca/releases/1.0.0/",
+    "dateCreated": "2018-07-06",
+    "description": "A series of studies show the applicability of the NK model in the crowdsourcing research, but it also exposes a problem that the application of the NK model is not tightly integrated with crowdsourcing process, which leads to lack of a basic crowdsourcing simulation model. Accordingly, by introducing interaction relationship among task decisions to define three tasks of different structure: local task, small-world task and random task, and introducing bounded rationality and its two dimensions are taken into account: bounded rationality level that used to distinguish industry types and bounded rationality bias that used to differentiate professional users and ordinary users, an agent-based model that simulates the problem-solving process of tournament-based crowdsourcing is constructed by combining the NK fitness landscapes and the crowdsourcing framework of \u201cTask-Crowd-Process-Evaluation\u201d.",
+    "downloadUrl": "https://www.comses.net/codebases/8dec6947-e3b8-4729-95b8-e8a722a6d3ca/releases/1.0.0/download/",
+    "dateModified": "2018-07-06",
+    "releaseNotes": "This code is used only for academic research and prohibited for other commercial purposes.",
+    "copyrightYear": 2018,
+    "datePublished": "2018-07-06",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

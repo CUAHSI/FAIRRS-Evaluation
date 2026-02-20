@@ -1,0 +1,56 @@
+{
+    "@id": "https://www.comses.net/codebases/ab497c2b-0d2d-468a-81ed-3ebedba84f59/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/ab497c2b-0d2d-468a-81ed-3ebedba84f59/releases/1.0.0/",
+    "name": "Tiebout sorting",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Person",
+            "email": "marco.janssen@asu.edu",
+            "givenName": "Marco",
+            "familyName": "Janssen",
+            "affiliation": {
+                "url": "https://schoolofsustainability.asu.edu/",
+                "name": "School of Sustainability",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "political system",
+        "voting"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/ab497c2b-0d2d-468a-81ed-3ebedba84f59/releases/1.0.0/",
+    "dateCreated": "2019-01-24",
+    "description": "This Netlogo replication of Kollman, K., J.H. Miller and S.E. Page (1997) Political Institutions and Sorting in a Tiebout Model, American Economic Review 87(5): 977-992. The model consists of of citizens who can vote for partie and move to other jurisdictions if they expect their preferences are better served. Parties adjust their positions to increase their share in the elections. ",
+    "downloadUrl": "https://www.comses.net/codebases/ab497c2b-0d2d-468a-81ed-3ebedba84f59/releases/1.0.0/download/",
+    "dateModified": "2019-01-24",
+    "releaseNotes": "Model implementation fits outcomes of original article pretty well.",
+    "copyrightYear": 2019,
+    "datePublished": "2019-01-24",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

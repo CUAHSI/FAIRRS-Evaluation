@@ -1,0 +1,58 @@
+{
+    "@id": "https://doi.org/10.25937/1dwe-cj42",
+    "url": "https://doi.org/10.25937/1dwe-cj42",
+    "name": "Organizational behavior in the hierarchy model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-5279-7627",
+            "@type": "Person",
+            "email": "ivsmrudn@yandex.ru",
+            "givenName": "Smarzhevskiy",
+            "familyName": "Ivan"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "hierarchy",
+        "managers",
+        "Organizational behavior",
+        "perception",
+        "productivity",
+        "subordinates"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/1dwe-cj42",
+        "https://doi.org/10.25937/1dwe-cj42"
+    ],
+    "dateCreated": "2019-06-13",
+    "description": "In a two-level hierarchical structure (consisting of the positions of managers and operators), persons holding these positions have a certain performance and the value of their own (personal perception in this, simplified, version of the model) perception of each other. The value of the perception of each other by agents is defined as a random variable that has a normal distribution (distribution parameters are set by the control elements of the interface).\nIn the world of the model, which is the space of perceptions, agents implement two strategies: rapprochement with agents that perceive positively and distance from agents that perceive negatively (both can be implemented, one of these strategies, or neither, the other strategy, which makes the agent stationary). Strategies are implemented in relation to those agents that are in the radius of perception (PerRadius).\nThe manager (Head) forms a team of agents. The performance of the group (the sum of the individual productivities of subordinates, weighted by the distance from the leader) varies depending on the position of the agents in space and the values of their individual productivities. Individual productivities, in the current version of the model, are set as a random variable distributed evenly on a numerical segment from 0 to 100. The manager forms the team 1) from agents that are in (organizational) radius (Op_Radius), 2) among agents that the manager perceives positively and / or negatively (both can be implemented, one of the specified rules, or neither, which means the refusal of the command formation).\nAgents can (with a certain probability, given by the variable PrbltyOfDecisn%), in case of a negative perception of the manager, leave his group permanently.\nIt is possible in the model to change on the fly radii values, update the perception value across the entire population and the perception of an individual agent by its neighbors within the perception radius, and the probability values for a subordinate to make a decision about leaving the group. \nYou can also change the set of strategies for moving agents and strategies for recruiting a team manager. It is possible to add a randomness factor to the movement of agents (Stoch_Motion_Speed, the default is set to 0, that is, there are no random movements).\n\nThe model represents the first approximation to the implementation of the concept of mutual perception in the hierarchy formulated by the author in the works:\n1.\tIvan Smarzhevskiy. The concept of mutual perception of persons in a hierarchy.  Journal of Economy and entrepreneurship, 2018, Vol. 12, Nom. 12, p. 1120-1124. (\u0418.\u0410. \u0421\u043c\u0430\u0440\u0436\u0435\u0432\u0441\u043a\u0438\u0439, \u041a\u043e\u043d\u0446\u0435\u043f\u0446\u0438\u044f \u0432\u0437\u0430\u0438\u043c\u043d\u043e\u0433\u043e \u0432\u043e\u0441\u043f\u0440\u0438\u044f\u0442\u0438\u044f \u043f\u0435\u0440\u0441\u043e\u043d, \u0437\u0430\u043d\u0438\u043c\u0430\u044e\u0449\u0438\u0445 \u043f\u043e\u0437\u0438\u0446\u0438\u0438 \u0432 \u0438\u0435\u0440\u0430\u0440\u0445\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u0435. // \u042d\u043a\u043e\u043d\u043e\u043c\u0438\u043a\u0430 \u0438 \u043f\u0440\u0435\u0434\u043f\u0440\u0438\u043d\u0438\u043c\u0430\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u043e. 2018. \u2116 12. \u0421.1120-1124).\nAbstract. The issues of mutual perception of persons holding positions in the hierarchical organizational structure engaged in (some) operational activities are considered. Theoretical concepts have been introduced and provisions have been formulated that reveal the interconnections of the individual perception of each other by persons. Aspects (sides) of perception are established, scales of measurement and potential values of aspects of perception are defined. The significance of aspects of perception is revealed depending on the relative positioning of the positions of the perceiving and perceived persons in the hierarchy. The basic statement of the concept is formulated: the essential content of perception by person A of person B is completely exhausted by three aspects: personal (personal) perception, social perception and professional perception. These aspects are not reducible to each other.\n2.\tIvan Smarzhevskiy. The development of the concept of mutual perception of persons in a hierarchy: the dynamics of perceptions.  Journal of Economy and entrepreneurship, 2019, Vol. 13, Nom. 1, p. 830-833 (\u0418.\u0410. \u0421\u043c\u0430\u0440\u0436\u0435\u0432\u0441\u043a\u0438\u0439, \u0420\u0430\u0437\u0432\u0438\u0442\u0438\u0435 \u043a\u043e\u043d\u0446\u0435\u043f\u0446\u0438\u0438 \u0432\u0437\u0430\u0438\u043c\u043d\u043e\u0433\u043e \u0432\u043e\u0441\u043f\u0440\u0438\u044f\u0442\u0438\u044f \u043f\u0435\u0440\u0441\u043e\u043d \u0432 \u0438\u0435\u0440\u0430\u0440\u0445\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u0435: \u0434\u0438\u043d\u0430\u043c\u0438\u043a\u0430 \u0432\u043e\u0441\u043f\u0440\u0438\u044f\u0442\u0438\u0439 // \u042d\u043a\u043e\u043d\u043e\u043c\u0438\u043a\u0430 \u0438 \u043f\u0440\u0435\u0434\u043f\u0440\u0438\u043d\u0438\u043c\u0430\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u043e. 2019. \u2116 1. \u0421. 830-833.)\n Abstract. The work develops the concept of mutual perception of persons holding positions in a hierarchy engaged in (some) operational activities. The potential dynamics of the social and personal aspects of perceptions are investigated. As applied to the simplified case (the professional aspect of perception is accepted unchanged), the most probable combinations of personal and social perceptions are defined and the probable ways of changing such combinations are established (routes in the \u201cpersonal x social\u201d perception matrix). The second main statement of the concept is formulated: in the case of individual personnel decisions, the dynamics and mutual influence of aspects of the person\u2019s perception, which is the object of the decision, the decision maker determines the content of the (personnel) decision itself. ",
+    "downloadUrl": "https://www.comses.net/codebases/3a538672-cc55-497c-8f9c-1f3a9522fcd1/releases/1.1.0/download/",
+    "dateModified": "2019-09-03",
+    "releaseNotes": "For run the model run NetLogo, run Setup, that's all. No datasets required.",
+    "copyrightYear": 2019,
+    "datePublished": "2019-07-31",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

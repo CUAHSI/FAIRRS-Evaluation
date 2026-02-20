@@ -1,0 +1,88 @@
+{
+    "@id": "https://www.comses.net/codebases/4b484186-d8fb-4307-a710-fc05daa36afa/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4b484186-d8fb-4307-a710-fc05daa36afa/releases/1.0.0/",
+    "name": "Vole-Mustelid model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-3072-0095",
+            "@type": "Person",
+            "email": "radchuk.victoria@gmail.com",
+            "givenName": "Viktoriia",
+            "familyName": "Radchuk",
+            "affiliation": {
+                "@id": "https://ror.org/05nywn832",
+                "url": "http://www.izw-berlin.de/welcome.html",
+                "name": "Leibniz Institute for Zoo and Wildlife Research",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05nywn832"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "harry.andreassen@hihm.no",
+            "givenName": "Harry",
+            "familyName": "Andreassen",
+            "affiliation": {
+                "@id": "https://ror.org/05mw8qs29",
+                "url": "http://www.hedmark-ikt.no/",
+                "name": "Hedmark IKT (Norway)",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05mw8qs29"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "rolf.ims@uit.no",
+            "givenName": "Rolf",
+            "familyName": "Ims",
+            "affiliation": {
+                "@id": "https://ror.org/00wge5k78",
+                "url": "http://uit.no/startsida",
+                "name": "UiT The Arctic University of Norway",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00wge5k78"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "individual-based model",
+        "population cycle",
+        "population dynamics",
+        "predator-prey"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4b484186-d8fb-4307-a710-fc05daa36afa/releases/1.0.0/",
+    "dateCreated": "2019-10-02",
+    "description": "The model reflects the predator-prey mustelid-vole population dynamics, typically observed in boreal systems. The goal of the model is to assess which intrinsic and extrinsic factors (or factor combinations) are needed for the generation of the cyclic pattern typically observed in natural vole populations. This goal is achieved by contrasting the alternative model versions by \u201cswitching off\u201d some of the submodels in order to reflect the four combinations of the factors hypothesized to be driving vole cycles.",
+    "downloadUrl": "https://www.comses.net/codebases/4b484186-d8fb-4307-a710-fc05daa36afa/releases/1.0.0/download/",
+    "dateModified": "2019-10-07",
+    "releaseNotes": "The model was developed with NetLogo 5.1.0. To run the model you will need r extension installed and functioning properly. For more details see the file 'doc/User_Manual_VoleMustelidModel.pdf'.\n\nIf you have any questions regarding running the model, please contact Viktoriia Radchuk (radchuk.victoria@gmail.com).",
+    "copyrightYear": 2019,
+    "datePublished": "2019-10-07",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

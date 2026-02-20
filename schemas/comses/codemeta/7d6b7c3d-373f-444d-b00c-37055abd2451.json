@@ -1,0 +1,66 @@
+{
+    "@id": "https://www.comses.net/codebases/7d6b7c3d-373f-444d-b00c-37055abd2451/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/7d6b7c3d-373f-444d-b00c-37055abd2451/releases/1.1.0/",
+    "name": "Community Forest Management with Monitoring and Sanctioning",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2867/",
+            "@type": "Person",
+            "email": "mlapp20@wooster.edu",
+            "givenName": "Maya",
+            "familyName": "Lapp"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "clong@wooster.edu",
+            "givenName": "Colby",
+            "familyName": "Long",
+            "affiliation": {
+                "@id": "https://ror.org/029zqs055",
+                "url": "http://www.wooster.edu/",
+                "name": "College of Wooster",
+                "@type": "Organization",
+                "identifier": "https://ror.org/029zqs055"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/7d6b7c3d-373f-444d-b00c-37055abd2451/releases/1.1.0/",
+    "dateCreated": "2020-04-29",
+    "description": "This NetLogo ABM builds on Elena Vallino\u2019s model of Loggers using community-based natural resource management for a forest ecosystem. In it we introduce an alternative mechanism for Logger cheating and enforcement of CBNRM rules. \n",
+    "downloadUrl": "https://www.comses.net/codebases/7d6b7c3d-373f-444d-b00c-37055abd2451/releases/1.1.0/download/",
+    "dateModified": "2021-07-23",
+    "releaseNotes": "--",
+    "copyrightYear": 2021,
+    "datePublished": "2021-07-23",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "R",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

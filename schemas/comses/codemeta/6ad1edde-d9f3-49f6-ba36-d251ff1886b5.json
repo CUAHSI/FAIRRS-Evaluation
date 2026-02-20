@@ -1,0 +1,132 @@
+{
+    "@id": "https://doi.org/10.25937/g7dt-r268",
+    "url": "https://doi.org/10.25937/g7dt-r268",
+    "name": "collective action in urban community gardens",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2663/",
+            "@type": "Person",
+            "email": "a.feinberg@tudelft.nl",
+            "givenName": "Arthur",
+            "familyName": "Feinberg"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "elenahooijschuur@gmail.com",
+            "givenName": "Elena",
+            "familyName": "Hooijschuur",
+            "affiliation": {
+                "@id": "https://ror.org/02e2c7k09",
+                "url": "http://www.tudelft.nl/en/",
+                "name": "Delft University of Technology",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02e2c7k09"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "rogge@bund-berlin.de",
+            "givenName": "Nicole",
+            "familyName": "Rogge",
+            "affiliation": {
+                "@id": "https://ror.org/04bkfz588",
+                "url": "https://leucorea.de",
+                "name": "Stiftung des \u00f6ffentlichen Rechts an der Martin-Luther-Universit\u00e4t Halle-Wittenberg",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04bkfz588"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-9985-8239",
+            "@type": "Person",
+            "email": "a.ghorbani@tudelft.nl",
+            "givenName": "Amineh",
+            "familyName": "Ghorbani",
+            "affiliation": {
+                "@id": "https://ror.org/02e2c7k09",
+                "url": "http://www.tudelft.nl/en/",
+                "name": "Delft University of Technology",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02e2c7k09"
+            }
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Person",
+            "email": "p.m.herder@tudelft.nl",
+            "givenName": "Paulien",
+            "familyName": "Herder",
+            "affiliation": {
+                "@id": "https://ror.org/02e2c7k09",
+                "url": "http://www.tudelft.nl/en/",
+                "name": "Delft University of Technology",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02e2c7k09"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "resourceProvider"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-9985-8239",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent behavior",
+        "institutions",
+        "urban community gardens",
+        "volunteers"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/g7dt-r268",
+        "https://doi.org/10.25937/g7dt-r268"
+    ],
+    "dateCreated": "2019-09-13",
+    "description": "this agent-based model explores the dynamics of volunteer participation in urban community gardens, by combining behavioral theory and institutional theory",
+    "downloadUrl": "https://www.comses.net/codebases/6ad1edde-d9f3-49f6-ba36-d251ff1886b5/releases/1.1.0/download/",
+    "dateModified": "2024-12-05",
+    "releaseNotes": "Open NetLogo software\nFile>Open... [select urbgarden.nlogo]\nTools > BehaviorSpace\nChoose experiment 'ExpFinal'\nClick Run. \n\nTakes a couple of hours on HPCs, or a dozen of hours on an average laptop",
+    "copyrightYear": 2021,
+    "datePublished": "2021-05-15",
+    "operatingSystem": "linux",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

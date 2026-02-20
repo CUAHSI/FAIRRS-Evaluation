@@ -1,0 +1,60 @@
+{
+    "@id": "https://www.comses.net/codebases/5261/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5261/releases/1.0.0/",
+    "name": "Bicycle encounter model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-3845-7685",
+            "@type": "Person",
+            "email": "gudrun.wallentin@sbg.ac.at",
+            "givenName": "Gudrun",
+            "familyName": "Wallentin",
+            "affiliation": {
+                "@id": "https://ror.org/05gs8cd61",
+                "url": "https://www.plus.ac.at/",
+                "name": "Department of Geoinformatics - Z_GIS, University of Salzburg",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05gs8cd61"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-3845-7685",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5261/releases/1.0.0/",
+    "dateCreated": "2016-10-29",
+    "description": "Each agent cycled from home to its destination (e.g., work or study place) and back again. The resolution of time steps was reduced to one second in order to record all encounters. The spatial resolution of the road graph was continuous. Simulations were computed with multiple numbers of cyclist agents per day ranging between 50 and 10,000. The number of simulated trips thus ranged between 100 and 20,000 trips per simulation. Each simulation was run twice, so that in total 24 simulation runs were computed. After each simulation, the following data were recorded for further analysis: (1) a geospatial point dataset of the encounter locations with the attributes \u2018time\u2019, and \u2018encounter angle\u2019; (2) a geospatial dataset of the road network graph with the attribute \u2018number of times traversed\u2019 for each segment; and (3) the spatially aggregated number of actively cycling agents and encounter events with a resolution of 15 min. In a post-processing step, encounter angles were coded as one of the following types: overtaking (0\u00b0 to 45\u00b0), crossing (45\u00b0 to 135\u00b0), and oncoming (135\u00b0 to 180\u00b0). The probability that two cyclists from opposite directions crash on an ordinary road is negligible. Therefore, encounter points between oncoming cyclists were excluded, except for bicycle-only infrastructures. As we exclusively focused on the population at risk we did not consider any further risk factors such as road design, trip purpose, or weather condition.",
+    "downloadUrl": "https://www.comses.net/codebases/5261/releases/1.0.0/download/",
+    "dateModified": "2019-03-29",
+    "releaseNotes": "final model related to the publication Wallentin & Loidl (2016)",
+    "copyrightYear": 2019,
+    "datePublished": "2019-03-29",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Wallentin, G. and M. Loidl (2016). \u201cBicycle-Bicycle Accidents Emerge from Encounters: An Agent-Based Approach.\u201d Safety 2(2): 14."
+}

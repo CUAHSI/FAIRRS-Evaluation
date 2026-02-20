@@ -1,0 +1,79 @@
+{
+    "@id": "https://www.comses.net/codebases/4988/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/4988/releases/1.1.0/",
+    "name": "Food supply chain innovations under public pressure",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1732/",
+            "@type": "Person",
+            "email": "d.verwaart@xs4all.nl",
+            "givenName": "Tim",
+            "familyName": "Verwaart",
+            "affiliation": {
+                "url": "http://www.wur.nl",
+                "name": "Wageningen UR",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Wil",
+            "familyName": "Hennen"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Jan",
+            "familyName": "Buurma"
+        },
+        {
+            "@id": "https://www.comses.net/users/1732/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4988/releases/1.1.0/",
+    "dateCreated": "2016-12-21",
+    "description": "Transitions leading to sociotechnical innovations in food supply chains have been described in analyses on the basis of newspaper articles and parliamentary records. The time scale of such transitions driven by aroused public opinion is typically a decade. Actors are primary producers (farmers), other supply chain parties, authorities, NGOs voicing particular opinions, political parties, and consumers. Their interactions and reactions to external events are modelled in this agent-based simulation, based on opinion dynamics with asymmetric confidence intervals. The purposes of the simulation are (1) to validate that hypothetical relations derived from the discourse analyses indeed lead to the emergence of the observed transitions, and (2) to study how the system could have developed under different behaviours or a different course of external events. A sensitivity analysis has been performed. The simulation shows particularly sensitive for the participation of both moderate and activist NGOs.",
+    "downloadUrl": "https://www.comses.net/codebases/4988/releases/1.1.0/download/",
+    "dateModified": "2018-11-27",
+    "releaseNotes": "First version, added for review.",
+    "copyrightYear": 2018,
+    "datePublished": "2018-11-27",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "@id": "https://www.comses.net/codebases/5887/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5887/releases/1.0.0/",
+    "name": "Dynamic pricing strategies for perishable products in a competitive multi-agent retailer market",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2049/",
+            "@type": "Person",
+            "email": "poles_wcchen@tju.edu.cn",
+            "givenName": "Wenchong",
+            "familyName": "Chen",
+            "affiliation": {
+                "@id": "https://ror.org/012tb2g32",
+                "url": "http://www.tju.edu.cn/english/",
+                "name": "Tianjin University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/012tb2g32"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Hongwei",
+            "familyName": "Liu"
+        },
+        {
+            "@id": "https://www.comses.net/users/2049/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5887/releases/1.0.0/",
+    "dateCreated": "2017-11-27",
+    "description": "Due to the fierce competition in the marketplace for perishable products, retailers have to use pricing strategies to attract customers. Traditional pricing strategies adjust products\u2019 prices according to retailers\u2019 current situations (e.g. Cost-plus pricing strategy, Value-based pricing strategy and Inventory-sensitive pricing strategy). However, many retailers lack the perception for customer preferences and an understanding of the competitive environment. This model explores a price Q-learning mechanism for perishable products that considers uncertain demand and customer preferences in a competitive multi-agent retailer market (a model-free environment). In the proposed simulation model, agents imitate the behavior of consumers and retailers. Four potential influencing factors (competition, customer preferences, uncertain demand, perishable characteristics) are constructed in the pricing decisions. All retailer agents adjust their products\u2019 prices over a finite sales horizon to maximize expected revenues. A retailer agent adjusts its price according to the Q-learning mechanism, while others adapt traditional pricing strategies. Shortage is allowed while backlog is not.",
+    "downloadUrl": "https://www.comses.net/codebases/5887/releases/1.0.0/download/",
+    "dateModified": "2018-03-01",
+    "releaseNotes": "",
+    "copyrightYear": 2018,
+    "datePublished": "2018-03-01",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

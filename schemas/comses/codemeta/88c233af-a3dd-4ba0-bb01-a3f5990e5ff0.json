@@ -1,0 +1,48 @@
+{
+    "@id": "https://www.comses.net/codebases/88c233af-a3dd-4ba0-bb01-a3f5990e5ff0/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/88c233af-a3dd-4ba0-bb01-a3f5990e5ff0/releases/1.1.0/",
+    "name": "An agent-based model of cultural change for a low-carbon transition",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0009-0004-7220-750X",
+            "@type": "Person",
+            "email": "daniel.torren@uab.cat",
+            "givenName": "Daniel",
+            "familyName": "Torren-Peraire"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/88c233af-a3dd-4ba0-bb01-a3f5990e5ff0/releases/1.1.0/",
+    "dateCreated": "2023-02-23",
+    "description": "An ABM of changes in individuals\u2019 lifestyles which considers their\nevolving behavioural choices. Individuals have a set of environmental behavioural traits that spread through a fixed Watts\u2013Strogatz graph via social interactions with their neighbours. These exchanges are mediated by transmission biases informing from whom an individual learns and\nhow much attention is paid. The influence of individuals on each other is a function of their similarity in environmental identity, where we represent environmental identity computationally by aggregating past agent attitudes towards multiple environmentally related behaviours. To perform a behaviour, agents must both have\na sufficiently positive attitude toward a behaviour and overcome a corresponding threshold. This threshold\nstructure, where the desire to perform a behaviour does not equal its enactment, allows for a lack of coherence\nbetween attitudes and actual emissions. This leads to a disconnect between what people believe and what\nthey do, such that the social network as whole desires greener behaviours but only a minority performs them.",
+    "downloadUrl": "https://www.comses.net/codebases/88c233af-a3dd-4ba0-bb01-a3f5990e5ff0/releases/1.1.0/download/",
+    "dateModified": "2023-11-10",
+    "releaseNotes": "Version 1.1 added sensitivity analysis for green influencers",
+    "copyrightYear": 2023,
+    "datePublished": "2023-11-10",
+    "codeRepository": "https://github.com/danielTorren/Culture-Network",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Python 3"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python 3",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

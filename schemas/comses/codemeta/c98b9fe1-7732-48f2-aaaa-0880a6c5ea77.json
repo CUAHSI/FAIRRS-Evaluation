@@ -1,0 +1,68 @@
+{
+    "@id": "https://doi.org/10.25937/r16k-z217",
+    "url": "https://doi.org/10.25937/r16k-z217",
+    "name": "Visibility of archaeological social networks",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-1324-7937",
+            "@type": "Person",
+            "email": "cgravelm@asu.edu",
+            "givenName": "Claudine",
+            "familyName": "Gravel-Miguel",
+            "affiliation": {
+                "@id": "https://ror.org/00d9ah105",
+                "url": "http://www.ucmerced.edu/",
+                "name": "University of California, Merced",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00d9ah105"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc/4.0",
+        "name": "CC-BY-NC-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "No",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "archaeology",
+        "social network"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/r16k-z217",
+        "https://doi.org/10.25937/r16k-z217"
+    ],
+    "dateCreated": "2019-12-04",
+    "description": "The purpose of this model is to explore the impact of combining archaeological palimpsests with different methods of cultural transmission on the visibility of prehistoric social networks. Up until recently, Paleolithic archaeologists have relied on stylistic similarities of artifacts to reconstruct social networks. However, this method - which is successfully applied to more recent ceramic assemblages - may not be applicable to Paleolithic assemblages, as several of those consist of palimpsests of occupations. Therefore, this model was created to study how palimpsests of occupation affect our social network reconstructions.\n\nThe model simplifies inter-groups interactions between populations who share cultural traits as they produce artifacts. It creates a proxy archaeological record of artifacts with stylistic traits that can then be used to reconstruct interactions. One can thus use this model to compare the networks reconstructed through stylistic similarities with direct contact.",
+    "downloadUrl": "https://www.comses.net/codebases/c98b9fe1-7732-48f2-aaaa-0880a6c5ea77/releases/1.0.0/download/",
+    "dateModified": "2023-11-26",
+    "releaseNotes": "This is a simplified version of the https://www.comses.net/codebases/5788/releases/1.0.0/ model. In this version, the focus is placed on creating alliances between 10 camps. There are no resources involved. This model shows how using stylistic similarities of objects to reconstruct prehistoric social networks is a flawed method, especially when rates of cultural transmission and artifact discard are low.",
+    "copyrightYear": 2023,
+    "datePublished": "2023-11-26",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "In prep. Gravel-Miguel, C. and F. Coward. Paleolithic social networks and behavioral modernity. In the Oxford Handbook of Archaeological Network Analysis, Peeples, M.A., Munson, J., Mills, B., Brughmans, T. (Eds), Oxford University Press, Oxford."
+}

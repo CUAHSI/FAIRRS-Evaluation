@@ -1,0 +1,67 @@
+{
+    "@id": "https://doi.org/10.25937/086z-1t29",
+    "url": "https://doi.org/10.25937/086z-1t29",
+    "name": "Ants Digging Networks",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2252/",
+            "@type": "Person",
+            "email": "elskevdv@gmail.com",
+            "givenName": "Elske",
+            "familyName": "van der Vaart",
+            "affiliation": {
+                "@id": "https://ror.org/04b8v1s79",
+                "url": "https://www.tilburguniversity.edu/",
+                "name": "Tilburg University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04b8v1s79"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "ants",
+        "network",
+        "self-organization"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/086z-1t29",
+        "https://doi.org/10.25937/086z-1t29"
+    ],
+    "dateCreated": "2018-07-18",
+    "description": "This is a NetLogo version of Buhl *et al*.'s (2005) model of self-organised digging activity in ant colonies. It was built for a master's course on self-organisation and its intended use is still educational. The ants' behavior can easily be changed by toggling switches on the interface, or, for more advanced students, there is R code included allowing the model to be run and analysed through RNetLogo.",
+    "downloadUrl": "https://www.comses.net/codebases/dd847e79-bb37-43e1-ae3a-27de57573376/releases/1.0.0/download/",
+    "dateModified": "2019-04-16",
+    "releaseNotes": "This release contains the NetLogo model file, a model description following the ODD protocol, some informal results, and some R code to run & analyse the model through RNetLogo.",
+    "copyrightYear": 2018,
+    "datePublished": "2018-09-14",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo",
+        "R"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "R",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

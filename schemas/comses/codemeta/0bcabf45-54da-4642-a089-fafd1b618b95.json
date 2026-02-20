@@ -1,0 +1,57 @@
+{
+    "@id": "https://www.comses.net/codebases/0bcabf45-54da-4642-a089-fafd1b618b95/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/0bcabf45-54da-4642-a089-fafd1b618b95/releases/1.1.0/",
+    "name": "The simulation on the study of the optimal business strategy with the interaction between technologies and consumers.",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/3620/",
+            "@type": "Person",
+            "email": "sej.yoo@gmail.com"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "Ambidextrous",
+        "business complexity",
+        "consumer behavior",
+        "disruptive innovation",
+        "innovation adoption",
+        "Netlogo",
+        "optimal strategy",
+        "project management triangle",
+        "Schumpeter Mark I and Mark II",
+        "Strategic Studies"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/0bcabf45-54da-4642-a089-fafd1b618b95/releases/1.1.0/",
+    "dateCreated": "2022-06-27",
+    "description": "## HOW IT WORKS\n\nThis model consists of three agents, and each agent type operates per business theories as below.\na. New technologies(Tech): It evolves per sustaining or disruptive technology trajectory with the constraint of project management triangle (Scope, Time, Quality, and Cost).\nb. Entrepreneurs(Entre): It builds up the solution by combining Tech components per its own strategy (Exploration, Exploitation, or Ambidex).\nc. Consumer(Consumer): It selects the solution per its own preference due to Diffusion of innovation theory (Innovators, Early Adopters, Early Majority, Late Majority, Laggards)\n\n## HOW TO USE IT\n\nSet the number of agents. Tech, Entre, Consumer. \nSet the other environmental parameters (technology development speed, technology appropriability, regional barriers). \nClick Setup and Run to play\n\n## THINGS TO TRY\n\nThe user can perform the simulation to find the best business strategy in the different environments of technology development speed and technology appropriability. (Schumpeter MarkI and MarkII). \nThe user can perform the simulation on how each envrionmental parameter changes are correlated to the others. (technology development speed, technology appropriability, business strategy, customer preference, regional barriers, chasm, and so on). \n",
+    "downloadUrl": "https://www.comses.net/codebases/0bcabf45-54da-4642-a089-fafd1b618b95/releases/1.1.0/download/",
+    "dateModified": "2022-07-04",
+    "releaseNotes": "2nd Release including more details on the modelling operations and background theories. ",
+    "copyrightYear": 2022,
+    "datePublished": "2022-07-04",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo 6.2.1"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Netlogo 6.2.1",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "@id": "https://doi.org/10.25937/5wmr-1z22",
+    "url": "https://doi.org/10.25937/5wmr-1z22",
+    "name": "A Macroeconomic Model of a Closed Economy",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/3081/",
+            "@type": "Person",
+            "email": "ianstuart1337@outlook.com",
+            "givenName": "Ian",
+            "familyName": "Stuart"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "The model itself does not have references but the documentation article does.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "agent-based computational economics",
+        "agent-based macroeconomic model",
+        "agent-based model",
+        "artificial economics",
+        "Macroeconomic"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/5wmr-1z22",
+        "https://doi.org/10.25937/5wmr-1z22"
+    ],
+    "dateCreated": "2021-01-15",
+    "description": "This model/program presents a \"three industry model\" that may be particularly useful for macroeconomic simulations. The main purpose of this program is to demonstrate a mechanism in which the relative share of labor shifts between industries.\n\nCare has been taken so that it is written in a self-documenting way so that it may be useful to anyone that might build from it or use it as an example.\n\nThis model is not intended to match a specific economy (and is not calibrated to do so) but its particular minimalist implementation may be useful for future research/development.\n\nIt is possible for the program/simulation to produce an undesired result in which a population starves and a simulation is exited early.",
+    "downloadUrl": "https://www.comses.net/codebases/d26f3b76-312d-479d-a4f8-b69df3a78584/releases/1.1.0/download/",
+    "dateModified": "2024-12-05",
+    "releaseNotes": "This version adds a graphical user interface (GUI) to the program that runs the model. The GUI allows the user to adjust some parameters and also allows the program to be reset after simulation runs so that other simulations can be run. Allowing some adjustable parameters can give the user a broader idea of potential uses/implications of the three industry model.\n\nIf, for example, launching the program from a terminal, the program does not accept any input parameters (but the GUI allows adjustments) and the program does not write output to files (results are displayed on graphs in a window).\n\nAn apache ant build file has been included for compiling the program. \n\n**GUI Adjustable Parameters**\nAllow zero sale price:\n    If selected/allowed, the occurrence of zero sale prices become likely after around 220 years. Zero sale prices invalidate the GDP calculations. Zero sale prices affect the equilibrium that is reached for longer simulations.\n\nNumber Of Simulations To Run:\n    Users can select to Run 1, 5, 10, 15, 20, or 25 simulations. Expect 10 simulations to take 1-4 minutes. When multiple simulations are run the results are graphed overlapping which can give a good visual of rough statistical tendencies of the simulations. \n\nNumber Of Starting Adults And *start*  of Population Plateau:\n    Adjusting these values affects the population in the simulation. The higher above the *start* of the population plateau the simulation population is the lower the probability of couples having new kids. \n\nAdjusting the duration of the simulation:\n    Selecting a lower duration for simulation runs than the default 230 years will result in graphs with a more \"zoomed in\" detail. The results section is not displayed for simulations less that 230 years.\n\t\tSelecting a longer duration will give an idea of the equilibrium that is reached when production rates stop increasing and the population stabilizes. I do not claim that the abrupt stop of the productivity rate increase after 230 years is realistic. \n\n",
+    "copyrightYear": 2021,
+    "datePublished": "2021-06-23",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Java"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

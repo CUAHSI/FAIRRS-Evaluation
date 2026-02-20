@@ -1,0 +1,75 @@
+{
+    "@id": "https://www.comses.net/codebases/ade80a69-82fa-4258-88ae-d17fb7094e23/releases/1.0.2/",
+    "url": "https://www.comses.net/codebases/ade80a69-82fa-4258-88ae-d17fb7094e23/releases/1.0.2/",
+    "name": "VIDA: A simulation model of domestic VIolence in times of social DistAncing",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-1545-8490",
+            "@type": "Person",
+            "email": "bernardo.furtado@ipea.gov.br",
+            "givenName": "Bernardo",
+            "familyName": "Furtado",
+            "affiliation": {
+                "@id": "https://ror.org/013wyvt46",
+                "url": "http://www.iaw.edu/",
+                "name": "Institute for Applied Economic Research",
+                "@type": "Organization",
+                "identifier": "https://ror.org/013wyvt46"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.2",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "No. Original model",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "ABM",
+        "agent based model (abm)",
+        "Brazil",
+        "domestic violence",
+        "family",
+        "public policy",
+        "violence"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/ade80a69-82fa-4258-88ae-d17fb7094e23/releases/1.0.2/",
+    "dateCreated": "2021-01-11",
+    "description": "Violence against women occurs predominantly in the family and domestic context. The COVID-19 pandemic led Brazil to recommend and, at times, impose social distancing, with the partial closure of economic activities, schools, and restrictions on events and public services. Preliminary evidence shows that intense co- existence increases domestic violence, while social distancing measures may have prevented access to public services and networks, information, and help. We propose an agent-based model (ABM), called VIDA, to illustrate and examine multi-causal factors that influence events that generate violence. A central part of the model is the multi-causal stress indicator, created as a probability trigger of domestic violence occurring within the family environment. Two experimental design tests were performed: (a) absence or presence of the deterrence system of domestic violence against women and measures to increase social distancing. VIDA presents comparative results for metropolitan regions and neighbourhoods considered in the experiments. Results suggest that social distancing measures, particularly those encouraging staying at home, may have increased domestic violence against women by about 10%. VIDA suggests further that more populated areas have comparatively fewer cases per hundred thousand women than less populous capitals or rural areas of urban concentrations. This paper contributes to the literature by formalising, to the best of our knowledge, the first model of domestic violence through agent-based modelling, using empirical detailed socioeconomic, demographic, educational, gender, and race data at the intraurban level (census sectors).",
+    "downloadUrl": "https://www.comses.net/codebases/ade80a69-82fa-4258-88ae-d17fb7094e23/releases/1.0.2/download/",
+    "dateModified": "2021-01-11",
+    "releaseNotes": "This is the release correspondent to submitted paper. v. 1.0.2",
+    "copyrightYear": 2021,
+    "datePublished": "2021-01-11",
+    "codeRepository": "https://github.com/BAFurtado/VIDA_domestic_violence",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "mesa"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "JavaScript",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "[submitted, in review]"
+}

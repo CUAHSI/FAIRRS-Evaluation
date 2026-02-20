@@ -1,0 +1,53 @@
+{
+    "@id": "https://www.comses.net/codebases/4d44a66c-5415-4efa-8ffe-81040b4fad82/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4d44a66c-5415-4efa-8ffe-81040b4fad82/releases/1.0.0/",
+    "name": "A Simulation Model of the Radicalisation Process",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2736/",
+            "@type": "Person",
+            "email": "rpepys10@gmail.com",
+            "givenName": "Rosemary",
+            "familyName": "Pepys",
+            "affiliation": {
+                "url": "http://www.hiscox.co.uk",
+                "name": "Hiscox Ltd",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4d44a66c-5415-4efa-8ffe-81040b4fad82/releases/1.0.0/",
+    "dateCreated": "2019-11-14",
+    "description": "This is the code for a simulation model of the radicalisation process based on the IVEE theoretical framework.",
+    "downloadUrl": "https://www.comses.net/codebases/4d44a66c-5415-4efa-8ffe-81040b4fad82/releases/1.0.0/download/",
+    "dateModified": "2019-11-16",
+    "releaseNotes": "This model was developed and run using Xcode on MacOS. It is a standalone piece of source code which should run on any operating system, however this has not been tested.\nThe code requires two csv input files to run, called people.csv and settings.csv. This is hardcoded into the model source code.\nThe code outputs two csv files, called people_out.csv and settings_out.csv. This is also hardcoded into the model source code.",
+    "copyrightYear": 2019,
+    "datePublished": "2019-11-16",
+    "embargoEndDate": "2020-01-01",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "None"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "C++",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

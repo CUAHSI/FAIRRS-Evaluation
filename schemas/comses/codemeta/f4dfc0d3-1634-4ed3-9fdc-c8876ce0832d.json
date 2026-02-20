@@ -1,0 +1,62 @@
+{
+    "@id": "https://www.comses.net/codebases/f4dfc0d3-1634-4ed3-9fdc-c8876ce0832d/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/f4dfc0d3-1634-4ed3-9fdc-c8876ce0832d/releases/1.0.0/",
+    "name": "Influence mining framework for complex networks using igraph",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-5449-1867",
+            "@type": "Person",
+            "email": "owaishussain@ieee.org",
+            "givenName": "Owais",
+            "familyName": "Hussain"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "No",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "complex networks",
+        "influence propagation",
+        "linear threshold",
+        "resilience",
+        "scale-free network"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/f4dfc0d3-1634-4ed3-9fdc-c8876ce0832d/releases/1.0.0/",
+    "dateCreated": "2023-09-25",
+    "description": "IMine is a flexible framework which can be adopt multiple criteria for convergence to solve Influence Minig problems. It can use any diffusion model, as well as resilience to compute the influence of a set of nodes base on the use case.\nThe code is written and tested on 'R' v3.5\n",
+    "downloadUrl": "https://www.comses.net/codebases/f4dfc0d3-1634-4ed3-9fdc-c8876ce0832d/releases/1.0.0/download/",
+    "dateModified": "2023-09-25",
+    "releaseNotes": "Installation\nIn order to install this package, you first need to install devtools package:\ninstall.packages(\"devtools\")\nThen install this package from GitHub:\ndevtools::install_github(\"seekme94/influence.mining\")\nPackage tutorial\nAll influence mining functions are provided in influence_maximization file. The primary interfacing function, influence is a wrapper function, which calls other functions. For most of the users, this should be enough for applications.\nExample:\ninfluence (graph, budget, prob, steps, optimal_solution, test_method, heuristic, centrality_method, parallel, logging)\ngraph is the igraph object\nbudget number of influential nodes to be fetched. Default value is 1\nprob the probability at which a node influences its neighbours\nsteps (currently not implemented) is the time steps for which, the diffusion process should run. Provide NULL for exhaustive run. Default value is 1.\ntest_method specifies the method to measure influence. Value MUST be \"RESILIENCE\", \"INFLUENCE_IC\" or \"INFLUENCE_LT\"\nheuristic specifies the heuristic method used for influence calculation. Required only when optimal_solution is FALSE\ncentrality_method (optional) is the centrality algorithm to use when heuristic is \"CENTRALITY\" or \"ADAPTIVE_CENTRALITY\". Value must be \"DEGREE\", \"BETWEENNESS\", \"CLOSENESS\" or \"EIGENVECTOR\"\nparallel when true, executes the funtion using multiple CPU cores. Default value is TRUE\noptimal solution should be TRUE if influential nodes are to be derived using optimal algorithm. Caution! ",
+    "copyrightYear": 2023,
+    "datePublished": "2023-09-25",
+    "codeRepository": "https://github.com/seekme94/imine-framework-evaluation",
+    "operatingSystem": "linux",
+    "runtimePlatform": [
+        "igraph"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "R",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "https://doi.org/10.1142/S0219525922500102"
+}

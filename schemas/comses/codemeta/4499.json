@@ -1,0 +1,72 @@
+{
+    "@id": "https://www.comses.net/codebases/4499/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/4499/releases/1.1.0/",
+    "name": "Umwelten Ants",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-2122-8026",
+            "@type": "Person",
+            "email": "kitcmartin@gmail.com",
+            "givenName": "Kit",
+            "familyName": "Martin",
+            "affiliation": {
+                "url": "https://www.csats.psu.edu/",
+                "name": "Penn State",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-2122-8026",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Wilensky, U. (1997). NetLogo Ants model. http://ccl.northwestern.edu/netlogo/models/Ants. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "ants",
+        "ecology",
+        "emergence",
+        "knowledge diffision",
+        "negative externalities",
+        "NetLogo",
+        "social learning"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4499/releases/1.1.0/",
+    "dateCreated": "2015-08-27",
+    "description": "Leafcutter ants, *Atta cephalotes*, are dominant herbivores in South American rainforests and have a diverse life history, punctuated by their fungal spore farming which results in often massive colony sizes (H\u00f6lldobler & Wilson, 2010). When observing *A. cephalotes* colonies near Manaus, Brazil, the author watched three colony members kill each other. In ant colonies, sterile workers cooperate to rear colonial young, which means that these colony mates were related, and so should not engage in intra-colony competition because of the associated net loss (Townsend et al., 2008). If fitness in a biological system is comparable to profit in an economy (Holland, J., 2006), how can ant colonies of *A. cephalotes* in Brazil kill their nestmates for a net loss? The simulation models this interaction Through Netlogo.",
+    "downloadUrl": "https://www.comses.net/codebases/4499/releases/1.1.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "We updated the base model to include colony reproduction to test whether murder is heritable in the social system.",
+    "copyrightYear": 2015,
+    "datePublished": "2015-08-27",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

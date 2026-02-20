@@ -1,0 +1,71 @@
+{
+    "@id": "https://www.comses.net/codebases/3556/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/3556/releases/1.0.0/",
+    "name": "Feedback Loop Example: Wildland Fire Spread",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-5099-0001",
+            "@type": "Person",
+            "email": "james.millington@kcl.ac.uk",
+            "givenName": "James",
+            "familyName": "Millington",
+            "affiliation": {
+                "@id": "https://ror.org/0220mzb33",
+                "url": "http://www.kcl.ac.uk/index.aspx",
+                "name": "King's College London",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0220mzb33"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-5099-0001",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Peterson, G. D. (2002). Contagious disturbance, ecological memory, and the emergence of landscape pattern. Ecosystems, 5(4), 329-338.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "eschansfeedback",
+        "feedback",
+        "fire",
+        "spatial",
+        "spread",
+        "vegetation",
+        "wildland fire"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3556/releases/1.0.0/",
+    "dateCreated": "2012-12-21",
+    "description": "This model is a replication of that described by Peterson (2002) and illustrates the 'spread' feedback loop type described in Millington (2013). In spread feedback, spatial patterns influence spread processes which influence later spatial patterns and hence later spread processes. In ecology, this concept of processes being shaped by their history is known as the \u2018memory\u2019 of the process (Peterson 2002). For wildland fire, memory \u2013 and therefore feedbacks between spread and spatial pattern \u2013 has been conceptualized as being contained in vegetation flammability as a function of time since last the fire. In this model version red patches indicate areas burned in a given time step, green patches the length of time since the last fire at that location (lighter, fire more recently).",
+    "downloadUrl": "https://www.comses.net/codebases/3556/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    }
+}

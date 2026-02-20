@@ -1,0 +1,86 @@
+{
+    "@id": "https://www.comses.net/codebases/030f75c9-cba0-4737-95c5-1641d2051a94/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/030f75c9-cba0-4737-95c5-1641d2051a94/releases/1.0.0/",
+    "name": "Imperfect knowledge and stable governance in democracies",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1070/",
+            "@type": "Person",
+            "email": "cmfermar@gmail.com",
+            "givenName": "Carlos M",
+            "familyName": "Fern\u00e1ndez-M\u00e1rquez",
+            "affiliation": {
+                "url": "http://www.uam.es",
+                "name": "Universidad Autonoma de Madrid",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "franciscojose.vazquez@uam.es",
+            "givenName": "Francisco",
+            "familyName": "Vazquez",
+            "affiliation": {
+                "@id": "https://ror.org/01cby8j38",
+                "url": "https://www.uam.es/ss/Satellite/es/home/",
+                "name": "Autonomous University of Madrid",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01cby8j38"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "lmedina@clio.uc3m.es",
+            "givenName": "Luis",
+            "familyName": "Medina",
+            "affiliation": {
+                "@id": "https://ror.org/01d8kr740",
+                "url": "http://web.iii.org.tw/",
+                "name": "Institute for Information Industry",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01d8kr740"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "Democracy Stability",
+        "Political Competition",
+        "spatial model",
+        "Transparency"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/030f75c9-cba0-4737-95c5-1641d2051a94/releases/1.0.0/",
+    "dateCreated": "2019-02-05",
+    "description": "In this paper we introduce an agent-based model of elections and government formation where voters do not have perfect knowledge about the parties' ideological position. Although voters are boundedly rational, they are forward-looking in that they try to assess the likely impact of the different parties over the resulting government. Thus, their decision rules combine sincere and strategic voting: they form preferences about the different parties but deem some of them as inadmissible and try to block them from office. We find that the most stable and durable coalition governments emerge at intermediate levels of informational ambiguity. When voters have very poor information about the parties, their votes are scattered too widely, preventing the emergence of robust majorities. But also, voters with highly precise perceptions about the parties will cluster around tiny electoral niches with a similar aggregate effect.",
+    "downloadUrl": "https://www.comses.net/codebases/030f75c9-cba0-4737-95c5-1641d2051a94/releases/1.0.0/download/",
+    "dateModified": "2019-02-05",
+    "releaseNotes": "A jar binary for replication purpose of the paper titled \"Imperfect knowledge and stable governance in democracies: An agent-based model\"",
+    "copyrightYear": 2019,
+    "datePublished": "2019-02-05",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Repast"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

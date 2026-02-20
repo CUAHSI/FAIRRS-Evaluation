@@ -1,0 +1,127 @@
+{
+    "@id": "https://www.comses.net/codebases/4065/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4065/releases/1.0.0/",
+    "name": "Collective Decision Making for Ecological Restoration version 2.0",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-4111-3357",
+            "@type": "Person",
+            "email": "m.zellner@northeastern.edu",
+            "givenName": "Moira",
+            "familyName": "Zellner",
+            "affiliation": {
+                "url": "https://www.northeastern.edu/",
+                "name": "Northeastern University",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/678/",
+            "@type": "Person",
+            "email": "dmasse2@uic.edu",
+            "givenName": "Dean",
+            "familyName": "Massey",
+            "affiliation": {
+                "@id": "https://ror.org/02mpq6x41",
+                "url": "http://www.uic.edu/uic/",
+                "name": "University of Illinois at Chicago",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02mpq6x41"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Cristy",
+            "familyName": "Watkins"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "givenName": "Lynne",
+            "familyName": "Westphal"
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Person",
+            "givenName": "Kristen",
+            "familyName": "Ross"
+        },
+        {
+            "@id": "_:author_6",
+            "@type": "Person",
+            "givenName": "Jeremy",
+            "familyName": "Brooks"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-4111-3357",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://www.comses.net/users/678/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_6",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "collective decision-making",
+        "ecological restoration",
+        "empirical model",
+        "ethnographic data"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4065/releases/1.0.0/",
+    "dateCreated": "2014-11-19",
+    "description": "Ecological restoration actions generally result from collective decision-making processes and can involve diverse, at times contentious, views. It is critical to understand these processes and the factors that might influence the resolution of diverse perspectives into a set of coordinated actions. This model uses ethnographic data to advance theory on how decisions emerge in the context of ecological restoration in the Chicago Wilderness. The first version of this model (https://www.openabm.org/model/2789/version/2/view) provided structure and organization of the empirical data of two Chicago Wilderness member groups. The organization of the data allowed us to identify how to adapt our original model mechanisms and parameter values. Baseline and relevant hypothetical scenarios were constructed in the model around critical components: liaisons (agents with high interaction frequencies and high mutual respect values), distribution of agents across groups, and reciprocity and frequency of interactions. This model advances our understanding of key mechanisms influencing collective decision processes and illustrates the value of agent-based modeling and its integration with ethnographic data analysis to advance the theory of collective decision making.",
+    "downloadUrl": "https://www.comses.net/codebases/4065/releases/1.0.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "",
+    "copyrightYear": 2014,
+    "datePublished": "2014-11-19",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Zellner, M. L.; Watkins, C.; Massey, D.; Westphal, L. M.; Brooks, J.; Ross, K. (2014). \u201cAdvancing collective decision-making theory with integrated agent-based modeling and ethnographic data analysis: An example in ecological restoration.\u201d Journal of Artificial Societies and Social Simulations 17(4) 11 <http://jasss.soc.surrey.ac.uk/17/4/11.html>."
+}

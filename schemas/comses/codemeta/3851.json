@@ -1,0 +1,60 @@
+{
+    "@id": "https://www.comses.net/codebases/3851/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/3851/releases/1.1.0/",
+    "name": "Market for Protection",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1090/",
+            "@type": "Person",
+            "email": "stevedoubleday@gmail.com",
+            "givenName": "Steven",
+            "familyName": "Doubleday",
+            "affiliation": {
+                "@id": "https://ror.org/04gyf1771",
+                "url": "http://uci.edu/",
+                "name": "University of California, Irvine",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04gyf1771"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1090/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://opensource.org/licenses/BSD-2-Clause",
+        "name": "BSD-2-Clause",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "market protection security java"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3851/releases/1.1.0/",
+    "dateCreated": "2013-08-19",
+    "description": "## Analytical Model of the Market for Protection: \r\n\r\nSecurity is a pre-requisite for economic development and activity. Konrad and Skaperdas ([2010](http://link.springer.com/content/pdf/10.1007/s00199-010-0570-x.pdf)) analyze the interaction of individual agents in anarchy, without any collective organization. *Peasants* spend their effort in productive activity, and consume some of their output to sustain themselves until the next period. *Bandits* produce no output, but prey on peasants, forcing the peasants to surrender their output for the bandits\u2019 consumption.\r\n\r\nPeasants may divide their effort between productive work, and securing their output against bandits. A *protection function* models this security effort; it converts security effort into effective protection of some proportion of a peasant\u2019s output, leaving the remainder to be surrendered to a bandit. The model then analyses an equilibrium condition, where all actors have the same average payoff.\r\n\r\n## Simulating the Market for Protection:  \r\n\r\nWe modify several of the assumptions of the analytical model. \r\n\r\n*   The protection function is given the specific functional form of a contest function.\r\n\r\n*   Peasants randomly choose a protection proportion.  \r\n\r\n*   Agents are randomly matched for interaction.  \r\n\r\n*   Dynamic: each agent lives one period; if its payoff is below a *survive* threshold, it dies, otherwise it has a single descendant. If its payoff is higher, above a *thrive* threshold, it has two descendants.  \r\n\r\n*   Peasants inherit the protection proportion of the parent.  \r\n\r\n*   Equilibrium:  average payoffs to bandits and peasants are equal, within a tolerance.\r\n\r\n## Implementation: \r\n\r\nThe [simulation](https://github.com/sjdayday/protection-simulation.git) is written in Java, and its behavior is governed by a set of parameters.  At a granular level, automated unit tests help ensure the correct behavior of individual classes and document the behavior of the simulation.",
+    "downloadUrl": "https://www.comses.net/codebases/3851/releases/1.1.0/download/",
+    "dateModified": "2018-02-24",
+    "releaseNotes": "v1.1:  fixes, new parameter for role-shifting dynamic\r\n\r\nV1.0:  partial implementation of bandits and peasants in the anarchy condition\r\n\r\nProject is maintained in github:  https://github.com/sjdayday/protection-simulation.git",
+    "copyrightYear": 2013,
+    "datePublished": "2013-08-19",
+    "operatingSystem": "platform_independent",
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Not yet submitted."
+}

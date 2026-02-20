@@ -1,0 +1,62 @@
+{
+    "@id": "https://www.comses.net/codebases/c7e925e0-a228-4e56-81e9-07455f453497/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/c7e925e0-a228-4e56-81e9-07455f453497/releases/1.1.0/",
+    "name": "TeleABM",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-6320-5482",
+            "@type": "Person",
+            "email": "yuedou.whu@gmail.com",
+            "givenName": "Yue",
+            "familyName": "Dou"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "10.1080/1747423X.2019.1687769",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "Brazil",
+        "china",
+        "land use change",
+        "soybean trade",
+        "trade"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/c7e925e0-a228-4e56-81e9-07455f453497/releases/1.1.0/",
+    "dateCreated": "2019-12-10",
+    "description": "We construct a new type of agent-based model (ABM) that can simultaneously simulate land-use changes at multiple distant places (namely TeleABM, telecoupled agent-based model). We use soybean trade between Brazil and China as an example, where Brazil is the sending system and China is the receiving system because they are the world\u2019s largest soybean exporter and importer respectively. We select one representative county in each country to calibrate and validate the model with spatio-temporal analysis of historical land-use changes and the empirical analysis of household survey data. The whole model is programmed on RePast Simphony. The most unique features of TeleABM are that it can simulate a telecoupled system and the flows between sending and receiving systems in this telecoupled system.\n\n",
+    "downloadUrl": "https://www.comses.net/codebases/c7e925e0-a228-4e56-81e9-07455f453497/releases/1.1.0/download/",
+    "dateModified": "2020-04-29",
+    "releaseNotes": "This is a new release which I removed unnecessary comments and code history, to make it more readable. \n",
+    "copyrightYear": 2020,
+    "datePublished": "2020-04-29",
+    "codeRepository": "https://github.com/y2dou/TeleABM",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Repast"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Dou, Y., Millington, J. D. A., Silva, R. F. B. da, McCord, P., Vina, A., Song, Q., \u2026 Liu, J. (2019). Land-use changes across distant places: Design of a telecoupled agent-based model. Journal of Land Use Science, 14(3), 191\u2013209. https://doi.org/10.1080/1747423X.2019.1687769\nDou, Y., Yao, G., Herzberger, A., Silva, R. F. B. da, Song, Q., Hovis, C., \u2026 Liu, J. (2020). Land-use changes across distant places: Implementation of a telecoupled agent-based model. Journal of Artificial Societies and Social Simulation, 23(1). https://doi.org/10.18564/jasss.4211"
+}

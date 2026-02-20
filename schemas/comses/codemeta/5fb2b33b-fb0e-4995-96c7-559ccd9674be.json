@@ -1,0 +1,54 @@
+{
+    "@id": "https://www.comses.net/codebases/5fb2b33b-fb0e-4995-96c7-559ccd9674be/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5fb2b33b-fb0e-4995-96c7-559ccd9674be/releases/1.0.0/",
+    "name": "A simple computational algorithm for simulating population substance use",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-7112-5677",
+            "@type": "Person",
+            "email": "jacob.borodovsky@dartmouth.edu",
+            "givenName": "Jacob",
+            "familyName": "Borodovsky"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "alcohol",
+        "drugs",
+        "epidemiology",
+        "NSDUH",
+        "substance use"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5fb2b33b-fb0e-4995-96c7-559ccd9674be/releases/1.0.0/",
+    "dateCreated": "2023-10-20",
+    "description": "This code simulates individual-level, longitudinal substance use patterns that can be used to understand how cross-sectional U-shaped distributions of population substance use emerge. Each independent computational object transitions between two states: using a substance (State 1), or not using a substance (State 2). The simulation has two core components. Component 1: each object is assigned a unique risk factor transition probability and unique protective factor transition probability. Component 2: each object\u2019s current decision to use or not use the substance is influenced by the object\u2019s history of decisions (i.e., \u201cpath dependence\u201d). ",
+    "downloadUrl": "https://www.comses.net/codebases/5fb2b33b-fb0e-4995-96c7-559ccd9674be/releases/1.0.0/download/",
+    "dateModified": "2025-03-27",
+    "releaseNotes": "Release 1",
+    "copyrightYear": 2025,
+    "datePublished": "2025-03-27",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Python 3"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python 3",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

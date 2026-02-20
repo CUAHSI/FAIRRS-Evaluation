@@ -1,0 +1,77 @@
+{
+    "@id": "https://www.comses.net/codebases/5955/releases/1.2.0/",
+    "url": "https://www.comses.net/codebases/5955/releases/1.2.0/",
+    "name": "PercolationPrice",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2061/",
+            "@type": "Person",
+            "email": "paolo.zeppini@gmail.com",
+            "givenName": "Paolo",
+            "familyName": "Zeppini"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Koen",
+            "familyName": "Frenken"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Luis",
+            "familyName": "Izquierdo"
+        },
+        {
+            "@id": "https://www.comses.net/users/2061/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc/4.0",
+        "name": "CC-BY-NC-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "consumer demand",
+        "innovation diffusion",
+        "NetLogo",
+        "network"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5955/releases/1.2.0/",
+    "dateCreated": "2017-12-22",
+    "description": "This model reproduce the demand curve in a market where consumers are embedded in a social network structure. Diffusion is modelled in a percolation framework: the product price acts as the material density of standard percolation experiments. Nodes are the potential buyers of the product (consumers) embedded in a social network. Different consumers have different reservation prices for the product. The user can try different settings of the model in a number of dimensions: the product price, the distribution of reservations prices, the network structure, and a learning coefficient that regulates the fall in price due technical progress.",
+    "downloadUrl": "https://www.comses.net/codebases/5955/releases/1.2.0/download/",
+    "dateModified": "2018-05-03",
+    "releaseNotes": "",
+    "copyrightYear": 2018,
+    "datePublished": "2018-05-03",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    }
+}

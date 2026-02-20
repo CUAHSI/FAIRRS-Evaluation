@@ -1,0 +1,60 @@
+{
+    "@id": "https://www.comses.net/codebases/acc61c38-4a67-4183-868f-d11fe70aa290/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/acc61c38-4a67-4183-868f-d11fe70aa290/releases/1.0.0/",
+    "name": "City Sandbox",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2776/",
+            "@type": "Person",
+            "email": "jarquisol@gmail.com",
+            "givenName": "Javier",
+            "familyName": "Sandoval"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "The model takes its growth algorithm from a model called \u201cStructure from randomness 2\u201d found in the Netlogo model library. This model, in turn, is based on another model found in the book \u201cCities and Complexity\u201d by Michael Batty.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "city",
+        "land use/land cover change",
+        "urban",
+        "urban land use",
+        "urban planning"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/acc61c38-4a67-4183-868f-d11fe70aa290/releases/1.0.0/",
+    "dateCreated": "2020-01-09",
+    "description": "This model grows land use patterns that emerge as a result of land-use compatibilities stablished in urban development plans, land topography, and street networks. It contains urban brushes to paint streets and land uses as a way to learn about urban pattern emergence through free experimentation.",
+    "downloadUrl": "https://www.comses.net/codebases/acc61c38-4a67-4183-868f-d11fe70aa290/releases/1.0.0/download/",
+    "dateModified": "2020-01-09",
+    "releaseNotes": "None",
+    "copyrightYear": 2020,
+    "datePublished": "2020-01-09",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

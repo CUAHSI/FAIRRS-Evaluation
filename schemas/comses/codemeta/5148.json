@@ -1,0 +1,65 @@
+{
+    "@id": "https://www.comses.net/codebases/5148/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5148/releases/1.0.0/",
+    "name": "Network formation on a two-layer multiplex with shocks",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/780/",
+            "@type": "Person",
+            "email": "paul.smaldino@gmail.com",
+            "givenName": "Paul",
+            "familyName": "Smaldino",
+            "affiliation": {
+                "@id": "https://ror.org/00d9ah105",
+                "url": "http://www.ucmerced.edu/",
+                "name": "University of California, Merced",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00d9ah105"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/780/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "incentives",
+        "multiplex networks",
+        "network formation",
+        "shock"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5148/releases/1.0.0/",
+    "dateCreated": "2017-11-27",
+    "description": "A dynamic model of social network formation on single-layer and multiplex networks with structural incentives that vary over time. Specifically, a two-layer multiplex network on which incentives exist for social ties, closed triangles, and spillover ties, and in which those incentives can change over time. \r\n\r\nRef: \r\nSmaldino PE, D'Souza R, Maoz Z (2018) Resilience by structural entrenchment: Dynamics of single-Layer and multiplex networks following sudden changes to tie costs. Network Science, in press.",
+    "downloadUrl": "https://www.comses.net/codebases/5148/releases/1.0.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "Version 1.1.",
+    "copyrightYear": 2017,
+    "datePublished": "2017-11-27",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Mason"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

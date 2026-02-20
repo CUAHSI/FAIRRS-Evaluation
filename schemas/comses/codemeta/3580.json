@@ -1,0 +1,89 @@
+{
+    "@id": "https://doi.org/10.25937/yc1m-0950",
+    "url": "https://doi.org/10.25937/yc1m-0950",
+    "name": "Pumpa irrigation model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/239/",
+            "@type": "Person",
+            "email": "ire.perezi@gmail.com",
+            "givenName": "Irene",
+            "familyName": "Perez Ibarra",
+            "affiliation": {
+                "url": "http://csid.asu.edu/",
+                "name": "Center for the Study of Institutional Diversity",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Person",
+            "email": "marco.janssen@asu.edu",
+            "givenName": "Marco",
+            "familyName": "Janssen",
+            "affiliation": {
+                "url": "https://schoolofsustainability.asu.edu/",
+                "name": "School of Sustainability",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/239/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Cifdaloz O., Regmi A., Anderies J.M., Rodriguez A.A. 2010. Robustness, vulnerability, and adaptive capacity in small-scale social-ecological systems: The Pumpa Irrigation System in Nepal. Ecology and Society 15(3): 39. [online] URL: http://www.ecologyandsociety.org/vol15/iss3/art39/",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "climate change adaptation",
+        "institutions",
+        "irrigation",
+        "social-ecological system"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/yc1m-0950",
+        "https://doi.org/10.25937/yc1m-0950"
+    ],
+    "dateCreated": "2013-01-09",
+    "description": "This is a replication of the Pumpa model that simulates the Pumpa Irrigation System in Nepal (Cifdaloz et al., 2010). The purpose of this model is to analyze the robustness of this small-scale irrigation system to two scenarios of disturbances to the natural resource (discharge reduction and time shift in water supply), and two scenarios of disturbances to the physical infrastructure (canals and gates) using five possible irrigation policies (open flow, sequential rotation, optimized sequential, 24-hour rotation, and 12-hour rotation).",
+    "downloadUrl": "https://www.comses.net/codebases/3580/releases/1.0.0/download/",
+    "dateModified": "2024-12-05",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

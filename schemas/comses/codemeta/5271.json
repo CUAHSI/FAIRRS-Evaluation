@@ -1,0 +1,80 @@
+{
+    "@id": "https://www.comses.net/codebases/5271/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/5271/releases/1.1.0/",
+    "name": "Peninsula_Iberica 1.0",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1852/",
+            "@type": "Person",
+            "email": "carolinacucart@gmail.com",
+            "givenName": "Carolina",
+            "familyName": "Cucart-Mora"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Sergi",
+            "familyName": "Lozano"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Javier",
+            "familyName": "Fern\u00e1ndez-L\u00f3pez De Pablo"
+        },
+        {
+            "@id": "https://www.comses.net/users/1852/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Hominin ecodyamics v. 1.0, published in:\r\nBarton, C. MIchael, Julien Riel-Salvatore, John M. Anderies, & Gabriel Popescu (2011). Modeling human ecodynamics and biocultural interactions in the Late Pleistocene of western Eurasia. Human Ecology. DOI: 10.1007/s10745-011-9433-8",
+            "@type": "CreativeWork"
+        }
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5271/releases/1.1.0/",
+    "dateCreated": "2017-11-27",
+    "description": "We have adapted an agent based model constructed by Barton and Riel Salvatore (2011) to explore the bio-cultural interaction between AMH and Neanderthals during the Middle to Upper Paleolithic Transition in the Iberian Peninsula\r\nThis model simulates genetic interaction and hybridization between the two populations using a 10-locus multi-allele system. This interactions take place in a map of the Iberian Peninusla during the Middle to Upper Paleolithic Transition. The model considers a set of specifici variables (initial population size, birth and death rates and home range size and the degree to which individuals practice positive assortative mating) to discuss the range of posible genetic outcomes and the tempo of Neanderthals disappearancee.",
+    "downloadUrl": "https://www.comses.net/codebases/5271/releases/1.1.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "",
+    "copyrightYear": 2017,
+    "datePublished": "2017-11-27",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

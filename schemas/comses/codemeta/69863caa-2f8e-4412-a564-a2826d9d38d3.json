@@ -1,0 +1,117 @@
+{
+    "@id": "https://www.comses.net/codebases/69863caa-2f8e-4412-a564-a2826d9d38d3/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/69863caa-2f8e-4412-a564-a2826d9d38d3/releases/1.1.0/",
+    "name": "Modeling the emergence of migratory corridors and foraging hotspots of the green sea turtle",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "email": "mayeuldalleau@cedtm-asso.org",
+            "givenName": "Mayeul",
+            "familyName": "Dalleau",
+            "affiliation": {
+                "@id": "https://ror.org/01qwvz642",
+                "url": "https://cedtm-asso.org/vegetation",
+                "name": "Centre d'\u00c9tude et de D\u00e9couverte des Tortues Marines",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01qwvz642"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/14/",
+            "@type": "Person",
+            "email": "volker.grimm@ufz.de",
+            "givenName": "Volker",
+            "familyName": "Grimm",
+            "affiliation": {
+                "url": "http://www.ufz.de",
+                "name": "Helmholtz Center for Environmental Research - UFZ",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "Jerome.Bourjea@ifremer.fr",
+            "givenName": "J\u00e9r\u00f4me",
+            "familyName": "Bourjea",
+            "affiliation": {
+                "@id": "https://ror.org/005ypkf75",
+                "url": "http://www.univ-reunion.fr/university-of-reunion-island/",
+                "name": "University of Reunion Island",
+                "@type": "Organization",
+                "identifier": "https://ror.org/005ypkf75"
+            }
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "email": "kramer@izw-berlin.de",
+            "givenName": "Stephanie",
+            "familyName": "Kramer-Schadt",
+            "affiliation": {
+                "@id": "https://ror.org/05nywn832",
+                "url": "http://www.izw-berlin.de/welcome.html",
+                "name": "Leibniz Institute for Zoo and Wildlife Research",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05nywn832"
+            }
+        },
+        {
+            "@id": "_:author_1",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "https://www.comses.net/users/14/",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "connectivity",
+        "corridor",
+        "marine conservation",
+        "marine protected areas",
+        "migration",
+        "movement"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/69863caa-2f8e-4412-a564-a2826d9d38d3/releases/1.1.0/",
+    "dateCreated": "2019-04-03",
+    "description": "The model represents migration of the green sea turtle,* Chelonia mydas*, between foraging and breeding sites in the Southwest Indian Ocean. The purpose of the model is to investigate the impact of local environmental conditions, including the quality of foraging sites and ocean currents, on emerging migratory corridors and reproductive output and to thereby identify conservation priority sites. \n\nCorresponding article to found here: https://onlinelibrary.wiley.com/doi/epdf/10.1002/ece3.5552 ",
+    "downloadUrl": "https://www.comses.net/codebases/69863caa-2f8e-4412-a564-a2826d9d38d3/releases/1.1.0/download/",
+    "dateModified": "2019-09-17",
+    "releaseNotes": "The model was implemented in NetLogo 4.1.3, the released version was saved under NetLogo 5.3.1. The NetLogo program will not run under NetLogo 6.X.X. Instructions for running the model and information on the input files are given in \"doc/How to run the NetLogo program.pdf\"",
+    "copyrightYear": 2019,
+    "datePublished": "2019-09-17",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

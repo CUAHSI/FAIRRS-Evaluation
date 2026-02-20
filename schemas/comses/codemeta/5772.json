@@ -1,0 +1,64 @@
+{
+    "@id": "https://www.comses.net/codebases/5772/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/5772/releases/1.1.0/",
+    "name": "Policy Formulation for Public Administration - Innovation",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-9406-1933",
+            "@type": "Person",
+            "email": "basharourabi@gmail.com",
+            "givenName": "Bashar",
+            "familyName": "Ourabi",
+            "affiliation": {
+                "url": "http://www.arabianconsult.com",
+                "name": "Arabian Consult",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-9406-1933",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Assandri, M., & Oggero, N. (2014). Simulating a job market with migration and skill levels. Torino, Italy.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5772/releases/1.1.0/",
+    "dateCreated": "2017-08-29",
+    "description": "To capture the deliverable of Innovation, the initial conditions for all related type of capitals must be considered to model for innovation. \r\nSuch Paradigm in modelling becomes key in allowing for bidirectional relations between different types of capital.\r\n\r\nThe model integrates HC, RC, and SC in a single model. This is determined by agents behavior of the skilled labor by earning status, availability of jobs, and immigration friction, their willingness-to-become a part of the skilled labor in a country. Immigration proceeds in our model, if unemployment is increased or earning potential is reduced, agents then seek to immigrate causing a reduction in overall country's innovation wealth and capital. \r\n\r\nEndogeneity is given due to the fact that labor type awareness as well as their willingness-to-remain in a certain country. Vice versa, rivalry determines wages and therefore skilled labor relocation. \r\n\r\n\r\nMarket entry and exit decisions as well as innovation wealth creation and overall GDP delta produced based on innovation wealth settings are driven by the underlying demand function. We utilize GDP Delta as a competition to calculate competitive dynamics. Countries compete on the policies instrument utilized.\r\n\r\nPolicy outcomes are evaluated in terms of effectiveness and efficiency. Effectiveness is primarily measured via acceleration (innovation-speed) to overtake another country. \r\n\r\nAn effective policy initiates skilled labor to remain and produce brain gain. also accounting for emerging behavior of salary level changes. On the contrary, efficiency measures the trade-off between policy effectiveness and associated costs. For instance, policies may boost innovation levels remarkably, but produce extraordinary additional salary hikes that may reduce competitive advantage . Direct policy costs such as demand influence as well as market flex in terms of labor surplus and costs are evaluated.",
+    "downloadUrl": "https://www.comses.net/codebases/5772/releases/1.1.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "v.1",
+    "copyrightYear": 2017,
+    "datePublished": "2017-08-29",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Ourabi, Bashar (2017, September 1). \"Computational Policy Formulation: An Innovation ABM Case in Development Economics\". CoMSES Computational Model Library. Retrieved from: https://www.openabm.org/model/xxxxx/version/x"
+}

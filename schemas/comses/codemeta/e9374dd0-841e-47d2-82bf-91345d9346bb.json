@@ -1,0 +1,181 @@
+{
+    "@id": "https://www.comses.net/codebases/e9374dd0-841e-47d2-82bf-91345d9346bb/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/e9374dd0-841e-47d2-82bf-91345d9346bb/releases/1.0.0/",
+    "name": "Narragansett Bay (RI) Recreational Fishery ABM",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/3170/",
+            "@type": "Person",
+            "email": "ainnesgold@gmail.com",
+            "givenName": "Anne",
+            "familyName": "Innes-Gold",
+            "affiliation": {
+                "@id": "https://ror.org/013ckk937",
+                "url": "http://ww2.uri.edu/#",
+                "name": "University of Rhode Island",
+                "@type": "Organization",
+                "identifier": "https://ror.org/013ckk937"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/2163/",
+            "@type": "Person",
+            "email": "tpavlowich@gmail.com",
+            "givenName": "Tyler",
+            "familyName": "Pavlowich",
+            "affiliation": {
+                "@id": "https://ror.org/00w5xhg82",
+                "url": "http://www.ainfosec.com/",
+                "name": "Assured Information Security (United States)",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00w5xhg82"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "mheinichen@uri.edu",
+            "givenName": "Margaret",
+            "familyName": "Heinichen",
+            "affiliation": {
+                "@id": "https://ror.org/013ckk937",
+                "url": "http://ww2.uri.edu/#",
+                "name": "University of Rhode Island",
+                "@type": "Organization",
+                "identifier": "https://ror.org/013ckk937"
+            }
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "email": "Conor.McManus@dem.ri.gov",
+            "givenName": "M. Conor",
+            "familyName": "McManus",
+            "affiliation": {
+                "@id": "https://ror.org/0183bt791",
+                "url": "http://www.dem.ri.gov/",
+                "name": "Rhode Island Department of Environmental Management",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0183bt791"
+            }
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Person",
+            "email": "jason.mcnamee@dem.ri.gov",
+            "givenName": "Jason",
+            "familyName": "McNamee",
+            "affiliation": {
+                "@id": "https://ror.org/0183bt791",
+                "url": "http://www.dem.ri.gov/",
+                "name": "Rhode Island Department of Environmental Management",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0183bt791"
+            }
+        },
+        {
+            "@id": "_:author_6",
+            "@type": "Person",
+            "email": "jcollie@uri.edu",
+            "givenName": "Jeremy",
+            "familyName": "Collie",
+            "affiliation": {
+                "@id": "https://ror.org/013ckk937",
+                "url": "http://ww2.uri.edu/#",
+                "name": "University of Rhode Island",
+                "@type": "Organization",
+                "identifier": "https://ror.org/013ckk937"
+            }
+        },
+        {
+            "@id": "_:author_7",
+            "@type": "Person",
+            "email": "humphries@uri.edu",
+            "givenName": "Austin",
+            "familyName": "Humphries",
+            "affiliation": {
+                "@id": "https://ror.org/013ckk937",
+                "url": "http://ww2.uri.edu/#",
+                "name": "University of Rhode Island",
+                "@type": "Organization",
+                "identifier": "https://ror.org/013ckk937"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/2163/",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_6",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_7",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "fisheries management",
+        "fisheries modeling",
+        "fisheries modeling",
+        "fishery",
+        "human behaviour",
+        "Narragansett Bay",
+        "recreational fishing",
+        "Rhode Island",
+        "small-scale fisheries",
+        "social-ecological"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/e9374dd0-841e-47d2-82bf-91345d9346bb/releases/1.0.0/",
+    "dateCreated": "2021-06-21",
+    "description": "This model is based on the Narragansett Bay, RI recreational fishery. The two types of agents are piscivorous fish and fishers (shore and boat fishers are separate \"breeds\"). Each time step represents one week. Open season is weeks 1-26, assuming fishing occurs during half the year. At each weekly time step, fish agents grow, reproduce, and die. Fisher agents decide whether or not to fish based on their current satisfaction level, and those that do go fishing attempt to catch a fish. If they are successful, they decide whether to keep or release the fish. In our publication, this model was linked to an Ecopath with Ecosim food web model where the commercial harvest of forage fish affected the biomass of piscivorous fish - which then became the starting number of piscivorous fish for this ABM. The number of fish caught in a season of this ABM was converted to a fishing pressure and input back into the food web model.",
+    "downloadUrl": "https://www.comses.net/codebases/e9374dd0-841e-47d2-82bf-91345d9346bb/releases/1.0.0/download/",
+    "dateModified": "2021-06-21",
+    "releaseNotes": "An original ABM based on the recreational fishery of Narragansett Bay. See model documentation for details.",
+    "copyrightYear": 2021,
+    "datePublished": "2021-06-21",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "ABM",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Innes-Gold, A. A., T. Pavlowich, M. Heinichen, M. C. McManus, J. McNamee, J. Collie, and A. T. Humphries. 2021. Exploring social-ecological trade-offs in fisheries using a coupled food web and human behavior model. Ecology and Society 26(2):40.\nhttps://doi.org/10.5751/ES-12451-260240"
+}

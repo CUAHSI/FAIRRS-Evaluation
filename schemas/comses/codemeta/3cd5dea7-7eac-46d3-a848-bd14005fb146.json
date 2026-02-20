@@ -1,0 +1,69 @@
+{
+    "@id": "https://www.comses.net/codebases/3cd5dea7-7eac-46d3-a848-bd14005fb146/releases/1.0.2/",
+    "url": "https://www.comses.net/codebases/3cd5dea7-7eac-46d3-a848-bd14005fb146/releases/1.0.2/",
+    "name": "The uFUNK Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-6677-8689",
+            "@type": "Person",
+            "email": "secchi.davi@gmail.com",
+            "givenName": "Davide",
+            "familyName": "Secchi",
+            "affiliation": {
+                "url": "https://www.sdu.dk/en/om_sdu/institutter_centre/c_comac",
+                "name": "Research Centre for Computational & Organisational Cognition, University of Southern Denmark",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.2",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "uFUNK 1.0.2 uses concepts that have been explored in other agent-based models. Here are some that may be related to this:\n\nSecchi, D. (2016). Boundary conditions for the emergence of \u2018docility:\u2019 An agent-based model and simulation. In Secchi, D. and Neumann, M., editors, Agent-Based Simulation of Organizational Behavior. New Frontiers of Social Science Research, pages 175\u2013200. New York: Springer.\n\nSecchi, D. and Gullekson, N. (2016). Individual and organizational conditions for the emergence and evolution of bandwagons. Computational and Mathematical Organization Theory, 22(1):88\u2013133.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "agent-based model",
+        "docility",
+        "information",
+        "non-functional information",
+        "Organizational behavior",
+        "task performance",
+        "team dynamics",
+        "team performance"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3cd5dea7-7eac-46d3-a848-bd14005fb146/releases/1.0.2/",
+    "dateCreated": "2020-08-31",
+    "description": "The agent-based simulation is set to work on information that is either (a) functional, (b) pseudo-functional, (c) dysfunctional, or (d) irrelevant. The idea is that a judgment on whether information falls into one of the four categories is based on the agent and its network. In other words, it is the agents who interprets a particular information as being (a), (b), (c), or (d). It is a decision based on an exchange with co-workers. This makes the judgment a socially-grounded cognitive exercise. The uFUNK 1.0.2 Model is set on an organization where agent-employee work on agent-tasks.\n",
+    "downloadUrl": "https://www.comses.net/codebases/3cd5dea7-7eac-46d3-a848-bd14005fb146/releases/1.0.2/download/",
+    "dateModified": "2020-08-31",
+    "releaseNotes": "TheuFUNK 1.0.2 Model is an attempt to simulate what happens when the information that is used when performing a task, solving a problem, or dealing with an activity is not necessarily useful. This model appeals to the classic literature on communication (e.g., Shannon, 1948), but it reframes the discourse in a more articulate way. Most of the studies on information exchange almost never consider data or information that is not useful for the operation that is taking place. This is quite natural because it is often more relevant to understand what appeared to have made something work. In this simulation, the idea is to understand whether also information that cannot be classified as necessarily useful affects decision-makers (or those who perform a task). In the LNCS book chapter I present a typology of nonfunctional information by dividing it into:\n\n(a) pseudo-functional --- this is information that looks important and useful at the eyes of the decision maker but, in reality, it does not directly add anything to the problem or task performance;\n\n(b) dysfunctional --- the information that is counterproductive is such that its use is so distant from the actual necessary information that it takes the solution farther away;\n\n(c) irrelevant --- there are no repercussions by using this type of information because it is blatantly far away from the actual problem or task.",
+    "copyrightYear": 2020,
+    "datePublished": "2020-08-31",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Secchi, D. (2020). A Typology of Non-functional Information. In HCI International 2020 - Late Breaking Papers: Cognition, Learning and Games, Lecture Notes in Computer Science 12425, Volume 43, pp. forthcoming."
+}

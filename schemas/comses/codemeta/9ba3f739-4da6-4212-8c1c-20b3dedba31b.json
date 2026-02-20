@@ -1,0 +1,54 @@
+{
+    "@id": "https://www.comses.net/codebases/9ba3f739-4da6-4212-8c1c-20b3dedba31b/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/9ba3f739-4da6-4212-8c1c-20b3dedba31b/releases/1.0.0/",
+    "name": "Armature distribution within the PaleoscapeABM",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-1324-7937",
+            "@type": "Person",
+            "email": "cgravelm@asu.edu",
+            "givenName": "Claudine",
+            "familyName": "Gravel-Miguel",
+            "affiliation": {
+                "@id": "https://ror.org/00d9ah105",
+                "url": "http://www.ucmerced.edu/",
+                "name": "University of California, Merced",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00d9ah105"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/9ba3f739-4da6-4212-8c1c-20b3dedba31b/releases/1.0.0/",
+    "dateCreated": "2020-08-18",
+    "description": "This is a variant of the PaleoscapeABM model available [here](https://www.comses.net/codebases/5356/releases/1.0.0/) written by Wren and Janssen. In this variant, we give projectile weapons to hunter and document where they discard them over time. Discard rate and location are influenced by probabilities of hitting/missing the prey, probabilities of damaging the weapon, and probabilities of carrying back embedded projectile armatures to the habitation camp with the body carcass.",
+    "downloadUrl": "https://www.comses.net/codebases/9ba3f739-4da6-4212-8c1c-20b3dedba31b/releases/1.0.0/download/",
+    "dateModified": "2021-03-23",
+    "releaseNotes": "This is the first release of this model. The model can simply be opened and run by clicking Setup and then Go. One can also use BehaviorSpace to run more complicated scenarios and explore how different parameter values affect the distribution of projectile armatures.\n\nThe outputs and R scripts used for our analysis can be downloaded from our OSF [repository](https://osf.io/w2f9q/).",
+    "copyrightYear": 2021,
+    "datePublished": "2021-03-23",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

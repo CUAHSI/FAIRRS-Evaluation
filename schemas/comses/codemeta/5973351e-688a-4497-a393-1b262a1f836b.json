@@ -1,0 +1,128 @@
+{
+    "@id": "https://doi.org/10.25937/3mks-mt69",
+    "url": "https://doi.org/10.25937/3mks-mt69",
+    "name": "Price Evolution with Expectations",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-9052-7126",
+            "@type": "Person",
+            "email": "jmappleg@asu.edu",
+            "givenName": "J M",
+            "familyName": "Applegate",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Steudle, Gesine A., Saini Yang, and Carlo C. Jaeger. \"Price Dynamics Via Expectations, and the Role of Money Therein.\" arXiv preprint arXiv:1610.05583 (2016).",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "complexity economics",
+        "evolutionary economics",
+        "multiple equilibria",
+        "price"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/3mks-mt69",
+        "https://doi.org/10.25937/3mks-mt69"
+    ],
+    "contributor": [
+        {
+            "@id": "_:contributor_1",
+            "@type": "Person",
+            "email": "gesine.steudle@globalclimateforum.org",
+            "givenName": "Gesine",
+            "familyName": "Steudel",
+            "affiliation": {
+                "@id": "https://ror.org/02tce8t86",
+                "url": "http://www.globalclimateforum.org/",
+                "name": "Global Climate Forum",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02tce8t86"
+            }
+        },
+        {
+            "@id": "_:contributor_2",
+            "@type": "Person",
+            "email": "Armin.Haas@iass-potsdam.de",
+            "givenName": "Armin",
+            "familyName": "Haas",
+            "affiliation": {
+                "@id": "https://ror.org/01vvnmw35",
+                "url": "http://www.rifs-potsdam.de",
+                "name": "Research Institute For Sustainability \u2013 Helmholtz Centre Potsdam",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01vvnmw35"
+            }
+        },
+        {
+            "@id": "_:contributor_3",
+            "@type": "Person",
+            "email": "carlo.jaeger@globalclimateforum.org",
+            "givenName": "Carlo",
+            "familyName": "Jaeger",
+            "affiliation": {
+                "@id": "https://ror.org/01vvnmw35",
+                "url": "http://www.rifs-potsdam.de",
+                "name": "Research Institute For Sustainability \u2013 Helmholtz Centre Potsdam",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01vvnmw35"
+            }
+        },
+        {
+            "@id": "_:contributor_1",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:contributor_2",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:contributor_3",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "dateCreated": "2021-09-10",
+    "description": "The Price Evolution with Expectations model provides the opportunity to explore the question of non-equilibrium market dynamics, and how and under which conditions an economic system converges to the classically defined economic equilibrium. To accomplish this, we bring together two points of view of the economy; the classical perspective of general equilibrium theory and an evolutionary perspective, in which the current development of the economic system determines the possibilities for further evolution. \n\nThe Price Evolution with Expectations model consists of a representative firm producing no profit but producing a single good, which we call sugar, and a representative household which provides labour to the firm and purchases sugar.The model explores the evolutionary dynamics whereby the firm does not initially know the household demand but eventually this demand  and thus the correct price for sugar given the household's optimal labour.\n\nThe model can be run in one of two ways; the first does not include money and the second uses money such that the firm and/or the household have an endowment that can be spent or saved. In either case, the household has preferences for leisure and consumption and a demand function relating sugar and price, and the firm has a production function and learns the household demand over a set number of time steps using either an endogenous or exogenous learning algorithm. The resulting equilibria, or fixed points of the system, may or may not match the classical economic equilibrium.",
+    "downloadUrl": "https://www.comses.net/codebases/5973351e-688a-4497-a393-1b262a1f836b/releases/1.0.0/download/",
+    "dateModified": "2024-12-05",
+    "releaseNotes": "Version 1.0, initial release of model\nDependencies:\nPython 3.9.2\nPandas 1.2.3",
+    "copyrightYear": 2021,
+    "datePublished": "2021-09-10",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "None"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

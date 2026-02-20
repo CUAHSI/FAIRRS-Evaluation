@@ -1,0 +1,59 @@
+{
+    "@id": "https://doi.org/10.25937/5g4z-ky07",
+    "url": "https://doi.org/10.25937/5g4z-ky07",
+    "name": "Evolution of Ecological Communities: Testing Constraint Closure",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-7307-5589",
+            "@type": "Person",
+            "email": "slp3141@gmail.com",
+            "givenName": "Steve",
+            "familyName": "Peck",
+            "affiliation": {
+                "@id": "https://ror.org/047rhhm47",
+                "url": "http://home.byu.edu/home/",
+                "name": "Brigham Young University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/047rhhm47"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-nd/4.0",
+        "name": "CC-BY-NC-ND-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.1",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/5g4z-ky07",
+        "https://doi.org/10.25937/5g4z-ky07"
+    ],
+    "dateCreated": "2020-04-24",
+    "description": "Ecosystems are among the most complex structures studied. They comprise elements that seem both stable and contingent. The stability of these systems depends on interactions among their evolutionary history, including the accidents of organisms moving through the landscape and microhabitats of the earth, and the biotic and abiotic conditions in which they occur. When ecosystems are stable, how is that achieved? Here we look at ecosystem stability through a computer simulation model that suggests that it may depend on what constrains the system and how those constraints are structured. Specifically, if the constraints found in an ecological community form a closed loop, that allows particular kinds of feedback may give structure to the ecosystem processes for a period of time. In this simulation model, we look at how evolutionary forces act in such a way these closed constraint loops may form. This may explain some kinds of ecosystem stability. This work will also be valuable to ecological theorists in understanding general ideas of stability in such systems.",
+    "downloadUrl": "https://www.comses.net/codebases/c9d55182-4444-4cc1-9a6f-dcf9c4ca942a/releases/1.0.1/download/",
+    "dateModified": "2021-04-28",
+    "releaseNotes": "Ecological theorists have generated several yet unresolved disputes that try to untangle the difficulty in understanding the nature of complex ecological communities. In this paper, we combine two recent theoretical approaches that used together suggest a promising way to consider how evolutionary and ecological processes may be used to frame a general theory of community ecology and its functional stability. First, we consider the theoretical proposal by Mark Vellend (2016) to focus on a small set of higher-level evolutionary and ecological processes that act on species within an ecological community. These processes provide a basis for ecological theory similar to the way in which theoretical population genetics has focused on a small set of mathematical descriptions to undergird its theory. Second, we explore ideas that might be applied to ecosystem functioning developed by Alvaro Moreno and Matteo Mossio's (2015) work on how biologically autonomous systems emerge from closure of relevant constraints. To explore the possibility that combining these two ideas may provide a more general theoretical understanding of ecological communities, we have developed a stochastic, agent-based model, with agents representing species, that explores the potential of using evolutionary and ecological processes as a constraint on the flow of species through an ecosystem. We explore how these ideas help illuminate aspects of stability found in many ecological communities. These agent-based modeling results provide in-principle arguments that suggest that constraint closure, using evolutionary and ecological processes, explain general features of ecological communities. In particular, we find that our model suggests a perspective useful in explaining repeated patterns of stability in ecological evenness, species turnover, species richness, and in measures of fitness. ",
+    "copyrightYear": 2021,
+    "datePublished": "2021-04-16",
+    "embargoEndDate": "2020-04-08",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Preprint doi: https://doi.org/10.1101/2020.01.28.924001"
+}

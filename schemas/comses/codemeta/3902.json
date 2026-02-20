@@ -1,0 +1,78 @@
+{
+    "@id": "https://doi.org/10.25937/66d6-kz70",
+    "url": "https://doi.org/10.25937/66d6-kz70",
+    "name": "Ache hunting",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Person",
+            "email": "marco.janssen@asu.edu",
+            "givenName": "Marco",
+            "familyName": "Janssen",
+            "affiliation": {
+                "url": "https://schoolofsustainability.asu.edu/",
+                "name": "School of Sustainability",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Kim",
+            "familyName": "Hill"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "cooperation",
+        "hunter-gatherer",
+        "optimal foraging theory",
+        "predator-prey"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/66d6-kz70",
+        "https://doi.org/10.25937/66d6-kz70"
+    ],
+    "dateCreated": "2017-02-26",
+    "description": "We develop an agent based model of foraging behavior based on parameters of the environment and prey characteristics found in the Mbaracayu Reserve Paraguay.  We then compare predicted human foraging behavior in our model to actual ethnographically observed behavior of Ache hunter-gatherers who inhabit the region.  A useful and realistic model should produce outcomes that closely match those actually observed for Ache hunters.   We show that our model meets such criteria and then use the model to explore the consequences of cooperative vs. solitary hunting, small vs. larger group sizes, and mobile vs. more sedentary hunting bands.  These simulations allow us to draw conclusions about the benefits of social for hunter-gatherers living under Ache-like ecological conditions.",
+    "downloadUrl": "https://www.comses.net/codebases/3902/releases/1.2.0/download/",
+    "dateModified": "2018-12-27",
+    "releaseNotes": "Updated to Netlogo version 6.0.2",
+    "copyrightYear": 2018,
+    "datePublished": "2018-12-21",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Marco A. Janssen and Kim Hill (2014) Benefits from grouping and cooperative hunting among Ache hunter-gatherers: Insights from an agent-based foraging model, 42(6): 823-835. doi:10.1007/s10745-014-9693-1"
+}

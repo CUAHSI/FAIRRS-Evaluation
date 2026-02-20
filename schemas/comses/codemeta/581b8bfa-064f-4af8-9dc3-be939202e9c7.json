@@ -1,0 +1,76 @@
+{
+    "@id": "https://doi.org/10.25937/hvbb-x010",
+    "url": "https://doi.org/10.25937/hvbb-x010",
+    "name": "AgModel",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-3533-9421",
+            "@type": "Person",
+            "email": "iullah@sdsu.edu",
+            "givenName": "Isaac",
+            "familyName": "Ullah",
+            "affiliation": {
+                "@id": "https://ror.org/0264fdx42",
+                "url": "http://www.sdsu.edu/",
+                "name": "San Diego State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0264fdx42"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Ullah, I. (2023) \"AgModel: An Agent-Based Model of the forager-farmer transition.\" Symposium: \u201cSimulations for the past, simulations for the future.\u201d 2023 Computer Applications in Archaeology Conference. April 3 \u2013 6, Amsterdam, NL.\nBarton, L., and Ullah, I. (2016) \u201cComputer simulation and the origins of agriculture in East Asia,\u201d Paper presented at the 7th Worldwide Conference of the Society for East Asian Archaeology, Boston, MA, June, 2016.",
+            "@type": "CreativeWork"
+        },
+        {
+            "text": "No",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "archaeology",
+        "cereal grains",
+        "coevolution",
+        "domestication",
+        "Origins of agriculture"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/hvbb-x010",
+        "https://doi.org/10.25937/hvbb-x010"
+    ],
+    "dateCreated": "2024-11-05",
+    "description": "AgModel is an agent-based model of the forager-farmer transition. The model consists of a single software agent that, conceptually, can be thought of as a single hunter-gather community (i.e., a co-residential group that shares in subsistence activities and decision making). The agent has several characteristics, including a population of human foragers, intrinsic birth and death rates, an annual total energy need, and an available amount of foraging labor. The model assumes a central-place foraging strategy in a fixed territory for a two-resource economy: cereal grains and prey animals. The territory has a fixed number of patches, and a starting number of prey. While the model is not spatially explicit, it does assume some spatiality of resources by including search times.\n\nDemographic and environmental components of the simulation occur and are updated at an annual temporal resolution, but foraging decisions are \"event\" based so that many such decisions will be made in each year. Thus, each new year, the foraging agent must undertake a series of optimal foraging decisions based on its current knowledge of the availability of cereals and prey animals. Other resources are not accounted for in the model directly, but can be assumed for by adjusting the total number of required annual energy intake that the foraging agent uses to calculate its cereal and prey animal foraging decisions. The agent proceeds to balance the net benefits of the chance of finding, processing, and consuming a prey animal, versus that of finding a cereal patch, and processing and consuming that cereal. These decisions continue until the annual kcal target is reached (balanced on the current human population). If the agent consumes all available resources in a given year, it may \"starve\". Starvation will affect birth and death rates, as will foraging success, and so the population will increase or decrease according to a probabilistic function (perturbed by some stochasticity) and the agent's foraging success or failure. The agent is also constrained by labor caps, set by the modeler at model initialization. If the agent expends its yearly budget of person-hours for hunting or foraging, then the agent can no longer do those activities that year, and it may starve.\n\nForagers choose to either expend their annual labor budget either hunting prey animals or harvesting cereal patches. If the agent chooses to harvest prey animals, they will expend energy searching for and processing prey animals. prey animals search times are density dependent, and the number of prey animals per encounter and handling times can be altered in the model parameterization (e.g. to increase the payoff per encounter). Prey animal populations are also subject to intrinsic birth and death rates with the addition of additional deaths caused by human predation. A small amount of prey animals may \"migrate\" into the territory each year. This prevents prey animals populations from complete decimation, but also may be used to model increased distances of logistic mobility (or, perhaps, even residential mobility within a larger territory).\n\nIf the agent chooses to consume cereals, then they extend time searching for a cereal patch and processing the cereals grains in that patch. Human selection preferences will drive evolutionary processes within the overall cereal population, and the selection rate be altered as a parameterization of the simulation. Two characteristics are selected for: plant morphology (which affects both grain size and ease of harvesting), and patch density (reseeding density). These are generalized into two intrinsic populations of cereals: \u201cwild type,\u201d and \u201cdomestic type.\u201d Human harvesting will increase the overall ratio of domestic type cereal plants in utilized patches over time due to artificial selection in patches that are under consistent use. The ratio will begin to decrease in patches that are not used according to a diffusion rate, and the proportion of wild to domesticated cereals in all patches. Morphologically wild cereals produce fewer kcal per seed, has longer handling times, and produces fewer seeds per patch. Thus, as cereal is more frequently used, its desirable traits are enhanced (via selection), and it becomes more profitable. At the same time, however, there is a constant \"diffusion\" of wild-type characteristics back to patches so that if cereal is consumed less frequently, the proportion of wild type cereals will begin to increase in patches that are not used. Currently, cereal patches are accessed in the same order every year, so humans are assumed to consistently choose the \"best\" patches first, if/when they decide to consume cereals in a given year. The \"size\" of individual cereal patches is set by the maximum wild/domesticated cereal patch density values (default values assume patch size = 1 ha).\n\nI have written AgModel in pure Python with the hope of better integration to scientific Python (e.g., pandas, matplotlib) and the open-science movement. The model has a simple graphical interface, or can be run \u201cheadless.\u201d Optionally, experiments using parameter sweeps with repetition can be set up to run in parallel on as many available processors as desired. Careful parameterization of AgModel can test scenarios where complex hunter-gatherers engaged in foraging decisions that interacted with plant evolutionary dynamics to artificially increase the prevalence of domestic type plans in the local ecosystem. When the domestic phenotype is most prevalent, we can consider the species to be \u201cdomesticated.\u201d The temporal dynamics of the process of domestication, however, are not linear, and the timeline and longevity of the domestication event may differ under changing environmental conditions.",
+    "downloadUrl": "https://www.comses.net/codebases/581b8bfa-064f-4af8-9dc3-be939202e9c7/releases/1.0.0/download/",
+    "dateModified": "2026-01-20",
+    "releaseNotes": "v0.6  to v0.7\n* Minor bugfix\n* Added ODD Protocol\n\nv0.5 to v0.6\n* Removed HunterGathererRatio (allows this to be an emergent property)\n* Added Gaussian filter to diet breadth logic\n* Added randomization of prey encounter number\n* Added Gaussian filter to coevolutionary selection and diffusion rates\n\nv0.4 to v0.5\n* Updated variable names for readability\n\nv0.3 to v0.4\n* upgraded to Python 3\n* changes to GUI and interaction\n* selection is now balanced against diffusion in utilized patches.\n* diffusion is now density dependent, so that it reduces as the percentage of domestic phenotype in the ecosystem increases.\n* added docstrings to classes and functions (no functional changes)",
+    "copyrightYear": 2024,
+    "datePublished": "2024-12-06",
+    "codeRepository": "https://github.com/isaacullah/AgModel",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Python 3"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python 3",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Manuscript is about to be submitted to Journal of Computing Applications in Archaeology."
+}

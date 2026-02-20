@@ -1,0 +1,78 @@
+{
+    "@id": "https://www.comses.net/codebases/4718/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4718/releases/1.0.0/",
+    "name": "Peer Review with Multiple Reviewers",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-7473-1928",
+            "@type": "Person",
+            "email": "federico.bianchi1@unimi.it",
+            "givenName": "Federico",
+            "familyName": "Bianchi",
+            "affiliation": {
+                "@id": "https://ror.org/00wjc7c48",
+                "url": "http://www.unimi.it/ENG/",
+                "name": "Department of Social and Political Sciences, University of Milan (Italy)",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00wjc7c48"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-6503-6077",
+            "@type": "Person",
+            "email": "flaminio.squazzoni@unimi.it",
+            "givenName": "Flaminio",
+            "familyName": "Squazzoni",
+            "affiliation": {
+                "@id": "https://ror.org/00wjc7c48",
+                "url": "http://www.unimi.it/ENG/",
+                "name": "University of Milan",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00wjc7c48"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-7473-1928",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-6503-6077",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4718/releases/1.0.0/",
+    "dateCreated": "2015-09-10",
+    "description": "Building on the \"Peer Review Model\", this ABM looks at the effect of multiple reviewers and their behavior on the quality and efficiency of peer review. It models a community of scientists who alternatively act as \u201cauthor\u201d or \u201creviewer\u201d at each turn. Authors\u2019 task is to submit an article and have it published, while each reviewer evaluates one submitted article.\r\nIn the \"stochastic\" version reviewers over or underestimate the quality of a paper according to a fixed probability value. In the \"strategic\" scenario reviewers' bias is conditioned on the outcome of their last submitted paper while acting as authors, independently from the identity of the rejecting reviewer.\r\nReviewers assigned to each paper can be from 1 to 3.\r\nResources are needed both to submit and review an article. Each scientist has a variable set of resources, which are initially homogeneously distributed. At each tick the agents are endowed with a fixed amount of resources, equal for all. Plus, they cumulate resources according to their publication score.\r\nThe quality of author submissions depends on scientist\u2019s resources.\r\nThe chance of being published is determined by the average evaluation score assigned by reviewers. Only a fixed number of submissions are published at each turn. If not published, authors lose all the resources invested for submitting. Successful publication multiplies author resources for a mutiplier value.\r\nWhen selected as reviewers, scientists invest a given amount of resources for reviewing and simultaneously lose the opportunity to publish. Reviewing expenses grow linearly with the quality of authors\u2019 submissions.",
+    "downloadUrl": "https://www.comses.net/codebases/4718/releases/1.0.0/download/",
+    "dateModified": "2018-03-09",
+    "releaseNotes": "Associated publication: \nF. Bianchi & F. Squazzoni, \"Is three better than one? Simulating the effect of reviewer selection and behavior on the quality and efficiency of peer review\", WSC '15 Proceedings of the 2015 Winter Simulation Conference, Huntington Beach, California \u2014 December 06 - 09, 2015 \nIEEE Press Piscataway, NJ, USA, 2015, pages 4081-4089 .",
+    "copyrightYear": 2015,
+    "datePublished": "2015-09-10",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

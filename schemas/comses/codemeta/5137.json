@@ -1,0 +1,69 @@
+{
+    "@id": "https://www.comses.net/codebases/5137/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5137/releases/1.0.0/",
+    "name": "CEDSS3.4",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "givenName": "Nicholas",
+            "familyName": "Gotts"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "J",
+            "familyName": "Polhill"
+        },
+        {
+            "@id": "_:author_1",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "domestic energy demand",
+        "empirical abm",
+        "goal-framing theory",
+        "scenarios"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5137/releases/1.0.0/",
+    "dateCreated": "2016-07-29",
+    "description": "CEDSS (Community Energy Demand Social Simulator) is an agent-based social simulation model of domestic energy demand in communities of around 100-250 households, such as a village or urban or suburban estate. Its empirical basis is a 2010 survey of households in Aberdeen, combined with data from publicly available sources covering trends in domestic energy use, energy prices, energy-using and energy-saving equipment, and household finances. Its theoretical basis is goal-framing theory. CEDSS is parameterized by retrodicting the domestic energy use and household equipment of some or all of the surveyed households to the year 2000, then running it forward to mid-2010 to compare the outcome with the survey results. It can then be run forward from 2010 under a range of assumptions, to explore possible future trajectories of household energy demand.",
+    "downloadUrl": "https://www.comses.net/codebases/5137/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "CEDSS3.4 is a corrected and enhanced version of CEDSS, succeeding CEDSS3.3. Significant coding errors were discovered in CEDSS3.3, affecting the purchase of new appliances, the calculation of energy prices and of cost savings from insulation, and the calculation of biospheric value-strength. These have been corrected. Additional features have been added to better reflect goal-framing theory, and to model extra-community influences on value-strengths. Unused code concerning demographic change has been removed.",
+    "copyrightYear": 2016,
+    "datePublished": "2016-07-29",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Gotts, N.M. and Polhill, J.G. (forthcoming) Experiments with a model of domestic energy demand. Paper to be presented at SSC 2016, the 12th Conference of the European Social Simulation Association: Social Simulation Conference. 19th-23rd September 2016, Rome.\r\n\r\n\r\nPolhill, J.G. and Gotts, N.M. (2015) How precise are the specifications of a psychological theory? Comparing implementations of Lindenberg and Steg\u2019s Goal-Framing Theory of everyday pro-environmental behaviour. Paper presented at SSC 2015, the 11th Conference of the European Social Simulation Association: Social Simulation Conference. 14th-18th September 2015, Groningen, The Netherlands."
+}

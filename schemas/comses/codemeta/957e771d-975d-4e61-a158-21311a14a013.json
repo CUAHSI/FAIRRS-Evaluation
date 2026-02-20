@@ -1,0 +1,57 @@
+{
+    "@id": "https://doi.org/10.25937/k9g9-ze27",
+    "url": "https://doi.org/10.25937/k9g9-ze27",
+    "name": "Credit and debt market of low-income families",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-1887-4913",
+            "@type": "Person",
+            "email": "gosztonyi.marton@gmail.com",
+            "givenName": "M\u00e1rton",
+            "familyName": "Gosztonyi"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "credit networks",
+        "debt",
+        "Low-income"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/k9g9-ze27",
+        "https://doi.org/10.25937/k9g9-ze27"
+    ],
+    "dateCreated": "2021-02-11",
+    "description": "The purpose of the Credit and debt market of low-income families model is to help the user examine how the financial market of low-income families works. \n\nThe model is calibrated based on real-time data which was collected in a small disadvantaged village in Hungary it contains 159 households' social network and attributes data.\nThe simulation models the households' money liquidity, expenses and revenue structures as well as the formal and informal loan institutions based on their network connections. The model forms an intertwined system integrated in the families\u2019 local socioeconomic context through which families handle financial crises and overcome their livelihood challenges from one month to another. \nThe simulation-based on the abstract model of low-income families' financial survival system at the bottom of the pyramid, which was described in following the papers:\n\nGosztonyi, M. (2017). Metamorphosis: The Credit Market of Low-Income Households in a Semi-Peripheral Country, Journal of Systems Science and Complexity, 36, 2434-2466\nhttps://www.researchgate.net/publication/376418595_Metamorphosis_The_Credit_Market_of_Low-Income_Households_in_a_Semi-Peripheral_Country\n\nGosztonyi, M. (2017). Jugglers of Money - Results of a Participatory Action Research, IJSW,78(1), 75\u201392, https://www.researchgate.net/publication/337917544_Jugglers_of_Money_Results_of_a_Participatory_Action_Research",
+    "downloadUrl": "https://www.comses.net/codebases/957e771d-975d-4e61-a158-21311a14a013/releases/1.1.0/download/",
+    "dateModified": "2024-01-19",
+    "releaseNotes": "## HOW IT WORKS\n\nIn each round, 159 households (represented by turtles) consume and interact with each other to simulate everyday economic activity. There are 3 different local socio-economic statuses (POOR, MIDDLE, and HIGH) and each household's monthly expenditure can be controlled by MONTHLY-EXPENDITURES according to its social status. The number of households with a social-status is calculated by its income in each moment. \n\nThe Households can earn seasonal income or earn money doing temporary work through EXTRA-INCOME slider. They also can have unforeseen expenses through the EXPENDITURE-CRISIS switch.\n\nWhen a household is run out of money it can borrow money trough its interpersonal, ethnic or pawnshop network connections. You can turn-on or turn-off each of this loan with the switch. \nHouseholds with a negative balance can borrow money and household with a positive balance lend money through the existing interpersonal loan network. Lenders can decide whether they would like to lend money or do not want to in the ethnic relation based loan network. Pawnshop lends money if the household has an existing relationship with it. \nOne household can only borrow once from each lender and can not borrow another loan while it doesn't repay its existing loan.   \n",
+    "copyrightYear": 2024,
+    "datePublished": "2024-01-19",
+    "embargoEndDate": "2024-02-23",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "10.1007/s11424-023-1472-x"
+}

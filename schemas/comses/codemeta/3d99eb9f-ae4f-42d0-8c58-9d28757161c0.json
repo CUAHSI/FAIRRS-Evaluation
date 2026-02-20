@@ -1,0 +1,67 @@
+{
+    "@id": "https://www.comses.net/codebases/3d99eb9f-ae4f-42d0-8c58-9d28757161c0/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/3d99eb9f-ae4f-42d0-8c58-9d28757161c0/releases/1.0.0/",
+    "name": "Open Peer Review Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-7473-1928",
+            "@type": "Person",
+            "email": "federico.bianchi1@unimi.it",
+            "givenName": "Federico",
+            "familyName": "Bianchi",
+            "affiliation": {
+                "@id": "https://ror.org/00wjc7c48",
+                "url": "http://www.unimi.it/ENG/",
+                "name": "Department of Social and Political Sciences, University of Milan (Italy)",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00wjc7c48"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-sa/4.0/",
+        "name": "CC-BY-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Squazzoni, F., & Gandelli, C. 2012. Saint Matthew strikes again: An agent-based model of peer review and the scientific community structure. *Journal of Informetrics*, *6*(2): 265--275. doi: 10.1016/j.joi.2011.12.005\n\nSquazzoni, F., & Gandelli, C. 2012. Opening the black-box of peer review: An agent-based model of scientist behaviour. *Journal of Artificial Societies and Social Simulation*, *16*(2): 3. doi: 10.18564/jasss.2128",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "evaluation",
+        "peer review",
+        "quality",
+        "science",
+        "sociology of science"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3d99eb9f-ae4f-42d0-8c58-9d28757161c0/releases/1.0.0/",
+    "dateCreated": "2021-05-24",
+    "description": "This is an agent-based model of a population of scientists alternatively authoring or reviewing manuscripts submitted to a scholarly journal for peer review. Peer-review evaluation can be either 'confidential', i.e. the identity of authors and reviewers is not disclosed, or 'open', i.e. authors' identity is disclosed to reviewers. The quality of the submitted manuscripts vary according to their authors' resources, which vary according to the number of publications. Reviewers can assess the assigned manuscript's quality either reliably of unreliably according to varying behavioural assumptions, i.e. direct/indirect reciprocation of past outcome as authors, or deference towards higher-status authors.",
+    "downloadUrl": "https://www.comses.net/codebases/3d99eb9f-ae4f-42d0-8c58-9d28757161c0/releases/1.0.0/download/",
+    "dateModified": "2021-05-24",
+    "releaseNotes": "First release",
+    "copyrightYear": 2021,
+    "datePublished": "2021-05-24",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

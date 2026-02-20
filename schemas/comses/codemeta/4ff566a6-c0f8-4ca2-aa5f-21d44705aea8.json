@@ -1,0 +1,66 @@
+{
+    "@id": "https://www.comses.net/codebases/4ff566a6-c0f8-4ca2-aa5f-21d44705aea8/releases/2.1.2/",
+    "url": "https://www.comses.net/codebases/4ff566a6-c0f8-4ca2-aa5f-21d44705aea8/releases/2.1.2/",
+    "name": "The Internal Organizational Plasticity Model (IOP 2.1.2)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-6677-8689",
+            "@type": "Person",
+            "email": "secchi.davi@gmail.com",
+            "givenName": "Davide",
+            "familyName": "Secchi",
+            "affiliation": {
+                "url": "https://www.sdu.dk/en/om_sdu/institutter_centre/c_comac",
+                "name": "Research Centre for Computational & Organisational Cognition, University of Southern Denmark",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc/4.0",
+        "name": "CC-BY-NC-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "2.1.2",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Clark, A. (2003), Natural-born Cyborgs. Minds, Technologies, and the Future of Human Intelligence, Oxford University Press, Oxford.\nSecchi, D. and Cowley, S.J. (2018), \u201cModeling organizational cognition: the case of impact factor\u201d, Journal of Artificial Societies and Social Simulation, Vol. 21 No. 1, p. 13.\nSecchi, D. (2011), Extendable Rationality. Understanding Decision Making in Organizations, Springer, New York, NY.\nSimon, H.A. (1993), \u201cAltruism and economics\u201d, American Economic Review, Vol. 83 No. 2, pp. 156-161.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "agent-based model",
+        "distributed cognition",
+        "Organizational behavior",
+        "organizational cognition",
+        "organizational plasticity"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4ff566a6-c0f8-4ca2-aa5f-21d44705aea8/releases/2.1.2/",
+    "dateCreated": "2020-06-02",
+    "description": "**IOP 2.1.2** is an agent-based simulation model designed to explore the relations between (1) employees, (2) tasks and (3) resources in an organizational setting. By comparing alternative cognitive strategies in the use of resources, employees face increasingly demanding waves of tasks that derive by challenges the organization face to adapt to a turbulent environment. The assumption tested by this model is that a successful organizational adaptation, called *plastic*, is necessarily tied to how employees handle pressure coming from existing and new tasks. By comparing alternative cognitive strategies, connected to 'docility' (Simon, 1993; Secchi, 2011) and 'extended' cognition (Clark, 2003, Secchi & Cowley, 2018), **IOP 2.1.2** is an attempt to indicate which strategy is most suitable and under which scenario.",
+    "downloadUrl": "https://www.comses.net/codebases/4ff566a6-c0f8-4ca2-aa5f-21d44705aea8/releases/2.1.2/download/",
+    "dateModified": "2020-06-02",
+    "releaseNotes": "The model IOP 1.0.1 was first coded during December 2016 and January 2017. It then underwent a series of modifications starting August 2018, in preparation of the paper submission. An improved version IOP 2.0.0 was then created in August 2019 and version IOP 2.1.0 towards the end of that same month. October 2019 is the month when the version uploaded here had been released.",
+    "copyrightYear": 2020,
+    "datePublished": "2020-06-02",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Secchi, D. (forthcoming). Cognitive attunement in the face of organizational plasticity. Evidence-Based Human Resource Management."
+}

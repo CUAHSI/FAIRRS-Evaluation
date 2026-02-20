@@ -1,0 +1,104 @@
+{
+    "@id": "https://www.comses.net/codebases/4841/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4841/releases/1.0.0/",
+    "name": "A simple behavioral model predicts the emergence of complex animal hierarchies",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1490/",
+            "@type": "Person",
+            "email": "takao0514@gmail.com",
+            "givenName": "Takao",
+            "familyName": "Sasaki",
+            "affiliation": {
+                "@id": "https://ror.org/052gg0110",
+                "url": "http://www.ox.ac.uk/",
+                "name": "University of Oxford",
+                "@type": "Organization",
+                "identifier": "https://ror.org/052gg0110"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Clint",
+            "familyName": "Penick"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Zachary",
+            "familyName": "Shaffer"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "givenName": "Stephen",
+            "familyName": "Pratt"
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Person",
+            "givenName": "J\u00fcrgen",
+            "familyName": "Liebig"
+        },
+        {
+            "@id": "https://www.comses.net/users/1490/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4841/releases/1.0.0/",
+    "dateCreated": "2015-12-22",
+    "description": "Social dominance hierarchies are widespread, but little is known about the mechanisms that produce non-linear structures. In addition to despotic hierarchies, where a single individual dominates, shared hierarchies exist where multiple individuals occupy a single rank. Our model shows that all three hierarchy structures\u2013linear, despotic, and shared\u2013can emerge from different combinations of simple interactions present in social insects. Our model shows that a linear hierarchy emerges when a typical winner-loser interaction (dominance biting) is present. A despotic hierarchy emerges when a policing interaction is added that results in the complete loss of dominance status for an attacked individual (physical policing). Finally, a shared hierarchy emerges with the addition of a \u201cwinner-winner\u201d interaction that results in a positive outcome for both interactors (antennal dueling).",
+    "downloadUrl": "https://www.comses.net/codebases/4841/releases/1.0.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "",
+    "copyrightYear": 2015,
+    "datePublished": "2015-12-22",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "(to be appeared in American Naturalist. I will update this once it is published)"
+}

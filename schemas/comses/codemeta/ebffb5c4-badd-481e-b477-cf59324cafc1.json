@@ -1,0 +1,68 @@
+{
+    "@id": "https://www.comses.net/codebases/ebffb5c4-badd-481e-b477-cf59324cafc1/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/ebffb5c4-badd-481e-b477-cf59324cafc1/releases/1.0.0/",
+    "name": "Anxiety-to-Approach Agent-Based Model (Netlogo)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-1650-3708",
+            "@type": "Person",
+            "email": "marie.kogler@uni-graz.at",
+            "givenName": "Marie Lisa",
+            "familyName": "Kogler"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-sa/4.0/",
+        "name": "CC-BY-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Jonas, Eva, et al. \"Threat and defense: From anxiety to approach.\" Advances in experimental social psychology. Vol. 49. Academic Press, 2014. 219-286.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "agent-based model (abm)",
+        "Agent-Based Modelling - Software engineering - Information Systems and Social Networks",
+        "anxiety",
+        "Climate Change",
+        "climate denial",
+        "communication networks",
+        "complex networks",
+        "diffusion on a network",
+        "dynamic network abms",
+        "empirical abm",
+        "threat"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/ebffb5c4-badd-481e-b477-cf59324cafc1/releases/1.0.0/",
+    "dateCreated": "2023-04-04",
+    "description": "An Agent-Based Model to simulate agent reactions to threatening information based on the anxiety-to-approach framework of Jonas et al. (2014). \nThe model showcases the framework of BIS/BAS (inhibitory and approach motivated behavior) for the case of climate information, including parameters for anxiety, environmental awareness, climate scepticism and pro-environmental behavior intention. \n\nAgents receive external information according to threat-level and information frequency. The population dynamic is based on the learning from that information as well as social contagion mechanisms through a scale-free network topology.\n\nThe model uses Netlogo 6.2 and the network extension.\n\n",
+    "downloadUrl": "https://www.comses.net/codebases/ebffb5c4-badd-481e-b477-cf59324cafc1/releases/1.0.0/download/",
+    "dateModified": "2023-04-04",
+    "releaseNotes": "Netlogo 6.2 or similar version required with network extension. Ensemble simulations possible.",
+    "copyrightYear": 2023,
+    "datePublished": "2023-04-04",
+    "embargoEndDate": "2023-04-04",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo 6.2.0"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetlLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Kapeller, Marie Lisa, and Georg J\u00e4ger. \"Threat and anxiety in the climate debate\u2014An agent-based model to investigate climate scepticism and pro-environmental behaviour.\" Sustainability 12.5 (2020): 1823.\n\nKapeller, Marie L., Georg J\u00e4ger, and Manfred F\u00fcllsack. \"Social Norms and the Threat of Climate Change: An Agent-Based Model to Investigate Pro-Environmental Behaviour.\" Advances in Social Simulation: Proceedings of the 15th Social Simulation Conference: 23\u201327 September 2019. Cham: Springer International Publishing, 2021."
+}

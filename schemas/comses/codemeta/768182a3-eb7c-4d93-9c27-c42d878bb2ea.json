@@ -1,0 +1,96 @@
+{
+    "@id": "https://www.comses.net/codebases/768182a3-eb7c-4d93-9c27-c42d878bb2ea/releases/2.0.0/",
+    "url": "https://www.comses.net/codebases/768182a3-eb7c-4d93-9c27-c42d878bb2ea/releases/2.0.0/",
+    "name": "Bicycle model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-9616-009X",
+            "@type": "Person",
+            "email": "danaekaziyeva@gmail.com",
+            "givenName": "Dana",
+            "familyName": "Kaziyeva",
+            "affiliation": {
+                "@id": "https://ror.org/05gs8cd61",
+                "url": "https://www.plus.ac.at/",
+                "name": "Department of Geoinformatics - Z_GIS, University of Salzburg",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05gs8cd61"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-3845-7685",
+            "@type": "Person",
+            "email": "gudrun.wallentin@sbg.ac.at",
+            "givenName": "Gudrun",
+            "familyName": "Wallentin",
+            "affiliation": {
+                "@id": "https://ror.org/05gs8cd61",
+                "url": "https://www.plus.ac.at/",
+                "name": "Department of Geoinformatics - Z_GIS, University of Salzburg",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05gs8cd61"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "martin.loidl@sbg.ac.at",
+            "givenName": "Martin",
+            "familyName": "Loidl",
+            "affiliation": {
+                "@id": "https://ror.org/05gs8cd61",
+                "url": "https://www.plus.ac.at/",
+                "name": "University of Salzburg",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05gs8cd61"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "2.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Wallentin, Gudrun (2016, October 29). \u201cSalzburg Bicycle model\u201d (Version 1.0.0). CoMSES Computational Model Library. Retrieved from: https://www.comses.net/codebases/5259/releases/1.0.0/",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "agent based model (abm)",
+        "bicycle",
+        "GAMA",
+        "traffic",
+        "transport model"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/768182a3-eb7c-4d93-9c27-c42d878bb2ea/releases/2.0.0/",
+    "dateCreated": "2019-01-10",
+    "description": "The purpose of the model is to generate the spatio-temporal distribution of bicycle traffic flows at a regional scale level. Disaggregated results are computed for each network segment with the minute time step. The human decision-making is governed by probabilistic rules derived from the mobility survey.",
+    "downloadUrl": "https://www.comses.net/codebases/768182a3-eb7c-4d93-9c27-c42d878bb2ea/releases/2.0.0/download/",
+    "dateModified": "2021-02-22",
+    "releaseNotes": "**Installing**\nDownload the GAMA-platform (GAMA1.8 with JDK version) from https://gama-platform.github.io/. The platform requires a minimum of 4 GB of RAM.\n\nAfter installation set up the maximum memory allocated to the GAMA to at least 4 GB. It is possible through the GAMA menu in Help -> Preferences -> Interface. Make sure the platform uses the same coordinate reference system as the input shapefiles (EPSG:32633) in Help -> Preferences -> Data and Operators.\n\nThe download zip has the \"code\" folder with the GAMA project files. Import these files into the GAMA by right-clicking on the \u201cUser-models\u201d in the \u201cModels\u201d tab of the GAMA interface. Select the \u201cGAMA project\u201d. In the new window browse to the \"code\" folder as a root directory. Make sure to check the boxes \"Search for nested projects\" and \"Copy project into workspace\". Click Finish.\n\nAlternatively,  you can download the model from the GitHub repository https://github.com/ZGIS/Bicycle-model\n\n**Running experiment**\n\nThe input data of the project is in the \"includes\" folder and the model code in the \"models\" folder under \"bicycle_model.gaml\" name.\n\nBefore running the model code there is an option to parameterize the routing algorithm by selecting either the \"shortest path\" or \"safest path\" (default). The rest of the parameters is used to set the weights for bikability index calculation.\n\n**Associated publications**\nKaziyeva, D.; Loidl, M.; Wallentin, G. Simulating Spatio-Temporal Patterns of Bicycle Flows with an Agent-Based Model. ISPRS Int. J. Geo-Inf. 2021, 10, 88. https://doi.org/10.3390/ijgi10020088\n",
+    "copyrightYear": 2021,
+    "datePublished": "2021-02-22",
+    "codeRepository": "https://github.com/ZGIS/Bicycle-model",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "GAMA"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "GAMA",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "@id": "https://www.comses.net/codebases/3967/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/3967/releases/1.1.0/",
+    "name": "Informal Information Transmission Networks among Medieval Genoese Investors",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1110/",
+            "@type": "Person",
+            "email": "christopherfrantz@web.de",
+            "givenName": "Christopher",
+            "familyName": "Frantz"
+        },
+        {
+            "@id": "https://www.comses.net/users/1110/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based model",
+        "genoese investors",
+        "greif",
+        "informal communication",
+        "institutions",
+        "maghibis"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3967/releases/1.1.0/",
+    "dateCreated": "2013-10-24",
+    "description": "This model represents informal information transmission networks medieval Genoese investors used to inform each other about cheating merchants they employed as part of long-distance trade operations. The model allows the specification of initial probabilities of truthful reporting to test if informal communication among the otherwise secretive Genoese could have sufficed to control cheating. \r\n\r\nInvestors send requests in order to receive information about merchants they intend to employ in order to enquire whether they are considered cheaters by fellow investors. Based on the truthfulness of the received advice (which is tested with an initial probability of 0.5), the otherwise competitive investors change the probability to share their knowledge about cheaters truthfully (and likewise change the probability of testing others' advice). The objective of the model is to identify how many cheaters can be excluded from employment based on informal sharing of such cheater information. \r\n\r\nThe model can use four different network topologies to test different society structures:\r\n\r\n* Fixed directed networks\r\n* Fixed undirected networks\r\n* Small-world networks (using the Watts-Strogatz algorithm)\r\n* Scale-free networks (using the Barabasi-Albert algorithm)\r\n\r\nApart from the specification of the initial level of truthful reporting, the model has a 'push' approach in which investors proactively inform each other about cheaters (as opposed to the initial 'pull model'). This replicates the communication pattern among Maghribi Traders, a North African trader collective active around the same time as the Genoese long-distance trading operations. Proactive sharing of cheater information shows a significant impact on the exclusion of cheaters.",
+    "downloadUrl": "https://www.comses.net/codebases/3967/releases/1.1.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-10-24",
+    "operatingSystem": "platform_independent",
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

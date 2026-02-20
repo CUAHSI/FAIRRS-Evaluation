@@ -1,0 +1,95 @@
+{
+    "@id": "https://www.comses.net/codebases/5053/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/5053/releases/1.1.0/",
+    "name": "THE STATUS ARENA",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-6100-4660",
+            "@type": "Person",
+            "email": "gertjan.hofstede@wur.nl",
+            "givenName": "Gert",
+            "familyName": "Hofstede",
+            "affiliation": {
+                "url": "http://www.wageningenur.nl",
+                "name": "Wageningen University",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Jillian",
+            "familyName": "Student"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "mark.kramer@wur.nl",
+            "givenName": "Mark",
+            "familyName": "Kramer",
+            "affiliation": {
+                "@id": "https://ror.org/05eqt7s39",
+                "url": "http://www.ait.gr/",
+                "name": "Athens Information Technology",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05eqt7s39"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-6100-4660",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent based model",
+        "culture",
+        "gender gap",
+        "rough-and-tumble",
+        "status-power dynamics"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5053/releases/1.1.0/",
+    "dateCreated": "2018-01-09",
+    "description": "This article investigates self-organised social causation of the near-ubiquitous phenomenon that females have lower social status on average than males. An agent-based model of a virtual schoolyard was created that uses status-power theory as a basis for the children\u2019s behaviour. The children assemble in changing groups and mutually confer status. The status conferred upon a child modifies the status it holds. If a child deems it receives too little status, it may pick a fight. The group may condone or condemn a fight. We included children's traits (kindness, beauty, and physical power), schoolyard culture (social acceptability of fighting) and behavioural strategy (amount of rough-and-tumble play). Running many trials of the model we found that in time, depending on the parameter settings, a gender-based status gap emerged. Gender-based differences in children\u2019s traits alone had comparatively little effect. Rough-and-tumble play had more impact on emergent status differences than did physical power differences. Social acceptability of fighting also strongly moderated the resulting status gap. Empirical findings of child behaviour studies at schools show common ground with our model results. We conclude from this that the status-power theory we used merits use in studying the dynamics of other issues in child development, or indeed in social behaviour in general.",
+    "downloadUrl": "https://www.comses.net/codebases/5053/releases/1.1.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "Version that goes with article \"The status arena: A generic agent-based model about the gender status gap\" submitted to JASS in February 2017 by the model's authors.",
+    "copyrightYear": 2018,
+    "datePublished": "2018-01-09",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Hofstede, Gert Jan; Jillian Student; Mark R. Kramer (2018) The status arena: A  comprehensive agent-based model of social status dynamics and gender in groups of children. AI & Society (Open Access). Available at http://rdcu.be/EoK9.\r\n\r\nHere is a youtube playlist of videos in which Gert Jan describes the model: https://www.youtube.com/playlist?list=PLXZq5xNSvGBxMHvz5HoX_LX2mMGDxgKub"
+}

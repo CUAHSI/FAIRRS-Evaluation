@@ -1,0 +1,62 @@
+{
+    "@id": "https://www.comses.net/codebases/c32072dd-cd7c-4547-beba-e93a3f508c5f/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/c32072dd-cd7c-4547-beba-e93a3f508c5f/releases/1.0.0/",
+    "name": "Telephone Game",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "email": "julia.kasmire@manchester.ac.uk",
+            "givenName": "Julia",
+            "familyName": "Kasmire"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-sa/4.0/",
+        "name": "CC-BY-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "No, this is an original model intended to show those unfamiliar with ABM how models are useful in situations when the long-term outcome of a complex system is not very intuitive.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "agent-based model",
+        "communication",
+        "demonstration",
+        "game",
+        "players",
+        "Social Agent",
+        "UKDS"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/c32072dd-cd7c-4547-beba-e93a3f508c5f/releases/1.0.0/",
+    "dateCreated": "2020-01-10",
+    "description": "This is a model of a game of Telephone (also known as Chinese Whishpers in the UK), with agents representing people that can be asked, to play. The first player selects a word from their internal vocabulary and \"whispers\" it to the next player, who may mishear it depending on the current noise level, who whispers that word to the next player, and so on. \n\nWhen the game ends, the word chosen by the first player is compared to the word heard by the last player. If they match exactly, all players earn large prize. If the words do not match exactly, a small prize is awarded to all players for each part of the words that do match. Players change color to reflect their current prize-count. A histogram shows the distribution of colors over all the players. \n\nThe user can decide on factors like \n* how many players there are, \n* whether they are laid out in a circle or just randomly, \n* how many players participate in a game, \n* whether to apply noise-distortion or not,\n* at what decibel level noise distortian starts interfering with the game, \n* how the first player to participate is chosen, \n* how further players are chosen, and\n* whether or not the games run quickly and silently or slowly and with commentary to explain what is happening. \n\nThese factors influence how likely players are to win a game and thus how the color of players will be distributed over time. ",
+    "downloadUrl": "https://www.comses.net/codebases/c32072dd-cd7c-4547-beba-e93a3f508c5f/releases/1.0.0/download/",
+    "dateModified": "2020-02-18",
+    "releaseNotes": "This is the first release of a model intended to serve as a demonstration or teaching model. ",
+    "copyrightYear": 2020,
+    "datePublished": "2020-01-10",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

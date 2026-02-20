@@ -1,0 +1,66 @@
+{
+    "@id": "https://www.comses.net/codebases/9e1be4a9-222f-4909-8a72-74972c853b2d/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/9e1be4a9-222f-4909-8a72-74972c853b2d/releases/1.1.0/",
+    "name": "Absorption of particulate matter by leafs",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2372/",
+            "@type": "Person",
+            "email": "cupcakemonster@gmx.at",
+            "givenName": "Chiara",
+            "familyName": "Letter"
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-9751-0768",
+            "@type": "Person",
+            "email": "georg.jaeger@uni-graz.at",
+            "givenName": "Georg",
+            "familyName": "J\u00e4ger",
+            "affiliation": {
+                "@id": "https://ror.org/01faaaf77",
+                "url": "https://www.uni-graz.at/en/",
+                "name": "University of Graz",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01faaaf77"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-9751-0768",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/9e1be4a9-222f-4909-8a72-74972c853b2d/releases/1.1.0/",
+    "dateCreated": "2018-11-09",
+    "description": "This model aims to understand the interaction between particulate matter and leaves of trees. The particles collide with the leaf and can either be absorbed with a certain probability, otherwise they bounce off it. The absorptions are detected in a counter.\nThe movement of the particles depends mainly on the strength and direction of the wind and the air temperature. They also show a certain random movement, but the proportion is negligible.\nIn a collision with the leaf, the particles are absorbed with a certain probability (absorption-probability), otherwise repelled.",
+    "downloadUrl": "https://www.comses.net/codebases/9e1be4a9-222f-4909-8a72-74972c853b2d/releases/1.1.0/download/",
+    "dateModified": "2018-11-12",
+    "releaseNotes": " ",
+    "copyrightYear": 2018,
+    "datePublished": "2018-11-12",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "@id": "https://www.comses.net/codebases/4885/releases/1.4.0/",
+    "url": "https://www.comses.net/codebases/4885/releases/1.4.0/",
+    "name": "Nice Musical Chairs",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-9946-8142",
+            "@type": "Person",
+            "email": "andros.spica@gmail.com",
+            "givenName": "Andreas",
+            "familyName": "Angourakis",
+            "affiliation": {
+                "@id": "https://ror.org/04tsk2644",
+                "url": "http://www.ruhr-uni-bochum.de/index_en.htm",
+                "name": "Institute of Archaeological Studies, Ruhr-Universit\u00e4t Bochum",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04tsk2644"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-9946-8142",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.4.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agriculture",
+        "archaeology",
+        "competition",
+        "farms",
+        "land use",
+        "land use change",
+        "pastoral systems",
+        "seasonal mobility"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4885/releases/1.4.0/",
+    "dateCreated": "2017-11-17",
+    "description": "The NMC model allows exploring how land use competition may be constrained by social structure and dynamics, according to which individual stakeholders compete and cooperate depending on adscription to social groups.\r\nThe NMC model also enables to test the effects of two particular modalities of cooperative mechanisms: land use pairing, the awarding, in terms of productivity, of any direct collaboration between farming and herding within a group; and group management, the prerogative of a group leadership to manage individual stakeholders in order to pursue a particular proportion between farming and herding.\r\nLastly, the model allows assessing the effects of these mechanisms under either open or restricted access to pasture regimes.",
+    "downloadUrl": "https://www.comses.net/codebases/4885/releases/1.4.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "**Change log v.6**:\r\n-The seed of the random number generator can now be controlled, allowing for reproducible simulations.  \r\n**Change log v.7**:  \r\n-Corrects the \"division by zero error\" that exceptionally happened during the procedure *resolve-competition* (when both defender and contender have zero support).  \r\n-Competition counters are modified in the *expansion* procedures, instead of in *check-competitions*.  \r\n-The consequences, in terms of event counters, of the success of contenders during *resolve-competition* are simplified.\r\n-When using *typeOfExperiment*=\"defined by expNumber\", the seed is now randomized. Forcing a particular seed can still be done by adding it an additional line in *load-experiment* procedure.  \r\n-More detailed notes were added to the interface.  \r\n-The \"land use proportion\" display shows land not used as brown patches (not yellow as before).",
+    "copyrightYear": 2017,
+    "datePublished": "2017-11-17",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Angourakis, A., Salpeteur, M., Ferreras, V.M., Gurt Esparraguera, J.M. (2017). The Nice Musical Chairs Model: Exploring the Role of Competition and Cooperation Between Farming and Herding in the Formation of Land Use Patterns in Arid Afro-Eurasia. Journal of Archaeological Method and Theory. doi:10.1007/s10816-016-9309-8"
+}

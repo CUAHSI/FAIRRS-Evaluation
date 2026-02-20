@@ -1,0 +1,54 @@
+{
+    "@id": "https://www.comses.net/codebases/62793b3c-1cda-4870-89b4-d7cf7a7e5779/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/62793b3c-1cda-4870-89b4-d7cf7a7e5779/releases/1.0.0/",
+    "name": "Fear-based COVID model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-7556-1257",
+            "@type": "Person",
+            "email": "teng.li@rug.nl",
+            "givenName": "Teng",
+            "familyName": "Li"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "cognitive bias",
+        "COVID-19 vaccination",
+        "fear",
+        "HUMAT",
+        "opinion polarisation"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/62793b3c-1cda-4870-89b4-d7cf7a7e5779/releases/1.0.0/",
+    "dateCreated": "2022-12-06",
+    "description": "This model simulates the opinion dynamics of COVID-19 vaccination to examine especially how fears and cognitive bias contribute to the opinion polarisation and vaccination rate. In studying the opinion dynamics of COVID-19 vaccination, this model refers to the HUMAT framework (Antosz et al, 2019). Many psychological and social processes are included in the model, such as dynamical decision-making processes of information exchange and fear formation, satisfaction evaluation, preferred decision selection and dissonance reduction.",
+    "downloadUrl": "https://www.comses.net/codebases/62793b3c-1cda-4870-89b4-d7cf7a7e5779/releases/1.0.0/download/",
+    "dateModified": "2025-10-24",
+    "releaseNotes": "Firstly, agents experience the process of information exchange and fear formation. In this stage, the levels of fear of vaccines and fear of disease are related to the risk information they receive from hubs and their friends by interacting with them. Then, based on the HUMAT framework, actions on whether to vaccinate could only be taken after comprehensive consideration of the satisfaction of three needs: experiential need, social need and value. Lastly, confirmation bias is considered, that is, whether or not the agent is ultimately vaccinated, they will try to find more information to confirm their decision to reduce cognitive dissonance in various ways, such as signalling and persuading others, and alter ego networks.",
+    "copyrightYear": 2023,
+    "datePublished": "2023-12-22",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

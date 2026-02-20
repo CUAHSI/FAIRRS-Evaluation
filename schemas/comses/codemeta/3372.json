@@ -1,0 +1,68 @@
+{
+    "@id": "https://www.comses.net/codebases/3372/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/3372/releases/1.0.0/",
+    "name": "Linear Threshold",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/975/",
+            "@type": "Person",
+            "email": "ksarkar1@asu.edu",
+            "givenName": "Kaushik",
+            "familyName": "Sarkar",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/975/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Maximizing the spread of influence through a social network - Kempe D, Kleinberg J,\r\nTardos E, SIGKDD 2003",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "diffusion of information",
+        "influence propagation",
+        "linear threshold",
+        "social influence"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3372/releases/1.0.0/",
+    "dateCreated": "2012-11-03",
+    "description": "## WHAT IS IT?\r\n\r\nThis is an agent based implementation of the Linear Threhsold model of influence propagation described in Kempe et al. (2003).\r\n\r\n## HOW IT WORKS\r\n\r\nThe influence propagation process starts with a social network and an initial set of active agents (seeds or early adopters), and then at each time step those  active ageents try to influence other agents into converting into active adopters according to the influence weights of their link. Depending on the threshold of an agent it may or may not become active. See the attached ODD for more information.\r\n\r\n## HOW TO USE IT\r\n\r\nFist set the number of nodes and number of initial seeds. Then choose the type of network to experiment with. If the chosen network type is \"Small World\" of \"Spatially Clustered\", then you can further change the generation parameters. After the network generation parameters are properly entered, click on the \"setup network\" button to create the network in the screen. Next you can either choose the initial set of adopters (seeds) randomly by clicking the the \"select seeds randomly\" button, or click the \"select seeds by mouse\" button and use the mouse to select seeds. Selecting seeds in this way will override the number-of-seeds parameter (i.e. you can choose more number of agents or less number of agents than the number-of-seeds parameter). Next hit \"go\" to run the model. To resent the thresholds for a new run click the \"reset\" button. By turning the \"threshold-fixed-to-0.5\" button you can configure the model to assign a fixed threshold of 0.5 to each agent. If this switch is turned off then each time reset will assign random values between 0 and 1.00 to assign to the threshold values of the agent.\r\n\r\n## THINGS TO NOTICE\r\n\r\nSee how the final number of active agents change over different runs. Also notice how the number of active users change over time (ticks elapsed).\r\n\r\n## EXTENDING THE MODEL\r\n\r\nAdd more options for creating the network. One new alternative is to read an external network written in graphML, pajek or SNAP format from a file.\r\n\r\n## RELATED MODELS\r\n\r\n\"Virus on a Network\" model in NetLogo Model Library.\r\n\r\n## CREDITS AND REFERENCES\r\n\r\nThe original model was described in the following paper:\r\n\r\nMaximizing the spread of influence through a social network - Kempe D, Kleinberg J,\r\nTardos E, SIGKDD 2003\r\n\r\nReplicated by Kaushik Sarkar.",
+    "downloadUrl": "https://www.comses.net/codebases/3372/releases/1.0.0/download/",
+    "dateModified": "2018-02-16",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    }
+}

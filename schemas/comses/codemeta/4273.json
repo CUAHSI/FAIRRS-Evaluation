@@ -1,0 +1,70 @@
+{
+    "@id": "https://www.comses.net/codebases/4273/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/4273/releases/1.1.0/",
+    "name": "AZOI: Another Zone Of Influence model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1273/",
+            "@type": "Person",
+            "email": "cyril.piou@cirad.fr",
+            "givenName": "Cyril",
+            "familyName": "Piou",
+            "affiliation": {
+                "url": "http://www.cirad.fr",
+                "name": "CIRAD",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1273/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "J. Weiner, P. Stoll, H. Muller-Landau, and A. Jasentuliyana, 2001. The effects of density, spatial pattern, and competitive symmetry on size variation in simulated plant populations. The American Naturalist, 158:438-450",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "asymmetric",
+        "competition",
+        "plant growth",
+        "symmetric",
+        "zone of influence"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4273/releases/1.1.0/",
+    "dateCreated": "2014-12-11",
+    "description": "## Purpose   \r\n\r\nThe purpose of the AZOI model is to show the combined effect of competition regime (from total asymmetry to symmetrical share of resources), density and spatial distribution on the sizes and size distributions of plants.\r\n\r\n(see attached pdf and \"info\" tab for more details)",
+    "downloadUrl": "https://www.comses.net/codebases/4273/releases/1.1.0/download/",
+    "dateModified": "2018-02-19",
+    "releaseNotes": "Version 1.1:\r\n- Added a stop to avoid error when no plants are left\r\n- Modified slightly the documentation to comply with review",
+    "copyrightYear": 2014,
+    "datePublished": "2014-12-11",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

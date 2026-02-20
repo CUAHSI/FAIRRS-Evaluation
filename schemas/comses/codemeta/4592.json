@@ -1,0 +1,65 @@
+{
+    "@id": "https://www.comses.net/codebases/4592/releases/1.2.0/",
+    "url": "https://www.comses.net/codebases/4592/releases/1.2.0/",
+    "name": "Cultural Spread",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "givenName": "Salvador",
+            "familyName": "Pardo-Gord\u00f3"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1060-1526",
+            "@type": "Person",
+            "email": "pargor@uv.es",
+            "givenName": "Salvador",
+            "familyName": "Pardo Gord\u00f3",
+            "affiliation": {
+                "@id": "https://ror.org/043nxc105",
+                "url": "http://www.uv.es/",
+                "name": "University of Valencia",
+                "@type": "Organization",
+                "identifier": "https://ror.org/043nxc105"
+            }
+        },
+        {
+            "@id": "_:author_1",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4592/releases/1.2.0/",
+    "dateCreated": "2016-09-04",
+    "description": "The purpose of the model is to simulate the cultural hitchhiking hypothesis to explore how neutral cultural traits linked with advantageous traits spread together over time. This model was designed for the spread of Neolithic in the western Mediterranean, although it can be applied to other chronological period and geographical areas. Given that the model simulates several types of perfect cultural hitchhiking based on demic dispersal, the pre-existing population (hunter-gatherer) and geographical boundaries are absent. The model presents different algorithms of expansion (Wave of advance and Leapfrog) and interaction among patches (unbiased and biased hitchhiking).",
+    "downloadUrl": "https://www.comses.net/codebases/4592/releases/1.2.0/download/",
+    "dateModified": "2020-04-23",
+    "releaseNotes": "Neolithic cultural spread model. It need an ecological map, cultural geography region and archaeological sites in shp format (it is optionaL)",
+    "copyrightYear": 2020,
+    "datePublished": "2020-04-23",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

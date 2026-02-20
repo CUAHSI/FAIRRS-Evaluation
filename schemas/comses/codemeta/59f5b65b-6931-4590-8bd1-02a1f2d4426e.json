@@ -1,0 +1,68 @@
+{
+    "@id": "https://doi.org/10.25937/n2v8-qd43",
+    "url": "https://doi.org/10.25937/n2v8-qd43",
+    "name": "WaDemEsT-Water Demand Estimation Tool for Residential Areas",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-0523-807X",
+            "@type": "Person",
+            "email": "kamilaybuga@gmail.com",
+            "givenName": "Kamil",
+            "familyName": "Aybu\u011fa"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "No",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "demographics",
+        "domestic water demand",
+        "heuristic model",
+        "household consumption",
+        "monthly water consumption",
+        "precipitation",
+        "temperature",
+        "transfer function",
+        "water using appliances"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/n2v8-qd43",
+        "https://doi.org/10.25937/n2v8-qd43"
+    ],
+    "dateCreated": "2024-12-06",
+    "description": "This model simulates household water consumption patterns in an urban environment. Its current setup compares monthly water consumption data, and the results of a daily heuristic water demand model with the simulation results produced by household demographics that is fine tuned via some base demand model. It's designed to estimate and analyze water demand based on various factors including household demographics, daily routines of residents (working, weekending, vacation patterns), weather conditions (temperature and precipitation), appliance usage patterns, seasonal variations, and special periods such as weekends and holidays. The model aims to help understand how different factors influence residential water consumption and can be used for water demand forecasting and management.",
+    "downloadUrl": "https://www.comses.net/codebases/59f5b65b-6931-4590-8bd1-02a1f2d4426e/releases/1.0.0/download/",
+    "dateModified": "2025-03-17",
+    "releaseNotes": "First Release",
+    "copyrightYear": 2025,
+    "datePublished": "2025-02-18",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Netlogo 6.4.0"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "None"
+}

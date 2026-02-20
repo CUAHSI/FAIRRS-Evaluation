@@ -1,0 +1,60 @@
+{
+    "@id": "https://www.comses.net/codebases/4e57cffa-200d-4234-a50d-6c4b6e96b860/releases/2.0.0/",
+    "url": "https://www.comses.net/codebases/4e57cffa-200d-4234-a50d-6c4b6e96b860/releases/2.0.0/",
+    "name": "Local extinctions, connectedness, and cultural evolution in structured populations",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-3945-0773",
+            "@type": "Person",
+            "email": "premo@fastmail.net",
+            "givenName": "Luke",
+            "familyName": "Premo"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "2.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "cultural evolution",
+        "cultural transmission",
+        "evolutionary anthropology",
+        "local extinction",
+        "paleolithic",
+        "population structure",
+        "small world",
+        "social network",
+        "spatial model",
+        "spatial network"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4e57cffa-200d-4234-a50d-6c4b6e96b860/releases/2.0.0/",
+    "dateCreated": "2021-05-20",
+    "description": "This model is designed to address the following research question: How does the amount and topology of intergroup cultural transmission modulate the effect of local group extinction on selectively neutral cultural diversity in a geographically structured population?  The experimental design varies group extinction rate, the amount of intergroup cultural transmission, and the topology of intergroup cultural transmission while measuring the effects of local group extinction on long-term cultural change and regional cultural differentiation in a constant-size, spatially structured population.  The results show that for most of the intergroup social network topologies tested here, increasing the amount of intergroup cultural transmission (similar to increasing gene flow in a genetic model) erases the negative effect of local group extinction on selectively neutral cultural diversity.  The stochastic (i.e., preference attachment) network seems to stand out as an exception.",
+    "downloadUrl": "https://www.comses.net/codebases/4e57cffa-200d-4234-a50d-6c4b6e96b860/releases/2.0.0/download/",
+    "dateModified": "2021-05-25",
+    "releaseNotes": "premo_2012.nlogo\n\nThe model accompanies:\nPremo, L. S. (2012) Local extinctions, connectedness, and cultural evolution in a structured population. Advances in Complex Systems 15:1150002. DOI: 10.1142/S0219525911003268.\n\nThis model is designed to address the following research question: How does the amount and topology of intergroup cultural transmission modulate the effect of local group extinction on selectively neutral cultural diversity in a geographically structured population?  \n\nNote that the original version of this model was run on NetLogo 4.1.1.  The original code, which is no longer compatible with later versions of NetLogo, is still available upon request from the author.  In 2018, I revamped the original code to run on NetLogo 6.0.2.  Note that the present version of the code may need to be modified further to run on subsequent versions of NetLogo.  The experiments used to collect data for the paper are located in BehaviorSpace.",
+    "copyrightYear": 2021,
+    "datePublished": "2021-05-25",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Premo, L. S. (2012) Local extinctions, connectedness, and cultural evolution in a structured population. Advances in Complex Systems 15:1150002. DOI: 10.1142/S0219525911003268."
+}

@@ -1,0 +1,48 @@
+{
+    "@id": "https://www.comses.net/codebases/4d2aeed3-b52a-4731-a3c6-a7aa78b3da19/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4d2aeed3-b52a-4731-a3c6-a7aa78b3da19/releases/1.0.0/",
+    "name": "Individual-based model to \"Intraspecific trait variation in personality\u2010related movement behavior promotes coexistence\" (Milles et al., 2020)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-7603-1899",
+            "@type": "Person",
+            "email": "alexander.milles@ufz.de",
+            "givenName": "Alexander",
+            "familyName": "Milles"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4d2aeed3-b52a-4731-a3c6-a7aa78b3da19/releases/1.0.0/",
+    "dateCreated": "2020-06-22",
+    "description": "The community consequences of intra-specific trait variation (ITV) are a current topic in ecological research. The effects of ITV on species coexistence have, yet, not sufficiently been understood. With this individual-based model we analyzed the effect of intra-specific variation in movement by mimicking variation found in ground-dwelling rodents and analyzing how such variation affects inter-specific differences in competitive ability (i.e. foraging efficiency) and temporary coexistence. The movement algorithm and behavioral plasticity was adapted from existing algorithms and current ecological literature. As a measure for temporary coexistence, we analyzed the time until one of the species went extinct.",
+    "downloadUrl": "https://www.comses.net/codebases/4d2aeed3-b52a-4731-a3c6-a7aa78b3da19/releases/1.0.0/download/",
+    "dateModified": "2020-06-22",
+    "releaseNotes": "Model version used for analysis of OIK-07431.",
+    "copyrightYear": 2020,
+    "datePublished": "2020-06-22",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "OIK-07431"
+}

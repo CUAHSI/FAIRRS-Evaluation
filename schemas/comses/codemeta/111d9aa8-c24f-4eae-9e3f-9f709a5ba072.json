@@ -1,0 +1,75 @@
+{
+    "@id": "https://www.comses.net/codebases/111d9aa8-c24f-4eae-9e3f-9f709a5ba072/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/111d9aa8-c24f-4eae-9e3f-9f709a5ba072/releases/1.0.0/",
+    "name": "The role of argument strength and informational biases in polarization and bipolarization effects",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-3185-9913",
+            "@type": "Person",
+            "email": "davide.chiarella@cnr.it",
+            "givenName": "Davide",
+            "familyName": "Chiarella"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "carlo.proietti@cnr.it",
+            "givenName": "Carlo",
+            "familyName": "Proietti",
+            "affiliation": {
+                "@id": "https://ror.org/01fv33324",
+                "url": "http://www.ilc-alliance.org/",
+                "name": "International Longevity Centre",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01fv33324"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "collaborator"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based computational model",
+        "agent-based computational modelling in social sciences",
+        "Argument Communication Theory of Bi-polarization",
+        "informational biases",
+        "Persuasive Argument Theory",
+        "quantitative bipolar graphs"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/111d9aa8-c24f-4eae-9e3f-9f709a5ba072/releases/1.0.0/",
+    "dateCreated": "2023-02-24",
+    "description": "The model explores the informational causes of polarization and bi-polarization of opinions in groups. To this end it expands the model of the Argument Communication Theory of Bi-polarization. The latter is an argument-based multi-agent model of opinion dynamics inspired by Persuasive Argument Theory. The original model can account for polarization as an outcome of pure informational influence, and reproduces bi-polarization effects by postulating an additional mechanism of homophilous selection of communication partners. The expanded model adds two dimensions: argument strength and more sophisticated protocols of informational influence (argument communication and opinion update).",
+    "downloadUrl": "https://www.comses.net/codebases/111d9aa8-c24f-4eae-9e3f-9f709a5ba072/releases/1.0.0/download/",
+    "dateModified": "2023-03-30",
+    "releaseNotes": "The software provided is currently in its alpha version, as is, and requires engineering improvements to automate the process of changing various options. Therefore, manual modifications are necessary at this stage.",
+    "copyrightYear": 2023,
+    "datePublished": "2023-03-30",
+    "codeRepository": "https://github.com/drchiarre/actb",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Python 3"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python 3",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

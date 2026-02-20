@@ -1,0 +1,62 @@
+{
+    "@id": "https://doi.org/10.25937/r2t3-1y65",
+    "url": "https://doi.org/10.25937/r2t3-1y65",
+    "name": "Lethal Geometry",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-4878-7477",
+            "@type": "Person",
+            "email": "crou0048@umn.edu",
+            "givenName": "Kristin",
+            "familyName": "Crouse",
+            "affiliation": {
+                "@id": "https://ror.org/017zqws13",
+                "url": "http://twin-cities.umn.edu/",
+                "name": "University of Minnesota",
+                "@type": "Organization",
+                "identifier": "https://ror.org/017zqws13"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.html",
+        "name": "Apache-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "geometry",
+        "lethal aggression",
+        "territoriality"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/r2t3-1y65",
+        "https://doi.org/10.25937/r2t3-1y65"
+    ],
+    "dateCreated": "2020-02-21",
+    "description": "LethalGeometry was developed to examine whether territory size influences the mortality risk for individuals within that territory. For animals who live in territoral groups and are lethally aggressive, we can expect that most aggression occurs along the periphery (or border) between two adjacent territories. For territories that are relatively large, the periphery makes up a proportionately small amount of the of the total territory size, suggesting that individuals in these territories might be less likely to die from these territorial skirmishes. LethalGeometry examines this geometric relationship between territory size and mortality risk under realistic assumptions of variable territory size and shape, variable border width, and stochastic interactions and movement.\n\nThe individuals (agents) are programmed to walk randomly about their environment, search for and eat food to obtain energy, reproduce if they can, and act aggressively toward individuals of other groups. During each simulation step, individuals analyze their environment and internal state to determine which actions to take. The actions available to individuals include moving, fighting, and giving birth.",
+    "downloadUrl": "https://www.comses.net/codebases/0c781d12-f493-42dc-b81b-e7a431f9f1e6/releases/1.1.0/download/",
+    "dateModified": "2024-12-05",
+    "releaseNotes": "This version includes updates and simplifications to the interface, and associated updates to the Info tab. There are updated options for generating data, including a new procedure to perform verification checks on the code. The ODD protocol document is updated to correspond to the current model version.",
+    "copyrightYear": 2021,
+    "datePublished": "2021-12-15",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

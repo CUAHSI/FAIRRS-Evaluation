@@ -1,0 +1,67 @@
+{
+    "@id": "https://www.comses.net/codebases/4571/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/4571/releases/1.1.0/",
+    "name": "The Agent-Based Model of the Closed Market( similar to Stock Market) with One Commodity and  with careful and risky mechanisms",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/146/",
+            "@type": "Person",
+            "email": "v_mark50@hotmail.com",
+            "givenName": "Mark",
+            "familyName": "Voronovitsky"
+        },
+        {
+            "@id": "https://www.comses.net/users/146/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "ameof automata",
+        "closed market",
+        "dynamics of prices",
+        "from=from||0",
+        "from){var len=this",
+        "function(obj",
+        "if(from<0){from+=len}for(",
+        "length>>>0",
+        "mathematical model",
+        "one commodity market",
+        "rational choice",
+        "risky choice",
+        "stationary set",
+        "steady state",
+        "trajectory"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4571/releases/1.1.0/",
+    "dateCreated": "2015-03-22",
+    "description": "The model of market of one commodity   , in which there are in each moment of time the same quantity and the same quantity of money was formulated and researched in this text. Each partner of the market in the one moment of time can be in one of three status: to be buyer, be seller and do not take part in trade in this moment of time. In addition each of them can change his status in the next moment of time. Partners of market change their statuses and prices, by using the personal information of each of them about trade in the previous moment of time only..  Some characteristics of dynamics of average price of market in the case of careful choice only or in the case of one variant of risky choice only  were received as a result of our research by computer model.  The nature of dynamics of the set of prices of participants was investigated analytically. The main result is the convergence of trajectory of our system to  stationary set of states with average price of trade which is close to some constant when behavior of all agent is careful and  bounded hesitation of this trajectory when there are risky agents only. These facts are established by series of experiments with computer realization of the model.  The behavior of trajectory of system was investigated in the case when all agents are identical simple determinate automata with linear tactic with careful and risky actions..",
+    "downloadUrl": "https://www.comses.net/codebases/4571/releases/1.1.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2015,
+    "datePublished": "2015-03-22",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "MatLab"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    },
+    "referencePublication": "M.M. Voronovitsky \u201cThe Agent-Based Model of the Closed Market with One Commodity and  with two mechanisms (with different  degree of risk)  of  individual behavior of participants of market\u201d Internet http://www.ipr-ras.ru"
+}

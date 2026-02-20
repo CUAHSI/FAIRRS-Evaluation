@@ -1,0 +1,65 @@
+{
+    "@id": "https://doi.org/10.25937/3fn0-4h60",
+    "url": "https://doi.org/10.25937/3fn0-4h60",
+    "name": "Garbage can  model NetLogo implementation",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-5279-7627",
+            "@type": "Person",
+            "email": "ivsmrudn@yandex.ru",
+            "givenName": "Smarzhevskiy",
+            "familyName": "Ivan"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Cohen, Michael, James March, and Johan Olsen. 1972. \"A Garbage Can Model of Organizational Choice.\" Administrative Science Quarterly 17 (March): 1-25.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "access structure",
+        "decision",
+        "decision maker",
+        "decision structure",
+        "garbage can model",
+        "NetLogo",
+        "problem"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/3fn0-4h60",
+        "https://doi.org/10.25937/3fn0-4h60"
+    ],
+    "dateCreated": "2016-02-14",
+    "description": "The concept of GCM is decision making, which resolve Problems. Problems have Energy Required (ER) for their decision, Managers (decision makers) have Effective Energy (EE) for the decisions generation. The place of decision-making is the Choice Opportunities (Choices) - abstraction of commitees, consul boards and so on.\r\nThe Choices and Problems open randomly. The Problems activated by two items and Choices by one item per step of modellig (tick) in first halfe of modelling time. All Managers are ready for action from first modelling step.\r\nProblems and Managers access to Choices in according with system structrure. There is three types of Problems access to Choices and three types of Managers access to Choices.\r\nPresented model literally reproduces the original logic of GCM (with one exception: the equal effective energy distribution between managers assumed).",
+    "downloadUrl": "https://www.comses.net/codebases/4892/releases/1.1.0/download/",
+    "dateModified": "2019-09-12",
+    "releaseNotes": "v 1.1.1",
+    "copyrightYear": 2019,
+    "datePublished": "2019-07-30",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

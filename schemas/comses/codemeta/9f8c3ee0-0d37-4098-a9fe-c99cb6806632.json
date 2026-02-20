@@ -1,0 +1,77 @@
+{
+    "@id": "https://www.comses.net/codebases/9f8c3ee0-0d37-4098-a9fe-c99cb6806632/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/9f8c3ee0-0d37-4098-a9fe-c99cb6806632/releases/1.0.0/",
+    "name": "DARTS: modelling effects of shocks on global, regional, urban and rural food security",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-7617-5382",
+            "@type": "Person",
+            "email": "pepijn.vanoort@wur.nl",
+            "givenName": "Pepijn",
+            "familyName": "van Oort"
+        },
+        {
+            "@id": "https://www.comses.net/users/3925/",
+            "@type": "Person",
+            "email": "hubert.fonteijn@wur.nl",
+            "givenName": "Hubert",
+            "familyName": "Fonteijn"
+        },
+        {
+            "@id": "https://www.comses.net/users/2433/",
+            "@type": "Person",
+            "email": "geerten.hengeveld@wur.nl",
+            "givenName": "Geerten",
+            "familyName": "Hengeveld",
+            "affiliation": {
+                "url": "http://www.wur.nl",
+                "name": "Wageningen University & Research",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Fonteijn, H.J.M., Hengeveld, G.H., van Oort, P.A.J., 2024. DARTS: Evolving resilience of the global food system to production and trade shocks. Journal of Artificial Societies and Social Simulation 27(2),1. https://www.jasss.org/27/2/1.html",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "DARTSShocksAndResilience"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/9f8c3ee0-0d37-4098-a9fe-c99cb6806632/releases/1.0.0/",
+    "dateCreated": "2024-05-13",
+    "description": "Food trade networks represent a complex system where food is periodically produced in different regions of the world. Food is continuously stocked and traded. Food security in a globalised world is vulnerable to shocks. We present DARTS, a new agent based model that models monthly dynamics of food production, trade, stocking, consumption and food security for different interconnected world regions and a city state. Agents in different regions differ in their harvest seasons, wealth (rich and poor), degree of urbanisation and connection to domestic and global markets. DARTS was specifically designed to model direct and indirect effects of shocks in the food system. We introduce a new typology of 6 distinct shock types and analyse their impact on food security, modelling local and global effects and short term and longer term effects. An second important scientific novelty of the model is that DARTS can also model indirect effects of shocks (cascading in space and in time, lag effects due to trade and food stock buffering). A third important scientific novelty of the model is its\u2019 capability of modelling food security at different scales, in which the rural/urban divide and differences in (intra-annually varying) production and trade connections play a key role. At the time of writing DARTS is yet insufficiently parameterised for accurate prediction for real world regions and cities. Simulations for a hypothetical in silico world with 3 regions and a city state show that DARTS can reproduce rich and complex dynamics with analogues in the real world. The scientific interest is more on deepening insight in process dynamics and chains of events that lead to ultimate shock effects on food security. ",
+    "downloadUrl": "https://www.comses.net/codebases/9f8c3ee0-0d37-4098-a9fe-c99cb6806632/releases/1.0.0/download/",
+    "dateModified": "2024-10-24",
+    "releaseNotes": "This is version 2 of the DARTS model. Version 1 is published here: https://www.comses.net/codebase-release/de5f948b-206e-45bc-b3d5-48d987708691/\nVersion 1 focussed on analysing effects of urbanisation and globalisation of trade on food security and considered only 1 shock type. \nThis new DARTS release contains 6 distinct shock types and more (input data) imaginary worlds including new worlds with greater inequality between regions in terms of production and wealth.",
+    "copyrightYear": 2024,
+    "datePublished": "2024-06-18",
+    "codeRepository": "https://git.wur.nl/Oort001/darts/-/tags/DARTSShocksAndResilience",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Netlogo 6.4.0"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Netlogo 6.4.0",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "van Oort, P.A.J., Fonteijn, H.J.M., Hengeveld, G.H., 2024. DARTS: modelling effects of shocks on global, regional, urban and rural food security. PLOS Complex Systems  https://doi.org/10.1371/journal.pcsy.0000006"
+}

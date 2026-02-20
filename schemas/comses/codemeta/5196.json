@@ -1,0 +1,73 @@
+{
+    "@id": "https://doi.org/10.25937/dcsc-4k89",
+    "url": "https://doi.org/10.25937/dcsc-4k89",
+    "name": "Strategy with Externalities",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-9052-7126",
+            "@type": "Person",
+            "email": "jmappleg@asu.edu",
+            "givenName": "J M",
+            "familyName": "Applegate",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Glenn",
+            "familyName": "Hoetker"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-9052-7126",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/dcsc-4k89",
+        "https://doi.org/10.25937/dcsc-4k89"
+    ],
+    "dateCreated": "2017-12-21",
+    "description": "The purpose of this model is to explore the effects of technological and social shifts on the behavior of incumbent and startup firms. The model was constructed to provide insight into the choices firms make regarding adoption of new energy technologies. A firm\u2019s performance is determined by its location on an NK fitness landscape, and each firm\u2019s strategy, or technology portfolio, is modeled as a string of bits which locate the firm on the landscape. Firms move along the landscape by modifying their strategies. The model explores how the performance landscape needs to shift in order for startups to become established and incumbents motivated to search for higher preforming strategies.\r\n\r\nThe conceptual space representing all possible firm strategies is described in terms of an NK model. Each strategy is represented as a string of N binary decisions, each of which is dependent on K other decisions within that same string. A firm's performance, or value, is represented as an average of the contributions from each decision and its related decisions. \r\n\r\nThe model is based on two landscapes,old world and new world. To start a number of incumbent firms search for advantageous positions on the old world landscape. The landscape is then shifted and startup firms are added to the new world landscape. The two types of firms then search the new world landscape for advantageous positions.\r\n\r\nFirms are instantiated with different levels of aspiration which are used to trigger search behaviour. If a firm\u2019s relative performance is above their aspiration level it will not change its strategy, but when the performance drops below that threshold a firm will choose one of two search types: incremental or imitative. Each time period firms that fall below a specified relative performance are removed with a given probability.",
+    "downloadUrl": "https://www.comses.net/codebases/5196/releases/1.0.0/download/",
+    "dateModified": "2024-12-05",
+    "releaseNotes": "version 6",
+    "copyrightYear": 2017,
+    "datePublished": "2017-12-21",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

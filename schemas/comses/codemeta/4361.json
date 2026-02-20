@@ -1,0 +1,63 @@
+{
+    "@id": "https://www.comses.net/codebases/4361/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4361/releases/1.0.0/",
+    "name": "Infantry Company Engagement Model with Command and Control",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1372/",
+            "@type": "Person",
+            "email": "wsyun@kaist.ac.kr",
+            "givenName": "Woo-Seop",
+            "familyName": "Yun",
+            "affiliation": {
+                "@id": "https://ror.org/05apxxy63",
+                "url": "http://www.kaist.edu/html/en/index.html",
+                "name": "Korea Advanced Institute of Science and Technology",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05apxxy63"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1372/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4361/releases/1.0.0/",
+    "dateCreated": "2014-10-06",
+    "description": "Infantry Company Engagement model that can implement an offensive operation of blue force. The purpose of this model is to analyze the effectiveness of command and control for the infantry company. Thus, this model includes commanding agents which are the company commander and platoon leaders of the blue force.",
+    "downloadUrl": "https://www.comses.net/codebases/4361/releases/1.0.0/download/",
+    "dateModified": "2019-04-08",
+    "releaseNotes": "ICEMC2 v1.0",
+    "copyrightYear": 2019,
+    "datePublished": "2019-04-08",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Repast"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "JDK 1.7",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "@id": "https://www.comses.net/codebases/3145/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/3145/releases/1.1.0/",
+    "name": "Peer Review Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-6503-6077",
+            "@type": "Person",
+            "email": "flaminio.squazzoni@unimi.it",
+            "givenName": "Flaminio",
+            "familyName": "Squazzoni",
+            "affiliation": {
+                "@id": "https://ror.org/00wjc7c48",
+                "url": "http://www.unimi.it/ENG/",
+                "name": "University of Milan",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00wjc7c48"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Claudio",
+            "familyName": "Gandelli"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-6503-6077",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "peer review",
+        "reciprocity",
+        "referees",
+        "resource allocation",
+        "reviewing",
+        "science model"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3145/releases/1.1.0/",
+    "dateCreated": "2012-12-25",
+    "description": "The model starts from a population of N scientists (N = 200) randomly selected each tick to play one of two roles: authors or referees. The task of an author is to submit an article and have it published. The task of a referee is to evaluate the quality of submissions by authors. Depending on the referees\u2019 opinion, only the best submissions are published (i.e., those exceeding the publication rate p). Resources ae needed both to submit and review an article. With each simulation tick, agents are endowed with a fixed amount of resources f, equal for all (e.g., common access to research infrastructure and internal funds, availability of PhD. students). Then, they cumulate resources according to their publication score.\r\nEach agent has an estimated submission quality. If published, resources are multiplied, otherwise they are lost. Referees can behave more or less reliably and so under/over rate the quality of the author submission. The chance of publication only depends on referee opinion.\r\n\r\nThe purpose is to replicate certain mechanisms of peer review (conflict between publishing and reviewing, evaluation bias, referee reliability) to understand implications of scientist behaviour for the quality and efficiency of the evaluation process. \r\n\r\nIt runs in NetLogo and supports five scenarios, where rules of behaviour of authors and referees are modified, as described in Squazzoni and Gandelli (2012), forthcoming.\r\n\r\nScenarios are as follows:\r\n\r\nNoReciprocity: This file runs the the \"no reciprocity\" scenario, where we assumed that, when selected as referees, agents always had a random probability of behaving unreliably, which was constant over time and not influenced by past experiences. When selected as authors, agents always invested all their resources for publication, irrespectively of positive or negative past experience with their submission.\r\n\r\n\r\n* IndirectReciprocity: This file runs the \"indirect reciprocity\" scenario, where we assumed that agents, in case of previous publication, reciprocated by providing reliable evaluation in turn when selected as referees. If false, they provide unreliable reviews.\r\n\r\n* Fairness: This file runs the \"fairness\u201d scenario. The assumption was that if the evaluation of an author's submission was pertinent ( = it approximated the real value of the authors' submission), he/she was reliable the next time he/she was selected as referee; if the evaluation was no-pertinent (= it did not approximate the real value of the author's submission), the author was unreliable the next time he/she was selected as referee.\r\n  \r\n* SelfInterestedAuthors: This file runs the \"self-interested authors\u201d scenario, where we assumed that, when published, authors reacted positively and continued to invest all their resources for their next submission. In case of rejection, they reacted negatively and invested less in the subsequent round (i.e., only the 10% of their resources) \r\n  \r\n* FairAuthors: This file runs the \"Fair authors\" scenario, where we assumed that in case of a pertinent referee evaluation received when authors, agents reinforced their confidence on the good quality of the evaluation process and continued to invest everything to send good quality submissions irrespectively of the fate of their submission. In case of non-pertinent evaluation, they invested less in the subsequent round (i.e., only the 10% of their resources) and accumulate resources for the subsequent round irrespectively of their previous publication.",
+    "downloadUrl": "https://www.comses.net/codebases/3145/releases/1.1.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Squazzoni F. and Gandelli C. (2013) Opening Black-Box of Peer Review. An Agent-Based Model of Scientist Behaviour, Journal of Artificial Societies and Social Simulation, 16 (2) 3: <http://jasss.soc.surrey.ac.uk/16/2/3.html>"
+}

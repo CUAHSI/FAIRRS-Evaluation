@@ -1,0 +1,70 @@
+{
+    "@id": "https://www.comses.net/codebases/5628/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/5628/releases/1.1.0/",
+    "name": "A model on feeding and social interaction behaviour of pigs",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1687/",
+            "@type": "Person",
+            "email": "iris.boumans@wur.nl",
+            "givenName": "Iris J.M.M.",
+            "familyName": "Boumans",
+            "affiliation": {
+                "url": "https://www.wur.nl",
+                "name": "Wageningen UR",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1687/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "aggression",
+        "avoidance",
+        "competition",
+        "dominance",
+        "feeding",
+        "food",
+        "intake",
+        "pig",
+        "social",
+        "welfare"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5628/releases/1.1.0/",
+    "dateCreated": "2017-05-04",
+    "description": "This model simulates feeding and social interaction behaviour of commercially group-housed pigs. Pigs in the model express their behaviour based on their internal motivations and environmental conditions. Their motivations are affected by their internal physiological states (e.g. energy balance, stomach load, feeding drive and satiation) and external situation (e.g. food-related competition level and displacement at the feeding place). The model increases understanding of interaction between internal physiological factors and external social factors underlying behaviour of pigs. Furthermore, the model shows the effect of behavioural strategies of pigs (e.g. avoid or approach) to food-related competitive situations in various feeding and social interaction patterns.\n\nTwo model versions exist:\nVersion 1.0.0 (referred to as model 3 in the ODD) and version 1.1.0 (referred to as model 4 in the ODD). Both models simulate feeding and social behaviour of pigs, but differ slightly in testing the effect of various behavioural strategies and social factors (model 3) and testing the effect of individual variation among pigs (model 4). ",
+    "downloadUrl": "https://www.comses.net/codebases/5628/releases/1.1.0/download/",
+    "dateModified": "2018-02-27",
+    "releaseNotes": "Two model versions are released: model version 3 already released in may 2017 (version 1.0.0 on this website) and model version 4 released in february 2018 (version 1.1.0 on this website).",
+    "copyrightYear": 2018,
+    "datePublished": "2018-02-27",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Platform independent"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Boumans, I. J. M. M., I. J. M. De Boer, G. J. Hofstede, and E. A. M. Bokkers. (2017). How social factors and behavioural strategies affect feeding and social interaction patterns of pigs in an agent-based model. (submitted for publication) \r\n\r\nReference to an earlier (less extended) version of the model:\r\nBoumans, I.J.M.M., Bokkers, E.A.M., Hofstede, G.J., & de Boer, I.J.M. (2015). Understanding feeding patterns in growing pigs by modelling growth and motivation. Applied Animal Behaviour Science, 171, 69-80."
+}

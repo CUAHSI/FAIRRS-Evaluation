@@ -1,0 +1,73 @@
+{
+    "@id": "https://www.comses.net/codebases/f16c9d1c-8c90-42dd-9ef4-d2f5980ac8a8/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/f16c9d1c-8c90-42dd-9ef4-d2f5980ac8a8/releases/1.0.0/",
+    "name": "Hunter Gatherer Survival",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-1580-471X",
+            "@type": "Person",
+            "email": "juanantonio.barcelo@uab.cat",
+            "givenName": "Juan",
+            "familyName": "Barcelo"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "maria.florencia.del.castillo@gmail.com",
+            "givenName": "Florencia",
+            "familyName": "Del Castillo",
+            "affiliation": {
+                "@id": "https://ror.org/03cqe8w59",
+                "url": "http://www.conicet.gov.ar",
+                "name": "Consejo Nacional de Investigaciones Cient\u00edficas y T\u00e9cnicas",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03cqe8w59"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "cultural diversity",
+        "culture",
+        "hunter-gatherer",
+        "survival"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/f16c9d1c-8c90-42dd-9ef4-d2f5980ac8a8/releases/1.0.0/",
+    "dateCreated": "2018-10-22",
+    "description": "This program simulates a group of hunter-gatherer (households) moving randomly over an artificial landscapoe pulated with resources randomly distributed (a Gaussian distribution). To survive, agents hunt and gather using their own labor resources and available technology. When labor and technology is not enough to compensate the resource difficulty of access, they need to cooperate. The purpose of the model is to analyze the consequences of cooperation on cultural diversity: the more the agents cooperate, the more their culture (a 10 componenet vector) is updated to imitate the culture of cooperative agents. The less the agent cooperates, the more different its culture becomes.",
+    "downloadUrl": "https://www.comses.net/codebases/f16c9d1c-8c90-42dd-9ef4-d2f5980ac8a8/releases/1.0.0/download/",
+    "dateModified": "2018-10-22",
+    "releaseNotes": "This is  an updated version of a previous code published as https://www.comses.net/codebases/4063/releases/1.0.0/",
+    "copyrightYear": 2018,
+    "datePublished": "2018-10-22",
+    "codeRepository": "http://prehistoria.uab.cat/HunterGatherer%20Survival%201.0.nlogo",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

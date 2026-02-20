@@ -1,0 +1,62 @@
+{
+    "@id": "https://www.comses.net/codebases/4958/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4958/releases/1.0.0/",
+    "name": "Harvesting daisies in Daisyworld",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Person",
+            "email": "marco.janssen@asu.edu",
+            "givenName": "Marco",
+            "familyName": "Janssen",
+            "affiliation": {
+                "url": "https://schoolofsustainability.asu.edu/",
+                "name": "School of Sustainability",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "behavioral theory",
+        "social-ecological system"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4958/releases/1.0.0/",
+    "dateCreated": "2017-07-22",
+    "description": "Using the standard Daisyworld model we added agents who derive utility from harvesting daisies. We use this simple social-ecological system to compare alternative behavioral theories: rational choice, bounded rationality, descriptive norms, theory of planned behavior, and habitual behavior.",
+    "downloadUrl": "https://www.comses.net/codebases/4958/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2017,
+    "datePublished": "2017-07-22",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Janssen, M.A. (2016), Impact of Diverse Behavioral Theories on Environmental Management: Explorations with Daisyworld, Proceedings of the 2016 Winter Simulation Conference T.M.K. Roeder, P.I. Frazier, R. Szechtman, E. Zhou, T. Huschka, and S.E. Chick, (eds). IEEE Catalog Number: CFP16WSC-USB; ISBN: 978-1-5090-4485-6; pp. 1690-1701."
+}

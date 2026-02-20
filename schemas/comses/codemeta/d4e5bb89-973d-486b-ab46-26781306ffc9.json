@@ -1,0 +1,61 @@
+{
+    "@id": "https://www.comses.net/codebases/d4e5bb89-973d-486b-ab46-26781306ffc9/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/d4e5bb89-973d-486b-ab46-26781306ffc9/releases/1.0.0/",
+    "name": "Epidemic Simulation with Transportation Simulation",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/3124/",
+            "@type": "Person",
+            "email": "abm@schluetergroup.org",
+            "givenName": "FG Econophysics",
+            "familyName": "FG Econophysics"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "VSP TU Berlin (2020) MATSim Episim development branch - snapshot commit: d796bc4bfdff27d9112f6de5932b7615c9a0420a  07.04.2020. https://github.com/matsim-org/matsim-e565pisim/tree/d796bc4bfdff27d9112f6de5932b7615c9a0420a",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "COVID-19",
+        "Episim",
+        "MATSim"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/d4e5bb89-973d-486b-ab46-26781306ffc9/releases/1.0.0/",
+    "dateCreated": "2021-03-01",
+    "description": "The Episim framework builds upon the established transportation simulation MATSim and is capable of tracking agents' movements within a network and thus computing infection chains. Several characteristics of the virus and the environment can be parametred, whilst the infection dynamics is computed based upon a compartment model. The spread of the virus can be mitigated by restricting the agents' activity in certain places. ",
+    "downloadUrl": "https://www.comses.net/codebases/d4e5bb89-973d-486b-ab46-26781306ffc9/releases/1.0.0/download/",
+    "dateModified": "2021-03-02",
+    "releaseNotes": "This upload is based on the Episim framework (https://github.com/matsim-org/matsim-episim-libs). The RunEpisim.java file controls the simulations. The required input files can be downloaded from DOI 10.17605/OSF.IO/Z2GX6. ",
+    "copyrightYear": 2021,
+    "datePublished": "2021-03-01",
+    "embargoEndDate": "2021-03-01",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Episim",
+        "MATSim"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "M\u00fcller SA, Balmer M, Neumann A, and Nagel K (2020) Mobility traces and spreading of COVID-19. Technische Universit\u00e4tBerlin. DOI: http://dx.doi.org/10.14279/depositonce-9835\n\nJoubert JW (2018) Synthetic populations of South African urban areas. Data in Brief 19:1012\u20131020.DOI:10.1016/j.dib.2018.05.126"
+}

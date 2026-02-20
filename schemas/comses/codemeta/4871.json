@@ -1,0 +1,64 @@
+{
+    "@id": "https://www.comses.net/codebases/4871/releases/1.5.0/",
+    "url": "https://www.comses.net/codebases/4871/releases/1.5.0/",
+    "name": "A Model of Making",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-3903-2507",
+            "@type": "Person",
+            "email": "bruce@edmonds.name",
+            "givenName": "Bruce",
+            "familyName": "Edmonds",
+            "affiliation": {
+                "url": "http://mmu.ac.uk",
+                "name": "Centre for Policy Modelling",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-3903-2507",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc/4.0",
+        "name": "CC-BY-NC-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.5.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "buying",
+        "diy",
+        "making",
+        "NetLogo",
+        "selling"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4871/releases/1.5.0/",
+    "dateCreated": "2016-12-07",
+    "description": "The purpose of this model is to provide the simulation infrastructure needed in order to model the activity of  making. That is individuals using resources they can find in their environment plus other things that other individuals might sell or give them, to design, construct and deconstruct items, some of which will be of direct use to themselves, some of which they might sell or give to others and some of which might be used as a tool to help in these activities. It explicitly represents plans and complex objects as separate entities in the model \u2013 embedding the \u201cAtoms \u2013 Bits\u201d distinction highlighted within the DiDIY project. This allows plans to be shared between agents which give the steps of how to make objects of use \u2013 either on a commercial or a free basis.\r\n\r\nThe framework is intended as a basis upon which many, more specific, models could be constructed, allowing the exploration of a variety of \u201cwhat if\u201d or counterfactual possibilities and thus give a concrete but dynamic and complex instantiation of the issues and situations discussed within the DiDIY project. In a sense this model is a \u201cbits\u201d representation of the ideas discussed \u2013 hopefully these will converge!",
+    "downloadUrl": "https://www.comses.net/codebases/4871/releases/1.5.0/download/",
+    "dateModified": "2018-02-19",
+    "releaseNotes": "Internal Version 22",
+    "copyrightYear": 2016,
+    "datePublished": "2016-12-07",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

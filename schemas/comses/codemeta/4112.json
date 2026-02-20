@@ -1,0 +1,90 @@
+{
+    "@id": "https://www.comses.net/codebases/4112/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4112/releases/1.0.0/",
+    "name": "Coalitions in Networked Innovation",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1195/",
+            "@type": "Person",
+            "email": "rory.sie@gmail.com",
+            "givenName": "Rory",
+            "familyName": "Sie",
+            "affiliation": {
+                "@id": "https://ror.org/02s376052",
+                "url": "http://www.epfl.ch/index.en.html",
+                "name": "\u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02s376052"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Peter",
+            "familyName": "Sloep"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Marlies",
+            "familyName": "Bitter-Rijpkema"
+        },
+        {
+            "@id": "https://www.comses.net/users/1195/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-sa/4.0/",
+        "name": "CC-BY-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "coalition",
+        "complex networks",
+        "creativity",
+        "innovation network",
+        "social behaviour",
+        "social network"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4112/releases/1.0.0/",
+    "dateCreated": "2014-02-11",
+    "description": "The model comprises four phases: initialisation, in which a network of agents is set up, with predefined 'creativity' and betweenness centrality is calculated. Simulation, in which agents generate new ideas, and ideas are evaluated for their value, in order to find interesting candidate coalitions. Subsequently, coalitions are formed in the negotiation phase. The evaluation phase calculates the dominant coalition and pays off 'power', or reputation, to the winning agents, to use as additional power in the next iteration.",
+    "downloadUrl": "https://www.comses.net/codebases/4112/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "v0.1",
+    "copyrightYear": 2014,
+    "datePublished": "2014-02-11",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Sie, Rory, Sloep, Peter B. and Bitter-Rijpkema, Marlies (2014) 'If We Work Together, I Will Have Greater Power: Coalitions in Networked Innovation' Journal of Artificial Societies and Social Simulation 17 (1) 3 <http://jasss.soc.surrey.ac.uk/17/1/3.html>."
+}

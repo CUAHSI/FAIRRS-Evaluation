@@ -1,0 +1,85 @@
+{
+    "@id": "https://www.comses.net/codebases/5454/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/5454/releases/1.1.0/",
+    "name": "Informal risk-sharing cooperatives : ORP and Learning",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-7013-765X",
+            "@type": "Person",
+            "email": "victorien.barbet@univ-amu.fr",
+            "givenName": "Victorien",
+            "familyName": "Barbet",
+            "affiliation": {
+                "url": "https://www.amse-aixmarseille.fr/",
+                "name": "AMSE",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Renaud",
+            "familyName": "Bourl\u00e8s"
+        },
+        {
+            "@id": "https://www.comses.net/users/1614/",
+            "@type": "Person",
+            "email": "juliette.rouchier@dauphine.fr",
+            "givenName": "Juliette",
+            "familyName": "Rouchier",
+            "affiliation": {
+                "url": "http://www.lamsade.dauphine.fr",
+                "name": "CNRS-LAMSADE",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-7013-765X",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://www.comses.net/users/1614/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5454/releases/1.1.0/",
+    "dateCreated": "2017-02-20",
+    "description": "The model is made of farmers with heterogeneous risk exposures. Farmers earn each turn an income whether high or low depending on their probability of success. There is two risk profiles for farmers, low-risk farmers have an higher probability of success than the high-risk one. On all other characteristics farmers are homogeneous.\r\n\r\nFarmers are embedded in a social network and can create cooperatives with other farmers in their network. Each turn a farmer can create a cooperative with her friends and the friends of her friends, if any. In cooperative, farmers pool their incomes and share equally.\r\n\r\nEach turn farmers decide to stay or leave their cooperative. Farmers compute the expected utility they have alone based on the belief they hold about their own risk profil. They also compute the expected utility to stay based on the past realizations of their cooperatives. If the first exceed the second, farmers leave.\r\n\r\nWe look at the evolution of the cooperatives, specially their number, their size and their ability to mix low- and high-risk profiles togather (segregation index). The model allows to test for the impact of :  \r\n- other regarding preferences (altruism and inequality aversion), whether farmers take into account their impact on others before acting.\r\n- learning (bayesian learning), whether farmers know their risk profile or learn it through time though their past income.\r\n- the shape of the social network (small world networks, random networks, complete networks)",
+    "downloadUrl": "https://www.comses.net/codebases/5454/releases/1.1.0/download/",
+    "dateModified": "2023-05-16",
+    "releaseNotes": "The model posted here is a condensed version. The model in itself is complete but, for readibility purposes, we have removed some more or less usefull indicators and features added during the research process.",
+    "copyrightYear": 2023,
+    "datePublished": "2023-05-16",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

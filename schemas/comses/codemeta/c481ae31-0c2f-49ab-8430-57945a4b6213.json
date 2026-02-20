@@ -1,0 +1,92 @@
+{
+    "@id": "https://doi.org/10.25937/08kx-4f24",
+    "url": "https://doi.org/10.25937/08kx-4f24",
+    "name": "ArchMatNet: Archaeological Material Networks",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-8708-9041",
+            "@type": "Person",
+            "email": "rbischoff@asu.edu",
+            "givenName": "Robert",
+            "familyName": "Bischoff",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-1302-5955",
+            "@type": "Person",
+            "email": "ceciliapad28@gmail.com",
+            "givenName": "Cecilia",
+            "familyName": "Padilla-Iglesias",
+            "affiliation": {
+                "@id": "https://ror.org/02crff812",
+                "url": "http://www.uzh.ch/index_en.html",
+                "name": "University of Zurich",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02crff812"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-1324-7937",
+            "@type": "Person",
+            "email": "cgravelm@asu.edu",
+            "givenName": "Claudine",
+            "familyName": "Gravel-Miguel",
+            "affiliation": {
+                "@id": "https://ror.org/00d9ah105",
+                "url": "http://www.ucmerced.edu/",
+                "name": "University of California, Merced",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00d9ah105"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc/4.0",
+        "name": "CC-BY-NC-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "archaeology",
+        "hunter-gatherers",
+        "quantitative methods in archaeology",
+        "Social Networks"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/08kx-4f24",
+        "https://doi.org/10.25937/08kx-4f24"
+    ],
+    "dateCreated": "2021-11-14",
+    "description": "**The purpose of the model is to investigate how different factors affect the ability of researchers to reconstruct prehistoric social networks from artifact stylistic similarities, as well as the overall diversity of cultural traits observed in archaeological assemblages.** Given that cultural transmission and evolution is affected by multiple interacting phenomena, our model allows to simultaneously explore six sets of factors that may condition how social networks relate to shared culture between individuals and groups:\n\n1. Factors relating to the structure of social groups \n2. Factors relating to the cultural traits in question \n3. Factors relating to individual learning strategies\n4. Factors relating to the environment\n5. Factors relating to the context in which different types of cultural traits are learned\n6. Factors relating to the method used to reconstruct ancient social networks\n\nThe model follows the movement and interactions of people living in camps that belong to bands. People hunt in groups, create allies and visit them, aggregate at regular intervals, and migrate. When they interact with one another, people can trade objects and known object traits (ideas). They create objects with characteristics based on the known traits and can drop those objects at random times during a simulation run. This forms an \"archaeological record\" we can use to see if similar styles found at different sites are good indicators of the social contacts that occurred between the people who made them.",
+    "downloadUrl": "https://www.comses.net/codebases/c481ae31-0c2f-49ab-8430-57945a4b6213/releases/1.1.0/download/",
+    "dateModified": "2024-03-24",
+    "releaseNotes": "In this version, changes were made to the visibility procedure so that highly visible traits are transmitted 98% of the time. Two new network comparison metrics were also added: adjCompare and adjCorr.\n",
+    "copyrightYear": 2023,
+    "datePublished": "2023-02-20",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo 6.2.2"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Bischoff, R. J., & Padilla-Iglesias, C. (2023). A description and sensitivity analysis of the ArchMatNet agent-based model. PeerJ Computer Science, 9, e1419. https://doi.org/10.7717/peerj-cs.1419"
+}

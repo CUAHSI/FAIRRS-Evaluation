@@ -1,0 +1,96 @@
+{
+    "@id": "https://www.comses.net/codebases/4843/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4843/releases/1.0.0/",
+    "name": "A Consumer in the Jungle of Product Differentiation",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "givenName": "Alessio",
+            "familyName": "Biondo"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Alfio",
+            "familyName": "Giarlotta"
+        },
+        {
+            "@id": "https://www.comses.net/users/987/",
+            "@type": "Person",
+            "email": "alessandro.pluchino@ct.infn.it",
+            "givenName": "Alessandro",
+            "familyName": "Pluchino",
+            "affiliation": {
+                "url": "http://www.dfa.unict.it/",
+                "name": "Dipartimento di Fisica e Astronomia dell'Universit\u00e0 di Catania",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "givenName": "Andrea",
+            "familyName": "Rapisarda"
+        },
+        {
+            "@id": "_:author_1",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://www.comses.net/users/987/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "consumer behavior",
+        "hotelling",
+        "information",
+        "knowledge",
+        "product differentiation",
+        "random choice"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4843/releases/1.0.0/",
+    "dateCreated": "2015-12-22",
+    "description": "We present a graph-based model of consumer choice, which describes the hypothetical cognitive journey that each individual experiences in the process of buying a product by exploring a given market. The topological structure of the market is represented by a graph with different types of nodes, identified by different shapes. The role of the causes that influence the decision can be measured by means of behavioral differentiation in several parametric simulations. The relevance of information and knowledge, in the form of individual awareness, discriminating ability, and perception of market structure, can be evaluated.",
+    "downloadUrl": "https://www.comses.net/codebases/4843/releases/1.0.0/download/",
+    "dateModified": "2018-02-23",
+    "releaseNotes": "",
+    "copyrightYear": 2015,
+    "datePublished": "2015-12-22",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    },
+    "referencePublication": "Perfect Information vs Random Investigation: Safety Guidelines for a Consumer in the Jungle of Product Differentiation\r\nhttp://arxiv.org/abs/1507.01458"
+}

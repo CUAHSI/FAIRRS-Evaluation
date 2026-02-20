@@ -1,0 +1,98 @@
+{
+    "@id": "https://www.comses.net/codebases/e30e36f0-5471-46b5-9c78-27b3f2185ff9/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/e30e36f0-5471-46b5-9c78-27b3f2185ff9/releases/1.0.0/",
+    "name": "Hybrid Agent-Based and Equation Based Model for Infectious Disease Spread",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-1767-4744",
+            "@type": "Person",
+            "email": "eahunter720@gmail.com",
+            "givenName": "Elizabeth",
+            "familyName": "Hunter",
+            "affiliation": {
+                "@id": "https://ror.org/04t0qbt32",
+                "url": "https://www.tudublin.ie/",
+                "name": "Technological University Dublin",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04t0qbt32"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "brian.macnamee@ucd.ie",
+            "givenName": "Brian",
+            "familyName": "Mac Namee",
+            "affiliation": {
+                "@id": "https://ror.org/041vb4f30",
+                "url": "https://www.ucd.ie/cvera/",
+                "name": "UCD Centre for Veterinary Epidemiology and Risk Analysis",
+                "@type": "Organization",
+                "identifier": "https://ror.org/041vb4f30"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "john.d.kelleher@tudublin.ie",
+            "givenName": "John",
+            "familyName": "Kelleher",
+            "affiliation": {
+                "@id": "https://ror.org/04t0qbt32",
+                "url": "https://www.tudublin.ie/",
+                "name": "Technological University Dublin",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04t0qbt32"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based model",
+        "infectious disease transmission"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/e30e36f0-5471-46b5-9c78-27b3f2185ff9/releases/1.0.0/",
+    "dateCreated": "2020-04-19",
+    "description": "Our model is hybrid agent-based and equation based model for human air-borne  infectious  diseases  measles.   It  follows  an  SEIR  (susceptible,  exposed,infected, and recovered) type compartmental model with the agents moving be-tween the four state relating to infectiousness.  However, the disease model canswitch back and forth between agent-based and equation based depending onthe  number  of  infected  agents.   Our  society  model  is  specific  using  the  datato  create  a  realistic  synthetic  population  for  a  county  in  Ireland.   The  modelincludes transportation with agents moving between their current location anddesired  destination  using  predetermined  destinations  or  destinations  selectedusing a gravity model.",
+    "downloadUrl": "https://www.comses.net/codebases/e30e36f0-5471-46b5-9c78-27b3f2185ff9/releases/1.0.0/download/",
+    "dateModified": "2020-04-19",
+    "releaseNotes": "Detailed model documentation can be found in the ODD and model documentation documents.  \nTo run the model with the provided population and enviornment click \"setup-loadworld\" and \"go\". This will simulate a measles outbreak in the county Leitrim, Ireland. The model will run until no agents are exposed or infected. A behaviorspace is also setup to run the model 300 time and record important output variables.  ",
+    "copyrightYear": 2020,
+    "datePublished": "2020-04-19",
+    "embargoEndDate": "2020-04-20",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Hunter, E., Mac Namee, B. & Kelleher, J.D. (2019) Degree Centrality and the Probability of an Infectious Disease Outbreak in Towns within a Region, The 33rd annual European Simulation and Modelling Conference 2019. https://arrow.tudublin.ie/scschcomcon/266/"
+}

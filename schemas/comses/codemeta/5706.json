@@ -1,0 +1,70 @@
+{
+    "@id": "https://www.comses.net/codebases/5706/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/5706/releases/1.1.0/",
+    "name": "Expectation-Based Bayesian Belief Revision",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1800/",
+            "@type": "Person",
+            "email": "christoph.merdes@lrz.uni-muenchen.de",
+            "givenName": "C",
+            "familyName": "Merdes"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Ulrike",
+            "familyName": "Hahn"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Momme",
+            "familyName": "Von Sydow"
+        },
+        {
+            "@id": "https://www.comses.net/users/1800/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Vallinder, A., & Olsson, E. J. (2014). Trust and the value of overconfidence: a Bayesian perspective on social network communication. Synthese, 191(9), 1991-2007.\r\n\r\n(Note that the current version is restricted to the individual updating procedure.)",
+            "@type": "CreativeWork"
+        }
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5706/releases/1.1.0/",
+    "dateCreated": "2017-06-19",
+    "description": "It is commonly assumed in Bayesian belief revision that the precise likelihoods of a source telling the truth or a device delivering a true positive or negative is known to the agent. But this assumption clearly does not hold universally. A common answer is to update likelihoods (or in terms of the model that has been developed to model partially reliable testimony in particular, trust) based on the definite evidence later obtained. For example, the reliability of a pregnancy test can eventually assessed by comparing its predictions with the definite results. But this method is again, not always available. In criminal trials, to give just one example, reliability judgments on the witnesses has usually to be passed without any definite evidence. In such scenarios, various authors have suggested models of updating trust on the basis of how well testimonies fit our prior expectations. If a witness telsl me that the earth is flat, I should belief a little bit more in the flatness of the earth, and a lot less in the reliability of that witness. A question that has not yet been sufficiently answered is under which exact conditions such an expectation based strategy works. This is exactly what can be explored with the simulation model provided here. To briefly summarize the results, the strategy fails systematically under uncharitable conditions, but can provide advantage about fixed guesses of likelihoods given sufficient accuracy of background knowledge.",
+    "downloadUrl": "https://www.comses.net/codebases/5706/releases/1.1.0/download/",
+    "dateModified": "2018-08-06",
+    "releaseNotes": "First Release to allow the reader to reproduce our results. Any questions on the model should be directed at Christoph Merdes.",
+    "copyrightYear": 2018,
+    "datePublished": "2018-08-06",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

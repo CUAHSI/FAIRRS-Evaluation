@@ -1,0 +1,64 @@
+{
+    "@id": "https://doi.org/10.25937/qmc0-r354",
+    "url": "https://doi.org/10.25937/qmc0-r354",
+    "name": "Collectivities",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-5937-2410",
+            "@type": "Person",
+            "email": "n.gilbert@surrey.ac.uk",
+            "givenName": "Nigel",
+            "familyName": "Gilbert",
+            "affiliation": {
+                "@id": "https://ror.org/00ks66431",
+                "url": "http://www.surrey.ac.uk/",
+                "name": "University of Surrey",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00ks66431"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "fashion",
+        "knowledge diffusion",
+        "NetLogo",
+        "scientific communities",
+        "simple model"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/qmc0-r354",
+        "https://doi.org/10.25937/qmc0-r354"
+    ],
+    "dateCreated": "2019-04-09",
+    "description": "The model that simulates the dynamic creation and maintenance of knowledge-based formations such as communities of scientists, fashion movements, and subcultures. The model\u2019s environment is a spatial one, representing not geographical space, but a \u201cknowledge space\u201d in which each point is a different collection of knowledge elements. Agents moving through this space represent people\u2019s differing and changing knowledge and beliefs. The agents have only very simple behaviors: If they are \u201clonely,\u201d that is, far from a local concentration of agents, they move toward the crowd; if they are crowded, they move away.\n\nRunning the model shows that the initial uniform random distribution of agents separates into \u201cclumps,\u201d in which some agents are central and others are distributed around them. The central agents are crowded, and so move. In doing so, they shift the centroid of the clump slightly and may make other agents either crowded or lonely, and they too will move. Thus, the clump of agents, although remaining together for long durations (as measured in time steps), drifts across the view. Lonely agents move toward the clump, sometimes joining it and sometimes continuing to trail behind it. The clumps never merge.\n\nThe model is written in NetLogo (v6).  It is used as a demonstration of agent-based modelling in Gilbert, N. (2008) Agent-Based Models (Quantitative Applications in the Social Sciences).  Sage Publications, Inc. and described in detail in Gilbert, N. (2007) \u201cA generic model of collectivities,\u201d Cybernetics and Systems. European Meeting on Cybernetic Science and Systems Research, 38(7), pp. 695\u2013706.",
+    "downloadUrl": "https://www.comses.net/codebases/9aa91273-11af-4d93-bd0e-a487049baf7d/releases/1.1.0/download/",
+    "dateModified": "2019-08-22",
+    "releaseNotes": "This is a standard NetLogo model.  Download NetLogo (version 6), run the app and open the model code from within NetLogo.  See the Info tab for instructions on how to run the model.",
+    "copyrightYear": 2019,
+    "datePublished": "2019-08-22",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

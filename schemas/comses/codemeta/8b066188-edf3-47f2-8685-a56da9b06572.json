@@ -1,0 +1,61 @@
+{
+    "@id": "https://www.comses.net/codebases/8b066188-edf3-47f2-8685-a56da9b06572/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/8b066188-edf3-47f2-8685-a56da9b06572/releases/1.0.0/",
+    "name": "Crowdworking Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-9751-0768",
+            "@type": "Person",
+            "email": "georg.jaeger@uni-graz.at",
+            "givenName": "Georg",
+            "familyName": "J\u00e4ger",
+            "affiliation": {
+                "@id": "https://ror.org/01faaaf77",
+                "url": "https://www.uni-graz.at/en/",
+                "name": "University of Graz",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01faaaf77"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "crowdsourcing",
+        "crowdworking",
+        "employment",
+        "income",
+        "labor market"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/8b066188-edf3-47f2-8685-a56da9b06572/releases/1.0.0/",
+    "dateCreated": "2018-08-10",
+    "description": "The purpose of this agent-based model is to compare different variants of crowdworking in a general way, so that the obtained results are independent of specific details of the crowdworking platform. It features many adjustable parameters that can be used to calibrate the model to empirical data, but also when not calibrated it yields essential results about crowdworking in general.\nAgents compete for contracts on a virtual crowdworking platform. Each agent is defined by various properties like qualification and income expectation. Agents that are unable to turn a profit have a chance to quit the crowdworking platform and new crowdworkers can replace them. Thus the model has features of an evolutionary process, filtering out the ill suited agents, and generating a realistic distribution of agents from an initially random one. To simulate a stable system, the amount of contracts issued per day can be set constant, as well as the number of crowdworkers. If one is interested in a dynamically changing platform, the simulation can also be initialized in a way that increases or decreases the number of crowdworkers or number of contracts over time. Thus, a large variety of scenarios can be investigated.\n",
+    "downloadUrl": "https://www.comses.net/codebases/8b066188-edf3-47f2-8685-a56da9b06572/releases/1.0.0/download/",
+    "dateModified": "2019-09-25",
+    "releaseNotes": "Release\nSee J\u00e4ger, G., Zilian, L.S., Hofer, C. et al. J Econ Interact Coord (2019). https://doi.org/10.1007/s11403-019-00266-1",
+    "copyrightYear": 2019,
+    "datePublished": "2019-09-25",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

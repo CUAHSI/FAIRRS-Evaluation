@@ -1,0 +1,82 @@
+{
+    "@id": "https://doi.org/10.25937/smg0-0t92",
+    "url": "https://doi.org/10.25937/smg0-0t92",
+    "name": "Evolutionary Economic Learning Simulation: A Genetic Algorithm for Dynamic 2x2 Strategic-Form Games in Python",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-3680-9613",
+            "@type": "Person",
+            "email": "visferraz@gmail.com",
+            "givenName": "Vinicius",
+            "familyName": "Ferraz",
+            "affiliation": {
+                "url": "https://www.uni-heidelberg.de/fakultaeten/wiso/awi/index_en.html",
+                "name": "Alfred Weber Institute of Economics, University of Heidelberg",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "thomas.pitz@hochschule-rhein-waal.de",
+            "givenName": "Thomas",
+            "familyName": "Pitz",
+            "affiliation": {
+                "@id": "https://ror.org/04wdt0z89",
+                "url": "https://www.hochschule-rhein-waal.de/en",
+                "name": "Rhine-Waal University of Applied Sciences",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04wdt0z89"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "artificial intelligence",
+        "behavioral game theory",
+        "evolutionary game theory",
+        "genetic algorithm",
+        "learning"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/smg0-0t92",
+        "https://doi.org/10.25937/smg0-0t92"
+    ],
+    "dateCreated": "2021-03-01",
+    "description": "This project combines game theory and genetic algorithms in a simulation model for evolutionary learning and strategic behavior. It is often observed in the real world that strategic scenarios change over time, and deciding agents need to adapt to new information and environmental structures. Yet, game theory models often focus on static games, even for dynamic and temporal analyses. This simulation model introduces a heuristic procedure that enables these changes in strategic scenarios with Genetic Algorithms. Using normalized 2x2 strategic-form games as input, computational agents can interact and make decisions using three pre-defined decision rules: Nash Equilibrium, Hurwicz Rule, and Random. The games then are allowed to change over time as a function of the agent's behavior through crossover and mutation. As a result, strategic behavior can be modeled in several simulated scenarios, and their impacts and outcomes can be analyzed, potentially transforming conflictual situations into harmony.",
+    "downloadUrl": "https://www.comses.net/codebases/82c20360-30ad-4f76-90de-4f771a1bbe93/releases/1.0.0/download/",
+    "dateModified": "2022-12-22",
+    "releaseNotes": "First public version of this code.",
+    "copyrightYear": 2022,
+    "datePublished": "2022-04-08",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "Python"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "https://doi.org/10.1007/s10614-022-10348-1"
+}

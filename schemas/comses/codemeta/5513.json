@@ -1,0 +1,94 @@
+{
+    "@id": "https://www.comses.net/codebases/5513/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5513/releases/1.0.0/",
+    "name": "SMILI: Small-scale fisheries Institutions and Local Interactions",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-1546-0934",
+            "@type": "Person",
+            "email": "emilie.lindkvist@su.se",
+            "givenName": "Emilie",
+            "familyName": "Lindkvist",
+            "affiliation": {
+                "@id": "https://ror.org/0145rpw38",
+                "url": "http://www.stockholmresilience.org",
+                "name": "Stockholm University, Stockholm Resilience Centre",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0145rpw38"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Xavier",
+            "familyName": "Basurto"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-7780-1039",
+            "@type": "Person",
+            "email": "maja.schlueter@su.se",
+            "givenName": "Maja",
+            "familyName": "Schl\u00fcter",
+            "affiliation": {
+                "@id": "https://ror.org/0145rpw38",
+                "url": "http://www.stockholmresilience.org",
+                "name": "Stockholm Resilience Centre, Stockholm University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0145rpw38"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-1546-0934",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-7780-1039",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5513/releases/1.0.0/",
+    "dateCreated": "2017-03-09",
+    "description": "The purpose of the model is to explain the establishment and persistence of two ubiquitous institutions, fishing cooperatives (co-ops), and patron-client relationships (PCs), by exploring the dynamics of trust between fishers and fishbuyers exploiting a fish stock. The model serves as a virtual laboratory to investigate the interplay between the individuals, the institutions, the fishing community, and the fish stock they exploit. The key decision-making of the fishers is whether to cheat or not. Based on the fishers\u2019 reliability as well as their the loyalty to their main fish buyer or fellow co-op members, the fisher will decide to cheat or not. Cheating will reduce loyalty, and no cheating will build up loyalty. The two main differences between co-ops and PCs in the daily activities are; first, because PCs have no formal membership contract, they can constantly \u2018shop and select\u2019 fishers from the fishery pool with the highest reliability, while co-ops are \u2018stuck\u2019 with their members whether they are reliable or not. As such, PCs can attract members to meet their demand while co-ops cannot. Second, co-ops share written contracts defining entry and exit rules, and roles and responsibilities among members. Consequently, co-ops have higher transaction costs in establishing relationships (represented by the slower loyalty growth rate), and cannot attract or exchange fishers. The model represents how fishers organize their daily interactions for the fishing and commercialization of catch in a small-scale fishery based on empirical insights from Northwest Mexico. The aim of this model is to provide a better understanding of these local dynamics to enable the development of better target policies to improve fishers\u2019 livelihoods and marine ecosystem stewardship.",
+    "downloadUrl": "https://www.comses.net/codebases/5513/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2017,
+    "datePublished": "2017-03-09",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Paper that is based on model: Lindkvist, E., Basurto, X., and Schl\u00fcter, M. (2017) Micro-level explanations for emergent patterns of self-governance arrangements in small-scale fisheries\u2014a modeling approach. PLOS ONE."
+}

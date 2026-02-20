@@ -1,0 +1,47 @@
+{
+    "@id": "https://www.comses.net/codebases/e5c17b1f-0121-4461-9ae2-919b6fe27cc4/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/e5c17b1f-0121-4461-9ae2-919b6fe27cc4/releases/1.0.0/",
+    "name": "Viability analysis of a population submitted to floods",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/3308/",
+            "@type": "Person",
+            "email": "sophie.martin@inrae.fr",
+            "givenName": "Sophie",
+            "familyName": "Martin"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/e5c17b1f-0121-4461-9ae2-919b6fe27cc4/releases/1.0.0/",
+    "dateCreated": "2021-09-22",
+    "description": "This model computes the guaranteed viability kernel of a model describing the evolution of a population submitted to successive floods.\nThe population is described  by its wealth and its adaptation rate to floods, the control are information campaigns that have a cost but increase the adaptation rate and the expected successive floods belong to given set defined by the maximal high and the minimal time between two floods. ",
+    "downloadUrl": "https://www.comses.net/codebases/e5c17b1f-0121-4461-9ae2-919b6fe27cc4/releases/1.0.0/download/",
+    "dateModified": "2021-09-22",
+    "releaseNotes": "New source code",
+    "copyrightYear": 2021,
+    "datePublished": "2021-09-22",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "None"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "C++",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

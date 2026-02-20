@@ -1,0 +1,54 @@
+{
+    "@id": "https://www.comses.net/codebases/d6501a88-8463-4f51-bc40-7bfc6d43bf69/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/d6501a88-8463-4f51-bc40-7bfc6d43bf69/releases/1.0.0/",
+    "name": "Investigating dynamics of covid-19 spread and containment with agent-based modeling",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/3095/",
+            "@type": "Person",
+            "email": "amirarsalan@knights.ucf.edu",
+            "givenName": "Amirarsalan",
+            "familyName": "Rajabi"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "COVID-19",
+        "epidemic",
+        "NetLogo"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/d6501a88-8463-4f51-bc40-7bfc6d43bf69/releases/1.0.0/",
+    "dateCreated": "2021-01-21",
+    "description": "This repository includes an epidemic agent-based model that simulates the spread of Covid-19 epidemic. Normal.nlogo is the main file, while Exploring-zoning.nlogo and Exploring-Testing-With-Tracking.nlogo are modefied models to test the two strategies and run experiments.",
+    "downloadUrl": "https://www.comses.net/codebases/d6501a88-8463-4f51-bc40-7bfc6d43bf69/releases/1.0.0/download/",
+    "dateModified": "2021-01-21",
+    "releaseNotes": "This repository includes an epidemic agent-based model that simulates the spread of Covid-19 epidemic. Normal.nlogo is the main file, while Exploring-zoning.nlogo and Exploring-Testing-With-Tracking.nlogo are modified models to test the two strategies and run experiments.\n\nThe outputs will be generated using the experiments defined in Behaviorspace of NetLogo.\n",
+    "copyrightYear": 2021,
+    "datePublished": "2021-01-21",
+    "codeRepository": "https://github.com/amirarsalan90/covid19-ABM",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "https://doi.org/10.1101/2020.08.18.20177451"
+}

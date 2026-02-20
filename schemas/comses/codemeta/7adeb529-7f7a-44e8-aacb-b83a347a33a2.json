@@ -1,0 +1,57 @@
+{
+    "@id": "https://www.comses.net/codebases/7adeb529-7f7a-44e8-aacb-b83a347a33a2/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/7adeb529-7f7a-44e8-aacb-b83a347a33a2/releases/1.0.0/",
+    "name": "Model of communication between two groups of managers in the course of project implementation",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-5279-7627",
+            "@type": "Person",
+            "email": "ivsmrudn@yandex.ru",
+            "givenName": "Smarzhevskiy",
+            "familyName": "Ivan"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "New model",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "communication"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/7adeb529-7f7a-44e8-aacb-b83a347a33a2/releases/1.0.0/",
+    "dateCreated": "2020-12-07",
+    "description": "This is a simulation model of communication between two groups of managers in the course of project implementation. The \u201cworld\u201d of the model is a space of interaction between project participants, each of which belongs either to a group of work performers or to a group of customers. Information about the progress of the project is publicly available and represents the deviation Earned value (EV) from the planned project value (cost baseline).\nThe key elements of the model are 1) persons belonging to a group of customers or performers, 2) agents that are communication acts. The life cycle of persons is equal to the time of the simulation experiment, the life cycle of the communication act is 3 periods of model time (for the convenience of visualizing behavior during the experiment). The communication act occurs at a specific point in the model space, the coordinates of which are realized as random variables. During the experiment, persons randomly move in the model space. The communication act involves persons belonging to a group of customers and a group of performers, remote from the place of the communication act at a distance not exceeding the value of the communication radius (MaxCommRadius), while at least one representative from each of the groups must participate in the communication act. If none are found, the communication act is not carried out. The number of potential communication acts per unit of model time is a parameter of the model (CommPerTick).\n\nThe managerial sense of the feedback is the stimulating effect of the positive value of the accumulated communication complexity (positive background of the project implementation) on the productivity of the performers. Provided there is favorable communication (\"trust\", \"mutual understanding\") between the customer and the contractor, it is more likely that project operations will be performed with less lag behind the plan or ahead of it.\nThe behavior of agents in the world of the model (change of coordinates, visualization of agents' belonging to a specific communicative act at a given time, etc.) is not informative. Content data are obtained in the form of time series of accumulated communicative complexity, the deviation of the earned value from the planned value, average indicators characterizing communication - the total number of communicative acts and the average number of their participants, etc. These data are displayed on graphs during the simulation experiment.\nThe control elements of the model allow seven independent values to be varied, which, even with a minimum number of varied values (three: minimum, maximum, optimum), gives 3^7 = 2187 different variants of initial conditions. In this case, the statistical processing of the results requires repeated calculation of the model indicators for each grid node. Thus, the set of varied parameters and the range of their variation is determined by the logic of a particular study and represents a significant narrowing of the full set of initial conditions for which the model allows simulation experiments.\nIn particular, the developed model makes it possible to conduct a simulation experiment to determine the quantitative measure of the relationship between the value of FB (feedback) and the ratio of the general average values of the communication skills of the customer\u2019s and the executor\u2019s groups.\nThis is a very simple (less than 100 lines of code) model, which is educational in nature and is designed for various simulation experiments. Experiment patterns are stored in the behavior space of the model.\nFor convenience, a parser .XLS-file is included in the model documentation. By copying the data from the output file generated by NetLogo to the sheet of this file, you can get the results of the experiment in the cells of the worksheet in the form of numbers.",
+    "downloadUrl": "https://www.comses.net/codebases/7adeb529-7f7a-44e8-aacb-b83a347a33a2/releases/1.0.0/download/",
+    "dateModified": "2020-12-07",
+    "releaseNotes": "First edition",
+    "copyrightYear": 2020,
+    "datePublished": "2020-12-07",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "I.A. Smarzhevskiy, Structural model of interaction between two groups of managers in the course of project implementation // National interests: priorities and security. 2013. No. 5 (194). S. 9-15.\nhttps://www.fin-izdat.ru/journal/national/detail.php?ID=55088"
+}

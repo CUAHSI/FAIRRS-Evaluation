@@ -1,0 +1,66 @@
+{
+    "@id": "https://www.comses.net/codebases/5c7710b4-f9c1-47cc-ad61-8734febdb2f0/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/5c7710b4-f9c1-47cc-ad61-8734febdb2f0/releases/1.1.0/",
+    "name": "DMC-RPA: Diverse Model Calibration for Robust Policy Analysis (applied to an ABM of smallholder farmer resilience)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-5642-728X",
+            "@type": "Person",
+            "email": "tgw@umich.edu",
+            "givenName": "Tim",
+            "familyName": "Williams",
+            "affiliation": {
+                "@id": "https://ror.org/008xxew50",
+                "url": "https://vu.nl/",
+                "name": "Environmental Geography Department, Vrije Universiteit Amsterdam",
+                "@type": "Organization",
+                "identifier": "https://ror.org/008xxew50"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agriculture",
+        "calibration",
+        "equifinality",
+        "food security",
+        "resilience"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5c7710b4-f9c1-47cc-ad61-8734febdb2f0/releases/1.1.0/",
+    "dateCreated": "2020-08-06",
+    "description": "This repository contains: (1) a model calibration procedure that identifies a set of diverse, plausible models; and (2) an ABM of smallholder agriculture, which is used as a case study application for the calibration method. By identifying a set of diverse models, the calibration method attends to the issue of \"equifinality\" prevalent in complex systems, which is a situation where multiple plausible process descriptions exist for a single outcome.",
+    "downloadUrl": "https://www.comses.net/codebases/5c7710b4-f9c1-47cc-ad61-8734febdb2f0/releases/1.1.0/download/",
+    "dateModified": "2020-08-30",
+    "releaseNotes": "Initial release.",
+    "copyrightYear": 2020,
+    "datePublished": "2020-08-30",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "n/a"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "R",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Williams, T. G., S. D. Guikema, D. G. Brown, and A. Agrawal. 2020. \u201cResilience and Equity: Quantifying the Distributional Effects of Resilience-Enhancing Strategies in a Smallholder Agricultural System.\u201d Agricultural Systems 182 (June): 102832. http://dx.doi.org/10.1016/j.agsy.2020.102832\n\nWilliams, T. G., S. D. Guikema, D. G. Brown, and A. Agrawal. \u201cAssessing Model Equifinality for Robust Policy Analysis in Complex Socio-Environmental Systems.\u201d Environmental Modelling & Software. https://doi.org/10.1016/j.envsoft.2020.104831"
+}

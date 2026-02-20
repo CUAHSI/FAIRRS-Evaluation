@@ -1,0 +1,55 @@
+{
+    "@id": "https://www.comses.net/codebases/ff93e3f3-6181-46b6-9b39-738600ba27f9/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/ff93e3f3-6181-46b6-9b39-738600ba27f9/releases/1.0.0/",
+    "name": "Agent Based Integrated Assessment Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-8858-4615",
+            "@type": "Person",
+            "email": "czuprynm@uek.krakow.pl",
+            "givenName": "Marcin",
+            "familyName": "Czupryna",
+            "affiliation": {
+                "@id": "https://ror.org/0262te083",
+                "url": "http://www.uek.krakow.pl/",
+                "name": "Cracow University of Economics",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0262te083"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-nd/4.0",
+        "name": "CC-BY-NC-ND-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/ff93e3f3-6181-46b6-9b39-738600ba27f9/releases/1.0.0/",
+    "dateCreated": "2018-06-30",
+    "description": "Agent based approach to the class of the Integrated Assessment Models. An agent-based model (ABM) that focuses on the energy sector and climate relevant facts in a detailed way while being complemented with consumer goods, labour and capital markets to a minimal necessary extent.  ",
+    "downloadUrl": "https://www.comses.net/codebases/ff93e3f3-6181-46b6-9b39-738600ba27f9/releases/1.0.0/download/",
+    "dateModified": "2020-06-27",
+    "releaseNotes": "All FOLDER constants in the Simulation.java class must be updated before start. In particular MAIN_FOLDER which is the main access path. PARAMETER_TABLES_FOLDER (where all the attached csv files should be placed before simulation begin) and RESULTS_FOLDER where the results are saved. For debugging DEBUG_ALL value must be set to true, as well as the market related debug parameter e.g. DEBUG_ALL. The folder where the debug files are stored is defined in the relevant debuggers. There are currently 4 versions of run() method: 1 - allows running 4 selected scenarios multiple times, 2 - allows systematic parameter search, 3 - reruning selected scenarios, 4 - allows systematic technology parameter search. Currently one must manually (un)comment relevant version of run() method. Examples how to run a code are commented in main(String[] args) method. Uses mason19.jar, opencsv.jar, apache commons lang, math and csv external libraries. ",
+    "copyrightYear": 2020,
+    "datePublished": "2020-06-27",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Mason"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Journal of Artificial Societies and Social Simulation 23(3) 7, 2020\nDoi: 10.18564/jasss.4325 Url: http://jasss.soc.surrey.ac.uk/23/3/7.html"
+}

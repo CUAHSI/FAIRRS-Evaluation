@@ -1,0 +1,74 @@
+{
+    "@id": "https://www.comses.net/codebases/b5db6af8-ba44-4725-9bb3-09a6e6b02475/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/b5db6af8-ba44-4725-9bb3-09a6e6b02475/releases/1.0.0/",
+    "name": "Role of Diversity in Team Performance: the Case of Missing Expertise, an Agent Based Simulations",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-6360-0714",
+            "@type": "Person",
+            "email": "kiss.t@wigner.hu",
+            "givenName": "Tam\u00e1s",
+            "familyName": "Kiss",
+            "affiliation": {
+                "@id": "https://ror.org/035dsb084",
+                "url": "https://wigner.hu/",
+                "name": "Wigner Research Centre for Physics",
+                "@type": "Organization",
+                "identifier": "https://ror.org/035dsb084"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Stuart Bunderson, J., & Sutcliffe, K. M. (2002). Comparing alternative conceptualizations of functional diversity in management teams: Process and performance effects. Academy of Management Journal, 45(5), 875-893. https://doi.org/10.5465/3069319\n\nhttps://doi.org/10.1007/s11846-022-00524-w",
+            "@type": "CreativeWork"
+        },
+        {
+            "text": "No, this is an original model.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "agent based model (abm)",
+        "communication",
+        "functional diversity",
+        "management teams",
+        "team performance"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/b5db6af8-ba44-4725-9bb3-09a6e6b02475/releases/1.0.0/",
+    "dateCreated": "2023-12-29",
+    "description": "This ABM simulates problem solving agents as they work on a set of tasks. Each agent has a trait vector describing their skills. Two agents might form a collaboration if their traits are similar enough. Tasks are defined by a component vector. Agents work on tasks by decreasing tasks' component vectors towards zero.\n\nThe simulation generates agents with given intrapersonal functional diversity (IFD), and dominant function diversity (DFD), and a set of random tasks and evaluates how agents' traits influence their level of communication and the performance of a team of agents.\n\nModeling results highlight the importance of the distributions of agents' properties forming a team, and suggests that for a thorough description of management teams, not only diversity measures based on individual agents, but an aggregate measure is also required.\n\nMotivation for creating this model was to explain findings in papers by Bunderson & Sutcliffe (Academy of Management Journal, 45(5), 875-893, 2002) and Zhou et al (Review of Managerial Science, 17, 259-286, 2023).",
+    "downloadUrl": "https://www.comses.net/codebases/b5db6af8-ba44-4725-9bb3-09a6e6b02475/releases/1.0.0/download/",
+    "dateModified": "2023-12-29",
+    "releaseNotes": "Initial release, v1.0.0",
+    "copyrightYear": 2023,
+    "datePublished": "2023-12-29",
+    "codeRepository": "https://github.com/TamasWignerKiss/functional-diversity-ABM",
+    "embargoEndDate": "2023-12-29",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "MatLab"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "MatLab",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "A prospective publication is under review."
+}

@@ -1,0 +1,62 @@
+{
+    "@id": "https://doi.org/10.25937/na38-tj46",
+    "url": "https://doi.org/10.25937/na38-tj46",
+    "name": "lgm_ecodynamics",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-4940-3997",
+            "@type": "Person",
+            "email": "cwren@uccs.edu",
+            "givenName": "Colin",
+            "familyName": "Wren",
+            "affiliation": {
+                "@id": "https://ror.org/054spjc55",
+                "url": "http://www.uccs.edu/",
+                "name": "University of Colorado Colorado Springs",
+                "@type": "Organization",
+                "identifier": "https://ror.org/054spjc55"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "archaeological computing",
+        "climate change adaptation",
+        "palaeolithic"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/na38-tj46",
+        "https://doi.org/10.25937/na38-tj46"
+    ],
+    "dateCreated": "2019-01-30",
+    "description": "This is a modification of a model published previous by Barton and Riel-Salvatore (2012). In this model, we simulate six regional populations within Last Glacial Maximum western Europe. Agents interact through reproduction and genetic markers attached to each of six regions mix through subsequent generations as a way to track population dynamics, mobility, and gene flow. In addition, the landscape is heterogeneous and affects agent mobility and, under certain scenarios, their odds of survival. ",
+    "downloadUrl": "https://www.comses.net/codebases/186efdf0-fb58-4004-9fda-2bb9a2cc9ebf/releases/1.1.0/download/",
+    "dateModified": "2019-04-22",
+    "releaseNotes": "This version of the model is being submitted along side a submitted manuscript. Updates expected after peer-review.",
+    "copyrightYear": 2019,
+    "datePublished": "2019-04-22",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

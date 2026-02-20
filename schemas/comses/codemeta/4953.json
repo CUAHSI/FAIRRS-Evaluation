@@ -1,0 +1,65 @@
+{
+    "@id": "https://www.comses.net/codebases/4953/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/4953/releases/1.1.0/",
+    "name": "Agent-based Simulation of Time Management",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-4949-2777",
+            "@type": "Person",
+            "email": "hang.xiong@outlook.com",
+            "givenName": "Hang",
+            "familyName": "Xiong",
+            "affiliation": {
+                "@id": "https://ror.org/05a28rw58",
+                "url": "https://ethz.ch",
+                "name": "ETH Zurich",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05a28rw58"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-4949-2777",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "importance",
+        "time management",
+        "urgency",
+        "well-being"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4953/releases/1.1.0/",
+    "dateCreated": "2016-03-25",
+    "description": "This agent-based model simulates how the strategy one manages time affect the well-being that he/she can obtain. Two strategies of time management are simulated: Urgency-first strategy and importance-first strategy. One adopts urgency-first strategy will allocate time to accomplishing urgent tasks first, whereas one adopts importance-first strategy will allocate time to accomplishing important tasks first.",
+    "downloadUrl": "https://www.comses.net/codebases/4953/releases/1.1.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2016,
+    "datePublished": "2016-03-25",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

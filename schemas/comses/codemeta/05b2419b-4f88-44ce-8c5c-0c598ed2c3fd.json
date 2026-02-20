@@ -1,0 +1,71 @@
+{
+    "@id": "https://www.comses.net/codebases/05b2419b-4f88-44ce-8c5c-0c598ed2c3fd/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/05b2419b-4f88-44ce-8c5c-0c598ed2c3fd/releases/1.0.0/",
+    "name": "Model supporting the serious game R\u00c1C",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-7902-195X",
+            "@type": "Person",
+            "email": "leo.bire@ird.fr",
+            "givenName": "L\u00e9o",
+            "familyName": "Bir\u00e9"
+        },
+        {
+            "@id": "https://www.comses.net/users/1129/",
+            "@type": "Person",
+            "email": "patrick.taillandier@gmail.com",
+            "givenName": "Patrick",
+            "familyName": "Taillandier",
+            "affiliation": {
+                "url": "http://www.inra.fr",
+                "name": "INRA",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-9685-9199",
+            "@type": "Person",
+            "email": "alexis.drogoul@ird.fr",
+            "givenName": "Alexis",
+            "familyName": "Drogoul",
+            "affiliation": {
+                "url": "http://www.ird.fr",
+                "name": "Institut de Recherche pour le D\u00e9veloppement (IRD)",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/LGPL-3.0",
+        "name": "LGPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/05b2419b-4f88-44ce-8c5c-0c598ed2c3fd/releases/1.0.0/",
+    "dateCreated": "2024-01-25",
+    "description": "This model is supporting the serious game R\u00c1C (\"waste\" in Vietnamese), dedicated to foster discussion about solid waste management in a Vietnamese commune in the B\u1eafc H\u01b0ng H\u1ea3i irrigation system. \nThe model is replicating waste circulation and environmental impact in four fictive villages. During the game, the players take actions and see how their decisions have an impact on the model. \nThis model was implemented using the GAMA platform, using gaml language. ",
+    "downloadUrl": "https://www.comses.net/codebases/05b2419b-4f88-44ce-8c5c-0c598ed2c3fd/releases/1.0.0/download/",
+    "dateModified": "2024-01-25",
+    "releaseNotes": "Tested with GAMA 1.9",
+    "copyrightYear": 2024,
+    "datePublished": "2024-01-25",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "GAMA"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "gaml",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,92 @@
+{
+    "@id": "https://www.comses.net/codebases/5891/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/5891/releases/1.1.0/",
+    "name": "Viticulture development in emerging markets: Ma\u0142opolska region",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-8858-4615",
+            "@type": "Person",
+            "email": "czuprynm@uek.krakow.pl",
+            "givenName": "Marcin",
+            "familyName": "Czupryna",
+            "affiliation": {
+                "@id": "https://ror.org/0262te083",
+                "url": "http://www.uek.krakow.pl/",
+                "name": "Cracow University of Economics",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0262te083"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Bogumi\u0142",
+            "familyName": "Kami\u0144ski"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Pawe\u0142",
+            "familyName": "Oleksy"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "givenName": "Piotr",
+            "familyName": "Przybek"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-8858-4615",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-nd/4.0",
+        "name": "CC-BY-NC-ND-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5891/releases/1.1.0/",
+    "dateCreated": "2017-11-28",
+    "description": "The purpose of the model is to explain both the final state and the dynamics of the development process of the wine sector in the Ma\u0142opolska region in Poland, which has been affected by various environmental, institutional, behavioural and social factors and has undergone evolutionary changes in recent years. Agent-based model admits heterogeneous agents (regular farms as well as large and small vineyards), which allowed us to identify a two-stage development scenario: i) community building and ii) vineyard creation. In the first phase, agents with a high propensity to set up a vineyard (wine enthusiasts) concentrate in the sub-regions with relatively better environmental conditions. Eventually, one of them establishes a vineyard. This initiates a second stage of vineyard creation as other agents in the community now have a lowered barrier of entry via the possibility of practical knowledge exchange, joint marketing efforts or vineyard maintenance resource sharing.\r\nWe consider three main classes of agents, namely: communities, large and small farms. Each farm can only belong to one given community. Each farm can be in one of the following states at each step: regular farm, wine enthusiast and vineyard.\r\nAt each step of the simulation, firstly we randomly decide whether a vineyard has ceased to exist (transforms to a regular farm) or a wine enthusiast has lost interest in wine (also transforms to a regular farm). Then, additionally created vineyards and enthusiasts from the previous step are added to the existing pools of vineyards and wine enthusiasts in each community separately. Having updated the transformation probabilities for each community, we randomly decide whether a regular farm can transform into a wine enthusiast, and whether a wine enthusiast can transform into a vineyard in the current step.",
+    "downloadUrl": "https://www.comses.net/codebases/5891/releases/1.1.0/download/",
+    "dateModified": "2018-06-16",
+    "releaseNotes": "1. Data contains the source code of the model for simulating the vineyards development process in Lesser Poland region.",
+    "copyrightYear": 2018,
+    "datePublished": "2018-06-16",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Mason"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

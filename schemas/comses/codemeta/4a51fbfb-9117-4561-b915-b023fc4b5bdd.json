@@ -1,0 +1,64 @@
+{
+    "@id": "https://www.comses.net/codebases/4a51fbfb-9117-4561-b915-b023fc4b5bdd/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4a51fbfb-9117-4561-b915-b023fc4b5bdd/releases/1.0.0/",
+    "name": "Sensitivity of the Deffuant model to measurement error",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-8471-2352",
+            "@type": "Person",
+            "email": "dino.carpentras@gmail.com",
+            "givenName": "Dino",
+            "familyName": "Carpentras"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc/4.0",
+        "name": "CC-BY-NC-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Carpentras, Dino, Alejandro Dinkelberg, and Michael Quayle. \"A new degree of freedom for opinion dynamics models: the arbitrariness of scales.\" arXiv preprint arXiv:2010.04788 (2020).",
+            "@type": "CreativeWork"
+        },
+        {
+            "text": "https://doi.org/10.1142/S0219525900000078",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "Deffuant model",
+        "measurement error",
+        "opinio dynamics",
+        "sensitivity analysis"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4a51fbfb-9117-4561-b915-b023fc4b5bdd/releases/1.0.0/",
+    "dateCreated": "2021-06-07",
+    "description": "This code can be used to analyze the sensitivity of the Deffuant model to different measurement errors. Specifically to:\n- Intrinsic stochastic error\n- Binning of the measurement scale\n- Random measurement noise\n- Psychometric distortions\n\nThe script provides graphs for each one of these",
+    "downloadUrl": "https://www.comses.net/codebases/4a51fbfb-9117-4561-b915-b023fc4b5bdd/releases/1.0.0/download/",
+    "dateModified": "2021-06-07",
+    "releaseNotes": "First version with the complete analysis of the different type of measurement errors.",
+    "copyrightYear": 2021,
+    "datePublished": "2021-06-07",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Jupyter Notebook",
+        "Python"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

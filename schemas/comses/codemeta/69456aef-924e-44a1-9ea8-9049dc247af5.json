@@ -1,0 +1,67 @@
+{
+    "@id": "https://www.comses.net/codebases/69456aef-924e-44a1-9ea8-9049dc247af5/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/69456aef-924e-44a1-9ea8-9049dc247af5/releases/1.0.0/",
+    "name": "NetLogo HIV spread model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-9684-6347",
+            "@type": "Person",
+            "email": "wouter.vermeer@northwestern.edu",
+            "givenName": "Wouter",
+            "familyName": "Vermeer",
+            "affiliation": {
+                "@id": "https://ror.org/000e0be47",
+                "url": "http://www.northwestern.edu/",
+                "name": "Northwestern University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/000e0be47"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "This model presents a replication of the EpiModel model, described in the following paper.\nJenness, S. M., Goodreau, S. M., Rosenberg, E., Beylerian, E. N., Hoover, K. W., Smith, D. K., & Sullivan, P. (2016). Impact of the Centers for Disease Control's HIV Preexposure Prophylaxis Guidelines for Men Who Have Sex With Men in the United States. The Journal of Infectious Diseases, 214(12), 1800-1807.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "agent-based model",
+        "disease transmission",
+        "dynamic network",
+        "hiv"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/69456aef-924e-44a1-9ea8-9049dc247af5/releases/1.0.0/",
+    "dateCreated": "2019-10-25",
+    "description": "This model describes the tranmission of HIV by means of unprotected anal intercourse in a population of men-who-have-sex-with-men.\nThe model is parameterized based on field data from a cohort study conducted in Atlanta Georgia.",
+    "downloadUrl": "https://www.comses.net/codebases/69456aef-924e-44a1-9ea8-9049dc247af5/releases/1.0.0/download/",
+    "dateModified": "2019-10-25",
+    "releaseNotes": "This version of the model is a stand alone version, it requires no additional inputs and runs as is. Setup is used to initiate a population, go is used to account for network dynamics and spreading behaviors. ",
+    "copyrightYear": 2019,
+    "datePublished": "2019-10-25",
+    "embargoEndDate": "2019-12-31",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

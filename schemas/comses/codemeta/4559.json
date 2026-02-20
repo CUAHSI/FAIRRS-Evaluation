@@ -1,0 +1,63 @@
+{
+    "@id": "https://www.comses.net/codebases/4559/releases/1.2.0/",
+    "url": "https://www.comses.net/codebases/4559/releases/1.2.0/",
+    "name": "Spatial model of the noisy Prisoner's Dilemma with reward shift",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-6050-9701",
+            "@type": "Person",
+            "email": "matus_halas@yahoo.com",
+            "givenName": "Matus",
+            "familyName": "Halas",
+            "affiliation": {
+                "@id": "https://ror.org/03sew6f18",
+                "url": "http://www.ims-ural.ru/",
+                "name": "Institute of International Relations",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03sew6f18"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-6050-9701",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "spatial prisoner's dilemma",
+        "toroid"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4559/releases/1.2.0/",
+    "dateCreated": "2017-10-31",
+    "description": "Actors in the Prisoner's Dilemma agent-based model presented here decide between cooperation and defection in binary interactions determined by players' distance and overall gains. Two kinds of noise and the reward for mutual cooperation oscillating between temptation and punishment payoffs with a variable speed were introduced as well. Results of the Axelrod's famous tournament were replicated as the necessary first step before removing errors in formalization of several rules and introducing further modifications and additional strategies inspired by the foreign policy behavior of states. Initial success of generous reciprocal altruists was no surprise, but lacking relationship between frequency of interactions and cooperativeness at the level of pairs already suggested some similarity with the system of states. Yet the most important outcome was victory of the balance of threat strategy in all reruns with a heterogeneous pool of actors and that despite the fact that this strategy was one of the least cooperative ones. At the same time, rules preselected in the homogeneous and cooperative environment were still able to sustain intensive cooperation among themselves even within the heterogeneous pool of strategies.",
+    "downloadUrl": "https://www.comses.net/codebases/4559/releases/1.2.0/download/",
+    "dateModified": "2018-05-29",
+    "releaseNotes": "None",
+    "copyrightYear": 2018,
+    "datePublished": "2018-05-29",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "None"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "C#",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "@id": "https://www.comses.net/codebases/5727/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5727/releases/1.0.0/",
+    "name": "Online Collaboration, Competing for Attention",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1980/",
+            "@type": "Person",
+            "email": "mmannin5@asu.edu",
+            "givenName": "M",
+            "familyName": "Manning",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1980/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5727/releases/1.0.0/",
+    "dateCreated": "2017-07-19",
+    "description": "Included in this model is code for reading data from the Stack Exchange data dump at . Matlab code for running the model and for performing Variance Based Sensitivity Analysis (VBSA) on the results. \r\n\r\nThe ABM included models a community of online communities as well as the users and tasks available in their environment. Users are thought of as foragers, looking for a community at which to contribute. Tasks are generated independently of the state of communities, but are allocated to communities based on their \"success\". Communities are collections of tasks and users that often must collaborate to complete those tasks.",
+    "downloadUrl": "https://www.comses.net/codebases/5727/releases/1.0.0/download/",
+    "dateModified": "2019-01-24",
+    "releaseNotes": "",
+    "copyrightYear": 2019,
+    "datePublished": "2019-01-24",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "MatLab"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "MatLab",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

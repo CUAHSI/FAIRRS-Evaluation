@@ -1,0 +1,82 @@
+{
+    "@id": "https://doi.org/10.25937/a0bh-vs84",
+    "url": "https://doi.org/10.25937/a0bh-vs84",
+    "name": "A Simple Agent-Based Spatial Model of the Economy: Tools for Policy",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-1545-8490",
+            "@type": "Person",
+            "email": "bernardo.furtado@ipea.gov.br",
+            "givenName": "Bernardo",
+            "familyName": "Furtado",
+            "affiliation": {
+                "@id": "https://ror.org/013wyvt46",
+                "url": "http://www.iaw.edu/",
+                "name": "Institute for Applied Economic Research",
+                "@type": "Organization",
+                "identifier": "https://ror.org/013wyvt46"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Isaque Daniel",
+            "familyName": "Eberhardt"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "https://www.jasss.org/19/4/12.html",
+            "@type": "CreativeWork"
+        },
+        {
+            "text": "No",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "municipalities",
+        "public finances",
+        "simple model",
+        "spatial",
+        "taxes"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/a0bh-vs84",
+        "https://doi.org/10.25937/a0bh-vs84"
+    ],
+    "dateCreated": "2022-07-05",
+    "description": "This study simulates the evolution of artificial economies in order to understand the tax relevance of administrative boundaries in the quality of life of its citizens. The modeling involves the construction of a computational algorithm, which includes citizens, bounded into families; firms and governments; all of them interacting in markets for goods, labor and real estate. The real estate market allows families to move to dwellings with higher quality or lower price when the families capitalize property values. The goods market allows consumers to search on a flexible number of firms choosing by price and proximity. The labor market entails a matching process between firms (given its location) and candidates, according to their qualification. The government may be configured into one, four or seven distinct sub-national governments, which are all economically conurbated. The role of government is to collect taxes on the value added of firms in its territory and invest the taxes into higher levels of quality of life for residents. The results suggest that the configuration of administrative boundaries is relevant to the levels of quality of life arising from the reversal of taxes. The model with seven regions is more dynamic, but more unequal and heterogeneous across regions. The simulation with only one region is more homogeneously poor. The study seeks to contribute to a theoretical and methodological framework as well as to describe, operationalize and test computer models of public finance analysis, with explicitly spatial and dynamic emphasis. Several alternatives of expansion of the model for future research are described. Moreover, this study adds to the existing literature in the realm of simple microeconomic computational models, specifying structural relationships between local governments and firms, consumers and dwellings mediated by distance. ",
+    "downloadUrl": "https://www.comses.net/codebases/d3369c47-6c0e-4d77-9a48-bb730fc5b847/releases/1.0.0/download/",
+    "dateModified": "2024-12-05",
+    "releaseNotes": "Model from 2016, published. Newer versions developed under the name PolicySpace2 available here at CoMSES",
+    "copyrightYear": 2022,
+    "datePublished": "2022-07-05",
+    "codeRepository": "https://bitbucket.org/furtadobb/newjasss/src/master/",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Python 3"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python 3",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "DOI: 10.18564/jasss.3071"
+}

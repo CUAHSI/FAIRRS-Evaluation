@@ -1,0 +1,100 @@
+{
+    "@id": "https://www.comses.net/codebases/4042/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4042/releases/1.0.0/",
+    "name": "Soil microbe-predator model with enzymes",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1163/",
+            "@type": "Person",
+            "email": "randall.boone@colostate.edu",
+            "givenName": "Randall",
+            "familyName": "Boone",
+            "affiliation": {
+                "@id": "https://ror.org/03k1gpj17",
+                "url": "http://www.colostate.edu/",
+                "name": "Colorado State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03k1gpj17"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "John",
+            "familyName": "Moore"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Akihiro",
+            "familyName": "Koyama"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "givenName": "Kirstin",
+            "familyName": "Holfelder"
+        },
+        {
+            "@id": "https://www.comses.net/users/1163/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc/4.0",
+        "name": "CC-BY-NC-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based model",
+        "enzymes",
+        "soil food web",
+        "spatial distribution",
+        "trophic structure"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4042/releases/1.0.0/",
+    "dateCreated": "2013-11-21",
+    "description": "We developed agent-based models patterned after the equation-based models developed by Schimel and Weintraub (2003) to explore the influence of microbial-derived extracellular enzymes on carbon (C) dynamics. The models featured spatial arrangements of detritus as either randomly-spaced particles (rain) or as root-like structures (root), detritus input intervals (continuous vs. pulsed) and rates (0-5000 units in 500 unit intervals), trophic structures (presence or absence of predators preying on microbes), and extracellular enzymes with different half-lives (1, 10, 100, and 1000 time steps). We studied how these features affected C dynamics and model persistence (no extinctions). Models without predators were more likely to persist than those with predators, and their C dynamics could be explained with energetics-based arguments. When predators were present, two of the four model configurations \u2013 root-continuous and rain-pulsed \u2013were more likely to persistent. The root-continuous models were more likely to persist at lower detritus input rates (500-3500 units), while the rain-pulsed models were more likely to persist at intermediate detritus input rates (2000-3500 units). For both these model configurations, shorter extracellular enzymes half-lives increased the likelihood of persistence. Consistent with the results of Schimel and Weintraub (2003), C dynamics were governed by extracellular enzyme production activity and loss.  Our results demonstrated that extracellular enzymes control of C dynamics depends on the spatial arrangement of resources, the input rate and input intervals of detritus and trophic structure.",
+    "downloadUrl": "https://www.comses.net/codebases/4042/releases/1.0.0/download/",
+    "dateModified": "2018-02-19",
+    "releaseNotes": "The model described here is the first to be released to the public.",
+    "copyrightYear": 2013,
+    "datePublished": "2013-11-21",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Moore, J.C., R.B. Boone, A. Koyama, and K. Holfeder.  In press.  Enzymatic and detrital influences on the structure, function, and dynamics of spatially-explicit model ecosystems.   Biochemistry"
+}

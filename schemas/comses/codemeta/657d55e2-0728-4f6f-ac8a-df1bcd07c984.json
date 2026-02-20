@@ -1,0 +1,66 @@
+{
+    "@id": "https://www.comses.net/codebases/657d55e2-0728-4f6f-ac8a-df1bcd07c984/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/657d55e2-0728-4f6f-ac8a-df1bcd07c984/releases/1.0.0/",
+    "name": "Traffic and Shipments out of Inter-Firm Communication in a Textile Industrial District",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-4235-6086",
+            "@type": "Person",
+            "email": "guido.fioretti@unibo.it",
+            "givenName": "Guido",
+            "familyName": "Fioretti",
+            "affiliation": {
+                "@id": "https://ror.org/01111rn36",
+                "url": "http://www.unibo.it/en/homepage",
+                "name": "University of Bologna",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01111rn36"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Guido",
+            "familyName": "Fioretti"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "region",
+        "traffic"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/657d55e2-0728-4f6f-ac8a-df1bcd07c984/releases/1.0.0/",
+    "dateCreated": "2019-10-10",
+    "description": "This article presents an agent-based model of an Italian textile district where thousands of small firms specialize in particular phases of fabrics production. It reconstructs the web of communication between firms as they arrange production chains. In turn, production chains result in road traffic between the geographical areas on which the district extends. The reconstructed traffic exhibits a pattern that has been observed, but not foreseen, by policy makers.\n",
+    "downloadUrl": "https://www.comses.net/codebases/657d55e2-0728-4f6f-ac8a-df1bcd07c984/releases/1.0.0/download/",
+    "dateModified": "2020-04-27",
+    "releaseNotes": "This model can be run in two steps, where the second one is not strictly necessary:\n\n1. Taking as input the number of firms that carry out a specialized activity in a production chain, it reconstructs indicators of production;\n2. Taking as input the geographical location of firms + the output of step (1), it reconstructs the flows of wares between geographical areas.\n",
+    "copyrightYear": 2020,
+    "datePublished": "2020-04-27",
+    "embargoEndDate": "2020-04-27",
+    "operatingSystem": "linux",
+    "runtimePlatform": [
+        "Swarm"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Objective-C",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Fioretti G. (2001) Information Structure and Behaviour of a Textile Industrial District. Journal of Artificial Societies and Social Simulation, 4 (4).\n\nFioretti G. (2004) Trajectories in Geographical Space out of Communication in Acquaintance Space: An Agent-Based Model of a Textile Industrial District. Papers in Regional Science, 93 (S1) 2014: S179-S201."
+}

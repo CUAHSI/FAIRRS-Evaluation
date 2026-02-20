@@ -1,0 +1,64 @@
+{
+    "@id": "https://www.comses.net/codebases/4176/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4176/releases/1.0.0/",
+    "name": "Environmental knowledge inhibits hominin dispersal",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-4940-3997",
+            "@type": "Person",
+            "email": "cwren@uccs.edu",
+            "givenName": "Colin",
+            "familyName": "Wren",
+            "affiliation": {
+                "@id": "https://ror.org/054spjc55",
+                "url": "http://www.uccs.edu/",
+                "name": "University of Colorado Colorado Springs",
+                "@type": "Organization",
+                "identifier": "https://ror.org/054spjc55"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-4940-3997",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4176/releases/1.0.0/",
+    "dateCreated": "2017-11-09",
+    "description": "Agent-based model extending an earlier model found here: http://www.openabm.org/model/3846/\r\n\r\nThe models are designed to connect a mechanism of local scale mobility, namely foraging, with the global scale phenomenon of population dispersal. This model adds to the ability of agents to acquire information about their environment, one individual and one social.",
+    "downloadUrl": "https://www.comses.net/codebases/4176/releases/1.0.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "",
+    "copyrightYear": 2017,
+    "datePublished": "2017-11-09",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Wren, C.D., Costopoulos, A., 2015. Does Environmental Knowledge Inhibit Hominin Dispersal? Human Biology 87, 205\u2013223. doi:10.13110/humanbiology.87.3.0205"
+}

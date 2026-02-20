@@ -1,0 +1,63 @@
+{
+    "@id": "https://doi.org/10.25937/v8yx-4g98",
+    "url": "https://doi.org/10.25937/v8yx-4g98",
+    "name": "General Housing Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-9052-7126",
+            "@type": "Person",
+            "email": "jmappleg@asu.edu",
+            "givenName": "J M",
+            "familyName": "Applegate",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.1",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Gilbert, Nigel, John C Hawksworth, and Paul A Swinney. \u201cAn Agent-Based Mo del of the English Housing Market.\u201d AAAI Spring Symposium: Technosocial Predictive Analytics . 2009. 30\u201335",
+            "@type": "CreativeWork"
+        }
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/v8yx-4g98",
+        "https://doi.org/10.25937/v8yx-4g98"
+    ],
+    "dateCreated": "2020-02-25",
+    "description": "The General Housing Model demonstrates a basic housing market with bank lending, renters, owners and landlords. This model was developed as a base to which students contributed additional functions during Arizona State University\u2019s 2020 Winter School: Agent-Based Modeling of Social-Ecological Systems.",
+    "downloadUrl": "https://www.comses.net/codebases/244c1427-497c-45dd-8dc8-bcdb459e614f/releases/1.0.1/download/",
+    "dateModified": "2021-09-10",
+    "releaseNotes": "General Housing Model v1.0\nBase model.",
+    "copyrightYear": 2020,
+    "datePublished": "2020-05-07",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

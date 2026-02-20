@@ -1,0 +1,71 @@
+{
+    "@id": "https://www.comses.net/codebases/4597/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4597/releases/1.0.0/",
+    "name": "CONSERVAT",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-7740-0537",
+            "@type": "Person",
+            "email": "pieter.vanoel@wur.nl",
+            "givenName": "Pieter",
+            "familyName": "Van Oel",
+            "affiliation": {
+                "url": "http://www.wageningenur.nl/en/Expertise-Services/Chair-groups/Environmental-Sciences/Water-Resources-Management.htm",
+                "name": "Wageningen University",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-7740-0537",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Janssen, M. A. (2013). Introduction to Agent-Based Modeling. Tempe, USA: Open ABM.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "Diffusion",
+        "kenya",
+        "lake naivasha",
+        "social influence",
+        "soil conservation"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4597/releases/1.0.0/",
+    "dateCreated": "2015-04-13",
+    "description": "The CONSERVAT model is designed for simulating the process of adoption of a Soil Conservation Effort (SCE) levels, taking into account social influence among smallholders. The approach builds on the CONSUMAT approach (Janssen & Jager 1999). In the CONSERVAT model agents are not interested in consuming goods. Rather they are interested in modifying their soil conservation efforts. The combined effect of the local decisions that aim at local soil conservation, also affects sedimentation rates and water quality in a lake located downstream. Individuals want to satisfy their needs, based on personal preference and social norms. Individuals are uncertain with respect to the difference between expected and actual outcomes of their behavior. These two aspects lead to four possible behaviors: repetition, imitation, inquiring and optimizing. The CONSERVAT approach is adapted from a CONSUMAT version as described in Janssen (2013). Levels of uncertainty (Unc) and need satisfaction (LNS) provoke an agent to decide on the soil conservation effort to perform, according to one out of four alternative possible strategic behaviours. Like in the CONSUMAT models, in our CONSERVAT model personal preferences and characteristics of social networks affect decisions of agents. Consequently,  social-norm effects are incorporated into decision making. The strategy applied by an individual agent depends on an expected Level of Need Satisfaction (LNS) and the Uncertainty (Unc) a person faces with regard to adopting an elevated SCE level. This uncertainty is influenced by the adopted SCE levels of peers. Agents compare their expected LNS and Uncertainty, with a minimum required LNS (LNSmin) and maximum tolerated uncertainty level (Uncmax) and consequently choose one out of four strategies to apply: repetition, deliberation, inquiring and imitation.",
+    "downloadUrl": "https://www.comses.net/codebases/4597/releases/1.0.0/download/",
+    "dateModified": "2018-11-29",
+    "releaseNotes": "",
+    "copyrightYear": 2015,
+    "datePublished": "2015-04-13",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Van Oel, P.R., Mulatu, D.W., Odongo, V.O. et al. Environ Model Assess (2018). https://doi.org/10.1007/s10666-018-9638-y"
+}

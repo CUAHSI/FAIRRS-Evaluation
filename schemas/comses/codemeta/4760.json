@@ -1,0 +1,103 @@
+{
+    "@id": "https://www.comses.net/codebases/4760/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4760/releases/1.0.0/",
+    "name": "The relationship between product information quantity and diversity of consumer decisions",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1490/",
+            "@type": "Person",
+            "email": "takao0514@gmail.com",
+            "givenName": "Takao",
+            "familyName": "Sasaki",
+            "affiliation": {
+                "@id": "https://ror.org/052gg0110",
+                "url": "http://www.ox.ac.uk/",
+                "name": "University of Oxford",
+                "@type": "Organization",
+                "identifier": "https://ror.org/052gg0110"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Person",
+            "email": "marco.janssen@asu.edu",
+            "givenName": "Marco",
+            "familyName": "Janssen",
+            "affiliation": {
+                "url": "https://schoolofsustainability.asu.edu/",
+                "name": "School of Sustainability",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "David",
+            "familyName": "Becker"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "givenName": "Rebecca",
+            "familyName": "Neel"
+        },
+        {
+            "@id": "https://www.comses.net/users/1490/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "collective decision making",
+        "consumer behaviour"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4760/releases/1.0.0/",
+    "dateCreated": "2015-10-27",
+    "description": "We generated populations of consumer agents, each with a specific cognitive capacity for processing information. An agent\u2019s probability of picking the best option declined once product information content exceeded its cognitive capacity. If the agent had access to popularity information, it could compensate for this cognitive overload by using a social learning strategy. We used the model to determine how behavioral clustering and decision performance varied with the amount of product information and with the agents\u2019 access to popularity information.",
+    "downloadUrl": "https://www.comses.net/codebases/4760/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2015,
+    "datePublished": "2015-10-27",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Sasaki, T., Becker, DV. Janssen, M. & Neel, R. (2011). Does greater product information actually inform consumer decisions? The relationship between product information quantity and diversity of consumer decisions. Journal of Economic Psychology 32, 391-398."
+}

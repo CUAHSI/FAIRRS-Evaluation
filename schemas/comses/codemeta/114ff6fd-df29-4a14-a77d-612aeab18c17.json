@@ -1,0 +1,58 @@
+{
+    "@id": "https://www.comses.net/codebases/114ff6fd-df29-4a14-a77d-612aeab18c17/releases/1.2.0/",
+    "url": "https://www.comses.net/codebases/114ff6fd-df29-4a14-a77d-612aeab18c17/releases/1.2.0/",
+    "name": "Spatial rangeland model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Person",
+            "email": "marco.janssen@asu.edu",
+            "givenName": "Marco",
+            "familyName": "Janssen",
+            "affiliation": {
+                "url": "https://schoolofsustainability.asu.edu/",
+                "name": "School of Sustainability",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "fire",
+        "livestock",
+        "rangeland",
+        "resilience"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/114ff6fd-df29-4a14-a77d-612aeab18c17/releases/1.2.0/",
+    "dateCreated": "2019-01-22",
+    "description": "Spatial explicit model of a rangeland system, based on Australian conditions, where grass, woody shrubs and fire compete fore resources. Overgrazing can cause the system to flip from a healthy state to an unproductive shrub state. With the model one can explore the consequences of different movement rules of the livestock on the resilience of the system.\n\nThe model is discussed in Introduction to Agent-Based Modeling by Marco Janssen. For more information see https://intro2abm.com/.",
+    "downloadUrl": "https://www.comses.net/codebases/114ff6fd-df29-4a14-a77d-612aeab18c17/releases/1.2.0/download/",
+    "dateModified": "2022-03-04",
+    "releaseNotes": "Replication of model that was originally implemented in Cormas. Related publication:\nJanssen, M.A., J.M. Anderies, M. Stafford Smith and B.H. Walker (2002) Implications of spatial heterogeneity of grazing pressure on the resilience of rangelands, in Janssen, M.A. (ed.) Complexity and Ecosystem Management: The Theory and Practice of Multi-agent Systems, Edward Elgar Publishers, Cheltenham UK/ Northampton, MA, USA. Pp 103-124.",
+    "copyrightYear": 2022,
+    "datePublished": "2022-03-04",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo 6.2.0"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

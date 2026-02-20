@@ -1,0 +1,117 @@
+{
+    "@id": "https://www.comses.net/codebases/4724/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/4724/releases/1.1.0/",
+    "name": "SimDrink: An agent-based NetLogo model of young, heavy drinkers for conducting alcohol policy experiments",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1600/",
+            "@type": "Person",
+            "email": "nick.scott@burnet.edu.au",
+            "givenName": "Nick",
+            "familyName": "Scott"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Michael",
+            "familyName": "Livingston"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Aaron",
+            "familyName": "Hart"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "givenName": "James",
+            "familyName": "Wilson"
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Person",
+            "givenName": "David",
+            "familyName": "Moore"
+        },
+        {
+            "@id": "_:author_6",
+            "@type": "Person",
+            "givenName": "Paul",
+            "familyName": "Dietze"
+        },
+        {
+            "@id": "https://www.comses.net/users/1600/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_6",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based model",
+        "alcohol",
+        "heavy drinking",
+        "NetLogo",
+        "night-time economy",
+        "policy experimentation",
+        "simdrink"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4724/releases/1.1.0/",
+    "dateCreated": "2015-10-15",
+    "description": "Aggression and other acute harms experienced in the night-time economy are topics of significant public health concern. Although policies to minimise these harms are frequently proposed, there is often little evidence available to support their effectiveness. In particular, indirect and displacement effects are rarely measured. This paper describes a proof-of-concept agent-based model \u2018SimDrink\u2019, built in NetLogo, which simulates a population of 18-25 year old heavy alcohol drinkers on a night out in Melbourne to provide a means for conducting policy experiments to inform policy decisions.\r\n\r\nThe model includes demographic, setting and situational-behavioural heterogeneity and is able to capture any unintended consequences of policy changes. It consists of individuals and their friendship groups moving between private, public-commercial (e.g. nightclub) and public-niche (e.g. bar, pub) venues while tracking their alcohol consumption, spending and whether or not they experience consumption-related harms (i.e. drink too much), are involved in verbal violence, or have difficulty getting home. \r\n\r\nWhen compared to available literature, the model can reproduce current estimates for the prevalence of verbal violence experienced by this population on a single night out, and produce realistic values for the prevalence of consumption-related and transport-related harms. Outputs are robust to variations in underlying parameters. \r\n\r\nFurther, because the model is able to compare the indirect effects of policy changes such as the displacement of individuals or venue substitution, it is a particularly attractive tool for modelling policy decisions and identifying the drivers behind overall statistics.",
+    "downloadUrl": "https://www.comses.net/codebases/4724/releases/1.1.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "Version 1.0",
+    "copyrightYear": 2015,
+    "datePublished": "2015-10-15",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Scott N., Livingston M., Hart A., Wilson J., Moore D., Dietze P. (2015) SimDrink: An agent-based NetLogo model of young, heavy drinkers for conducting alcohol policy experiments. Journal of Artificial Societies and Social Simulation"
+}

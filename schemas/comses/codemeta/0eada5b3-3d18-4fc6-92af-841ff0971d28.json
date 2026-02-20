@@ -1,0 +1,93 @@
+{
+    "@id": "https://www.comses.net/codebases/0eada5b3-3d18-4fc6-92af-841ff0971d28/releases/3.0.0/",
+    "url": "https://www.comses.net/codebases/0eada5b3-3d18-4fc6-92af-841ff0971d28/releases/3.0.0/",
+    "name": "Wolf-sheep predation Netlogo model, extended, with foresight",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-4235-6086",
+            "@type": "Person",
+            "email": "guido.fioretti@unibo.it",
+            "givenName": "Guido",
+            "familyName": "Fioretti",
+            "affiliation": {
+                "@id": "https://ror.org/01111rn36",
+                "url": "http://www.unibo.it/en/homepage",
+                "name": "University of Bologna",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01111rn36"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/2974/",
+            "@type": "Person",
+            "email": "andrea.policarpi@gmail.com",
+            "givenName": "Andrea",
+            "familyName": "Policarpi"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-4235-6086",
+            "@type": "Role",
+            "roleName": "publisher"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-4235-6086",
+            "@type": "Role",
+            "roleName": "editor"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-4235-6086",
+            "@type": "Role",
+            "roleName": "maintainer"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-4235-6086",
+            "@type": "Role",
+            "roleName": "copyrightHolder"
+        },
+        {
+            "@id": "https://www.comses.net/users/2974/",
+            "@type": "Role",
+            "roleName": "publisher"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "3.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "This model is an extension of Wilensky's previous model:\nWilensky, U. (1997). NetLogo Wolf Sheep Predation model. http://ccl.northwestern.edu/netlogo/models/WolfSheepPredation. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/0eada5b3-3d18-4fc6-92af-841ff0971d28/releases/3.0.0/",
+    "dateCreated": "2020-09-16",
+    "description": "This model is an extension of the Netlogo Wolf-sheep predation model by U.Wilensky (1997). This extended model studies several different behavioural mechanisms that wolves and sheep could adopt in order to enhance their survivability, and their overall impact on global equilibrium of the system.",
+    "downloadUrl": "https://www.comses.net/codebases/0eada5b3-3d18-4fc6-92af-841ff0971d28/releases/3.0.0/download/",
+    "dateModified": "2025-12-04",
+    "releaseNotes": "Version 3.0.0",
+    "copyrightYear": 2021,
+    "datePublished": "2021-04-13",
+    "embargoEndDate": "2020-09-16",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

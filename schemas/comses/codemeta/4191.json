@@ -1,0 +1,100 @@
+{
+    "@id": "https://www.comses.net/codebases/4191/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4191/releases/1.0.0/",
+    "name": "\u201cFood for all\u201d (FFD)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-6653-043X",
+            "@type": "Person",
+            "email": "jismartin@gmail.com",
+            "givenName": "Jos\u00e9",
+            "familyName": "Santos",
+            "affiliation": {
+                "@id": "https://ror.org/049da5t36",
+                "url": "https://www.ubu.es/english-version",
+                "name": "University of Burgos (Spain)",
+                "@type": "Organization",
+                "identifier": "https://ror.org/049da5t36"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Jos\u00e9",
+            "familyName": "Gal\u00e1n"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-9946-8142",
+            "@type": "Person",
+            "email": "andros.spica@gmail.com",
+            "givenName": "Andreas",
+            "familyName": "Angourakis",
+            "affiliation": {
+                "@id": "https://ror.org/04tsk2644",
+                "url": "http://www.ruhr-uni-bochum.de/index_en.htm",
+                "name": "Institute of Archaeological Studies, Ruhr-Universit\u00e4t Bochum",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04tsk2644"
+            }
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "givenName": "Andrea",
+            "familyName": "Balbo"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-6653-043X",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-9946-8142",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4191/releases/1.0.0/",
+    "dateCreated": "2014-04-25",
+    "description": "\u201cFood for all\u201d (FFD) is an agent-based model designed to study the evolution of cooperation for food storage. Households face the social dilemma of whether to store food in a corporate stock or to keep it in a private stock. The model is a stylized abstraction of the main factors that we consider to drive the evolution of cooperation in storage:\r\n\r\n*   The efficiency of common and private storage\r\n\r\n*   The underlying learning process through which a successful strategy is reinforced from one generation to the next (modelled as the change in the probability to cooperate) \r\n\r\n*   A social norm controlling access to corporate storage (modelled as the degree of intolerance towards defective behaviour)\r\n\r\n*   The probability of having enough food to satisfy household needs, based on procurement alone (i.e., without considering storage)",
+    "downloadUrl": "https://www.comses.net/codebases/4191/releases/1.0.0/download/",
+    "dateModified": "2019-04-08",
+    "releaseNotes": "",
+    "copyrightYear": 2019,
+    "datePublished": "2019-04-08",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

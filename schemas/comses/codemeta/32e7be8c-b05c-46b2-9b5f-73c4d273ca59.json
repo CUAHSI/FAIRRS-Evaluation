@@ -1,0 +1,160 @@
+{
+    "@id": "https://www.comses.net/codebases/32e7be8c-b05c-46b2-9b5f-73c4d273ca59/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/32e7be8c-b05c-46b2-9b5f-73c4d273ca59/releases/1.1.0/",
+    "name": "3D Urban Traffic Simulator (ABM) in Unity",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2725/",
+            "@type": "Person",
+            "email": "solmez@turing.ac.uk",
+            "givenName": "Sedar",
+            "familyName": "Olmez",
+            "affiliation": {
+                "@id": "https://ror.org/035dkdb55",
+                "url": "https://www.turing.ac.uk",
+                "name": "The Alan Turing Institute",
+                "@type": "Organization",
+                "identifier": "https://ror.org/035dkdb55"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "obi.sargoni.18@ucl.ac.uk",
+            "givenName": "Obi",
+            "familyName": "Sargoni",
+            "affiliation": {
+                "@id": "https://ror.org/001mm6w73",
+                "url": "https://www.mrcctu.ucl.ac.uk",
+                "name": "MRC Clinical Trials Unit at UCL",
+                "@type": "Organization",
+                "identifier": "https://ror.org/001mm6w73"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "A.J.Heppenstall@leeds.ac.uk",
+            "givenName": "Alison",
+            "familyName": "Heppenstall",
+            "affiliation": {
+                "@id": "https://ror.org/024mrxd33",
+                "url": "http://www.leeds.ac.uk/",
+                "name": "University of Leeds",
+                "@type": "Organization",
+                "identifier": "https://ror.org/024mrxd33"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1797/",
+            "@type": "Person",
+            "email": "d.birks@griffith.edu.au",
+            "givenName": "Daniel",
+            "familyName": "Birks",
+            "affiliation": {
+                "@id": "https://ror.org/02sc3r913",
+                "url": "http://www.griffith.edu.au/",
+                "name": "Griffith University ",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02sc3r913"
+            }
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Person",
+            "email": "gy14aw@leeds.ac.uk",
+            "givenName": "Annabel",
+            "familyName": "Whipp",
+            "affiliation": {
+                "@id": "https://ror.org/024mrxd33",
+                "url": "http://www.leeds.ac.uk/",
+                "name": "University of Leeds",
+                "@type": "Organization",
+                "identifier": "https://ror.org/024mrxd33"
+            }
+        },
+        {
+            "@id": "_:author_6",
+            "@type": "Person",
+            "email": "E.J.Manley@leeds.ac.uk",
+            "givenName": "Ed",
+            "familyName": "Manley",
+            "affiliation": {
+                "@id": "https://ror.org/001mm6w73",
+                "url": "https://www.mrcctu.ucl.ac.uk",
+                "name": "MRC Clinical Trials Unit at UCL",
+                "@type": "Organization",
+                "identifier": "https://ror.org/001mm6w73"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "https://www.comses.net/users/1797/",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_6",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent based modeling and simulation",
+        "Autonomous Vehicles",
+        "C#",
+        "multiagent traffic simulation",
+        "Traffic Simulation",
+        "Unity",
+        "Urban Environment"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/32e7be8c-b05c-46b2-9b5f-73c4d273ca59/releases/1.1.0/",
+    "dateCreated": "2021-01-15",
+    "description": "The Urban Traffic Simulator is an agent-based model developed in the Unity platform. The model allows the user to simulate several autonomous vehicles (AVs) and tune granular parameters such as vehicle downforce, adherence to speed limits, top speed in mph and mass. The model allows researchers to tune these parameters, run the simulator for a given period and export data from the model for analysis (an example is provided in Jupyter Notebook). \n\n\nThe data the model is currently able to output are the following:\n\n\n- AgentID: the unique agent identifier.\t\n- xAxisPos: the x-axis position of the agent.\n- zAxisPos: the y axis position of the agent.\n- collisions: the total number of times a vehicle has collided with another.\n- topSpeed(mph): the top speed the vehicle is set to achieve throughout its drive cycle.\n- currentSpeed(mph): the current speed of the vehicle in mph.\n- distanceOfTravel(meters): the distance the vehicle has travelled over its drive cycle.\n- raycastLength: the length at which the vehicle can identify objects, 1 - very short to 10 high vision distance.\n- tractionControl: traction control initiated; some vehicles will have traction control others will not; this is entirely arbitrary.\n- VelocityMagnitude(BETA): the magnitude of the velocity for the vehicle.\n- VehicleMass: the vehicle weight in kg.\n- Downforce: the force applied to the vehicle to create more grip, 0.1 - small force to 10.0 - more force.\n- date-time: date and timestamps for each data point collected, currently its milliseconds and multiple actions by the raw physics engine can occur throughout the simulation. Therefore, large amounts of data points are collected for each run in short amounts of time.\n\n\nNOTE! The simulation requires an adequate computer to run; as the number of agents increases, the computational complexity gets severe.",
+    "downloadUrl": "https://www.comses.net/codebases/32e7be8c-b05c-46b2-9b5f-73c4d273ca59/releases/1.1.0/download/",
+    "dateModified": "2021-04-23",
+    "releaseNotes": "\n[![Open Code Badge](https://www.comses.net/static/images/icons/open-code-badge.png)](https://www.comses.net/codebases/32e7be8c-b05c-46b2-9b5f-73c4d273ca59/releases/1.0.0/)\n\nThe Urban Traffic Simulator was developed in Unity 2019.3.03. The core model only requires Unity version 2019.3.03+ and the source code in the Assets folder to deploy. Unity can be downloaded here: https://unity3d.com/get-unity/download. \n\nThe following features are available:\n- The simulator can run 1 to 500 autonomous vehicles in 3D space that applies physics laws.\n- A menu UI is present, which allows the parameters to be tuned; these include the number of vehicles, maximum mass, maximum downforce, traction control.\n- The output data is exported to a directory provided by the user post model run. These data include the current speed of vehicles in mph, velocity magnitude, top speed in mph, and distance travelled in meters.\n- A Jupyter Notebook is provided, which runs some data analysis on data produced by the model for two example scenarios. \n- N number of vehicles can be set NOT to adhere to speed limits. This allows the user to compare scenarios where vehicles may drive faster than other vehicles. The subsequent impact of these vehicles can be observed regarding congestion, energy expenditure, and pollution. Congestion will likely occur in the Urban Street Network if most vehicles do NOT adhere to speed limits as vehicles can collide at intersections, preventing other vehicles from continuing their journey.",
+    "copyrightYear": 2021,
+    "datePublished": "2021-03-22",
+    "embargoEndDate": "2021-02-01",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Unity"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "C#",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Olmez, S.; Douglas-Mann, L.; Manley, E.; Suchak, K.; Heppenstall, A.; Birks, D.; Whipp, A. Exploring the Impact of Driver Adherence to Speed Limits and the Interdependence of Roadside Collisions in an Urban Environment: An Agent-Based Modelling Approach. Appl. Sci. 2021, 11, 5336. https://doi.org/10.3390/app11125336\n\nSedar  Olmez  and  Alison  Heppenstall.    Drive  Cycle  Data  from  the  3D  Urban  Traffic  Simulator  (ABM)  in  Unity  (version  1.1.0).11  2021.doi:10.6084/m9.figshare.17099858.v1.  URL https://figshare.com/articles/dataset/Drive_Cycle_Data_from_the_3D_Urban_Traffic_Simulator_ABM_in_Unity_version_1_1_0_/17099858.\n\nSedar Olmez, Keiran Suchak (2022) Energy Calculation Extension for the article: An Agent-Based Simulation of Heterogeneous Driver Behaviour and its Impact on Electric Energy Consumption in Urban Space. [Source Code]. https://doi.org/10.24433/CO.1407289.v1\n\nOlmez, Sedar, Whipp, Annabel, Marfleet, Ellie, Thompson, Jason, Suchak, Keiran, Heppenstall, Alison, & Vidanaarachchi, Rajith. (2022, April 2). Towards Modelling Energy Demand of Vehicles in Cities: An Agent-Based Method. 30th Annual Geographical Information Science Research UK (GISRUK), Liverpool, United Kingdom. https://doi.org/10.5281/zenodo.6408394\n\nOlmez, S.; Thompson, J.; Marfleet, E.; Suchak, K.; Heppenstall, A.; Manley, E.; Whipp, A.; Vidanaarachchi, R. An Agent-Based Model of Heterogeneous Driver Behaviour and Its Impact on Energy Consumption and Costs in Urban Space. Energies 2022, 15, 4031. https://doi.org/10.3390/en15114031"
+}

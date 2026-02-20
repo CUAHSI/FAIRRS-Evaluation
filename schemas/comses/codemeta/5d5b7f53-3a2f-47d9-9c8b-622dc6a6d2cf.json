@@ -1,0 +1,82 @@
+{
+    "@id": "https://www.comses.net/codebases/5d5b7f53-3a2f-47d9-9c8b-622dc6a6d2cf/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5d5b7f53-3a2f-47d9-9c8b-622dc6a6d2cf/releases/1.0.0/",
+    "name": "Social and Childcare Provision in Kinship Networks",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-0147-6118",
+            "@type": "Person",
+            "email": "thorsilver@gmail.com",
+            "givenName": "Eric",
+            "familyName": "Silverman",
+            "affiliation": {
+                "@id": "https://ror.org/00vtgdb53",
+                "url": "http://www.gla.ac.uk/",
+                "name": "University of Glasgow",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00vtgdb53"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/580/",
+            "@type": "Person",
+            "email": "u.gostoli@gmail.com",
+            "givenName": "Umberto",
+            "familyName": "Gostoli",
+            "affiliation": {
+                "@id": "https://ror.org/00vtgdb53",
+                "url": "http://www.gla.ac.uk/",
+                "name": "University of Glasgow",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00vtgdb53"
+            }
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Gostoli U, Silverman E (2020) Social and child care provision in kinship networks: An agent-based model. PLoS ONE 15(12): e0242779. https://doi.org/10.1371/journal.pone.0242779\n\nGostoli U, Silverman E. Modelling Social Care Provision in An Agent-Based Framework with Kinship Networks. R. Soc. Open Sci. 2019; 6(7). pmid:31417710",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "agent based model (abm)",
+        "Child Care",
+        "PHASE",
+        "social care"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5d5b7f53-3a2f-47d9-9c8b-622dc6a6d2cf/releases/1.0.0/",
+    "dateCreated": "2021-10-21",
+    "description": "This model simulations social and childcare provision in the UK.  Agents within simulated households can decide to provide for informal care, or pay for private care, for their loved ones after they have provided for childcare needs. Agents base these decisions on factors including their own health, employment status, financial resources, relationship to the individual in need and geographical location.  This model extends our previous simulations of social care by simulating the impact of childcare demand on social care availability within households, which is known to be a significant constraint on informal care provision.  \n\nResults show that our model replicates realistic patterns of social and child care provision, suggesting that this framework can be a valuable aid to policy-making in this area.",
+    "downloadUrl": "https://www.comses.net/codebases/5d5b7f53-3a2f-47d9-9c8b-622dc6a6d2cf/releases/1.0.0/download/",
+    "dateModified": "2021-10-21",
+    "releaseNotes": "The main.py file contains the model's parameters (with the possibility to run the model on multiple threads). In line 635, the boolean variable 'parametersFromFiles' is set: if False, the values of the parameters will be those indicated in main.py; if True, the values of the parameters are read from the two csv files 'metaParameters' and 'defaultParameters'.\n\nThe main.py file also reads (if 'parametersFromFiles' is set to True) the two csv files 'policyParameters' and 'sensitivityParameters'. In these files, the columns after the first one contain the name and the values of the parameters we wish to change when simulating different policies or to perform the sensitivity analysis, respectively. The first column contains the 'combinationKey' parameter, which specifies the way the parameters' values will be combined. If 'combinationKey' is set to 1, each row of parameters will be read sequentially; if it is set to 2, the values will be read one at a time (while the others will keep their default value); if it is set to 3, a simulation for each parameters' combination will be run (while if 'combinationKey' is set to 0, no policy or sensitivity run takes place).\n\nThe second-to-last column of the 'metaParameters' file contains the 'multiprocessing' boolean parameter: if it is set to True, multiple simulations can be run simultaneously, specifying in the last column the number of processors.\n\nThe version of Python used is Python 2.7.14 and the following packages are needed: numpy 1.14.0, pandas 0.22.0 and networkx 2.1\n\nTo run the model, in the Anaconda prompt go to the folder where the files have been downloaded, digit 'python main.py' and press Enter.\n\nWhen starting the simulation, a folder called 'Simulations_Folder' will be automatically created in the same folder of the files. Here the simulation's results are saved (in the Outputs.csv file).",
+    "copyrightYear": 2021,
+    "datePublished": "2021-10-21",
+    "codeRepository": "https://github.com/UmbertoGostoli/Social-and-Child-Care-Model-PLoS",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "n/a"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "https://doi.org/10.1371/journal.pone.0242779"
+}

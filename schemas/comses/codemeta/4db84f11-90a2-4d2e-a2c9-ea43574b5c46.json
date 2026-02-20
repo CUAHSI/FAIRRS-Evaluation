@@ -1,0 +1,74 @@
+{
+    "@id": "https://www.comses.net/codebases/4db84f11-90a2-4d2e-a2c9-ea43574b5c46/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/4db84f11-90a2-4d2e-a2c9-ea43574b5c46/releases/1.1.0/",
+    "name": "Model of Rental Evictions in Phoenix During the Covid-19 Pandemic",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-9576-7914",
+            "@type": "Person",
+            "email": "sean.bergin@asu.edu",
+            "givenName": "Sean",
+            "familyName": "Bergin",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "School of Complex Adaptive Systems, Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-9052-7126",
+            "@type": "Person",
+            "email": "jmappleg@asu.edu",
+            "givenName": "J M",
+            "familyName": "Applegate",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "COVID-19",
+        "Eviction",
+        "Phoenix",
+        "Rental"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4db84f11-90a2-4d2e-a2c9-ea43574b5c46/releases/1.1.0/",
+    "dateCreated": "2021-07-30",
+    "description": "The purpose of this model is to explore the dynamics of residency and eviction for households renting in the greater Phoenix (Arizona) metropolitan area. The model uses a representative population of renters modified from American Community Survey (ACS) data that includes demographic, housing and economic information. Each month, households pay their subsistence, rental and utility bills. If a household is unable to pay their monthly rent or utility bill they apply for financial assistance. This model provides a platform to understand the impact of various economic shock upon households. Also, the model includes conditions that occurred as a result of the Covid-19 pandemic which allows for the study of eviction mitigation strategies that were employed, such as the eviction moratorium and stimulus payments. The model allows us to make preliminary predictions concerning the number of households that may be evicted once the moratorium on evictions ends and the long-term effects on the number of evicted households in the greater Phoenix area going forward. \n",
+    "downloadUrl": "https://www.comses.net/codebases/4db84f11-90a2-4d2e-a2c9-ea43574b5c46/releases/1.1.0/download/",
+    "dateModified": "2021-10-15",
+    "releaseNotes": "This is an agent-based model written in Netlogo used as a platform to run computational experiments concerning the eviction of renters in the Phoenix area due in part to the Covid-19 pandemic. To use the simulation one must select the Setup button which will load a map of the Phoenix region and load a representational population of renter households. Then the GO button progresses the simulation on a monthly schedule all the while recording the number of evicted households per month.",
+    "copyrightYear": 2021,
+    "datePublished": "2021-10-15",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

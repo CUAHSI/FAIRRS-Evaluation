@@ -1,0 +1,61 @@
+{
+    "@id": "https://www.comses.net/codebases/f59677e2-392b-4c12-9beb-036323ffce85/releases/1.4.0/",
+    "url": "https://www.comses.net/codebases/f59677e2-392b-4c12-9beb-036323ffce85/releases/1.4.0/",
+    "name": "06 EiLab V1.40 \u2013 Entropic Index Laboratory",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1014/",
+            "@type": "Person",
+            "email": "orrery@rogers.com",
+            "givenName": "Garvin",
+            "familyName": "Boyle",
+            "affiliation": {
+                "url": "http://modeco-software.webs.com",
+                "name": "Retired High School Teacher",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.4.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "biophysical economics",
+        "Capital Exchange Models",
+        "ecological economic modeling",
+        "entropy for abms",
+        "Kinetic Wealth Exchange Models (KWEMs)"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/f59677e2-392b-4c12-9beb-036323ffce85/releases/1.4.0/",
+    "dateCreated": "2018-03-19",
+    "description": "There is a new type of economic model called a capital exchange model, in which the biophysical economy is abstracted away, and the interaction of units of money is studied. Benatti, Dr\u0103gulescu and Yakovenko described at least eight capital exchange models \u2013 now referred to collectively as the BDY models \u2013 which are replicated as models A through H in EiLab. In recent writings, Yakovenko goes on to show that the entropy of these monetarily isolated systems rises to a maximal possible value as the model approaches steady state, and remains there, in analogy of the 2nd law of thermodynamics. EiLab demonstrates this behaviour. However, it must be noted that we are NOT talking about thermodynamic entropy. Heat is not being modeled \u2013 only simple exchanges of cash. But the same statistical formulae apply.\n\nIn three unpublished papers  and a collection of diary notes and conference presentations (all available with this model), the concept of \u201centropic index\u201d is defined for use in agent-based models (ABMs), with a particular interest in sustainable economics. Models I and J of EiLab are variations of the BDY model especially designed to study the Maximum Entropy Principle (MEP \u2013 model I) and the Maximum Entropy Production Principle (MEPP \u2013 model J) in ABMs. Both the MEPP and H.T. Odum\u2019s Maximum Power Principle (MPP) have been proposed as organizing principles for complex adaptive systems. The MEPP and the MPP are two sides of the same coin, and an understanding of their implications is key, I believe, to understanding economic sustainability. Both of these proposed (and not widely accepted) principles describe the role of entropy in non-isolated systems in which complexity is generated and flourishes, such as ecosystems, and economies.\n\nEiLab is one of several models exploring the dynamics of sustainable economics \u2013 PSoup, ModEco, EiLab, OamLab, MppLab, TpLab, and CmLab.",
+    "downloadUrl": "https://www.comses.net/codebases/f59677e2-392b-4c12-9beb-036323ffce85/releases/1.4.0/download/",
+    "dateModified": "2019-09-29",
+    "releaseNotes": "Models A through H are complete replications of BDY models as published. Model I (complete) is designed for study of an analogy of the 2nd law of thermodynamics. Model J (incomplete) is designed for study of an analogy of the proposed 4th law of thermodynamics, commonly referred to as either the MEPP, or MPP. Study of the MPP has proceeded with other models in the series, but I intend to return to model J to explore improvements in its design, and the insights it can provide.\n\nThis is still a work in progress. There are lots of options for data export to MS Excel in CSV format. It is a bench tool, and not meant for careless use. Any help available is in the IWiz panels, or MLRSN panels (MLRSN means Main-Left-Right-Status-Notes), or the included documentation. Read those carefully.\n\nBUT, the software will fail if you ask it to do some things. Not all components of a windows application have been added or tested. Do not save the results of any run. Do not use the help features of a standard windows application (e.g. the F1 key).\n\nIf it crashes for any reason, the author would appreciate a brief note explaining the nature of the crash.  garvin.boyle@rogers.com",
+    "copyrightYear": 2018,
+    "datePublished": "2018-03-19",
+    "embargoEndDate": "2018-03-22",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "C++",
+        "visual studio 2010"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "C++",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

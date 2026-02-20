@@ -1,0 +1,63 @@
+{
+    "@id": "https://www.comses.net/codebases/bc520ab5-c89e-4be0-b75d-4ef26d83166b/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/bc520ab5-c89e-4be0-b75d-4ef26d83166b/releases/1.0.0/",
+    "name": "Co-evolution of mental models among socially learning agents",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-2422-1110",
+            "@type": "Person",
+            "email": "gsotnik@gmail.com",
+            "givenName": "Garry",
+            "familyName": "Sotnik",
+            "affiliation": {
+                "@id": "https://ror.org/00f54p054",
+                "url": "http://www.stanford.edu/",
+                "name": "Stanford University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00f54p054"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.html",
+        "name": "Apache-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "cognitive architecture",
+        "collective action",
+        "multi-agent model",
+        "multi-layered social network",
+        "social learning",
+        "SOSIEL"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/bc520ab5-c89e-4be0-b75d-4ef26d83166b/releases/1.0.0/",
+    "dateCreated": "2018-09-14",
+    "description": "The model simulates seven agents engaging in collective action and inter-network social learning. The objective of the model is to demonstrate how mental models of agents can co-evolve through a complex relationship among factors influencing decision-making, such as access to knowledge and personal- and group-level constraints.",
+    "downloadUrl": "https://www.comses.net/codebases/bc520ab5-c89e-4be0-b75d-4ef26d83166b/releases/1.0.0/download/",
+    "dateModified": "2018-10-18",
+    "releaseNotes": "The SOSIEL Platfrom comes parameterized with the model as an example. The SOSIEL Platfrom and supporting documents can be downloaded from: https://www.sosiel.org/the-sosiel-toolkit/the-sosiel-platform . The model can be downloaded in built form from: https://www.sosiel.org/the-sosiel-toolkit/the-sosiel-platform/sosiel-model-examples . ",
+    "copyrightYear": 2018,
+    "datePublished": "2018-10-14",
+    "codeRepository": "https://github.com/SOSIEL/The-SOSIEL-Platform.git",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "SOSIEL"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "C#",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

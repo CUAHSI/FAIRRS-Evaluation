@@ -1,0 +1,81 @@
+{
+    "@id": "https://www.comses.net/codebases/ff110f9e-cb44-4393-9461-bdcb0cbb9f6b/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/ff110f9e-cb44-4393-9461-bdcb0cbb9f6b/releases/1.0.0/",
+    "name": "Perspectives on the Information-Based Economy",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-6784-2531",
+            "@type": "Person",
+            "email": "jana.zausinova@tuke.sk",
+            "givenName": "Jana",
+            "familyName": "Zausinova"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "marcel.volosin@tuke.sk",
+            "givenName": "Marcel",
+            "familyName": "Volosin",
+            "affiliation": {
+                "@id": "https://ror.org/05xm08015",
+                "url": "https://www.tuke.sk/tuke/university",
+                "name": "Technical University of Ko\u0161ice",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05xm08015"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "vladimir.gazda@tuke.sk",
+            "givenName": "Vladimir",
+            "familyName": "Gazda",
+            "affiliation": {
+                "@id": "https://ror.org/05xm08015",
+                "url": "https://www.tuke.sk/tuke/university",
+                "name": "Technical University of Ko\u0161ice",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05xm08015"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "Agent based modelling",
+        "Information-based economics",
+        "Information transfers",
+        "Simulated Evolution"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/ff110f9e-cb44-4393-9461-bdcb0cbb9f6b/releases/1.0.0/",
+    "dateCreated": "2022-10-23",
+    "description": "This is the agent-based model of information market evolution. It simulates the influences of the transition from material to electronic carriers of information, which is modelled by the falling price of variable production factor. It demonstrates that due to zero marginal production costs, the competition increases, the market becomes unstable, and experience various phases of evolution leading to market monopolization.",
+    "downloadUrl": "https://www.comses.net/codebases/ff110f9e-cb44-4393-9461-bdcb0cbb9f6b/releases/1.0.0/download/",
+    "dateModified": "2022-10-24",
+    "releaseNotes": "The model was constructed and simulations were run on NetLogo version 6.2.2.\nNewer versions of NetLogo may also work, however they were not tested.\nThe model may be run directly within the NetLogo or custom scripts written in different languages may be used to run headless NetLogo model.\nFor more reproducible results, we recommend running simulations by R script using the package RNetLogo.",
+    "copyrightYear": 2022,
+    "datePublished": "2022-10-24",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo 6.2.2"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo 6.2.2",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

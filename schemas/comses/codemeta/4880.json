@@ -1,0 +1,71 @@
+{
+    "@id": "https://www.comses.net/codebases/4880/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/4880/releases/1.1.0/",
+    "name": "Musical Chairs",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-9946-8142",
+            "@type": "Person",
+            "email": "andros.spica@gmail.com",
+            "givenName": "Andreas",
+            "familyName": "Angourakis",
+            "affiliation": {
+                "@id": "https://ror.org/04tsk2644",
+                "url": "http://www.ruhr-uni-bochum.de/index_en.htm",
+                "name": "Institute of Archaeological Studies, Ruhr-Universit\u00e4t Bochum",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04tsk2644"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-9946-8142",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agriculture",
+        "archaeology",
+        "aridenvironment",
+        "competition",
+        "competitive dynamics",
+        "eurasia",
+        "land use",
+        "land use change",
+        "pastoral systems"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4880/releases/1.1.0/",
+    "dateCreated": "2016-03-11",
+    "description": "This Agent-Based model intends to explore the conditions for the emergence and change of land use patterns in Central Asian oases and similar contexts. Land use pattern is conceptualized as the proportion between the area used for mobile livestock breeding (herding) and sedentary agriculture (farming). We assume that these two forms of land use interact in recurrent competitive situations, given that the land useful for both activities at the same time is limited and there is a pressure to increase them, due to demographic and/or economic growth.\r\nImplementation and simulation of the Musical Chairs model were done using Netlogo.",
+    "downloadUrl": "https://www.comses.net/codebases/4880/releases/1.1.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "The model code was revisited since its publication and several implementation details were modified. However, there is no issue respect to former results.",
+    "copyrightYear": 2016,
+    "datePublished": "2016-03-11",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Angourakis, A., Rondelli, B., Stride, S., Rubio-Campillo, X., Balbo, A.L., Torrano, A., Martinez, V., Madella, M., Gurt, J.M., 2014. Land Use Patterns in Central Asia. Step 1: The Musical Chairs Model. J. Archaeol. Method Theory 21, 405\u2013425. doi:10.1007/s10816-013-9197-0"
+}

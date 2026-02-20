@@ -1,0 +1,48 @@
+{
+    "@id": "https://www.comses.net/codebases/8d76e5cd-b818-419b-8399-f7b31d575a6f/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/8d76e5cd-b818-419b-8399-f7b31d575a6f/releases/1.0.0/",
+    "name": "Information Spread",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/3396/",
+            "@type": "Person",
+            "email": "abeck0835@icloud.com",
+            "givenName": "Aaron",
+            "familyName": "Beck"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/8d76e5cd-b818-419b-8399-f7b31d575a6f/releases/1.0.0/",
+    "dateCreated": "2021-12-01",
+    "description": "Our model shows how disinformation spreads on a random network of individuals. The network is weighted and directed. We are looking at how different factors affect how fast, or how many people get \u201cinfected\u201d with the misinformation. One of the main factors that we were curious about was perceived trustworthiness. This is because we want to see if people of power, or a high degree of perceived trustworthiness, were able to push misinformation to more people and convert more people to believe the information.",
+    "downloadUrl": "https://www.comses.net/codebases/8d76e5cd-b818-419b-8399-f7b31d575a6f/releases/1.0.0/download/",
+    "dateModified": "2021-12-02",
+    "releaseNotes": "Initial Release.  Netlogo Required to run the computational model.",
+    "copyrightYear": 2021,
+    "datePublished": "2021-12-02",
+    "codeRepository": "https://github.com/beck-aaron/hon300-group01-model/tree/aaron-beck",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "None"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo v6.2",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

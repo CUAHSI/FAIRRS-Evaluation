@@ -1,0 +1,47 @@
+{
+    "@id": "https://www.comses.net/codebases/2dcf78b7-2b00-4814-873e-4e6ab8faed8b/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/2dcf78b7-2b00-4814-873e-4e6ab8faed8b/releases/1.0.0/",
+    "name": "An ABM of historic British milk consumption",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/3015/",
+            "@type": "Person",
+            "email": "m.fordgibson@gmail.com",
+            "givenName": "Matthew",
+            "familyName": "Gibson"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-nd/4.0",
+        "name": "CC-BY-NC-ND-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2dcf78b7-2b00-4814-873e-4e6ab8faed8b/releases/1.0.0/",
+    "dateCreated": "2020-12-19",
+    "description": "Substitution of food products will be key to realising widespread adoption of sustainable diets. We present an agent-based model of decision-making and influences on food choice, and apply it to historically observed trends of British whole and skimmed (including semi) milk consumption from 1974 to 2005. We aim to give a plausible representation of milk choice substitution, and test different mechanisms of choice consideration. Agents are consumers that perceive information regarding the two milk choices, and hold values that inform their position on the health and environmental impact of those choices. Habit, social influence and post-decision evaluation are modelled. Representative survey data on human values and long-running public concerns empirically inform the model. An experiment was run to compare two model variants by how they perform in reproducing these trends. This was measured by recording mean weekly milk consumption per person. The variants differed in how agents became disposed to consider alternative milk choices. One followed a threshold approach, the other was probability based. All other model aspects remained unchanged. An optimisation exercise via an evolutionary algorithm was used to calibrate the model variants independently to observed data. Following calibration, uncertainty and global variance-based temporal sensitivity analysis were conducted. Both model variants were able to reproduce the general pattern of historical milk consumption, however, the probability-based approach gave a closer fit to the observed data, but over a wider range of uncertainty. This responds to, and further highlights, the need for research that looks at, and compares, different models of human decision-making in agent-based and simulation models. This study is the first to present an agent-based modelling of food choice substitution in the context of British milk consumption. It can serve as a valuable pre-curser to the modelling of dietary shift and sustainable product substitution to plant-based alternatives in Britain.",
+    "downloadUrl": "https://www.comses.net/codebases/2dcf78b7-2b00-4814-873e-4e6ab8faed8b/releases/1.0.0/download/",
+    "dateModified": "2021-12-20",
+    "releaseNotes": "v1.0.0 - initial release",
+    "copyrightYear": 2021,
+    "datePublished": "2021-12-20",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

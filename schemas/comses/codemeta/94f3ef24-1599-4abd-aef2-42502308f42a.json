@@ -1,0 +1,98 @@
+{
+    "@id": "https://www.comses.net/codebases/94f3ef24-1599-4abd-aef2-42502308f42a/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/94f3ef24-1599-4abd-aef2-42502308f42a/releases/1.1.0/",
+    "name": "RefugeePathSIM Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "email": "g.arnoux.hebert@gmail.com",
+            "givenName": "Guillaume",
+            "familyName": "H\u00e9bert",
+            "affiliation": {
+                "@id": "https://ror.org/0161xgx34",
+                "url": "http://www.umontreal.ca/english/",
+                "name": "Universit\u00e9 de Montr\u00e9al",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0161xgx34"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-6599-9893",
+            "@type": "Person",
+            "email": "l.perez@umontreal.ca",
+            "givenName": "Liliana",
+            "familyName": "Perez",
+            "affiliation": {
+                "@id": "https://ror.org/0161xgx34",
+                "url": "http://www.umontreal.ca/english/",
+                "name": "University of Montreal",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0161xgx34"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "saeedharati@gmail.com",
+            "givenName": "Saeed",
+            "familyName": "Harati",
+            "affiliation": {
+                "@id": "https://ror.org/0161xgx34",
+                "url": "http://www.umontreal.ca/english/",
+                "name": "Universit\u00e9 de Montr\u00e9al",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0161xgx34"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "maintainer"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent based model",
+        "immigration",
+        "mobile agents",
+        "NetLogo"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/94f3ef24-1599-4abd-aef2-42502308f42a/releases/1.1.0/",
+    "dateCreated": "2018-10-11",
+    "description": "***RefugeePathSIM*** is an agent-based model to simulate the movement behavior of refugees in order to identify pathways of forced migration under crisis. The model generates migrants and lets them leave conflict areas for a destination that they choose based on their characteristics and desires. RefugeePathSIM has been developed and applied in a study of the Syrian war, using monthly data in years 2011-2015.",
+    "downloadUrl": "https://www.comses.net/codebases/94f3ef24-1599-4abd-aef2-42502308f42a/releases/1.1.0/download/",
+    "dateModified": "2018-10-16",
+    "releaseNotes": "The ***RefugeePathSIM*** model was created by Guillaume Arnoux H\u00e9bert (MSc) in collaboration with Saeed Harati (PhD Candidate) and the supervision of Dr. Liliana Perez. The authors are members of the Laboratory of Environmental Geosimulation (LEDGE) at the University of Montreal, and would like to acknowledge the Natural Sciences and Engineering Research Council of Canada (NSERC) for  full support of this study under the Discovery Grant Program awarded to Dr. Perez. \n\nThis model was proposed, implemented and used to provide the results for the following published (peer reviewed) chapter:\n\n* H\u00e9bert, G. A., Perez, L., & Harati, S. (2018). An Agent-Based Model to Identify Migration Pathways of Refugees: The Case of Syria. In Agent-Based Models and Complexity Science in the Age of Geospatial Big Data, Cham: Springer International Publishing, pp. 45\u201358. ",
+    "copyrightYear": 2018,
+    "datePublished": "2018-10-16",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

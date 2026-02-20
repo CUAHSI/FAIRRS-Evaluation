@@ -1,0 +1,47 @@
+{
+    "@id": "https://www.comses.net/codebases/8a9678c7-e885-42bb-8430-531998e32d6c/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/8a9678c7-e885-42bb-8430-531998e32d6c/releases/1.0.0/",
+    "name": "Digital-Twin model of Sejong City",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-8704-1873",
+            "@type": "Person",
+            "email": "andy2402@kaist.ac.kr",
+            "givenName": "Tae-Sub",
+            "familyName": "Yun"
+        }
+    ],
+    "license": {
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.html",
+        "name": "Apache-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/8a9678c7-e885-42bb-8430-531998e32d6c/releases/1.0.0/",
+    "dateCreated": "2022-08-31",
+    "description": "Digital-Twin model of Sejong City \u2013 Source model code & data\n\nWe only shared model codes, excluding private data and simulation engine codes. \nThe followings are brief reasons for the items we cannot share.\n\n1.\tResidence address data\n\nWe have received this anonymized data from Sejong City Hall with permission, and we are under the supervision of the authorities. However, we do not have the right to disclose this data to the public. \n\n2.\tSimulation engine codes\n\nBecause we perform full-scale city simulation of our model, there is a limit to implementing it in existing public simulation engines. Therefore, we implement the model using a simulation engine capable of distributed parallel computation. This engine is currently under development by Korea's Electronics and Telecommunications Research Institute, and we do not have the right to disclose it.\n",
+    "downloadUrl": "https://www.comses.net/codebases/8a9678c7-e885-42bb-8430-531998e32d6c/releases/1.0.0/download/",
+    "dateModified": "2022-08-31",
+    "releaseNotes": "First release version of Digital-Twin model of Sejong City ",
+    "copyrightYear": 2022,
+    "datePublished": "2022-08-31",
+    "operatingSystem": "linux",
+    "runtimePlatform": [
+        "#RepastSimphony"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "C++",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

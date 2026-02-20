@@ -1,0 +1,108 @@
+{
+    "@id": "https://doi.org/10.25937/zhxc-wv32",
+    "url": "https://doi.org/10.25937/zhxc-wv32",
+    "name": "Infectious diseases model for mixed-methods research chapter",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "email": "dpeart@udel.edu",
+            "givenName": "Daniel",
+            "familyName": "Peart",
+            "affiliation": {
+                "@id": "https://ror.org/01sbq1a82",
+                "url": "http://www.udel.edu/",
+                "name": "University of Delaware",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01sbq1a82"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "hunter.930@osu.edu",
+            "givenName": "Chelsea",
+            "familyName": "Hunter",
+            "affiliation": {
+                "@id": "https://ror.org/00rs6vg23",
+                "url": "http://www.osu.edu/",
+                "name": "The Ohio State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00rs6vg23"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "hamilton.598@osu.edu",
+            "givenName": "Ian",
+            "familyName": "Hamilton",
+            "affiliation": {
+                "@id": "https://ror.org/00rs6vg23",
+                "url": "http://www.osu.edu/",
+                "name": "The Ohio State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00rs6vg23"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-0644-0069",
+            "@type": "Person",
+            "email": "mark.moritz@gmail.com",
+            "givenName": "Mark",
+            "familyName": "Moritz",
+            "affiliation": {
+                "@id": "https://ror.org/00rs6vg23",
+                "url": "http://www.osu.edu/",
+                "name": "The Ohio State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00rs6vg23"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "infectious diseases",
+        "instructional model",
+        "mixed methods",
+        "sir model",
+        "teaching"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/zhxc-wv32",
+        "https://doi.org/10.25937/zhxc-wv32"
+    ],
+    "dateCreated": "2022-01-06",
+    "description": "The purpose of this curricular model is to teach students the basics of modeling complex systems using agent-based modeling. It is a simple SIR model that simulates how a disease spreads through a population as its members change from susceptible to infected to recovered and then back to susceptible. The dynamics of the model are such that there are multiple emergent outcomes depending on the parameter settings, initial conditions, and chance. \n\nThe curricular model can be used with the chapter Agent-Based Modeling in Mixed Methods Research (Moritz et al. 2022) in the Handbook of Teaching Qualitative & Mixed Methods (Ruth et al. 2022).\n\nThe instructional videos can be accessed on YouTube: Video 1 (https://youtu.be/32_JIfBodWs); Video 2 (https://youtu.be/0PK_zVKNcp8); and Video 3 (https://youtu.be/0bT0_mYSAJ8). \n\n",
+    "downloadUrl": "https://www.comses.net/codebases/cbed462f-ae12-4ee0-9b53-26596090bf7c/releases/1.0.0/download/",
+    "dateModified": "2022-01-30",
+    "releaseNotes": "1.0.0",
+    "copyrightYear": 2022,
+    "datePublished": "2022-01-30",
+    "embargoEndDate": "2022-01-31",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Netlogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo v6.2",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Moritz, Mark, Chelsea E. Hunter, Daniel C. Peart, and Ian M. Hamilton. 2022. Agent-Based Modeling in Mixed Methods Research. In Handbook of Teaching Qualitative & Mixed Methods, edited by Alissa Ruth, Amber Wutich, and H. Russell Bernard. London: Routledge."
+}

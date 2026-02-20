@@ -1,0 +1,72 @@
+{
+    "@id": "https://www.comses.net/codebases/5305/releases/2.0.0/",
+    "url": "https://www.comses.net/codebases/5305/releases/2.0.0/",
+    "name": "FishCensus",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-4282-9995",
+            "@type": "Person",
+            "email": "migupais@gmail.com",
+            "givenName": "Miguel",
+            "familyName": "Pais",
+            "affiliation": {
+                "url": "http://www.mare-centre.pt",
+                "name": "MARE - Marine and Environmental Sciences Centre, Univeristy of Lisbon",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-4282-9995",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "2.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "boids",
+        "ecology",
+        "fish behavior",
+        "freshwater",
+        "marine fish ecology",
+        "sampling bias",
+        "virtual ecologist"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5305/releases/2.0.0/",
+    "dateCreated": "2017-02-09",
+    "description": "## Context\nUnderwater visual census (UVC) methods are used worldwide to monitor shallow marine and freshwater habitats and support management and conservation decisions. However, several sources of bias still undermine the ability of these methods to accurately estimate abundances of some species.\n\n## FishCensus Model\n\nFishCensus is an agent-based model that simulates underwater visual census of fish populations, a method used worldwide to survey shallow marine and freshwater habitats that involves a diver counting fish species to estimate their density. It can help estimate sampling bias, apply correction factors to field surveys and decide on the best method to survey a particular species, given its behavioural traits, detectability or speed.\nA modified vector-based boids-like movement submodel is used for fish, and complex behaviours such as schooling or diver avoidance / attraction can be represented.\n\n## How it works\n\nThe FishCensus model comes with two separate programs. The Species Creator is used to create new fish species or observe/edit existing ones. Species parameters can be exported as a .csv file and imported into the main model where the simulation happens.\n\nA virtual diver uses a survey method to estimate fish density. The true density of fish is known, which allows for the quantification of bias, a measure that is very difficult to determine in the field.\n\nFor more info and tutorials, visit the [wiki](https://bitbucket.org/MiguelPPais/fishcensus/wiki/Home) on Bitbucket.\n\nIf you use this model, please cite the [original publication](http://www.sciencedirect.com/science/article/pii/S0304380016308055).",
+    "downloadUrl": "https://www.comses.net/codebases/5305/releases/2.0.0/download/",
+    "dateModified": "2024-06-25",
+    "releaseNotes": "Model version 2.0. Changelog:\r\n\r\n*   Code updated to NetLogo 6.0 new syntax. Model no longer compatible with NetLogo 5.3.1.\r\n*   Fixed an error when finding a random float between two numbers. It was only affecting roving diver movement, so no big issue.\r\n*   Species creator fish color picker is now an actual color picker!\r\n*   Video recorder in species creator updated to use the new vid extension. Now saves in mp4 instead of mov.\r\n*   Separate instalation of rnd extension no longer needed.\r\n*   Model now comes with an example experiment in BehaviorSpace.",
+    "copyrightYear": 2017,
+    "datePublished": "2017-02-09",
+    "codeRepository": "https://github.com/miguelppais/fishcensus-netlogo",
+    "supportingData": {
+        "url": "https://doi.org/10.7717/peerj.5378/supp-6",
+        "@type": "DataFeed"
+    },
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Pais MP, Cabral HN, 2018. Effect of underwater visual survey methodology on bias and precision of fish counts: a simulation approach. PeerJ 6:e5378 https://doi.org/10.7717/peerj.5378\n\nPais MP, Cabral HN, 2017. Fish behaviour effects on the accuracy and precision of underwater visual census surveys. A virtual ecologist approach using an individual-based model. Ecological Modelling 346, 58-69. https://doi.org/10.1016/j.ecolmodel.2016.12.011"
+}

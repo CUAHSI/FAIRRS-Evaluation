@@ -1,0 +1,174 @@
+{
+    "@id": "https://www.comses.net/codebases/f021a012-1507-417f-88ad-d181914219d1/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/f021a012-1507-417f-88ad-d181914219d1/releases/1.0.0/",
+    "name": "Survival analysis and Population viability analysis of the Northern Bald Ibis",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-2247-6507",
+            "@type": "Person",
+            "email": "drenske@izw-berlin.de",
+            "givenName": "Sinah",
+            "familyName": "Drenske",
+            "affiliation": {
+                "@id": "https://ror.org/05nywn832",
+                "url": "http://www.izw-berlin.de/welcome.html",
+                "name": "Leibniz Institute for Zoo and Wildlife Research",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05nywn832"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-3072-0095",
+            "@type": "Person",
+            "email": "radchuk.victoria@gmail.com",
+            "givenName": "Viktoriia",
+            "familyName": "Radchuk",
+            "affiliation": {
+                "@id": "https://ror.org/05nywn832",
+                "url": "http://www.izw-berlin.de/welcome.html",
+                "name": "Leibniz Institute for Zoo and Wildlife Research",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05nywn832"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-0465-2543",
+            "@type": "Person",
+            "email": "cedricphilippscherer@gmail.com",
+            "givenName": "C\u00e9dric",
+            "familyName": "Scherer",
+            "affiliation": {
+                "@id": "https://ror.org/05nywn832",
+                "url": "http://www.izw-berlin.de/welcome.html",
+                "name": "Leibniz Institute for Zoo and Wildlife Research",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05nywn832"
+            }
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "email": "cesterer@waldrapp.eu",
+            "givenName": "Corinna",
+            "familyName": "Esterer",
+            "affiliation": {
+                "@id": "https://ror.org/00sj01y46",
+                "url": "http://waldrapp.eu/index.php/de/",
+                "name": "Waldrappteam",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00sj01y46"
+            }
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Person",
+            "email": "kowarik@tu-berlin.de",
+            "givenName": "Ingo",
+            "familyName": "Kowarik",
+            "affiliation": {
+                "@id": "https://ror.org/03v4gjf40",
+                "url": "https://www.tu.berlin",
+                "name": "Technische Universit\u00e4t Berlin",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03v4gjf40"
+            }
+        },
+        {
+            "@id": "_:author_6",
+            "@type": "Person",
+            "email": "jfritz@waldrapp.eu",
+            "givenName": "Johannes",
+            "familyName": "Fritz",
+            "affiliation": {
+                "@id": "https://ror.org/00sj01y46",
+                "url": "http://waldrapp.eu/index.php/de/",
+                "name": "Waldrappteam",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00sj01y46"
+            }
+        },
+        {
+            "@id": "_:author_7",
+            "@type": "Person",
+            "email": "kramer@izw-berlin.de",
+            "givenName": "Stephanie",
+            "familyName": "Kramer-Schadt",
+            "affiliation": {
+                "@id": "https://ror.org/05nywn832",
+                "url": "http://www.izw-berlin.de/welcome.html",
+                "name": "Leibniz Institute for Zoo and Wildlife Research",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05nywn832"
+            }
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "collaborator"
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Role",
+            "roleName": "collaborator"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Yes, it is also published on Zenodo (10.5281/zenodo.6790671) and on GitHub (see link below)",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "conservation",
+        "fecundity",
+        "individual-based model",
+        "NetLogo",
+        "northern bald ibis",
+        "population viability analysis",
+        "Rstats",
+        "RStudio",
+        "survival",
+        "translocation",
+        "Waldrappteam"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/f021a012-1507-417f-88ad-d181914219d1/releases/1.0.0/",
+    "dateCreated": "2022-08-04",
+    "description": "This is the full repository to run the survival analysis (in R) and run the population viability model and its analysis (NetLogo + R)\u00a0of the Northern Bald Ibis (NBI) presented in the study\n\nOn the road to self-sustainability: Reintroduced migratory European Northern Bald Ibises (Geronticus eremita) still need management interventions for population viability\n\nby Sinah Drenske, Viktoriia Radchuk, C\u00e9dric Scherer, Corinna Esterer, Ingo Kowarik, Johannes Fritz, Stephanie Kramer-Schadt\n\naccepted by Oryx (not published yet)",
+    "downloadUrl": "https://www.comses.net/codebases/f021a012-1507-417f-88ad-d181914219d1/releases/1.0.0/download/",
+    "dateModified": "2022-08-04",
+    "releaseNotes": "First release of the model",
+    "copyrightYear": 2022,
+    "datePublished": "2022-08-04",
+    "codeRepository": "https://github.com/EcoDynIZW/Drenske_2020_PVA_NBI",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo",
+        "RStudio"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "R",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "On the road to self-sustainability: Reintroduced migratory European Northern Bald Ibises (Geronticus eremita) still need management interventions for population viability\nby Sinah Drenske, Viktoriia Radchuk, C\u00e9dric Scherer, Corinna Esterer, Ingo Kowarik, Johannes Fritz, Stephanie Kramer-Schadt\naccepted by Oryx (not published yet)"
+}

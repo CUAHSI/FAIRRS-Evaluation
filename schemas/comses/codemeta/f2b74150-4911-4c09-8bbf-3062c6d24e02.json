@@ -1,0 +1,89 @@
+{
+    "@id": "https://www.comses.net/codebases/f2b74150-4911-4c09-8bbf-3062c6d24e02/releases/1.3.0/",
+    "url": "https://www.comses.net/codebases/f2b74150-4911-4c09-8bbf-3062c6d24e02/releases/1.3.0/",
+    "name": "BEEHAVE Extension: Varroa mite control within Good Beekeeping Practice in Germany",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-1258-8799",
+            "@type": "Person",
+            "email": "isabel.schoedl@live.de",
+            "givenName": "Isabel",
+            "familyName": "Sch\u00f6dl"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "juergen.groeneveld@tu-dresden.de",
+            "givenName": "J\u00fcrgen",
+            "familyName": "Groeneveld",
+            "affiliation": {
+                "@id": "https://ror.org/042aqky30",
+                "url": "https://tu-dresden.de",
+                "name": "TU Dresden",
+                "@type": "Organization",
+                "identifier": "https://ror.org/042aqky30"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/14/",
+            "@type": "Person",
+            "email": "volker.grimm@ufz.de",
+            "givenName": "Volker",
+            "familyName": "Grimm",
+            "affiliation": {
+                "url": "http://www.ufz.de",
+                "name": "Helmholtz Center for Environmental Research - UFZ",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-sa/4.0/",
+        "name": "CC-BY-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.3.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Becher MA, Grimm V, Thorbek P, Horn J, Kennedy PJ, Osborne JL. BEEHAVE: a systems model of honeybee colony dynamics and foraging to explore multifactorial causes of colony failure. J Appl Ecol. 2014 Apr;51(2):470-482. doi: 10.1111/1365-2664.12222. Epub 2014 Mar 4. PMID: 25598549; PMCID: PMC4283046.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "acaricides",
+        "BEEHAVE",
+        "beekeeping",
+        "drones",
+        "education",
+        "honeybee",
+        "varroa mite"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/f2b74150-4911-4c09-8bbf-3062c6d24e02/releases/1.3.0/",
+    "dateCreated": "2022-05-25",
+    "description": "The western honey bee Apis mellifera is the most important pollinator in the world. The biggest threat to managed honey bees is the ectoparasitic mite Varroa destructor and the viruses DWV (Deformed Wing Virus) and APV (Acute Paralysis Virus) it transmits. Untreated honey bee colonies are expected to die within one to three years. This led to the development of strategies for beekeepers to control the Varroa mite in honey bee colonies and ensure the health and survival of their bee colonies, so called Good Beekeeping Practice. The aim of the extension of BEEHAVE was to represent the Good Beekeeping Practice of Varroa control in Germany. The relevant measures within the Varroa control strategies are drone brood removal as a Varroa trap and the treatment of bee colonies with organic acaricides (formic and oxalic acid) to kill the mites. This extension improves BEEHAVE and builds a bridge between beekeepers in practice and in the modelling world. It vastly contributes to the future use of BEEHAVE in beekeeping education in Germany.",
+    "downloadUrl": "https://www.comses.net/codebases/f2b74150-4911-4c09-8bbf-3062c6d24e02/releases/1.3.0/download/",
+    "dateModified": "2022-11-07",
+    "releaseNotes": "Addition to the existing BEEHAVE model BEEHAVE_BeeMapp2016 (download under https://www.beehave-model.net). The newly implemented module allows the user to execute varroa mite control strategies, according to the Good Beekeeping Practice, as done in Germany in BEEHAVE.",
+    "copyrightYear": 2022,
+    "datePublished": "2022-11-07",
+    "embargoEndDate": "2022-09-19",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo 6.2.0"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

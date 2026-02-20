@@ -1,0 +1,64 @@
+{
+    "@id": "https://doi.org/10.25937/fdxs-2479",
+    "url": "https://doi.org/10.25937/fdxs-2479",
+    "name": "Flibs\u2019NFarol: Self-Organized Efficiency and Fairness Emergence in an Evolutive Game",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2589/",
+            "@type": "Person",
+            "email": "cleuci@alice.it",
+            "givenName": "Cosimo",
+            "familyName": "Leuci"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "https://doi.org/10.25937/fdxs-2479",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "complex adaptive system",
+        "eco-evolutionary dynamics",
+        "El Farol problem",
+        "finite automata",
+        "genetic algorithm"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/fdxs-2479",
+        "https://doi.org/10.25937/fdxs-2479"
+    ],
+    "dateCreated": "2023-07-21",
+    "description": "According to the philosopher of science K. Popper \u201cAll life is problem solving\u201d. Genetic algorithms aim to leverage Darwinian selection, a fundamental mechanism of biological evolution, so as to tackle various engineering challenges. \nFlibs\u2019NFarol is an Agent Based Model that embodies a genetic algorithm applied to the inherently ill-defined \"El Farol Bar\" problem. Within this context, a group of agents operates under bounded rationality conditions, giving rise to processes of self-organization involving, in the first place, efficiency in the exploitation of available resources. Over time, the attention of scholars has shifted to equity in resource distribution, as well. Nowadays, the problem is recognized as paradigmatic within studies of complex evolutionary systems. \nFlibs\u2019NFarol provides a platform to explore and evaluate factors influencing self-organized efficiency and fairness. The model represents agents as finite automata, known as \"flibs,\" and offers flexibility in modifying the number of internal flibs states, which directly affects their behaviour patterns and, ultimately, the diversity within populations and the complexity of the system.",
+    "downloadUrl": "https://www.comses.net/codebases/a2921d34-2eaa-4d5c-a226-750190811443/releases/1.0.0/download/",
+    "dateModified": "2023-10-13",
+    "releaseNotes": "For the purpose of demonstration, a web-app version of the model can be accessed via the following URL: http://modelingcommons.org/browse/one_model/6031#model_tabs_browse_nlw",
+    "copyrightYear": 2023,
+    "datePublished": "2023-10-12",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo 6.3",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "doi.org/10.25937/f932-8y73"
+}

@@ -1,0 +1,56 @@
+{
+    "@id": "https://www.comses.net/codebases/751f7ab5-33e1-412a-abae-86288e424d35/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/751f7ab5-33e1-412a-abae-86288e424d35/releases/1.0.0/",
+    "name": "Agent-based Line-of-Sight Simulation for safer Crossings (Short Paper - Netlogo Model)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-9487-917X",
+            "@type": "Person",
+            "email": "vincent.franke@student.uni-augsburg.de",
+            "givenName": "Vincent",
+            "familyName": "Franke"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc/4.0",
+        "name": "CC-BY-NC-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based model",
+        "Crossroad Design",
+        "Line of Sight",
+        "NetLogo",
+        "Traffic Safety",
+        "Traffic Simulation"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/751f7ab5-33e1-412a-abae-86288e424d35/releases/1.0.0/",
+    "dateCreated": "2021-08-04",
+    "description": "This software simulates cars and bicycles as traffic participants while crossing different crossroad designs such as roundabouts, protected crossroads and standard crossroads. It is written in Netlogo 6.2 and aims to identify safety characteristics of these layouts using agent-based modeling. Participants track the line of sight to each other and print them as an output alongside with the adjacent destination, used layout, count of collisions/cars/bicycles and time. \n\nDetailed information can be found within the info tab of the program itself.\n\n",
+    "downloadUrl": "https://www.comses.net/codebases/751f7ab5-33e1-412a-abae-86288e424d35/releases/1.0.0/download/",
+    "dateModified": "2021-08-05",
+    "releaseNotes": "First version of the Traffic Simulation model in Netlogo. \n\nProvided data includes the model itself which can be started by simply executing the \"run.nl\" file with Netlogo (preferably version 6.2). \nFurther, three test layouts are included as .bmp images which can be imported to the model for testing. \n\nAll outputs will be written to the simulation folder as .txt for  further analysis.\n\n",
+    "copyrightYear": 2021,
+    "datePublished": "2021-08-05",
+    "embargoEndDate": "2021-08-05",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

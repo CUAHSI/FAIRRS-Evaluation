@@ -1,0 +1,58 @@
+{
+    "@id": "https://doi.org/10.25937/6z3v-n720",
+    "url": "https://doi.org/10.25937/6z3v-n720",
+    "name": "Vigilant sharing in a small-scale society",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-9595-3741",
+            "@type": "Person",
+            "email": "mppinheiro@gmail.com",
+            "givenName": "Marcos",
+            "familyName": "Pinheiro"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.1",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "ABM",
+        "egalitarianism",
+        "evolution of cooperation",
+        "food sharing",
+        "hunter-gatherer"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/6z3v-n720",
+        "https://doi.org/10.25937/6z3v-n720"
+    ],
+    "dateCreated": "2020-07-22",
+    "description": "The model explores food distribution patterns that emerge in a small-scale non-agricultural group when sharing individuals engage in intentional consumption leveling with a given probability.",
+    "downloadUrl": "https://www.comses.net/codebases/e9592c9f-7c27-49ab-a7d0-3650bd86eec2/releases/1.0.1/download/",
+    "dateModified": "2024-12-05",
+    "releaseNotes": "Version 1.0.1\n\nIn the previous release, a constant value was used to distinguish acquisitions of large-game meat from acquisitions of other food types. This lead to unstable model behavior for certain ranges of parameter values. The current release includes a global variable called *meat-threshold* that sets the minimum value for large-game meat acquisitions as a function of hunter success and acquisition rates.\n\nThe new release also includes:\n- reviewed and updated ODD model description",
+    "copyrightYear": 2020,
+    "datePublished": "2020-07-29",
+    "embargoEndDate": "2020-07-26",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

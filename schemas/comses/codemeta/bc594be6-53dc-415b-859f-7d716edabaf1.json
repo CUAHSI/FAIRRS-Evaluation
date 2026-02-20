@@ -1,0 +1,89 @@
+{
+    "@id": "https://www.comses.net/codebases/bc594be6-53dc-415b-859f-7d716edabaf1/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/bc594be6-53dc-415b-859f-7d716edabaf1/releases/1.0.0/",
+    "name": "Superiority Bias and Communication Noise in a Model of Collective Problem Solving",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/3137/",
+            "@type": "Person",
+            "email": "aboroomand@ucmerced.edu",
+            "givenName": "Amin",
+            "familyName": "Boroomand"
+        },
+        {
+            "@id": "https://www.comses.net/users/780/",
+            "@type": "Person",
+            "email": "paul.smaldino@gmail.com",
+            "givenName": "Paul",
+            "familyName": "Smaldino",
+            "affiliation": {
+                "@id": "https://ror.org/00d9ah105",
+                "url": "http://www.ucmerced.edu/",
+                "name": "University of California, Merced",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00d9ah105"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/3137/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://www.comses.net/users/3137/",
+            "@type": "Role",
+            "roleName": "maintainer"
+        },
+        {
+            "@id": "https://www.comses.net/users/780/",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Boroomand, A., & Smaldino, P. E. (2021). Hard Work, Risk-Taking, and Diversity in a Model of Collective Problem Solving. Journal of Artificial Societies and Social Simulation, 24(4).",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "cognitive bias",
+        "collective intelligence",
+        "NetLogo",
+        "NK model;",
+        "superiority"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/bc594be6-53dc-415b-859f-7d716edabaf1/releases/1.0.0/",
+    "dateCreated": "2022-05-01",
+    "description": "This model aims to examine how different levels of communication noise and superiority bias affect team performance when solving problems collectively. We used a networked agent-based model of collective problem solving in which agents explore the NK landscape for a better solution and communicate with each other regarding their current solutions. We compared the team performance in solving problems collectively at different levels of self-superiority bias when facing simple and complex problems. Additionally, we addressed the effect of different levels of communication noise on the team\u2019s outcome",
+    "downloadUrl": "https://www.comses.net/codebases/bc594be6-53dc-415b-859f-7d716edabaf1/releases/1.0.0/download/",
+    "dateModified": "2022-05-01",
+    "releaseNotes": "In our model of collective problem-solving in an NK landscape, we compare the performance of teams of agents who exhibit various levels of superiority bias and communication noise in solving complex and simple problems.",
+    "copyrightYear": 2022,
+    "datePublished": "2022-05-01",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "Netlogo 6.2.1"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo 6.2.1",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

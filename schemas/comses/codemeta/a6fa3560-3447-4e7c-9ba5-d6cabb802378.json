@@ -1,0 +1,56 @@
+{
+    "@id": "https://www.comses.net/codebases/a6fa3560-3447-4e7c-9ba5-d6cabb802378/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/a6fa3560-3447-4e7c-9ba5-d6cabb802378/releases/1.0.0/",
+    "name": "Population size limits the coefficient of variation in continuous traits affected by proportional copying error",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-3945-0773",
+            "@type": "Person",
+            "email": "premo@fastmail.net",
+            "givenName": "Luke",
+            "familyName": "Premo"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "continuous trait",
+        "copy error",
+        "cultural evolution",
+        "cultural transmission",
+        "population size effects",
+        "population size effects"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/a6fa3560-3447-4e7c-9ba5-d6cabb802378/releases/1.0.0/",
+    "dateCreated": "2018-12-01",
+    "description": "This version of the accumulated copying error (ACE) model is designed to address the following research question: how does finite population size (*N*) affect the coefficient of variation (CV) of a continuous cultural trait under the assumptions that the only source of copying error is visual perception error and that the continuous trait can take any positive value (i.e., it has no upper bound)? The model allows one to address this question while assuming the continuous trait is transmitted via vertical transmission, unbiased transmission, prestige biased transmission, mean conformist transmission, or median conformist transmission.  By varying the parameter, *p*, one can also investigate the effect of population size under a mix of vertical and non-vertical transmission, whereby on average (1-*p*)*N* individuals learn via vertical transmission and *pN* individuals learn via either unbiased transmission, prestige biased transmission, mean conformist transmission, or median conformist transmission.",
+    "downloadUrl": "https://www.comses.net/codebases/a6fa3560-3447-4e7c-9ba5-d6cabb802378/releases/1.0.0/download/",
+    "dateModified": "2020-06-18",
+    "releaseNotes": "premo_2020.nlogo\nVersion 1.0\n\nThe model used to collect the data presented in Premo (2020) runs on NetLogo 6.0.2. The code may need to be modified to run on later versions of NetLogo.",
+    "copyrightYear": 2020,
+    "datePublished": "2020-06-18",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Premo, L. S. (2020) Population size limits the coefficient of variation in continuous traits affected by proportional copying error (and why this matters for studying cultural transmission). *Journal of Archaeological Method and Theory.*"
+}

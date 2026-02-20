@@ -1,0 +1,96 @@
+{
+    "@id": "https://doi.org/10.25937/aqnj-rv39",
+    "url": "https://doi.org/10.25937/aqnj-rv39",
+    "name": "Agent-Based Ramsey growth model with Brown and Green capital (ABRam-BG)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0009-0003-2721-2978",
+            "@type": "Person",
+            "email": "aida.figueroa.alvarez@fu-berlin.de",
+            "givenName": "Aida Sarai",
+            "familyName": "Figueroa Alvarez",
+            "affiliation": {
+                "@id": "https://ror.org/046ak2485",
+                "url": "https://www.fu-berlin.de",
+                "name": "Freie Universit\u00e4t Berlin",
+                "@type": "Organization",
+                "identifier": "https://ror.org/046ak2485"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "sarah.wolf@fu-berlin.de",
+            "givenName": "Sarah",
+            "familyName": "Wolf",
+            "affiliation": {
+                "@id": "https://ror.org/046ak2485",
+                "url": "https://www.fu-berlin.de",
+                "name": "Freie Universit\u00e4t Berlin",
+                "@type": "Organization",
+                "identifier": "https://ror.org/046ak2485"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Gesine Steudle, Sarah Wolf, Jahel Mielke and Carlo Jaeger. Green growth mechanics: The building blocks. Climate Global Forum, January 2018.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "agent-based computational economics",
+        "belief dynamics",
+        "Directed technical progress",
+        "Green Growth",
+        "Green transitions",
+        "opinion dynamics",
+        "Ramsey growth model"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/aqnj-rv39",
+        "https://doi.org/10.25937/aqnj-rv39"
+    ],
+    "dateCreated": "2024-10-22",
+    "description": "The purpose of the ABRam-BG model is to study  belief dynamics as a potential driver of green (growth) transitions and illustrate their dynamics in a closed, decentralized economy populated by utility maximizing agents with an environmental attitude. The model is built using the ABRam-T model (for model visit: https://doi.org/10.25937/ep45-k084) and introduces two types of capital -- green (low carbon intensity) and brown (high carbon intensity) -- with their respective technological progress levels. ABRam-BG simulates a green transition as an emergent phenomenon resulting from well-known opinion dynamics  along the economic process.  ",
+    "downloadUrl": "https://www.comses.net/codebases/44bc2da3-a186-4bf3-8e8e-08e4b3fe81fa/releases/1.0.0/download/",
+    "dateModified": "2025-09-15",
+    "releaseNotes": "Run the notebook run_the_model_notebook.ipynb to run a simulation and to plot results from the simulation.",
+    "copyrightYear": 2024,
+    "datePublished": "2024-12-09",
+    "codeRepository": "https://github.com/asfigueroaa/ABRam-BG-model-v1.git",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "AgentPy"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Jupyter Notebook",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "Python 3",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

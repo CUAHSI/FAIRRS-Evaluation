@@ -1,0 +1,87 @@
+{
+    "@id": "https://www.comses.net/codebases/3760/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/3760/releases/1.0.0/",
+    "name": "Interplay between stakeholders of the management of a river",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1053/",
+            "@type": "Person",
+            "email": "sibertin@ut-capitole.fr",
+            "givenName": "Christophe",
+            "familyName": "Sibertin-Blanc",
+            "affiliation": {
+                "url": "http://www.univ-toulouse.fr/",
+                "name": "University of Toulouse",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Pascal",
+            "familyName": "Roggero"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Bertrand",
+            "familyName": "Baldet"
+        },
+        {
+            "@id": "https://www.comses.net/users/1053/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "ecological health",
+        "flood risk",
+        "power relationships",
+        "river management",
+        "sociology"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3760/releases/1.0.0/",
+    "dateCreated": "2014-11-12",
+    "description": "The model is the SocLab formalization of a sociological investigation performed at the renewal of the Flood Risk Prevention Plan of the Touch river. Ten main stakeholders are considered \u2013 local representative and inhabitants, State agencies, political authorities and engineering firms \u2013 each one with his own representation and interests about ecological health, urbanism, economic and agricultural activities, safety and so on, and worrying about strengthening his position. The model of the structure of the social game relies upon the resources mastered by each actor and their usefulness for everyone. Simulations compute to what extend each social actor is likely to cooperate with the collective and what is the resulting capability for each one to get means to achieve his objectives.\r\nThe interpretation of the simulation outcomes completed with analytical data allows to bring answers to the following questions:\r\n\r\n*Hypothesis 1*: To be the obligatory passage point of the actor-network, is that SIAH has enough  power to somehow constrain other actors?   \r\n*Hypothesis 2*: Purposing to play an important role and to introduce a change in the management of flood risk, is that SIAH has the means to do so?   \r\n*Hypothesis 3*: In the enrolment of other actors on the service of an hydromorphological management of the river, is that SIAH has powerful allies?   \r\n*Hypothesis 4*: Is that the agreement on the \" Territorial Public Interest \" is confirmed by the absence of major conflicts in the system of action?",
+    "downloadUrl": "https://www.comses.net/codebases/3760/releases/1.0.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "",
+    "copyrightYear": 2014,
+    "datePublished": "2014-11-12",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "SocLab"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Sibertin-Blanc, Christophe, Pascal Roggero, Fran\u00e7oise Adreit, Bertrand Baldet, Paul Chapron, Joseph El-Gemayel, Matthias Mailliard and Sandra Sandri (2013). SocLab: A Framework for the Modeling, Simulation and Analysis of Power in Social Organizations. JASSS 16(4), http://jasss.soc.surrey.ac.uk/16/4/8.html"
+}

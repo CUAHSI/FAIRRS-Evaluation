@@ -1,0 +1,125 @@
+{
+    "@id": "https://www.comses.net/codebases/4262/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4262/releases/1.0.0/",
+    "name": "Foundress dilemma model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "givenName": "Zachary",
+            "familyName": "Shaffer"
+        },
+        {
+            "@id": "https://www.comses.net/users/1490/",
+            "@type": "Person",
+            "email": "takao0514@gmail.com",
+            "givenName": "Takao",
+            "familyName": "Sasaki",
+            "affiliation": {
+                "@id": "https://ror.org/052gg0110",
+                "url": "http://www.ox.ac.uk/",
+                "name": "University of Oxford",
+                "@type": "Organization",
+                "identifier": "https://ror.org/052gg0110"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Brian",
+            "familyName": "Haney"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Person",
+            "email": "marco.janssen@asu.edu",
+            "givenName": "Marco",
+            "familyName": "Janssen",
+            "affiliation": {
+                "url": "https://schoolofsustainability.asu.edu/",
+                "name": "School of Sustainability",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Person",
+            "givenName": "Stephen",
+            "familyName": "Pratt"
+        },
+        {
+            "@id": "_:author_6",
+            "@type": "Person",
+            "givenName": "Jennifer",
+            "familyName": "Fewell"
+        },
+        {
+            "@id": "_:author_1",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://www.comses.net/users/1490/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_6",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4262/releases/1.0.0/",
+    "dateCreated": "2016-07-28",
+    "description": "This is a model that is developed to explore the foundress dilemma. The model, a haystack-style simulation of group selection, was constructed to capture the essential features of colony foundation for queens of the ant Pogonomyrmex californicus.  The life history features of this species during colony founding match in many details the haystack thought experiment of Maynard Smith: randomly distributed queens aggregate to found nests with some queens being cooperative in behavior and others aggressive.  The goal of this model is to generate testable predictions relevant to the hypothesis that this system fits the haystack scenario of group selection as an explanatory model for the observed queen cooperation in this natural population.",
+    "downloadUrl": "https://www.comses.net/codebases/4262/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2016,
+    "datePublished": "2016-07-28",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Shaffer, Z. et al. The foundress\u2019s dilemma: group selection for cooperation among queens of the harvester ant, Pogonomyrmex californicus. Sci. Rep. 6, 29828; doi: 10.1038/srep29828 (2016)"
+}

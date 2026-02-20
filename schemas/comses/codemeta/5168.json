@@ -1,0 +1,81 @@
+{
+    "@id": "https://www.comses.net/codebases/5168/releases/1.2.0/",
+    "url": "https://www.comses.net/codebases/5168/releases/1.2.0/",
+    "name": "Heterogeneity of preferences and the dynamics of voluntary contributions to public goods",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1791/",
+            "@type": "Person",
+            "email": "engi.amin@feps.edu.eg",
+            "givenName": "Engi",
+            "familyName": "Amin"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Amal",
+            "familyName": "Soliman"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Mohamed",
+            "familyName": "Abouelela"
+        },
+        {
+            "@id": "https://www.comses.net/users/1791/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "computational experiments by using netlogo",
+        "design of experiments",
+        "public good game",
+        "social preferences",
+        "voluntary contribution"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5168/releases/1.2.0/",
+    "dateCreated": "2018-01-25",
+    "description": "The main assumption underlying this model is that the different cooperative preference types of agents in a public goods setting have a major effect on the overall level of contribution to the public good. The model incorporates these different types of preferences by a set of programmed strategies based on experimental data. \r\n\r\nAt the beginning, the user selects the number of agents of each preference type and sets the common parameters for all agents. At each tick, each agent receives a fixed endowment, then places a contribution to the public account according to its preference type and the average contribution of other agents in the previous tick. After each tick, the total and average contributions are calculated and tabulated. Also, the contribution and payoff of each preference type are calculated. \r\n\r\nThere are seven preference types an agent can follow: free-riding, perfect conditional cooperation, above-diagonal conditional cooperation, below-diagonal conditional cooperation, alternating-diagonal conditional cooperation, triangular contribution, and random contribution. \r\n\r\nConsult submitted paper for more information on how preference types were elicited.\r\n\r\nDetailed documentation on how to use the model is included in the model file under the Info tab.",
+    "downloadUrl": "https://www.comses.net/codebases/5168/releases/1.2.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "Model last updated in August 2016.",
+    "copyrightYear": 2018,
+    "datePublished": "2018-01-25",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

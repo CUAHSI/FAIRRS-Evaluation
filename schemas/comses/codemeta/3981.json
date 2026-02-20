@@ -1,0 +1,102 @@
+{
+    "@id": "https://www.comses.net/codebases/3981/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/3981/releases/1.0.0/",
+    "name": "AdaptPumpa",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "givenName": "Irene",
+            "familyName": "P\u00e9rez Ibarra"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Person",
+            "email": "marco.janssen@asu.edu",
+            "givenName": "Marco",
+            "familyName": "Janssen",
+            "affiliation": {
+                "url": "https://schoolofsustainability.asu.edu/",
+                "name": "School of Sustainability",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/662/",
+            "@type": "Person",
+            "email": "m.anderies@asu.edu",
+            "givenName": "John",
+            "familyName": "Anderies",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        },
+        {
+            "@id": "_:author_1",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://www.comses.net/users/662/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "The AdaptPumpa model is a modification of the Pumpa model developed by Cifdaloz et al. (2010) using differential equations and replicated by Perez et al. (2013) using an agent based model. \r\n\r\nCifdaloz O., Regmi A., Anderies J.M., Rodriguez A.A. 2010. Robustness, vulnerability, and adaptive capacity in small-scale social-ecological systems: The Pumpa Irrigation System in Nepal. Ecology and Society 15(3): 39. [online] URL: http://www.ecologyandsociety.org/vol15/iss3/art39/\r\n\r\nPerez I, Janssen MA. 2013. Pumpa irrigation model (Version 1). CoMSES Computational Model Library. Retrieved from: http://www.openabm.org/model/3580/version/1.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "adaption",
+        "Climate Change",
+        "climate change adaptation",
+        "institutions",
+        "irrigation",
+        "social-ecological system"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3981/releases/1.0.0/",
+    "dateCreated": "2013-10-17",
+    "description": "This model represents the Pumpa irrigation system, a small-scale irrigation system located in Central Nepal. The purpose of the model is to analyze the robustness of the system to climate change. The scenarios of impacts of climate change are simulated: i) changes in the water supply (i.e. increase or decrease in rainfall), ii) variation in river discharge distribution (i.e. reduction and expansion of the monsoon season), and iii) temporal shifts in river discharge.",
+    "downloadUrl": "https://www.comses.net/codebases/3981/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-10-17",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "P\u00e9rez I, Janssen MA, Anderies JM. Adaptive capacity of small-scale social-ecological systems to environmental variability: The Pumpa irrigation system in Nepal. Submitted to Global Environmental Change"
+}

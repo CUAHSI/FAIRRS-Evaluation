@@ -1,0 +1,153 @@
+{
+    "@id": "https://doi.org/10.25937/dzcq-6c02",
+    "url": "https://doi.org/10.25937/dzcq-6c02",
+    "name": "FISHCODE - FIsheries Simulation with Human COmplex DEcision-making",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-2023-9815",
+            "@type": "Person",
+            "email": "jonas_letschert@web.de",
+            "givenName": "Jonas",
+            "familyName": "Letschert",
+            "affiliation": {
+                "url": "https://www.thuenen.de/en/institutes/sea-fisheries",
+                "name": "Thuenen Institute of Sea Fisheries",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-8780-4420",
+            "@type": "Person",
+            "email": "birgit.mueller@ufz.de",
+            "givenName": "Birgit",
+            "familyName": "M\u00fcller",
+            "affiliation": {
+                "url": "http://www.ufz.de",
+                "name": "Helmholtz Centre for Environmental Research UFZ",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1769-3064",
+            "@type": "Person",
+            "email": "gunnar.dressler@ufz.de",
+            "givenName": "Gunnar",
+            "familyName": "Dressler",
+            "affiliation": {
+                "@id": "https://ror.org/000h6jb29",
+                "url": "http://www.ufz.de/index.php?de=11385",
+                "name": "Helmholtz Centre for Environmental Research \u2013 UFZ",
+                "@type": "Organization",
+                "identifier": "https://ror.org/000h6jb29"
+            }
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "email": "christian.moellmann@uni-hamburg.de",
+            "givenName": "Christian",
+            "familyName": "M\u00f6llmann",
+            "affiliation": {
+                "@id": "https://ror.org/00g30e956",
+                "url": "http://www.uni-hamburg.de",
+                "name": "Universit\u00e4t Hamburg",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00g30e956"
+            }
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Person",
+            "email": "vanessa.stelzenmueller@thuenen.de",
+            "givenName": "Vanessa",
+            "familyName": "Stelzenm\u00fcller",
+            "affiliation": {
+                "name": "Thuenen Institute of Sea Fisheries",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-2023-9815",
+            "@type": "Role",
+            "roleName": "copyrightHolder"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-2023-9815",
+            "@type": "Role",
+            "roleName": "publisher"
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-8780-4420",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-8780-4420",
+            "@type": "Role",
+            "roleName": "collaborator"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1769-3064",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1769-3064",
+            "@type": "Role",
+            "roleName": "collaborator"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "consumat",
+        "Fisheries",
+        "human behavior",
+        "North Sea",
+        "socio-ecological systems"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/dzcq-6c02",
+        "https://doi.org/10.25937/dzcq-6c02"
+    ],
+    "dateCreated": "2024-01-17",
+    "description": "FIsheries Simulation with Human COmplex DEcision-making (FISHCODE) is an agent-based model to depict and analyze current and future spatio-temporal dynamics of three German fishing fleets in the southern North Sea. Every agent (fishing vessel) makes daily decisions about if, what, and how long to fish. Weather, fuel and fish prices, as well as the actions of their colleagues influence agents\u2019 decisions. To combine behavioral theories and enable agents to make dynamic decision, we implemented the Consumat approach, a framework in which agents\u2019 decisions vary in complexity and social engagement depending on their satisfaction and uncertainty. Every agent has three satisfactions and two uncertainties representing different behavioral aspects, i.e. habitual behavior, profit maximization, competition, conformism, and planning insecurity. Availability of extensive information on fishing trips allowed us to parameterize many model parameters directly from data, while others were calibrated using pattern oriented modelling. Model validation showed that spatial and temporal aggregated ABM outputs were in realistic ranges when compared to observed data. Our ABM hence represents a tool to assess the impact of the ever growing challenges to North Sea fisheries and provides insight into fisher behavior beyond profit maximization.",
+    "downloadUrl": "https://www.comses.net/codebases/83edaf80-3473-46af-abe2-332544433205/releases/1.1.0/download/",
+    "dateModified": "2024-08-09",
+    "releaseNotes": "FISHCODE v1.1\n",
+    "copyrightYear": 2024,
+    "datePublished": "2024-08-05",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Netlogo 6.4.0"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Netlogo 6.4.0",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "@id": "https://www.comses.net/codebases/6fda8878-8161-4d66-b08b-8cab556477ca/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/6fda8878-8161-4d66-b08b-8cab556477ca/releases/1.0.0/",
+    "name": "Simulating Sustainability of Collective Awareness Platform for Sustainability and Social Innovation (CAPS)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-1205-823X",
+            "@type": "Person",
+            "email": "p.gerbrands@uu.nl",
+            "givenName": "Peter",
+            "familyName": "Gerbrands",
+            "affiliation": {
+                "@id": "https://ror.org/04pp8hn57",
+                "url": "http://www.uu.nl/en",
+                "name": "Utrecht University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04pp8hn57"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-sa/4.0/",
+        "name": "CC-BY-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "DOI:10.13140/RG.2.2.25383.75689",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "agent-based model",
+        "community structure",
+        "NetLogo",
+        "simulation of social networks",
+        "social network analysis"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/6fda8878-8161-4d66-b08b-8cab556477ca/releases/1.0.0/",
+    "dateCreated": "2020-05-08",
+    "description": "In an associated paper which focuses on analyzing the structure of several egocentric networks of collective awareness platforms for sustainable innovation (CAPS), this model is developed. It answers the question whether the network structure is determinative for the sustainability of the created awareness. Based on a thorough literature review a model is developed to explain and operationalize the concept of sustainability of a social network in terms of importance, effectiveness and robustness. By developing this agent-based model, the expected outcomes after the dissolution of the CAPS are predicted and compared with the results of a network with the same participants but with different ties. Twitter data from different CAPS is collected and used to feed the simulation. The results show that the structure of the network is of key importance for its sustainability. With this knowledge and the ability to simulate the results after network changes have taken place, CAPS can assess the sustainability of their legacy and actively steer towards a longer lasting potential for social innovation. The retrieved knowledge urges organizations like the European Commission to adopt a more blended approach focusing not only on solving societal issues but on building a community to sustain the initiated development.",
+    "downloadUrl": "https://www.comses.net/codebases/6fda8878-8161-4d66-b08b-8cab556477ca/releases/1.0.0/download/",
+    "dateModified": "2020-05-08",
+    "releaseNotes": "Initial release used for master thesis.",
+    "copyrightYear": 2020,
+    "datePublished": "2020-05-08",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Gerbrands, Peter (2016), Sustainability of CAPS Social Network: a Network Analysis Approach using Agent-Based Simulation, DOI: 10.13140/RG.2.2.25383.75689"
+}

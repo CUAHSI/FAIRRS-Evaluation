@@ -1,0 +1,54 @@
+{
+    "@id": "https://www.comses.net/codebases/7d757e75-8ca6-4f19-b861-2eeae28615cb/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/7d757e75-8ca6-4f19-b861-2eeae28615cb/releases/1.0.0/",
+    "name": "Critical Sustainability Transitions: Relaunching local agriculture after decline (Model code and description)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/4069/",
+            "@type": "Person",
+            "email": "pedro.lopez-merino@univ-cotedazur.fr",
+            "givenName": "Pedro",
+            "familyName": "Lopez-Merino"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "land-use",
+        "network effects",
+        "phase transition",
+        "resilience"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/7d757e75-8ca6-4f19-b861-2eeae28615cb/releases/1.0.0/",
+    "dateCreated": "2024-04-30",
+    "description": "This model simulates the dynamics of agricultural land use change, specifically the transition between agricultural and non-agricultural land use in a spatial context. It explores the influence of various factors such as agricultural profitability, path dependency, and neighborhood effects on land use decisions.\n\nThe model operates on a grid of patches representing land parcels. Each patch can be in one of two states: exploited (green, representing agricultural land) or unexploited (brown, representing non-agricultural land). Agents (patches) transition between these states based on probabilistic rules. The main factors affecting these transitions are agricultural profitability, path dependency, and neighborhood effects.\n-Agricultural Profitability: This factor is determined by the prob-agri function, which calculates the probability of a non-agricultural patch converting to agricultural based on income differences between agriculture and other sectors. -Path Dependency: Represented by the path-dependency parameter, it influences the likelihood of patches changing their state based on their current state. It\u2019s a measure of inertia or resistance to change. -Neighborhood Effects: The neighborhood function calculates the number of exploited (agricultural) neighbors of a patch. This influences the decision of a patch to convert to agricultural land, representing the influence of surrounding land use on the decision-making process.",
+    "downloadUrl": "https://www.comses.net/codebases/7d757e75-8ca6-4f19-b861-2eeae28615cb/releases/1.0.0/download/",
+    "dateModified": "2024-04-30",
+    "releaseNotes": "This is the first version of a model conceived for an academic article. It will be adapted according on demand by reviewers.",
+    "copyrightYear": 2024,
+    "datePublished": "2024-04-30",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetlLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Netlogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "To be provided later."
+}

@@ -1,0 +1,60 @@
+{
+    "@id": "https://www.comses.net/codebases/4727/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4727/releases/1.0.0/",
+    "name": "Irrigation Equity and Efficiency",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-1164-312X",
+            "@type": "Person",
+            "email": "bellar@bu.edu",
+            "givenName": "Andrew",
+            "familyName": "Bell",
+            "affiliation": {
+                "@id": "https://ror.org/05qwgg493",
+                "url": "http://www.bu.edu/",
+                "name": "Boston University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05qwgg493"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1164-312X",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4727/releases/1.0.0/",
+    "dateCreated": "2016-08-30",
+    "description": "This framework addresses the question of how productivity of irrigated agricultural landscapes and the distribution of agricultural opportunity would shift if fees assessed to irrigators were raised to better cover costs of system maintenance.  While it is a mantra that farmers are not able to pay the costs of water, recent experimental evidence from Pakistan ([Bell, Shah, & Ward, 2014](http://onlinelibrary.wiley.com/doi/10.1002/2014WR015704/abstract)) suggests that they would often be willing to pay much more if it meant receiving a reliable supply.\r\n\r\nThe framework embeds several modules that may be of broader utility:\r\n\r\n1.\t[A genetic algorithm to select an optimal land-use portfolio](http://dx.doi.org/10.5281/zenodo.21967) (set of crop rotations) based on a list of available crops and expected water receipt.  Traits for crossover are individual crop rotations; points for mutation include crops within rotations as well as land and water allocations to rotations within a portfolio.\r\n\r\n2.\t[A simple node-link-based model for water transport in an irrigation system](http://dx.doi.org/10.5281/zenodo.29896).  This model assumes all water entering the inlet will clear the system within the time-step (i.e., no built-in concept of flow rate or residence time).  Flow entering a node is drawn proportionally by linked farms based on allocation, and flows out proportionally to connected outlet channels based on design capacity.\r\n\r\n3.\t[A module for solving the lumpy market for agricultural water rights](http://dx.doi.org/10.5281/zenodo.29895).  Irrigators may potentially be buyers or sellers \u2013 i.e., they might have too much water to grow one crop, but too little to grow another, higher value crop \u2013 so that bid and offer prices can be very different depending on the volume of water rights for sale.  Matching buyers to sellers is a solution of the knapsack problem ([Strandmark, 2009](http://www.mathworks.com/matlabcentral/fileexchange/22783-0-1-knapsack/content/knapsack.m)).",
+    "downloadUrl": "https://www.comses.net/codebases/4727/releases/1.0.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "This is the first version of this model framework and has not yet been published.",
+    "copyrightYear": 2016,
+    "datePublished": "2016-08-30",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "MatLab"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "MatLab",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Bell, A. R., P. S. Ward, and M. A. A. Shah. 2016. Increased water charges improve efficiency and equity in an irrigation system. Ecology and Society 21(3):23.\r\nhttp://dx.doi.org/10.5751/ES-08642-210323"
+}

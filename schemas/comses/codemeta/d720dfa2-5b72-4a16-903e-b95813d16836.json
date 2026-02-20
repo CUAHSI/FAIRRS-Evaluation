@@ -1,0 +1,69 @@
+{
+    "@id": "https://www.comses.net/codebases/d720dfa2-5b72-4a16-903e-b95813d16836/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/d720dfa2-5b72-4a16-903e-b95813d16836/releases/1.0.0/",
+    "name": "Two agent-based models of cooperation in dynamic groups and fixed social networks",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-3664-4989",
+            "@type": "Person",
+            "email": "c.a.de.matos.fernandes@rug.nl",
+            "givenName": "Carlos A.",
+            "familyName": "de Matos Fernandes",
+            "affiliation": {
+                "@id": "https://ror.org/012p63287",
+                "url": "http://www.rug.nl/",
+                "name": "University of Groningen",
+                "@type": "Organization",
+                "identifier": "https://ror.org/012p63287"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "ABM",
+        "agent-based model",
+        "cooperation",
+        "homophily",
+        "meritocratic matching",
+        "noise",
+        "prosociality segregation",
+        "random spatial graph",
+        "reinforcement learning",
+        "social network",
+        "stochastic threshold model"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/d720dfa2-5b72-4a16-903e-b95813d16836/releases/1.0.0/",
+    "dateCreated": "2021-01-13",
+    "description": "Both models simulate n-person prisoner dilemma in groups (left figure) where agents decide to C/D \u2013 using a stochastic threshold algorithm with reinforcement learning components. We model fixed (*single group ABM*) and dynamic groups (*bad-barrels ABM*). The purpose of the *bad-barrels model* is to assess the impact of information during meritocratic matching. In the *bad-barrels model*, we incorporated a multidimensional structure in which agents are also embedded in a social network (2-person PD). We modeled a random and homophilous network via a random spatial graph algorithm (right figure). ",
+    "downloadUrl": "https://www.comses.net/codebases/d720dfa2-5b72-4a16-903e-b95813d16836/releases/1.0.0/download/",
+    "dateModified": "2022-01-20",
+    "releaseNotes": "Version 1.0.0 of June 2021",
+    "copyrightYear": 2022,
+    "datePublished": "2022-01-20",
+    "embargoEndDate": "2022-01-19",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "de Matos Fernandes, C.A., Flache, A., Bakker, D.M., & Dijkstra, J. (2022). A Bad Barrel Spoils a Good Apple: How Uncertainty and Networks Affect Whether Matching Rules Can Foster Cooperation. *Journal of Artificial Societies and Social Simulation, 25*(1), 6. doi: 10.18564/jasss.4754"
+}

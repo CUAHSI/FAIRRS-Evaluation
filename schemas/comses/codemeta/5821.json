@@ -1,0 +1,89 @@
+{
+    "@id": "https://www.comses.net/codebases/5821/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5821/releases/1.0.0/",
+    "name": "Demand Planning Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2019/",
+            "@type": "Person",
+            "email": "jonas.hauke@tuhh.de",
+            "givenName": "Jonas",
+            "familyName": "Hauke"
+        },
+        {
+            "@id": "https://www.comses.net/users/1736/",
+            "@type": "Person",
+            "email": "iris.lorscheid@tuhh.de",
+            "givenName": "Iris",
+            "familyName": "Lorscheid",
+            "affiliation": {
+                "@id": "https://ror.org/04bs1pb34",
+                "url": "http://www.tuhh.de/",
+                "name": "Institute of Management Accounting and Simulation, Hamburg University of Technology",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04bs1pb34"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Matthias",
+            "familyName": "Meyer"
+        },
+        {
+            "@id": "https://www.comses.net/users/2019/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://www.comses.net/users/1736/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "collective decision making",
+        "distributed cognition",
+        "forecasting",
+        "supply chain management"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5821/releases/1.0.0/",
+    "dateCreated": "2017-10-04",
+    "description": "The demand planning process in semiconductor supply chains faces many challenges. In this process, individuals, their properties such as sensing capabilities and their interactions play a crucial role. The model provides a computational testbed to investigate these aspects with respect to forecast accuracy. Based on the requirements of the demand planning context, we develop an empirically validated agent-based model. The model incorporates concepts from behavioral science and the distributed cognition perspective. Simulation results show that the demand planning accuracy does not depend on the capabilities of planners alone, but that the interactions of the individuals, emerging from the process design, may both positively and negatively affect accuracy.",
+    "downloadUrl": "https://www.comses.net/codebases/5821/releases/1.0.0/download/",
+    "dateModified": "2018-02-19",
+    "releaseNotes": "",
+    "copyrightYear": 2017,
+    "datePublished": "2017-10-04",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "AnyLogic"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Hauke, J., Lorscheid, I., & Meyer, M. (2017). Individuals and their interactions in demand planning processes: an agent-based, computational testbed. International Journal of Production Research.\r\nhttp://dx.doi.org/10.1080/00207543.2017.1377356"
+}

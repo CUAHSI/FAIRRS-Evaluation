@@ -1,0 +1,57 @@
+{
+    "@id": "https://www.comses.net/codebases/bcbd75bd-432a-4d00-b5a1-ceeb45aa5e45/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/bcbd75bd-432a-4d00-b5a1-ceeb45aa5e45/releases/1.0.0/",
+    "name": "Adoption of a new regulation",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Person",
+            "email": "marco.janssen@asu.edu",
+            "givenName": "Marco",
+            "familyName": "Janssen",
+            "affiliation": {
+                "url": "https://schoolofsustainability.asu.edu/",
+                "name": "School of Sustainability",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "common pool resource",
+        "institutional evolution",
+        "trust"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/bcbd75bd-432a-4d00-b5a1-ceeb45aa5e45/releases/1.0.0/",
+    "dateCreated": "2019-01-26",
+    "description": "A group of agents share a resource and agents will become sufficiently motivated to adopt a rule to constraint their freedom if they experience resource scarcity and developed mutual trust relationships.",
+    "downloadUrl": "https://www.comses.net/codebases/bcbd75bd-432a-4d00-b5a1-ceeb45aa5e45/releases/1.0.0/download/",
+    "dateModified": "2019-01-26",
+    "releaseNotes": "This is a replication of Janssen and Ostrom (2006) in NetLogo. The model was originally implemented in Cormas.\n\nJanssen, M.A., and E. Ostrom (2006). Adoption of a New Regulation for the Governance of Common-Pool Resources by a Heterogeneous Population. In Inequality, Cooperation, and Environmental Sustainability, ed. Jean-Marie Baland, Pranab Bardhan, and Samuel Bowles. Princeton, NJ: Princeton University Press, pp. 60-96.",
+    "copyrightYear": 2019,
+    "datePublished": "2019-01-26",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

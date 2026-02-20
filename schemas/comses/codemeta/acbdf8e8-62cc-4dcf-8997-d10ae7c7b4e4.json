@@ -1,0 +1,102 @@
+{
+    "@id": "https://www.comses.net/codebases/acbdf8e8-62cc-4dcf-8997-d10ae7c7b4e4/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/acbdf8e8-62cc-4dcf-8997-d10ae7c7b4e4/releases/1.0.0/",
+    "name": "CA_Assiut_v1.0",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/3717/",
+            "@type": "Person",
+            "email": "m.m.i.abdelkader@gmail.com"
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-4624-488X",
+            "@type": "Person",
+            "email": "n.schwarz@utwente.nl",
+            "givenName": "Nina",
+            "familyName": "Schwarz",
+            "affiliation": {
+                "@id": "https://ror.org/000h6jb29",
+                "url": "http://www.ufz.de/index.php?de=11385",
+                "name": "Helmholtz Centre for Environmental Research \u2013 UFZ",
+                "@type": "Organization",
+                "identifier": "https://ror.org/000h6jb29"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/2132/",
+            "@type": "Person",
+            "email": "yang.chen@wur.nl",
+            "givenName": "Yang",
+            "familyName": "Chen",
+            "affiliation": {
+                "@id": "https://ror.org/006hf6230",
+                "url": "http://www.utwente.nl/en/",
+                "name": "University of Twente",
+                "@type": "Organization",
+                "identifier": "https://ror.org/006hf6230"
+            }
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "email": "m.m.abdelkader@utwente.nl",
+            "givenName": "Mahmood",
+            "familyName": "Abdelkader",
+            "affiliation": {
+                "@id": "https://ror.org/006hf6230",
+                "url": "http://www.utwente.nl/en/",
+                "name": "University of Twente",
+                "@type": "Organization",
+                "identifier": "https://ror.org/006hf6230"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-4624-488X",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "https://www.comses.net/users/2132/",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/acbdf8e8-62cc-4dcf-8997-d10ae7c7b4e4/releases/1.0.0/",
+    "dateCreated": "2022-10-09",
+    "description": "The purpose of the model is to simulate the future growth of human settlements in the Nile river valley in Egypt. The model contains processes to mimic spatial patterns found in the case study region.",
+    "downloadUrl": "https://www.comses.net/codebases/acbdf8e8-62cc-4dcf-8997-d10ae7c7b4e4/releases/1.0.0/download/",
+    "dateModified": "2022-10-09",
+    "releaseNotes": "The input and output data are ASCII files",
+    "copyrightYear": 2022,
+    "datePublished": "2022-10-09",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo 6.2.0"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo 6.2.0",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

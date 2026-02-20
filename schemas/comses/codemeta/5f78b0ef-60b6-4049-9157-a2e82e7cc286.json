@@ -1,0 +1,77 @@
+{
+    "@id": "https://doi.org/10.25937/dhtz-a433",
+    "url": "https://doi.org/10.25937/dhtz-a433",
+    "name": "PrioritEvac: An Agent-Based Model of Evacuation from Building Fires",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-3872-4974",
+            "@type": "Person",
+            "email": "efyoung@udel.edu",
+            "givenName": "Eileen",
+            "familyName": "Young",
+            "affiliation": {
+                "@id": "https://ror.org/01sbq1a82",
+                "url": "http://www.udel.edu/",
+                "name": "University of Delaware",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01sbq1a82"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-3872-4974",
+            "@type": "Role",
+            "roleName": "maintainer"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-3872-4974",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-3872-4974",
+            "@type": "Role",
+            "roleName": "publisher"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "ABM",
+        "NetLogo"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/dhtz-a433",
+        "https://doi.org/10.25937/dhtz-a433"
+    ],
+    "dateCreated": "2019-11-07",
+    "description": "This simulation is of the 2003 Station Nightclub Fire and is part of the Interdependencies in Community Resilience (ICoR) project (http://www-personal.umich.edu/~eltawil/icor.html). The git contains the simulation as well as csvs of data about the fire, smoke, building, and people involved.",
+    "downloadUrl": "https://www.comses.net/codebases/5f78b0ef-60b6-4049-9157-a2e82e7cc286/releases/1.0.0/download/",
+    "dateModified": "2019-12-19",
+    "releaseNotes": "All NetLogo files and .csvs in the main file are required to run the simulation. ",
+    "copyrightYear": 2019,
+    "datePublished": "2019-12-06",
+    "codeRepository": "https://github.com/efyoungud/stationfire",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

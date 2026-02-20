@@ -1,0 +1,80 @@
+{
+    "@id": "https://doi.org/10.25937/ghsa-8208",
+    "url": "https://doi.org/10.25937/ghsa-8208",
+    "name": "The Megafauna Hunting Pressure Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1937/",
+            "@type": "Person",
+            "email": "iullah@sdsu.edu",
+            "givenName": "Isaac",
+            "familyName": "Ullah",
+            "affiliation": {
+                "@id": "https://ror.org/0264fdx42",
+                "url": "http://www.sdsu.edu/",
+                "name": "San Diego State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0264fdx42"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "Kopels@unlv.nevada.edu",
+            "givenName": "Miriam",
+            "familyName": "Kopels",
+            "affiliation": {
+                "@id": "https://ror.org/0406gha72",
+                "url": "http://www.unlv.edu/",
+                "name": "University of Nevada, Las Vegas",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0406gha72"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "extinction",
+        "herd population dynamics",
+        "hunting",
+        "hunting and gathering",
+        "megafauna",
+        "ungulate life history"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/ghsa-8208",
+        "https://doi.org/10.25937/ghsa-8208"
+    ],
+    "dateCreated": "2024-02-16",
+    "description": "The Megafaunal Hunting Pressure Model (MHPM) is an interactive, agent-based model designed to conduct experiments to test megaherbivore extinction hypotheses. The MHPM is a model of large-bodied ungulate population dynamics with human predation in a simplified, but dynamic grassland environment. The overall purpose of the model is to understand how environmental dynamics and human predation preferences interact with ungulate life history characteristics to affect ungulate population dynamics over time. The model considers patterns in environmental change, human hunting behavior, prey profitability, herd demography, herd movement, and animal life history as relevant to this main purpose. The model is constructed in the NetLogo modeling platform (Version 6.3.0; Wilensky, 1999).",
+    "downloadUrl": "https://www.comses.net/codebases/d42eac84-ac76-43f7-8c14-5f5cc5fbf7f8/releases/1.1.0/download/",
+    "dateModified": "2024-12-05",
+    "releaseNotes": "Version 1.0 - initial release",
+    "copyrightYear": 2024,
+    "datePublished": "2024-10-11",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo 6.3.0"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Kopels, M.C., and Ullah, I.I.T. (2024), Modeling post-Pleistocene megafauna extinctions as complex social-ecological systems. Quaternary Research. (paper is accepted, DOI pending)"
+}

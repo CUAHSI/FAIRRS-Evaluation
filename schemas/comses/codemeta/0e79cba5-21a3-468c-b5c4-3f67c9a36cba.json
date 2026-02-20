@@ -1,0 +1,67 @@
+{
+    "@id": "https://www.comses.net/codebases/0e79cba5-21a3-468c-b5c4-3f67c9a36cba/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/0e79cba5-21a3-468c-b5c4-3f67c9a36cba/releases/1.0.0/",
+    "name": "Can ethnic tolerance curb self-reinforcing school segregation? A theoretical Agent Based Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-9310-5423",
+            "@type": "Person",
+            "email": "lucas.sage@etu.sorbonne-universite.fr",
+            "givenName": "Lucas",
+            "familyName": "Sage"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-8276-8819",
+            "@type": "Person",
+            "email": "a.flache@rug.nl",
+            "givenName": "Andreas",
+            "familyName": "Flache",
+            "affiliation": {
+                "@id": "https://ror.org/012p63287",
+                "url": "http://www.rug.nl/",
+                "name": "University of Groningen, Department of Sociology",
+                "@type": "Organization",
+                "identifier": "https://ror.org/012p63287"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-8276-8819",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/0e79cba5-21a3-468c-b5c4-3f67c9a36cba/releases/1.0.0/",
+    "dateCreated": "2020-08-10",
+    "description": "Schelling and Sakoda prominently proposed computational models suggesting that strong ethnic residential segregation can be the unintended outcome of a self-reinforcing dynamic driven by choices of individuals with rather tolerant ethnic preferences. There are only few attempts to apply this view to school choice, another important arena in which ethnic segregation occurs. In the current paper, we explore with an agent-based theoretical model similar to those proposed for residential segregation, how ethnic tolerance among parents can affect the level of school segregation. More specifically, we ask whether and under which conditions school segregation could be reduced if more parents hold tolerant ethnic preferences. We move beyond earlier models of school segregation in three ways. First, we model individual school choices using a random utility discrete choice approach. Second, we vary the pattern of ethnic segregation in the residential context of school choices systematically, comparing residential maps in which segregation is unrelated to parents\u2019 level of tolerance to residential maps reflecting their ethnic preferences. Third, we introduce heterogeneity in tolerance levels among parents belonging to the same group. Our simulation experiments suggest that ethnic school segregation can be a very robust phenomenon, occurring even when about half of the population prefers mixed to segregated schools. However, we also identify a \u201csweet spot\u201d in the parameter space in which a larger proportion of tolerant parents makes the biggest difference. This is the case when parents have moderate preferences for nearby schools and there is only little residential segregation. Further experiments are presented that unravel the underlying mechanisms.\n",
+    "downloadUrl": "https://www.comses.net/codebases/0e79cba5-21a3-468c-b5c4-3f67c9a36cba/releases/1.0.0/download/",
+    "dateModified": "2020-12-15",
+    "releaseNotes": "see the ReadMe.txt file to use the program.",
+    "copyrightYear": 2020,
+    "datePublished": "2020-08-10",
+    "embargoEndDate": "2020-09-06",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

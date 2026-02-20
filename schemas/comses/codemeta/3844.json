@@ -1,0 +1,74 @@
+{
+    "@id": "https://www.comses.net/codebases/3844/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/3844/releases/1.1.0/",
+    "name": "Agent-based model of risk behavior in adolescence",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1085/",
+            "@type": "Person",
+            "email": "nschu_04@uni-muenster.de",
+            "givenName": "N",
+            "familyName": "Schuhmacher"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "P",
+            "familyName": "Van Geert"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "L",
+            "familyName": "Ballato"
+        },
+        {
+            "@id": "https://www.comses.net/users/1085/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3844/releases/1.1.0/",
+    "dateCreated": "2013-07-12",
+    "description": "The present model is a combination of a discrete dynamical systems and an agent based model. The formal model consists of a number of coupled equations and decision rules that work in an iterative way. Our model consists of agents with individual property matrices for: behavior, similarity, preference, mutuality, interaction, interaction value, popularity and evaluation. The agents can perform two types of behaviors, namely conventional behaviors (i.e., study, sports and work) and risk behaviors (i.e., use of alcohol, display of aggressiveness and use of soft drugs). The proportional distribution of these properties determines if the agents have a risky, conventional or average lifestyle. The properties behavior and similarity are divided into perceived and real behavior and perceived and real similarity respectively.   \r\n\r\nTo start working with the model, it is best to read the user manual first . If you want to get started soon using the model, have a look at the section Getting started (using the model).   \r\n\r\nNote that the Excel file makes use of Visual Basic routines which contain the equations of the simulation model, and several other functions used to run the model or to calculate results. You must have Visual Basic for Applications installed in your version of Excel, but a standard PC installation of Excel also installs Visual Basic automatically. To run the model, you must be able to run macros and ActiveX controls. Check your security settings (see section on Excel Macro Security for Excel 2007 or Later in the user manual). While opening the file an excel security warning will appear. Click on \u201cOptions\u2026\u201d and say \u201cEnable this content\u201d (enables macros and ActiveX).\r\n\r\nSince the model is using a call to Visual Basic, it does not run on Mac computers. If you want to check the code, you can do so by opening Visual Basic in the Excel from the Developer menu tab.",
+    "downloadUrl": "https://www.comses.net/codebases/3844/releases/1.1.0/download/",
+    "dateModified": "2019-04-08",
+    "releaseNotes": "Version 2.46",
+    "copyrightYear": 2019,
+    "datePublished": "2019-04-08",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Excel"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "VBA",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

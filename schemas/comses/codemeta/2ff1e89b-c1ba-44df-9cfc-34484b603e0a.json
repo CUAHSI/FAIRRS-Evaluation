@@ -1,0 +1,56 @@
+{
+    "@id": "https://doi.org/10.25937/xt1v-6b16",
+    "url": "https://doi.org/10.25937/xt1v-6b16",
+    "name": "MADTOR: Model for Assessing Drug Trafficking Organizations Resilience",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-0211-8697",
+            "@type": "Person",
+            "email": "deborah.manzi@unicatt.it",
+            "givenName": "Deborah",
+            "familyName": "Manzi"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc/4.0",
+        "name": "CC-BY-NC-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Manzi, D., & Calderoni, F. (2024). An Agent-Based Model for Assessing the Resilience of Drug Trafficking Organizations to Law Enforcement Interventions. Journal of Artificial Societies and Social Simulation, 27(3), 3. https://doi.org/10.18564/jasss.5430\n\nManzi, D., & Calderoni, F. (2024). The resilience of drug trafficking organizations: Simulating the impact of police arresting key roles. Journal of Criminal Justice, 91, 102165. https://doi.org/10.1016/j.jcrimjus.2024.102165",
+            "@type": "CreativeWork"
+        }
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/xt1v-6b16",
+        "https://doi.org/10.25937/xt1v-6b16"
+    ],
+    "dateCreated": "2022-05-04",
+    "description": "Criminal organizations operate in complex changing environments. Being flexible and dynamic allows criminal networks not only to exploit new illicit opportunities but also to react to law enforcement attempts at disruption, enhancing the persistence of these networks over time. Most studies investigating network disruption have examined organizational structures before and after the arrests of some actors but have disregarded groups\u2019 adaptation strategies.\nMADTOR simulates drug trafficking and dealing activities by organized criminal groups and their reactions to law enforcement attempts at disruption. The simulation relied on information retrieved from a detailed court order against a large-scale Italian drug trafficking organization (DTO) and from the literature.\nThe results showed that the higher the proportion of members arrested, the greater the challenges for DTOs, with higher rates of disrupted organizations and long-term consequences for surviving DTOs. Second, targeting members performing specific tasks had different impacts on DTO resilience: targeting traffickers resulted in the highest rates of DTO disruption, while targeting actors in charge of more redundant tasks (e.g., retailers) had smaller but significant impacts. Third, the model examined the resistance and resilience of DTOs adopting different strategies in the security/efficiency trade-off. Efficient DTOs were more resilient, outperforming secure DTOs in terms of reactions to a single, equal attempt at disruption. Conversely, secure DTOs were more resistant, displaying higher survival rates than efficient DTOs when considering the differentiated frequency and effectiveness of law enforcement interventions on DTOs having different focuses in the security/efficiency trade-off.\nOverall, the model demonstrated that law enforcement interventions are often critical events for DTOs, with high rates of both first intention (i.e., DTOs directly disrupted by the intervention) and second intention (i.e., DTOs terminating their activities due to the unsustainability of the intervention\u2019s short-term consequences) culminating in dismantlement. However, surviving DTOs always displayed a high level of resilience, with effective strategies in place to react to threatening events and to continue drug trafficking and dealing. ",
+    "downloadUrl": "https://www.comses.net/codebases/2ff1e89b-c1ba-44df-9cfc-34484b603e0a/releases/1.1.0/download/",
+    "dateModified": "2025-11-04",
+    "releaseNotes": "First release",
+    "copyrightYear": 2024,
+    "datePublished": "2024-02-23",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo 6.2.0"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,103 @@
+{
+    "@id": "https://doi.org/10.25937/75wf-aa82",
+    "url": "https://doi.org/10.25937/75wf-aa82",
+    "name": "An agent-based simulation model of pedestrian evacuation based on Bayesian Nash Equilibrium",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-1804-2335",
+            "@type": "Person",
+            "email": "gyywa@leeds.ac.uk",
+            "givenName": "Yiyu",
+            "familyName": "Wang",
+            "affiliation": {
+                "@id": "https://ror.org/024mrxd33",
+                "url": "http://www.leeds.ac.uk/",
+                "name": "University of Leeds",
+                "@type": "Organization",
+                "identifier": "https://ror.org/024mrxd33"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-6491-3851",
+            "@type": "Person",
+            "email": "bobogejiaqi@hotmail.com",
+            "givenName": "Jiaqi",
+            "familyName": "Ge",
+            "affiliation": {
+                "@id": "https://ror.org/024mrxd33",
+                "url": "http://www.leeds.ac.uk/",
+                "name": "University of Leeds",
+                "@type": "Organization",
+                "identifier": "https://ror.org/024mrxd33"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-3652-7846",
+            "@type": "Person",
+            "email": "a.comber@leeds.ac.uk",
+            "givenName": "Alexis",
+            "familyName": "Comber",
+            "affiliation": {
+                "@id": "https://ror.org/024mrxd33",
+                "url": "http://www.leeds.ac.uk/",
+                "name": "University of Leeds",
+                "@type": "Organization",
+                "identifier": "https://ror.org/024mrxd33"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-6491-3851",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-3652-7846",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-sa/4.0/",
+        "name": "CC-BY-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent based modeling and simulation",
+        "Bayesian Nash Equilibrium",
+        "Crowd Simulation",
+        "game theory",
+        "Pedestrian Modelling"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/75wf-aa82",
+        "https://doi.org/10.25937/75wf-aa82"
+    ],
+    "dateCreated": "2022-07-06",
+    "description": "This ABM aims to introduce a new individual decision-making model, BNE into the ABM of pedestrian evacuation to properly model individual behaviours and motions in emergency situations. Three types of behavioural models has been developed, which are Shortest Route (SR) model, Random Follow (RF) model, and BNE model, to better reproduce evacuation dynamics in a tunnel space. A series of simulation experiments were conducted to evaluate the simulating performance of the proposed ABM.",
+    "downloadUrl": "https://www.comses.net/codebases/fd29c3e3-c4b4-4360-b13a-4e05ce287b02/releases/1.0.0/download/",
+    "dateModified": "2023-09-19",
+    "releaseNotes": "An agent-based evacuation simulation model of pedestrian flow was developed by introducing BNE to realistically simulate individual decision-making process and pedestrian behaviours in an emergency evacuation. The model aims to combine Bayesian game theory and an agent-based approach at an individual level, to provide an experimental environment of pedestrian flows to support research on crowd management and evacuation planning. It was hypothesized that a BNE approach was able to positively affect individual evacuations during model simulation because of its capacity to predict future congestion levels. A series of simulation experiments were conducted with different parameter configurations to understand whether and how BNE affects pedestrian emergency evacuations. \n\nThis model consists of Three behavioural models: Shortest Route (SR), Random Follow (RF) and BNE. The behavioural models were used to generate four moving patterns (i.e. model configurations): SR, RF, BNE mixed with SR, and BNE mixed with RF, which can be selected by the chooser \"moving-pattern\". The number of agents, the percentage of BNE users and other parameters can be adjusted by the corresponding sliders.",
+    "copyrightYear": 2022,
+    "datePublished": "2022-07-06",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo 6.2.2"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Wang, Y., Ge, J. and Comber, A., 2023. An Agent-Based Simulation Model of Pedestrian Evacuation Based on Bayesian Nash Equilibrium. Journal of Artificial Societies and Social Simulation, 26(3), 6. doi: 10.18564/jasss.5037\n\nWang, Y., Ge, J., and Comber, A.: An evacuation simulation model of pedestrian flow using Bayesian Nash equilibrium and a Multi-Agent System, AGILE GIScience Ser., 3, 68, https://doi.org/10.5194/agile-giss-3-68-2022, 2022."
+}

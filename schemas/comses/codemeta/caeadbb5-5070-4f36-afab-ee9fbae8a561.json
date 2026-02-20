@@ -1,0 +1,79 @@
+{
+    "@id": "https://www.comses.net/codebases/caeadbb5-5070-4f36-afab-ee9fbae8a561/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/caeadbb5-5070-4f36-afab-ee9fbae8a561/releases/1.0.0/",
+    "name": "Social Media",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/3388/",
+            "@type": "Person",
+            "email": "z1838117@students.niu.edu",
+            "givenName": "Lila",
+            "familyName": "Zayed",
+            "affiliation": {
+                "@id": "https://ror.org/012wxa772",
+                "url": "http://www.niu.edu/index.shtml",
+                "name": "Northern Illinois University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/012wxa772"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/3444/",
+            "@type": "Person",
+            "email": "vivianshamidi@gmail.com",
+            "givenName": "Vivian",
+            "familyName": "Hamidi",
+            "affiliation": {
+                "@id": "https://ror.org/012wxa772",
+                "url": "http://www.niu.edu/index.shtml",
+                "name": "Northern Illinois University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/012wxa772"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/3444/",
+            "@type": "Role",
+            "roleName": "collaborator"
+        },
+        {
+            "@id": "https://www.comses.net/users/3444/",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc/4.0",
+        "name": "CC-BY-NC-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/caeadbb5-5070-4f36-afab-ee9fbae8a561/releases/1.0.0/",
+    "dateCreated": "2021-11-29",
+    "description": "This project attempts to model how social media platforms recommend a user followers based on their interests, and how those individual interests change as a result of the influences from those they follow/are followed by.\n\nWe have three types of users on the platform:\n\nConsumers (\ud83d\udd34), who update their interests based on who they\u2019re following.\nCreators (\u2b1b), who update their interests based on who\u2019s following them.\nBots (\u26a1), who have fixed interests.\n\nAll users follow and unfollow another user on the platform every tick. To visually represent each user's interests, they are assigned a color representing the weighted average of the interests they hold.",
+    "downloadUrl": "https://www.comses.net/codebases/caeadbb5-5070-4f36-afab-ee9fbae8a561/releases/1.0.0/download/",
+    "dateModified": "2021-11-29",
+    "releaseNotes": "Netlogo Version 6.2 is required to run this model.\n\nThe sliders on the interface select the initial settings for the model, as well as provide a graphical overview of what interests have taken over the platform. Click SETUP to initialize the users, and GO to begin the simulation. The colors of each user show what interest they believe in most strongly. If a user follows/is followed by another user, it is represented by a directed link to the person being followed. \n\nINITIAL-NUM specifies the number of the users on the platform, while CONSUMER-PROPORTION/CREATOR-PROPORTION/BOT-PROPORTION control the proportions of each type of user. \n\nMIN-SUBS is the minimum amount of links a user can have before they become tired of the platform, and potentially leave, given that SIGN-UP-AND-EXIT is on. \n\nSIGN-UP-AND-EXIT allows new users to sign up every SIGN-UP-RATE ticks, and exit the platform every EXIT-RATE ticks that pass. \n\nAdjusting the sliders on the interface can impact the outcomes of the model in interesting ways, feel free to experiment and see what you find! ",
+    "copyrightYear": 2021,
+    "datePublished": "2021-11-29",
+    "codeRepository": "https://github.com/LilasCorner/modelingProject",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,95 @@
+{
+    "@id": "https://www.comses.net/codebases/d1f68595-04e8-4e12-8c95-ebbf9fd47687/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/d1f68595-04e8-4e12-8c95-ebbf9fd47687/releases/1.0.0/",
+    "name": "Animal territory formation (Reusable Building Block RBB)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "email": "robert@zakrzewski.info",
+            "givenName": "Robert",
+            "familyName": "Zakrzewski"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "kramer@izw-berlin.de",
+            "givenName": "Stephanie",
+            "familyName": "Kramer-Schadt",
+            "affiliation": {
+                "@id": "https://ror.org/05nywn832",
+                "url": "http://www.izw-berlin.de/welcome.html",
+                "name": "Leibniz Institute for Zoo and Wildlife Research",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05nywn832"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/14/",
+            "@type": "Person",
+            "email": "volker.grimm@ufz.de",
+            "givenName": "Volker",
+            "familyName": "Grimm",
+            "affiliation": {
+                "url": "http://www.ufz.de",
+                "name": "Helmholtz Center for Environmental Research - UFZ",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "collaborator"
+        },
+        {
+            "@id": "https://www.comses.net/users/14/",
+            "@type": "Role",
+            "roleName": "publisher"
+        },
+        {
+            "@id": "https://www.comses.net/users/14/",
+            "@type": "Role",
+            "roleName": "collaborator"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "This sub-model includes the essence of two earlier models, on common shrew and on tigers, which, however, also include demography and the establishment of new territories by yound adults.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/d1f68595-04e8-4e12-8c95-ebbf9fd47687/releases/1.0.0/",
+    "dateCreated": "2023-11-11",
+    "description": "This is a generic sub-model of animal territory formation. It is meant to be a reusable building block, but not in the plug-and-play sense, as amendments are likely to be needed depending on the species and region. The sub-model comprises a grid of cells, reprenting the landscape. Each cell has a \"quality\" value, which quantifies the amount of resources provided for a territory owner, for example a tiger. \"Quality\" could be prey density, shelter, or just space. Animals are located randomly in the landscape and add grid cells to their intial cell until the sum of the quality of all their cells meets their needs. If a potential new cell to be added is owned by another animal, competition takes place. The quality values are static, and the model does not include demography, i.e. mortality, mating, reproduction. Also, movement within a territory is not represented. ",
+    "downloadUrl": "https://www.comses.net/codebases/d1f68595-04e8-4e12-8c95-ebbf9fd47687/releases/1.0.0/download/",
+    "dateModified": "2023-11-12",
+    "releaseNotes": "This is the first version.",
+    "copyrightYear": 2023,
+    "datePublished": "2023-11-12",
+    "operatingSystem": "other",
+    "runtimePlatform": [
+        "Netlog0 6.2.2"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Carter, N., Levin, S., Barlow, A., & Grimm, V. (2015). Modeling tiger population and territory dynamics using an agent-based approach. Ecological Modelling, 312, 347-362. \n\nWang, M., & Grimm, V. (2007). Home range dynamics and population regulation: an individual-based model of the common shrew Sorex araneus. Ecological Modelling, 205(3-4), 397-409."
+}

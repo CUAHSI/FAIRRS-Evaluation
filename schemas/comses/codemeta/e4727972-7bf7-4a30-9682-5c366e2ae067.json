@@ -1,0 +1,72 @@
+{
+    "@id": "https://www.comses.net/codebases/e4727972-7bf7-4a30-9682-5c366e2ae067/releases/2.2.0/",
+    "url": "https://www.comses.net/codebases/e4727972-7bf7-4a30-9682-5c366e2ae067/releases/2.2.0/",
+    "name": "MiniDemographicABM.jl: A simplified agent-based demographic model of the UK",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/4057/",
+            "@type": "Person",
+            "email": "atiyah.elsheikh@glasgow.ac.uk",
+            "givenName": "Atiyah",
+            "familyName": "Elsheikh",
+            "affiliation": {
+                "@id": "https://ror.org/00vtgdb53",
+                "url": "http://www.gla.ac.uk/",
+                "name": "University of Glasgow",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00vtgdb53"
+            }
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "2.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "[1] Atiyah Elsheikh, Specification of MiniDemographicABM.jl: A simplified agent-based demographic model of the UK. Technical report, arXiv:2307.16548, 2023\n[2] Atiyah Elsheikh, Formal specification terminology for demographic agent-based models of fixed-step single-clocked simulations. Technical report, arXiv.2308.13081, 2023\n[3] Umberto Gostoli and Eric Silverman Social and child care provision in kinship networks: An agent-based model. PLoS ONE 15(12): 2020 (https://doi.org/10.1371/journal.pone.0242779)\n[4] George Datseris, Ali R. Vahdati, Timothy C. DuBois: Agents.jl: a performant and feature-full agent-based modeling software of minimal code complexity. SIMULATION. 2022. doi:10.1177/00375497211068820\n[5] Vaibhav Kumar Dixit and Christopher Rackauckas: GlobalSensitivity.jl: Performant and Parallel Global Sensitivity Analysis with Julia, Journal of Open Source Software, 2022\n[6] F. Campolongo, J. Cariboni & A. Saltelli (2007). An effective screening design for sensitivity analysis of large models. Environmental Modelling & Software, 22(10), 1509\u20131518.\n[7] A. Saltelli, Making best use of model evaluations to compute sensitivity indices, Computer Physics Communications 145, 2002\n[8] G. ten Broeke, G. van Voorn & A. Ligtenberg. Which sensitivty analysis method should I use for my agent-based model?, Journal of Artificial Societes and Social Simulation 19(1) 5, 2016\n[9] J. Cariboni a b, D. Gatelli a, R. Liska a and A. Saltelli, The role of sensitivity analysis in ecological modelling, Ecological Modelling 2007",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "demography",
+        "Julia",
+        "julia-lang",
+        "united kingdom"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/e4727972-7bf7-4a30-9682-5c366e2ae067/releases/2.2.0/",
+    "dateCreated": "2023-07-14",
+    "description": "This package implements a simplified artificial agent-based demographic model of the UK. Individuals of an initial population are subject to ageing, deaths, births, divorces and marriages. A specific case-study simulation is progressed with a user-defined simulation fixed step size on a hourly, daily, weekly, monthly basis or even an arbitrary user-defined clock rate. While the model can serve as a base model to be adjusted to realistic large-scale socio-economics, pandemics or social interactions-based studies mainly within a demographic context, the main purpose of the model is to explore and exploit capabilities of the state-of-the-art Agents.jl Julia package as well as other ecosystem of Julia packages like GlobalSensitivity.jl. Code includes examples for evaluating global sensitivity analysis using Morris and Sobol methods and local sensitivity analysis using OFAT and OAT methods. Multi-threaded parallelization is enabled for improved runtime performance.\n\n",
+    "downloadUrl": "https://www.comses.net/codebases/e4727972-7bf7-4a30-9682-5c366e2ae067/releases/2.2.0/download/",
+    "dateModified": "2023-12-12",
+    "releaseNotes": "v2.2 (12.12.23): OAT Local SA, SA of non-deterministic function by multiple execution of methods or functions each with different seed number, multi-level multi-threading (33% speedup)",
+    "copyrightYear": 2023,
+    "datePublished": "2023-12-12",
+    "codeRepository": "https://github.com/MRC-CSO-SPHSU/MiniDemographicABM.jl",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Agents.jl"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Julia",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "julia-lang",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "[1] Atiyah Elsheikh, Specification of MiniDemographicABM.jl: A simplified agent-based demographic model of the UK. Technical report, arXiv:2307.16548, 2023"
+}

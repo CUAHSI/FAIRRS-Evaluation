@@ -1,0 +1,69 @@
+{
+    "@id": "https://www.comses.net/codebases/e0c890e9-599f-4539-ad48-f59130083b31/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/e0c890e9-599f-4539-ad48-f59130083b31/releases/1.0.0/",
+    "name": "HCAM: A Hybrid Climate Assessment Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-0603-5904",
+            "@type": "Person",
+            "email": "peer-olaf.siebers@nottingham.ac.uk",
+            "givenName": "Peer-Olaf",
+            "familyName": "Siebers",
+            "affiliation": {
+                "url": "https://www.nottingham.ac.uk/",
+                "name": "Nottingham University, School of Computer Science",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "HCAM incorporates a simplified version of the coupled Climate-Economy SD model described in Fiddaman TS (1997) Feedback Complexity in Integrated Climate-Economy Models. Doctoral Dissertation: Massachusetts Institute of Technology, Cambridge, MA, USA.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "agent-based model",
+        "Climate Change",
+        "hybridisation",
+        "integrated assessment modeling",
+        "methodological advance",
+        "scalability",
+        "system dynamics modeling"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/e0c890e9-599f-4539-ad48-f59130083b31/releases/1.0.0/",
+    "dateCreated": "2019-11-06",
+    "description": "This model is part of a JASSS article that introduce a conceptual framework for developing hybrid (system dynamics and agent-based) integrated assessment models, which focus on examining the human impacts on climate change. This novel modelling approach allows to reuse existing rigid, but well-established integrated assessment models, and adds more flexibility by replacing aggregate stocks with a community of vibrant interacting entities. The model provides a proof-of-concept of the application of this conceptual framework in form of an illustrative example. taking the settings of the US. It is solely created for the purpose of demonstrating our hybrid modelling approach; we do not claim that it has predictive powers.",
+    "downloadUrl": "https://www.comses.net/codebases/e0c890e9-599f-4539-ad48-f59130083b31/releases/1.0.0/download/",
+    "dateModified": "2019-11-06",
+    "releaseNotes": "The model requires AnyLogic (PLE) 8.5 or higher for execution. Data resources needed to run the model are provided with the model. Details regarding inputs and outputs can be found in the related JASSS publication. ",
+    "copyrightYear": 2019,
+    "datePublished": "2019-11-06",
+    "embargoEndDate": "2019-11-06",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "HCAM"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Siebers et al (2020) An Innovative Approach to Multi-Method Integrated Assessment Modelling of Global Climate Change. To appear in the Journal of Artificial Societies and Social Simulation"
+}

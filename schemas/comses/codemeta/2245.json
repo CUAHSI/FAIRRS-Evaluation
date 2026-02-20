@@ -1,0 +1,66 @@
+{
+    "@id": "https://www.comses.net/codebases/2245/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/2245/releases/1.0.0/",
+    "name": "Token Foraging in a Commons Dilemma",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/235/",
+            "@type": "Person",
+            "email": "radtken@aztecfreenet.org",
+            "givenName": "Nicholas",
+            "familyName": "Radtke",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/235/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Janssen, M.A., N.P. Radtke, A. Lee (2009), Pattern-oriented modeling of commons dilemma experiments, Adaptive Behaviour, in press",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "commonsdilemmas",
+        "individual decision making"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2245/releases/1.0.0/",
+    "dateCreated": "2009-08-31",
+    "description": "The model aims to mimic the observed behavior of participants in spatially explicit dynamic commons experiments.  Four agents share a renewable resource (tokens) that grows on a 28 x 28 spatial grid of cells.  The tokens are considered valuable and therefore are harvested by the agents.  The resource renewal rate is density dependent and sufficiently slow such that agents must exercise restraint to avoid exhausting the resource.  Each round lasts a simulated 4 minutes.",
+    "downloadUrl": "https://www.comses.net/codebases/2245/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "platform_independent",
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

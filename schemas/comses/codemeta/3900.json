@@ -1,0 +1,68 @@
+{
+    "@id": "https://www.comses.net/codebases/3900/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/3900/releases/1.0.0/",
+    "name": "An Agent-Based Model of Collective Action",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1107/",
+            "@type": "Person",
+            "email": "jgshuhaihua@163.com",
+            "givenName": "Hai-Hua",
+            "familyName": "Hu",
+            "affiliation": {
+                "@id": "https://ror.org/017zhmm22",
+                "url": "http://en.xjtu.edu.cn/",
+                "name": "Xi'an Jiaotong University, China",
+                "@type": "Organization",
+                "identifier": "https://ror.org/017zhmm22"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1107/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based model",
+        "collective action",
+        "from=from||0",
+        "from){var len=this",
+        "function(obj",
+        "if(from<0){from+=len}for(",
+        "length>>>0"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3900/releases/1.0.0/",
+    "dateCreated": "2013-08-20",
+    "description": "We provide an agent-based model of collective action, informed by Granovetter (1978) and its replication model by Siegel (2009). The model is rather simple: actors have different threshold randomly drawn from a normal distribution with a mean and a std. Actors will participate in an activity if social influence exceeds threshold. In contrast to prior works, we differentiate the interpersonal influences of strong and weak ties with a parameter (alpha). A larger alpha implies that actors place more trust on strong ties. There are two measures: level (participation ratio) and speed (average number of new participants (excluding rabble-rousers) per time period prior to stability).\r\n\r\nWe use the model to examine the role of ICTs in collective action under different cultural and political contexts. With ICTs, individuals have access to a larger network. But the increments of strong and weak ties differ across cultural contexts, and the values of which partially are drawn from empirical data. Also, cultural characteristics distinguish the values of alpha. Additionally, we use the threshold distribution to map political setting. For details of the parameter settings, see attached document. \r\n\r\nThe program is implemented in Matlab (2009a).",
+    "downloadUrl": "https://www.comses.net/codebases/3900/releases/1.0.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-08-20",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "MatLab"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

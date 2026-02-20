@@ -1,0 +1,81 @@
+{
+    "@id": "https://www.comses.net/codebases/4061/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/4061/releases/1.1.0/",
+    "name": "Mobility USA (MUSA)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1169/",
+            "@type": "Person",
+            "email": "davide.natalini@hotmail.it",
+            "givenName": "Davide",
+            "familyName": "Natalini",
+            "affiliation": {
+                "url": "http://www.anglia.ac.uk/ruskin/en/home/microsites/global_sustainability_institute.html?utm_source=gsi&utm_medium=url&utm_campaign=redirect&utm_content=gsi.marketing.mar11",
+                "name": "Global Sustainability Institute",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/496/",
+            "@type": "Person",
+            "email": "giangiacomo.bravo@unito.it",
+            "givenName": "Giangiacomo",
+            "familyName": "Bravo",
+            "affiliation": {
+                "name": "Department of Economics and Statistics, University of Torino",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1169/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://www.comses.net/users/496/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "consumat model",
+        "policy evaluation",
+        "sustainable commuting",
+        "sustainable transportation",
+        "usa"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4061/releases/1.1.0/",
+    "dateCreated": "2013-12-30",
+    "description": "MUSA is an Agent-based model (ABM) that tries to address two issues: the unsustainability of the commuting sector in the US and the acknowledgment of ABM as a powerful ex-ante policy evaluation tool. MUSA simulates the commuting sector in the USA. This ABM is aimed at encouraging the use of Agent-based modelling as an ex-ante modelling tool for policy evaluation. Moreover, we implemented two different types of policies that could encourage sustainable commuting to test their efficacy.\r\nEvery agent maps the commuting preferences of one of the respondents to the National Household Travel Survey 2009. The agents can choose among three modes of transport: private motorised transport, private non-motorised transport and public transport.\r\nDuring the development of MUSA, we applied a Multilevel Validation, that strengthens the credibility of the simulation outcomes. Following this approach, we informed the position of the agents in a 3D space according to their preferences, that have been drawn from one of the datasets included in the 2009 NHTS. The distributions of the modes of transport use resulting from the simulations have then been corroborated with another dataset from the same survey, to make sure that the results obtained were realistic. \r\nThe framework used by the agents while choosing their preferred mode of transport is the 'Consumat Model' developed by Jager (2000). According to this framework of social behaviour, the agents can implement four types of behaviours: i)imitation, ii)rational deliberation, iii)repetition and iv)social comparison.\r\nTwo policies have been tested, both singularly and combined: market-based policies and preference-change policies. The former aim at internalising the externalities involved in the production and consumption of a given good/service through the imposition of a tax/fee, whereas the latter are meant to change consumers\u2019 behaviour by acting directly upon their preferences.",
+    "downloadUrl": "https://www.comses.net/codebases/4061/releases/1.1.0/download/",
+    "dateModified": "2018-02-19",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-12-30",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Natalini, Davide; Bravo, Giangiacomo. 2014. \"Encouraging Sustainable Transport Choices in American Households: Results from an Empirically Grounded Agent-Based Model.\" Sustainability 6, no. 1: 50-69."
+}

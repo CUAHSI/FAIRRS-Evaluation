@@ -1,0 +1,56 @@
+{
+    "@id": "https://www.comses.net/codebases/b00bf2b2-0a18-49f2-a621-d16b28c6cafc/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/b00bf2b2-0a18-49f2-a621-d16b28c6cafc/releases/1.0.0/",
+    "name": "Confirmation Bias improves Performance in a Signal Detection Task and evolves in an Evolutionary Algorithm",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/3319/",
+            "@type": "Person",
+            "email": "michi.vogrin@yahoo.de",
+            "givenName": "Michael",
+            "familyName": "Vogrin"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "ABM",
+        "Agent based modelling",
+        "cognitive psychology",
+        "confirmation bias",
+        "evolutionary psychology",
+        "information theory",
+        "signal detection"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/b00bf2b2-0a18-49f2-a621-d16b28c6cafc/releases/1.0.0/",
+    "dateCreated": "2022-03-23",
+    "description": "Confirmation Bias is usually seen as a flaw of the human mind. However, in some tasks, it may also increase performance. Here, agents are confronted with a number of binary Signals (A, or B). They have a base detection rate, e.g. 50%, and after they detected one signal, they get biased towards this type of signal. This means, that they observe that kind of signal a bit better, and the other signal a bit worse. This is moderated by a variable called \"bias_effect\", e.g. 10%. So an agent who detects A first, gets biased towards A and then improves its chance to detect A-signals by 10%. Thus, this agent detects A-Signals with the probability of 50%+10% = 60% and detects B-Signals with the probability of 50%-10% = 40%. \nGiven such a framework, agents that have the ability to be biased have better results in most of the scenarios.",
+    "downloadUrl": "https://www.comses.net/codebases/b00bf2b2-0a18-49f2-a621-d16b28c6cafc/releases/1.0.0/download/",
+    "dateModified": "2023-05-08",
+    "releaseNotes": "Revised Version prepared for Reviewers",
+    "copyrightYear": 2023,
+    "datePublished": "2023-05-08",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

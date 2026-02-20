@@ -1,0 +1,65 @@
+{
+    "@id": "https://www.comses.net/codebases/348dec6a-c9f5-492f-b7c0-9485a3cc6856/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/348dec6a-c9f5-492f-b7c0-9485a3cc6856/releases/1.0.0/",
+    "name": "AgriAdopt",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/990/",
+            "@type": "Person",
+            "email": "voidness@gmx.de",
+            "givenName": "Sebastian",
+            "familyName": "Rasch",
+            "affiliation": {
+                "url": "http://www.ilr.uni-bonn.de/agpo/agpo_e.htm",
+                "name": "Doctoral Student",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "https://doi.org/10.1111/1477-9552.12447\nhttps://doi.org/1\u201326. 10.1007/s11119-023-10015-x\nhttps://doi.org/105948. 10.1016/j.compag.2020.105948\nhttps://doi.org/10.1016/j.dib.2021.107007\nhttps://doi.org/103074. 10.1016/j.agsy.2021.103074",
+            "@type": "CreativeWork"
+        },
+        {
+            "text": "No. It uses code snippets from the Model in Huber et al. (2021)  https://doi.org/10.1111/1477-9552.12447",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "agricultural economics"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/348dec6a-c9f5-492f-b7c0-9485a3cc6856/releases/1.0.0/",
+    "dateCreated": "2024-03-26",
+    "description": "The purpose of this model is to project the dynamics of technology adoption of autonomous weeding robots by sugar beet producing farmers in North Rhine-Westphalia (NRW). Moreover, the design of the model serves the purpose to investigate second-order effects of robot adoption on shifts in farm income and on production quantities of main crops produced in North Rhine-Westphalia. One aim is to analyse the impact of technology attributes and costs of pesticides on adoption patterns. ",
+    "downloadUrl": "https://www.comses.net/codebases/348dec6a-c9f5-492f-b7c0-9485a3cc6856/releases/1.0.0/download/",
+    "dateModified": "2024-03-26",
+    "releaseNotes": "First Beta",
+    "copyrightYear": 2024,
+    "datePublished": "2024-03-26",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Repast Simphony"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

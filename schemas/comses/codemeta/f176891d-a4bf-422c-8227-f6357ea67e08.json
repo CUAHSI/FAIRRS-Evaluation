@@ -1,0 +1,61 @@
+{
+    "@id": "https://www.comses.net/codebases/f176891d-a4bf-422c-8227-f6357ea67e08/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/f176891d-a4bf-422c-8227-f6357ea67e08/releases/1.0.0/",
+    "name": "An Agent-Based Model of an Insurer's Estimated Capital Requirement in a Simple Insurance Market with Imperfect Information in C#",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-6530-6527",
+            "@type": "Person",
+            "email": "solitude_saiyajin@hotmail.com",
+            "givenName": "Rei",
+            "familyName": "England",
+            "affiliation": {
+                "@id": "https://ror.org/02nwg5t34",
+                "url": "http://www.uwe.ac.uk/",
+                "name": "University of the West of England",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02nwg5t34"
+            }
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "Agent based modelling",
+        "capital",
+        "imperfect information",
+        "insurance",
+        "winners curse"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/f176891d-a4bf-422c-8227-f6357ea67e08/releases/1.0.0/",
+    "dateCreated": "2022-12-08",
+    "description": "This is an agent-based model of a simple insurance market with two types of agents: customers and insurers. Insurers set premium quotes for each customer according to an estimation of their underlying risk based on past claims data. Customers either renew existing contracts or else select the cheapest quote from a subset of insurers. Insurers then estimate their resulting capital requirement based on a 99.5% VaR of their aggregate loss distributions. These estimates demonstrate an under-estimation bias due to the winner's curse effect.",
+    "downloadUrl": "https://www.comses.net/codebases/f176891d-a4bf-422c-8227-f6357ea67e08/releases/1.0.0/download/",
+    "dateModified": "2023-09-24",
+    "releaseNotes": "Initial release",
+    "copyrightYear": 2023,
+    "datePublished": "2023-09-24",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        ".net framework 4.7.2"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "C#",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

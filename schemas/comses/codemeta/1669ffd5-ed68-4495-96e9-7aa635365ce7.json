@@ -1,0 +1,63 @@
+{
+    "@id": "https://doi.org/10.25937/47bd-fb18",
+    "url": "https://doi.org/10.25937/47bd-fb18",
+    "name": "JuSt-Social COVID-19",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-4171-3897",
+            "@type": "Person",
+            "email": "research@criticalconnections.com.au",
+            "givenName": "Jennifer",
+            "familyName": "Badham",
+            "affiliation": {
+                "@id": "https://ror.org/01v29qb04",
+                "url": "https://www.dur.ac.uk/",
+                "name": "Durham University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01v29qb04"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "COVID-19",
+        "epidemic"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/47bd-fb18",
+        "https://doi.org/10.25937/47bd-fb18"
+    ],
+    "dateCreated": "2020-06-18",
+    "description": "NetLogo model that allows scenarios concerning general social distancing, shielding of high-risk individuals, and informing contacts when symptomatic. Documentation includes a user manual with some simple scenarios, and technical information including descriptions of key procedures and parameter values.",
+    "downloadUrl": "https://www.comses.net/codebases/1669ffd5-ed68-4495-96e9-7aa635365ce7/releases/1.2.0/download/",
+    "dateModified": "2024-12-05",
+    "releaseNotes": "Minor change to add vaccination. This feature is not included in the documentation (which is unchanged).\n\nSliders control:\n\n* proportion of the population to be vaccinated, which includes the population already vaccinated if applying vaccination more than once during a simulation run\n* reduction in probability of becoming exposed through contact for a susceptible agent\n* reduction in probability of transmitting for a vaccinated infectious agent\n\nOnce the sliders are set, press the Vaccination button to apply the scenario. Note that real world vaccination programs target vaccination to the population at higher risk of hospitalisation. The model simply reduces transmission and the additional effect on risk must be included by adjusting those parameters (also available as sliders on the interface).\n\n",
+    "copyrightYear": 2021,
+    "datePublished": "2021-03-29",
+    "codeRepository": "https://github.com/jbadham/covid-social",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Badham, Jennifer, Barbrook-Johnson, Pete, Caiado, Camila and Castellani, Brian (2021) 'Justified Stories with Agent-Based Modelling for Local COVID-19 Planning' Journal of Artificial Societies and Social Simulation 24 (1) 8 <http://jasss.soc.surrey.ac.uk/24/1/8.html>. doi: 10.18564/jasss.4532"
+}

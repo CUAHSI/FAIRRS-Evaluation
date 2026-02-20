@@ -1,0 +1,73 @@
+{
+    "@id": "https://www.comses.net/codebases/4778/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/4778/releases/1.1.0/",
+    "name": "Health and social public information office (SPUN) simulation",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1628/",
+            "@type": "Person",
+            "email": "manuelavinai@gmail.com",
+            "givenName": "Manuela",
+            "familyName": "Vinai",
+            "affiliation": {
+                "url": "http://www.qrsonline.it",
+                "name": "Independent - QRS ",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/766/",
+            "@type": "Person",
+            "email": "emiliosulis@gmail.com",
+            "givenName": "Emilio",
+            "familyName": "Sulis",
+            "affiliation": {
+                "name": "PhD student",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1628/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://www.comses.net/users/766/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4778/releases/1.1.0/",
+    "dateCreated": "2015-11-07",
+    "description": "In the left part, several paramethers related to the functioning of the office and to the employees can be setted:\r\nthe opening hours of the office\r\nthe working hours of the employee in front-office and back-office activities\r\nthe (random) frequency of new cases\r\nOnce all the variables are selected, the buttons \u201csetup\u201d create the world and \u201cSTART\u201d begin the simulation.\r\nThe central area visualize the functioning of the office. The cases, represented as faces, initially stay in the top of the screen. The cases arrive to the office with the random frequency as indicated by specific selectors in the set-up phase. Four weeks are represented in the screen, for each day, as selected in the set-up.\r\nCases can be more or less difficult. Operators works to solve the cases which remain in the red area until they are dismissed going in the green bottom part of the screen.\r\nThe right part of the screen report indicators of the cases and the hours worked by the employees in the selected simulatation.",
+    "downloadUrl": "https://www.comses.net/codebases/4778/releases/1.1.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2015,
+    "datePublished": "2015-11-07",
+    "operatingSystem": "linux",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

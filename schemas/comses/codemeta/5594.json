@@ -1,0 +1,74 @@
+{
+    "@id": "https://www.comses.net/codebases/5594/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5594/releases/1.0.0/",
+    "name": "00 PSoup V1.22 \u2013 Primordial Soup",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1014/",
+            "@type": "Person",
+            "email": "orrery@rogers.com",
+            "givenName": "Garvin",
+            "familyName": "Boyle",
+            "affiliation": {
+                "url": "http://modeco-software.webs.com",
+                "name": "Retired High School Teacher",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1014/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "- Palmiter, M. 1989, Simulated Evolution. Bayport, NY, Life Science Associates\r\n - Dewdney, A.K. 1989.  Simulated Evolution: Wherein bugs learn to hunt bacteria.  Scientific American, 260(5), 138-141.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "biophysical economics",
+        "ecological economics",
+        "evolution",
+        "evolution of sexual reproduction",
+        "sustainability"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5594/releases/1.0.0/",
+    "dateCreated": "2017-04-13",
+    "description": "In 1989, A.K. Dewdney published in Scientific American a description of the model \u201cSimulated evolution\u201d (SE), written by Dr. Michael Palmiter.  My knock-off model, called PSoup (short for Primordial Soup), was written in 2002 with gifted high-school students in mind and covers much of the material that a student of evolution needs to know to get off to a great start in university.  At the introductory level of PSoup, blind bugs stumble about in a rich soup, if a fierce competition to find food first.  Unable to sense food except when they step in it, these bugs must develop an internal heuristic search algorithm to find it fast, or they perish.  Dr. Palmiter invented an ingenious way to code genes such that small changes in genetic code are amplified to have a significant effect on the phenotype, causing very rapid evolution, as you watch.  These ingenious Palmiter genes are encoded in a C1 chromosome of agents of PSoup.  I abstracted the fixed parameters from SE that control biophysical functions such as metabolic rates, senescence and reproduction, and encoded them as genes in a C2 chromosome.  Then, I added a C3 chromosome in which I placed genes controlling advanced biophysical capabilities such as the five senses, sexual reproduction, and the ability to think ahead.   My favourite scenario in the model is \u201cVeni, Vidi, Voravi\u201d (I came, I saw, I ate.) to misquote Julius Caesar.\r\n\r\nThis might be viewed as a purely ecological model, having nothing to do with economics.  However, I have come to see it in more general terms.  In 1922 A.J. Lotka proposed two principles that he believed dominated both ecological systems and economic systems.  In 1955 H.T. Odum and R.C. Pinkerton took up the ideas and named them the Maximum Power Principle (MPP).  In my ongoing study of the dynamics of intergenerational economies and the MPP, I use the C1 \u201cPalmiter genes\u201d and the C2 genes to provide the biophysical sub-system of my hybrid biophysical/economic models.",
+    "downloadUrl": "https://www.comses.net/codebases/5594/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "The original version of Simulated Evolution, written for the IBM PC of 1989, may still be available from \"Life Science Associates\".\r\n\r\nThis is the first version of PSoup to be posted to OpenABM.",
+    "copyrightYear": 2017,
+    "datePublished": "2017-04-13",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "ms visual studio 2010"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "C++",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "ms visual studio 2010",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

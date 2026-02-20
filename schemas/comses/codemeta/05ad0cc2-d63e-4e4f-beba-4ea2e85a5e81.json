@@ -1,0 +1,122 @@
+{
+    "@id": "https://www.comses.net/codebases/05ad0cc2-d63e-4e4f-beba-4ea2e85a5e81/releases/1.0.4/",
+    "url": "https://www.comses.net/codebases/05ad0cc2-d63e-4e4f-beba-4ea2e85a5e81/releases/1.0.4/",
+    "name": "The Levers of HIV Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/3505/",
+            "@type": "Person",
+            "email": "cangurkan@me.com",
+            "givenName": "Can",
+            "familyName": "Gurkan",
+            "affiliation": {
+                "@id": "https://ror.org/000e0be47",
+                "url": "http://www.northwestern.edu/",
+                "name": "Northwestern University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/000e0be47"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-9684-6347",
+            "@type": "Person",
+            "email": "wouter.vermeer@northwestern.edu",
+            "givenName": "Wouter",
+            "familyName": "Vermeer",
+            "affiliation": {
+                "@id": "https://ror.org/000e0be47",
+                "url": "http://www.northwestern.edu/",
+                "name": "Northwestern University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/000e0be47"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/2635/",
+            "@type": "Person",
+            "email": "arthur.hjorth@u.northwestern.edu",
+            "givenName": "Arthur",
+            "familyName": "Hjorth"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "email": "uri@northwestern.edu",
+            "givenName": "Uri",
+            "familyName": "Wilensky",
+            "affiliation": {
+                "@id": "https://ror.org/000e0be47",
+                "url": "http://www.northwestern.edu/",
+                "name": "Northwestern University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/000e0be47"
+            }
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Person",
+            "email": "hendricks.brown@northwestern.edu",
+            "givenName": "C.",
+            "familyName": "Brown",
+            "affiliation": {
+                "@id": "https://ror.org/000e0be47",
+                "url": "http://www.northwestern.edu/",
+                "name": "Northwestern University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/000e0be47"
+            }
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.4",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "chicago",
+        "epidemic",
+        "epidemiology",
+        "high fidelity modeling",
+        "hiv",
+        "interventions",
+        "NetLogo"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/05ad0cc2-d63e-4e4f-beba-4ea2e85a5e81/releases/1.0.4/",
+    "dateCreated": "2022-03-08",
+    "description": "Chicago\u2019s demographic, neighborhood, sex risk behaviors,  sexual network data, and HIV prevention and treatment cascade information from 2015  were integrated as input to a new agent-based model (ABM) called the Levers-of-HIV-Model (LHM).  This LHM, written in NetLogo, forms patterns of sexual relations among Men who have Sex with Men (MSM) based on static traits (race/ethnicity, and age) and dynamic states (sexual relations and practices)  that are found in Chicago.  LHM\u2019s five modules simulate and count new infections at the two marker years of 2023 and 2030 for a wide range of distinct scenarios or levers, in which the levels of PrEP and ART linkage to care, retention, and adherence or viral load are increased over time from the 2015 baseline levels.",
+    "downloadUrl": "https://www.comses.net/codebases/05ad0cc2-d63e-4e4f-beba-4ea2e85a5e81/releases/1.0.4/download/",
+    "dateModified": "2023-10-31",
+    "releaseNotes": "",
+    "copyrightYear": 2023,
+    "datePublished": "2023-10-31",
+    "embargoEndDate": "2022-03-07",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "R",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "https://doi.org/10.1371/journal.pone.0274288"
+}

@@ -1,0 +1,61 @@
+{
+    "@id": "https://www.comses.net/codebases/a2b1a1ed-a327-4ecc-9ee4-781aebe1db91/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/a2b1a1ed-a327-4ecc-9ee4-781aebe1db91/releases/1.0.0/",
+    "name": "Urban/Rural Adaptive Culture Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2928/",
+            "@type": "Person",
+            "email": "labergenick@gmail.com",
+            "givenName": "Nick",
+            "familyName": "LaBerge"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "This model extends Robert Axelrod's Adaptive Culture Model, as specified in \"The Dissemination of Culture: A Model with Local Convergence and Global Polarization\" (1997).",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "ACM",
+        "culture",
+        "Jupyter Notebook",
+        "Python",
+        "rural",
+        "urban"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/a2b1a1ed-a327-4ecc-9ee4-781aebe1db91/releases/1.0.0/",
+    "dateCreated": "2020-07-19",
+    "description": "Contains python3 code used to replicate the culture model from the JASSS submission: \"Modeling Cultural Dissemination and Divergence between Rural and Urban Regions.\" ",
+    "downloadUrl": "https://www.comses.net/codebases/a2b1a1ed-a327-4ecc-9ee4-781aebe1db91/releases/1.0.0/download/",
+    "dateModified": "2020-07-19",
+    "releaseNotes": "Required Packages: numpy, pandas, and time.  \n\nThe code is formatted to be run in a Jupiter Notebook. \n\nNotebook Outline:\nCell 1: Import required packages\nCell 2: Define model and helper functions\nCell 3: Set model parameters\nCell 4: Run the model",
+    "copyrightYear": 2020,
+    "datePublished": "2020-07-19",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Jupyter Notebook"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

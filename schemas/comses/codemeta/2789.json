@@ -1,0 +1,113 @@
+{
+    "@id": "https://www.comses.net/codebases/2789/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/2789/releases/1.1.0/",
+    "name": "Collective Decision Making for Ecological Restoration",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "givenName": "Cristy",
+            "familyName": "Watkins"
+        },
+        {
+            "@id": "https://www.comses.net/users/678/",
+            "@type": "Person",
+            "email": "dmasse2@uic.edu",
+            "givenName": "Dean",
+            "familyName": "Massey",
+            "affiliation": {
+                "@id": "https://ror.org/02mpq6x41",
+                "url": "http://www.uic.edu/uic/",
+                "name": "University of Illinois at Chicago",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02mpq6x41"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Jeremy",
+            "familyName": "Brooks"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "givenName": "Kristen",
+            "familyName": "Ross"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-4111-3357",
+            "@type": "Person",
+            "email": "m.zellner@northeastern.edu",
+            "givenName": "Moira",
+            "familyName": "Zellner",
+            "affiliation": {
+                "url": "https://www.northeastern.edu/",
+                "name": "Northeastern University",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_1",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://www.comses.net/users/678/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-4111-3357",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based model",
+        "chicago wilderness",
+        "collective decision-making",
+        "ecological restoration"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2789/releases/1.1.0/",
+    "dateCreated": "2014-11-21",
+    "description": "Ecological restoration, particularly in urban contexts, is a complex collective decision-making process that involves a diversity of stakeholders and experts, each with their own perceptions about what landscapes should and can look like, how to get them to the desired state, and on what timeline. CoDMER can be used to investigate how structural and behavioral factors can influence collective decision making processes and outcomes in the context of ecological restoration. It is informed by existing literature on collective decision making and empirical data from the Chicago Wilderness region.",
+    "downloadUrl": "https://www.comses.net/codebases/2789/releases/1.1.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "Version 1.01",
+    "copyrightYear": 2014,
+    "datePublished": "2014-11-21",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    },
+    "referencePublication": "Watkins, C., Massey, D., Brooks, J., Ross, K., Zellner, M. L. (in review). \u201cUnderstanding the mechanisms of collective decision-making in ecological restoration: An agent-based model of actors and organizations.\u201d Ecology and Society."
+}

@@ -1,0 +1,79 @@
+{
+    "@id": "https://doi.org/10.25937/30yh-gp96",
+    "url": "https://doi.org/10.25937/30yh-gp96",
+    "name": "Emergence of Organizations out of Garbage Can Dynamics",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-4235-6086",
+            "@type": "Person",
+            "email": "guido.fioretti@unibo.it",
+            "givenName": "Guido",
+            "familyName": "Fioretti",
+            "affiliation": {
+                "@id": "https://ror.org/01111rn36",
+                "url": "http://www.unibo.it/en/homepage",
+                "name": "University of Bologna",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01111rn36"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.1",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Cohen M.D.,March J.G. and Olsen J.P. (1972) A Garbage Can Model of Organizational Choice. Administrative Science Quarterly, 17 (1): 1-25.\n\nFioretti G. and Lomi A. (2008a) An Agent-Based Representation of the Garbage Can Model of Organizational Choice. Journal of Artificial Societies and Social Simulation, 11 (1).\n\nFioretti G. and Lomi A. (2008b) The Garbage Can Model of Organizational Choice: An agent-based reconstruction. Simulation Modelling Practice and Theory, 16 (2): 192-217.\n\nFioretti G. and Lomi A. (2010) Passing the Buck in the Garbage Can Model of Organizational Choice. Computational and Mathematical Organization Theory, 16 (2): 113-143.",
+            "@type": "CreativeWork"
+        },
+        {
+            "text": "This model replicates the main results obtained by Cohen, March and Olsen. Furthermore, it reproduces the empirical distinction between Liability of Newness and Liability of Adolescence",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "collective decision making",
+        "collective self-organization",
+        "computational organization theory",
+        "decision making",
+        "decision model",
+        "decision processes",
+        "Organizational behavior",
+        "organization science"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/30yh-gp96",
+        "https://doi.org/10.25937/30yh-gp96"
+    ],
+    "dateCreated": "2020-04-20",
+    "description": "The Garbage Can Model of Organizational Choice (GCM) is a fundamental model of organizational decision-making originally propossed by J.D. Cohen, J.G. March and J.P. Olsen in 1972. In their model, decisions are made out of random meetings of decision-makers, opportunities, solutions and problems within an organization.\nWith this model, these very same agents are supposed to meet in society at large where they make decisions according to GCM rules. Furthermore, under certain additional conditions decision-makers, opportunities, solutions and problems form stable organizations. In this artificial ecology organizations are born, grow and eventually vanish with time.",
+    "downloadUrl": "https://www.comses.net/codebases/c4a2dbe2-bfdc-4e0b-add6-31cf93834f37/releases/1.1.1/download/",
+    "dateModified": "2021-01-21",
+    "releaseNotes": "This code has been used to generate the results expounded in:\nFioretti G. and Lomi A. (2020) Emergence of Organizations out of Garbage Can Dynamics. Working Paper.",
+    "copyrightYear": 2020,
+    "datePublished": "2020-04-26",
+    "embargoEndDate": "2020-04-20",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Fioretti G. (2012) Garbage Can Ecologies: An agent-based exploration. In A. Lomi and J. Richard Harrison (eds.), The Garbage Can Model of Organizational Choice: Looking forward at fourty, Ch. VI, pp. 141-164. Bingley, Emerald Group Publishing Limited.\n \nFioretti G. and Lomi A. (2020) Emergence of Organizations out of Garbage Can Dynamics. Working Paper."
+}

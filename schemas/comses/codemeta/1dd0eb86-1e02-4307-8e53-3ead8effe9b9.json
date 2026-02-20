@@ -1,0 +1,83 @@
+{
+    "@id": "https://doi.org/10.25937/fma1-qz39",
+    "url": "https://doi.org/10.25937/fma1-qz39",
+    "name": "Applying Brantingham\u2019s Neutral Model of Stone Raw Material Procurement to the Pinnacle Point Middle Stone Age Record, Western Cape, South Africa",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-9662-4904",
+            "@type": "Person",
+            "email": "simen.oestmo@gmail.com",
+            "givenName": "Simen",
+            "familyName": "Oestmo"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Person",
+            "email": "marco.janssen@asu.edu",
+            "givenName": "Marco",
+            "familyName": "Janssen",
+            "affiliation": {
+                "url": "https://schoolofsustainability.asu.edu/",
+                "name": "School of Sustainability",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Haley",
+            "familyName": "Cawthra"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "african middle stone age",
+        "agent-based model (abm)",
+        "Climate Change",
+        "climate change land use",
+        "hunter-gatherer",
+        "hunter-gatherer",
+        "lithic raw material",
+        "lithics",
+        "lithic technology",
+        "MOBIL",
+        "random",
+        "stone artifacts",
+        "stone tool technology"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/fma1-qz39",
+        "https://doi.org/10.25937/fma1-qz39"
+    ],
+    "dateCreated": "2019-01-26",
+    "description": "This model is an application of Brantingham\u2019s neutral model to a real landscape with real locations of potential sources. The sources are represented as their sizes during current conditions, and from marine geophysics surveys, and the agent starts at a random location in Mossel Bay Region (MBR) surrounding the Archaeological Pinnacle Point (PP) locality, Western Cape, South Africa. The agent moves at random on the landscape, picks up and discards raw materials based only upon space in toolkit and probability of discard. If the agent happens to encounter the PP locality while moving at random the agent may discard raw materials at it based on the discard probability.",
+    "downloadUrl": "https://www.comses.net/codebases/1dd0eb86-1e02-4307-8e53-3ead8effe9b9/releases/1.0.0/download/",
+    "dateModified": "2024-12-05",
+    "releaseNotes": "Model built in Netlogo 6.02. Unzip dataset file. Put data folder in same folder as netlogo model. Run model. ",
+    "copyrightYear": 2019,
+    "datePublished": "2019-03-10",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

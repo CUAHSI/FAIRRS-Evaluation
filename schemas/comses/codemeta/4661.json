@@ -1,0 +1,110 @@
+{
+    "@id": "https://www.comses.net/codebases/4661/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/4661/releases/1.1.0/",
+    "name": "REHAB: A Role Playing Game to Explore the Influence of Knowledge and Communication on Natural Resources Management",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/13/",
+            "@type": "Person",
+            "email": "christophe.le_page@cirad.fr",
+            "givenName": "Christophe",
+            "familyName": "Le Page",
+            "affiliation": {
+                "url": "https://www.cirad.fr/",
+                "name": "Centre de Coop\u00e9ration Internationale en Recherche Agronomique pour le D\u00e9veloppement (CIRAD)",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Anne",
+            "familyName": "Dray"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Pascal",
+            "familyName": "Perez"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "givenName": "Claude",
+            "familyName": "Garcia"
+        },
+        {
+            "@id": "https://www.comses.net/users/13/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "common-pool resources",
+        "communication",
+        "natural resource management",
+        "role-playing games",
+        "tragedy of the commons"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4661/releases/1.1.0/",
+    "dateCreated": "2015-07-13",
+    "description": "REHAB is a principle-based computer-assisted role-playing game, both cooperative and competitive, highlighting the role of knowledge production and communication for the conservation and management of natural resources. It does so through experiential learning, pitching players as Harvesters or Rangers in an abstract representation of a landscape where a resource is distributed in discrete units of Biomass. The landscape is also a nesting and breeding ground for a protected migratory Bird.  The Rangers\u2019 task is to maximize Bird reproduction by creating protected areas, while Harvesters have to collect Biomass, their only source of income. Rules about biomass regeneration, distribution amongst harvesters, and bird reproduction are not disclosed to the players. A typical game session includes two successive scenarios: without communication between players then with communication. A final collective debriefing brings out the level of understanding of the hidden rules, the individual and collective strategies and how these influenced the outcomes of the game. In most cases communication improves the outcomes for both roles, Harvesters and Rangers, even though players construct and articulate rational decisions based on limited or even flawed understanding of the rules.  This suggests that, in the absence of enforcing capacities, trust and communication prime over knowledge and understanding when it comes to managing natural resources and resolving trade-offs between conservation and development.",
+    "downloadUrl": "https://www.comses.net/codebases/4661/releases/1.1.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "There are currently 3 distributions:\r\n* as a Cormas model\r\n* as a NetLogo model\r\n* as a standalone .exe file",
+    "copyrightYear": 2015,
+    "datePublished": "2015-07-13",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Cormas"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Cormas",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "Smalltalk",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Le Page C., Dray A., Perez P., Garcia C. 2014. Can Communication Save The Commons? Lessons From Repeated Role-Playing Game Sessions. In: The Shift From Teaching To Learning: Individual, Collective and Organizational Learning Through Gaming Simulation. Proceedings of the 45th Conference of the International Simulation and Gaming Association, W.C. Kriz, T. Eiselen, W. Manah (Eds.), Dornbirn, Austria: W. Bertelsmann Verlag, Bielefeld, 365-79. https://www.wbv.de/en/press/digital-press-portfolio/detail/shop/detail/6/_/1/42/6004423.html"
+}

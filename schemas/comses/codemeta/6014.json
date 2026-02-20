@@ -1,0 +1,66 @@
+{
+    "@id": "https://www.comses.net/codebases/6014/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/6014/releases/1.0.0/",
+    "name": "Agent-based model for the socio-economic monitoring of visitor streams",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2062/",
+            "@type": "Person",
+            "email": "studium@nordie.de",
+            "givenName": "Stefan",
+            "familyName": "Mohr",
+            "affiliation": {
+                "url": "https://zgis.at/de/",
+                "name": "Z_GIS - Department of Geoinformatics",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/2062/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent based model (abm)",
+        "brocken",
+        "harz national park",
+        "mt",
+        "socio-economic monitoring (socmon)",
+        "streams of visitors",
+        "touring companies"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/6014/releases/1.0.0/",
+    "dateCreated": "2018-01-20",
+    "description": "The Harz National Park offers with 813 km a well-developed path network as well as a high number of starting and destination points (POIs) for hikes, and was visited by some 1.7 million visitors in 2014. Due to its large extent, an accurate measurement of visitor numbers and their spatiotemporal distribution is not feasible. This work demonstrates the possibility to simulate the streams of visitors around Mt. Brocken with the agent-based model (ABM) methodology. The GAMA v1.7 RC2 modelling environment was chosen, because it has very extensive spatial operators and simulation tasks, combined with an easy-to-understand modelling language. To reduce the simulation effort, a model reduction factor MRF = 10 was tested successfully and used without any significant change to the model. After an initial parameterization, a sensitivity analysis was conducted with the results included in the final calibration. The observed error value could be significantly reduced from \u3016RMSE\u3017_Param=0,3817 to \u3016RMSE\u3017_Kalib=0,1069 and therefore the model was successfully adapted to the study area. For the final validation visitor numbers from other, independent investigations were used. Besides the identified 12 main routes and 7 hotspots not only basic socioeconomic indicators were provided, but also the change of behaviour of hikers following a variation of framework conditions was analyzed, thus demonstrating the impact of currently implemented measures to reduce path density. The final result is a flexible and expandable baseline model, which provides a realistic picture of the spatial distribution of hikers in the study area and additional socioeconomic key figures.",
+    "downloadUrl": "https://www.comses.net/codebases/6014/releases/1.0.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "",
+    "copyrightYear": 2018,
+    "datePublished": "2018-01-20",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "GAMA"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "GAMA",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

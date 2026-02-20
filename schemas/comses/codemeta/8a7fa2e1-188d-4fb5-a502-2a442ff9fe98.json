@@ -1,0 +1,81 @@
+{
+    "@id": "https://www.comses.net/codebases/8a7fa2e1-188d-4fb5-a502-2a442ff9fe98/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/8a7fa2e1-188d-4fb5-a502-2a442ff9fe98/releases/1.0.0/",
+    "name": "The Social Neighbourhood Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-3938-2427",
+            "@type": "Person",
+            "email": "g.slingerland@tudelft.nl",
+            "givenName": "Geertje",
+            "familyName": "Slingerland",
+            "affiliation": {
+                "@id": "https://ror.org/02e2c7k09",
+                "url": "http://www.tudelft.nl/en/",
+                "name": "Delft University of Technology",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02e2c7k09"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1211/",
+            "@type": "Person",
+            "email": "i.nikolic@tudelft.nl",
+            "givenName": "Igor",
+            "familyName": "Nikolic",
+            "affiliation": {
+                "@id": "https://ror.org/02e2c7k09",
+                "url": "http://www.tudelft.nl/en/",
+                "name": "Delft University of Technology",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02e2c7k09"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1211/",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "Citizens",
+        "Livability",
+        "Neighbourhoods",
+        "Policymaking",
+        "Urban Environment"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/8a7fa2e1-188d-4fb5-a502-2a442ff9fe98/releases/1.0.0/",
+    "dateCreated": "2022-02-09",
+    "description": "An agent-based model that simulates urban neighbourhoods. The model has been designed to simulate  perceived livability and safety (PLS) of citizens. The  score attached to perceived livability and safety, PLS,  is the main output of the model and is the average of each individual's PLS. These PLS scores, in turn, are specific to each citizen and highly dependent on their individual experiences. PLS is impacted by several different social factors: interactions with fellow citizens, police officers, and community workers; visiting or starting a neighbourhood initiative; experiencing a burglary; seeing a youth gang; or hearing from friends (of friends) about these events. On top of this, the model allows to set various types of social networks which also influence the PLS.",
+    "downloadUrl": "https://www.comses.net/codebases/8a7fa2e1-188d-4fb5-a502-2a442ff9fe98/releases/1.0.0/download/",
+    "dateModified": "2023-02-01",
+    "releaseNotes": "First publication of final model",
+    "copyrightYear": 2023,
+    "datePublished": "2023-02-01",
+    "codeRepository": "https://gitlab.tudelft.nl/inikolic/citizenwellbeing",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "Netlogo 6.0.2"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Netlogo 6.0.2",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

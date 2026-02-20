@@ -1,0 +1,69 @@
+{
+    "@id": "https://www.comses.net/codebases/b6c94b49-51a9-49db-bc9e-fb853f5acf78/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/b6c94b49-51a9-49db-bc9e-fb853f5acf78/releases/1.0.0/",
+    "name": "An agent based model of a population subject to floods",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-5470-2636",
+            "@type": "Person",
+            "email": "katrin.erdlenbruch@inrae.fr",
+            "givenName": "Katrin",
+            "familyName": "Erdlenbruch"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-7325-0495",
+            "@type": "Person",
+            "email": "bruno.bonte@inrae.fr",
+            "givenName": "Bruno",
+            "familyName": "Bont\u00e9",
+            "affiliation": {
+                "url": "https://www.inrae.fr",
+                "name": "Inrae",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-7325-0495",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc/4.0",
+        "name": "CC-BY-NC-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/b6c94b49-51a9-49db-bc9e-fb853f5acf78/releases/1.0.0/",
+    "dateCreated": "2021-09-22",
+    "description": "This model allows simulating the impacts of floods on a population. Floods are described by their intensity (flood height) and date of occurrence. Households are more or less severely hit by floods according to their geographical situation.  Impacts are measured in terms of reductions in household wealth. Households may take up protection measures against floods, depending on their individual characteristics, a social network and information campaigns. If such measures are taken, flood impacts (wealth reduction) are less severe. Information campaigns increase the probability that households adopt protection measures. Two types of information campaigns are modeled: top-down policies which are the same for all households, people-centered policies, which adapt to the individual characteristics of each household.",
+    "downloadUrl": "https://www.comses.net/codebases/b6c94b49-51a9-49db-bc9e-fb853f5acf78/releases/1.0.0/download/",
+    "dateModified": "2021-09-22",
+    "releaseNotes": "First version of ABM model simulating the impact of flood events. \nThis model builds on a previous model using same assumptions on individual behaviour, social network  and information campaigns, see:\n\nErdlenbruch, K., Bont\u00e9, B. (2018) \"Simulating the dynamics of individual adaptation to floods\", Environmental Science & Policy, Vol. 84: 134-148.",
+    "copyrightYear": 2021,
+    "datePublished": "2021-09-22",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo",
+        "R Studio"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "R",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

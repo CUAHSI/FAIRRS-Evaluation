@@ -1,0 +1,68 @@
+{
+    "@id": "https://www.comses.net/codebases/b52ba69f-605f-4aa9-932d-a8224f6907b0/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/b52ba69f-605f-4aa9-932d-a8224f6907b0/releases/1.0.0/",
+    "name": "CINCH1 (Covid-19 INfection Control in Hospitals)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-6945-150X",
+            "@type": "Person",
+            "email": "ngotts@gn.apc.org",
+            "givenName": "Nick",
+            "familyName": "Gotts",
+            "affiliation": {
+                "name": "None",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.html",
+        "name": "Apache-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "behavior change",
+        "COVID-19",
+        "health care infrastructure",
+        "pedestrian modeling"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/b52ba69f-605f-4aa9-932d-a8224f6907b0/releases/1.0.0/",
+    "dateCreated": "2021-08-29",
+    "description": "CINCH1 (Covid-19 INfection Control in Hospitals), is a prototype model of physical distancing for infection control among staff in University College London Hospital during the Covid-19 pandemic, developed at the University of Leeds, School of Geography. It models the movement of collections of agents in simple spaces under conflicting motivations of reaching their destination, maintaining physical distance from each other, and walking together with a companion. The model incorporates aspects of the Capability, Opportunity and Motivation of Behaviour (COM-B) Behaviour Change Framework developed at University College London Centre for Behaviour Change, and is aimed at informing decisions about behavioural interventions in hospital and other workplace settings during this and possible future outbreaks of highly contagious diseases. CINCH1 was developed as part of the SAFER (SARS-CoV-2 Acquisition in Frontline Health Care Workers \u2013 Evaluation to Inform Response) project\n(https://www.ucl.ac.uk/behaviour-change/research/safer-sars-cov-2-acquisition-frontline-health-care-workers-evaluation-inform-response), funded by the UK Medical Research Council. It is written in Python 3.8, and built upon Mesa version 0.8.7 (copyright 2020 Project Mesa Team).",
+    "downloadUrl": "https://www.comses.net/codebases/b52ba69f-605f-4aa9-932d-a8224f6907b0/releases/1.0.0/download/",
+    "dateModified": "2021-08-29",
+    "releaseNotes": "CINCH1 is written in Python 3.8, and built upon Mesa version 0.8.7. See README.txt for further details.\n\nCINCH1 can be run either in visualization mode, or in batch mode. Batch runs (for sensitivity analysis) have been\nconducted using the EMA workbench within a Jupyter notebook.\n\nThe uploaded folder CINCH1OpenABM, includes:\n* README.txt\n* License.txt.\n* Setup.py and run.py, modified versions of Mesa 0.8.7 Python files, used in\nvisualization runs of CINCH1.\n* A subfolder, CINCH1, which includes:\n** server.py and SimpleContinuousModuleCINCH1.py, used in visualization runs of CINCH1.\n** simple_continuous_canvas_cinch1.js,  used in visualization runs of CINCH1.\n** model.py, used in both visualization and batch runs of CINCH1.\n** Example parameter files serverparams.txt and currentparams20210528_1.txt, used in\nvisualizaton and batch runs of CINCH1 respectively.\n** An example IPython file for use within a Jupyter notebook for a CINCH1\nbatch run and associated sensitivity analysis, May30_2_OpenABM.ipynb.\n** Folder singleruns, to store output from visualization runs. This must be\npresent if the parameter file serverparams.txt is used.\n** Folders emaruns and results, to store output from an EMA workbench batch run.\nThese must be present if the parameter file currentparams20210528_1.txt is used.\n\nA visualization run of CINCH1 can be started by\nnavigating to the folder directly under mesa-master\\examples (in this upload,\nthat folder is called CINCH1OpenABM), and issuing the command:\n>mesa runserver\n\nA batch run of CINCH1 within the EMA workbench, once the workbench has been\ndownloaded and installed in the same Anaconda virtual environment as Mesa, can be\nperformed by opening a Jupyter notebook from CINCH1OpenABM\\CINCH1, loading the file\nMay30_2_OpenABM.ipynb, and running the code.",
+    "copyrightYear": 2021,
+    "datePublished": "2021-08-29",
+    "embargoEndDate": "2021-09-10",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "EMA",
+        "mesa"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "JSON",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "Jupyter Notebook",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Gotts, N., Wilson-Aggarwal, J., Crayton, E., Meyer, C., and Manley, E.\n(forthcoming). CINCH: Agent-Based Modelling of Physical Distancing in Hospital\nStaff Facilities Using the COM-B Behaviour Change Framework. Proceedings,\nSSC 2021: Social Simulation towards Post-Pandemic times, Cracow University of\nEconomics."
+}

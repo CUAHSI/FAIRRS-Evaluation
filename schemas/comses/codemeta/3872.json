@@ -1,0 +1,119 @@
+{
+    "@id": "https://www.comses.net/codebases/3872/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/3872/releases/1.1.0/",
+    "name": "The Pampas Model: An agent-based model of agricultural systems in the Argentinean Pampas",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1087/",
+            "@type": "Person",
+            "email": "fbert@agro.uba.ar",
+            "givenName": "Federico",
+            "familyName": "Bert",
+            "affiliation": {
+                "@id": "https://ror.org/0081fs513",
+                "url": "http://www.uba.ar/",
+                "name": "University of Buenos Aires",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0081fs513"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Guillermo",
+            "familyName": "Podest\u00e1"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Santiago",
+            "familyName": "Rovere"
+        },
+        {
+            "@id": "https://www.comses.net/users/584/",
+            "@type": "Person",
+            "email": "north@anl.gov",
+            "givenName": "Michael",
+            "familyName": "North",
+            "affiliation": {
+                "@id": "https://ror.org/05gvnxz63",
+                "url": "http://www.anl.gov/",
+                "name": "Argonne National Laboratory",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05gvnxz63"
+            }
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Person",
+            "givenName": "Charles",
+            "familyName": "Macal"
+        },
+        {
+            "@id": "https://www.comses.net/users/1087/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://www.comses.net/users/584/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://opensource.org/licenses/BSD-2-Clause",
+        "name": "BSD-2-Clause",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agriculture",
+        "argentina",
+        "aspiration level",
+        "land rental",
+        "land use"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3872/releases/1.1.0/",
+    "dateCreated": "2015-02-17",
+    "description": "The Argentine Pampas, one of the main agricultural areas in the world, recently has undergone significant changes in land use and tenure and structural characteristics of agricultural production systems. Concerns about the environmental and societal impacts of the changes motivated development of an agent-based model (ABM) to explore recently observed patterns and plausible future evolution. The PM includes three main types of entities: the environment, the farm and the farmer. The model environment represents the northern part of Buenos Aires Province \u2212 the most productive sub-region of the Pampas that encompasses about 1,000,000 ha and has a long agricultural history. The environment contains farms of variable size defined during initialization. All farms are assumed to have the same soil and experience the same climate (represented by weather records from Pergamino, a location in the center of the region). The model involves one main type of agent: farmers who grow soybean, maize or a wheat and short-cycle soybean double crop (the most important agricultural activities in the area) on owned and/or leased farms. Each agent may have different land allocation strategies and financial (e.g., working capital) characteristics. One model time step represents a cropping cycle. On each cycle, the farmers make two main decisions: (a) decide how much area they will operate on the upcoming cycle and (b) allocates her land among a realistic choice set of agricultural activities. Farmers also adapt dynamically their aspirations based on the expected status of context factors (at the beginning of the cycle), their achieved outcomes and peers\u2019 performance. A special type of agent is the \u201cManager\u201d that performs calculations that need to be available to all agents.",
+    "downloadUrl": "https://www.comses.net/codebases/3872/releases/1.1.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2015,
+    "datePublished": "2015-02-17",
+    "operatingSystem": "linux",
+    "runtimePlatform": [
+        "Repast"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Bert, F.E., Podest\u00e1, G.P., Rovere, S.L., Men\u00e9ndez, A., North, M., Tatara, E., Laciana, C.E., Weber, E., Ruiz Toranzo, F. 2011. An Agent Based Model to simulate structural and land use changes in agricultural systems of the Argentine Pampas. Ecological Modelling 222, 3486-3499.\r\n\r\nBert, F.E., Rovere, S.L., Macal, C., North, M., Podest\u00e1, G.P. 2014. Lessons from a comprehensive validation of an agent based-model: the experience of the Pampas Model of Argentinean agricultural systems. Ecological Modelling 273, 284-298."
+}

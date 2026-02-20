@@ -1,0 +1,73 @@
+{
+    "@id": "https://www.comses.net/codebases/b938a820-f209-4648-afc6-0946657c3484/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/b938a820-f209-4648-afc6-0946657c3484/releases/1.0.0/",
+    "name": "Cliff Walking with Q-Learning NetLogo Extension",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2743/",
+            "@type": "Person",
+            "email": "kevin.kons@hotmail.com",
+            "givenName": "Kevin",
+            "familyName": "Kons"
+        },
+        {
+            "@id": "https://www.comses.net/users/2747/",
+            "@type": "Person",
+            "email": "fernando.santos@udesc.br",
+            "givenName": "Fernando",
+            "familyName": "Santos",
+            "affiliation": {
+                "url": "http://www.ceavi.udesc.br",
+                "name": "Universidade do Estado de Santa Catarina (UDESC)",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "SUTTON, R. S.; BARTO, A. G. Reinforcement learning: An introduction.: MIT\npress, 2018.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "NetLogo",
+        "NetLogo",
+        "q-learning",
+        "reinforcement learning"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/b938a820-f209-4648-afc6-0946657c3484/releases/1.0.0/",
+    "dateCreated": "2019-12-10",
+    "description": "This model implements a classic scenario used in Reinforcement Learning problem, the \"Cliff Walking Problem\". Consider the gridworld shown below (SUTTON; BARTO, 2018). This is a standard undiscounted, episodic task, with start and goal states, and the usual actions causing movement up, down, right, and left. Reward is -1 on all transitions except those into the region marked \u201cThe Cliff.\u201d Stepping into this region incurs a reward of -100 and sends the agent instantly back to the start (SUTTON; BARTO, 2018).\n\n![CliffWalking](https://live.staticflickr.com/65535/49199511478_3054654b30.jpg)\n\nThe problem is solved in this model using the Q-Learning algorithm. The algorithm is implemented with the support of the [NetLogo Q-Learning Extension](https://github.com/KevinKons/qlearning-netlogo-extension)",
+    "downloadUrl": "https://www.comses.net/codebases/b938a820-f209-4648-afc6-0946657c3484/releases/1.0.0/download/",
+    "dateModified": "2019-12-19",
+    "releaseNotes": "To use this model you just have to open it with NetLogo 6.1.0. You also should add the Q-Learning Extension to your NetLogo, this can be done through the NetLogo Extension Manager.",
+    "copyrightYear": 2019,
+    "datePublished": "2019-12-10",
+    "codeRepository": "https://github.com/KevinKons/qlearning-netlogo-extension",
+    "embargoEndDate": "2019-12-10",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

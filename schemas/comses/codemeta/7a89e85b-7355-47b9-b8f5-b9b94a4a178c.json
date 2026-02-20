@@ -1,0 +1,72 @@
+{
+    "@id": "https://www.comses.net/codebases/7a89e85b-7355-47b9-b8f5-b9b94a4a178c/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/7a89e85b-7355-47b9-b8f5-b9b94a4a178c/releases/1.0.0/",
+    "name": "Final Phase Epidemic Risk Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-4031-9791",
+            "@type": "Person",
+            "email": "marco.cremonini@unimi.it",
+            "givenName": "Marco",
+            "familyName": "Cremonini"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "samira.maghool@unimi.it",
+            "givenName": "Samira",
+            "familyName": "Maghool",
+            "affiliation": {
+                "@id": "https://ror.org/00wjc7c48",
+                "url": "http://www.unimi.it/ENG/",
+                "name": "University of Milan",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00wjc7c48"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-4031-9791",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "maintainer"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/7a89e85b-7355-47b9-b8f5-b9b94a4a178c/releases/1.0.0/",
+    "dateCreated": "2020-04-18",
+    "description": "A discrete-time stochastic model with state-dependent transmission probabilities and multi-agent simulations focusing on possible risks that could materialize in the final phase of the epidemic. ",
+    "downloadUrl": "https://www.comses.net/codebases/7a89e85b-7355-47b9-b8f5-b9b94a4a178c/releases/1.0.0/download/",
+    "dateModified": "2020-07-18",
+    "releaseNotes": "How to use the simulator:\n1.\tOpen MySimulation.py module.\n2.\tSpecify number of nodes, time of simulation and network configuration.\n3.\tIn the main function of MySimulation.py module, define density of types (L/H).\n4.\tIn the NetworkSimulation module, you can change the number of trials.\n5.\tIn the SIRSAgent module, you are able to change the P_S_base, P_IR_base, P_R_base probabilities and agents behavioral function (like imitation).\n6.\tRun the MySimulation.py module. \n",
+    "copyrightYear": 2020,
+    "datePublished": "2020-07-18",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetworkX"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "submitted to JASSS"
+}

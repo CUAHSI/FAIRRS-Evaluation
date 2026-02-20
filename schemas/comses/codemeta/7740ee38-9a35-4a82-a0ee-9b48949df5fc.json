@@ -1,0 +1,53 @@
+{
+    "@id": "https://www.comses.net/codebases/7740ee38-9a35-4a82-a0ee-9b48949df5fc/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/7740ee38-9a35-4a82-a0ee-9b48949df5fc/releases/1.0.0/",
+    "name": "Resisting hostility",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-2973-7738",
+            "@type": "Person",
+            "email": "sylvie.huet@inrae.fr",
+            "givenName": "Sylvie",
+            "familyName": "Huet",
+            "affiliation": {
+                "url": "https://lisc.inrae.fr/",
+                "name": "Inrae",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/7740ee38-9a35-4a82-a0ee-9b48949df5fc/releases/1.0.0/",
+    "dateCreated": "2018-12-19",
+    "description": "We propose an agent-based model leading to a decrease or an increase of hostility between agents after a major cultural threat such as a terrorist attack. The model is inspired from the Terror Management Theory and the Social Judgement Theory. An agent has a cultural identity defined through its acceptance segments about each of three different cultural worldviews (i.e., Atheist, Muslim, Christian) of the considered society. An agent\u2019s acceptance segment is composed from its acceptable positions toward a cultural worldview, including its most acceptable position. An agent forms an attitude about another agent depending on the similarity between their cultural identities. When a terrorist attack is perpetrated in the name of an extreme cultural identity, the negatively perceived agents from this extreme cultural identity point of view tend to decrease the width of their acceptance segments in order to differentiate themselves more from the threatening cultural identity",
+    "downloadUrl": "https://www.comses.net/codebases/7740ee38-9a35-4a82-a0ee-9b48949df5fc/releases/1.0.0/download/",
+    "dateModified": "2018-12-20",
+    "releaseNotes": "ResistingHostility is an agent-based model for computing the evolution, in terms of discrimination between groups, of a population facing a terrorist attack",
+    "copyrightYear": 2018,
+    "datePublished": "2018-12-20",
+    "codeRepository": "https://gitlab.irstea.fr/sylvie.huet/resistinghostility.git",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Java"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

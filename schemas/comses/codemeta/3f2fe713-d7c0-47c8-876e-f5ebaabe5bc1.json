@@ -1,0 +1,126 @@
+{
+    "@id": "https://www.comses.net/codebases/3f2fe713-d7c0-47c8-876e-f5ebaabe5bc1/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/3f2fe713-d7c0-47c8-876e-f5ebaabe5bc1/releases/1.0.0/",
+    "name": "SiFlo: An Agent-based Model to simulate inhabitants\u2019 behavior during a flood event",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2003/",
+            "@type": "Person",
+            "email": "franck.taillandier@u-bordeaux1.fr",
+            "givenName": "Franck",
+            "familyName": "Taillandier",
+            "affiliation": {
+                "@id": "https://ror.org/003vg9w96",
+                "url": "https://www.inrae.fr/",
+                "name": "National Research Institute for Agriculture, Food and Environment",
+                "@type": "Organization",
+                "identifier": "https://ror.org/003vg9w96"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "pascal.dimaiolo@inrae.fr",
+            "givenName": "Pascal",
+            "familyName": "Di Maiolo",
+            "affiliation": {
+                "@id": "https://ror.org/003vg9w96",
+                "url": "https://www.inrae.fr/",
+                "name": "National Research Institute for Agriculture, Food and Environment",
+                "@type": "Organization",
+                "identifier": "https://ror.org/003vg9w96"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1129/",
+            "@type": "Person",
+            "email": "patrick.taillandier@gmail.com",
+            "givenName": "Patrick",
+            "familyName": "Taillandier",
+            "affiliation": {
+                "url": "http://www.inra.fr",
+                "name": "INRA",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "email": "rasool.mehdizadeh@univ-lorraine.fr",
+            "givenName": "Rasool",
+            "familyName": "Mehdizadeh",
+            "affiliation": {
+                "@id": "https://ror.org/04vfs2w97",
+                "url": "https://www.univ-lorraine.fr",
+                "name": "Universit\u00e9 de Lorraine",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04vfs2w97"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "BDI",
+        "bdi architecture",
+        "flood risk",
+        "GAMA",
+        "GAMA",
+        "GAMA"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3f2fe713-d7c0-47c8-876e-f5ebaabe5bc1/releases/1.0.0/",
+    "dateCreated": "2021-07-29",
+    "description": "SiFlo is an ABM dedicated to simulate flood events in urban areas. It considers the water flowing and the reaction of the inhabitants. The inhabitants would be able to perform different actions regarding the flood: protection (protect their house, their equipment and furniture\u2026), evacuation (considering traffic model), get and give information (considering imperfect knowledge), etc. A special care was taken to model the inhabitant behavior: the inhabitants should be able to build complex reasoning, to have emotions, to follow or not instructions, to have incomplete knowledge about the flood, to interfere with other inhabitants, to find their way on the road network. The model integrates the closure of roads and the danger a flooded road can represent. Furthermore, it considers the state of the infrastructures and notably protection infrastructures as dyke. Then, it allows to simulate a dyke breaking.\nThe model intends to be generic and flexible whereas provide a fine geographic description of the case study. In this perspective, the model is able to directly import GIS data to reproduce any territory. The following sections expose the main elements of the model.\n",
+    "downloadUrl": "https://www.comses.net/codebases/3f2fe713-d7c0-47c8-876e-f5ebaabe5bc1/releases/1.0.0/download/",
+    "dateModified": "2021-07-29",
+    "releaseNotes": "Tested with GAMA 1.8.1.\n\nTo run the model: download GAMA 1.8.1: https://github.com/gama-platform/gama/releases/tag/1.8.1\nimport the model: https://gama-platform.github.io/wiki/ImportingModels\nOpen the model: models: FloodCiotat_22_06_21_v3.gaml\n\n",
+    "copyrightYear": 2021,
+    "datePublished": "2021-07-29",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "GAMA",
+        "GAMA",
+        "GAMA"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "GAMA",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "GAMA",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "GAMA",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "GAMA",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

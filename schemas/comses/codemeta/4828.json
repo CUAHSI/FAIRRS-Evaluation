@@ -1,0 +1,79 @@
+{
+    "@id": "https://www.comses.net/codebases/4828/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4828/releases/1.0.0/",
+    "name": "Composite Collective Decision Making - ant colony foraging model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1658/",
+            "@type": "Person",
+            "email": "tomer.czaczkes@gmail.com",
+            "givenName": "Tomer",
+            "familyName": "Czaczkes",
+            "affiliation": {
+                "@id": "https://ror.org/01eezs655",
+                "url": "http://www.uni-regensburg.de/index.html.en",
+                "name": "University of Regensburg",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01eezs655"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Benjamin",
+            "familyName": "Czaczkes"
+        },
+        {
+            "@id": "https://www.comses.net/users/1658/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "ants",
+        "collective decision-making",
+        "information use",
+        "NetLogo",
+        "private information",
+        "public information"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4828/releases/1.0.0/",
+    "dateCreated": "2015-12-17",
+    "description": "-abstract from Czaczkes TJ, Czaczkes B, Iglhaut C, Heinze J. 2015. [Composite collective decision-making](http://rspb.royalsocietypublishing.org/content/282/1809/20142723.abstract). Proceedings of the Royal Society B: Biological Sciences 282, where the model results are published-\r\n\r\nIndividual animals are adept at making decisions and have cognitive abilities, such as memory, which allow them to hone their decisions. Social animals can also share information. This allows social animals to make adaptive group-level decisions. Both individual and collective decision-making systems also have drawbacks and limitations, and while both are well studied, the interaction between them is still poorly understood. Here, we study how individual and collective decision-making interact during ant foraging. We first gathered empirical data on memory-based foraging persistence in the ant Lasius niger. We used these data to create an agent-based model where ants may use social information (trail pheromones), private information (memories) or both to make foraging decisions. The combined use of social and private information by individuals results in greater efficiency at the group level than when either information source was used alone. The modelled ants couple consensus decision-making, allowing them to quickly exploit high-quality food sources, and combined decision-making, allowing different individuals to specialize in exploiting different resource patches. Such a composite collective decision-making system reaps the benefits of both its constituent parts. Exploiting such insights into composite collective decision-making may lead to improved decision-making algorithms.",
+    "downloadUrl": "https://www.comses.net/codebases/4828/releases/1.0.0/download/",
+    "dateModified": "2018-02-19",
+    "releaseNotes": "Final publication version",
+    "copyrightYear": 2015,
+    "datePublished": "2015-12-17",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Czaczkes TJ, Czaczkes B, Iglhaut C, Heinze J. (2015) Composite collective decision-making. Proceedings of the Royal Society B: Biological Sciences 282."
+}

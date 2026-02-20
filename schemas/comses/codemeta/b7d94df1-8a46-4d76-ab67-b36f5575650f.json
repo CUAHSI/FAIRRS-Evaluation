@@ -1,0 +1,59 @@
+{
+    "@id": "https://doi.org/10.25937/qae8-m991",
+    "url": "https://doi.org/10.25937/qae8-m991",
+    "name": "The dynamical relationship between individual needs and group performance: A simulation of the self-organising task allocation process",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/3330/",
+            "@type": "Person",
+            "email": "shaoniwang530@gmail.com",
+            "givenName": "Shaoni",
+            "familyName": "Wang"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "complex adaptive system",
+        "individual need",
+        "self-organization",
+        "task allocation",
+        "team performance"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/qae8-m991",
+        "https://doi.org/10.25937/qae8-m991"
+    ],
+    "dateCreated": "2021-10-05",
+    "description": "The purpose of the model is to study the dynamical relationship between individual needs and group performance when focusing on self-organizing task allocation. For this, we develop a model that formalizes Deci & Ryan\u2019s self-determination theory (SDT) theory into an ABM creating a framework to study the social dynamics that pertain to the mutual relations between the individual and group level of team performance. Specifically, it aims to answer how the three individual motivations of autonomy, competence, and belonging affect team performance.",
+    "downloadUrl": "https://www.comses.net/codebases/b7d94df1-8a46-4d76-ab67-b36f5575650f/releases/1.0.0/download/",
+    "dateModified": "2024-12-05",
+    "releaseNotes": "The fundamental process of the model is the self-organising task allocation process, which is based on the social interaction among individuals. Firstly, individuals make an initial choice based on their level of competence(knowledge) and motivation, and they have to interact with each other to reach the final allocation when there is no complementary allocation happening until it reaches a complementary situation in which there is only one individual who wants to do a particular task. Individuals will adjust their competence and motivation after performing the tasks allocated to them. When the next project comes, the self-organising allocation and performing process will be repeated, and the individuals involved will constantly adapt according to the coming tasks.",
+    "copyrightYear": 2021,
+    "datePublished": "2021-10-05",
+    "embargoEndDate": "2021-12-31",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Wang S, Zoethout K, Jager W, Dang Y. The Dynamical Relation Between Individual Needs and Group Performance: A Simulation of the Self-Organising Task Allocation Process. Journal of Artificial Societies and Social Simulation. 2021 Oct 31;24(4)."
+}

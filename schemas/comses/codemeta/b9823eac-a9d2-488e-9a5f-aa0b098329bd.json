@@ -1,0 +1,55 @@
+{
+    "@id": "https://www.comses.net/codebases/b9823eac-a9d2-488e-9a5f-aa0b098329bd/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/b9823eac-a9d2-488e-9a5f-aa0b098329bd/releases/1.0.0/",
+    "name": "Potato late blight model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2145/",
+            "@type": "Person",
+            "email": "francine.pacilly@gmail.com",
+            "givenName": "Francine",
+            "familyName": "Pacilly"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "crop-disease interactions",
+        "cropping patterns",
+        "pathogen evolution",
+        "Phytophthora infestans",
+        "resistance management"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/b9823eac-a9d2-488e-9a5f-aa0b098329bd/releases/1.0.0/",
+    "dateCreated": "2018-04-13",
+    "description": "The purpose of the model is to simulate the spatial dynamics of potato late blight to analyse whether resistant varieties can be used effectively for sustainable disease control. The model represents an agricultural landscape with potato fields and data of a Dutch agricultural region is used as input for the model. We simulated potato production, disease spread and pathogen evolution during the growing season (April to September) for 36 years. Since late blight development and crop growth is weather dependent, measured weather data is used as model input. A susceptible and late blight resistant potato variety are distinguished. The resistant variety has a potentially lower yield but cannot get infected with the disease. However, during the growing season virulent spores can emerge as a result of mutations during spore production. This new virulent strain is able to infect the resistant fields, resulting in resistance breakdown. The model shows how disease severity, resistance durability and potato yield are affected by the fraction of fields across a landscape with a disease-resistant potato variety.",
+    "downloadUrl": "https://www.comses.net/codebases/b9823eac-a9d2-488e-9a5f-aa0b098329bd/releases/1.0.0/download/",
+    "dateModified": "2018-04-13",
+    "releaseNotes": "The model (version 1.0.0) is related to the following publication: \nPacilly, F.C.A., Hofstede, G.J., Lammerts van Bueren, E.T., Kessel, G.J.T., Groot, J.C.J., 2018. Simulating crop-disease interactions in agricultural landscapes to analyse the effectiveness of host resistance in disease control: The case of potato late blight. Ecological Modelling 378, 1-12.",
+    "copyrightYear": 2018,
+    "datePublished": "2018-04-13",
+    "embargoEndDate": "2018-04-13",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

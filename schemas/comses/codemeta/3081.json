@@ -1,0 +1,60 @@
+{
+    "@id": "https://www.comses.net/codebases/3081/releases/1.2.0/",
+    "url": "https://www.comses.net/codebases/3081/releases/1.2.0/",
+    "name": "Model of Context Switching with Segregation",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/702/",
+            "@type": "Person",
+            "email": "davex.pt@gmail.com",
+            "givenName": "Davide",
+            "familyName": "Nunes"
+        },
+        {
+            "@id": "https://www.comses.net/users/702/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "context segregation",
+        "context switching",
+        "multi-agent",
+        "NetLogo",
+        "social contexts",
+        "social network"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3081/releases/1.2.0/",
+    "dateCreated": "2012-08-27",
+    "description": "\r\nIn the context switching model, a society of agents embedded in multiple social relations, engages in a simple abstract game: the consensus game. Each agent has to choose towards one of two\r\npossible choices which are basically arbitrary. The objective of the game is to\r\nreach a global consensus, but the particular choice that gets collectively selected\r\nis irrelevant. \r\n\n\r\nThe agents switch contexts with a switching probability, in addition, agents avoid undesired \r\nneighbourhoods with a mechanism of segregation with a tunable tolerance threshold.  \r\n",
+    "downloadUrl": "https://www.comses.net/codebases/3081/releases/1.2.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

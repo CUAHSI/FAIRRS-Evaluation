@@ -1,0 +1,102 @@
+{
+    "@id": "https://www.comses.net/codebases/5681/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5681/releases/1.0.0/",
+    "name": "MarPEM: An Agent Based Model to Explore the Effects of Policy Instruments on the Transition of the Maritime Fuel System",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1970/",
+            "@type": "Person",
+            "email": "g.bas@tudelft.nl",
+            "givenName": "G",
+            "familyName": "Bas",
+            "affiliation": {
+                "@id": "https://ror.org/02e2c7k09",
+                "url": "http://www.tudelft.nl/en/",
+                "name": "Delft University of Technology",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02e2c7k09"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "K",
+            "familyName": "De Boo"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Am",
+            "familyName": "Vaes - Van De Hulsbeek"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "givenName": "I",
+            "familyName": "Nikolic"
+        },
+        {
+            "@id": "https://www.comses.net/users/1970/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-nd/4.0",
+        "name": "CC-BY-NC-ND-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based model",
+        "liquefied natural gas",
+        "maritime fuels",
+        "policy evaluation",
+        "simulator",
+        "sulphur emissions",
+        "system perspective"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5681/releases/1.0.0/",
+    "dateCreated": "2017-06-15",
+    "description": "To lower the emissions of deep sea shipping, policymakers aim to decrease the use of heavy fuel oil (HFO) as a maritime fuel. Multiple alternatives for HFO exist, but despite new regulations, their use is still limited. To stimulate shipping companies to replace HFO by one of the alternatives, policymakers can use a variety of policy instruments. MarPEM is an agent-based model that can be used to study the effects of policy instruments on the transition away from HFO. In contrast to existing studies on reducing maritime emissions, our system perspective captures the relations and dynamics between different components of the maritime fuel system. Thereby, it can account for the feedback and non-\r\nlinear dynamics in the system.",
+    "downloadUrl": "https://www.comses.net/codebases/5681/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2017,
+    "datePublished": "2017-06-15",
+    "operatingSystem": "linux",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "[Future] Reference to paper"
+}

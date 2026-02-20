@@ -1,0 +1,131 @@
+{
+    "@id": "https://www.comses.net/codebases/4093/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4093/releases/1.0.0/",
+    "name": "Concession Forestry Modeling",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-1164-312X",
+            "@type": "Person",
+            "email": "bellar@bu.edu",
+            "givenName": "Andrew",
+            "familyName": "Bell",
+            "affiliation": {
+                "@id": "https://ror.org/05qwgg493",
+                "url": "http://www.bu.edu/",
+                "name": "Boston University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05qwgg493"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Rick",
+            "familyName": "Riolo"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Jacqueline",
+            "familyName": "Doremus"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "givenName": "Daniel",
+            "familyName": "Brown"
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Person",
+            "givenName": "Thomas",
+            "familyName": "Lyon"
+        },
+        {
+            "@id": "_:author_6",
+            "@type": "Person",
+            "givenName": "John",
+            "familyName": "Vandermeer"
+        },
+        {
+            "@id": "_:author_7",
+            "@type": "Person",
+            "givenName": "Arun",
+            "familyName": "Agrawal"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1164-312X",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_6",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_7",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "concession forestry",
+        "congo basin",
+        "monitoring"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4093/releases/1.0.0/",
+    "dateCreated": "2014-01-23",
+    "description": "The link between ineffective forest monitoring and forest degradation is well known. Under REDD+, monitoring stands to become more important as a means of maintaining incentive. Little attention however has been paid to the possible adverse consequences of forest monitoring. Our research develops a spatially explicit, agent-based model (ABM) of timber extraction in a Congo Basin forest concession to investigate the potential conservation impact of more effective monitoring. We modeled the building of access roads, and logging of legal timber and illegal timber, where illegal timber may be interpreted broadly to include prohibited species, smaller trees, or trees in areas where cutting is not permitted. We investigated road building under (1) random spot monitoring of logging sites and (2) monitoring of logged trunks at checkpoints. Our findings indicate that although more effective monitoring can reduce illegal harvesting, it can also lead to construction of denser road networks and higher levels of forest fragmentation, with an implied loss of biodiversity. These insights are particularly relevant in the context of REDD+, as they suggest that some monitoring strategies may lead to more forest fragmentation, even as they help reduce emissions.",
+    "downloadUrl": "https://www.comses.net/codebases/4093/releases/1.0.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "",
+    "copyrightYear": 2014,
+    "datePublished": "2014-01-23",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Repast"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Andrew Bell, Rick Riolo, Jacqueline Doremus, Dan Brown, Tom Lyon, John Vandermeer, and Arun Agrawal (2012).  Fragmenting forests: The double edge of effective forest monitoring.  Environmental Science and Policy 16: 20-30."
+}

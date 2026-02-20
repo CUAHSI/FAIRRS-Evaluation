@@ -1,0 +1,98 @@
+{
+    "@id": "https://www.comses.net/codebases/2267/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/2267/releases/1.0.0/",
+    "name": "Tuberculosis and helminthes",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Person",
+            "email": "marco.janssen@asu.edu",
+            "givenName": "Marco",
+            "familyName": "Janssen",
+            "affiliation": {
+                "url": "https://schoolofsustainability.asu.edu/",
+                "name": "School of Sustainability",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/86/",
+            "@type": "Person",
+            "email": "nathan.rollins@asu.edu",
+            "givenName": "Nathan",
+            "familyName": "Rollins"
+        },
+        {
+            "@id": "https://www.comses.net/users/88/",
+            "@type": "Person",
+            "email": "alhaji.math@gmail.com",
+            "givenName": "Alhaji",
+            "familyName": "Cherif"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "givenName": "Marcel",
+            "familyName": "Hurtado"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://www.comses.net/users/86/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://www.comses.net/users/88/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Janssen, M.A., A. Cherif, A.M. Hurtado, M. Hurtado and N. Rollins (2010) The effect of public health policy on tuberculosis epidemic: modelling helminthes loads and tuberculosis dynamics, submitted",
+            "@type": "CreativeWork"
+        }
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2267/releases/1.0.0/",
+    "dateCreated": "2010-06-05",
+    "description": "The purpose of this model is to investigate the consequences of helminthes in public health policy to eradicate tuberculosis. Helminthes surprise immune system responses and without changes in hygiene and sanitation, treatments for tuberculosis are less effective. The model of TB is based on Cohen et al. (2007) and extended to include helminthes.",
+    "downloadUrl": "https://www.comses.net/codebases/2267/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

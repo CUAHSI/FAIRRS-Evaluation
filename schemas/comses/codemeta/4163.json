@@ -1,0 +1,79 @@
+{
+    "@id": "https://www.comses.net/codebases/4163/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4163/releases/1.0.0/",
+    "name": "A Mathematical Model of The Beer Game Coded in R for Verification",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "givenName": "Mert",
+            "familyName": "Edali"
+        },
+        {
+            "@id": "https://www.comses.net/users/1220/",
+            "@type": "Person",
+            "email": "yasarcanh@yahoo.com",
+            "givenName": "Hakan",
+            "familyName": "Yasarcan",
+            "affiliation": {
+                "@id": "https://ror.org/03z9tma90",
+                "url": "http://www.boun.edu.tr/en_US",
+                "name": "Bogazici University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03z9tma90"
+            }
+        },
+        {
+            "@id": "_:author_1",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://www.comses.net/users/1220/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "STERMAN, J. D. (1989). Modeling managerial behavior: misperceptions of feedback in a dynamic decision making experiment. Management Science, 35(3), 321-339.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "acquisition lag",
+        "artificial agents",
+        "beer game",
+        "dynamic systems",
+        "mathematical model",
+        "replication"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4163/releases/1.0.0/",
+    "dateCreated": "2014-11-05",
+    "description": "We first coded the mathematical model given in the paper \u201cA Mathematical Model of The Beer Game\u201d using R (R 2013). The aim of that code was to ease the simulation replications of the model provided in the paper. This code is a different version of that code, which is created for verification purposes. This code is ready to be executed; one needs to simply copy the code from the file and paste it to R console in order to execute it.\r\n\r\nR CORE TEAM. (2013). R: A language and environment for statistical computing. R Foundation for Statistical Computing. Vienna, Austria. http://www.R-project.org/",
+    "downloadUrl": "https://www.comses.net/codebases/4163/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "R version 2.12.2 (2011-02-25)",
+    "copyrightYear": 2014,
+    "datePublished": "2014-11-05",
+    "operatingSystem": "platform_independent",
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    },
+    "referencePublication": "EDALI, M. and YASARCAN H. (2014). A Mathematical Model of the Beer Game. Journal of Artificial Societies and Social Simulation, 17(4).\r\n<http://jasss.soc.surrey.ac.uk/17/4/2.html>"
+}

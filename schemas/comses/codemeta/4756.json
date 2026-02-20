@@ -1,0 +1,74 @@
+{
+    "@id": "https://www.comses.net/codebases/4756/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4756/releases/1.0.0/",
+    "name": "Influence with over-confident agents",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1614/",
+            "@type": "Person",
+            "email": "juliette.rouchier@dauphine.fr",
+            "givenName": "Juliette",
+            "familyName": "Rouchier",
+            "affiliation": {
+                "url": "http://www.lamsade.dauphine.fr",
+                "name": "CNRS-LAMSADE",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Emily",
+            "familyName": "Tanimura"
+        },
+        {
+            "@id": "https://www.comses.net/users/1614/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-sa/4.0/",
+        "name": "CC-BY-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "bounded confidence",
+        "collective learning",
+        "over-confidence"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4756/releases/1.0.0/",
+    "dateCreated": "2015-10-21",
+    "description": "This model was built from a huge simplification of a previous model (published in \"Simulation\" on the difficulty to learn from an environment with too confident agents), so as to make an analytical proof and new simulations from this simplified model. Agents can be in three states of knowledge (0 being ignorant, 1 medium, 2 perfect knowledge) and can influence each other only if they are close enough - with more knowledgeable agents being able to influence more. The two important parameters are the initial repartition of agents and the respective probability of influence of each type of agent to the other. The paper should be published in JASSS.",
+    "downloadUrl": "https://www.comses.net/codebases/4756/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2015,
+    "datePublished": "2015-10-21",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "revision submitted to JASSS"
+}

@@ -1,0 +1,96 @@
+{
+    "@id": "https://www.comses.net/codebases/f6b05b94-5f5c-4cc6-95a9-104b223e256b/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/f6b05b94-5f5c-4cc6-95a9-104b223e256b/releases/1.0.0/",
+    "name": "SAFARI: Simulating Agroforestry Adoption in Rural Indonesia",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-2945-2396",
+            "@type": "Person",
+            "email": "noeldeke@iuw.uni-hannover.de",
+            "givenName": "Beatrice",
+            "familyName": "N\u00f6ldeke"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "winter@iuw.uni-hannover.de",
+            "givenName": "Etti",
+            "familyName": "Winter",
+            "affiliation": {
+                "@id": "https://ror.org/0304hq317",
+                "url": "https://www.uni-hannover.de",
+                "name": "Leibniz University Hannover",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0304hq317"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "Y.Laumonier@cgiar.org",
+            "givenName": "Yves",
+            "familyName": "Laumonier",
+            "affiliation": {
+                "@id": "https://ror.org/01jbzz330",
+                "url": "http://www.cifor.org/",
+                "name": "Center for International Forestry Research",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01jbzz330"
+            }
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "email": "T.Simamora@cgiar.org",
+            "givenName": "Trifosa",
+            "familyName": "Simamora",
+            "affiliation": {
+                "@id": "https://ror.org/01jbzz330",
+                "url": "http://www.cifor.org/",
+                "name": "Center for International Forestry Research",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01jbzz330"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agroforestry",
+        "Climate Change",
+        "Indonesia",
+        "livelihood strategies"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/f6b05b94-5f5c-4cc6-95a9-104b223e256b/releases/1.0.0/",
+    "dateCreated": "2021-01-22",
+    "description": "The Simulating Agroforestry Adoption in Rural Indonesia (SAFARI) model aims at exploring the adoption of illipe rubber agroforestry systems by farming households in the case study region in rural Indonesia. Thereby, the ABM simulates the interdependencies of agroforestry systems and local livelihoods, income, land use, biodiversity, and carbon fixation. The model contrasts development paths without agroforestry (business as usual (BAU) scenario), corresponding to a scenario where the government promotes rubber monoculture, with the introduction of illipe rubber agroforestry systems (IRA scenario) as an alternative. It aims to support policy-makers to assess the potential of IRA over larger temporal and spatial scales.",
+    "downloadUrl": "https://www.comses.net/codebases/f6b05b94-5f5c-4cc6-95a9-104b223e256b/releases/1.0.0/download/",
+    "dateModified": "2021-07-20",
+    "releaseNotes": "Input data includes GIS data, household survey data and ecological indicators contained in the csv and GIS files. The model is build in NetLogo and uses the GIS and csv extensions. Outputs include livelihood and ecological indicators. ",
+    "copyrightYear": 2021,
+    "datePublished": "2021-07-20",
+    "embargoEndDate": "2022-05-31",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

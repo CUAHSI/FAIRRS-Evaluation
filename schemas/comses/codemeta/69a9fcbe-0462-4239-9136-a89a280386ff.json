@@ -1,0 +1,50 @@
+{
+    "@id": "https://www.comses.net/codebases/69a9fcbe-0462-4239-9136-a89a280386ff/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/69a9fcbe-0462-4239-9136-a89a280386ff/releases/1.0.0/",
+    "name": "Space colonization",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/3443/",
+            "@type": "Person",
+            "email": "allagonne@gmail.com"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "colonies",
+        "galaxy",
+        "space"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/69a9fcbe-0462-4239-9136-a89a280386ff/releases/1.0.0/",
+    "dateCreated": "2022-01-05",
+    "description": "Agent-Based-Modeling - space colonization\nask me for the .nlogo model\nWHAT IS IT?\nThe goal of this project is to simulate with NetLogo (v6.2) a space colonization of humans, starting from Earth, into the Milky Way.\n\nHOW IT WORKS\nAt setup, there are 1 colony = Earth and n ships (defined by ships_per_colony slider) Every ship goes in a random direction and settle at the next tick on next pixels. During that time, colony_destruct_risk and ship_destruct_risk are asked if colonies and ships self-destructed, and colonies are asked if they want to expand (expansion_willingness) : if so, they create n new ships (defined by ships_per_colony slider) that would expand mankind. Note that ships won\u2019t settle and die if they go to a out-of-galaxy area (black patchs) or a already-colonized area (blue patchs). The model stops at 1001 ticks.\n\nHOW TO USE IT\nChange the parameters, load the setup and click on go On the left, we would have the setup and go buttons, and also a few sliders :\n\nShips_per_colony : number of ships sent into space by every colony at every tick, if the expansion willingness is achieved. Goes from 0 to 10\nColony_destruct_risk : the risk for every colony (including Earth) to be destructed at every tick (auto-nuclear destruction, planet collision with asteroids, global warming\u2026). Goes from 0 to 1\nShip_destruct_risk : (similar to the previous slider, but for ships) the risk for every ship to be destructed at every tick. Goes from 0 to 1\nExpansion_willingness : Willingness for every colony (including Earth) to expand. If the condition is not satisfied, the colony would randomly \u201cpass\u201d for 1 tick, and the expansion willingness is asked 1 tick later (if the colony survived). Goes from 0 to 1\nOn the right, we would have a graphic metric :\n\nNb of colonies : number of colonies (exactly, number of pixels colonized) in the whole galaxy\nTHINGS TO NOTICE\n(suggested things for the user to notice while running the model)\n\nTHINGS TO TRY\nIf we take small values for our 4 parameters (ships_per_colony 1/colony_destruct_risk 0.07/ship_destruct_risk 0.1/expansion_willingness 0.1), often (80% of the times), the model would not survive a few ticks, but sometimes the simulation would make a long time to perform a big expansion, and then the number of colonies would increase exponentially after more than 200 ticks.\n\nWe can see that the model is really dependent on the parameters : an increment of 0.01 of, let say, \u201ccolony_destruct_risk\u201d would leave us with much rare cases of expansion : more than 90% of the models would result in no expansion. With much higher number of parameters, we can find \u201choley\u201d galaxies, with lots of uncolonized zones in the galaxy. I personally find it very interesting that we obtain some kind of a maximum limit\n\nEXTENDING THE MODEL\nWe are not alone : we could simulate other civilizations with other colors for ships and colonies, and simulate if there are peaceful (they won\u2019t attack our civilization), or hostile (they would attack, and we would have war zones and a risk to lose some colonies). It would be interesting to see if they can live together, and if so, with different spatial zones or totally mixed populations, or if only 1 civilization would survive, and why (do they send more ships into space? Did they start from a better place into the galaxy?...)\nTime : o we could simulate the time by making a new slider \u201cspeed of ships\u201d, and the expansion would depend on it. Also, a time window is 1 tick, and we considered that ships go from 1 pixel to another in this tick. o The probability that ships or colonies self-destruct is considered by 1 tick too, so we could take a different time window and fix a precise time-window (for ex 1 tick = 1000 years), that probability would also change. o If we have ships that go at 1/100th of the speed of light (it is already very fast) and we choose a time window of 1000 years for 1 tick, we would need 50 ticks to go from 1 pixel to the next one!\nGalaxy catastrophy : We also can simulate accidents inside of the galaxy : super-novae risk and black-hole risk for example.\nHuman density : in this project, we considered only 1 colony per pixel. But as we said, there are about 10 million suns per pixel, and many unhabitable worlds in that. We could increase the density of humans in every pixel, so that if a specific colony is destructed, there remains some human presence in this pixel, and we can keep the patch with blue color.\nNETLOGO FEATURES\nNone ; see the code for deep understanding\n\nRELATED MODELS\nNone\n\nCREDITS AND REFERENCES\nArnaud Llagonne https://github.com/allagonne/Agent-Based-Modeling",
+    "downloadUrl": "https://www.comses.net/codebases/69a9fcbe-0462-4239-9136-a89a280386ff/releases/1.0.0/download/",
+    "dateModified": "2022-01-05",
+    "releaseNotes": "v1.0.0",
+    "copyrightYear": 2022,
+    "datePublished": "2022-01-05",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "nlogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "nlogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

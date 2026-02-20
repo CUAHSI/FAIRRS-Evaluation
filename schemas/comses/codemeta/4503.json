@@ -1,0 +1,72 @@
+{
+    "@id": "https://www.comses.net/codebases/4503/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4503/releases/1.0.0/",
+    "name": "Atomic Radius",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-2122-8026",
+            "@type": "Person",
+            "email": "kitcmartin@gmail.com",
+            "givenName": "Kit",
+            "familyName": "Martin",
+            "affiliation": {
+                "url": "https://www.csats.psu.edu/",
+                "name": "Penn State",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Ashlyn",
+            "familyName": "Karan"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-2122-8026",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "atomic radius",
+        "visualization"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4503/releases/1.0.0/",
+    "dateCreated": "2015-01-16",
+    "description": "Our model contains four entity types: Electrons, protons, valences and Nuclei. These entities interact as follows: Electrons are drawn toward protons, valences are generated when electrons exceed thresholds. The Nucleus sits quietly marking the center.\r\n\r\nThe model was used by 200 middle school and high school students in January, 2015, to learn and visually understand atomic radius.",
+    "downloadUrl": "https://www.comses.net/codebases/4503/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2015,
+    "datePublished": "2015-01-16",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

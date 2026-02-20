@@ -1,0 +1,70 @@
+{
+    "@id": "https://doi.org/10.25937/7dkc-sd41",
+    "url": "https://doi.org/10.25937/7dkc-sd41",
+    "name": "BAMERS: Macroeconomic effect of extortion",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-2584-343X",
+            "@type": "Person",
+            "email": "alejandroplatasl@gmail.com",
+            "givenName": "Alejandro",
+            "familyName": "Platas L\u00f3pez"
+        },
+        {
+            "@id": "https://www.comses.net/users/2837/",
+            "@type": "Person",
+            "email": "aguerra@uv.mx",
+            "givenName": "Alejandro",
+            "familyName": "Guerra-Hern\u00e1ndez",
+            "affiliation": {
+                "@id": "https://ror.org/03efxn362",
+                "url": "http://www.uv.mx/en/",
+                "name": "Universidad Veracruzana",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efxn362"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "Extortion",
+        "Macroeconomic"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/7dkc-sd41",
+        "https://doi.org/10.25937/7dkc-sd41"
+    ],
+    "dateCreated": "2019-10-01",
+    "description": "Inspired by the European project called GLODERS that thoroughly analyzed the dynamics of extortive systems, Bottom-up Adaptive Macroeconomics with Extortion (BAMERS) is a model to study the effect of extortion on macroeconomic aggregates through simulation. This methodology is adequate to cope with the scarce data associated to the hidden nature of extortion, which difficults analytical approaches. As a first approximation, a  generic economy with healthy macroeconomics signals is modeled and validated, i.e., moderate inflation, as well as a reasonable unemployment rate are warranteed. Such economy is used to study the effect of extortion in such signals. It is worth mentioning that, as far as is known, there is no work that analyzes the effects of extortion on macroeconomic indicators from an agent-based perspective. Our results show that there is significant effects on some macroeconomics indicators, in particular, propensity to consume has a direct linear relationship with extortion, indicating that people become poorer, which impacts both the Gini Index and inflation. The GDP shows a marked contraction with the slightest presence of extortion in the economic system.",
+    "downloadUrl": "https://www.comses.net/codebases/e03074bc-714e-47b3-b01d-c0b6b2e61380/releases/1.1.0/download/",
+    "dateModified": "2021-02-02",
+    "releaseNotes": "See the info-tab attached to the code file\n",
+    "copyrightYear": 2020,
+    "datePublished": "2020-07-26",
+    "codeRepository": "https://github.com/alexplatasl/BAMERS/",
+    "embargoEndDate": "2020-07-31",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

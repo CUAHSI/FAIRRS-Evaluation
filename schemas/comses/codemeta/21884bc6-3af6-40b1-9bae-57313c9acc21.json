@@ -1,0 +1,107 @@
+{
+    "@id": "https://www.comses.net/codebases/21884bc6-3af6-40b1-9bae-57313c9acc21/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/21884bc6-3af6-40b1-9bae-57313c9acc21/releases/1.0.0/",
+    "name": "Citizenship competences and conflict resolution styles",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-2384-0518",
+            "@type": "Person",
+            "email": "ceciliaagarzon@yahoo.com",
+            "givenName": "Cecilia",
+            "familyName": "Avila",
+            "affiliation": {
+                "@id": "https://ror.org/03ca7a577",
+                "url": "http://www.konradlorenz.edu.co",
+                "name": "Fundaci\u00f3n Universitaria Konrad Lorenz",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03ca7a577"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "manueli.balagueraj@konradlorenz.edu.co",
+            "givenName": "Manuel",
+            "familyName": "Balaguera",
+            "affiliation": {
+                "@id": "https://ror.org/03ca7a577",
+                "url": "http://www.konradlorenz.edu.co",
+                "name": "Fundaci\u00f3n Universitaria Konrad Lorenz",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03ca7a577"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "vtabaresm@unal.edu.co",
+            "givenName": "Valentina",
+            "familyName": "Tabares",
+            "affiliation": {
+                "@id": "https://ror.org/059yx9a68",
+                "url": "http://unal.edu.co/",
+                "name": "Universidad Nacional de Colombia",
+                "@type": "Organization",
+                "identifier": "https://ror.org/059yx9a68"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nd/4.0",
+        "name": "CC-BY-ND-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based social simulation",
+        "citizenship",
+        "competences",
+        "ontology",
+        "semantic web"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/21884bc6-3af6-40b1-9bae-57313c9acc21/releases/1.0.0/",
+    "dateCreated": "2020-01-31",
+    "description": "This model represents an agent-based social simulation for citizenship competences. In this model people interact by solving different conflicts and a conflict is solved or not considering two possible escenarios: when individual citizenship competences are considered and when not. In both cases the TKI conflict resolution styles are considered. Each conflict has associated a competence and the information about the conflicts and their competences is retrieved from an ontology which was developed in Prot\u00e9g\u00e9. To do so, a NetLogo extension was developed using the Java programming language and the JENA API (to make queries over the ontology).",
+    "downloadUrl": "https://www.comses.net/codebases/21884bc6-3af6-40b1-9bae-57313c9acc21/releases/1.0.0/download/",
+    "dateModified": "2021-06-21",
+    "releaseNotes": "REQUIREMENTS\n\u2022\tFor the appropriate execution of this software it is required the installation of the NetLogo software V 6.1.1. \n\u2022\tJava 1.8 or higher.\n\u2022\tTested on Windows 10 OS\n\nFOR THE EXECUTION\nThe executable files are:\n\u2022\tA file containing the source code and scenario of the simulation (CitizechipCompetences_SocialSimulationModel.nlogo)\n\u2022\tA folder with the queryonto extension (this extension was also developed by the authors using the NetLogo API)\n\u2022\tA folder with the array extension (included in NetLogo)\nFor the execution of this scenario you should open the CitizechipCompetences_SocialSimulationModel.nlogo file. In the information tag there is an explanation about the scenario and the steps for using it.\n",
+    "copyrightYear": 2020,
+    "datePublished": "2020-02-03",
+    "embargoEndDate": "2019-12-30",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "JENA",
+        "NetLogo",
+        "NetLogo",
+        "RDF"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

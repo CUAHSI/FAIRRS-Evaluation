@@ -1,0 +1,67 @@
+{
+    "@id": "https://www.comses.net/codebases/49e8121f-d83b-4f3a-9128-3d436c2be2d8/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/49e8121f-d83b-4f3a-9128-3d436c2be2d8/releases/1.0.0/",
+    "name": "Modeling the decline of labor-sharing in highly variable environments",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2051/",
+            "@type": "Person",
+            "email": "andres.baeza@gmail.com",
+            "givenName": "Andres",
+            "familyName": "Baeza-Castro",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Person",
+            "email": "marco.janssen@asu.edu",
+            "givenName": "Marco",
+            "familyName": "Janssen",
+            "affiliation": {
+                "url": "https://schoolofsustainability.asu.edu/",
+                "name": "School of Sustainability",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/49e8121f-d83b-4f3a-9128-3d436c2be2d8/releases/1.0.0/",
+    "dateCreated": "2019-04-02",
+    "description": "The rapid environmental changes currently underway in many dry regions of the world, and the deep uncertainty about their consequences, underscore a critical challenge for sustainability: how to maintain cooperation that ensures the provision of natural resources when the benefits of cooperating are variable, sometimes uncertain, and often limited. We present an agent-based model that simulates the economic decisions of households to engage, or not, in labor-sharing agreements under different scenarios of water supply, water variability, and socio-environmental risk. We formulate the model to investigate the consequences of environmental variability on the fate of labor-sharing agreements between farmers. The economic decisions were implemented in the framework of prospect theory.",
+    "downloadUrl": "https://www.comses.net/codebases/49e8121f-d83b-4f3a-9128-3d436c2be2d8/releases/1.0.0/download/",
+    "dateModified": "2019-04-02",
+    "releaseNotes": "Netlogo 6.0.1 or higher is needed.  No extensions are needed to run the model.\nParameters can be modified using the sliders. The description of the parameters can be found in the table 1 in the document describing the model and provided in this version.\n",
+    "copyrightYear": 2019,
+    "datePublished": "2019-04-02",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Baeza, A. & Janssen, M.A. (2018). Modeling the decline of labor-sharing in the semi-desert region of Chile. Reg. Environ. Chang., 18, 1161\u20131172. DOI: 10.1007/s10113-017-1243-0"
+}

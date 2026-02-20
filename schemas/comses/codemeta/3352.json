@@ -1,0 +1,57 @@
+{
+    "@id": "https://www.comses.net/codebases/3352/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/3352/releases/1.0.0/",
+    "name": "Interactions between organizations and social networks in common-pool resource governance",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "givenName": "Phesi",
+            "familyName": "Project"
+        },
+        {
+            "@id": "_:author_1",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "common-pool resources",
+        "land use",
+        "resource governance"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3352/releases/1.0.0/",
+    "dateCreated": "2012-10-29",
+    "description": "We use an agent-based modeling approach to represent the actors who make resource-use and consumption choices as virtual agents. These choices are based on different individual preferences and the information individuals derive from (a) rules enforced by a formal\r\norganization to limit \ufb01rewood extraction and (b) norms of resource use that are based on observations of other households\u2019 extraction behavior. Household extraction behavior is\r\ndetermined by rules and social interactions among networks of neighbors. We used the model to explore the relationships between organizations and social networks in a series of resource use\r\nand management computational experiments to observe how agent choices shape resource-use behavior and contribute to improvements or degradations in collectively owned common-pool resources. (Agrawal et al. 2012).\r\n\r\nOur model has three components: two types of agents that represent the key actors (households and formal organizations) and the resource being utilized (the forest). We model\r\nagent behaviors and resource changes over time using discrete monthly time steps. Our focus is on the decisions households make: in particular, at each step, households must decide how\r\nmuch resource to extract. The resource being extracted is \ufb01rewood, which is obtained from local forests and constitutes the primary energy used for cooking in India (ABE, 1985; Bhatt,\r\nQ8 2004). agents in the context of forest use behavior in rural areas because such situations are well-known important examples",
+    "downloadUrl": "https://www.comses.net/codebases/3352/releases/1.0.0/download/",
+    "dateModified": "2018-02-19",
+    "releaseNotes": "2008-03-15",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "linux",
+    "runtimePlatform": [
+        "Repast"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Agrawal, A., Brown, D.G., Rao, G., Riolo, R.L.., Robinson, D.T., Bommarito, M. 2013. Interaction between organizations and networks in common-pool resource governance.  Environmental Science and Policy, 25: 138-146. doi:10.1016/j.envsci.2012.08.004"
+}

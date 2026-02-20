@@ -1,0 +1,47 @@
+{
+    "@id": "https://www.comses.net/codebases/b56ef3df-f3b6-4d9a-9bbc-276581e3602d/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/b56ef3df-f3b6-4d9a-9bbc-276581e3602d/releases/1.0.0/",
+    "name": "How does knowledge infrastructure mobilization influence the safe operating space of regulated exploited ecosystems?",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-6172-9079",
+            "@type": "Person",
+            "email": "jean-denis.mathias@irstea.fr",
+            "givenName": "Jean-Denis",
+            "familyName": "Mathias"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/b56ef3df-f3b6-4d9a-9bbc-276581e3602d/releases/1.0.0/",
+    "dateCreated": "2018-07-17",
+    "description": "Decision-makers often have to act before critical times to avoid the collapse of ecosystems using knowledge \\textcolor{red}{that can be incomplete or biased}. Adaptive management may help managers tackle such issues. However, because the knowledge infrastructure required for adaptive management may be mobilized in several ways, we study the quality and the quantity of knowledge provided by this knowledge infrastructure. In order to analyze the influence of mobilized knowledge, we study how the following typology of knowledge and its use may impact the safe operating space of exploited ecosystems: 1) knowledge of the past based on a time series distorted by measurement errors; 2) knowledge of the current systems' dynamics based on the representativeness of the decision-makers' mental models of the exploited ecosystem; 3) knowledge of future events based on decision-makers' likelihood estimates of extreme events based on modeling infrastructure (models and experts to interpret them) they have at their disposal. We consider different adaptive management strategies of a general regulated exploited ecosystem model and we characterize the robustness of these strategies to biased knowledge. Our results show that even with significant mobilized knowledge and optimal strategies, imperfect knowledge may still shrink the safe operating space of the system leading to the collapse of the system. However, and perhaps more interestingly, we also show that in some cases imperfect knowledge may unexpectedly increase the safe operating space by suggesting cautious strategies. \nThe code enables to calculate the safe operating spaces of different managers in the case of biased and unbiased knowledge.\n",
+    "downloadUrl": "https://www.comses.net/codebases/b56ef3df-f3b6-4d9a-9bbc-276581e3602d/releases/1.0.0/download/",
+    "dateModified": "2018-07-17",
+    "releaseNotes": "It is the code used for the following publication:\nhttps://cbie.asu.edu/how-does-knowledge-infrastructure-mobilization-influence-safe-operating-space-regulated-exploited\n",
+    "copyrightYear": 2018,
+    "datePublished": "2018-07-17",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "MatLab"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "MatLab",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

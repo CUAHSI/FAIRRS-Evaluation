@@ -1,0 +1,89 @@
+{
+    "@id": "https://www.comses.net/codebases/2dbac15b-a67d-4ad0-9220-6cc12d2dc963/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/2dbac15b-a67d-4ad0-9220-6cc12d2dc963/releases/1.0.0/",
+    "name": "EMMIT (Extendable Model for Malaria Intervention Testing)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-9491-8581",
+            "@type": "Person",
+            "email": "jacobhh8@outlook.com",
+            "givenName": "Jacob",
+            "familyName": "Heintzelman"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "gmadey@nd.edu",
+            "givenName": "Greg",
+            "familyName": "Madey",
+            "affiliation": {
+                "@id": "https://ror.org/00mkhxb43",
+                "url": "https://www.nd.edu/",
+                "name": "University of Notre Dame",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00mkhxb43"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-9491-8581",
+            "@type": "Role",
+            "roleName": "publisher"
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-9491-8581",
+            "@type": "Role",
+            "roleName": "maintainer"
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-9491-8581",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "biopesticide",
+        "disease modeling",
+        "disease transmission",
+        "infectious disease transmission",
+        "Malaria",
+        "NetLogo"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2dbac15b-a67d-4ad0-9220-6cc12d2dc963/releases/1.0.0/",
+    "dateCreated": "2021-05-27",
+    "description": "EMMIT is an end-user developed agent-based simulation of malaria transmission. The simulation's development is a case study demonstrating an approach for non-technical investigators to easily develop useful simulations of complex public health problems. We focused on malaria transmission, a major global public health problem, and insecticide resistance (IR), a major problem affecting malaria control. Insecticides are used to reduce transmission of malaria caused by the Plasmodium parasite that is spread by the Anopheles mosquito. However, the emergence and spread of IR in a mosquito population can diminish the insecticide's effectiveness. IR results from mutations that produce behavioral changes or biochemical changes (such as detoxification enhancement, target site alterations) in the mosquito population that provide resistance to the insecticide. Evolutionary selection for the IR traits reduces the effectiveness of an insecticide favoring the resistant mosquito population. It has been suggested that biopesticides, and specifically those that are Late Life Acting (LLA), could address this problem. LLA insecticides exploit Plasmodium\u2019s approximate 10-day extrinsic incubation period in the mosquito vector, a delay that limits malaria transmission to older infected mosquitoes. Since the proposed LLA insecticide delays mosquito death until after the exposed mosquito has a chance to produce several broods of offspring, reducing the selective pressure for resistance, it delays IR development and gives the insecticide longer effectivity. Such insecticides are designed to slow the evolution of IR thus maintaining their effectiveness for malaria control. For the IR problem, EMMIT shows that an LLA insecticide could work as intended, but its operational characteristics are critical, primarily the mean-time-to-death after exposure and the associated standard deviation. We also demonstrate the simulation's extensibility to other malaria control measures, including larval source control and policies to mitigate the spread of IR. The simulation was developed using NetLogo as a case study of a simple but useful approach to public health research.\n",
+    "downloadUrl": "https://www.comses.net/codebases/2dbac15b-a67d-4ad0-9220-6cc12d2dc963/releases/1.0.0/download/",
+    "dateModified": "2021-05-28",
+    "releaseNotes": "This model can be run using NetLogo 6.2.0. It includes an intuitive interface including initialization controls and plots and monitors to view the progress of the simulation. It can also be run using the BehaviorSpace tool in NetLogo which will run multiple simulations at a time and output a CSV file which can be viewed in another program. EMMIT comes with several pre-setup behaviorspaces for a user to view and run. ",
+    "copyrightYear": 2021,
+    "datePublished": "2021-05-27",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

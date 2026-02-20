@@ -1,0 +1,72 @@
+{
+    "@id": "https://www.comses.net/codebases/da17eead-f6ac-4231-9752-441161e9ea31/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/da17eead-f6ac-4231-9752-441161e9ea31/releases/1.0.0/",
+    "name": "Weighted Balance Model of Issue Alignment and Polarization",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-8679-0052",
+            "@type": "Person",
+            "email": "simon.schweighofer@outlook.com",
+            "givenName": "Simon",
+            "familyName": "Schweighofer"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "garcia@csh.ac.at",
+            "givenName": "David",
+            "familyName": "Garcia",
+            "affiliation": {
+                "@id": "https://ror.org/05n3x4p02",
+                "url": "https://www.meduniwien.ac.at",
+                "name": "Medical University of Vienna",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05n3x4p02"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "collaborator"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "issue alignment",
+        "opinion dynamics",
+        "polarization",
+        "weighted balance theory"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/da17eead-f6ac-4231-9752-441161e9ea31/releases/1.0.0/",
+    "dateCreated": "2023-10-08",
+    "description": "This model is pertinent to our JASSS publication \"Raising the Spectrum of Polarization: Generating Issue Alignment with a Weighted Balance Opinion Dynamics Model\". It shows how, based on the mechanisms of our Weighted Balance Theory (a development of Fritz Heider's Cognitive Balance Theory), agents can self-organize in a multi-dimensional opinion space and form an emergent ideological spectrum. The degree of issue alignment and polarization realized by the model depends mainly on the agent-specific 'equanimity parameter' epsilon. ",
+    "downloadUrl": "https://www.comses.net/codebases/da17eead-f6ac-4231-9752-441161e9ea31/releases/1.0.0/download/",
+    "dateModified": "2023-10-08",
+    "releaseNotes": "The model code is in form of a Jupyter Notebook, and runs with Python 3. Required packages are os, numpy, scipy, matplotlib, and sklearn. They are all part of the standard Anaconda distribution. ",
+    "copyrightYear": 2023,
+    "datePublished": "2023-10-08",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Python 3"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python 3",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

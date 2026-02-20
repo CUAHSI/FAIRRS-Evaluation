@@ -1,0 +1,92 @@
+{
+    "@id": "https://www.comses.net/codebases/083efb32-d4ac-4757-9a58-eed72c50a1ee/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/083efb32-d4ac-4757-9a58-eed72c50a1ee/releases/1.0.0/",
+    "name": "PolicySpace: agent-based modeling",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-1545-8490",
+            "@type": "Person",
+            "email": "bernardo.furtado@ipea.gov.br",
+            "givenName": "Bernardo",
+            "familyName": "Furtado",
+            "affiliation": {
+                "@id": "https://ror.org/013wyvt46",
+                "url": "http://www.iaw.edu/",
+                "name": "Institute for Applied Economic Research",
+                "@type": "Organization",
+                "identifier": "https://ror.org/013wyvt46"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Isaque Daniel",
+            "familyName": "Eberhardt"
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-0720-4180",
+            "@type": "Person",
+            "email": "miguel.quesada@uab.cat",
+            "givenName": "Francisco",
+            "familyName": "Miguel Quesada",
+            "affiliation": {
+                "@id": "https://ror.org/021018s57",
+                "url": "http://www.ub.edu/web/ub/en/",
+                "name": "Dept. Sociology, Aut\u00f2noma University of Barcelona",
+                "@type": "Organization",
+                "identifier": "https://ror.org/021018s57"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-0720-4180",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based computational economics",
+        "agent based model (abm)",
+        "Metropolises",
+        "municipalities",
+        "public finances"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/083efb32-d4ac-4757-9a58-eed72c50a1ee/releases/1.0.0/",
+    "dateCreated": "2018-03-06",
+    "description": "PolicySpace models public policies within an empirical, spatial environment using data from 46 metropolitan regions in Brazil. The model contains citizens, markets, residences, municipalities, commuting and a the tax scheme. In the associated publications (book in press and https://arxiv.org/abs/1801.00259) we validate the model and demonstrate an application of the fiscal analysis. Besides providing the basics of the platform, our results indicate the relevance of the rules of taxes transfer for cities' quality of life. ",
+    "downloadUrl": "https://www.comses.net/codebases/083efb32-d4ac-4757-9a58-eed72c50a1ee/releases/1.0.0/download/",
+    "dateModified": "2018-03-07",
+    "releaseNotes": "This is the initial available model. Please refer to PolicySpace book (in press) and https://arxiv.org/abs/1801.00259 for details on the model.",
+    "copyrightYear": 2018,
+    "datePublished": "2018-03-06",
+    "codeRepository": "https://github.com/BAFurtado/PolicySpace",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Windows"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

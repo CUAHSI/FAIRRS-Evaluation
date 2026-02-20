@@ -1,0 +1,89 @@
+{
+    "@id": "https://www.comses.net/codebases/e2d16fa2-38f0-48cb-829f-e8feef6f15c0/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/e2d16fa2-38f0-48cb-829f-e8feef6f15c0/releases/1.0.0/",
+    "name": "Agent-based model of team decision-making in hidden profile situations",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-2714-5624",
+            "@type": "Person",
+            "email": "j.d.stein@rug.nl",
+            "givenName": "Jonas",
+            "familyName": "Stein",
+            "affiliation": {
+                "@id": "https://ror.org/012p63287",
+                "url": "http://www.rug.nl/",
+                "name": "University of Groningen",
+                "@type": "Organization",
+                "identifier": "https://ror.org/012p63287"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-8276-8819",
+            "@type": "Person",
+            "email": "a.flache@rug.nl",
+            "givenName": "Andreas",
+            "familyName": "Flache",
+            "affiliation": {
+                "@id": "https://ror.org/012p63287",
+                "url": "http://www.rug.nl/",
+                "name": "University of Groningen, Department of Sociology",
+                "@type": "Organization",
+                "identifier": "https://ror.org/012p63287"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "v.c.frey@rug.nl",
+            "givenName": "Vincenz",
+            "familyName": "Frey",
+            "affiliation": {
+                "@id": "https://ror.org/012p63287",
+                "url": "http://www.rug.nl/",
+                "name": "University of Groningen",
+                "@type": "Organization",
+                "identifier": "https://ror.org/012p63287"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "collective decision-making",
+        "diversity",
+        "group identity",
+        "homophily"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/e2d16fa2-38f0-48cb-829f-e8feef6f15c0/releases/1.0.0/",
+    "dateCreated": "2023-04-20",
+    "description": "The model presented here is extensively described in the paper 'Talk less to strangers: How homophily can improve collective decision-making in diverse teams' (forthcoming at JASSS). A full replication package reproducing all results presented in the paper is accessible at https://osf.io/76hfm/.\n\nNarrative documentation includes a detailed description of the model, including a schematic figure and an extensive representation of the model in pseudocode.\n\nThe model develops a formal representation of a diverse work team facing a decision problem as implemented in the experimental setup of the hidden-profile paradigm. We implement a setup where a group seeks to identify the best out of a set of possible decision options. Individuals are equipped with different pieces of information that need to be combined to identify the best option. To this end, we assume a team of *N* agents. Each agent belongs to one of *M* groups where each group consists of agents who share a common identity. \nThe virtual teams in our model face a decision problem, in that the best option out of a set of *J* discrete options needs to be identified. Every team member forms her own belief about which decision option is best but is open to influence by other team members. Influence is implemented as a sequence of communication events. Agents choose an interaction partner according to homophily *h* and take turns in sharing an argument with an interaction partner. Every time an argument is emitted, the recipient updates her beliefs and tells her team what option she currently believes to be best. This influence process continues until all agents prefer the same option. This option is the team's decision.",
+    "downloadUrl": "https://www.comses.net/codebases/e2d16fa2-38f0-48cb-829f-e8feef6f15c0/releases/1.0.0/download/",
+    "dateModified": "2023-11-17",
+    "releaseNotes": "first release",
+    "copyrightYear": 2023,
+    "datePublished": "2023-11-17",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo 6.2.0"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "forthcoming"
+}

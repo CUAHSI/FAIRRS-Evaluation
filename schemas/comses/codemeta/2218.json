@@ -1,0 +1,66 @@
+{
+    "@id": "https://www.comses.net/codebases/2218/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/2218/releases/1.1.0/",
+    "name": "Evolution of cooperative strategies from first principles",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Person",
+            "email": "marco.janssen@asu.edu",
+            "givenName": "Marco",
+            "familyName": "Janssen",
+            "affiliation": {
+                "url": "https://schoolofsustainability.asu.edu/",
+                "name": "School of Sustainability",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Burtsev, M. (2004) Tracking the Trajectories of Evolution, Artificial Life 10: 397-411\r\nBurtsev, M. and P. Turchin (2006) Evolution of cooperative strategies from first principles, Nature 440: 1041-1044",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "evolution of cooperation"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2218/releases/1.1.0/",
+    "dateCreated": "2012-08-20",
+    "description": "The purpose of this model is to study the evolution of cooperation when agents are endowed with a limited set of receptors, a set of elementary actions and a neural network agents use to make decisions on movement, eating, fighting and producing offspring.",
+    "downloadUrl": "https://www.comses.net/codebases/2218/releases/1.1.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "Reuploaded model files, missing from old v.1 copy.",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

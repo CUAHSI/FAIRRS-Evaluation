@@ -1,0 +1,81 @@
+{
+    "@id": "https://www.comses.net/codebases/4600/releases/1.2.0/",
+    "url": "https://www.comses.net/codebases/4600/releases/1.2.0/",
+    "name": "Cyberworld 1",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1527/",
+            "@type": "Person",
+            "email": "u5581145@anu.edu.au",
+            "givenName": "Dmitry",
+            "familyName": "Brizhinev",
+            "affiliation": {
+                "@id": "https://ror.org/019wvm592",
+                "url": "http://www.anu.edu.au/",
+                "name": "Australian National University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/019wvm592"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Nathan",
+            "familyName": "Ryan"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Roger",
+            "familyName": "Bradbury"
+        },
+        {
+            "@id": "https://www.comses.net/users/1527/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4600/releases/1.2.0/",
+    "dateCreated": "2017-04-28",
+    "description": "This model is intended to explore the behaviour of states in different environments. Each agent represents a state with a certain wealth, and states can engage in cooperation (mutual increase in wealth) or war (attempt to steal wealth). The function that converts wealth to probability of victory can be varied, and represents the particular environment.",
+    "downloadUrl": "https://www.comses.net/codebases/4600/releases/1.2.0/download/",
+    "dateModified": "2018-02-25",
+    "releaseNotes": "",
+    "copyrightYear": 2018,
+    "datePublished": "2018-02-25",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Repast"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

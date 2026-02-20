@@ -1,0 +1,108 @@
+{
+    "@id": "https://doi.org/10.25937/k6xm-gf50",
+    "url": "https://doi.org/10.25937/k6xm-gf50",
+    "name": "Agent-based Renewables model for Integrated Sustainable Energy (ARISE)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2047/",
+            "@type": "Person",
+            "email": "al_irsyad21@yahoo.com",
+            "givenName": "Muhammad Indra",
+            "familyName": "Al Irsyad",
+            "affiliation": {
+                "@id": "https://ror.org/00rqy9422",
+                "url": "http://www.uq.edu.au/",
+                "name": "University of Queensland",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00rqy9422"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "a.halog@uq.edu.au",
+            "givenName": "Anthony",
+            "familyName": "Halog",
+            "affiliation": {
+                "@id": "https://ror.org/00rqy9422",
+                "url": "http://www.uq.edu.au/",
+                "name": "University of Queensland",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00rqy9422"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "rabindra.nepal@utas.edu.au",
+            "givenName": "Rabindra",
+            "familyName": "Nepal",
+            "affiliation": {
+                "@id": "https://ror.org/01nfmeh72",
+                "url": "https://www.utas.edu.au",
+                "name": "University of Tasmania",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01nfmeh72"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/2047/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.10.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "input output analysis",
+        "life cycle analysis",
+        "NetLogo",
+        "photovoltaics",
+        "renewable energy",
+        "socioeconomic"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/k6xm-gf50",
+        "https://doi.org/10.25937/k6xm-gf50"
+    ],
+    "dateCreated": "2018-02-05",
+    "description": "Agent-based Renewables model for Indonesia Sustainable Energy (ARISE) is a hybrid energy model integrating multi-perspectives of engineering, social, microeconomic, macroeconomic and environment to ensure a comprehensive assessment of a proposed policy.The motivation to develop ARISE is due to the absence of suitable energy model for analysing renewable energy policy in developing countries. ARISE has features of unique characteristics of developing countries, such as urban-rural analysis, income inequality, and lack of electricity access. In this version of ARISE, the analysis scope is still limited to the interaction of proposed policy to households' decisions in investing photovoltaic (PV). In addition, ARISE estimates the impacts of the policy on macroeconomic outputs and environments.\n\nNew modifications in ARISE PV Version 1.9.0 are changes of the names from Agent-based Renewables model for Indonesia Sustainable Energy into Agent-based Renewables model for Integrated Sustainable Energy. An switch is added to determine the availability of a financing sector. ",
+    "downloadUrl": "https://www.comses.net/codebases/5903/releases/1.10.0/download/",
+    "dateModified": "2024-12-05",
+    "releaseNotes": "ARISE PV is able to simulate the urban and rural households' investment decisions to solar energy policy. ",
+    "copyrightYear": 2018,
+    "datePublished": "2018-10-05",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

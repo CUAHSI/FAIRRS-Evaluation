@@ -1,0 +1,68 @@
+{
+    "@id": "https://www.comses.net/codebases/3679/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/3679/releases/1.0.0/",
+    "name": "Setting the Stage for Inequality",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1026/",
+            "@type": "Person",
+            "email": "tdennehy@asu.edu",
+            "givenName": "Timothy",
+            "familyName": "Dennehy",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1026/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Rogers, Deborah S, Omkar Deshpande, and Marcus W Feldman. 2011. The Spread of \r\nInequality. PloS One 6(9): e24683.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "egalitarianism",
+        "groupselection",
+        "socialinequality",
+        "stratification"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3679/releases/1.0.0/",
+    "dateCreated": "2013-03-11",
+    "description": "The purpose of the model is to examine combinations of within-group and between-group selection scenarios that could lead to the breakdown of a strictly egalitarian social structure. It builds on a replication of the model developed by Rogers et al. (2011) which examined the differential survival of egalitarian or hierarchical societies in constant or variable environments. The authors concluded that variable environments favor the survival and spread of groups with stratified social structures. However, instead of starting out as either strictly egalitarian or strictly stratified (as in Rogers et al. (2011)), groups in my model start out with skill-related inequalities, and individuals enforce egalitarianism through the punishment of selfish individuals. The absence of such punishment over time can lead to non-egalitarian \u2013 though not necessarily stratified \u2013 groups. The type of environment in which groups interact plays a role in this development as well.",
+    "downloadUrl": "https://www.comses.net/codebases/3679/releases/1.0.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    }
+}

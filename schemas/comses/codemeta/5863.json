@@ -1,0 +1,80 @@
+{
+    "@id": "https://doi.org/10.25937/mesb-vt65",
+    "url": "https://doi.org/10.25937/mesb-vt65",
+    "name": "Empathy & Power",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-9052-7126",
+            "@type": "Person",
+            "email": "jmappleg@asu.edu",
+            "givenName": "J M",
+            "familyName": "Applegate",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Ned",
+            "familyName": "Wellman"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-9052-7126",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "communitydecisions",
+        "decision processes",
+        "empathy",
+        "organisational design",
+        "power"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/mesb-vt65",
+        "https://doi.org/10.25937/mesb-vt65"
+    ],
+    "dateCreated": "2017-12-21",
+    "description": "The purpose of this model is to explore the effects of different power structures on a cross-functional team's prosocial decision making. A cross-functional team is a group of individuals (described as avatars in the model) from different functional backgrounds brought together to make one or more decisions. The power structure describes the distribution of power within the team. \r\n\r\nEmpathy is characterised by the degree to which an avatar pays attention to the needs of other avatars. Each decision is a choice between two options. Each avatar has a utility for each option, and the sum of the avatars' utilities for each option provides the overall team utility for each of the two options. The higher of these two values determines the prosocial option for the team.\r\n\r\nEach avatar has a power value and will attempt to discern the utilities of all other avatars with equal or lower power values in making its own decision between the two options. Once avatars have made a decision they vote and the outcome is compared to the prosocial option. Avatars perceive the outcomes of decisions as wins or losses. If an avatar experiences a win in the decision making process it will increase the number of other avatars it pays attention to in the next round, while a loss reduces that number. Over the course of multiple decisions avatars increase and decrease their scope of attention according to their wins and losses.",
+    "downloadUrl": "https://www.comses.net/codebases/5863/releases/1.1.0/download/",
+    "dateModified": "2021-09-10",
+    "releaseNotes": "Version 1.1\r\nRepaired linking and weighted utility code.",
+    "copyrightYear": 2017,
+    "datePublished": "2017-12-21",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

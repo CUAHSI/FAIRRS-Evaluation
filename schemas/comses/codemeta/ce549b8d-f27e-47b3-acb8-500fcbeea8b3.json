@@ -1,0 +1,62 @@
+{
+    "@id": "https://www.comses.net/codebases/ce549b8d-f27e-47b3-acb8-500fcbeea8b3/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/ce549b8d-f27e-47b3-acb8-500fcbeea8b3/releases/1.0.0/",
+    "name": "Cultural transmission in structured populations",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-3945-0773",
+            "@type": "Person",
+            "email": "premo@fastmail.net",
+            "givenName": "Luke",
+            "familyName": "Premo"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc/4.0",
+        "name": "CC-BY-NC-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "conformist transmission",
+        "copy error",
+        "cultural boundaries",
+        "cultural diversity",
+        "cultural evolution",
+        "finite variants model of copying error",
+        "migration",
+        "Paleolithic archaeology",
+        "prestige-biased transmission",
+        "time-averaging",
+        "unbiased transmission",
+        "variant ceiling",
+        "vertical transmission"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/ce549b8d-f27e-47b3-acb8-500fcbeea8b3/releases/1.0.0/",
+    "dateCreated": "2023-09-19",
+    "description": "This structured population model is built to address how migration (or intergroup cultural transmission), copying error, and time-averaging affect regional variation in a single selectively neutral discrete cultural trait under different mechanisms of cultural transmission. The model allows one to quantify cultural differentiation between groups within a structured population (at equilibrium) as well as between regional assemblages of time-averaged archaeological material at two different temporal scales (1,000 and 10,000 ticks). The archaeological assemblages begin to accumulate only after a \u201cburn-in\u201d period of 10,000 ticks. The model includes two different representations of copying error: the infinite variants model of copying error and the finite model of copying error.  The model also allows the user to set the variant ceiling value for the trait in the case of the finite model of copying error.\n",
+    "downloadUrl": "https://www.comses.net/codebases/ce549b8d-f27e-47b3-acb8-500fcbeea8b3/releases/1.0.0/download/",
+    "dateModified": "2024-11-13",
+    "releaseNotes": "Version 1.0 \nAugust 2023 \nCompatible with NetLogo v. 6.3\n\nThis model doesn't require any input files or other dependencies.  You can find the experiments we used for the paper in BehaviorSpace.",
+    "copyrightYear": 2024,
+    "datePublished": "2024-11-13",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

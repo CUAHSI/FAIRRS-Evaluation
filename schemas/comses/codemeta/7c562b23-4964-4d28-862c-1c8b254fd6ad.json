@@ -1,0 +1,78 @@
+{
+    "@id": "https://www.comses.net/codebases/7c562b23-4964-4d28-862c-1c8b254fd6ad/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/7c562b23-4964-4d28-862c-1c8b254fd6ad/releases/1.0.0/",
+    "name": "Introducing two extensions of Schelling's segregation model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "givenName": "Andreas",
+            "familyName": "Flache"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-3664-4989",
+            "@type": "Person",
+            "email": "c.a.de.matos.fernandes@rug.nl",
+            "givenName": "Carlos A.",
+            "familyName": "de Matos Fernandes",
+            "affiliation": {
+                "@id": "https://ror.org/012p63287",
+                "url": "http://www.rug.nl/",
+                "name": "University of Groningen",
+                "@type": "Organization",
+                "identifier": "https://ror.org/012p63287"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Flache, A. and de Matos Fernandes, C. A. (2021) 'Agent-based computational models', in G. Manzo (ed.): *Research Handbook on Analytical Sociology*. Cheltenham, UK: Edward Elgar Publishing. https://doi.org/10.4337/9781789906851\n\nHedstr\u00f6m, P. and Bearman, P. (2009) \u2018What Is Analytical Sociology All About? an Introductory Essay\u2019, in Hedstr\u00f6m, P. and Bearman, P. (eds) The Oxford Handbook of Analytical Sociology. Oxford, England: Oxford University Press, pp. 3\u201324.\n\nWilensky, U. (1997) \u2018NetLogo Segregation model\u2019. Evanston, IL: Center for Connected Learning and Computer-Based Modeling, Northwestern University. Available at: http://ccl.northwestern.edu/netlogo/models/Segregation.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "agent-based computational model",
+        "clustering",
+        "discrete choice modeling",
+        "noise",
+        "oversegregation",
+        "Schelling",
+        "segregation",
+        "The Research Handbook of Analytical Sociology",
+        "tolerance"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/7c562b23-4964-4d28-862c-1c8b254fd6ad/releases/1.0.0/",
+    "dateCreated": "2020-06-25",
+    "description": "Schelling famously proposed an extremely simple but highly illustrative social mechanism to understand how strong ethnic segregation could arise in a world where individuals do not necessarily want it. Schelling\u2019s simple computational model is the starting point for our extensions in which we build upon Wilensky\u2019s original NetLogo implementation of this model. Our two NetLogo models can be best studied while reading our chapter \u201c*Agent-based Computational Models*\u201d (Flache and de Matos Fernandes, 2021). In the chapter, we propose 10 best practices to elucidate how agent-based models are a unique method for providing and analyzing formally precise,  and empirically plausible mechanistic explanations of puzzling social phenomena, such as segregation, in the social world. Our chapter addresses in particular analytical sociologists who are new to ABMs.\n\nIn the first model (*SegregationExtended*), we build on Wilensky\u2019s implementation of Schelling\u2019s model which is available in NetLogo library (Wilensky, 1997). We considerably extend this model, allowing in particular to include larger neighborhoods and a population with four groups roughly resembling the ethnic composition of a contemporary large U.S. city. Further features added concern the possibility to include random noise, and the addition of a number of new outcome measures tuned to highlight macro-level implications of the segregation dynamics for different groups in the agent society.\n\nIn *SegregationDiscreteChoice*, we further modify the model incorporating in particular three new features: 1) heterogeneous preferences roughly based on empirical research categorizing agents into low, medium, and highly tolerant  within each of the ethnic subgroups of the population, 2) we drop global thresholds (%-similar-wanted) and introduce instead a continuous individual-level single-peaked preference function for agents\u2019 ideal neighborhood composition, and 3) we use a discrete choice model according to which agents probabilistically decide whether to move to a vacant spot or stay in the current spot by comparing the attractiveness of both locations based on the individual preference functions. \n\nNotably, both models are not optimized for efficiency but instead for transparency for users relatively new to NetLogo as well as agent-based modeling in general.\n",
+    "downloadUrl": "https://www.comses.net/codebases/7c562b23-4964-4d28-862c-1c8b254fd6ad/releases/1.0.0/download/",
+    "dateModified": "2022-03-06",
+    "releaseNotes": "Version 1.0.0 of June 2020",
+    "copyrightYear": 2021,
+    "datePublished": "2021-01-25",
+    "embargoEndDate": "2021-01-25",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

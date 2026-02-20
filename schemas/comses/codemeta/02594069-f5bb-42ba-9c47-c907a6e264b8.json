@@ -1,0 +1,57 @@
+{
+    "@id": "https://www.comses.net/codebases/02594069-f5bb-42ba-9c47-c907a6e264b8/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/02594069-f5bb-42ba-9c47-c907a6e264b8/releases/1.0.0/",
+    "name": "Hybrid Climate Assessment Model (HCAM)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-0603-5904",
+            "@type": "Person",
+            "email": "peer-olaf.siebers@nottingham.ac.uk",
+            "givenName": "Peer-Olaf",
+            "familyName": "Siebers",
+            "affiliation": {
+                "url": "https://www.nottingham.ac.uk/",
+                "name": "Nottingham University, School of Computer Science",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "AnyLogic"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/02594069-f5bb-42ba-9c47-c907a6e264b8/releases/1.0.0/",
+    "dateCreated": "2019-02-15",
+    "description": "Our Hybrid Climate Assessment Model (HCAM) aims to simulate the behaviours of individuals under the influence of climate change and external policy makings. In our proposed solution we use System Dynamics (SD) modelling to represent the physical and economic environments. Agent-Based (AB) modelling is used to represent collections of individuals that can interact with other collections of individuals and the environment. In turn, individual agents are endowed with an internal SD model to track their psychological state used for decision making. In this paper we address the feasibility of such a scalable hybrid approach as a proof-of-concept. This novel approach allows us to reuse existing rigid, but well-established Integrated Assessment Models (IAMs), and adds more flexibility by replacing aggregate stocks with a community of vibrant interacting entities.\n\nOur illustrative example takes the settings of the U.S., a country that contributes to the majority of the global carbon footprints and that is the largest economic power in the world. The model considers the carbon emission dynamics of individual states and its relevant economic impacts on the nation over time.\n\nPlease note that the focus of the model is on a methodological advance rather than on applying it for predictive purposes! More details about the HCAM are provided in the forthcoming JASSS paper \"An Innovative Approach to Multi-Method Integrated Assessment Modelling of Global Climate Change\", which is available upon request from the authors (contact peer-olaf.siebers@nottingham.ac.uk).\n\n",
+    "downloadUrl": "https://www.comses.net/codebases/02594069-f5bb-42ba-9c47-c907a6e264b8/releases/1.0.0/download/",
+    "dateModified": "2019-02-15",
+    "releaseNotes": "This release is related to the forthcoming JASSS paper \"An Innovative Approach to Multi-Method Integrated Assessment Modelling of Global Climate Change\"",
+    "copyrightYear": 2019,
+    "datePublished": "2019-02-15",
+    "codeRepository": "http://www.cs.nott.ac.uk/~pszps/publications/JASSS_HCAM_model_v01.zip",
+    "embargoEndDate": "2019-02-15",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "AnyLogic"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

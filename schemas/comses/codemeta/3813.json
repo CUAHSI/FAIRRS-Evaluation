@@ -1,0 +1,72 @@
+{
+    "@id": "https://www.comses.net/codebases/3813/releases/1.4.0/",
+    "url": "https://www.comses.net/codebases/3813/releases/1.4.0/",
+    "name": "Modeling financial networks based on interpersonal trust",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "givenName": "Anna",
+            "familyName": "Klabunde"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Michael",
+            "familyName": "Roos"
+        },
+        {
+            "@id": "_:author_1",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.4.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "angel investors",
+        "reputation",
+        "social network",
+        "trust"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3813/releases/1.4.0/",
+    "dateCreated": "2013-11-28",
+    "description": "We build a stylized model of a network of business angel investors and start-up entrepreneurs. Investors provide capital for entrepreneurs who invest it in the business and return part of the profit to the investors. Investors exchange information about returns from entrepreneurs. The initial level of trust between an investor and an entrepreneur is determined by a distance measure. Then, trust grows through better-than-average returns. If an investor is disappointed, trust decreases. If trust is below a certain threshold, a link is cut. The questions that can be addressed with the model are: How does the investors' trusting behavior influence market outcomes, such as their own return and the probability of successful exit for the entrepreneurs? Is there an optimal trusting behavior trom the investors' perspective, both collectively and individually? What is the best behavioral strategy from an entrepreneur's perspective? The model can easily be generalized to other settings. Once the basic mechanisms are well understood, more complex versions could be derived to study e.g. banking networks.",
+    "downloadUrl": "https://www.comses.net/codebases/3813/releases/1.4.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-11-28",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

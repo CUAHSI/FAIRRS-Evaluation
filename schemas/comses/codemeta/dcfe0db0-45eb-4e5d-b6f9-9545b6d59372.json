@@ -1,0 +1,127 @@
+{
+    "@id": "https://www.comses.net/codebases/dcfe0db0-45eb-4e5d-b6f9-9545b6d59372/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/dcfe0db0-45eb-4e5d-b6f9-9545b6d59372/releases/1.0.0/",
+    "name": "FlipFlop1-ProMEERB: A coupled social-ecological model with a promotional mechanism for emergence of environmentally responsible behavior",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "email": "saeedharati@gmail.com",
+            "givenName": "Saeed",
+            "familyName": "Harati",
+            "affiliation": {
+                "@id": "https://ror.org/0161xgx34",
+                "url": "http://www.umontreal.ca/english/",
+                "name": "Universit\u00e9 de Montr\u00e9al",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0161xgx34"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-6599-9893",
+            "@type": "Person",
+            "email": "l.perez@umontreal.ca",
+            "givenName": "Liliana",
+            "familyName": "Perez",
+            "affiliation": {
+                "@id": "https://ror.org/0161xgx34",
+                "url": "http://www.umontreal.ca/english/",
+                "name": "University of Montreal",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0161xgx34"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "roberto@creaf.uab.es",
+            "givenName": "Roberto",
+            "familyName": "Molowny-Horas",
+            "affiliation": {
+                "@id": "https://ror.org/052g8jq94",
+                "url": "https://www.uab.cat",
+                "name": "Universitat Aut\u00f2noma de Barcelona",
+                "@type": "Organization",
+                "identifier": "https://ror.org/052g8jq94"
+            }
+        },
+        {
+            "@id": "_:author_1",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-6599-9893",
+            "@type": "Role",
+            "roleName": "collaborator"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-6599-9893",
+            "@type": "Role",
+            "roleName": "funder"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "collaborator"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Harati, S.*, Perez, L., Molowny-Horas, R., (2021). Promoting the Emergence of Behavior Norms in a Principal\u2013Agent Problem\u2014An Agent-Based Modeling Approach Using Reinforcement Learning. Applied Sciences, 11 (18), 8368; https://doi.org/10.3390/app11188368\n\nHarati, S.*, Perez, L., & Molowny-Horas, R., (2020). Integrating Neighborhood Effect and Supervised Machine Learning Techniques to Model and Simulate Forest Insect Outbreaks in British Columbia, Canada. Forests, 11(11), 1215, https://doi.org/10.3390/f11111215.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "Agent-based modelling",
+        "emergence",
+        "emergent behavior",
+        "geospatial modeling",
+        "governance",
+        "social-ecological system"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/dcfe0db0-45eb-4e5d-b6f9-9545b6d59372/releases/1.0.0/",
+    "dateCreated": "2021-12-17",
+    "description": "At the heart of a study of Social-Ecological Systems, this model is built by coupling together two independently developed models of social and ecological phenomena. The social component of the model is an abstract model of interactions of a governing agent and several user agents, where the governing agent aims to promote a particular behavior among the user agents. The ecological model is a spatial model of spread of the Mountain Pine Beetle in the forests of British Columbia, Canada. The coupled model allowed us to simulate various hypothetical management scenarios in a context of forest insect infestations. The social and ecological components of this model are developed in two different environments. In order to establish the connection between those components, this model is equipped with a \u2018FlipFlop\u2019 - a structure of storage directories and communication protocols which allows each of the models to process its inputs, send an output message to the other, and/or wait for an input message from the other, when necessary. To see the publications associated with the social and ecological components of this coupled model please see the References section.",
+    "downloadUrl": "https://www.comses.net/codebases/dcfe0db0-45eb-4e5d-b6f9-9545b6d59372/releases/1.0.0/download/",
+    "dateModified": "2021-12-17",
+    "releaseNotes": "The FlipFlop1-ProMEERB model was created by Saeed Harati (PhD Candidate) in collaboration with Dr. Roberto Molowny-Horas and the supervision of both Dr. Liliana Perez and Dr. Molowny-Horas. The authors SH and LP are members of the Laboratory of Environmental Geosimulation (LEDGE) at the University of Montreal, and would like to acknowledge the Natural Sciences and Engineering Research Council of Canada (NSERC) for full support of this study under the Discovery Grant Program awarded to Dr. Perez. The author RMH is a member of the \u201cCentre de Recerca Ecol\u00f2gica i Aplicacions Forestals\u201d (CREAF).",
+    "copyrightYear": 2021,
+    "datePublished": "2021-12-17",
+    "codeRepository": "https://osf.io/x8huq/",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "R",
+        "Repast"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "R",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

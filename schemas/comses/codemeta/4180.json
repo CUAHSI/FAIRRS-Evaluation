@@ -1,0 +1,65 @@
+{
+    "@id": "https://www.comses.net/codebases/4180/releases/1.0.3/",
+    "url": "https://www.comses.net/codebases/4180/releases/1.0.3/",
+    "name": "Political Participation",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-5213-4316",
+            "@type": "Person",
+            "email": "didier.ruedin@unine.ch",
+            "givenName": "Didier",
+            "familyName": "Ruedin",
+            "affiliation": {
+                "@id": "https://ror.org/00vasag41",
+                "url": "http://www2.unine.ch/",
+                "name": "University of Neuch\u00e2tel",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00vasag41"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-5213-4316",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.3",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "political participation",
+        "social science",
+        "sociology"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4180/releases/1.0.3/",
+    "dateCreated": "2025-09-28",
+    "description": "### Purpose\r\nExamine whether the description of political participation outlined in Milbrath (1965) is a realistic description of political participation. Milbrath provides an detailed description on how and why individuals participated in politics. The aim here is to check whether the descriptions in Milbrath add up to observed patterns of political participation.\r\n\r\nThe focus is on the different levels of participation, and not on vote choice and other related concepts. The main test is to check whether the dynamics of political participation occur.\r\n\r\n### Entities, state variables, and scales\r\nMilbrath's model of political participation was simplified. There are agents and global variables; patches do not play a role. Agents have individual characteristics, most of which are open to change according to the dynamics of the system. The characteristics are (opposites in square brackets): active [passive], overt [covert], autonomous [compliant], approaching [avoiding], continuous [episodic], outtaking [inputting], expressive [instrumental], and social [nonsocial]. Each characteristic is modelled as a continuous variable. Agents also have a specific socioeconomic status (SES), contacts in the community, and time is tracked to determine the time agents have spent in a community. Political participation is represented in levels, ranging from 0 (apathetic) to 12 (holding office).\r\n\r\n### Process overview and scheduling\r\nAgents are subject to stimuli with probability _p_, then interact with other agents with probability _q_, and then move to another community with probability _r_. Levels of political participation are updated at the end of each round, assumed to be 1 week. The values of p, q, and r are determined by the political environment (put differently, the political environment is determined by p, q, and r). Agents keep a history of their level of political participation.",
+    "downloadUrl": "https://www.comses.net/codebases/4180/releases/1.0.3/download/",
+    "dateModified": "2025-09-28",
+    "releaseNotes": "Updated for NetLogo 7.",
+    "copyrightYear": 2025,
+    "datePublished": "2025-09-28",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Ruedin, D. 2005. \u201cA Simulation of Political Participation.\u201d MSc Thesis. Oxford University.\r\n\r\nRuedin, D. 2007. \u201cTesting Milbrath\u2019s 1965 Framework of Political Participation: Institutions and Social Capital.\u201d Contemporary Issues and Ideas in Social Sciences 3(3).\r\n\r\nRuedin, D. 2011. \u201cThe role of social capital in the political participation of immigrants: Evidence from agent-based modelling.\u201d SFM Discussion Paper 27."
+}

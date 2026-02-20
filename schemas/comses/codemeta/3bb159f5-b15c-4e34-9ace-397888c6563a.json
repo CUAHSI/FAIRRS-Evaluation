@@ -1,0 +1,72 @@
+{
+    "@id": "https://www.comses.net/codebases/3bb159f5-b15c-4e34-9ace-397888c6563a/releases/1.1.1/",
+    "url": "https://www.comses.net/codebases/3bb159f5-b15c-4e34-9ace-397888c6563a/releases/1.1.1/",
+    "name": "A Simulation of Arab Spring Protests Informed by Qualitative Evidence",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-3903-2507",
+            "@type": "Person",
+            "email": "bruce@edmonds.name",
+            "givenName": "Bruce",
+            "familyName": "Edmonds",
+            "affiliation": {
+                "url": "http://mmu.ac.uk",
+                "name": "Centre for Policy Modelling",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "stephanie.dornschneider@ucd.ie",
+            "givenName": "Stephanie",
+            "familyName": "Dornschneider",
+            "affiliation": {
+                "@id": "https://ror.org/041vb4f30",
+                "url": "https://www.ucd.ie/cvera/",
+                "name": "UCD Centre for Veterinary Epidemiology and Risk Analysis",
+                "@type": "Organization",
+                "identifier": "https://ror.org/041vb4f30"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-sa/4.0/",
+        "name": "CC-BY-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.1",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "arab spring",
+        "protests",
+        "Qual2rule",
+        "qualitative research"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3bb159f5-b15c-4e34-9ace-397888c6563a/releases/1.1.1/",
+    "dateCreated": "2019-04-29",
+    "description": "The purpose of the simulation was to explore and better understand the process of bridging between an analysis of qualitative data and the specification of a simulation. This may be developed for more serious processes later but at the moment it is merely an illustration.\nThis exercise was done by Stephanie Dornschneider (School of Politics and International Relations, University College Dublin) and Bruce Edmonds to inform the discussion at the Lorentz workshop on \u201cIntegrating Qualitative and Quantitative Data using Social Simulation\u201d at Leiden in April 2019. The qualitative data was collected and analysed by SD. The model specification was developed as the result of discussion by BE & SD. The model was programmed by BE.  This is described in a paper submitted to Social Simulation 2019 and (to some extent) in the slides presented at the workshop.",
+    "downloadUrl": "https://www.comses.net/codebases/3bb159f5-b15c-4e34-9ace-397888c6563a/releases/1.1.1/download/",
+    "dateModified": "2019-05-24",
+    "releaseNotes": "1. Down load and unpack .zip file into a folder (including the subdirectories that have the extensions).\n2. Run the netlogo file, in situ, using NetLogo 5.3.*",
+    "copyrightYear": 2019,
+    "datePublished": "2019-05-24",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

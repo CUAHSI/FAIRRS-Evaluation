@@ -1,0 +1,132 @@
+{
+    "@id": "https://www.comses.net/codebases/5948/releases/1.2.0/",
+    "url": "https://www.comses.net/codebases/5948/releases/1.2.0/",
+    "name": "Livestock drought insurance model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2060/",
+            "@type": "Person",
+            "email": "felix.john@ufz.de",
+            "givenName": "Felix",
+            "familyName": "John",
+            "affiliation": {
+                "url": "http://www.ufz.de",
+                "name": "Helmholtz Centre for Environmental Research (UFZ)",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-8780-4420",
+            "@type": "Person",
+            "email": "birgit.mueller@ufz.de",
+            "givenName": "Birgit",
+            "familyName": "M\u00fcller",
+            "affiliation": {
+                "url": "http://www.ufz.de",
+                "name": "Helmholtz Centre for Environmental Research UFZ",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Russell",
+            "familyName": "Toth"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "email": "karin.frank@ufz.de",
+            "givenName": "Karin",
+            "familyName": "Frank",
+            "affiliation": {
+                "@id": "https://ror.org/000h6jb29",
+                "url": "http://www.ufz.de/index.php?de=11385",
+                "name": "Helmholtz Centre for Environmental Research",
+                "@type": "Organization",
+                "identifier": "https://ror.org/000h6jb29"
+            }
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Person",
+            "email": "juergen.groeneveld@tu-dresden.de",
+            "givenName": "J\u00fcrgen",
+            "familyName": "Groeneveld",
+            "affiliation": {
+                "@id": "https://ror.org/042aqky30",
+                "url": "https://tu-dresden.de",
+                "name": "TU Dresden",
+                "@type": "Organization",
+                "identifier": "https://ror.org/042aqky30"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/2060/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-8780-4420",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-nd/4.0",
+        "name": "CC-BY-NC-ND-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "drought",
+        "ethiopia",
+        "insurance",
+        "kenya",
+        "livestock",
+        "NetLogo",
+        "pastoralism"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5948/releases/1.2.0/",
+    "dateCreated": "2017-12-19",
+    "description": "The model is aligned to the environmental context of the pastoralist groups of South Ethiopia and North Kenya and their rangeland management practices. It depicts a pastoralist settlement with 10 households and runs in discrete quarter-annual time steps. This temporal resolution follows the four weather seasons over the year: long rain \u2013 long dry \u2013 short rain \u2013 short dry.\nAgents (herders) are considered as homogeneous households who keep cattle and move their herds back and forth between rainy-season and dry-season pastures. While, during the rainy seasons, all herds graze together on a large resource-abundant patch, they spread out onto 20 different remote grazing areas in dry seasons. Distances between dry-season pastures and the settlement are not considered explicitly. Herds feed on grass and once a year they reproduce at a constant growth rate. If a pasture does not provide enough fodder to sustain the entire herd, pastoralists are forced to destock animals. \nTo this baseline model, we add an insurance feature. When it is active, all mobile households will purchase insurance  for a predefined amount of animals each year. The insurance is actuarially fair and is purchased at the beginning of each year. When rainfall remains below a certain threshold, agents will receive a payout at the end of the year \u2013 regardless of their actual losses. If agents lose animals they will use the payout to restock, otherwise they store it to pay future premiums. Agents aim to restock their herds to the average size of the last three years.",
+    "downloadUrl": "https://www.comses.net/codebases/5948/releases/1.2.0/download/",
+    "dateModified": "2018-04-14",
+    "releaseNotes": "Some variable names have been corrected \nModel description (ODD) updated",
+    "copyrightYear": 2018,
+    "datePublished": "2018-04-14",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "@id": "https://www.comses.net/codebases/9f53fba5-5e2e-44f5-83af-dc6167ad9550/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/9f53fba5-5e2e-44f5-83af-dc6167ad9550/releases/1.0.0/",
+    "name": "Co-operative Autonomy",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/3158/",
+            "@type": "Person",
+            "email": "hani.m17@iiits.in",
+            "givenName": "Hani",
+            "familyName": "Mohammed"
+        },
+        {
+            "@id": "https://www.comses.net/users/2622/",
+            "@type": "Person",
+            "email": "subu.k@iiits.in",
+            "givenName": "Subu",
+            "familyName": "Kandaswamy",
+            "affiliation": {
+                "@id": "https://ror.org/026873d40",
+                "url": "https://iiits.in",
+                "name": "Indian Institute of Information Technology Sri City",
+                "@type": "Organization",
+                "identifier": "https://ror.org/026873d40"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/2622/",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Treiber, Martin, Ansgar Hennecke, and Dirk Helbing.\u201d Congested traffic states in empirical observations and microscopic simulations.\u201d Physical review E 62.2 (2000): 1805.\n\nKesting, Arne, Martin Treiber, and Dirk Helbing.\u201d General lane-changing model MOBIL for car-following models.\u201d Transportation Research Record 1999.1 (2007): 86-94.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "Autonomous Vehicles",
+        "FAS",
+        "IDM",
+        "MOBIL",
+        "Traffic Simulation"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/9f53fba5-5e2e-44f5-83af-dc6167ad9550/releases/1.0.0/",
+    "dateCreated": "2021-04-20",
+    "description": "This model presents an autonomous, two-lane driving environment with a single lane-closure that can be toggled. The four driving scenarios - two baseline cases (based on the real-world) and two experimental setups - are as follows:\n\n- <b>Baseline-1</b> is where cars are not informed of the lane closure.\n- <b>Baseline-2</b> is where a Red Zone is marked wherein cars are informed of the lane closure ahead.\n- <b>Strategy-1</b> is where cars use a co-operative driving strategy - FAS. <sup>[1]</sup>\n- <b>Strategy-2</b> is a variant of Strategy-1 and uses comfortable deceleration values instead of the vehicle's limit.\n\nTo simulate autonomous car-following behavior, we use the widely accepted Intelligent Driver Model (IDM) by Treiber (2000). In order to allow cars modeled with IDM to make lane changes in our two-lane freeway, we use a lane change model - Minimizing Overall Braking Induced by Lane changes (MOBIL) - by Kesting et al. (2007).",
+    "downloadUrl": "https://www.comses.net/codebases/9f53fba5-5e2e-44f5-83af-dc6167ad9550/releases/1.0.0/download/",
+    "dateModified": "2021-04-24",
+    "releaseNotes": "Initial release",
+    "copyrightYear": 2021,
+    "datePublished": "2021-04-24",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Mohammed, Hani, Venkat Himavanth Reddy, and Subu Kandaswamy. \"A Decentralized Strategy for Cooperative Driving among Autonomous Cars at Lane Closures.\" 2020 IEEE 32nd International Conference on Tools with Artificial Intelligence (ICTAI). IEEE, 2020."
+}

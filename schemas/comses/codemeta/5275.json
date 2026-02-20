@@ -1,0 +1,84 @@
+{
+    "@id": "https://doi.org/10.25937/167q-wr96",
+    "url": "https://doi.org/10.25937/167q-wr96",
+    "name": "DogFoxCDVspillover",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-4651-0116",
+            "@type": "Person",
+            "email": "anyadoc@gmail.com",
+            "givenName": "Aniruddha",
+            "familyName": "Belsare",
+            "affiliation": {
+                "url": "https://cfwe.auburn.edu/",
+                "name": "Auburn University",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "gompperm@missouri.edu",
+            "givenName": "Matthew",
+            "familyName": "Gompper",
+            "affiliation": {
+                "@id": "https://ror.org/02ymw8z06",
+                "url": "http://missouri.edu/",
+                "name": "University of Missouri",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02ymw8z06"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-4651-0116",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "canine distemper virus",
+        "dogs",
+        "indian fox",
+        "multihost pathogen",
+        "spillover"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/167q-wr96",
+        "https://doi.org/10.25937/167q-wr96"
+    ],
+    "dateCreated": "2017-04-04",
+    "description": "The purpose of this model is to explore the transmission dynamics of CDV in a two-host system, comprised of an abundant dog population and a relatively low density Indian fox population in central India. The model can also be used to compare and contrast potential management strategies to prevent spillover of CDV in wild carnivores.\r\n\r\nThe model landscape comprises of three types of habitats, fallow land-grassland complex, farmlands and human habitations. Foxes occur on the fallow land-grassland complex, while dogs are associated with villages and farmlands. Dogs are also characterized by their roaming tendencies- \u2018roamers\u2019 cover larger area during their daily excursions than \u2018non-roamers. CDV is endemic in the dog population, and foxes are susceptible to CDV. Dogs can recover from CDV infection, and become immune for life. Foxes do not recover from CDV, and none of the foxes have immunity against CDV. The movement of dogs and foxes, and therefore the contact pattern, as well as the transmissibility of CDV is represented by empirical rules and parameters. The patterns of CDV in dog and fox populations emerge from the model.",
+    "downloadUrl": "https://www.comses.net/codebases/5275/releases/1.1.0/download/",
+    "dateModified": "2018-11-30",
+    "releaseNotes": "",
+    "copyrightYear": 2017,
+    "datePublished": "2017-04-04",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    },
+    "referencePublication": "Belsare, A.V., Gompper, M.E., 2015. A model-based approach for investigation and mitigation of disease spillover risks to wildlife: Dogs, foxes and canine distemper in central India. Ecol. Modell. 296, 102\u2013112. doi:10.1016/j.ecolmodel.2014.10.031"
+}

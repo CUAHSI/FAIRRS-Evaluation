@@ -1,0 +1,63 @@
+{
+    "@id": "https://doi.org/10.25937/7pjw-7358",
+    "url": "https://doi.org/10.25937/7pjw-7358",
+    "name": "Behavioral Dynamics of Epidemic Trajectories and Vaccination Strategies: An Agent-Based Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-3488-5903",
+            "@type": "Person",
+            "email": "leozhang0429@berkeley.edu",
+            "givenName": "Ziyuan",
+            "familyName": "Zhang"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Wilensky, U. (1999). NetLogo. Center for Connected Learning and Computer-Based Modeling, Northwestern University. http://ccl.northwestern.edu/netlogo/\nYang, C., & Wilensky, U. (2011). NetLogo epiDEM Travel and Control model. Center for Connected Learning and Computer-Based Modeling, Northwestern University. http://ccl.northwestern.edu/netlogo/models/epiDEMTravelandControl",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "agent-based",
+        "infectious diseases",
+        "risk perception",
+        "SARS-CoV-2",
+        "vaccination"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/7pjw-7358",
+        "https://doi.org/10.25937/7pjw-7358"
+    ],
+    "dateCreated": "2024-09-21",
+    "description": "This agent-based model explores the dynamics between human behavior and vaccination strategies during COVID-19 pandemics. It examines how individual risk perceptions influence behaviors and subsequently affect epidemic outcomes in a simulated metropolitan area resembling New York City from December 2020 to May 2021.\n\nAgents modify their daily activities\u2014deciding whether to travel to densely populated urban centers or stay in less crowded neighborhoods\u2014based on their risk perception. This perception is influenced by factors such as risk perception threshold, risk tolerance personality, mortality rate, disease prevalence, and the average number of contacts per agent in crowded settings. Agent characteristics are carefully calibrated to reflect New York City demographics, including age distribution and variations in infection probability and mortality rates across these groups. The agents can experience six distinct health statuses: susceptible, exposed, infectious, recovered from infection, dead, and vaccinated (SEIRDV). The simulation focuses on the Iota and Alpha variants, the dominant strains in New York City during the period.\n\nWe simulate six scenarios divided into three main categories:\n   1. A baseline model without vaccinations where agents exhibit no risk perception and are indifferent to virus transmission and disease prevalence.\n   2. A modified baseline model without vaccinations but incorporating risk assessments based on individual characteristics and the severity of the pandemic.\n   3. An advanced model that includes four vaccination strategies alongside responsive agents:\n        a. Random vaccination across the map.\n        b. Targeted vaccination of elderly individuals aged 65 and over.\n        c. Prioritized vaccination from those with higher to lower contact numbers.\n        d. Random vaccination of agents in crowded areas, providing a realistic alternative to the high-contact strategy.\nIn scenarios where vaccinations exceed the targeted groups' needs, excess doses are distributed to the general population, ensuring broader immunization coverage. This addition helps assess the impact of varied vaccination distributions on controlling the epidemic under different risk perception settings.\n\nThe model is developed using NetLogo (Wilensky 1999), inspired by the epiDEM Travel and Control model by Yang & Wilensky (2011).",
+    "downloadUrl": "https://www.comses.net/codebases/aedbbe92-f912-48bd-9f11-2d4484cfc90c/releases/1.0.0/download/",
+    "dateModified": "2024-12-10",
+    "releaseNotes": "First version of the model.",
+    "copyrightYear": 2024,
+    "datePublished": "2024-12-10",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "@id": "https://www.comses.net/codebases/5359/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5359/releases/1.0.0/",
+    "name": "An adaptive model of homing pigeons: A genetic algorithm approach",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1873/",
+            "@type": "Person",
+            "email": "oloofrank@gmail.com",
+            "givenName": "Francis",
+            "familyName": "Oloo",
+            "affiliation": {
+                "@id": "https://ror.org/05gs8cd61",
+                "url": "https://www.plus.ac.at/",
+                "name": "University of Salzburg",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05gs8cd61"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-3845-7685",
+            "@type": "Person",
+            "email": "gudrun.wallentin@sbg.ac.at",
+            "givenName": "Gudrun",
+            "familyName": "Wallentin",
+            "affiliation": {
+                "@id": "https://ror.org/05gs8cd61",
+                "url": "https://www.plus.ac.at/",
+                "name": "Department of Geoinformatics - Z_GIS, University of Salzburg",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05gs8cd61"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1873/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-3845-7685",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5359/releases/1.0.0/",
+    "dateCreated": "2017-01-27",
+    "description": "In this model, we implement the evolution of navigation behavior of homing pigeons. Specifically, a genetic algorithm approach is used to optimize navigation parameters of homing pigeons based on emulated GPS sensor streams that continuously and dynamically update the model. Our results show that incorporating fine-grained spatio-temporal data into agent-based models does improve the predictive ability of such models. Additionally, the use of evolutionary methods, specifically genetic algorithms in this model, allowed for a simultaneous data-driven optimization and sensitivity analysis.",
+    "downloadUrl": "https://www.comses.net/codebases/5359/releases/1.0.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "",
+    "copyrightYear": 2017,
+    "datePublished": "2017-01-27",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Oloo, F.; Wallentin, G.\tAn Adaptive Agent-Based Model of Homing Pigeons: A Genetic Algorithm Approach. ISPRS Int. J. Geo-Inf. 2017, 6, 27."
+}

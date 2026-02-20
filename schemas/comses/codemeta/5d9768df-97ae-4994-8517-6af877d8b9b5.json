@@ -1,0 +1,60 @@
+{
+    "@id": "https://www.comses.net/codebases/5d9768df-97ae-4994-8517-6af877d8b9b5/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5d9768df-97ae-4994-8517-6af877d8b9b5/releases/1.0.0/",
+    "name": "Multi-Hazard Coastal Agent-Based Model (MHCABM)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-2192-1429",
+            "@type": "Person",
+            "email": "a.e.f.allison@gmail.com",
+            "givenName": "Andrew",
+            "familyName": "Allison"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "MCHABM is a heavily adapted variant of HEESI, developed by the same author (https://www.comses.net/users/2887/), however so many changes were made that the only commonality between the two models is the shared template of an idealised geophysical estuarine system with associated soft sedimentary barrier-spit complex.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "agent-based model",
+        "environmental management",
+        "Large-scale Multi-Agent Systems",
+        "natural hazards"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5d9768df-97ae-4994-8517-6af877d8b9b5/releases/1.0.0/",
+    "dateCreated": "2021-07-28",
+    "description": "MHCABM is an agent-based, multi-hazard risk interaction model with an integrated applied dynamic adaptive pathways planning component. It is designed to explore the impacts of climate change adaptation decisions on the form and function of a coastal human-environment system, using as a case study an idealised patch based representation of the Mount North-Omanu area of Tauranga city, New Zealand. The interacting hazards represented are erosion, inundation, groundwater intrusion driven by intermittent heavy rainfall / inundations (storm) impacts, and sea level rise.",
+    "downloadUrl": "https://www.comses.net/codebases/5d9768df-97ae-4994-8517-6af877d8b9b5/releases/1.0.0/download/",
+    "dateModified": "2021-08-05",
+    "releaseNotes": "The DAPP submodel determines actions that buildings take in response to hazards. These actions feed back to impact system form and function, influencing future hazard impacts and decision-making. \nUsers select their Scenario, personality and cost-apportionment from dropdown menus at the top left, then click Create-Mount-North-Omanu to create the world. Clicking 'go' starts the model, which runs for 1681 ticks (140 years). The number of people, houses and businesses in each suburb is prepopulated based on Census 2013 data. ",
+    "copyrightYear": 2021,
+    "datePublished": "2021-08-05",
+    "embargoEndDate": "2021-07-30",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "scala",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

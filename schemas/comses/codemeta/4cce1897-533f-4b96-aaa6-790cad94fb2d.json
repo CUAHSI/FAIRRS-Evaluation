@@ -1,0 +1,53 @@
+{
+    "@id": "https://www.comses.net/codebases/4cce1897-533f-4b96-aaa6-790cad94fb2d/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4cce1897-533f-4b96-aaa6-790cad94fb2d/releases/1.0.0/",
+    "name": "Impacts of consensus protocols and trade network topologies on blockchain system performance",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-6288-7215",
+            "@type": "Person",
+            "email": "hezhou@ucas.ac.cn",
+            "givenName": "Zhou",
+            "familyName": "HE"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Wei, Xianhua, Aiya Li, and Zhou He. \u201cImpacts of consensus protocols and trade network topologies on blockchain system performance\u201d Working paper under review",
+            "@type": "CreativeWork"
+        }
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4cce1897-533f-4b96-aaa6-790cad94fb2d/releases/1.0.0/",
+    "dateCreated": "2020-03-20",
+    "description": "This model is programmed in Python 3.6. We model how different consensus protocols and trade network topologies affect the performance of a blockchain system. The model consists of multiple trader and miner agents (Trader.py and Tx.py), and one system agent (System.py). We investigated three consensus protocols, namely proof-of-work (PoW), proof-of-stake (PoS), and delegated proof-of-stake (DPoS). We also examined three common trade network topologies: random, small-world, and scale-free. To reproduce our results, you may need to create some databases using, e.g., MySQL; or read and write some CSV files as model configurations.",
+    "downloadUrl": "https://www.comses.net/codebases/4cce1897-533f-4b96-aaa6-790cad94fb2d/releases/1.0.0/download/",
+    "dateModified": "2020-03-20",
+    "releaseNotes": "First version",
+    "copyrightYear": 2020,
+    "datePublished": "2020-03-20",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "n/a"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

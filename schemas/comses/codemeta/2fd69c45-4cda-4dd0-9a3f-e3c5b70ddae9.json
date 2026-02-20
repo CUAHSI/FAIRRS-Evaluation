@@ -1,0 +1,68 @@
+{
+    "@id": "https://www.comses.net/codebases/2fd69c45-4cda-4dd0-9a3f-e3c5b70ddae9/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/2fd69c45-4cda-4dd0-9a3f-e3c5b70ddae9/releases/1.0.0/",
+    "name": "Identity and meat eating behaviour",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-6491-3851",
+            "@type": "Person",
+            "email": "bobogejiaqi@hotmail.com",
+            "givenName": "Jiaqi",
+            "familyName": "Ge",
+            "affiliation": {
+                "@id": "https://ror.org/024mrxd33",
+                "url": "http://www.leeds.ac.uk/",
+                "name": "University of Leeds",
+                "@type": "Organization",
+                "identifier": "https://ror.org/024mrxd33"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Ge, J., Scalco, A., & Craig, T. (2022). Social Influence and Meat-Eating Behaviour. Sustainability, 14(13), 7935.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "Agent based social simulation",
+        "NetLogo",
+        "social identity",
+        "vegetarianism"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2fd69c45-4cda-4dd0-9a3f-e3c5b70ddae9/releases/1.0.0/",
+    "dateCreated": "2022-09-29",
+    "description": "Using data from the British Social Attitude Survey, we develop an agent-based model to study the effect of social influence on the spread of meat-eating behaviour in the British population.",
+    "downloadUrl": "https://www.comses.net/codebases/2fd69c45-4cda-4dd0-9a3f-e3c5b70ddae9/releases/1.0.0/download/",
+    "dateModified": "2022-09-29",
+    "releaseNotes": "This is the version used to generate results in the paper in the reference (Ge, J., Scalco, A., & Craig, T. (2022). Social Influence and Meat-Eating Behaviour. Sustainability, 14(13), 7935.)",
+    "copyrightYear": 2022,
+    "datePublished": "2022-09-29",
+    "embargoEndDate": "2022-09-29",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo 6.2.1"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo 6.2.1",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "https://www.mdpi.com/2071-1050/14/13/7935/htm"
+}

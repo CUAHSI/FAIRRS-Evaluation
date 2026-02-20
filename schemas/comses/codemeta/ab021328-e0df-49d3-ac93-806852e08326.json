@@ -1,0 +1,47 @@
+{
+    "@id": "https://www.comses.net/codebases/ab021328-e0df-49d3-ac93-806852e08326/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/ab021328-e0df-49d3-ac93-806852e08326/releases/1.0.0/",
+    "name": "Simulation model replicating the five different games that were run during a workshop of the TISSS Lab",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/3160/",
+            "@type": "Person",
+            "email": "tisss-lab@ai-fora.de"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/ab021328-e0df-49d3-ac93-806852e08326/releases/1.0.0/",
+    "dateCreated": "2021-04-30",
+    "description": "The three-day participatory workshop organized by the TISSS Lab had 20 participants who were academics in different career stages ranging from university student to professor. For each of the five games, the participants had to move between tables according to some pre-specified rules. After the workshop both the participant's perception of the games' complexities and the participants' satisfaction with the games were recorded.\n\nIn order to obtain additional objective measures for the games' complexities, these games were also simulated using this simulation model here. Therefore, the simulation model is an as-accurate-as-possible reproduction of the workshop games: it has 20 participants moving between 5 different tables. The rules that specify who moves when vary from game to game. Just to get an idea, Game 3 has the rule: \"move if you're sitting next to someone who is waring white or no socks\".\n\nAn exact description of the workshop games and the associated simulation models can be found in the paper \"The relation between perceived complexity and happiness with decision situations: searching for objective measures in social simulation games\".",
+    "downloadUrl": "https://www.comses.net/codebases/ab021328-e0df-49d3-ac93-806852e08326/releases/1.0.0/download/",
+    "dateModified": "2021-04-30",
+    "releaseNotes": "Initial release. \nThere are no known bugs.",
+    "copyrightYear": 2021,
+    "datePublished": "2021-04-30",
+    "codeRepository": "https://github.com/BenediktKleppmann/The-relation-between-perceived-complexity-and-happiness-with-decision-situations",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Jupyter Notebook"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "The relation between perceived complexity and happiness with decision situations: searching for objective measures in social simulation games"
+}

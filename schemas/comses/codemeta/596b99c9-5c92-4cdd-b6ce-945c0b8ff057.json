@@ -1,0 +1,69 @@
+{
+    "@id": "https://www.comses.net/codebases/596b99c9-5c92-4cdd-b6ce-945c0b8ff057/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/596b99c9-5c92-4cdd-b6ce-945c0b8ff057/releases/1.0.0/",
+    "name": "WOLVES - simulating wolf reappearance in the Netherlands",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2530/",
+            "@type": "Person",
+            "email": "kim.bijles@gmail.com",
+            "givenName": "Kim",
+            "familyName": "van Vliet"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "zoe.delamore@wur.nl",
+            "givenName": "Zo\u00eb",
+            "familyName": "Delamore",
+            "affiliation": {
+                "@id": "https://ror.org/04qw24q55",
+                "url": "https://www.wur.nl/",
+                "name": "Wageningen University & Research",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04qw24q55"
+            }
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "ABM",
+        "agent-based model",
+        "Netherlands",
+        "wolf management",
+        "wolves"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/596b99c9-5c92-4cdd-b6ce-945c0b8ff057/releases/1.0.0/",
+    "dateCreated": "2019-04-27",
+    "description": "This is an agent-based model, simulating wolf (*Canis Lupus*) reappearance in the Netherlands. The model\u2019s purpose is to allow researchers to investigate the reappearance of wolves in the Netherlands and the possible effect of human interference. Wolf behaviour is modelled according to the literature. The suitability of the Dutch landscape for wolf settlement has been determined by Lelieveld (2012) [1] and is transformed into a colour-coded map of the Netherlands. The colour-coding is the main determinant of wolf settlement. Human involvement is modelled through the public opinion, which varies according to the size, composition and behaviour of the wolf population. \n\n[1] Lelieveld, G.: Room for wolf comeback in the Netherlands, (2012).",
+    "downloadUrl": "https://www.comses.net/codebases/596b99c9-5c92-4cdd-b6ce-945c0b8ff057/releases/1.0.0/download/",
+    "dateModified": "2019-04-27",
+    "releaseNotes": "First version of WOLVES model. For more details, see ODD.",
+    "copyrightYear": 2019,
+    "datePublished": "2019-04-27",
+    "embargoEndDate": "2019-04-28",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

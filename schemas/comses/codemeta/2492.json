@@ -1,0 +1,70 @@
+{
+    "@id": "https://www.comses.net/codebases/2492/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/2492/releases/1.0.0/",
+    "name": "Replication of ECEC model: Environmental Feedback and the Evolution of Cooperation",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-7776-9075",
+            "@type": "Person",
+            "email": "bommel@cirad.fr",
+            "givenName": "Pierre",
+            "familyName": "Bommel",
+            "affiliation": {
+                "url": "http://www.cirad.fr",
+                "name": "CIRAD",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-7776-9075",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Pepper, J.W. and B.B. Smuts. 2000. \"The evolution of cooperation in an ecological context: an agent-based model\". Pp. 45-76 in T.A. Kohler and G.J. Gumerman, eds. Dynamics of human and primate societies: agent-based modeling of social and spatial processes. Oxford University Press, Oxford.\r\n\r\nPepper, J.W. and B.B. Smuts. 2002. \"Assortment through Environmental Feedback\". American Naturalist, 160: 205-213",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "competition",
+        "ecology",
+        "population dynamics",
+        "replication",
+        "simple model"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2492/releases/1.0.0/",
+    "dateCreated": "2011-04-05",
+    "description": "Purpose\r\nThe purpose of the model is firstly didactic. It aims at explaining the functioning of a simple ABM where populations of foragers interact with the vegetation. Thus, we observe results very similar to the famous Lotka - Volterra model. \r\nOne can also observe the competition between two types of populations of foragers competing for one spatialized resource. Thus, this model can illustrate the principle of competitive exclusion (Gause, 1935), where the population having the highest fitness eliminates the other population. Finally, by modifying the initial distribution of the vegetation, one can observe the opposite behavior where the population of restrainted agents survives when the other population disappears.\r\n \r\nPlants Dynamics \r\nPlants are created only once and have a fixed location. They do not move, die, or reproduce. \r\nA plant\u2019s only \u201cbehaviours\u201d is to grow and be eaten by foragers.\r\nPlants vary only in their size, which represents the amount of food energy available to foragers. At each time unit, this energy level increases according to a logistic growth curve: \r\nX(t+1) = X(t) + r.X(t).(1-X(t)/K with r: reproduction rate (=0.2) and K: Carrying capacity (=10)\r\n\r\nForagers Dynamics\r\nForagers consume energy according to a common metabolic rate: 2 units of energy per time period.  \r\nA forager feeds on the plant in its current location if there is one. It increases its own energy store by the same amount it reduces the plant\u2019s.\r\nForagers are of two types that differs in their feeding behaviour: \r\n  Restrained: When \u201crestrained\u201d foragers eat, they take only 50% of the plant\u2019s energy. \n Unrestrained: In contrast, \u201cunrestrained\u201d foragers eat 99% of the plant. This harvest rate is less than 100% so that plants can continue to grow after being fed on, rather than being permanently destroyed. \r\nForagers do not change their feeding behaviour type and their offspring keep the same heritable traits. \r\n\r\nRules for Foragers\u2019 Movements\r\nForagers examine their current location and around. From those not occupied by another forager, they choose the one containing the plant with the highest energy.\r\nIf the chosen plant would yield enough food to meet their metabolic rate they move there. If not, they move instead to a randomly chosen adjacent free place (not occupied by another forager).\r\nThis movement rule leads to the emigration of foragers from depleted patches, and simulates the behaviour of individuals exploiting local food sources while they last, but migrating rather than starving in an inadequate food patch. \r\n\r\nOther Biological Functions of Foragers\r\nForagers loose energy (metabolic rate=2) regardless of whether or not they move.\r\nIf their energy store reaches zero they die, but they do not have maximum life spans. \r\nIf a forager\u2019s energy level reaches an upper fertility threshold (fixed to 100), it reproduces asexually, creating an offspring with the same heritable traits as itself (e.g., feeding strategy). At the same time the parent\u2019s energy store is reduced by the offspring\u2019s initial energy (50).  \r\nNewborn offspring occupy the nearest free place to their parent. \r\n\r\nStarting\r\nAt the start of a run each initial forager is endowed with an energy level chosen as a uniform random number between zero and the fertility threshold, and placed on a randomly chosen place.\r\n2 initial landscapes are proposed:\r\n Homogeneous: each plant\u2019s initial energyis set to a uniform random number betweenzero and K. \nFragmented: sets of 9 plants are regularly distributed, separated by 6 empty patches.\n",
+    "downloadUrl": "https://www.comses.net/codebases/2492/releases/1.0.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "v1. Re-designed and implemented by C. Le Page and P. Bommel",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Cormas"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "VW7.6",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

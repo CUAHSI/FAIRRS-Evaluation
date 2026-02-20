@@ -1,0 +1,60 @@
+{
+    "@id": "https://www.comses.net/codebases/3073/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/3073/releases/1.0.0/",
+    "name": "Irrigation game",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Person",
+            "email": "marco.janssen@asu.edu",
+            "givenName": "Marco",
+            "familyName": "Janssen",
+            "affiliation": {
+                "url": "https://schoolofsustainability.asu.edu/",
+                "name": "School of Sustainability",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "cooperation",
+        "experiment",
+        "irrigation"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3073/releases/1.0.0/",
+    "dateCreated": "2012-07-23",
+    "description": "Field experiments on asymmetric commons are performed in villages in Thailand and Colombia. These experiments resemble social dilemmas in irrigation games such as the contribution to the construction and maintenance of public infrastructure and extraction of water. The data from 32 groups do present some stylized facts but cannot be explained by traditional models of decision making. A decision theoretic agent-based model is constructed which include a trembling hand, other regarding preferences and learning. This model is calibrated on the experimental data.",
+    "downloadUrl": "https://www.comses.net/codebases/3073/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    },
+    "referencePublication": "Janssen, M.A. (2012) An Agent-based Model based on Field Experiments, in A. Smaijgl and O. Barreteau (eds). Empirical Agent-based modelling: Challenges and Solutions, Springer Publisher., in press"
+}

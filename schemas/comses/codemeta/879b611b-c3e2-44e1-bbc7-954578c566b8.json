@@ -1,0 +1,53 @@
+{
+    "@id": "https://www.comses.net/codebases/879b611b-c3e2-44e1-bbc7-954578c566b8/releases/1.0.2/",
+    "url": "https://www.comses.net/codebases/879b611b-c3e2-44e1-bbc7-954578c566b8/releases/1.0.2/",
+    "name": "Gender differentiation model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-2973-7738",
+            "@type": "Person",
+            "email": "sylvie.huet@inrae.fr",
+            "givenName": "Sylvie",
+            "familyName": "Huet",
+            "affiliation": {
+                "url": "https://lisc.inrae.fr/",
+                "name": "Inrae",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.2",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/879b611b-c3e2-44e1-bbc7-954578c566b8/releases/1.0.2/",
+    "dateCreated": "2020-04-20",
+    "description": "This is a gender differentiation model in terms of reputations, prestige and self-esteem (presented in the paper https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0236840). The model is based on the influence function of the Leviathan model (Deffuant, Carletti, Huet 2013 and Huet and Deffuant 2017) considering two groups.\n\nThis agent-based model studies how inequalities can be explained by the difference of open-mindness between two groups of interacting agents. We consider agents having an opinion/esteem about each other and about themselves. During dyadic meetings, agents change their respective opinion about each other and possibly about other agents they gossip about, with a noisy perception of the opinions of their interlocutor. Highly valued agents are more influential in such encounters. We study an heterogeneous population of two different groups: one more open to influence of others, taking less into account their perceived difference of esteem, called L; a second one less prone to it, called S, who designed the credibility they give to others strongly based on how higher or lower valued than themselves they perceive them. \n\nWe show that a mixed population always turns in favor to some agents belonging to the group of less open-minded agents S, and harms the other group: (1) the average group self-opinion or reputation of S is always better than the one of L; (2) the higher rank in terms of reputation are more frequently occupied by the S agents while the L agents occupy more the bottom rank; (3) the properties of the dynamics of differentiation between the two groups are similar to the properties of the glass ceiling effect proposed by Cotter et al (2001). ",
+    "downloadUrl": "https://www.comses.net/codebases/879b611b-c3e2-44e1-bbc7-954578c566b8/releases/1.0.2/download/",
+    "dateModified": "2022-04-25",
+    "releaseNotes": "How to run the computational model is described in the starting manual which can be uploaded.",
+    "copyrightYear": 2020,
+    "datePublished": "2020-04-23",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "ABM"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Sylvie Huet , Floriana Gargiulo, Felicia Pratto, 2020. \"Can gender inequality be created without inter-group discrimination?\", Plos One. https://doi.org/10.1371/journal.pone.0236840. Link: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0236840\nHuet, S., & Deffuant, G. (2017). The Leviathan model without gossips and vanity: The richness of influence based on perceived hierarchy. In W. Jager, R. Verbrugge, A. Flache, G. De Roo, L. Hoogduin & C. Hemelrijk (Eds.), Advances in Social Simulation 2015, Advances in Intelligent Systems and Computing 528 (pp. 149-162): Springer.\nDeffuant, G., Carletti, T., & Huet, S. (2013). The Leviathan Model: Absolute dominance, generalised distrust, small worlds and other patterns emerging from combining vanity with opinion propagation. JASSS-The Journal of Artificial Societies and Social Simulation, 16(1), 32."
+}

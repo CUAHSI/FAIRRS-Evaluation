@@ -1,0 +1,85 @@
+{
+    "@id": "https://www.comses.net/codebases/4411/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/4411/releases/1.1.0/",
+    "name": "DITCH --- A Model of Inter-Ethnic Partnership Formation",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-3936-2565",
+            "@type": "Person",
+            "email": "ruth@cfpm.org",
+            "givenName": "Ruth",
+            "familyName": "Meyer",
+            "affiliation": {
+                "url": "http://mmu.ac.uk",
+                "name": "Centre for Policy Modelling",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Laurence",
+            "familyName": "Lessard-Phillips"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Huw",
+            "familyName": "Vasey"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-3936-2565",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "inter-ethnic marriage",
+        "simulating social complexity",
+        "social network"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4411/releases/1.1.0/",
+    "dateCreated": "2016-02-02",
+    "description": "Inter-ethnic marriage is both a cause and a consequence of immigrant integration. It is, however, unclear how individual preferences and opportunities for contact may combine to produce the spectrum of rates of inter-ethnic marriage we observe in the UK and elsewhere. The DITCH (\u201cDiversity and Inter-\u00adethnic marriage: Trust, Culture and Homophily\u201d) model has been designed to  explore inter-ethnic marriage, but also to move towards adding layers of sophistication to the way such processes have previously been modelled. Utilising research and evidence from quantitative and\r\nqualitative sources from across the social sciences, we seek to develop a complex model of emergent processes of differentiation and change in the marriage patterns and social cohesion of migrant communities.\r\n\r\nOur approach with developing the DITCH model has been to start with a simple model that includes only processes and data essential to modelling (inter-ethnic) partnership formation, but which can be easily extended when necessary. The model version 1.0 is therefore constrained to simulating a cohort of single (at model initialisation) agents aged 18 - 35 years who search for a suitable partner within their social network.",
+    "downloadUrl": "https://www.comses.net/codebases/4411/releases/1.1.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2016,
+    "datePublished": "2016-02-02",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Meyer, R., Lessard-Phillips, L. and Vasey, H. (2014) DITCH: A Model of Inter-ethnic Partnership Formation. In: Proc. of Social Simulation 2014: 10th Conference of the European Social Simulation Association, Barcelona, Spain, 1-5 September, 2014."
+}

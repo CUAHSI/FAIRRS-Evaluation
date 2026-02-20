@@ -1,0 +1,61 @@
+{
+    "@id": "https://www.comses.net/codebases/7bbb91d3-e455-4afd-82b2-a62c94ed1aef/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/7bbb91d3-e455-4afd-82b2-a62c94ed1aef/releases/1.0.0/",
+    "name": "PaleoscapeABM: coastal occupation and shellfish discard",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-1324-7937",
+            "@type": "Person",
+            "email": "cgravelm@asu.edu",
+            "givenName": "Claudine",
+            "familyName": "Gravel-Miguel",
+            "affiliation": {
+                "@id": "https://ror.org/00d9ah105",
+                "url": "http://www.ucmerced.edu/",
+                "name": "University of California, Merced",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00d9ah105"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "Coast",
+        "hunter-gatherer",
+        "Paleoscape",
+        "Shellfish"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/7bbb91d3-e455-4afd-82b2-a62c94ed1aef/releases/1.0.0/",
+    "dateCreated": "2021-08-03",
+    "description": "This model builds on the [Armature distribution within the PaleoscapeABM](https://www.comses.net/codebases/9ba3f739-4da6-4212-8c1c-20b3dedba31b/releases/1.0.0/) model, which is itself a variant of the PaleoscapeABM available [here](https://www.comses.net/codebases/5356/releases/1.0.0/) written by Wren and Janssen, and. \n\nThis model aims to explore where and how much shellfish is discarded at coastal and non-coastal locations by daily coastal foraging. We use this model\u2019s output to test the idea that we can confidently use the archaeological record to evaluate the importance of shellfish in prehistoric people\u2019s diets.\n\nThe recognition that aquatic adaptations likely had significant impacts on human evolution triggered an explosion of research on that topic. Recognizing coastal foraging in the past relies on the archaeological signature of that behavior. We use this model to explore why some coastal sites are very intensely occupied and see if it is due to the shellfish productivity of the coast.",
+    "downloadUrl": "https://www.comses.net/codebases/7bbb91d3-e455-4afd-82b2-a62c94ed1aef/releases/1.0.0/download/",
+    "dateModified": "2022-02-08",
+    "releaseNotes": "This ABM models the daily behavior of foragers set on a reconstructed landscape representing the Holocene South Cape of South Africa. The landscape is comprised of a raster map of fourteen habitat types. The terrestrial habitat types are based on well-known vegetation types on the South African south coast that have varying food returns for foragers, and the coastal habitat types are based on varying inter-tidal shellfish productivity. Each habitat type has estimated plant or shellfish caloric returns, time required to gather those resources, and animal prey density. The estimates on shellfish and plant foraging returns are from modern foraging experimental studies. The foraging behavior aspect of the model is based on Optimal Foraging Theory (OFT) principles. \n\nThis model focuses on artifact and ecofact discard and the length and intensity of site occupations linked to the modeled behavior. In this model, cells record their distance from the coast, and the frequency and length of their occupation as archaeological sites. In addition, cells record the type and quantity of food gathered and brought back at their location each timestep. Recording this information allows us to study the spatial distribution of each food source and explore possible relationships between occupation lengths and density of archaeological assemblages comprised of the remains from those food sources (faunal remains for meat and shells for shellfish). For shellfish, we added a processing threshold to mimic the impact of differential shellfish transport on the geographical distribution of discarded shells. The threshold can be changed by the user. When a forager\u2019s camp is further from the shellfish collection site than the threshold, the forager \u201cprocesses\u201d the collected shellfish at the collection location. In modelled terms, the kcal associated with the collected shellfish are recorded by the cell where the shellfish was collected rather than the cell where the forager\u2019s camp is located. ",
+    "copyrightYear": 2022,
+    "datePublished": "2022-02-08",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Gravel-Miguel, C., J. DeVynck, C.D. Wren, J.K. Murray, C.W. Marean. 2022. Understanding the intensity of prehistoric coastal occupation, Quaternary International."
+}

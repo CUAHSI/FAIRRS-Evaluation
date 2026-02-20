@@ -1,0 +1,94 @@
+{
+    "@id": "https://doi.org/10.25937/c21w-e613",
+    "url": "https://doi.org/10.25937/c21w-e613",
+    "name": "Labor and environment in global value chains: An evolutionary policy study with a three-sector and two-region agent-based macroeconomic model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-2130-7098",
+            "@type": "Person",
+            "email": "lena.gerdes@wu.ac.at",
+            "givenName": "Lena",
+            "familyName": "Gerdes",
+            "affiliation": {
+                "@id": "https://ror.org/03yn8s215",
+                "url": "http://www.wu.ac.at/en/",
+                "name": "Vienna University of Economics and Business",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03yn8s215"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "Bernhard.Rengs@oeaw.ac.at",
+            "givenName": "Bernhard",
+            "familyName": "Rengs",
+            "affiliation": {
+                "@id": "https://ror.org/04d836q62",
+                "url": "https://www.tuwien.at",
+                "name": "TU Wien",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04d836q62"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "manuel.scholz-waeckerle@wu.ac.at",
+            "givenName": "Manuel",
+            "familyName": "Scholz-W\u00e4ckerle",
+            "affiliation": {
+                "@id": "https://ror.org/03yn8s215",
+                "url": "http://www.wu.ac.at/en/",
+                "name": "Vienna University of Economics and Business",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03yn8s215"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "Climate Change",
+        "Environmental Protection",
+        "Evolutionary political economy",
+        "Labor protection",
+        "Local pollution",
+        "Resource extraction",
+        "Unequal exchange"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/c21w-e613",
+        "https://doi.org/10.25937/c21w-e613"
+    ],
+    "dateCreated": "2021-08-18",
+    "description": "With this model, we investigate resource extraction and labor conditions in the Global South as well as implications for climate change originating from industry emissions in the North. The model serves as a testbed for simulation experiments with evolutionary political economic policies addressing these issues. In the model, heterogeneous agents interact in a self-organizing and endogenously developing economy. The economy contains two distinct regions \u2013 an abstract Global South and Global North. There are three interlinked sectors, the consumption good\u2013, capital good\u2013, and resource production sector. Each region contains an independent consumption good sector, with domestic demand for final goods. They produce a fictitious consumption good basket, and sell it to the households in the respective region. The other sectors are only present in one region. The capital good sector is only found in the Global North, meaning capital goods (i.e. machines) are exclusively produced there, but are traded to the foreign as well as the domestic market as an intermediary. For the production of machines, the capital good firms need labor, machines themselves and resources. The resource production sector, on the other hand, is only located in the Global South. Mines extract resources and export them to the capital firms in the North. For the extraction of resources, the mines need labor and machines. In all three sectors, prices, wages, number of workers and physical capital of the firms develop independently throughout the simulation. To test policies, an international institution is introduced sanctioning the polluting extractivist sector in the Global South as well as the emitting industrial capital good producers in the North with the aim of subsidizing innovation reducing environmental and social impacts.",
+    "downloadUrl": "https://www.comses.net/codebases/8cd6f0b3-acd2-4bb6-8b15-3677e752ef4c/releases/1.0.0/download/",
+    "dateModified": "2022-01-19",
+    "releaseNotes": "Gerdes L, Rengs B, Scholz-W\u00e4ckerle M (2022), Labor and environment in global value chains: An evolutionary policy study with a three-sector and two-region agent-based macroeconomic model, Journal of Evolutionary Economics. DOI: 10.1007/s00191-021-00750-7",
+    "copyrightYear": 2021,
+    "datePublished": "2021-12-22",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

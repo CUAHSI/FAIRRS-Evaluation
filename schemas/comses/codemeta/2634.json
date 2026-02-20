@@ -1,0 +1,49 @@
+{
+    "@id": "https://www.comses.net/codebases/2634/releases/1.3.0/",
+    "url": "https://www.comses.net/codebases/2634/releases/1.3.0/",
+    "name": "Diffusion dynamics in small-world networks with heterogeneous consumers",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/355/",
+            "@type": "Person",
+            "email": "sebastiano.delre@unibocconi.it",
+            "givenName": "Sebastiano",
+            "familyName": "Delre"
+        },
+        {
+            "@id": "https://www.comses.net/users/355/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.3.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2634/releases/1.3.0/",
+    "dateCreated": "2011-10-24",
+    "description": "Diffusions of new products and technologies through social networks can be formalized as spreading of infectious diseases. However, while epidemiological models describe infection in terms of transmissibility, we propose a diffusion model that explicitly includes consumer decision-making affected by social influences and word-of-mouth processes. In our agent-based model consumers\u2019 probability of adoption depends on the external marketing effort and on the internal influence that each consumer perceives in his/her personal networks. Maintaining a given marketing effort and assuming its effect on the probability of adoption as linear, we can study how social processes affect diffusion dynamics and how the speed of the diffusion depends on the network structure and on consumer heterogeneity. First, we show that the speed of diffusion changes with the degree of randomness in the network. In markets with high social influence and in which consumers have a sufficiently large local network, the speed is low in regular networks, it increases in small-world networks and,  what epidemic models suggest, it becomes very low again in random networks. Second, we show that heterogeneity helps the diffusion. Ceteris paribus and varying the degree of heterogeneity in the population of agents simulation results show that the more heterogeneous the population, the faster the speed of the diffusion. These results can contribute to the development of marketing strategies for the launch and the dissemination of new products and technologies, especially in turbulent and fashionable markets.",
+    "downloadUrl": "https://www.comses.net/codebases/2634/releases/1.3.0/download/",
+    "dateModified": "2018-02-16",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "windows",
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "C",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

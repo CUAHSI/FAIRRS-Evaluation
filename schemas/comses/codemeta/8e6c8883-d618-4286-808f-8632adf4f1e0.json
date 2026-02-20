@@ -1,0 +1,76 @@
+{
+    "@id": "https://www.comses.net/codebases/8e6c8883-d618-4286-808f-8632adf4f1e0/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/8e6c8883-d618-4286-808f-8632adf4f1e0/releases/1.0.0/",
+    "name": "Risks and Hedonics in Empirical Agent-based land market (RHEA) model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-2586-0184",
+            "@type": "Person",
+            "email": "k.dekoning@utwente.nl",
+            "givenName": "Koen",
+            "familyName": "de Koning"
+        },
+        {
+            "@id": "https://www.comses.net/users/651/",
+            "@type": "Person",
+            "email": "t.filatova@tudelft.nl",
+            "givenName": "Tatiana",
+            "familyName": "Filatova",
+            "affiliation": {
+                "url": "https://www.tudelft.nl/",
+                "name": "TU Delft",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "Climate Change",
+        "empirical data",
+        "flood",
+        "flood insurance",
+        "flood risk",
+        "hedonic analysis",
+        "housing market",
+        "housing transactions",
+        "kriging",
+        "poverty",
+        "prediction",
+        "protection motivation theory",
+        "regime shift",
+        "risk perception",
+        "survey data"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/8e6c8883-d618-4286-808f-8632adf4f1e0/releases/1.0.0/",
+    "dateCreated": "2019-03-27",
+    "description": "RHEA aims to provide a methodological platform to simulate the aggregated impact of households\u2019 residential location choice and dynamic risk perceptions in response to flooding on urban land markets. It integrates adaptive behaviour into the spatial landscape using behavioural theories and empirical data sources. The platform can be used to assess: how changes in households\u2019 preferences or risk perceptions capitalize in property values, how price dynamics in the housing market affect spatial demographics in hazard-prone urban areas, how structural non-marginal shifts in land markets emerge from the bottom up, and how economic land use systems react to climate change. RHEA allows direct modelling of interactions of many heterogeneous agents in a land market over a heterogeneous spatial landscape. As other ABMs of markets it helps to understand how aggregated patterns and economic indices result from many individual interactions of economic agents.\nThe model could be used by scientists to explore the impact of climate change and increased flood risk on urban resilience, and the effect of various behavioural assumptions on the choices that people make in response to flood risk. It can be used by policy-makers to explore the aggregated impact of climate adaptation policies aimed at minimizing flood damages and the social costs of flood risk.",
+    "downloadUrl": "https://www.comses.net/codebases/8e6c8883-d618-4286-808f-8632adf4f1e0/releases/1.0.0/download/",
+    "dateModified": "2019-04-01",
+    "releaseNotes": "# Risks and Hedonics in Empirical Agent-based land market (RHEA) model\n**Floods risks, housing markets and climate change: modelling behavioural responses in an artificial society**\n\n*Koen de Koning and Tatiana Filatova\nUniversity of Twente, The Netherlands \n\n*Unprecedented urbanization and increasing severity and frequency of hazard events in the changing climate pose major challenges for cities around the world. Coastal cities prone to flood hazards are a vivid example. Here the challenge is exacerbated by the fact that hazard risks are spatially correlated with environmental amenities. Where people prefer to live in cities and how market values of properties change over time determine the direct damage from floods. Do people perceive changing risks? How does relocation affect aggregated market trends in cities? How does potential damage change as people pursue transformative adaptation such as leaving flood-prone areas? To explore the aggregated consequences of households\u2019 outmigration decisions in response to increasing flood hazards, we developed a computational agent-based model grounded in empirical heuristics of buyers\u2019 and sellers\u2019 behaviour in a flood-prone housing market. We can use this model to explore the impacts of potential bottom-up outmigration from flood zones on the socio-demographic structure of cities in face of repetitive floods. Buyers choose a dwelling within their budget based on its price and characteristics. Following our extensive survey, the behavioral traits of buyers are such that they tend to assess risks of flooding rationally unless they experience fear, for example after a flood event. Hence, their changing attitude towards flood risk may inhibit them from buying property in a flood zone. A real estate agent informs sellers on an efficient ask price and updates their appraisal based on recent supply, demand and transactions. Households who reside within a flood zone may choose to put their house on sale and look for a home in a safer location, which according to our survey data is more likely to happen when they have experienced a flood. The model simulates how people update their risk perception and their preferences for living in a flood zone after the occurrence of a major flood, which is grounded in theory and empirical observations of household-level preferences and behaviour in response to floods. Individual changes in behaviour affect the supply, demand, and value of properties in hazard versus safe areas. Driven by adaptive households\u2019 preferences, the effects of floods propagate through market interactions, affecting the socio-demographic structure of climate-sensitive urban areas. You are welcome to read more about the microlevel data underpinning individual behavior in the RHEA model (de Koning et al. 2019 \u2013 under review) and the details of the basic market dynamics ([CEUS](https://www.sciencedirect.com/science/article/pii/S0198971514000714) and  [EE paper](https://www.sciencedirect.com/science/article/pii/S0921800916308278?via%3Dihub)).*\n\nPlease note that you are required to install R-studio on your computer in order to run this model. R-Packages required to run the model are: sp, rgdal, maptools, rgeos, GISTools, plotrix, foreign and gstat. You also need to create two separate folders in the code destination folder: one folder named 'Data', which stores the input data that the model needs, and one folder named 'Output', where the model will write the output files.\n\n**How to operate the model?**\n\n1. Make sure all the R-packages are installed and that the input data files are stored in a folder named 'Data'. At this time the 'SurveyDATA.csv' file is not yet publicly available. Please contact the authors for permission to use the data.\n\n2. Define your preferred settings of the model, which can be found under the header 'Settings' in the R code. The comments in the code should give sufficient instructions to see how the various input variables affect the model settings. The model is initialized with either one of two case studies of actual property markets in North Carolina, based on GIS data of actual properties and their characteristics, Greenville (N=9793) and Beaufort (N=3481). The two cities differ in the fraction of properties that are located in the hazard zones: Greenville has 6.4% of the properties in the 100-year flood zone, and Beaufort has 29.9% of the properties in the 100-year flood zone and another 21.5% of the properties in the 500-year flood zone.\nYou can specify 5 scenarios at initialisation: \u201cControl\u201d, \u201cFlood\u201d, \u201cExtreme Flood\u201d, \u201cMedia\u201d, and \u201cFlood and Media\u201d. These scenarios can be used to assess the impact of floods and media reports about floods on people\u2019s risk behaviour. The \u201cControl\u201d scenario is one without floods. The \u201cFlood\u201d scenario is one with a single major flood at time step T=102 (the first 100 time steps are needed for stabilising the market dynamics in the model). The \u201cExtreme Flood\u201d scenario is one with two major floods shortly after each other: at T=102 and at T=110. The \u201cMedia\u201d scenario is one with annual reports about floods in the media after T=100. \n\n3. Once you have defined your settings, you simply run the entire R script and check your 'Output' folder to see if the model successfully writes the output files in the destination folder.\n\nFor assistance please contact the authors:\n[Koen de Koning](https://people.utwente.nl/k.dekoning?tab=research) - k.dekoning@utwente.nl\n[Tatiana Filatova](https://tatianafilatova.weebly.com/) - t.filatova@utwente.nl",
+    "copyrightYear": 2019,
+    "datePublished": "2019-04-01",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "RStudio"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "R",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

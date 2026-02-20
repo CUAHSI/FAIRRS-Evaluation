@@ -1,0 +1,68 @@
+{
+    "@id": "https://www.comses.net/codebases/4830/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4830/releases/1.0.0/",
+    "name": "How to not get stuck \u2013 an ant model showing how negative feedback due to crowding maintains flexibility in ant foraging",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1658/",
+            "@type": "Person",
+            "email": "tomer.czaczkes@gmail.com",
+            "givenName": "Tomer",
+            "familyName": "Czaczkes",
+            "affiliation": {
+                "@id": "https://ror.org/01eezs655",
+                "url": "http://www.uni-regensburg.de/index.html.en",
+                "name": "University of Regensburg",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01eezs655"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1658/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "ants",
+        "collective decision making",
+        "local optima",
+        "negative feedback",
+        "NetLogo",
+        "positive feedback"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4830/releases/1.0.0/",
+    "dateCreated": "2015-12-17",
+    "description": "from the paper:\r\nCzaczkes TJ. (2014) link(http://www.sciencedirect.com/science/article/pii/S0022519314003981). J.Theore. Biol. 360:172\u2013180.\r\n\r\nAnt foraging is an important model system in the study of adaptive complex systems. Many ants use trail pheromones to recruit nestmates to resources. Differential recruitment depending on resource quality coupled with positive feedback allows ant colonies to make rapid and accurate collective decisions about how best to allocate their work-force. However, ant colonies can become trapped in sub-optimal foraging decisions if recruitment to a poor resource becomes too strong before a better resource is discovered. Genetic algorithms and Ant Colony Optimisation heuristics can also suffer from being trapped in such local optima. Recently, two negative feedback effects were described, in which an increase in crowding (Crowding Negative Feedback- CNF) or trail pheromones (Pheromone Negative Feedback- PNF) caused a decrease in subsequent pheromone deposition. Using agent based simulations with realistic parameters I test whether these negative feedback effects can prevent simulated ant colonies from becoming trapped in sub-optimal foraging decisions. Colonies are presented with two food sources of different qualities, and these qualities switch part way through the experiment. When either no negative feedback effects are implemented or only PNF is implemented colonies are completely unable to refocus their foraging effort to the high quality feeder. However, when CNF alone is implemented at a realistic level 97% of colonies successfully refocus their foraging effort. This ability to refocus colony foraging efforts is due to the strong reduction of pheromone deposition caused by CNF. This suggests that CNF is an important behaviour enabling ant colonies to maintain foraging flexibility. However, CNF comes at a slight cost to colonies when making their initial foraging decision.",
+    "downloadUrl": "https://www.comses.net/codebases/4830/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "final publication version",
+    "copyrightYear": 2015,
+    "datePublished": "2015-12-17",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Czaczkes TJ. (2014) How to not get stuck \u2013 negative feedback due to crowding maintains flexibility in ant foraging. Journal of Theoretical Biology 360:172\u2013180."
+}

@@ -1,0 +1,61 @@
+{
+    "@id": "https://www.comses.net/codebases/b196ebb8-bae0-47dd-9e49-f2b3c766681e/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/b196ebb8-bae0-47dd-9e49-f2b3c766681e/releases/1.0.0/",
+    "name": "00b SimEvo_V5.08 NetLogo",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1014/",
+            "@type": "Person",
+            "email": "orrery@rogers.com",
+            "givenName": "Garvin",
+            "familyName": "Boyle",
+            "affiliation": {
+                "url": "http://modeco-software.webs.com",
+                "name": "Retired High School Teacher",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "biophysical economics",
+        "Entropy in Agent-Based Models",
+        "Evolving Agent-Based Models",
+        "Simulated Evolution",
+        "sustainability science"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/b196ebb8-bae0-47dd-9e49-f2b3c766681e/releases/1.0.0/",
+    "dateCreated": "2019-09-29",
+    "description": "In 1985 Dr Michael Palmiter, a high school teacher, first built a very innovative agent-based model called \u201cSimulated Evolution\u201d which he used for teaching the dynamics of evolution.  In his model, students can see the visual effects of evolution as it proceeds right in front of their eyes.  Using his schema, small linear changes in the agent\u2019s genotype have an exponential effect on the agent\u2019s phenotype.  Natural selection therefore happens quickly and effectively.  I have used his approach to managing the evolution of competing agents in a variety of models that I have used to study the fundamental dynamics of sustainable economic systems.  For example, here is a brief list of some of my models that use \"Palmiter Genes\":\n-   ModEco - Palmiter genes are used to encode negotiation strategies for setting prices;\n-   PSoup - Palmiter genes are used to control both motion and metabolic evolution;\n-   TpLab - Palmiter genes are used to study the evolution of belief systems;\n-   EffLab - Palmiter genes are used to study Jevon's Paradox, EROI and other things.\n\nIn this model, I focus on the simple mechanics of evolution, without any of the additional experimental economic effects.  This model is intended as a teaching demonstration of two techniques that I have developed over the past several decades, and that I have used while building agent-based models as part of my personal research activities.  I demonstrate two techniques:\n-   First, it is a demonstration of the use of Palmiter genes for achieving fast evolution.  \n-   Second, it is also a demonstration of the calculation of entropy in an evolutionary model.\n\nWhile studying entropy in closed capital exchange agent-based models such as **EiLab**, I have developed some formulae that I believe are generally applicable, with some care, in any ABM in which some characteristic quantity or quality is conserved.  In this model I am experimenting with taking those formulae out of the model in which they were developed, and applying them in a less-well-studied circumstance.  That is, as an experiment, I am applying them to conserved quantities in an open evolutionary system.  In this model, energy is conserved - but also, genetic coding is conserved.  But, they are conserved in two different ways, so it requires some experimentation to decide how to apply the formulae. \n\n**Entropy and Energy** - Energy is conserved on a transaction-by-transaction basis.  No energy can appear out of nowhere.  It must be placed into the model by the Sun's rays.  And, no energy can just disappear.  It must be gathered by the seekers, and degraded as they move about.\n\n**Entropy and Genes** - DNA (genetic codes) are conserved in a different way.  The genes are passed from mother to daughter once per generation.  They are not 100% conserved.  There is some small possibility that the daughter will have a random mutations of some gene.  The DNA is merely \"sufficiently well conserved\" to form a stable base for persistence.\n\nBut, we see that under the effects of evolution, while the thermodynamic entropy rises, the informational entropy of the population of bugs falls as natural selection over-rules the randomness of the second law of thermodynamics and develops a population of bugs that are blind, but very efficient at finding food none-the-less.  \n",
+    "downloadUrl": "https://www.comses.net/codebases/b196ebb8-bae0-47dd-9e49-f2b3c766681e/releases/1.0.0/download/",
+    "dateModified": "2019-10-05",
+    "releaseNotes": "This model demonstrates techniques used to simulate evolution that were developed and first used by Dr Michael Palmiter in 1985.  They are very effective, but not widely known.  It is intended to be used as a teaching tool for students who plan to study the dynamics of evolving systems.\n\nIt also demonstrates techniques used to calculate changing entropy in an evolving system.  The calculations are used for two different circumstances in which entropy is changing.  The entropy of a changing distribution of energy is calculated and displayed, and the entropy of the changing phenotype of an evolving population is calculated and displayed.  Again, it is intended to be used as a teaching demonstration for students who plan to study the role of entropy in models of sustainable economic systems.\n\nThe program is written in NetLogo 5.0.5, and requires that the interpreter be downloaded and installed from the servers at Northwestern University ( https://ccl.northwestern.edu/netlogo/5.0.5/ ).\n",
+    "copyrightYear": 2019,
+    "datePublished": "2019-10-05",
+    "embargoEndDate": "2019-10-01",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo",
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

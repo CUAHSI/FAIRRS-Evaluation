@@ -1,0 +1,71 @@
+{
+    "@id": "https://doi.org/10.25937/8awx-bp23",
+    "url": "https://doi.org/10.25937/8awx-bp23",
+    "name": "Population Genetics",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-4878-7477",
+            "@type": "Person",
+            "email": "crou0048@umn.edu",
+            "givenName": "Kristin",
+            "familyName": "Crouse",
+            "affiliation": {
+                "@id": "https://ror.org/017zqws13",
+                "url": "http://twin-cities.umn.edu/",
+                "name": "University of Minnesota",
+                "@type": "Organization",
+                "identifier": "https://ror.org/017zqws13"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-4878-7477",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.html",
+        "name": "Apache-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "2.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "allele frequencies",
+        "evolution",
+        "hubnet",
+        "mechanisms of evolution",
+        "population genetics"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/8awx-bp23",
+        "https://doi.org/10.25937/8awx-bp23"
+    ],
+    "dateCreated": "2018-02-08",
+    "description": "This model simulates how the mechanisms of biological evolution (genetic drift, gene flow, mutation, and natural selection) shape emergent evolutionary patterns. That is, how allele frequencies change in a population over generations and shape patterns of between- and within-population variation.\n\nDuring a simulation, \"students\" control populations of fish via a HubNet Client and a \"teacher\" controls the environment via the HubNet Control Center. Teachers can set up to four alleles at the locus coding for color. A fish's color phenotype is based on its genotype and the allele relationship set by parameters (i.e. dominant or recessive). The plots in the user interface show how the allele frequencies within and between populations change over generations.",
+    "downloadUrl": "https://www.comses.net/codebases/6040/releases/2.1.0/download/",
+    "dateModified": "2024-12-05",
+    "releaseNotes": "Version 2.1.0 includes minor interface updates and additional allele color options: green, white and black. Modified controls so that HubNet is optional instead of default. Created with NetLogo 6.1.1.",
+    "copyrightYear": 2020,
+    "datePublished": "2020-09-09",
+    "codeRepository": "https://github.com/kncrouse/PopulationGenetics",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Dung, S. K., L\u00f3pez, A., Barragan, E. L., Reyes, R. J., Thu, R., Castellanos, E., Catalan, F., Huerta-S\u00e1nchez, E. & Rohlfs, R. V. (2019). Illuminating Women\u2019s Hidden Contribution to Historical Theoretical Population Genetics. Genetics, 211(2), 363-366."
+}

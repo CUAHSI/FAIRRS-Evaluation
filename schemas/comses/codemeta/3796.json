@@ -1,0 +1,64 @@
+{
+    "@id": "https://www.comses.net/codebases/3796/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/3796/releases/1.0.0/",
+    "name": "Implementation of 'satisficing\u2019 as a model for farmers\u2019 decision-making in an agent-based model of groundwater over-exploitation",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1069/",
+            "@type": "Person",
+            "email": "mnebel@uos.de",
+            "givenName": "Marvin",
+            "familyName": "Nebel",
+            "affiliation": {
+                "url": "http://www.usf.uos.de/usf/index.en.html",
+                "name": "Institute of Environmental Systems Research",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1069/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "individual decision making",
+        "land-use",
+        "model comparison",
+        "satisficing"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3796/releases/1.0.0/",
+    "dateCreated": "2013-05-20",
+    "description": "In this model \u2019satisficing\u2019 is implemented as a model for farmers\u2019 decision making in an agent-based farming model, that deals with groundwater over-exploitation in the \u2019Mancha Occidental Aquifer\u2019, Spain.\r\n\r\nOne aim of this work is to learn about the influence of alternative decision-making models on simulation results. Furthermore this work exemplifies a way, how a rather theoretical concept such as \u2019satisficing\u2019 can be transformed into a feasible decision-making model for agent-based farming models. Finally results of this model are compared to empirical data and to results of the base model, where a utility-based approach is used ([link to base model](http://www.openabm.org/model/2549/version/1/view)).",
+    "downloadUrl": "https://www.comses.net/codebases/3796/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-05-20",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Repast"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "M. Nebel, \u201cImplementation and analysis of \u2018satisficing\u2019 as a model for farmers\u2019 decision-\r\nmaking in an agent-based model of groundwater over-exploitation,\u201d University of\r\nOsnabr\u00fcck, 2011."
+}

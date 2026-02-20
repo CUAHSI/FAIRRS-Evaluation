@@ -1,0 +1,52 @@
+{
+    "@id": "https://www.comses.net/codebases/1ff9420d-7a4e-4931-9fbd-1b2b61ccfd92/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/1ff9420d-7a4e-4931-9fbd-1b2b61ccfd92/releases/1.0.0/",
+    "name": "Introduction of a contact tracking app for outbreak control",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1732/",
+            "@type": "Person",
+            "email": "d.verwaart@xs4all.nl",
+            "givenName": "Tim",
+            "familyName": "Verwaart",
+            "affiliation": {
+                "url": "http://www.wur.nl",
+                "name": "Wageningen UR",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/1ff9420d-7a4e-4931-9fbd-1b2b61ccfd92/releases/1.0.0/",
+    "dateCreated": "2020-04-21",
+    "description": "The application of a smartphone application to register physical encounters between individuals is considered by public health authorities, as a means to reduce the number of infections in the 2020 COVID-19 pandemic. The general idea is that continuous registration of all other smartphones in the vicinity of an individual\u2019s smartphone potentially enables early warning of the owners of the other smartphones, in case the individual is tested positive as infected. Those other individuals can then go into isolation and be considered for testing. The purpose of the present simulation is to explore the potential effects of this application on frequencies of infection, isolation, and positive and negative infection test results.",
+    "downloadUrl": "https://www.comses.net/codebases/1ff9420d-7a4e-4931-9fbd-1b2b61ccfd92/releases/1.0.0/download/",
+    "dateModified": "2020-04-21",
+    "releaseNotes": "First version of a simple agent-based simulation in NetLogo, in response to ideas to introduce a contect tracking app for CIVID-19 in the Netherlands.",
+    "copyrightYear": 2020,
+    "datePublished": "2020-04-21",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "@id": "https://www.comses.net/codebases/bf773d07-0ddb-4da9-868b-84cd13e4e2ab/releases/2.1.0/",
+    "url": "https://www.comses.net/codebases/bf773d07-0ddb-4da9-868b-84cd13e4e2ab/releases/2.1.0/",
+    "name": "The S-uFUNK Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-6677-8689",
+            "@type": "Person",
+            "email": "secchi.davi@gmail.com",
+            "givenName": "Davide",
+            "familyName": "Secchi",
+            "affiliation": {
+                "url": "https://www.sdu.dk/en/om_sdu/institutter_centre/c_comac",
+                "name": "Research Centre for Computational & Organisational Cognition, University of Southern Denmark",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc/4.0",
+        "name": "CC-BY-NC-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "2.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "S-uFUNK 2.1.0 uses concepts that have been explored in other agent-based models. Here are some that may be related to this:\n\nSecchi, D. (2020). A typology of non-functional information. In C. Stephanidis, D. Harris, W.-C. Li, D. D. Schmorrow, C. M. Fidopiastis, P. Zaphiris, A. Ioannou, X. F. R. A. Sottilare, & J. Schwarz (Eds.), HCI International 2020 - Late Breaking Papers: Cognition, Learning and Games, volume 12425 of Lecture Notes in Computer Science (pp. 240\u2013254). Springer Nature\n\nSecchi, D. (2021). Computational Organizational Cognition. A study on thinking and action in organizations. Bingley, UK: Emerald.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "cognition",
+        "distributed cognition",
+        "NetLogo 6.3.0",
+        "non-functional information",
+        "strategic management process"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/bf773d07-0ddb-4da9-868b-84cd13e4e2ab/releases/2.1.0/",
+    "dateCreated": "2020-08-31",
+    "description": "This `version 2.1.0` of the `uFunk` model is about setting a business strategy (the `S` in the name) for an organization. A team of managers (or executives) meet and discuss various options on the strategy for the firm. There are three aspects that they have to agree on to set the strategic positioning of the organization.\nThe discussion is on *market*, *stakeholders*, and *resources*. The team (it could be a business strategy task force) considers various aspects of these three elements. The resources they use to develop the discussion can come from a traditional approach to strategy or from non-traditional means (e.g., so-called serious play, creativity and imagination techniques). \nThe `S-uFunk 2.1.0 Model` wants to understand to which extent cognitive means triggered by traditional and non-traditional resources affect the making of the strategy process.\n",
+    "downloadUrl": "https://www.comses.net/codebases/bf773d07-0ddb-4da9-868b-84cd13e4e2ab/releases/2.1.0/download/",
+    "dateModified": "2023-03-17",
+    "releaseNotes": "This model builds conceptually on uFunk 1.2.0 and some of the components in the interface remain the same. At the same time, it also develops a completely new set of functions that are coded separately and independently from the previous model. The 'S' means that new code has been developed to address the new enquiry.",
+    "copyrightYear": 2023,
+    "datePublished": "2023-03-17",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo 6.3.0"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Secchi, D. (2023b). The relevance of social dynamics and dispositions on non-traditional aids to the strategic process. In R. Gustafson (Ed.), Cognitive Aids in Strategy, New Horizons in Managerial and Organizational Cognition (pp. in press). Emerald Publishing Limited."
+}

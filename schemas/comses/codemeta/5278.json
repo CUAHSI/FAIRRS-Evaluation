@@ -1,0 +1,64 @@
+{
+    "@id": "https://www.comses.net/codebases/5278/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/5278/releases/1.1.0/",
+    "name": "The Cardial Spread Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-9576-7914",
+            "@type": "Person",
+            "email": "sean.bergin@asu.edu",
+            "givenName": "Sean",
+            "familyName": "Bergin",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "School of Complex Adaptive Systems, Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-9576-7914",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-sa/4.0/",
+        "name": "CC-BY-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "archaeology",
+        "neolithic",
+        "origins of agriculutre"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5278/releases/1.1.0/",
+    "dateCreated": "2017-09-29",
+    "description": "Four conceptual models have been proposed to explain the spread of the Impresso-Cardial Neolithic in the west Mediterranean. The purpose of this model is to provide a platform to test and compare multiple hypotheses for the spread of the Neolithic in the west Mediterranean. The model includes farmer village agents and forager band agents which occupy individual patches. Farmer agents found new agricultural villages (new Farmer Agents are created) when the population of a village reaches its carrying capacity or by random chance (dependent upon the model being tested). Forager agents may become farmer agents, a process which is initiated by different rules within a conceptual model. The agents are located on a GIS (Geographic Information System) based landscape which incorporates a map of the west Mediterranean (Italy, southern France, the Iberian peninsula and the northern coast of Africa). As the simulation progresses, farmer agents spread to new locations and the timing of the arrival of agriculturalists to a region is recorded. Through this process, multiple hypotheses of agricultural spread can be compared to one another and their relative success in explaining the spread of the Neolithic can be assessed.",
+    "downloadUrl": "https://www.comses.net/codebases/5278/releases/1.1.0/download/",
+    "dateModified": "2019-02-04",
+    "releaseNotes": "This version of the model was used as a component of the author's dissertation. The GIS files needed to run the simulation are located at https://figshare.com/s/d26f8aef6aa6c1c12b9f    They must be placed in a folder called Data that is located in the same folder as the Netlogo model. This version of the model has been updated to work with Netlogo 6.",
+    "copyrightYear": 2019,
+    "datePublished": "2019-02-04",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

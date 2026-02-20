@@ -1,0 +1,58 @@
+{
+    "@id": "https://doi.org/10.25937/8wym-em13",
+    "url": "https://doi.org/10.25937/8wym-em13",
+    "name": "A financial market with zero intelligence agents",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/4535/",
+            "@type": "Person",
+            "email": "edgar.kouajiep@gmail.com"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Economy as a complex adaptive system (CAS), Murat Y\u0131ld\u0131zoglu, Pre-conference workshop on Agent-based Models in Economics and Finance, CEF 2015 Conference, Taipei",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "financial markets"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/8wym-em13",
+        "https://doi.org/10.25937/8wym-em13"
+    ],
+    "dateCreated": "2023-12-26",
+    "description": "The model\u2019s aim is to represent the price dynamics under very simple market conditions, given the values adopted by the user for the model parameters. We suppose the market of a financial asset contains agents on the hypothesis they have zero-intelligence. In each period, a certain amount of agents are randomly selected to participate to the market. Each of these agents decides, in a equiprobable way, between proposing to make a transaction (talk = 1) or not (talk = 0). Again in an equiprobable way, each participating agent decides to speak on the supply (ask) or the demand side (bid) of the market, and proposes a volume of assets, where this number is drawn randomly from a uniform distribution. The granularity depends on various factors, including market conventions, the type of assets or goods being traded, and regulatory requirements. In some markets, high granularity is essential to capture small price movements accurately, while in others, coarser granularity is sufficient due to the nature of the assets or goods being traded",
+    "downloadUrl": "https://www.comses.net/codebases/597054ba-295f-430d-8e56-847ff2f5e14d/releases/1.0.0/download/",
+    "dateModified": "2024-12-05",
+    "releaseNotes": "It is a first release of the project",
+    "copyrightYear": 2024,
+    "datePublished": "2024-03-27",
+    "codeRepository": "https://github.com/edgarkp/NetLogoModels",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo 6.3"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Netlogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "@id": "https://www.comses.net/codebases/ca949e52-572c-4bd7-a625-495a7ef88f6e/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/ca949e52-572c-4bd7-a625-495a7ef88f6e/releases/1.0.0/",
+    "name": "Identity Fusion Group Behaviour Simulator",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/4388/",
+            "@type": "Person",
+            "email": "leodms789@gmail.com",
+            "givenName": "Leonardo D.",
+            "familyName": "Martins Araujo",
+            "affiliation": {
+                "@id": "https://ror.org/002v2kq79",
+                "url": "http://www.utfpr.edu.br/",
+                "name": "Universidade Tecnol\u00f3gica Federal do Paran\u00e1",
+                "@type": "Organization",
+                "identifier": "https://ror.org/002v2kq79"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "betini@utfpr.edu.br",
+            "givenName": "Roberto",
+            "familyName": "Betini"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based computational modelling in social sciences",
+        "collective identity",
+        "group identity",
+        "social identity",
+        "violence"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/ca949e52-572c-4bd7-a625-495a7ef88f6e/releases/1.0.0/",
+    "dateCreated": "2024-06-02",
+    "description": "The model is based on Swann and Buhrmester's Identity Fusion behavioural theory, which seeks to explain why an individual puts the group's priorities above their personal expectations. In order to observe the theory and validate group behaviour, a case study was carried out focusing on scenarios of group violence in football stadiums in Brazil. For the modelling, each agent has a distribution of levels of identification with the group to which they belong, with their level of fusion varying between 1 and 5. According to behavioural theory, an individual's degree of fusion with the group directly interferes with their behaviour of replicating actions and absorbing group beliefs.\n\n",
+    "downloadUrl": "https://www.comses.net/codebases/ca949e52-572c-4bd7-a625-495a7ef88f6e/releases/1.0.0/download/",
+    "dateModified": "2024-06-03",
+    "releaseNotes": "Jupiter Notebook\nPython 3\n",
+    "copyrightYear": 2024,
+    "datePublished": "2024-06-03",
+    "embargoEndDate": "2024-06-25",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "agent-based methodology",
+        "pandas",
+        "Python 3",
+        "random",
+        "seaborn"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python 3",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "The model is part of a research project that is currently being submitted to JASSS.\n\nSOCIAL SIMULATION WITH MULTI-AGENT MODELLING TO ANALYSE VIOLENT BEHAVIOUR IN GROUPS"
+}

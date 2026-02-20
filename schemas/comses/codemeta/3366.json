@@ -1,0 +1,65 @@
+{
+    "@id": "https://www.comses.net/codebases/3366/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/3366/releases/1.0.0/",
+    "name": "Evolution of indirect reciprocity by social information",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/472/",
+            "@type": "Person",
+            "email": "ykim169@asu.edu",
+            "givenName": "Yunhwan",
+            "familyName": "Kim",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/472/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Mohtashemi, M & Mui, L. (2003). Evolution of indirect reciprocity by social information: The role of trust and reputation in evolution of altruism. *Journal of Theoretical Biology, 223*, 523-531.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3366/releases/1.0.0/",
+    "dateCreated": "2012-11-02",
+    "description": "This model describes the mechanism of indirect reciprocity with social information. By social information, it means the information drawn from selected subset of other people, not from whole population. When we encounter the situation that need us to decide whether to cooperate with someone else we don't know well, we likely to ask to people whom we trust. By the same way, we provide information about someone when our friends ask us information about that people. This mechanism may influence the emergence of cooperation, especially in indirect reciprocity in which the notion of reputation plays crucial role.",
+    "downloadUrl": "https://www.comses.net/codebases/3366/releases/1.0.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

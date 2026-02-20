@@ -1,0 +1,97 @@
+{
+    "@id": "https://www.comses.net/codebases/5374/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/5374/releases/1.1.0/",
+    "name": "A spatial model of resource-consumer dynamics",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1880/",
+            "@type": "Person",
+            "email": "guustenbroeke@gmail.com",
+            "givenName": "Guus",
+            "familyName": "Ten Broeke",
+            "affiliation": {
+                "url": "http://www.wur.nl",
+                "name": "Wageningen University",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "George",
+            "familyName": "Van Voorn"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-2093-7947",
+            "@type": "Person",
+            "email": "arend.ligtenberg@wur.nl",
+            "givenName": "Arend",
+            "familyName": "Ligtenberg",
+            "affiliation": {
+                "url": "http://www.wageningenur.nl/",
+                "name": "Wageningen University",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "givenName": "Jaap",
+            "familyName": "Molenaar"
+        },
+        {
+            "@id": "https://www.comses.net/users/1880/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-2093-7947",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5374/releases/1.1.0/",
+    "dateCreated": "2017-01-11",
+    "description": "The model was developed as a test-case for application of sensitivity analysis methods to ABMs. The model was developed as a test-case for application of sensitivity analysis methods to ABMs. It was designed to be as simple as possible, while containing all the properties that complicate sensitivity analysis for ABMs, such as tipping points and agent adaptation. \r\nThe model simulates agents that compete for a common resource. The resource grows on patches and diffuses between patches. Agents can move between patches and harvest resource from patches. Harvested resource is converted to internal energy, which is required for performing actions and for paying energy upkeep. Agents die if they are unable to pay their energy upkeep. If an agent gathers a sufficient amount of energy it can create offspring. This offspring inherits its parents characteristics, with some random deviation. This inheritance ensures that natural selection can take place, and the agent population can adapt over time.",
+    "downloadUrl": "https://www.comses.net/codebases/5374/releases/1.1.0/download/",
+    "dateModified": "2020-09-17",
+    "releaseNotes": "The model code of the previous version was updated to run using NetLogo 6.0.4.",
+    "copyrightYear": 2020,
+    "datePublished": "2020-09-17",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Guus ten Broeke, George van Voorn and Arend Ligtenberg (2016). Which Sensitivity Analysis Method Should I Use for My Agent-Based Model? Journal of Artificial Societies and Social Simulation 19 (1) 5\r\n<http://jasss.soc.surrey.ac.uk/19/1/5.html>"
+}

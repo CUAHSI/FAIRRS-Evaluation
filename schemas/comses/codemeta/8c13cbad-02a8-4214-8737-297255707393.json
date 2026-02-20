@@ -1,0 +1,62 @@
+{
+    "@id": "https://www.comses.net/codebases/8c13cbad-02a8-4214-8737-297255707393/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/8c13cbad-02a8-4214-8737-297255707393/releases/1.0.0/",
+    "name": "Agent-Based Simulation for International Tax Compliance",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-1205-823X",
+            "@type": "Person",
+            "email": "p.gerbrands@uu.nl",
+            "givenName": "Peter",
+            "familyName": "Gerbrands",
+            "affiliation": {
+                "@id": "https://ror.org/04pp8hn57",
+                "url": "http://www.uu.nl/en",
+                "name": "Utrecht University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04pp8hn57"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc/4.0",
+        "name": "CC-BY-NC-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "NetLogo",
+        "Slippery Slope",
+        "Tax Avoidance",
+        "Tax Compliance",
+        "Tax evasion"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/8c13cbad-02a8-4214-8737-297255707393/releases/1.0.0/",
+    "dateCreated": "2023-07-18",
+    "description": "Country-by-Country Reporting and Automatic Exchange of Information have recently been implemented in European Union (EU) countries. These international tax reforms increase tax compliance in the short term. In the long run, however, taxpayers will continue looking abroad to avoid taxation and, countries, looking for additional revenues, will provide opportunities. As a result, tax competition intensifies and the initial increase in compliance could reverse. To avoid international tax reforms being counteracted by tax competition, this paper suggests bilateral responsive regulation to maximize compliance. This implies that countries would use different tax policy instruments toward other countries, including tax and secrecy havens. \n\nTo assess the effectiveness of fully or partially enforce tax policies, this agent based model has been ran many times under different enforcement rules, which influence the perceived enforced- and voluntary compliance, as the slippery-slope model prescribes. Based on the dynamics of this perception and the extent to which agents influence each other, the annual amounts of tax evasion, tax avoidance and taxes paid are calculated over longer periods of time.\n\nThe agent-based simulation finds that a differentiated policy response could increase tax compliance by 6.54 percent, which translates into an annual increase of \u20ac105 billion in EU tax revenues on income, profits, and capital gains. Corporate income tax revenues in France, Spain, and the UK alone would already account for \u20ac35 billion.",
+    "downloadUrl": "https://www.comses.net/codebases/8c13cbad-02a8-4214-8737-297255707393/releases/1.0.0/download/",
+    "dateModified": "2023-11-21",
+    "releaseNotes": "This model has been prepared in the Combating Fiscal Fraud and Empowering Regulators (COFFERS) project. This project has received funding from the European Union's Horizon 2020 research and innovation program under grant agreement No. 727145. ",
+    "copyrightYear": 2023,
+    "datePublished": "2023-07-18",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Gerbrands, P., Unger, B. and Ferwerda, J. (2022), Bilateral responsive regulation and international tax competition: An agent-based simulation. Regulation & Governance, 16: 760-780. https://doi.org/10.1111/rego.12397"
+}

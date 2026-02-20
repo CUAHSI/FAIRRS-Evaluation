@@ -1,0 +1,61 @@
+{
+    "@id": "https://www.comses.net/codebases/5292/releases/1.1.1/",
+    "url": "https://www.comses.net/codebases/5292/releases/1.1.1/",
+    "name": "LimnoSES - social-ecological lake management undergoing regime shifts",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1610/",
+            "@type": "Person",
+            "email": "romina.martin@su.se",
+            "givenName": "Romina",
+            "familyName": "Martin"
+        },
+        {
+            "@id": "https://www.comses.net/users/1610/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://opensource.org/licenses/BSD-2-Clause",
+        "name": "BSD-2-Clause",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.1",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "dynamic systems",
+        "hybrid model",
+        "private sewage treatment",
+        "regime shift",
+        "shallow lake",
+        "social-ecological"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5292/releases/1.1.1/",
+    "dateCreated": "2017-11-25",
+    "description": "LimnoSES is a coupled system dynamics, agent-based model to simulate social-ecological feedbacks in lake use and management. The focus lies on shallow lakes where ecological regime shifts can occur between the turbid and the clear water state. We provide a regime shift evaluation that includes social responses and regulation mechanisms of important drivers in the lake. In particular, the coordination among private house owners with insufficient sewage water systems and the regulating municipality play an important role since it causes time lags of social responses to changes in the lake state.",
+    "downloadUrl": "https://www.comses.net/codebases/5292/releases/1.1.1/download/",
+    "dateModified": "2019-01-18",
+    "releaseNotes": "Documentation of code and narrative updated, code file now in a package to enable users to start simulations automatically in an environment with the necessary subfolder 'simdata'. Further the folder '-docs' was generated and added to enable a .html based view on the code documentation.",
+    "copyrightYear": 2019,
+    "datePublished": "2019-01-18",
+    "operatingSystem": "linux",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Martin, R. & Schl\u00fcter, M. Combining system dynamics and agent-based modeling to analyze social-ecological interactions\u2014an example from modeling restoration of a shallow lake. Front. Environ. Sci. 3, 1\u201315 (2015)."
+}

@@ -1,0 +1,67 @@
+{
+    "@id": "https://www.comses.net/codebases/4945/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4945/releases/1.0.0/",
+    "name": "Hedonic and Eudaimonic Well-being Based Reward for Intrinsic Motivated Reinforcement Learning Agents",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1693/",
+            "@type": "Person",
+            "email": "ygao@cs.cornell.edu",
+            "givenName": "Yue",
+            "familyName": "Gao"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Shimon",
+            "familyName": "Edelman"
+        },
+        {
+            "@id": "https://www.comses.net/users/1693/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "happiness",
+        "imrl",
+        "intrinsic reward",
+        "rl",
+        "well-being"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4945/releases/1.0.0/",
+    "dateCreated": "2016-03-21",
+    "description": "How can an autonomous agent guide its actions with the goal of being happy and self-motivated? In this paper, we investigate the use of hedonic and eudaimonic well-being in the learning process of autonomous agents. We construct hedonic and eudaimonic well-being based reward features to guide the learning process and behaviour of a  intrinsic motivated reinforcement learning agent with only limited perception. Much like what occurs in human, the reward features evaluates its well-being associated with the interaction history of the agent in the environment. Our experiments in several foraging scenarios demonstrate that by optimizing the relative contributions of hedonia and eudaimonia as reward features, the resulting ``happier\" agents perform better than standard fitness-oriented agents. Our experiments show that well-being based features can provide a robust, general-purpose reward mechanisms for intrinsic motivated autonomous agents.",
+    "downloadUrl": "https://www.comses.net/codebases/4945/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2016,
+    "datePublished": "2016-03-21",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "MatLab"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    }
+}

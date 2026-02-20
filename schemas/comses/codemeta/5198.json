@@ -1,0 +1,77 @@
+{
+    "@id": "https://www.comses.net/codebases/5198/releases/1.2.0/",
+    "url": "https://www.comses.net/codebases/5198/releases/1.2.0/",
+    "name": "Equity Constrained Dispatching Model of Emergency Medical Services",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-7709-0257",
+            "@type": "Person",
+            "email": "sreekanth.vk@protonmail.com",
+            "givenName": "Sreekanth",
+            "familyName": "V K",
+            "affiliation": {
+                "@id": "https://ror.org/03w5sq511",
+                "url": "http://www.iitkgp.ac.in/",
+                "name": "Indian Institute of Technology Kharagpur",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03w5sq511"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Ram Babu",
+            "familyName": "Roy"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-7709-0257",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent based modeling and simulation",
+        "decision making",
+        "dispatching decisions",
+        "markov decision process"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5198/releases/1.2.0/",
+    "dateCreated": "2017-05-01",
+    "description": "Agent-based modeling and simulation was used to evaluate two different ambulance dispatching policies in equity constrained emergency medical services: first, a policy based on maximum reward and second, a policy based on the Markov Decision Process formulation. Four equity constraints were used: two from the patients' side and two from the providers' side.The call for services will arrive from different call locations and the ambulances are base located at multiple location. The paper extends the work by McLay and Mayorga (2013a, 2013b) using agent-based modeling and simulation approach .",
+    "downloadUrl": "https://www.comses.net/codebases/5198/releases/1.2.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "The model implements two dispatching policies\r\n\r\n1.  a policy based on the proximity of ambulance to incident location (maximum reward)  \r\n2.  a policy based on the Markov Decision Process formulation which is solved using value iteration method. \r\n\r\nFour equity constraints were used: two from the patients' side and two from the providers' side.",
+    "copyrightYear": 2017,
+    "datePublished": "2017-05-01",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Sreekanth V.K., Ram Babu Roy, (2017) \"Equity-constrained dispatching models for emergency medical services\", Team Performance Management: An International Journal, Vol. 23 Issue: 1/2, pp.28-45, doi: 10.1108/TPM-10-2015-0051 Permanent link to this document: http://dx.doi.org/10.1108/TPM-10-2015-0051"
+}

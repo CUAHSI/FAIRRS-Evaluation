@@ -1,0 +1,62 @@
+{
+    "@id": "https://www.comses.net/codebases/592f0caf-8a02-48f5-bb73-b6fdc969982f/releases/1.4.0/",
+    "url": "https://www.comses.net/codebases/592f0caf-8a02-48f5-bb73-b6fdc969982f/releases/1.4.0/",
+    "name": "Residents planned behaviour of waste sorting to explore urban situations",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-5252-6504",
+            "@type": "Person",
+            "email": "edgardo@chalmers.se",
+            "givenName": "Jonathan Edgardo",
+            "familyName": "Cohen"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.4.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "No. This is an original model",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "microsimulation",
+        "TPB",
+        "urban",
+        "Waste Management",
+        "waste separation"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/592f0caf-8a02-48f5-bb73-b6fdc969982f/releases/1.4.0/",
+    "dateCreated": "2023-06-07",
+    "description": "Municipal waste management (MWM) is essential for urban development. Efficient waste management is essential for providing a healthy and clean environment, for reducing GHGs and for increasing the amount of material recycled. Waste separation at source is perceived as an effective MWM strategy that relays on the behaviour of citizens to separate their waste in different fractions. The strategy is straightforward, and many cities have adopted the strategy or are working to implement it. However, the success of such strategy depends on adequate understanding of the drivers of the behaviour of proper waste sorting. The Theory of Planned Behaviour (TPB) has been extensively applied to explain the behaviour of waste sorting and contributes to determining the importance of different psychological constructs. Although, evidence shows its validity in different contexts, without exploring how urban policies and the built environment affect the TPB, its application to urban challenges remains unlocked.  To date, limited research has focused in exposing how different urban situations such as: distance to waste bins, conditions of recycling facilities or information campaigns affect the planned behaviour of waste separation. To fill this gap, an agent-based model (ABM) of residents capable of planning the behaviour of waste separation is developed. The study is a proof of concept that shows how the TPB can be combined with simulations to provide useful insights to evaluate different urban planning situations. In this paper we depart from a survey to capture TPB constructs, then Structural Equation Modelling (SEM) is used to validate the TPB hypothesis and extract the drivers of the behaviour of waste sorting. Finally, the development of the ABM is detailed and the drivers of the TPB are used to determine how the residents behave. A low-density and a high-density urban scenario are used to extract policy insights. In conclusion, the integration between the TPB into ABMs can help to bridge the knowledge gap between can provide a useful insight to analysing and evaluating waste management scenarios in urban areas. By better understanding individual waste sorting behaviour, we can develop more effective policies and interventions to promote sustainable waste management practices.",
+    "downloadUrl": "https://www.comses.net/codebases/592f0caf-8a02-48f5-bb73-b6fdc969982f/releases/1.4.0/download/",
+    "dateModified": "2024-03-14",
+    "releaseNotes": "Fix bugs due to deprecated lines of code in experiments. \n now, the model reflects the current syntax for exploration (exploration with:)\nData included in includes",
+    "copyrightYear": 2024,
+    "datePublished": "2024-03-14",
+    "embargoEndDate": "2023-06-01",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "GAMA"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "gaml",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "https://doi.org/10.1016/j.wasman.2024.12.020"
+}

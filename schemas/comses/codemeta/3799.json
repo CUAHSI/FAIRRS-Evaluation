@@ -1,0 +1,68 @@
+{
+    "@id": "https://www.comses.net/codebases/3799/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/3799/releases/1.0.0/",
+    "name": "A simple emulation-based computational model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1070/",
+            "@type": "Person",
+            "email": "cmfermar@gmail.com",
+            "givenName": "Carlos M",
+            "familyName": "Fern\u00e1ndez-M\u00e1rquez",
+            "affiliation": {
+                "url": "http://www.uam.es",
+                "name": "Universidad Autonoma de Madrid",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Francisco",
+            "familyName": "V\u00e1zquez"
+        },
+        {
+            "@id": "https://www.comses.net/users/1070/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3799/releases/1.0.0/",
+    "dateCreated": "2013-05-21",
+    "description": "Emulation is one of the simplest and most common mechanisms of social interaction. In this paper we introduce a descriptive computational model that attempts to capture the underlying dynamics of social processes led by emulation.\r\nThe model allows, with few assumptions, to explain how and why highly skewed distributions emerge in human societies, where few trends are representative and co-exist with several minority trends. In particular, the model shows that if a society is too tolerant and permeable, all the agents converge to only one trend that leads to uniformity. If society's tolerance is moderate, many trends arise but with a high dispersity of size, only a few of them being truly representative. Finally, in highly intolerant societies a considerable degree of segregation is reached, where lots of trends of similar size arise.\r\nFurthermore, the proposed model can reproduce several real phenomena in social processes in which emulation is present: cyclic evolution in trend areas, changes in leadership, extinction and resurgence of trend areas, the struggle between neighboring areas and the higher probability of having dominant trends in central areas, corresponding to moderate positions.",
+    "downloadUrl": "https://www.comses.net/codebases/3799/releases/1.0.0/download/",
+    "dateModified": "2019-02-05",
+    "releaseNotes": "Version 1.0a",
+    "copyrightYear": 2019,
+    "datePublished": "2019-02-05",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Repast"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

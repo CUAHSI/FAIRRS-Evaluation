@@ -1,0 +1,121 @@
+{
+    "@id": "https://www.comses.net/codebases/a03bcb4e-733c-41d0-b3ec-e4035b06faf4/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/a03bcb4e-733c-41d0-b3ec-e4035b06faf4/releases/1.0.0/",
+    "name": "School Enrollment Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-9940-1052",
+            "@type": "Person",
+            "email": "catalinacanals.c@gmail.com",
+            "givenName": "Catalina",
+            "familyName": "Canals",
+            "affiliation": {
+                "@id": "https://ror.org/044cse639",
+                "url": "https://www.uoh.cl/",
+                "name": "University of O'Higgins",
+                "@type": "Organization",
+                "identifier": "https://ror.org/044cse639"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "ecanessa@uai.cl",
+            "givenName": "Enrique",
+            "familyName": "Canessa",
+            "affiliation": {
+                "@id": "https://ror.org/0326knt82",
+                "url": "https://www.uai.cl/",
+                "name": "Adolfo Ib\u00e1\u00f1ez University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0326knt82"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1030/",
+            "@type": "Person",
+            "email": "spiro.maroulis@asu.edu",
+            "givenName": "Spiro",
+            "familyName": "Maroulis",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "email": "amizala@uchile.cl",
+            "givenName": "Alejandra",
+            "familyName": "Mizala",
+            "affiliation": {
+                "@id": "https://ror.org/047gc3g35",
+                "url": "http://www.uchile.cl/",
+                "name": "University of Chile",
+                "@type": "Organization",
+                "identifier": "https://ror.org/047gc3g35"
+            }
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Person",
+            "email": "sergio.chaigneau@uai.cl",
+            "givenName": "Sergio",
+            "familyName": "Chaigneau",
+            "affiliation": {
+                "@id": "https://ror.org/0326knt82",
+                "url": "https://www.uai.cl/",
+                "name": "Adolfo Ib\u00e1\u00f1ez University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0326knt82"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc/4.0",
+        "name": "CC-BY-NC-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Updated version of Schol Enrollment Model (2021). Available at: https://osf.io/8fbez/",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "education",
+        "public policy",
+        "school choice"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/a03bcb4e-733c-41d0-b3ec-e4035b06faf4/releases/1.0.0/",
+    "dateCreated": "2023-11-06",
+    "description": "The School Enrollment Model is a spatially-explicit computational model that depicts a city, with schools and students located within the space. The model represents the Chilean school system, a market-based educational system, where people are free to choose among public, private voucher, or private fee-paying schools. In the model, students become aware of some schools, apply to schools, switch schools, pass or fail grade levels, and eventually either graduate or dropout. Schools select students, update their tuition, test scores, and other characteristics.\n\nThe purpose of the model is to represent the Chilean school system and analyze the different mechanisms that affected the enrollment distribution between public, private voucher, and private fee-paying school sectors during the period 2004-2016.\n",
+    "downloadUrl": "https://www.comses.net/codebases/a03bcb4e-733c-41d0-b3ec-e4035b06faf4/releases/1.0.0/download/",
+    "dateModified": "2024-07-08",
+    "releaseNotes": "New version of School Enrollment Model (2021; available at: https://osf.io/8fbez/). This latest version has improved and additional model experiments.",
+    "copyrightYear": 2024,
+    "datePublished": "2024-07-08",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Netlogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Netlogo 6.2.1",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

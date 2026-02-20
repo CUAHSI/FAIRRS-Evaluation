@@ -1,0 +1,77 @@
+{
+    "@id": "https://www.comses.net/codebases/4688/releases/1.2.0/",
+    "url": "https://www.comses.net/codebases/4688/releases/1.2.0/",
+    "name": "SugarscapeCW",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-0861-9815",
+            "@type": "Person",
+            "email": "cjwatts1007@gmail.com",
+            "givenName": "Christopher",
+            "familyName": "Watts",
+            "affiliation": {
+                "@id": "https://ror.org/01v29qb04",
+                "url": "https://www.dur.ac.uk/",
+                "name": "Durham University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01v29qb04"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-0861-9815",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Epstein, J.M. and R. Axtell, Growing artificial societies : social science from the bottom up. Complex adaptive systems. 1996, Washington, D.C. ; London: Brookings Institution Press ; MIT Press. xv, 208p",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "artificial economics",
+        "forage",
+        "land-use model",
+        "resources",
+        "sugarscape"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4688/releases/1.2.0/",
+    "dateCreated": "2015-08-20",
+    "description": "This program attempts to replicate the classic model, Sugarscape, as described in Epstein & Axtell (1996). Most of the functions are provided, and qualitatively similar (if not numerically indistinguishable) results can be obtained from experiments in most cases. Many people have tried to replicate some or all of Sugarscape. This is my attempt.",
+    "downloadUrl": "https://www.comses.net/codebases/4688/releases/1.2.0/download/",
+    "dateModified": "2023-04-12",
+    "releaseNotes": "This has been tested in Netlogo 5.3.1 under Windows 10. All functions of the original model have been replicated, including Diseases & Immune System, and Supply & Demand curves (which I omitted in earlier versions I posted). NetLogo 6.2.2 also seems to be able to load and auto-translate it without errors. The breed \"agents\" has been renamed \"people\", however this remains largely code I wrote in 2015.",
+    "copyrightYear": 2023,
+    "datePublished": "2023-04-12",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Netlogo",
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Netlogo",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

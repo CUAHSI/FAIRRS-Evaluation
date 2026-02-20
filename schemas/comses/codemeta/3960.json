@@ -1,0 +1,59 @@
+{
+    "@id": "https://www.comses.net/codebases/3960/releases/1.3.0/",
+    "url": "https://www.comses.net/codebases/3960/releases/1.3.0/",
+    "name": "Societal Simulator v203",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "givenName": "Tim",
+            "familyName": "Gooding"
+        },
+        {
+            "@id": "_:author_1",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.3.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "evolution",
+        "multi-agent",
+        "society",
+        "starvation",
+        "wealth inequality"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3960/releases/1.3.0/",
+    "dateCreated": "2014-11-28",
+    "description": "Most economic models start with monetary trade. However, important economic events, such as starvation, can occur in the absence of trade. This model attempts to close this analytical gap by first modelling the human need for sustenance. Then simple trade and technology is added. At this point, the model succeeds in capturing several global society trends. The agents harvest food or non-renewables, buy and sell these goods and move if their living standard is being threatened. The patches have two resources; needs and wants. This simple simulation successfully reproduces such things as the historical population curve, starvation in the presence of increasing food, rapidly peaking non-renewable extraction, and a rise in the Gini coefficient.\r\n\r\nAgents who accumulate more non-renewable 'technology' relative to other agents have relatively more power. This causes a wealth concentration evolutionary force to arise in the system. If the system is first allowed to run a number of iterations before the non-renewable harvesting is initiated, the system demonstrates a marked change from an evolutionary force for 'life' to one where wealth concentration becomes the priority.\r\n\r\nA paper based on this model was published here: http://jasss.soc.surrey.ac.uk/17/3/3.html",
+    "downloadUrl": "https://www.comses.net/codebases/3960/releases/1.3.0/download/",
+    "dateModified": "2018-02-19",
+    "releaseNotes": "",
+    "copyrightYear": 2014,
+    "datePublished": "2014-11-28",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Gooding, T (2014), Modelling Society\u2019s Evolutionary Forces, Journal of Artificial Society\u2019s and Social Simulation, 17 (3) 3, http://jasss.soc.surrey.ac.uk/JASSS.html."
+}

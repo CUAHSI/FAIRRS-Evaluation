@@ -1,0 +1,55 @@
+{
+    "@id": "https://www.comses.net/codebases/a407a26c-4325-47ec-a57b-23ef3cfdafa6/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/a407a26c-4325-47ec-a57b-23ef3cfdafa6/releases/1.0.0/",
+    "name": "Parallel trading systems",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-8858-4615",
+            "@type": "Person",
+            "email": "czuprynm@uek.krakow.pl",
+            "givenName": "Marcin",
+            "familyName": "Czupryna",
+            "affiliation": {
+                "@id": "https://ror.org/0262te083",
+                "url": "http://www.uek.krakow.pl/",
+                "name": "Cracow University of Economics",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0262te083"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc/4.0",
+        "name": "CC-BY-NC-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/a407a26c-4325-47ec-a57b-23ef3cfdafa6/releases/1.0.0/",
+    "dateCreated": "2019-04-06",
+    "description": "The model simulates agents behaviour in wine market parallel trading systems: auctions, OTC and Liv-ex. Models are written in JAVA and use MASON framework. To run a simulation download source files with additional src folder with sobol.csv file. In WineSimulation.java set RESULTS_FOLDER parameter. Uses following external libraries mason19..jar, opencsv.jar, commons-lang3-3.5.jar and commons-math3-3.6.1.jar.",
+    "downloadUrl": "https://www.comses.net/codebases/a407a26c-4325-47ec-a57b-23ef3cfdafa6/releases/1.0.0/download/",
+    "dateModified": "2020-06-26",
+    "releaseNotes": "The first release",
+    "copyrightYear": 2020,
+    "datePublished": "2020-06-26",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Mason"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Czupryna M., Jakubczyk M., Oleksy P. , Price Formation in Parallel Trading Systems, Journal of Artificial Societies and Social Simulation 23 (3) 11, http://jasss.soc.surrey.ac.uk/23/3/11.html,  DOI: 10.18564/jasss.4349"
+}

@@ -1,0 +1,80 @@
+{
+    "@id": "https://www.comses.net/codebases/d4183b6b-de60-4536-95c8-3d1cab537235/releases/1.0.1/",
+    "url": "https://www.comses.net/codebases/d4183b6b-de60-4536-95c8-3d1cab537235/releases/1.0.1/",
+    "name": "MeReDiem : Fallow Land Simulations to examine the conditions of sustainable village livelihood",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-3054-0759",
+            "@type": "Person",
+            "email": "paul.chapron@ign.fr",
+            "givenName": "Paul",
+            "familyName": "Chapron",
+            "affiliation": {
+                "@id": "https://ror.org/00yczwp93",
+                "url": "https://www.umr-lastig.fr",
+                "name": "Laboratoire en Sciences et Technologies de l'Information G\u00e9ographique pour la ville intelligente et les territoires durables",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00yczwp93"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-6633-6269",
+            "@type": "Person",
+            "email": "etienne.delay@cirad.fr",
+            "givenName": "Etienne",
+            "familyName": "DELAY",
+            "affiliation": {
+                "url": "https://ur-green.cirad.fr/en",
+                "name": "CIRAD",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/2720/",
+            "@type": "Person",
+            "email": "mathieu.leclaire@iscpif.fr",
+            "givenName": "Mathieu",
+            "familyName": "Leclaire"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.1",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "Agricultural land use",
+        "food security",
+        "Senegal",
+        "social solidarity"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/d4183b6b-de60-4536-95c8-3d1cab537235/releases/1.0.1/",
+    "dateCreated": "2025-01-21",
+    "description": "The MeReDiem model aims to simulate the effect of  socio-agricultural practices of farmers and pastors on the food sustainability  and soil fertility of a serrer village, in Senegal. The model is a central part of a companion modeling and exploration approach, described in a paper, currently under review)\n\nThe village population is composed of families (kitchens).  Kitchens cultivate their land parcels to feed their members, aiming for food security at the family level. On a global level , the village tries to preserve the community fallow land as long as possible.\n\n\nKitchens sizes vary depending on the kitchens food production, births and migration when food is insufficient.  \nSolidarity practices in form of parcels loans and food donations are triggered whenever a kitchen is in deficit and another can provide help. \nAgricultural practices consist in cattle manure usage , faidherbia trees preservation, crop rotation cycle choice and the propension to use fallow land.\nBasic soil fertility process allow to incorporate the effects of farmers practices on crops yields alongside rainfall. \n\nAgricultural and social mechanisms have been designed according to the village actors sayings. A couple of variations of these mechanisms are provided  to represent the observed diversity of practices and in order to test alternative scenarios. \nThe alternative scenarios are used to stimulate discussion with actors , as the primary purpose pursued by the model is social learning.\n\n\n",
+    "downloadUrl": "https://www.comses.net/codebases/d4183b6b-de60-4536-95c8-3d1cab537235/releases/1.0.1/download/",
+    "dateModified": "2025-01-21",
+    "releaseNotes": "Update of the previous release (1.0.0)  with the correct code directory organization ",
+    "copyrightYear": 2025,
+    "datePublished": "2025-01-21",
+    "operatingSystem": "linux",
+    "runtimePlatform": [
+        "none"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "scala",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "this version of the model is associated to a paper currently under review"
+}

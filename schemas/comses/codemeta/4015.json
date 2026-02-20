@@ -1,0 +1,74 @@
+{
+    "@id": "https://www.comses.net/codebases/4015/releases/1.5.0/",
+    "url": "https://www.comses.net/codebases/4015/releases/1.5.0/",
+    "name": "Exploring Transitions towards Sustainable Construction",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-5395-5324",
+            "@type": "Person",
+            "email": "c.e.garcia.diaz@gmail.com",
+            "givenName": "C\u00e9sar",
+            "familyName": "Garc\u00eda-D\u00edaz",
+            "affiliation": {
+                "url": "http://www.javeriana.edu.co",
+                "name": "School of Economics and Business, Pontificia Universidad Javeriana (Colombia)",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Jesus",
+            "familyName": "Rosales-Carreon"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-5395-5324",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.5.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "near-zero energy buildings",
+        "sustainability",
+        "sustainable construction"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4015/releases/1.5.0/",
+    "dateCreated": "2015-01-31",
+    "description": "This model, complemented with knowledge that was elicited from several stakeholders within the building sector, helps to inspect the implication of common beliefs in the path of shaping possible futures toward a transition to near-zero energy buildings (nZEB\u2019s).\r\n\r\nThis model exemplifies actor interaction in the construction sector, according to information gathered from relevant actors in the Netherlands. It offers a simple frame to represent diverse interests, interdependencies and effects on the diffusion (number) of built sustainable houses.   \r\n\r\nWe assume a grid-like city endowed with n x n cells, each of which can sustain either a near-zero energy (nZE) or a normal home. Each cell can have one of six potential states: (i) unused land, (ii) spotted / occupied by a project developer, (iii) under land sale permission request, (iv) under a construction permission request, (v) hosting a built nZE home (sold and on sale), or (vi) hosting a normal home (sold and on sale).",
+    "downloadUrl": "https://www.comses.net/codebases/4015/releases/1.5.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2015,
+    "datePublished": "2015-01-31",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Rosales-Carre\u00f3n J. and C. Garc\u00eda-D\u00edaz (2015). Exploring transitions towards sustainable construction: The case of near-zero energy buildings in the Netherlands, Journal of Artificial Societies and Social Simulation 18 (1) 10."
+}

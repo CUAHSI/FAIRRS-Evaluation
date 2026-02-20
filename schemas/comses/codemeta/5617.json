@@ -1,0 +1,84 @@
+{
+    "@id": "https://www.comses.net/codebases/5617/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/5617/releases/1.1.0/",
+    "name": "The Opportunistic Acquisition Model of Stone Tool Raw Material Procurement",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-9662-4904",
+            "@type": "Person",
+            "email": "simen.oestmo@gmail.com",
+            "givenName": "Simen",
+            "familyName": "Oestmo"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Person",
+            "email": "marco.janssen@asu.edu",
+            "givenName": "Marco",
+            "familyName": "Janssen",
+            "affiliation": {
+                "url": "https://schoolofsustainability.asu.edu/",
+                "name": "School of Sustainability",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Haley",
+            "familyName": "Cawthra"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-9662-4904",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5617/releases/1.1.0/",
+    "dateCreated": "2017-04-21",
+    "description": "The OAM is a computational neutral model of stone tool raw material procurement. The OAM is an variant of a natural availability model or Binford\u2019s (1979) embedded procurement model. Raw material procurement is embedded into the foraging movement; any material that is encountered will be procured if there is room in the toolkit, and raw materials are discarded at a fixed rate.",
+    "downloadUrl": "https://www.comses.net/codebases/5617/releases/1.1.0/download/",
+    "dateModified": "2019-03-10",
+    "releaseNotes": "Version 1",
+    "copyrightYear": 2019,
+    "datePublished": "2019-03-10",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

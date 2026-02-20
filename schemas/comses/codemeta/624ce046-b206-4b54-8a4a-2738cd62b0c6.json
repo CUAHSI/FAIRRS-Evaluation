@@ -1,0 +1,100 @@
+{
+    "@id": "https://www.comses.net/codebases/624ce046-b206-4b54-8a4a-2738cd62b0c6/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/624ce046-b206-4b54-8a4a-2738cd62b0c6/releases/1.0.0/",
+    "name": "Correlated random walk (Javascript)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-6129-5362",
+            "@type": "Person",
+            "email": "fronville.thibault@hotmail.com",
+            "givenName": "Thibault",
+            "familyName": "Fronville",
+            "affiliation": {
+                "@id": "https://ror.org/05nywn832",
+                "url": "http://www.izw-berlin.de/welcome.html",
+                "name": "Leibniz Institute for Zoo and Wildlife Research",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05nywn832"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-3072-0095",
+            "@type": "Person",
+            "email": "radchuk.victoria@gmail.com",
+            "givenName": "Viktoriia",
+            "familyName": "Radchuk",
+            "affiliation": {
+                "@id": "https://ror.org/05nywn832",
+                "url": "http://www.izw-berlin.de/welcome.html",
+                "name": "Leibniz Institute for Zoo and Wildlife Research",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05nywn832"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "uta.berger@tu-dresden.de",
+            "givenName": "Uta",
+            "familyName": "Berger",
+            "affiliation": {
+                "@id": "https://ror.org/042aqky30",
+                "url": "https://tu-dresden.de",
+                "name": "TU Dresden",
+                "@type": "Organization",
+                "identifier": "https://ror.org/042aqky30"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Similar code but different programming language :  \n-Correlated random walk (version 1.1.0) by Thibault Fronville 2022\n-Correlated Random Walk (NetLogo) (version 1.0.0) by Viktoriia Radchuk & Thibault Fronville & Uta Berger 2023",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "agent based model (abm)",
+        "correlated random walk",
+        "JavaScript",
+        "von mises"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/624ce046-b206-4b54-8a4a-2738cd62b0c6/releases/1.0.0/",
+    "dateCreated": "2023-05-09",
+    "description": "The first simple movement models used unbiased and uncorrelated random walks (RW). In such models of movement, the direction of the movement is totally independent of the previous movement direction. In other words, at each time step the direction, in which an individual is moving is completely random. This process is referred to as a Brownian motion.\nOn the other hand, in correlated random walks (CRW) the choice of the movement directions depends on the direction of the previous movement. At each time step, the movement direction has a tendency to point in the same direction as the previous one. This movement model fits well observational movement data for many animal species.\n\nThe presented agent based model simulated the movement of the agents as a correlated random walk (CRW). The turning angle at each time step follows the Von Mises distribution with a \u03f0 of 10. The closer \u03f0 gets to zero, the closer the Von Mises distribution becomes uniform. The larger \u03f0 gets, the more the Von Mises distribution approaches a normal distribution concentrated around the mean (0\u00b0).\nIn this script the turning angles (following the Von Mises distribution) are generated based on the the instructions from N. I. Fisher 2011. \nThis model is implemented in Javascript and can be used as a building block for more complex agent based models that would rely on describing the movement of individuals with CRW.",
+    "downloadUrl": "https://www.comses.net/codebases/624ce046-b206-4b54-8a4a-2738cd62b0c6/releases/1.0.0/download/",
+    "dateModified": "2023-05-09",
+    "releaseNotes": "First Release",
+    "copyrightYear": 2023,
+    "datePublished": "2023-05-09",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "microsoft visual studio"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "JavaScript",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "This code is a reusable building block representation of correlated random walk. More details on this reusable building block as well as some history of correlated random walk use in animal ecology can be found at https://github.com/radchukv/RBB_CRW"
+}

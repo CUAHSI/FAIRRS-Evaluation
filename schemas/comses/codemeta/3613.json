@@ -1,0 +1,65 @@
+{
+    "@id": "https://www.comses.net/codebases/3613/releases/1.2.0/",
+    "url": "https://www.comses.net/codebases/3613/releases/1.2.0/",
+    "name": "01a ModEco V2.05 \u2013 Model Economies \u2013 In C++",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1014/",
+            "@type": "Person",
+            "email": "orrery@rogers.com",
+            "givenName": "Garvin",
+            "familyName": "Boyle",
+            "affiliation": {
+                "url": "http://modeco-software.webs.com",
+                "name": "Retired High School Teacher",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1014/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "biophysical economics",
+        "ecological economics",
+        "econophysics",
+        "physically conservative",
+        "simple complete biophysical/economic model",
+        "sustainability"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3613/releases/1.2.0/",
+    "dateCreated": "2017-04-14",
+    "description": "The approach is to build an agent-based model at two levels, the top being a very simple and very highly abstracted agricultural economic system, together with the lower-level ecological/biophysical system and processes in which the economy is embedded.  The long-term vision is to establish a more complete understanding of the dynamics of sustainability in this highly abstracted and exceedingly simple system, and then to elaborate it step-by-step as the level of abstraction is reduced and the level of realism is increased.\r\n\r\nThe ModEco application is conceived as a laboratory in which a number of different model economies can be enabled through toggled features and parameters.  A parameter is, in effect, a sliding scale which changes the behaviour of a system.  A toggle, on the other hand, is a switch which can entirely remove the effect of a parameter or operational feature, and, possibly, replace it with another parameter or operational feature.  A well-constructed toggle allows a user to remove all of the logic associated with a parameter, or, replace the logic around one feature with the logic of another feature.  For example, a toggle might be used to select one of several pricing mechanisms.\r\n\r\nIn very general terms a ModEco-based economy has the following characteristics:\r\n - At the lower metabolic level, agents harvest food, eat it, and recycle the waste.  \r\n - At the higher economic level, farmers hire workers to harvest the food and place it in inventory, then farmers sell food to consumers, consumers sell waste to a Material Manager, who, in turn, recycles it and resells it to farmers.\r\n - Agents are born (via fission, the most simple form of reproduction), live a life of limited length, and successfully reproduce (via fission) when they are old enough and wealthy enough, or they die of starvation, old age, or bankruptcy.  Death can come from metabolic or economic insufficiencies.\r\n - Both mass and energy are conserved in every commercial transaction, meaning that the total mass owned collectively by two agents before a transaction equals the total mass owned by them collectively after the transaction, and the same for energy.  There may be a transfer of mass and energy between the agents, but the total amounts do not change.\r\n - Intrinsic value, based on metabolic needs, is assigned to mass and energy, and intrinsic value is also conserved implicitly in all commercial transactions.\r\n - All transfers of goods, and all deliveries of services, are mediated by the reciprocal transfer of cash, which is conserved in each transaction.  There is no bartering.\r\n - Farmers and workers do not have global knowledge of the market, but, rather, (a) have knowledge of the existence of only those other agents that reside within a local commuting area, and (b) retain a record of their own average historic costs.\r\n\r\nAn economy as described above is easy to model using agent-based techniques, and, using the ModEco application, the behaviour of a number of interesting little economies was explored.  However, it was discovered that, even with this small set of constraints, a sustainable economy is rather difficult to construct.  Rampant inflation or deflation eventually brings down most ModEco-based economies.  To date, the only sustainable ModEco-based economies constructed have one very severe restriction:  the price paid for all goods and services must be precisely equal to the intrinsic value, based on metabolic needs.  When a price/value gap is allowed (i.e. when price negotiations are allowed) then inflation creeps in, and positive feedback mechanisms cause the collapse of the economy, somewhat similar to the way friction eventually brings a spinning wheel to a stop.\r\n\r\nThe first such severely restricted sustainable economy that I found has been dubbed the \u201cPerpetual Motion Machine #1\u201d (PMM #1) because it has been run up to an amazing 20 million ticks (requiring about 3 weeks of processing time) before being terminated.  PMM #1 is a ModEco-based economy in which many of the available ModEco functions and features are toggled off.  \r\n\r\nA design document and a description written using the ODD protocol are available at modeco-software.webs.com.",
+    "downloadUrl": "https://www.comses.net/codebases/3613/releases/1.2.0/download/",
+    "dateModified": "2018-02-19",
+    "releaseNotes": "Version 2.05A is only a slight advancement on V2.03A, but substantially more documentation can be made available, putting it into the context of the long-term project in which I am studying the nature of sustainable economic systems.  As before, it demonstrates physically closed economies, in which mass and energy do not enter or leave the system.  But, an energetically non-isolated economic engine is now included, and yet, this more realistic design is, unfortunately, even more unstable than the closed system.  Some features are still untested, such as saving and reloading an economy mid-run.  Help files are unavailable, but many features are self-explanatory, and design documentation is available. The default economy on start-up is a crowded PMM, but other model economies are available via the menu commands, or via the IWiz control panels. To Start, press the \u2018Go\u2019 button.",
+    "copyrightYear": 2017,
+    "datePublished": "2017-04-14",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "visual studio 2010"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "C++",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,145 @@
+{
+    "@id": "https://doi.org/10.25937/dt95-xk35",
+    "url": "https://doi.org/10.25937/dt95-xk35",
+    "name": "Industrial Symbiosis Network implementation ABM",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-2599-1421",
+            "@type": "Person",
+            "email": "k.p.h.lange@hva.nl",
+            "givenName": "Kasper",
+            "familyName": "Lange",
+            "affiliation": {
+                "@id": "https://ror.org/00y2z2s03",
+                "url": "http://www.hva.nl/",
+                "name": "Amsterdam University of Applied Sciences & Delft University of Technology",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00y2z2s03"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "g.korevaar@tudelft.nl",
+            "givenName": "Gijsbert",
+            "familyName": "Korevaar",
+            "affiliation": {
+                "@id": "https://ror.org/02e2c7k09",
+                "url": "http://www.tudelft.nl/en/",
+                "name": "Delft University of Technology",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02e2c7k09"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1211/",
+            "@type": "Person",
+            "email": "i.nikolic@tudelft.nl",
+            "givenName": "Igor",
+            "familyName": "Nikolic",
+            "affiliation": {
+                "@id": "https://ror.org/02e2c7k09",
+                "url": "http://www.tudelft.nl/en/",
+                "name": "Delft University of Technology",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02e2c7k09"
+            }
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "email": "p.m.herder@tudelft.nl",
+            "givenName": "Paulien",
+            "familyName": "Herder",
+            "affiliation": {
+                "@id": "https://ror.org/02e2c7k09",
+                "url": "http://www.tudelft.nl/en/",
+                "name": "Delft University of Technology",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02e2c7k09"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-2599-1421",
+            "@type": "Role",
+            "roleName": "publisher"
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-2599-1421",
+            "@type": "Role",
+            "roleName": "resourceProvider"
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-2599-1421",
+            "@type": "Role",
+            "roleName": "maintainer"
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-2599-1421",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "https://www.comses.net/users/1211/",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based model",
+        "Circular Economy",
+        "Cooperative Networks",
+        "Industrial Symbiosis",
+        "negotiation",
+        "theory of planned behavior",
+        "Waste Management"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/dt95-xk35",
+        "https://doi.org/10.25937/dt95-xk35"
+    ],
+    "dateCreated": "2020-05-01",
+    "description": "The purpose of the model is to explore the influence of actor behaviour, combined with environment and  business model design, on the survival rates of Industrial Symbiosis Networks (ISN), and the cash flows of the agents. We define an ISN to be robust, when it is able to run for 10 years, without falling apart due to leaving agents. \n\nThe model simulates the implementation of local waste exchange collaborations for compost production, through the ISN implementation stages of awareness, planning, negotiation, implementation, and evaluation. \n\nOne central firm plays the role of waste processor in a local composting initiative. This firm negotiates with other firms to become a supplier of their organic residual streams. The waste suppliers in the model can decide to join the initiative, or to have the waste brought to the external waste incinerator. The focal point of the model are the company-level interactions during the implementation or ending of synergies.\n\nThe model consists of three types of actors, waste suppliers,  processor, and  incinerators. The modeled waste supplier and processor are part of the ISN. In the model these agent types negotiate and evaluate the outcomes by means of the Theory of Planned Behavior. The modeled incinerator is part of the external environment. This agent acts as the infinite sink  of all waste flows, taking up op the waste that is not used in the local composting initiative. ",
+    "downloadUrl": "https://www.comses.net/codebases/27b94bd6-cbcd-4800-b779-85e87a8f6f63/releases/1.1.0/download/",
+    "dateModified": "2021-06-16",
+    "releaseNotes": "Industrial Symbiotic Networks (ISNs) consist of firms that exchange residual materials and energy locally in order to gain financial, environmental and social advantages. In practice, ISNs regularly fail when partners leave and the recovery of residual streams by the network ends. Regarding the current societal need for a shift towards sustainability, it is undesirable that ISNs fail. Failures of ISNs may be caused by actor behaviours that lead to unanticipated economic losses. In this paper, we explore the effect of actor behaviour on ISN robustness by using an agent based model (ABM). The model represents the implementation of synergies for local waste exchange and compost production. The constructed model is based on insights from both literature and participatory modelling in a real-world case. The Theory of Planned Behaviour (TPB) was used to model agent behaviour in time-dependent bilateral negotiations and synergy evaluation processes. The simulation results show how the modelled planned behaviour affects the cash flow outcomes of the social agents and the robustness of the network. ",
+    "copyrightYear": 2021,
+    "datePublished": "2021-06-16",
+    "codeRepository": "https://gitlab.tudelft.nl/kphllange/industrial-symbiosis-network-abm/-/commit/7a63180e5248b2bd0da55cba780a6d4b46fe915b",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "ABM"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Actor behaviour and robustness of Industrial Symbiosis Networks: an agent-based approach."
+}

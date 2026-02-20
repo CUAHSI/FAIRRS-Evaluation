@@ -1,0 +1,57 @@
+{
+    "@id": "https://www.comses.net/codebases/e8b6e748-57ed-4e4a-9fe1-bc6badc87b73/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/e8b6e748-57ed-4e4a-9fe1-bc6badc87b73/releases/1.0.0/",
+    "name": "The influence of cognitive diversity on networked search and coordination",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-5395-5324",
+            "@type": "Person",
+            "email": "c.e.garcia.diaz@gmail.com",
+            "givenName": "C\u00e9sar",
+            "familyName": "Garc\u00eda-D\u00edaz",
+            "affiliation": {
+                "url": "http://www.javeriana.edu.co",
+                "name": "School of Economics and Business, Pontificia Universidad Javeriana (Colombia)",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "organizational design",
+        "problem solving",
+        "team performance"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/e8b6e748-57ed-4e4a-9fe1-bc6badc87b73/releases/1.0.0/",
+    "dateCreated": "2024-04-03",
+    "description": "Agent-based models of organizational search have long investigated how exploitative and exploratory behaviors shape and affect performance on complex landscapes. To explore this further, we build a series of models where agents have different levels of expertise and cognitive capabilities, so they must rely on each other\u2019s knowledge to navigate the landscape. Model A investigates performance results for efficient and inefficient networks. Building on Model B, it adds individual-level cognitive diversity and interaction based on knowledge similarity. Model C then explores the performance implications of coordination spaces. Results show that totally connected networks outperform both hierarchical and clustered network structures when there are clear signals to detect neighbor performance. However, this pattern is reversed when agents must rely on experiential search and follow a path-dependent exploration pattern.",
+    "downloadUrl": "https://www.comses.net/codebases/e8b6e748-57ed-4e4a-9fe1-bc6badc87b73/releases/1.0.0/download/",
+    "dateModified": "2024-04-03",
+    "releaseNotes": "The models were built on NetLogo 6.4.0. This is a theoretical model, so all the parameter specifications are detailed in the models' interface. No real data is required.",
+    "copyrightYear": 2024,
+    "datePublished": "2024-04-03",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Netlogo 6.4"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Netlogo 6.4",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

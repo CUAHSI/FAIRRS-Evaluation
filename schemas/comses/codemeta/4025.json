@@ -1,0 +1,75 @@
+{
+    "@id": "https://www.comses.net/codebases/4025/releases/1.2.0/",
+    "url": "https://www.comses.net/codebases/4025/releases/1.2.0/",
+    "name": "PR-M: The Peer Review Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1151/",
+            "@type": "Person",
+            "email": "francisco.grimaldo@uv.es",
+            "givenName": "Francisco",
+            "familyName": "Grimaldo",
+            "affiliation": {
+                "@id": "https://ror.org/043nxc105",
+                "url": "http://www.uv.es/",
+                "name": "Universitat de Val\u00e8ncia",
+                "@type": "Organization",
+                "identifier": "https://ror.org/043nxc105"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Mario",
+            "familyName": "Paolucci"
+        },
+        {
+            "@id": "https://www.comses.net/users/1151/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent based modeling and simulation",
+        "peer review"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4025/releases/1.2.0/",
+    "dateCreated": "2015-07-01",
+    "description": "The conceptualization of the peer review process presented in this model identifies the following three key entities: the paper, the scientist and the conference. The paper entity is the basic unit of evaluation and it refers to any item subject to evaluation through a peer review process, including papers, project proposals and grant applications. The simplest way to represent it is to attribute a simple quality value to each paper that compresses the multifaceted and different areas that compose scientific merit. We consider this approximation suitable for the current purposes of the model, leaving for future expansions the consideration of multidimensional factors such as topic, technical quality or novelty. Scientist entities write papers, submit them to conferences (as we define them below) and review papers written by others. Regarding paper creation, \r\nthe quality value of a paper will depend on the scientific and writing skills of\r\nthe authors. Scientists will also be characterized by the reviewing strategies\r\nadopted by them during the evaluation process. The conference entity refers to any evaluation process using a peer review approach. Hence, it covers most journal or conference selection processes as well as the project or grant evaluations conducted by funding agencies. Every paper submitted to a conference is evaluated by a certain number of scientists that are part of its scientific committee. Thus, the conference is where all the process comes together and where a number of questions arise, such as: what effects do different reviewing strategies produce on the quality of accepted papers? This peer review model is meant to tackle this kind of questions by concretizing the different issues introduced for the general entities presented above.",
+    "downloadUrl": "https://www.comses.net/codebases/4025/releases/1.2.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2015,
+    "datePublished": "2015-07-01",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Jason"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Paolucci, M., Grimaldo. F. (2014). Mechanism change in a simulation of peer review:\r\nfrom junk support to elitism. Scientometrics, 9(3). Available at: http://link.springer.com/article/10.1007%2Fs11192-014-1239-1"
+}

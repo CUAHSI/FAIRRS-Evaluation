@@ -1,0 +1,69 @@
+{
+    "@id": "https://www.comses.net/codebases/0478941a-af4f-49c5-b08f-f21956c0a58e/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/0478941a-af4f-49c5-b08f-f21956c0a58e/releases/1.0.0/",
+    "name": "Hybrid agent-based methodology for testing response protocols",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-1660-4098",
+            "@type": "Person",
+            "email": "fsancho@us.es",
+            "givenName": "Fernando",
+            "familyName": "Sancho Caparrini",
+            "affiliation": {
+                "@id": "https://ror.org/03yxnpp24",
+                "url": "https://www.us.es/",
+                "name": "University of Seville",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03yxnpp24"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "No",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "agent-based model",
+        "agent behavior",
+        "bdi architecture",
+        "emergency response",
+        "NetLogo"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/0478941a-af4f-49c5-b08f-f21956c0a58e/releases/1.0.0/",
+    "dateCreated": "2021-02-03",
+    "description": "In recent years we have seen multiple incidents with a large number of people injured and killed by one or more armed attackers. Since this type of violence is difficult to predict, detecting threats as early as possible allows to generate early warnings and reduce response time. In this context, any tool to check and compare different action protocols can be a further step in the direction of saving lives. Our proposal combines features from continuous and discrete models to obtain the best of both worlds in order to simulate large and crowded spaces where complex behavior individuals interact. With this proposal we aim to provide a tool for testing different security protocols under several emergency scenarios, where spaces, hazards, and population can be customized. Finally, we use a proof of concept implementation of this model to test specific security protocols under emergency situations for real spaces. Specifically, we test how providing some users of a university college with an app that informs about the type and characteristics of the ongoing hazard, affects in the safety performance.",
+    "downloadUrl": "https://www.comses.net/codebases/0478941a-af4f-49c5-b08f-f21956c0a58e/releases/1.0.0/download/",
+    "dateModified": "2021-02-03",
+    "releaseNotes": "This is a multiagent evacuation simulation for NetLogo. It accompanies the paper _\"Hybrid agent-based methodology for testing response protocols\"_, and in it you can find a detailed description of its goals, its theoretical foundations, and its basic use.\n\nIs very important to keep the structure of nodes and edges files. And they must be specified in the main screen.\n\nNetlogo will generate the graph by reading this csv files in the set-up step.\n\nOnce the graph is created, we can run the simulation.\n\nYou can find other utilities in the extras folder, such as a preprocess-file program in python or a tool to play with fuzzy-sets.",
+    "copyrightYear": 2021,
+    "datePublished": "2021-02-03",
+    "codeRepository": "https://github.com/fsancho/Response-Emergency-Protocol",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Submitted"
+}

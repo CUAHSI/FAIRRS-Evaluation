@@ -1,0 +1,91 @@
+{
+    "@id": "https://www.comses.net/codebases/5793/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5793/releases/1.0.0/",
+    "name": "Lakeland 2",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Person",
+            "email": "marco.janssen@asu.edu",
+            "givenName": "Marco",
+            "familyName": "Janssen",
+            "affiliation": {
+                "url": "https://schoolofsustainability.asu.edu/",
+                "name": "School of Sustainability",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/53/",
+            "@type": "Person",
+            "email": "w.jager@rug.nl",
+            "givenName": "Wander",
+            "familyName": "Jager",
+            "affiliation": {
+                "@id": "https://ror.org/012p63287",
+                "url": "http://www.rug.nl/",
+                "name": "University of Groningen",
+                "@type": "Organization",
+                "identifier": "https://ror.org/012p63287"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://www.comses.net/users/53/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Simplified version of Jager W., M.A. Janssen, H.J.M. De Vries, J. De Greef and C.A.J. Vlek (2000) Behaviour in commons dilemmas: Homo Economicus and Homo Psychologicus in an ecological-economic model, Ecological Economics 35(3): 357-380",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "cognitive strategies",
+        "consumat",
+        "social-ecological system"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5793/releases/1.0.0/",
+    "dateCreated": "2017-09-12",
+    "description": "Lakeland consists of two resources fish and gold. Agents make decisions whether to spend their time fishing or mining. Gold mining leads to pollution that affect the carrying capacity of the lake. Agents derive satisfaction from income and leisure. The model can be analyzed analytically assuming agents have perfect information and make selfish rational decisions. But the Netlogo version of Lakeland allows to explore the consequences of different types of behavioral assumptions building on the consumat approach. In the consumat approach agents switch between optimising, repetition, imitation and inquiring, dependent on whether they are satisfied or not, and uncertain or not.",
+    "downloadUrl": "https://www.comses.net/codebases/5793/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2017,
+    "datePublished": "2017-09-12",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

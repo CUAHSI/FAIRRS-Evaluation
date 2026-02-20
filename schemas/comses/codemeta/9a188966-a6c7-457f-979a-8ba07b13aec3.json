@@ -1,0 +1,47 @@
+{
+    "@id": "https://www.comses.net/codebases/9a188966-a6c7-457f-979a-8ba07b13aec3/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/9a188966-a6c7-457f-979a-8ba07b13aec3/releases/1.0.0/",
+    "name": "Simulating changing traffic flow caused by new bus route in Augsburg",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-2212-4798",
+            "@type": "Person",
+            "email": "eduardrech@yahoo.de",
+            "givenName": "Eduard"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/9a188966-a6c7-457f-979a-8ba07b13aec3/releases/1.0.0/",
+    "dateCreated": "2021-06-30",
+    "description": "This is a Netlogo model which simulates car and bus/tram traffic in Augsburg, specifically between the districts Stadtbergen, G\u00f6ggingen and the K\u00f6nigsplatz. People either use their cars or public transport to travel to one of their random destinations (Stadtbergen or G\u00f6ggingen), performing some activity and then returning to their home. Attributes such as travel and waiting time as well as their happiness upon arriving are stored and have an impact on individuals on whether they would consider changing their mode of transport or not.",
+    "downloadUrl": "https://www.comses.net/codebases/9a188966-a6c7-457f-979a-8ba07b13aec3/releases/1.0.0/download/",
+    "dateModified": "2022-05-19",
+    "releaseNotes": "Initial release v.1.0.0",
+    "copyrightYear": 2021,
+    "datePublished": "2021-08-04",
+    "embargoEndDate": "2021-08-06",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "@id": "https://www.comses.net/codebases/cb6c2243-fb44-4543-a372-6fee5f034c40/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/cb6c2243-fb44-4543-a372-6fee5f034c40/releases/1.1.0/",
+    "name": "An Agent-based Assessment of Health Vulnerability to Long-term particulate exposure in Seoul Districts",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2068/",
+            "@type": "Person",
+            "email": "shinhyesop@gmail.com",
+            "givenName": "Hyesop",
+            "familyName": "Shin",
+            "affiliation": {
+                "@id": "https://ror.org/00vtgdb53",
+                "url": "http://www.gla.ac.uk/",
+                "name": "University of Glasgow",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00vtgdb53"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "mike.bithell@cam.ac.uk",
+            "givenName": "Mike",
+            "familyName": "Bithell",
+            "affiliation": {
+                "@id": "https://ror.org/013meh722",
+                "url": "http://www.cam.ac.uk/",
+                "name": "University of Cambridge",
+                "@type": "Organization",
+                "identifier": "https://ror.org/013meh722"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent based model",
+        "air pollution",
+        "exposure",
+        "seoul"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/cb6c2243-fb44-4543-a372-6fee5f034c40/releases/1.1.0/",
+    "dateCreated": "2018-11-05",
+    "description": "This model aims to understand the cumulative effects on the population\u2019s vulnerability as represented by exposure to PM10 (particulate matter with diameter less than 10 micrometres) by different age and educational groups in two Seoul districts, Gangnam and Gwanak. Using this model, readers can explore individual's daily commuting routine, and its health loss when the PM10 concentration of the current patch breaches the national limit of 100\u00b5g/m3.",
+    "downloadUrl": "https://www.comses.net/codebases/cb6c2243-fb44-4543-a372-6fee5f034c40/releases/1.1.0/download/",
+    "dateModified": "2018-12-03",
+    "releaseNotes": "* Execution details are all written in the NetLogo info tab or in the Code Anatomy Markdown file in https://github.com/mrsensible/airpollutionABM/blob/master/NetLogo-code-anatomy.md.\n* This model contains many ASCII(.txt) files, therefore each NetLogo file has to be placed in a folder which is a scale above the data.\n* Note that Gangnam and Gwanak districts are implemented separately.",
+    "copyrightYear": 2018,
+    "datePublished": "2018-12-03",
+    "codeRepository": "https://github.com/mrsensible/airpollutionABM",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Windows"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

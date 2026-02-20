@@ -1,0 +1,61 @@
+{
+    "@id": "https://www.comses.net/codebases/59d377e4-afa3-4937-a6fc-30cc50c1ac8f/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/59d377e4-afa3-4937-a6fc-30cc50c1ac8f/releases/1.0.0/",
+    "name": "Machine Learning simulates Agent-based Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-1545-8490",
+            "@type": "Person",
+            "email": "bernardo.furtado@ipea.gov.br",
+            "givenName": "Bernardo",
+            "familyName": "Furtado",
+            "affiliation": {
+                "@id": "https://ror.org/013wyvt46",
+                "url": "http://www.iaw.edu/",
+                "name": "Institute for Applied Economic Research",
+                "@type": "Organization",
+                "identifier": "https://ror.org/013wyvt46"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent based model (abm)",
+        "machine learning",
+        "model calibration",
+        "Python"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/59d377e4-afa3-4937-a6fc-30cc50c1ac8f/releases/1.0.0/",
+    "dateCreated": "2018-03-07",
+    "description": "This is an initial exploratory exercise done for the class @ http://thiagomarzagao.com/teaching/ipea/ Text available here: https://arxiv.org/abs/1712.04429v1\nThe program:\nReads output from an ABM model and its parameters' configuration\nCreates a socioeconomic optimal output based on two ABM results of the modelers choice\nOrganizes the data as X and Y matrices\nTrains some Machine Learning algorithms\nGenerates random configuration of parameters based on the mean and standard deviation of the original parameters\nApply the trained ML algorithms to the set of randomly generated data\nOutputs the mean and values for the actual data, the randomly generated data and the optimal and non-optimal cases\nThe original database from which the 232 samples of the actual data is read is large (60.7 GB) Thus, some pre-processed data for some pairs of optimal cases are also made available",
+    "downloadUrl": "https://www.comses.net/codebases/59d377e4-afa3-4937-a6fc-30cc50c1ac8f/releases/1.0.0/download/",
+    "dateModified": "2018-03-07",
+    "releaseNotes": "This is an initial project which will be developed further. So, this is version 1.0.0",
+    "copyrightYear": 2018,
+    "datePublished": "2018-03-07",
+    "codeRepository": "https://github.com/BAFurtado/MLsimulatesABM",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Windows"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

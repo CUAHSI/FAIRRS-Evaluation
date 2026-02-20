@@ -1,0 +1,61 @@
+{
+    "@id": "https://www.comses.net/codebases/54faf524-429c-4425-8cfe-1cc8dde43344/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/54faf524-429c-4425-8cfe-1cc8dde43344/releases/1.0.0/",
+    "name": "Exploring Urban Shrinkage",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-5034-6654",
+            "@type": "Person",
+            "email": "acrooks77@gmail.com",
+            "givenName": "Andrew",
+            "familyName": "Crooks",
+            "affiliation": {
+                "@id": "https://ror.org/02jqj7156",
+                "url": "https://www.gmu.edu/",
+                "name": "George Mason University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02jqj7156"
+            }
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based model",
+        "GIS",
+        "land market",
+        "urban"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/54faf524-429c-4425-8cfe-1cc8dde43344/releases/1.0.0/",
+    "dateCreated": "2020-01-05",
+    "description": "While the world\u2019s total urban population continues to grow, this growth is not equal. Some cities are declining, resulting in urban shrinkage which is now a global phenomenon. Many problems emerge due to urban shrinkage including population loss, economic depression, vacant properties and the contraction of housing markets. To explore this issue, this paper presents an agent-based model stylized on spatially explicit data of Detroit Tri-county area, an area witnessing urban shrinkage. Specifically, the model examines how micro-level housing trades impact urban shrinkage by capturing interactions between sellers and buyers within different sub-housing markets. The stylized model results highlight not only how we can simulate housing transactions but the aggregate market conditions relating to urban shrinkage (i.e., the contraction of housing markets). To this end, the paper demonstrates the potential of simulation to explore urban shrinkage and potentially offers a means to test polices to alleviate this issue.",
+    "downloadUrl": "https://www.comses.net/codebases/54faf524-429c-4425-8cfe-1cc8dde43344/releases/1.0.0/download/",
+    "dateModified": "2020-03-19",
+    "releaseNotes": "File path will need to be changed when you download the data",
+    "copyrightYear": 2020,
+    "datePublished": "2020-03-19",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Na Jiang\tand Andrew Crooks  (2020), Utilizing Agents to Explore Urban Shrinkage: A Case Study of Detroit, 2020 Spring Simulation Conference (SpringSim\u201920), Fairfax, VA."
+}

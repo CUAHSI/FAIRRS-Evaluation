@@ -1,0 +1,97 @@
+{
+    "@id": "https://www.comses.net/codebases/4814/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4814/releases/1.0.0/",
+    "name": "STECCAR: a simulation of the diffusion of electric cars",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1641/",
+            "@type": "Person",
+            "email": "aylakangur@gmail.com",
+            "givenName": "A",
+            "familyName": "Kangur",
+            "affiliation": {
+                "@id": "https://ror.org/012p63287",
+                "url": "http://www.rug.nl/",
+                "name": "University of Groningen",
+                "@type": "Organization",
+                "identifier": "https://ror.org/012p63287"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Lc",
+            "familyName": "Verbrugge"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "W",
+            "familyName": "Jager"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "givenName": "M",
+            "familyName": "Bockarjova"
+        },
+        {
+            "@id": "https://www.comses.net/users/1641/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "consumat model",
+        "Diffusion",
+        "electric vehicles"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4814/releases/1.0.0/",
+    "dateCreated": "2015-11-29",
+    "description": "The underlying rationale of the agents in the STECCAR model is structured through the Consumat approach; a cognitive framework based on theories from psychology and economics. Within this approach, agents are defined by their individual needs, abilities, decision-making process, and personality. \r\n\r\nAt the shared car market, agents may purchase gasoline vehicles, plug-in hybrid electric vehicles and battery-electric vehicles. Each fuel technology comes with its own functional and financial characteristics. Mimicking the actual Dutch car market, three types of agents are defined using the input survey: lessees, purchasers of new vehicles and purchasers of second hand cars.\r\n\r\nOriginally, the results of 1.795 survey respondents were used to initialise each individual agent after a Dutch citizen with its own characteristics and driving behaviour. Because this survey data is currently still used in ongoing research, only a subset of the respondents -- 20 -- are represented in the attached simulation. To gain access to the full data set, please contact m.bockarjova@vu.nl.",
+    "downloadUrl": "https://www.comses.net/codebases/4814/releases/1.0.0/download/",
+    "dateModified": "2018-02-19",
+    "releaseNotes": "",
+    "copyrightYear": 2015,
+    "datePublished": "2015-11-29",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Repast"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

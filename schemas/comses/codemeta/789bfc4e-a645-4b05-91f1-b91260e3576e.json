@@ -1,0 +1,83 @@
+{
+    "@id": "https://www.comses.net/codebases/789bfc4e-a645-4b05-91f1-b91260e3576e/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/789bfc4e-a645-4b05-91f1-b91260e3576e/releases/1.1.0/",
+    "name": "A Balance Model of Opinion Hyperpolarization",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2756/",
+            "@type": "Person",
+            "email": "scimonsez@gmail.com",
+            "givenName": "Simon",
+            "familyName": "Schweighofer",
+            "affiliation": {
+                "@id": "https://ror.org/023dz9m50",
+                "url": "http://csh.ac.at/index/",
+                "name": "Complexity Science Hub Vienna",
+                "@type": "Organization",
+                "identifier": "https://ror.org/023dz9m50"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "fschweitzer@ethz.ch",
+            "givenName": "Frank",
+            "familyName": "Schweitzer",
+            "affiliation": {
+                "@id": "https://ror.org/05a28rw58",
+                "url": "https://ethz.ch",
+                "name": "ETH Zurich",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05a28rw58"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "garcia@csh.ac.at",
+            "givenName": "David",
+            "familyName": "Garcia",
+            "affiliation": {
+                "@id": "https://ror.org/05n3x4p02",
+                "url": "https://www.meduniwien.ac.at",
+                "name": "Medical University of Vienna",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05n3x4p02"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/789bfc4e-a645-4b05-91f1-b91260e3576e/releases/1.1.0/",
+    "dateCreated": "2019-12-17",
+    "description": "Contains python3 code to replicate the opinion dynamics model from our (so far unpublished) JASSS sumbission \"A Balance Model of Opinion Hyperpolarization\". The main function is run_model(), which returns a dictionary object containing various outcome metrics. \n",
+    "downloadUrl": "https://www.comses.net/codebases/789bfc4e-a645-4b05-91f1-b91260e3576e/releases/1.1.0/download/",
+    "dateModified": "2019-12-17",
+    "releaseNotes": "This release is exclusively for the reviewers of our JASSS submission \"A Balance Model of Opinion Hyperpolarization\". It shall remain private until the publication of this paper.",
+    "copyrightYear": 2019,
+    "datePublished": "2019-12-17",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Python"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "\"A Balance Model of Opinion Hyperpolarization.\""
+}

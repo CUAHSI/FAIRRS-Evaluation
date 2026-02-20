@@ -1,0 +1,98 @@
+{
+    "@id": "https://www.comses.net/codebases/4eea1148-647c-4f2f-8b96-8788b17bca6c/releases/0.9.0/",
+    "url": "https://www.comses.net/codebases/4eea1148-647c-4f2f-8b96-8788b17bca6c/releases/0.9.0/",
+    "name": "Foragers to Farmers",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/4336/",
+            "@type": "Person",
+            "email": "mjstoroz@gmail.com",
+            "givenName": "Michael",
+            "familyName": "Storozum"
+        },
+        {
+            "@id": "https://www.comses.net/users/2252/",
+            "@type": "Person",
+            "email": "elskevdv@gmail.com",
+            "givenName": "Elske",
+            "familyName": "van der Vaart",
+            "affiliation": {
+                "@id": "https://ror.org/04b8v1s79",
+                "url": "https://www.tilburguniversity.edu/",
+                "name": "Tilburg University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04b8v1s79"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "tdorscheidt@gmail.com",
+            "givenName": "Tim",
+            "familyName": "Dorscheidt"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-2225-5827",
+            "@type": "Person",
+            "email": "nicolas.gauthier@ufl.edu",
+            "givenName": "Nick",
+            "familyName": "Gauthier",
+            "affiliation": {
+                "@id": "https://ror.org/02y3ad647",
+                "url": "http://www.ufl.edu/",
+                "name": "University of Florida",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02y3ad647"
+            }
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "0.9.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "van der Vaart, E., de Boer, B., Hankel, A. and Verheij, B., 2006. Agents adopting agriculture: Modeling the agricultural transition. In From Animals to Animats 9: 9th International Conference on Simulation of Adaptive Behavior, SAB 2006, Rome, Italy, September 25-29, 2006. Proceedings 9 (pp. 750-761). Springer Berlin Heidelberg. https://doi.org/10.1007/11840541_62",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "archaeology",
+        "human behavioral ecology",
+        "ideal free distribution"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4eea1148-647c-4f2f-8b96-8788b17bca6c/releases/0.9.0/",
+    "dateCreated": "2024-07-18",
+    "description": "This model is represents an effort to replicate one of the first attempts (van der Vaart 2006) to develop an agent based model of agricultural origins using principles and equations drawn from human behavioral ecology. We have taken one theory of habitat choice (Ideal Free Distribution) and applied it to human behavioral adaptations to differences in resource quality of different habitats.",
+    "downloadUrl": "https://www.comses.net/codebases/4eea1148-647c-4f2f-8b96-8788b17bca6c/releases/0.9.0/download/",
+    "dateModified": "2024-07-22",
+    "releaseNotes": "\nRelease Notes for Foragers to Farmers v0.9\n\n1. This is a replication and expansion on the original model designed by Elske van der Vaart (2006) and Tim Dorscheidt (2012). The files included in this version of the program are 1) A replication of the Java version of the program detailed in Elske van der Vaart (2006) created by Tim Dorscheidt in 2012, 2)  replication of the Java version in Netlogo 6.40 produced by the current authors, and 3) an ODD that details the functioning of the Netlogo program. \n\n2. There are several differences between the Java implementation and the Netlogo Implementation that we describe here. 1) As described in van der Vaart (2006), the original model was implemented to include several Experiments that include or exclude the functions that dictate hunting and gathering and the transition to farming. In the Netlogo version we have re-implemented these functionalities enabling the user to explore how turning on and off these functions affects the development of the model. 2) The Netlogo model includes some additions that have been inspired by Jansen (2010), including a mobility factor that limits mobility, a degradation factor that degrades the overall carrying capacity of each patch, and a learning factor that amplifies the effectiveness of food production for each hunter gatherer band the longer they remain on a single patch. The Netlogo model also includes an initial attempt at including a coupling mechanism between changes in the climate (rainfall) and patch quality. \n\n\n",
+    "copyrightYear": 2024,
+    "datePublished": "2024-07-22",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Java",
+        "Netlogo 6.4.0"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "Netlogo 6.4.0",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

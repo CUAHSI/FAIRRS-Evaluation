@@ -1,0 +1,55 @@
+{
+    "@id": "https://www.comses.net/codebases/3a4fbf5c-f604-4d43-b7d6-8cbd0a737e05/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/3a4fbf5c-f604-4d43-b7d6-8cbd0a737e05/releases/1.0.0/",
+    "name": "An Agent Based Model of International Capital Flows",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/3927/",
+            "@type": "Person",
+            "email": "harvey.baldovino@cgu.edu",
+            "givenName": "Harvey",
+            "familyName": "Baldovino"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "capital flows",
+        "economics",
+        "interest rate",
+        "international economics",
+        "volatility"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3a4fbf5c-f604-4d43-b7d6-8cbd0a737e05/releases/1.0.0/",
+    "dateCreated": "2023-04-06",
+    "description": "This is a preliminary attempt in creating an Agent-Based Model of capital flows. This is based on the theory of capital flows based on interest-rate differentials. Foreign capital flows to a country with higher interest rates relative to another. The model shows how capital volatilty and wealth concentration are affected by the speed of capital flow, number of investors, magnitude of changes in interest rate due to capital flows and the interest differential threshold that investors set in deciding whether to move capital or not. Investors in the model are either \u201cregional\u201d investors (only investing in neighboring countries) and \u201cglobal\u201d investors (those who invest anywhere in the world).\n\nIn the future, the author hopes to extend this model to incorporate capital flow based on changes in macroeconomic fundamentals, exchange rate volatility, behavioral finance (for instance, herding behavior) and the presence of capital controls.",
+    "downloadUrl": "https://www.comses.net/codebases/3a4fbf5c-f604-4d43-b7d6-8cbd0a737e05/releases/1.0.0/download/",
+    "dateModified": "2023-04-06",
+    "releaseNotes": "N/A",
+    "copyrightYear": 2023,
+    "datePublished": "2023-04-06",
+    "embargoEndDate": "2023-04-06",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

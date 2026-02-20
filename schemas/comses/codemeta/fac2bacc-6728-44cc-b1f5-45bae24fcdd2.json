@@ -1,0 +1,50 @@
+{
+    "@id": "https://doi.org/10.25937/3my7-0436",
+    "url": "https://doi.org/10.25937/3my7-0436",
+    "name": "Are Countertrade credits as flexible and efficient as cash? A novel approach to reducing income inequality using countertrade methodology.",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-7947-9015",
+            "@type": "Person",
+            "email": "info@urcommunity.com.au",
+            "givenName": "Peter",
+            "familyName": "Malliaros"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/3my7-0436",
+        "https://doi.org/10.25937/3my7-0436"
+    ],
+    "dateCreated": "2021-05-03",
+    "description": "The impacts of income inequality can be seen everywhere, regardless of the country or the level of economic development. According to the literature review, income inequality has negative impacts in economic, social, and political variables. Notwithstanding of how well or not countries have done in reducing income inequality, none have been able to reduce it to a Gini Coefficient level of 0.2 or less.\nThis is the promise that a novel approach called Counterbalance Economics (CBE) provides without the need of increased taxes. \nBased on the simulation, introducing the CBE into the Australian, UK, US, Swiss or German economies would result in an overall GDP increase of under 1% however, the level of inequality would be reduced from an average of 0.33 down to an average of 0.08. A detailed explanation of how to use the model, software, and data dependencies along with all other requirements have been included as part of the info tab in the model.\n",
+    "downloadUrl": "https://www.comses.net/codebases/fac2bacc-6728-44cc-b1f5-45bae24fcdd2/releases/1.0.0/download/",
+    "dateModified": "2021-05-17",
+    "releaseNotes": "To simulate an economy, you need to have a set of data to work with including a country\u2019s GDP, Total Tax Revenue, Welfare Payments, Gini index and the Average Weekly Earnings (AWE) for the year/s you want to simulate. \nOnce you set the values calculated, enter the Average Weekly Earnings for that country and year being tested and run the model several times adjusting the Income-Growth-Volume (IGV) slider until you can achieve the highest Gini and the lowest Gini index numbers in your data set. This will allow the simulation of the level of growth or lack of in the model economy.\nExample: To simulate Australia, we first set our Tax-Collected to 0.27 and the welfare setting to 0.17 (2007/08 figures), enter the AWE for that year (in the Enter AWE box) and then adjust the IGV slider until we achieved a .33 Gini (highest Gini score) at the end of a simulation run. We then repeat this process adjusting the Tax-Collected to 0.285 and welfare to 0.165 (2017/18 figures) enter the AWE for that year and once again adjusted the IGV until we achieved a 0.30 Gini (lowest Gini score). We would have found the IGV setting for a country when we can achieve both the high Gini and low Gini values by only adjusting the tax-collected and welfare paid for any particular year. For Australia, we found that this occurs when the IGV is set to 7. Please note that the Gini level calculated by the Wealth Distribution model occurs because of running the model. This means that although the more accurate it is the better, it is ok if the model fluctuates between a Gini score of 0.31 and 0.35 for 2007/08 and between 0.28 and 0.32 for 2017/18 or .02 points on either side of the actual Gini score.\nGenerally, we would start the IGV slider at 15 and then adjust it back towards 1, 1 increment at a time until you find the right setting. To provide further clarification of how this works, we have provided further explanation and sample data in the model Info tab. \nPlease note that the table data is easier to read in edit mode or copied into Excel. \n",
+    "copyrightYear": 2021,
+    "datePublished": "2021-05-11",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

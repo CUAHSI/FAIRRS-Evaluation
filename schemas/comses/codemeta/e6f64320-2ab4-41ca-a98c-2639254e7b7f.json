@@ -1,0 +1,106 @@
+{
+    "@id": "https://doi.org/10.25937/8bf3-h968",
+    "url": "https://doi.org/10.25937/8bf3-h968",
+    "name": "A Bayesian Nash Equilibrium (BNE)-informed ABM for pedestrian evacuation in different constricted spaces",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-1804-2335",
+            "@type": "Person",
+            "email": "gyywa@leeds.ac.uk",
+            "givenName": "Yiyu",
+            "familyName": "Wang",
+            "affiliation": {
+                "@id": "https://ror.org/024mrxd33",
+                "url": "http://www.leeds.ac.uk/",
+                "name": "University of Leeds",
+                "@type": "Organization",
+                "identifier": "https://ror.org/024mrxd33"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-6491-3851",
+            "@type": "Person",
+            "email": "bobogejiaqi@hotmail.com",
+            "givenName": "Jiaqi",
+            "familyName": "Ge",
+            "affiliation": {
+                "@id": "https://ror.org/024mrxd33",
+                "url": "http://www.leeds.ac.uk/",
+                "name": "University of Leeds",
+                "@type": "Organization",
+                "identifier": "https://ror.org/024mrxd33"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-3652-7846",
+            "@type": "Person",
+            "email": "a.comber@leeds.ac.uk",
+            "givenName": "Alexis",
+            "familyName": "Comber",
+            "affiliation": {
+                "@id": "https://ror.org/024mrxd33",
+                "url": "http://www.leeds.ac.uk/",
+                "name": "University of Leeds",
+                "@type": "Organization",
+                "identifier": "https://ror.org/024mrxd33"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "2.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Wang, Y., Ge, J. and Comber, A., 2023. An Agent-Based Simulation Model of Pedestrian Evacuation Based on Bayesian Nash Equilibrium. Journal of Artificial Societies and Social Simulation, 26(3), 6. doi: 10.18564/jasss.5037",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "agent based modeling and simulation",
+        "Bayesian Nash Equilibrium",
+        "crowd behaviour",
+        "Crowd Simulation",
+        "game theory",
+        "Pedestrian Modelling"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/8bf3-h968",
+        "https://doi.org/10.25937/8bf3-h968"
+    ],
+    "dateCreated": "2022-06-27",
+    "description": "This BNE-informed ABM ultimately aims to provide a more realistic description of complicated pedestrian behaviours especially in high-density and life-threatening situations. Bayesian Nash Equilibrium (BNE) was adopted to reproduce interactive decision-making process among rational and game-playing agents. The implementations of 3 behavioural models, which are Shortest Route (SR) model, Random Follow (RF) model, and BNE model, make it possible to simulate emergent patterns of pedestrian behaviours (e.g. herding and self-organised queuing behaviours, etc.) in emergency situations.\n\nAccording to the common features of previous mass trampling accidents, a series of simulation experiments were performed in space with 3 types of barriers, which are Horizontal Corridors, Vertical Corridors, and Random Squares, standing for corridors, bottlenecks and intersections respectively, to investigate emergent behaviours of evacuees in varied constricted spatial environments. The output of this ABM has been available at https://data.mendeley.com/datasets/9v4byyvgxh/1.",
+    "downloadUrl": "https://www.comses.net/codebases/e6f64320-2ab4-41ca-a98c-2639254e7b7f/releases/2.0.0/download/",
+    "dateModified": "2024-02-21",
+    "releaseNotes": "This BNE-informed ABM consists of three behavioural models: Shortest Route (SR) model, Random Follow (RF) model, and BNE model, generating four movement combinations: SR, RF, BNE mixed with SR, and BNE mixed with RF, which can be selected by the chooser \"moving-pattern\". Several types of barriers (e.g. Narrow Corridors-Horizontal, Narrow Corridors-Vertical, Random Squares, etc.) were implemented to create varied contractive spatial environment. Observers can regulate the initial settings of both agents and simulation environment by the corresponding sliders/choosers.",
+    "copyrightYear": 2023,
+    "datePublished": "2023-10-11",
+    "embargoEndDate": "2023-10-15",
+    "supportingData": {
+        "url": "https://data.mendeley.com/datasets/9v4byyvgxh/1",
+        "@type": "DataFeed"
+    },
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "agent based model (abm)",
+        "NetLogo 6.2.2"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Netlogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Wang, Y., Ge, J. and Comber, A., 2023. Navigation in Complex Space: A Bayesian Nash Equilibrium-Informed Agent-Based Model (Short Paper). In 12th International Conference on Geographic Information Science (GIScience 2023). Schloss Dagstuhl-Leibniz-Zentrum f\u00fcr Informatik. DOI: 10.4230/LIPIcs.GIScience.2023.78\n\nWang, Y., Ge, J., and Comber, A.: A pedestrian ABM in complex evacuation environments based on Bayesian Nash Equilibrium, AGILE GIScience Ser., 4, 50, https://doi.org/10.5194/agile-giss-4-50-2023, 2023.\n\nWang, Ying, Ge, Jiaqi, & Comber, Alexis. (2023, April 19). A pedestrian evacuation ABM in a complex environment based on Bayesian Nash Equilibrium. 31st Annual Geographical Information Science Research UK Conference (GISRUK), Glasgow, Scotland. https://doi.org/10.5281/zenodo.7825536"
+}

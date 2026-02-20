@@ -1,0 +1,86 @@
+{
+    "@id": "https://doi.org/10.25937/fh1y-6w42",
+    "url": "https://doi.org/10.25937/fh1y-6w42",
+    "name": "NoD-Neg: A Non-Deterministic model of affordable housing Negotiations",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-4099-0753",
+            "@type": "Person",
+            "email": "aya.badawy@manchester.ac.uk",
+            "givenName": "Aya",
+            "familyName": "Badawy"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "richard.kingston@manchester.ac.uk",
+            "givenName": "Richard",
+            "familyName": "Kingston"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "nuno.pinto@manchester.ac.uk",
+            "givenName": "Nuno",
+            "familyName": "Pinto",
+            "affiliation": {
+                "@id": "https://ror.org/027m9bs27",
+                "url": "http://www.manchester.ac.uk/",
+                "name": "University of Manchester",
+                "@type": "Organization",
+                "identifier": "https://ror.org/027m9bs27"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "collaborator"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "GAMA",
+        "negotiation",
+        "social/public housing"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/fh1y-6w42",
+        "https://doi.org/10.25937/fh1y-6w42"
+    ],
+    "dateCreated": "2022-12-29",
+    "description": "The Non-Deterministic model of affordable housing Negotiations (NoD-Neg) is designed for generating hypotheses about the possible outcomes of negotiating affordable housing obligations in new developments in England. By outcomes we mean, the probabilities of failing the negotiation and/or the different possibilities of agreement. \nThe model focuses on two negotiations which are key in the provision of affordable housing. The first is between a developer (DEV) who is submitting a planning application for approval and the relevant Local Planning Authority (LPA) who is responsible for reviewing the application and enforcing the affordable housing obligations. The second negotiation is between the developer and a Registered Social Landlord (RSL) who buys the affordable units from the developer and rents them out. They can negotiate the price of selling the affordable units to the RSL.\nThe model runs the two negotiations on the same development project several times to enable agents representing stakeholders to apply different negotiation tactics (different agendas and concession-making tactics), hence, explore the different possibilities of outcomes.\nThe model produces three types of outputs: (i) histograms showing the distribution of the negotiation outcomes in all the simulation runs and the probability of each outcome; (ii) a data file with the exact values shown in the histograms; and (iii) a conversation log detailing the exchange of messages between agents in each simulation run.",
+    "downloadUrl": "https://www.comses.net/codebases/40daa64e-ab5b-4e99-8207-db1fc8908d81/releases/1.0.0/download/",
+    "dateModified": "2024-12-05",
+    "releaseNotes": "1) Download GAMA version 1.8.2 from this link: https://gama-platform.org/download\n2) Download and unpack the model zip file.\n3) Run the model from the \"NoD_Neg_experiment.experiment\" file\nThere are two files in the model: the model code and the model experiment. To run simulations on the model, use the model experiment file.\nYou can insert parameters to specify the housing market and the development project that will be negotiated by the agents",
+    "copyrightYear": 2024,
+    "datePublished": "2024-09-08",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "GAMA"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "gaml",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

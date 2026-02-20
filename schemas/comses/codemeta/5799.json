@@ -1,0 +1,63 @@
+{
+    "@id": "https://www.comses.net/codebases/5799/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5799/releases/1.0.0/",
+    "name": "Zero, Some, or Zero-Sum: Exploring Trade-Offs in Identifying Human Trafficking Among Migration Flows",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1735/",
+            "@type": "Person",
+            "email": "kyllard@gmail.com",
+            "givenName": "Kyle",
+            "familyName": "Ballard",
+            "affiliation": {
+                "url": "https://www.state.gov/j/tip",
+                "name": "U.S. Department of State's Office to Monitor and Combat Trafficking in Persons",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1735/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based computational model",
+        "cellular automata",
+        "human trafficking",
+        "immigration"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5799/releases/1.0.0/",
+    "dateCreated": "2017-09-23",
+    "description": "The author establishes a rudimentary metric called \"Permissive Score\" to measure the selectiveness of simulated government immigration policies. ABMs are then used to explore the impact of a policy\u2019s Permissive Score on the identification of human trafficking victims. Preliminary findings suggest a relatively high negative correlation (-0.77) between the permissiveness of an immigration policy and the rate at which victims were identified by governments with those policies.",
+    "downloadUrl": "https://www.comses.net/codebases/5799/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2017,
+    "datePublished": "2017-09-23",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "@id": "https://www.comses.net/codebases/a5823aa6-e45c-4d2e-b930-0bf9546cd514/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/a5823aa6-e45c-4d2e-b930-0bf9546cd514/releases/1.0.0/",
+    "name": "TunaFisher ABM",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1880/",
+            "@type": "Person",
+            "email": "guustenbroeke@gmail.com",
+            "givenName": "Guus",
+            "familyName": "Ten Broeke",
+            "affiliation": {
+                "url": "http://www.wur.nl",
+                "name": "Wageningen University",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.html",
+        "name": "Apache-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/a5823aa6-e45c-4d2e-b930-0bf9546cd514/releases/1.0.0/",
+    "dateCreated": "2021-01-13",
+    "description": "TunaFisher ABM simulates the decisions of fishing companies and fishing vessels of the Philippine tuna purse seinery operating in the Celebes and Sulu Seas.\n\nHigh fishing effort remains in many of the world\u2019s fisheries, including the Philippine tuna purse seinery, despite a variety of policies that have been implemented to reduce it. These policies have predominantly focused on models of cause and effect which ignore the possibility that the intended outcomes are altered by social behavior of autonomous agents at lower scales.\n\nThis model is a spatially explicit Agent-based Model (ABM) for the Philippine tuna purse seine fishery, specifically designed to include social behavior and to study its effects on fishing effort, fish stock and industry profit. The model includes economic and social factors of decision making by companies and fishing vessels that have been informed by interviews.\n\nThe model has 196 (14 x 14) fishing sites, which have fish stock.\n\nThe model consists of two levels of agents: fishing companies and fishing vessels. Companies have no physical location, and are therefore not spatially explicit (but they are shown at the upper right corner of the simulation world). The second agent level is the operational level (represented by the vessel figures).\n",
+    "downloadUrl": "https://www.comses.net/codebases/a5823aa6-e45c-4d2e-b930-0bf9546cd514/releases/1.0.0/download/",
+    "dateModified": "2021-01-13",
+    "releaseNotes": "This is the first uploaded version. It is the version used in the linked publication. ",
+    "copyrightYear": 2021,
+    "datePublished": "2021-01-13",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "https://doi.org/10.1016/j.fishres.2015.07.033"
+}

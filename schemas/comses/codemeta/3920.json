@@ -1,0 +1,67 @@
+{
+    "@id": "https://www.comses.net/codebases/3920/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/3920/releases/1.0.0/",
+    "name": "Mass Shooting Simulation",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "givenName": "Roy",
+            "familyName": "Hayes"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Reginald",
+            "familyName": "Hayes"
+        },
+        {
+            "@id": "_:author_1",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent based model",
+        "mass shooting",
+        "public policy simulation"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3920/releases/1.0.0/",
+    "dateCreated": "2013-08-26",
+    "description": "The purpose of this simulation is to determine how different parameters affect the number of people shot in mass shooting events. This model does not examine the lethality of the parameters. Instead, it is assumed that by lowering the number of people shot in mass shootings, the number of fatalities in these shootings will also decrease. Once the parameters that most affect the number of people wounded or killed are identified, the potential effectiveness of Senator Feinstein\u2019s bill can be assessed. Additionally, recommendations can be made to mitigate the negative consequences of mass shootings. \r\n\r\nThere are three types of agents in this simulation. The rules that each agent class follows are described below. \r\n\r\nCivilian Indoor:\r\n1.Turn in direction of closet door \u00b1 N(0,1)\r\n2.Move forward at assigned running speed\r\n  a.If someone in the way, move to within 0.3 feet of them\r\n  b.If wall/object in the way move to within 0.3 feet of wall/object\r\n3.Considered safe if exit the room\r\n\r\nGunman Indoor/Outdoor:\r\n1.Are there bullets in the magazine? If not, reload for this turn and skip all remaining rules (reload takes assigned reload time)\r\n2.Aim at closest civilian \u00b1 N(0,\u03c3)\r\n3.Fire X rounds\r\n  a.If less than X rounds left in the magazine, fire remaining rounds.\r\n4.Move towards most recent agent  fired at (move at assigned running speed)\r\n\r\nSecurity Guard Indoor/Outdoor:\r\n1.Are there bullets in magazine? If not, reload for this turn and skip all remaining rules (reload takes assigned reload time)\r\n2.If there is a civilian within 1.5 feet of a straight line between agent and the gunman, move to step 5 for this turn (won\u2019t shoot if a civilian is in the way)\r\n3.Aim at closest gunman \u00b1 N(0,\u03c3)\r\n4.Fire X rounds at gunman \r\n  a.If less than X rounds left in the magazine, fire the remaining rounds.\r\n5.Move toward the gunman at running speed  \r\n  a. If gunman is within the distance, run this turn then tackle him",
+    "downloadUrl": "https://www.comses.net/codebases/3920/releases/1.0.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-08-26",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

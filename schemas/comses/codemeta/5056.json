@@ -1,0 +1,60 @@
+{
+    "@id": "https://www.comses.net/codebases/5056/releases/1.2.0/",
+    "url": "https://www.comses.net/codebases/5056/releases/1.2.0/",
+    "name": "A Simulation of Entrepreneurial Spawning",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1773/",
+            "@type": "Person",
+            "email": "mark.bagley@ju.se",
+            "givenName": "Mark",
+            "familyName": "Bagley",
+            "affiliation": {
+                "@id": "https://ror.org/03t54am93",
+                "url": "http://ju.se/en.html",
+                "name": "J\u00f6nk\u00f6ping University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03t54am93"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1773/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5056/releases/1.2.0/",
+    "dateCreated": "2017-06-30",
+    "description": "This is the simulation used in the study \u201cA Simulation of Entrepreneurial Spawning\u201d, published in the *Journal of Artificial Societies and Social Simulation* 20(3)9. It shows how patterns of industrial clustering arise with respect to the size of an initial firm when abstractly measured in terms of innovation. We imagine beginning with a single firm, located in a single geographical area. The innovation process that results from this initial firm leads to new firms in the form of spinoffs. To make full sense of this model, I recommend reading the accompanying paper. \r\nEach \u2018node\u2019 in the model represents an idea in a cognitive space. When running the simulation, each node will seek out another, with its \u2018sight\u2019 limited by parameters that are a function of the initial firm size. New ideas are a function of old ones, much like the crossover and mutation process in genetics. Eventually, this leads to market structures that differ with respect to the initial firm size. Nodes of one color represent one firm. \r\nOnly two parameters are available for adjustment: \u2018time-limit\u2019 and \u2018initial-firm-size\u2019. Select the parameters of interest and then click \u2018Setup\u2019. Then click \u2018Go Forever\u2019 to see the simulation in action. You may pause the model by clicking \u2018Go Forever\u2019 again, and if you click \u2018Clear Links\u2019, this will give you a better visualization in the GUI. Clicking \u2018Go\u2019 will run the model for a single tick (or discrete unit of time). You may then view the size distribution of firms in the supplied monitors. \r\nChoose a high time limit, and then carry out the simulation using different initial firm sizes. You will notice that large initial firm sizes leads to very few firms, but these firms are typically large. Likewise, a smaller initial firm size gives rise to many firms, but these are typically rather small. Often, the size of the spinoff firms tend to approach the size of the initial firm. The initial firm is almost always \u2018crowded out\u2019 by the ideas of new spinoffs.",
+    "downloadUrl": "https://www.comses.net/codebases/5056/releases/1.2.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2017,
+    "datePublished": "2017-06-30",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Bagley, M.J.O. (2017) A simulation of entrepreneurial spawning. Journal of Artificial Societies and Social Simulation, 20(3)9. DOI: 10.18564/jasss.3444"
+}

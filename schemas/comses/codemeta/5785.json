@@ -1,0 +1,68 @@
+{
+    "@id": "https://www.comses.net/codebases/5785/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/5785/releases/1.1.0/",
+    "name": "Sorghum supply development in Meru County, Kenya",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1732/",
+            "@type": "Person",
+            "email": "d.verwaart@xs4all.nl",
+            "givenName": "Tim",
+            "familyName": "Verwaart",
+            "affiliation": {
+                "url": "http://www.wur.nl",
+                "name": "Wageningen UR",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Coen",
+            "familyName": "Van Wagenberg"
+        },
+        {
+            "@id": "https://www.comses.net/users/1732/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5785/releases/1.1.0/",
+    "dateCreated": "2017-09-06",
+    "description": "Fostering of inclusive business aiming to involve low-income communities in value chains is a recent approach to alleviate poverty in developing countries. The approach requires new impact assessment tools to measure changes in farm income and transaction cost, and behavioural change in value chain relationships. An agent-based simulation combined with games is proposed for the assessment of a project developing sorghum production and marketing in Meru County, Kenya. Contracts between a local sorghum processor and smallholders have a central role. Trust between farmers and the processor and mutual trust in farmer groups are  key success factors. The simulations indicate that the approach can lead to increased farm incomes. Continuity of the contract system depends on the extent to which contracted farmers can be trusted not to side-sell when market prices are high. However, the simulated production remains at an increased level even if the contract system breaks down.",
+    "downloadUrl": "https://www.comses.net/codebases/5785/releases/1.1.0/download/",
+    "dateModified": "2019-05-30",
+    "releaseNotes": "",
+    "copyrightYear": 2019,
+    "datePublished": "2019-05-30",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "@id": "https://www.comses.net/codebases/3854/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/3854/releases/1.1.0/",
+    "name": "Comparing agent-based models on experimental data of irrigation games",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-9616-4143",
+            "@type": "Person",
+            "email": "jacopo.baggio@ucf.edu",
+            "givenName": "Jacopo A.",
+            "familyName": "Baggio",
+            "affiliation": {
+                "@id": "https://ror.org/036nfer12",
+                "url": "http://www.ucf.edu/",
+                "name": "School of Politics, Security, and International Affairs, National Center for Integrated Coastal Research, Sustainable Coastal Systems Cluster, University of Central Florida",
+                "@type": "Organization",
+                "identifier": "https://ror.org/036nfer12"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Person",
+            "email": "marco.janssen@asu.edu",
+            "givenName": "Marco",
+            "familyName": "Janssen",
+            "affiliation": {
+                "url": "https://schoolofsustainability.asu.edu/",
+                "name": "School of Sustainability",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-9616-4143",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "ABM",
+        "calibration",
+        "comparative abm",
+        "experiment",
+        "individual behavior",
+        "irrigation games"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3854/releases/1.1.0/",
+    "dateCreated": "2013-07-03",
+    "description": "We present different models relating to theories of human behavior and compare them to actual data collected during experiments on irrigation games with 80 individuals divided in 16 different groups. We run a total of 7 different model: from very simple ones involving 0 parameters (i.e. pure random, pure selfish and pure altruistic), to increasingly complex ones which include different type of agents, learning and other regarding preferences. By comparing the different models we find that the most comprehensive model of human behavior behaves not far from a model build ad-hoc on our dataset; remarkably we also find that a very simple model presenting a mix of random selfish, and altruistic agents does not perform much worse than the best performing models.",
+    "downloadUrl": "https://www.comses.net/codebases/3854/releases/1.1.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-07-03",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Baggio J.A. and M.A. Janssen (2013). \u201cComparing agent-based models on experimental data of irrigation games\u201d. In Proceedings of the 2013 Winter Simulation Conference Edited by. R. Pasupathy, S.-H. Kim, A. Tolk, R. Hill, and M. E. Kuhl."
+}

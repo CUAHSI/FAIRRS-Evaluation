@@ -1,0 +1,65 @@
+{
+    "@id": "https://www.comses.net/codebases/4486/releases/0.1.2/",
+    "url": "https://www.comses.net/codebases/4486/releases/0.1.2/",
+    "name": "The Planned Recycling Behavior model (PRB_1.2)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-9059-9237",
+            "@type": "Person",
+            "email": "andrea.ceschi@univr.it",
+            "givenName": "Andrea",
+            "familyName": "Ceschi",
+            "affiliation": {
+                "@id": "https://ror.org/039bp8j42",
+                "url": "http://www.univr.it/jsp/index.jsp",
+                "name": "University of Verona",
+                "@type": "Organization",
+                "identifier": "https://ror.org/039bp8j42"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-9059-9237",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "0.1.2",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "nudges",
+        "recycling behavior",
+        "social norms",
+        "theory of planned behavior"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4486/releases/0.1.2/",
+    "dateCreated": "2015-11-30",
+    "description": ".",
+    "downloadUrl": "https://www.comses.net/codebases/4486/releases/0.1.2/download/",
+    "dateModified": "2018-08-11",
+    "releaseNotes": "A simulation model on planned recycling agent behavior (PRB_1.2) which creates, under a set of assumptions grounded on theories of personal drivers, social norms, planned behavior and psychological modeling,  interactions in the waste chain (i.e., householders, garbage trucks, and collection centers) through an agent-based modeling (ABM) simulation. The results of the ABM simulation are used to examine and estimate the potential extent of the policy effects, and are compared with time series statistics derived from recycling data from Taiwan. Moreover, the simulation tests policy efficacy in a highly degraded environmental scenario by taking into account the impeding forces operating in such a setting. \n\n",
+    "copyrightYear": 2018,
+    "datePublished": "2018-08-08",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "SeSAm"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "SeSAm",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

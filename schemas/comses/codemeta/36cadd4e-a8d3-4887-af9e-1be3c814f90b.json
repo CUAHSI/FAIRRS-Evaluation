@@ -1,0 +1,107 @@
+{
+    "@id": "https://www.comses.net/codebases/36cadd4e-a8d3-4887-af9e-1be3c814f90b/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/36cadd4e-a8d3-4887-af9e-1be3c814f90b/releases/1.0.0/",
+    "name": "Rebel Group Protection Rackets",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "email": "frncs@live.unc.edu",
+            "givenName": "Frances",
+            "familyName": "Duffy",
+            "affiliation": {
+                "@id": "https://ror.org/0130frc33",
+                "url": "http://www.unc.edu/",
+                "name": "University of North Carolina at Chapel Hill",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0130frc33"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "kamil.klosek@fsv.cuni.cz",
+            "givenName": "Kamil",
+            "familyName": "Klosek",
+            "affiliation": {
+                "@id": "https://ror.org/024d6js02",
+                "url": "http://www.cuni.cz/UKENG-1.html",
+                "name": "Charles University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/024d6js02"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-4506-2745",
+            "@type": "Person",
+            "email": "gnardin@emse.fr",
+            "givenName": "Luis Gustavo",
+            "familyName": "Nardin",
+            "affiliation": {
+                "url": "https://emse.fr",
+                "name": "Mines Saint-Etienne",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-3049-8885",
+            "@type": "Person",
+            "email": "g.wagner@b-tu.de",
+            "givenName": "Gerd",
+            "familyName": "Wagner",
+            "affiliation": {
+                "@id": "https://ror.org/02wxx3e24",
+                "url": "http://www.b-tu.de/",
+                "name": "Brandenburg University of Technology",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02wxx3e24"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-4506-2745",
+            "@type": "Role",
+            "roleName": "maintainer"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based model",
+        "civil war",
+        "conflict research",
+        "protection racket",
+        "rebel group"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/36cadd4e-a8d3-4887-af9e-1be3c814f90b/releases/1.0.0/",
+    "dateCreated": "2019-06-21",
+    "description": "**System Narrative**\nHow do rebel groups control territory and engage with the local economy during civil war? Charles Tilly's seminal War and State Making as Organized Crime (1985) posits that the process of waging war and providing governance resembles that of a protection racket, in which aspiring governing groups will extort local populations in order to gain power, and civilians or businesses will pay in order to ensure their own protection. As civil war research increasingly probes the mechanisms that fuel local disputes and the origination of violence, we develop an agent-based simulation model to explore the economic relationship of rebel groups with local populations, using extortion racket interactions to explain the dynamics of rebel fighting, their impact on the economy, and the importance of their economic base of support. This analysis provides insights for understanding the causes and byproducts of rebel competition in present-day conflicts, such as the cases of South Sudan, Afghanistan, and Somalia.\n\n**Model Description**\nThe model defines two object types: RebelGroup and Enterprise. A RebelGroup is a group that competes for power in a system of anarchy, in which there is effectively no government control. An Enterprise is a local civilian-level actor that conducts business in this environment, whose objective is to make a profit. In this system, a RebelGroup may choose to extort money from Enterprises in order to support its fighting efforts. It can extract payments from an Enterprise, which fears for its safety if it does not pay. This adds some amount of money to the RebelGroup\u2019s resources, and they can return to extort the same Enterprise again. The RebelGroup can also choose to loot the Enterprise instead. This results in gaining all of the Enterprise wealth, but prompts the individual Enterprise to flee, or leave the model. This reduces the available pool of Enterprises available to the RebelGroup for extortion. Following these interactions the RebelGroup can choose to AllocateWealth, or pay its rebel fighters. Depending on the value of its available resources, it can add more rebels or expel some of those which it already has, changing its size. It can also choose to expand over new territory, or effectively increase its number of potential extorting Enterprises. As a response to these dynamics, an Enterprise can choose to Report expansion to another RebelGroup, which results in fighting between the two groups. This system shows how, faced with economic choices, RebelGroups and Enterprises make decisions in war that impact conflict and violence outcomes.",
+    "downloadUrl": "https://www.comses.net/codebases/36cadd4e-a8d3-4887-af9e-1be3c814f90b/releases/1.0.0/download/",
+    "dateModified": "2019-12-04",
+    "releaseNotes": "`Rebel Group Protection Rackets` is an agent-based simulation model of protection rackets in a civil war conflict inside a weak or failed state that attempts to capture the decision-making and behavior of the actors involved.\n\nWe encourage interested viewers to explore various initial settings to develop an understanding of civil war dynamics based on the assumptions laid out in this study (executable at [https://gnardin.github.io/RebelGroups/](https://gnardin.github.io/RebelGroups/)).",
+    "copyrightYear": 2019,
+    "datePublished": "2019-12-04",
+    "codeRepository": "https://github.com/gnardin/RebelGroups",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "OESjs"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "JavaScript",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

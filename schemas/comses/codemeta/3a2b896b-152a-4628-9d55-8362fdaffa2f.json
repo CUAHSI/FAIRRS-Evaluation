@@ -1,0 +1,62 @@
+{
+    "@id": "https://www.comses.net/codebases/3a2b896b-152a-4628-9d55-8362fdaffa2f/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/3a2b896b-152a-4628-9d55-8362fdaffa2f/releases/1.0.0/",
+    "name": "Emission Trading Impact On Power Generation Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-8529-4241",
+            "@type": "Person",
+            "email": "e.j.l.chappin@tudelft.nl",
+            "givenName": "Emile",
+            "familyName": "Chappin",
+            "affiliation": {
+                "@id": "https://ror.org/02e2c7k09",
+                "url": "http://www.tudelft.nl/en/",
+                "name": "Delft University of Technology",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02e2c7k09"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "emissions trading",
+        "energy policy",
+        "investment"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3a2b896b-152a-4628-9d55-8362fdaffa2f/releases/1.0.0/",
+    "dateCreated": "2020-06-19",
+    "description": "Under the Kyoto Protocol, governments agreed on and accepted CO2 reduction targets in order to counter climate change. In Europe one of the main policy instruments to meet the agreed reduction targets is CO2 emission-trading (CET), which was implemented as of January 2005. In this system, companies active in specific sectors must be in the possession of CO2 emission rights to an amount equal to their CO2 emission. In Europe, electricity generation accounts for one-third of CO2 emissions. Since the power generation sector, has been liberalized, reregulated and privatized in the last decade, around Europe autonomous companies determine the sectors\u2019 CO2 emission. Short-term they adjust their operation, long-term they decide on (dis)investment in power generation facilities and technology selection. An agent-based model is presented to elucidate the effect of CET on the decisions of power companies in an oligopolistic market. Simulations over an extensive scenario-space show that there CET does have an impact. A long-term portfolio shift towards less-CO2 intensive power generation is observed. However, the effect of CET is relatively small and materializes late. The absolute emissions from power generation rise under most scenarios. This corresponds to the dominant character of current capacity expansion planned in the Netherlands (50%) and in Germany (68%), where companies have announced many new coal based power plants. Coal is the most CO2 intensive option available and it seems surprising that even after the introduction of CET these capacity expansion plans indicate a preference for coal. Apparently in power generation the economic effect of CO2 emission-trading is not sufficient to outweigh the economic incentives to choose for coal.",
+    "downloadUrl": "https://www.comses.net/codebases/3a2b896b-152a-4628-9d55-8362fdaffa2f/releases/1.0.0/download/",
+    "dateModified": "2020-06-19",
+    "releaseNotes": "This is the final version used in the MSc thesis of the author. It is built on top of a shared simulation framework developed at TU Delft, of which the latest version is added to the code. Javadoc is available on request.",
+    "copyrightYear": 2020,
+    "datePublished": "2020-06-19",
+    "codeRepository": "https://svn.eeni.tbm.tudelft.nl/TransitionModel/models/EmissionTradingImpactOnPowerGeneration",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Protege",
+        "Repast"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "https://doi.org/10.1016/j.techfore.2008.08.004\nhttp://resolver.tudelft.nl/uuid:cd2b0fc4-cfd5-4864-9161-6f05ba53835f"
+}

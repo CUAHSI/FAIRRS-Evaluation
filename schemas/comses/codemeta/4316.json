@@ -1,0 +1,92 @@
+{
+    "@id": "https://www.comses.net/codebases/4316/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4316/releases/1.0.0/",
+    "name": "Collective Behavior of In-group Favoritism",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/756/",
+            "@type": "Person",
+            "email": "alizadeh.meysam@gmail.com",
+            "givenName": "Meysam",
+            "familyName": "Alizadeh",
+            "affiliation": {
+                "@id": "https://ror.org/02k40bc56",
+                "url": "http://www.indiana.edu/",
+                "name": "Indiana University Bloomington",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02k40bc56"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Claudio",
+            "familyName": "Cioffi-Revilla"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-5034-6654",
+            "@type": "Person",
+            "email": "acrooks77@gmail.com",
+            "givenName": "Andrew",
+            "familyName": "Crooks",
+            "affiliation": {
+                "@id": "https://ror.org/02jqj7156",
+                "url": "https://www.gmu.edu/",
+                "name": "George Mason University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02jqj7156"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/756/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-5034-6654",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "dynamics opinion",
+        "extremism",
+        "in-group favoritism"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4316/releases/1.0.0/",
+    "dateCreated": "2015-09-01",
+    "description": "We define two levels of uncertainties for each agent. First is the uncertainty associated with in-group members\u2019 opinion (Uin), and second is the uncertainty associated with out-group agents\u2019 opinion (Uout) where Uin \u2265 Uout. In each interaction encounters, the agents follow the same steps as 2D BC model except that if they are from the same group, they use their in-group uncertainty (Uin) to update their opinion (i.e. attraction, rejection, or ignorance). Similarly, if two agents are from different groups, they use their out-group uncertainty (Uout) for opinion updating purpose.",
+    "downloadUrl": "https://www.comses.net/codebases/4316/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2015,
+    "datePublished": "2015-09-01",
+    "operatingSystem": "windows",
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Meysam Alizadeh, Claudio Cioffi-Revilla, and Andrew Crooks (2015) The Effect of In-Group Favoritism on the Collective Behavior of Individuals\u2019 Opinions. Advances in Complex Systems, 18."
+}

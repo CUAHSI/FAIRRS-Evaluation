@@ -1,0 +1,62 @@
+{
+    "@id": "https://www.comses.net/codebases/3817/releases/1.2.0/",
+    "url": "https://www.comses.net/codebases/3817/releases/1.2.0/",
+    "name": "An agent-based model generating social practices",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/614/",
+            "@type": "Person",
+            "email": "gholtz@uos.de",
+            "givenName": "Georg",
+            "familyName": "Holtz",
+            "affiliation": {
+                "url": "http://www.usf.uos.de",
+                "name": "Institute of Environmental Systems Research",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/614/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3817/releases/1.2.0/",
+    "dateCreated": "2014-01-30",
+    "description": "Changing consumer behaviour is key to reduce the environmental effects of industrialised societies. Social practice theories provide an integrated approach to consumer behaviour which accounts for the social embedding of consumers as well as the role of material artefacts. The mechanisms underlying the emergence and diffusion of social practices are however up to now poorly understood. This model implements a conceptual model that expands approaches from social practice theories and is used to investigate the ability of this conceptual model to explain the emergence of social practices, defined as routine behaviour that is similar among peers.",
+    "downloadUrl": "https://www.comses.net/codebases/3817/releases/1.2.0/download/",
+    "dateModified": "2018-02-19",
+    "releaseNotes": "The reference to the publication has been given.\r\nA replication of this model has been reported and a model variation that uses a small-world network has been provided.",
+    "copyrightYear": 2014,
+    "datePublished": "2014-01-30",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Repast"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Georg Holtz (2014) \"Generating social practices\", Journal of Artificial Societies and Social Simulation 17 (1) 17, http://jasss.soc.surrey.ac.uk/17/1/17.html"
+}

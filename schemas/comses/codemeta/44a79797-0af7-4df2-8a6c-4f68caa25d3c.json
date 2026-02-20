@@ -1,0 +1,78 @@
+{
+    "@id": "https://www.comses.net/codebases/44a79797-0af7-4df2-8a6c-4f68caa25d3c/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/44a79797-0af7-4df2-8a6c-4f68caa25d3c/releases/1.0.0/",
+    "name": "ALABAMA-ABM",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-5938-1221",
+            "@type": "Person",
+            "email": "bartosz.bartkowski@ufz.de",
+            "givenName": "Bartosz",
+            "familyName": "Bartkowski",
+            "affiliation": {
+                "name": "Helmholtz Centre for Environmental Research - UFZ",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "michael.strauch@ufz.de",
+            "givenName": "Michael",
+            "familyName": "Strauch",
+            "affiliation": {
+                "@id": "https://ror.org/000h6jb29",
+                "url": "http://www.ufz.de/index.php?de=11385",
+                "name": "Helmholtz Centre for Environmental Research",
+                "@type": "Organization",
+                "identifier": "https://ror.org/000h6jb29"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "resourceProvider"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agricultural landscape",
+        "environmental policy",
+        "Farmers",
+        "NetLogo"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/44a79797-0af7-4df2-8a6c-4f68caa25d3c/releases/1.0.0/",
+    "dateCreated": "2020-03-04",
+    "description": "A simple model that aims to demonstrate the influence of agri-environmental payments on land-use patterns in a virtual landscape. The landscape consists of grassland (which can be managed extensively or intensively) and a river. Agri-environmental payments are provided for extensive management of grassland. Additionally, there are boni for (a) extensive grassland in proximity of the river; and (b) clusters (\u201cagglomerations\u201d) of extensive grassland. The farmers, who own randomly distributed grassland patches, make decisions either on the basis of simple income maximization or they maximize only up to an income threshold beyond which they seize making changes in management. The resulting landscape pattern is evaluated by means of three simple models for (a) agricultural yield, (b) habitat/biodiversity and (c) water quality. The latter two correspond to the two boni. The model has been developed within a small project called Aligning Agent-Based Modelling with Multi-Objective Land-Use Allocation (ALABAMA).",
+    "downloadUrl": "https://www.comses.net/codebases/44a79797-0af7-4df2-8a6c-4f68caa25d3c/releases/1.0.0/download/",
+    "dateModified": "2020-03-04",
+    "releaseNotes": "First final version of the model.",
+    "copyrightYear": 2020,
+    "datePublished": "2020-03-04",
+    "codeRepository": "https://github.com/BartoszBartk/magenta",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo",
+        "R"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

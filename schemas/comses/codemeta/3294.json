@@ -1,0 +1,107 @@
+{
+    "@id": "https://www.comses.net/codebases/3294/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/3294/releases/1.1.0/",
+    "name": "Enhancing recycling of construction materials; an agent based model with empirically based decision parameters",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "givenName": "Christof",
+            "familyName": "Knoeri"
+        },
+        {
+            "@id": "https://www.comses.net/users/1210/",
+            "@type": "Person",
+            "email": "nikolic.igor@tudelft.nl",
+            "givenName": "Igor",
+            "familyName": "Nikolic",
+            "affiliation": {
+                "@id": "https://ror.org/02e2c7k09",
+                "url": "http://www.tudelft.nl/en/",
+                "name": "Delft University of Technology",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02e2c7k09"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Hans-Joerg",
+            "familyName": "Althaus"
+        },
+        {
+            "@id": "https://www.comses.net/users/1254/",
+            "@type": "Person",
+            "email": "claudia.binder@lmu.de",
+            "givenName": "Claudia",
+            "familyName": "Binder",
+            "affiliation": {
+                "url": "http://eographie.uni-muenchen.de/department/fiona/personen/index.php?personen_details=1&user_id=197",
+                "name": "Prof. Dr.",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_1",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://www.comses.net/users/1210/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://www.comses.net/users/1254/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based model",
+        "agent operationalization approach",
+        "empirical based modeling",
+        "multi-criteria decisions",
+        "socio-technical system",
+        "sustainable resource management"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3294/releases/1.1.0/",
+    "dateCreated": "2014-06-09",
+    "description": "Purpose of the model\r\nThis model aims at representing the decision-making and behaviour of interacting construction stakeholders when deciding what kind of construction material to apply. It was designed to simulate in particular the pro-cesses that lead stakeholders to demand conventional mineral materials (e.g. concrete with gravel and sand aggregates (CC)) or recycled mineral construction materials (RMCM) (e.g. concrete with recycled aggregates (RC)). The main output variable considered is therefore the fraction of RC applied. The main driver of the model is construction investments broken down into projects to be executed by construction stakeholders.\r\nEntities and state variables\r\nThe following entities are included in the model: agents representing construction stakeholders (i.e. awarding authorities, engineers, architects and contractors), projects, grid cells (i.e. virtual geographical location) and the global environment representing the construction market (i.e. construction investments and materials available). \r\nAwarding authorities (AA) represent private persons, companies, or public authorities awarding prime building contracts, for different purposes (e.g. personal use, economic reasons, public building requirements). Engineers represent the actors responsible for the static design of the concrete structure in buildings; architects the stakeholders designing and supervising the construction, and contractors the companies providing the concrete work. All agents are located at a unique location and hold an identity number, construction related variables, such as construction capacity, building radius and experience, and multi-criteria decision variables for each distinct decision. In total, 5788 agents are implemented. Projects represent the individual construction projects on which these agents interact. Besides the basic project variables such as construction year, sum, investor type and material amount and type applied, the projects track the agents involved and the out-come of all agents\u2019 decisions. Per year about 450 projects are executed. Grid cells represent virtual construction sites of 30x30m. The observer or global environment (i.e. construction market) is the only entity on the system level, defining the annual construction investments and the potential recycling aggregates supply. In addition it holds the variables for de-mand and supply accounting and agent specific parameters for scenario measures.\r\nModel, spatial and temporal scales \r\nThe model was designed to represent individual construction projects with a model to reality relation of 1:100 (in terms of agents and projects). This means that 100 times less agents are represented in the model and each construction project is 100 times larger, respectively. The model has no explicit spatial relation, however; agents are distributed randomly across a virtual space for lo-cal interaction. The virtual space is an unwrapped square (to see edge effects) of 300 x 300 grid cells theoret-ically representing an area of 3x3km. Agents\u2019 building radii were derived from Knoeri et al. (2011b) and were adjusted to the model scale (e.g. mean building radius of 30 units (0.3km) for commercial and private AA and 50 units (0.5km) for public AA). One time step represents one year and simulations were run for 40 years (2010-2050) for material flow analysis and for 10 years (2010-2020) for the demand sensitivity analysis.\r\nProcess overview and scheduling\r\nTo set up the model all investment and material flow parameters as well as the initial number of agents are initialized. The main procedure is being executed every time step (i.e. year) by the observer. First, the annual construction investments are calculated and accordingly this year\u2019s projects created. Second, the potential supply of recycled aggregates is calculated. Third, the projects are distributed to enough AA and randomly executed (i.e. if the number of projects exceeds the construction capacity of the AA new AA are created). Fourth, the global demand values and agent properties are updated according to the projects finished. Finally, the projects older than the limits of the agent\u2019s memory are erased from the model. \r\nThe most important sub model is the \u201cexecute project\u201d procedure which itself contains several subroutines. This project execution of the AA basically reflects the agent interaction chain derived from the agent operationalization approach (Knoeri, Binder, & Althaus 2011a; Knoeri, et al. 2011b). Once a project is assigned to an AA, if sustainable construction is an option at all, this agent first makes his project specification and, followed by selecting an engineer to get a design specification and an architect for a project recommendation. These selections both are based on neighbourhood, personal contacts and references. Engineer\u2019s and architect\u2019s interact through the project as the architect considers the engineer\u2019s design specification as a criterion, which is stored in the project. Having the recommendation from the experts, the AA makes the project confirmation decision and selects the three closest contractors for tendering. Including tender price and expert recommendation the AA awards the contract to the contractor with the highest utility. If the proposed recycled aggregates are out of stock the agents switched back to conventional materials. Finally the demanded materials are deducted from the market and assigned to the project. The availability of the RC option for the construction experts (i.e. engineers, architects and contractors) depends on other agents\u2019 specifications or recommendation and own preferences. For example, engineers consider RC only as an option if the AA made a sustainable construction specification (SCS) and the engineer pursues by relating that to RC, or he comes up with the RC option himself. In all other cases he recommends conventional con-crete (CC). The empirical data for the application specific decisions (e.g. from design specification to tender selection) were aggregated from decisions regarding structural indoor and outdoor concrete application since they have been found to correspond to a large extent (Knoeri, et al. 2011b). Lean concrete application deci-sions were neglected due to their little contribution (< 4%) to the overall concrete flows. \r\nReferences\r\nKnoeri, C., Binder, C. R., & Althaus, H. J. (2011). An agent operationalization approach for context specific agent-based modeling. JASSS The Journal of Artificial Societies and Social Simulation, 14(2).\r\nKnoeri, C., Binder, C. R., & Althaus, H. J. (2011). Decisions on recycling: Construction stakeholders\u2019 decisions regarding recycled mineral construction materials. Resources, Conservation and Recycling, 55(11), 1039-1050.",
+    "downloadUrl": "https://www.comses.net/codebases/3294/releases/1.1.0/download/",
+    "dateModified": "2018-02-19",
+    "releaseNotes": "",
+    "copyrightYear": 2014,
+    "datePublished": "2014-06-09",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Knoeri, C., Nikoli\u0107, I., Althaus, H. J., & Binder, C. Enhancing recycling of construction materials; the role of empirically based decision parameters. Submitted to JASSS The Journal of Artificial Societies and Social Simulation."
+}

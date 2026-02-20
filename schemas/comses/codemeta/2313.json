@@ -1,0 +1,72 @@
+{
+    "@id": "https://www.comses.net/codebases/2313/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/2313/releases/1.1.0/",
+    "name": "Toward Market Structure as a Complex System: A Web Based Simulation Assignment Implemented in Netlogo",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/165/",
+            "@type": "Person",
+            "email": "timkochanski@gmail.com",
+            "givenName": "Timothy",
+            "familyName": "Kochanski",
+            "affiliation": {
+                "@id": "https://ror.org/05j0w0e76",
+                "url": "http://www.aaas.org/",
+                "name": "American Association for the Advancement of Science",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05j0w0e76"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/165/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "cournot",
+        "economics",
+        "equilibrium",
+        "innovation",
+        "innovation adoption",
+        "market",
+        "market entry",
+        "market exit",
+        "market shares",
+        "NetLogo",
+        "pedagogy"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2313/releases/1.1.0/",
+    "dateCreated": "2011-08-31",
+    "description": "WHAT IS IT? \r\nThis is a Cournot model named after the French economist Antoine Augustin Cournot (1801-1877). It is commonly used to model imperfect competition in cases where firms have some market power and must choose a level of output to produce that considers the responses of their competitors as well. The resulting price and output end up somewhere between what perfect competition and monopoly markets would produce and is a Nash Equilibrium. \r\n\r\nHOW IT WORKS \r\nThe simulation begins with 20 firms when you click the [SETUP] button. When you click the [GO] button the simulation begins and runs for 1000 time periods (days). At each point in time we can see, on the graphs, 1) the Cournot equilibrium market price and quantity, as well as average MC in the market, 2) the average profit of firms in the market, 3) the market concentration as measured with the HHI (Herfindal-Hirschman Index), 4) the number of firms in the market, and 5) the average price markup or (Price/Avg.MC). \r\n\r\nIn this simulation, firms are moving randomly across a business landscape. When they enter the green patch in the center they spend some of their accumulated profits on productivity innovations, assuming they have accumulated such profits. This lowers their marginal costs and gives them an advantage over their competitors. For the innovating firm, this leads to more market share, higher profits, and increased market concentration.\r\n\r\nHOW TO USE IT \r\nThere are two parameters that can be adjusted to affect how the simulation plays out.\r\n1) Demand growth, setting this to a positive value means that the market demand curve gradually increases over time.\r\n2) Barriers to entry, determine how costly it is for new firms to enter the market. At the lowest setting we have perfect competition conditions. At high setting we have oligopoly or even monopoly conditions. \r\n\r\nTHINGS TO NOTICE \r\n1) If HHI is increasing then either some firms are gaining market share from others, or, firms are exiting the market creating more market share for the remaining firms. It is likely that both affects are occurring simultaneously. \r\n2) If number of firms is increasing then HHI should on average decrease (unless, due to the other affect discussed above some firms are gaining market share over the new entrants). \r\n3) As the market becomes more concentrated market prices should increase. \r\n4) As average profitability increases this creates the incentive for new firms to enter (depending on the level of barriers). \r\n5) Chaotic events can happen in a dynamic setting with several interacting components. As new firms enter, innovate, increase profits, etc. the results may be quite predictable and smooth or in some cases may be chaotic with wild fluctuations. \r\nnote: when the simulation stops before 1000 rounds it means that all firms have exited the market, even the last remaining firm which was a monopolist.",
+    "downloadUrl": "https://www.comses.net/codebases/2313/releases/1.1.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

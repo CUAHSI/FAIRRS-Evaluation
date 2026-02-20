@@ -1,0 +1,109 @@
+{
+    "@id": "https://doi.org/10.25937/js95-6d78",
+    "url": "https://doi.org/10.25937/js95-6d78",
+    "name": "AgentEx",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-4636-315X",
+            "@type": "Person",
+            "email": "nwijermans@gmail.com",
+            "givenName": "Nanda",
+            "familyName": "Wijermans",
+            "affiliation": {
+                "@id": "https://ror.org/05f0yaq80",
+                "url": "http://www.su.se/english/",
+                "name": "Stockholm Resilience Center, Stockholm University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05f0yaq80"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Caroline",
+            "familyName": "Schill"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Therese",
+            "familyName": "Lindahl"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-7780-1039",
+            "@type": "Person",
+            "email": "maja.schlueter@su.se",
+            "givenName": "Maja",
+            "familyName": "Schl\u00fcter",
+            "affiliation": {
+                "@id": "https://ror.org/0145rpw38",
+                "url": "http://www.stockholmresilience.org",
+                "name": "Stockholm Resilience Centre, Stockholm University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0145rpw38"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-4636-315X",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-7780-1039",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "behavioural experiments",
+        "common-pool resources",
+        "cooperation",
+        "knowledge sharing",
+        "multi-method approach",
+        "social-ecological dynamics"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/js95-6d78",
+        "https://doi.org/10.25937/js95-6d78"
+    ],
+    "dateCreated": "2016-11-13",
+    "description": "AgentEx aims to advance understanding of group processes for sustainable management of a common pool resource (CPR) in dynamic social-ecological environments. It targets to qualitatively reproduce and explain patterns observed in behavioural CPR laboratory experiments.\r\n\r\nAgentEx (v1.0) represents an explanation that is characterised by three individual-level factors: individual ecological knowledge, confidence in knowledge and social skills that interact to determine individual and group knowledge as the outcomes of communication/knowledge sharing and knowledge updating.",
+    "downloadUrl": "https://www.comses.net/codebases/5181/releases/1.0.0/download/",
+    "dateModified": "2021-10-12",
+    "releaseNotes": "AgentEx v1.0 explanation focus: ecological knowledge, confidence in knowledge and social skills",
+    "copyrightYear": 2016,
+    "datePublished": "2016-11-13",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    },
+    "referencePublication": "Schill, C., Wijermans, N., Schl\u00fcter M. & T. Lindahl (2016). Cooperation Is Not Enough - Exploring Social-Ecological Micro-Foundations for Sustainable Common-Pool Resource Use. PLoS ONE 11(8): e0157796.doi:10.1371/journal.pone.0157796."
+}

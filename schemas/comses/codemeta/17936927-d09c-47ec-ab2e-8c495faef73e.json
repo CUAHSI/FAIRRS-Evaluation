@@ -1,0 +1,57 @@
+{
+    "@id": "https://doi.org/10.25937/f932-8y73",
+    "url": "https://doi.org/10.25937/f932-8y73",
+    "name": "Flibs'NLogo - An elementary form of evolutionary cognition",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2589/",
+            "@type": "Person",
+            "email": "cleuci@alice.it",
+            "givenName": "Cosimo",
+            "familyName": "Leuci"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "adaptive cognition",
+        "artificial life",
+        "finite automata",
+        "genetic algorithm",
+        "structural coupling"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/f932-8y73",
+        "https://doi.org/10.25937/f932-8y73"
+    ],
+    "dateCreated": "2020-01-18",
+    "description": "Flibs\u2019NLogo implements in NetLogo modelling environment, a genetic algorithm whose purpose is evolving a perfect predictor from a pool of digital creatures constituted by finite automata or flibs (finite living blobs) that are the agents of the model. The project is based on the structure described by Alexander K. Dewdney in \u201cExploring the field of genetic algorithms in a primordial computer sea full of flibs\u201d from the vintage Scientific American column \u201cComputer Recreations\u201d\nAs Dewdney summarized: \u201cFlibs [\u2026] attempt to predict changes in their environment. In the primordial computer soup, during each generation, the best predictor crosses chromosomes with a randomly selected flib. Increasingly accurate predictors evolve until a perfect one emerges. A flib [\u2026] has a finite number of states, and for each signal it receives (a 0 or a 1) it sends a signal and enters a new state. The signal sent by a flib during each cycle of operation is its prediction of the next signal to be received from the environment\u201d",
+    "downloadUrl": "https://www.comses.net/codebases/17936927-d09c-47ec-ab2e-8c495faef73e/releases/1.0.0/download/",
+    "dateModified": "2023-10-24",
+    "releaseNotes": "For the purpose of demonstration, a web-app version of the model can be accessed via the following URL:\nhttp://modelingcommons.org/browse/one_model/5754#model_tabs_browse_nlw",
+    "copyrightYear": 2020,
+    "datePublished": "2020-01-30",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,100 @@
+{
+    "@id": "https://doi.org/10.25937/qc7v-zc93",
+    "url": "https://doi.org/10.25937/qc7v-zc93",
+    "name": "Reduced Mobility Transition Model (R-MoTMo)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0009-0005-8805-0372",
+            "@type": "Person",
+            "email": "gesine.steudle@globalclimateforum.org",
+            "givenName": "Gesine A.",
+            "familyName": "Steudle",
+            "affiliation": {
+                "url": "https://www.gea.mpg.de",
+                "name": "Max Planck Institute of Geoanthropology",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "fuerst@zib.de",
+            "givenName": "Steffen",
+            "familyName": "F\u00fcrst",
+            "affiliation": {
+                "@id": "https://ror.org/02eva5865",
+                "url": "http://www.zib.de/",
+                "name": "Zuse Institute Berlin",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02eva5865"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "sarah.wolf@fu-berlin.de",
+            "givenName": "Sarah",
+            "familyName": "Wolf",
+            "affiliation": {
+                "@id": "https://ror.org/046ak2485",
+                "url": "https://www.fu-berlin.de",
+                "name": "Freie Universit\u00e4t Berlin",
+                "@type": "Organization",
+                "identifier": "https://ror.org/046ak2485"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "expected utility",
+        "mobility demand",
+        "social learning",
+        "socio-technical systems"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/qc7v-zc93",
+        "https://doi.org/10.25937/qc7v-zc93"
+    ],
+    "dateCreated": "2022-10-31",
+    "description": "The Mobility Transition Model (MoTMo) is a large scale agent-based model to simulate the private mobility demand in Germany until 2035. Here, we publish a very much reduced version of this model (R-MoTMo) which is designed to demonstrate the basic modelling ideas; the aim is by abstracting from the (empirical, technological, geographical, etc.) details to examine the feed-backs of individual decisions on the socio-technical system.",
+    "downloadUrl": "https://www.comses.net/codebases/eef9e270-909b-4832-8228-c2f3a839f171/releases/1.0.0/download/",
+    "dateModified": "2024-05-31",
+    "releaseNotes": "In the file run.py, the simulation parameters can be set in lines 13-20.\nThe simulation name (part of the name of the saved result files) is created from the input parameters (line 22-24). \nRun the file run.py to start a simulation.\nIf \"plotResults\" is set \"True\" (line 33), the plots specified in lines 35-42 are done after the simulation is finished. (To plot results from saved files without a new simulation use the file justPlot.py.)",
+    "copyrightYear": 2022,
+    "datePublished": "2022-12-06",
+    "embargoEndDate": "2022-12-07",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "None"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python 3",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

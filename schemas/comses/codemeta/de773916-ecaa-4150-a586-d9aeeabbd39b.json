@@ -1,0 +1,55 @@
+{
+    "@id": "https://www.comses.net/codebases/de773916-ecaa-4150-a586-d9aeeabbd39b/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/de773916-ecaa-4150-a586-d9aeeabbd39b/releases/1.0.0/",
+    "name": "Opportunity cost of walking away in the spatial iterated prisoner's dilemma",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-3945-0773",
+            "@type": "Person",
+            "email": "premo@fastmail.net",
+            "givenName": "Luke",
+            "familyName": "Premo"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "conditional movement",
+        "cooperation",
+        "evolution of cooperation",
+        "offspring dispersal",
+        "opportunity cost",
+        "spatial prisoner's dilemma"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/de773916-ecaa-4150-a586-d9aeeabbd39b/releases/1.0.0/",
+    "dateCreated": "2018-03-02",
+    "description": "Previous work with the spatial iterated prisoner\u2019s dilemma has shown that \u201cwalk away\u201d cooperators are able to outcompete defectors as well as cooperators that do not respond to defection, but it remains to be seen just how robust the so-called walk away strategy is to ecologically important variables such as population density, error, and offspring dispersal. Our simulation experiments identify socio-ecological conditions in which natural selection favors strategies that emphasize forgiveness over flight in the spatial iterated prisoner\u2019s dilemma. Our interesting results are best explained by considering how population density, error, and offspring dispersal affect the opportunity cost associated with walking away from an error-prone partner.",
+    "downloadUrl": "https://www.comses.net/codebases/de773916-ecaa-4150-a586-d9aeeabbd39b/releases/1.0.0/download/",
+    "dateModified": "2019-04-03",
+    "releaseNotes": "Op_Cost_Walk_Away.nlogo\nVERSION 1.0 (November, 2018)\n\nThe model accompanies:\nPremo, L. S. and J. R. Brown (2019) The opportunity cost of walking away in the spatial iterated prisoner's dilemma. _Theoretical Population Biology_.  \n\nThe purpose of the model is to address the following research question: how does population density, error rate, and offspring dispersal affect the success of \"walk away\" strategies in the spatial iterated prisoner's dilemma?\n\nThe model runs on NetLogo 6.0.2. Note that the code may need to be modified to run on later versions of NetLogo. You can find the experiments we used to collect the data for the paper in BehaviorSpace.",
+    "copyrightYear": 2019,
+    "datePublished": "2019-04-03",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "@id": "https://www.comses.net/codebases/2221/releases/1.2.0/",
+    "url": "https://www.comses.net/codebases/2221/releases/1.2.0/",
+    "name": "Lansing-Kremer model of the Balinese irrigation system",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Person",
+            "email": "marco.janssen@asu.edu",
+            "givenName": "Marco",
+            "familyName": "Janssen",
+            "affiliation": {
+                "url": "https://schoolofsustainability.asu.edu/",
+                "name": "School of Sustainability",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Lansing, J.S., J.N. Kremer (1993) Emergent properties of Balinese water temples. American Anthropologist 95 (1), 97\u2013114.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "adaption",
+        "irrigation",
+        "landscape",
+        "network"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2221/releases/1.2.0/",
+    "dateCreated": "2014-12-16",
+    "description": "This is a NetLogo replication of the hill-climbing version of the Lansing-Kremer model of Balinese irrigation.",
+    "downloadUrl": "https://www.comses.net/codebases/2221/releases/1.2.0/download/",
+    "dateModified": "2018-02-19",
+    "releaseNotes": "This version include some bug fixes thanks to Marshall Abrams, Associate Professor from the Department of Philosophy, University of Alabama at Birmingham",
+    "copyrightYear": 2014,
+    "datePublished": "2014-12-16",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

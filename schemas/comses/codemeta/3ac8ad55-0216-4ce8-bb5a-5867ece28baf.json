@@ -1,0 +1,82 @@
+{
+    "@id": "https://www.comses.net/codebases/3ac8ad55-0216-4ce8-bb5a-5867ece28baf/releases/1.4.0/",
+    "url": "https://www.comses.net/codebases/3ac8ad55-0216-4ce8-bb5a-5867ece28baf/releases/1.4.0/",
+    "name": "PFS - Preference Falsification Simulation (PreFalSim)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "givenName": "Francisco J",
+            "familyName": "Miguel"
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-1713-9757",
+            "@type": "Person",
+            "email": "francisco.leon@udg.edu",
+            "givenName": "Francisco J.",
+            "familyName": "Le\u00f3n-Medina",
+            "affiliation": {
+                "@id": "https://ror.org/01xdxns91",
+                "url": "http://www.udg.edu/Not%C3%ADciesiagenda/tabid/36/language/en-US/Default.aspx",
+                "name": "University of Girona",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01xdxns91"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "Jordi.Tena@uab.cat",
+            "givenName": "Jordi",
+            "familyName": "Tena-Sanchez",
+            "affiliation": {
+                "@id": "https://ror.org/021018s57",
+                "url": "https://web.ub.edu",
+                "name": "Universitat de Barcelona",
+                "@type": "Organization",
+                "identifier": "https://ror.org/021018s57"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.4.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "dynamics opinion",
+        "falsifying preferences",
+        "Festinger",
+        "Goffman",
+        "public opinion"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3ac8ad55-0216-4ce8-bb5a-5867ece28baf/releases/1.4.0/",
+    "dateCreated": "2019-07-01",
+    "description": "A model for simulating the evolution of individual\u2019s preferences, incliding adaptive agents \u201cfalsifying\u201d -as public opinions- their own preferences. It was builded to describe, explore, experiment and understand how simple heuristics can modulate global opinion dynamics. So far two mechanisms are implemented: a version of Festiguer\u2019s reduction of cognitive disonance, and a version of Goffman\u2019s impression management. In certain social contexts -minority, social rank presure- some models agents can \u201cfake\u201d its public opinion while keeping internally the oposite preference, but after a number of rounds following this falsifying behaviour pattern, a coherence principle can change the real or internal preferences close to that expressed in public.",
+    "downloadUrl": "https://www.comses.net/codebases/3ac8ad55-0216-4ce8-bb5a-5867ece28baf/releases/1.4.0/download/",
+    "dateModified": "2020-11-18",
+    "releaseNotes": "First public release.",
+    "copyrightYear": 2019,
+    "datePublished": "2019-07-01",
+    "embargoEndDate": "2019-08-31",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

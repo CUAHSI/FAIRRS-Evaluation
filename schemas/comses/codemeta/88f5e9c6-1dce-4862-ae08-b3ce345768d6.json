@@ -1,0 +1,94 @@
+{
+    "@id": "https://www.comses.net/codebases/88f5e9c6-1dce-4862-ae08-b3ce345768d6/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/88f5e9c6-1dce-4862-ae08-b3ce345768d6/releases/1.0.0/",
+    "name": "Proof of principle for a self-governing prediction and forecasting reward algorithm: Modeling consensus of a group of experts in adversarial collaboration.",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-4352-9564",
+            "@type": "Person",
+            "email": "jog4m@virginia.edu",
+            "givenName": "Jose Osvaldo",
+            "familyName": "Gonzalez Hernandez"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "jmari010@odu.edu",
+            "givenName": "Jonathan",
+            "familyName": "Marino",
+            "affiliation": {
+                "@id": "https://ror.org/04zjtrb98",
+                "url": "http://www.odu.edu",
+                "name": "Old Dominion University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04zjtrb98"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "trogers@odu.edu",
+            "givenName": "Ted",
+            "familyName": "Rogers",
+            "affiliation": {
+                "@id": "https://ror.org/04zjtrb98",
+                "url": "http://www.odu.edu",
+                "name": "Old Dominion University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04zjtrb98"
+            }
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "email": "bvela002@odu.edu",
+            "givenName": "Brandon",
+            "familyName": "Velasco",
+            "affiliation": {
+                "@id": "https://ror.org/04zjtrb98",
+                "url": "http://www.odu.edu",
+                "name": "Old Dominion University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04zjtrb98"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc/4.0",
+        "name": "CC-BY-NC-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "adversarial collaboration",
+        "scientific consensus",
+        "self-governing reward algorithm"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/88f5e9c6-1dce-4862-ae08-b3ce345768d6/releases/1.0.0/",
+    "dateCreated": "2023-05-13",
+    "description": "Package for simulating the behavior of experts in a scientific-forecasting competition, where the outcome of experiments itself depends on expert consensus. We pay special attention to the interplay between expert bias and trust in the reward algorithm. The package allows the user to reproduce results presented  in  arXiv:2305.04814, as well as testing of other different scenarios. ",
+    "downloadUrl": "https://www.comses.net/codebases/88f5e9c6-1dce-4862-ae08-b3ce345768d6/releases/1.0.0/download/",
+    "dateModified": "2023-05-14",
+    "releaseNotes": "Package for simulating the behavior of experts in a scientific-forecasting competition, where the outcome of experiments itself depends on expert consensus. We play special attention to the interplay between expert bias and trust in the reward algorithm itself. \nThe package allows the user to reproduce results presented  in  arXiv:2305.04814, as well as other different scenarios. ",
+    "copyrightYear": 2023,
+    "datePublished": "2023-05-14",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Mathematica"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Mathematica",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

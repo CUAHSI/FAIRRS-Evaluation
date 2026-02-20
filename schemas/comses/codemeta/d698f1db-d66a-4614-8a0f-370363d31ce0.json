@@ -1,0 +1,60 @@
+{
+    "@id": "https://www.comses.net/codebases/d698f1db-d66a-4614-8a0f-370363d31ce0/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/d698f1db-d66a-4614-8a0f-370363d31ce0/releases/1.0.0/",
+    "name": "Demography, Industry and Residential Choice (DIReC) model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-6491-3851",
+            "@type": "Person",
+            "email": "bobogejiaqi@hotmail.com",
+            "givenName": "Jiaqi",
+            "familyName": "Ge",
+            "affiliation": {
+                "@id": "https://ror.org/024mrxd33",
+                "url": "http://www.leeds.ac.uk/",
+                "name": "University of Leeds",
+                "@type": "Organization",
+                "identifier": "https://ror.org/024mrxd33"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based computational economics",
+        "agent-based model",
+        "demography",
+        "residential choice"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/d698f1db-d66a-4614-8a0f-370363d31ce0/releases/1.0.0/",
+    "dateCreated": "2019-09-04",
+    "description": "The integrated and spatially-explicit ABM, called DIReC (Demography, Industry and Residential Choice), has been developed for Aberdeen City and the surrounding Aberdeenshire (Ge, Polhill, Craig, & Liu, 2018). The model includes demographic (individual and household) models, housing infrastructure and occupancy, neighbourhood quality and evolution, employment and labour market, business relocation, industrial structure, income distribution and macroeconomic indicators. DIReC includes a detailed spatial housing model, basing preference models on house attributes and multi-dimensional neighbourhood qualities (education, crime, employment etc.).\nThe dynamic ABM simulates the interactions between individuals, households, the labour market, businesses and services, neighbourhoods and economic structures. It is empirically grounded using multiple data sources, such as income and gender-age distribution across industries, neighbourhood attributes, business locations, and housing transactions. It has been used to study the impact of economic shocks and structural changes, such as the crash of oil price in 2014 (the Aberdeen economy heavily relies on the gas and oil sector) and the city\u2019s transition from resource-based to a green economy (Ge, Polhill, Craig, & Liu, 2018).",
+    "downloadUrl": "https://www.comses.net/codebases/d698f1db-d66a-4614-8a0f-370363d31ce0/releases/1.0.0/download/",
+    "dateModified": "2021-02-25",
+    "releaseNotes": "The model is developed in Repast Symphony and written in Java.",
+    "copyrightYear": 2019,
+    "datePublished": "2019-09-04",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Repast"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

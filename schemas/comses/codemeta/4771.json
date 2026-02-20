@@ -1,0 +1,68 @@
+{
+    "@id": "https://www.comses.net/codebases/4771/releases/1.3.0/",
+    "url": "https://www.comses.net/codebases/4771/releases/1.3.0/",
+    "name": "A multithreaded PPHPC replication in Java",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-8487-5837",
+            "@type": "Person",
+            "email": "faken@fakenmc.com",
+            "givenName": "Nuno",
+            "familyName": "Fachada",
+            "affiliation": {
+                "url": "https://www.ulusofona.pt/",
+                "name": "Universidade Lus\u00f3fona de Humanidades e Tecnologias",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-8487-5837",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://opensource.org/licenses/BSD-2-Clause",
+        "name": "BSD-2-Clause",
+        "@type": "CreativeWork"
+    },
+    "version": "1.3.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Fachada N, Lopes VV, Martins RC, Rosa AC. (2015) Towards a standard model for research in agent-based modeling and simulation. PeerJ Computer Science 1:e36 https://dx.doi.org/10.7717/peerj-cs.36",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "multithreading",
+        "parallel simulation",
+        "predator-prey",
+        "shared memory",
+        "spatial agent-based model"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4771/releases/1.3.0/",
+    "dateCreated": "2016-01-19",
+    "description": "A multithreaded Java implementation of the [PPHPC](https://www.openabm.org/model/4693/) Agent-Based Model, developed with two goals in mind: \r\n\r\n1. Compare the performance of this implementation with an existing NetLogo implementation.\r\n2. Study how different parallelization strategies impact simulation performance on a shared memory architecture.",
+    "downloadUrl": "https://www.comses.net/codebases/4771/releases/1.3.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "Update reference article with final published version.",
+    "copyrightYear": 2016,
+    "datePublished": "2016-01-19",
+    "operatingSystem": "platform_independent",
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Fachada, N., Lopes, V.V., Martins, R.C., Rosa, A.C., Parallelization strategies for spatial agent-based models, International Journal of Parallel Programming, 2016, http://dx.doi.org/10.1007/s10766-015-0399-9 (arXiv preprint available at http://arxiv.org/abs/1507.04047)"
+}

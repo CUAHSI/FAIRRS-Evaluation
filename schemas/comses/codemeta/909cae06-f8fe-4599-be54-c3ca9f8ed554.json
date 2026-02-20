@@ -1,0 +1,114 @@
+{
+    "@id": "https://doi.org/10.25937/qwe6-zw45",
+    "url": "https://doi.org/10.25937/qwe6-zw45",
+    "name": "Yards",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-3906-3044",
+            "@type": "Person",
+            "email": "eminor@uic.edu",
+            "givenName": "Emily",
+            "familyName": "Minor",
+            "affiliation": {
+                "@id": "https://ror.org/047426m28",
+                "url": "http://illinois.edu/",
+                "name": "University of Illinois Urbana-Champaign",
+                "@type": "Organization",
+                "identifier": "https://ror.org/047426m28"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/3145/",
+            "@type": "Person",
+            "email": "sgarci86@uic.edu",
+            "givenName": "Soraida",
+            "familyName": "Garcia",
+            "affiliation": {
+                "@id": "https://ror.org/047426m28",
+                "url": "http://illinois.edu/",
+                "name": "University of Illinois Urbana-Champaign",
+                "@type": "Organization",
+                "identifier": "https://ror.org/047426m28"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/574/",
+            "@type": "Person",
+            "email": "steve@langrailsback.com",
+            "affiliation": {
+                "url": "http://www.langrailsback.com/",
+                "name": "Lang, Railsback & Assoc.",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "email": "pjohns5@uic.edu",
+            "givenName": "Philip",
+            "familyName": "Johnson",
+            "affiliation": {
+                "@id": "https://ror.org/047426m28",
+                "url": "http://illinois.edu/",
+                "name": "University of Illinois Urbana-Champaign",
+                "@type": "Organization",
+                "identifier": "https://ror.org/047426m28"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Minor ES, Lopez B, Smith A, Johnson P. 2023. Plant communities in Chicago residential neighborhoods show distinct spatial patterns. Landscape and Urban Planning 232, 104663 https://doi.org/10.1016/j.landurbplan.2022.104663",
+            "@type": "CreativeWork"
+        },
+        {
+            "text": "no",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "coupled socio-ecological system",
+        "environmental management",
+        "human-environment interactions",
+        "residential landscapes",
+        "urban ecology"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/qwe6-zw45",
+        "https://doi.org/10.25937/qwe6-zw45"
+    ],
+    "dateCreated": "2023-08-01",
+    "description": "This is a model of plant communities in urban and suburban residential neighborhoods. These plant communities are of interest because they provide many benefits to human residents and also provide habitat for wildlife such as birds and pollinators. The model was designed to explore the social factors that create spatial patterns in biodiversity in yards and gardens. In particular, the model was originally developed to determine whether mimicry behaviors\u2013-or neighbors copying each other\u2019s yard design\u2013-could produce observed spatial patterns in vegetation. Plant nurseries and socio-economic constraints were also added to the model as other potential sources of spatial patterns in plant communities.\n\nThe idea for the model was inspired by empirical patterns of spatial autocorrelation that have been observed in yard vegetation in Chicago, Illinois (USA), and other cities, where yards that are closer together are more similar than yards that are farther apart. The idea is further supported by literature that shows that people want their yards to fit into their neighborhood. Currently, the yard attribute of interest is the number of plant species, or species richness. Residents compare the richness of their yards to the richness of their neighbors\u2019 yards. If a resident\u2019s yard is too different from their neighbors, the resident will be unhappy and change their yard to make it more similar.\n\nThe model outputs information about the diversity and identity of plant species in each yard. This can be analyzed to look for spatial autocorrelation patterns in yard diversity and to explore relationships between mimicry behaviors, yard diversity, and larger scale diversity.",
+    "downloadUrl": "https://www.comses.net/codebases/909cae06-f8fe-4599-be54-c3ca9f8ed554/releases/1.0.0/download/",
+    "dateModified": "2023-11-08",
+    "releaseNotes": "This is the first version of the Yards model. It was written in Netlogo 6.2.2. It requires an input file to run (SpeciesList.csv), which is a csv file that includes all the plant species in the landscape and their relative abundances. It creates several output files in csv format.",
+    "copyrightYear": 2023,
+    "datePublished": "2023-11-02",
+    "embargoEndDate": "2024-08-01",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo 6.2.2"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo 6.2.2",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "no"
+}

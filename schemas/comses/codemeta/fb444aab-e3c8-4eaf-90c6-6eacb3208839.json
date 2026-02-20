@@ -1,0 +1,70 @@
+{
+    "@id": "https://doi.org/10.25937/fvxb-jd47",
+    "url": "https://doi.org/10.25937/fvxb-jd47",
+    "name": "An IBM of a fishing fleet exploiting a pelagic resource and with a fisher management system.  A preliminary version.",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-9188-2437",
+            "@type": "Person",
+            "email": "pbh@le.ac.uk",
+            "givenName": "Paul",
+            "familyName": "Hart",
+            "affiliation": {
+                "@id": "https://ror.org/04h699437",
+                "url": "http://www.le.ac.uk/",
+                "name": "University of Leicester",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04h699437"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "No",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "fisheries management",
+        "Pelagic fishery",
+        "Self management"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/fvxb-jd47",
+        "https://doi.org/10.25937/fvxb-jd47"
+    ],
+    "dateCreated": "2024-03-14",
+    "description": "A fisher directed management system was describeded by Hart (2021). It was proposed that fishers should only be allowed to exploit a resource if they collaborated in a resource management system for which they would own and be collectively responsible for. As part of the system fishers would need to follow the rules of exploitation set by the group and provide a central unit with data with which to monitor the fishery. Any fisher not following the rules would at first be fined but eventually expelled from the fishery if he/she continued to act selfishly. This version of the model establishes the dynamics of a fleet of vessels and controls overfishing by imposing fines on fishers whose income is low and who are tempted to keep fishing beyond the set quota which is established each year depending on the abundance of the fish stock. This version will later be elaborated to have interactions between the fishers including pressure to comply with the norms set by the group and which could lead to a stable management system.",
+    "downloadUrl": "https://www.comses.net/codebases/fb444aab-e3c8-4eaf-90c6-6eacb3208839/releases/1.0.0/download/",
+    "dateModified": "2024-12-05",
+    "releaseNotes": "My version 1.3",
+    "copyrightYear": 2024,
+    "datePublished": "2024-03-19",
+    "embargoEndDate": "2024-03-14",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo 6.2.2"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Agent-Based Modelling - Software engineering - Information Systems and Social Networks",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Hart, P.J.B. (2021) https://doi.org/10.1016/j.marpol.2021.104421"
+}

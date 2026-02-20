@@ -1,0 +1,52 @@
+{
+    "@id": "https://www.comses.net/codebases/2289/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/2289/releases/1.0.0/",
+    "name": "Population Control",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/532/",
+            "@type": "Person",
+            "email": "dshanafe@asu.edu",
+            "givenName": "David",
+            "familyName": "Shanafelt"
+        },
+        {
+            "@id": "https://www.comses.net/users/532/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2289/releases/1.0.0/",
+    "dateCreated": "2010-12-13",
+    "description": "This model looks at the effects of a \"control\" on agent populations.  Much like farmers spraying pesticides/herbicides to manage pest populations, the user sets a control management regiment to be used in the patch environment.  Agents also evolve an optimum dispersal rate for a given combination of controls.\r\n\r\nThe model is a modification of one described in The American Naturalist by Poethke et al. (2003).  There the author investigates the emergence of optimum dispersal rates for density-dependent and independent local extinction events.",
+    "downloadUrl": "https://www.comses.net/codebases/2289/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "@id": "https://www.comses.net/codebases/72d1d19f-1fd5-463f-8cf3-ba13f26d4fa6/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/72d1d19f-1fd5-463f-8cf3-ba13f26d4fa6/releases/1.0.0/",
+    "name": "Household Energy Retrofit Behavior (HERB) ABM",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-0976-028X",
+            "@type": "Person",
+            "email": "lars.egner91@gmail.com",
+            "givenName": "Lars Even",
+            "familyName": "Egner"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "behavior",
+        "energy retrofitting"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/72d1d19f-1fd5-463f-8cf3-ba13f26d4fa6/releases/1.0.0/",
+    "dateCreated": "2021-08-11",
+    "description": "The HERB model simulates the retrofit behavior of homeowners in a neighborhood. The model initially parameterizes a neighborhood and households with technical factors such as energy standard, the availability of subsidies, and neighbors\u2019 retrofit activity. Then, these factors are translated into psychological variables such as perceived comfort gain, worry about affording the retrofit, and perceiving the current energy standard of the home as wasteful. These psychological variables moderate the transition between four different stages of deciding to retrofit, as suggested by a behavioral model specific to household energy retrofitting identified based on a large population survey in Norway. The transition between all stages eventually leads to retrofitting, which affects both the household\u2019s technical factors and friends and neighbors, bringing the model \u201cfull circle\u201d. The model assumes that the energy standard of the buildings deteriorates over time, forcing households to retrofit regularly to maintain a certain energy standard.\n\nBecause experiment datafiles are about 15GB, they are available at https://doi.org/10.18710/XOSAMD",
+    "downloadUrl": "https://www.comses.net/codebases/72d1d19f-1fd5-463f-8cf3-ba13f26d4fa6/releases/1.0.0/download/",
+    "dateModified": "2022-10-20",
+    "releaseNotes": "First release.",
+    "copyrightYear": 2022,
+    "datePublished": "2022-10-20",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

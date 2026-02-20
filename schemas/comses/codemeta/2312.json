@@ -1,0 +1,71 @@
+{
+    "@id": "https://www.comses.net/codebases/2312/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/2312/releases/1.1.0/",
+    "name": "An agent-based model for assessing strategies of adaptation to climate and tourism demand changes in an alpine destination",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/224/",
+            "@type": "Person",
+            "email": "stef.balbi@gmail.com",
+            "givenName": "Stefano",
+            "familyName": "Balbi",
+            "affiliation": {
+                "name": "Ca' Foscari University",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Marco",
+            "familyName": "Alberti"
+        },
+        {
+            "@id": "https://www.comses.net/users/224/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc/4.0",
+        "name": "CC-BY-NC-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "alpineregion",
+        "climate change adaptation",
+        "local development",
+        "winter tourism"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2312/releases/1.1.0/",
+    "dateCreated": "2012-12-09",
+    "description": "A vast body of literature suggests that the European Alpine Region is amongst the most sensitive socio-ecosystems to climate change impacts. Our model represents the winter tourism socio-ecosystem of Auronzo di Cadore, located in the Dolomites (Italy), which economic and environmental conditions are highly vulnerable to climate variations. This agent-based model includes eight types of agents corresponding to different winter tourist profiles based on their socio-economic background and activity targets. The model is calibrated with empirical data while results are authenticated through direct interaction of local stakeholders with the model. The model is then used for assessing three hypothetical and contrasted infrastructure-oriented adaptation strategies for the winter tourism industry, that have been previously discussed with local stakeholders, as possible alternatives to the \u201cbusiness-as-usual\u201d situation. These strategies are tested against multiple future scenarios that include: (a) future weather conditions in terms of snow cover and temperature, (b) the future composition and total number of tourists and (c) the type of market competition. A set of socio-economic indicators, which are strongly coupled with relevant environmental consequences, are considered in order to draw conclusions on the robustness of the selected strategies",
+    "downloadUrl": "https://www.comses.net/codebases/2312/releases/1.1.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "linux",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    },
+    "referencePublication": "Balbi, S., Giupponi, C., Perez, P., & Alberti, M. (2012). A spatial agent-based model for assessing strategies of adaptation to climate and tourism demand changes in an alpine tourism destination. Environmental Modelling & Software."
+}

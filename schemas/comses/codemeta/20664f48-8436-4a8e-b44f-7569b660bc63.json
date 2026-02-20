@@ -1,0 +1,59 @@
+{
+    "@id": "https://www.comses.net/codebases/20664f48-8436-4a8e-b44f-7569b660bc63/releases/0.1.0/",
+    "url": "https://www.comses.net/codebases/20664f48-8436-4a8e-b44f-7569b660bc63/releases/0.1.0/",
+    "name": "FoxNet",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-0141-020X",
+            "@type": "Person",
+            "email": "hradskyb@unimelb.edu.au"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "0.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "individual-based model",
+        "population dynamics",
+        "predator",
+        "predator control",
+        "productivity",
+        "Vulpes vulpes"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/20664f48-8436-4a8e-b44f-7569b660bc63/releases/0.1.0/",
+    "dateCreated": "2019-02-01",
+    "description": "FoxNet is an individual-based modelling framework that can be customised to generate high-resolution red fox *Vulpes vulpes* population models for both northern and southern hemispheres.  FoxNet predicts red fox population dynamics, including responses to control and landscape productivity. Model landscapes (up to ~15,000 km^2 and bait layouts can be generated within FoxNet or imported as GIS layers. \n\nIf you use FoxNet, please cite:\n\n> Hradsky BA, Kelly L, Robley A, Wintle BA (in review). FoxNet: an individual-based modelling framework to support red fox management. *Journal of Applied Ecology*.",
+    "downloadUrl": "https://www.comses.net/codebases/20664f48-8436-4a8e-b44f-7569b660bc63/releases/0.1.0/download/",
+    "dateModified": "2019-02-01",
+    "releaseNotes": "To run FoxNet, save all files in the \"code\" folder to a \"foxnet\" folder on your computer.\n\nYou will need to install Netlogo 6.0.2, which can be freely downloaded from https://ccl.northwestern.edu/netlogo/. ",
+    "copyrightYear": 2019,
+    "datePublished": "2019-02-01",
+    "codeRepository": "https://github.com/bhradsky/foxnet",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo",
+        "R"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "R",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

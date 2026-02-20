@@ -1,0 +1,89 @@
+{
+    "@id": "https://www.comses.net/codebases/3939/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/3939/releases/1.1.0/",
+    "name": "Land-Livelihood Transitions",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/564/",
+            "@type": "Person",
+            "email": "nrmagliocca@ua.edu",
+            "givenName": "Nicholas",
+            "familyName": "Magliocca",
+            "affiliation": {
+                "@id": "https://ror.org/02qskvh78",
+                "url": "http://www.umbc.edu/",
+                "name": "University of Maryland, Baltimore County",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02qskvh78"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Daniel",
+            "familyName": "Brown"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Erle",
+            "familyName": "Ellis"
+        },
+        {
+            "@id": "https://www.comses.net/users/564/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based virtual laboratory",
+        "generalized",
+        "land-use change",
+        "livelihood strategies",
+        "transitions"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3939/releases/1.1.0/",
+    "dateCreated": "2013-09-13",
+    "description": "Using \u2018induced intensification\u2019 theory as a benchmark, we develop a generalized agent-based model to investigate mechanistic explanations of relationships between agricultural intensity and population density, environmental suitability, and market influence. Land-use and livelihood decisions modeled from basic micro-economic theories generated spatial and temporal patterns of agricultural intensification consistent with predictions of induced intensification theory. Further, agent actions in response to conditions beyond those described by induced intensification theory were explored, revealing that interactions among environmental constraints, population pressure, and market influence may produce transitions to multiple livelihood regimes of varying market integration. The result is new hypotheses that could modify and enrich understanding of the classic relationship between agricultural intensity and population density. The strength of this agent-based model and the experimental results is the generalized form of the decision-making processes underlying land-use and livelihood transitions, creating the prospect of a virtual laboratory for systematically generating hypotheses of how agent decisions and interactions relate to observed land-use and livelihood patterns across diverse land systems.",
+    "downloadUrl": "https://www.comses.net/codebases/3939/releases/1.1.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "ABVL v0.1",
+    "copyrightYear": 2013,
+    "datePublished": "2013-09-13",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "MatLab"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "MatLab",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Magliocca NR, Brown DG, Ellis EC (2013) Exploring Agricultural Livelihood Transitions with an Agent-Based Virtual Laboratory: Global Forces to Local Decision-Making. PLoS ONE 8(9): e73241. doi:10.1371/journal.pone.0073241"
+}

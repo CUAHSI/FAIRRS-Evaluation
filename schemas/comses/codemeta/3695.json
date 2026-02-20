@@ -1,0 +1,108 @@
+{
+    "@id": "https://www.comses.net/codebases/3695/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/3695/releases/1.1.0/",
+    "name": "Modeling The Transition to Public School Choice (Model II from paper)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1030/",
+            "@type": "Person",
+            "email": "spiro.maroulis@asu.edu",
+            "givenName": "Spiro",
+            "familyName": "Maroulis",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "ebakshy@umich.edu",
+            "givenName": "Eytan",
+            "familyName": "Bakshy",
+            "affiliation": {
+                "@id": "https://ror.org/00jmfr291",
+                "url": "https://www.umich.edu",
+                "name": "University of Michigan\u2013Ann Arbor",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00jmfr291"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Louis",
+            "familyName": "Gomez"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "email": "uri@northwestern.edu",
+            "givenName": "Uri",
+            "familyName": "Wilensky",
+            "affiliation": {
+                "@id": "https://ror.org/000e0be47",
+                "url": "http://www.northwestern.edu/",
+                "name": "Northwestern University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/000e0be47"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1030/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3695/releases/1.1.0/",
+    "dateCreated": "2013-08-27",
+    "description": "Abstract from Paper:\r\nWe develop an agent-based model that captures the dynamic processes related to moving from an educational system where the school a student attends is based on assignment to a neighborhood school, to one that gives households more choice among existing and newly formed public schools.  Analysis of our model reveals the importance of considering the timing of the entrance of new schools into the system, in addition to their quantity and quality.  Our model further reveals a range of conditions where the more households emphasize school achievement relative to geographic proximity in their school choice decision, the lower the mean achievement of the district  -- a paradoxical mismatch between micro- and macro-levels of behavior.  We use data from Chicago Public Schools to initialize the model in a plausible manner.",
+    "downloadUrl": "https://www.comses.net/codebases/3695/releases/1.1.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-08-27",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

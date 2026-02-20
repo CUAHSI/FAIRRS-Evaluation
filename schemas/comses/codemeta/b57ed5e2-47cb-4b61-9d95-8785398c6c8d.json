@@ -1,0 +1,102 @@
+{
+    "@id": "https://doi.org/10.25937/jbhg-yk53",
+    "url": "https://doi.org/10.25937/jbhg-yk53",
+    "name": "Routes & Rumours 0.1.1",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-7059-7266",
+            "@type": "Person",
+            "email": "hinsch.martin@gmail.com",
+            "givenName": "Martin",
+            "familyName": "Hinsch"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Jakub",
+            "familyName": "Bijak"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "This is a substantially modified version of the model described in:\nHinsch M and Bijak J (2019): Rumours lead to self-organized migration routes. Online proceedings of the 2019 International Workshop on Agent-Based Modelling of Human Behaviour (ABMHuB), Artificial Life conference, ALife 2019, url: http://abmhub.cs.ucl.ac.uk/2019/papers/Hinsch_Bijak.pdf",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "belief dynamics",
+        "diffusion of information",
+        "human behaviour",
+        "Julia",
+        "migration",
+        "migration routes"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/jbhg-yk53",
+        "https://doi.org/10.25937/jbhg-yk53"
+    ],
+    "contributor": [
+        {
+            "@id": "_:contributor_1",
+            "@type": "Person",
+            "email": "oliver.reinhardt@uni-rostock.de",
+            "givenName": "Oliver",
+            "familyName": "Reinhardt",
+            "affiliation": {
+                "@id": "https://ror.org/03zdwsf69",
+                "url": "http://www.uni-rostock.de/en/",
+                "name": "University of Rostock",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03zdwsf69"
+            }
+        },
+        {
+            "@id": "_:contributor_1",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "dateCreated": "2021-10-18",
+    "description": "Routes & Rumours is an agent-based model of (forced) human migration. We model the formation of migration routes under the assumption that migrants have limited geographical knowledge concerning the transit area and rely to a large degree on information obtained from other migrants.",
+    "downloadUrl": "https://www.comses.net/codebases/b57ed5e2-47cb-4b61-9d95-8785398c6c8d/releases/1.1.0/download/",
+    "dateModified": "2024-12-05",
+    "releaseNotes": "First official release.",
+    "copyrightYear": 2022,
+    "datePublished": "2022-07-12",
+    "codeRepository": "https://github.com/mhinsch/rgct_data",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "None"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Julia",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "julia-lang",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Hinsch  M and Bijak J (2021): Principles and state of the art of agent-based migration modelling. Chapter 3 in Bijak, J. Towards Bayesian Model-Based Demography: Agency, Complexity and Uncertainty in Migration Studies. Methodos Series Vol. 17. Dordecht: Springer."
+}

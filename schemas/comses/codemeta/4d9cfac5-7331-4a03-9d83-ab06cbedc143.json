@@ -1,0 +1,140 @@
+{
+    "@id": "https://doi.org/10.25937/xzxh-7667",
+    "url": "https://doi.org/10.25937/xzxh-7667",
+    "name": "FIBE - FIsher BEhaviour model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-4636-315X",
+            "@type": "Person",
+            "email": "nwijermans@gmail.com",
+            "givenName": "Nanda",
+            "familyName": "Wijermans",
+            "affiliation": {
+                "@id": "https://ror.org/05f0yaq80",
+                "url": "http://www.su.se/english/",
+                "name": "Stockholm Resilience Center, Stockholm University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05f0yaq80"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-7780-1039",
+            "@type": "Person",
+            "email": "maja.schlueter@su.se",
+            "givenName": "Maja",
+            "familyName": "Schl\u00fcter",
+            "affiliation": {
+                "@id": "https://ror.org/0145rpw38",
+                "url": "http://www.stockholmresilience.org",
+                "name": "Stockholm Resilience Centre, Stockholm University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0145rpw38"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-6255-2335",
+            "@type": "Person",
+            "email": "kirill.orach@su.se",
+            "givenName": "Kirill",
+            "familyName": "Orach"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "email": "wijnand.boonstra@su.se",
+            "givenName": "Wijnand",
+            "familyName": "Boonstra",
+            "affiliation": {
+                "@id": "https://ror.org/05f0yaq80",
+                "url": "http://www.su.se/english/",
+                "name": "Stockholm University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05f0yaq80"
+            }
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Person",
+            "email": "jonas.sundberg@slu.se",
+            "givenName": "Jonas",
+            "familyName": "Hentati-Sundberg",
+            "affiliation": {
+                "@id": "https://ror.org/02yy8x990",
+                "url": "http://www.slu.se/en/",
+                "name": "Swedish University of Agricultural Sciences",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02yy8x990"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-4636-315X",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-7780-1039",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-6255-2335",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "ABM",
+        "agent-based social simulation",
+        "fishery",
+        "human behaviour",
+        "NetLogo",
+        "social-ecological"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/xzxh-7667",
+        "https://doi.org/10.25937/xzxh-7667"
+    ],
+    "dateCreated": "2019-07-24",
+    "description": "FIBE represents a simple fishery model. Fish that reproduce and fisher with different fishing styles that fish as their main source of income. The aim of the model is to reflect the different fishing behaviours as described and observed in the (Swedish) Baltic Sea fishery and explore the consequences of different approximations of human/fisher behaviour in under different environmental and managerial scenarios.\n\nThe overarching aim is to advance the incorporation and understanding of human behaviour (diversity) in fisheries research and management. In particular focusing on insights from social (fishery) science of fisher behaviour.",
+    "downloadUrl": "https://www.comses.net/codebases/4d9cfac5-7331-4a03-9d83-ab06cbedc143/releases/1.0.0/download/",
+    "dateModified": "2022-06-10",
+    "releaseNotes": "Version 1.0",
+    "copyrightYear": 2020,
+    "datePublished": "2020-04-20",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Wijermans, N., Boonstra, W.J., Orach, K., Hentati-Sundberg, J., Schl\u00fcter, M. (2020). Behavioural diversity in fishing - Towards a next generation of fishery models. Fish and Fisheries, 274(2), 30\u201319. https://doi.org/10.1111/faf.12466"
+}

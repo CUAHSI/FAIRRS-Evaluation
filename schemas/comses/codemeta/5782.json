@@ -1,0 +1,78 @@
+{
+    "@id": "https://www.comses.net/codebases/5782/releases/2.0.0/",
+    "url": "https://www.comses.net/codebases/5782/releases/2.0.0/",
+    "name": "Least cost path mobility",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-1324-7937",
+            "@type": "Person",
+            "email": "cgravelm@asu.edu",
+            "givenName": "Claudine",
+            "familyName": "Gravel-Miguel",
+            "affiliation": {
+                "@id": "https://ror.org/00d9ah105",
+                "url": "http://www.ucmerced.edu/",
+                "name": "University of California, Merced",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00d9ah105"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-4940-3997",
+            "@type": "Person",
+            "email": "cwren@uccs.edu",
+            "givenName": "Colin",
+            "familyName": "Wren",
+            "affiliation": {
+                "@id": "https://ror.org/054spjc55",
+                "url": "http://www.uccs.edu/",
+                "name": "University of Colorado Colorado Springs",
+                "@type": "Organization",
+                "identifier": "https://ror.org/054spjc55"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-1324-7937",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-4940-3997",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc/4.0",
+        "name": "CC-BY-NC-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "2.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5782/releases/2.0.0/",
+    "dateCreated": "2017-09-02",
+    "description": "This model tries to mimic human behavior in a topographical environment. It aims to go beyond the GIS approach to least-cost path that requires perfect knowledge of the whole environment to choose the best path between two points. This model is different in that the agent does not have a perfect knowledge of the whole surface, but rather evaluates the best path locally, at each step, thus mimicking imperfect human behavior more accurately. It relies on the work by Naismith (1892, in Aitken 1977) and Langmuir (1984) on walking time expenditure in rugged environments. Their walking time values are used to calculate the agent\u2019s travel time.\n\nv. 1.3.0 introduces the Lorentz mobility algorithm, created by Campbell et al. (2019) using fitness trackers. It also allows for multiple hikers and goals.",
+    "downloadUrl": "https://www.comses.net/codebases/5782/releases/2.0.0/download/",
+    "dateModified": "2021-10-04",
+    "releaseNotes": "This new release is a more user-friendly version of the model. On modes Grid, Import, and startRadius, it creates multiple hikers and goals to avoid having to run the model multiple times to iterate through combinations of start-end points. \n\nIt also introduces the Lorentz algorithm to calculate walking speed, which is calibrated based on fitness tracking data collated and analyzed by Campbell et al. (2019).\n\n**For this version, the user no longer needs to move the GIS maps to a different folder. The GIS maps should stay in the folder structure found when downloading the model (GIS maps in *data*, model in *code*).**",
+    "copyrightYear": 2021,
+    "datePublished": "2021-10-04",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

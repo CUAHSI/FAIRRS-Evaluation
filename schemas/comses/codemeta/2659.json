@@ -1,0 +1,64 @@
+{
+    "@id": "https://www.comses.net/codebases/2659/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/2659/releases/1.0.0/",
+    "name": "Income and Expenditure",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/653/",
+            "@type": "Person",
+            "email": "tlawso@essex.ac.uk",
+            "givenName": "Tony",
+            "familyName": "Lawson",
+            "affiliation": {
+                "@id": "https://ror.org/02nkf1q06",
+                "url": "http://www.essex.ac.uk/",
+                "name": "University of Essex",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02nkf1q06"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/653/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "assignment",
+        "expenditure",
+        "food",
+        "income",
+        "NetLogo",
+        "random"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2659/releases/1.0.0/",
+    "dateCreated": "2011-10-06",
+    "description": "This model represents the effect of changes in real household income on expenditure for food, housing, gas, electricity and mortgage.\r\n\r\nEngel's law states that the proportion of income spent on food decreases as income increases. This model estimates changes in budget share on the principles that households that have similar incomes have similar spending patterns and that households respond to changes in income by becoming more like households in the new income bracket. The model investigates whether Engel's Law emerges from the application of these simple principles.\r\n\r\nThe program loads in data from the 1991 BHPS covering a range of demographic and expenditure parameters. It then advances the population over time. Real household income is varied to determine its effect on budget shares for food, housing, gas, electricity and mortgage.\r\n\r\nAfter loading in all the data, households are classified into six demographic types:\r\n\r\n1. Single person, non-pensionable (1 person aged under 65 if male and under 60 if female)\r\n\r\n2. Single person, pensionable (1 person aged 65 and over if male and 60 or over if female)\r\n\r\n3. Two adults (two individuals, both aged 16 or over)\r\n\r\n4. Two adults with one or more children (two individuals aged 16 or over as well as one or more aged under 16)\r\n\r\n5. One adult with one or more children (one person aged 16 or over with one or more aged under 16)\r\n\r\n6. All other types\r\n\r\nThen, for each simulated year, household incomes are changed by the amount shown on the change_in_real_income slider. Each household is processed in turn. First, the income of the current household is changed by the appropriate number of percentage points. The new income is stored as the 'targetincome'. Next a search is made for a household that has the same demographic type and also has a current income as close as possible to the current household's targetincome. Since there may not be an exact match on incomes, by an even probability, the next higher or lower income household is chosen. If there is no higher or lower income household, the current household's income and expenditures are all varied in proportion to the desired precentage change in income.\r\n\r\nWhen an appropriate household is located, its income and expenditure pattern is copied to a set of global variables. These are then copied to a set of temporary variables within the current household. The new mean household income for the whole population is then calculated and compared with what it would be when all household incomes have been changed by the required percentage. Households continue to be processed until the actual mean household income reaches this figure. At this point, all household temporary variables are copied to the household's working expenditure variables ready for the next year's processing or for output.\r\n\r\nWhen all the households have been updated, the program calculates some summary statistics then outputs them on the user interface as graphs or numerically.\r\n\r\nThe program runs forward in time for the number of years specified on the stop_after input box.",
+    "downloadUrl": "https://www.comses.net/codebases/2659/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    }
+}

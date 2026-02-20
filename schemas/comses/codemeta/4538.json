@@ -1,0 +1,76 @@
+{
+    "@id": "https://www.comses.net/codebases/4538/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4538/releases/1.0.0/",
+    "name": "Resource distribution effects on optimal foraging theory",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Person",
+            "email": "marco.janssen@asu.edu",
+            "givenName": "Marco",
+            "familyName": "Janssen",
+            "affiliation": {
+                "url": "https://schoolofsustainability.asu.edu/",
+                "name": "School of Sustainability",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Kim",
+            "familyName": "Hill"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "ache",
+        "anthropology",
+        "hunting",
+        "optimal foraging theory",
+        "resource distribution"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4538/releases/1.0.0/",
+    "dateCreated": "2017-01-27",
+    "description": "Using an empirically grounded model of hunter-gatherer foraging strategies we examine how different resource distributions affect op-timal group size, movement frequency and average daily return rate per hunter. The total amount of resource in the environment re-mained the same, but are varied to be more dispersed or more clumped resource distributions, and vegetation types are located in a less or more patchy environment.  The results show that the optimal group size is not affected by resource distributions. However, more clumped resources in a more patchy environment lead to much high-er return rates compared to more dispersed and less patchy environ-ments. The more clumped and patchy environment also favor more complex strategies where camps are moved in an adaptive fashion to specific locations in the landscape. Human foragers, by knowing the landscape and the spatial location of better habitats, and moving to facilitate hunting in those areas, gain a substantial advantage from that knowledge.",
+    "downloadUrl": "https://www.comses.net/codebases/4538/releases/1.0.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "This model is an extended version of the original Ache model which can be found at https://www.openabm.org/model/3902/version/2/view",
+    "copyrightYear": 2017,
+    "datePublished": "2017-01-27",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "M.A. Janssen and K. Hill (2016) An agent-based model of resource distribution on hunter-gatherer foraging strategies: clumped habitats favor lower mobility, but result in higher foraging returns, in Simulating Prehistoric and Ancient Worlds, Edited by J.A. Barcel\u00f3 and F. Del Castillo, Springer, 159-174"
+}

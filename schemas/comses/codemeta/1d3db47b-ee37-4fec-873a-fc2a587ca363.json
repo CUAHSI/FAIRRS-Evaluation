@@ -1,0 +1,63 @@
+{
+    "@id": "https://www.comses.net/codebases/1d3db47b-ee37-4fec-873a-fc2a587ca363/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/1d3db47b-ee37-4fec-873a-fc2a587ca363/releases/1.0.0/",
+    "name": "Retail Competition Agent-based Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2361/",
+            "@type": "Person",
+            "email": "j732zhan@edu.uwaterloo.ca",
+            "givenName": "Jiaxin",
+            "familyName": "Zhang"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-4293-1095",
+            "@type": "Person",
+            "email": "derekthomasrobinson@gmail.com",
+            "givenName": "Derek",
+            "familyName": "Robinson",
+            "affiliation": {
+                "@id": "https://ror.org/01aff2v68",
+                "url": "https://uwaterloo.ca/",
+                "name": "University of Waterloo",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01aff2v68"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/1d3db47b-ee37-4fec-873a-fc2a587ca363/releases/1.0.0/",
+    "dateCreated": "2020-12-23",
+    "description": "The Retail Competition Agent-based Model (RC-ABM) is designed to simulate the retail competition system in the Region of Waterloo, Ontario, Canada, which which explicitly represents store competition behaviour. Through the RC-ABM, we aim to answer 4 research questions: 1) What is the level of correspondence between market share and revenue acquisition for an agent-based approach compared to a traditional location-allocation-based approach? 2) To what degree can the observed store spatial pattern be reproduced by competition? 3) To what degree are their path dependent patterns of retail success? 4) What is the relationship between retail survival and the endogenous geographic characteristics of stores and consumer expenditures? ",
+    "downloadUrl": "https://www.comses.net/codebases/1d3db47b-ee37-4fec-873a-fc2a587ca363/releases/1.0.0/download/",
+    "dateModified": "2021-11-10",
+    "releaseNotes": "This model, entitled \u201cRetail Competition Agent-based Model (RC-ABM),\u201d is designed to simulate the home-improvement retail system in the Region of Waterloo, Ontario, Canada. By emphasizing the retail competition behaviours, the RC-ABM aims to answer four research questions: 1) What is the level of correspondence between market share and revenue acquisition for an agent-based approach compared to a traditional location-allocation-based approach? 2) To what degree can competition reproduce the observed store spatial pattern? 3) To what degree are their path-dependent patterns of retail success? 4) What is the relationship between retail survival and the endogenous geographic characteristics of stores and consumer expenditures? Inspired by ecological Niche theory and the idea of Many-Model thinking, we analogize the retail store agent as a species and consumer expenditures as environmental resources, whereby stores compete with each other for revenue derived from consumer expenditures. Moreover, the model\u2019s landscape and most agent geographic characteristics are established based on the realistic GIS vector data. Note: This is the first version of RC-ABM.",
+    "copyrightYear": 2021,
+    "datePublished": "2021-11-10",
+    "embargoEndDate": "2021-12-23",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Zhang, J., 2021. Is competition sufficient to drive observed retail location and revenue patterns? An agent-based case study (Master's thesis, University of Waterloo)."
+}

@@ -1,0 +1,83 @@
+{
+    "@id": "https://www.comses.net/codebases/4589/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4589/releases/1.0.0/",
+    "name": "A Multi-level Multi-model of Collective Motion",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1502/",
+            "@type": "Person",
+            "email": "benjamin.camus@loria.fr",
+            "givenName": "Benjamin",
+            "familyName": "Camus",
+            "affiliation": {
+                "url": "http://www.loria.fr",
+                "name": "LORIA",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Christine",
+            "familyName": "Bourjot"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Vincent",
+            "familyName": "Chevrier"
+        },
+        {
+            "@id": "https://www.comses.net/users/1502/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "collective motion",
+        "multi-agent",
+        "multi-level",
+        "multi-model"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4589/releases/1.0.0/",
+    "dateCreated": "2015-03-25",
+    "description": "This multi-model (i.e. a model composed of interacting submodels) corresponds to a multi-level representation of a collective motion phenomenon. In this example, we consider individuals evolving in a toric space and forming groups. A group is defined here as a set of close enough individuals with similar orientation. This model was designed to study the impact of the mutual influences between individuals and groups on the formation of groups in a collective motion.\r\n\r\nThe multi-model is composed of two multi-agent submodels m and M respectively representing the phenomenon from a micro (individuals) and a macro (groups) perspectives. Each of these submodels is already implemented in separated NetLogo simulator instances. Using the AA4MM (Agent & Artifact for Multi-Modeling) metamodel, the multi-model is described as an Agent & Artifact (A&A) system. \r\n\r\nWe are then considering agents at two levels:\r\n\r\n*   The agents at the models level represent the entities of the system we want to model. These entities correspond to individuals and groups.\r\n\r\n*   The agents at the multi-model level manage the multi-model execution. Such agents are named m-agents.\r\n\r\nAt the multi-model level, we describe the interaction processes between the models, and, therefore, the influences between individuals and groups, thanks to the concept of artifact. We can then compare the simulation results (i.e. number of formed groups as a function of time) of different interaction patterns between models.",
+    "downloadUrl": "https://www.comses.net/codebases/4589/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2015,
+    "datePublished": "2015-03-25",
+    "operatingSystem": "platform_independent",
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "CAMUS B., Bourjot C., Chevrier V. (TBP). \u201cConsidering a Multi-Level Model as a Society of Interacting Models: Application to a Collective Motion Example\". Journal of Artificial Societies and Social Simulation (JASSS)."
+}

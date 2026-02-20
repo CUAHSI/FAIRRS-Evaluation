@@ -1,0 +1,83 @@
+{
+    "@id": "https://www.comses.net/codebases/f787d173-cc1f-48ff-a961-aaa31881fe6a/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/f787d173-cc1f-48ff-a961-aaa31881fe6a/releases/1.1.0/",
+    "name": "A model of opinion dynamics based on formal argumentation: application to the diffusion of the vegetarian diet",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-2939-4827",
+            "@type": "Person",
+            "email": "patrick.taillandier@gmail.com",
+            "givenName": "Patrick",
+            "familyName": "Taillandier",
+            "affiliation": {
+                "url": "http://www.inra.fr",
+                "name": "INRA",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "nsalliou@ethz.ch",
+            "givenName": "Nicolas",
+            "familyName": "Salliou",
+            "affiliation": {
+                "name": "ETH Z \u0308urich, IRL, PLUS",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "rallou.thomopoulos@inra.fr",
+            "givenName": "Rallou",
+            "familyName": "Thomopoulos",
+            "affiliation": {
+                "@id": "https://ror.org/028mkng75",
+                "url": "http://www.ate-cr.cz/home",
+                "name": "ATE (Czechia)",
+                "@type": "Organization",
+                "identifier": "https://ror.org/028mkng75"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.html",
+        "name": "Apache-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "argumentative agents",
+        "dynamics opinion",
+        "GAMA",
+        "GAMA"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/f787d173-cc1f-48ff-a961-aaa31881fe6a/releases/1.1.0/",
+    "dateCreated": "2026-01-07",
+    "description": "This generic agent-based model simulates the evolution of agent's opinions through their exchange of arguments. \nThe idea behind this model is to explicitly represent the process of mental deliberation of agents from arguments to an opinion, through the use of Dung's argumentation framework complemented by a structured description of arguments. An application of the model on the diffusion of vegetarian diets is proposed. \n",
+    "downloadUrl": "https://www.comses.net/codebases/f787d173-cc1f-48ff-a961-aaa31881fe6a/releases/1.1.0/download/",
+    "dateModified": "2026-01-07",
+    "releaseNotes": "Tested using GAMA version 2025.09 and the corresponding Argumentation plugin",
+    "copyrightYear": 2026,
+    "datePublished": "2026-01-07",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "GAMA"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "GAMA",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

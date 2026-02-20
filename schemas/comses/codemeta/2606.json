@@ -1,0 +1,68 @@
+{
+    "@id": "https://www.comses.net/codebases/2606/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/2606/releases/1.0.0/",
+    "name": "Varying effects of connectivity and dispersal on interacting species dynamics",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/125/",
+            "@type": "Person",
+            "email": "kehinde.salau@gmail.com",
+            "givenName": "Kehinde",
+            "familyName": "Salau",
+            "affiliation": {
+                "@id": "https://ror.org/03m2x1q45",
+                "url": "http://www.arizona.edu/",
+                "name": "The University of Arizona",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03m2x1q45"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/125/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "corridor",
+        "density-dependent dispersal",
+        "density-dependentdispersal",
+        "habitatconnectivity",
+        "landscapefragmentation",
+        "metapopulation",
+        "predator-prey"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2606/releases/1.0.0/",
+    "dateCreated": "2011-08-29",
+    "description": "Increased landscape fragmentation can have deleterious effects on terrestrial biodiversity.  The use of protected areas, as islands of conservation, has limits to the extent of biodiversity conservation due to isolation and scale.  As a result, there is a push to transition from solely developing protected areas to policies that also support corridor management.  Given the complexities of multi-species interaction on a fragmented landscape, managers need additional tools to aid in decision-making and policy development.   We develop an agent-based model of a two-patch metapopulation with local predator-prey dynamics and variable, density-dependent species migration.  The goal is to assess how connectivity between patches, given a variety of dispersal schema for the targeted interacting populations, promotes coexistence among predators and prey.",
+    "downloadUrl": "https://www.comses.net/codebases/2606/releases/1.0.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

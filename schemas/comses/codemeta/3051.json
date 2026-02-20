@@ -1,0 +1,57 @@
+{
+    "@id": "https://www.comses.net/codebases/3051/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/3051/releases/1.0.0/",
+    "name": "A simple Multi-Agent System of the Tragedy Of the Commons (MASTOC-s)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/248/",
+            "@type": "Person",
+            "email": "juliaschindler@gmx.net",
+            "givenName": "Julia",
+            "familyName": "Schindler"
+        },
+        {
+            "@id": "https://www.comses.net/users/248/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based",
+        "common-pool",
+        "psychology",
+        "social dilemma",
+        "tragedy of the commons"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3051/releases/1.0.0/",
+    "dateCreated": "2012-06-29",
+    "description": "MASTOC-s is able to replicate Hardin's argument, i.e. when agents are purely selfish the common is becoming depleted. However, when other behavioral preferences are allowed, e.g. the tendency to reciprocate, the valuation of social benefit, fairness, risk aversion, etc., the model shows that the common can be sustained, depending on the preference settings. In contrast to an earlier version of MASTOC-s, i.e. MASTOC (also online here), this newer version does not calculate centralized Nash solutions to determine agents' actions as in MASTOC, but takes a much more natural and less costly approach via decentralized reactive rule-based agent behavior.",
+    "downloadUrl": "https://www.comses.net/codebases/3051/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    },
+    "referencePublication": "Schindler J (2012) A simple agent-based model of the Tragedy of the Commons. 26th European Conference on Modelllng and Simulation ECMS 2012, Conference Proceedings. Troitzsch KG, Moehring M, Lotzmann U (eds.)"
+}

@@ -1,0 +1,148 @@
+{
+    "@id": "https://www.comses.net/codebases/4effb542-f69f-464d-9f96-69f19d36ae8a/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4effb542-f69f-464d-9f96-69f19d36ae8a/releases/1.0.0/",
+    "name": "Netlogo Earned Value Management Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-2890-512X",
+            "@type": "Person",
+            "email": "puga@uabc.edu.mx",
+            "givenName": "Manuel",
+            "familyName": "Casta\u00f1\u00f3n-Puga",
+            "affiliation": {
+                "url": "http://www.uabc.edu.mx",
+                "name": "Universidad Aut\u00f3noma de Baja California ",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "ricardorosales@uabc.edu.mx",
+            "givenName": "Ricardo",
+            "familyName": "Rosales\u2013Cisneros",
+            "affiliation": {
+                "name": "Universidad Aut\u00f3noma de Baja California",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "c.acostap@up.edu.pe",
+            "givenName": "Julio",
+            "familyName": "Acosta\u2013Prado",
+            "affiliation": {
+                "@id": "https://ror.org/005gk0s47",
+                "url": "http://www.upacifico.cl/",
+                "name": "University of the Pacific",
+                "@type": "Organization",
+                "identifier": "https://ror.org/005gk0s47"
+            }
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "email": "Alfredo.Tirado-Ramos@dartmouth.edu",
+            "givenName": "Alfredo",
+            "familyName": "Tirado\u2013Ramos",
+            "affiliation": {
+                "@id": "https://ror.org/049s0rh22",
+                "url": "https://dartmouth.edu/",
+                "name": "Dartmouth College",
+                "@type": "Organization",
+                "identifier": "https://ror.org/049s0rh22"
+            }
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Person",
+            "email": "Camilo.Khatchikian@dartmouth.edu",
+            "givenName": "Camilo",
+            "familyName": "Khatchikian",
+            "affiliation": {
+                "@id": "https://ror.org/049s0rh22",
+                "url": "https://dartmouth.edu/",
+                "name": "Dartmouth College",
+                "@type": "Organization",
+                "identifier": "https://ror.org/049s0rh22"
+            }
+        },
+        {
+            "@id": "_:author_6",
+            "@type": "Person",
+            "email": "e.aburtoc@up.edu.pe",
+            "givenName": "El\u00edas",
+            "familyName": "Aburto\u2013Camacllanqui",
+            "affiliation": {
+                "@id": "https://ror.org/005gk0s47",
+                "url": "http://www.upacifico.cl/",
+                "name": "University of the Pacific",
+                "@type": "Organization",
+                "identifier": "https://ror.org/005gk0s47"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "collaborator"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Role",
+            "roleName": "collaborator"
+        },
+        {
+            "@id": "_:author_6",
+            "@type": "Role",
+            "roleName": "collaborator"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "Agile Development",
+        "Earned Value Management",
+        "Project Management",
+        "Task Board"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4effb542-f69f-464d-9f96-69f19d36ae8a/releases/1.0.0/",
+    "dateCreated": "2022-11-10",
+    "description": "The model aims to illustrate how Earned Value Management (EVM) provides an approach to measure a project's performance by comparing its actual progress against the planned one, allowing it to evaluate trends to formulate forecasts. The instance performs a project execution and calculates the EVM performance indexes according to a Performance Measurement Baseline (PMB), which integrates the description of the work to do (scope), the deadlines for its execution (schedule), and the calculation of its costs and the resources required for its implementation (cost).\n\nSpecifically, we are addressing the following questions: How does the risk of execution delay or advance impact cost and schedule performance? How do the players' number or individual work capacity impact cost and schedule estimations to finish? Regardless of why workers cause delays or produce overruns in their assignments, does EVM assess delivery performance and help make objective decisions?\n\nTo consider our model realistic enough for its purpose, we use the following patterns: The model addresses classic problems of Project Management (PM). It plays the typical task board where workers are assigned to complete a task backlog in project performance. Workers could delay or advance in the task execution, and we calculate the performance using the PMI-recommended Earned Value.",
+    "downloadUrl": "https://www.comses.net/codebases/4effb542-f69f-464d-9f96-69f19d36ae8a/releases/1.0.0/download/",
+    "dateModified": "2023-02-15",
+    "releaseNotes": "Release Netlogo Earned Value Management Model v1.0.0 introduces a task board and Earned Value Management metrics to assess employee agent performance.",
+    "copyrightYear": 2022,
+    "datePublished": "2022-11-24",
+    "codeRepository": "https://github.com/CC-FCQI-UABC/EarnedValueManagement.git",
+    "embargoEndDate": "2022-12-02",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo 6.3.0"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo 6.3.0",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Casta\u00f1\u00f3n-Puga, M.; Rosales-Cisneros, R.F.; Acosta-Prado, J.C.; Tirado-Ramos, A.; Khatchikian, C.; Aburto-Camacllanqui, E. Earned Value Management Agent-Based Simulation Model. Systems 2023, 11, 86. https://doi.org/10.3390/systems11020086"
+}

@@ -1,0 +1,81 @@
+{
+    "@id": "https://www.comses.net/codebases/4873/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4873/releases/1.0.0/",
+    "name": "Relative Agreement Model and Network Structure",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1582/",
+            "@type": "Person",
+            "email": "davidtadelberg@gmail.com",
+            "givenName": "David",
+            "familyName": "Adelberg"
+        },
+        {
+            "@id": "https://www.comses.net/users/1030/",
+            "@type": "Person",
+            "email": "spiro.maroulis@asu.edu",
+            "givenName": "Spiro",
+            "familyName": "Maroulis",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1582/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://www.comses.net/users/1030/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Meadows, Michael and Cliff, Dave (2012) 'Reexamining the Relative Agreement Model of Opinion Dynamics' Journal of Artificial Societies and Social Simulation 15 (4) 4 <http://jasss.soc.surrey.ac.uk/15/4/4.html>.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4873/releases/1.0.0/",
+    "dateCreated": "2016-01-29",
+    "description": "This is an adaptation of the Relative Agreement model of opinion dynamics (Deffuant et al. 2002), which models how extreme, minority views in a population can take hold in a population of individuals who are influenced by each others\u2019 opinions. This particular adaptation extends the Meadows and Cliff (2012) implementation of the Relative Agreement model in a manner that enables the exploration of the effect of the network structure among the agents. This model implements three initial network structures among agents, which bias the likelihood of interaction: fully connected graph (equivalent to the random mixing assuming by the original model), small world network, and preferential attachment (scale-free) network.\r\n\r\nAgents are initialized with heterogeneous opinions expressed as a point on a continuum from -1 to 1. Each agent also has a certain level of confidence in their opinion, which is expressed by a bounded interval around the opinion \u2013 i.e., the narrower the interval, the higher the confidence. \u201cExtremist\u201d agents are defined as those with values less than -0.8 or greater than 0.8. Extremists have a high degree of confidence in their opinion. The remaining agents are classified as \u201cmoderate.\u201d Moderate agents have less confidence in their opinion than extremist agents. As the model runs, agents randomly interact, updating their opinion based on what they learn about their interaction partner\u2019s opinion. The amount an opinion is updated depends on the degree to which their confidence intervals overlap.",
+    "downloadUrl": "https://www.comses.net/codebases/4873/releases/1.0.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "",
+    "copyrightYear": 2016,
+    "datePublished": "2016-01-29",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "@id": "https://www.comses.net/codebases/8824e9f0-d579-48ff-bdeb-65f972810577/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/8824e9f0-d579-48ff-bdeb-65f972810577/releases/1.0.0/",
+    "name": "Rural Industries Supply Chain (RISC) model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-6491-3851",
+            "@type": "Person",
+            "email": "bobogejiaqi@hotmail.com",
+            "givenName": "Jiaqi",
+            "familyName": "Ge",
+            "affiliation": {
+                "@id": "https://ror.org/024mrxd33",
+                "url": "http://www.leeds.ac.uk/",
+                "name": "University of Leeds",
+                "@type": "Organization",
+                "identifier": "https://ror.org/024mrxd33"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/843/",
+            "@type": "Person",
+            "email": "gary.polhill@hutton.ac.uk",
+            "givenName": "Gary",
+            "familyName": "Polhill",
+            "affiliation": {
+                "@id": "https://ror.org/03rzp5127",
+                "url": "http://www.hutton.ac.uk/",
+                "name": "The James Hutton Institute",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03rzp5127"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-6491-3851",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agricultural supply chain",
+        "empirical abm",
+        "NetLogo"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/8824e9f0-d579-48ff-bdeb-65f972810577/releases/1.0.0/",
+    "dateCreated": "2019-05-13",
+    "description": "The code shared here accompanies the paper at https://doi.org/10.1371/journal.pone.0208451. It simulates the effects of various economic trade scenarios on the phenomenon of the 'disappearing middle' in the Scottish beef and dairy farming industries. The 'disappearing middle' is a situation in which there is a simultaneous observed decline in medium-sized enterprises and rise in the number of small and large-scale enterprises.",
+    "downloadUrl": "https://www.comses.net/codebases/8824e9f0-d579-48ff-bdeb-65f972810577/releases/1.0.0/download/",
+    "dateModified": "2019-05-13",
+    "releaseNotes": "The file uploaded here is the codebase as used with the paper https://doi.org/10.1371/journal.pone.0208451.g007. Without the GIS and other supporting data, it will not be possible to run it. Regrettably these data cannot be supplied openly under the licensing and confidentiality terms under which they were used.",
+    "copyrightYear": 2019,
+    "datePublished": "2019-05-13",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

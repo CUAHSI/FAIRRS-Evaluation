@@ -1,0 +1,60 @@
+{
+    "@id": "https://www.comses.net/codebases/8514127b-eaf2-48d0-b886-9a97a7e9da3b/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/8514127b-eaf2-48d0-b886-9a97a7e9da3b/releases/1.1.0/",
+    "name": "ABM to create populations with realistic Big Five Personality Trait Expressions",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/3319/",
+            "@type": "Person",
+            "email": "michi.vogrin@yahoo.de",
+            "givenName": "Michael",
+            "familyName": "Vogrin"
+        }
+    ],
+    "license": {
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.html",
+        "name": "Apache-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "The literature used to fit the model was a publication by Dimitri van der Linden, Jan te Nijenhuis, and Arnold B. Bakker:\n\"The General Factor of Personality: A meta-analysis of Big Five intercorrelations and a criterion-related validity study\" (2010). \nIt appeared in: Journal of Research in Personality, Volume 44, Issue 3, June 2010, Pages 315-327.\nIt can be accessed here: https://doi.org/10.1016/j.jrp.2010.03.003",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "ABM",
+        "Big Five",
+        "Intercorrelations",
+        "Personality Traits"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/8514127b-eaf2-48d0-b886-9a97a7e9da3b/releases/1.1.0/",
+    "dateCreated": "2023-05-08",
+    "description": "This model aims at creating agent populations that have \"personalities\", as described by the Big Five Model of Personality. The expression of the Big Five in the agent population has the following properties, so that they resemble real life populations as closely as possible:\n-The population mean of each trait is 0.5 on a scale from 0 to 1.\n-The population-wide distribution of each trait approximates a normal distribution.\n-The intercorrelations of the Big Five are close to those observed in the Literature.\n\nThe literature used to fit the model was a publication by Dimitri van der Linden, Jan te Nijenhuis, and Arnold B. Bakker:\n\"The General Factor of Personality: A meta-analysis of Big Five intercorrelations and a criterion-related validity study\" (2010). \nIt appeared in: Journal of Research in Personality, Volume 44, Issue 3, June 2010, Pages 315-327.\nIt can be accessed here: https://doi.org/10.1016/j.jrp.2010.03.003",
+    "downloadUrl": "https://www.comses.net/codebases/8514127b-eaf2-48d0-b886-9a97a7e9da3b/releases/1.1.0/download/",
+    "dateModified": "2023-05-30",
+    "releaseNotes": "This is the first version of an ABM to support a scientific publication. This publication is soon to be submitted and then will go Peer Review and the associated processes of revision, resubmission and (hopefully) publication.",
+    "copyrightYear": 2023,
+    "datePublished": "2023-05-30",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Netlogo 6.2.1"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetlLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "This model was created for the publication \"The Rare Twelve Personality Profiles and Strong Intercorrelations between the Big Five Traits under Consideration of Participation Bias\" by Michael Vogrin, Thomas Schmickl, and Guilherme Wood, which is currently (May 2023) under Review.\n\nThe literature used to fit the model was a publication by Dimitri van der Linden, Jan te Nijenhuis, and Arnold B. Bakker:\n\"The General Factor of Personality: A meta-analysis of Big Five intercorrelations and a criterion-related validity study\" (2010). \nIt appeared in: Journal of Research in Personality, Volume 44, Issue 3, June 2010, Pages 315-327.\nIt can be accessed here: https://doi.org/10.1016/j.jrp.2010.03.003"
+}

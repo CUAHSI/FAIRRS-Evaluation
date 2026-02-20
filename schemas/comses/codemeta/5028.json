@@ -1,0 +1,80 @@
+{
+    "@id": "https://www.comses.net/codebases/5028/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/5028/releases/1.1.0/",
+    "name": "Communication and social change in space and time",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "givenName": "Sebastian",
+            "familyName": "Kluesener"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Francesco",
+            "familyName": "Scalone"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Martin",
+            "familyName": "Dribe"
+        },
+        {
+            "@id": "_:author_1",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-sa/4.0/",
+        "name": "CC-BY-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "diffusion of information",
+        "fertility",
+        "geography",
+        "socio-economic status"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5028/releases/1.1.0/",
+    "dateCreated": "2017-10-13",
+    "description": "This agent-based model simulates the diffusion of a social change process stratified by social class in space and time which is solely driven social and spatial variation in communication links. We follow H\u00e4gerstrand (1965) by using migration links as proxies for communication links. To exemplify the potentials of the model, we use individual-level census data for Sweden in 1880 to model social and spatio-temporal characteristics of the fertility decline. The model seems to be able to replicate most of these characteristics with a small number of communication rules.",
+    "downloadUrl": "https://www.comses.net/codebases/5028/releases/1.1.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "1.0",
+    "copyrightYear": 2017,
+    "datePublished": "2017-10-13",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "R"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "R",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Kl\u00fcsener, S., Scalone, F., Dribe, M. (2017): Exploring the role of communication in shaping fertility transition patterns in space and time. In: Grow, A., Van Bavel, J. (eds.): Agent-Based Modelling in Population Studies. Concepts, Methods, and Applications. Springer."
+}

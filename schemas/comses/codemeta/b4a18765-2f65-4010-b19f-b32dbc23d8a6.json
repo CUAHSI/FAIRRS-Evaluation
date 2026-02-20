@@ -1,0 +1,149 @@
+{
+    "@id": "https://www.comses.net/codebases/b4a18765-2f65-4010-b19f-b32dbc23d8a6/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/b4a18765-2f65-4010-b19f-b32dbc23d8a6/releases/1.1.0/",
+    "name": "Mobility, Ethnicity, and Language-Based Immigrant Settlement Model - MELBIS",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-6599-9893",
+            "@type": "Person",
+            "email": "l.perez@umontreal.ca",
+            "givenName": "Liliana",
+            "familyName": "Perez",
+            "affiliation": {
+                "@id": "https://ror.org/0161xgx34",
+                "url": "http://www.umontreal.ca/english/",
+                "name": "University of Montreal",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0161xgx34"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "suzanad@sfu.ca",
+            "givenName": "Suzana",
+            "familyName": "Dragicevic",
+            "affiliation": {
+                "@id": "https://ror.org/0213rcc28",
+                "url": "http://www.sfu.ca/",
+                "name": "Simon Fraser University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0213rcc28"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "tander6@gmu.edu",
+            "givenName": "Taylor",
+            "familyName": "Anderson",
+            "affiliation": {
+                "@id": "https://ror.org/02jqj7156",
+                "url": "https://www.gmu.edu/",
+                "name": "George Mason University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02jqj7156"
+            }
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "email": "jonathangaudreau87@gmail.com",
+            "givenName": "Jonathan",
+            "familyName": "Gaudreau",
+            "affiliation": {
+                "@id": "https://ror.org/01nhzsw25",
+                "url": "http://www.hydroquebec.com/en/",
+                "name": "Hydro-Qu\u00e9bec",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01nhzsw25"
+            }
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Person",
+            "email": "aaron_leung@sfu.ca",
+            "givenName": "Aaron",
+            "familyName": "Leung",
+            "affiliation": {
+                "@id": "https://ror.org/0213rcc28",
+                "url": "http://www.sfu.ca/",
+                "name": "Simon Fraser University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0213rcc28"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-6599-9893",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-6599-9893",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based model",
+        "immigration",
+        "NetLogo",
+        "Panethnicity",
+        "segregation model",
+        "urban"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/b4a18765-2f65-4010-b19f-b32dbc23d8a6/releases/1.1.0/",
+    "dateCreated": "2021-06-14",
+    "description": "MELBIS-V1 is a spatially explicit agent-based model that allows the geospatial simulation of the decision-making process of newcomers arriving in the bilingual cities and boroughs of the island of Montreal, Quebec in CANADA, and the resulting urban segregation spatial patterns.  The model was implemented in NetLogo, using geospatial raster datasets of 120m spatial resolution.\n\nMELBIS-V2 enhances  MELBIS-V1 to implement and simulate the decision-making processes of incoming immigrants, and to analyze the resulting spatial patterns of segregation as immigrants arrive and settle in various cities in Canada. The arrival and segregation of immigrants is modeled with MELBIS-V2 and compared for three major Canadian immigration gateways, including the City of Toronto, Metro Vancouver, and the City of Calgary.",
+    "downloadUrl": "https://www.comses.net/codebases/b4a18765-2f65-4010-b19f-b32dbc23d8a6/releases/1.1.0/download/",
+    "dateModified": "2021-06-18",
+    "releaseNotes": "The ***MELBIS-V1 (v1.0.0)***  model was created by Dr. Liliana Perez and Jonathan Gaudreau (MSc) with the contribution of Dr. Suzana Dragicevic. The authors (Perez and Gaudreau) are members of the Laboratory of Environmental Geosimulation (LEDGE) at the University of Montreal and the Spatial Analysis and Modeling Lab (Dragicevic) at Simon Fraser University, Canada, and would like to acknowledge the Natural Sciences and Engineering Research Council of Canada (NSERC) for full support of this study under the Discovery Grant Program awarded to Dr. Perez and Dr. Dragicevic.\n\nThe ***MELBIS-V2 (v.1.1.0)*** model was modified by Aaron Leung (BEnv) with supervision from Dr. Taylor Anderson and Dr. Suzana Dragicevic, and feedback from Dr. Liliana Perez . The contributors (Leung and Anderson) were members of the Spatial Analysis and Modeling Lab (Dragicevic) at Simon Fraser University, the Laboratory of Environmental Geosimulation (Perez) at the University of Montreal, Canada, and the Department of Geography and Geoinformation Science (Anderson), George Mason University, USA. Dr. Perez and Dr. Dragicevic would like to acknowledge the Natural Sciences and Engineering Research Council of Canada (NSERC) for full support of this study under the Discovery Grant Program awarded to them.",
+    "copyrightYear": 2021,
+    "datePublished": "2021-06-14",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Perez, L., Dragicevic, S., & Gaudreau, J. (2019). A geospatial agent-based model of the spatial urban dynamics of immigrant population: A study of the island of Montreal, Canada. PLOS ONE, 14(7), e0219188. https://doi.org/10.1371/journal.pone.0219188\n\nAnderson, T., Leung, A., Dragicevic, S., & Perez, L. (2021). Modeling the geospatial dynamics of residential segregation in three Canadian cities: An agent\u2010based approach. Transactions in GIS, 25(2), 948\u2013967. https://doi.org/10.1111/tgis.12712\n\nAnderson, T., Leung, A., Perez, L., & Dragi\u0107evi\u0107, S. (2021). Investigating the Effects of Panethnicity in Geospatial Models of Segregation. Applied Spatial Analysis and Policy, 14(2), 273\u2013295. https://doi.org/10.1007/s12061-020-09355-2"
+}

@@ -1,0 +1,53 @@
+{
+    "@id": "https://www.comses.net/codebases/5ec74433-0536-4343-88fd-8385e7f5066c/releases/1.2.0/",
+    "url": "https://www.comses.net/codebases/5ec74433-0536-4343-88fd-8385e7f5066c/releases/1.2.0/",
+    "name": "Tram Commute",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "email": "julia.kasmire@manchester.ac.uk",
+            "givenName": "Julia",
+            "familyName": "Kasmire"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Based loosely on the Travel the Line and GIS extension code example models from the models library.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5ec74433-0536-4343-88fd-8385e7f5066c/releases/1.2.0/",
+    "dateCreated": "2020-02-13",
+    "description": "A demonstration model showing how modellers can create a multi regional tram network with commuters, destinations and houses. The model offers options to create a random tram network made from modeller input or to load shapefiles for the Greater Manchester Metrolink. \n\nThe model uses NetLogo with gis, nw an csv extensions. ",
+    "downloadUrl": "https://www.comses.net/codebases/5ec74433-0536-4343-88fd-8385e7f5066c/releases/1.2.0/download/",
+    "dateModified": "2020-03-02",
+    "releaseNotes": "Supporting documents now included in the model release and also within the model itself on the information tab. \nSupporting data files now uploaded. ",
+    "copyrightYear": 2020,
+    "datePublished": "2020-03-02",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

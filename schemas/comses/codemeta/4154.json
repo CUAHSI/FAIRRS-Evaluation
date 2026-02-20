@@ -1,0 +1,103 @@
+{
+    "@id": "https://www.comses.net/codebases/4154/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/4154/releases/1.1.0/",
+    "name": "Opinion Dynamics Under Intergroup Conflict Escalation",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/756/",
+            "@type": "Person",
+            "email": "alizadeh.meysam@gmail.com",
+            "givenName": "Meysam",
+            "familyName": "Alizadeh",
+            "affiliation": {
+                "@id": "https://ror.org/02k40bc56",
+                "url": "http://www.indiana.edu/",
+                "name": "Indiana University Bloomington",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02k40bc56"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Alin",
+            "familyName": "Coman"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Michael",
+            "familyName": "Lewis"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "givenName": "Katia",
+            "familyName": "Sycara"
+        },
+        {
+            "@id": "https://www.comses.net/users/756/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "HUET, S., Deffuant, G., & Jager, W. (2008). Rejection mechanism in 2D bounded confidence provides more conformity. Advances in Complex Systems, 11(4), 529\u2013549.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "bounded confidence",
+        "differentiation",
+        "dynamics opinion",
+        "extremism",
+        "intergroup conflict"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4154/releases/1.1.0/",
+    "dateCreated": "2014-10-29",
+    "description": "For our modeling purposes, we modify the 2D BCR model in three ways. First, to make the model more realistic by letting agents to interact in a social network structure in which each agent has limited number of neighbors. While in 2D BCR model agents are allowed to interact with any random agent in the population, we limit this communication to only their immediate neighbors. Second, to capture the group identification mechanism, we randomly assign all agents to m different groups. Third, we modify the belief updating rule to incorporate empirical findings from social psychology literature. In general, the findings state that escalation of the perceived intergroup tensions leads individuals to differentiate more from out-groups (Deschamps and Brown 1983; Brown et al. 1986). In our proposed model, we assume that a tension between groups exist a priori in the population. Moreover, since the findings just held true for \u201cdifferentiating beliefs\u201d, we assume that x1 and x2 are differentiating beliefs.",
+    "downloadUrl": "https://www.comses.net/codebases/4154/releases/1.1.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2014,
+    "datePublished": "2014-10-29",
+    "operatingSystem": "windows",
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Meysam Alizadeh, Alin Coman, Michael Lewis, Claudio Cioffi-Revilla (2014) Intergroup Conflict Escalation Leads to more Extremism. Journal of Artificial Societies and Social Simulation 17(4), 4."
+}

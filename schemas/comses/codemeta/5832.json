@@ -1,0 +1,59 @@
+{
+    "@id": "https://www.comses.net/codebases/5832/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5832/releases/1.0.0/",
+    "name": "ED simulation",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/766/",
+            "@type": "Person",
+            "email": "emiliosulis@gmail.com",
+            "givenName": "Emilio",
+            "familyName": "Sulis",
+            "affiliation": {
+                "name": "PhD student",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/766/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "ed"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5832/releases/1.0.0/",
+    "dateCreated": "2017-10-15",
+    "description": "The functioning of an ED where activities are modeled as the \"Patches\" in the ground (each activity-patch has a label \"activity\"), according to the ED map of the use case hospital.\r\nPatients and operators (ED and Triage nurses, doctors and OSS) are modeled as agents moving in the environment. Each of them includes specific variables which define personal characters, as the kind of urgency (the ESI level \"white\", \"green\", \"yellow\" and \"red\"). \r\nDepending on internal variables, patients change their flow in the different activities of the Environment (i.e. registration, triage, visit, exams).",
+    "downloadUrl": "https://www.comses.net/codebases/5832/releases/1.0.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "[ test ]",
+    "copyrightYear": 2017,
+    "datePublished": "2017-10-15",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

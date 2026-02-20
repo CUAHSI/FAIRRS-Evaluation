@@ -1,0 +1,58 @@
+{
+    "@id": "https://www.comses.net/codebases/fb969ece-f8b2-46b0-8bdf-782cd1507545/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/fb969ece-f8b2-46b0-8bdf-782cd1507545/releases/1.0.0/",
+    "name": "Simulating Water, Individuals, and Management (SWIM)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/642/",
+            "@type": "Person",
+            "email": "jtmurphy@anl.gov",
+            "givenName": "John",
+            "familyName": "Murphy",
+            "affiliation": {
+                "@id": "https://ror.org/05gvnxz63",
+                "url": "http://www.anl.gov/",
+                "name": "Argonne National Laboratory",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05gvnxz63"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://opensource.org/licenses/BSD-2-Clause",
+        "name": "BSD-2-Clause",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "water management"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/fb969ece-f8b2-46b0-8bdf-782cd1507545/releases/1.0.0/",
+    "dateCreated": "2018-10-31",
+    "description": "SWIM is a simulation of water management, designed to study interactions among water managers and customers in Phoenix and Tucson, Arizona. The simulation can be used to study manager interaction in Phoenix, manager and customer messaging and water conservation in Tucson, and when coupled to the Water Balance Model (U New Hampshire), impacts of management and consumer choices on regional hydrology.\n\nPublications:\n\nMurphy, John T., Jonathan Ozik, Nicholson T. Collier, Mark Altaweel, Richard B. Lammers, Alexander A. Prusevich, Andrew Kliskey, and Lilian Alessa. \u201cSimulating Regional Hydrology and Water Management: An Integrated Agent-Based Approach.\u201d Winter Simulation Conference, Huntington Beach, CA, 2015.",
+    "downloadUrl": "https://www.comses.net/codebases/fb969ece-f8b2-46b0-8bdf-782cd1507545/releases/1.0.0/download/",
+    "dateModified": "2019-07-05",
+    "releaseNotes": "Simulating Water, Individuals, and Management (SWIM)\n\nSWIM is a simulation of water management, designed to study interactions among water managers and customers in Phoenix and Tucson, Arizona. The simulation can be used to study manager interaction in Phoenix, manager and customer messaging and water conservation in Tucson, and when coupled to the Water Balance Model (U New Hampshire), impacts of management and consumer choices on regional hydrology.\n\nPublications:\n\nMurphy, John T., Jonathan Ozik, Nicholson T. Collier, Mark Altaweel, Richard B. Lammers, Alexander A. Prusevich, Andrew Kliskey, and Lilian Alessa. \u201cSimulating Regional Hydrology and Water Management: An Integrated Agent-Based Approach.\u201d Winter Simulation Conference, Huntington Beach, CA, 2015.\n\nThis code is written using Repast Simphony and was run under Simphony version 2.5. The recommended method of using this code is to create a Repast Simphony project and re-create the subdirectory structure in the src folder, then manually copy the individual .java files into place.\n\nYou may need to create an 'out' and an 'output' directory for some of the results to be written correctly.\n\nRepast will create a 'lib' directory; when this model was run, the directory contained:\n\ngt-arcgrid-9.2.jar\nimageio-ext-arcgrid-1.1.7.\nimageio-ext-utilities-1.1.7.jar\nnetcdfAll-4.3.jar\nzmq.jar\n\nThese should be obtained from their respective publishers.",
+    "copyrightYear": 2019,
+    "datePublished": "2019-07-05",
+    "embargoEndDate": "2019-05-01",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "Repast"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

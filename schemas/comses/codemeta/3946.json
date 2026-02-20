@@ -1,0 +1,68 @@
+{
+    "@id": "https://www.comses.net/codebases/3946/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/3946/releases/1.1.0/",
+    "name": "Smallholder Behavioural Decisions During Times of Drought Stress",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1060/",
+            "@type": "Person",
+            "email": "s.dobbie@soton.ac.uk",
+            "givenName": "Samantha",
+            "familyName": "Dobbie",
+            "affiliation": {
+                "@id": "https://ror.org/01ryk1543",
+                "url": "http://www.southampton.ac.uk/",
+                "name": "The University of Southampton ",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01ryk1543"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1060/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "coping",
+        "drought",
+        "empirical",
+        "food security",
+        "input subsidies",
+        "malawi",
+        "participatory rural appraisal"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3946/releases/1.1.0/",
+    "dateCreated": "2014-09-27",
+    "description": "The model was constructed as part of an MSc level project at the University of Southampton. The objective was to determine whether participatory rural appraisal (PRA) exercises can be employed in the construction of empirical ABM. In order to achieve this, a PRA exercise was designed to elicit greater understanding of smallholder responses to drought. Field data successfully informed model parameterisation. The model contains 15808 agents, which represent households located within two Traditional Authorities of Southern Malawi. Four different agent types are recognised, separated by gender and wellbeing. The model tracks seasonal decisions of agents as they allocate their time between 14 household tasks. Decisions are affected by the occurrence of drought and access to input subsidies. Each time step corresponds to one month and the simulation is run for a total of 10 years.",
+    "downloadUrl": "https://www.comses.net/codebases/3946/releases/1.1.0/download/",
+    "dateModified": "2018-02-23",
+    "releaseNotes": "",
+    "copyrightYear": 2014,
+    "datePublished": "2014-09-27",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

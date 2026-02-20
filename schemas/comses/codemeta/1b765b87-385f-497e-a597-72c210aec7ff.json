@@ -1,0 +1,82 @@
+{
+    "@id": "https://www.comses.net/codebases/1b765b87-385f-497e-a597-72c210aec7ff/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/1b765b87-385f-497e-a597-72c210aec7ff/releases/1.0.0/",
+    "name": "Seeding for information transmission in social networks",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-2945-2396",
+            "@type": "Person",
+            "email": "noeldeke@iuw.uni-hannover.de",
+            "givenName": "Beatrice",
+            "familyName": "N\u00f6ldeke"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "grote@iuw.uni-hannover.de",
+            "givenName": "Ulrike",
+            "familyName": "Grote",
+            "affiliation": {
+                "@id": "https://ror.org/0304hq317",
+                "url": "https://www.uni-hannover.de",
+                "name": "Leibniz University Hannover",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0304hq317"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "winter@iuw.uni-hannover.de",
+            "givenName": "Etti",
+            "familyName": "Winter",
+            "affiliation": {
+                "@id": "https://ror.org/0304hq317",
+                "url": "https://www.uni-hannover.de",
+                "name": "Leibniz University Hannover",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0304hq317"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "diffusion of information",
+        "social network",
+        "word of mouth"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/1b765b87-385f-497e-a597-72c210aec7ff/releases/1.0.0/",
+    "dateCreated": "2019-12-18",
+    "description": "This model simulates different seeding strategies for information diffusion in a social network adjusted to a case study area in rural Zambia. It systematically evaluates different criteria for seed selection (centrality measures and hierarchy), number of seeds, and interaction effects between seed selection criteria and set size.",
+    "downloadUrl": "https://www.comses.net/codebases/1b765b87-385f-497e-a597-72c210aec7ff/releases/1.0.0/download/",
+    "dateModified": "2020-11-03",
+    "releaseNotes": "This model is created in NetLogo 6.0.2. It uses the csv and nw extensions. The model requires a .csv file that contains information on the social network of the community that is to be modelled.",
+    "copyrightYear": 2020,
+    "datePublished": "2020-11-03",
+    "embargoEndDate": "2021-01-31",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "10.18564/jasss.4429"
+}

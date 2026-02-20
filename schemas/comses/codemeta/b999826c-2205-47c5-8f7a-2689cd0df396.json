@@ -1,0 +1,53 @@
+{
+    "@id": "https://www.comses.net/codebases/b999826c-2205-47c5-8f7a-2689cd0df396/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/b999826c-2205-47c5-8f7a-2689cd0df396/releases/1.0.0/",
+    "name": "Sensitivity of a population submitted to floods to unknown upcoming floods and parameters of the dynamics",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-2973-7738",
+            "@type": "Person",
+            "email": "sylvie.huet@inrae.fr",
+            "givenName": "Sylvie",
+            "familyName": "Huet",
+            "affiliation": {
+                "url": "https://lisc.inrae.fr/",
+                "name": "Inrae",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/b999826c-2205-47c5-8f7a-2689cd0df396/releases/1.0.0/",
+    "dateCreated": "2021-09-22",
+    "description": "This work is a java implementation of a study of the viability of a population submitted to floods. The population derives some benefit from living in a certain environment. However, in this environment, floods can occur and cause damage. An individual protection measure can be adopted by those who wish and have the means to do so. The protection measure reduces the damage in case of a flood. However, the effectiveness of this measure deteriorates over time. Individual motivation to adopt this measure is boosted by the occurrence of a flood. Moreover, the public authorities can encourage the population to adopt this measure by carrying out information campaigns, but this comes at a cost. People's decisions are modelled based on the Protection Motivation Theory (Rogers1975, Rogers 1997, Maddux1983) arguing that the motivation to protect themselves depends on their perception of risk, their capacity to cope with risk and their socio-demographic characteristics. \nWhile the control designing proper informations campaigns to remain viable every time is computed in the work presented in https://www.comses.net/codebases/e5c17b1f-0121-4461-9ae2-919b6fe27cc4/releases/1.0.0/, the aim of the present work is to produce maps of probable viability in case the serie of upcoming floods is unknown as well as much of the parameters for the population dynamics. These maps are bi-dimensional, based on the value of known parameters: the current average wealth of the population and their actual or possible future annual revenues.\n",
+    "downloadUrl": "https://www.comses.net/codebases/b999826c-2205-47c5-8f7a-2689cd0df396/releases/1.0.0/download/",
+    "dateModified": "2021-09-24",
+    "releaseNotes": "This is the first release.",
+    "copyrightYear": 2021,
+    "datePublished": "2021-09-22",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "None (or Netbeans project)"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "This work is related to a publication submitted to Environmental Modelling & Software.\nunder the title \"Very diverse viability indicators for dealing with uncertainties of coming negative events\""
+}

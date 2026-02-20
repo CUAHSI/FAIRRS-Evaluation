@@ -1,0 +1,63 @@
+{
+    "@id": "https://www.comses.net/codebases/3257/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/3257/releases/1.0.0/",
+    "name": "TechNet_04: Cultural Transmission in a Spatially-Situated Network",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-4419-3903",
+            "@type": "Person",
+            "email": "andy.white.zpm@gmail.com",
+            "givenName": "Andrew",
+            "familyName": "White",
+            "affiliation": {
+                "url": "https://www.isas.illinois.edu/",
+                "name": "Illinois State Archaeological Survey",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-4419-3903",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "cultural transmission",
+        "hunter-gatherer",
+        "social network",
+        "style"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3257/releases/1.0.0/",
+    "dateCreated": "2012-10-08",
+    "description": "The TechNet_04 model is one of a series of abstract models that was developed to begin examining the basic relationships between the structure of prehistoric social networks and patterns of variability in material culture.  It was constructed to be a simple, flexible platform for running an array of experiments to investigate relationships between network structure, network properties, artifact variability, and the spatial organization of artifact variability. \r\n\r\nThe \u201cworld\u201d of the model is a two-dimensional, bounded, hexagonal grid.  Each cell is the location of a single \u201cgroup\u201d.  A group in the model can interact with a unique, finite array of other groups to which it is linked.  This array constitutes a group\u2019s individual network.  When two groups are linked, information can be transferred between them.  The overlapping networks of individual groups comprise a system-level network that connects all groups within the system.   \r\n\t\r\nNetworks are formed at the beginning of a model run and do not change during a model run. Networks are formed through a two-stage process.  In the initial stage, each group adds the groups in the immediately adjacent tier of hexagonal cells to its networkList.  This produces a \u201clocal only\u201d network where each group is linked to only those groups who are immediately adjacent to it in space.\r\n\r\nA second stage of network formation \u201crewires\u201d this local-only network in one of two ways, controlled by the parameter rewireMode. If the value of rewireMode is 1, a group\u2019s local links to its neighbors can be replaced by links to random groups; if the value of rewireMode is 2, each group has the chance to create links with non-local groups that are within a specified distance of the group\u2019s location (see documentation). \r\n\r\nThe transmission of cultural information in this model is represented by the transfer of the value of a single real number (variableA).  VariableA is  meant to represent some continuously variable, \u201cstylistic\u201d aspect of artifact size, shape, etc., that is subject to copying error and is free to vary through processes such as drift.  \r\n\r\nEvery group in the world begins a model run with the same value (5) of variableA.  This was an arbitrary value selected so the results of some experiments would be directly comparable to those of previous work (e.g., Hamilton and Buchanan 2009).  Because variability generated during a run is proportional to the value of variableA, beginning with a different value would affect the results in terms of absolute values but not the overall patterns.\r\n\r\nThe transfer of information occurs through copying events.  At each step, each group copies the value of variableA either from itself or from some population of groups other than itself (see documentation).  Variability in variableA is generated through copying error (controlled by the parameter copyError) that is applied each time a group copies (whether copying from an outside population or copying itself).  The application of error during each copying event is based on the idea that there are inherent constraints in human perception that prevent the detection of slight differences between any two objects, shapes, colors, etc.  The amount of error is relative and is typically set at a maximum of +/- 3 to 5 percent based on empirical studies of human perception (e.g., Eerkens 2000; Eerkens and Lipo 2005; Hamilton and Buchanan 2009).  \r\n\r\nFollowing creation of the world and the groups, two-stage formation of group-level networks, and setting of parameters controlling information transfer, the model is set into motion.  At each time step, each group goes through a sequence of actions during its turn.  It first determines whether it will copy variableA from itself or from some outside population.  If it copies from an outside population, it determines the population to copy, calculates the value of variableA to copy, applies copying error, and copies.  The ordering of groups is randomly shuffled each time step.  \r\n\r\nThe data output of the model can be adjusted to include different measures and more or less detailed data depending on what is required for analysis.  Outputs can range from summary data produced at the end of a run to data about each group at each step.  The mean path length and clustering coefficients of the system-level networks can be recorded for analysis along with measures of the variability in the artifact assemblages that are produced by cultural transmission operating across the network.\r\n\r\nEerkens, J.W., 2000. Practice makes within 5% of perfect: visual perception, motor skills, and memory in artifact variation.  Current Anthropology 41, 663-667.\r\n\r\nEerkens, J.W., Lipo, C.P., 2005. Cultural transmission, copying errors, and the generation of variation in material culture and the archaeological record.  Journal of Anthropological Archaeology 24, 316-324.\r\n\r\nHamilton, M.J., Buchanan, B., 2009.  The accumulation of stochastic copying errors causes drift in culturally transmitted technologies: quantifying Clovis evolutionary dynamics.  Journal of Anthropological Archaeology 28, 55-69.",
+    "downloadUrl": "https://www.comses.net/codebases/3257/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "linux",
+    "runtimePlatform": [
+        "Repast"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

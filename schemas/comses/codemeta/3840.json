@@ -1,0 +1,62 @@
+{
+    "@id": "https://www.comses.net/codebases/3840/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/3840/releases/1.0.0/",
+    "name": "The Garbage Can Model of Organizational Choice",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "givenName": "Guido",
+            "familyName": "Fioretti"
+        },
+        {
+            "@id": "_:author_1",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Cohen M.D., March J.G. and Olsen J.P. (1972) A Garbage Can Model of Organizational Choice. Administrative Science Quarterly, 17 (1): 1-25.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "decision theory",
+        "organization science"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3840/releases/1.0.0/",
+    "dateCreated": "2013-06-22",
+    "description": "We reconstruct Cohen, March and Olsen\u2019s Garbage Can model of organizational choice as an agent-based model. In the original model, the members of an organization can postpone decision-making. We add another means for avoiding making decisions, that of buck-passing difficult problems to colleagues. We find that selfish individual behavior, such as postponing decision-making and buck-passing, does not necessarily imply dysfunctional consequences for an organization.\n\nThe simulation experiments confirm and extend some of the most interesting conclusions of the Garbage Can model: Most decisions are made without solving any problem, organization members face the same old problems again and again, and the few problems that are solved are generally handled at low hierarchical levels. These findings have an implication that was overseen in the original model, namely, that top executives need not be good problem-solvers.",
+    "downloadUrl": "https://www.comses.net/codebases/3840/releases/1.0.0/download/",
+    "dateModified": "2018-02-19",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-06-22",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Fioretti, G. and Lomi, A. (2010) Passing the Buck in the Garbage Can Model of Organizational Choice. Computational and Mathematical Organization Theory, 16 (2): 113-143."
+}

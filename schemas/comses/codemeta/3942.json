@@ -1,0 +1,171 @@
+{
+    "@id": "https://www.comses.net/codebases/3942/releases/2.0.0/",
+    "url": "https://www.comses.net/codebases/3942/releases/2.0.0/",
+    "name": "SLUCEII LUXE (Land Use in an eXurban Environment)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-5350-9631",
+            "@type": "Person",
+            "email": "sunsp.gis@gmail.com",
+            "givenName": "Shipeng",
+            "familyName": "Sun",
+            "affiliation": {
+                "url": "https://hunter.cuny.edu",
+                "name": "Hunter College-CUNY",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/663/",
+            "@type": "Person",
+            "email": "dcparker@uwaterloo.ca",
+            "givenName": "Dawn",
+            "familyName": "Parker",
+            "affiliation": {
+                "@id": "https://ror.org/01aff2v68",
+                "url": "https://uwaterloo.ca/",
+                "name": "University of Waterloo",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01aff2v68"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Qingxu",
+            "familyName": "Huang"
+        },
+        {
+            "@id": "https://www.comses.net/users/22/",
+            "@type": "Person",
+            "email": "danbrown@umich.edu",
+            "givenName": "Dan",
+            "familyName": "Brown",
+            "affiliation": {
+                "@id": "https://ror.org/00jmfr291",
+                "url": "https://www.umich.edu/",
+                "name": "University of Michigan",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00jmfr291"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/651/",
+            "@type": "Person",
+            "email": "t.filatova@tudelft.nl",
+            "givenName": "Tatiana",
+            "familyName": "Filatova",
+            "affiliation": {
+                "url": "https://www.tudelft.nl/",
+                "name": "TU Delft",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_6",
+            "@type": "Person",
+            "givenName": "Rick",
+            "familyName": "Riolo"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-4293-1095",
+            "@type": "Person",
+            "email": "derekthomasrobinson@gmail.com",
+            "givenName": "Derek",
+            "familyName": "Robinson",
+            "affiliation": {
+                "@id": "https://ror.org/01aff2v68",
+                "url": "https://uwaterloo.ca/",
+                "name": "University of Waterloo",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01aff2v68"
+            }
+        },
+        {
+            "@id": "_:author_8",
+            "@type": "Person",
+            "givenName": "Meghan",
+            "familyName": "Hutchins"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-5350-9631",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://www.comses.net/users/663/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://www.comses.net/users/22/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://www.comses.net/users/651/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_6",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-4293-1095",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_8",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "2.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based model",
+        "land market",
+        "land-use change"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3942/releases/2.0.0/",
+    "dateCreated": "2015-08-14",
+    "description": "LUXE (Land Use in an eXurban Environment) is a land-use change model featuring different levels of land market implementation. It integrates land market interactions, the microeconomic determinants of willingness to pay (WTP) and willingness to accept (WTA), and utility measures for land buyers. LUXE implements utility maximization, budget constraints, and competitive bidding. It is written in Java with Repast Simphony\u00ae, with auxiliary geographic information system (GIS) and landscape components.  \r\n\r\nRegarding the model details, please refer to the following publication:\r\n\r\nSun, Shipeng, Dawn C. Parker, Qingxu Huang, Tatiana Filatova, Derek T. Robinson, Rick L. Riolo, Meghan Hutchins, and Dan G. Brown (2014). Market Impacts on Land-use Change: An Agent-based Experiment. Annals of the Association of American Geographers 104 (3): 460-484.\r\n\r\nHuang, Qingxu, Dawn C. Parker, Shipeng Sun, Tatiana Filatova (2013). Effects of agent heterogeneity in the presence of a land-market: a systematic test in an agent-based laboratory. Computers, Environment and Urban Systems 41: 188-203.\r\n\r\nRobinson, Derek T., Shipeng Sun, Meghan Hutchins, Rick L. Riolo, Dan G. Brown, Dawn C. Parker, Tatiana Filatova, William S. Currie, and Sarah Kiger (2013). Effects of land markets and land management on ecosystem function: A framework for modelling exurban land-change. Environmental Modelling and Software 45: 129-40.\r\n\r\nParker, Dawn C., Dan G. Brown, Tatiana Filatova, Rick L. Riolo, Derek T. Robinson, and Shipeng Sun (2012). Do land markets matter? A modeling ontology and experimental design to test the effects of land markets for an agent-based model of ex-urban residential land-use change. In Agent-Based Models for Geographical Systems, eds. A. J.Heppenstall, A.T. Crooks, L.M. See, and M. Batty, 525-542: Springer Netherlands.",
+    "downloadUrl": "https://www.comses.net/codebases/3942/releases/2.0.0/download/",
+    "dateModified": "2023-03-05",
+    "releaseNotes": "Abstract, theoretical model",
+    "copyrightYear": 2022,
+    "datePublished": "2022-10-22",
+    "embargoEndDate": "2022-11-11",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "#RepastSimphony"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Sun, Shipeng, Dawn C. Parker, Qingxu Huang, Tatiana Filatova, Derek T. Robinson, Rick L. Riolo, Meghan Hutchins, and Dan G. Brown (2014). Market Impacts on Land-use Change: An Agent-based Experiment. Annals of the Association of American Geographers 104 (3): 460-484."
+}

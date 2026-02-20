@@ -1,0 +1,79 @@
+{
+    "@id": "https://www.comses.net/codebases/5634/releases/1.2.0/",
+    "url": "https://www.comses.net/codebases/5634/releases/1.2.0/",
+    "name": "The Groundwater Commons Game",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1236/",
+            "@type": "Person",
+            "email": "juan.castilla@csiro.au",
+            "givenName": "Juan",
+            "familyName": "Castilla-Rho",
+            "affiliation": {
+                "url": "http://www.csiro.au",
+                "name": "CSIRO Land & Water",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Rodrigo",
+            "familyName": "Rojas"
+        },
+        {
+            "@id": "https://www.comses.net/users/1236/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "common pool resource",
+        "cooperation",
+        "cultural theory",
+        "flowlogo",
+        "groundwater management",
+        "regulatory compliance",
+        "social norms",
+        "world values survey"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5634/releases/1.2.0/",
+    "dateCreated": "2017-09-16",
+    "description": "Groundwater is critical to maintain global food security, environmental flows, and millions of rural livelihoods in the face of climate change. Although a third of Earth\u2019s largest groundwater basins are being depleted by irrigated agriculture, little is known about the conditions that would lead resource users to comply with groundwater conservation policies. To address this, we developed an agent-based model of irrigated agriculture rooted in principles of human cooperation and collective action, grounded on the largest dataset of cultural values in existence: The World Values Survey Wave 6 (n=90,350). Simulations of three major aquifer systems currently facing unsustainable demands\u2014the Punjab (India/Pakistan), the Central Valley (USA), and the Murray-Darling Basin (Australia)\u2014reveal tipping points where social norms and collective attitudes towards groundwater conservation shift abruptly with small changes in cultural values and enforcement provisions. We find that these tipping points are amplified by group size and most effectively invoked through group processes and social capital. Overall, our study presents a new powerful tool for groundwater management that can be used to evaluate how regulatory compliance is contingent upon cultural, socioeconomic, institutional, and physical constraints and conditions, and its susceptibility to change beyond thresholds. Managing for these thresholds may help avoid unsustainable groundwater development, reduce monitoring and enforcement costs, coordinate regulation of transboundary aquifers, and increase the resilience of communities to future drought and changes in regional climate. Although we focus on groundwater, our methods and findings and their usefulness in designing resource management plans and policies apply broadly.",
+    "downloadUrl": "https://www.comses.net/codebases/5634/releases/1.2.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2017,
+    "datePublished": "2017-09-16",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Castilla-Rho, J. C., Rojas, R., Andersen, M. S., Holley, C. & Mariethoz, G. Social tipping points in global groundwater management. Nat. hum. behav. 1, 640\u2013649 (2017).\r\n\r\nhttp://www.nature.com/articles/s41562-017-0181-7"
+}

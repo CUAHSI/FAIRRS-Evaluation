@@ -1,0 +1,66 @@
+{
+    "@id": "https://www.comses.net/codebases/4087/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4087/releases/1.0.0/",
+    "name": "ForagerNet3_Demography_V2",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-4419-3903",
+            "@type": "Person",
+            "email": "andy.white.zpm@gmail.com",
+            "givenName": "Andrew",
+            "familyName": "White",
+            "affiliation": {
+                "url": "https://www.isas.illinois.edu/",
+                "name": "Illinois State Archaeological Survey",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-4419-3903",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "demography",
+        "fertility",
+        "hunter-gatherer",
+        "mortality",
+        "oy ratio",
+        "paleodemography"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4087/releases/1.0.0/",
+    "dateCreated": "2014-02-13",
+    "description": "The ForagerNet3_Demography_V2 (FN3D_V2) model is a non-spatial ABM for exploring hunter-gatherer demography.  FN3D_V2 differs from version 1 (FN3D) in that it includes a model-level method for calculating the OY ratio (the ratio of old adults to young adults) of samples of varying size drawn from the list of adults that die during the T1 data collection period.  \r\n\r\nThe model has three main levels: person, household, and system. Inter-related methods represent birth, death, and pair bonding (marriage). Many parameters in the model are continuously variable. The dependency ratio (the ratio of consumers to producers in a household) is a key variable in many economic decisions embedded in the methods.\r\n\r\nThe FN3D_V2 model is not intended to represent all details of any particular hunter-gatherer system. This was a purposeful strategy to aid in constructing a model whose structure and behavior are understandable and applicable to a range of circumstances.\r\n\r\nThe FN3D_V2 model is explicitly non-spatial. Investigating the effects of the spatial distribution of population on demography will be the focus of a later version of the ForagerNet3 model. The model can be used to explore aspects of hunter-gatherer demography in the absence of spatial effects (and without assuming or accounting for any particular spatial configuration of the population).\r\n\r\nFN3D_V2 was built using Repast J. The code for the model is supplied as a text file.\r\n\r\nThe documentation provides (1) a description of the representations of time and the entities (persons, households, social links) in the model; (2) a brief overview of the major groups of methods in the model (pair bond, reproduction, and mortality); (3) model-level variables, parameters, and lists; and (4) a detailed description of the \u201crules\u201d and the operations of the model with specific numeric reference to sections of the code.",
+    "downloadUrl": "https://www.comses.net/codebases/4087/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "FN3D_V2 differs from version 1 (FN3D) in that it includes a model-level method for calculating the OY ratio (the ratio of old adults to young adults) of samples of varying size drawn from the list of adults that die during the T1 data collection period.  This method is described in the section \u201cModel 32: Calculate Dead OY Ratio.\u201d",
+    "copyrightYear": 2014,
+    "datePublished": "2014-02-13",
+    "operatingSystem": "linux",
+    "runtimePlatform": [
+        "Repast"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "This version of the ForagerNet3_Demography model was used for a paper titled \"Mortality, Fertility, and the OY Ratio in a Model Hunter-Gatherer System\" published in the American Journal of Physical Anthropology (http://onlinelibrary.wiley.com/doi/10.1002/ajpa.22495/abstract)."
+}

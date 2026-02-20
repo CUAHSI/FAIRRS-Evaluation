@@ -1,0 +1,91 @@
+{
+    "@id": "https://www.comses.net/codebases/4447/releases/2.1.0/",
+    "url": "https://www.comses.net/codebases/4447/releases/2.1.0/",
+    "name": "Neolithic Spread Model Version 1.0",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-9576-7914",
+            "@type": "Person",
+            "email": "sean.bergin@asu.edu",
+            "givenName": "Sean",
+            "familyName": "Bergin",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "School of Complex Adaptive Systems, Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Michael",
+            "familyName": "Barton"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Salvador",
+            "familyName": "Pardo Gordo"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "givenName": "Joan",
+            "familyName": "Bernabeu Auban"
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-9576-7914",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-sa/4.0/",
+        "name": "CC-BY-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "2.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "iberian peninsula",
+        "neolithic",
+        "spread of agriculture"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4447/releases/2.1.0/",
+    "dateCreated": "2015-10-16",
+    "description": "This models explores the spread of agriculture. It was designed to carry out experiments in the spread of agriculture to the Iberian peninsula, but could be applied to any other area of the world. This model does not assume a spread of farmers or farming ideas, but simply models the spread of farming practice under variable ecological conditions and with different ways of spreading geographically.\r\n\r\nSeveral different spreading algorithms are available to the user (explained in more detail below). The starting point(s) of the spread of agriculture can be set interactively with a mouse or by importing a text file of xy coordinates (geospatial earth coordinates, not NetLogo world coordinates).\r\nThe GIS Extension allows the user to import a raster basemap in which cell values represent the suitability of the associated land for agriculture (applicable in several spread routines), and a vector map of known prehistoric farming sites. The time of arrival of agriculture (in model ticks) is recorded at each site, and site information can be saved at the end of a simulation run. The time of arrival of agriculture at each site in the simulation can then be compared with the real-world arrival of agriculture at the same sites.",
+    "downloadUrl": "https://www.comses.net/codebases/4447/releases/2.1.0/download/",
+    "dateModified": "2018-12-31",
+    "releaseNotes": "",
+    "copyrightYear": 2018,
+    "datePublished": "2018-12-31",
+    "operatingSystem": "platform_independent",
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    }
+}

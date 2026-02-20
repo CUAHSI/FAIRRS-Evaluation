@@ -1,0 +1,65 @@
+{
+    "@id": "https://www.comses.net/codebases/4749/releases/1.0.1/",
+    "url": "https://www.comses.net/codebases/4749/releases/1.0.1/",
+    "name": "Inquisitiveness in ad hoc teams",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-6677-8689",
+            "@type": "Person",
+            "email": "secchi.davi@gmail.com",
+            "givenName": "Davide",
+            "familyName": "Secchi",
+            "affiliation": {
+                "url": "https://www.sdu.dk/en/om_sdu/institutter_centre/c_comac",
+                "name": "Research Centre for Computational & Organisational Cognition, University of Southern Denmark",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-6677-8689",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.1",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "decision making",
+        "docility",
+        "organizational behavior research",
+        "organizational cognition",
+        "team dynamics"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4749/releases/1.0.1/",
+    "dateCreated": "2015-10-18",
+    "description": "The model has two types of agents: decision makers and problems. Decision makers move in the environment to form teams to solve problems. While problems are only characterized by difficulty levels, decision makers have knowledge (competence) they can use. They can also team up to create a task force oriented toward solving a given problem. The way knowledge is assembled in the team depends on whether one of its members shows what we call 'inquisitiveness'. This is the disposition to use enquiry to explore and understand information coming from social channels (i.e., other team members). The model assumes that highly inquisitive individuals assemble information in a non-linear fashion, hence increasing the chances to find original solutions that are not just the sum of team members' competences. Instead, non inquisitive individuals have a linear approach to team problem solving. This simulation explores when and if inquisitiveness brings something to the team and to the system (an organization?) as a whole.",
+    "downloadUrl": "https://www.comses.net/codebases/4749/releases/1.0.1/download/",
+    "dateModified": "2020-06-11",
+    "releaseNotes": "This version of the model is slightly different from the one used in the paper. The original model caused NetLogo to produce a number that was too large to compute. This problem did not affect the data but it was just annoying to deal with when running the model 'qualitatively' so to say (i.e., performing random runs to check how parameters work). The modified lines of code are identified in the file.",
+    "copyrightYear": 2020,
+    "datePublished": "2020-06-11",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Bardone, E. & Secchi, D. 2017. Inquisitiveness: Distributing rational thinking. Team Performance Management 23(1/2): 66-81."
+}

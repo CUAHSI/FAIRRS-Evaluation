@@ -1,0 +1,54 @@
+{
+    "@id": "https://www.comses.net/codebases/6896ae3b-4097-40fd-9a0a-c2d93085e346/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/6896ae3b-4097-40fd-9a0a-c2d93085e346/releases/1.0.0/",
+    "name": "An Opinion Dynamics of Science? Agent-Based Modeling of Knowledge Spread",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-6370-7503",
+            "@type": "Person",
+            "email": "bsbuarque@mpiwg-berlin.mpg.de",
+            "givenName": "Bernardo",
+            "familyName": "Buarque"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc/4.0",
+        "name": "CC-BY-NC-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Lalli, R., Howey, R. & Wintergr\u00fcn, D. The dynamics of collaboration networks and the history of general relativity, 1925\u20131970. Scientometrics 122, 1129\u20131170 (2020). https://doi.org/10.1007/s11192-019-03327-1\n\nLalli, R., Howey, R., Wintergr\u00fcn, D. (2020). The Socio-Epistemic Networks of General Relativity, 1925\u20131970. In: Blum, A.S., Lalli, R., Renn, J. (eds) The Renaissance of General Relativity in Context. Einstein Studies, vol 16. Birkh\u00e4user, Cham. https://doi.org/10.1007/978-3-030-50754-1_2",
+            "@type": "CreativeWork"
+        }
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/6896ae3b-4097-40fd-9a0a-c2d93085e346/releases/1.0.0/",
+    "dateCreated": "2023-04-12",
+    "description": "We present a socio-epistemic model of science inspired by the existing literature on opinion dynamics. In this model, we embed the agents (or scientists) into social networks - e.g., we link those who work in the same institutions. And we place them into a regular lattice - each representing a unique mental model. Thus, the global environment describes networks of concepts connected based on their similarity. For instance, we may interpret the neighbor lattices as two equivalent models, except one does not include a causal path between two variables.\n\nAgents interact with one another and move across the epistemic lattices. In other words, we allow the agents to explore or travel across the mental models. However, we constrain their movements based on absorptive capacity and cognitive coherence. Namely, in each round, an agent picks a focal point - e.g., one of their colleagues - and will move towards it. But the agents' ability to move and speed depends on how far apart they are from the focal point - and if their new position is cognitive/logic consistent.\n\nTherefore, we propose an analytical model that examines the connection between agents' accumulated knowledge, social learning, and the span of attitudes towards mental models in an artificial society. While we rely on the example from the General Theory of Relativity renaissance, our goal is to observe what determines the creation and diffusion of mental models. We offer quantitative and inductive research, which collects data from an artificial environment to elaborate generalized theories about the evolution of science. ",
+    "downloadUrl": "https://www.comses.net/codebases/6896ae3b-4097-40fd-9a0a-c2d93085e346/releases/1.0.0/download/",
+    "dateModified": "2023-06-24",
+    "releaseNotes": "Version 1.0.0",
+    "copyrightYear": 2023,
+    "datePublished": "2023-04-13",
+    "embargoEndDate": "2023-04-01",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

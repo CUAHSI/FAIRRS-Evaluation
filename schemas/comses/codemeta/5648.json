@@ -1,0 +1,62 @@
+{
+    "@id": "https://www.comses.net/codebases/5648/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5648/releases/1.0.0/",
+    "name": "Climate Change Adaptation in Coastal Regions",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1961/",
+            "@type": "Person",
+            "email": "emma.m.cutler.th@dartmouth.edu",
+            "givenName": "Emma",
+            "familyName": "Cutler",
+            "affiliation": {
+                "@id": "https://ror.org/049s0rh22",
+                "url": "http://dartmouth.edu/",
+                "name": "Thayer School of Engineering, Dartmouth College",
+                "@type": "Organization",
+                "identifier": "https://ror.org/049s0rh22"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1961/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "adaption",
+        "Climate Change",
+        "managed retreat",
+        "sea level rise"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5648/releases/1.0.0/",
+    "dateCreated": "2017-06-01",
+    "description": "This model simulates climate change adaptation in the form of resistance, accommodation, and managed retreat in coastal regions vulnerable to sea level rise and storm surge. Agents are individual households that can choose to implement adaptation decisions in response to sea level rise and stochastic extreme flood events, provided they have sufficient adaptive capacity. Community level adaptation is also possible in the form of resistance or incentives that encourage individual accommodation and retreat. Agents are connected to each other in a social network that creates an \"attachment to place,\" discouraging relocation. However, there is an upper limit on the amount of resistance or accommodation in place that is possible, forcing some agents to migrate. As some households leave, the remaining ones become less attached and are therefore more likely to follow suit. It is a generic, spatially explicit model with minimal empirical data and tracks how the population changes over time as households retreat to higher ground under three sea level rise scenarios and several different social network structures.",
+    "downloadUrl": "https://www.comses.net/codebases/5648/releases/1.0.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "",
+    "copyrightYear": 2017,
+    "datePublished": "2017-06-01",
+    "operatingSystem": "macos",
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

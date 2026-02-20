@@ -1,0 +1,93 @@
+{
+    "@id": "https://www.comses.net/codebases/5745/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5745/releases/1.0.0/",
+    "name": "Li-BIM",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2003/",
+            "@type": "Person",
+            "email": "franck.taillandier@u-bordeaux1.fr",
+            "givenName": "Franck",
+            "familyName": "Taillandier",
+            "affiliation": {
+                "@id": "https://ror.org/003vg9w96",
+                "url": "https://www.inrae.fr/",
+                "name": "National Research Institute for Agriculture, Food and Environment",
+                "@type": "Organization",
+                "identifier": "https://ror.org/003vg9w96"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Alice",
+            "familyName": "Micolier"
+        },
+        {
+            "@id": "https://www.comses.net/users/1129/",
+            "@type": "Person",
+            "email": "patrick.taillandier@gmail.com",
+            "givenName": "Patrick",
+            "familyName": "Taillandier",
+            "affiliation": {
+                "url": "http://www.inra.fr",
+                "name": "INRA",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/2003/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://www.comses.net/users/1129/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent based model",
+        "bdi architecture",
+        "bim",
+        "building user behavior model"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5745/releases/1.0.0/",
+    "dateCreated": "2017-08-04",
+    "description": "Building design involves many challenges and requires to take into account the building user. Different occupant behavior models implemented with building simulation tools (thermal, air quality, lighting, etc.) have been proposed. Among these ones, models based on the agent approach seem to be the most promising. However, existing models poorly describe the human cognition. Moreover, they are often oriented towards a specific use (thermal simulation, waste management, etc.) without being transposable to another field, The Li-BIM model aims at filling this gap by simulating the behavior of occupants in a building. It is structured around the numerical modeling of the building (IFC format) and an evolved occupational cognitive model developed with a Belief-Desire-Intention (BDI) architecture. The model has been implemented under the GAMA platform.",
+    "downloadUrl": "https://www.comses.net/codebases/5745/releases/1.0.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "",
+    "copyrightYear": 2017,
+    "datePublished": "2017-08-04",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "GAMA"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "GAMA",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

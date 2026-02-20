@@ -1,0 +1,93 @@
+{
+    "@id": "https://www.comses.net/codebases/d3d45a7e-24a4-42e9-a44b-e6e8e293e578/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/d3d45a7e-24a4-42e9-a44b-e6e8e293e578/releases/1.0.0/",
+    "name": "The NetLogo HIV Spread Model Exploring Impact of PrEP Indication Guidelines",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2635/",
+            "@type": "Person",
+            "email": "arthur.hjorth@u.northwestern.edu",
+            "givenName": "Arthur",
+            "familyName": "Hjorth"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-9684-6347",
+            "@type": "Person",
+            "email": "wouter.vermeer@northwestern.edu",
+            "givenName": "Wouter",
+            "familyName": "Vermeer",
+            "affiliation": {
+                "@id": "https://ror.org/000e0be47",
+                "url": "http://www.northwestern.edu/",
+                "name": "Northwestern University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/000e0be47"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "uri@northwestern.edu",
+            "givenName": "Uri",
+            "familyName": "Wilensky",
+            "affiliation": {
+                "@id": "https://ror.org/000e0be47",
+                "url": "http://www.northwestern.edu/",
+                "name": "Northwestern University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/000e0be47"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-9684-6347",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Yes, but model does not have a DOI. See Associated Publications below.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/d3d45a7e-24a4-42e9-a44b-e6e8e293e578/releases/1.0.0/",
+    "dateCreated": "2020-06-05",
+    "description": "This agent-based model was built as part of a replication effort of Jeness et al.'s work (linked below). The model simulates an MSM sexual activity network for the purpose of modeling the effects of respectively PrEP and ART on HIV prevention. The purpose of the model is to explore the differences between differerent interpretations of the NIH Indication Guidelines for PrEP.",
+    "downloadUrl": "https://www.comses.net/codebases/d3d45a7e-24a4-42e9-a44b-e6e8e293e578/releases/1.0.0/download/",
+    "dateModified": "2020-06-05",
+    "releaseNotes": "This is the first release of the model, and as such contains all code but no changes.",
+    "copyrightYear": 2020,
+    "datePublished": "2020-06-05",
+    "embargoEndDate": "2020-06-02",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "doi:10.1093/infdis/jiw223\ndoi:10.5281/zenodo.16767"
+}

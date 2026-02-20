@@ -1,0 +1,51 @@
+{
+    "@id": "https://www.comses.net/codebases/fe2375a1-3c80-4aeb-b4e5-1fca9d57cc0e/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/fe2375a1-3c80-4aeb-b4e5-1fca9d57cc0e/releases/1.0.0/",
+    "name": "Automatic multi game chess",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "email": "julia.kasmire@manchester.ac.uk",
+            "givenName": "Julia",
+            "familyName": "Kasmire"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "chess, complex, event, event sequence, dynamic, adjacent possible, non-events"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/fe2375a1-3c80-4aeb-b4e5-1fca9d57cc0e/releases/1.0.0/",
+    "dateCreated": "2019-07-22",
+    "description": "This model converts cleaned up versions of .pgn files (records of real chess games) and conversts them into files that record all of the events and \"possible\" events within a game of chess. This is intended to be a way to create sets of data that capture event sequences within the relatively complex but finite context of chess games as a proxy or \"toy\" data set. Although not a perfect correlation, these toy data sets are a first step in analysing complex and dynamic systems of events and possible events that happen in the real world. ",
+    "downloadUrl": "https://www.comses.net/codebases/fe2375a1-3c80-4aeb-b4e5-1fca9d57cc0e/releases/1.0.0/download/",
+    "dateModified": "2020-02-18",
+    "releaseNotes": "Chess games are complex but finite; pieces, squares and possible moves are limited but predicting moves or outcomes is difficult because of the complex interactions. Chess games may be a useful proxy or \u201ctoy\u201d data set for complex systems. \n**Function-** Appropriately formatted input strings (example = \u201cPd4 Nf6 Nd2 Pe5 Pde5 Ng4 Ph3 Ne3 black_wins\u201d) are turned into exported files of all (possible) events as the ABM * determine which colour goes next, * copies the next move in the game to a variable called \u201cply-piece\u201d, * asks the pieces of the colour to go next to report back on what moves they are legally allowed to make as well as whether they could capture a piece , are protecting a piece, etc. * exports the possible moves to another file, * compares the the possible moves to the ply-piece and ask the appropriate piece to make that move.\nThis process repeats, alternating between white and black, until there are no moves left in the string and the game ends. Importantly, instances of (potential) castling are reported by both kings and rooks as (potential) events for both pieces rather than as a single event as is typically written in .pgn notation. The model also reports the end of the game and the result of the game (white_wins, black_wins or draw) as events and these are appended to the output file (if the model is set to create an output file).\n\n**Consider** The output is a long list of events including the pieces involved (that move, that are threatened, etc.) what (could have) happened and where/when it happened.\nEvents includes all possible events within the finite limits and rules of the game, including moves not taken such as: * Valid, but irrelevant moves (e.g. pawns that never move still report possible moves). * Implicit threats (e.g. bishop that takes a position that is not a direct threat but could quickly become one). * Nonsense moves that advanced players would never consider, but which are still legally possible.",
+    "copyrightYear": 2019,
+    "datePublished": "2019-07-22",
+    "embargoEndDate": "2019-07-22",
+    "operatingSystem": "linux",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

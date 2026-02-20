@@ -1,0 +1,64 @@
+{
+    "@id": "https://www.comses.net/codebases/c64da2e4-65c8-417e-897c-646db8033ed2/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/c64da2e4-65c8-417e-897c-646db8033ed2/releases/1.0.0/",
+    "name": "Integrate land use policies into the agent-based model to simulate land use change",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-1004-3093",
+            "@type": "Person",
+            "email": "gjing@cug.edu.cn",
+            "givenName": "Jing",
+            "familyName": "Gao"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/LGPL-3.0",
+        "name": "LGPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Jing Gao, Jian Gong*, Nina Schwarz*, Richard Sliuzas. A hierarchical cross-departmental agent-based approach to explore the impacts of policy interplay on land use dynamics, Computers, Environment and Urban Systems, Volume 123, 2026, 102355.  10.1016/j.compenvurbsys.2025.102355.",
+            "@type": "CreativeWork"
+        },
+        {
+            "text": "No",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "agent-based model",
+        "land use change",
+        "land use policy",
+        "Python 3",
+        "urban land use"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/c64da2e4-65c8-417e-897c-646db8033ed2/releases/1.0.0/",
+    "dateCreated": "2024-06-09",
+    "description": "This study employs a hierarchical cross-departmental ABM to explore the question: How and to what extent are the land use policies enforced when assessed against the real-world land use pattern? Specifically, two sub-questions are of interest: How can real-world policy interactions be abstracted into the behavior across hierarchical governmental departments in the model? How can the level of enforcement for each land use policy be quantified under these interactions? We build three hierarchical agents\u2014the central level, the local level that incorporates three departments, and the village collective level\u2014with simplified but plausible processes of land use change, with levels of enforcement of different land use policies as key parameters. We calibrate the model using a genetic algorithm to determine those parameters and answer our research question. We further applied the model to simulate potential land use changes and investigate the implications of different policy options. The results are expected to provide insights into the intricate relationships shaping land use processes, contributing to evidence-based decision-making in urban planning and sustainable land use management.",
+    "downloadUrl": "https://www.comses.net/codebases/c64da2e4-65c8-417e-897c-646db8033ed2/releases/1.0.0/download/",
+    "dateModified": "2026-01-27",
+    "releaseNotes": "Please refer to Appendix A (ODD + D protocol) of the following paper for detailed model descriptions.\nJing Gao, Jian Gong*, Nina Schwarz*, Richard Sliuzas. A hierarchical cross-departmental agent-based approach to explore the impacts of policy interplay on land use dynamics, Computers, Environment and Urban Systems, Volume 123, 2026, 102355.  10.1016/j.compenvurbsys.2025.102355. ",
+    "copyrightYear": 2024,
+    "datePublished": "2024-06-09",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Spyder"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python 3",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

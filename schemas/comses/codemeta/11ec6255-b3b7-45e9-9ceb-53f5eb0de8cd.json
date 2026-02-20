@@ -1,0 +1,55 @@
+{
+    "@id": "https://www.comses.net/codebases/11ec6255-b3b7-45e9-9ceb-53f5eb0de8cd/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/11ec6255-b3b7-45e9-9ceb-53f5eb0de8cd/releases/1.0.0/",
+    "name": "NK model for multilevel adaptation",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-8275-701X",
+            "@type": "Person",
+            "email": "dario94_ls@hotmail.com",
+            "givenName": "Dario",
+            "familyName": "Blanco Fernandez"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Extension of NK model, see: Daniel A. Levinthal (1997), \"Adaptation on Rugged Landscapes\"",
+            "@type": "CreativeWork"
+        }
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/11ec6255-b3b7-45e9-9ceb-53f5eb0de8cd/releases/1.0.0/",
+    "dateCreated": "2022-11-30",
+    "description": "Previous research on organizations often focuses on either the individual, team, or organizational level. There is a lack of multidimensional research on emergent phenomena and interactions between the mechanisms at different levels. This paper takes a multifaceted perspective on individual learning and autonomous group formation and turnover. To analyze interactions between the two levels, we introduce an agent-based model that captures an organization with a population of heterogeneous agents who learn and are limited in their rationality. To solve a task, agents form a group that can be adapted from time to time. We explore organizations that promote learning and group turnover either simultaneously or sequentially and analyze the interactions between the activities and the effects on performance. We observe underproportional interactions when tasks are interdependent and show that pushing learning and group turnover too far might backfire and decrease performance significantly.",
+    "downloadUrl": "https://www.comses.net/codebases/11ec6255-b3b7-45e9-9ceb-53f5eb0de8cd/releases/1.0.0/download/",
+    "dateModified": "2022-11-30",
+    "releaseNotes": "Upload of final version",
+    "copyrightYear": 2022,
+    "datePublished": "2022-11-30",
+    "codeRepository": "https://gitlab.aau.at/dablancofern/nk-model-multilevel-adaptation",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Spyder"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Source code and readme file for the paper \"Interactions between the individual and the group level in organizations: The case of learning and autonomous group turnover\" by Dario Blanco-Fernandez, Stephan Leitner, Alexandra Rausch (2022). Preprint version available at: https://arxiv.org/abs/2203.09162"
+}

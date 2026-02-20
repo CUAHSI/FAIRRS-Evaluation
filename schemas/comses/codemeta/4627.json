@@ -1,0 +1,98 @@
+{
+    "@id": "https://www.comses.net/codebases/4627/releases/1.2.0/",
+    "url": "https://www.comses.net/codebases/4627/releases/1.2.0/",
+    "name": "Cultural Group Selection of Sustainable Institutions",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-7364-1130",
+            "@type": "Person",
+            "email": "timothy.waring@maine.edu",
+            "givenName": "Timothy",
+            "familyName": "Waring",
+            "affiliation": {
+                "url": "https://umaine.edu/mitchellcenter/",
+                "name": "Associate Professor of Social-Ecological Systems Modelling",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Sandra",
+            "familyName": "Goff"
+        },
+        {
+            "@id": "https://www.comses.net/users/780/",
+            "@type": "Person",
+            "email": "paul.smaldino@gmail.com",
+            "givenName": "Paul",
+            "familyName": "Smaldino",
+            "affiliation": {
+                "@id": "https://ror.org/00d9ah105",
+                "url": "http://www.ucmerced.edu/",
+                "name": "University of California, Merced",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00d9ah105"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-7364-1130",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://www.comses.net/users/780/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "common pool resource",
+        "cultural group selection",
+        "institutional evolution",
+        "multilevel selection",
+        "sustainable use"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4627/releases/1.2.0/",
+    "dateCreated": "2015-08-04",
+    "description": "The sustainable use of limited environmental resources presents a looming cooperation problem for the global human population. Empirical research has identified a number of resource management institutions that improve the longevity of resource use by rendering individual conservation behavior viable. However, the mechanisms by which these institutions emerge or stabilize have not been established. We speculate that cooperative resource use norms and complementary institutions may emerge via a process of cultural group selection amongst social-ecological systems. \n\nWe present an agent-based model of norm evolution, group formation and endogenous institutional development to explore the conditions under which cultural group selection might facilitate the emergence of sustainable societies. The challenge of environmental over-exploitation is instantiated in our model as a social dilemma in which resource conservation is individually costly but required for long-term population persistence. This means that global societal collapse is common, and only a small fraction of populations persist. The model allows for the formation and dissolution of socially marked groups, and for the evolution of norms regarding cooperative production and property. \n\nWe show (1) that conservation and population persistence are enhanced by the emergence of cooperative production and property institutions, (2) that these institutions rely on the exclusive use of resources by clearly marked social groups, and (3) that the emergence of the more sustainable institutions is caused by a process of cultural selection between social groups. Our simulations indicate that with a stationary defensible resource, exclusivity norms (especially private property norms) are essential for long-term sustainability, and that those norms arise reliably through a process of cultural group selection. We conclude with implications for sustainable policy development and proposals for future research.",
+    "downloadUrl": "https://www.comses.net/codebases/4627/releases/1.2.0/download/",
+    "dateModified": "2019-08-28",
+    "releaseNotes": "This version is a complete model draft, submitted prior to publication. Publication:\n\nTimothy M. Waring, Goff, S.H., & Smaldino P.E. (2017) The coevolution of economic institutions and sustainable consumption via cultural group selection. Ecological Economics, 131 524\u2013532 http://dx.doi.org/10.1016/j.ecolecon.2016.09.022",
+    "copyrightYear": 2015,
+    "datePublished": "2015-08-04",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

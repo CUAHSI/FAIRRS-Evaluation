@@ -1,0 +1,55 @@
+{
+    "@id": "https://www.comses.net/codebases/68a53ba2-8cfd-4805-bb16-5e8bd6840d25/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/68a53ba2-8cfd-4805-bb16-5e8bd6840d25/releases/1.1.0/",
+    "name": "Myside Bias and Group Discussion",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-9966-1460",
+            "@type": "Person",
+            "email": "e.baccini@rug.nl",
+            "givenName": "Edoardo",
+            "familyName": "Baccini"
+        }
+    ],
+    "license": {
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.html",
+        "name": "Apache-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "deliberation",
+        "group discussion",
+        "opinion dynamics",
+        "truth-tracking",
+        "wisdom of the crowds"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/68a53ba2-8cfd-4805-bb16-5e8bd6840d25/releases/1.1.0/",
+    "dateCreated": "2022-11-14",
+    "description": "The my-side bias is a well-documented cognitive bias in the evaluation of arguments, in which reasoners in a discussion tend to overvalue arguments that confirm their prior beliefs, while undervaluing arguments that attack their prior beliefs. This agent-based model in Netlogo simulates a group discussion among myside-biased agents, within a Bayesian setting. This model is designed to investigate the effects of the myside bias on the ability of groups to reach a consensus or collectively track the correct answer to a given binary issue. ",
+    "downloadUrl": "https://www.comses.net/codebases/68a53ba2-8cfd-4805-bb16-5e8bd6840d25/releases/1.1.0/download/",
+    "dateModified": "2023-09-05",
+    "releaseNotes": "The model simulates a group discussions over a binary issue between myside biased agents, i.e. agents that undervalue arguments that attack their prior belief, and overvalue arguments that confirm their prior belief. \nThe objective of our model is to assess the extent to which the myside bias, i.e. the tendency to overvalue/undervalue arguments depending on their fit with one\u2019s own prior belief, affect the ability of the group to find the correct answer to the binary issue under discussion.\nIn particular, the model is built to answer the question: does the myside bias help or hinder the ability of groups to find the correct answer to a binary issue?\n",
+    "copyrightYear": 2023,
+    "datePublished": "2023-09-05",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "The Wisdom of the Small Crowd: Myside Bias and Group Discussion, with Zo\u00e9 Christoff, Stephan Hartmann and Rineke Verbrugge, Journal of Artificial Societies and Social Simulations (forthcoming)"
+}

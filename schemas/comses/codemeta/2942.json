@@ -1,0 +1,65 @@
+{
+    "@id": "https://www.comses.net/codebases/2942/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/2942/releases/1.1.0/",
+    "name": "Agent-Based Model for the Evolution of Ethnocentrism",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/759/",
+            "@type": "Person",
+            "email": "max.hartshorn@gmail.com",
+            "givenName": "Max",
+            "familyName": "Hartshorn",
+            "affiliation": {
+                "@id": "https://ror.org/01pxwe438",
+                "url": "http://www.mcgill.ca/",
+                "name": "McGill University - Laboratory for Natural and Simulated Cognition",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01pxwe438"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/759/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent based model",
+        "evolution",
+        "evolutionary game theory",
+        "evolution of cooperation",
+        "minimal cognition",
+        "prisoners dilemma"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2942/releases/1.1.0/",
+    "dateCreated": "2012-03-26",
+    "description": "This is an implementation of an agent based model for the evolution of ethnocentrism. While based off a model published by Hammond and Axelrod (2006), the code has been modified to allow for a more fine-grained analysis of evolutionary dynamics.\r\n\r\nIn brief, the model consists of a grid populated by agents, each assigned one of four possible arbitrary tags. Agents engage in a one-shot prisoner's dilemma game with neighboring agents and behave based on predetermined strategy phenotypes towards agents with similar and different tags. Cooperation incurs a slight cost to oneself and accords a respectively higher benefit to the agent being cooperated with. The sum of all costs and benefits for a given agent influences their probability of reproducing an offspring with identical strategy traits in a neighboring empty cell at the end of each cycle. A cycle terminates when all agents have engaged in a one-shot prisoner's dilemma game with all neighboring agents. (see appendix here for a detailed description)\r\n\r\nThe simulation allows four possible strategies:\r\n\r\nE (ethnocentric) - a strategy of preferential cooperation with one's ingroup\r\n\r\nH (humanitarian) - a strategy of indiscriminate cooperation with all agents\r\n\r\nS (selfish) - a strategy of constant non-cooperation\r\n\r\nT (traitorous) - a strategy whereby agents cooperate with their outgroup but not their ingroup\r\n\r\nHammond and Axelrod found that ethnocentrism evolved under a variety of parameter settings. We produced this model to better understand the conditions under which ethnocentrism arose. Our discovery of early periods of humanitarian dominance before the ascendancy of ethnocentrism proved particularly intriguing. What are the factors that mitigate the early rise of humanitarians? And what are the factors that mitigate their capitulation to ethnocentrics?",
+    "downloadUrl": "https://www.comses.net/codebases/2942/releases/1.1.0/download/",
+    "dateModified": "2018-02-19",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "platform_independent",
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Shultz, T. R., Hartshorn, M., & Kaznatcheev, A. (2009). Why is ethnocentrism more common than humanitarianism? In N. A. Taatgen & H. v. Rijn (Eds.), Proceedings of the 31st Annual Conference of the Cognitive Science Society (pp. 2100-2105). Austin, TX: Cognitive Science Society."
+}

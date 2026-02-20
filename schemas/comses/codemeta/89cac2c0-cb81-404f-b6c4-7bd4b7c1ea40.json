@@ -1,0 +1,190 @@
+{
+    "@id": "https://doi.org/10.25937/fxdq-fn86",
+    "url": "https://doi.org/10.25937/fxdq-fn86",
+    "name": "HUMLAND: HUMan impact on LANDscapes agent-based model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-4456-0942",
+            "@type": "Person",
+            "email": "nikulina1302@gmail.com",
+            "givenName": "Anastasia",
+            "familyName": "Nikulina",
+            "affiliation": {
+                "@id": "https://ror.org/027bh9e22",
+                "url": "http://www.leiden.edu/",
+                "name": "Leiden University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/027bh9e22"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "macdonaldkatharine@gmail.com",
+            "givenName": "Katharine",
+            "familyName": "MacDonald"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "a.zapolska@vu.nl",
+            "givenName": "Anhelina",
+            "familyName": "Zapolska",
+            "affiliation": {
+                "@id": "https://ror.org/008xxew50",
+                "url": "https://vu.nl/",
+                "name": "Vrije Universiteit Amsterdam",
+                "@type": "Organization",
+                "identifier": "https://ror.org/008xxew50"
+            }
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "email": "maria-antonia.serge@univ-tlse2.fr",
+            "givenName": "Maria Antonia",
+            "familyName": "Serge",
+            "affiliation": {
+                "@id": "https://ror.org/04ezk3x31",
+                "url": "https://www.univ-tlse2.fr/",
+                "name": "Universit\u00e9 Toulouse - Jean Jaur\u00e8s",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04ezk3x31"
+            }
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Person",
+            "email": "marco.davoli@bio.au.dk",
+            "givenName": "Marco",
+            "familyName": "Davoli",
+            "affiliation": {
+                "@id": "https://ror.org/01aj84f44",
+                "url": "http://www.au.dk/en/",
+                "name": "Aarhus University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01aj84f44"
+            }
+        },
+        {
+            "@id": "_:author_6",
+            "@type": "Person",
+            "email": "d.van.ws@gmail.com",
+            "givenName": "Dave",
+            "familyName": "van Wees",
+            "affiliation": {
+                "@id": "https://ror.org/008xxew50",
+                "url": "https://vu.nl/",
+                "name": "Vrije Universiteit Amsterdam",
+                "@type": "Organization",
+                "identifier": "https://ror.org/008xxew50"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1857/",
+            "@type": "Person",
+            "email": "f.scherjon@arch.leidenuniv.nl",
+            "givenName": "Fulco",
+            "familyName": "Scherjon"
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-4456-0942",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-4456-0942",
+            "@type": "Role",
+            "roleName": "maintainer"
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-4456-0942",
+            "@type": "Role",
+            "roleName": "editor"
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-4456-0942",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "collaborator"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "collaborator"
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Role",
+            "roleName": "collaborator"
+        },
+        {
+            "@id": "_:author_6",
+            "@type": "Role",
+            "roleName": "collaborator"
+        },
+        {
+            "@id": "https://www.comses.net/users/1857/",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "ABM",
+        "agent-based model",
+        "anthropogenic fire",
+        "burning",
+        "Europe",
+        "fire",
+        "holocene",
+        "hunter-gatherer",
+        "landscape",
+        "mesolithic"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/fxdq-fn86",
+        "https://doi.org/10.25937/fxdq-fn86"
+    ],
+    "dateCreated": "2023-09-01",
+    "description": "The HUMan impact on LANDscapes (HUMLAND) model has been developed to track and quantify the intensity of different impacts on landscapes at the continental level. This agent-based model focuses on determining the most influential factors in the transformation of interglacial vegetation with a specific emphasis on burning organized by hunter-gatherers. HUMLAND integrates various spatial datasets as input and target for the agent-based model results. Additionally, the simulation incorporates recently obtained continental-scale estimations of fire return intervals and the speed of vegetation regrowth. The obtained results include maps of possible scenarios of modified landscapes in the past and quantification of the impact of each agent, including climate, humans, megafauna, and natural fires.",
+    "downloadUrl": "https://www.comses.net/codebases/89cac2c0-cb81-404f-b6c4-7bd4b7c1ea40/releases/1.0.0/download/",
+    "dateModified": "2023-10-16",
+    "releaseNotes": "HUMLAND version 1.0, October 2023\nThis is the first and only version of the Human Impact on Landscapes Model (HUMLAND), released in October 2023.",
+    "copyrightYear": 2023,
+    "datePublished": "2023-10-16",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo 6.2.2"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Nikulina A., MacDonald K., Zapolska A., Serge M. A., Roche D. M., Mazier F., Davoli M., Svenning J.-C., van Wees D., Pearce E. A., Fyfe R., Roebroeks W., Scherjon F. Hunter-gatherer impact on European interglacial vegetation: a modelling approach. Quaternary Science Reviews"
+}

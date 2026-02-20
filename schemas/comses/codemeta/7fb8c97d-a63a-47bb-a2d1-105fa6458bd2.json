@@ -1,0 +1,57 @@
+{
+    "@id": "https://www.comses.net/codebases/7fb8c97d-a63a-47bb-a2d1-105fa6458bd2/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/7fb8c97d-a63a-47bb-a2d1-105fa6458bd2/releases/1.0.0/",
+    "name": "An agent-based model of building occupant behavior during load shedding",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-8280-7726",
+            "@type": "Person",
+            "email": "handichan@gmail.com",
+            "givenName": "Handi",
+            "familyName": "Chandra Putra"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/7fb8c97d-a63a-47bb-a2d1-105fa6458bd2/releases/1.0.0/",
+    "dateCreated": "2020-05-21",
+    "description": "Load shedding enjoys increasing popularity as a way to reduce power consumption in buildings during hours of peak demand on the electricity grid. This practice has well known cost saving and reliability benefits for the grid, and the contracts utilities sign with their \u201cinterruptible\u201d customers often pass on substantial electricity cost savings to participants. Less well-studied are the impacts of load shedding on building occupants, hence this study investigates those impacts on occupant comfort and adaptive behaviors. It documents experience in two office buildings located near Philadelphia (USA) that vary in terms of controllability and the set of adaptive actions available to occupants. An agent-based model (ABM) framework generalizes the case-study insights in a \u201cwhat-if\u201d format to support operational decision making by building managers and tenants. The framework, implemented in EnergyPlus and NetLogo, simulates occupants that have heterogeneous\nthermal and lighting preferences. The simulated occupants pursue local adaptive actions such as adjusting clothing or using portable fans when central building controls are not responsive, and experience organizational constraints, including a corporate dress code and miscommunication with building managers. The model predicts occupant decisions to act fairly well but has limited ability to predict which specific adaptive actions occupants will select.",
+    "downloadUrl": "https://www.comses.net/codebases/7fb8c97d-a63a-47bb-a2d1-105fa6458bd2/releases/1.0.0/download/",
+    "dateModified": "2020-05-21",
+    "releaseNotes": "As published.",
+    "copyrightYear": 2020,
+    "datePublished": "2020-05-21",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "EnergyPlus",
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "EnergyPlus",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "https://doi.org/10.1007/s12273-017-0384-x"
+}

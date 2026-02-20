@@ -1,0 +1,93 @@
+{
+    "@id": "https://www.comses.net/codebases/4776/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4776/releases/1.0.0/",
+    "name": "Carington",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-9238-1215",
+            "@type": "Person",
+            "email": "wkennedy@gmu.edu",
+            "givenName": "William",
+            "familyName": "Kennedy",
+            "affiliation": {
+                "@id": "https://ror.org/02jqj7156",
+                "url": "https://www.gmu.edu/",
+                "name": "George Mason University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02jqj7156"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Emily",
+            "familyName": "Ihara"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Catherine",
+            "familyName": "Tompkins"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "givenName": "Michael",
+            "familyName": "Wolf-Branigin"
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-9238-1215",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-nd/4.0",
+        "name": "CC-BY-NC-ND-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4776/releases/1.0.0/",
+    "dateCreated": "2017-07-13",
+    "description": "Each year, older adults and caregivers get a year older and, in the case of the older adults, their health generally declines and there is an increase in the number of activities of daily living (ADLs) that they cannot perform on their own.  Caregivers may be family members, professionals, or institutions and the capacity of family members to provide care generally declines with time. Only family members serving as caregivers are modeled as agents. The other caregivers are only represented by counts. When the care recipient\u2019s needs exceed the capacity of their current associated caregiver, changes in the care giving must be made. The focus of this model is coping with the stresses by the caregivers and the decision-making involved in changing the caregiving conditions.",
+    "downloadUrl": "https://www.comses.net/codebases/4776/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "This is version 5.0. Previous versions were during development.",
+    "copyrightYear": 2017,
+    "datePublished": "2017-07-13",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Ihara, E.S., Kennedy, W.G., Tompkins, C.J. Wolf-Branigin, M.E. (2015) Long-Term Dementia Care: Modeling the Decision Process. Behavior Representation in Modeling and Simulation Conference 2015 (BRiMS). Washington, DC. (31 Mar.-3 Apr. 2015)."
+}

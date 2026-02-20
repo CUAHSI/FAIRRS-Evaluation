@@ -1,0 +1,64 @@
+{
+    "@id": "https://www.comses.net/codebases/3045/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/3045/releases/1.1.0/",
+    "name": "A modified model of breeding synchrony in colonial birds",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-5099-0001",
+            "@type": "Person",
+            "email": "james.millington@kcl.ac.uk",
+            "givenName": "James",
+            "familyName": "Millington",
+            "affiliation": {
+                "@id": "https://ror.org/0220mzb33",
+                "url": "http://www.kcl.ac.uk/index.aspx",
+                "name": "King's College London",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0220mzb33"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-5099-0001",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "contagion",
+        "emergence",
+        "explanation",
+        "narrative",
+        "social behaviour"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3045/releases/1.1.0/",
+    "dateCreated": "2012-07-15",
+    "description": "The original model was developed by Jovani and Grimm (2008) to examine the hypothesis that synchronized breeding between neighbours and across whole bird colonies is dependent in part on the reciprocal modulation of individual birds\u2019 stress levels. The model represents 10,000 individual nesting birds on a regular 100 \u00d7 100 square lattice. Birds are assumed to lay eggs once their own stress level (OSL) drops below a given threshold (arbitrarily fixed at 10, 1/10 of the minimum initial OSL and 1/30 of the maximum). OSL is assumed to change through time following:\r\n\r\nOSLt+1 = [(1 - NR) \u00d7 OSLt] + (NR \u00d7 meanNSLt) - SD\t(1)\r\n\r\nwhere: t is the current timestep, SD is the stress decay (from 1 to 100), meanNSL is the mean OSL of the eight contiguous neighbours, and NR is the relevance given to neighbouring birds\u2019 stress levels (from 0 to 1). The full ODD (Overview, Design concepts and Details) model specification can be found in Jovani and Grimm (2008).\r\n\r\nThe original program was modified using NetLogo 5.0 by James D.A. Millington (\u2018JM\u2019 in code comments) and is used in Millington et al. (2012).\r\n\r\nThe original version of the model was modified for three main reasons: \r\nto allow data output for analysis (e.g., output_data switch, create_movie switch, data_PrintToFile procedure)\nto allow representation of variable numbers of influencing neighbouring birds (countN slider)\nto allow full replicable model runs by allowing the user to specify the random number seed (seed slider)\nMillington et al. (2012) used this modified model version to show how a narrative approach to explanation can be useful for interpreting and understanding how and why generative simulation models produce the emergent patterns they do. \r\n\r\nThe modified program is free of use for research and education. If using this modified version of the model, please cite both Jovani and Grimm (2008) and Millington et al. (2012).\r\n\r\nReferences\r\nJovani, R., Grimm, V., 2008. Breeding synchrony in colonial birds: from local stress to global harmony. Proceedings of the Royal Society of London B 275, 1557\u20131563.\r\n\r\nMillington, J.D.A, O\u2019Sullivan, D. and Perry, G.L.W. 2012. Model Histories: Narrative Explanation in Generative Simulation Modelling. Geoforum http://dx.doi.org/10.1016/j.geoforum.2012.06.017",
+    "downloadUrl": "https://www.comses.net/codebases/3045/releases/1.1.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    },
+    "referencePublication": "Jovani, R. and Grimm, V. 2008. \r\nBreeding synchrony in colonial birds: from local stress to global harmony \r\nProceedings of the Royal Society of London B 275, 1557\u20131563. http://dx.doi.org/10.1098/rspb.2008.0125\r\n\r\nAND \r\n\r\nMillington, J.D.A, O\u2019Sullivan, D. and Perry, G.L.W. 2012. \r\nModel Histories: Narrative Explanation in Generative Simulation Modelling \r\nGeoforum"
+}

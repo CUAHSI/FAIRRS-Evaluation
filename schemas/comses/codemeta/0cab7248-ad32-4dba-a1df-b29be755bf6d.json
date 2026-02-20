@@ -1,0 +1,60 @@
+{
+    "@id": "https://www.comses.net/codebases/0cab7248-ad32-4dba-a1df-b29be755bf6d/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/0cab7248-ad32-4dba-a1df-b29be755bf6d/releases/1.1.0/",
+    "name": "GenoScope",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-4878-7477",
+            "@type": "Person",
+            "email": "crou0048@umn.edu",
+            "givenName": "Kristin",
+            "familyName": "Crouse",
+            "affiliation": {
+                "@id": "https://ror.org/017zqws13",
+                "url": "http://twin-cities.umn.edu/",
+                "name": "University of Minnesota",
+                "@type": "Organization",
+                "identifier": "https://ror.org/017zqws13"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.html",
+        "name": "Apache-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "cell physiology",
+        "environmental stressors",
+        "epigenetics",
+        "genes"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/0cab7248-ad32-4dba-a1df-b29be755bf6d/releases/1.1.0/",
+    "dateCreated": "2025-04-09",
+    "description": "GenoScope is a modular agent-based model designed to simulate how cells respond to environmental stressors or other treatment conditions across species. Genes, treatment conditions, and cell physiology outcomes are represented as interacting agents that influence each other\u2019s behavior over time. Rather than imposing fixed interaction rules, GenoScope initializes with randomized regulatory logic and calibrates rule sets based on empirical data. Calibration is grounded in a common-garden experiment involving 16 mammalian species\u2014including humans, dolphins, bats, and camels\u2014exposed to varying levels of temperature, glucose, and oxygen. This comparative approach enables the identification of mechanisms by which animal cells achieve robustness under extreme environmental conditions.",
+    "downloadUrl": "https://www.comses.net/codebases/0cab7248-ad32-4dba-a1df-b29be755bf6d/releases/1.1.0/download/",
+    "dateModified": "2025-04-09",
+    "releaseNotes": "This version of GenoScope includes functionality for both the calibration of empirical cell data and use as a computer game for STEM outreach.",
+    "copyrightYear": 2025,
+    "datePublished": "2025-04-09",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

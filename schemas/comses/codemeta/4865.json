@@ -1,0 +1,77 @@
+{
+    "@id": "https://www.comses.net/codebases/4865/releases/1.4.0/",
+    "url": "https://www.comses.net/codebases/4865/releases/1.4.0/",
+    "name": "Modeling the Emergence of Riots",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "givenName": "Bianica",
+            "familyName": "Pires"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-5034-6654",
+            "@type": "Person",
+            "email": "acrooks77@gmail.com",
+            "givenName": "Andrew",
+            "familyName": "Crooks",
+            "affiliation": {
+                "@id": "https://ror.org/02jqj7156",
+                "url": "https://www.gmu.edu/",
+                "name": "George Mason University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02jqj7156"
+            }
+        },
+        {
+            "@id": "_:author_1",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-5034-6654",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.4.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "ABM",
+        "GIS",
+        "riots",
+        "social network"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4865/releases/1.4.0/",
+    "dateCreated": "2016-09-21",
+    "description": "This ABM serves as an initial prototype for modeling riots in an urban area, with the Kibera slum serving as the case study. It explores the role humanistic needs theory,individual identity, collective social identity, and social influence play on rumor dynamics and the spread of ethnic stereotyping in the outbreak of riots. An ABM is integrated with social network analysis (SNA) and geographic information systems (GIS) for this purpose.",
+    "downloadUrl": "https://www.comses.net/codebases/4865/releases/1.4.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "",
+    "copyrightYear": 2016,
+    "datePublished": "2016-09-21",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "Mason"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Pires, B. and Crooks, A.T. (accepted). \u201cModeling the Emergence of Riots: A Geosimulation Approach\u201d, Computers, Environment and Urban Systems"
+}

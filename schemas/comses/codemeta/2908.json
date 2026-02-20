@@ -1,0 +1,64 @@
+{
+    "@id": "https://www.comses.net/codebases/2908/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/2908/releases/1.0.0/",
+    "name": "Tyche",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/653/",
+            "@type": "Person",
+            "email": "tlawso@essex.ac.uk",
+            "givenName": "Tony",
+            "familyName": "Lawson",
+            "affiliation": {
+                "@id": "https://ror.org/02nkf1q06",
+                "url": "http://www.essex.ac.uk/",
+                "name": "University of Essex",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02nkf1q06"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/653/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "demographics",
+        "liam 2",
+        "microsimulation"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2908/releases/1.0.0/",
+    "dateCreated": "2012-02-28",
+    "description": "A microsimulation of the UK population.\r\n\r\nAn initial population of individuals and households is read in from a file then advanced over time to simulate how the population would change as people age. The annual probability of events such as birth and death as well as partnership formation and dissolution are used to predict the path of each inidvidual. The results from\r\nthis are then aggregated to forecast the makeup of the future population.\r\n\r\nIt is based on actual data from the British Household Panel Survey.",
+    "downloadUrl": "https://www.comses.net/codebases/2908/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "Tyche Version 1.1",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

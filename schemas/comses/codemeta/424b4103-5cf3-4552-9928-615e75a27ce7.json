@@ -1,0 +1,95 @@
+{
+    "@id": "https://www.comses.net/codebases/424b4103-5cf3-4552-9928-615e75a27ce7/releases/1.0.2/",
+    "url": "https://www.comses.net/codebases/424b4103-5cf3-4552-9928-615e75a27ce7/releases/1.0.2/",
+    "name": "An agent-based simulation of discussion processes in risk workshops",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-9997-4814",
+            "@type": "Person",
+            "email": "clemens.harten@gmail.com",
+            "givenName": "Clemens",
+            "familyName": "Harten"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Matthias",
+            "familyName": "Meyer"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "l.bellora-bienengraeber@rug.nl",
+            "givenName": "Lucia",
+            "familyName": "Bellora-Bienengr\u00e4ber",
+            "affiliation": {
+                "@id": "https://ror.org/012p63287",
+                "url": "http://www.rug.nl/",
+                "name": "University of Groningen",
+                "@type": "Organization",
+                "identifier": "https://ror.org/012p63287"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-9997-4814",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.2",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "bayesian network",
+        "communication",
+        "discussion",
+        "risk management"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/424b4103-5cf3-4552-9928-615e75a27ce7/releases/1.0.2/",
+    "dateCreated": "2021-09-30",
+    "description": "The model measures drivers of effectiveness of risk assessments in risk workshops regarding the correctness and required time. Specifically, we model the limits to information transfer, incomplete discussions, group characteristics, and interaction patterns and investigate their effect on risk assessment in risk workshops.\n\nThe model simulates a discussion in the context of a risk workshop with 9 participants. The participants use Bayesian networks to assess a given risk individually and as a group. ",
+    "downloadUrl": "https://www.comses.net/codebases/424b4103-5cf3-4552-9928-615e75a27ce7/releases/1.0.2/download/",
+    "dateModified": "2022-08-14",
+    "releaseNotes": "# Initial release\nThis is the initial release of the model as used for the forthcoming publication *Talking about the likelihood of risks: An agent-based simulation of discussion processes in risk workshops* in Journal of Accounting and Organizational Change.\n\nThe model is written in Python. However, the Bayesian networks are, for performance reasons, calculated in R. Thus, the model currently only works on Linux with R and Python, using the rpy2 library.\n\nThe model was developed for Python 3.8.3. \n\n# Getting started\nPlease run runner.py to start the simulation. The model supports parallel execution on several CPUs, which speeds up the generation of simulation results.",
+    "copyrightYear": 2021,
+    "datePublished": "2021-09-30",
+    "operatingSystem": "linux",
+    "runtimePlatform": [
+        "NetworkX",
+        "pgmpy",
+        "rpy2"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "r",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Harten, C., Meyer, M. and Bellora-Bienengr\u00e4ber, L. (2022), \"Talking about the likelihood of risks: an agent-based simulation of discussion processes in risk workshops\", Journal of Accounting & Organizational Change, Vol. 18 No. 1, pp. 153-173. https://doi.org/10.1108/JAOC-11-2020-0197"
+}

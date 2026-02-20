@@ -1,0 +1,85 @@
+{
+    "@id": "https://doi.org/10.25937/qrz1-qh27",
+    "url": "https://doi.org/10.25937/qrz1-qh27",
+    "name": "An Agent-Based Model of Campaign-Based Watershed Management",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-9557-3810",
+            "@type": "Person",
+            "email": "samuelheban@yahoo.com",
+            "givenName": "Samuel",
+            "familyName": "Assefa"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "aad.kessler@wur.nl",
+            "givenName": "Aad",
+            "familyName": "Kessler",
+            "affiliation": {
+                "@id": "https://ror.org/04qw24q55",
+                "url": "https://www.wur.nl/",
+                "name": "Wageningen University & Research",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04qw24q55"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "luuk.fleskens@wur.nl",
+            "givenName": "Luuk",
+            "familyName": "Fleskens",
+            "affiliation": {
+                "@id": "https://ror.org/04qw24q55",
+                "url": "https://www.wur.nl/",
+                "name": "Wageningen University & Research",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04qw24q55"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based model",
+        "Farmers",
+        "scenario analysis",
+        "Soil and Water Conservation"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/qrz1-qh27",
+        "https://doi.org/10.25937/qrz1-qh27"
+    ],
+    "dateCreated": "2020-09-19",
+    "description": "The model simulates the national Campaign-Based Watershed Management program of Ethiopia. It includes three agents (farmers, Kebele/ village administrator, extension workers) and the physical environment that interact with each other. The physical environment is represented by patches (fields). Farmers make decisions on the locations of micro-watersheds to be developed, participation in campaign works to construct soil and water conservation structures, and maintenance of these structures. These decisions affect  the physical environment or generate model outcomes. The model is developed to explore conditions that enhance outcomes of the program by analyzing the effect on the area of land covered and quality of soil and water conservation structures of (1) enhancing farmers awareness and motivation, (2) establishing and strengthening micro-watershed associations, (3) introducing alternative livelihood opportunities, and (4) enhancing the commitment of local government actors. ",
+    "downloadUrl": "https://www.comses.net/codebases/54aef9da-1255-43c3-a32c-4b1a45f14366/releases/1.1.0/download/",
+    "dateModified": "2024-12-05",
+    "releaseNotes": "Select a case study to run the model. This adjusts initial conditions of agents and physical environment for each case study. In addition, number of farmers and model time step can be adjusted in the interface. Next, press setup button, and then go to run the model.\n\nIt is essential to read keys to understand the colors that represent different agents and fields (indicated at the right-bottom of the interface). In the NetLogo world, you may inspect how the attributes of agents and fields evolve overtime. In addition, when the model runs watch farmers' level of participation in campaign works as well as their maintenance decisions. Also, take a look at the outcomes of the model overtime: area of land covered and quality of soil and water conservation structures. The monitors give actual outputs at each time step. You may compare case studies in the default settings and assess combinations that optimize area of land covered and quality of soil and water conservation. \n\n",
+    "copyrightYear": 2021,
+    "datePublished": "2021-06-04",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "This model is used in the manuscript named \"Using Agent-Based Modelling to Assess Scenarios for Enhanced Soil and Water Conservation in the Boset District, Ethiopia\""
+}

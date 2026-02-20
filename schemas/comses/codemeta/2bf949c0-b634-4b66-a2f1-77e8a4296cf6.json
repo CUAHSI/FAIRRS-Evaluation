@@ -1,0 +1,120 @@
+{
+    "@id": "https://www.comses.net/codebases/2bf949c0-b634-4b66-a2f1-77e8a4296cf6/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/2bf949c0-b634-4b66-a2f1-77e8a4296cf6/releases/1.0.0/",
+    "name": "Protein 2.0: An Agent-Based Model for Simulating Norway\u2019s Protein Sector Under Carbon Pricing and the Emergence of Cultivated Proteins",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-7821-1831",
+            "@type": "Person",
+            "email": "nick.roxburgh@hutton.ac.uk",
+            "givenName": "Nick",
+            "familyName": "Roxburgh"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "rob.burton@ruralis.no",
+            "givenName": "Rob",
+            "familyName": "Burton",
+            "affiliation": {
+                "@id": "https://ror.org/0169gd037",
+                "url": "https://ruralis.no",
+                "name": "Ruralis - Institute for Rural and Regional Research",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0169gd037"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "klaus.mittenzwei@ruralis.no",
+            "givenName": "Klaus",
+            "familyName": "Mittenzwei",
+            "affiliation": {
+                "@id": "https://ror.org/0169gd037",
+                "url": "https://ruralis.no",
+                "name": "Ruralis - Institute for Rural and Regional Research",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0169gd037"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/843/",
+            "@type": "Person",
+            "email": "gary.polhill@hutton.ac.uk",
+            "givenName": "Gary",
+            "familyName": "Polhill",
+            "affiliation": {
+                "@id": "https://ror.org/03rzp5127",
+                "url": "http://www.hutton.ac.uk/",
+                "name": "The James Hutton Institute",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03rzp5127"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "https://www.comses.net/users/843/",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "See references in associated publication.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "agriculture",
+        "carbon tax",
+        "cultured meat",
+        "Norway",
+        "precision fermentation",
+        "protein"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2bf949c0-b634-4b66-a2f1-77e8a4296cf6/releases/1.0.0/",
+    "dateCreated": "2025-05-08",
+    "description": "Protein 2.0 is a systems model of the Norwegian protein sector designed to explore the potential impacts of carbon taxation and the emergence of cultivated meat and dairy technologies. The model simulates production, pricing, and consumption dynamics across conventional and cultivated protein sources, accounting for emissions intensity, technological learning, economies of scale, and agent behaviour. It assesses how carbon pricing could alter the competitiveness of conventional beef, lamb, pork, chicken, milk, and egg production relative to emerging cultivated alternatives, and evaluates the implications for domestic production, emissions, and food system resilience. The model provides a flexible platform for exploring policy scenarios and transition pathways in protein supply. Further details can be found in the associated publication.",
+    "downloadUrl": "https://www.comses.net/codebases/2bf949c0-b634-4b66-a2f1-77e8a4296cf6/releases/1.0.0/download/",
+    "dateModified": "2025-05-08",
+    "releaseNotes": "Code for a model of protein production scenarios in Norway for the Protein 2.0 project. See the associated publication and model Info tab for details of the required input data.",
+    "copyrightYear": 2025,
+    "datePublished": "2025-05-08",
+    "codeRepository": "https://github.com/nickroxburgh/NO_Protein",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "https://doi.org/10.1016/j.clet.2025.100979"
+}

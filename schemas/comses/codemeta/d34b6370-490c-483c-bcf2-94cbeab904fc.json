@@ -1,0 +1,85 @@
+{
+    "@id": "https://www.comses.net/codebases/d34b6370-490c-483c-bcf2-94cbeab904fc/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/d34b6370-490c-483c-bcf2-94cbeab904fc/releases/1.0.0/",
+    "name": "Emergence of Small-World Networks in an Overlapping-Generations Model of Social Dynamics, Trust and Economic Performance",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-0678-282X",
+            "@type": "Person",
+            "email": "bkamins@sgh.waw.pl",
+            "givenName": "Bogumi\u0142",
+            "familyName": "Kami\u0144ski"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "jg23234@sgh.waw.pl",
+            "givenName": "Jakub",
+            "familyName": "Growiec",
+            "affiliation": {
+                "@id": "https://ror.org/00tystp70",
+                "url": "http://www.nbp.pl/",
+                "name": "National Bank of Poland",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00tystp70"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "katarzyna.growiec@gmail.com",
+            "givenName": "Katarzyna",
+            "familyName": "Growiec",
+            "affiliation": {
+                "@id": "https://ror.org/0407f1r36",
+                "url": "http://www.swps.pl/english-version",
+                "name": "University of Social Sciences and Humanities",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0407f1r36"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/d34b6370-490c-483c-bcf2-94cbeab904fc/releases/1.0.0/",
+    "dateCreated": "2020-02-27",
+    "description": "We study the impact of endogenous creation and destruction of social ties in an artificial society on aggregate outcomes such as generalized trust, willingness to cooperate, social utility and economic performance. To this end we put forward a computational multi-agent model where agents of overlapping generations interact in a dynamically evolving social network. In the model, four distinct dimensions of individuals\u2019 social capital: degree, centrality, heterophilous and homophilous interactions, determine their generalized trust and willingness to cooperate, altogether helping them achieve certain levels of social utility (i.e., utility from social contacts) and economic performance. We find that the stationary state of the simulated social network exhibits realistic small-world topology. We also observe that societies whose social networks are relatively frequently reconfigured, display relatively higher generalized trust, willingness to cooperate, and economic performance \u2013 at the cost of lower social utility. Similar outcomes are found for societies where social tie dissolution is relatively weakly linked to family closeness.",
+    "downloadUrl": "https://www.comses.net/codebases/d34b6370-490c-483c-bcf2-94cbeab904fc/releases/1.0.0/download/",
+    "dateModified": "2020-04-02",
+    "releaseNotes": "See README.txt for details about how to run the model. The research paper accompanying this model can be accessed at http://jasss.soc.surrey.ac.uk/23/2/8.html.",
+    "copyrightYear": 2020,
+    "datePublished": "2020-02-27",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "julia-lang"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "julia-lang",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

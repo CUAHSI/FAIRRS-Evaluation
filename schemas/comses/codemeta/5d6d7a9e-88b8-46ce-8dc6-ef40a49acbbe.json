@@ -1,0 +1,97 @@
+{
+    "@id": "https://www.comses.net/codebases/5d6d7a9e-88b8-46ce-8dc6-ef40a49acbbe/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5d6d7a9e-88b8-46ce-8dc6-ef40a49acbbe/releases/1.0.0/",
+    "name": "PalaeoDiet : Rabbit hunting during the Upper Palaeolithic",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-2713-4044",
+            "@type": "Person",
+            "email": "samuel.fabien.seuru@umontreal.ca",
+            "givenName": "Samuel",
+            "familyName": "Seuru"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-6599-9893",
+            "@type": "Person",
+            "email": "l.perez@umontreal.ca",
+            "givenName": "Liliana",
+            "familyName": "Perez",
+            "affiliation": {
+                "@id": "https://ror.org/0161xgx34",
+                "url": "http://www.umontreal.ca/english/",
+                "name": "University of Montreal",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0161xgx34"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "a.burke@umontreal.ca",
+            "givenName": "Ariane",
+            "familyName": "Burke",
+            "affiliation": {
+                "@id": "https://ror.org/0161xgx34",
+                "url": "http://www.umontreal.ca/english/",
+                "name": "Universit\u00e9 de Montr\u00e9al",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0161xgx34"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-6599-9893",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "diet",
+        "diet breadth model",
+        "European rabbit",
+        "hunting",
+        "iberian peninsula",
+        "optimal foraging theory",
+        "upper palaeolithic",
+        "warren"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5d6d7a9e-88b8-46ce-8dc6-ef40a49acbbe/releases/1.0.0/",
+    "dateCreated": "2022-10-06",
+    "description": "Zooarchaeological evidences indicate that rabbit hunting became prevalent during the Upper Palaeolithic in the Iberian Peninsula.\n\nThe purpose of the ABM is to test if warren hunting using nets as a collective strategy can explain the introduction of rabbits in the human diet in the Iberian Peninsula during this period.  It is analyzed whether this hunting strategy has an impact on human diet breadth by affecting the relative abundance of other main taxa in the dietary spectrum. \nModel validity is measured by comparing simulated diet breadth to the observed diet breadth in the zooarchaeological record.\n\nThe agent-based model is explicitly grounded on the Diet Breadth Model (DBM), from the Optimal Foraging Theory (OFT). \n\nThis is an adapted version of the model developed by Wren et al. (2020) of human foraging system in Holocene Cape south coast of South Africa. Their model is also based on the model structure developed by Janssen and Hill (2014, 2016) to analyze hunting system among Ache hunter-gatherers.",
+    "downloadUrl": "https://www.comses.net/codebases/5d6d7a9e-88b8-46ce-8dc6-ef40a49acbbe/releases/1.0.0/download/",
+    "dateModified": "2022-10-06",
+    "releaseNotes": "In this version of the model, the warren is composed of 7 rabbits.\nThe entire Iberian Peninsula is not modelled because of limitations in the capabilities of computer hardware. Thus, we chose a smaller, representative region as our model domain, i.e., Catalonia. The zooarchaeological record of this region is relatively rich and almost all of the main species hunted by humans during the Upper Paleolithic in Iberia are present.\n\n",
+    "copyrightYear": 2022,
+    "datePublished": "2022-10-06",
+    "embargoEndDate": "2022-10-13",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Seuru Samuel, Perez Liliana and Burke Ariane. (submitted, october 2022 ). Chapter 9. Why were rabbits hunted in the past? Insights from an Agent-Based Model of human diet breadth in Iberia during the Last Glacial Maximum. In Modeling human-environment interactions in and beyond prehistoric Europe, Samuel Seuru and Benjamin Albouy, eds., Springer Nature."
+}

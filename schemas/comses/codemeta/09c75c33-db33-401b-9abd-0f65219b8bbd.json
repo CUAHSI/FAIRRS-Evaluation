@@ -1,0 +1,51 @@
+{
+    "@id": "https://www.comses.net/codebases/09c75c33-db33-401b-9abd-0f65219b8bbd/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/09c75c33-db33-401b-9abd-0f65219b8bbd/releases/1.0.0/",
+    "name": "Agent-based tax evasion model for investigating impacts of public disclosure",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0009-0002-7727-482X",
+            "@type": "Person",
+            "email": "sano@res.otaru-uc.ac.jp",
+            "givenName": "Hiroyuki",
+            "familyName": "Sano"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "Tax Compliance",
+        "Tax evasion"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/09c75c33-db33-401b-9abd-0f65219b8bbd/releases/1.0.0/",
+    "dateCreated": "2024-03-14",
+    "description": "The model explores the impact of public disclosure on tax compliance among diverse agents, including individual taxpayers and a tax authority. It incorporates heterogeneous preferences and income endowments among taxpayers, captured through a utility function that considers psychic costs subtracted from expected pecuniary utility. These costs include moral, reciprocity, and stigma costs associated with norm violations, leading to variations in taxpayers\u2019 risk attitudes and related parameters. The tax authority's attributes, such as the frequency of random audits, penalty rate, and the choice between partial or full disclosure, remain fixed throughout the simulation. Income endowments and preference parameters are randomly assigned to taxpayers at the outset.\n\nTaxpayers maximize their expected utility by reporting income, taking into account tax, penalty, and audit rates. They make annual decisions based on their own and their peers' behaviors from the previous year. Taxpayers indirectly interact at the societal level through public disclosure conducted by the tax authority, exchanging tax information among peers. Each period in the simulation collects data on total reported income, average compliance rates per income group, distribution of compliance rates, counts of compliers, full evaders, partial evaders, and the numbers of taxpayers experiencing guilt and anger. The model evaluates whether public disclosure positively or negatively impacts compliance rates and quantifies this impact based on aggregated individual reporting behaviors.",
+    "downloadUrl": "https://www.comses.net/codebases/09c75c33-db33-401b-9abd-0f65219b8bbd/releases/1.0.0/download/",
+    "dateModified": "2024-03-14",
+    "releaseNotes": "First release",
+    "copyrightYear": 2024,
+    "datePublished": "2024-03-14",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo 6.2.2"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Netlogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

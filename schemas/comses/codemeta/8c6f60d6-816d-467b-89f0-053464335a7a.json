@@ -1,0 +1,80 @@
+{
+    "@id": "https://www.comses.net/codebases/8c6f60d6-816d-467b-89f0-053464335a7a/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/8c6f60d6-816d-467b-89f0-053464335a7a/releases/1.0.0/",
+    "name": "BorealFireSIM Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-6599-9893",
+            "@type": "Person",
+            "email": "l.perez@umontreal.ca",
+            "givenName": "Liliana",
+            "familyName": "Perez",
+            "affiliation": {
+                "@id": "https://ror.org/0161xgx34",
+                "url": "http://www.umontreal.ca/english/",
+                "name": "University of Montreal",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0161xgx34"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "jonathangaudreau87@gmail.com",
+            "givenName": "Jonathan",
+            "familyName": "Gaudreau",
+            "affiliation": {
+                "@id": "https://ror.org/01nhzsw25",
+                "url": "http://www.hydroquebec.com/en/",
+                "name": "Hydro-Qu\u00e9bec",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01nhzsw25"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "boreal forest",
+        "cellular automata",
+        "Climate Change",
+        "NetLogo",
+        "wildfire"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/8c6f60d6-816d-467b-89f0-053464335a7a/releases/1.0.0/",
+    "dateCreated": "2018-12-13",
+    "description": "***BorealFireSIM*** is a cellular automaton based model that serves to identify future fire patterns in the boreal forest of Quebec, Canada. The model simulates yearly fire seasons and adjusts decadal climate variables based on two future carbon pathways (RCP45 (low emissions) and RCP85 (business as usual)). The ***BorealFireSIM*** model simulates future fire patterns up to the year 2100.",
+    "downloadUrl": "https://www.comses.net/codebases/8c6f60d6-816d-467b-89f0-053464335a7a/releases/1.0.0/download/",
+    "dateModified": "2018-12-13",
+    "releaseNotes": "The ***BorealFireSIM*** model was created by Jonathan Gaudreau (MSc) with the supervision of Dr. Liliana Perez. The authors are members of the Laboratory of Environmental Geosimulation (LEDGE) at the University of Montreal, and would like to acknowledge the Natural Sciences and Engineering Research Council of Canada (NSERC) for full support of this study under the Discovery Grant Program awarded to Dr. Perez.\n\nThis model was proposed, implemented and used to provide the results for the following published (peer reviewed) paper:\n\nGaudreau J, Perez L and Drapeau P (2016) BorealFireSim: A GIS-based cellular automata model of wildfires for the boreal forest of Quebec in a climate change paradigm. Ecological Informatics 32. Elsevier B.V.: 12\u201327. DOI: 10.1016/j.ecoinf.2015.12.006.",
+    "copyrightYear": 2018,
+    "datePublished": "2018-12-13",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

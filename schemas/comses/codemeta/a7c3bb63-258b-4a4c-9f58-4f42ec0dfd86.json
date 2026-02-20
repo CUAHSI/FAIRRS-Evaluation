@@ -1,0 +1,105 @@
+{
+    "@id": "https://doi.org/10.25937/3dbz-qv52",
+    "url": "https://doi.org/10.25937/3dbz-qv52",
+    "name": "Share: bottom-up disaster information management",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-1691-0143",
+            "@type": "Person",
+            "email": "vittorionespeca@gmail.com",
+            "givenName": "Vittorio",
+            "familyName": "Nespeca",
+            "affiliation": {
+                "@id": "https://ror.org/02e2c7k09",
+                "url": "http://www.tudelft.nl/en/",
+                "name": "Delft University of Technology",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02e2c7k09"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "t.comes@tudelft.nl",
+            "givenName": "Tina",
+            "familyName": "Comes",
+            "affiliation": {
+                "@id": "https://ror.org/02e2c7k09",
+                "url": "http://www.tudelft.nl/en/",
+                "name": "Delft University of Technology",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02e2c7k09"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "f.m.brazier@tudelft.nl",
+            "givenName": "Frances",
+            "familyName": "Brazier",
+            "affiliation": {
+                "@id": "https://ror.org/02e2c7k09",
+                "url": "http://www.tudelft.nl/en/",
+                "name": "Delft University of Technology",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02e2c7k09"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "community resilience",
+        "crisis management",
+        "disaster management",
+        "empirical model",
+        "information management",
+        "Information Systems and Social Networks"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/3dbz-qv52",
+        "https://doi.org/10.25937/3dbz-qv52"
+    ],
+    "dateCreated": "2021-12-01",
+    "description": "This model is intended to study the way information is collectively managed (i.e. shared, collected, processed, and stored) in a system and how it performs during a crisis or disaster. Performance is assessed in terms of the system's ability to provide the information needed to the actors who need it when they need it. There are two main types of actors in the simulation, namely communities and professional responders. Their ability to exchange information is crucial to improve the system's performance as each of them has direct access to only part of the information they need.  \n\nIn a nutshell, the following occurs during a simulation. Due to a disaster, a series of randomly occurring disruptive events takes place. The actors in the simulation need to keep track of such events. Specifically, each event generates information needs for the different actors, which increases the information gaps (i.e. the \"piles\" of unaddressed information needs). In order to reduce the information gaps, the actors need to \"discover\" the pieces of information they need. The desired behavior or performance of the system is to keep the information gaps as low as possible, which is to address as many information needs as possible as they occur.",
+    "downloadUrl": "https://www.comses.net/codebases/a7c3bb63-258b-4a4c-9f58-4f42ec0dfd86/releases/1.0.0/download/",
+    "dateModified": "2024-05-09",
+    "releaseNotes": "Model associated with this scientific journal publication: https://doi.org/10.18564/jasss.5014 ",
+    "copyrightYear": 2022,
+    "datePublished": "2022-12-05",
+    "codeRepository": "https://github.com/Nesp/share",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Netlogo v6.1.1",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Nespeca, Vittorio, Comes, Tina and Brazier, Frances (2023) 'A Methodology to Develop Agent-Based Models for Policy Support Via Qualitative Inquiry' Journal of Artificial Societies and Social Simulation 26 (1) 10 <http://jasss.soc.surrey.ac.uk/26/1/10.html>. doi: 10.18564/jasss.5014"
+}

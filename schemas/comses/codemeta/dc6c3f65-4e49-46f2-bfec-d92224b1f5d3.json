@@ -1,0 +1,75 @@
+{
+    "@id": "https://doi.org/10.25937/6cea-b617",
+    "url": "https://doi.org/10.25937/6cea-b617",
+    "name": "The Viability of the Social-Ecological Agroecosystem (ViSA) Spatial Agent-based Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2278/",
+            "@type": "Person",
+            "email": "moustafasha3ban@gmail.com",
+            "givenName": "Mostafa",
+            "familyName": "Shaaban",
+            "affiliation": {
+                "@id": "https://ror.org/00g30e956",
+                "url": "http://www.uni-hamburg.de",
+                "name": "Universit\u00e4t Hamburg",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00g30e956"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "- Shaaban, M., Schwartz, C., Macpherson, J., & Piorr, A. (2021). A Conceptual Model Framework for Mapping, Analyzing and Managing Supply\u2013Demand Mismatches of Ecosystem Services in Agricultural Landscapes. Land, 10(2), 131. https://doi.org/10.3390/land10020131\n- Shaaban, M., Schwartz, C., Macpherson, J., Piorr, A., 2021. Modelling Decision Adaption Pathways for the Integration of Societal Demands for Ecosystem Services and their Impacts on SDGs in Agricultural Landscapes. Presented at the 16th Congress of the European Association of Agricultural Economists, EAAE: Raising the Impact of Agricultural Economics: Multidisciplinarity, Stakeholder Engagement and Novel Approaches, Prague, Czech Republic.\n- Shaaban, M., Scheffran, J., B\u00f6hner, J., & Elsobki, M. S. (2019). A Dynamic Sustainability Analysis of Energy Landscapes in Egypt: A Spatial Agent-Based Model Combined with Multi-Criteria Decision Analysis. Journal of Artificial Societies and Social Simulation, 22(1). https://doi.org/10.18564/jasss.3906\n- Shaaban, M., Scheffran, J., B\u00f6hner, J., & Elsobki, M. S. (2018). Energy Landscape Transition Analysis and Planning in Egypt (ELTAP-Egy). CoMSES Net. https://doi.org/10.25937/zre0-r244\n- BenDor, T. K., & Scheffran, J. (2018). Agent-based modeling of environmental conflict and cooperation. Taylor & Francis, Boca Raton, Florida, USA",
+            "@type": "CreativeWork"
+        },
+        {
+            "text": "The model is an extension of ELTAP-EGY model (https://doi.org/10.25937/zre0-r244) which has been built based on the concept of the VIABLE (Values and Investments from Agent-Based interaction and Learning in Environmental systems) model ( https://viable.web.unc.edu/).",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "Agent-based modeling",
+        "Agricultural landscapes",
+        "ecosystem services",
+        "social-ecological system",
+        "Societal demand"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/6cea-b617",
+        "https://doi.org/10.25937/6cea-b617"
+    ],
+    "dateCreated": "2022-03-13",
+    "description": "ViSA simulates the decision behaviors of different stakeholders showing demands for ecosystem services (ESS) in agricultural landscape. The lack of sufficient supply of ESSs triggers stakeholders to apply different management options to increase their supply. However, while attempting to reduce the supply-demand gap, conflicts arise among stakeholders due to the tradeoff nature of some ESS. ViSA investigates conditions and scenarios that can minimize such supply-demand gap while reducing the risk of conflicts by suggesting different mixes of management options and decision rules.",
+    "downloadUrl": "https://www.comses.net/codebases/dc6c3f65-4e49-46f2-bfec-d92224b1f5d3/releases/1.0.0/download/",
+    "dateModified": "2024-02-27",
+    "releaseNotes": "This release presents a prototype model that uses unreal data and the user may experience some errors while running the model which needs to be adjusted from the adaptation rates. These errors will be fixed in the next version.",
+    "copyrightYear": 2022,
+    "datePublished": "2022-06-03",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo 6.1.1"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo 6.1.1",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "- Shaaban, M. (2023). Viability of the social\u2013ecological agroecosystem (ViSA). SoftwareX, 22, 101360. https://doi.org/10.1016/j.softx.2023.101360 \n- Shaaban, M., Mouratiadou, I., Piorr, A., 202*. Managing Societal Demands for Ecosystem Services in Agricultural Landscapes: the Viability of the Social-Ecological Agroecosystem (ViSA) Agent-based Model. (Submitted-Under review)\n- Shaaban, M., & Piorr, A. (2021, September). Simulation of Dynamic Adaptation of Social-Ecological-System in Agricultural Landscapes. Landscape 2021 - Diversification for Sustainable and Resilient Agriculture, Berlin-Online. https://doi.org/10.13140/RG.2.2.15013.42721"
+}

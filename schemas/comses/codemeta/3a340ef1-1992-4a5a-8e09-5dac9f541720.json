@@ -1,0 +1,95 @@
+{
+    "@id": "https://www.comses.net/codebases/3a340ef1-1992-4a5a-8e09-5dac9f541720/releases/1.0.5/",
+    "url": "https://www.comses.net/codebases/3a340ef1-1992-4a5a-8e09-5dac9f541720/releases/1.0.5/",
+    "name": "Team Structure and Task Performance",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-6677-8689",
+            "@type": "Person",
+            "email": "secchi.davi@gmail.com",
+            "givenName": "Davide",
+            "familyName": "Secchi",
+            "affiliation": {
+                "url": "https://www.sdu.dk/en/om_sdu/institutter_centre/c_comac",
+                "name": "Research Centre for Computational & Organisational Cognition, University of Southern Denmark",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "martneum@sdu.dk",
+            "givenName": "Martin",
+            "familyName": "Neumann",
+            "affiliation": {
+                "@id": "https://ror.org/03yrrjy16",
+                "url": "http://www.sdu.dk/en/",
+                "name": "University of Southern Denmark",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03yrrjy16"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "collaborator"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.5",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Bardone, E., & Secchi, D. (2017). Inquisitiveness: Distributing rational thinking. Team Performance Management, 23(1/2), 66\u201381.\n\nCohen, M. D., March, J. G., & Olsen, H. P. (1972). A garbage can model of organizational choice. Administrative Science Quarterly, 17(1), 1\u201325.\n\nFioretti, G., & Lomi, A. (2010). Passing the buck in the garbage can model of organizational choice. Computational and Mathematical Organization Theory, 16(2), 113\u2013143.\n\nHerath, D. B., Secchi, D., & Homberg, F. (2016). The effects of disorganization on goals and problem solving. In D. Secchi & M. Neumann (Eds.), Agent-based simulation of organizational behavior. New frontiers of social science research (pp. 63\u201384). New York: Springer\n\nLorscheid, I., & Meyer, M. (2021). Toward a better understanding of team decision processes: Combining laboratory experiments with agent-based modeling. Journal of Business Economics, 91(9), 1431\u20131467.\n\nSecchi, D. (2021). Cognitive attunement in the face of organizational plasticity. Evidence-Based Human Resource Management, 9(2), 192\u2013208.\n\nWall, F. (2018). Emergence of task formation in organizations: Balancing units\u2019 competence and capacity. Journal of Artificial Societies and Social Simulation, 21(2).",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "competences",
+        "distributed cognition",
+        "docility",
+        "Organizational behavior",
+        "organizational behavior research",
+        "organizational cognition",
+        "organizational resilience",
+        "organizational structures",
+        "team dynamics",
+        "team processes"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3a340ef1-1992-4a5a-8e09-5dac9f541720/releases/1.0.5/",
+    "dateCreated": "2024-08-05",
+    "description": "This model was designed to study resilience in organizations. Inspired by ethnographic work, it follows the simple goal to understand whether team structure affects the way in which tasks are performed. In so doing, it compares the 'hybrid' data-inspired structure with three more traditional structures (i.e. hierarchy, flexible/relaxed hierarchy, and anarchy/disorganization). ",
+    "downloadUrl": "https://www.comses.net/codebases/3a340ef1-1992-4a5a-8e09-5dac9f541720/releases/1.0.5/download/",
+    "dateModified": "2024-08-05",
+    "releaseNotes": "This is the basic version of the model that is dedicated to explore how(if) team structure affects task performance. Since this is the first version we present on this platform, there is nothing that changes.",
+    "copyrightYear": 2024,
+    "datePublished": "2024-08-05",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Nelogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Secchi, D., Gahrn-Andersen, R., and Neumann, M. (2024). Complexity in systemic cognition: Theoretical explorations with agent-based modeling. Systems (forthcoming).\n\nSecchi, D., Neumann, M., Gahrn-Andersen, R., & Festila, M. S. (2024). Distributed competence: How team structure affects task performance. In European Academy of Management Annual Conference: Bath, UK.\n\nNeumann, M., Secchi, D., Festila, M. S., & Gahrn-Andersen, R. (2023). Comparing performance of different organizational team structures by agent-based modelling. In Social Simulation Conference 2023: Glasgow, UK"
+}

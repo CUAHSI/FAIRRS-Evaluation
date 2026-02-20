@@ -1,0 +1,53 @@
+{
+    "@id": "https://www.comses.net/codebases/6d7afac0-c0cc-4be2-9976-70f1a890f09c/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/6d7afac0-c0cc-4be2-9976-70f1a890f09c/releases/1.0.0/",
+    "name": "Emergency Warning Dissemination in a Multiplex Social Network",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-5941-250X",
+            "@type": "Person",
+            "email": "kollch@oregonstate.edu",
+            "givenName": "Charles",
+            "familyName": "Koll"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "emergency warnings",
+        "informal communication",
+        "multiplex networks"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/6d7afac0-c0cc-4be2-9976-70f1a890f09c/releases/1.0.0/",
+    "dateCreated": "2022-03-02",
+    "description": "This is an interdisciplinary agent-based model with Monte Carlo simulations to assess the relative effects of broadcast and contagion processes in a multiplex social network. This multiplex approach models multiple channels of informal communication - phone, word-of-mouth, and social media - that vary in their attribute values. Each agent is an individual in a threatened community who, once warned, has a probability of warning others in their social network using one of these channels. The probability of an individual warning others is based on their warning source and the time remaining until disaster impact, among other variables. Default parameter values were chosen from empirical studies of disaster warnings along with the spatial aspects of Coos Bay, OR, USA and Seaside, OR, USA communities.",
+    "downloadUrl": "https://www.comses.net/codebases/6d7afac0-c0cc-4be2-9976-70f1a890f09c/releases/1.0.0/download/",
+    "dateModified": "2023-01-31",
+    "releaseNotes": "Welcome to the 1.0 release! This version supports Julia 1.7. Support for Julia 1.6 can be found on the GitHub repository (https://github.com/Wang-Research-Group/WarningDissem.jl) as a tag.",
+    "copyrightYear": 2023,
+    "datePublished": "2023-01-31",
+    "codeRepository": "https://github.com/Wang-Research-Group/WarningDissem.jl",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "n/a"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Julia",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

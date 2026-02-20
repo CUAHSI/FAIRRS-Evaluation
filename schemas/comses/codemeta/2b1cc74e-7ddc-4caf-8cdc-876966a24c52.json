@@ -1,0 +1,71 @@
+{
+    "@id": "https://www.comses.net/codebases/2b1cc74e-7ddc-4caf-8cdc-876966a24c52/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/2b1cc74e-7ddc-4caf-8cdc-876966a24c52/releases/1.0.0/",
+    "name": "Maze with Q-Learning NetLogo extension",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2743/",
+            "@type": "Person",
+            "email": "kevin.kons@hotmail.com",
+            "givenName": "Kevin",
+            "familyName": "Kons"
+        },
+        {
+            "@id": "https://www.comses.net/users/2747/",
+            "@type": "Person",
+            "email": "fernando.santos@udesc.br",
+            "givenName": "Fernando",
+            "familyName": "Santos",
+            "affiliation": {
+                "url": "http://www.ceavi.udesc.br",
+                "name": "Universidade do Estado de Santa Catarina (UDESC)",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "ROOP, J. Reinforcement Learning Maze. NetLogo User Community Models, 2006.\nAerospace Systems Design Laboratory (ASDL), Georgia Institute of Technology. Dispon\u00edvel\nem: <http://ccl.northwestern.edu/netlogo/models/community/Reinforcement%20Learning%20Maze>.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "NetLogo",
+        "q-learning"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2b1cc74e-7ddc-4caf-8cdc-876966a24c52/releases/1.0.0/",
+    "dateCreated": "2019-12-10",
+    "description": "This is a re-implementation of a the NetLogo model [Maze](http://ccl.northwestern.edu/netlogo/models/community/Reinforcement%20Learning%20Maze) (ROOP, 2006).\n\nThis re-implementation makes use of the[ Q-Learning NetLogo Extension](https://github.com/KevinKons/qlearning-netlogo-extension) to implement the Q-Learning, which is done only with NetLogo native code in the original implementation.\n\n",
+    "downloadUrl": "https://www.comses.net/codebases/2b1cc74e-7ddc-4caf-8cdc-876966a24c52/releases/1.0.0/download/",
+    "dateModified": "2019-12-10",
+    "releaseNotes": "To use this model you just have to open it with NetLogo 6.1.0. You also should add the Q-Learning Extension to your NetLogo, this can be done through the NetLogo Extension Manager.",
+    "copyrightYear": 2019,
+    "datePublished": "2019-12-10",
+    "codeRepository": "https://github.com/KevinKons/qlearning-netlogo-extension",
+    "embargoEndDate": "2019-12-11",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

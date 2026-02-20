@@ -1,0 +1,76 @@
+{
+    "@id": "https://www.comses.net/codebases/4435/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/4435/releases/1.1.0/",
+    "name": "Peak-seeking Adder",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-2684-6330",
+            "@type": "Person",
+            "email": "julia.kasmire@manchester.ac.uk",
+            "givenName": "Julia",
+            "familyName": "Kasmire",
+            "affiliation": {
+                "@id": "https://ror.org/027m9bs27",
+                "url": "http://www.manchester.ac.uk/",
+                "name": "University of Manchester",
+                "@type": "Organization",
+                "identifier": "https://ror.org/027m9bs27"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Janne",
+            "familyName": "Korhonen"
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-2684-6330",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-sa/4.0/",
+        "name": "CC-BY-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "This model is an extension of the Adder Model by the same authors (https://www.openabm.org/model/4433/version/1/view) but is modified in such a way as to replicate and extend the work of Knudsen and Levinthal (Two faces of search: Alternative generation and alternative evaluation published in Organization Science in 2007).",
+            "@type": "CreativeWork"
+        }
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4435/releases/1.1.0/",
+    "dateCreated": "2015-02-20",
+    "description": "Learning, rationality and the reduction of uncertainty are generally understood\r\nto contribute to better problem solving, both by allowing more problems to be\r\nsolved and by solving those problems more efficiently. Consequently, learning,\r\nrationality and uncertainty reduction are directly embedded in the scientific\r\nmethod and other problem solving frameworks. Nevertheless, some agent-based\r\nmodels of problem solving suggest that learning, rationality and uncertainty\r\nreduction can be detrimental to long term problem solving by increasing prob-\r\nlem solving efficiency at the expense of the ability to solve more problems.\r\nThis paper presents a new agent-based model that draws on previous models of\r\nproblem solving to further explore the relationship between learning, rationality,\r\nuncertainty reduction and problem solving. The results show that uncertainty\r\nreduction improves problem solving efficiency but not the number of problems\r\nthat are solved, and further suggest that learning can increase as well as decrease uncertainty with the key to complete and efficient problem solving hinging on the balance between uncertainty growth and reduction.",
+    "downloadUrl": "https://www.comses.net/codebases/4435/releases/1.1.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2015,
+    "datePublished": "2015-02-20",
+    "operatingSystem": "linux",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

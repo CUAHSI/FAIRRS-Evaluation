@@ -1,0 +1,73 @@
+{
+    "@id": "https://www.comses.net/codebases/046ccfda-e78f-4518-8572-2da28cbf3e39/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/046ccfda-e78f-4518-8572-2da28cbf3e39/releases/1.1.0/",
+    "name": "Replication of an agent-based model using the Replication Standard",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2361/",
+            "@type": "Person",
+            "email": "j732zhan@edu.uwaterloo.ca",
+            "givenName": "Jiaxin",
+            "familyName": "Zhang"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-4293-1095",
+            "@type": "Person",
+            "email": "derekthomasrobinson@gmail.com",
+            "givenName": "Derek",
+            "familyName": "Robinson",
+            "affiliation": {
+                "@id": "https://ror.org/01aff2v68",
+                "url": "https://uwaterloo.ca/",
+                "name": "University of Waterloo",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01aff2v68"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Yes, please see this article for the original model: Brown, D.G. and Robinson, D.T., 2006. Effects of heterogeneity in residential preferences on an agent-based model of urban sprawl. *Ecology and society*, 11(1).",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "model replication"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/046ccfda-e78f-4518-8572-2da28cbf3e39/releases/1.1.0/",
+    "dateCreated": "2019-01-20",
+    "description": "This model is a replication model which is constructed based on the existing model used by the following article:\nBrown, D.G. and Robinson, D.T., 2006. Effects of heterogeneity in residential preferences on an agent-based model of urban sprawl. *Ecology and society*, 11(1).\nThe original model is called SLUCE's Original Model for Experimentation (SOME). In Brown and Robinson (2006)'s article, the SOME model was used to explore the impacts of heterogeneity in residential location selections on the research of urban sprawl. The original model was constructed using Objective-C language based on SWARM platform. This replication model is built by NetLogo language on NetLogo platform. We successfully replicate that model and demonstrated the reliability and replicability of it.",
+    "downloadUrl": "https://www.comses.net/codebases/046ccfda-e78f-4518-8572-2da28cbf3e39/releases/1.1.0/download/",
+    "dateModified": "2021-03-08",
+    "releaseNotes": "There are totally ten models in this replication project. All models must be run based on the \"151aesth.txt\" file. \"151aesth.txt\" file is used to set up the model landscape. Make sure the \"151aesth.txt\" is in the same location as the model code.\nIn each model, there are totally 7 tuning parameters which can be found in the 'interface' tab of this model. \u2018Smoothness\u2019 is used to adjust the roughness of the surface. 'numtest' is the number of locations to be evaluated by each resident before selecting the final location. 'luab?' is a useless parameter in this version of model. 'radius' is used to determine the radius of each service center's service circle. \u2018num-of-experiments\u2019 is the number of iterations each model run will do. 'first-time-output?' is a binary parameter which determine whether this is the first time to run the model. Make sure to turn it on when it is the first time to run the model. \u2018do-iterate\u2019 is also a binary parameter to determine whether you want to do the iteration. If you do not do the iteration, there will be only one model results after each model running.\nThere will be two outputs after each model running, which are one 'csv.' file and one raster file. Make sure to define appropriate output locations for both files for the further analysis. The raster file is used to analyze the spatial patterns of development. The csv. file is used to analyze the distribution of agent utilities. To be noticed, the raster file needs to be further analyzed by the Fragstats software.\nIf you do not want to do the iteration, turn the 'do-iterate?' off and click 'setup', then click 'go' to run the model.\nIf the model can successfully produce two output files, it can be said that the model is successfully run. The output analysis methods will be published as an article on a scientific journal. We will add the details about that article after its publication.",
+    "copyrightYear": 2020,
+    "datePublished": "2020-07-18",
+    "codeRepository": "https://github.com/JiaxinZhan/Challenges-and-benefits-of-model-replication-an-agent-based-example.git",
+    "embargoEndDate": "2020-07-16",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Brown, D.G. and Robinson, D.T., 2006. Effects of heterogeneity in residential preferences on an agent-based model of urban sprawl. *Ecology and society*, 11(1)."
+}

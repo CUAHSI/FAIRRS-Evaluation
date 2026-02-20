@@ -1,0 +1,69 @@
+{
+    "@id": "https://www.comses.net/codebases/5655/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/5655/releases/1.1.0/",
+    "name": "CPNorm",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-3936-2565",
+            "@type": "Person",
+            "email": "ruth@cfpm.org",
+            "givenName": "Ruth",
+            "familyName": "Meyer",
+            "affiliation": {
+                "url": "http://mmu.ac.uk",
+                "name": "Centre for Policy Modelling",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-3936-2565",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-sa/4.0/",
+        "name": "CC-BY-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Schl\u00fcter M, Tavoni A, Levin S (2016): Robustness of norm-driven cooperation in the commons. Proc. R. Soc. B 2016 283 20152431; DOI: 10.1098/rspb.2015.2431. http://rspb.royalsocietypublishing.org/content/283/1822/20152431",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "common pool resource",
+        "cooperation",
+        "norm",
+        "norm violation"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5655/releases/1.1.0/",
+    "dateCreated": "2017-06-13",
+    "description": "CPNorm is a model of a community of harvesters using a **common pool** resource \u2013 in this case a groundwater reservoir. Over time they have identified the optimal groundwater extraction level and it has become a social **norm** to adhere to this. Harvesters can either follow the norm (cooperators) or decide not to and extract more water (defectors or cheaters). Violation of the norm is sanctioned through social disapproval (ostracism) by the norm followers, thus reducing the utility that the norm violators receive from the resource.\r\n\r\nIn each time step the shared resource (groundwater) is replenished naturally by some amount of water flowing in and diminished by some amount of natural discharge. In addition, the agents extract some amount of groundwater depending on the strategy they follow (either cooperate or cheat). They use this to produce some kind of (abstract) product, which will give them a payoff (calculated as their proportion of the total extraction effort times the overall production minus their extraction costs). From this payoff they obtain a utility value, which is the same as the payoff in case of cooperators. Cheaters experience social disapproval that reduces their utility with an amount that depends on the level of cooperation in the community and the degree of norm violation (ostracism cost).\r\n\r\nAt the end of each time step, some agents might switch to a different strategy if the other agent they randomly meet has a higher utility. How many agents are randomly paired to compare their utilities is controlled via the parameter *update-probability*.\r\n\r\nThis model is a re-implementation in NetLogo of the model described in Schl\u00fcter M, Tavoni A, Levin S (2016): Robustness of norm-driven cooperation in the commons. Proc. R. Soc. B 2016 283 20152431; DOI: 10.1098/rspb.2015.2431.",
+    "downloadUrl": "https://www.comses.net/codebases/5655/releases/1.1.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "The first version of this model was written in NetLogo 5.2. Due to the syntax changes in NetLogo 6 regarding tasks, if you try to open it in the newest NetLogo version (currently 6.0.1) you will get a (slightly confusing) error message from the automatic converter. It will then run without problems.\r\n\r\nNevertheless, to avoid this hassle the second, updated version of the CPNorm model is provided for use with NetLogo 6.",
+    "copyrightYear": 2017,
+    "datePublished": "2017-06-13",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

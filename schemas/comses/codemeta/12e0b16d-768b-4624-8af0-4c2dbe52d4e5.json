@@ -1,0 +1,107 @@
+{
+    "@id": "https://www.comses.net/codebases/12e0b16d-768b-4624-8af0-4c2dbe52d4e5/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/12e0b16d-768b-4624-8af0-4c2dbe52d4e5/releases/1.1.0/",
+    "name": "Agent-Based Insight into Eco-Choices: Simulating the Fast Fashion Shift",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-2243-8383",
+            "@type": "Person",
+            "email": "daria.soboleva@wmich.edu",
+            "givenName": "Daria",
+            "familyName": "Soboleva",
+            "affiliation": {
+                "@id": "https://ror.org/00py81415",
+                "url": "http://www.duke.edu/",
+                "name": "Duke University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00py81415"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "anxo@math.uc3m.edu",
+            "givenName": "Angel",
+            "familyName": "S\u00e1nchez",
+            "affiliation": {
+                "@id": "https://ror.org/03ths8210",
+                "url": "https://www.uc3m.es",
+                "name": "Universidad Carlos III de Madrid",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03ths8210"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-2243-8383",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-2243-8383",
+            "@type": "Role",
+            "roleName": "maintainer"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-2243-8383",
+            "@type": "Role",
+            "roleName": "copyrightHolder"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "collaborator"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "resourceProvider"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based computational model",
+        "agent-based computational modelling in social sciences",
+        "agent-based model (abm)",
+        "complex systems modeling",
+        "consumption",
+        "NetLogo 6.3.0"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/12e0b16d-768b-4624-8af0-4c2dbe52d4e5/releases/1.1.0/",
+    "dateCreated": "2025-06-11",
+    "description": "The present model was created and used for the study titled ``Agent-Based Insight into Eco-Choices: Simulating the Fast Fashion Shift.\" The model is implemented in the multi-agent programmable environment NetLogo 6.3.0. The model is designed to simulate the behavior and decision-making processes of individuals (agents) in a social network. It focuses on how agents interact with their peers, social media, and government campaigns, specifically regarding their likelihood to purchase fast fashion. \n",
+    "downloadUrl": "https://www.comses.net/codebases/12e0b16d-768b-4624-8af0-4c2dbe52d4e5/releases/1.1.0/download/",
+    "dateModified": "2025-06-11",
+    "releaseNotes": "The present model was created and used for the study titled ``Agent-Based Insight into Eco-Choices: Simulating the Fast Fashion Shift.\u201d The model is implemented in the multi-agent programmable environment NetLogo 6.3.0. The model is designed to simulate the behavior and decision-making processes of individuals (agents) in a social network. It focuses on how agents interact with their peers, social media, and government campaigns, specifically regarding their likelihood to purchase fast fashion. UPDATE***: this version includes synthetic data similar distributionally to the original data, which will allow the user to replicate the results of the study more accurately.",
+    "copyrightYear": 2025,
+    "datePublished": "2025-06-11",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo 6.3.0"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo 6.3.0",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "https://arxiv.org/pdf/2407.18814"
+}

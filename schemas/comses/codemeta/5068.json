@@ -1,0 +1,56 @@
+{
+    "@id": "https://www.comses.net/codebases/5068/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5068/releases/1.0.0/",
+    "name": "Opinions on contested energy infrastructures",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "givenName": "Annalisa",
+            "familyName": "Stefanelli"
+        },
+        {
+            "@id": "_:author_1",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "arguments",
+        "contested infrastructures",
+        "dynamics opinion",
+        "psychology",
+        "social judgment"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5068/releases/1.0.0/",
+    "dateCreated": "2016-06-23",
+    "description": "This ABM simulates opinions on a topic (originally contested infrastructures) through the interactions between paired agents and based on the sociopsychological assumptions of social judgment theory (SJT; Sherif & Hovland, 1961). The model shows the opinion dynamics of individuals and the whole agent population regarding a specific issue over time. The model is based on empirical data (raw data not included in the model).",
+    "downloadUrl": "https://www.comses.net/codebases/5068/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2016,
+    "datePublished": "2016-06-23",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    },
+    "referencePublication": "Stefanelli, A. & Seidl, R., Opinions on contested energy infrastructures: An empirically based simulation approach, Journal of Environmental Psychology (2016), doi:10.1016/j.jenvp.2016.06.003"
+}

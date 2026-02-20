@@ -1,0 +1,58 @@
+{
+    "@id": "https://www.comses.net/codebases/a9c8c4fc-c515-4303-bdc6-073e9f764748/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/a9c8c4fc-c515-4303-bdc6-073e9f764748/releases/1.1.0/",
+    "name": "Contract farming in the Mekong Delta's rice supply chain",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-8108-5373",
+            "@type": "Person",
+            "email": "hung.nguyenkhanh@uon.edu.au",
+            "givenName": "Hung",
+            "familyName": "Nguyen",
+            "affiliation": {
+                "url": "https://www.newcastle.edu.au",
+                "name": "The University of Newcastle",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based computational model",
+        "agricultural supply chain",
+        "contract farming"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/a9c8c4fc-c515-4303-bdc6-073e9f764748/releases/1.1.0/",
+    "dateCreated": "2018-09-16",
+    "description": "We study three obstacles of the expansion of contract rice farming in the Mekong Delta (MKD) region. The failure of buyers in building trust-based relationship with small-holder farmers, unattractive offered prices from the contract farming scheme, and limited rice processing capacity have constrained contractors from participating in the large-scale paddy field program. We present an agent-based model to examine the viability of contract farming in the region from the contractor perspective. \n\nThe model focuses on financial incentives and trust, which affect the decision of relevant parties on whether to participate and honor a contract. The model is also designed in the context of the MKD\u2019s rice supply chain with two contractors engaging in the contract rice farming scheme alongside an open market, in which both parties can renege on the agreement. We then evaluate the contractors\u2019 performances with different combinations of scenarios related to the three obstacles. \n\nOur results firstly show that a fully-equipped contractor who opportunistically exploits a relatively small proportion (less than 10%) of the contracted farmers in most instances can outperform spot market-based contractors in terms of average profit achieved for each crop. Secondly, a committed contractor who offers lower purchasing prices than the most typical rate can obtain better earnings per ton of rice as well as higher profit per crop. However, those contractors in both cases could not enlarge their contract farming scheme, since either farmers\u2019 trust toward them decreases gradually or their offers are unable to compete with the benefits from a competitor or the spot market. Thirdly, the results are also in agreement with the existing literature that the contract farming scheme is not a cost-effective method for buyers with limited rice processing capacity, which is a common situation among the contractors in the MKD region.",
+    "downloadUrl": "https://www.comses.net/codebases/a9c8c4fc-c515-4303-bdc6-073e9f764748/releases/1.1.0/download/",
+    "dateModified": "2019-02-05",
+    "releaseNotes": "### How to run the model \n\n- Import the **ContractFarmingJASSS** folder to a Java IDE such as Eclipse or IntelliJ\n- Load all jar files in **libraries** folder\n- Config **agruments** to run the model from main class: view.ConFar_ConsoleSimulation \n  + -paramsFile ./config/Ordinary_Breach_00.properties -outputFile Ordinary_Breach_00\n  + Sensitivity Analysis is currently set TRUE\n- Outputs will then be saved to **logs** folder: ConFar_AllSteps_Ordinary_Breach_00\n- Relevant output files will then be analyzed with **R codes** (uploaded under the same projects): \n  + heatMapCF.R\n  + timeSeriesGroupPlots.R\n  \n  \n### If you have any questions, please email to Hung at hung.nguyenkhanh@uon.edu.au. Thank you!",
+    "copyrightYear": 2019,
+    "datePublished": "2019-02-05",
+    "codeRepository": "https://github.com/hungnk87/Contract-Farming-Agent-Based-Model",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "IntelliJ"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

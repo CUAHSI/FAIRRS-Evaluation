@@ -1,0 +1,63 @@
+{
+    "@id": "https://doi.org/10.25937/rgj4-br23",
+    "url": "https://doi.org/10.25937/rgj4-br23",
+    "name": "SIM-VOLATILE: Adoption of emerging circular technologies in the waste-treatment sector",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2829/",
+            "@type": "Person",
+            "email": "siavash.farahbakhsh@gmail.com",
+            "givenName": "Siavash",
+            "familyName": "Farahbakhsh"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-nd/4.0",
+        "name": "CC-BY-NC-ND-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "SIM-VOLATILE model is calibrated and validated based on the data collected by the H2020-VOLATILE project, European Union\u2019s Horizon 2020 research and innovation program under grant agreement No 720777 (link: http://www.volatile-h2020.eu/theproject.html).",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "Circular Economy",
+        "Diffusion",
+        "NetLogo",
+        "Waste Management"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/rgj4-br23",
+        "https://doi.org/10.25937/rgj4-br23"
+    ],
+    "dateCreated": "2022-12-14",
+    "description": "The SIM-VOLATILE model is a technology adoption model at the population level. The technology, in this model, is called Volatile Fatty Acid Platform (VFAP) and it is in the frame of the circular economy. The technology is considered an emerging technology and it is in the optimization phase. Through the adoption of VFAP, waste-treatment plants will be able to convert organic waste into high-end products rather than focusing on the production of biogas. Moreover, there are three adoption/investment scenarios as the technology enables the production of polyhydroxyalkanoates (PHA), single-cell oils (SCO), and polyunsaturated fatty acids (PUFA). However, due to differences in the processing related to the products, waste-treatment plants need to choose one adoption scenario.\n\nIn this simulation, there are several parameters and variables. Agents are heterogeneous waste-treatment plants that face the problem of circular economy technology adoption. Since the technology is emerging, the adoption decision is associated with high risks. In this regard, first, agents evaluate the economic feasibility of the emerging technology for each product (investment scenarios). Second, they will check on the trend of adoption in their social environment (i.e. local pressure for each scenario). Third, they combine these two economic and social assessments with an environmental assessment which is their environmental decision-value (i.e. their status on green technology). This combination gives the agent an overall adaptability fitness value (detailed for each scenario). If this value is above a certain threshold, agents may decide to adopt the emerging technology, which is ultimately depending on their predominant adoption probabilities and market gaps.",
+    "downloadUrl": "https://www.comses.net/codebases/c08284dd-8d28-4372-b8fc-744b72e8761c/releases/1.0.0/download/",
+    "dateModified": "2024-12-05",
+    "releaseNotes": "A detailed description of the model is provided in an ODD document attached. The instruction on how to run the model, are provided under the info-tab in the Netlogo interface.",
+    "copyrightYear": 2022,
+    "datePublished": "2022-12-14",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Farahbakhsh, Siavash, Stien Snellinx, Anouk Mertens, Edward Belderbos, Liselot Bourgeois, and Jef Van Meensel. \u201cWhat\u2019s stopping the waste-treatment industry from adopting emerging circular technologies? An agent-based model revealing drivers and barriers.\u201d Resources, Conservation and Recycling 190 (2023): 106792. https://doi.org/10.1016/j.resconrec.2022.106792.\n\nF Velghe, F De Wilde, S Snellinx, S Farahbakhsh, E Belderbos, C Peral, A Wiedemann, S Hiessl, J Michels, M-A Pierrard, T Dietrich, Volatile fatty acid platform \u2013 a cornerstone for the circular bioeconomy, FEMS Microbiology Letters, Volume 368, Issue 9, May 2021, fnab056, https://doi.org/10.1093/femsle/fnab056"
+}

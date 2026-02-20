@@ -1,0 +1,78 @@
+{
+    "@id": "https://www.comses.net/codebases/42c95a84-ca79-4d71-91e0-12ac436e9673/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/42c95a84-ca79-4d71-91e0-12ac436e9673/releases/1.1.0/",
+    "name": "Will you infect me with your opinion?",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-8790-101X",
+            "@type": "Person",
+            "email": "jarek@miszczak.eu",
+            "givenName": "Jaros\u0142aw",
+            "familyName": "Miszczak",
+            "affiliation": {
+                "@id": "https://ror.org/01dr6c206",
+                "url": "http://www.english.pan.pl/",
+                "name": "Institute of Theoretical and Applied Informatics, Polish Academy of Sciences",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01dr6c206"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "kdomino@iitis.pl",
+            "givenName": "Krzysztof",
+            "familyName": "Domino",
+            "affiliation": {
+                "@id": "https://ror.org/01dr6c206",
+                "url": "http://www.english.pan.pl/",
+                "name": "Polish Academy of Sciences",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01dr6c206"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "collaborator"
+        }
+    ],
+    "license": {
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.html",
+        "name": "Apache-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "opinion dynamics",
+        "virus"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/42c95a84-ca79-4d71-91e0-12ac436e9673/releases/1.1.0/",
+    "dateCreated": "2022-03-15",
+    "description": "This model incorporates three mechanisms shaping the dynamics of opinion formation, which mimics the dynamics of the virus spreading in the population. There are three methods of getting infected (or convinced) - direct contact, indirect contact, and contact with ``contaminated'' elements.",
+    "downloadUrl": "https://www.comses.net/codebases/42c95a84-ca79-4d71-91e0-12ac436e9673/releases/1.1.0/download/",
+    "dateModified": "2022-08-29",
+    "releaseNotes": "Implementation and scripts for running experiments for opinion dynamics with three channels of propagation.",
+    "copyrightYear": 2022,
+    "datePublished": "2022-08-29",
+    "codeRepository": "https://github.com/jmiszczak/three_way_opinion_spread",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo 6.2.1"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

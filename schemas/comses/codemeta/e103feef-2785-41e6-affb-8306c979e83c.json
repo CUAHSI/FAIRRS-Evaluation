@@ -1,0 +1,125 @@
+{
+    "@id": "https://www.comses.net/codebases/e103feef-2785-41e6-affb-8306c979e83c/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/e103feef-2785-41e6-affb-8306c979e83c/releases/1.0.0/",
+    "name": "Learning Extension - RAGE RAngeland Grazing Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/3676/",
+            "@type": "Person",
+            "email": "cristina.apetrei@leuphana.de",
+            "givenName": "Cristina",
+            "familyName": "Apetrei",
+            "affiliation": {
+                "@id": "https://ror.org/02wfhk785",
+                "url": "https://iiasa.ac.at",
+                "name": "International Institute for Applied Systems Analysis",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02wfhk785"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-6862-1768",
+            "@type": "Person",
+            "email": "strelkon@iiasa.ac.at",
+            "givenName": "Nikita",
+            "familyName": "Strelkovskii",
+            "affiliation": {
+                "url": "http://iiasa.ac.at",
+                "name": "IIASA",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "khabarov@iiasa.ac.at",
+            "givenName": "Nikolay",
+            "familyName": "Khabarov",
+            "affiliation": {
+                "@id": "https://ror.org/02wfhk785",
+                "url": "https://iiasa.ac.at",
+                "name": "International Institute for Applied Systems Analysis",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02wfhk785"
+            }
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "email": "javalera@iiasa.ac.at",
+            "givenName": "Valeria",
+            "familyName": "Javalera Rinc\u00f3n",
+            "affiliation": {
+                "@id": "https://ror.org/02wfhk785",
+                "url": "https://iiasa.ac.at",
+                "name": "International Institute for Applied Systems Analysis",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02wfhk785"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-6862-1768",
+            "@type": "Role",
+            "roleName": "collaborator"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "collaborator"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-sa/4.0/",
+        "name": "CC-BY-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Dressler, G., Groeneveld, J., Buchmann, C.M., Guo, C., Hase, N., Thober, J., Frank, K., M\u00fcller, B., 2018. RAGE RAngeland Grazing Model. NetLogo. CoMSES Computational Model Library.\n\nDressler, G., Groeneveld, J., Buchmann, C.M., Guo, C., Hase, N., Thober, J., Frank, K. and M\u00fcller, B. (2018): Implications of behavioral change for the resilience of pastoral systems \u2013 lessons from an agent-based model, Ecological Complexity.",
+            "@type": "CreativeWork"
+        },
+        {
+            "text": "EXTENSION: The original model can be found here: https://www.comses.net/codebases/5721/releases/1.0.0/",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "agent based model (abm)",
+        "Agro-Pastoral System",
+        "learning-by-doing",
+        "social learning"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/e103feef-2785-41e6-affb-8306c979e83c/releases/1.0.0/",
+    "dateCreated": "2023-07-22",
+    "description": "This is an extension of the original RAGE model (Dressler et al. 2018), where we add learning capabilities to agents, specifically learning-by-doing and social learning (two processes central to adaptive (co-)management).\n\nThe extension module is applied to smallholder farmers\u2019 decision-making - here, a pasture (patch) is the private property of the household (agent) placed on it and there is no movement of the households. Households observe the state of the pasture and their neighrbours to make decisions on how many livestock to place on their pasture every year. Three new behavioural types are created (which cannot be combined with the original ones): E-RO (baseline behaviour), E-LBD (learning-by-doing) and E-RO-SL1 (social learning). Similarly to the original model, these three types can be compared regarding long-term social-ecological performance. In addition, a global strategy switching option (corresponding to double-loop learning) allows users to study how behavioural strategies diffuse in a heterogeneous population of learning and non-learning agents.\n\nAn important modification of the original model is that extension agents are heterogeneous in how they deal with uncertainty. This is represented by an agent property, called the r-parameter (household-risk-att in the code). The r-parameter is catch-all for various factors that form an agent\u2019s disposition to act in a certain way, such as: uncertainty in the sensing (partial observability of the resource system), noise in the information received, or an inherent characteristic of the agent, for instance, their risk attitude.",
+    "downloadUrl": "https://www.comses.net/codebases/e103feef-2785-41e6-affb-8306c979e83c/releases/1.0.0/download/",
+    "dateModified": "2023-07-22",
+    "releaseNotes": "v.1.0.0, extension of the original RAGE model, equips agents with learning capabilities.",
+    "copyrightYear": 2023,
+    "datePublished": "2023-07-22",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo 6.1.1"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo 6.1.1",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

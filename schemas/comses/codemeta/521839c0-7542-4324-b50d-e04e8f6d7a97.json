@@ -1,0 +1,99 @@
+{
+    "@id": "https://doi.org/10.25937/gqxp-7311",
+    "url": "https://doi.org/10.25937/gqxp-7311",
+    "name": "Descriptive Norm and Fraud Dynamics",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-7204-3099",
+            "@type": "Person",
+            "email": "alexandra.eckert@tuhh.de",
+            "givenName": "Alexandra",
+            "familyName": "Eckert",
+            "affiliation": {
+                "@id": "https://ror.org/04bs1pb34",
+                "url": "http://www.tuhh.de/",
+                "name": "Hamburg University of Technology",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04bs1pb34"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "matthias.meyer@tuhh.de",
+            "givenName": "Matthias",
+            "familyName": "Meyer",
+            "affiliation": {
+                "@id": "https://ror.org/04bs1pb34",
+                "url": "https://www.tuhh.de",
+                "name": "Hamburg University of Technology",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04bs1pb34"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0009-0001-1818-7892",
+            "@type": "Person",
+            "email": "christian.stindt@tuhh.de",
+            "givenName": "Christian",
+            "familyName": "Stindt",
+            "affiliation": {
+                "@id": "https://ror.org/01fzsd381",
+                "url": "https://www.hcu-hamburg.de/en/",
+                "name": "HafenCity University Hamburg",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01fzsd381"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Bicchieri, Cristina, and Andreas Funcke. 2018. \u201cNorm Change: Trendsetters and Social Structure.\u201d Social Research: An International Quarterly 85 (1): 1\u201321. https://doi.org/10.1353/sor.2018.0002.\n\nDavis, Jon S., and Heather L. Pesch. 2013. \u201cFraud Dynamics and Controls in Organizations.\u201d Accounting, Organizations and Society 38 (6\u20137): 469\u201383. https://doi.org/10.1016/j.aos.2012.07.005.\n\nGranovetter, Mark. 1978. \u201cThreshold Models of Collective Behavior.\u201d American Journal of Sociology 83 (6): 1420\u201343.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "ABM",
+        "descriptive norm",
+        "fraud",
+        "fraud dynamics",
+        "norm sensitivity"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/gqxp-7311",
+        "https://doi.org/10.25937/gqxp-7311"
+    ],
+    "dateCreated": "2024-11-07",
+    "description": "The \u201cDescriptive Norm and Fraud Dynamics\u201d model demonstrates how fraudulent behavior can either proliferate or be contained within non-hierarchical organizations, such as peer networks, through social influence taking the form of a descriptive norm. This model expands on the fraud triangle theory, which posits that an individual must concurrently possess a financial motive, perceive an opportunity, and hold a pro-fraud attitude to engage in fraudulent activities (red agent). In the absence of any of these elements, the individual will act honestly (green agent).\n\nThe model explores variations in a descriptive norm mechanism, ranging from local distorted knowledge to global perfect knowledge. In the case of local distorted knowledge, agents primarily rely on information from their first-degree colleagues. This knowledge is often distorted because agents are slow to update their empirical expectations, which are only partially revised after one-to-one interactions. On the other end of the spectrum, local perfect knowledge is achieved by incorporating a secondary source of information into the agents\u2019 decision-making process. Here, accurate information provided by an observer is used to update empirical expectations.\n\nThe model shows that the same variation of the descriptive norm mechanism could lead to varying aggregate fraud levels across different fraud categories. Two empirically measured norm sensitivity distributions associated with different fraud categories can be selected into the model to see the different aggregate outcomes.\n",
+    "downloadUrl": "https://www.comses.net/codebases/521839c0-7542-4324-b50d-e04e8f6d7a97/releases/1.0.0/download/",
+    "dateModified": "2025-01-08",
+    "releaseNotes": "## Initial release\n\nThis is the initial release of the model as used for the full paper contribution entitled \"Combining Vignette Surveys with Agent-Based Modeling: Insights on Fraud Dynamics with Empirically Calibrated Norm Sensitivities\u201d presented at the 19th Annual Social Simulation Conference (16-20 September 2024), Cracow, September 16. The associated manuscript for the conference proceedings is currently under review.\n\n## Related models\n\nThe \u201cDescriptive Norm and Fraud Dynamics\u201d model re-implements and extends the conceptual benchmark model variant of Davis and Pesch\u2019s \u201cFraud Dynamics and Controls\u201d model (2013).\n\nThe present extension implements a threshold model inspired by Granovetter (1978) and Bicchieri and Funcke (2018).\n\nVariation of the descriptive norm mechanism uses the parameter [beta] and the formula for calculating empirical expectations proposed by Bicchieri and Funcke (2018).\n\n## Getting started\n\n1. Install NetLogo if you haven't already. You can download it from the NetLogo website.\n2. Download the model.\n3. Navigate to the \"code\" folder.\n4. Open the model file in NetLogo.\n5. Read the short instructions in the \"Info\" tab.\n6. Select parameters and dataset in the \"Interface\" tab.\n7. Press the \"Setup\" button to initialize the model.\n8. Press the \"Go\" button to start the simulation.",
+    "copyrightYear": 2025,
+    "datePublished": "2025-01-07",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Netlogo 6.4.0"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Eckert, Alexandra, Matthias Meyer and Christian Stindt. 2025. \"Combining vignette surveys with agent-based modeling: Insights on fraud dynamics with empirically calibrated norm sensitivities.\" In M. Czupryna, B. Kami\u0144ski, & H. Verhagen (Eds.), Proceedings of the 19th Social Simulation Conference, Cracow, Poland, 16\u201320 September 2024 (pp. 83\u201398). Springer International Publishing. https://doi.org/10.1007/978-3-031-91782-0_6\n\nEckert, Alexandra, Christian Stindt, and Matthias Meyer. 2024. \u201cCombining Vignette Surveys with Agent-Based Modeling: Insights on Fraud Dynamics with Empirically Calibrated Norm Sensitivities.\u201d Conference presentation at the 19th Annual Social Simulation Conference (16-20 September 2024), Cracow, September 16."
+}

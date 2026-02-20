@@ -1,0 +1,62 @@
+{
+    "@id": "https://www.comses.net/codebases/2e083d1e-9224-4af5-802f-3d6f53c7bbc3/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/2e083d1e-9224-4af5-802f-3d6f53c7bbc3/releases/1.1.0/",
+    "name": "An Agent-based Model of Firm Size Distribution and Collaborative Innovation",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-3023-2043",
+            "@type": "Person",
+            "email": "iyhwang929@gmail.com",
+            "givenName": "Inyoung",
+            "familyName": "Hwang",
+            "affiliation": {
+                "@id": "https://ror.org/022a2kb82",
+                "url": "http://www.kistep.re.kr/",
+                "name": "Korea Institute of S&T Evaluation and Planning",
+                "@type": "Organization",
+                "identifier": "https://ror.org/022a2kb82"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based model",
+        "Collaborative Innovation",
+        "Firm Size Distribution",
+        "ICT Industry",
+        "NIPD Game",
+        "Pavlovian Cooperation"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2e083d1e-9224-4af5-802f-3d6f53c7bbc3/releases/1.1.0/",
+    "dateCreated": "2019-06-12",
+    "description": "I added a discounting rate to the equation for expected values of defective / collaborative strategies.\nThe discounting rate was set to 0.956, the annual average from 1980 to 2015, using the Consumer Price Index (CPI) of Statistics Korea. \n \n",
+    "downloadUrl": "https://www.comses.net/codebases/2e083d1e-9224-4af5-802f-3d6f53c7bbc3/releases/1.1.0/download/",
+    "dateModified": "2019-12-09",
+    "releaseNotes": "Second version of CI-Sim model. \nI added a discounting rate to the equation for expected values of defective / collaborative strategies. \nThe discounting rate was set to 0.956, the annual average from 1980 to 2015, using the Consumer Price Index (CPI) of Statistics Korea. ",
+    "copyrightYear": 2019,
+    "datePublished": "2019-12-09",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

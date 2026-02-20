@@ -1,0 +1,67 @@
+{
+    "@id": "https://www.comses.net/codebases/5302/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/5302/releases/1.1.0/",
+    "name": "TREELIM",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-3845-7685",
+            "@type": "Person",
+            "email": "gudrun.wallentin@sbg.ac.at",
+            "givenName": "Gudrun",
+            "familyName": "Wallentin",
+            "affiliation": {
+                "@id": "https://ror.org/05gs8cd61",
+                "url": "https://www.plus.ac.at/",
+                "name": "Department of Geoinformatics - Z_GIS, University of Salzburg",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05gs8cd61"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-3845-7685",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "alpine tree line",
+        "forest regeneration",
+        "individual-based model",
+        "land-use change",
+        "spatially-explicit model"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5302/releases/1.1.0/",
+    "dateCreated": "2017-01-10",
+    "description": "In addition to the effects of climate change, land use change is expected to trigger dynamic processes that may shift alpine tree lines upwards. To gain a conceptual understanding of the spatio-temporal processes shaping tree line patterns, we developed an individual-based and spatially-explicit model of spontaneous forest regeneration at the alpine tree line. The model presented here predicts patterns of natural forest regeneration on a summer pasture in the Austrian Central Alps between 1954 and 2006.",
+    "downloadUrl": "https://www.comses.net/codebases/5302/releases/1.1.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "version as used for publication",
+    "copyrightYear": 2017,
+    "datePublished": "2017-01-10",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Wallentin, G., Tappeiner, U., Strobl, J., Tasser, E. 2008. Alpine tree line dynamics: an individual based model. Ecological Modelling 218(3-4), 235-246."
+}

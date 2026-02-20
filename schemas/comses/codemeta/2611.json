@@ -1,0 +1,54 @@
+{
+    "@id": "https://www.comses.net/codebases/2611/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/2611/releases/1.0.0/",
+    "name": "ADAM: Agent-based Demand and Assignment Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/639/",
+            "@type": "Person",
+            "email": "dlevinson@umn.edu",
+            "givenName": "D",
+            "familyName": "Levinson"
+        },
+        {
+            "@id": "https://www.comses.net/users/639/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "network travel patterns",
+        "traffic",
+        "travel patterns"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2611/releases/1.0.0/",
+    "dateCreated": "2011-08-29",
+    "description": "Agent-based model describes the decision making of individual traveler by setting interaction rules among different agents on the traffic network. ADAM defines three types of agents: nodes, links and travelers. Nodes represent traffic zones and intersection of links. Nodes provide information of network nearby with turning matrix and help travelers decide their destinations. Each line of the turning matrix represents the probability of travelers from node i to choose different destinations, which is decides both by the number of jobs at potential destination and travel time to this destination node. Travelers will store the shortest path information from their origin to current node and exchange this information with current node once it arrives at a new node. Travelers will pool their shortest path knowledge at nodes, which can help travelers arriving later update their shortest path knowledge. If we have enough travelers on the network, the shortest path information will be spread very fast and permeate the network. Once all travelers have found their destination, network will update their link travel time according to current link flows. Then all travelers will reenter the network and choose their travel route according to new link travel time. Model converges when this link travel time change is small enough. Then a link flow pattern emerged from individual route choice decisions. The following figure illustrates the mechanism of the ADAM.",
+    "downloadUrl": "https://www.comses.net/codebases/2611/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "platform_independent",
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

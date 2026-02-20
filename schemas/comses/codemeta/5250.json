@@ -1,0 +1,82 @@
+{
+    "@id": "https://www.comses.net/codebases/5250/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5250/releases/1.0.0/",
+    "name": "PA/C model with affinity",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-0676-1276",
+            "@type": "Person",
+            "email": "leticia.abrica@gmail.com",
+            "givenName": "N. Leticia",
+            "familyName": "Abrica-Jacinto",
+            "affiliation": {
+                "name": "Centro de Ciencias Matem\u00e1ticas, UNAM Campus Morelia",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Evguenii",
+            "familyName": "Kurmyshev"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "H\u00e9ctor",
+            "familyName": "Ju\u00e1rez"
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-0676-1276",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5250/releases/1.0.0/",
+    "dateCreated": "2016-10-27",
+    "description": "We represent here a RA agent-based model of the opinion and tolerance dynamics in artificial societies; that is suitable for the simulation of social phenomena such as consensus, polarization and fragmentation of opinion, extremists\u2019 emergence and the leadership, between others, in social networks of different topology. Computer simulation in artificial networked societies composed of agents of two psychological types is used for studying the opinion formation, showing the phenomenon of preferential self-organization into groups of ideological affinity. The variables of the model are opinion and uncertainty of agents; those are governed by the discrete time updating equations that are specific for each psychological type of agents, through the pair interaction between them. In addition, the model is controlled by the following essential parameters: the average initial uncertainty U of agents, and fraction p of agents of the two psychological types, C- and PA- agents accompanied by the mechanism of ideological affinity. The model follows the ideas developed in the social influence, social judgment and social identity theories. Particularly, the social influence is expressed by the distance between and the overlap of opinion segments of pairs of agents, meanwhile the basic concepts of social judgment and social identity theories, believes of agents and belonging to a group, are modeled by the psychological profile of PA- or C-agents and opinion affinity. The updating dynamics is by pairs of agents, unidirectional and stochastic. In each updating stage, N edges of a network are randomly chosen. Then, in the pair (i,j) of agents associated with each of these edges, one agent is considered as passive (influenced) and the other as active (influential), also in a random way. If overlap is greater than or equal to zero, the passive agent of the pair, say j, updates the opinion and uncertainty according to the psychological profile of the agent.",
+    "downloadUrl": "https://www.comses.net/codebases/5250/releases/1.0.0/download/",
+    "dateModified": "2018-04-25",
+    "releaseNotes": "",
+    "copyrightYear": 2016,
+    "datePublished": "2016-10-27",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "SciLab"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "C",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "SciLab",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

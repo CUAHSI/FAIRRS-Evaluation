@@ -1,0 +1,73 @@
+{
+    "@id": "https://www.comses.net/codebases/0065a103-490a-4e5e-a234-7a4376fc33c2/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/0065a103-490a-4e5e-a234-7a4376fc33c2/releases/1.0.0/",
+    "name": "Using a simple ABM to help undergraduates understand impacts of an invasive species: fish, lionfish, and zooplankton",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-3172-475X",
+            "@type": "Person",
+            "email": "farquharsamantha6@gmail.com",
+            "givenName": "Samantha",
+            "familyName": "Farquhar"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "This model was almost entirely based off of the classic Wolf-Sheep predation model. Please see: \n\nWilensky, U. (1997). NetLogo Wolf Sheep Predation model. http://ccl.northwestern.edu/netlogo/models/WolfSheepPredation. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "Biological invasions",
+        "competition",
+        "ecology",
+        "fisheries management",
+        "lionfish"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/0065a103-490a-4e5e-a234-7a4376fc33c2/releases/1.0.0/",
+    "dateCreated": "2023-02-24",
+    "description": "This model is an implementation of a predator-prey simulation using NetLogo programming language. It simulates the interaction between fish, lionfish, and zooplankton. Fish and lionfish are both represented as turtles, and they have their own energy level. In this simulation, lionfish eat fish, and fish eat zooplankton. Zooplankton are represented as green patches on the NetLogo world. Lionfish and fish can reproduce and gain energy by eating other turtles or zooplankton. \n\nThis model was created to help undergraduate students understand how simulation models might be helpful in addressing complex environmental problems. In this case, students were asked to use this model to make predictions about how the introduction of lionfish (considered an invasive species in some places) might alter the ecosystem. \n\n\n",
+    "downloadUrl": "https://www.comses.net/codebases/0065a103-490a-4e5e-a234-7a4376fc33c2/releases/1.0.0/download/",
+    "dateModified": "2023-02-28",
+    "releaseNotes": "v.1",
+    "copyrightYear": 2023,
+    "datePublished": "2023-02-24",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Agent-Based Modelling - Software engineering - Information Systems and Social Networks",
+        "Windows"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetlLogo",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "Netlogo",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "Netlogo 6.0.2",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

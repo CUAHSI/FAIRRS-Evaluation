@@ -1,0 +1,53 @@
+{
+    "@id": "https://www.comses.net/codebases/d98e95d7-b4c1-482c-873d-57f95fedac69/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/d98e95d7-b4c1-482c-873d-57f95fedac69/releases/1.0.0/",
+    "name": "FlowLogo for a real case study",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2206/",
+            "@type": "Person",
+            "email": "aghaie.vahid@gmail.com",
+            "givenName": "Vahid",
+            "familyName": "Aghaie"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "J.C. Castilla-Rho, G. Mariethoz, R. Rojas, M. Andersen, B.F. Kelly, (2015)\nAn agent-based platform for simulating complex human\u2013aquifer interactions in managed groundwater systems\nEnviron. Model. Softw., 73 (2015), pp. 305-323",
+            "@type": "CreativeWork"
+        }
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/d98e95d7-b4c1-482c-873d-57f95fedac69/releases/1.0.0/",
+    "dateCreated": "2020-05-18",
+    "description": "Juan Castilla-Rho et al. (2015) developed a platform, named FLowLogo, which integrates a 2D, finite-difference solution of the governing equations of groundwater flow with agent-based simulation. We used this model for Rafsanjan Aquifer,  which is located in an arid region in Iran. To use FLowLogo for a real case study, one needs to add GIS shapefiles of boundary conditions and modify the code written in NetLogo a little bit. The FlowLogo model used in our research is presented here. ",
+    "downloadUrl": "https://www.comses.net/codebases/d98e95d7-b4c1-482c-873d-57f95fedac69/releases/1.0.0/download/",
+    "dateModified": "2020-05-18",
+    "releaseNotes": "{'programming_language': {'name': 'logo (variant)', 'version': ''}}",
+    "copyrightYear": 2020,
+    "datePublished": "2020-05-18",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

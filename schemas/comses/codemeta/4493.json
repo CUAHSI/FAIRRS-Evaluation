@@ -1,0 +1,67 @@
+{
+    "@id": "https://www.comses.net/codebases/4493/releases/1.5.0/",
+    "url": "https://www.comses.net/codebases/4493/releases/1.5.0/",
+    "name": "Lewis' Signaling Chains",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-8571-1404",
+            "@type": "Person",
+            "email": "giorgio.gosti@iit.it",
+            "givenName": "Giorgio",
+            "familyName": "Gosti",
+            "affiliation": {
+                "url": "http://www.phys.uniroma1.it/fisica/en-welcome",
+                "name": "Physics, University of Rome, \u201cLa Sapienza\u201d, Italy",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-8571-1404",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.5.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "This model is the generalization of the Lewis' signaling game with Probe and Adjust dynamics as described in:\r\nSkyrms, B. Learning to Signal with Probe and Adjust. Episteme 9, 02 (July 2012),\r\n139\u2013150.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "communication networks",
+        "evolutionary game theory",
+        "markov process",
+        "signaling game",
+        "social learning"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4493/releases/1.5.0/",
+    "dateCreated": "2015-04-03",
+    "description": "In organizations or firms, and in multicellular systems, human or cellular organisms  require complex signaling networks to coordinate their effort and improve their odds. Lewis\u2019 signaling games are extensive form games originally derived to describe the evolution of the association between a sign and its meaning. Signaling chains generalize Lewis\u2019 signaling games in order to model the evolution of signaling in complex systems. More precisely this model empirically evaluates how  effective the probe and adjust learning dynamics is in evolving signaling\u00a0 conventions on signaling chains.\r\n\r\nIn signaling chains, there are four fundamental elements: a sender, a receiver, a transmitter, and a state of Nature, which provides random events that are independent of the players behavior. At each time t, Nature chooses its state with some probability, the sender observes Nature\u2019s state, and sends a signal through a chain of transmitters to the receiver. The receiver does not know the state of Nature, and she must chose an action. Finally, the receiver\u2019s action and Nature\u2019s state determine the sender\u2019s and receiver\u2019s payoff. In this model, cases in which the sender and receiver share a perfect common interest are considered. If the act matches Nature\u2019s state, the sender and the receiver get a payoff of one, otherwise they get a payoff of\u00a0zero.",
+    "downloadUrl": "https://www.comses.net/codebases/4493/releases/1.5.0/download/",
+    "dateModified": "2018-10-30",
+    "releaseNotes": "This model was described and used to study probe and adjust learning in the following peer-reviewed paper:\nGiorgio Gosti (2018) Signalling chains with probe and adjust learning, Connection Science, 30:2, 186-210, DOI: 10.1080/09540091.2017.1345858",
+    "copyrightYear": 2015,
+    "datePublished": "2015-04-03",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "MatLab"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "@id": "https://www.comses.net/codebases/3597/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/3597/releases/1.0.0/",
+    "name": "Eixample-MAS Traffic Simulation",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "givenName": "\u00c0lex",
+            "familyName": "Pardo Fernandez"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "David",
+            "familyName": "S\u00e1nchez Pinsach"
+        },
+        {
+            "@id": "_:author_1",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "arrival time",
+        "car",
+        "light",
+        "mas",
+        "multiagent traffic simulation",
+        "pollution",
+        "traffic",
+        "traffic congestion",
+        "waiting time"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3597/releases/1.0.0/",
+    "dateCreated": "2013-01-22",
+    "description": "Description\r\nThis MAS simulates the traffic of Barcelona Eixample.\r\nUses a centralized AI system in order to control the traffic lights.\r\nCar agents are reactive and have no awareness of the intelligence of the system. They (try to) avoid collisions.\r\nTODO: Implement Distributed AI and add other functionalities to car agents.\r\nWhat does it do?\r\nReduces the arrival time in city traffic using intelligent Traffic Lights. They know how many cars are in their streets and ask the centralized system if it can change its state (from red to green).\r\n\r\nmore at: http://alex-pardo.github.com/Eixample-MAS-Traffic-Simulation/",
+    "downloadUrl": "https://www.comses.net/codebases/3597/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Repast"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

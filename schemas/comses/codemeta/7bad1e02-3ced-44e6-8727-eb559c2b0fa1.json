@@ -1,0 +1,51 @@
+{
+    "@id": "https://www.comses.net/codebases/7bad1e02-3ced-44e6-8727-eb559c2b0fa1/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/7bad1e02-3ced-44e6-8727-eb559c2b0fa1/releases/1.1.0/",
+    "name": "An Agent-Based Model of Space Settlements",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-2813-8469",
+            "@type": "Person",
+            "email": "aberea@gmu.edu",
+            "givenName": "Anamaria",
+            "familyName": "Berea"
+        }
+    ],
+    "license": {
+        "name": "None",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "Mars",
+        "space habitat",
+        "space settlement"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/7bad1e02-3ced-44e6-8727-eb559c2b0fa1/releases/1.1.0/",
+    "dateCreated": "2023-08-09",
+    "description": "Background: Establishing a human settlement on Mars is an incredibly complex engineering problem. The inhospitable nature of the Martian environment requires any habitat to be largely self-sustaining. Beyond mining a few basic minerals and water, the colonizers will be dependent on Earth resupply and replenishment of necessities via technological means, i.e., splitting Martian water into oxygen for breathing and hydrogen for fuel. Beyond the technical and engineering challenges, future colonists will also face psychological and human behavior challenges.\nObjective: Our goal is to better understand the behavioral and psychological interactions of future Martian colonists through an Agent-Based Modeling (ABM simulation) approach. We seek to identify areas of consideration for planning a colony as well as propose a minimum initial population size required to create a stable colony.\nMethods: Accounting for engineering and technological limitations, we draw on research regarding high performing teams in isolated and high stress environments (ex: submarines, Arctic exploration, ISS, war) to include the 4 NASA personality types within the ABM. Interactions between agents with different psychological profiles are modeled at the individual level, while global events such as accidents or delays in Earth resupply affect the colony as a whole. \nResults:  From our multiple simulations and scenarios (up to 28 Earth years), we found that an initial population of 22 was the minimum required to maintain a viable colony size over the long run. We also found that the Agreeable personality type was the one more likely to survive.\nConclusion We developed a simulation with easy to use GUI to explore various scenarios of human interactions (social, labor, economic, psychological) on a future colony on Mars. We included technological and engineering challenges, but our focus is on the behavioral and psychological effects on the sustainability of the colony on the long run. We find, contrary to other literature, that the minimum number of people with all personality types that can lead to a sustainable settlement is in the tens and not hundreds.\n",
+    "downloadUrl": "https://www.comses.net/codebases/7bad1e02-3ced-44e6-8727-eb559c2b0fa1/releases/1.1.0/download/",
+    "dateModified": "2023-11-01",
+    "releaseNotes": "We updated the ODD protocol and the notes for the model.",
+    "copyrightYear": 2023,
+    "datePublished": "2023-11-01",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Netlogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetlLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

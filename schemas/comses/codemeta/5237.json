@@ -1,0 +1,67 @@
+{
+    "@id": "https://www.comses.net/codebases/5237/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5237/releases/1.0.0/",
+    "name": "Adoption as a social marker",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/780/",
+            "@type": "Person",
+            "email": "paul.smaldino@gmail.com",
+            "givenName": "Paul",
+            "familyName": "Smaldino",
+            "affiliation": {
+                "@id": "https://ror.org/00d9ah105",
+                "url": "http://www.ucmerced.edu/",
+                "name": "University of California, Merced",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00d9ah105"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/780/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "identity signaling",
+        "innovation diffusion",
+        "network",
+        "polarization",
+        "social identity"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5237/releases/1.0.0/",
+    "dateCreated": "2016-10-17",
+    "description": "Social identities are among the key factors driving behavior in complex societies. Signals of social identity are known to influence individual behaviors in the adoption of innovations. Yet the population-level consequences of identity signaling on the diffusion of innovations are largely unknown. Here we use both analytical and agent-based modeling to consider the spread of a beneficial innovation in a struc- tured population in which there exist two groups who are averse to being mistaken for each other. We investigate the dynamics of adoption and consider the role of structural factors such as demographic skew and communication scale on population- level outcomes. We find that outgroup aversion can lead to adoption being delayed or suppressed in one group, and that population-wide underadoption is common. Com- paring the two models, we find that differential adoption can arise due to structural constraints on information flow even in the absence of intrinsic between-group differ- ences in adoption rates. Further, we find that patterns of polarization in adoption at both local and global scales depend on the details of demographic organization and the scale of communication. This research has particular relevance to widely beneficial but identity-relevant products and behaviors, such as green technologies, where overall levels of adoption determine the positive benefits that accrue to society at large.",
+    "downloadUrl": "https://www.comses.net/codebases/5237/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2016,
+    "datePublished": "2016-10-17",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Mason"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Smaldino PE, Janssen MA, Hillis V, Bednar J (2017) Adoption as a social marker: Innovation diffusion with outgroup aversion. Journal of Mathematical Sociology, in press."
+}

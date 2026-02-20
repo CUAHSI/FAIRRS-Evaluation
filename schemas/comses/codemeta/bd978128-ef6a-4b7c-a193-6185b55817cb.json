@@ -1,0 +1,81 @@
+{
+    "@id": "https://www.comses.net/codebases/bd978128-ef6a-4b7c-a193-6185b55817cb/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/bd978128-ef6a-4b7c-a193-6185b55817cb/releases/1.0.0/",
+    "name": "Agent-Based Model of Social Care with Kinship Networks",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-0147-6118",
+            "@type": "Person",
+            "email": "thorsilver@gmail.com",
+            "givenName": "Eric",
+            "familyName": "Silverman",
+            "affiliation": {
+                "@id": "https://ror.org/00vtgdb53",
+                "url": "http://www.gla.ac.uk/",
+                "name": "University of Glasgow",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00vtgdb53"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/580/",
+            "@type": "Person",
+            "email": "u.gostoli@gmail.com",
+            "givenName": "Umberto",
+            "familyName": "Gostoli",
+            "affiliation": {
+                "@id": "https://ror.org/00vtgdb53",
+                "url": "http://www.gla.ac.uk/",
+                "name": "University of Glasgow",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00vtgdb53"
+            }
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Gostoli Umberto and Silverman Eric (2019).  Modelling social care provision in an agent-based framework with kinship networks. R. Soc. Open Sci., 6190029. DOI: 10.1098/rsos.190029",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "kinship networks",
+        "PHASE",
+        "social care"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/bd978128-ef6a-4b7c-a193-6185b55817cb/releases/1.0.0/",
+    "dateCreated": "2021-10-14",
+    "description": "The purpose of this model is the simulation of social care provision in the UK, in which individual agents can decide to provide informal care, or pay for private care, for their loved ones. Agents base these decisions on factors including their own health, employment status, financial resources, relationship to the individual in need and geographical location.  The model simulates care provision as a negotiation process conducted between agents across their kinship networks, with agents with stronger familial relationships to the recipient being more likely to attempt to allocate time to care provision.  The model also simulates demographic change, the impact of socioeconomic status, and allows agents to relocate and change jobs or reduce working hours in order to provide care.\nDespite the relative lack of empirical data in this model, the model is able to reproduce plausible patterns of social care provision.  The inclusion of detailed economic and behavioural mechanisms allows this model to serve as a useful policy development tool; complex behavioural interventions can be implemented in simulation and tested on a virtual population before applying them in real-world contexts.\n",
+    "downloadUrl": "https://www.comses.net/codebases/bd978128-ef6a-4b7c-a193-6185b55817cb/releases/1.0.0/download/",
+    "dateModified": "2021-10-14",
+    "releaseNotes": "This release contains the model code that was used to produce the 2019 Royal Society Open Science paper.  The model runs in Python 2.7, and package requirements include Sci-Kit Learn, NumPy, NetworkX, Tkinter and Matplotlib.\n\n",
+    "copyrightYear": 2021,
+    "datePublished": "2021-10-14",
+    "codeRepository": "https://github.com/UmbertoGostoli/ABM-for-social-care/tree/v.09",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "None"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "http://dx.doi.org/10.1098/rsos.190029"
+}

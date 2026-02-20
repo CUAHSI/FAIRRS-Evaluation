@@ -1,0 +1,78 @@
+{
+    "@id": "https://doi.org/10.25937/388a-4r74",
+    "url": "https://doi.org/10.25937/388a-4r74",
+    "name": "Dynamic Value-based Cognitive Architectures",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/3354/",
+            "@type": "Person",
+            "email": "bdb785@gmail.com",
+            "givenName": "Bart",
+            "familyName": "de Bruin",
+            "affiliation": {
+                "@id": "https://ror.org/02c2kyt77",
+                "url": "http://www.tue.nl/",
+                "name": "Eindhoven University of Technology",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02c2kyt77"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Grimm, V., Berger, U., DeAngelis, D. L., Polhill, J. G., Giske, J. & Railsback, S. F. (2010). The odd protocol: a review and first update. Ecological modelling,221(23), 2760\u20132768\n\nHeidari, S., Jensen, M. & Dignum, F. (2020).  Simulations with values.  In Advances in SocialSimulation, (pp. 201\u2013215). Springer\n\nMcCrae, R. R. & Costa Jr, P. T. (2008). The five-factor theory of personality. In Handbook of personality: Theory and research, (pp. 159\u2013\u2013181). The Guilford Press\n\nParks-Leduc, L., Feldman, G. & Bardi, A. (2015).  Personality traits and personal values: Ameta-analysis. Personality and Social Psychology Review,19(1), 3\u201329\n\nSagiv, L., Roccas, S., Cieciuch, J. & Schwartz, S. H. (2017). Personal values in human life. NatureHuman Behaviour,1(9), 630\u2013639\n\nSchwartz, S. H. (1994). Are there universal aspects in the structure and contents of human values? Journal of social issues,50(4), 19\u201345\n\nSchwartz, S. H., Cieciuch, J., Vecchione, M., Davidov, E., Fischer, R., Beierlein, C., Ramos,A., Verkasalo, M., L\u00f6nnqvist, J.-E., Demirutku, K. et al. (2012). Refining the theory of basic individual values.Journal of personality and social psychology,103(4), 663\n\nvan de Poel, I. (2018). Design for value change.Ethics and Information Technology, (pp. 1\u20135)",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "agent heterogeneity",
+        "artificial sociality",
+        "attitude",
+        "Character Traits",
+        "opinion dynamics",
+        "Perception Thermometers",
+        "Personality Traits",
+        "social interaction",
+        "Traits",
+        "Value change",
+        "Value Prioritization",
+        "values",
+        "Value Systems"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/388a-4r74",
+        "https://doi.org/10.25937/388a-4r74"
+    ],
+    "dateCreated": "2021-11-10",
+    "description": "The intention of this model is to create an universal basis on how to model change in value prioritizations within social simulation. This model illustrates the designing of heterogeneous populations within agent-based social simulations by equipping agents with Dynamic Value-based Cognitive Architectures (DVCA-model). The DVCA-model uses the psychological theories on values by Schwartz (2012) and character traits by McCrae and Costa (2008) to create an unique trait- and value prioritization system for each individual. Furthermore, the DVCA-model simulates the impact of both social persuasion and life-events (e.g. information, experience) on the value systems of individuals by introducing the innovative concept of perception thermometers. Perception thermometers, controlled by the character traits, operate as buffers between the internal value prioritizations of agents and their external interactions. By introducing the concept of perception thermometers, the DVCA-model allows to study the dynamics of individual value prioritizations under a variety of internal and external perturbations over extensive time periods. Possible applications are the use of the DVCA-model within artificial sociality, opinion dynamics, social learning modelling, behavior selection algorithms and social-economic modelling. ",
+    "downloadUrl": "https://www.comses.net/codebases/4519bbeb-e6cd-4f7e-af0c-4f5173e66c8f/releases/1.0.0/download/",
+    "dateModified": "2024-12-05",
+    "releaseNotes": "See included ODD",
+    "copyrightYear": 2021,
+    "datePublished": "2021-11-30",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Netlogo v6.1.1"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

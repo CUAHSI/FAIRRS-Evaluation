@@ -1,0 +1,66 @@
+{
+    "@id": "https://www.comses.net/codebases/5178/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/5178/releases/1.1.0/",
+    "name": "ABSAM model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-3213-229X",
+            "@type": "Person",
+            "email": "wozniac@gmail.com",
+            "givenName": "Marcin",
+            "familyName": "Wozniak",
+            "affiliation": {
+                "url": "https://amu.edu.pl/",
+                "name": "Adam Mickiewicz University in Poland",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-3213-229X",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based search and matching model",
+        "almp evaluation",
+        "long-term unemployment",
+        "on-the-job search",
+        "sensitivity analysis",
+        "skills heterogeneity"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5178/releases/1.1.0/",
+    "dateCreated": "2016-11-08",
+    "description": "An agent-based search and matching (ABSAM) model of the local labor market with heterogeneous agents and an on-the-job search is developed. i.e. job seekers who vary in unemployment duration, skills levels and preferences compete for vacancies which differ in skills demands and in the sector of the economy. Job placement agencies help unemployed persons find the proper vacant job by improving their search effectiveness and by sharing leveraged job advertisements. The agents cooperate in an artificial labor market where the key economic conditions are imposed. The interactions between inhabitants drawn directly from the labor market search theory. The main research task was to measure the direct and indirect impact of the labor market policies on labor market outcomes. Global parameters of the ABSAM model were calibrated with the Latin hypercube sampling technique for one of the largest urban areas in Poland. To investigate the impact of parameters on model output, two global sensitivity analysis methods were used, i.e. Morris screening and Sobol indices.",
+    "downloadUrl": "https://www.comses.net/codebases/5178/releases/1.1.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "Revised ABSAM model ver. 2.0.",
+    "copyrightYear": 2016,
+    "datePublished": "2016-11-08",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Marcin Wozniak (2016). Job Placement Agencies in an Artificial Labor Market. Economics: The Open-Access, Open-Assessment E-Journal, 10 (2016-29): 1\u201453. http://dx.doi.org/10.5018/economics-ejournal.ja.2016-29"
+}

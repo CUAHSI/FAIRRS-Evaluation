@@ -1,0 +1,73 @@
+{
+    "@id": "https://www.comses.net/codebases/983e9017-f0da-47ae-ba99-d587b7444cbf/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/983e9017-f0da-47ae-ba99-d587b7444cbf/releases/1.0.0/",
+    "name": "Waste separation in small-world networks",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-9495-1602",
+            "@type": "Person",
+            "email": "kalvas@kss.zcu.cz",
+            "givenName": "Franti\u0161ek",
+            "familyName": "Kalvas"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "kudrnacova.m@gmail.com",
+            "givenName": "Michaela",
+            "familyName": "Kudrn\u00e1\u010dov\u00e1",
+            "affiliation": {
+                "@id": "https://ror.org/00wfve797",
+                "url": "http://www.isras.org/",
+                "name": "Institute of Sociology",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00wfve797"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "calibration",
+        "consumat",
+        "small-world network",
+        "waste separation"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/983e9017-f0da-47ae-ba99-d587b7444cbf/releases/1.0.0/",
+    "dateCreated": "2019-09-30",
+    "description": "The model answers the question how homophily and number of close-links in small-world network influences behavior of consumats. The results show that the more close-links the more probable the consumat follows the major behavior, but homophilly blocks the major behavior and supports survival of the minor behavior.",
+    "downloadUrl": "https://www.comses.net/codebases/983e9017-f0da-47ae-ba99-d587b7444cbf/releases/1.0.0/download/",
+    "dateModified": "2019-09-30",
+    "releaseNotes": "Released for the CoMSES Conference 2019. We follow-up consumat model of J\u00e4ger and Janssen (2002) and Bravo et al. (2013).",
+    "copyrightYear": 2019,
+    "datePublished": "2019-09-30",
+    "codeRepository": "https://github.com/frantisek901/wasteSeparation",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

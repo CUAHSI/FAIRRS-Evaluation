@@ -1,0 +1,76 @@
+{
+    "@id": "https://www.comses.net/codebases/4744/releases/2.0.0/",
+    "url": "https://www.comses.net/codebases/4744/releases/2.0.0/",
+    "name": "EthnoCultural Tag model (ECT)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1611/",
+            "@type": "Person",
+            "email": "dave@davidhales.com",
+            "givenName": "David",
+            "familyName": "Hales"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-3903-2507",
+            "@type": "Person",
+            "email": "bruce@edmonds.name",
+            "givenName": "Bruce",
+            "familyName": "Edmonds",
+            "affiliation": {
+                "url": "http://mmu.ac.uk",
+                "name": "Centre for Policy Modelling",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1611/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-3903-2507",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "2.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "ethnocentrism",
+        "evolution of cooperation",
+        "prisoners dilemma",
+        "tag"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4744/releases/2.0.0/",
+    "dateCreated": "2015-10-16",
+    "description": "Ethnocentrism denotes a positive orientation towards those sharing the same ethnicity and a negative one towards others. Previous models demonstrated how ethnocentrism might evolve inter-generationally (vertically) when ethnicity and behavior is inherited. We model short-term intra-generational (horizontal) cultural adaptation where agents have a fixed ethnicity but have the ability to form and join fluid cultural groups and to change how they define their in-group based on both ethnic and cultural markers. We find that fluid cultural markers become the dominant way that agents identify their in-group supporting positive interaction between ethnicities.  However, in some circumstances, discrimination evolves in terms of a combination of cultural and ethnic markers producing bouts of ethnocentrism. This suggests the hypothesis that in human societies, even in the absence of direct selection on ethnic marker based discrimination, selection on the use of fluid cultural markers can lead to marked changes in ethnocentrism within a generation.",
+    "downloadUrl": "https://www.comses.net/codebases/4744/releases/2.0.0/download/",
+    "dateModified": "2018-05-09",
+    "releaseNotes": "This release contains two variants:\n\nECT-v2 and ECT-v2 Instrumented\n\nThese variants are associated with the following article: \n\nHales, D. & Edmonds, B. (in press) Intra-generational cultural evolution and ethnocentrism. Journal of Conflict Resolution.\n\nThe instrumented version contains statistical and trace functions. The non-instrumented version contains just the model. See the Info tab of the models for further details.\n",
+    "copyrightYear": 2018,
+    "datePublished": "2018-05-09",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Hales, D. & Edmonds, B. (2015) Culture trumps ethnicity! \u2013 Intra-generational cultural evolution and ethnocentrism in an artificial society. Centre for Policy Modelling Discussion Paper CPM 15-226, Manchester, UK. http://cfpm.org/discussionpapers/152\r\n(by Nov. 2015)"
+}

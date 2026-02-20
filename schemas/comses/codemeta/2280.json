@@ -1,0 +1,55 @@
+{
+    "@id": "https://www.comses.net/codebases/2280/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/2280/releases/1.0.0/",
+    "name": "Stationarity Test",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/537/",
+            "@type": "Person",
+            "email": "jakob.grazzini@unito.it",
+            "givenName": "Jakob",
+            "familyName": "Grazzini"
+        },
+        {
+            "@id": "https://www.comses.net/users/537/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agentbasedmodel",
+        "nonparametric",
+        "simulator",
+        "statistics"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2280/releases/1.0.0/",
+    "dateCreated": "2010-11-29",
+    "description": "This is a stationarity test, it tests whether a given moment is constant during the time series (null hypothesis). The Wald Wolfowitz nonparametric fitness test is applied to time series. The test uses the \"overall moment\" of a time series as a constant fitness function for the moment computed over a set of subsample of the same time series. If the null is not rejected, the subsample moments are constant.",
+    "downloadUrl": "https://www.comses.net/codebases/2280/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "other",
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

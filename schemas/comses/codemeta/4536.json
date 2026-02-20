@@ -1,0 +1,61 @@
+{
+    "@id": "https://www.comses.net/codebases/4536/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4536/releases/1.0.0/",
+    "name": "TELL ME: protective behaviour in an epidemic",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-4171-3897",
+            "@type": "Person",
+            "email": "research@criticalconnections.com.au",
+            "givenName": "Jennifer",
+            "familyName": "Badham",
+            "affiliation": {
+                "@id": "https://ror.org/01v29qb04",
+                "url": "https://www.dur.ac.uk/",
+                "name": "Durham University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01v29qb04"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-4171-3897",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "epidemic",
+        "health communication",
+        "protective behaviour"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4536/releases/1.0.0/",
+    "dateCreated": "2015-02-10",
+    "description": "This is a prototype simulation developed for the TELL ME project about health communication to encourage protective behaviour during influenza epidemics. Decisions to adopt (or drop) protective behaviour consider the agent's attitude, adoption by other nearby agents and the proximity of the epidemic. Communication can affect agent attitudes and their perception of the other decision factors. Epidemic progress is affected by the level of adoption of protective behaviour and the efficacy of that behaviour.",
+    "downloadUrl": "https://www.comses.net/codebases/4536/releases/1.0.0/download/",
+    "dateModified": "2018-02-19",
+    "releaseNotes": "",
+    "copyrightYear": 2015,
+    "datePublished": "2015-02-10",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    }
+}

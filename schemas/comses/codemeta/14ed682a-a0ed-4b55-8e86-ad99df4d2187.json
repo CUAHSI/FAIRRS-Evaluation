@@ -1,0 +1,58 @@
+{
+    "@id": "https://www.comses.net/codebases/14ed682a-a0ed-4b55-8e86-ad99df4d2187/releases/1.2.0/",
+    "url": "https://www.comses.net/codebases/14ed682a-a0ed-4b55-8e86-ad99df4d2187/releases/1.2.0/",
+    "name": "Modeling Personal Carbon Trading with ABM",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-6658-8789",
+            "@type": "Person",
+            "email": "roman.seidl@bnv-bamberg.de",
+            "givenName": "Roman",
+            "familyName": "Seidl",
+            "affiliation": {
+                "url": "https://www.irs.uni-hannover.de/en/",
+                "name": "Institute of Radioecology and Radiation Protection",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "carbon footprint",
+        "NetLogo",
+        "personal carbon trading"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/14ed682a-a0ed-4b55-8e86-ad99df4d2187/releases/1.2.0/",
+    "dateCreated": "2018-10-15",
+    "description": "A simulated approach for Personal Carbon Trading, for figuring out what effects it might have if it will be implemented in the real world. We use an artificial population with some empirical data from international literature and basic assumptions about heterogeneous energy demand. The model is not to be used as simulating the actual behavior of real populations, but a toy model to test the effects of differences in various factors such as number of agents, energy price, price of allowances, etc. It is important to adapt the model for specific countries as carbon footprint and energy demand determines the relative success of PCT. ",
+    "downloadUrl": "https://www.comses.net/codebases/14ed682a-a0ed-4b55-8e86-ad99df4d2187/releases/1.2.0/download/",
+    "dateModified": "2024-09-23",
+    "releaseNotes": "Copyright (c) 2021 Roman Seidl (idea, concept, implementation) and Felix Karg (implementation), Alexander Kuptel (extensions and pseudocode). The model can be run on MSWindows 7 onwards and Linux systems. Implemented in NetLogo Version 6.1.2-beta2.\nSee paper in journal *energies*: https://www.mdpi.com/1996-1073/14/22/7497",
+    "copyrightYear": 2021,
+    "datePublished": "2021-07-29",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Kothe,\u00a0A.\u2011K., Kuptel,\u00a0A. & Seidl,\u00a0R. (2021). Simulating Personal Carbon Trading (PCT) with an Agent-Based Model (ABM): Investigating Adaptive Reduction Rates and Path Dependence. Energies, 14(22), 7497. https://doi.org/10.3390/en14227497"
+}

@@ -1,0 +1,59 @@
+{
+    "@id": "https://www.comses.net/codebases/2516/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/2516/releases/1.0.0/",
+    "name": "A Computational Model of Workers Protest",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/530/",
+            "@type": "Person",
+            "email": "jkim081@ucr.edu",
+            "givenName": "Jae-Woo",
+            "familyName": "Kim"
+        },
+        {
+            "@id": "https://www.comses.net/users/530/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "group identity",
+        "NetLogo",
+        "tag",
+        "trust",
+        "workers protest"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2516/releases/1.0.0/",
+    "dateCreated": "2011-05-13",
+    "description": "We provide an agent-based model of workers protest, informed by Epstein (2002) and its replication model by Wilensky (2004). Game theoretical models have been popular in research on collective behavior, where the free rider problem is a critical issue (e.g. the public goods game as an N-person Prisoner\u2019s Dilemma game). The focal agent rationally assesses the expected payoff (or estimate the probability of success), which depends on whether or not she protests and also on how many of the others do so. \r\n\r\nOur approach is rather simple: workers have different degrees of grievance depending on the difference between their wage and the local average. They protest with probabilities in proportion to grievance, but are inhibited by the risk of being arrested, which is determined by the ratio of coercive agents to probable rebels existing in the local area. Agents in our model consider expected costs and benefits as in rational choice theory, but they are boundedly rational since their vision is local. Instead of free riders, we can observe agents show deceptive behavior, as in Epstein (2002), depending on the ratio of cops to probable rebels. In this study, we are more interested in crowd dynamics in a broader context, which is not embedded in the game-theoretic strategic interaction setting. \r\n\r\nOur focus is on the effect of similarity perception on the dynamics of workers protest. In the proposed model, workers have \u2018tags\u2019 as observable markers (ethnic or cultural ones such as skin color, speech, manner, and so on). They scale the overall similarity to neighboring partners. If workers are surrounded by tolerably similar members (\u2018in-group\u2019), they are more risk-taking; otherwise (\u2018out-group\u2019), more risk-averse. We hypothesize that individual interest and tag-based group membership jointly affect patterns of workers protest: rhythms, frequency, strength, and duration.",
+    "downloadUrl": "https://www.comses.net/codebases/2516/releases/1.0.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

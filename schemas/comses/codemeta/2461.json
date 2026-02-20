@@ -1,0 +1,66 @@
+{
+    "@id": "https://www.comses.net/codebases/2461/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/2461/releases/1.1.0/",
+    "name": "An empirical ABM for regional land use/cover change: a Dutch case study",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/46/",
+            "@type": "Person",
+            "email": "dfvv@yahoo.com",
+            "givenName": "Diego",
+            "familyName": "Valbuena"
+        },
+        {
+            "@id": "https://www.comses.net/users/46/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "VALBUENA D, Verburg P, Veldkamp A, Bregt A K and Ligtenberg A (2010). Effects of farmers' decisions on the landscape structure of a Dutch rural region: An agent-based approach. Landscape and Urban Planning 97 (2), 98-110. [doi:10.1016/j.landurbplan.2010.05.001]",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "empirical model",
+        "land cover/use change",
+        "landscape",
+        "NetLogo",
+        "regional scale",
+        "scenarios"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2461/releases/1.1.0/",
+    "dateCreated": "2011-03-12",
+    "description": "The purpose of the model is to simulate how the agents decisions at a plot and a farm level can influence the whole landscape structure of a rural region in the Netherlands. Three interrelated decision-making processes are included: stop farm, changes in the farm size and diversification of farm practices. \n\nAn agents represent a farm(er)s. Agent characteristics include: agent type, age, owned farm, owned plots, farm size, agribusiness type, production scale, memory (actions of the previous 5 years), location in the landscape and probabilities for each decision-making process (probabilities are drawn from empirical data).\n \nThe spatial units are represented by grid cells (1 ha).  One cell or set of cells form a plot, which is the decision-making unit of the model. The characteristics of the spatial units include: field number, field size, owner, land-use type, production per hectare, density of landscape elements inside and outside the agricultural field, distance to the residence of the owner and suitability for agriculture. The simulated period is 15 years.\n\nFor more information please look at http://dx.doi.org/10.1016/j.landurbplan.2010.05.001\nMost of the additional information is modified due to confidentiality restrictions. New version uploaded for Netlogo 6.2.",
+    "downloadUrl": "https://www.comses.net/codebases/2461/releases/1.1.0/download/",
+    "dateModified": "2021-11-11",
+    "releaseNotes": "Version upgraded to NetLogo 6.2.",
+    "copyrightYear": 2021,
+    "datePublished": "2021-11-11",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "@id": "https://www.comses.net/codebases/6fe8af74-6c91-4ef7-8f5d-ab24585210da/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/6fe8af74-6c91-4ef7-8f5d-ab24585210da/releases/1.0.0/",
+    "name": "Shellmound Trade",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-0853-072X",
+            "@type": "Person",
+            "email": "kozlowski.henrique@gmail.com",
+            "givenName": "Henrique",
+            "familyName": "de Sena Kozlowski",
+            "affiliation": {
+                "@id": "https://ror.org/036rp1748",
+                "url": "https://www5.usp.br",
+                "name": "Universidade de S\u00e3o Paulo",
+                "@type": "Organization",
+                "identifier": "https://ror.org/036rp1748"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "The trade code present on the model (BRN and GRN) are taken from the Network Model present on chapter 8 of the Agent Based Modeling for Archaeology book by Romanowska, Wren & Crabtree. The lineages code was taken from the Ger Grouper model (Romanowska, Wren & Crabtree, 2021; Clark & Crabtree, 2015). The code for loading up the world file was taken from the Gregarious Behavior Model by Fajardo et al. (2021).\nRomanowska, Iza, Colin D. Wren, and Stefani A. Crabtree. 2021. Agent-Based Modeling for Archaeology: Simulating the Complexity of Societies. The SFI Press Scholar Series. 442 pages.\nClark, Julia K., and Stefani A. Crabtree. 2015. \u201cExamining Social Adaptations in a Volatile Landscape in Northern Mongolia via the Agent-Based Model Ger Grouper\u201d Land 4, no. 1: 157-181. https://doi.org/10.3390/land4010157",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "agent-based computational modelling in social sciences",
+        "archaeology",
+        "Brazil",
+        "shellmounds",
+        "trade dynamics"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/6fe8af74-6c91-4ef7-8f5d-ab24585210da/releases/1.0.0/",
+    "dateCreated": "2024-06-15",
+    "description": "This model simulates different trade dynamics in shellmound (sambaqui) builder communities in coastal Southern Brazil. It features two simulation scenarios, one in which every site is the same and another one testing different rates of cooperation. The purpose of the model is to analyze the networks created by the trade dynamics and explore the different ways in which sambaqui communities were articulated in the past.\n\nHow it Works?\nThere are a few rules operating in this model. In either mode of simulation, each tick the agents will produce an amount of resources based on the suitability of the patches inside their occupation-radius, after that the procedures depend on the trade dynamic selected. For BRN? the agents will then repay their owed resources, update their reputation value and then trade again if they need to. For GRN? the agents will just trade with a connected agent if they need to. After that the agents will then consume a random amount of resources that they own and based on that they will grow (split) into a new site or be removed from the simulation. The simulation runs for 1000 ticks. Each patch correspond to a 300x300m square of land in the southern coast of Santa Catarina State in Brazil. Each agent represents a shellmound (sambaqui) builder community. The data for the world were made from a SRTM raster image (1 arc-second) in ArcMap. The sites can be exported into a shapefile (.shp) vector to display in ArcMap. It uses a UTM Sirgas 2000 22S projection system.\n",
+    "downloadUrl": "https://www.comses.net/codebases/6fe8af74-6c91-4ef7-8f5d-ab24585210da/releases/1.0.0/download/",
+    "dateModified": "2024-06-15",
+    "releaseNotes": "Reviewed version after thesis defense.",
+    "copyrightYear": 2024,
+    "datePublished": "2024-06-15",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "https://doi.org/10.11606/T.71.2023.tde-18012024-102858"
+}

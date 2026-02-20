@@ -1,0 +1,70 @@
+{
+    "@id": "https://www.comses.net/codebases/5805/releases/1.2.0/",
+    "url": "https://www.comses.net/codebases/5805/releases/1.2.0/",
+    "name": "The Mobility Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-1546-0934",
+            "@type": "Person",
+            "email": "emilie.lindkvist@su.se",
+            "givenName": "Emilie",
+            "familyName": "Lindkvist",
+            "affiliation": {
+                "@id": "https://ror.org/0145rpw38",
+                "url": "http://www.stockholmresilience.org",
+                "name": "Stockholm University, Stockholm Resilience Centre",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0145rpw38"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-1546-0934",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "artisanal fisheries",
+        "fisheries modeling",
+        "fishery",
+        "fish stocks",
+        "imitation",
+        "migration",
+        "MOBIL",
+        "movement",
+        "small-scale fisheries"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5805/releases/1.2.0/",
+    "dateCreated": "2017-10-06",
+    "description": "The model, right now a beta model, includes four different fishing regions, stocks of different species unique to each sub-region represented by their logistic growth model. Fishers (clustered by fishing behavior, called fishing groups) can change fishing grounds based on meeting other fishers to compare revenues. With a certain probability that is linked to the difference in revenues, the fisher with the lower revenues will move to the sub-region of the fisher with the higher revenues.",
+    "downloadUrl": "https://www.comses.net/codebases/5805/releases/1.2.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2017,
+    "datePublished": "2017-10-06",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

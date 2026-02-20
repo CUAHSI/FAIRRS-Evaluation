@@ -1,0 +1,59 @@
+{
+    "@id": "https://www.comses.net/codebases/4938/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/4938/releases/1.1.0/",
+    "name": "Product Diffusion Model in an Advance Selling Strategy",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1633/",
+            "@type": "Person",
+            "email": "shaopengde@sohu.com",
+            "givenName": "Peng",
+            "familyName": "Shao",
+            "affiliation": {
+                "@id": "https://ror.org/017zhmm22",
+                "url": "http://en.xjtu.edu.cn/",
+                "name": "School of management in Xi\u2019an Jiaotong University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/017zhmm22"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1633/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "product diffusion"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4938/releases/1.1.0/",
+    "dateCreated": "2016-03-15",
+    "description": "SIR is the model in complex network transmission dynamics. The models characterize the critical processes of product diffusion within complex networks. We retained their major features as the three basic states of our model, and introduced Buy as the forth states. Individuals who stay at the same state can be considered into a classification of population. SIRB can provide four classifications of individuals, such as Susceptible, Infected, Remove, and Buy. SIRB has three state transitions, S\u2192I, I\u2192R, and I\u2192B.\r\n1. Product information susceptible(S, Susceptible).The consumers in S state may transform into I state if their neighbor node is I state or B state.\r\n2. Product information owner (I, Infected).The consumers in I state are product information owner, they may pass information through social network to neighbor node, and they may transform into R state or B state.\r\n3. Product information hater(R, Remove).The consumers in R state hate to receive and transmit product information; therefor they would never influence others and adopt any product.\r\n4. Product buyer (B, Buy). Consumers in I state will transform into B state if they buy the product. B state is the product adopter, they still have the product information, they can pass information through social network to neighbor node. However, B state cannot become S state.\r\nThe probability of the individual in social network received product information (S\u2192I) is \u03b2; the probability of the individual who own the product information but do not accept and diffuse the product (I\u2192R) is \u03b3. the probability of the individual in social network purchase the product after they received the product information (I\u2192B) is \u03bb. In time t, the proportion of four states are s(t),i(t) ,r(t) ,b(t).",
+    "downloadUrl": "https://www.comses.net/codebases/4938/releases/1.1.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2016,
+    "datePublished": "2016-03-15",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "MatLab"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    }
+}

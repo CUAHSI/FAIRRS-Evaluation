@@ -1,0 +1,73 @@
+{
+    "@id": "https://www.comses.net/codebases/6ac188eb-f817-4d73-85d6-9fd051ed5a77/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/6ac188eb-f817-4d73-85d6-9fd051ed5a77/releases/1.1.0/",
+    "name": "Agent-based model of power dynamics in agri-food systems",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-5642-728X",
+            "@type": "Person",
+            "email": "tgw@umich.edu",
+            "givenName": "Tim",
+            "familyName": "Williams",
+            "affiliation": {
+                "@id": "https://ror.org/008xxew50",
+                "url": "https://vu.nl/",
+                "name": "Environmental Geography Department, Vrije Universiteit Amsterdam",
+                "@type": "Organization",
+                "identifier": "https://ror.org/008xxew50"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "No",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "agriculture",
+        "farmer decision making",
+        "farmers\u2019 adoption",
+        "food systems",
+        "Python",
+        "sustainability transitions"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/6ac188eb-f817-4d73-85d6-9fd051ed5a77/releases/1.1.0/",
+    "dateCreated": "2025-06-12",
+    "description": "This is a stylised agent-based model designed to explore the conditions that lead to lock-ins and transitions in agri-food systems.\n\nThe model represents interactions between four different types of agents: farmers, consumers, markets, and the state. Farmers and consumers are heterogeneous, and at each time step decide whether to trade with one of two market agents: the conventional or alternative. The state agent provides subsidies to the farmers at each time step.\n\nThe key emergent outcome is the fraction of trade in each time step that flows through the alternative market agent. This arises from the distributed decisions of farmer and consumer agents. A \"sustainability transition\" is defined as a shift in the dominant practices (and associated balance of power) towards the alternative paradigm.\n\nEach agent possesses two (dynamic) state variables: capital and values. These two variables, and their distribution throughout the agent populations, collectively influence the decisions of farmers and consumers, and thereby the fraction of trade that flows through the alternative market agent. Within the modelled interactions, agents exercise power in order to build their own capital and advance their values in the system.\n\nThe model is described in more detail in the associated publication.",
+    "downloadUrl": "https://www.comses.net/codebases/6ac188eb-f817-4d73-85d6-9fd051ed5a77/releases/1.1.0/download/",
+    "dateModified": "2025-06-12",
+    "releaseNotes": "Updated requirements.txt and Readme",
+    "copyrightYear": 2025,
+    "datePublished": "2025-06-12",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "n/a"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "Python 3",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Williams, T. G., Brown, C., Diogo, V., Magliocca, N. R., Molla, N., Rounsevell, M. D. A., Zagaria, C., & Verburg, P. H. (2025). Power dynamics shape sustainability transitions in a modeled food system. One Earth (Cambridge, Mass.), 8(1), 101158.\nhttps://doi.org/10.1016/j.oneear.2024.11.012"
+}

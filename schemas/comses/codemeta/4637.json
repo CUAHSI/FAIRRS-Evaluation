@@ -1,0 +1,69 @@
+{
+    "@id": "https://www.comses.net/codebases/4637/releases/1.2.0/",
+    "url": "https://www.comses.net/codebases/4637/releases/1.2.0/",
+    "name": "A model of environmental awareness spread and its effect in resource consumption reduction",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-1859-616X",
+            "@type": "Person",
+            "email": "sissa.giovanna@gmail.com",
+            "givenName": "Giovanna",
+            "familyName": "Sissa",
+            "affiliation": {
+                "url": "http://www.diten.unige.it/index.php?option=com_content&view=article&id=172:omnia-ottimizzazione-e-modellazione-numerica-per-l-industria-e-l-ambiente&catid=95:unita-operative&lang=it",
+                "name": "Universit\u00e0 degli Studi di Genova",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1859-616X",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "awareness spread",
+        "behavior change",
+        "complex social systems",
+        "energy efficiency",
+        "energy saving",
+        "smart metering",
+        "social influence",
+        "social norms",
+        "user empowerment"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4637/releases/1.2.0/",
+    "dateCreated": "2015-08-17",
+    "description": "The model simulates the effects of social interaction on collective behavior regarding the reduction of the consumption of a resource. The underlying hypothesis is that key societal and psychological mechanisms that lead to environmentally sustainable lifestyles can be enabled and amplified by ICT tools. Specifically SAM4SN (Spread of Awareness Model for Social Norms) describe the role of social norms, i.e \u201crules governing an individual\u2019s behavior that third parties diffusely enforce by means of social sanctions\u201d that encourage sustainable behavior on the part of user and consumers. As enabling technology for a social norm SAM4SN identifies the advanced in-home smart metering services as key elements of a digital ecosystem. The proposed Agent-Based Model (ABM)  allows the exploration of these concepts aimed at understanding the role of environmental awareness in the consumption of a scarce resource. The ABM simulates how environmental awareness spreads in a community, the impact of such individual awareness on individual consumption of a resource like energy (or water), the role of social influence in the dynamics of awareness diffusion, the role of  ICT-based tools of smart metering to trigger  a social norm toward sustainability.  The user interface allows the user to set an initial scenario where there is a target of reduction.  By running SAM4Sn in several different configurations the user can study how and when this  target for environmental sustainability is reached.",
+    "downloadUrl": "https://www.comses.net/codebases/4637/releases/1.2.0/download/",
+    "dateModified": "2022-06-05",
+    "releaseNotes": "I added a new associated pubblication",
+    "copyrightYear": 2015,
+    "datePublished": "2015-08-17",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Giovanna Sissa (2017). An awareness based approach to sustainability: Agent-Based Modeling for decision making in energy policies. Giovanna Sissa, Paola Girdinio, Pietro Terna.  Journal on  Policy and Complex Systems, Volume 3, Number 1 - Spring 2017\nhttps://viewer.joomag.com/journal-on-policy-complex-systems-volume-3-issue-1-spring-2017/0301378001487265049?page=29\n\nGiovanna Sissa (2014). FROM MICRO BEHAVIORS TO MACRO EFFECTS - AGENT BASED MODELING OF ENVIRONMENTAL AWARENESS SPREAD AND ITS EFFECTS ON THE CONSUMPTION OF A LIMITED RESOURCE. PhD Thesis. Universit\u00e0 degli studi di Milano. DIPARTIMENTO DI INFORMATICA\nhttp://hdl.handle.net/2434/233328\nhttps://air.unimi.it/retrieve/handle/2434/233328/307360/phd_unimi_R09069.pdf\n\nG. Sissa, E. Damiani (2015). An Agent-Based Model for Awareness-Based Sustainability. In X. Liu; Y. Li(Eds), Green Services Engineering, Optimization, and Modeling in the Technological Age. pp. (149-166). IGI Global, ISBN: 9781466684478, doi: 10.4018/978-1-4666-8447-8.ch006"
+}

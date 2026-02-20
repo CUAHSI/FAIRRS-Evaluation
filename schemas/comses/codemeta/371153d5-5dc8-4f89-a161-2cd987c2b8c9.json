@@ -1,0 +1,71 @@
+{
+    "@id": "https://www.comses.net/codebases/371153d5-5dc8-4f89-a161-2cd987c2b8c9/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/371153d5-5dc8-4f89-a161-2cd987c2b8c9/releases/1.1.0/",
+    "name": "Roman Amphora reuse",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-1589-7768",
+            "@type": "Person",
+            "email": "tombrughmans1@gmail.com",
+            "givenName": "Tom",
+            "familyName": "Brughmans",
+            "affiliation": {
+                "@id": "https://ror.org/052gg0110",
+                "url": "http://www.ox.ac.uk/",
+                "name": "University of Oxford",
+                "@type": "Organization",
+                "identifier": "https://ror.org/052gg0110"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Brughmans, T., & Pecci, A. (in press). An inconvenient truth. Evaluating the impact of amphora reuse through computational simulation modelling. In C. Duckworth & A. Wilson (Eds.), Recycling and the Ancient economy. Oxford studies on the Roman economy. Oxford: Oxford University Press.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "archaeological computing",
+        "archaeology",
+        "history",
+        "roman archaeology",
+        "Roman ceramics",
+        "roman economy",
+        "Roman empire",
+        "Roman history"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/371153d5-5dc8-4f89-a161-2cd987c2b8c9/releases/1.1.0/",
+    "dateCreated": "2019-08-07",
+    "description": "UPDATE in V1.1.0: missing input data files added; relative paths to input data files changed to \"../data/FILENAME\"\n\nA model that allows for representing key theories of Roman amphora reuse, to explore the differences in the distribution of amphorae, re-used amphorae and their contents.\n\nThis model generates simulated distributions of prime-use amphorae, primeuse contents (e.g. olive oil) and reused amphorae. These simulated distributions will differ between experiments depending on the experiment\u2019s variable settings representing the tested theory: variations in the probability of reuse, the supply volume, the probability of reuse at ports. What we are interested in teasing out is what the effect is of each theory on the simulated amphora distributions.\n\nThe results presented in the related publication (Brughmans and Pecci in press) for all experiments were obtained after running the simulation for 1000 time steps, at which point the simulated distribution patterns have stabilized.\n\nBrughmans, T., & Pecci, A. (in press). An inconvenient truth. Evaluating the impact of amphora reuse through computational simulation modelling. In C. Duckworth & A. Wilson (Eds.), Recycling and the Ancient economy. Oxford studies on the Roman economy. Oxford: Oxford University Press.",
+    "downloadUrl": "https://www.comses.net/codebases/371153d5-5dc8-4f89-a161-2cd987c2b8c9/releases/1.1.0/download/",
+    "dateModified": "2023-03-15",
+    "releaseNotes": "A model that allows for representing key theories of Roman amphora reuse, to explore the differences in the distribution of amphorae, re-used amphorae and their contents.\nThis model generates simulated distributions of prime-use amphorae, primeuse contents (e.g. olive oil) and reused amphorae. These simulated distributions will differ between experiments depending on the experiment\u2019s variable settings representing the tested theory: variations in the probability of reuse, the supply volume, the probability of reuse at ports. What we are interested in teasing out is what the effect is of each theory on the simulated amphora distributions.\nThe results presented in the related publication (Brughmans and Pecci in press) for all experiments were obtained after running the simulation for 1000 time steps, at which point the simulated distribution patterns have stabilized.\nBrughmans, T., & Pecci, A. (in press). An inconvenient truth. Evaluating the impact of amphora reuse through computational simulation modelling. In C. Duckworth & A. Wilson (Eds.), Recycling and the Ancient economy. Oxford studies on the Roman economy. Oxford: Oxford University Press.",
+    "copyrightYear": 2023,
+    "datePublished": "2023-03-15",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo 6.2.2"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo 6.2.2",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Brughmans, T., & Pecci, A. (in press). An inconvenient truth. Evaluating the impact of amphora reuse through computational simulation modelling. In C. Duckworth & A. Wilson (Eds.), Recycling and the Ancient economy. Oxford studies on the Roman economy. Oxford: Oxford University Press."
+}

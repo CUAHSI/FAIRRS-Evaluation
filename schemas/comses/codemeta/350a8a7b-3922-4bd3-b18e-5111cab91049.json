@@ -1,0 +1,105 @@
+{
+    "@id": "https://www.comses.net/codebases/350a8a7b-3922-4bd3-b18e-5111cab91049/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/350a8a7b-3922-4bd3-b18e-5111cab91049/releases/1.0.0/",
+    "name": "A basic macroeconomic agent-based model for analyzing monetary regime shifts",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/3543/",
+            "@type": "Person",
+            "email": "florian.peters@uni-rostock.de",
+            "givenName": "Florian",
+            "familyName": "Peters",
+            "affiliation": {
+                "@id": "https://ror.org/03zdwsf69",
+                "url": "http://www.uni-rostock.de/en/",
+                "name": "University of Rostock",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03zdwsf69"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "doris.neuberger@uni-rostock.de",
+            "givenName": "Doris",
+            "familyName": "Neuberger",
+            "affiliation": {
+                "@id": "https://ror.org/03zdwsf69",
+                "url": "http://www.uni-rostock.de/en/",
+                "name": "University of Rostock",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03zdwsf69"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "oliver.reinhardt@uni-rostock.de",
+            "givenName": "Oliver",
+            "familyName": "Reinhardt",
+            "affiliation": {
+                "@id": "https://ror.org/03zdwsf69",
+                "url": "http://www.uni-rostock.de/en/",
+                "name": "University of Rostock",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03zdwsf69"
+            }
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "email": "adelinde.uhrmacher@uni-rostock.de",
+            "givenName": "Adelinde",
+            "familyName": "Uhrmacher",
+            "affiliation": {
+                "@id": "https://ror.org/03zdwsf69",
+                "url": "http://www.uni-rostock.de/en/",
+                "name": "University of Rostock",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03zdwsf69"
+            }
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "Mak(h)ro_ABM"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/350a8a7b-3922-4bd3-b18e-5111cab91049/releases/1.0.0/",
+    "dateCreated": "2022-05-03",
+    "description": "In macroeconomics, an emerging discussion of alternative monetary systems addresses the dimensions of systemic risk in advanced financial systems. Monetary regime changes with the aim of achieving a more sustainable financial system have already been discussed in several European parliaments and were the subject of a referendum in Switzerland. However, their effectiveness and efficacy concerning macro-financial stability are not well-known. This paper introduces a macroeconomic agent-based model (MABM) in a novel simulation environment to simulate the current monetary system, which may serve as a basis to implement and analyze monetary regime shifts. In this context, the monetary system affects the lending potential of banks and might impact the dynamics of financial crises. MABMs are predestined to replicate emergent financial crisis dynamics, analyze institutional changes within a financial system, and thus measure macro-financial stability. The used simulation environment makes the model more accessible and facilitates exploring the impact of different hypotheses and mechanisms in a less complex way. The model replicates a wide range of stylized economic facts, including simplifying assumptions to reduce model complexity.",
+    "downloadUrl": "https://www.comses.net/codebases/350a8a7b-3922-4bd3-b18e-5111cab91049/releases/1.0.0/download/",
+    "dateModified": "2022-05-03",
+    "releaseNotes": "Initial submit",
+    "copyrightYear": 2022,
+    "datePublished": "2022-05-03",
+    "codeRepository": "https://github.com/fhaegner/Mak-h-ro",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "ML3",
+        "SESSL"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "scala",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

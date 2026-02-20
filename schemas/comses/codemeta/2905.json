@@ -1,0 +1,65 @@
+{
+    "@id": "https://www.comses.net/codebases/2905/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/2905/releases/1.1.0/",
+    "name": "UK Demographic Simulator",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/653/",
+            "@type": "Person",
+            "email": "tlawso@essex.ac.uk",
+            "givenName": "Tony",
+            "familyName": "Lawson",
+            "affiliation": {
+                "@id": "https://ror.org/02nkf1q06",
+                "url": "http://www.essex.ac.uk/",
+                "name": "University of Essex",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02nkf1q06"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/653/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "bhps",
+        "microsimulation",
+        "NetLogo",
+        "populism"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2905/releases/1.1.0/",
+    "dateCreated": "2014-10-21",
+    "description": "An initial population of individuals and households is read in from a file then advanced over time to simulate how the population would change as people age. The annual probability of events such as birth and death as well as partnership formation and dissolution are used to predict the path of each inidvidual. The results from this are then aggregated to forecast the makeup of the future population.\r\n\r\nIt is based on data from the British Household Panel Survey.",
+    "downloadUrl": "https://www.comses.net/codebases/2905/releases/1.1.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2014,
+    "datePublished": "2014-10-21",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

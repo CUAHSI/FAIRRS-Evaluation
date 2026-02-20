@@ -1,0 +1,48 @@
+{
+    "@id": "https://www.comses.net/codebases/1bb193d4-6c9e-4f19-84d1-b95e2780e9ed/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/1bb193d4-6c9e-4f19-84d1-b95e2780e9ed/releases/1.1.0/",
+    "name": "DINO model - Dynamics of Internalization and Dissemination of Norms",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-5882-9813",
+            "@type": "Person",
+            "email": "marlene.batzke@posteo.de",
+            "givenName": "Marlene",
+            "familyName": "Batzke"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/1bb193d4-6c9e-4f19-84d1-b95e2780e9ed/releases/1.1.0/",
+    "dateCreated": "2022-08-17",
+    "description": "The DINO model (Dynamics of Internalization and Dissemimnation of Norms) simulates a conceptual model on the dynamics of norm internalization in the decision-making framework of a 3-person prisoner's dilemma game.",
+    "downloadUrl": "https://www.comses.net/codebases/1bb193d4-6c9e-4f19-84d1-b95e2780e9ed/releases/1.1.0/download/",
+    "dateModified": "2023-08-19",
+    "releaseNotes": "The influence of personal norms on decision-making was revised in Version 1.1. The personal norm [0;2] is now transformed for the value range between [0;1] before it is multiplied in the decision-making function. For personal norm values \u2264 1, it is multiplied as: 1 / (2 \u2013 Personal Norm). That way, the transformed personal norm value in decision-making has the properties of ranging between [0.5;2] (i.e., halving or duplicating the intention for a behavioral action) and its neutral midpoint being 1 (i.e., not influencing the decision). \nThe norm internalization process was not revised in DINO model 1.1. The personal norm value may still be adapted linearly in norm internalization. ",
+    "copyrightYear": 2023,
+    "datePublished": "2023-08-19",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo",
+        "NetLogo 6.2.2"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

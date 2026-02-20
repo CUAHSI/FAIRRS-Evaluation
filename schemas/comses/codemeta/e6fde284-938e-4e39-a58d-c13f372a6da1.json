@@ -1,0 +1,51 @@
+{
+    "@id": "https://www.comses.net/codebases/e6fde284-938e-4e39-a58d-c13f372a6da1/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/e6fde284-938e-4e39-a58d-c13f372a6da1/releases/1.1.0/",
+    "name": "Vaccine adoption with outgroup aversion using Cleveland area data",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-2900-0851",
+            "@type": "Person",
+            "email": "brumiller@knights.ucf.edu"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "adoption diffusion",
+        "COVID-19 vaccination",
+        "outgroup aversion",
+        "preferential attachment network"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/e6fde284-938e-4e39-a58d-c13f372a6da1/releases/1.1.0/",
+    "dateCreated": "2023-07-31",
+    "description": "This model takes concepts from a JASSS paper this is accepted for the October, 2023 edition and applies the concepts to empirical data from counties surrounding and including Cleveland Ohio.  The agent-based model has a proportional number of agents in each of the counties to represent the correct proportions of adults in these counties.  The adoption decision probability uses the equations from Bass (1969) as adapted by Rand & Rust (2011).  It also includes the Outgroup aversion factor from Smaldino, who initially had used a different imitation model on line grid.  This model uses preferential attachment network as a metaphor for social networks influencing adoption.  The preferential network can be adjusted in the model to be created based on both nodes preferred due to higher rank as well as a mild preference for nodes of a like group.  ",
+    "downloadUrl": "https://www.comses.net/codebases/e6fde284-938e-4e39-a58d-c13f372a6da1/releases/1.1.0/download/",
+    "dateModified": "2023-08-08",
+    "releaseNotes": "This version was used to submit conference model to CSS, 2023.  It contains sliders for preferential attachment criteria (degree and group preferences), the size of 6 counties in a grid that represent counties around Cleveland.  It can be adapted for other metropolitan counties in a similar configuration or adapted to a 9 county model as an extension.  A behavior search experiment has been set up that runs 7 variables with a total of 1296 combinations for each replication.  ",
+    "copyrightYear": 2023,
+    "datePublished": "2023-08-06",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "Netlogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo 6.3.0",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "@id": "https://www.comses.net/codebases/560f43cf-304f-4a3c-9d76-275756beb63d/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/560f43cf-304f-4a3c-9d76-275756beb63d/releases/1.0.0/",
+    "name": "word-of-mouth dynamics with information seeking",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-8761-8780",
+            "@type": "Person",
+            "email": "samuel.thiriot.accounts@res-ear.ch",
+            "givenName": "Samuel",
+            "familyName": "Thiriot",
+            "affiliation": {
+                "name": "EDF Lab Paris Saclay",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent based modeling and simulation",
+        "innovation diffusion",
+        "social network",
+        "social simulation",
+        "word-of-mouth"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/560f43cf-304f-4a3c-9d76-275756beb63d/releases/1.0.0/",
+    "dateCreated": "2018-10-24",
+    "description": "Studies on word-of-mouth identify two behaviors leading to transmission of information between individuals: proactive transmission of information, and information seeking. Individuals who are aware might be curious of it and start seeking for information; they might find around them the expertise held by another individual. Field studies indicate individuals do not adopt an innovation if they don\u2019t hold the corresponding expertise. This model describes this information seeking behavior, and enables the exploration of the dynamics which emerges out of it.\n\n",
+    "downloadUrl": "https://www.comses.net/codebases/560f43cf-304f-4a3c-9d76-275756beb63d/releases/1.0.0/download/",
+    "dateModified": "2018-10-24",
+    "releaseNotes": "Word-of-mouth is known to determine the success or failure of innovations (Rogers, 2003) and facilitate the diffusion of products (Katz and Lazarsfeld, 1955). Word-of-mouth is made of both individuals seeking out information and/or pro-actively spreading information (Gilly et al., 1998; Rogers, 2003). Information seeking is considered as a step mandatory for individuals to retrieve the expert knowledge necessary for them to understand the benefits of an innovation or decide to buy a product (Arndt, 1967; Rogers, 2003). Yet the role of information seeking in the word-of-mouth dynamics was not investigated in computational models. Here we study in which conditions word-of-mouth enables the population to retrieve the initial expertise scattered in the population. We design a computational model in which awareness and expert knowledge are both represented, and study the joint dynamics of information seeking and proactive transmission of information. Simulation experiments highlight the apparition of cascades of awareness, cascades of expertise and chains of information retrieval. We find that different strategies should be used depending on the initial proportion of expertise (disruptive innovations, incremental innovations or products belonging to well-known categories). Surprisingly, when there is too much expertise in the population prior the advertisement campaign, word-of-mouth is less efficient in the retrieval of this expertise than when less expertise is initially present. Our results suggest that information seeking plays a key role in the dynamics of word-of- mouth, which can therefore not be reduced solely to the epidemic aspect.\n\nThe related (peer-reviewed) publication is: Samuel Thiriot, Word-of-mouth dynamics with information seeking: Information is not (only) epidemics, Physica A: Statistical Mechanics and its Applications, Volume 492, 2018, Pages 418-430, ISSN 0378-4371, https://doi.org/10.1016/j.physa.2017.09.056. (http://www.sciencedirect.com/science/article/pii/S0378437117309482)\n\n",
+    "copyrightYear": 2018,
+    "datePublished": "2018-10-24",
+    "codeRepository": "https://github.com/samthiriot/model-wom-USA-IPK",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "@id": "https://www.comses.net/codebases/4204/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/4204/releases/1.1.0/",
+    "name": "A test-bed ecological model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-3903-2507",
+            "@type": "Person",
+            "email": "bruce@edmonds.name",
+            "givenName": "Bruce",
+            "familyName": "Edmonds",
+            "affiliation": {
+                "url": "http://mmu.ac.uk",
+                "name": "Centre for Policy Modelling",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-3903-2507",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "ecology",
+        "genetic",
+        "metapopulation",
+        "spatial",
+        "test-bed"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4204/releases/1.1.0/",
+    "dateCreated": "2014-05-04",
+    "description": "This model is designed to be a test-bed \u2013 an artificial ecology \u2013 into which agents representing humans and their society can be introduced, in order to explore how the arrival of such humans can affect this. This test-bed needs to be sufficiently complex and dynamic so that this forms a robust test, in particular it should:\r\n\u2022\tHave an energy economy, so that predators (herbivores, predators etc.) dynamically impact upon each other;\r\n\u2022\tAllow the food-chain to dynamically change and develop;\r\n\u2022\tExplicitly represent space so as to allow the emergence and spread of new species (invasive and mutations);\r\n\u2022\tNot predetermine the species composition but allow this to co-emerge with other species and the environment.\r\n\r\nIn this, entities (plants, herbivores and predators), are represented as individual objects. They inhabit one of a number of patches arranged in a 2D pattern that makes up the world. Each patch is well mixed so that interactions within that patch are random, but there is a probability that each individual can migrate. The world is wrapped vertically and horizontally. A fixed matrix of random numbers are used to determine the dominance of kinds of entity against other kinds of entity/patch.\r\n\r\nNotable features that emerge from this model include that:\r\n\u2022\tIt can produce ecologies with plausible food webs.\r\n\u2022\tThe fundamental interactions in the model are emergent and can continually change in time and space.\r\n\u2022\tThe model creates endogenous shocks on its own, with new species appearing to sometimes-catastrophic effect on the existing food chains.\r\n\u2022\tMutation and migration happen in parallel, so that new species often appear before previous species have been completely spread over the space\r\n\u2022\tThe system is highly adaptive in the sense that the distribution of species and their composition evolves things change. \r\n\u2022\tThere are a number of different kinds of world state that can arise and persist for a while.",
+    "downloadUrl": "https://www.comses.net/codebases/4204/releases/1.1.0/download/",
+    "dateModified": "2019-05-15",
+    "releaseNotes": "Public Version 1.5\n\nThis version is functionally the same as version 1.4 (https://www.comses.net/codebases/4204/releases/1.0.0/) but runs much faster using the \"evolve\" extension (whose only purpose is to do the key calculation in this model). \n\nTo run this simulation, unpack the zip file, including the \"evolve\" folder somewhere, then run the .nlogo file using Netlogo 5.3.*",
+    "copyrightYear": 2019,
+    "datePublished": "2019-05-15",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Edmonds, B. (2014) Man on Earth \u2013 the challenge of discovering viable ecological survival strategies. XXth workshop on Multi-agent based Simulation, Paris, May 2014."
+}

@@ -1,0 +1,66 @@
+{
+    "@id": "https://www.comses.net/codebases/2648/releases/1.2.0/",
+    "url": "https://www.comses.net/codebases/2648/releases/1.2.0/",
+    "name": "Hominin ecodynamics v.1",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-2561-1927",
+            "@type": "Person",
+            "email": "michael.barton@asu.edu",
+            "givenName": "C Michael",
+            "familyName": "Barton",
+            "affiliation": {
+                "@id": "https://ror.org/03efmqc40",
+                "url": "http://www.asu.edu/",
+                "name": "Arizona State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03efmqc40"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-2561-1927",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "human behavioral ecology",
+        "human ecology",
+        "human evolution",
+        "MOBIL",
+        "neanderthal",
+        "paleolithic",
+        "pleistocene"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2648/releases/1.2.0/",
+    "dateCreated": "2014-03-28",
+    "description": "hominin_ecodynamics.nlogo is designed as an experimental laboratory to explore the dynamics of biobehavioral interactions between two populations, and their genetic and demographic consequences. Specifically, the model is designed to study the effects of differing initial population sizes, different interaction distances, and different fitness on the demography and spatial distributions of the original two populations and hybrids.",
+    "downloadUrl": "https://www.comses.net/codebases/2648/releases/1.2.0/download/",
+    "dateModified": "2018-02-19",
+    "releaseNotes": "This the first version of this model published.",
+    "copyrightYear": 2014,
+    "datePublished": "2014-03-28",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    },
+    "referencePublication": "Barton, C. MIchael, Julien Riel-Salvatore, John M. Anderies, & Gabriel Popescu (2011). Modeling human ecodynamics and biocultural interactions in the Late Pleistocene of western Eurasia. Human Ecology. DOI: 10.1007/s10745-011-9433-8."
+}

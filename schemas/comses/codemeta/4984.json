@@ -1,0 +1,49 @@
+{
+    "@id": "https://www.comses.net/codebases/4984/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4984/releases/1.0.0/",
+    "name": "An Agent Based Model for implementing a double auction \ffinancial market",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "givenName": "Annalisa",
+            "familyName": "Fabretti"
+        },
+        {
+            "@id": "_:author_1",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4984/releases/1.0.0/",
+    "dateCreated": "2016-04-14",
+    "description": "The model implements a double auction financial markets with two types of agents: rational and noise. Rational agents submit orders maximizing their expected utility while noise traders act randomly just caring of their budget constraints. Rational agents are endowed with a linear or a convex payoff. An agent with a linear payoff is a trader investing her own wealth, while an agent with a linear payoff is a portfolio manager investing on behalf of others. The model aims to study the impact of different compensation structure on the market stability and market quantities as prices, volumes, spreads. The convex payoffs increase prices, volatility and spreads while decrease volumes, letting the market to be less liquid.",
+    "downloadUrl": "https://www.comses.net/codebases/4984/releases/1.0.0/download/",
+    "dateModified": "2018-02-16",
+    "releaseNotes": "",
+    "copyrightYear": 2016,
+    "datePublished": "2016-04-14",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "MatLab"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    },
+    "referencePublication": "Fabretti, A., Garling, T., Herzel, S., Holmen, M., (2014). Con-\r\nvex Incentives in Financial Markets: An Agent-Based Anal-\r\nysis. Available at SSRN: http://ssrn.com/abstract=2529902"
+}

@@ -1,0 +1,63 @@
+{
+    "@id": "https://www.comses.net/codebases/3554/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/3554/releases/1.1.0/",
+    "name": "Feedback Loop Example: Forest Resource Transport",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-5099-0001",
+            "@type": "Person",
+            "email": "james.millington@kcl.ac.uk",
+            "givenName": "James",
+            "familyName": "Millington",
+            "affiliation": {
+                "@id": "https://ror.org/0220mzb33",
+                "url": "http://www.kcl.ac.uk/index.aspx",
+                "name": "King's College London",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0220mzb33"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-5099-0001",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "eschansfeedback",
+        "feedback",
+        "resources",
+        "spatial",
+        "transport"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3554/releases/1.1.0/",
+    "dateCreated": "2012-12-21",
+    "description": "This model illustrates a positive 'transport' feedback loop described in Millington (2013). In this type of feedback a line of reduced or increased resistance to flows of information and/or material results in increased or decreased rates of change in linked entities. This particular example represents the role of roads in tropical deforestation in the Amazon basin (e.g., Malanson et al. 2006), facilitating the flow of people and material from settled (core) regions to frontier (periphery) regions, and vice versa. A positive feedback loop is formed as greater flows of people and materials improve economic returns on activities at the periphery, which in turn stimulate improved and greater flows of materials and people along the roads to core markets and elsewhere.",
+    "downloadUrl": "https://www.comses.net/codebases/3554/releases/1.1.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    }
+}

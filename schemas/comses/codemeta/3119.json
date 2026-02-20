@@ -1,0 +1,57 @@
+{
+    "@id": "https://www.comses.net/codebases/3119/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/3119/releases/1.0.0/",
+    "name": "An agent-based model of adaptive cycles of the spruce budworm",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/248/",
+            "@type": "Person",
+            "email": "juliaschindler@gmx.net",
+            "givenName": "Julia",
+            "familyName": "Schindler"
+        },
+        {
+            "@id": "https://www.comses.net/users/248/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "adaptive cycle",
+        "agent-based model",
+        "panarchy",
+        "resilience",
+        "spruce budworm outbreak"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3119/releases/1.0.0/",
+    "dateCreated": "2012-08-18",
+    "description": "The purpose of the model is to illustrate how adaptive cycles can emerge from agent interaction, and to show that adaptive cycles of spruce-budworm outbreaks can be replicated. The design of the model is documented in Schindler J (forthcoming) Agent-based modelling of adaptive cycles using the example of spruce budworm. The ecological parameters at the interface are calibrated by default to Eastern North American conifer forests and the eastern spruce budworm, but can be modified for exploration. When no impact events of raised budworm population are assumed by the model user, the modelled system loses its resilience, but remains in a low-population equilibrium, since disturbance is zero. On the other hand, if disturbance is high enough in the form of regular events of budworm population increment, the system is moved away from its low equilibrium, showing regular cycles of outbreaks.",
+    "downloadUrl": "https://www.comses.net/codebases/3119/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    },
+    "referencePublication": "Schindler J (forthcoming) Agent-based modelling of adaptive cycles using the example of spruce budworm"
+}

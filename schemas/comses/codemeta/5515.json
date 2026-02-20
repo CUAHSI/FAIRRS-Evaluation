@@ -1,0 +1,82 @@
+{
+    "@id": "https://www.comses.net/codebases/5515/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5515/releases/1.0.0/",
+    "name": "LBD Model: Learning-by-doing for sustainable management of renewable resources",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-1546-0934",
+            "@type": "Person",
+            "email": "emilie.lindkvist@su.se",
+            "givenName": "Emilie",
+            "familyName": "Lindkvist",
+            "affiliation": {
+                "@id": "https://ror.org/0145rpw38",
+                "url": "http://www.stockholmresilience.org",
+                "name": "Stockholm University, Stockholm Resilience Centre",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0145rpw38"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "\u00d6rjan",
+            "familyName": "Ekeberg"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Jon",
+            "familyName": "Norberg"
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-1546-0934",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-sa/4.0/",
+        "name": "CC-BY-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5515/releases/1.0.0/",
+    "dateCreated": "2017-03-09",
+    "description": "This model presents a novel approach to studying resource growth problems using a computational form of adaptive management to find optimal strategies for prevalent natural resource management dilemmas. The model is used for scrutinizing adaptive management, or learning-by-doing, to better understand how to simultaneously manage and learn about a system when its dynamics are unknown. It allows for studying important trade-offs in decision-making with respect to choosing optimal actions (harvest efforts) for sustainable management during change. Our results show that the optimal strategy for managing resources with declining growth is capable of managing resources with fluctuating or increasing growth at a negligible cost, creating in a management strategy that is both efficient and robust towards future unknown changes. The model reveals that to obtain this strategy, adaptive management should strive for: high learning rates to new knowledge, high valuation of future outcomes and modest exploration around what is perceived as the optimal action.",
+    "downloadUrl": "https://www.comses.net/codebases/5515/releases/1.0.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "",
+    "copyrightYear": 2017,
+    "datePublished": "2017-03-09",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "MatLab"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "MatLab",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Emilie Lindkvist, \u00d6rjan Ekeberg, Jon Norberg (2017) Strategies for sustainable management of renewable resources during environmental change. Proceedings B. doi: 10.1098/rspb.2016.2762"
+}

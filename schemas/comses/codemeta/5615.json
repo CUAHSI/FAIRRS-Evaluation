@@ -1,0 +1,99 @@
+{
+    "@id": "https://doi.org/10.25937/e8ya-5e98",
+    "url": "https://doi.org/10.25937/e8ya-5e98",
+    "name": "The Effect of Spatial Clustering on Stone Raw Material Procurement",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-9662-4904",
+            "@type": "Person",
+            "email": "simen.oestmo@gmail.com",
+            "givenName": "Simen",
+            "familyName": "Oestmo"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Person",
+            "email": "marco.janssen@asu.edu",
+            "givenName": "Marco",
+            "familyName": "Janssen",
+            "affiliation": {
+                "url": "https://schoolofsustainability.asu.edu/",
+                "name": "School of Sustainability",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Curtis",
+            "familyName": "Marean"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-9662-4904",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "african middle stone age",
+        "forage",
+        "hunter-gatherer",
+        "hunter-gatherer",
+        "lithic raw material",
+        "lithics",
+        "lithic technology",
+        "stone artifacts",
+        "stone tool technology"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/e8ya-5e98",
+        "https://doi.org/10.25937/e8ya-5e98"
+    ],
+    "dateCreated": "2017-04-21",
+    "description": "Changes in the frequency of stone tool raw materials are observed in stone age records across the world and throughout time. These are normally interpreted as showing important changes in human behavior. Brantingham (2003) proposed a neutral model to explain observed data on stone tool raw material procurement as an alternative to behavioral interpretations of raw material changes, but his model used unrealistic distributions of raw material across a landscape. Brantingham (2003) pointed out that a valid criticism of the neutral model approach is that random walk in the environment can be considered an unrealistic foraging behavior; that a forager would never ignore the difference between raw material types. Additionally, he stated that future evaluations of the neutral model should be conducted using a real landscape with real source locations. This model partly addresses both by looking at the effect that spatial clustering or raw material sources have on the neutral model outcome. Spatial clustering of raw material sources simulates a more realistic scenario because raw material sources are located on the landscape according to geological structures and geophysical processes, which often results in same type raw material sources clustering together on the landscape. One key measure that is collected in the model to evaluate the effect that spatial clustering has is time without raw material in toolkit. Another limitation of the original neutral model that is addressed is the unrealistic assumption that there are 5000 unique raw material types distributed across the landscape. It is more realistic that 1-25 raw material types are distributed among 5000 sources, which in turn are distributed across the landscape according to geological structures and geophysical processes.",
+    "downloadUrl": "https://www.comses.net/codebases/5615/releases/1.0.0/download/",
+    "dateModified": "2024-12-05",
+    "releaseNotes": "Version 1",
+    "copyrightYear": 2017,
+    "datePublished": "2017-04-21",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Oestmo, S., Janssen, M.A., Marean, C.W., 2016. Testing Brantingham's Neutral Model: The Effect of Spatial Clustering on Stone Raw Material Procurement, in: Barcel\u00f3, J.A., Del Castillo, F. (eds.), Simulating Prehistoric and Ancient Worlds, Springer, pp. 175-188."
+}

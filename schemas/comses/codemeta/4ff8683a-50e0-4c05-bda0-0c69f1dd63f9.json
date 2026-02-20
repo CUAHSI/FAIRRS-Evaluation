@@ -1,0 +1,66 @@
+{
+    "@id": "https://www.comses.net/codebases/4ff8683a-50e0-4c05-bda0-0c69f1dd63f9/releases/1.2.0/",
+    "url": "https://www.comses.net/codebases/4ff8683a-50e0-4c05-bda0-0c69f1dd63f9/releases/1.2.0/",
+    "name": "The Effect of Individual and Collective Characteristics on Team Performance: A Model of Networked Agents Engaged in Collective Problem Solving",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/3137/",
+            "@type": "Person",
+            "email": "aboroomand@ucmerced.edu",
+            "givenName": "Amin",
+            "familyName": "Boroomand"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Boroomand, A., & Smaldino, P. E. (2021). Hard Work, Risk-Taking, and Diversity in a Model of Collective Problem Solving. Journal of Artificial Societies and Social Simulation, 24(4).\n\nLazer, D., & Friedman, A. (2007). The network structure of exploration and exploitation. Administrative Science Quarterly, 52(4), 667-694.",
+            "@type": "CreativeWork"
+        },
+        {
+            "text": "The base of this code is by Joshua becker.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "NK model;"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4ff8683a-50e0-4c05-bda0-0c69f1dd63f9/releases/1.2.0/",
+    "dateCreated": "2021-03-16",
+    "description": "This code is for an agent-based model of collective problem solving in which agents with different behavior strategies, explore the NK landscape while they communicate with their peers agents. This model is based on  the famous work of Lazer, D., & Friedman, A. (2007), The network structure of exploration and exploitation.",
+    "downloadUrl": "https://www.comses.net/codebases/4ff8683a-50e0-4c05-bda0-0c69f1dd63f9/releases/1.2.0/download/",
+    "dateModified": "2021-07-26",
+    "releaseNotes": "\nRead me file for the netlogo code \nResarch Title: The effect of team members\u2019 behaviour on the performance of team\u2019s collective problem solving\nAuthor: Amin Boroomand\nVersion 2.0\ndate: 04/22/2020\n\n\nQuick breakdown of code sections based on order of appearance on the code file:\n\nDefinitions: \n\tGlobal variables\n\tAgents and its properties\n\t\nSetup function: It is hit when we press set up. It runs the following functions:\n\tDefine-allele-values:\n\tSet-interdepenencies\n\tSpawn-turtle\n\tWire-ringlat\nRun_step: this function does the exploration and exploitation for each agent in each tick\n\tExploitation: fiDefinitionsrst it checks if any of the neighbor agents of any of them have a better solution. If so, it adops the better solution, otherwise it moves to to exploration\n\tExploration: depending on the type of the agent, the exploration behavior is defined.\n\n\tNote: run_step function uses to functions:\n\t\tExplore: this function randomly changes one of bites of the solution and returns a proposed new solution. It does not automatically update the agent\u2019 current solution. \n\t\tEvaluate: this function calculates the score associated to each solution\n\nThe rest of the functions are used to define the space and in the functions inside the setup function\n",
+    "copyrightYear": 2021,
+    "datePublished": "2021-07-26",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo",
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Boroomand, A., & Smaldino, P. E. (2021). Hard Work, Risk-Taking, and Diversity in a Model of Collective Problem Solving. Journal of Artificial Societies and Social Simulation, 24(4)."
+}

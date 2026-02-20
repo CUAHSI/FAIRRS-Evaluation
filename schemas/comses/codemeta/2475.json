@@ -1,0 +1,52 @@
+{
+    "@id": "https://www.comses.net/codebases/2475/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/2475/releases/1.0.0/",
+    "name": "A simulation tool for capability-based team task allocation in emergency-responce environments",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/585/",
+            "@type": "Person",
+            "email": "afsaneh_fatemi@yahoo.com",
+            "givenName": "Afsaneh",
+            "familyName": "Fatemi"
+        },
+        {
+            "@id": "https://www.comses.net/users/585/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2475/releases/1.0.0/",
+    "dateCreated": "2011-03-16",
+    "description": "Its a multi agent simulation environment, provided using JADE/Java. It gets the number of agents and tasks, then divides the physical environment to some segments, and then runs a greedy capability-based coalition formation and task allocation algorithm to assign tasks to groups of agents and complete the tasks. Many statistical factors are computed in this software.",
+    "downloadUrl": "https://www.comses.net/codebases/2475/releases/1.0.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Jade"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

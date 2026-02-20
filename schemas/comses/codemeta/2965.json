@@ -1,0 +1,56 @@
+{
+    "@id": "https://www.comses.net/codebases/2965/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/2965/releases/1.1.0/",
+    "name": "An Agent-Based Model of Internet Diffusion Under General and Specific Network Externalities",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/622/",
+            "@type": "Person",
+            "email": "fgarip@wjh.harvard.edu",
+            "givenName": "Filiz",
+            "familyName": "Garip",
+            "affiliation": {
+                "@id": "https://ror.org/03vek6s52",
+                "url": "http://www.harvard.edu/",
+                "name": "Associate Professor of Sociology, Harvard University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/03vek6s52"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/622/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2965/releases/1.1.0/",
+    "dateCreated": "2012-04-27",
+    "description": "Using nodes from the 2002 General Social Survey sample, the code establishes a network of ties with a given homophily bias, and simulates Internet adoption rates in that network under three conditions: (i) no network externalities, (ii) general network externalities, where an individual\u2019s reservation price is a function of the overall adoption rate in the network, (iii) specific network externalities, where reservation price is a function of the adoption rate in individual\u2019s personal network, with varying degrees of homophily.\r\n\r\nDetailed description is available in: \r\n\r\nPaul DiMaggio and Filiz Garip. 2011. \u201cHow Network Externalities Can Exacerbate Intergroup Inequality.\u201d American Journal of Sociology 116(6): 1887-1933.",
+    "downloadUrl": "https://www.comses.net/codebases/2965/releases/1.1.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "MatLab"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    }
+}

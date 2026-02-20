@@ -1,0 +1,61 @@
+{
+    "@id": "https://www.comses.net/codebases/23ce38af-ae87-47bf-b9e3-2523a54fe1a1/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/23ce38af-ae87-47bf-b9e3-2523a54fe1a1/releases/1.0.0/",
+    "name": "ABM for Underwater optical wireless communication in a water tank",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-4476-5342",
+            "@type": "Person",
+            "email": "abid.med@gmail.com",
+            "givenName": "Mohamed",
+            "familyName": "ABID"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc/4.0",
+        "name": "CC-BY-NC-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "C. Gabriel, M. Khalighi, S. Bourennane, P. Leon and V. Rigaud, \u201cMonte-Carlo-based channel characterization for underwater optical communication systems,\u201d in Journal of Optical Communications and Networking, vol. 5, no. 1, pp. 1-12, Jan. 2013, doi: 10.1364/JOCN.5.000001.\n\nFredriksson, Ingemar. (2009). Quantitative Laser Doppler Flowmetry",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "Channel propagation",
+        "energy",
+        "Monte-Carlo simulation",
+        "Photons",
+        "Underwater Wireless Optical Communication"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/23ce38af-ae87-47bf-b9e3-2523a54fe1a1/releases/1.0.0/",
+    "dateCreated": "2022-05-29",
+    "description": "This model simulates the propagation of photons in a water tank. A source of light emits an impulse of photons with equal energy represented by yellow dots. These photons are then scattered by water particles before possibly reaching the photo-detector represented by a gray line. Different types of water are considered. For each one of them we calculate the total received energy. \n\nThe water tank is represented by a blue rectangle with fixed dimensions. It\u2019s exposed to the air interface and has totally absorbent barriers. Four types of water are supported. Each one is characterized by its absorption and scattering coefficients.\nAt the source, the photons are generated uniformly with a random direction within the beamwidth. Each photon travels a random distance drawn from a distribution depending on the water characteristics before encountering a water particle.\nBased on the updated position of the photon, three situations may occur: \n-The photon hits the barrier of the tank on its trajectory. In this case it\u2019s considered as lost since the barriers are assumed totally absorbent. \n-The photon hits the top of the water. Depending on the incident angle, two cases occur:\n   * If the incident angle is greater than the critical angle, the photon is reflected without loss of energy.\n   * If the incident angle is smaller than the critical angle, the photon is reflected with a loss of energy depending on the Fresnel coefficient.\n-The photon hits a particle. In this case it undergoes a loss of energy depending on the water characteristics and then gets deviated by a random angle following the Henyey\u2013Greenstein Model.\nThe above process is repeated until either the photon is lost or it reaches the photo-detector.",
+    "downloadUrl": "https://www.comses.net/codebases/23ce38af-ae87-47bf-b9e3-2523a54fe1a1/releases/1.0.0/download/",
+    "dateModified": "2022-07-22",
+    "releaseNotes": "Initial release v1.0.0",
+    "copyrightYear": 2022,
+    "datePublished": "2022-05-29",
+    "embargoEndDate": "2022-05-29",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo 6.2.1"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

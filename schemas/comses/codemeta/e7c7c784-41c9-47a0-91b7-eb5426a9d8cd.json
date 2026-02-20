@@ -1,0 +1,48 @@
+{
+    "@id": "https://www.comses.net/codebases/e7c7c784-41c9-47a0-91b7-eb5426a9d8cd/releases/1.3.0/",
+    "url": "https://www.comses.net/codebases/e7c7c784-41c9-47a0-91b7-eb5426a9d8cd/releases/1.3.0/",
+    "name": "RobbyGA modified 2019",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1068/",
+            "@type": "Person",
+            "email": "timgooding1@gmail.com",
+            "givenName": "Timothy",
+            "familyName": "Gooding",
+            "affiliation": {
+                "@id": "https://ror.org/05bbqza97",
+                "url": "http://www.kingston.ac.uk/",
+                "name": "Kingston University London",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05bbqza97"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.3.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/e7c7c784-41c9-47a0-91b7-eb5426a9d8cd/releases/1.3.0/",
+    "dateCreated": "2019-02-08",
+    "description": "This is a modification of the RobbyGA model by the Santa Fe Institute (see model Info tab for full information). The basic idea is that the GA has been changed to one where the agents have a set lifetime, anyone can reproduce with anyone, but where there is a user-set amount of 'starvation' that kills the agents that have a too low fitness.",
+    "downloadUrl": "https://www.comses.net/codebases/e7c7c784-41c9-47a0-91b7-eb5426a9d8cd/releases/1.3.0/download/",
+    "dateModified": "2019-02-24",
+    "releaseNotes": "This model accompanies the book Economics for a Fairer Society: Going Back to Basics using Agent-Based Models.",
+    "copyrightYear": 2019,
+    "datePublished": "2019-02-24",
+    "operatingSystem": "platform_independent",
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    }
+}

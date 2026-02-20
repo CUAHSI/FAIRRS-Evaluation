@@ -1,0 +1,60 @@
+{
+    "@id": "https://www.comses.net/codebases/4917/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4917/releases/1.0.0/",
+    "name": "MixFarm ABM Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/792/",
+            "@type": "Person",
+            "email": "leigh.anderson@usask.ca",
+            "givenName": "Leigh",
+            "familyName": "Anderson",
+            "affiliation": {
+                "@id": "https://ror.org/010x8gc63",
+                "url": "https://www.usask.ca/",
+                "name": "University of Saskatchewan",
+                "@type": "Organization",
+                "identifier": "https://ror.org/010x8gc63"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/792/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4917/releases/1.0.0/",
+    "dateCreated": "2016-03-03",
+    "description": "MixFarmABM Model examines the competitiveness of second-generation biofuel crops with existing crops and beef cows at the farm level and their impact on the farm structure. In addition, three sequential (strategic, tactical and recourse) optimization stages are used in order to better reflect the uncertainty and recourse decisions available to Prairie farmers to\r\ndetermine short-run and long-run production decisions using linear and integer programming techniques.  The simulation results indicate that energy crops have the potential to change the structure of agriculture. Energy crops emerge in the model in both of the energy price scenarios, while total farm sector equity and total sector net income is improved over the base scenario.",
+    "downloadUrl": "https://www.comses.net/codebases/4917/releases/1.0.0/download/",
+    "dateModified": "2018-02-24",
+    "releaseNotes": "",
+    "copyrightYear": 2016,
+    "datePublished": "2016-03-03",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Repast"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Anderson, Leigh, M.Sc. University of Saskatchewan, Saskatoon, May 2012.\r\nAn Agent Based Model of the Potential Impact of Second Generation Bioenergy Commodities on the Grain \u2013 Livestock Economy and Structure of South-eastern Saskatchewan.\r\nSupervisor: R.A. Schoney"
+}

@@ -1,0 +1,53 @@
+{
+    "@id": "https://www.comses.net/codebases/4943/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4943/releases/1.0.0/",
+    "name": "Walk Away in groups",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/473/",
+            "@type": "Person",
+            "email": "athena.aktipis@gmail.com",
+            "givenName": "Athena",
+            "familyName": "Aktipis"
+        },
+        {
+            "@id": "https://www.comses.net/users/473/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4943/releases/1.0.0/",
+    "dateCreated": "2016-03-17",
+    "description": "The evolution of cooperation through partner choice mechanisms is often thought to involve relatively complex cognitive abilities. Using agent-based simulations I model a simple partner choice rule, the 'Walk Away' rule, where individuals stay in groups that provide higher returns (by virtue of having more cooperators), and 'Walk Away' from groups providing low returns. Implementing this conditional movement rule in a public goods game leads to a number of interesting findings: 1) cooperators have a selective advantage when thresholds are high, corresponding to low tolerance for defectors, 2) high thresholds lead to high initial rates of movement and low final rates of movement (after selection), and 3) as cooperation is selected, the population undergoes a spatial transition from high migration (and a many small and ephemeral groups) to low migration (and large and stable groups). These results suggest that the very simple 'Walk Away' rule of leaving uncooperative groups can favor the evolution of cooperation, and that cooperation can evolve in populations in which individuals are able to move in response to local social conditions. A diverse array of organisms are able to leave degraded physical or social environments. The ubiquitous nature of conditional movement suggests that 'Walk Away' dynamics may play an important role in the evolution of social behavior in both cognitively complex and cognitively simple organisms.",
+    "downloadUrl": "https://www.comses.net/codebases/4943/releases/1.0.0/download/",
+    "dateModified": "2018-02-25",
+    "releaseNotes": "",
+    "copyrightYear": 2016,
+    "datePublished": "2016-03-17",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Aktipis, C. Athena. \"Is cooperation viable in mobile organisms? Simple Walk Away rule favors the evolution of cooperation in groups.\" Evolution and Human Behavior 32.4 (2011): 263-276."
+}

@@ -1,0 +1,62 @@
+{
+    "@id": "https://www.comses.net/codebases/2236/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/2236/releases/1.0.0/",
+    "name": "The dynamic agent-based model of market of single commodity and process of setting of prices",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/146/",
+            "@type": "Person",
+            "email": "v_mark50@hotmail.com",
+            "givenName": "Mark",
+            "familyName": "Voronovitsky"
+        },
+        {
+            "@id": "https://www.comses.net/users/146/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "[1] M.M.Voronovitsky, \"On One Exchange Model.\" Automatika i\r\nTelemechanika, 8, 1974 (russian).( Automation and Remote Control v.35,N\r\n8 part 1 August 1974 p.1285-1291 (English))\r\n[2] M .M. Voronovitsky, \"On a Simple Mechanisms of the Interactions a\r\nSuplier and a Customer.\" Economics and Mathematical Methods\" XIII, 2,\r\n1977 (russian).\r\n[3] M .M. Voronovitsky, \"The Exchange Model at the Least Interaction\r\nbetweens the Participants.\" Economics and Mathematcal Methods\" XYIII,\r\n5, 1982 (russian).\r\n[4] M .M. Voronovitsky, \"On Convergence of the Spectrun of a Prices\r\nfor the one Class of a Exchange Models.\" Economics and Mathematcal\r\nMethods.\" Central Economical",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "agentbasedmodel",
+        "automata",
+        "collective behavior",
+        "equilibrium",
+        "market"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2236/releases/1.0.0/",
+    "dateCreated": "2009-01-24",
+    "description": "The dynamic agent based model of system which turn out the self-adjusting system, are considered in this text. As a distinguish from usual microeconomic approach we characterise the choice of participant not by utility function but by algorithm of behavior(automaton) . Each participant uses only part of the all information i.e. he uses only information which is his own information. There two kinds of participants - sellers and buyers, each seller interacts with several buyers (and vice versa) and these interactions are a pair interactions. Nevertheless the system (model of market) for any initial condition reaches the steady state and this steady state is a equilibrium of this market.The fact that rather complex and large dynamic system really reach the state which is nearly equilibrium state at condition that nobody has all information and each participant has only small own information is surprisingly, by our opinion .",
+    "downloadUrl": "https://www.comses.net/codebases/2236/releases/1.0.0/download/",
+    "dateModified": "2018-02-16",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "windows",
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "C",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

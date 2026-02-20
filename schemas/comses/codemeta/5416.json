@@ -1,0 +1,114 @@
+{
+    "@id": "https://www.comses.net/codebases/5416/releases/1.2.0/",
+    "url": "https://www.comses.net/codebases/5416/releases/1.2.0/",
+    "name": "The AgriculTural LandscApe Simulator (ATLAS)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1891/",
+            "@type": "Person",
+            "email": "hugodebutteaux@hotmail.fr",
+            "givenName": "Hugo",
+            "familyName": "Thierry"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Aude",
+            "familyName": "Vialatte"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Jean-Philippe",
+            "familyName": "Choisis"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "givenName": "Benoit",
+            "familyName": "Gaudou"
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Person",
+            "givenName": "Hazel",
+            "familyName": "Parry"
+        },
+        {
+            "@id": "https://www.comses.net/users/1896/",
+            "@type": "Person",
+            "email": "monteil@ensat.fr",
+            "givenName": "Claude",
+            "familyName": "Monteil",
+            "affiliation": {
+                "url": "http://www.ensat.fr/en/index.html",
+                "name": "INP/ENSAT",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1891/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://www.comses.net/users/1896/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5416/releases/1.2.0/",
+    "dateCreated": "2017-05-10",
+    "description": "The model relies on initial GIS inputs for landscape composition and configuration. Users define typical rotations and crop phenology stages to be included, according to their objectives. In the study, we present two applications to contrasting landscapes, where ATLAS is capable of simulating accurate composition (crop area) and configuration (crop clustering) dynamics. ATLAS has potential applicability to a range of contrasting agricultural landscapes. The benefits of such a simulator are the possibility to study the effects of various simulated management scenarios of crop spatial-temporal availability in relation to target organisms and/or specific ecological processes (e.g. pest, biological control), within a single model framework",
+    "downloadUrl": "https://www.comses.net/codebases/5416/releases/1.2.0/download/",
+    "dateModified": "2018-03-05",
+    "releaseNotes": "V3. Added the option to chose an initial crop on each field when using the \"known rotations\" option.",
+    "copyrightYear": 2017,
+    "datePublished": "2017-05-10",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "GAMA"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "GAMA",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "[Soon to come]"
+}

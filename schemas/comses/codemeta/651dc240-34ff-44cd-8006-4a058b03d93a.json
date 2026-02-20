@@ -1,0 +1,85 @@
+{
+    "@id": "https://doi.org/10.25937/kqcv-zw93",
+    "url": "https://doi.org/10.25937/kqcv-zw93",
+    "name": "TRANSOPE: a multi-agent model to simulate outsourcing networks in road freight transport.",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-7468-0393",
+            "@type": "Person",
+            "email": "aisalas@ucm.es",
+            "givenName": "Aitor",
+            "familyName": "Salas-Pe\u00f1a"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "jipcagub@gmail.com",
+            "givenName": "Blanca Rosa",
+            "familyName": "Cases Guti\u00e9rrez",
+            "affiliation": {
+                "@id": "https://ror.org/000xsnr85",
+                "url": "https://www.ehu.eus",
+                "name": "University of the Basque Country",
+                "@type": "Organization",
+                "identifier": "https://ror.org/000xsnr85"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "collaborator"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Albert, R. & Barab\u00e1si, A. L. (2001). Statistical mechanics of complex networks. Reviews of modern physics, 74(1), 47.\nNewman, M. E. J. (2003). The structure and function of complex networks. SIAM review, 45(2), 167-256.\nWilensky, U. (1998). NetLogo Wealth Distribution model. http://ccl.northwestern.edu/netlogo/models/WealthDistribution. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "complex networks",
+        "decision making",
+        "dynamic graph",
+        "knowledge transfer",
+        "outsourcing chains",
+        "road freight transport"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/kqcv-zw93",
+        "https://doi.org/10.25937/kqcv-zw93"
+    ],
+    "dateCreated": "2022-10-21",
+    "description": "A road freight transport (RFT) operation involves the participation of several types of companies in its execution. The TRANSOPE model simulates the subcontracting process between 3 types of companies: Freight Forwarders (FF), Transport Companies (TC) and self-employed carriers (CA). These companies (agents) form transport outsourcing chains (TOCs) by making decisions based on supplier selection criteria and transaction acceptance criteria. Through their participation in TOCs, companies are able to learn and exchange information, so that knowledge becomes another important factor in new collaborations. The model can replicate multiple subcontracting situations at a local and regional geographic level.\nThe succession of n operations over d days provides two types of results: 1) Social Complex Networks, and 2) Spatial knowledge accumulation environments. The combination of these results is used to identify the emergence of new logistics clusters. The types of actors involved as well as the variables and parameters used have their justification in a survey of transport experts and in the existing literature on the subject. \nAs a result of a preferential selection process, the distribution of activity among agents shows to be highly uneven. The cumulative network resulting from the self-organisation of the system suggests a structure similar to scale-free networks (Albert & Barab\u00e1si, 2001). In this sense, new agents join the network according to the needs of the market. Similarly, the network of preferential relationships persists over time. Here, knowledge transfer plays a key role in the assignment of central connector roles, whose participation in the outsourcing network is even more decisive in situations of scarcity of transport contracts.  ",
+    "downloadUrl": "https://www.comses.net/codebases/651dc240-34ff-44cd-8006-4a058b03d93a/releases/1.0.0/download/",
+    "dateModified": "2023-02-24",
+    "releaseNotes": "TRANSOPE uses empirical data with the aim of simulating expert decision-making in the field of transport outsourcing. The results are therefore sufficiently robust to be applied to future policies for the dynamisation of the sector in local and regional environments. Furthermore, the model can be applied to particular situations of outsourcing needs based on specific criteria, which represents an opportunity for its use as a management tool. \nBy pressing SETUP, a Freight Frowarder (FF) selects a Transport Company (TC), which in turn selects a Self-employed Carrier (CA) according to the supplier selection criteria. CAs can refuse transport operations if the price offered equals or exceeds their costs. \nWhen GO is pressed, the model plays all the indicated operations during the days previously indicated. The AVAILABILITY value of an agent decreases with each participation.\nIf the FOUR_AGENTS_CHAIN option is set to \"ON\", the chain of 3 agents becomes a chain of 4. Thus, a FF chooses a TC, this one chooses another TC and this one chooses a CA. Each time a day ends, the areas where more agent learning has taken place are darkened. The simulation stops when all operations of all days have been completed or when there are no agents available to perform them.\nFor more information on how to handle the simulation controls, see the \"information\" tab before running the model.\nAt the end of the simulation two files could be generated: one with the values of the agents (nodes) and one with the values of the contracts (arcs). With these two files the graph can be built for further analysis.\n",
+    "copyrightYear": 2022,
+    "datePublished": "2022-10-21",
+    "embargoEndDate": "2022-10-21",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo 6.3.0"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo 6.3.0",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Salas, A., Cases, B. y Garc\u00eda Palomares, J. C. (2019). Value chains of Road Freight Transport operations: An agent-based modelling proposal. Procedia Computer Science, 151, 769-775."
+}

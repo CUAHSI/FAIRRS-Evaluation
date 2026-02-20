@@ -1,0 +1,69 @@
+{
+    "@id": "https://www.comses.net/codebases/2219/releases/1.3.0/",
+    "url": "https://www.comses.net/codebases/2219/releases/1.3.0/",
+    "name": "Evolution of cooperation with strangers",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Person",
+            "email": "marco.janssen@asu.edu",
+            "givenName": "Marco",
+            "familyName": "Janssen",
+            "affiliation": {
+                "url": "https://schoolofsustainability.asu.edu/",
+                "name": "School of Sustainability",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.3.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Janssen, M.A. (2008), Evolution of cooperation in a one-shot prisoner\u2019s dilemma based on recognition of trustworthy and untrustworthy agents, Journal of Economic Behavior and Organization, 65: 458-471",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "cooperation",
+        "one-shot",
+        "prisoners dilemma",
+        "trustworthiness"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2219/releases/1.3.0/",
+    "dateCreated": "2013-11-13",
+    "description": "The model is used to study the conditions under which agents will cooperate in one-shot two-player Prisoner\u2019s Dilemma games if they are able to withdraw from playing the game and can learn to recognize the trustworthiness of their opponents. When the agents display a number of symbols and they learn which symbols are important to estimate the trustworthiness of others, agents will evolve who cooperate in games.",
+    "downloadUrl": "https://www.comses.net/codebases/2219/releases/1.3.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-11-13",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

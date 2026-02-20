@@ -1,0 +1,52 @@
+{
+    "@id": "https://www.comses.net/codebases/68b87f5e-582b-481e-bff9-c7f3be36ad6e/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/68b87f5e-582b-481e-bff9-c7f3be36ad6e/releases/1.1.0/",
+    "name": "Simple models with different types of complexity",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-5465-9893",
+            "@type": "Person",
+            "email": "michael.roos@rub.de",
+            "givenName": "Michael",
+            "familyName": "Roos"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based complex systems",
+        "business complexity",
+        "problem solving"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/68b87f5e-582b-481e-bff9-c7f3be36ad6e/releases/1.1.0/",
+    "dateCreated": "2025-03-01",
+    "description": "Hierarchical problem-solving model\nThe model simulates a hierarchical problem-solving process in which a manager delegates parts of a problem to specialists, who attempt to solve specific aspects based on their unique skills. The goal is to examine how effectively the hierarchical structure works in solving the problem, the total cost of the process, and the resulting solution quality.\n\nProblem-solving random network model\nThe model simulates a network of agents (generalists) who collaboratively solve a fixed problem by iterating over it and using their individual skills to reduce the problem's complexity. The goal is to study the dynamics of the problem-solving process, including agent interactions, work cycles, total cost, and solution quality.",
+    "downloadUrl": "https://www.comses.net/codebases/68b87f5e-582b-481e-bff9-c7f3be36ad6e/releases/1.1.0/download/",
+    "dateModified": "2025-03-01",
+    "releaseNotes": "The hierarchy model and the network model are updated versions. In the hierarchy model, the manager now can be subject to misperception and assign the problem to the wrong specialists. In both models, it is now possible to vary the number of agents, the problem space and the problem size.\nThe hybrid model, which is a combination of the other models, is new.\nPlease look at the ODDs for further details",
+    "copyrightYear": 2025,
+    "datePublished": "2025-03-01",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo 6.1.1"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo 6.1.1",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

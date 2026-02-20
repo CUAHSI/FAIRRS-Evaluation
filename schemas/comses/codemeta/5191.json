@@ -1,0 +1,60 @@
+{
+    "@id": "https://www.comses.net/codebases/5191/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5191/releases/1.0.0/",
+    "name": "An Agent-Based DSS for Word-of-Mouth Programs in Freemium Apps",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1154/",
+            "@type": "Person",
+            "email": "manuel.chica@softcomputing.es",
+            "givenName": "Manuel",
+            "familyName": "Chica",
+            "affiliation": {
+                "@id": "https://ror.org/02b1fy379",
+                "url": "http://www.softcomputing.es/",
+                "name": "European Centre for Soft Computing",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02b1fy379"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1154/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5191/releases/1.0.0/",
+    "dateCreated": "2016-09-05",
+    "description": "**This software implements an agent-based framework that aggregates social network-level individual interactions to guide the construction of a successful decision support system (DSS) for WOM. The framework also has a data-driven iterative modeling approach to increase validity through automated calibration by metaheuristics. The framework is applied to run targeting and rewarding programs for a freemium social app where premium users discuss the product with their social network and promote the viral adoption.**\r\n\r\n---------\r\n\r\nThe purpose of this model is to better understand the dynamics of premium and\r\npaid content adoption in apps such as online game subscriptions. The goal of is to be used by marketers and decision makers to understand the social effects in these online purchases, and to test rewarding, incentives, and targeting policies to expand the number of premium users. This model will help us to better understand the dynamics of the social network of the app users.\r\n\r\n---------\r\n\r\nThere are local and potentially complex interactions between customers in WOM programs. For instance, customers can be influenced by their friends, and some of those friends may have a different amount of influence on them than other friends. This is easily captured in an ABM since each user can be modeled with their own social network connection and the weights on those connections. \r\n\r\nWOM customers are very heterogeneous. They have both their own social networks that are unique to them, and potentially their own adoption process as well. The agent users or customers could have different seasonality patterns, different number of friends in her/his local social network, and different premium app subscription status.",
+    "downloadUrl": "https://www.comses.net/codebases/5191/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "README AGENT-BASED DSS FOR PREMIUM ADOPTION\r\n------------------------------------\r\n\r\nVersion: 0.1.\r\nDate: 8th of August, 2016\r\n\r\nLinked to paper: \r\nBuilding Agent-Based Decision Support Systems for Word-Of-Mouth Programs. A Freemium Application (Journal of Marketing Research)\r\n\r\n\r\nJAR contents:\r\n---------------------\r\n\r\n- config folder: contains text files with extension .properties. These files have the parameters for running different scenarios and must be specified when calling the command-line software.\r\n\r\n- data folder: contains a couple of historical premium adoptions (synthetically modified from the original ones due to confidentiality issues). These files are CSV files and each value represents the new premium accounts created each day. In the sample folder we can find two of them, one with 60 days and another file with 31 days of premium conversions.\r\n\r\n- networks folder: we can find in this folder the social network file with the same distribution degree as in the real app. This file (dgs extension) is loaded by the application and the agents of the simulation are placed in its nodes at random. For each Monte Carlo run, agents are randomly shuffled to be placed in different nodes of the generated social network.\r\n\r\n\r\nHow to run scenarios\r\n---------------------\r\n\r\nApart from the above-mentioned contents, a JAR file is also included. This is the runnable file of the sofware. A Java Virtual Machine (>= 1.7) is needed to run the software. \r\n\r\nSyntaxis to run the sofware is: \"java -jar Agent-Based_Mk_DSS.jar + arguments\"\r\n\r\nDepending on the marketing scenario to run, arguments are the following:\r\n\r\n\r\n* Run a daily macro-level agent-based simulation with no real premiums data. Specify arguments \"-noHist -configFile XXX -seed Y -runs R -until Z\"  where XXX is the path to the .properties configuration file of the model's parameters, Y is the seed for the random number generator, R the number of Monte Carlo runs, and ZZZ is the number of days to simulate.\r\n\r\n>>> java -jar Agent-Based_Mk_DSS.jar -noHist -configFile ./config/BassModel_EmpiricalSN_20000agents.properties -seed 1 -runs 15 -until 300\r\n\r\n\r\n* Run a daily macro-level agent-based simulation comparing with real premiums data. Specify arguments \"-hist -configFile XXX -seed Y -runs R -historicalFile ZZZ\"  where XXX is the path to the .properties configuration file of the model's parameters, Y is the seed for the random number generator, R the number of Monte Carlo runs, and ZZZ is the CSV file with the premium adoptions daily. A call example is:\r\n\r\n>>> java -jar Agent-Based_Mk_DSS.jar -hist -configFile ./config/BassModel_EmpiricalSN_20000agents.properties -seed 1 -runs 15 -historicalFile ./data/premiums_31days_tst.csv\r\n\r\n\r\n* Run a joint micro and macro-level faces of the DSS by targeting users with a reward and setting a sensitivity analysis on the external influence coefficient of the Bass agent-based model and the social influence of premium users on their friends (\\tau parameter). Specify arguments \"-SA -configFile XXX -seed Y -runs R -historicalFile ZZZ -numIncreasesWeight P1 -increaseWeight P2 -investment P3 -numIncreasesExternalInfluence P4 -increaseExternalInfluence P5\"  where XXX is the path to the .properties configuration file of the model's parameters, Y is the seed for the random number generator, R the number of Monte Carlo runs, ZZZ is the CSV file with the premium adoptions daily, P1/P2 are the number of steps and the step value for running the sensitivity analysis on social influence, P3 is the reward investment, and P4/P5 are the number of steps and the step value for running the sensitivity analysis on the external influence coefficient of the Bass agent-based model. A call example is:\r\n\r\n>>> java -jar Agent-Based_Mk_DSS.jar -SA -configFile ./config/RewardInitialBasicUsers_min1_Tst_moreLikely.properties -seed 1 -runs 5 -historicalFile ./data/premiums_31days_tst.csv -numIncreasesWeight 5 -increaseWeight 0.005 -investment 1 -numExternalInfluence 5 -increaseExternalInfluence 0.0025",
+    "copyrightYear": 2016,
+    "datePublished": "2016-09-05",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Mason"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Chica, Manuel and Rand, William M., Building Agent-Based Decision Support Systems for Word-of-Mouth Programs. A Freemium Application (August 10, 2016). Available at SSRN: http://ssrn.com/abstract=2821171 or http://dx.doi.org/10.2139/ssrn.2821171"
+}

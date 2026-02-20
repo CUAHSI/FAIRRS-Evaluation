@@ -1,0 +1,58 @@
+{
+    "@id": "https://www.comses.net/codebases/e1bbefe2-89d7-4a19-9d7e-ba018917f399/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/e1bbefe2-89d7-4a19-9d7e-ba018917f399/releases/1.0.0/",
+    "name": "PaCE Austria Pilot Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-3936-2565",
+            "@type": "Person",
+            "email": "ruth@cfpm.org",
+            "givenName": "Ruth",
+            "familyName": "Meyer",
+            "affiliation": {
+                "url": "http://mmu.ac.uk",
+                "name": "Centre for Policy Modelling",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "Austria",
+        "populism",
+        "voting behavior"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/e1bbefe2-89d7-4a19-9d7e-ba018917f399/releases/1.0.0/",
+    "dateCreated": "2020-06-30",
+    "description": "The objective of building a social simulation in the [Populism and Civic Engagement (PaCE) project](http://popandce.eu)  is to study the phenomenon of populism by mapping individual level political behaviour and explain the influence of agents on, and their interdependence with the respective political parties. Voters, political parties and -- to some extent -- the media can be viewed as forming a complex adaptive system, in which parties compete for citizens\u2019 votes, voters decide on which party to vote for based on their respective positions with regard to particular issues, and the media may influence the salience of issues in the public debate.\n\nThis is the first version of a model exploring voting behaviour in Austria. It focusses on modelling the interaction of voters and parties in a political landscape; the effects of the media are not yet represented. Austria was chosen as a case study because it has an established populist party (the \"Freedom Party\" FPO), which has even been part of the government over the years.",
+    "downloadUrl": "https://www.comses.net/codebases/e1bbefe2-89d7-4a19-9d7e-ba018917f399/releases/1.0.0/download/",
+    "dateModified": "2020-06-30",
+    "releaseNotes": "First version of this model.",
+    "copyrightYear": 2020,
+    "datePublished": "2020-06-30",
+    "codeRepository": "https://github.com/ruthmore/PaCE-simulation-models",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

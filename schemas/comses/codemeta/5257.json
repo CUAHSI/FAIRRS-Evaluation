@@ -1,0 +1,60 @@
+{
+    "@id": "https://www.comses.net/codebases/5257/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5257/releases/1.0.0/",
+    "name": "Homing pigeon model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-3845-7685",
+            "@type": "Person",
+            "email": "gudrun.wallentin@sbg.ac.at",
+            "givenName": "Gudrun",
+            "familyName": "Wallentin",
+            "affiliation": {
+                "@id": "https://ror.org/05gs8cd61",
+                "url": "https://www.plus.ac.at/",
+                "name": "Department of Geoinformatics - Z_GIS, University of Salzburg",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05gs8cd61"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-3845-7685",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5257/releases/1.0.0/",
+    "dateCreated": "2016-10-29",
+    "description": "The purpose of the Homing Pigeon Model was to use an agent-based modeling approach to explore flight patterns that result from simulated movement behaviour of flocking pigeon agents in comparison to observed flight trajectories in order to gain a better understanding of social and navigational behaviour of pigeons. The flocking behaviour in the model is an extension of the existing flocking model in the Model Library of the NetLogo modelling software (Wilensky, 1999) that in turn is an implementation of the boids model (Reynolds, 1987). The agents are eight homing pigeons that together form a flock, in which each pigeon has a social rank.",
+    "downloadUrl": "https://www.comses.net/codebases/5257/releases/1.0.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "original version related to the publication Wallentin & Oloo (2016)",
+    "copyrightYear": 2016,
+    "datePublished": "2016-10-29",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Wallentin, G. and F. Oloo (2016). \"A Model-sensor Framework to Predict Homing Pigeon Flights in Real Time.\" GI_Forum 2016(1): 41-52."
+}

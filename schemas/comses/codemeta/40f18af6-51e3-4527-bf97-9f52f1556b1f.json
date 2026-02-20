@@ -1,0 +1,101 @@
+{
+    "@id": "https://www.comses.net/codebases/40f18af6-51e3-4527-bf97-9f52f1556b1f/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/40f18af6-51e3-4527-bf97-9f52f1556b1f/releases/1.0.0/",
+    "name": "An age and/or gender-based division of labor during the Last Glacial Maximum in Iberia through rabbit hunting",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-2713-4044",
+            "@type": "Person",
+            "email": "samuel.fabien.seuru@umontreal.ca",
+            "givenName": "Samuel",
+            "familyName": "Seuru"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "a.burke@umontreal.ca",
+            "givenName": "Ariane",
+            "familyName": "Burke",
+            "affiliation": {
+                "@id": "https://ror.org/0161xgx34",
+                "url": "http://www.umontreal.ca/english/",
+                "name": "Universit\u00e9 de Montr\u00e9al",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0161xgx34"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-6599-9893",
+            "@type": "Person",
+            "email": "l.perez@umontreal.ca",
+            "givenName": "Liliana",
+            "familyName": "Perez",
+            "affiliation": {
+                "@id": "https://ror.org/0161xgx34",
+                "url": "http://www.umontreal.ca/english/",
+                "name": "University of Montreal",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0161xgx34"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-6599-9893",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "PalaeoDiet_Upper Pal model on comses.net: (https://www.comses.net/codebases/5d6d7a9e-88b8-46ce-8dc6-ef40a49acbbe/releases/1.0.0/)\nAche hunting model on comses.net: (https://doi.org/10.25937/66d6-kz70) \nPalaeoscape model on comses.net: (https://doi.org/10.25937/y0z7-c733)",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "division of labor",
+        "European rabbit",
+        "iberian peninsula",
+        "net hunting",
+        "optimal foraging theory",
+        "upper palaeolithic"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/40f18af6-51e3-4527-bf97-9f52f1556b1f/releases/1.0.0/",
+    "dateCreated": "2023-07-07",
+    "description": "Many archaeological assemblages from the Iberian Peninsula dated to the Last Glacial Maximum contain large quantities of European rabbit (*Oryctolagus cuniculus*) remains with an anthropic origin. Ethnographic and historic studies report that rabbits may be mass-collected through warren-based harvesting involving the collaborative participation of several persons.\n\nWe propose and implement an Agent-Based Model grounded in the Optimal Foraging Theory and the Diet Breadth Model to examine how different warren-based hunting strategies influence the resulting human diets.\n\nParticularly, this model is developed to test the following hypothesis: What if an age and/or gender-based division of labor was adopted, in which adult men focus on large prey hunting, and women, elders and children exploit warrens?\n\nModel validity is measured by comparing the simulated human diet to the human diet observed in the zooarchaeological record.\n\nThis is an adapted version of the model developed by Seuru et al., (in press) of human hunting behavior in Iberia during the Last Glacial Maximum. Their model is also based on the model structure developed by Janssen and Hill (2014, 2016) to analyze hunting system among Ache hunter-gatherers and on the model of Wren et al., (2020) of human foraging system in Holocene Cape south coast of South Africa.\n",
+    "downloadUrl": "https://www.comses.net/codebases/40f18af6-51e3-4527-bf97-9f52f1556b1f/releases/1.0.0/download/",
+    "dateModified": "2023-07-07",
+    "releaseNotes": "The entire Iberian Peninsula is not modelled because of computational limitations. Thus, we chose a smaller and representative region as our model domain, i.e., Catalonia. The zooarchaeological record of this region is relatively rich and almost all of the main species hunted by humans during the Upper Paleolithic in Iberia are present",
+    "copyrightYear": 2023,
+    "datePublished": "2023-07-07",
+    "embargoEndDate": "2023-09-04",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo 6.0.3"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Netlogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Seuru, S., Burke, A., & Perez, L. (submitted). Evidence of an age and/or gender-based division of labor during the Last Glacial Maximum in Iberia through rabbit hunting. Journal of Anthropological Archaeology."
+}

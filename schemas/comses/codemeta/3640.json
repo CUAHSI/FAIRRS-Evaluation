@@ -1,0 +1,56 @@
+{
+    "@id": "https://www.comses.net/codebases/3640/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/3640/releases/1.0.0/",
+    "name": "Land Use in the Chitwan Valley",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/825/",
+            "@type": "Person",
+            "email": "azvoleff@gmail.com",
+            "givenName": "Alex",
+            "familyName": "Zvoleff",
+            "affiliation": {
+                "@id": "https://ror.org/0264fdx42",
+                "url": "http://www.sdsu.edu/",
+                "name": "San Diego State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0264fdx42"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/825/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3640/releases/1.0.0/",
+    "dateCreated": "2014-06-02",
+    "description": "chitwanabm is a spatially explicit agent-based model of population and land use in the Chitwan Valley, Nepal. The model represents a subset of the population of the valley using a number of agent types (person, household and neighborhood agents), environmental variables (topography, land use and land cover) and social context variables.\r\n\r\nConstruction of the model is supported as part of an ongoing National Science Foundation Partnerships for International Research and Education (NSF PIRE) project (grant OISE 0729709) investigating human-environment interactions in the Western Chitwan Valley.\r\n\r\nThe main purpose of the Chitwan ABM is to explore feedbacks between population and environment, with a heavy focus on community context and individual-level variation.\r\n\r\nThe model is coded in Python, and uses the PyABM agent based model toolkit (still in active development, but available online at http://rohan.sdsu.edu/~zvoleff/research/chitwanabm).",
+    "downloadUrl": "https://www.comses.net/codebases/3640/releases/1.0.0/download/",
+    "dateModified": "2018-02-27",
+    "releaseNotes": "Version 1.5",
+    "copyrightYear": 2014,
+    "datePublished": "2014-06-02",
+    "operatingSystem": "platform_independent",
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

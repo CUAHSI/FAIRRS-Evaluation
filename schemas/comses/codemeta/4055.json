@@ -1,0 +1,115 @@
+{
+    "@id": "https://www.comses.net/codebases/4055/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/4055/releases/1.1.0/",
+    "name": "Last Mile Commuter Behavior Model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-4111-3357",
+            "@type": "Person",
+            "email": "m.zellner@northeastern.edu",
+            "givenName": "Moira",
+            "familyName": "Zellner",
+            "affiliation": {
+                "url": "https://www.northeastern.edu/",
+                "name": "Northeastern University",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/678/",
+            "@type": "Person",
+            "email": "dmasse2@uic.edu",
+            "givenName": "Dean",
+            "familyName": "Massey",
+            "affiliation": {
+                "@id": "https://ror.org/02mpq6x41",
+                "url": "http://www.uic.edu/uic/",
+                "name": "University of Illinois at Chicago",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02mpq6x41"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Yoram",
+            "familyName": "Shiftan"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "givenName": "Jonathan",
+            "familyName": "Levine"
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Person",
+            "givenName": "Maria",
+            "familyName": "Arquero"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-4111-3357",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://www.comses.net/users/678/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "automated transit vehicles",
+        "last-mile problem",
+        "mode choice"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4055/releases/1.1.0/",
+    "dateCreated": "2014-11-07",
+    "description": "Transit in the United States often suffers from the problem of inability to deliver travelers all the way from their point of origin to their destination.  This \u201clast-mile\u201d problem is thought to deter transit use among riders with auto access, even when high-quality transit service is provided for the majority of the trip distance.  We developed an agent-based model representing the commuters and their preferences for different aspects of transportation disutility, namely cost, time and safety. Commuters in the model assess their transportation options in light of their preferences, the characteristics of their environment, and the various modes available to them. The model is calibrated with data from four Chicago neighborhoods, representing four different combinations of land-use patterns and household income. We use this model to examine how transportation improvements, including automated driverless shuttles between origins of trips and nearby transit stations, and physical improvements enhancing pedestrians\u2019 and cyclists\u2019 commute might help overcome the last-mile problem particularly as they interact with policy shifts including changing in parking and fuel costs.",
+    "downloadUrl": "https://www.comses.net/codebases/4055/releases/1.1.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "",
+    "copyrightYear": 2014,
+    "datePublished": "2014-11-07",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "1. Levine, J.; Zellner, M.; Shiftan, Y.; Arquero, M.; Diffenderfer, A. (2013). \u201cEffects of Automated Transit, Pedestrian, and Bicycling Facilities on Urban Travel Patterns.\u201d Report to the Federal Highway Administration. Ann Arbor, MI: University of Michigan.\r\n\r\n2. Zellner, M.; Massey, D.; Shiftan, Y.; Levine, J.; Arquero, M. (Forthcoming) \u201cOvercoming the last-mile problem with transportation and land-use improvements: An agent-based approach.\u201d Special Issue on Agent Based Modeling in Transportation Planning and Operations, International Journal of Transportation."
+}

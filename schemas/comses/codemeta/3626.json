@@ -1,0 +1,81 @@
+{
+    "@id": "https://www.comses.net/codebases/3626/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/3626/releases/1.0.0/",
+    "name": "Human mate choice is a complex system",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/780/",
+            "@type": "Person",
+            "email": "paul.smaldino@gmail.com",
+            "givenName": "Paul",
+            "familyName": "Smaldino",
+            "affiliation": {
+                "@id": "https://ror.org/00d9ah105",
+                "url": "http://www.ucmerced.edu/",
+                "name": "University of California, Merced",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00d9ah105"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Jeffrey",
+            "familyName": "Schank"
+        },
+        {
+            "@id": "https://www.comses.net/users/780/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "mate",
+        "mate",
+        "matechoice",
+        "MOBIL",
+        "situatedcognition",
+        "social",
+        "socialpsychology",
+        "spatial"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3626/releases/1.0.0/",
+    "dateCreated": "2013-02-08",
+    "description": "Abstract: \r\nFrom a psychological perspective, human mate choice has been viewed as a problem of identifying the indi- vidual cognitive preferences and decisions that explain empirical results such as similarity in attractiveness between mates and the right-skewed unimodal marriage hazard curves for marriage rates. Agent-based mod- els provide a powerful theoretical tool for investigating this relationship, but until now have not considered the effects of local neighborhoods or mobility on emergent population dynamics. In failing to do so, they have effectively ruled out the population-level complexity inherent in human mate choice. Real people live in physical space, and their interactions are constrained by their location in and mobility among physical neigh- borhoods and social networks. We developed a general model of human mate choice in which agents are localized in space, interact with close neighbors, and tend to range either near or far. At the individual level, our model uses two oft-used but incompletely understood decision rules: one based on preferences for similar partners, the other for maximally attractive partners. We show that space and mobility can interact nonli- nearly with these individual decision rules and nonspatial aspects of the population structure. In particular, local interactions and limited mobility decrease interpair matching and increase mate search time. We also show that it is too easy to fit various model configurations to the scant available data. More data and more specific predictions are required. Human mate choice is a complex system with properties that emerge from space, mobility, and other factors that structure social dynamics.\r\n\r\nThe model is fully described in: \r\nSmaldino, PE, & Schank, JC (2012). Human mate choice is a complex system. Complexity 17(5), 11-22\r\nhttp://onlinelibrary.wiley.com/doi/10.1002/cplx.21382/full",
+    "downloadUrl": "https://www.comses.net/codebases/3626/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2013,
+    "datePublished": "2013-04-27",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "Mason"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Smaldino, PE, Schank, JC. (2012). Human mate choice is a complex system. Complexity, 17(5), 11-22.\r\nhttp://onlinelibrary.wiley.com/doi/10.1002/cplx.21382/full"
+}

@@ -1,0 +1,63 @@
+{
+    "@id": "https://www.comses.net/codebases/88da9f46-77e0-440f-9e3a-cb228a0bd8c8/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/88da9f46-77e0-440f-9e3a-cb228a0bd8c8/releases/1.0.0/",
+    "name": "Port of Mars simplified",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-1240-9052",
+            "@type": "Person",
+            "email": "marco.janssen@asu.edu",
+            "givenName": "Marco",
+            "familyName": "Janssen",
+            "affiliation": {
+                "url": "https://schoolofsustainability.asu.edu/",
+                "name": "School of Sustainability",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Janssen, M.A., L. Gharavi and M. Yichao (2019) Keeping up shared infrastructure on Port of Mars: An experimental study; https://complexity.asu.edu/cbie/working-papers/keeping-up-shared-infrastructure-on-a-port-of-mars-an-experimental-study",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "behavioural experiments",
+        "common pool resource",
+        "uncertainty"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/88da9f46-77e0-440f-9e3a-cb228a0bd8c8/releases/1.0.0/",
+    "dateCreated": "2019-12-13",
+    "description": "This is a simulation model to explore possible outcomes of the [Port of Mars cardgame](https://complexity.asu.edu/cbie/working-papers/keeping-up-shared-infrastructure-on-a-port-of-mars-an-experimental-study). Port of Mars is a resource allocation game examining how people navigate conflicts between individual goals and common interests relative to shared resources. The game involves five players, each of whom must decide how much of their time and effort to invest in maintaining public infrastructure and renewing shared resources and how much to expend in pursuit of their individual goals. In the game, \u201cUpkeep\u201d is a number that represents the physical health of the community. This number begins at 100 and goes down by twenty-five points each round, representing resource consumption and wear and tear on infrastructure. If that number reaches zero, the community collapses and everyone dies. ",
+    "downloadUrl": "https://www.comses.net/codebases/88da9f46-77e0-440f-9e3a-cb228a0bd8c8/releases/1.0.0/download/",
+    "dateModified": "2020-01-14",
+    "releaseNotes": "Use NetLogo to open the model file, and explore!!",
+    "copyrightYear": 2020,
+    "datePublished": "2020-01-14",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "@id": "https://doi.org/10.25937/db7w-zt41",
+    "url": "https://doi.org/10.25937/db7w-zt41",
+    "name": "MGA - Minimal Genetic Algorithm",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2589/",
+            "@type": "Person",
+            "email": "cleuci@alice.it",
+            "givenName": "Cosimo",
+            "familyName": "Leuci"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "arithmetic",
+        "education",
+        "genetic algorithm",
+        "NetLogo"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/db7w-zt41",
+        "https://doi.org/10.25937/db7w-zt41"
+    ],
+    "dateCreated": "2019-08-21",
+    "description": "Genetic algorithms try to solve a computational problem following some principles of organic evolution. This model has educational purposes; it can give us an answer to the simple arithmetic problem on how to find the highest natural number composed by a given number of digits. We approach the task using a genetic algorithm, where the candidate solutions to the problem are represented by agents, that in logo programming environment are usually known as \"turtles\".",
+    "downloadUrl": "https://www.comses.net/codebases/33c66c69-4a03-460d-8c13-3959cac7ecee/releases/1.1.0/download/",
+    "dateModified": "2023-10-24",
+    "releaseNotes": "For the purpose of demonstration, a web-app version of the model can be accessed via the following URL: \nhttp://modelingcommons.org/browse/one_model/5742#model_tabs_browse_nlw",
+    "copyrightYear": 2020,
+    "datePublished": "2020-01-30",
+    "codeRepository": "https://github.com/cleuci/Minimal-Genetic-Algorithm",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

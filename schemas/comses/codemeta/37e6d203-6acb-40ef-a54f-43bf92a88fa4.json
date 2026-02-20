@@ -1,0 +1,47 @@
+{
+    "@id": "https://www.comses.net/codebases/37e6d203-6acb-40ef-a54f-43bf92a88fa4/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/37e6d203-6acb-40ef-a54f-43bf92a88fa4/releases/1.0.0/",
+    "name": "PopComp",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2173/",
+            "@type": "Person",
+            "email": "andre.costopoulos@ualberta.ca",
+            "givenName": "Andre",
+            "familyName": "Costopoulos"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+        "name": "GPL-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/37e6d203-6acb-40ef-a54f-43bf92a88fa4/releases/1.0.0/",
+    "dateCreated": "2020-12-10",
+    "description": "PopComp by Andre Costopoulos 2020\nandre.costopoulos@ualberta.ca\nLicence: DWYWWI (Do whatever you want with it)\n\nI use Netlogo to build a simple environmental change and population expansion and diffusion model. Patches have a carrying capacity and can host two kinds of populations (APop and BPop). Each time step, the carrying capacity of each patch has a given probability of increasing or decreasing up to a maximum proportion.\n\nUsers can set the roughness of the initial environment by assigning a probability that a patch will vary from the maximum carrying capacity for the environment, and the degree by which patches vary. They can set the probability that a patch will undergo carrying capacity change in a time step, and the maximum amplitude of that change.\n\nUsers can set the growth rate, carrying capacity multiplier, diffusion rate, network radius, and minimum number of individuals in a viable network for each of APop and BPop, as well as the initial probability that a patch will be populated.\nEach time step, APop and BPop grow at a specified rate. If the combined population of APop and BPop on a patch reach carrying capacity, both populations search neighbouring patches within a given network radius for available carrying capacity and move accordingly. I refer to this as overflow.\n\nIndependent of spread through overflow, APop and BPop also have diffusion rates. Even if a patch is not at maximum carrying capacity, a proportion of APop and BPop will search for available carrying capacity within their network radius and move accordingly.\nAt the end of a time step, any population over the carrying capacity in a given patch is removed. APop and BPop can use carrying capacity differently through a carrying capacity multiplier. For example, a carrying capacity multiplier of 2 for APop means that APop is multiplied by 2 for purposes of carrying capacity calculations. In other words, APop can sustain half the population that BPop could on the same patch.\n\nAdditionally, the population of any patch whose APop or BPop cannot form a minimum viable network (as specified by the user) within the network radius is removed. If the user specified that the minimum viable network for APop is 50, and that the network radius is 3, any patch whose APop cannot connect with 50 APop (including itself) within a 3 patch radius will be removed.\n\nUsers can set the maximum duration of a run in time steps, or specify a set of population stability conditions that will end it. Users can define a range of variation of BPop proportion over a number of time steps that will end the run. A run always ends when BPop proportion reaches 0 or exceeds 99%.\n\nSound options\n\nWhen a run begins, there is a two second trumpet sound. A synthesizer voice note indicates the proportion of BPop in the overall population. The pitch increases as BPop proportion increases. An underlying (slightly lower volume) flute note indicates the proportion of patches in which BPop are a majority of the population, showing the spatial extent of BPop areas. The pitch increases as the spatial extent of BPop increases. A one second tubular bell note sounds when a period of population stability ends. The longer the period of stability relative to the user-defined maximum, the higher the pitch. The soundscape has a bit of a delay as the simulation progresses.\n\nDisplay options\n\nThe default display shows patches with no population as black. A red component shows APop and a blue component shows BPop. Patches in which both APop and BPop are present will show a proportional shade of purple.\nAn alternative display shows the carrying capacity a patch as a green component. In this mode, APop will show as amber to gold, and BPop will show as light turquoise to deep blue.",
+    "downloadUrl": "https://www.comses.net/codebases/37e6d203-6acb-40ef-a54f-43bf92a88fa4/releases/1.0.0/download/",
+    "dateModified": "2020-12-10",
+    "releaseNotes": "First version",
+    "copyrightYear": 2020,
+    "datePublished": "2020-12-10",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

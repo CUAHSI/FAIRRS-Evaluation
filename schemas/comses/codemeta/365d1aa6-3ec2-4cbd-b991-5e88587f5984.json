@@ -1,0 +1,105 @@
+{
+    "@id": "https://doi.org/10.25937/q6ey-6n41",
+    "url": "https://doi.org/10.25937/q6ey-6n41",
+    "name": "Charging behaviour of electric vehicle drivers",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-4617-8501",
+            "@type": "Person",
+            "email": "martvdkam@gmail.com",
+            "givenName": "Mart",
+            "familyName": "van der Kam",
+            "affiliation": {
+                "@id": "https://ror.org/02s6k3f65",
+                "url": "https://www.unibas.ch/de",
+                "name": "University of Basel",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02s6k3f65"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "a.m.peters@rug.nl",
+            "givenName": "Annemijn",
+            "familyName": "Peters",
+            "affiliation": {
+                "@id": "https://ror.org/012p63287",
+                "url": "http://www.rug.nl/",
+                "name": "University of Groningen",
+                "@type": "Organization",
+                "identifier": "https://ror.org/012p63287"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "w.g.j.h.m.vansark@uu.nl",
+            "givenName": "Wilfried",
+            "familyName": "van Sark",
+            "affiliation": {
+                "@id": "https://ror.org/04pp8hn57",
+                "url": "http://www.uu.nl/en",
+                "name": "Utrecht University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04pp8hn57"
+            }
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "email": "f.alkemeda@tue.nl",
+            "givenName": "Floor",
+            "familyName": "Alkemade",
+            "affiliation": {
+                "@id": "https://ror.org/02c2kyt77",
+                "url": "http://www.tue.nl/",
+                "name": "Eindhoven University of Technology",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02c2kyt77"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.2",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "electric vehicles",
+        "environmental self-identity",
+        "range anxiety",
+        "smart charging"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/q6ey-6n41",
+        "https://doi.org/10.25937/q6ey-6n41"
+    ],
+    "dateCreated": "2018-10-02",
+    "description": "This model was developed to study the combination of electric vehicles (EVs) and intermitten renewable energy sources. The model presents an EV fleet in a fictional area, divided into a residential area, an office area and commercial area. The area has renewable energy sources: wind and PV solar panels. The agents can be encouraged to charge their electric vehicles at times of renewable energy surplus by introducing different policy interventions. Other interesting variables in the model are the installed renewable energy sources, EV fleet composition and available charging infrastructure. Where possible, use emperical data as input for our model. We expand upon previous models by incorporating environmental self-identity and range anxiety as agent variables.",
+    "downloadUrl": "https://www.comses.net/codebases/365d1aa6-3ec2-4cbd-b991-5e88587f5984/releases/1.1.2/download/",
+    "dateModified": "2024-12-05",
+    "releaseNotes": "Fixed a bug in which agents would sometimes still charge while driving.\n\nThanks to Luk\u00e1\u0161 Florner (University Hradec Kr\u00e1lov\u00e9) for pointing the bug out and propose a solution",
+    "copyrightYear": 2020,
+    "datePublished": "2020-04-14",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

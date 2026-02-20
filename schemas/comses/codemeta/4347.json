@@ -1,0 +1,70 @@
+{
+    "@id": "https://www.comses.net/codebases/4347/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/4347/releases/1.1.0/",
+    "name": "MERCURY: an ABM of tableware trade in the Roman East",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-1589-7768",
+            "@type": "Person",
+            "email": "tombrughmans1@gmail.com",
+            "givenName": "Tom",
+            "familyName": "Brughmans",
+            "affiliation": {
+                "@id": "https://ror.org/052gg0110",
+                "url": "http://www.ox.ac.uk/",
+                "name": "University of Oxford",
+                "@type": "Organization",
+                "identifier": "https://ror.org/052gg0110"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-1589-7768",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "archaeology",
+        "ceramics",
+        "complex networks",
+        "economics",
+        "economic simulation model",
+        "network science",
+        "roman archaeology",
+        "roman economy"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4347/releases/1.1.0/",
+    "dateCreated": "2015-05-01",
+    "description": "The Market Economy and Roman Ceramics Redistribution model (MERCURY, after the Roman god of commerce) is an agent-based network model. It represents the structure of social networks between traders that act as the channels for the flow of commercial information and goods. When the model is initialised a social network is created between traders, who are distributed among sites. Four of these sites are production centres of four different tablewares, and traders located at these sites obtain a number of items of this locally produced ware in each turn. At each time step traders will determine the local demand for tableware they want to satisfy, and will estimate the price they believe an item of tableware is worth based on their knowledge of the supply and demand of the traders they are connected to. Every item of tableware is then put up for sale, and pairs of traders who are connected in the network can buy or sell an item. When an item is successfully traded, the buyer will decide to either sell it to a local consumer to lower the demand (in which case the item is taken out of the trade system and is deposited at that site), or to store it for redistribution in the following turn in case this promises a higher profit. Over time, this model therefore gives rise to distributions of four tablewares.",
+    "downloadUrl": "https://www.comses.net/codebases/4347/releases/1.1.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "V.2: submitted before peer-review of technical paper that describes the model and after peer-review of paper setting out the archaeological and historical research context. Transport-cost variable removed. In-code comments improved. Proper ODD added.\r\nV.1: submitted before peer-review and publication of papers describing this model. Includes reporters and counters which slow it down.",
+    "copyrightYear": 2015,
+    "datePublished": "2015-05-01",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "A detailed technical description of the model is published as:\r\nBrughmans, T. & J. Poblome. In review. MERCURY: an agent-based model of tableware trade in the Roman East.\r\n\r\nThe archaeological research context and interpretation of experiments' results are published as:\r\nBrughmans, T. & J. Poblome. In press. Roman bazaar or market economy? Explaining tableware distributions in the Roman East through computational modelling. Antiquity."
+}

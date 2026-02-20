@@ -1,0 +1,91 @@
+{
+    "@id": "https://www.comses.net/codebases/ba784c64-a563-4b41-93c4-016ac626477a/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/ba784c64-a563-4b41-93c4-016ac626477a/releases/1.0.0/",
+    "name": "Agent-based simulation of discussion processes in risk workshops with quantitative skepticism",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "email": "l.bellora-bienengraeber@rug.nl",
+            "givenName": "Lucia",
+            "familyName": "Bellora-Bienengr\u00e4ber",
+            "affiliation": {
+                "@id": "https://ror.org/012p63287",
+                "url": "http://www.rug.nl/",
+                "name": "University of Groningen",
+                "@type": "Organization",
+                "identifier": "https://ror.org/012p63287"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-9997-4814",
+            "@type": "Person",
+            "email": "clemens.harten@gmail.com",
+            "givenName": "Clemens",
+            "familyName": "Harten"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Matthias",
+            "familyName": "Meyer"
+        },
+        {
+            "@id": "_:author_1",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Lucia Bellora-Bienengr\u00e4ber, Clemens Harten & Matthias Meyer (2022) The effectiveness of risk assessments in risk workshops: the role of calculative cultures, Journal of Risk Research. https://doi.org/10.1080/13669877.2022.2108120\nClemens Harten, Matthias Meyer & Lucia Bellora-Bienengr\u00e4ber (2022) Talking about the likelihood of risks: an agent-based simulation of discussion processes in risk workshops, Journal of Accounting & Organizational Change, Vol. 18 No. 1, pp. 153-173. https://doi.org/10.1108/JAOC-11-2020-0197",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "constraint satisfaction network",
+        "discussion",
+        "risk management"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/ba784c64-a563-4b41-93c4-016ac626477a/releases/1.0.0/",
+    "dateCreated": "2022-08-14",
+    "description": "The model measures drivers of effectiveness of risk assessments in risk workshops where a calculative culture of quantitative skepticism is present. We model the limits to information transfer, incomplete discussions, group characteristics, and interaction patterns and investigate their effect on risk assessment in risk workshops, in order to contrast results to a previous model focused on a calculative culture of quantitative enthusiasm.\n\nThe model simulates a discussion in the context of a risk workshop with 9 participants. The participants use constraint satisfaction networks to assess a given risk individually and as a group.",
+    "downloadUrl": "https://www.comses.net/codebases/ba784c64-a563-4b41-93c4-016ac626477a/releases/1.0.0/download/",
+    "dateModified": "2022-08-14",
+    "releaseNotes": "Initial Release",
+    "copyrightYear": 2022,
+    "datePublished": "2022-08-14",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetworkX",
+        "Python",
+        "Python 3"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python 3",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Lucia Bellora-Bienengr\u00e4ber, Clemens Harten & Matthias Meyer (2022) The effectiveness of risk assessments in risk workshops: the role of calculative cultures, Journal of Risk Research, DOI: 10.1080/13669877.2022.2108120"
+}

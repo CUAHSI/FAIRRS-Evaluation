@@ -1,0 +1,72 @@
+{
+    "@id": "https://www.comses.net/codebases/4234/releases/1.2.0/",
+    "url": "https://www.comses.net/codebases/4234/releases/1.2.0/",
+    "name": "Thermostat II",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-6151-1176",
+            "@type": "Person",
+            "email": "mariaperedagarcia@gmail.com",
+            "givenName": "Mar\u00eda",
+            "familyName": "Pereda",
+            "affiliation": {
+                "url": "https://www.upm.es",
+                "name": "Universidad Polit\u00e9cnica de Madrid",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Jes\u00fas M",
+            "familyName": "Zamarre\u00f1o"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-6151-1176",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "closed loop",
+        "control",
+        "open loop",
+        "thermostat"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4234/releases/1.2.0/",
+    "dateCreated": "2014-06-16",
+    "description": "This model is an adaptation from the NetLogo Thermostat model:\r\n\r\nWilensky, U. (1998). NetLogo Thermostat model. \r\nhttp://ccl.northwestern.edu/netlogo/models/Thermostat. Center for Connected Learning and Computer-Based Modeling, Northwestern Institute on Complex Systems, Northwestern University, Evanston, IL\r\n\r\nIt has been developed as an explanatory example for the work:\r\nPereda, M. and Zamarre\u00f1o, J.M. Modelado Basado en Agentes: un Enfoque desde la Ingenier\u00eda de Sistemas. 2014. Revista Iberoamericana de Autom\u00e1tica e Inform\u00e1tica industrial (sent for publication).\r\n\r\n\r\nThis model has been developed to illustrate the behaviour of the system in open loop as well as in closed loop through an ON-OFF controller.\r\n\r\nIf the system is put in open loop mode, the temperature (modelled through heat balls - agents that move around) would decrease through time as some of the agents would eventually leave the room through the walls, as there is a relation between the temperature measured by the thermostat and the density of agents. The thermostat measures the temperature as a function of the number of agents on its surface, applying a first order dynamics to take into account the inertia in the behaviour of the thermostat. If the system is put in closed loop, a controller starts acting. This controller is kept simple: a bang\u2013bang controller (on\u2013off controller). The controller is incorporated into the thermostat so it heats the room until a desired value is reached. If the room temperature is lower than the desired one, the thermostat switches on and starts heating the room (generating new agents) until the desired value is reached, then, it switches off.\r\n\r\nThe regulatory behaviour can be inhibited by deactivating the controller (with a chooser) in the interface.",
+    "downloadUrl": "https://www.comses.net/codebases/4234/releases/1.2.0/download/",
+    "dateModified": "2018-02-23",
+    "releaseNotes": "",
+    "copyrightYear": 2014,
+    "datePublished": "2014-06-16",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    },
+    "referencePublication": "Pereda, M. and Zamarre\u00f1o, J.M. Modelado Basado en Agentes: un Enfoque desde la Ingenier\u00eda de Sistemas. 2014. Revista Iberoamericana de Autom\u00e1tica e Inform\u00e1tica industrial (sent for publication)."
+}

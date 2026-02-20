@@ -1,0 +1,57 @@
+{
+    "@id": "https://www.comses.net/codebases/5652e45e-268e-4856-931d-c417a6545832/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5652e45e-268e-4856-931d-c417a6545832/releases/1.0.0/",
+    "name": "Agent-Based Modeling of C. Difficile Spread in Hospitals: Assessing Contribution of High-Touch vs. Low-Touch Surfaces and Inoculations\u2019 Containment Impact",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/4163/",
+            "@type": "Person",
+            "email": "sina.abdidizaji@ucf.edu",
+            "givenName": "Sina",
+            "familyName": "Abdidizaji"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc/4.0",
+        "name": "CC-BY-NC-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "A mathematical model was implemented by Sulyok et al. and we replicate it with agent-based modeling and gained few new insights from this replication",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "CDI",
+        "virus"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5652e45e-268e-4856-931d-c417a6545832/releases/1.0.0/",
+    "dateCreated": "2023-08-11",
+    "description": "Clostridioides Difficile Infection (CDI) stands out as a critical healthcare-associated infection with global implications. Effectively understanding the mechanisms of infection dissemination within healthcare units and hospitals is imperative to implement targeted containment measures. In this study, we address the limitations of prior research by Sulyok et al., where they delineated two distinct categories of surfaces as high-touch and low-touch fomites, and subsequently evaluated the viral spread contribution of each surface utilizing mathematical modeling and Ordinary Differential Equations (ODE). Acknowledging the indispensable role of spatial features and heterogeneity in the modeling of hospital and healthcare settings, we employ agent-based modeling to capture new insights. By incorporating spatial considerations and heterogeneous patients, we explore the impact of high-touch and low-touch surfaces on contamination transmission between patients. Furthermore, the study encompasses a comprehensive assessment of various cleaning protocols, with differing intervals and detergent cleaning efficacies, in order to identify the most optimal cleaning strategy and the most important factor amidst the array of alternatives.",
+    "downloadUrl": "https://www.comses.net/codebases/5652e45e-268e-4856-931d-c417a6545832/releases/1.0.0/download/",
+    "dateModified": "2024-01-22",
+    "releaseNotes": "This final code has been used to produce results presented as a paper in CSS 2023 titled \"Agent-Based Modeling of C. Difficile Spread in Hospitals: Assessing Contribution of High-Touch vs. Low-Touch Surfaces and Inoculations' Containment Impact\".",
+    "copyrightYear": 2024,
+    "datePublished": "2024-01-22",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

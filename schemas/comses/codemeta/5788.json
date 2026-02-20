@@ -1,0 +1,66 @@
+{
+    "@id": "https://www.comses.net/codebases/5788/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5788/releases/1.0.0/",
+    "name": "Impact of topography and climate change on Magdalenian social networks",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-1324-7937",
+            "@type": "Person",
+            "email": "cgravelm@asu.edu",
+            "givenName": "Claudine",
+            "familyName": "Gravel-Miguel",
+            "affiliation": {
+                "@id": "https://ror.org/00d9ah105",
+                "url": "http://www.ucmerced.edu/",
+                "name": "University of California, Merced",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00d9ah105"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-1324-7937",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc/4.0",
+        "name": "CC-BY-NC-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "cultural transmission",
+        "least-cost path",
+        "magdalenian",
+        "social network"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5788/releases/1.0.0/",
+    "dateCreated": "2017-09-11",
+    "description": "This model has 2 purposes. The main one is to evaluate the impact of topography and resource distribution on the structure and extent of social networks created between groups of hunter-gatherers. The second is to test the assumption that social networks reconstructed from archaeological assemblages are good representations of the latent networks that produced them. \r\n\r\nTo reproduce hunter-gatherers\u2019 interaction, camps are set in a realistic world with a given topography, biome distribution, and resource level. Each camp needs to feed its 24 hunter-gatherers, out of which only 12 are modeled \u2013 6 agents and 6 campers. Agents are used to create alliances with other camps, while campers are set to produce a set of 5 traits, that represents simplified artifacts found in the archaeological record. When alliances are formed between camps, campers can visit them, and learn the \u2018cultural traits\u2019 of other campers, which contributes to the widespread transmission of culture.\r\n\r\nDuring the simulation, this model can produce one CSV file that records two types of outputs. One is the list of the 5 cultural traits of each camper, recorded each month after the first year. The geographical coordinates of each camper, as well as the camp from which they originated accompany this output. The other output is the record of all inter-camp alliances created, which includes the geographical coordinates of each camp, the number of times allied campers visited one another, and the last time a visit occurred.",
+    "downloadUrl": "https://www.comses.net/codebases/5788/releases/1.0.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2017,
+    "datePublished": "2017-09-11",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Gravel-Miguel, C. 2017. The impacts of geography and climate change on Magdalenian social networks. Doctoral dissertation. Arizona State University, Tempe."
+}

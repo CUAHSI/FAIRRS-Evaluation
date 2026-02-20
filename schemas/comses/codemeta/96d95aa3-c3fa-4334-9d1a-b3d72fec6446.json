@@ -1,0 +1,93 @@
+{
+    "@id": "https://www.comses.net/codebases/96d95aa3-c3fa-4334-9d1a-b3d72fec6446/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/96d95aa3-c3fa-4334-9d1a-b3d72fec6446/releases/1.0.0/",
+    "name": "University Connectivity",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/3390/",
+            "@type": "Person",
+            "email": "rach.wozniak6@gmail.com",
+            "givenName": "Rachel",
+            "familyName": "Wozniak"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "Z1900978@students.niu.edu",
+            "givenName": "Nick",
+            "familyName": "Glover",
+            "affiliation": {
+                "@id": "https://ror.org/047426m28",
+                "url": "http://illinois.edu/",
+                "name": "University of Illinois Urbana-Champaign",
+                "@type": "Organization",
+                "identifier": "https://ror.org/047426m28"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "Z1908199@students.niu.edu",
+            "givenName": "Chris",
+            "familyName": "English",
+            "affiliation": {
+                "@id": "https://ror.org/047426m28",
+                "url": "http://illinois.edu/",
+                "name": "University of Illinois Urbana-Champaign",
+                "@type": "Organization",
+                "identifier": "https://ror.org/047426m28"
+            }
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "email": "Z1863633@students.niu.edu",
+            "givenName": "Juan",
+            "familyName": "Cisneros",
+            "affiliation": {
+                "@id": "https://ror.org/047426m28",
+                "url": "http://illinois.edu/",
+                "name": "University of Illinois Urbana-Champaign",
+                "@type": "Organization",
+                "identifier": "https://ror.org/047426m28"
+            }
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "Personality Traits",
+        "Social Networks"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/96d95aa3-c3fa-4334-9d1a-b3d72fec6446/releases/1.0.0/",
+    "dateCreated": "2021-11-30",
+    "description": "This model is designed to show the effects of personality types and student organizations have on ones chance to making friendships in a university setting. As known from psychology studies, those that are extroverted have an easier chance making friendships in comparison to those that are introverted. \nOnce every tick a pair of students (nodes) will be randomly selected they will then have the chance to either be come friends or not (create an edge or not) based on their personality type (you are able to change what the effect of each personality is) and whether or not they are in the same club (you can change this value) then the model triggers the next tick cycle to begin.",
+    "downloadUrl": "https://www.comses.net/codebases/96d95aa3-c3fa-4334-9d1a-b3d72fec6446/releases/1.0.0/download/",
+    "dateModified": "2021-12-01",
+    "releaseNotes": "This model was created for a class as a final project. It explores the effect of personality types and student organization in making networks. To begin initializing this model, there are a couple of parameters that can be changed prior to running this model. The \u201cnum\u201d slider is a range of 0-100 that allows you to set the number of individuals or students that are in the model. There is a chooser named \u201cclub-option\u201d ranging from 0-10 that represents the number of clubs that the individuals within the model can be apart of, as they represent different types of clubs. The 3 sliders regarding personality type determine the percentage of the population that is that personality type (%-of-intro, %-of-ambi, and %-of- extro).",
+    "copyrightYear": 2021,
+    "datePublished": "2021-11-30",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo v6.2"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo v6.2",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "@id": "https://www.comses.net/codebases/758c8616-0d8a-44d4-a3fa-921f902b9561/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/758c8616-0d8a-44d4-a3fa-921f902b9561/releases/1.0.0/",
+    "name": "St Anthony flu",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-4534-3392",
+            "@type": "Person",
+            "email": "sattenspiell@missouri.edu",
+            "givenName": "Lisa",
+            "familyName": "Sattenspiel",
+            "affiliation": {
+                "@id": "https://ror.org/02ymw8z06",
+                "url": "http://missouri.edu/",
+                "name": "University of Missouri",
+                "@type": "Organization",
+                "identifier": "https://ror.org/02ymw8z06"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc/4.0",
+        "name": "CC-BY-NC-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "anthropology",
+        "disease modeling",
+        "historical epidemiology",
+        "NetLogo"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/758c8616-0d8a-44d4-a3fa-921f902b9561/releases/1.0.0/",
+    "dateCreated": "2019-04-15",
+    "description": "The St Anthony flu model is an epidemiological model designed to test hypotheses related to the spread of the 1918 influenza pandemic among residents of a small fishing community in Newfoundland and Labrador. The 1921 census data from Newfoundland and Labrador are used to ensure a realistic model population; the community of St. Anthony, NL, located on the tip of the Northern Peninsula of the island of Newfoundland is the specific population modeled. Model agents are placed on a map-like grid that consists of houses, two churches, a school, an orphanage, a hospital, and several boats. They engage in daily activities that reflect known ethnographic patterns of behavior in St. Anthony and other similar communities. A pathogen is introduced into the community and then it spreads throughout the population as a consequence of individual agent movements and interactions.\n",
+    "downloadUrl": "https://www.comses.net/codebases/758c8616-0d8a-44d4-a3fa-921f902b9561/releases/1.0.0/download/",
+    "dateModified": "2019-04-15",
+    "releaseNotes": "This is a model for the spread of influenza in a traditional fishing community in Newfoundland and Labrador. It is written in Netlogo. The model file, two required input data files, documentation, and three sample results files are provided here.",
+    "copyrightYear": 2019,
+    "datePublished": "2019-04-15",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

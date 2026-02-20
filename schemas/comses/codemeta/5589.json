@@ -1,0 +1,79 @@
+{
+    "@id": "https://www.comses.net/codebases/5589/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/5589/releases/1.1.0/",
+    "name": "Perceived Scientific Value and Impact Factor",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-6677-8689",
+            "@type": "Person",
+            "email": "secchi.davi@gmail.com",
+            "givenName": "Davide",
+            "familyName": "Secchi",
+            "affiliation": {
+                "url": "https://www.sdu.dk/en/om_sdu/institutter_centre/c_comac",
+                "name": "Research Centre for Computational & Organisational Cognition, University of Southern Denmark",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Stephen",
+            "familyName": "Cowley"
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-6677-8689",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "academic article assessment",
+        "cognition",
+        "computational organization theory",
+        "distributed cognition",
+        "impact factor",
+        "organizational cognition",
+        "peer review",
+        "scientific value"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5589/releases/1.1.0/",
+    "dateCreated": "2018-01-29",
+    "description": "The model explores the impact of journal metrics, for example the notorious impact factor (IF), on the perception that academics have of an article's scientific value. The agent-based simulation maps two sets of individuals that belong to two distinct groups or intelligence units (IU): IF lovers (enthusiasts or IU2 members) and IF haters (skeptics or IU1 members). Papers in the simulation are assigned random values of IF different from their inner scientific value. At a given time, all agents are called to evaluate two papers. The enthusiasts would use the IF of the journal the article is published in as a proxy to evaluate its value while skeptics would tend to assess as a function of the paper's assigned value. Both cases then reflect on the perception of scientific value that members from IU1 and IU2 have of academic publications in general.\r\n\r\nThe aim of the model is that of showing that there are at least three dimensions that affect how agents cognize about science. There is an individual (*micro*) dimension that entails individual characteristics and attitudes towards others, together with a structural (*macro*) dimension that provides the institutional conditions for operating (IF can be thought of as belonging to an institutional or macro category). Then, there is a *meso* domain that reflects the social sphere of interactions that one has within the affiliated group and the other groups. The three dimensions together define *organizational cognition*, with the middle (or *meso*) one being the most relevant. We call it *social organizing*.\r\n\r\nThe model explores how the perception of scientific value (PSV) modifies depending on these three dimensions in which cognition can be studied. Would PSV be different depending on affiliation, position, range, or individual characteristics?",
+    "downloadUrl": "https://www.comses.net/codebases/5589/releases/1.1.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "Details on this version are in the PDF (see below). There entire set of data is a file too large to be uploaded; however, we have uploaded data from one of the computational experiments. Enjoy!",
+    "copyrightYear": 2018,
+    "datePublished": "2018-01-29",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Secchi, D., & Cowley S.J. 2018. Modeling Organizational Cognition: The Case\r\nof Impact Factor. Journal of Artificial Societies and Social Simulation 21(1) 13\r\nDoi: 10.18564/jasss.3628 \r\nUrl: http://jasss.soc.surrey.ac.uk/21/1/13.html"
+}

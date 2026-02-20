@@ -1,0 +1,65 @@
+{
+    "@id": "https://www.comses.net/codebases/64d2795a-a138-4820-82c1-279d3a8ef661/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/64d2795a-a138-4820-82c1-279d3a8ef661/releases/1.0.0/",
+    "name": "JLootBox: An Agent-Based Model of Social Influence and Gambling in Online Video Games",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/3388/",
+            "@type": "Person",
+            "email": "z1838117@students.niu.edu",
+            "givenName": "Lila",
+            "familyName": "Zayed",
+            "affiliation": {
+                "@id": "https://ror.org/012wxa772",
+                "url": "http://www.niu.edu/index.shtml",
+                "name": "Northern Illinois University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/012wxa772"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc/4.0",
+        "name": "CC-BY-NC-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Hing, N., Russell, A., Tolchard, B. et al. Risk Factors for Gambling Problems: An Analysis by Gender. J Gambl Stud 32,\n511\u2013534 (2016). https://doi.org/10.1007/s10899-015-9548-8\nN Schuhmacher, P Van Geert, L Ballato (2019, April 08). \u201cAgent-based model of risk behavior in adolescence\u201d (Version\n1.1.0). CoMSES Computational Model Library. Retrieved from: https://www.comses.net/codebases/3844/releases/1.1.0/\nNorth, MJ, NT Collier, J Ozik, E Tatara, M Altaweel, CM Macal, M Bragen, and P Sydelko, \"Complex Adaptive Systems\nModeling with Repast Simphony\", Complex Adaptive Systems Modeling, Springer, Heidelberg, FRG (2013).\nhttps://doi.org/10.1186/2194-3206-1-3\nRomanowska, Iza, et al. Agent-Based Modeling for Archaeology: Simulating the Complexity of Societies. Santa Fe\nInstitute Press, 2021.\nZendle David, Meyer Rachel and Over Harriet (2019) Adolescents and loot boxes: links with problem gambling and\nmotivations for purchaseR. Soc. op",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "#Lootbox",
+        "#Networks"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/64d2795a-a138-4820-82c1-279d3a8ef661/releases/1.0.0/",
+    "dateCreated": "2022-05-06",
+    "description": "This model aims to explore how gambling-like behavior can emerge in loot box spending within gaming communities. A loot box is a purchasable mystery box that randomly awards the player a series of in-game items. Since the contents of the box are largely up to chance, many players can fall into a compulsion loop of purchasing, as the fear of missing out and belief in the gambler's fallacy allow one to rationalize repeated purchases, especially when one compares their own luck to others. To simulate this behavior, this model generates players in different network structures to observe how factors such as network connectivity, a player's internal decision making strategy, or even common manipulations games use these days may influence a player's transactions. ",
+    "downloadUrl": "https://www.comses.net/codebases/64d2795a-a138-4820-82c1-279d3a8ef661/releases/1.0.0/download/",
+    "dateModified": "2022-05-07",
+    "releaseNotes": "For ease of installation, please download the release posted here: https://bit.ly/jlootboxComses\n\nTo install the model, ensure Java (version 1.8 or greater) is installed on your machine, then simply run the setup.jar file.",
+    "copyrightYear": 2022,
+    "datePublished": "2022-05-06",
+    "codeRepository": "https://github.com/LilasCorner/jlootbox",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "#RepastSimphony"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

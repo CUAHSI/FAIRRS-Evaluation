@@ -1,0 +1,64 @@
+{
+    "@id": "https://www.comses.net/codebases/3890/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/3890/releases/1.1.0/",
+    "name": "A Modelling4All/NetLogo model of the Spanish Flu Pandemic",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/714/",
+            "@type": "Person",
+            "email": "kenneth.kahn@it.ox.ac.uk",
+            "givenName": "Ken",
+            "familyName": "Kahn",
+            "affiliation": {
+                "name": "Oxford University",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/714/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "behaviour composer",
+        "counterfactual history",
+        "epidemiology",
+        "modelling4all",
+        "NetLogo",
+        "spanish flu"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/3890/releases/1.1.0/",
+    "dateCreated": "2013-08-05",
+    "description": "Due to the difficulty of modelling 1.8 billion individuals this model runs an aggregate [SIR model](http://en.wikipedia.org/wiki/Epidemic_model) on each patch. Populations travel between nearby patches causing some mixing. Ships and trains are modelled as agent that transport populations. Army camps are models are locations with different contact and transmission odds than the civilian population. The three waves of infection are modelled.\r\n\r\nThe model can be used to explore questions such as 'how different would the epidemic have been if there had been no war or the war ended much later?'.\r\n\r\nThe model was built using the [Behaviour Composer](http://modelling4all.org) which resulted in a NetLogo program.\r\n\r\n[The model](http://m.modelling4all.org/p/Aa5AAKjRQBYUdFWOyItL74.template.html), [the student guide](http://resources.modelling4all.org/spanish-flu/how-the-spanish-flu-model-works), and [the teacher guide](http://resources.modelling4all.org/spanish-flu/teacher-guide-to-spanish-flu-simulation) are available as [open educational resources](http://resources.modelling4all.org/spanish-flu/acknowledgements).",
+    "downloadUrl": "https://www.comses.net/codebases/3890/releases/1.1.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "Version 1",
+    "copyrightYear": 2013,
+    "datePublished": "2013-08-05",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

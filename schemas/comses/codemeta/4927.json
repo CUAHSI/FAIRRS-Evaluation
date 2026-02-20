@@ -1,0 +1,76 @@
+{
+    "@id": "https://www.comses.net/codebases/4927/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4927/releases/1.0.0/",
+    "name": "Dental Routine Check-Up",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1696/",
+            "@type": "Person",
+            "email": "peymansh@gmail.com",
+            "givenName": "Peyman",
+            "familyName": "Shariatpanahi",
+            "affiliation": {
+                "@id": "https://ror.org/05vf56z40",
+                "url": "http://www.ut.ac.ir/en",
+                "name": "University of Tehran",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05vf56z40"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1705/",
+            "@type": "Person",
+            "email": "afshin.jafari@outlook.com",
+            "givenName": "Afshin",
+            "familyName": "Jafari",
+            "affiliation": {
+                "url": "https://www.rmit.edu.au/",
+                "name": "RMIT",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1696/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://www.comses.net/users/1705/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4927/releases/1.0.0/",
+    "dateCreated": "2016-03-10",
+    "description": "We develop an agent-based model for collective behavior of routine medical check-ups, and specifically dental visits, in a social network.The basic structure of the model is as follows: In each time period, some people (agents) go to dentist. The decision to go to dentist is influenced by their state of attention to their dental health (being careless or careful about their dental health), and whether or not they have recently visited a dentist. When someone visits a dentist in order to do a check-up, it is possible that he/she goes under treatment. People who have recently been under treatment encourage others to visit a dentist.",
+    "downloadUrl": "https://www.comses.net/codebases/4927/releases/1.0.0/download/",
+    "dateModified": "2019-04-08",
+    "releaseNotes": "",
+    "copyrightYear": 2019,
+    "datePublished": "2019-04-08",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "AnyLogic"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

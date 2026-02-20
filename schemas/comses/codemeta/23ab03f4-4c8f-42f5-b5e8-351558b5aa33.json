@@ -1,0 +1,83 @@
+{
+    "@id": "https://www.comses.net/codebases/23ab03f4-4c8f-42f5-b5e8-351558b5aa33/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/23ab03f4-4c8f-42f5-b5e8-351558b5aa33/releases/1.0.0/",
+    "name": "Diffusion of Vegetarian Diet",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1129/",
+            "@type": "Person",
+            "email": "patrick.taillandier@gmail.com",
+            "givenName": "Patrick",
+            "familyName": "Taillandier",
+            "affiliation": {
+                "url": "http://www.inra.fr",
+                "name": "INRA",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "nsalliou@ethz.ch",
+            "givenName": "Nicolas",
+            "familyName": "Salliou",
+            "affiliation": {
+                "name": "ETH Z \u0308urich, IRL, PLUS",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "rallou.thomopoulos@inra.fr",
+            "givenName": "Rallou",
+            "familyName": "Thomopoulos",
+            "affiliation": {
+                "@id": "https://ror.org/028mkng75",
+                "url": "http://www.ate-cr.cz/home",
+                "name": "ATE (Czechia)",
+                "@type": "Organization",
+                "identifier": "https://ror.org/028mkng75"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "argumentative agents",
+        "diet",
+        "dynamics opinion"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/23ab03f4-4c8f-42f5-b5e8-351558b5aa33/releases/1.0.0/",
+    "dateCreated": "2019-04-29",
+    "description": "Model of diffusion of vegetarian diets coupling ABM and argumentation framework",
+    "downloadUrl": "https://www.comses.net/codebases/23ab03f4-4c8f-42f5-b5e8-351558b5aa33/releases/1.0.0/download/",
+    "dateModified": "2019-04-29",
+    "releaseNotes": "tested with GAMA 1.8 RC2, requires to install (from GAMA) the \"argumentation feature\" from http://updates.gama-platform.org/experimental",
+    "copyrightYear": 2019,
+    "datePublished": "2019-04-29",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "GAMA",
+        "GAMA"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "GAMA",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

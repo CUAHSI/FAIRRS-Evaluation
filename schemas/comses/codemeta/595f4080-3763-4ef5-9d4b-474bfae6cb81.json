@@ -1,0 +1,80 @@
+{
+    "@id": "https://www.comses.net/codebases/595f4080-3763-4ef5-9d4b-474bfae6cb81/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/595f4080-3763-4ef5-9d4b-474bfae6cb81/releases/1.0.0/",
+    "name": "Agent-based model of repeated conservation auctions in low-income countries",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "email": "ecardonasantos@gmail.com",
+            "givenName": "Elsa",
+            "familyName": "Cardona",
+            "affiliation": {
+                "@id": "https://ror.org/001s48x24",
+                "url": "http://www.ilr.org/",
+                "name": "Independent Living Resources",
+                "@type": "Organization",
+                "identifier": "https://ror.org/001s48x24"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "hugo.storm@ilr.uni-bonn.de",
+            "givenName": "Hugo",
+            "familyName": "Storm",
+            "affiliation": {
+                "@id": "https://ror.org/041nas322",
+                "url": "http://www3.uni-bonn.de/the-university",
+                "name": "University of Bonn",
+                "@type": "Organization",
+                "identifier": "https://ror.org/041nas322"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/990/",
+            "@type": "Person",
+            "email": "voidness@gmx.de",
+            "givenName": "Sebastian",
+            "familyName": "Rasch",
+            "affiliation": {
+                "url": "http://www.ilr.uni-bonn.de/agpo/agpo_e.htm",
+                "name": "Doctoral Student",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/595f4080-3763-4ef5-9d4b-474bfae6cb81/releases/1.0.0/",
+    "dateCreated": "2020-03-22",
+    "description": "Our model allows simulating repeated conservation auctions in low-income countries. It is designed to assess policy-making by exploring the extent to which non-targeted repeated auctions can provide biodiversity conservation cost-effectively, while alleviating poverty. Targeting landholders in order to integrate both goals is claimed to be overambitious and underachieving because of the trade-offs they imply. The simulations offer insight on the possible outcomes that can derive from implementing conservation auctions in low-income countries, where landholders are likely to be risk averse and to face uncertainty.",
+    "downloadUrl": "https://www.comses.net/codebases/595f4080-3763-4ef5-9d4b-474bfae6cb81/releases/1.0.0/download/",
+    "dateModified": "2020-03-22",
+    "releaseNotes": "The model is written in Java using the ABM framework Repast Symphony. There are no external dependencies needed to run the model",
+    "copyrightYear": 2020,
+    "datePublished": "2020-03-22",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Repast"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

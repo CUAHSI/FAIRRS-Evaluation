@@ -1,0 +1,124 @@
+{
+    "@id": "https://doi.org/10.25937/vtjx-bm91",
+    "url": "https://doi.org/10.25937/vtjx-bm91",
+    "name": "Family Herd Demography",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "givenName": "Abigail",
+            "familyName": "Buffington"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Andrew",
+            "familyName": "Yoak"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "hamilton.598@osu.edu",
+            "givenName": "Ian",
+            "familyName": "Hamilton",
+            "affiliation": {
+                "@id": "https://ror.org/00rs6vg23",
+                "url": "http://www.osu.edu/",
+                "name": "The Ohio State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00rs6vg23"
+            }
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "givenName": "Rebecca",
+            "familyName": "Garabed"
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-0644-0069",
+            "@type": "Person",
+            "email": "mark.moritz@gmail.com",
+            "givenName": "Mark",
+            "familyName": "Moritz",
+            "affiliation": {
+                "@id": "https://ror.org/00rs6vg23",
+                "url": "http://www.osu.edu/",
+                "name": "The Ohio State University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00rs6vg23"
+            }
+        },
+        {
+            "@id": "_:author_1",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-0644-0069",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "cattle",
+        "demography",
+        "herds",
+        "livestock",
+        "pastoralism",
+        "scale",
+        "stochasticity"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/vtjx-bm91",
+        "https://doi.org/10.25937/vtjx-bm91"
+    ],
+    "dateCreated": "2018-01-06",
+    "description": "This Agent-Based Model (ABM) examines the dynamics of herd growth is part of a larger study that examines the coupled dynamics of herds and household demography in African pastoral systems. We used the model to examine the role of scale (herd size) stochasticity (in mortality, fertility, and off take rates) on herd growth in African pastoral systems. We derived the mortality, fertility, and offtake rates from a review of the literature. Our model is relatively simple but captures the key dynamics of the family herds in African pastoral systems in which herds consists of animals in different age and sex classes (e.g., calves, heifers, bullocks, cows, bulls) that each have different mortality and offtake rates. The model is non-spatial \u2013 we model only the herd and not the environment \u2013 and there are thus no density-dependent feedbacks. The model is built in NetLogo (version 5.05) (Wilensky 1999).",
+    "downloadUrl": "https://www.comses.net/codebases/5162/releases/1.2.0/download/",
+    "dateModified": "2020-04-20",
+    "releaseNotes": "Version 1.0",
+    "copyrightYear": 2018,
+    "datePublished": "2018-01-06",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Moritz, Mark Abigail Buffington, Andrew Yoak, Ian M. Hamilton, Rebecca Garabed. 2017. No magic number: An examination of the herd-size threshold in pastoral systems using agent-based modeling, Human Ecology, 45(4): 525-532."
+}

@@ -1,0 +1,112 @@
+{
+    "@id": "https://doi.org/10.25937/ep45-k084",
+    "url": "https://doi.org/10.25937/ep45-k084",
+    "name": "Agent-Based Ramsey growth model with endogenous technical progress (ABRam-T)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0009-0003-2721-2978",
+            "@type": "Person",
+            "email": "aida.figueroa.alvarez@fu-berlin.de",
+            "givenName": "Aida Sarai",
+            "familyName": "Figueroa Alvarez",
+            "affiliation": {
+                "@id": "https://ror.org/046ak2485",
+                "url": "https://www.fu-berlin.de",
+                "name": "Freie Universit\u00e4t Berlin",
+                "@type": "Organization",
+                "identifier": "https://ror.org/046ak2485"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "sarah.wolf@fu-berlin.de",
+            "givenName": "Sarah",
+            "familyName": "Wolf",
+            "affiliation": {
+                "@id": "https://ror.org/046ak2485",
+                "url": "https://www.fu-berlin.de",
+                "name": "Freie Universit\u00e4t Berlin",
+                "@type": "Organization",
+                "identifier": "https://ror.org/046ak2485"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "malika.tokpanova@fu-berlin.de",
+            "givenName": "Malika",
+            "familyName": "Tokpanova",
+            "affiliation": {
+                "@id": "https://ror.org/046ak2485",
+                "url": "https://www.fu-berlin.de",
+                "name": "Freie Universit\u00e4t Berlin",
+                "@type": "Organization",
+                "identifier": "https://ror.org/046ak2485"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "contributor"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "contributor"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "Jo\u00ebl Foramitti. Agentpy: A package for agent-based modeling in python. Journal of Open Source Software, 6(62):3065, 2021 \n\nGesine Steudle, Sarah Wolf,  Jahel Mielke and Carlo Jaeger. Green growth mechanics: The building blocks. Climate Global Forum, January 2018.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "agent based model",
+        "Agents with expectations",
+        "Endogenous technical progress",
+        "Ramsey growth model"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": [
+        "10.25937/ep45-k084",
+        "https://doi.org/10.25937/ep45-k084"
+    ],
+    "dateCreated": "2024-02-14",
+    "description": "The Agent-Based Ramsey growth model is designed to analyze and test a decentralized economy composed of utility maximizing agents, with a particular focus on understanding the growth dynamics of the system.  We consider farms that adopt different investment strategies based on the information available to them. The model is built upon the well-known Ramsey growth model, with the introduction of endogenous technical progress through mechanisms of learning by doing and knowledge spillovers.",
+    "downloadUrl": "https://www.comses.net/codebases/0d2d9f03-e579-4d59-bd9a-35be1439f8ed/releases/1.1.0/download/",
+    "dateModified": "2024-04-19",
+    "releaseNotes": "Run the notebook run_the_model_notebook.ipynb to run a simulation and to plot results from the simulation. ",
+    "copyrightYear": 2024,
+    "datePublished": "2024-02-19",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "AgentPy"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Jupyter Notebook",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "Python 3",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "https://doi.org/10.5281/zenodo.10654996"
+}

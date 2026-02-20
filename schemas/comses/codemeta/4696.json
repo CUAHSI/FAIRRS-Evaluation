@@ -1,0 +1,78 @@
+{
+    "@id": "https://www.comses.net/codebases/4696/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4696/releases/1.0.0/",
+    "name": "(De-)Stabilising effect of diffusions",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-2684-6330",
+            "@type": "Person",
+            "email": "julia.kasmire@manchester.ac.uk",
+            "givenName": "Julia",
+            "familyName": "Kasmire",
+            "affiliation": {
+                "@id": "https://ror.org/027m9bs27",
+                "url": "http://www.manchester.ac.uk/",
+                "name": "University of Manchester",
+                "@type": "Organization",
+                "identifier": "https://ror.org/027m9bs27"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Bert",
+            "familyName": "Van Meeuwen"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "givenName": "Cornelis",
+            "familyName": "Eikelboom"
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-2684-6330",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4696/releases/1.0.0/",
+    "dateCreated": "2015-08-11",
+    "description": "Diffusions or transitions are typically seen as unstable because they are thought to be periods of large, obvious and coordinated change that shifts the system from one equilibrium to the other. \r\n\r\nHowever, Prigogine (a Nobel prize winner) suggests that diffusions are actually stabilizing forces. While the dynamic equilibria appear stable, they contain constant, low level, change that is hard to see because it is uncoordinated.\r\n\r\nThe difference between the dynamic equilibria and diffusions/transitions may not be the amount of change, but the uniformity of change. This would suggest that neither is inherently more or less stable, which runs counter to the way people usually think about the various states. \r\n\r\nThe model represents a complex, communicating network  in which agents represent vehicle owners. Each owner purchases new vehicles when the current vehicle expires on the basis of their adopter characteristics, their past history of vehicle purchases, the vehicles they observe among their neighbours, and the available vehicle options. The model output includes the number of agents that own each vehicle type at each time step. This output can be sorted by vehicle type, chopped into strings, and then compressed into ZIP files. The ZIP file sizes can be used to approximate the stability of the system as captured by that vehicle type at that time, so comparing ZIP file sizes provides some insight onto system stability.",
+    "downloadUrl": "https://www.comses.net/codebases/4696/releases/1.0.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "",
+    "copyrightYear": 2015,
+    "datePublished": "2015-08-11",
+    "operatingSystem": "linux",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": {
+        "@type": "ComputerLanguage"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "@id": "https://www.comses.net/codebases/5361/releases/1.2.0/",
+    "url": "https://www.comses.net/codebases/5361/releases/1.2.0/",
+    "name": "Investor-based electricity market model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1874/",
+            "@type": "Person",
+            "email": "oscar.kraan@gmail.com",
+            "givenName": "Oscar",
+            "familyName": "Kraan",
+            "affiliation": {
+                "url": "https://www.uu.nl/en/research/copernicus-institute-of-sustainable-development",
+                "name": "Copernicus Institute of Sustainable Development",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1874/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5361/releases/1.2.0/",
+    "dateCreated": "2017-03-22",
+    "description": "The goal of this study is to elucidate the fundamental processes that underline the transition of the electricity system. We have taken a conceptual approach that was aimed at a minimum set of agent-types, behaviour rules and assumptions that could replicate the fundamental dynamics of the first phase of the transition and show possible concerns for the future. \r\nIn the model investors and assets are part of the electricity market.  In the electricity market, assets produce electricity and investors can decide to build new generation capacity. The electricity market is modelled as Energy-Only market where the electricity price is determined by supply and demand.",
+    "downloadUrl": "https://www.comses.net/codebases/5361/releases/1.2.0/download/",
+    "dateModified": "2018-10-12",
+    "releaseNotes": "",
+    "copyrightYear": 2018,
+    "datePublished": "2018-10-12",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

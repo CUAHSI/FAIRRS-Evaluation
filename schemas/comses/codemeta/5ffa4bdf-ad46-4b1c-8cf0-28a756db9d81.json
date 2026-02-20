@@ -1,0 +1,59 @@
+{
+    "@id": "https://www.comses.net/codebases/5ffa4bdf-ad46-4b1c-8cf0-28a756db9d81/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5ffa4bdf-ad46-4b1c-8cf0-28a756db9d81/releases/1.0.0/",
+    "name": "An agent-based artificial stock with a dynamic investor network",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-2440-8444",
+            "@type": "Person",
+            "email": "oldhamma@gmail.com",
+            "givenName": "Matthew",
+            "familyName": "Oldham",
+            "affiliation": {
+                "url": "http://www.css.gmu.edu",
+                "name": "George Mason",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based model (abm)",
+        "bubble",
+        "dynamic network",
+        "NetLogo",
+        "stock markets"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5ffa4bdf-ad46-4b1c-8cf0-28a756db9d81/releases/1.0.0/",
+    "dateCreated": "2019-02-08",
+    "description": "The model is an agent-based artificial stock market where investors connect in a dynamic network. The network is dynamic in the sense that the investors, at specified intervals, decide whether to keep their current adviser (those investors they receive trading advise from). The investors also gain information from a private source and share public information about the risky asset. Investors have different tendencies to follow the different information sources, consider differing amounts of history, and have different thresholds for investing.",
+    "downloadUrl": "https://www.comses.net/codebases/5ffa4bdf-ad46-4b1c-8cf0-28a756db9d81/releases/1.0.0/download/",
+    "dateModified": "2019-06-25",
+    "releaseNotes": "The ODD explains how the model operates.",
+    "copyrightYear": 2019,
+    "datePublished": "2019-06-25",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "n/a"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

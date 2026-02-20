@@ -1,0 +1,65 @@
+{
+    "@id": "https://www.comses.net/codebases/4951/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/4951/releases/1.0.0/",
+    "name": "BehaviorSpace tutorial model",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-4940-3997",
+            "@type": "Person",
+            "email": "cwren@uccs.edu",
+            "givenName": "Colin",
+            "familyName": "Wren",
+            "affiliation": {
+                "@id": "https://ror.org/054spjc55",
+                "url": "http://www.uccs.edu/",
+                "name": "University of Colorado Colorado Springs",
+                "@type": "Organization",
+                "identifier": "https://ror.org/054spjc55"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-4940-3997",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-sa/4.0/",
+        "name": "CC-BY-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "behaviorspace",
+        "forage",
+        "tutorial"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4951/releases/1.0.0/",
+    "dateCreated": "2016-03-23",
+    "description": "This is based off my previous Profiler tutorial model, but with an added tutorial on converting it into a model usable with BehaviorSpace, and creating a BehaviorSpace experiment.",
+    "downloadUrl": "https://www.comses.net/codebases/4951/releases/1.0.0/download/",
+    "dateModified": "2018-02-18",
+    "releaseNotes": "",
+    "copyrightYear": 2016,
+    "datePublished": "2016-03-23",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "n/a"
+}

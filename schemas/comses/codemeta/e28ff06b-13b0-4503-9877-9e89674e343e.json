@@ -1,0 +1,68 @@
+{
+    "@id": "https://www.comses.net/codebases/e28ff06b-13b0-4503-9877-9e89674e343e/releases/1.1.1/",
+    "url": "https://www.comses.net/codebases/e28ff06b-13b0-4503-9877-9e89674e343e/releases/1.1.1/",
+    "name": "ThomondSim",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-7408-3257",
+            "@type": "Person",
+            "email": "vin.maric@gmail.com",
+            "givenName": "Vinicius",
+            "familyName": "Marino Carvalho",
+            "affiliation": {
+                "@id": "https://ror.org/036rp1748",
+                "url": "http://www5.usp.br/en/",
+                "name": "Universidade de S\u00e3o Paulo",
+                "@type": "Organization",
+                "identifier": "https://ror.org/036rp1748"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.1",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "MARINO CARVALHO, V. War, Hazards, and Economic Degradation in Thomond, 1276-1318: Agent-Based Approaches to the U\u00ed Bhriain Civil War. PhD Thesis: Universidade de S\u00e3o Paulo, 2022.",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "counterfactual history",
+        "environmental history",
+        "history",
+        "medieval history",
+        "military history",
+        "military logistics"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/e28ff06b-13b0-4503-9877-9e89674e343e/releases/1.1.1/",
+    "dateCreated": "2022-02-04",
+    "description": "ThomondSim is a simulation of the political and economic landscape of the medieval kingdom of Thomond, southwestern Ireland, between 1276 and 1318.\n\nIts goal is to analyze how deteriorating environmental and economic conditions caused by the Little Ice Age (LIA), the Great European Famine of 1315-1322, and wars between England and Scotland affected the outcomes of a local war involving Gaelic and English aristocratic lineages.\nThis ABM attempts to model both the effects of devastation on the human environment and the modus operandi of late-medieval war and diplomacy.\n\nThe model is the digital counterpart of the science discovery board game The Triumphs of Turlough. Its procedures closely correspond to the game\u2019s mechanics, to the point that ToT can be considered an interactive, analog version of this ABM.",
+    "downloadUrl": "https://www.comses.net/codebases/e28ff06b-13b0-4503-9877-9e89674e343e/releases/1.1.1/download/",
+    "dateModified": "2023-05-12",
+    "releaseNotes": "This model was created using NetLogo 6.2.2.\n\nIt runs on an invisible network environment overlayed on a static map. You do not need the map if you simply want to use the model to run experiments. However, if you wish to use it for educational purposes, you might wish to download.\n\nTo do so, click on File > Import > Import Patch Colors RGB, then select the file Map_ThomondSim.png (available on this page), wherever you have saved it. \n\nOn the \"tools\" tab, click on Turtle Shape Editor > Import from Library. You'll see a list with icons. Select the following icons and click \"import\": chess bishop, chess king, chess knight, and crown\n\n\n\n\n2 -Save the file ThomondSimMap.png on your computer\n\n3- Open NetLogo. On the \"tools\" tab, click on Turtle Shape Editor > Import from Library. You'll see a list with icons. Select the following icons and click \"import\": chess bishop, chess king, chess knight, and crown\n\n4- Open ThomondSim.nlogo",
+    "copyrightYear": 2023,
+    "datePublished": "2023-05-12",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo 6.2.2"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo 6.2.2",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

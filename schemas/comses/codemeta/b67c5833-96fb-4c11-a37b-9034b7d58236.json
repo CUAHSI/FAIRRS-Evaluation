@@ -1,0 +1,89 @@
+{
+    "@id": "https://www.comses.net/codebases/b67c5833-96fb-4c11-a37b-9034b7d58236/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/b67c5833-96fb-4c11-a37b-9034b7d58236/releases/1.0.0/",
+    "name": "World of Cows - Exploring land-use policies for a dairy-farm world (teaching modeling complex human-environment systems)",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0003-4530-8968",
+            "@type": "Person",
+            "email": "maria.haensel@uni-bayreuth.de",
+            "givenName": "Maria",
+            "familyName": "Haensel"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "thomas.m.schmitt@uni-bayreuth.de",
+            "givenName": "Thomas",
+            "familyName": "Schmitt",
+            "affiliation": {
+                "@id": "https://ror.org/0234wmv40",
+                "url": "http://www.en.uni-bayreuth.de/home/index.html",
+                "name": "University of Bayreuth",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0234wmv40"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "Jakob.Bogenreuther@uni-bayreuth.de",
+            "givenName": "Jakob",
+            "familyName": "Bogenreuther",
+            "affiliation": {
+                "@id": "https://ror.org/0234wmv40",
+                "url": "http://www.en.uni-bayreuth.de/home/index.html",
+                "name": "University of Bayreuth",
+                "@type": "Organization",
+                "identifier": "https://ror.org/0234wmv40"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "no",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "Agricultural land use",
+        "ecosystem services",
+        "human-environment systems",
+        "Policy modeling",
+        "teaching"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/b67c5833-96fb-4c11-a37b-9034b7d58236/releases/1.0.0/",
+    "dateCreated": "2023-01-11",
+    "description": "In the \u201cWorld of Cows\u201d, dairy farmers run their farms and interact with each other, the surrounding agricultural landscape, and the economic and political framework. The model serves as an exemplary case of an interdependent human-environment system.\n\nWith the model, users can analyze the influence of policies and markets on land use decisions of dairy farms. The land use decisions taken by farms determine the delivered ecosystem services on the landscape level. Users can choose a combination of five policy options and how strongly market prices fluctuate. Ideally, the choice of policy options fulfills the following three \u201cpolitical goals\u201d 1) dairy farming stays economically viable, 2) the provision of ecosystem services is secured, and 3) government spending on subsidies is as low as possible.\n\nThe model has been designed for students to practice agent-based modeling and analyze the impacts of land use policies.",
+    "downloadUrl": "https://www.comses.net/codebases/b67c5833-96fb-4c11-a37b-9034b7d58236/releases/1.0.0/download/",
+    "dateModified": "2023-01-17",
+    "releaseNotes": "Full model version",
+    "copyrightYear": 2023,
+    "datePublished": "2023-01-11",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Haensel M., Schmitt T. M. & Bogenreuther J (2023) Teaching the Modeling of Human\u2013Environment Systems: Acknowledging Complexity with an Agent-Based Model. Journal of Science Education and Technology  (DOI: https://doi.org/10.1007/s10956-022-10022-z)\n\n(Supplementary information contains a full ODD+D protocol)"
+}

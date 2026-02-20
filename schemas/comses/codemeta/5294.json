@@ -1,0 +1,52 @@
+{
+    "@id": "https://www.comses.net/codebases/5294/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5294/releases/1.0.0/",
+    "name": "HomininSpace",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1857/",
+            "@type": "Person",
+            "email": "f.scherjon@arch.leidenuniv.nl",
+            "givenName": "Fulco",
+            "familyName": "Scherjon"
+        },
+        {
+            "@id": "https://www.comses.net/users/1857/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5294/releases/1.0.0/",
+    "dateCreated": "2016-11-25",
+    "description": "The purpose of the model underlying the HomininSpace simulation system is to simulate hominin population dynamics in a realistic landscape under varying environmental conditions representative of those encountered in the past for the simulation period. Simulation results are used to explore how different parameters influence dispersal characteristics of the population. Individual groups are steered through the landscape following available energy in the form of edible ungulates. The model validity is assessed by comparing simulated population distributions through time versus archaeological presence and absence data for given points in space and time (dated archaeological sites). A better match indicates a \u2018better\u2019 model, one that is more likely to represent hominin behavior in the past. The results can be used to evaluate the effect of different parameters and to find optimal parameter configurations. The implemented tool is an extension of the repertoire for researchers interested in past complex societies and is intended to be used in an exploratory manner. The model is implemented in Repast Simphony 2.2 and code is written in the Java module.",
+    "downloadUrl": "https://www.comses.net/codebases/5294/releases/1.0.0/download/",
+    "dateModified": "2020-10-06",
+    "releaseNotes": "This is the initial release, version 1 of the modelling system. ",
+    "copyrightYear": 2020,
+    "datePublished": "2020-10-06",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Repast"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

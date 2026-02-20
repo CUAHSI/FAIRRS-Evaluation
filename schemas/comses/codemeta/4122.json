@@ -1,0 +1,63 @@
+{
+    "@id": "https://www.comses.net/codebases/4122/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/4122/releases/1.1.0/",
+    "name": "In-group favoritism due to friend selection strategies based on fixed tag and within-group reputation",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1181/",
+            "@type": "Person",
+            "email": "nakai@shibaura-it.ac.jp",
+            "givenName": "Yutaka",
+            "familyName": "Nakai",
+            "affiliation": {
+                "@id": "https://ror.org/020wjcq07",
+                "url": "http://global.shibaura-it.ac.jp/en/",
+                "name": "Shibaura Institute of Technology",
+                "@type": "Organization",
+                "identifier": "https://ror.org/020wjcq07"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1181/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "friend selection strategy",
+        "in-group favoritism",
+        "reputation",
+        "tag"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4122/releases/1.1.0/",
+    "dateCreated": "2014-03-28",
+    "description": "The explanations are as follows. 1.Each agent has a fixed tag (blue or red). He/she cannot change it through a simulation. A group is a collective of agent with the same tag. 2.Each agent has a friend list. It means who is his/her friend and enemy before playing the giving game. 3.Each agent has a strategy. He/she can change it through a simulation. 4.Suppose that agent i encounters j. A strategy is composed of two parts. One corresponds to the case that i belongs to the same group as j and the other does to the case that i belongs to a different group. Each part will be either of the following C, T, I, or D sub-strategy. C regards another agent as a friend regardless of another\u2019s good or bad reputation. T regards another agent as a friend if another\u2019s reputation is good and as an enemy if bad. I regards another agent as a friend if another\u2019s reputation is bad and as an enemy if good. D regards another agent as an enemy, regardless of his/her good or bad reputation. 5.Each generation consists of five phases: reputation, perception, action, selection and mutation. 6.In the reputation phase, group members evaluate how cooperative an agent was toward them (reputation), and share it among group members. Agent j\u2019s reputation for agent i is assumed to be j\u2019s reputation in group I where i belongs to. 7.In the perception phase, each agent updates his/her friend list using his/her strategy.  8.In the action phase, each agent encounters other agents at random and plays a giving game. In the game, agent i cooperates with agent j if j is i\u2019s friend and not if j is i\u2019s enemy. If i cooperates with j, i pays a cost c and j receives a benefit b (b > c). If i does not cooperate with j, both receive and pay nothing. 9.In the selection phase, agents with lower payoffs abandon their strategies and imitate the strategy of the agent with the highest payoff. 10.In the mutation phase, some agents are assigned at random to abandon their strategies and adopt randomly selected strategies.",
+    "downloadUrl": "https://www.comses.net/codebases/4122/releases/1.1.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "",
+    "copyrightYear": 2014,
+    "datePublished": "2014-03-28",
+    "operatingSystem": "windows",
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "C++",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "\"Rationality and Society\" (in press)\r\nhttp://rss.sagepub.com/"
+}

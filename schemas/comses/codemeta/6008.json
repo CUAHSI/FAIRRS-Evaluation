@@ -1,0 +1,63 @@
+{
+    "@id": "https://www.comses.net/codebases/6008/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/6008/releases/1.0.0/",
+    "name": "Cluster Analysis",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/1935/",
+            "@type": "Person",
+            "email": "lgspang@outlook.com",
+            "givenName": "Lars",
+            "familyName": "Sp\u00e5ng",
+            "affiliation": {
+                "@id": "https://ror.org/05kb8h459",
+                "url": "http://www.umu.se/english",
+                "name": "Ume\u00e5 University",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05kb8h459"
+            }
+        },
+        {
+            "@id": "https://www.comses.net/users/1935/",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "spatial analysis"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/6008/releases/1.0.0/",
+    "dateCreated": "2018-01-14",
+    "description": "The analysis is highly interactive and does not claim to be statistically relevant. The model can be used to see where points are concentrated. The analysis summarizes points within two distances based on each patch. The result creates an image similar to elevation curves.",
+    "downloadUrl": "https://www.comses.net/codebases/6008/releases/1.0.0/download/",
+    "dateModified": "2018-02-16",
+    "releaseNotes": "Version 2. Several new functions has been added and the analysis now calculate two distances",
+    "copyrightYear": 2018,
+    "datePublished": "2018-01-14",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Logo",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "A previous version has been published here by the same author."
+}

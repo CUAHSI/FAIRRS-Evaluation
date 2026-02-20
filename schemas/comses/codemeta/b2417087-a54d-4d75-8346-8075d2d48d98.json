@@ -1,0 +1,106 @@
+{
+    "@id": "https://www.comses.net/codebases/b2417087-a54d-4d75-8346-8075d2d48d98/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/b2417087-a54d-4d75-8346-8075d2d48d98/releases/1.0.0/",
+    "name": "PowerGen-ABM",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2047/",
+            "@type": "Person",
+            "email": "al_irsyad21@yahoo.com",
+            "givenName": "Muhammad Indra",
+            "familyName": "Al Irsyad",
+            "affiliation": {
+                "@id": "https://ror.org/00rqy9422",
+                "url": "http://www.uq.edu.au/",
+                "name": "University of Queensland",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00rqy9422"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "a.halog@uq.edu.au",
+            "givenName": "Anthony",
+            "familyName": "Halog",
+            "affiliation": {
+                "@id": "https://ror.org/00rqy9422",
+                "url": "http://www.uq.edu.au/",
+                "name": "University of Queensland",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00rqy9422"
+            }
+        },
+        {
+            "@id": "_:author_3",
+            "@type": "Person",
+            "email": "rabindra.nepal@utas.edu.au",
+            "givenName": "Rabindra",
+            "familyName": "Nepal",
+            "affiliation": {
+                "@id": "https://ror.org/01nfmeh72",
+                "url": "https://www.utas.edu.au",
+                "name": "University of Tasmania",
+                "@type": "Organization",
+                "identifier": "https://ror.org/01nfmeh72"
+            }
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "email": "deddypri@sbm-itb.ac.id",
+            "givenName": "Deddy",
+            "familyName": "Koesrindartoto",
+            "affiliation": {
+                "@id": "https://ror.org/00apj8t60",
+                "url": "http://www.itb.ac.id/en/",
+                "name": "Bandung Institute of Technology",
+                "@type": "Organization",
+                "identifier": "https://ror.org/00apj8t60"
+            }
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/MIT",
+        "name": "MIT",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "developing countries",
+        "Indonesia",
+        "input output analysis",
+        "linear programming",
+        "NetLogo",
+        "optimization algorithms",
+        "power plant",
+        "renewable energy"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/b2417087-a54d-4d75-8346-8075d2d48d98/releases/1.0.0/",
+    "dateCreated": "2019-08-04",
+    "description": "PowerGen-ABM is an optimisation model for power plant expansions from 2010 to 2025 with Indonesian electricity systems as the case study. PowerGen-ABM integrates three approaches: techno-economic analysis (TEA), linear programming (LP), and input-output analysis (IOA) and environmental analysis. TEA is based on the revenue requirement (RR) formula by UCDavis (2016), and the environmental analysis accounts for resource consumption (i.e., steel, concrete, aluminium, and energy) and carbon dioxide equivalent (CO2e) emissions during the construction and operational stages of power plants. ",
+    "downloadUrl": "https://www.comses.net/codebases/b2417087-a54d-4d75-8346-8075d2d48d98/releases/1.0.0/download/",
+    "dateModified": "2019-08-04",
+    "releaseNotes": "PowerGen-ABM has eight main sub models. PowerGen-ABM begins by resetting values from previous simulations and sets values of initial parameters, which are counters, TEA variables, optimisation variables, elasticities of electricity demands, construction cost distributions which are assumed linear, caloric values of various energy, assumptions of cost growths, and policy interventions to electricity demands and production (Sub model Load). After this, PowerGen-ABM opens data of energy prices, OM costs, cost growths, and technical specifications in CSV files and then creates technology entities and stores technology data to the entities (Sub model Technology Data). PowerGen-ABM then opens sectoral electricity demand data in CSV files, creates region entities and stores demand data to the entities (Sub model Demand Data). It opens power plant data in CSV file and to create power plant entities based on the data (Sub model Power Plant Data). Lastly, the program opens renewable energy potential in Geographic Information System (GIS) file and stores data in Regions\u2019 variables (Sub model GIS Data). \nOnce all data is opened and transferred to related entities, the next process is a yearly schedule for optimal dispatch and expansion of power plants. Two generated CSV files contain simulation results in national and regional levels with filenames \u2018cek-NationalResults.csv\u2019 and \u2018cek-RegionalResults.csv\u2019 respectively. A header template for these CSV files is provided in \u2018Report Header Template.xlsx\u2019 file. ",
+    "copyrightYear": 2019,
+    "datePublished": "2019-08-04",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

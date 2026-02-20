@@ -1,0 +1,52 @@
+{
+    "@id": "https://www.comses.net/codebases/30b41925-c56d-4428-b812-4351563cddcf/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/30b41925-c56d-4428-b812-4351563cddcf/releases/1.0.0/",
+    "name": "The Coevolution of the Firm and the Product Attribute Space",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-5395-5324",
+            "@type": "Person",
+            "email": "c.e.garcia.diaz@gmail.com",
+            "givenName": "C\u00e9sar",
+            "familyName": "Garc\u00eda-D\u00edaz",
+            "affiliation": {
+                "url": "http://www.javeriana.edu.co",
+                "name": "School of Economics and Business, Pontificia Universidad Javeriana (Colombia)",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/30b41925-c56d-4428-b812-4351563cddcf/releases/1.0.0/",
+    "dateCreated": "2020-05-21",
+    "description": "This model inspects the performance of firms as the product attribute space changes, which evolves as a consequence of firms' actions. Firms may create new product variants by dragging demand from other existing variants. Firms decide whether to open new product variants, to invade existing ones, or to keep their variant portfolio. At each variant there is a Cournot competition each round. Competition is nested since many firms compete at many variants simultaneously, affecting firm composition at each location (variant).\n\nAfter the Cournot outcomes, at each round firms decide whether to (i) keep their existing product variant niche, (ii) invade an existing variant, (iii) create a new variant, or (iv) abandon a variant. Firms\u2019 profits across their niche take into consideration the niche-width cost and the cost of opening a new variant.",
+    "downloadUrl": "https://www.comses.net/codebases/30b41925-c56d-4428-b812-4351563cddcf/releases/1.0.0/download/",
+    "dateModified": "2020-05-22",
+    "releaseNotes": "Companion model of the project \"The Coevolution of the Firm and the Product Attribute Space\"",
+    "copyrightYear": 2020,
+    "datePublished": "2020-05-22",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "NetLogo"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

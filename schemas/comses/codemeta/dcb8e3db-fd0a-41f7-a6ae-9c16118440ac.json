@@ -1,0 +1,58 @@
+{
+    "@id": "https://www.comses.net/codebases/dcb8e3db-fd0a-41f7-a6ae-9c16118440ac/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/dcb8e3db-fd0a-41f7-a6ae-9c16118440ac/releases/1.0.0/",
+    "name": "Style_Net_01",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-4419-3903",
+            "@type": "Person",
+            "email": "andy.white.zpm@gmail.com",
+            "givenName": "Andrew",
+            "familyName": "White",
+            "affiliation": {
+                "url": "https://www.isas.illinois.edu/",
+                "name": "Illinois State Archaeological Survey",
+                "@type": "Organization"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+        "name": "CC-BY-NC-SA-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "archaeology",
+        "hunter-gatherer",
+        "lithic technology",
+        "lithic transport"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/dcb8e3db-fd0a-41f7-a6ae-9c16118440ac/releases/1.0.0/",
+    "dateCreated": "2021-08-03",
+    "description": "Style_Net_01 is a spatial agent-based model designed to serve as a platform for exploring geographic patterns of tool transport and discard among seasonally mobile hunter-gatherer populations. The model has four main levels: artifact, person, group, and system. Persons make, use, and discard artifacts.  Persons travel in groups within the geographic space of the model. The movements of groups represent a seasonal pattern of aggregation and dispersal, with all groups coalescing at an aggregation site during one point of the yearly cycle. The scale of group mobility is controlled by a parameter. The creation, use, and discard of artifacts is controlled by several parameters that specify how many tools each person carries in a personal inventory, how many times each tool can be used before it is discarded, and the frequency of tool usage. A lithic source (representing a geographically-specific, recognizable source of stone for tools) can be placed anywhere in the geographic space of the model.  ",
+    "downloadUrl": "https://www.comses.net/codebases/dcb8e3db-fd0a-41f7-a6ae-9c16118440ac/releases/1.0.0/download/",
+    "dateModified": "2021-08-03",
+    "releaseNotes": "This is the first release of this model. It is presented here as part of a publication submission.",
+    "copyrightYear": 2021,
+    "datePublished": "2021-08-03",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "Repast"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

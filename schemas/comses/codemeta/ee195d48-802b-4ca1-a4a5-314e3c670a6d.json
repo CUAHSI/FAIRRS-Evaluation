@@ -1,0 +1,66 @@
+{
+    "@id": "https://www.comses.net/codebases/ee195d48-802b-4ca1-a4a5-314e3c670a6d/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/ee195d48-802b-4ca1-a4a5-314e3c670a6d/releases/1.1.0/",
+    "name": "An Agent-Based Simulation of Continuous-Time Public Goods Games",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0002-2540-8825",
+            "@type": "Person",
+            "email": "t.vu@sheffield.ac.uk",
+            "givenName": "Tuong Manh",
+            "familyName": "Vu",
+            "affiliation": {
+                "@id": "https://ror.org/05krs5044",
+                "url": "http://www.sheffield.ac.uk/",
+                "name": "University of Sheffield",
+                "@type": "Organization",
+                "identifier": "https://ror.org/05krs5044"
+            }
+        }
+    ],
+    "license": {
+        "url": "http://www.gnu.org/licenses/gpl-3.0.html",
+        "name": "GPL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "agent-based computational economics",
+        "agent based model",
+        "agent based model",
+        "agent based modeling and simulation",
+        "behavioral economic",
+        "behavioral economic",
+        "Platform independent",
+        "public good",
+        "public good game",
+        "public good game"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/ee195d48-802b-4ca1-a4a5-314e3c670a6d/releases/1.1.0/",
+    "dateCreated": "2018-05-16",
+    "description": "To our knowledge, this is the first agent-based simulation of continuous-time PGGs (where participants can change contributions at any time) which are much harder to realise within both laboratory and simulation environments.\n\nWork related to this simulation has been published in the following journal article:\nVu, Tuong Manh, Wagner, Christian and Siebers, Peer-Olaf (2019) 'ABOOMS: Overcoming the Hurdles of Continuous-Time Public Goods Games with a Simulation-Based Approach' Journal of Artificial Societies and Social Simulation 22 (2) 7 <http://jasss.soc.surrey.ac.uk/22/2/7.html>. doi: 10.18564/jasss.3995\n\nAbstract:\nPublic Goods Games (PGGs) are a standard experimental economic approach to studying cooperative behaviour. There are two types of games: discrete-time and continuous-time PGGs. While discrete-time PGGs (one-shot decisions about contributions to public goods) can be easily done as lab experiments, continuous-time PGGs (where participants can change contributions at any time) are much harder to realise within a lab environment. This is mainly because it is difficult to consider events happening in continuous time in lab experiments. Simulation offers an opportunity to support real-world lab experiments and is well suited to explore continuous-time PGGs. In this paper, we show how to apply our recently developed ABOOMS (Agent-Based Object-Oriented Modelling and Simulation) development framework to create models for simulation-supported continuous-time PGG studies. The ABOOMS framework utilizes Software Engineering techniques to support the development at the macro level (considering the overall study lifecycle) and at the micro level (considering individual steps related to simulation model development). Our case study shows that outputs from the simulation-supported continuous-time PGG generate dynamics that do not exist in discrete-time setting, highlighting the fact that it is important to study both, discrete and continuous-time PGGs.",
+    "downloadUrl": "https://www.comses.net/codebases/ee195d48-802b-4ca1-a4a5-314e3c670a6d/releases/1.1.0/download/",
+    "dateModified": "2019-04-02",
+    "releaseNotes": "This version is used to produce results for the following journal article:\nVu, Tuong Manh, Wagner, Christian and Siebers, Peer-Olaf (2019) 'ABOOMS: Overcoming the Hurdles of Continuous-Time Public Goods Games with a Simulation-Based Approach' Journal of Artificial Societies and Social Simulation 22 (2) 7 <http://jasss.soc.surrey.ac.uk/22/2/7.html>. doi: 10.18564/jasss.3995\n",
+    "copyrightYear": 2019,
+    "datePublished": "2019-04-02",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "AnyLogic"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

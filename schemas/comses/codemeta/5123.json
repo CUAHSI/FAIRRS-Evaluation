@@ -1,0 +1,60 @@
+{
+    "@id": "https://www.comses.net/codebases/5123/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/5123/releases/1.0.0/",
+    "name": "Group assortment with preference rankings",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-8357-0276",
+            "@type": "Person",
+            "email": "fredrik.jansson@intercult.su.se",
+            "givenName": "Fredrik",
+            "familyName": "Jansson",
+            "affiliation": {
+                "url": "http://www.intercult.su.se",
+                "name": "Centre for the Study of Cultural Evolution",
+                "@type": "Organization"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-8357-0276",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "in-group favoritism",
+        "segregation",
+        "social preferences"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/5123/releases/1.0.0/",
+    "dateCreated": "2016-07-14",
+    "description": "The model uses agents' preference rankings w.r.t. ethnic group composition (or any group of agents) w.r.t. proportion of minority group employees, and allocates agents to companies accordingly. The output is the number of employees and the number of minority group members at each company, and corresponding dissimilarity coefficient. Companies can have limited capacity, as an optional parameter.",
+    "downloadUrl": "https://www.comses.net/codebases/5123/releases/1.0.0/download/",
+    "dateModified": "2018-04-09",
+    "releaseNotes": "",
+    "copyrightYear": 2018,
+    "datePublished": "2018-04-09",
+    "operatingSystem": "platform_independent",
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "The Role of Employees for Ethno-Racial Workplace Segregation, Working paper"
+}

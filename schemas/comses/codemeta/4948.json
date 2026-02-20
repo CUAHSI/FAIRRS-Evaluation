@@ -1,0 +1,72 @@
+{
+    "@id": "https://www.comses.net/codebases/4948/releases/1.2.0/",
+    "url": "https://www.comses.net/codebases/4948/releases/1.2.0/",
+    "name": "Endogenous dynamics of firms made up by networked agents: an exploratory analysis",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "givenName": "Bernardo",
+            "familyName": "Furtado"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "givenName": "Isaque Daniel",
+            "familyName": "Eberhardt"
+        },
+        {
+            "@id": "_:author_1",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "https://opensource.org/licenses/AFL-3.0",
+        "name": "AFL-3.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.2.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "citation": [
+        {
+            "text": "AXTELL, R. Endogenous firms and their dynamics. Fairfax; Santa Fe: George Mason University; Santa Fe Institute, 2013. Available at http://goo.gl/bKx2jK",
+            "@type": "CreativeWork"
+        }
+    ],
+    "keywords": [
+        "economics",
+        "endogenous firms",
+        "Python",
+        "robert axtell"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/4948/releases/1.2.0/",
+    "dateCreated": "2016-10-05",
+    "description": "The firm is the institutional means that employees use to work together and achieve economies of scale whereas applying the same level of effort. This work investigates the dynamic process of aggregation of individuals in firms, reflecting the dynamics of the firms themselves. A network-based agent-model is adapted from Axtell (2013) and simulated for the case of Belo Horizonte and neighboring municipalities, with two network alternatives. The results are able to replicate empirical aggregate data. They also show a higher intrinsic volatility in the model which the contact network is restricted to by municipality.",
+    "downloadUrl": "https://www.comses.net/codebases/4948/releases/1.2.0/download/",
+    "dateModified": "2018-02-20",
+    "releaseNotes": "This is version 2. Version 1 was a replication of Axtell's model.\r\nThis version includes an extension that let the modeler choose between a full networked system as a restricted network in which agents only connect to those at the same municipality.",
+    "copyrightYear": 2016,
+    "datePublished": "2016-10-05",
+    "operatingSystem": "windows",
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "http://hdl.handle.net/11058/6878"
+}

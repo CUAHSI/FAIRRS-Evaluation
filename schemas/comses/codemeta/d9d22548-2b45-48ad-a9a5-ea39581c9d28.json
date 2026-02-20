@@ -1,0 +1,163 @@
+{
+    "@id": "https://www.comses.net/codebases/d9d22548-2b45-48ad-a9a5-ea39581c9d28/releases/1.1.0/",
+    "url": "https://www.comses.net/codebases/d9d22548-2b45-48ad-a9a5-ea39581c9d28/releases/1.1.0/",
+    "name": "AMIRIS",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "_:author_1",
+            "@type": "Person",
+            "email": "kristina.nienhaus@dlr.de",
+            "givenName": "Kristina",
+            "familyName": "Nienhaus",
+            "affiliation": {
+                "@id": "https://ror.org/04bwf3e34",
+                "url": "http://www.dlr.de/dlr/en/desktopdefault.aspx/tabid-10002/",
+                "name": "German Aerospace Center",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04bwf3e34"
+            }
+        },
+        {
+            "@id": "_:author_2",
+            "@type": "Person",
+            "email": "christoph.schimeczek@dlr.de",
+            "givenName": "Christoph",
+            "familyName": "Schimeczek",
+            "affiliation": {
+                "@id": "https://ror.org/04bwf3e34",
+                "url": "http://www.dlr.de/dlr/en/desktopdefault.aspx/tabid-10002/",
+                "name": "German Aerospace Center",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04bwf3e34"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0002-9803-1336",
+            "@type": "Person",
+            "email": "amiris@dlr.de",
+            "givenName": "Ulrich",
+            "familyName": "Frey"
+        },
+        {
+            "@id": "_:author_4",
+            "@type": "Person",
+            "email": "evelyn.sperber@dlr.de",
+            "givenName": "Evelyn",
+            "familyName": "Sperber",
+            "affiliation": {
+                "@id": "https://ror.org/04bwf3e34",
+                "url": "http://www.dlr.de/dlr/en/desktopdefault.aspx/tabid-10002/",
+                "name": "German Aerospace Center",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04bwf3e34"
+            }
+        },
+        {
+            "@id": "_:author_5",
+            "@type": "Person",
+            "email": "Seyedfarzad.Sarfarazi@dlr.de",
+            "givenName": "Seyedfarzad",
+            "familyName": "Sarfarazi",
+            "affiliation": {
+                "@id": "https://ror.org/04bwf3e34",
+                "url": "http://www.dlr.de/dlr/en/desktopdefault.aspx/tabid-10002/",
+                "name": "German Aerospace Center",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04bwf3e34"
+            }
+        },
+        {
+            "@id": "_:author_6",
+            "@type": "Person",
+            "email": "felix.nitsch@dlr.de",
+            "givenName": "Felix",
+            "familyName": "Nitsch",
+            "affiliation": {
+                "@id": "https://ror.org/04bwf3e34",
+                "url": "http://www.dlr.de/dlr/en/desktopdefault.aspx/tabid-10002/",
+                "name": "German Aerospace Center",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04bwf3e34"
+            }
+        },
+        {
+            "@id": "_:author_7",
+            "@type": "Person",
+            "email": "johannes.kochems@dlr.de",
+            "givenName": "Johannes",
+            "familyName": "Kochems",
+            "affiliation": {
+                "@id": "https://ror.org/04bwf3e34",
+                "url": "http://www.dlr.de/dlr/en/desktopdefault.aspx/tabid-10002/",
+                "name": "German Aerospace Center",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04bwf3e34"
+            }
+        },
+        {
+            "@id": "_:author_8",
+            "@type": "Person",
+            "email": "aboubakr.elghazi@dlr.de",
+            "givenName": "Aboubakr",
+            "familyName": "El Ghazi",
+            "affiliation": {
+                "@id": "https://ror.org/04bwf3e34",
+                "url": "http://www.dlr.de/dlr/en/desktopdefault.aspx/tabid-10002/",
+                "name": "German Aerospace Center",
+                "@type": "Organization",
+                "identifier": "https://ror.org/04bwf3e34"
+            }
+        },
+        {
+            "@id": "_:author_1",
+            "@type": "Role",
+            "roleName": "pointOfContact"
+        }
+    ],
+    "license": {
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.html",
+        "name": "Apache-2.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.1.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "electricity market",
+        "electric power markets",
+        "Energy systems",
+        "renewable and nonrenewable resources",
+        "renewable energy"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/d9d22548-2b45-48ad-a9a5-ea39581c9d28/releases/1.1.0/",
+    "dateCreated": "2022-02-03",
+    "description": "AMIRIS is the Agent-based Market model for the Investigation of Renewable and Integrated energy Systems.\n\nIt is an agent-based simulation of electricity markets and their actors.\nAMIRIS enables researches to analyse and evaluate energy policy instruments and their impact on the actors involved in the simulation context.\nDifferent prototypical agents on the electricity market interact with each other, each employing complex decision strategies.\nAMIRIS allows to calculate the impact of policy instruments on economic performance of power plant operators and marketers.\nIt is based on (FAME), the open Framework for distributed Agent-based Modelling of Energy systems.",
+    "downloadUrl": "https://www.comses.net/codebases/d9d22548-2b45-48ad-a9a5-ea39581c9d28/releases/1.1.0/download/",
+    "dateModified": "2022-02-03",
+    "releaseNotes": "First full open source publication with testing and demo example.\nPlease note that the best way to start is at the GITLAB repository:\nhttps://gitlab.com/dlr-ve/esy/amiris/amiris\nHere you can find the complete Wiki, further help and instructions on how to get started.\n",
+    "copyrightYear": 2022,
+    "datePublished": "2022-02-03",
+    "codeRepository": "https://gitlab.com/dlr-ve/esy/amiris/",
+    "operatingSystem": "platform_independent",
+    "runtimePlatform": [
+        "#FAME (https://gitlab.com/fame-framework/)"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "Java",
+            "@type": "ComputerLanguage"
+        },
+        {
+            "name": "Python",
+            "@type": "ComputerLanguage"
+        }
+    ],
+    "referencePublication": "Nitsch, F and Deissenroth-Uhrig, M and Schimeczek, C and Bertsch, V (2021) Economic evaluation of battery storage systems bidding on day-ahead and automatic frequency restoration reserves markets. Applied Energy (298). Elsevier. doi: 10.1016/j.apenergy.2021.117267.\n\nTorralba-D\u00edaz, L and Schimeczek, C and Reeg, M and Savvidis, G and Deissenroth-Uhrig, M and Guthoff, F and Fleischer, B and Hufendiek, K (2020) Identification of the Efficiency Gap by Coupling a Fundamental Electricity Market Model and an Agent-Based Simulation Model. Energies. Multidisciplinary Digital Publishing Institute (MDPI). doi: 10.3390/en13153920.\n\nFrey, U and Klein, M and Nienhaus, K and Schimeczek, C (2020) Self-Reinforcing Electricity Price Dynamics under the Variable Market Premium Scheme. Energies. Multidisciplinary Digital Publishing Institute (MDPI). doi: 10.3390/en13205350.\n\nDeissenroth, M and Klein, M and Nienhaus, K and Reeg, M (2017) Assessing the Plurality of Actors and Policy Interactions: Agent-Based Modelling of Renewable Energy Market Integration. Complex., 2017, 7494313:1-7494313:24, doi: 10.1155/2017/7494313."
+}

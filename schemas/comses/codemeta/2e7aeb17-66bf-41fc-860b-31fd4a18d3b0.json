@@ -1,0 +1,51 @@
+{
+    "@id": "https://www.comses.net/codebases/2e7aeb17-66bf-41fc-860b-31fd4a18d3b0/releases/1.0.0/",
+    "url": "https://www.comses.net/codebases/2e7aeb17-66bf-41fc-860b-31fd4a18d3b0/releases/1.0.0/",
+    "name": "Direct versus Connect",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://orcid.org/0000-0001-7173-5272",
+            "@type": "Person",
+            "email": "kimbrough@wharton.upenn.edu",
+            "givenName": "Steven",
+            "familyName": "Kimbrough"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by-nc/4.0",
+        "name": "CC-BY-NC-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.0",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "transportation",
+        "urban transit"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/2e7aeb17-66bf-41fc-860b-31fd4a18d3b0/releases/1.0.0/",
+    "dateCreated": "2023-01-15",
+    "description": "This NetLogo model is an implementation of the mostly verbal (and graphic) model in Jarret Walker's *Human Transit: How Clearer Thinking about Public Transit Can Enrich Our Communities and Our Lives* (2011). Walker's discussion is in the chapter \"Connections or Complexity?\". See especially figure 12-2, which is on page 151.\n\nIn \"Connections or Complexity?\", Walker frames the matter as involving a choice between two conflicting goals. The first goal is to minimize connections, the need to make transfers, in a transit system. People naturally prefer direct routes.  The second goal is to minimize complexity. Why? Well, read the chapter, but as a general proposition we want to avoid unnecessary complexity with its attendant operating characteristics (confusing route plans in the case of transit) and management and maintenance challenges. With complexity general comes degraded robustness and resilience.\n\nHow do we, how can we, choose between these conflicting goals? The grand suggestion here is that we only choose indirectly, implicitly. In the present example of connections versus complexity we model various alternatives and compare them on measures of performance (MoP) *other than complexity or connections per se*. The suggestion is that connections and complexity are indicators of, heuristics for, other MoPs that are more fundamental, such as cost, robustness, energy use, etc., and it is these that we at bottom care most about. (Alternatively, and not inconsistently, we can view connections and complexity as two of many MoPs, with the larger issue to be resolve in light of many MoPs, including but not limited to complexity and connections.) We employ modeling to get a handle on these MoPs. Typically, there will be several, taking us thus to a multiple criteria decision making (MCDM) situation. That's the big picture.",
+    "downloadUrl": "https://www.comses.net/codebases/2e7aeb17-66bf-41fc-860b-31fd4a18d3b0/releases/1.0.0/download/",
+    "dateModified": "2023-01-15",
+    "releaseNotes": "This is a simple NetLogo model, with dependencies. You bring it up in NetLogo, the press the setup and go buttons.",
+    "copyrightYear": 2023,
+    "datePublished": "2023-01-15",
+    "operatingSystem": "macos",
+    "runtimePlatform": [
+        "NetLogo 6.3.0"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "NetLogo 6.3.0",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}

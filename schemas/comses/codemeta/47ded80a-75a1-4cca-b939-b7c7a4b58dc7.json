@@ -1,0 +1,56 @@
+{
+    "@id": "https://www.comses.net/codebases/47ded80a-75a1-4cca-b939-b7c7a4b58dc7/releases/1.0.1/",
+    "url": "https://www.comses.net/codebases/47ded80a-75a1-4cca-b939-b7c7a4b58dc7/releases/1.0.1/",
+    "name": "Samambaia Basin - Hydro-ABM",
+    "@type": "SoftwareSourceCode",
+    "author": [
+        {
+            "@id": "https://www.comses.net/users/2484/",
+            "@type": "Person",
+            "email": "new.petter91@gmail.com",
+            "givenName": "Pedro Phelipe",
+            "familyName": "Gon\u00e7alves Porto"
+        }
+    ],
+    "license": {
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "name": "CC-BY-4.0",
+        "@type": "CreativeWork"
+    },
+    "version": "1.0.1",
+    "@context": "https://w3id.org/codemeta/3.0",
+    "keywords": [
+        "Climate Change",
+        "food security",
+        "GAMA",
+        "GAMA",
+        "irrigation",
+        "water management",
+        "water scarcity"
+    ],
+    "publisher": {
+        "@id": "https://ror.org/015bsfc29",
+        "url": "https://www.comses.net",
+        "name": "CoMSES Net",
+        "@type": "Organization"
+    },
+    "identifier": "https://www.comses.net/codebases/47ded80a-75a1-4cca-b939-b7c7a4b58dc7/releases/1.0.1/",
+    "dateCreated": "2019-03-21",
+    "description": "This model is a tool to support water management on Samambaia Basin. On it you can explore different scenarios of policy, management and externalities that could influence the water uses. (Scenarios already tested include less rain and payment on water use)",
+    "downloadUrl": "https://www.comses.net/codebases/47ded80a-75a1-4cca-b939-b7c7a4b58dc7/releases/1.0.1/download/",
+    "dateModified": "2019-06-16",
+    "releaseNotes": "There are some results available. The results were of the following scenarios: Scenario 1 no changes; Scenario 2 30% less rain and water available; Scenario 3 payment on water usage; Scenario 4 less rain and payment. \n\n\n([**missing files to run the model**](http://osf.io/8kqgp/?view_only=3d260a3c70a54d40a66a7265bcebdf3d))\n\nTo run the model, the directory should be:\n1.    Samambaia Basin - Hydro-ABM\n1. 1.       inclues (with data from the link above)\n1. 2.       models (with data download here)\n1. 3. \t\t\tresults (the link above has some results from previous runnings) \n\nGAMA version used: [GAMA continous build](http://github.com/gama-platform/gama/releases/tag/continuous)",
+    "copyrightYear": 2019,
+    "datePublished": "2019-05-06",
+    "operatingSystem": "windows",
+    "runtimePlatform": [
+        "GAMA"
+    ],
+    "applicationCategory": "Computational Model",
+    "programmingLanguage": [
+        {
+            "name": "GAMA",
+            "@type": "ComputerLanguage"
+        }
+    ]
+}
