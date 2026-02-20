@@ -1,0 +1,119 @@
+{
+  "Mission Cattle": {
+    "indicator_evaluations": {
+      "A1_1": {
+        "result": true,
+        "log": [
+          "https://www.comses.net/codebases/0bb82c18-7f49-4ba8-8d2a-529324305946/releases/1.0.0/download/ in codemeta property 'downloadUrl' is an open link to the software.",
+          "http://www.gnu.org/licenses/gpl-3.0.html in codemeta property 'license' is NOT an open link to the software.",
+          "https://doi.org/10.25937/0yra-k708 in codemeta property 'url' is an open link to the software."
+        ]
+      },
+      "A1_2": {
+        "result": true,
+        "log": [
+          "GPL-3.0 is an approved license."
+        ]
+      },
+      "A2": {
+        "result": false,
+        "log": [
+          "No URLs found in ['identifier', 'url']"
+        ]
+      },
+      "F1_1": {
+        "result": true,
+        "log": [
+          "https://doi.org/10.25937/0yra-k708 in codemeta property 'identifier' is is a distinct identifier.",
+          "https://doi.org/10.25937/0yra-k708 in codemeta property 'url' is is a distinct identifier."
+        ]
+      },
+      "F1_2": {
+        "result": true,
+        "log": [
+          "1.0.0 in codemeta property 'version' represents valid semantic versioning."
+        ]
+      },
+      "F2": {
+        "result": true,
+        "log": [
+          "Codemeta file passed validation through codemeticulous."
+        ]
+      },
+      "F3": {
+        "result": true,
+        "log": [
+          "http://doi.org/10.25937/0yra-k708 in codemeta property 'identifier' is a globally unique and persistent identifier for software.",
+          "http://doi.org/https://doi.org/10.25937/0yra-k708 in codemeta property 'identifier' is a globally unique and persistent identifier for software."
+        ]
+      },
+      "F4": {
+        "result": true,
+        "log": [
+          "10.25937/0yra-k708 does point to DOI in FAIR-aligned repository.",
+          "https://doi.org/10.25937/0yra-k708 does point to DOI in FAIR-aligned repository."
+        ]
+      },
+      "I1": {
+        "result": false,
+        "log": [
+          "<built-in function id> does point to DOI to supporting data in FAIR-aligned repository.",
+          "buildInstructions term not provided."
+        ]
+      },
+      "I2": {
+        "result": true,
+        "log": [
+          "https://doi.org/10.5281/zenodo.17178870 in codemeta property 'supportingData' is a qualified reference."
+        ]
+      },
+      "R1_1": {
+        "result": true,
+        "log": [
+          "GPL-3.0 is an approved license."
+        ]
+      },
+      "R1_2": {
+        "result": false,
+        "log": [
+          "Challenging to evaluate provenance; not evaluated."
+        ]
+      },
+      "R2": {
+        "result": false,
+        "log": [
+          "Missing inputs ['softwareRequirement', 'softwareSuggestions'] for evalR2"
+        ]
+      },
+      "R3": {
+        "result": false,
+        "log": [
+          "Missing inputs ['review'] for evalR3"
+        ]
+      }
+    },
+    "scores": {
+      "F1_1": 0.5,
+      "F1_2": 0.5,
+      "F2": 0.25,
+      "F3": 0.25,
+      "F4": 0.25,
+      "F1": 0.25,
+      "F": 1.0,
+      "A1_1": 0.5,
+      "A1_2": 0.5,
+      "A2": 0.0,
+      "A1": 0.5,
+      "A": 0.5,
+      "I1": 0.0,
+      "I2": 0.5,
+      "I": 0.5,
+      "R1_1": 1,
+      "R1_2": 0,
+      "R2": 0.0,
+      "R3": 0.0,
+      "R1": 0.33,
+      "R": 0.33
+    }
+  }
+}
