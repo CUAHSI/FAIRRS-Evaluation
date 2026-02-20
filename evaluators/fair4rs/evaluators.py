@@ -368,12 +368,15 @@ class BaseEvaluator(Evaluator):
         all_args = {key: value for key, value in locals().items() if key != "self" and value is not None}
 
         if "supportingData" in all_args:
-            # Validate interoperability based on data exchange formats
-            result_interoperability, log = evaluator_utils.validate_data_interoperability(
-                all_args["supportingData"],
-                ACCEPTED_DATA_FORMATS,
-                "Test Data"
-            )
+            try:
+                # Validate interoperability based on data exchange formats
+                result_interoperability, log = evaluator_utils.validate_data_interoperability(
+                    all_args["supportingData"],
+                    ACCEPTED_DATA_FORMATS,
+                    "Test Data"
+                )
+            except:
+                result_interoperability, log = evaluator_utils.check_substring_regex(id,ACCEPTED_FAIR_REPOSITORIES,'point to DOI to supporting data in FAIR-aligned repository')
         else:
             result_interoperability = False
             log = ['supportingData term not provided.']
