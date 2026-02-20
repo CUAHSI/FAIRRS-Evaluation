@@ -80,7 +80,7 @@ def main():
     ensure_dir(OUTPUT_DIR)
     
     current_page = 1
-    MAX_PAGES = 5 
+    MAX_PAGES = 9999 
 
     while current_page <= MAX_PAGES:
         print(f"\n--- Processing Page {current_page} ---")
