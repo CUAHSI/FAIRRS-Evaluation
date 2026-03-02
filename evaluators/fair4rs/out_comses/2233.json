@@ -25,8 +25,8 @@
       "F1_1": {
         "result": true,
         "log": [
-          "https://www.comses.net/codebases/2233/releases/1.0.0/ in codemeta property 'identifier' is is a distinct identifier.",
-          "https://www.comses.net/codebases/2233/releases/1.0.0/ in codemeta property 'url' is is a distinct identifier."
+          "https://www.comses.net/codebases/2233/releases/1.0.0/ in codemeta property 'identifier' is points to a distinct identifier.",
+          "https://www.comses.net/codebases/2233/releases/1.0.0/ in codemeta property 'url' is points to a distinct identifier."
         ]
       },
       "F1_2": {
@@ -44,13 +44,13 @@
       "F3": {
         "result": false,
         "log": [
-          "http://doi.org/https://www.comses.net/codebases/2233/releases/1.0.0/ in codemeta property 'identifier' is NOT a globally unique and persistent identifier for software."
+          "No identifier term found."
         ]
       },
       "F4": {
         "result": true,
         "log": [
-          "https://www.comses.net/codebases/2233/releases/1.0.0/ does point to DOI in FAIR-aligned repository."
+          "https://www.comses.net/codebases/2233/releases/1.0.0/ does point to identifier in FAIR-aligned repository."
         ]
       },
       "I1": {
