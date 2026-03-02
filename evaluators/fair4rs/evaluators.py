@@ -114,7 +114,7 @@ class BaseEvaluator(Evaluator):
                         if value and (urls := codemeta_parser.extract_urls_from_field(value, regex_filter=['https://']))
                         }
         if extracted_urls:
-            result, log = evaluator_utils.validate_and_log_urls(extracted_urls,'is a distinct identifier.')
+            result, log = evaluator_utils.validate_and_log_urls(extracted_urls,'points to a distinct identifier.')
         else: 
             result = False
             log = [f"No URLs found in {list(all_args.keys())}"]
@@ -185,6 +185,8 @@ class BaseEvaluator(Evaluator):
 
         if "identifier" in all_args:
             identifier = all_args["identifier"]
+        #TODO: add publisher for hydroshare
+        if publisher["name"] != "CoMSES Net": 
             if isinstance(identifier, list):
                 identifier = {'identifier':['http://doi.org/' + id for id in identifier]}
             else:
@@ -224,13 +226,13 @@ class BaseEvaluator(Evaluator):
             if isinstance(identifier, list):
                 for id in identifier:
                     # for repo in ACCEPTED_FAIR_REPOSITORIES:
-                    result, log = evaluator_utils.check_substring_regex(id,ACCEPTED_FAIR_REPOSITORIES,'point to DOI in FAIR-aligned repository',log=log)
+                    result, log = evaluator_utils.check_substring_regex(id,ACCEPTED_FAIR_REPOSITORIES,'point to identifier in FAIR-aligned repository',log=log)
                     result_list.append(result)
                 # return True if all True, False if otherwise
                 result = all(result_list)
             else:
                 # for repo in ACCEPTED_FAIR_REPOSITORIES:
-                result, log = evaluator_utils.check_substring_regex(identifier,ACCEPTED_FAIR_REPOSITORIES,'point to DOI in FAIR-aligned repository')
+                result, log = evaluator_utils.check_substring_regex(identifier,ACCEPTED_FAIR_REPOSITORIES,'point to identifier in FAIR-aligned repository')
         else:
             result = False
             log = ['No identifier term found.']     
