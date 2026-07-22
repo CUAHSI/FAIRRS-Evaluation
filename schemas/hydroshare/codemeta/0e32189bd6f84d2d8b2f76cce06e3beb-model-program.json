@@ -1,10 +1,7 @@
 {
     "@context": "https://w3id.org/codemeta/3.0",
-    "@type": "SoftwareSourceCode",
-    "name": "model-program",
-    "codeRepository": "https://github.com/NCAR/summa",
+    "type": "SoftwareSourceCode",
     "applicationCategory": "hydrologic",
-    "softwareVersion": "2.0.0",
     "author": [
         {
             "@type": "Person",
@@ -27,7 +24,17 @@
             "email": "nijssen@uw.edu"
         }
     ],
+    "codeRepository": "https://github.com/NCAR/summa",
+    "dateCreated": "2015-07-15",
+    "dateModified": "2017-05-30",
     "datePublished": "2019-05-23",
+    "description": "SUMMA (Clark et al., 2015a;b;c; 2021) is a hydrologic modeling framework that can be used for the systematic analysis of alternative model conceptualizations with respect to flux parameterizations, spatial configurations, and numerical solution techniques.",
+    "downloadUrl": "https://www.hydroshare.org/resource/0e32189bd6f84d2d8b2f76cce06e3beb/data/contents/model-program/summa-2.0.0_master.zip",
+    "funder": {
+        "type": "Organization",
+        "name": "National Science Foundation"
+    },
+    "identifier": "https://doi.org/10.4211/hs.0e32189bd6f84d2d8b2f76cce06e3beb",
     "keywords": [
         "hydrologic",
         "framework",
@@ -38,10 +45,83 @@
         "url": "http://creativecommons.org/licenses/by/4.0/",
         "name": "This resource is shared under the Creative Commons Attribution CC BY."
     },
-    "identifier": "0e32189bd6f84d2d8b2f76cce06e3beb",
-    "url": "http://www.ral.ucar.edu/projects/summa",
+    "maintainer":{
+        "@type": "Person",
+        "givenName": "Martyn",
+        "familyName": "Clark",
+        "affiliation": {
+            "@type": "Organization",
+            "name": "NCAR"
+        },
+        "email": "mclark@ucar.edu"        
+    },
+    "name": "SUMMA (Structure for Unifying Multiple Modeling Alternatives)",
+    "operatingSystem": [
+        "Linux",
+        "MacOS"
+    ],
+    "programmingLanguage": "Fortran",
+    "publisher": {
+        "@type": "Person",
+        "givenName": "Martyn",
+        "familyName": "Clark",
+        "affiliation": {
+            "@type": "Organization",
+            "name": "NCAR"
+        },
+        "email": "mclark@ucar.edu"        
+    },
+    "relatedLink": [
+        "https://summa.readthedocs.io/",
+        "https://ral.ucar.edu/model/summa"
+    ],
+    "releaseNotes": "Updated with NetCDF I/O and improved numerics",
     "review": {
-        "@type": "Review",
+        "type": "Review",
+        "reviewAspect": "Review of minimum metadata fields for publishing in HydroShare (title, abstract, and keywords) for domain relevance.",
         "reviewBody": "Published at 2019-05-23 23:11:16.297224+00:00"
-    }
+    },
+    "softwareRequirements": [
+        "https://github.com/Unidata/netcdf-c/releases/tag/v4.10.1",
+        "https://anaconda.org/channels/conda-forge/packages/gfortran/overview",
+        "https://www.netlib.org/lapack/",
+        "https://math-atlas.sourceforge.net/"
+    ],
+    "version": "2.0.0",
+    "codemeta:contIntegration": {
+        "id": "https://github.com/CH-Earth/summa"
+    },
+    "continuousIntegration": "https://app.travis-ci.com/NCAR/summa",
+    "developmentStatus": "active",
+    "funding": "OAC-1664061 OAC-1664018 OAC-1664119",
+    "isSourceCodeOf": "https://github.com/CH-Earth/summa",
+    "issueTracker": "https://github.com/CH-Earth/summa/issues",
+    "referencePublication": [
+        "https://doi.org/10.1002/2015WR017198",
+        "https://doi.org/10.1002/2015WR017200"
+    ],
+    "applicationSubCategory": "Process-based hydrologic modeling framework",
+    "buildInstructions": "https://github.com/CH-Earth/summa/blob/v2.0.0/docs/howto/summa_mac_os_x.md",
+    "citation": [
+        "https://doi.org/10.5065/D6WQ01TD",
+        "http://dx.doi.org/10.1175/JHM-D-20-0175.1"
+    ],
+    "copyrightHolder": {
+        "type": "Organization",
+        "name": "NCAR/RAL"
+    },
+    "copyrightYear": 2014,
+    "fileFormat": "application/zip",
+    "isAccessibleForFree": true,
+    "readme": "https://github.com/NCAR/summa/blob/v2.0.0/readme.md",
+    "sameAs": "https://doi.org/10.5281/zenodo.800772",
+    "softwareHelp": "https://summa.readthedocs.io/",
+    "softwareSuggestions": [
+        "https://www.docker.com/",
+        "https://cmake.org/",
+        "https://www.macports.org/"
+    ],
+    "softwareVersion": "2.0.0",
+    "supportingData": "https://www.hydroshare.org/resource/e4df3065264341a48017f6d2f4ad030c/data/contents/summaTestCases_3.0.tar.gz",
+    "url": "https://github.com/NCAR/summa/tree/v2.0.0"
 }
